@@ -1,0 +1,723 @@
+{
+  "mp_name": "Karen Lesley Andrews",
+  "party": "Unknown",
+  "electorate": "McPherson",
+  "disclosures": [
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Andrews",
+      "details": "Andrews and Andrews Consulting Pty Ltd",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Andrews Consulting Pty Ltd",
+      "details": "Andrews and Andrews Consulting Pty Ltd",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Customers Limited",
+      "details": "Customers Limited",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Newcrest Mining Limited",
+      "details": "Newcrest Mining Limited",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Premier Investments Limited",
+      "details": "Premier Investments Limited",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Rivercity Motorway Group",
+      "details": "Rivercity Motorway Group",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Sims Metal Management Limited",
+      "details": "Sims Metal Management Limited",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Suncorp-Metway Limited",
+      "details": "Suncorp-Metway Limited",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Telstra Corporation",
+      "details": "Telstra Corporation",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Talent 2 International Limited",
+      "details": "Talent 2 International Limited",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Transpacific Industries Group Ltd",
+      "details": "Transpacific Industries Group Ltd.",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Colonial Managed Saving Plan",
+      "details": "Colonial Managed Saving Plan",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Macquarie Small Companies Growth Trust",
+      "details": "Macquarie Small Companies Growth Trust",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Vanguard Index Property Securities Fund",
+      "details": "Vanguard Index Property Securities Fund",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "BlackRock Australian Share Fund",
+      "details": "BlackRock Australian Share Fund",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Perpetual WealthFocus Investment Advantage",
+      "details": "Perpetual WealthFocus Investment Advantage (As Trustee for Dependent Children)",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Mudgeeraba, Queensland - Investment",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Palm Beach (1 x Unit), Queensland - Investment",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Ayr, Queensland - Investment",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Deniliquin (3 x Units), New South Wales - Investment",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Forbes (2 x Units), New South Wales - Investment",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Kalgoorlie (1 x Unit), Western Australia - Investment",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Clear Island Waters, Queensland - Residence",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Directorships",
+      "entity": "Andrews and Andrews Consulting Pty Ltd",
+      "details": "Human Resources and Industrial Relations Consulting",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Liabilities",
+      "entity": "Australian and New Zealand Banking Group Limited (ANZ)",
+      "details": "Line of Credit",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Liabilities",
+      "entity": "Australian and New Zealand Banking Group Limited (ANZ)",
+      "details": "Residential Investment Property Loan",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Liabilities",
+      "entity": "Andrews and Andrews Consulting Pty Ltd",
+      "details": "Loan",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Artwork, 2005 Mercedes Viano (Van)",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Income Sources",
+      "entity": "Asgard",
+      "details": "Asgard (Superannuation); AGEST (Superannuation)",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Memberships",
+      "entity": "Qantas Chairman's Lounge",
+      "details": "Qantas Chairman's Lounge",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Memberships",
+      "entity": "Bond University Chancellor's Circle",
+      "details": "Bond University Chancellor's Circle",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Memberships",
+      "entity": "Scouts Australia",
+      "details": "Scouts Australia",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Memberships",
+      "entity": "Tugun Progress Association",
+      "details": "Tugun Progress Association",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "Australian and New Zealand Banking Group Limited (ANZ)",
+      "details": "Savings",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Savings",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Trustee Accounts (for Dependent Children)",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "Australian and New Zealand Banking Group Limited (ANZ)",
+      "details": "Share trading",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "Suncorp Metway",
+      "details": "Share Trading",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Business",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "Macquarie Bank Limited",
+      "details": "Business",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "Australian and New Zealand Banking Group Limited (ANZ)",
+      "details": "Savings (Spouse)",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "Members Equity Credit Union",
+      "details": "Savings (Spouse)",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Business (Spouse)",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "Macquarie Bank Limited",
+      "details": "Business (Spouse)",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Mudgeeraba, Queensland (Spouse) - Investment",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Palm Beach (1 x Unit), Queensland (Spouse) - Investment",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Ayr, Queensland (Spouse) - Investment",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Clear Island Waters, Queensland (Spouse) - Residence",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Liabilities",
+      "entity": "Australian and New Zealand Banking Group Limited (ANZ)",
+      "details": "Line of Credit (Spouse)",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Liabilities",
+      "entity": "Australian and New Zealand Banking Group Limited (ANZ)",
+      "details": "Residential Investment Property Loan (Spouse)",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Liabilities",
+      "entity": "Andrews and Andrews Consulting Pty Ltd",
+      "details": "Loan (Spouse)",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Directorships",
+      "entity": "Andrews and Andrews Consulting Pty Ltd",
+      "details": "Human Resources and Industrial Relations Consulting (Spouse)",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Income Sources",
+      "entity": "Bond University",
+      "details": "Bond University (Superannuation); BT Lifetime Superannuation Fund (Spouse)",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Income Sources",
+      "entity": "Asgard",
+      "details": "Asgard (Superannuation); BT Lifetime Superannuation Fund (Spouse)",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "2005 Mercedes Viano (Van) (Spouse)",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Memberships",
+      "entity": "Qantas Chairman's Lounge",
+      "details": "Qantas Chairman's Lounge (Spouse)",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Memberships",
+      "entity": "Bond University Chancellor's Circle",
+      "details": "Bond University Chancellor's Circle (Spouse)",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Macquarie Small Companies Growth Trust",
+      "details": "Macquarie Small Companies Growth Trust (Dependent Children)",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Vanguard Index Property Securities Fund",
+      "details": "Vanguard Index Property Securities Fund (Dependent Children)",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "BlackRock Australian Share Fund",
+      "details": "BlackRock Australian Share Fund (Dependent Children)",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Perpetual WealthFocus Investment Advantage",
+      "details": "Perpetual WealthFocus Investment Advantage (Dependent Children)",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "See above (Self)",
+      "details": "See above (Self) (Dependent Children)",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Liabilities",
+      "entity": "Andrews and Andrews Consulting Pty Ltd",
+      "details": "Loan (Dependent Children)",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Ayr, Queensland (Real estate)",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Unknown",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Forbes (Real estate)",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Real Estate",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Real Estate Queensland",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Real Estate (Spouse)",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Investment",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Income Sources",
+      "entity": "Bond",
+      "details": "Unknown",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Income Sources",
+      "entity": "Australia (Income)",
+      "details": "Unknown",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Various Investments",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Other Interests",
+      "entity": "Real Estate",
+      "details": "Unknown",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Andrews consulting related details",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Other Interests",
+      "entity": "Real Estate",
+      "details": "Investment",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "Australia (Savings)",
+      "details": "Savings Australian group",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Other Assets",
+      "entity": "artwork / vehicle",
+      "details": "Art collection details.",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Liabilities",
+      "entity": "ANZ Bank",
+      "details": "Australia lending",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-11-03",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "12 Tickets to John Howard book Launch at Bond University",
+      "pdf_url": "andrewskaren_43p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2010-11-03",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Austar Pay TV Service for Electorate Office",
+      "pdf_url": "andrewskaren_43p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2010-11-03",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Column in Gold Coast Magazine",
+      "pdf_url": "andrewskaren_43p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "Australian and New Zealand Banking Group Limited",
+      "details": "Savings Account",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-02-03",
+      "category": "Gifts",
+      "entity": "Arrow Training",
+      "details": "2 Tickets - Magic Millions Race Day - Gift from Arrow Training",
+      "pdf_url": "andrewskaren_43p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2011-05-12",
+      "category": "Gifts",
+      "entity": "Commercial Radio Australia",
+      "details": "Digital Radio",
+      "pdf_url": "andrewskaren_43p.pdf",
+      "sub_category": "Electronics"
+    },
+    {
+      "declaration_date": "2011-05-26",
+      "category": "Gifts",
+      "entity": "Virgin Australia",
+      "details": "2 x TICKETS TO AFL GAME (28/5/11) GIFT FROM VIRGIN AUSTRALIA",
+      "pdf_url": "andrewskaren_43p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2011-06-15",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Subscription to New Media Portal for Electorate Office",
+      "pdf_url": "andrewskaren_43p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2011-06-23",
+      "category": "Gifts",
+      "entity": "Santos",
+      "details": "2 x tickets to Brisbane Winter Racing Carnival (Stradbroke Handicap)",
+      "pdf_url": "andrewskaren_43p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2012-01-03",
+      "category": "Travel",
+      "entity": "Taiwanese Government",
+      "details": "Flights to Taiwan, accommodation and meals as guest of the Taiwanese Government.",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-01-03",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Individual gifts, value unknown, but estimated as less than $100.",
+      "pdf_url": "andrewskaren_43p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2012-01-16",
+      "category": "Gifts",
+      "entity": "Arrow Training",
+      "details": "2 tickets Magic Millions Raceday - Gift from Arrow Training",
+      "pdf_url": "andrewskaren_43p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2012-01-16",
+      "category": "Gifts",
+      "entity": "College of Australian Training",
+      "details": "2 tickets Chairman's Club - Gold Coast United v Wellington FC Gift from College of Australian Training",
+      "pdf_url": "andrewskaren_43p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2012-05-21",
+      "category": "Other Assets",
+      "entity": "Spouse",
+      "details": "2005 Renault Master (Van)",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-01-18",
+      "category": "Travel",
+      "entity": "Virgin Australia",
+      "details": "Air travel upgrade from United States to Brisbane for self and daughters",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-01-18",
+      "category": "Gifts",
+      "entity": "Gold Coast Turf Club",
+      "details": "2 x tickets to Magic Millions Boardroom",
+      "pdf_url": "andrewskaren_43p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2013-02-04",
+      "category": "Shares",
+      "entity": "Talent 2 International Limited",
+      "details": "Delete from Self and Spouse, Talent 2 International Limited and Customers Limited",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-02-04",
+      "category": "Shares",
+      "entity": "Macquarie Small Companies Growth Trust",
+      "details": "Delete from Self and Dependent Children, Macquarie Small Companies Growth Trust",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-05-30",
+      "category": "Memberships",
+      "entity": "Virgin Australia",
+      "details": "Membership of Virgin Australia Club for self and spouse",
+      "pdf_url": "andrewskaren_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-05-30",
+      "category": "Gifts",
+      "entity": "Vietnam Veterans' Association of Australia",
+      "details": "Gallipoli 2015 scarfe",
+      "pdf_url": "andrewskaren_43p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2013-06-26",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Assorted Australian good.",
+      "pdf_url": "andrewskaren_43p.pdf",
+      "sub_category": "Other Gifts"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/43/andrewskaren_43p.pdf"
+}

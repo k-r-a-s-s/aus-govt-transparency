@@ -1,0 +1,115 @@
+{
+  "mp_name": "Ross Xavier Vasta",
+  "party": "Unknown",
+  "electorate": "Bonner",
+  "disclosures": [
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "vastar_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Trusts",
+      "entity": "Salroands Holdings Pty Ltd",
+      "details": "Investment company. Primary beneficiary of a discretionary trust.",
+      "pdf_url": "vastar_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "vastar_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Real Estate",
+      "entity": "Carindale Brisbane",
+      "details": "Residence",
+      "pdf_url": "vastar_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "vastar_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "vastar_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Mortgage",
+      "pdf_url": "vastar_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Cheque Account",
+      "pdf_url": "vastar_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "vastar_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "vastar_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "vastar_43p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "vastar_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "vastar_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "vastar_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-22",
+      "category": "Real Estate",
+      "entity": "Carindale Residence",
+      "details": "Status changed to Investment property - receiving rental income",
+      "pdf_url": "vastar_43p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/43/vastar_43p.pdf"
+}

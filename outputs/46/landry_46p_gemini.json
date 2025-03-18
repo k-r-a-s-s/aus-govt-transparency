@@ -1,0 +1,464 @@
+{
+  "mp_name": "Michelle Landry",
+  "party": "N/A",
+  "electorate": "Capricornia",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Shares",
+      "entity": "Medibank",
+      "details": "Self",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Shares",
+      "entity": "National Australia Bank",
+      "details": "Self",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Shares",
+      "entity": "CYBG",
+      "details": "Self",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Spouse/partner: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Dependent children: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Self: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Spouse/partner: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Dependent children: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Real Estate",
+      "entity": "Lammermoor, Yeppoon QLD",
+      "details": "Residential House",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Real Estate",
+      "entity": "Griffith, Canberra",
+      "details": "Residential Unit",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Spouse/partner: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Dependent children: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Self: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Spouse/partner: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Dependent children: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Self: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Spouse/partner: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Dependent children: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Self: Home Loan, Unit Loan (Residential)",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Spouse/partner: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Dependent children: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Self: Savings Account, NAB",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Spouse/partner: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Dependent children: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Self: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Spouse/partner: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Dependent children: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Self: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Spouse/partner: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Dependent children: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Gifts",
+      "entity": "Qantas Chairmans Lounge",
+      "details": "Self: Qantas Chairmans Lounge, Virgin Club",
+      "pdf_url": "landry_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Gifts",
+      "entity": "Virgin Club",
+      "details": "Self: Qantas Chairmans Lounge, Virgin Club",
+      "pdf_url": "landry_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Spouse/partner: Not Applicable",
+      "pdf_url": "landry_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Dependent children: Not Applicable",
+      "pdf_url": "landry_46p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Self: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Spouse/partner: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Dependent children: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Self: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Spouse/partner: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Dependent children: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Self: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Spouse/partner: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-23",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Dependent children: Not Applicable",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-11-08",
+      "category": "Hospitality",
+      "entity": "Tabcorp",
+      "details": "Ticket from Tabcorp for Derby Day in the Birdcage",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-11-08",
+      "category": "Hospitality",
+      "entity": "Tabcorp",
+      "details": "Ticket from Tabcorp for Melbourne Cup in the Birdcage",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-11-08",
+      "category": "Hospitality",
+      "entity": "Australian Hotel Assocation",
+      "details": "Ticket from the Australian Hotel Assocation for the AHA National Board Luncheon",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-09",
+      "category": "Hospitality",
+      "entity": "Hugh Jackman Show",
+      "details": "2 x Tickets to Hugh Jackman Show valued at $360",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-09",
+      "category": "Memberships",
+      "entity": "ASTRA",
+      "details": "Subscription to ASTRA valued at $1600 per annum",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-10",
+      "category": "Hospitality",
+      "entity": "National Farmers Federation",
+      "details": "2 x Tickets to the National Farmers Federation 40th Anniversary Gala Dinner valued: $560",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-24",
+      "category": "Gifts",
+      "entity": "Gallipoli Turkish Cultural Assocation",
+      "details": "A Turkish plate from the Gallipoli Turkish Cultural Assocation",
+      "pdf_url": "landry_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2020-01-08",
+      "category": "Gifts",
+      "entity": "State of Origin",
+      "details": "Corporate ticket to State of Origin 2019",
+      "pdf_url": "landry_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2020-06-30",
+      "category": "Travel",
+      "entity": "Bowen River Utilities",
+      "details": "Bowen River Utilities - Flight from Rockhampton to Collinsville return 29/6/2020 - 30/6/2020 (Visit to Urannah Dam site)",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-05-13",
+      "category": "Travel",
+      "entity": "Beef Week",
+      "details": "Entry into Beef Week - Week Pass",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-05-13",
+      "category": "Hospitality",
+      "entity": "Beef Australia",
+      "details": "One ticket to the Nose to Tail Dinner (2/5/2021)",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-05-13",
+      "category": "Hospitality",
+      "entity": "Beef Australia",
+      "details": "One ticket to the Celebrity Lunch (3/5/2021)",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-05-13",
+      "category": "Hospitality",
+      "entity": "Beef Australia",
+      "details": "One ticket to the Main Event Lunch (4/5/2021)",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-05-13",
+      "category": "Hospitality",
+      "entity": "Beef Australia",
+      "details": "One ticket to the Graeme Acton Beef Connections Lunch (5/5/2021)",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-05-13",
+      "category": "Hospitality",
+      "entity": "Beef Australia",
+      "details": "One ticket to the NAB Ladies Lunch - (7/5/2021)",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-05-13",
+      "category": "Hospitality",
+      "entity": "Beef Australia",
+      "details": "Two tickets to The Real Group Gala Ball (8/5/2021)",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-05-13",
+      "category": "Hospitality",
+      "entity": "Beef Australia",
+      "details": "One ticket to the Rabobank Beef Industry Awards (3/5/2021)",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-07-06",
+      "category": "Hospitality",
+      "entity": "Rockhampton Girls Grammar School",
+      "details": "Two race day tickets from Rockhampton Girls Grammar School - $370",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-23",
+      "category": "Hospitality",
+      "entity": "Telstra",
+      "details": "8 Tickets to the NRL Finals Game - Eels v's Knights Sunday 12th September provided by Telstra",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-11-18",
+      "category": "Hospitality",
+      "entity": "QLD Tourism",
+      "details": "2 Tickets from QLD Tourism to the QLD Tourism Awards",
+      "pdf_url": "landry_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-01-20",
+      "category": "Gifts",
+      "entity": "Hastings Deering",
+      "details": "CAT 794 AC Mining Truck - Collectable Diecast Scale Model Replica gifted by Hastings Deering",
+      "pdf_url": "landry_46p.pdf",
+      "sub_category": "Other Gifts"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/landry_46p.pdf"
+}

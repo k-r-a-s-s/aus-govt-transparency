@@ -1,0 +1,434 @@
+{
+  "mp_name": "Pli Bersek",
+  "party": "N/A",
+  "electorate": "Sydney",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Trusts",
+      "entity": "Coutis-Trouter Family Trust",
+      "details": "Shares/Investments; Sole beneficiary",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Trusts",
+      "entity": "Jessie Street Foundation",
+      "details": "Charitable Trust; Annual $5000 grant awarded",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Kingston, ACT; Residential",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Rosebery, NSW; Residential (jointly)",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Mortgage",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Mortgage (jointly)",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "Qantas Credit Union",
+      "details": "Cheque accounts",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "NAB and Westpac",
+      "details": "Savings accounts",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "Qantas Credit Union",
+      "details": "Savings accounts",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Salary",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Gifts",
+      "entity": "Qantas, Virgin",
+      "details": "Qantas chairman's Lounge membership, virgin Lounge membership",
+      "pdf_url": "plibersekt_44p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "See attached list",
+      "details": "List of memberships",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Qantas chairman's Lounge membership",
+      "pdf_url": "plibersekt_44p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "ALP NSW Branch",
+      "details": "Member",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "Australian Fabian Society",
+      "details": "Member",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "Australian Republican Movement",
+      "details": "Member",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "Challenge",
+      "details": "Member",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "Community and Public Sector Union",
+      "details": "Member",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "Emily's List Australia",
+      "details": "Member and Donor",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "Evatt Foundation",
+      "details": "Member",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "Family Drug Support",
+      "details": "Member",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "Inner Sydney Regional Council for Social Development",
+      "details": "Member",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "Inner Parliamentary Union",
+      "details": "Member",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "National Rural Health Alliance, Friends of the Alliance",
+      "details": "Member",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "NSW Rape Crisis Centre",
+      "details": "Member and Donor",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "RESULTS Australia",
+      "details": "Member",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "South Sydney Youth Services",
+      "details": "Member",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "Women's International League for Peace and Freedom",
+      "details": "Member",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "Amnesty International",
+      "details": "Donor",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "Bridge for Asylum Seekers Foundation",
+      "details": "Donor",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "Bobby Goldsmith Foundation",
+      "details": "Donor",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "International Women's Development Agency",
+      "details": "Donor",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "Matthew Talbot Hostel",
+      "details": "Donor",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "Wayside Chapel",
+      "details": "Donor",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "UNICEF",
+      "details": "Donor",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "Jessie Street Trust",
+      "details": "Trustee",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "Surf Life Saving Sydney",
+      "details": "Honorary Vice Patron",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-12-02",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Upgraded business class to first class (Sunday 6 April 2014 - Qantas flight 8413)",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-12-02",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Upgraded business class to first class (Sunday 6 April 2014 - Qantas flight 8073)",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-02-09",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Airline upgrade (6 December 2014, QF1 Sydney to Dubai)",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-02-09",
+      "category": "Travel",
+      "entity": "Hong Kong Government",
+      "details": "Trip to Hong Kong 26-29/1/15, Business class flights on Cathay Pacific CX138 (Syd-HK)/CX111 (HK-Syd), 2 nights accommodation at Grand Hyatt Hong Kong Hotel",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-03-20",
+      "category": "Gifts",
+      "entity": "Distributor",
+      "details": "60x 120g Murray River Salt; Complimentary from distributor",
+      "pdf_url": "plibersekt_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2015-05-16",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "40x 120g jar salt flakes (to be gifted to overseas dignitaries on official trips as Deputy Leader/Shadow Foreign Minister); Murray River Salt",
+      "pdf_url": "plibersekt_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2015-05-16",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Flight upgrade from Economy to Business Class; QF 81 Sydney - Singapore (3/5/15), QF 81 Singapore \u2013 Sydney (6/5/15); Official visit to Singapore",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-05-25",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "20x women's hand cream, 40x men's moisturiser; For purpose of gifting to overseas dignitaries on official trips as Deputy Leader/Shadow Foreign Minister; Natio",
+      "pdf_url": "plibersekt_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2015-05-29",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "50x KORA Organics hand cream; To be gifted to overseas dignitaries on official Deputy Leader/Shadow Foreign Minister trips",
+      "pdf_url": "plibersekt_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2015-11-24",
+      "category": "Travel",
+      "entity": "Harold Mitchell",
+      "details": "Travel and accommodation for myself as part of a travelling party consisting of the Hon Bill Shorten MP and a member of his staff, the Hon Richard Marles MP and a member of his staff, and three representatives of the media (media representatives paid for their own accommodation) provided by Harold Mitchell as follows: 1. Charter flight from Essendon Airport, Melbourne to Port Moresby, Papua New Guinea on 1/11/15 including overnight accommodation in Port Moresby. 2. Flight from Port Moresby to Majuro, Marshall Islands on 2/11/15 including overnight accommodation in Majuro. 3. Flight from Majuro, Marshall Islands to Tarawa, Kiribati on 3/11/15 including overnight accommodation in Tarawa. 4. Flight from Tarawa, Kiribati to Townsville, Queensland on 4/11/15. 5. Flight from Townsville to Sydney on 4/11/15.",
+      "pdf_url": "plibersekt_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-12-23",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Penfolds RWT Barossa Valley Shiraz 2012 (750ml), Value: $175.00",
+      "pdf_url": "plibersekt_44p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2016-02-12",
+      "category": "Gifts",
+      "entity": "Ms Yilin Zhu",
+      "details": "2 x Christmas Hampers from Ms Yilin Zhu. Donated to the Wayside Chapel, Potts Point. Value approx. $250 each.",
+      "pdf_url": "plibersekt_44p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2016-02-12",
+      "category": "Gifts",
+      "entity": "Ms Yilin Zhu",
+      "details": "8 x bottles of wine from Ms Yilin Zhu Donated to staff. Value approx. $20 each",
+      "pdf_url": "plibersekt_44p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2016-02-12",
+      "category": "Gifts",
+      "entity": "Mr Vernon Yip",
+      "details": "1 x Christmas Hamper from Mr Vernon Yip Donated to staff. Value $200",
+      "pdf_url": "plibersekt_44p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2016-04-19",
+      "category": "Gifts",
+      "entity": "Minister Lembong, Indonesian Minister for Trade",
+      "details": "'Indonesian Kitchen' book Gift from Minister Lembong, Indonesian Minister for Trade \u2013 value A$25 (IDR 250.000)",
+      "pdf_url": "plibersekt_44p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2016-04-04",
+      "category": "Gifts",
+      "entity": "Europe Australia Business Council",
+      "details": "Scarf, Gift from Europe Australia Business Council Value approx. $250",
+      "pdf_url": "plibersekt_44p.pdf",
+      "sub_category": "Clothing"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/plibersekt_44p.pdf"
+}

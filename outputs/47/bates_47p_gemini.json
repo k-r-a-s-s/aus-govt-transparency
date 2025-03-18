@@ -1,0 +1,157 @@
+{
+  "mp_name": "Stephen Bates",
+  "party": "N/A",
+  "electorate": "Brisbane",
+  "disclosures": [
+    {
+      "declaration_date": "2022-07-29",
+      "category": "Shares",
+      "entity": "Apple Pty Ltd",
+      "details": "Apple Pty Ltd",
+      "pdf_url": "bates_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-07-29",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "bates_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-07-29",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "bates_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-07-29",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "bates_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-07-29",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "bates_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-07-29",
+      "category": "Liabilities",
+      "entity": "Macquarie",
+      "details": "Car loan",
+      "pdf_url": "bates_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-07-29",
+      "category": "Savings/Investments",
+      "entity": "Bank Australia",
+      "details": "Savings",
+      "pdf_url": "bates_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-07-29",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Savings",
+      "pdf_url": "bates_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-07-29",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Savings",
+      "pdf_url": "bates_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-07-29",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Car",
+      "pdf_url": "bates_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-07-29",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Shareholdings",
+      "pdf_url": "bates_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-07-29",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "bates_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-07-29",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "bates_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-07-29",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "bates_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-07-29",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "bates_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-07-29",
+      "category": "Shares",
+      "entity": "Apple Pty Ltd",
+      "details": "Sold all of my shares in Apple Pty Ltd. No longer have any shareholdings.",
+      "pdf_url": "bates_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-01",
+      "category": "Memberships",
+      "entity": "Qantas",
+      "details": "Qantas Lounge Membership",
+      "pdf_url": "bates_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-10-17",
+      "category": "Memberships",
+      "entity": "Virgin",
+      "details": "Virgin Lounge Membership",
+      "pdf_url": "bates_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-03-08",
+      "category": "Other Assets",
+      "entity": "Australian Retirement Trust",
+      "details": "Superannuation - Australian Retirement Trust",
+      "pdf_url": "bates_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-09-14",
+      "category": "Memberships",
+      "entity": "Qantas",
+      "details": "Qantas Lounge Membership",
+      "pdf_url": "bates_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-09-21",
+      "category": "Memberships",
+      "entity": "Virgin",
+      "details": "Virgin Lounge Membership",
+      "pdf_url": "bates_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/bates_47p.pdf"
+}

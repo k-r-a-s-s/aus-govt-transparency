@@ -1,0 +1,694 @@
+{
+  "mp_name": "Kate Ellis",
+  "party": "Unknown",
+  "electorate": "Adelaide",
+  "disclosures": [
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Location: Norwood, SA; Purpose: Residential",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Liabilities",
+      "entity": "St George",
+      "details": "Mortgage - home",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "Savings Account",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Memberships",
+      "entity": "Adelaide Edge Rotary Club",
+      "details": "Honorary Member",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Memberships",
+      "entity": "Adelaide Football Club",
+      "details": "Member & Ambassador (October 08)",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Memberships",
+      "entity": "Australian Labor Party SA",
+      "details": "Member",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Memberships",
+      "entity": "Football Federation of Australia",
+      "details": "Football Ambassador (June 08)",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Memberships",
+      "entity": "Glenelg Football Club",
+      "details": "Member and No 1 supporter (July 08)",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Memberships",
+      "entity": "Irish Association of Australia",
+      "details": "Member",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Memberships",
+      "entity": "National Walk Safely to School Day",
+      "details": "Ambassador 2009",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Memberships",
+      "entity": "Netball SA",
+      "details": "Patron (June 08)",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Memberships",
+      "entity": "Royal Life Saving for home pool safety",
+      "details": "Ambassador (November 08)",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Memberships",
+      "entity": "SDA SA",
+      "details": "Member",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Memberships",
+      "entity": "South Sydney Rabbitohs",
+      "details": "Member",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Memberships",
+      "entity": "Women's Studies Resource Centre (SA)",
+      "details": "Patron",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Memberships",
+      "entity": "World Vision 'VGen'",
+      "details": "Patron (August 08)",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "1 Sailing Jacket - Value Unspecified - 24/10/2009",
+      "pdf_url": "ellisk_43p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "2 Bottles of Penfolds Wine -- Value Unspecified - 12/12/2009",
+      "pdf_url": "ellisk_43p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "1 Bicycle Statue \u2013 10/03/2010, Value Unspecified.",
+      "pdf_url": "ellisk_43p.pdf",
+      "sub_category": "Decorative"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 tickets to World Cup Soccer Qualifier, Australia versus Bahrain \u2013 value unspecified 10/6/09.",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 tickets to the Australian Soccer Football Awards \u2013 value unspecified 11/6/09.",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "1 ticket to the Press Gallery's Mid-Winter Ball - value unspecified 17/6/09.",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 tickets to the Premier's Games Appeal Dinner (a fundraiser for Australian athletes preparing for the Olympic, Paralympic and Commonwealth Games) \u2013 value unspecified 7/8/09.",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 tickets to the NRL, Rabbitohs versus Titans - value unspecified 14/8/09.",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 tickets to the AFL Elimination Final, Adelaide versus Essendon \u2013 value unspecified 4/9/09.",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 tickets to the Rugby Union, Australia versus South Africa - value unspecified 5/9/09.",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "1 ticket to the NRL Dally M Awards \u2013 value unspecified 8/9/09.",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 tickets to the NRL Semi Final, Parramatta versus Gold Coast \u2013 value unspecified 18/9/09.",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "1 ticket to the AFL Brownlow Medal \u2013 value unspecified 21/9/09.",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 tickets to the AFL Grand Final Breakfast - value unspecified 26/9/09.",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "4 tickets to the AFL Grand Final - value unspecified 26/9/09.",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 tickets to the NRL, Melbourne versus Brisbane - value unspecified 26/9/09.",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "1 ticket to the NRL Grand Final Breakfast - value unspecified 1/10/09.",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 tickets to the NRL Grand Final and luncheon - value unspecified 4/10/09.",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 tickets to the Telstra Swimmer of the Year Awards - value unspecified 7/10/09.",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 tickets to the Sport Australia Hall of Fame Dinner - value unspecified 8/10/09.",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 Tickets to Melbourne Cup - Valued at - 3/11/2009",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 Tickets to AIS Athlete of the Year Awards - Value unspecified - 12/11/2009",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 Tickets to Australian International 3 Day Event - Value unspecified \u2013 15/11/2009",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "1 Upgrade to First Class on Flight QF303 from Perth to Johannesburg Int'l Airport. Value Unspecified - 1/12/2009",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 Tickets to Australia v Pakistan - Value Unspecified 27/12/2009",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 Tickets to McGrath Foundation High Tea - Value Unspecified 27/12/2009",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 Tickets to Australia v Pakistan - 3/01/2010",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "1 Ticket to Tour Down Under Legend Dinner - 23/01/2010",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 Tickets to Tour Down Under Event - 24/01/2010",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "1 Ticket to Australia v Pakistan Australia Day Game - 26/01/2010",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 Tickets to Baseball Home Finals Series at Norwood Oval - 29/01/2010",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 Tickets to Australian Open, Men's Finals \u2013 31/01/2010",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 Tickets to PM's XI Cricket Match Luncheon \u2013 4/02/2010",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "1 Ticket to Chinese New Year Celebration Dinner - 14/02/2010",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 Tickets to the Allan Border Medal - 15/02/2010",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 Tickets to Australia v West Indies - 19/02/2010",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "1 Ticket to Natuzzi, Food, Wine and Music Festival - 28/02/2010",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "1 Ticket to South Australian Screen Awards, Gala Ceremony - 4/03/2010",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 Tickets to Womadelaide - 5/03/2010",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 Tickets to Clipsal 500, State Dinner - 12/03/2010",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 Tickets to the Clipsal 500 \u2013 13/03/2010",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 Ticket(s) to International Rugby Sevens \u2013 21/03/2010",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 Tickets to INDOFest 2010 - Adelaide's Festival of Indonesian Arts, Food and Culture - 11/04/2010",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 Tickets to Special Olympics Opening Ceremony - 19/04/2010",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "1 Ticket to the 60th FIFA Congress Opening Ceremony and dinner - 9/06/10",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Admission (x2) to Qantas World Cup Function value unspecified - 10/06/10",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Admission (x2) to FIFA World Cup Entertainment - value unspecified - 10/06/10",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "1 Ticket to the World Cup Opening Ceremony - 11/06/10",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "1 Ticket to the World Cup opening match between South Africa and Mexico- value unspecified - 11/06/10",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Admission (x2) to FIFA World Cup Entertainment - value unspecified - 12/06/10",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 Tickets to the Socceroos match v Germany - value unspecified \u2013 13/06/10",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-04-08",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "20 February 2011 - Upgrade to First Class on Qantas flight 107: Sydney to Los Angeles",
+      "pdf_url": "ellisk_43p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2011-04-08",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "27 February 2011 - Upgrade to First Class on Qantas flight 108: Los Angeles to Sydney",
+      "pdf_url": "ellisk_43p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2011-04-08",
+      "category": "Memberships",
+      "entity": "Australian Parliamentary Sports Club",
+      "details": "Member",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-04-08",
+      "category": "Memberships",
+      "entity": "Adelaide Football Club",
+      "details": "#1 Female Ticket Holder and Club Ambassador",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-11-23",
+      "category": "Memberships",
+      "entity": "Glenelg Football Club",
+      "details": "Ambassador 2011",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-11-23",
+      "category": "Memberships",
+      "entity": "Adelaide Football Club",
+      "details": "Number 1 Female Ticket Holder 2011",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-11-23",
+      "category": "Memberships",
+      "entity": "South Australian Women's Football League",
+      "details": "Patron of the South Australian Women's Football League's 20th Anniversary",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-11-23",
+      "category": "Memberships",
+      "entity": "South Australian Women's Football League",
+      "details": "Patron of the South Australian Women's Football League 2011 - 2014",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-03-21",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "house, NORwood; residential. (Deletion)",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-03-21",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "house, WAYVILLE; residential investment",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-03-21",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "house, NORWOOD; investment",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-03-21",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "house, ALDINGA; investment",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-03-21",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "house, TORRENSVILLE; investment",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-03-21",
+      "category": "Liabilities",
+      "entity": "ANZ",
+      "details": "mortgage",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-03-21",
+      "category": "Liabilities",
+      "entity": "AMP",
+      "details": "mortgage",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-03-21",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "mortgage",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-03-21",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "AAFE savings account",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-03-21",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings account",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-28",
+      "category": "Memberships",
+      "entity": "South Australian Cricket Association",
+      "details": "Member",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-28",
+      "category": "Memberships",
+      "entity": "Women of Adelaide",
+      "details": "Patron",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-28",
+      "category": "Memberships",
+      "entity": "Adelaide Football Club",
+      "details": "member & Number 1 Ticket Holder",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-28",
+      "category": "Memberships",
+      "entity": "Qantas Chairman's Lounge",
+      "details": "N/A",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-28",
+      "category": "Memberships",
+      "entity": "Virgin Velocity",
+      "details": "N/A",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-28",
+      "category": "Gifts",
+      "entity": "Sofitel Hotel - Melbourne",
+      "details": "Flowers and champagne from Sofitel Hotel - Melbourne \u2013 value unspecified - 22/09/2012",
+      "pdf_url": "ellisk_43p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2012-11-28",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "2 tickets to Adelaide Crows Annual Gala auction - value unspecified - 20/07/2012",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-28",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "2 tickets to SA Theatre Company's performance of Top Girls - value unspecified - 25/08/2012",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-28",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "2 tickets to Adelaide Crows versus Hawthorn (Preliminary Final) - value unspecified \u2013 22/09/2012",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-28",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "2 tickets to Greyhound Racing 2012 Adelaide Cup - value unspecified - 11/10/2012",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-28",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "2 tickets to South Australian Cricket Association Members' Test Match Dinner - value unspecified - 20/11/2012",
+      "pdf_url": "ellisk_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-28",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "2 tickets to Australia versus South Africa Vodafone Test Match (guest of South Australian Cricket Association) \u2013 value unspecified - 23/11/2012",
+      "pdf_url": "ellisk_43p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/43/ellisk_43p.pdf"
+}

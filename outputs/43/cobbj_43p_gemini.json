@@ -1,0 +1,170 @@
+{
+  "mp_name": "John Kenneth Cobb",
+  "party": "N/A",
+  "electorate": "Calare",
+  "disclosures": [
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Shares",
+      "entity": "AMCOR Ltd",
+      "details": "Shareholding in public and private companies",
+      "pdf_url": "cobbj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Shares",
+      "entity": "Bronomics Pty Ltd",
+      "details": "Shareholding in public and private companies",
+      "pdf_url": "cobbj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Shares",
+      "entity": "Tyco International Ltd",
+      "details": "Shareholding in public and private companies",
+      "pdf_url": "cobbj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Real Estate",
+      "entity": "Cabonne Council",
+      "details": "Home - Farm",
+      "pdf_url": "cobbj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Real Estate",
+      "entity": "Cobar Shire Council",
+      "details": "Farm",
+      "pdf_url": "cobbj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Real Estate",
+      "entity": "Cabonne Council",
+      "details": "Home",
+      "pdf_url": "cobbj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Mortgage",
+      "pdf_url": "cobbj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Vehicle Mortgage",
+      "pdf_url": "cobbj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Savings/Investments",
+      "entity": "BT Financial",
+      "details": "Superannuation",
+      "pdf_url": "cobbj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Savings/Investments",
+      "entity": "Fm. State Super",
+      "details": "Superannuation",
+      "pdf_url": "cobbj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Farming Plant and Livestock",
+      "pdf_url": "cobbj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Farm and Shares",
+      "pdf_url": "cobbj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Business",
+      "pdf_url": "cobbj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Memberships",
+      "entity": "NSW Farmers",
+      "details": "Membership of any organisation where a conflict of interest with a Member's public duties could foreseeably arise or be seen to arise",
+      "pdf_url": "cobbj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Memberships",
+      "entity": "St George RLC",
+      "details": "Membership of any organisation where a conflict of interest with a Member's public duties could foreseeably arise or be seen to arise",
+      "pdf_url": "cobbj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Memberships",
+      "entity": "Royal Agriculture Society of NSW",
+      "details": "Membership of any organisation where a conflict of interest with a Member's public duties could foreseeably arise or be seen to arise",
+      "pdf_url": "cobbj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Memberships",
+      "entity": "Royal Sydney G C",
+      "details": "Membership of any organisation where a conflict of interest with a Member's public duties could foreseeably arise or be seen to arise",
+      "pdf_url": "cobbj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Memberships",
+      "entity": "Unions and Universities Club",
+      "details": "Membership of any organisation where a conflict of interest with a Member's public duties could foreseeably arise or be seen to arise",
+      "pdf_url": "cobbj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Real Estate",
+      "entity": "Cabonne Council",
+      "details": "Farm",
+      "pdf_url": "cobbj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Coolangatta to Gold Coast",
+      "pdf_url": "cobbj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Deletion of Unit in Canberra",
+      "pdf_url": "cobbj_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-03-21",
+      "category": "Shares",
+      "entity": "Commercial Radio Australia Ltd",
+      "details": "Digital Radio",
+      "pdf_url": "cobbj_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-26",
+      "category": "Hospitality",
+      "entity": "Lion",
+      "details": "Accepted hospitality of Lion on Cup Day, Tuesday 6th November at their marquee at Flemington Race Course Melbourne",
+      "pdf_url": "cobbj_43p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/43/cobbj_43p.pdf"
+}

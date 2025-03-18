@@ -1,0 +1,806 @@
+{
+  "mp_name": "Kelly Megan O'Dwyer",
+  "party": "N/A",
+  "electorate": "Higgins",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "National Australia Bank",
+      "details": "Self",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Trisfall Pty Ltd",
+      "details": "Self",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Kingmeadow Pty Ltd",
+      "details": "Self",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Springhill Shopping Centre Pty Ltd",
+      "details": "Self",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Postspring Pty Ltd",
+      "details": "Self",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "UBS",
+      "details": "Spouse",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Trisfall Pty Ltd",
+      "details": "Spouse",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Kingmeadow Pty Ltd",
+      "details": "Spouse",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Springhill Shopping Centre Pty Ltd",
+      "details": "Spouse",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Postspring Pty Ltd",
+      "details": "Spouse",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Trusts",
+      "entity": "DP & KS O'DWYER FAMILY TRUST",
+      "details": "Self, Family Trust (Discretionary), Beneficiary",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Trusts",
+      "entity": "JONKEL FAMILY TRUSTS NOS 1 &2",
+      "details": "Self, Family Trust (Discretionary), Beneficiary",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Trusts",
+      "entity": "JONKEL FAMILY TRUSTS NOS 1 &2",
+      "details": "Spouse, Family Trust (Discretionary), Beneficiary",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Trusts",
+      "entity": "ALFRED DEAKIN LECTURE TRUST",
+      "details": "Spouse, Charitable Trust - Public Lecture, N/A - Trustee",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "SOUTH YARRA",
+      "details": "Self, Residence",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "Undeveloped Land & Shopping Centre Development in Cranbourne",
+      "details": "Self, Investment (Minority Interest)",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "AS ABOVE",
+      "details": "Spouse",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "Trisfall Pty Ltd",
+      "details": "Self, Investment",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "Kingmeadow Pty Ltd",
+      "details": "Self, Investment",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "The Big Issue",
+      "details": "Spouse, Not-for-profit",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "Homes-for-Homes",
+      "details": "Spouse, Not-for-profit",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "Trisfall Pty Ltd",
+      "details": "Spouse, Investment",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "Kingmeadow Pty Ltd",
+      "details": "Spouse, Investment",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "Springhill Shopping Centre Pty Ltd",
+      "details": "Spouse, Investment",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "Postspring Pty Ltd",
+      "details": "Spouse, Investment",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "WESTPAC",
+      "details": "Self, Mortgage",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "AS ABOVE",
+      "details": "Spouse",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "WESTPAC",
+      "details": "Self, Savings Account",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Self, Savings Account",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "WESTPAC",
+      "details": "Spouse, Savings Account",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "Unknown",
+      "details": "Spouse, Managed Investment Fund",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Self, Superannuation (Not Self Managed)",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Spouse, Superannuation (Not Self Managed)",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Spouse, CAR",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Gifts",
+      "entity": "QANTAS",
+      "details": "Self, Chairman's Club Membership (as per all MP's)",
+      "pdf_url": "odwyerk_44p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Gifts",
+      "entity": "VIRGIN",
+      "details": "Self, The Club Membership (as per all MP's)",
+      "pdf_url": "odwyerk_44p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Gifts",
+      "entity": "ASTRA",
+      "details": "Self, Foxtel (as supplied to all MP's offices)",
+      "pdf_url": "odwyerk_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "KOOYONG LAWN TENNIS CLUB",
+      "details": "Self, Honourary Membership",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Gifts",
+      "entity": "QANTAS",
+      "details": "Spouse, Chairman's Club Membership",
+      "pdf_url": "odwyerk_44p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Gifts",
+      "entity": "VIRGIN",
+      "details": "Spouse, The Club Membership",
+      "pdf_url": "odwyerk_44p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Travel",
+      "entity": "The Australian Capital Gains Series",
+      "details": "Self, return airfare and transfers, panellist 29/8/13 (Sydney)",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Hospitality",
+      "entity": "Consilium",
+      "details": "Self, Registration and hospitality 22-23/8/13",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Hospitality",
+      "entity": "Consilium",
+      "details": "Spouse, hospitality 22-23/8/13",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Hospitality",
+      "entity": "The Australian Ballet",
+      "details": "Self and Spouse, opening night tickets, Cinderella 17/9/13",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Hospitality",
+      "entity": "North Melbourne",
+      "details": "Self, Grand Final Breakfast 28/9/13",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Hospitality",
+      "entity": "Channel 7",
+      "details": "Self and Spouse, Grand Final tickets & hospitality 28/9/13",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Travel",
+      "entity": "Sydney/Melbourne",
+      "details": "Self and Spouse, Qantas upgrade, personal travel 21/9/13",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Hospitality",
+      "entity": "Sydney Town Hall",
+      "details": "Self, 10th Anniversary Lowy Lecture Dinner 31/10/13",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Hospitality",
+      "entity": "Derby Day",
+      "details": "Self and Spouse, Suncorp tickets and hospitality 2/11/13",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Hospitality",
+      "entity": "Melbourne Cup Day",
+      "details": "Self and Spouse, Emirates tickets and hospitality 5/11/13",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Travel",
+      "entity": "Melbourne/Sydney",
+      "details": "Spouse, Virgin upgrade 23/11/13",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-03-17",
+      "category": "Hospitality",
+      "entity": "Australian Ballet",
+      "details": "Attended The Australian Ballet's opening night performance of 'Manon' (self and husband)",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-05-01",
+      "category": "Travel",
+      "entity": "United Arab Emirates",
+      "details": "Self, Australian Parliamentary visit to the United Arab Emirates hosted by HH Sheikh Mohammed bin Zayed Al Nahyan, Crown Prince of Abu Dhabi 10-16/4/2014",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-05-26",
+      "category": "Hospitality",
+      "entity": "Etihad Diamond Club",
+      "details": "Self and Husband, Dinner & AFL match - 3/5/14, as guests of Western Bulldogs",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-07-09",
+      "category": "Hospitality",
+      "entity": "Etihad Chairman's Club",
+      "details": "Self & Father, Dinner & AFL match - 4/7/14, as guests of North Melbourne",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-09-19",
+      "category": "Travel",
+      "entity": "Brisbane-Melbourne",
+      "details": "Self, QF631 Brisbane-Melbourne 24/8/14. Guest speaker at Consilium. Paid for by the Centre of Independent Studies.",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-09-19",
+      "category": "Accommodation",
+      "entity": "Consilium",
+      "details": "Self & Husband, Hotel for Consilium 21/8/14-24/8/14. Paid for by the Centre of Independent Studies.",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-09-19",
+      "category": "Hospitality",
+      "entity": "AFL",
+      "details": "Self, brother & father, Dinner & AFL semi-final, North Melbourne v Geelong, as guests of the AFL",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-09-19",
+      "category": "Directorships",
+      "entity": "The Big Issue and Homes-for-Homes",
+      "details": "Husband resigned as director",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-09-29",
+      "category": "Savings/Investments",
+      "entity": "UBS",
+      "details": "Self, Managed Investment Fund(s)",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-09-29",
+      "category": "Savings/Investments",
+      "entity": "UBS",
+      "details": "Spouse, Managed Investment Fund(s)",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-10-03",
+      "category": "Hospitality",
+      "entity": "Network 7",
+      "details": "Self & husband, Hospitality & AFL Grand Final tickets (Sydney v Hawthorn, 27th September 2014 as guests of Network 7",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-11-06",
+      "category": "Hospitality",
+      "entity": "Suncorp, Emirates, Lion, Diageo & CGU",
+      "details": "Self and husband, Tickets & hospitality for the 2014 Melbourne Cup Carnival (Flemington) for my husband and me as guests",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-11-20",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Self & husband, Representing the Minister for the Arts, Senator the Hon George Brandis QC for tickets and hospitality at the opening night performance of Opera Australia's \"Tosca\" on 12 November",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-01-23",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Self & husband, Please modify \"Minority interest in undeveloped land & shopping centre development in Cranbourne\" to \"Developed land and shopping centre development in Cranbourne\".",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-01-23",
+      "category": "Savings/Investments",
+      "entity": "Westpac/Bankers' Trust",
+      "details": "Husband, Please modify \"Managed investment fund\" to indicate that it is held with Westpac/Bankers' Trust",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-01-23",
+      "category": "Memberships",
+      "entity": "North Melbourne Football Club",
+      "details": "Self, Organisation membership",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-01-23",
+      "category": "Memberships",
+      "entity": "Melbourne Cricket Club",
+      "details": "Self, Organisation membership",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-01-23",
+      "category": "Memberships",
+      "entity": "Centre of Independent Studies",
+      "details": "Self, Organisation membership",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-01-23",
+      "category": "Memberships",
+      "entity": "Institute of Public Affairs",
+      "details": "Self, Organisation membership",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-01-23",
+      "category": "Memberships",
+      "entity": "Liberal Party - Victorian Division",
+      "details": "Self, Organisation membership",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-01-23",
+      "category": "Memberships",
+      "entity": "Higgins 200 Club",
+      "details": "Self, Organisation membership",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-01-23",
+      "category": "Memberships",
+      "entity": "Yarra River Keepers' Association",
+      "details": "Self, Organisation membership",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-01-23",
+      "category": "Memberships",
+      "entity": "Melbourne Bowling Club",
+      "details": "Self, Organisation membership",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-01-23",
+      "category": "Memberships",
+      "entity": "Malvern Historical Society",
+      "details": "Self, Organisation membership",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-01-23",
+      "category": "Memberships",
+      "entity": "Prahran RSL",
+      "details": "Self, Organisation membership",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-01-23",
+      "category": "Memberships",
+      "entity": "Malvern Bowling Club",
+      "details": "Self, Organisation membership",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-01-23",
+      "category": "Memberships",
+      "entity": "Stonnington City Brass",
+      "details": "Self, Organisation membership (Patron)",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-01-23",
+      "category": "Memberships",
+      "entity": "East Malvern Junior Girls Football Team",
+      "details": "Self, Organisation membership (Patron)",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-01-23",
+      "category": "Memberships",
+      "entity": "Ovarian Cancer Australia",
+      "details": "Self, Organisation membership (Ambassador)",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-01-23",
+      "category": "Memberships",
+      "entity": "National Press Club",
+      "details": "Self, Organisation membership",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-01-23",
+      "category": "Memberships",
+      "entity": "Prahran Rotary",
+      "details": "Self, Organisation membership (Honorary Member)",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-01-23",
+      "category": "Memberships",
+      "entity": "Toorak Rotary",
+      "details": "Self, Organisation membership (Honorary Member)",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-01-23",
+      "category": "Memberships",
+      "entity": "Hawksburn Tennis Club",
+      "details": "Self, Organisation membership",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-01-23",
+      "category": "Memberships",
+      "entity": "Duldig Gallery (Museum and Art Gallery)",
+      "details": "Self, Organisation membership",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-01-23",
+      "category": "Memberships",
+      "entity": "East Malvern RSL",
+      "details": "Self, Organisation membership",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-01-23",
+      "category": "Memberships",
+      "entity": "East Malvern/Tooronga Cricket Club",
+      "details": "Self, Organisation membership",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-01-23",
+      "category": "Directorships",
+      "entity": "Trisfall Pty Ltd and Kingmeadow Pty Ltd",
+      "details": "Self, I resigned as Company Director and Secretary of both companies on 23 December 2014.",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-01-22",
+      "category": "Shares",
+      "entity": "NAB",
+      "details": "I am no longer a shareholder in NAB as of 21 January 2015",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-02-05",
+      "category": "Hospitality",
+      "entity": "Arnold Bloch Hiebler",
+      "details": "Self & husband, Tickets to the Australian Open Mens Final tennis on 1/2/15",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-02-05",
+      "category": "Hospitality",
+      "entity": "Park Hyatt Hotel, The Rocks, Sydney",
+      "details": "Self, 3/2/15 - Unrequested accommodation upgrade",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-06-18",
+      "category": "Gifts",
+      "entity": "Real Wealth Property",
+      "details": "1 bottle 2004 vintage Dom Perignon champagne received",
+      "pdf_url": "odwyerk_44p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2015-07-31",
+      "category": "Trusts",
+      "entity": "DP & KS O'DWYER FAMILY TRUST",
+      "details": "Family Trust (Discretionary), Beneficiary",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-07-31",
+      "category": "Trusts",
+      "entity": "JONKEL FAMILY TRUSTS NOS 1 &2",
+      "details": "Self, Family Trust (Discretionary), Beneficiary",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-07-31",
+      "category": "Trusts",
+      "entity": "JONKEL FAMILY TRUSTS NOS 1 &2",
+      "details": "Spouse, Family Trust (Discretionary), Beneficiary",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-07-31",
+      "category": "Trusts",
+      "entity": "JONKEL FAMILY &2",
+      "details": "Dependent Children, Family Trust (Discretionary), Beneficiary",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-07-31",
+      "category": "Real Estate",
+      "entity": "SOUTH YARRA",
+      "details": "Self, Residence",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-07-31",
+      "category": "Real Estate",
+      "entity": "Developed land & shopping centre development in Cranbourne",
+      "details": "Self, Investment (Minority Interest)",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-07-31",
+      "category": "Real Estate",
+      "entity": "AS ABOVE",
+      "details": "Spouse",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-07-31",
+      "category": "Savings/Investments",
+      "entity": "WESTPAC",
+      "details": "Self, Savings Account",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-07-31",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Self, Savings Account",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-07-31",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Self, Savings Account",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-07-31",
+      "category": "Savings/Investments",
+      "entity": "WESTPAC",
+      "details": "Spouse, Savings Account",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-07-31",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Spouse, Savings Account",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-07-31",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Spouse, Savings Account",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-07-31",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Spouse, Managed Investment Fund",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-18",
+      "category": "Hospitality",
+      "entity": "Blackwoods",
+      "details": "Hospitality - Blackwoods North Melbourne Grand Final Breakfast, 3 October 2015",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-18",
+      "category": "Hospitality",
+      "entity": "Network 7",
+      "details": "Hospitality & AFL Grand Final tickets (Hawthorn v West Coast Eagles) as guests of Network 7",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-18",
+      "category": "Hospitality",
+      "entity": "Suncorp",
+      "details": "Tickets & hospitality for the 2015 Melbourne Cup Carnival (Flemington) for my husband and me as guests of Suncorp on Derby Day, 31 October 2015",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-02-16",
+      "category": "Hospitality",
+      "entity": "Arnold Bloch Liebler",
+      "details": "Tickets to the Australian Open Men's Final tennis on 31/1/16 as guests of Arnold Bloch Liebler",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-02-29",
+      "category": "Hospitality",
+      "entity": "Victoria Investments & Properties",
+      "details": "Mr Peng Hong Wong, Victoria Investments & Properties paid for the catering costs for a Higgins community Chinese New Year event on 5/2/16 (value around $5,055.00)",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-02-29",
+      "category": "Hospitality",
+      "entity": "Huawei Technologies",
+      "details": "Mr Eric Zhai, Managing Director Southern Region, Huawei Technologies paid for the lion dancers/entertainment for a Higgins community Chinese New Year Event on 5/2/16 (value around $580.00)",
+      "pdf_url": "odwyerk_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-02-29",
+      "category": "Hospitality",
+      "entity": "Volvo Cars, Bilia South Yarra",
+      "details": "Mr Paul Bartett, General Manager, Volvo Cars, Bilia South Yarra provided venue for a Higgins community Chinese New Year event on 5/2/16",
+      "pdf_url": "odwyerk_44p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/odwyerk_44p.pdf"
+}

@@ -1,0 +1,713 @@
+{
+  "mp_name": "Scott Buchholz",
+  "party": "Unknown",
+  "electorate": "Wright",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "GD",
+      "details": "Self",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "SB Pty Ltd",
+      "details": "Self",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Telstra",
+      "details": "Spouse/partner",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Hills Cattle Company Pty Ltd",
+      "details": "Spouse/partner",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "HCCC Trust",
+      "details": "Spouse/partner; Beef Cattle; Joint Beneficiary",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Dugandan, QLD; Residential; Self",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Barton, ACT; Residential; Self",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Blackwater, QLD; Investment; Self",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Boonah, QLD; Former residential; Self",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Wandal, QLD; Former residential; Spouse/partner",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Koongal, QLD; Investment; Spouse/partner",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Directorships",
+      "entity": "GD & SB Pty Ltd",
+      "details": "Self; Trustee company for a property owning unit trust",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Directorships",
+      "entity": "Hills Cattle Company Pty Ltd",
+      "details": "Spouse/partner; Trustee company for a discretionary trust",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Partnerships",
+      "entity": "SA Buchholz & CE & AH Fanning",
+      "details": "Self; Financial; Primary production",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Partnerships",
+      "entity": "G & S Buchholz",
+      "details": "Self; In active; Boat",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Partnerships",
+      "entity": "L.C Buchholz and S.A Buchholz",
+      "details": "Self; Financial; Cattle Production",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Partnerships",
+      "entity": "B & C Hills",
+      "details": "Spouse/partner; Partner; Beef cattle production",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "ANZ",
+      "details": "Self; Mortgage on residential property",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "ANZ",
+      "details": "Self; Mortgage on residential property",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "ANZ",
+      "details": "Self; Mortgage on investment property",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "ANZ",
+      "details": "Self; Mortgage on rural/residential property",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "ANZ",
+      "details": "Self; Credit Card",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "Esanda",
+      "details": "Self; Vehicle",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Self; Vehicle",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "BOQ",
+      "details": "Self; Personal Loan",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "Suncorp",
+      "details": "Spouse/partner; Mortgage on former residential property",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "Suncorp",
+      "details": "Spouse/partner; Mortgage on investment property",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "BMW Finance",
+      "details": "Spouse/partner; Vehicle",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "ANZ",
+      "details": "Spouse/partner; Credit Card",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "Heritage Building Society",
+      "details": "Self; Savings",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "Self; Savings",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "Macquarie Bank",
+      "details": "Spouse/partner; Savings",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "AMP Superannuation",
+      "details": "Self",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "Australian Superannuation",
+      "details": "Self",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Self; Caravan",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Self; Boat",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "Australian Superannuation - Life Insurance",
+      "details": "Self",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "Canungra Bendigo Community Bank Investment",
+      "details": "Self",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "Comm Insure - Life Insurance",
+      "details": "Spouse/partner",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "Suncorp - Life Insurance",
+      "details": "Spouse/partner",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "Superannuation",
+      "details": "Spouse/partner",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Self; Not Applicable",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "Teachwrite",
+      "details": "Spouse/partner; Consultant for Teachwrite",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Self; Not Applicable",
+      "pdf_url": "buchholz_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Self; Not Applicable",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Self; Not Applicable",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Qantas Chairman's Lounge",
+      "details": "Self",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Virgin Australia The Club",
+      "details": "Self",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Liberal National Party",
+      "details": "Self",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Honrary Rotarian",
+      "details": "Self",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Qantas Chairman's Lounge",
+      "details": "Spouse/partner",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Virgin Australia The Club",
+      "details": "Spouse/partner",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Self; Not Applicable",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Interests",
+      "entity": "Collins & Associates",
+      "details": "Spouse/partner; Sole representative of Collins & Associates in Australia - Education",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-14",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Self - Blackwater, QLD. Investment Property.",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-14",
+      "category": "Liabilities",
+      "entity": "ANZ",
+      "details": "Self - Mortgage on investment property. ANZ.",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-14",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "Spouse - Savings. ANZ.",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-14",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Self - Assorted farm equipment.",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-14",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Self - Vehicles.",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-14",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Spouse - Vehicle.",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-14",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Self - Sole Trader, Farming Operations.",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-14",
+      "category": "Income Sources",
+      "entity": "Hills Education",
+      "details": "Spouse - Sole trader, Hills Education. Education and training.",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-14",
+      "category": "Memberships",
+      "entity": "Boonah Golf Club",
+      "details": "Self - Boonah Golf Club.",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-14",
+      "category": "Memberships",
+      "entity": "Fassifern Rotary",
+      "details": "Self - Fassifern Rotary.",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-14",
+      "category": "Memberships",
+      "entity": "Fassifern Sports Club",
+      "details": "Self - Fassifern Sports Club.",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-14",
+      "category": "Memberships",
+      "entity": "Australian Parliamentary Sports Club",
+      "details": "Self - Australian Parliamentary Sports Club.",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-14",
+      "category": "Memberships",
+      "entity": "Standardbred Association QLD",
+      "details": "Self - Standardbred Association QLD.",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-14",
+      "category": "Memberships",
+      "entity": "St Brendan's Old Boys",
+      "details": "Self - St Brendan's Old Boys.",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-14",
+      "category": "Memberships",
+      "entity": "Adopt Change",
+      "details": "Spouse - Honorary Ambassador for Adopt Change.",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-14",
+      "category": "Shares",
+      "entity": "Hills Cattle Company Pty Ltd",
+      "details": "Spouse - Hills Cattle Company Pty Ltd.",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-14",
+      "category": "Trusts",
+      "entity": "HCCC Trust",
+      "details": "(i) Spouse - HCCC Trust.",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-14",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Self - Boonah, QLD. Former Residential.",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-14",
+      "category": "Directorships",
+      "entity": "Hills Cattle Company Pty Ltd",
+      "details": "Spouse - Hills Cattle Company Pty Ltd. Trustee company for a discretionary trust.",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-14",
+      "category": "Partnerships",
+      "entity": "G & S Buchholz",
+      "details": "Self - G & S Buchholz.",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-14",
+      "category": "Partnerships",
+      "entity": "L.C. and S.A. Buchholz",
+      "details": "Self - L.C. and S.A. Buchholz.",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-14",
+      "category": "Partnerships",
+      "entity": "B & C Hills",
+      "details": "Spouse - B & C Hills.",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-14",
+      "category": "Liabilities",
+      "entity": "ANZ",
+      "details": "Self - Mortgage on residential property. ANZ.",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-14",
+      "category": "Liabilities",
+      "entity": "Esanda",
+      "details": "Self - Vehicle. Esanda.",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-14",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Self - Vehicle. Westpac.",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-14",
+      "category": "Liabilities",
+      "entity": "BOQ",
+      "details": "Self - Personal Loan. BOQ.",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-14",
+      "category": "Savings/Investments",
+      "entity": "Macquarie Bank",
+      "details": "Spouse - Savings. Macquarie Bank.",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-14",
+      "category": "Income Sources",
+      "entity": "Teachwrite",
+      "details": "Spouse - Consultant for Teachwrite.",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-15",
+      "category": "Savings/Investments",
+      "entity": "BT Panorama Managed Investments",
+      "details": "Self - BT Panorama Managed Investments",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-15",
+      "category": "Savings/Investments",
+      "entity": "BT Panorama Managed Investments",
+      "details": "Spouse - BT Panorama Managed Investments",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-15",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "4 tickets - Wallabies v All Blacks (Grandstand) Etoro Tri Nations 2020",
+      "pdf_url": "buchholz_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2021-03-16",
+      "category": "Shares",
+      "entity": "Canungra",
+      "details": "Canungra & District Community Financial Group Ltd",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-03-16",
+      "category": "Shares",
+      "entity": "District Community Financial Group Ltd",
+      "details": "Canungra & District Community Financial Group Ltd",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-03-16",
+      "category": "Liabilities",
+      "entity": "BOQ",
+      "details": "Self - Vehicle lease. BOQ",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-03-16",
+      "category": "Liabilities",
+      "entity": "BOQ",
+      "details": "Self - Irrigation equipment lease. BOQ",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-03-16",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Irrigation equipment",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-03-16",
+      "category": "Gifts",
+      "entity": "Suncorp Stadium",
+      "details": "2 tickets - Reds V Rebels Suncorp Stadium (Chairman's suite - QLD Rugby Union guest)",
+      "pdf_url": "buchholz_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2021-03-16",
+      "category": "Gifts",
+      "entity": "GIO Stadium",
+      "details": "2 tickets - Reds V Brumbies GIO Stadium (Chairman's suite - APH Sports Club Guest)",
+      "pdf_url": "buchholz_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2021-03-16",
+      "category": "Liabilities",
+      "entity": "ANZ",
+      "details": "Spouse - Credit Card. ANZ.",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-03-16",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "Spouse - Savings. ANZ.",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-03-16",
+      "category": "Other Assets",
+      "entity": "Canungra Bendigo Community Bank Investment",
+      "details": "Self - Canungra Bendigo Community Bank Investment",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-06-29",
+      "category": "Travel",
+      "entity": "Brendan Menegarzzo",
+      "details": "I travelled on a private charter flight at the invitation of Mr Brendan Menegarzzo from Brisbane to Normanton (return flight) on Thursday 10th - 11th June 2021",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-07-23",
+      "category": "Partnerships",
+      "entity": "Kay Tent Cee Trust",
+      "details": "S.A Buchholz & C.P Hills & The Trustee for Kay Tent Cee Trust",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-14",
+      "category": "Income Sources",
+      "entity": "Department of Education",
+      "details": "Spouse - Department of Education",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-14",
+      "category": "Income Sources",
+      "entity": "Airbnb",
+      "details": "Spouse - airbnb Host",
+      "pdf_url": "buchholz_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-14",
+      "category": "Income Sources",
+      "entity": "Airbnb",
+      "details": "Spouse - airbnb Host",
+      "pdf_url": "buchholz_46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/buchholz_46p.pdf"
+}

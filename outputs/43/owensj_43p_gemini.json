@@ -1,0 +1,116 @@
+{
+  "mp_name": "Julie Ann Owens",
+  "party": "Unknown",
+  "electorate": "Parramatta",
+  "disclosures": [
+    {
+      "declaration_date": "2010-10-13",
+      "category": "Shares",
+      "entity": "Telstra",
+      "details": "N/A",
+      "pdf_url": "owensj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-13",
+      "category": "Shares",
+      "entity": "NRMA",
+      "details": "N/A",
+      "pdf_url": "owensj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-13",
+      "category": "Shares",
+      "entity": "IAG",
+      "details": "N/A",
+      "pdf_url": "owensj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-13",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "NTA Parramatta - Residence",
+      "pdf_url": "owensj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-13",
+      "category": "Liabilities",
+      "entity": "ANZ",
+      "details": "Home Loan",
+      "pdf_url": "owensj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-13",
+      "category": "Liabilities",
+      "entity": "ANZ, Citibank",
+      "details": "Credit Cards",
+      "pdf_url": "owensj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-13",
+      "category": "Liabilities",
+      "entity": "Toyota Finance",
+      "details": "Vehicle Loan",
+      "pdf_url": "owensj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-13",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "Savings Account",
+      "pdf_url": "owensj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-13",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Savings Account",
+      "pdf_url": "owensj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-13",
+      "category": "Other Assets",
+      "entity": "ARIA",
+      "details": "Superannuation - PSS Public Sector Super - Tower",
+      "pdf_url": "owensj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-13",
+      "category": "Travel",
+      "entity": "Australian Military",
+      "details": "10 days in Afghanistan hosted by Australian Military",
+      "pdf_url": "owensj_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-02-05",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "Savings accounts (2)",
+      "pdf_url": "owensj_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-02-05",
+      "category": "Liabilities",
+      "entity": "Toyota Finance",
+      "details": "Vehicle Loan - Toyota Finance",
+      "pdf_url": "owensj_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-06-17",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Traditional dress from Motrilva (Gift from constituent)",
+      "pdf_url": "owensj_43p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2013-06-17",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Harmonium in case (Gift from constituent)",
+      "pdf_url": "owensj_43p.pdf",
+      "sub_category": "Other Gifts"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/43/owensj_43p.pdf"
+}

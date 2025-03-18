@@ -1,0 +1,94 @@
+{
+  "mp_name": "Craig Kelly",
+  "party": "Unknown",
+  "electorate": "Hughes",
+  "disclosures": [
+    {
+      "declaration_date": "2016-09-22",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Illawong, Family Home",
+      "pdf_url": "kellyc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-22",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Illawong, Family Home (Spouse)",
+      "pdf_url": "kellyc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-22",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Bank Account",
+      "pdf_url": "kellyc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-22",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Bank Account (Spouse)",
+      "pdf_url": "kellyc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-22",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Bank Account (Dependent Children)",
+      "pdf_url": "kellyc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-22",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Car, superannuation",
+      "pdf_url": "kellyc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-22",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Car, superannuation (Spouse)",
+      "pdf_url": "kellyc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-22",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Disability Pension (Dependent Children)",
+      "pdf_url": "kellyc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-22",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Standard Foxtel service to electorate office in Sutherland",
+      "pdf_url": "kellyc_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-09-20",
+      "category": "Travel",
+      "entity": "Aznur Pty Ltd",
+      "details": "Sept 2016 to Azerbaijan paid by Aznur Pty Ltd. The trip is a delegation from the Australia Azerbaijan Parliamentary Friendship Group to observe a referendum process being conducted by the Azerbaijan government. The duration of the trip is approximately 7 days.",
+      "pdf_url": "kellyc_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-11-16",
+      "category": "Travel",
+      "entity": "Australian Minerals Council",
+      "details": "Japan Visit. 28th - 31st July 2018. Meetings with; Japanese Gout Energy Ministry, J-Power, Steel works , Isogo Thermal Power Station, Australian Embassy. Air fares, Accommodation & Transport and Meals sponsored by Australian Minerals Council.",
+      "pdf_url": "kellyc_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-11-16",
+      "category": "Travel",
+      "entity": "Azerbaijan Consul",
+      "details": "Delegation to Baku Azerbaijan - Election Monitoring. Flights Return Syd/Baku 10th - 12th April, Accomodation Baku 11th April. Transfers, Meals and Hospitality sponsored by Azerbaijan Consul.",
+      "pdf_url": "kellyc_45p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/kellyc_45p.pdf"
+}

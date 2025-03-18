@@ -1,0 +1,178 @@
+{
+  "mp_name": "Ross Vasta",
+  "party": "Unknown",
+  "electorate": "Bonner",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "NONE",
+      "pdf_url": "vastar_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Trusts",
+      "entity": "SALROAND HOLDINGS PTY LTD",
+      "details": "INVESTMENT COMPANY, Beneficiary of a discretionary trust",
+      "pdf_url": "vastar_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "NONE",
+      "pdf_url": "vastar_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "CARINDALE BRISBANE, RESIDENCE",
+      "pdf_url": "vastar_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "vastar_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "vastar_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "MORTGAGE",
+      "pdf_url": "vastar_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "NONE",
+      "pdf_url": "vastar_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "CHEQUE ACCOUNT",
+      "pdf_url": "vastar_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "NONE",
+      "pdf_url": "vastar_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "NONE",
+      "pdf_url": "vastar_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "NONE",
+      "pdf_url": "vastar_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "NONE",
+      "pdf_url": "vastar_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "vastar_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "NONE",
+      "pdf_url": "vastar_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-03-06",
+      "category": "Shares",
+      "entity": "ANZ",
+      "details": "Spouse Listed Companies: ANZ, VTG",
+      "pdf_url": "vastar_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-03-06",
+      "category": "Shares",
+      "entity": "VTG",
+      "details": "Spouse Listed Companies: ANZ, VTG",
+      "pdf_url": "vastar_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-03-06",
+      "category": "Trusts",
+      "entity": "The Goodyear Trust",
+      "details": "Self: The Goodyear Trust- Trustee of Superannuation Fund; Beneficial Interest Yes; Spouse: The Goodyear Trust- Trustee of Superannuation Fund; Beneficial Interest Yes",
+      "pdf_url": "vastar_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-03-06",
+      "category": "Trusts",
+      "entity": "Salroand Holdings Pty Ltd",
+      "details": "Self: Salroand Holdings Pty Ltd- Investment Company- Beneficiary- At the discretion of the Trustee",
+      "pdf_url": "vastar_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-03-06",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Self: Brisbane QLD- Investment Property; Spouse: Brisbane QLD- Investment Property",
+      "pdf_url": "vastar_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-03-06",
+      "category": "Liabilities",
+      "entity": "Suncorp",
+      "details": "Spouse: Property Loan- Suncorp",
+      "pdf_url": "vastar_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-03-06",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "Spouse: Deposits: ANZ",
+      "pdf_url": "vastar_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-03-06",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Self: Motor Vehicle; Spouse: Motor Vehicle",
+      "pdf_url": "vastar_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-03-06",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Self: Investment property; Spouse: Investment property",
+      "pdf_url": "vastar_44p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/vastar_44p.pdf"
+}

@@ -1,0 +1,557 @@
+{
+  "mp_name": "David Bernard Coleman",
+  "party": "Unknown",
+  "electorate": "Banks",
+  "disclosures": [
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Genbook Inc",
+      "details": "Shareholdings in public and private companies",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "L21 Pty Ltd",
+      "details": "Shareholdings in public and private companies",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "L21 Consulting Pty Ltd",
+      "details": "Shareholdings in public and private companies",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Boral Ltd",
+      "details": "Shareholdings in public and private companies",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Bluescope Steel Ltd",
+      "details": "Shareholdings in public and private companies",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Coca-Cola Amatil Ltd",
+      "details": "Shareholdings in public and private companies",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "National Australia Bank Ltd",
+      "details": "Shareholdings in public and private companies",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "QBE Ltd",
+      "details": "Shareholdings in public and private companies",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "AGL Ltd",
+      "details": "Shareholdings in public and private companies",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Primary Health Care Ltd",
+      "details": "Shareholdings in public and private companies",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Rio Tinto Ltd",
+      "details": "Shareholdings in public and private companies",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Lugarno NSW, Home",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Cronulla NSW, Investment property",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "ING Bank",
+      "details": "Investment Property Mortgage",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "Macquarie Bank",
+      "details": "Cash Management",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "St George",
+      "details": "Savings",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "Savings",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "ING Direct",
+      "details": "Savings",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "Australian Super",
+      "details": "Superannuation",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "AMP",
+      "details": "Life Insurance",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "Australian Super",
+      "details": "Life Insurance",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Bankstown Sports Club",
+      "details": "Patron",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Bankstown Touch Association",
+      "details": "Patron",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "NSW National Servicemen's Association",
+      "details": "Patron",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "NSW Veterans Table Tennis",
+      "details": "Patron",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "St George Australian Football Club",
+      "details": "Patron",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "St George District Cricket Club",
+      "details": "Patron",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "St George Football Association",
+      "details": "Patron",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "St Joseph's Riverwood Sports Club",
+      "details": "Patron",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Hurstville Rotary",
+      "details": "Member",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Coalition Friends of the Digital Economy",
+      "details": "Co-Chair",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Parliamentary Friends of Innovation and Enterprise",
+      "details": "Co-Chair",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Boral Ltd",
+      "details": "Spouse",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Bluescope Steel Ltd",
+      "details": "Spouse",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Coca-Cola Amatil Ltd",
+      "details": "Spouse",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "National Australia Bank Ltd",
+      "details": "Spouse",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "QBE Ltd",
+      "details": "Spouse",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "AGL Ltd",
+      "details": "Spouse",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Primary Health Care Ltd",
+      "details": "Spouse",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Rio Tinto Ltd",
+      "details": "Spouse",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "ING Bank",
+      "details": "Investment Property Mortgage - Spouse",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "ING Direct",
+      "details": "Savings - Spouse",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Savings - Spouse",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "Savings - Spouse",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Income Sources",
+      "entity": "University of New South Wales",
+      "details": "Tutor, University of New South Wales, Faculty of Business - Spouse",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "Fidelity",
+      "details": "401(k) plan, Fidelity - Spouse",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "ONE PATH",
+      "details": "Superannuation, ONE PATH - Spouse",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "Legal Super",
+      "details": "Superannuation, Legal Super - Spouse",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Moving Forward",
+      "details": "Board Director - Spouse",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Boral Ltd",
+      "details": "DELETION",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Bluescope Steel Ltd",
+      "details": "DELETION",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Coca-Cola Amatil Ltd",
+      "details": "DELETION",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "National Australia Bank Ltd",
+      "details": "DELETION",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "AGL Ltd",
+      "details": "DELETION",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Primary Health Care Ltd",
+      "details": "DELETION",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "QBE Ltd",
+      "details": "DELETION",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Rio Tinto Ltd",
+      "details": "DELETION",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-11-11",
+      "category": "Memberships",
+      "entity": "Coalition Friends of the Digital Economy",
+      "details": "Coalition Friends of the Digital Economy, of which I am Co-Chair, held a lunch hosted by Ratesetter on 13 October 2016",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-11-15",
+      "category": "Shares",
+      "entity": "Coca-Cola Amatil Ltd",
+      "details": "Coca-Cola Amatil Ltd, shares received under dividend reinvestment plan due to previous ownership of Coca-Cola Amatil shares",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-11-15",
+      "category": "Shares",
+      "entity": "Rio Tinto Ltd",
+      "details": "Rio Tinto Ltd, share received due under dividend reinvestment plan due to previous ownership of Rio Tinto shares",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-11-15",
+      "category": "Shares",
+      "entity": "Coca-Cola Amatil Ltd",
+      "details": "Coca-Cola Amatil Ltd, shares received under dividend reinvestment plan due to previous ownership of Coca-Cola Amatil shares",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-11-15",
+      "category": "Shares",
+      "entity": "Rio Tinto Ltd",
+      "details": "Rio Tinto Ltd, share received due under dividend reinvestment plan due to previous ownership of Rio Tinto shares",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-11-22",
+      "category": "Hospitality",
+      "entity": "Fujian Minann Association",
+      "details": "Lunch, Costs paid by Fujian Minann Association, 30 September 2016",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-02-20",
+      "category": "Hospitality",
+      "entity": "Australian Digital Alliance",
+      "details": "Catering costs paid by Australian Digital Alliance for function on 15 February 2017 hosted by Parliamentary Friends of Innovation and Enterprise. I am co-chair of the Parliamentary Friends of Innovation and Enterprise.",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-02-20",
+      "category": "Hospitality",
+      "entity": "People's Republic of China",
+      "details": "On 17 February 2017 my wife and I attended a dinner hosted by the NSW Consul General of the People's Republic of China, His Excellency Gu Xiaojie.",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-04-11",
+      "category": "Hospitality",
+      "entity": "Tony Mitevski of Sylvania Waters",
+      "details": "On 8 April 2017 my wife and I attended a function at Randwick Racecourse. Costs of this event were paid for by Mr Tony Mitevski of Sylvania Waters.",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-04-12",
+      "category": "Hospitality",
+      "entity": "Club Rivers",
+      "details": "Club Rivers, Riverwood, waived room hire fees for the Banks Community Awards which were held on 5 April 2017.",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-05-08",
+      "category": "Memberships",
+      "entity": "Australia-China Parliamentary Friendship Group",
+      "details": "On April 19 I attended a luncheon and media briefing which was held in relation to the Australia-China Parliamentary Friendship Group. I am Chair of this Group. The event was organised by the NSW Southern Region Chinese Business Association, Northern Sydney Chinese Business Association, Australia Hebei Business Association, Australia Joint Development Alliance for Beijing Tianjin and Hebei, and Australia Tianjin Chamber of Commerce.",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-06-22",
+      "category": "Hospitality",
+      "entity": "Salesforce Ltd",
+      "details": "On June 14 my wife and I attended the Mid-Winter Ball as guests of Salesforce Ltd.",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-10-27",
+      "category": "Hospitality",
+      "entity": "Club Central Hurstville",
+      "details": "Club Central Hurstville, Waiver of Room Hire Fee, Function 7 October 2017",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-11-14",
+      "category": "Gifts",
+      "entity": "GU Filmhouse Beverly Hills",
+      "details": "GU Filmhouse Beverly Hills, Donation of Cinema for Banks Short Film Contest, 1 November 2017",
+      "pdf_url": "colemand_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2017-11-14",
+      "category": "Gifts",
+      "entity": "Shopfront Arts Co-Operative Carlton",
+      "details": "Shopfront Arts Co-Operative Carlton, Donation of Film Production Courses as Prizes for Banks Short Film Contest, 1 November 2017",
+      "pdf_url": "colemand_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2018-04-03",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Qantas, Flight upgrade, 16 March 2018, Cairns-Sydney, Economy-Business",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-06-25",
+      "category": "Memberships",
+      "entity": "Trilogy Foundation of Canterbury-Basnkstown",
+      "details": "Patron, Trilogy Foundation of Canterbury-Basnkstown",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-09-29",
+      "category": "Hospitality",
+      "entity": "Google Australia",
+      "details": "Ticket to Mid-Winter Ball, 12 September 2018, Google Australia",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-10-26",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Flight upgrade, Economy-Business, Qantas, Flight from Sydney-Melbourne, 8 October 2018",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-10-26",
+      "category": "Hospitality",
+      "entity": "NSW Consulate of China",
+      "details": "Ticket, Legend of Duanhang Dance Performance, NSW Consulate of China, 6 October 2018",
+      "pdf_url": "colemand_45p.pdf"
+    },
+    {
+      "declaration_date": "2019-04-04",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Flight upgrade, Economy-Business, Qantas, Sydney-Melbourne, 13 March 2019",
+      "pdf_url": "colemand_45p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/colemand_45p.pdf"
+}

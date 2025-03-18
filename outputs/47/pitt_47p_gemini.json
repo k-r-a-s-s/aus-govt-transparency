@@ -1,0 +1,335 @@
+{
+  "mp_name": "Keith Pitt",
+  "party": "N/A",
+  "electorate": "Hinkler",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Shares",
+      "entity": "K",
+      "details": "Shareholding",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Shares",
+      "entity": "A Pitt Super Pty Ltd",
+      "details": "Shareholding",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Shares",
+      "entity": "Klare(Qld) Pty Ltd",
+      "details": "Shareholding",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Trusts",
+      "entity": "K & A Pitt Family Trust / KLARE (Qld) Pty Ltd",
+      "details": "Beneficial interest",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Trusts",
+      "entity": "KJ & AJ Pitt Super Fund No. 2 / K & A Pitt Super Pty Ltd",
+      "details": "Trustee",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Real Estate",
+      "entity": "Bundaberg",
+      "details": "Residential",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Real Estate",
+      "entity": "Kingston",
+      "details": "Investment (Family Trust)",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Real Estate",
+      "entity": "Brisbane",
+      "details": "Investment (Family Trust)",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Directorships",
+      "entity": "K & A Pitt Super Pty Ltd Trustee for KJ & AJ Pitt Super Fund No 2",
+      "details": "Director",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Directorships",
+      "entity": "Klare (Qld) Pty Ltd Trustee for K & A Pitt Family Trust",
+      "details": "Director",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Partnerships",
+      "entity": "KJ & AJ Pitt",
+      "details": "Inactive partnership",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Liabilities",
+      "entity": "Suncorp",
+      "details": "Investment Loan",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Liabilities",
+      "entity": "Suncorp",
+      "details": "Chattel Mortagage",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Savings/Investments",
+      "entity": "Q Super",
+      "details": "Investment",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Savings/Investments",
+      "entity": "Suncorp",
+      "details": "Cheque Account, Loan Offset Account, Travel Account, Electoral Allowance Account, Family Trust Account, Super Account",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "1954 Armstrong Siddeley Sapphire Mark 1, Tandem Trailer, Agricultural Equipment, Car",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Investments",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Memberships",
+      "entity": "Vietnam Veterans Association - Hervey Bay Sub Branch",
+      "details": "Membership",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Memberships",
+      "entity": "Vice Patron Wide Bay Capricorn Surf Life Saving Branch",
+      "details": "Membership",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Memberships",
+      "entity": "Patron Bundaberg Clay Target Club",
+      "details": "Membership",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Memberships",
+      "entity": "Patron Marine Rescue Bundaberg VMR 488",
+      "details": "Membership",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Memberships",
+      "entity": "Bundaberg PCYC",
+      "details": "Purchased Annual Membership",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Gifts",
+      "entity": "Foxtel",
+      "details": "Foxtel subscription (electorate office)",
+      "pdf_url": "pitt_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Gifts",
+      "entity": "QANTAS",
+      "details": "Chaimans lounge membership",
+      "pdf_url": "pitt_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Gifts",
+      "entity": "Virgin",
+      "details": "Virgin Lounge Membership",
+      "pdf_url": "pitt_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Real Estate",
+      "entity": "Woodgate",
+      "details": "Residential",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Travel",
+      "entity": "Labona",
+      "details": "Sponsored Travel - Flight from Townsville to Labona airstrip return for minesite visit sponsored by Bravus",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Travel",
+      "entity": "Auswide Bank",
+      "details": "Grandstand ticket State of Origin Brisbane (Auswide Bank)",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Travel",
+      "entity": "Bundaberg",
+      "details": "Tickets to NRL match Cowboys vs Bulldogs in Bundaberg (Bulldogs)",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-02-24",
+      "category": "Memberships",
+      "entity": "Tattersalls Club Brisbane",
+      "details": "Membership",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-04-28",
+      "category": "Travel",
+      "entity": "Bravus",
+      "details": "One corporate Ticket NQ Cowboys vs Canberra Raiders - Townsville (Sponsored by Bravus)",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-09-26",
+      "category": "Travel",
+      "entity": "Suncorp stadium",
+      "details": "FIFA - Matildas vs France- 2 x complimentary tickets (Suncorp stadium)",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-01",
+      "category": "Travel",
+      "entity": "NRL",
+      "details": "One ticket to NRL Semi Final Broncos Vs Warriors Suncorp stadium - Courtesy of the NRL",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-04-24",
+      "category": "Gifts",
+      "entity": "G & A Richardson",
+      "details": "Framed and signed North Queensland Cowboys jersey. - G & A Richardson",
+      "pdf_url": "pitt_47p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2024-04-30",
+      "category": "Travel",
+      "entity": "Suncorp",
+      "details": "Two tickets to NRL Dolphins vs Newcastle game (28/4/24 in Brisbane) - Suncorp.",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-06-06",
+      "category": "Savings/Investments",
+      "entity": "Macquarie",
+      "details": "K & A Pitt super pty ltd - Macquarie cash management account",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-05",
+      "category": "Shares",
+      "entity": "NextDC limited",
+      "details": "K & A Pitt Super pty ltd ATF KJ & AJ Pitt superfund No 2 (SMSF) - NextDC limited",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-05",
+      "category": "Shares",
+      "entity": "Stanmore Resources Limited",
+      "details": "K & A Pitt Super pty ltd ATF KJ & AJ Pitt superfund No 2 (SMSF) - Stanmore Resources Limited",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-05",
+      "category": "Shares",
+      "entity": "Woodside Energy Group Ltd",
+      "details": "K & A Pitt Super pty ltd ATF KJ & AJ Pitt superfund No 2 (SMSF) - Woodside Energy Group Ltd",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-05",
+      "category": "Shares",
+      "entity": "Whitehaven Coal Limited",
+      "details": "K & A Pitt Super pty ltd ATF KJ & AJ Pitt superfund No 2 (SMSF) - Whitehaven Coal Limited",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-05",
+      "category": "Shares",
+      "entity": "Coronado Global Resources Inc",
+      "details": "K & A Pitt Super pty ltd ATF KJ & AJ Pitt superfund No 2 (SMSF) - Coronado Global Resources Inc",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-24",
+      "category": "Shares",
+      "entity": "BHP",
+      "details": "K & A Pitt Super pty ltd ATF KJ & AJ Pitt superfund No 2 (SMSF) - BHP",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-09-04",
+      "category": "Travel",
+      "entity": "Ardo Hotel",
+      "details": "Accommodation (1 night) - Couriermail bush summit Townsville - Ardo Hotel",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-09-04",
+      "category": "Travel",
+      "entity": "Suncorp",
+      "details": "Grandstand tickets (6) - Suncorp stadium Brisbane - Dolphins vs Broncos 31/8/24 (Suncorp)",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-09-04",
+      "category": "Real Estate",
+      "entity": "Klare (qld) pty ltd ATF K & A Pitt Family Trust - Unit - Kingston ACT",
+      "details": "property sold",
+      "pdf_url": "pitt_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-12-02",
+      "category": "Travel",
+      "entity": "Hancock Prospecting",
+      "details": "One nights accommodation - Adelaide, Flight and bus transfers Adelaide - Moomba return, National Mining Day Awards and Gala Dinner - Hancock Prospecting.",
+      "pdf_url": "pitt_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/pitt_47p.pdf"
+}

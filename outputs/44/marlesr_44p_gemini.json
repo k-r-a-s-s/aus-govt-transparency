@@ -1,0 +1,591 @@
+{
+  "mp_name": "Richard Marles",
+  "party": "Unknown",
+  "electorate": "Corio",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Pengana Capital Investments",
+      "details": "Share portfolio, sole beneficiary",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Avanti Investments P/L",
+      "details": "Property, 500 shares - beneficiary",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Joint Ownership, East Geelong, Residential",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Queanbeyan, Residential",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "East Geelong, Investment",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Partnerships",
+      "entity": "Maurice Blackburn",
+      "details": "Principal (Salaried Partner), Solicitors",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "Bendigo Bank",
+      "details": "Credit Card",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "ANZ Bank",
+      "details": "Joint Mortgage - East Geelong",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "ANZ Bank",
+      "details": "Joint Mortgage - Queanbeyan",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "ANZ Bank.",
+      "details": "Joint Mortgage - East Geelong",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "Bank Melb",
+      "details": "Lease - Purchase on Ford Territory",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Credit Card",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "Bendigo Bank",
+      "details": "Savings Accounts",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "ANZ Bank",
+      "details": "Joint, Redraw facility on mortgages",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Savings Account",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings Accounts X2",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Isabella Savings Account",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Isabella Savings Account",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Harvey Savings Account",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Harvey Savings Account",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Georgia Savings Account",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Georgia Savings Account",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "Australian Super",
+      "details": "Superannuation with Australian Super",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "ANZ Investments P/L.",
+      "details": "Ford Territory, Ford Focus, Superannuation with ANZ Investments P/L.",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Income Sources",
+      "entity": "Maurice Blackburn Solicitors",
+      "details": "Principal (Salaried Partner)",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "All previous gifts declared",
+      "pdf_url": "marlesr_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "All previous hospitality declared",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "1 ticket to President's Lunch, Geelong v Sydney 24/8/13",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Thirteenth Beach Golf Club",
+      "details": "See Attachment",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Royal Melbourne Golf Club",
+      "details": "See Attachment",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Melbourne Cricket Club",
+      "details": "See Attachment",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Geelong Football Club",
+      "details": "See Attachment",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Transport Workers' Union of Australia",
+      "details": "See Attachment",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "United States Golf Association",
+      "details": "See Attachment",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Care Leavers of Australia Network",
+      "details": "Patron - See Attachment",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Northern Futures",
+      "details": "Co-chair - See Attachment",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Corio-Norlane Development Advisory Board",
+      "details": "See Attachment",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Various Community Sports Clubs",
+      "details": "\"No2 ticket holder\" at various community sports clubs from time to time",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Melbourne Cricket Club",
+      "details": "Spouse - See Attachment",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Victoria Racing Club",
+      "details": "Spouse - See Attachment",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Australian Services Union",
+      "details": "Spouse - See Attachment",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Australian Plaintiff Lawyers Association",
+      "details": "Spouse - See Attachment",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Law Institute of Victoria",
+      "details": "Spouse - See Attachment",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Geelong Community Legal Centre",
+      "details": "Spouse - See Attachment",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Geelong Indoor Plants and Orchids Club",
+      "details": "Spouse - See Attachment",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Geelong Football Club",
+      "details": "Sam - See Attachment",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Thirteenth Beach Golf Club",
+      "details": "Sam - See Attachment",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "East Geelong Golf Club",
+      "details": "Sam - See Attachment",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Royal Melbourne Golf Club",
+      "details": "Sam - See Attachment",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Victorian Golf Association",
+      "details": "Sam - See Attachment",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Geelong Football Club",
+      "details": "Isabella - See Attachment",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Geelong Football Club",
+      "details": "Harvey - See Attachment",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Geelong Football Club",
+      "details": "Georgia - See Attachment",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-04-24",
+      "category": "Travel",
+      "entity": "PGA of Australia",
+      "details": "1 Ticket to the Wednesday practice day (9th April 2014) and the tournament days (10-13 April 2014) of the US Masters Golf Tournament plus periodic access to the Magnolia Lounge on course provided by the PGA of Australia.",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-04-24",
+      "category": "Travel",
+      "entity": "PGA of Australia",
+      "details": "Accommodation in a shared house in Augusta, Georgia for 6 nights (8-13 April 2014) provided by the PGA of Australia.",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-04-24",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Upgrade from Economy to Business class on the Qantas flight from LA to Melbourne which arrived on 16 April 2014, provided by Qantas.",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-08-11",
+      "category": "Travel",
+      "entity": "Australian American Leadership Dialogue and Virgin Australia",
+      "details": "Return Business Class Airfare from Melbourne to Washington DC on 19/7/14 and New York to Melbourne on 25-27/7/14 provided by the Australian American Leadership Dialogue and Virgin Australia (plus bus trip from Washington to NYC)",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-08-11",
+      "category": "Hospitality",
+      "entity": "Geelong Football Club",
+      "details": "Two tickets to the President's Dinner and Match, Geelong v. Fremantle on 9/8/14 provided by the Geelong Football Club.",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-10-31",
+      "category": "Memberships",
+      "entity": "PGA of Australia",
+      "details": "Honorary membership of the PGA of Australia which has been provided to all members of the Parliamentary friends of golf.",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-11-21",
+      "category": "Hospitality",
+      "entity": "PGA of Australia",
+      "details": "Ticket to play in the Pro-Am at the Australian Masters golf tournament on 19 November provided by the PGA of Australia.",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-12-18",
+      "category": "Hospitality",
+      "entity": "PGA of Australia",
+      "details": "Participation in the Pro-Am at the Australian PGA Tournament on 10 December 2015 plus 1 night accommodation and transfers between the airport and the hotel, provided by the PGA of Australia.",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-02-16",
+      "category": "Travel",
+      "entity": "Mr Joel Morgan",
+      "details": "Day trip to Round Island while on a private holiday in Seychelles with family, courtesy of Mr Joel Morgan on 17 January 2015.",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-02-16",
+      "category": "Hospitality",
+      "entity": "Optus",
+      "details": "Two tickets to the Women's Final of the Australian Open tennis including hospitality courtesy of Optus on 31 January 2015.",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-02-16",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Two places in the Pro-Am at the Victorian Open golf championship on 3 February 2015.",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-02-16",
+      "category": "Memberships",
+      "entity": "East Geelong Golf Club, St Mary's Sporting Club and the Kardinia Netball Association",
+      "details": "Isabella has joined the East Geelong Golf Club, St Mary's Sporting Club and the Kardinia Netball Association.",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-02-16",
+      "category": "Memberships",
+      "entity": "East Geelong Golf Club",
+      "details": "Harvey has joined the East Geelong Golf Club.",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-02-16",
+      "category": "Memberships",
+      "entity": "Heritage Golf and Country Club",
+      "details": "Sam has joined the Heritage Golf and Country Club as part of his studies at the Australian College of Elite Golf.",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-02-16",
+      "category": "Memberships",
+      "entity": "East Geelong Golf Club",
+      "details": "Sam is no longer a member of the East Geelong Golf Club.",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-03-24",
+      "category": "Hospitality",
+      "entity": "Australian International Airshow",
+      "details": "Tickets to the Australian International Airshow including hospitality for myself, my wife and 3 children courtesy of the Australian International Airshow.",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-05-01",
+      "category": "Travel",
+      "entity": "Harold Mitchell",
+      "details": "Travel and accommodation for myself and Chief of Staff provided by Harold Mitchell as follows: Economy flights from Melbourne to Sydney on 5 April '15; Premium Economy flights from Sydney to Dubai on 5 April '15; Economy flights from Dubai to Amman on 6 April '15; Business flights from Amman to Geneva (via Vienna) on 7 April '15; Economy flights from Geneva to Dubai on 10 April '15; Premium Economy flights from Dubai to Sydney on 11 April '15; Economy flights from Sydney to Melbourne on 11 April '15. Accommodation in Dubai (6 April '15), Amman (6 April '15) and Geneva (7, 8 and 9 April '15)",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-05-01",
+      "category": "Travel",
+      "entity": "Harold Mitchell",
+      "details": "Qantas Flight upgrades as follows: 5th April 2015 Melbourne to Sydney Economy to Business class for myself and my Chief of Staff 5th April 2015 Sydney to Dubai Premium Economy to Business Class for myself and my Chief of Staff 12th April 2015 Sydney to Melbourne Economy to Business Class for myself and my Chief of Staff",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-05-01",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "26th April 2015 Geelong Football Club President's lunch and match at Simonds Stadium, Geelong",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-06-17",
+      "category": "Travel",
+      "entity": "Harold Mitchell",
+      "details": "Travel and accommodation for myself and Adviser provided by Harold Mitchell as follows: Business flights from Melbourne to Kuala Lumpur on 17 May '15; Economy flights to Myanmar on 19 May '15; Economy flights to Thailand on 20 May '15; Economy flights to Cambodia on 21 May '15; Business flights to Melbourne on 21 May '15. Accommodation in Kuala Lumpur (17-18 May '15), Myanmar (19 May '15), Bangkok (20 May '15).",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-07-16",
+      "category": "Hospitality",
+      "entity": "Victorian State Government",
+      "details": "9th January 2015, 2 Tickets and hospitality to the Asian Cup Group Match, Australia Vs Kuwait at Melbourne Rectangular Stadium provided by Victorian State Government",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-07-16",
+      "category": "Hospitality",
+      "entity": "Victorian State Government",
+      "details": "17th June 2015, 3 Tickets and hospitality to the NRL State of Origin match, Queensland Vs NSW, MCG, provided by Victorian State Government",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-07-16",
+      "category": "Hospitality",
+      "entity": "Linfox",
+      "details": "21st June 2015 2 tickets to the Geelong Football Club President's lunch and match at Simonds Stadium provided by Linfox",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-07-16",
+      "category": "Hospitality",
+      "entity": "Melbourne Stadiums Limited",
+      "details": "11th July 2015, 2 Tickets and hospitality to the Geelong Vs North Melbourne AFL game at Etihad Stadium, provided by Melbourne Stadiums Limited",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-08-03",
+      "category": "Travel",
+      "entity": "Chevron Australia",
+      "details": "Charter flights from Perth to Barrow Island and Wheatstone, Western Australia provided by Chevron Australia on Thursday 30 July 2015 including shoes and hospitality",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-09-22",
+      "category": "Hospitality",
+      "entity": "Geelong Football Club",
+      "details": "5th September 2015, 6 tickets to the Geelong Vs Adelaide football match at Simonds Stadium, provided by Geelong Football Club.",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-10",
+      "category": "Travel",
+      "entity": "Harold Mitchell",
+      "details": "Travel and accommodation for myself and Chief of Staff as part of a travelling party consisting of: the Hon. Bill Shorten and a member of his staff, the Hon. Tanya Plibersek and three representatives of the media (media representatives paid for their own accommodation) provided by Harold Mitchell as follows: Charter flight from Essendon Airport, Melbourne to Port Moresby, PNG on 1st November 2015 including overnight accommodation in Port Moresby. Flight from Port Moresby, PNG to Majuro, Marshall Islands on 2nd November 2015 including overnight accommodation in Majuro. Flight from Majuro, Marshall Islands to Tarawa, Kiribati on 3rd November 2015 and flight from Tarawa, Kiribati to Essendon Airport, Melbourne on 4th November 2015",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-10-09",
+      "category": "Travel",
+      "entity": "Australian American Leadership Dialogue",
+      "details": "Economy flight (Qantas) from Sydney to Honolulu on 4 October 2015 and economy flight (Jetstar) from Honolulu to Sydney on 7 October 2015 provided by the Australian American Leadership Dialogue to attend the Australian American Leadership Dialogue in Honolulu between 4-6 October 2015.",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-12-24",
+      "category": "Hospitality",
+      "entity": "Victorian Government",
+      "details": "2 tickets to the Taylor Swift concert in Melbourne on 12 December 2015 courtesy of the Victorian Government.",
+      "pdf_url": "marlesr_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-03-07",
+      "category": "Other Interests",
+      "entity": "Diversitat (Geelong Ethnic Communities Council)",
+      "details": "My spouse, Rachel Schutze, has been appointed to the Board of Diversitat (Geelong Ethnic Communities Council).",
+      "pdf_url": "marlesr_44p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/marlesr_44p.pdf"
+}

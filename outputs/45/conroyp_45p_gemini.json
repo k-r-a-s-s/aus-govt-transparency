@@ -1,0 +1,405 @@
+{
+  "mp_name": "Patrick Martin Conroy",
+  "party": "Unknown",
+  "electorate": "Shortland",
+  "disclosures": [
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "NIB",
+      "details": "Self",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Spouse: Nil",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Dependent Children: Nil",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Self: N/A",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Spouse: N/A",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Dependent Children: N/A",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Real Estate",
+      "entity": "Speers Point",
+      "details": "Residential property (NSW) Joint ownership with spouse. 70%",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Real Estate",
+      "entity": "Kingston Unit (ACT)",
+      "details": "Spouse: 100% owned",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Real Estate",
+      "entity": "Speers Point",
+      "details": "Spouse Residential Property Joint ownership with spouse 70%",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Dependent Children: NIL",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Self: N/A",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Spouse: N/A",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Dependent Children: N/A",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Self: N/A",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Spouse: N/A",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Dependent Children: N/A",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "Members Equity Bank",
+      "details": "Mortgage on Speers Point property (joint spouse) and Kingston unit",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "Members Equity Bank",
+      "details": "Mortgage on Speers Point property (joint spouse)",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Dependent Children: NIL",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Self: NIL",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Spouse: NIL",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Dependent Children: NIL",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "Greater Bank",
+      "details": "Electorate Office Acct",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "ME Bank",
+      "details": "Mortgage Offset Acct",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "ME Bank",
+      "details": "Spouse Mortgage offset Acct",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Dependent Children: N/A",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "Australian Super",
+      "details": "Self: Superannuation - Australian Super",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "First State Super",
+      "details": "Spouse: Superannuation- First State Super",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Dependent Children: NIL",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Self: N/A",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Income Sources",
+      "entity": "Hunter New England Health Service",
+      "details": "Spouse: Employment as a Registered Nurse by Hunter New England Health Service",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Dependent Children: N/A",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Gifts",
+      "entity": "ACTU",
+      "details": "Self: Budget night hospitality from the ACTU. Refreshments provided.",
+      "pdf_url": "conroyp_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Foxtel basic package for Electorate office.",
+      "pdf_url": "conroyp_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Spouse: NIL",
+      "pdf_url": "conroyp_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Dependent Children: NIL",
+      "pdf_url": "conroyp_45p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Self: NIL",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Spouse: NIL",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Dependent Children: NIL",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Qantas Chairman's Lounge Virgin Club",
+      "details": "Self: Qantas Chairman's Lounge Virgin Club.",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Spouse: N/A",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Dependent Children: N/A",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Self: N/A",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Spouse: N/A",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Dependent Children: N/A",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Unknown",
+      "entity": "Unknown",
+      "details": "Addition/Deletion of Interests",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-04",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Add to item 8 Savings accounts Transaction Account with Commonwealth Bank - spouse",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-08-17",
+      "category": "Savings/Investments",
+      "entity": "ME Bank",
+      "details": "Bank Account: ME Bank Transaction Account",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-08-17",
+      "category": "Hospitality",
+      "entity": "ACTU",
+      "details": "Budget Night Hospitality: ACTU Funding of Budget Night Function",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-08-17",
+      "category": "Memberships",
+      "entity": "Qantas Chairman's Lounge & Virgin Club",
+      "details": "Qantas Chairman's Lounge & Virgin Club Membership for spouse",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-08-17",
+      "category": "Hospitality",
+      "entity": "Newcastle Knights Board",
+      "details": "Hospitality from Newcastle Knights Board: Two tickets to Knights game and pre-game dinner in function room",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-01-22",
+      "category": "Liabilities",
+      "entity": "Greater Bank",
+      "details": "Mortgages with Greater Bank Limited: Greater Bank have replaced ME Bank as holding mortgages over Speers Point and Kingston Properties",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-01-22",
+      "category": "Savings/Investments",
+      "entity": "Greater Bank Limited",
+      "details": "Transaction accounts and credit card with Greater Bank Limited",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-01-22",
+      "category": "Liabilities",
+      "entity": "ME Bank",
+      "details": "Mortgages with ME Bank: Changing mortgage provider",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-01-22",
+      "category": "Savings/Investments",
+      "entity": "ME Bank",
+      "details": "Joint transaction account with ME Bank",
+      "pdf_url": "conroyp_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-10-09",
+      "category": "Hospitality",
+      "entity": "National Rugby League",
+      "details": "Hospitality from National Rugby League: Two tickets to NRL Grand Final",
+      "pdf_url": "conroyp_45p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/conroyp_45p.pdf"
+}

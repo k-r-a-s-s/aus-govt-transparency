@@ -1,0 +1,318 @@
+{
+  "mp_name": "Jane Prentice",
+  "party": "Unknown",
+  "electorate": "Ryan",
+  "disclosures": [
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Conventions Queensland Pty Ltd",
+      "details": "Shares held",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Kepcore Pty. Ltd.",
+      "details": "Shares held",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "BHP Billiton",
+      "details": "Shares held",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Trusts",
+      "entity": "Prentice Family Trust",
+      "details": "Beneficiary, not operating",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Kirkdale Road, Chapel Hill, Qld. Residence",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Directorships",
+      "entity": "Conventions Queensland Pty Ltd",
+      "details": "Not active",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Directorships",
+      "entity": "Kepcore Pty Ltd",
+      "details": "Not active",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Home mortgage",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Tickets for Davis Cup (Cairns) - September 2010",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Tickets for Cuban Ballet (QPAC-Brisbane) - September 2010",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "N/A",
+      "entity": "N/A",
+      "details": "No alterations",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-12-06",
+      "category": "Gifts",
+      "entity": "Free TV Australia",
+      "details": "Freeview High Definition Digital Set Top Box",
+      "pdf_url": "prenticej_43p.pdf",
+      "sub_category": "Electronics"
+    },
+    {
+      "declaration_date": "2010-12-06",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Underbelly DVD",
+      "pdf_url": "prenticej_43p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2010-12-06",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Packed to the Rafters DVD",
+      "pdf_url": "prenticej_43p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2010-12-06",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Hawke DVD",
+      "pdf_url": "prenticej_43p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2010-12-06",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Business class Flight upgrade for members spouse (Ms Ian Prentice) for flight QF798, Brisbane to Cairns (28 November 2010)",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-30",
+      "category": "Travel",
+      "entity": "Oil Search Pty Ltd",
+      "details": "Charter Flight Port Moresby to Moro Return 9 July 2011",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-30",
+      "category": "Travel",
+      "entity": "Oil Search Pty Ltd",
+      "details": "Helicopter Flight Moro to Hides Gasfield Return 9 July 2011",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-01-31",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Corporate tickets to the Brisbane International for Mr & Mrs Prentice",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-01-31",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Corporate tickets to the Australian Open for Mr & Mrs Prentice",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-01-31",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Upgrade for Mr & Mrs & Miss Prentice on QF598 (Perth to Brisbane) on 1 January 2012",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-01-31",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Home Unit purchased in Narrabundah ACT For use as Canberra Residence",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-01-31",
+      "category": "Liabilities",
+      "entity": "Westpac Bank",
+      "details": "Mortgage with Westpac Bank associated with purchase of home unit",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-04-10",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Corporate tickets to the Davis Cup for Mr & Mrs Prentice",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-04-10",
+      "category": "Travel",
+      "entity": "Oil Search",
+      "details": "Chartered flights to inspect Oil Search facilities in PNG Southern Highlands for Mr and Mrs Prentice",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-04-10",
+      "category": "Gifts",
+      "entity": "Prime Minister of PNG",
+      "details": "Gift of wood carving from Prime Minister of PNG",
+      "pdf_url": "prenticej_43p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2012-04-10",
+      "category": "Gifts",
+      "entity": "President of ABC",
+      "details": "Gift of traditional woven basket from President of ABC",
+      "pdf_url": "prenticej_43p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2012-06-12",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Corporate tickets to the Wallabies v Wales Rugby Match 9th June 2012 for Mr & Mrs Prentice",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-07-05",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Corporate ticket to the State of Origin NRL Match 4th July 2012",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-10-01",
+      "category": "Hospitality",
+      "entity": "Santos",
+      "details": "Corporate ticket to Santos Stradbroke Cup Handicap June 2011",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-10-01",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Corporate ticket to the Lions AFL Match July 2012",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-10-01",
+      "category": "Gifts",
+      "entity": "Australian Major Performing Arts Group",
+      "details": "Promotional pack from Australian Major Performing Arts Group September 2012",
+      "pdf_url": "prenticej_43p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2012-10-17",
+      "category": "Memberships",
+      "entity": "Virgin",
+      "details": "Membership of Virgin Lounge",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-10-17",
+      "category": "Memberships",
+      "entity": "Qantas",
+      "details": "Membership to the Qantas Chairman's Lounge",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-12",
+      "category": "Hospitality",
+      "entity": "Opera Queensland",
+      "details": "Tickets to the Opera - 10th July & 6th November - Opera Queensland",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-12",
+      "category": "Shares",
+      "entity": "Kepcove Pty Ltd",
+      "details": "Shareholdings in 'Kepcove Pty Ltd' for self - Organization deregistered by ASIC on request as at 28/10/2012 - DELETION",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-12",
+      "category": "Shares",
+      "entity": "Kepcove Pty Ltd",
+      "details": "Shareholdings in 'Kepcove Pty Ltd for spouse - Organization deregistered by ASIC on request as at 28/10/2012 - DELETION",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-23",
+      "category": "Travel",
+      "entity": "Taipei Economic and Cultural Office",
+      "details": "Parliamentary Delegation to Taiwan, Member of 2012 Australian MP Delegation to visit Taiwan from Saturday 17 November to Thursday 22 November 2012. Flights, accommodation and hospitality provided by the Taipei Economic and Cultural Office.",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-23",
+      "category": "Gifts",
+      "entity": "Senior Taiwanese dignitaries",
+      "details": "Gifts from senior Taiwanese dignitaries.",
+      "pdf_url": "prenticej_43p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2012-01-21",
+      "category": "Hospitality",
+      "entity": "Tennis Queensland",
+      "details": "Tickets and hospitality for the 2013 Season of Brisbane Tennis International for Mrs & Mr Prentice in her capacity as Vice-Patron of Tennis Queensland.",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-01-21",
+      "category": "Hospitality",
+      "entity": "Tennis Queensland",
+      "details": "Tickets and hospitality at the Australian Open for Mrs & Mr Prentice on 19th & 20th January in her capacity as Vice-Patron of Tennis Queensland.",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-02-22",
+      "category": "Hospitality",
+      "entity": "Australian Ballet",
+      "details": "Tickets with hospitality at opening night of 'Swan Lake' with the Australian Ballet for Mr and Mrs Prentice",
+      "pdf_url": "prenticej_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-05-25",
+      "category": "Travel",
+      "entity": "Aeromil Pacific Pty Ltd",
+      "details": "Seat on flight from Mackay to Brisbane operated by Aeromil Pacific Pty Ltd",
+      "pdf_url": "prenticej_43p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/43/prenticej_43p.pdf"
+}

@@ -1,0 +1,318 @@
+{
+  "mp_name": "David Littleproud",
+  "party": "Unknown",
+  "electorate": "Maranoa",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Commonwealth Bank",
+      "details": "Shareholdings in public and private companies",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "National Australia Bank",
+      "details": "Shareholdings in public and private companies",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Suncorp",
+      "details": "Shareholdings in public and private companies",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Woolworths",
+      "details": "Shareholdings in public and private companies",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Ausenco",
+      "details": "Shareholdings in public and private companies",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Atlas",
+      "details": "Shareholdings in public and private companies",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "ANZ",
+      "details": "Shareholdings in public and private companies",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "BHP",
+      "details": "Shareholdings in public and private companies",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Blue Energy",
+      "details": "Shareholdings in public and private companies",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "South32",
+      "details": "Shareholdings in public and private companies",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Lendlease",
+      "details": "Shareholdings in public and private companies",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Yaralan Pty Ltd",
+      "details": "Shareholdings in public and private companies",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Mr Rental Southern Downs Pty Ltd",
+      "details": "Shareholdings in public and private companies",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Directorships",
+      "entity": "Kelwick Holdings Pty Ltd",
+      "details": "Shareholder and Director",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Vanguard Life Strategy Growth Fund",
+      "details": "Shareholdings in public and private companies (spouse/partner)",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Vanguard Index International Fund",
+      "details": "Shareholdings in public and private companies (spouse/partner)",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Australian Foundation Investment Company",
+      "details": "Shareholdings in public and private companies (spouse/partner)",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Switzer Dividend Growth Fund",
+      "details": "Shareholdings in public and private companies (spouse/partner)",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "AMP Growth Fund",
+      "details": "Shareholdings in public and private companies (spouse/partner)",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "BHP",
+      "details": "Shareholdings in public and private companies (dependent children)",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "South32",
+      "details": "Shareholdings in public and private companies (dependent children)",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Telstra",
+      "details": "Shareholdings in public and private companies (dependent children)",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Trusts",
+      "entity": "Littleproud Family Trust",
+      "details": "Private Investments, 50% beneficial interest",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Trusts",
+      "entity": "Fea Investment Trust",
+      "details": "Private Investments, 50% beneficial interest",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Real Estate",
+      "entity": "Barton ACT",
+      "details": "Private Residence",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Real Estate",
+      "entity": "Airlie Beach QLD",
+      "details": "Residential (spouse/partner)",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Directorships",
+      "entity": "Kelwick Pty Ltd",
+      "details": "Private Family Investments",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Directorships",
+      "entity": "Yaralan Pty Ltd",
+      "details": "Private Family Investments",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Mortgage",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "DDH Graham - Bank of QLD",
+      "details": "Investment",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "NAB, Suncorp, Warwick Credit Union, Westpac",
+      "details": "Savings",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Savings (spouse/partner)",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "DDH Graham - Bank of QLD",
+      "details": "Investments (dependent children)",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "NAB, Suncorp, Warwick Credit Union",
+      "details": "Savings (dependent children)",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Gifts",
+      "entity": "Paroo Nebine Aboriginal Incorporation",
+      "details": "Indigenous Artwork gifted by Cunnamulla artist from Paroo Nebine Aboriginal Incorporation - Artist valued at approx. $1000.00 AUD",
+      "pdf_url": "littleproud_46p.pdf",
+      "sub_category": "Decorative"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Chairmans Lounge Qantas",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Travel",
+      "entity": "Virgin Australia",
+      "details": "Presidents Club Virgin Australia",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Real Estate",
+      "entity": "Ryeford QLD",
+      "details": "Private Residence",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-11",
+      "category": "Shares",
+      "entity": "Woolworths",
+      "details": "All Woolworths shares sold. No interests with Woolworths from date: 21 February 2019",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-03-26",
+      "category": "Directorships",
+      "entity": "YARALAN Pty Ltd",
+      "details": "Directorship of YARALAN Pty Ltd",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-03-26",
+      "category": "Directorships",
+      "entity": "KELWICK Pty Ltd",
+      "details": "Directorship of KELWICK Pty Ltd ceased on 18 February 2021",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-05-25",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Ticket to NRL Bulldog match on Saturday 15th May 2021, Guest of the Board",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-05-25",
+      "category": "Memberships",
+      "entity": "NRL Canterbury Bulldogs Club",
+      "details": "Patron of the NRL Canterbury Bulldogs Club",
+      "pdf_url": "littleproud_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-06-15",
+      "category": "Travel",
+      "entity": "Stanbroke Pastoral Company",
+      "details": "Travelled on a private charter flight (Brisbane - Normanton return) on 9 June and returned 11 June 2021 to inspect agricultural properties in Far North Queensland and to meet with the Mayors of Carpentaria and Cloncurry Shire Councils. 2 nights' accommodation was provided. Flights and accommodation were provided at the invitation of Mr Brendan Menegazzo of Stanbroke Pastoral Company.",
+      "pdf_url": "littleproud_46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/littleproud_46p.pdf"
+}

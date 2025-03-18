@@ -1,0 +1,107 @@
+{
+  "mp_name": "Adam Paul Bandt",
+  "party": "N/A",
+  "electorate": "Melbourne",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-03",
+      "category": "Shares",
+      "entity": "AMP",
+      "details": "Shares in AMP",
+      "pdf_url": "bandta_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-03",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Residence in Flemington (co-owned with spouse)",
+      "pdf_url": "bandta_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-03",
+      "category": "Liabilities",
+      "entity": "Bank of Melbourne",
+      "details": "Mortgage (joint with spouse)",
+      "pdf_url": "bandta_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-03",
+      "category": "Savings/Investments",
+      "entity": "Bank of Melbourne",
+      "details": "Savings (line joint with spouse)",
+      "pdf_url": "bandta_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-03",
+      "category": "Savings/Investments",
+      "entity": "BT",
+      "details": "Superannuation",
+      "pdf_url": "bandta_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-03",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from employment",
+      "pdf_url": "bandta_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-03",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Qantas Lounge Membership",
+      "pdf_url": "bandta_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-03",
+      "category": "Travel",
+      "entity": "Virgin",
+      "details": "Virgin Lounge Membership",
+      "pdf_url": "bandta_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-02",
+      "category": "Hospitality",
+      "entity": "Qantas",
+      "details": "Self-spouse upgrade on Qantas domestic flight return Mel-Perth",
+      "pdf_url": "bandta_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-03-26",
+      "category": "Hospitality",
+      "entity": "Qantas",
+      "details": "Self + Spouse - Upgrades on some legs of Qantas Flight to/from Europe, Dec/Jan 2013-14.",
+      "pdf_url": "bandta_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-03-26",
+      "category": "Memberships",
+      "entity": "Virgin",
+      "details": "Self - Complimentary Virgin Club Membership",
+      "pdf_url": "bandta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-07-20",
+      "category": "Savings/Investments",
+      "entity": "Future Super",
+      "details": "E. SAVINGS OR INVESTMENT ACCOUT. Future Super",
+      "pdf_url": "bandta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-07-20",
+      "category": "Savings/Investments",
+      "entity": "HESTA Eco Pool",
+      "details": "SUPERANNULATION. HESTA Eco Pool",
+      "pdf_url": "bandta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-07-20",
+      "category": "Savings/Investments",
+      "entity": "BT",
+      "details": "DELETION: E. SAVINGS OR INVESTMENT ACCOUT. SUPERANNUATION BT",
+      "pdf_url": "bandta_44p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/bandta_44p.pdf"
+}

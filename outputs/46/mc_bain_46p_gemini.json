@@ -1,0 +1,374 @@
+{
+  "mp_name": "Kristy Mcbain",
+  "party": "Unknown",
+  "electorate": "Eden-Monaro",
+  "disclosures": [
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Shares",
+      "entity": "4DS memory Ltd",
+      "details": "N/A",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Shares",
+      "entity": "Australian Foundation Investment Company Ltd",
+      "details": "N/A",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Shares",
+      "entity": "Bega Cheese Ltd",
+      "details": "N/A",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Shares",
+      "entity": "Collection House Ltd",
+      "details": "N/A",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Shares",
+      "entity": "Polynovo Ltd",
+      "details": "N/A",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Shares",
+      "entity": "Prescient Therapeutics Ltd",
+      "details": "N/A",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Shares",
+      "entity": "Respiri Ltd",
+      "details": "N/A",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Shares",
+      "entity": "Yojee Ltd",
+      "details": "N/A",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Shares",
+      "entity": "McBain Plumbing Pty Ltd",
+      "details": "Spouse/partner",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Shares",
+      "entity": "McBain",
+      "details": "Spouse/partner",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Shares",
+      "entity": "Co Lawyers Pty Ltd",
+      "details": "Spouse/partner",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Trusts",
+      "entity": "McBain Family Trust",
+      "details": "Spouse/partner, Joint Beneficiary",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Trusts",
+      "entity": "McBaiin Family Trust",
+      "details": "Dependent children, Joint Beneficiary",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Trusts",
+      "entity": "McBain Family Trust",
+      "details": "Spouse/partner, Business, Self, children and parents",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Trusts",
+      "entity": "McBain Family Trust",
+      "details": "Dependent children, Business, Father, children and parents",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Real Estate",
+      "entity": "Tura Beach, NSW",
+      "details": "Residential",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Real Estate",
+      "entity": "Tura Beach, NSW",
+      "details": "Investment",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Real Estate",
+      "entity": "Bega, NSW",
+      "details": "Investment",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Real Estate",
+      "entity": "Tura Beach, NSW",
+      "details": "Spouse/partner, Residential",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Real Estate",
+      "entity": "Tura Beach, NSW",
+      "details": "Spouse/partner, Investment",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Real Estate",
+      "entity": "Bega, NSW",
+      "details": "Spouse/partner, Investment",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Directorships",
+      "entity": "McBain Plumbing Pty Ltd",
+      "details": "Spouse/partner, Plumbing Services",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Directorships",
+      "entity": "McBain & Co Lawyers",
+      "details": "Spouse/partner, Legal Services",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Liabilities",
+      "entity": "Macquarie Bank",
+      "details": "Residential & Investment Property Loan",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Liabilities",
+      "entity": "IMB Ltd",
+      "details": "Investment Property Loan",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Liabilities",
+      "entity": "Macquarie Bank",
+      "details": "Spouse/partner, Residential & Investment Property Loan",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Liabilities",
+      "entity": "IMB Ltd",
+      "details": "Spouse/partner, Investment Property Loan",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Liabilities",
+      "entity": "Qantas Money",
+      "details": "Spouse/partner, Credit Card",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Spouse/partner, Business Overdraft",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Savings/Investments",
+      "entity": "Macquarie",
+      "details": "Offset",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Savings/Investments",
+      "entity": "Macquarie",
+      "details": "Offset",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Transaction",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Savings",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Transaction",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Investment",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Savings/Investments",
+      "entity": "Macquarie",
+      "details": "Spouse/partner, Offset",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Savings/Investments",
+      "entity": "Macquarie",
+      "details": "Spouse/partner, Offset",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Spouse/partner, Transaction",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Spouse/partner, Savings",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Spouse/partner, Transaction",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Spouse/partner, Transaction",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Savings/Investments",
+      "entity": "IMB Ltd",
+      "details": "Dependent children, Savings",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Savings/Investments",
+      "entity": "IMB Ltd",
+      "details": "Dependent children, Savings",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Savings/Investments",
+      "entity": "IMB Ltd",
+      "details": "Dependent children, Savings",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Other Assets",
+      "entity": "Boat",
+      "details": "Spouse/partner",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Councillor stipend",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Spouse/partner, Income from employment",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Member of various registered local clubs and sporting clubs",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Spouse/partner, Member of various registered local clubs and sporting clubs",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-04",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Dependent children, Members of various local sporting clubs",
+      "pdf_url": "mc_bain_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-08-06",
+      "category": "Gifts",
+      "entity": "Tuscany Apartments, Merimbula",
+      "details": "Accommodation valued at $1,600 courtesy of Tuscany Apartments, Merimbula.",
+      "pdf_url": "mc_bain_46p.pdf",
+      "sub_category": "Travel"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/mc_bain_46p.pdf"
+}

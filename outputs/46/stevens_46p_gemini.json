@@ -1,0 +1,338 @@
+{
+  "mp_name": "James Stevens",
+  "party": "Unknown",
+  "electorate": "Sturt",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Unknown",
+      "entity": "N/A",
+      "details": "Statement of Registrable Interests 46th Parliament",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Credit Card - NAB",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Superannuation - Super SA, Australian Super",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Savings",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "stevens_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-04",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Membership of Qantas Chairman's Lounge",
+      "pdf_url": "stevens_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-04",
+      "category": "Gifts",
+      "entity": "Virgin",
+      "details": "Membership of Virgin - The Club",
+      "pdf_url": "stevens_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-08-02",
+      "category": "Gifts",
+      "entity": "Australian Subscription Television and Radio Association",
+      "details": "Foxtel connection in electorate office provided by the Australian Subscription Television and Radio Association",
+      "pdf_url": "stevens_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-12-20",
+      "category": "Travel",
+      "entity": "Cathay Pacific Airways",
+      "details": "Upgrade of flight from Premium Economy to Business Class from Adelaide to Hong Kong from Cathay Pacific Airways",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-20",
+      "category": "Travel",
+      "entity": "International Institute for Strategic Leadership Dialogue",
+      "details": "Two nights accommodation in Jerusalem, Israel from the International Institute for Strategic Leadership Dialogue",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-20",
+      "category": "Hospitality",
+      "entity": "International Institute for Strategic Leadership Dialogue",
+      "details": "One complimentary ticket to the Gala Dinner for the International Institute for Strategic Leadership Dialogue in Jerusalem, Israel",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-02-19",
+      "category": "Memberships",
+      "entity": "Norwood Football Club",
+      "details": "Norwood Football Club",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-05",
+      "category": "Shares",
+      "entity": "BHP Group Limited",
+      "details": "BHP Group Limited",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-05",
+      "category": "Shares",
+      "entity": "Macquarie Group Limited",
+      "details": "Macquarie Group Limited",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-05",
+      "category": "Shares",
+      "entity": "National Australia Bank Limited",
+      "details": "National Australia Bank Limited",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-05",
+      "category": "Shares",
+      "entity": "Qantas Airways Limited",
+      "details": "Qantas Airways Limited",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-05",
+      "category": "Shares",
+      "entity": "Santos Limited",
+      "details": "Santos Limited",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-05",
+      "category": "Shares",
+      "entity": "Telstra Corporation Limited",
+      "details": "Telstra Corporation Limited",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-05",
+      "category": "Shares",
+      "entity": "Treasury Wine Estates Limited",
+      "details": "Treasury Wine Estates Limited",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-05",
+      "category": "Shares",
+      "entity": "Woolworths Group Limited",
+      "details": "Woolworths Group Limited",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-05-20",
+      "category": "Gifts",
+      "entity": "Naval Group Australia",
+      "details": "Scale model of the Naval Group Shortfin Barracuda submarine from Mr John Davis, CEO, Naval Group Australia",
+      "pdf_url": "stevens_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2020-08-04",
+      "category": "Memberships",
+      "entity": "North East Community Assistance Project Inc.",
+      "details": "North East Community Assistance Project Inc.",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-11-25",
+      "category": "Gifts",
+      "entity": "SA Government",
+      "details": "One ticket to Rugby League State of Origin at Adelaide Oval from SA Government",
+      "pdf_url": "stevens_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2021-09-23",
+      "category": "Memberships",
+      "entity": "Burnside Rotary Club",
+      "details": "Honorary Member of the Burnside Rotary Club",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-12-09",
+      "category": "Shares",
+      "entity": "Endeavour Group",
+      "details": "Endeavour Group",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-01-27",
+      "category": "Income Sources",
+      "entity": "DPG Advisory Services",
+      "details": "Spouse - DPG Advisory Services (salary)",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-01-27",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Helicopter return loop to the Star of the South offshore wind farm site, approximately $300 value",
+      "pdf_url": "stevens_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-01-27",
+      "category": "Shares",
+      "entity": "BHP Group Limited",
+      "details": "BHP Group Limited (Deletion)",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-01-27",
+      "category": "Shares",
+      "entity": "Macquarie Group Limited",
+      "details": "Macquarie Group Limited (Deletion)",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-01-27",
+      "category": "Shares",
+      "entity": "National Australia Bank Limited",
+      "details": "National Australia Bank Limited (Deletion)",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-01-27",
+      "category": "Shares",
+      "entity": "Qantas Airways Limited",
+      "details": "Qantas Airways Limited (Deletion)",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-01-27",
+      "category": "Shares",
+      "entity": "Santos Limited",
+      "details": "Santos Limited (Deletion)",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-01-27",
+      "category": "Shares",
+      "entity": "Telstra Corporation Limited",
+      "details": "Telstra Corporation Limited (Deletion)",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-01-27",
+      "category": "Shares",
+      "entity": "Treasury Wine Estates Limited",
+      "details": "Treasury Wine Estates Limited (Deletion)",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-01-27",
+      "category": "Shares",
+      "entity": "Woolworths Group Limited",
+      "details": "Woolworths Group Limited (Deletion)",
+      "pdf_url": "stevens_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-01-27",
+      "category": "Shares",
+      "entity": "Endeavour Group",
+      "details": "Endeavour Group (Deletion)",
+      "pdf_url": "stevens_46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/stevens_46p.pdf"
+}

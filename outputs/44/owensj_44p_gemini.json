@@ -1,0 +1,158 @@
+{
+  "mp_name": "Julie Ann Owens",
+  "party": "Unknown",
+  "electorate": "Parramatta",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Telstra",
+      "details": "Unknown",
+      "pdf_url": "owensj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "MRMA",
+      "details": "Unknown",
+      "pdf_url": "owensj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "IAL",
+      "details": "Unknown",
+      "pdf_url": "owensj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "owensj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "North Parramatta, residence",
+      "pdf_url": "owensj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "owensj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "owensj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "ANZ, Citibank",
+      "details": "Home Loan, Credit Cards",
+      "pdf_url": "owensj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "ANZ, NAB",
+      "details": "3 Savings Accounts, Savings Account",
+      "pdf_url": "owensj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "owensj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "ARIA, PSS, Town",
+      "details": "Superannuation",
+      "pdf_url": "owensj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Traditional dress from Nigeria + Harmonum in case",
+      "pdf_url": "owensj_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "10 days in Afghanistan, hosted by Australian money",
+      "pdf_url": "owensj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "owensj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "owensj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Unknown",
+      "entity": "N/A",
+      "details": "N/A - No details provided",
+      "pdf_url": "owensj_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-07-15",
+      "category": "Shares",
+      "entity": "Virgin International",
+      "details": "Upgrade on Virgin International Flight",
+      "pdf_url": "owensj_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-02-25",
+      "category": "Hospitality",
+      "entity": "Northcott Innovation",
+      "details": "Complimentary attendance at an executive course in design thinking run by Northcott Innovation, a subsidiary of Northcott, a leading service provider in NSW and the ACT, providing services and support for people with disabilities, their families and carers. Course dates - 30/3/15-2/4/15",
+      "pdf_url": "owensj_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-05-01",
+      "category": "Liabilities",
+      "entity": "Citibank",
+      "details": "Credit Card - Cancelled / Closed",
+      "pdf_url": "owensj_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-05-02",
+      "category": "Gifts",
+      "entity": "Hanif",
+      "details": "Handcrafted artwork in frame",
+      "pdf_url": "owensj_44p.pdf",
+      "sub_category": "Decorative"
+    },
+    {
+      "declaration_date": "2016-05-02",
+      "category": "Liabilities",
+      "entity": "ANZ, Citibank",
+      "details": "Home Loan, Credit Card",
+      "pdf_url": "owensj_44p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/owensj_44p.pdf"
+}

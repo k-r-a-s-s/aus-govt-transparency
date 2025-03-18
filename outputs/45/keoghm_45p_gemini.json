@@ -1,0 +1,669 @@
+{
+  "mp_name": "Matthew (Matt) Keogh",
+  "party": "Australian Labor Party",
+  "electorate": "Burt",
+  "disclosures": [
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Trusts",
+      "entity": "Rosalie Trust",
+      "details": "Family Trust, Discretionary secondary beneficiary",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Trusts",
+      "entity": "JD Hay Family Trust",
+      "details": "Family Trust, Discretionary primary beneficiary",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Trusts",
+      "entity": "Hay Service Trust",
+      "details": "Family Trust, Discretionary primary beneficiary",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "House and land in Mount Lawley, Western Australia, Family purposes",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Directorships",
+      "entity": "Law Access Ltd",
+      "details": "Not-for-profit organisation that coordinates the giving of pro bono (free or reduced cost) legal assistance by the Western Australian legal profession.",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Directorships",
+      "entity": "The Law Society of Western Australia Inc.",
+      "details": "The peak professional association for lawyers in Western Australia.",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Directorships",
+      "entity": "Street Law Centre (WA) Inc.",
+      "details": "A free outreach legal service for the homeless and those at risk of homelessness in Western Australia.",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Directorships",
+      "entity": "Friends of the Art Gallery of Western Australia Inc.",
+      "details": "N/A",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "St George Bank",
+      "details": "Mortgage (joint with spouse)",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "Macquarie Bank",
+      "details": "Car loan",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "St George Bank",
+      "details": "Visa Credit card",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "ANZ",
+      "details": "Visa Credit card",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "St George Bank",
+      "details": "Mortgage (joint with spouse)",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "St George Bank",
+      "details": "Savings Account (joint with spouse)",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "St George Bank",
+      "details": "Mortgage Offset Account (joint with spouse)",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Savings Account",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Net Saver Account",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "St George Bank",
+      "details": "Savings Account (joint with spouse)",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "St George Bank",
+      "details": "Mortgage Offset Account (joint with spouse)",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Savings Account",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "iSaver Account",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "2x Car",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Motorcycle",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "Plum Superannuation",
+      "details": "Superannuation and associated Life & TPD Insurance",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "MLC",
+      "details": "Income Protection Insurance policy",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "Australian Insurance",
+      "details": "Superannuation and associated Life & TPD Insurance",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "Westpac",
+      "details": "Income Protection Insurance policy",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Income Sources",
+      "entity": "Western Power",
+      "details": "Salary",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Australian Labor Party",
+      "details": "N/A",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "The Law Society of Western Australia",
+      "details": "N/A",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Australian Workers Union (WA)",
+      "details": "N/A",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Australian Institute of Company Directors",
+      "details": "N/A",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Kelmscott Agricultural Society",
+      "details": "N/A",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Street Law Centre WA",
+      "details": "N/A",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Australian Services Union (WA)",
+      "details": "N/A",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Council of Trinity College residential college at University of Western Australia",
+      "details": "N/A",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Trusts",
+      "entity": "Rosalie Trust",
+      "details": "Family Trust, Discretionary secondary beneficiary (Child - son)",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Savings Account - Commonwealth Bank",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Gifts",
+      "entity": "Indonesian Consul-General - Perth",
+      "details": "Scarf",
+      "pdf_url": "keoghm_45p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Australian Subscription Television and Radio Association (ASTRA)",
+      "details": "standard Foxtel subscription for Electorate Office",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Gifts",
+      "entity": "University of Notre Dame Australia",
+      "details": "Sophie la Girafe Premium Baby Gift Box (Child - son)",
+      "pdf_url": "keoghm_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Travel",
+      "entity": "CITIC Pacific Mining",
+      "details": "Mine Tour, meals and accommodation, return flights Perth-Karratha",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Hospitality",
+      "entity": "Minerals Council of Australia",
+      "details": "lunch at Fraser's Kings Park",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Qantas",
+      "details": "Chairmans Lounge membership",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Virgin Australia",
+      "details": "The Club membership",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Qantas",
+      "details": "Chairmans Lounge membership (Spouse)",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Virgin Australia",
+      "details": "The Club membership (Spouse)",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Gloucester Park Harness Racing",
+      "details": "Honorary membership",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Directorships",
+      "entity": "The Law Society of Western Australia Inc",
+      "details": "resigned from Council on 29 July 2016",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Directorships",
+      "entity": "Street Law Centre WA Inc",
+      "details": "resigned from Management Committee on 15 July 2016",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-19",
+      "category": "Income Sources",
+      "entity": "Centrelink",
+      "details": "Parental Leave Pay (Spouse)",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-19",
+      "category": "Travel",
+      "entity": "Chamber of Minerals & Energy WA",
+      "details": "WA mine tour, lunch & transport: Alcoa & MZI Resources",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-19",
+      "category": "Hospitality",
+      "entity": "Minerals Council of Australia",
+      "details": "Parliamentary dinner",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-19",
+      "category": "Hospitality",
+      "entity": "Press Gallery",
+      "details": "new MP welcome function",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-19",
+      "category": "Hospitality",
+      "entity": "Minerals Council of Australia",
+      "details": "Parliamentary dinner (Spouse)",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-11-21",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Perth Airport Parking",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-11-21",
+      "category": "Hospitality",
+      "entity": "Law Society of Western Australia",
+      "details": "Immediate Past Presidents Dinner",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-11-21",
+      "category": "Hospitality",
+      "entity": "Law Society of Western Australia",
+      "details": "Immediate Past Presidents Dinner (Spouse)",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-02-07",
+      "category": "Gifts",
+      "entity": "Alinta Energy",
+      "details": "Ticket to Bruce Springsteen concert at Perth Arena",
+      "pdf_url": "keoghm_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2017-02-07",
+      "category": "Gifts",
+      "entity": "Alinta Energy",
+      "details": "Ticket to Bruce Springsteen concert at Perth Arena (spouse)",
+      "pdf_url": "keoghm_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2017-03-15",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Deleted 1 x car",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-15",
+      "category": "Hospitality",
+      "entity": "Mineral Resources Limited",
+      "details": "Attended dinner at Kent Street Deli, Rockingham, courtesy of Mineral Resources Limited, Value Unknown",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-07-27",
+      "category": "Travel",
+      "entity": "Chevron",
+      "details": "Return flight from Perth to Barrow Island, bus transfers and refreshments for parliamentary visit to Gorgon LNG project on 20 July 2017",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-08-04",
+      "category": "Hospitality",
+      "entity": "Perth Airport",
+      "details": "Ticket to WA Business News Success & Leadership Series Breakfast at Hyatt Regency Hotel, Perth on 27 July 2017 as guest of Perth Airport (value approx. $125)",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-11-13",
+      "category": "Gifts",
+      "entity": "Perth Airport pty ltd",
+      "details": "Attendance to the Lexus Ball for Telethon, on 21 October 2017 gift of ticket to event. Value: Unknown",
+      "pdf_url": "keoghm_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2017-11-13",
+      "category": "Gifts",
+      "entity": "Perth Airport pty ltd",
+      "details": "Attendance to the Lexus Ball for Telethon, on 21 October 2017 gift of ticket to event. Value: Unknown (Spouse)",
+      "pdf_url": "keoghm_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2017-11-13",
+      "category": "Gifts",
+      "entity": "Alinta",
+      "details": "Attendance at Midnight Oil concert at Perth Arena on 28 October 2017. Value: Priceless",
+      "pdf_url": "keoghm_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2017-11-13",
+      "category": "Gifts",
+      "entity": "Alinta",
+      "details": "Attendance at Midnight Oil concert at Perth Arena on 28 October 2017. Value: Priceless (Spouse)",
+      "pdf_url": "keoghm_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2018-02-05",
+      "category": "Travel",
+      "entity": "Australia India Youth Dialogue",
+      "details": "Meals, accommodation, travel to and from India, and internal travel courtesy of the Australia India Youth Dialogue from 20 January 2018 \u2013 25 January 2018. Value: Unknown",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-02-05",
+      "category": "Gifts",
+      "entity": "Baseball WA",
+      "details": "Attendance to Perth Heat vs Sydney Blue Sox Baseball match Perth Ballpark, Friday 12 January gift of ticket to Event from Baseball WA. Value: $50",
+      "pdf_url": "keoghm_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2018-02-05",
+      "category": "Gifts",
+      "entity": "Cricket Australia",
+      "details": "Attendance to Australia vs England ODI match Optus Stadium, Sunday 28 January gift of ticket to Event from Cricket Australia. Value: Unknown",
+      "pdf_url": "keoghm_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2018-02-05",
+      "category": "Gifts",
+      "entity": "Baseball WA",
+      "details": "Attendance to Perth Heat vs Sydney Blue Sox Baseball match Perth Ballpark, Friday 12 January gift of ticket to Event from Baseball WA. Value: $50 (Spouse)",
+      "pdf_url": "keoghm_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2018-02-05",
+      "category": "Gifts",
+      "entity": "Cricket Australia",
+      "details": "Attendance to Australia vs England ODI match Optus Stadium, Sunday 28 January gift of ticket to Event from Cricket Australia. Value: Unknown (Spouse)",
+      "pdf_url": "keoghm_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2018-02-22",
+      "category": "Other Interests",
+      "entity": "Kelmsccott Tyrepower",
+      "details": "Puncture repair for one car tyre. Value: unknown.",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-03-26",
+      "category": "Directorships",
+      "entity": "Impact Seed Limited",
+      "details": "Appointed Non-Executive Director (Spouse)",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-04-26",
+      "category": "Gifts",
+      "entity": "Mineral Resources",
+      "details": "Gift of ticket to AFL match: West Coast Eagles vs Geelong in Premiership Lounge, Optus Stadium, on Sunday, 8 April 2018. Value: Unknown",
+      "pdf_url": "keoghm_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2018-04-26",
+      "category": "Gifts",
+      "entity": "Mineral Resources",
+      "details": "Gift of ticket to AFL match: West Coast Eagles vs Geelong in Premiership Lounge, Optus Stadium, on Sunday, 8 April 2018. Value: Unknown (Spouse)",
+      "pdf_url": "keoghm_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2018-08-16",
+      "category": "Gifts",
+      "entity": "Woodside",
+      "details": "Gift of ticket to AFL match: Fremantle vs Hawthorn in Premium Suite, Optus Stadium, on Sunday, 29 July 2018. Value: Unknown",
+      "pdf_url": "keoghm_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2018-08-16",
+      "category": "Gifts",
+      "entity": "Woodside",
+      "details": "Gift of ticket to AFL match: Fremantle vs Hawthorn in Premium Suite, Optus Stadium, on Sunday, 29 July 2018. Value: Unknown (Spouse)",
+      "pdf_url": "keoghm_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2018-08-20",
+      "category": "Memberships",
+      "entity": "Gloucester Park Harness Racing",
+      "details": "Gift of Honorary Membership of Gloucester Park Harness Racing, 2018-19 season. Value: Unknown",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-09-14",
+      "category": "Gifts",
+      "entity": "Australian Hotels Association",
+      "details": "Complimentary ticket to the AHA Accommodation Hotels Gala Ball, on 27 August 2018 from Australian Hotels Association. Value: Unknown",
+      "pdf_url": "keoghm_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2018-09-14",
+      "category": "Gifts",
+      "entity": "Australian Hotels Association",
+      "details": "Complimentary ticket to the AHA Accommodation Hotels Gala Ball, on 27 August 2018 from Australian Hotels Association. Value: Unknown (Spouse)",
+      "pdf_url": "keoghm_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2018-09-30",
+      "category": "Gifts",
+      "entity": "Macquarie Bank",
+      "details": "Complimentary ticket to the Canberra Press Gallery Mid-Winter Ball on 12 September 2018. Value: $175",
+      "pdf_url": "keoghm_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2018-09-30",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Complimentary upgrade from economy to business class on Qantas flight QF1327 from Melbourne to Perth",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-09-30",
+      "category": "Gifts",
+      "entity": "Macquarie Bank",
+      "details": "Complimentary ticket to the Canberra Press Gallery Mid-Winter Ball on 12 September 2018. Value: $175 (Spouse)",
+      "pdf_url": "keoghm_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2018-09-30",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Complimentary upgrade from economy to business class on Qantas flight QF1327 from Melbourne to Perth (Spouse)",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-11-21",
+      "category": "Directorships",
+      "entity": "TEDxPerth Inc.",
+      "details": "Appointed Board Member (Spouse)",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2019-01-08",
+      "category": "Memberships",
+      "entity": "Australian Digital Commerce Association",
+      "details": "Appointed Honorary Fellow",
+      "pdf_url": "keoghm_45p.pdf"
+    },
+    {
+      "declaration_date": "2019-01-08",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Gift of 1 x Taittinger Comtes de Champagne 2007 - Value: $330. Gifted to Artist Retail Collective Inc. Armadale for their fundraising efforts",
+      "pdf_url": "keoghm_45p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2019-01-08",
+      "category": "Gifts",
+      "entity": "RAC",
+      "details": "Gift of ticket to Hopman Cup Final in Premium Suite, RAC Arena, on Saturday, 5 Jan 2019. Value: Unknown",
+      "pdf_url": "keoghm_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2019-01-08",
+      "category": "Gifts",
+      "entity": "RAC",
+      "details": "Gift of ticket to Hopman Cup Final in Premium Suite, RAC Arena, on Saturday, 5 Jan 2019. Value: Unknown (Spouse)",
+      "pdf_url": "keoghm_45p.pdf",
+      "sub_category": "Sports Tickets"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/keoghm_45p.pdf"
+}

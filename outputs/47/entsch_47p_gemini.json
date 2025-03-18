@@ -1,0 +1,472 @@
+{
+  "mp_name": "Warren Entsch",
+  "party": "N/A",
+  "electorate": "LEICHHARDT",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Shares",
+      "entity": "DroneShield Ltd (DRO)",
+      "details": "N/A",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Shares",
+      "entity": "Novonix Ltd (NVX)",
+      "details": "N/A",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Shares",
+      "entity": "Castle Minerals Limited (CDT)",
+      "details": "N/A",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Shares",
+      "entity": "EML Payment Ltd (EML)",
+      "details": "N/A",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Shares",
+      "entity": "EQ Resources Ltd (EQR)",
+      "details": "N/A",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Shares",
+      "entity": "Lynas Rare Earths Ltd (LYC)",
+      "details": "Spouse/partner",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Shares",
+      "entity": "Pointsbet Holdings Ltd (PBH)",
+      "details": "Spouse/partner",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Shares",
+      "entity": "Alcidion Group Ltd (ALC)",
+      "details": "Spouse/partner",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Shares",
+      "entity": "Betashares Nasdaq 100 ETF (NDQ)",
+      "details": "Spouse/partner",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Shares",
+      "entity": "Latin Resources Ltd (LRS)",
+      "details": "Spouse/partner",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Shares",
+      "entity": "South32 Ltd (S32)",
+      "details": "Spouse/partner",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Shares",
+      "entity": "Sayona Mining Ltd (SYA)",
+      "details": "Spouse/partner",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Real Estate",
+      "entity": "Malanda, Queensland",
+      "details": "Residential and grazing",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Real Estate",
+      "entity": "Brinsmead, Queensland",
+      "details": "Residential",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Real Estate",
+      "entity": "Malanda, Queensland",
+      "details": "Spouse/partner, Residential and grazing",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Real Estate",
+      "entity": "Brinsmead",
+      "details": "Spouse/partner, Residential",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Real Estate",
+      "entity": "Mooroobool, Queensland",
+      "details": "Spouse/partner, Investment",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Directorships",
+      "entity": "YLE Enterprises",
+      "details": "Spouse/partner, Director - Contract consulting",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Directorships",
+      "entity": "Wild China Pty Ltd",
+      "details": "Spouse/partner, Director - Women's Personal Development",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Directorships",
+      "entity": "Wheels of Wellness Ltd",
+      "details": "Spouse/partner, Director, Limited by Guarantee Charity",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Liabilities",
+      "entity": "Cairns Penny Bank",
+      "details": "Mortgage",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Liabilities",
+      "entity": "Cairns Penny Bank",
+      "details": "Overdraft",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Liabilities",
+      "entity": "ING Direct",
+      "details": "Spouse/partner, Mortgage",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Spouse/partner, Mortgage",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Liabilities",
+      "entity": "Westpac Bank",
+      "details": "Spouse/partner, Equity Access Loan - Investment",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Savings/Investments",
+      "entity": "Cairns Penny Bank",
+      "details": "General savings account",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Savings/Investments",
+      "entity": "Cairns Penny Bank",
+      "details": "Spouse/partner, General savings account",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Spouse/partner, General savings account",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "Spouse/partner, General savings account",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "General savings account",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Farm machinery, livestock and artwork",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Spouse/partner, Livestock",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Agistment of land",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income derived from sale of cattle",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Spouse/partner, Full employment - Contact/consulting work",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Travel",
+      "entity": "Asia Pacific Caucus for Tuberculosis",
+      "details": "23rd October to 29th October 2016, Travelled to Liverpool, United Kingdom in role as Co-Chair of the Asia Pacific Caucus for Tuberculosis Conference. Total cost $4,585.72 GBP or approx $7,300 AUD",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Travel",
+      "entity": "Asia Pacific Caucus for Tuberculosis",
+      "details": "1st May to 4th May 2017 Travelled to Manila, Philippines in role as Co-Chair of the Asia Pacific Caucus for Tuberculosis for Health Conference. Total cost $3,601 per diem",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Travel",
+      "entity": "Asia Pacific Caucus for Tuberculosis",
+      "details": "25th April to 29th April 2018 Travelled to New York, United States of America in role as Co-Chair of the Asia Pacific Caucus for Tuberculosis for the High Level Meeting on Tuberculosis. Total cost GBP $4,032.45 or approx $7,234 AUD",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-11",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Perceived conflict of interest to note. CEO of Wheels of Wellness of which the charity receives funding through the NQPHN and revenue through Medicare (Spouse/partner)",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-03-29",
+      "category": "Shares",
+      "entity": "YLE Enterprises",
+      "details": "Spouse, Addition",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-03-29",
+      "category": "Real Estate",
+      "entity": "Malanda QLD",
+      "details": "Self: purpose: add hospitality",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-03-29",
+      "category": "Real Estate",
+      "entity": "Malanda QLD",
+      "details": "Spouse: purpose: add hospitality",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-03-29",
+      "category": "Directorships",
+      "entity": "YLE Enterprises",
+      "details": "Spouse: YLE Enterprises, activities of company: add hospitality",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-03-29",
+      "category": "Liabilities",
+      "entity": "ING Direct mortgage",
+      "details": "Deletion",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-04",
+      "category": "Travel",
+      "entity": "Global Executive Tuberculosis Caucus & Asia Pacific Caucus for Tuberculosis",
+      "details": "20/03/2023 \u2013 27/03/2023 Travelled to India as part of my role as a Member of the Global Executive Tuberculosis Caucus and as the Co-Chair of the Asia Pacific Caucus for Tuberculosis. I was required to Chair the Asia Pacific Conference in New Delhi. Flights 3468 GBP Accommodation in Delhi 219 GBP Accommodation in Varanasi 260 GBP Per Diem 95 GBP Total 4042 GBP - approx $7574 AUD",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-04",
+      "category": "Travel",
+      "entity": "Mount Mulligan Lodge",
+      "details": "18/03/2022 \u2013 20/03/2022 Invited to Mount Mulligan Lodge in relation to their tourism product. Cairns to Mount Mulligan return ferry $1,600 2 nights' accommodation $2500 Total: $4,100 AUD (Deletion)",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-04",
+      "category": "Gifts",
+      "entity": "Qantas & Virgin",
+      "details": "Qantas Chairman's Lounge Membership - Warren and Yolonde Entsch & Virgin Beyond Lounge Membership \u2013 Warren and Yolonde Entsch, Addition",
+      "pdf_url": "entsch_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2023-05-05",
+      "category": "Travel",
+      "entity": "Mount Mulligan Lodge",
+      "details": "18/03/2022 \u2013 20/03/2022 - Warren and Yolonde Entsch Invited to Mount Mulligan Lodge in relation to their tourism product. Cairns to Mount Mulligan return ferry $1,600 2 nights' accommodation $2500 Total: $4,100 AUD - Deletion",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-25",
+      "category": "Travel",
+      "entity": "Coalition for Conservation International Climate Conference",
+      "details": "Attended the Coalition for Conservation International Climate Conference between the 17th and 18th August 2023 at Taronga Zoo Wildlife Retreat, Sydney. Accommodation, Dinner, Opening Drinks, Breakfast and Conference including Lunch was provided. Total cost of this is $801.00",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-03",
+      "category": "Travel",
+      "entity": "Global Tuberculosis Caucus",
+      "details": "19/09/2023 - 26/09/2023 Travelled to New York, USA, as part of my role as a Member of the Executive of the Global Tuberculosis Caucus and as the Co-Chair of the Asia Pacific Caucus for Tuberculosis. As the Asia-Pacific Chair, I was required to represent the Region as a Board Member of the Global Tuberculosis Caucus, who had convened a Board meeting to coincide with the High-Level meeting on Tuberculosis at the UN General Assembly. Flights 7,062 USD Accommodation in New York 2,005 USD Per Diem 990 USD Total 10,057 USD - Approx. $15,876 AUD",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-04-08",
+      "category": "Income Sources",
+      "entity": "Wheels of Wellness",
+      "details": "From 02/04/24 - Leave without pay (minus 4 weeks annual leave) from Wheels of Wellness (Spouse/Partner)",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-04-08",
+      "category": "Other Interests",
+      "entity": "Wheels of Wellness",
+      "details": "Perceived conflict of interest to note. Director of Wheels of Wellness of which the charity receives funding through the NQPHN and revenue through Medicare",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-04-08",
+      "category": "Shares",
+      "entity": "Novonix Ltd (NVX)",
+      "details": "Spouse/Partner - Deletion",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-04-08",
+      "category": "Shares",
+      "entity": "EML Payment Ltd (EML)",
+      "details": "Spouse/Partner - Deletion",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-04-08",
+      "category": "Shares",
+      "entity": "Alcidion Group Ltd (ALC)",
+      "details": "Spouse/Partner - Deletion",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-04-08",
+      "category": "Shares",
+      "entity": "Sayona Mining Ltd (SYA)",
+      "details": "Spouse/Partner - Deletion",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-04-08",
+      "category": "Shares",
+      "entity": "Pointsbet Holdings Ltd (PBH)",
+      "details": "Spouse/Partner - Deletion",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-04-08",
+      "category": "Liabilities",
+      "entity": "ING direct",
+      "details": "Mortgage with ING direct - Spouse/Partner - Deletion",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-04-08",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Full employment - Contact/consulting work - Spouse/Partner - Deletion",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-04-08",
+      "category": "Other Interests",
+      "entity": "Wheels of Wellness",
+      "details": "Perceived conflict of interest to note. CEO of Wheels of Wellness of which the charity receives funding through the NQPHN and revenue through Medicare - Spouse/Partner - Deletion",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-14",
+      "category": "Other Interests",
+      "entity": "Centacare FNQ",
+      "details": "Spouse/Partner Perceived conflict of interest to note. Centacare FNQ are co-tenants of the Mooroobool property. Whilst the tenants pay the rent outright, they are in the Humanitarian Settlement Program which is federally funded. It should also be noted, the Member for Leichhardt has no interest and derives no income from this property.",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-09-25",
+      "category": "Travel",
+      "entity": "Global Executive Tuberculosis Caucus",
+      "details": "18/08/2024 to 20/08/2024 Traveled to Jakarta, Indonesia as part of my role as a Member of the Global Executive Tuberculosis Caucus and as the Co-Chair of the Asia Pacific Caucus to launch the Indonesia TB Caucus. Flights Sydney to Jakarta return 420 GBP 1 night accommodation in Jakarta 145 GBP Per Diem 187 GBP Total 752 GBP - Approx $1,469 AUD",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-10",
+      "category": "Real Estate",
+      "entity": "Malanda QLD",
+      "details": "Self: Malanda QLD, purpose: delete hospitality",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-10",
+      "category": "Real Estate",
+      "entity": "Malanda QLD",
+      "details": "Spouse: Malanda QLD, purpose: delete hospitality",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-10",
+      "category": "Directorships",
+      "entity": "YLE Enterprises",
+      "details": "Spouse: YLE Enterprises, activities of company: delete hospitality",
+      "pdf_url": "entsch_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-01-20",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "I advise separation has taken place between my spouse and I",
+      "pdf_url": "entsch_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/entsch_47p.pdf"
+}

@@ -1,0 +1,394 @@
+{
+  "mp_name": "Mark Dreyfus",
+  "party": "N/A",
+  "electorate": "Isaacs",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Shares",
+      "entity": "Kenley Dale Pty Ltd",
+      "details": "Trustee of self-managed superannuation fund",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Shares",
+      "entity": "Fairbank Tower Pty Ltd",
+      "details": "Dormant trustee company",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Trusts",
+      "entity": "Dreyfus Superannuation Fund (trustee Kenley Dale Pty Ltd)",
+      "details": "Self-managed superannuation fund, Joint beneficiary",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Malvern, Residential",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "South Yarra, Investment through superannuation fund",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Directorships",
+      "entity": "Kenley Dale Pty Ltd",
+      "details": "Trustee of self-managed superannuation fund",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Directorships",
+      "entity": "Fairbank Tower Pty Ltd",
+      "details": "Dormant trustee",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Directorships",
+      "entity": "UNIMET Pty Ltd",
+      "details": "Dormant metals trading company",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Mortgage loan",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "Hyperion Australian Growth Companies Fund",
+      "details": "Managed funds held by Dreyfus Superannuation fund",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "CC JCB Dynamic Alpha Fund",
+      "details": "Managed funds held by Dreyfus Superannuation fund",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "Capital Group Global Corporate Bond Fund Hedged (AU)",
+      "details": "Managed funds held by Dreyfus Superannuation fund",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "Cooper I Global Equities Fund - Hedged",
+      "details": "Managed funds held by Dreyfus Superannuation fund",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "Cromwell Phoenix Property Securities Fund",
+      "details": "Managed funds held by Dreyfus Superannuation fund",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "Allan Gray Australia Equity Fund Class A",
+      "details": "Managed funds held by Dreyfus Superannuation fund",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "SGH ICE Fund",
+      "details": "Managed funds held by Dreyfus Superannuation fund",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "T.Rowe Price Global Equity Fund",
+      "details": "Managed funds held by Dreyfus Superannuation fund",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "PIMCO Income Fund - Wholesale",
+      "details": "Managed funds held by Dreyfus Superannuation fund",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "Fidelity Australian Equities Fund",
+      "details": "Managed funds held by Dreyfus Superannuation fund",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "Greenscape Wholesale Broadcap Fund",
+      "details": "Managed funds held by Dreyfus Superannuation fund",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "Walter Scott Global Equity Fund",
+      "details": "Managed funds held by Dreyfus Superannuation fund",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "Munro Global Growth Fund - Ordinary Class",
+      "details": "Managed funds held by Dreyfus Superannuation fund",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "Ironbark Paladin Property Securities Fund",
+      "details": "Managed funds held by Dreyfus Superannuation fund",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "Perpetual Wholesale Concentrated Equity Fund",
+      "details": "Managed funds held by Dreyfus Superannuation fund",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "Pengana Emerging Companies Fund",
+      "details": "Managed funds held by Dreyfus Superannuation fund",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "ATLAS Infrastructure Australian Feeder Fund - Unhedged",
+      "details": "Managed funds held by Dreyfus Superannuation fund",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "WCM Quality Global Growth Fund - Class A Unhedged",
+      "details": "Managed funds held by Dreyfus Superannuation fund",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "Clearbridge RARE Infrastructure Value - Unhedged A",
+      "details": "Managed funds held by Dreyfus Superannuation fund",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Savings, Commonwealth Bank of Australia",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Cash Management Account, Westpac",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Income Sources",
+      "entity": "Emergency Services and State Superannuation",
+      "details": "N/A",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Income Sources",
+      "entity": "Dreyfus Superannuation Fund Superannuation",
+      "details": "N/A",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Camberwell, Investment",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Aireys Inlet, Investment",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-19",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Qantas Chairman's Lounge",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-19",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Virgin Beyond Lounge",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-12-02",
+      "category": "Savings/Investments",
+      "entity": "PIMCO TRENDS Managed Futures Strategy Fund",
+      "details": "N/A",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-12-02",
+      "category": "Savings/Investments",
+      "entity": "T. Rowe Price Dynamic Global Bond Fund",
+      "details": "N/A",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-12-02",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Football Australia - Matildas vs Sweden - 12 November 2022 - two tickets",
+      "pdf_url": "dreyfus_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-03-30",
+      "category": "Gifts",
+      "entity": "The Australian Ballet",
+      "details": "Don Quixote - 15 March 2023 - two tickets",
+      "pdf_url": "dreyfus_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-03-30",
+      "category": "Gifts",
+      "entity": "Professor Ben Saul, The University of Sydney",
+      "details": "Books from Professor Ben Saul, The University of Sydney - surrendered in accordance with the guidelines relating to official gifts received issued by the Department of the Prime Minister and Cabinet",
+      "pdf_url": "dreyfus_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2023-06-01",
+      "category": "Gifts",
+      "entity": "Melbourne Symphony Orchestra",
+      "details": "Melbourne Symphony Orchestra presents London Symphony Orchestra - Adams, Debussy and Ravel - 5 May 2023 - two tickets",
+      "pdf_url": "dreyfus_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-07-24",
+      "category": "Gifts",
+      "entity": "The Australian Ballet",
+      "details": "Jewels - 29 June 2023 - two tickets and associated hospitality",
+      "pdf_url": "dreyfus_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-11-28",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Camberwell (investment)",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-28",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Aireys Inlet (investment)",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-28",
+      "category": "Savings/Investments",
+      "entity": "Bell Global Emerging Companies Fund",
+      "details": "N/A",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-28",
+      "category": "Savings/Investments",
+      "entity": "CC Sage Capital Absolute Return Fund",
+      "details": "N/A",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-28",
+      "category": "Savings/Investments",
+      "entity": "Ironbark Apis Global Small Companies Fund",
+      "details": "N/A",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-28",
+      "category": "Savings/Investments",
+      "entity": "Aikya Emerging Markets Opportunities Fund - A Class",
+      "details": "N/A",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-02-29",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Qantas - QF0094 (Los Angeles to Melbourne) - 1 February 2024 - flight upgrade from business to first",
+      "pdf_url": "dreyfus_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2024-04-11",
+      "category": "Gifts",
+      "entity": "The Australian Ballet",
+      "details": "The Australian Ballet - Alice's Adventures in Wonderland - 15 March 2024 - two tickets and associated hospitality",
+      "pdf_url": "dreyfus_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2024-07-16",
+      "category": "Savings/Investments",
+      "entity": "Vanguard Australian Shares Index Fund",
+      "details": "N/A",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-16",
+      "category": "Savings/Investments",
+      "entity": "CC JCB Active Bond Fund",
+      "details": "N/A",
+      "pdf_url": "dreyfus_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-16",
+      "category": "Savings/Investments",
+      "entity": "Smarter Money Long Short Credit Fund",
+      "details": "N/A",
+      "pdf_url": "dreyfus_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/dreyfus_47p.pdf"
+}

@@ -1,0 +1,492 @@
+{
+  "mp_name": "Angie Bell",
+  "party": "Unknown",
+  "electorate": "Moncrieff",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Real Estate",
+      "entity": "Miami",
+      "details": "Residence",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Liabilities",
+      "entity": "Bank of Queensland",
+      "details": "Specified Security Agreement",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "Bank of Queensland",
+      "details": "Savings",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "Uni Super",
+      "details": "Superannuation",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "Bank of Queensland",
+      "details": "Savings",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "Uni Super",
+      "details": "Superannuation",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Motor vehicle",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Tenor Saxophone, Selmer Mark VI",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "Mermaid Beach Surf Club",
+      "details": "N/A",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "North Burleigh Surf Club",
+      "details": "N/A",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "Golden Key Society",
+      "details": "N/A",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "Mermaid Beach Surf Club",
+      "details": "Spouse/partner membership",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "North Burleigh Surf Club",
+      "details": "Spouse/partner membership",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "Burleigh Surf Club",
+      "details": "Spouse/partner membership",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "Tallebudgera Surf Club",
+      "details": "Spouse/partner membership",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "The National Trust",
+      "details": "Spouse/partner membership",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "Burleigh Golf Club",
+      "details": "Spouse/partner membership",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Liabilities",
+      "entity": "Bank of Queensland",
+      "details": "Specified Security Agreement with Bank of Queensland",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "1 June 2019 Ticket & hospitality to McLaren Gold Coast Polo by the Sea",
+      "pdf_url": "bell_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Gifts",
+      "entity": "Queensland Airports Limited",
+      "details": "2 June 2019 Tickets (2) & hospitality Titans vs Cowboys - Guest of Queensland Airports Limited",
+      "pdf_url": "bell_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Gifts",
+      "entity": "Sports Gold Coast",
+      "details": "6 July 2019 Tickets (2) & hospitality Gold Coast Suns VS Richmond - Guest of Sports Gold Coast",
+      "pdf_url": "bell_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Gifts",
+      "entity": "Queensland Airports Limited",
+      "details": "18 July 2019 Tickets (2) & hospitality Madama Butterfly - Guest of Queensland Airports Limited",
+      "pdf_url": "bell_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Gifts",
+      "entity": "Broadbeach Alliance",
+      "details": "26 July 2019 Tickets (2) & hospitality Broadbeach Country Music Festival - Guest of Broadbeach Alliance",
+      "pdf_url": "bell_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Virgin Club Membership for myself and my partner",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Qantas Chairman's Lounge Membership",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Foxtel Connection Electorate Office",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Rotary Passport",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Travel",
+      "entity": "Sebel Canberra",
+      "details": "Room upgrade at Sebel Canberra to Executive Room 24-26 June 2019",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-17",
+      "category": "Travel",
+      "entity": "Ray White Surfers Paradise",
+      "details": "Ray White Surfers Paradise Muscular Dystrophy Charity Ball - Invitation from Ray White Surfers Paradise",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-17",
+      "category": "Travel",
+      "entity": "Leanne St George",
+      "details": "Pink Ribbon Race Day x 2 - Invitation from Leanne St George",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-17",
+      "category": "Travel",
+      "entity": "Uber",
+      "details": "Press Gallery Mid Winter Ball - Invitation from Uber",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-01-22",
+      "category": "Hospitality",
+      "entity": "HOTA",
+      "details": "Tickets and hospitality Deadly Hearts Performance, Home of the Arts Gold Coast (HOTA) - Guests of HOTA",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-01-22",
+      "category": "Hospitality",
+      "entity": "RACV Royal Pines",
+      "details": "Tickets and hospitality RACV Australian PGA Championship, RACV Royal Pines Gold Coast, Guests of RACV Royal Pines",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-01-22",
+      "category": "Hospitality",
+      "entity": "City of Gold Coast",
+      "details": "Tickets and hospitality Melbourne Stars v. Adelaide Strikers, Metricon Stadium, Guests of City of Gold Coast",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-01-22",
+      "category": "Hospitality",
+      "entity": "Magic Millions",
+      "details": "Hosplitality Magic Millions Launch Party - Guests of Magic Millions",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-01-22",
+      "category": "Hospitality",
+      "entity": "Magic Millions",
+      "details": "Tickets and hospitality Magic Millions Race Day - Guests of Magic Millions",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-01-22",
+      "category": "Travel",
+      "entity": "Save the Children Australia",
+      "details": "Flights, accommodation, meals - Save the Children Australia, MP Learning Tour to Bangladesh",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-01-24",
+      "category": "Memberships",
+      "entity": "Nerang RSL",
+      "details": "N/A",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-01-24",
+      "category": "Memberships",
+      "entity": "Southport RSL",
+      "details": "N/A",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-01-24",
+      "category": "Memberships",
+      "entity": "Friends of Gold Coast Botanical Gardens",
+      "details": "N/A",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-01-24",
+      "category": "Memberships",
+      "entity": "Broadbeach Surf Club",
+      "details": "Honorary Vice President",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-01-24",
+      "category": "Memberships",
+      "entity": "Chevron Island Business and Residents Association",
+      "details": "N/A",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-02-10",
+      "category": "Memberships",
+      "entity": "Fitness First",
+      "details": "Self: Fitness First",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-02-10",
+      "category": "Memberships",
+      "entity": "Health & Recreation Club Parliament House",
+      "details": "Self: Health & Recreation Club Parliament House",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-02-10",
+      "category": "Memberships",
+      "entity": "Fitness First",
+      "details": "Spouse: Fitness First",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-03",
+      "category": "Gifts",
+      "entity": "SBS",
+      "details": "SBS - ticket x 2 to \"Eurovision Australia Decides\" - 8 February 2020",
+      "pdf_url": "bell_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2020-03-11",
+      "category": "Memberships",
+      "entity": "Accor Plus",
+      "details": "Partner - Accor Plus",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-19",
+      "category": "Gifts",
+      "entity": "Jewel Raceday",
+      "details": "Tickets x 2 and hospitality Jewel Raceday Guests of Gold Coast Turf Club",
+      "pdf_url": "bell_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2020-05-13",
+      "category": "Memberships",
+      "entity": "Southport Chamber of Commerce",
+      "details": "N/A",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-05-13",
+      "category": "Memberships",
+      "entity": "Gold Coast Central Chamber of Commerce",
+      "details": "N/A",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-08-07",
+      "category": "Memberships",
+      "entity": "BMD Northcliffe Surf Club",
+      "details": "BMD Northcliffe Surf Club Vice Patron 2020/21 Season",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-13",
+      "category": "Travel",
+      "entity": "Leanne St George",
+      "details": "Tickets x 2 and hospitality Pink Ribbon Race Day guest of Leanne St George",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-13",
+      "category": "Travel",
+      "entity": "HOTA",
+      "details": "Tickets x 2 and hospitality \"Sounds of Wanderlust\" guest of HOTA",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-13",
+      "category": "Memberships",
+      "entity": "Burleigh Golf Club",
+      "details": "Partner has been appointed to the Board of Directors Burleigh Golf Club",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-02-15",
+      "category": "Travel",
+      "entity": "Homecorp",
+      "details": "Travelled from Canberra to Gold Coast on a charter flight by Homecorp.",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-04-15",
+      "category": "Travel",
+      "entity": "Gold Coast Suns",
+      "details": "Tickets and hospitality Gold Coast Suns v. North Melbourne courtesy of Gold Coast Suns",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-07-15",
+      "category": "Travel",
+      "entity": "The Star",
+      "details": "NRL State of Origin tickets & hospitality CBus Stadium. Guests of The Star",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-07-15",
+      "category": "Travel",
+      "entity": "Southern Cross Austereo",
+      "details": "NRL Titans vs. Eels tickets & hospitality CBus Stadium. Guests of Southern Cross Austereo",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-07-15",
+      "category": "Memberships",
+      "entity": "Southport Surf Life Saving Club",
+      "details": "Honorary Member Southport Surf Life Saving Club",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-10-01",
+      "category": "Travel",
+      "entity": "Leanne St George",
+      "details": "Pink Ribbon Race Day Tickets guest of Leanne St George",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-11-14",
+      "category": "Travel",
+      "entity": "Ray White",
+      "details": "Lady Mayoress Ball tickets guests of Ray White",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-11-14",
+      "category": "Travel",
+      "entity": "Institute of Glycomics",
+      "details": "Institute of Glycomics 21st Birthday Ball tickets guest of Institute of Glycomics",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-12-03",
+      "category": "Hospitality",
+      "entity": "Gold Coast Business Excellence Awards",
+      "details": "Gold Coast Business Excellence Awards tickets x 2. Guests of Gold Coast Business Excellence Awards",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-03-15",
+      "category": "Travel",
+      "entity": "HOTA",
+      "details": "Tickets x 2 - Sleeping Beauty Ballet guests of HOTA",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-03-15",
+      "category": "Travel",
+      "entity": "Gold Coast Women in Business",
+      "details": "Ticket - International Women's Day Breakfast - guest of Gold Coast Women in Business",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-03-15",
+      "category": "Travel",
+      "entity": "Destination Gold Coast",
+      "details": "Ticket - International Women's Day Lunch - guest of Destination Gold Coast",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-03-15",
+      "category": "Travel",
+      "entity": "Perry Cross Spinal Research Foundation",
+      "details": "Ticket x 2 - Perry Cross Research Foundation \"Everything is Possible\" Gala Dinner - guest of Perry Cross Spinal Research Foundation",
+      "pdf_url": "bell_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-03-21",
+      "category": "Memberships",
+      "entity": "Nobbys Beach Surf Club",
+      "details": "N/A",
+      "pdf_url": "bell_46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/bell_46p.pdf"
+}

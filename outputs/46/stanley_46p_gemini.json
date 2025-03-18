@@ -1,0 +1,171 @@
+{
+  "mp_name": "Anne Stanley",
+  "party": "Australian Labor Party",
+  "electorate": "Werriwa",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Shares",
+      "entity": "Insurance Australia Group (IAG)",
+      "details": "Holding shares in IAG",
+      "pdf_url": "stanley_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Shares",
+      "entity": "Commonwealth Bank of Australia (CBA)",
+      "details": "Holding shares in CBA",
+      "pdf_url": "stanley_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Shares",
+      "entity": "Medibank Private",
+      "details": "Holding shares in Medibank Private",
+      "pdf_url": "stanley_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "stanley_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Residential property in Lurnea, NSW",
+      "pdf_url": "stanley_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "stanley_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "stanley_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Home Loan",
+      "pdf_url": "stanley_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Credit Card",
+      "pdf_url": "stanley_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Savings Account x 9",
+      "pdf_url": "stanley_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Saving Account x 3",
+      "pdf_url": "stanley_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Saving Account x 3",
+      "pdf_url": "stanley_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Other Assets",
+      "entity": "First State Superannuation",
+      "details": "Superannuation fund",
+      "pdf_url": "stanley_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "stanley_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "stanley_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "stanley_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Memberships",
+      "entity": "Australian Labor Party (NSW) Branch",
+      "details": "Member of Australian Labor Party (NSW) Branch",
+      "pdf_url": "stanley_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Memberships",
+      "entity": "CFMEU",
+      "details": "Member of CFMEU",
+      "pdf_url": "stanley_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Other Interests",
+      "entity": "Qantas Club",
+      "details": "Complementary membership Qantas Club",
+      "pdf_url": "stanley_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Other Interests",
+      "entity": "Virgin Lounge",
+      "details": "Complementary membership Virgin Lounge",
+      "pdf_url": "stanley_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-04-09",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Watson, ACT Investment",
+      "pdf_url": "stanley_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-04-09",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Investment Loan, Watson ACT",
+      "pdf_url": "stanley_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-04-09",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Deletion of Home Loan",
+      "pdf_url": "stanley_46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/stanley_46p.pdf"
+}

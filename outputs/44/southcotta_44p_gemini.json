@@ -1,0 +1,519 @@
+{
+  "mp_name": "Andrew John Southcott",
+  "party": "N/A",
+  "electorate": "Boothby",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Shares",
+      "entity": "ANZ Banking Group",
+      "details": "Shareholdings in ANZ Banking Group",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Shares",
+      "entity": "Westpac Banking Corp.",
+      "details": "Shareholdings in Westpac Banking Corp.",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Shares",
+      "entity": "Woodside Petroleum",
+      "details": "Shareholdings in Woodside Petroleum",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Shares",
+      "entity": "Woolworths Ltd",
+      "details": "Shareholdings in Woolworths Ltd",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Shares",
+      "entity": "Asgard Investment Account",
+      "details": "Managed investments held by this fund, see attached list",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Shares",
+      "entity": "Asgard Superannuation Account",
+      "details": "Managed investments held by this fund, see attached list",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Shares",
+      "entity": "Asgard Superannuation Account",
+      "details": "Spouse's Asgard Superannuation Account",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "House in Hawthorn, SA (Residence)",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Spouse's House in Hawthorn, SA (Residence)",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Liabilities",
+      "entity": "Bank SA",
+      "details": "Mortgage",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Liabilities",
+      "entity": "Bank SA",
+      "details": "Investment Loan",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Liabilities",
+      "entity": "Bank SA",
+      "details": "Spouse's Mortgage",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Savings/Investments",
+      "entity": "Bank SA",
+      "details": "Cheque and Savings Account",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Savings/Investments",
+      "entity": "Bank SA",
+      "details": "Spouse's Savings Account",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Dependent Children's Savings Account",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Other Assets",
+      "entity": "Asgard Superannuation Account",
+      "details": "Asgard Superannuation Account",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Other Assets",
+      "entity": "Asgard Superannuation Account",
+      "details": "Spouse's Asgard Superannuation Account",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Income Sources",
+      "entity": "Real Estate Institute of South Australia",
+      "details": "Spouse's Policy and Legal Officer",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Chairman's Lounge, Qantas",
+      "pdf_url": "southcotta_44p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Gifts",
+      "entity": "Adelaide Entertainment Centre",
+      "details": "Tickets to One Direction concert for family",
+      "pdf_url": "southcotta_44p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Gifts",
+      "entity": "Netball Australia",
+      "details": "Tickets for ANZ Grand Final for family from Netball Australia; Tickets to Australia versus New Zealand Netball International from Netball Australia for family",
+      "pdf_url": "southcotta_44p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Travel",
+      "entity": "Adelaide Entertainment Centre",
+      "details": "Tickets to One Direction concert for family from Adelaide Entertainment Centre; Tickets to ANZ Grand Final for family from Netball Australia; Tickets to Australia versus New Zealand Netball International from Netball Australia for family",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Memberships",
+      "entity": "Various",
+      "details": "Please see attached list",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-06-25",
+      "category": "Hospitality",
+      "entity": "Hotel Windsor",
+      "details": "Accomodation at Hotel Windsor Melbourne, upgrade from Superior Room to the Victoria Room on Thursday 19 June 2014.",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-06-25",
+      "category": "Gifts",
+      "entity": "Netball SA",
+      "details": "2 tickets to attend ANZ Championships netball match in Superbox received from Netball SA.",
+      "pdf_url": "southcotta_44p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2014-07-25",
+      "category": "Memberships",
+      "entity": "Adelaide Club",
+      "details": "Membership of the Adelaide Club",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-11-24",
+      "category": "Travel",
+      "entity": "NAB Yachad Scholarship fund",
+      "details": "Flights, accomodation, and travel within Israel as part of the NAB Yachad Scholarship fund to examine the health system of Israel.",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-04-15",
+      "category": "Shares",
+      "entity": "Magellan Flagship Fund Limited",
+      "details": "Addition of Magellan Flagship Fund Limited",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-04-15",
+      "category": "Shares",
+      "entity": "AMP Capital Core Infrastructure Fund",
+      "details": "Addition of AMP Capital Core Infrastructure Fund - Class A Units",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-04-15",
+      "category": "Shares",
+      "entity": "AUSBIL Investment Trust",
+      "details": "Addition of AUSBIL Investment Trust - Australian Active Equity Portfolio",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-04-15",
+      "category": "Shares",
+      "entity": "Maple-Brown Abbott Australian Share Fund",
+      "details": "Addition of Maple-Brown Abbott Australian Share Fund - Wholesale Units",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-04-15",
+      "category": "Shares",
+      "entity": "Vanguard W'sale Australian Property Securities Index Fund",
+      "details": "Addition of Vanguard W'sale Australian Property Securities Index Fund",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-04-15",
+      "category": "Shares",
+      "entity": "Advance Properties Securities Multi-Blend Fund",
+      "details": "Addition of Advance Properties Securities Multi-Blend Fund - Wholesale Units",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-04-15",
+      "category": "Shares",
+      "entity": "Eley Griffiths Group Small Co Fund",
+      "details": "Deletion of Eley Griffiths Group Small Co Fund",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-04-15",
+      "category": "Shares",
+      "entity": "Platinum International Brands Fund",
+      "details": "Deletion of Platinum International Brands Fund",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-04-15",
+      "category": "Shares",
+      "entity": "GVI Aubrey Global Growth",
+      "details": "Deletion of GVI Aubrey Global Growth and Income - Hdg",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-04-15",
+      "category": "Shares",
+      "entity": "Income - Hdg",
+      "details": "Deletion of GVI Aubrey Global Growth and Income - Hdg",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-04-15",
+      "category": "Shares",
+      "entity": "Schroder Credit Securities Fund WS Class",
+      "details": "Deletion of Schroder Credit Securities Fund WS Class",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-04-15",
+      "category": "Shares",
+      "entity": "Westpac Bank Convertible Preferences Shares",
+      "details": "Deletion of Westpac Bank Convertible Preferences Shares",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-04-15",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Commemorative plate from the President of Vietnam, $200",
+      "pdf_url": "southcotta_44p.pdf",
+      "sub_category": "Decorative"
+    },
+    {
+      "declaration_date": "2015-06-23",
+      "category": "Gifts",
+      "entity": "Junior School Friends of St Peters College Adelaide",
+      "details": "Received from Junior School Friends of St Peters College Adelaide for hosting their quiz night - 1 large Haigh's chocolate frog - 1 bottle Hentley Farm 'The Beauty' Shiraz - 1 bottle Bird in Hand sparkling wine",
+      "pdf_url": "southcotta_44p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2015-07-10",
+      "category": "Travel",
+      "entity": "Global Fund to fight AIDS, Tuberculosis and Malaria",
+      "details": "Flights to, accommodation in, and travel within Vietnam provided by the Global Fund to fight AIDS, Tuberculosis and Malaria (1-4 July)",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-08-13",
+      "category": "Hospitality",
+      "entity": "Fowler Simmons Radiology",
+      "details": "Ticket to attend Liverpool versus Adelaide United match at Adelaide Oval and hospitality received from Fowler Simmons Radiology on 20th July 2015",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-08-27",
+      "category": "Travel",
+      "entity": "Virgin",
+      "details": "Upgrade from Economy to Business class on a Virgin flight from Sydney to Adelaide August 2015",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-27",
+      "category": "Savings/Investments",
+      "entity": "Asgard/St George",
+      "details": "Domestic cash account with Asgard/St George.",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-27",
+      "category": "Shares",
+      "entity": "Australian Foundation Investment Company",
+      "details": "Shares in Australian Foundation Investment Company",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-27",
+      "category": "Shares",
+      "entity": "ANZ",
+      "details": "Shares in ANZ",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-27",
+      "category": "Shares",
+      "entity": "Computershare",
+      "details": "Shares in Computershare",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-27",
+      "category": "Shares",
+      "entity": "iShare S",
+      "details": "Shares in iShare S&P/ASX Dividend Opportunities ETF",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-27",
+      "category": "Shares",
+      "entity": "P/ASX Dividend Opportunities ETF",
+      "details": "Shares in iShare S&P/ASX Dividend Opportunities ETF",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-27",
+      "category": "Shares",
+      "entity": "Mirrabooka Investments Limited",
+      "details": "Shares in Mirrabooka Investments Limited",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-27",
+      "category": "Shares",
+      "entity": "Seek Limited",
+      "details": "Shares in Seek Limited",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-27",
+      "category": "Shares",
+      "entity": "Woolworths",
+      "details": "Shares in Woolworths",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-27",
+      "category": "Shares",
+      "entity": "Woodside Petroleum",
+      "details": "Shares in Woodside Petroleum",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-27",
+      "category": "Shares",
+      "entity": "Global Value Fund Limited",
+      "details": "Holdings in Global Value Fund Limited",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-27",
+      "category": "Shares",
+      "entity": "Magellan Flagship Fund Limited",
+      "details": "Holdings in Magellan Flagship Fund Limited",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-27",
+      "category": "Shares",
+      "entity": "Platinum Capital Limited",
+      "details": "Holdings in Platinum Capital Limited",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-27",
+      "category": "Real Estate",
+      "entity": "Dexus Property Group",
+      "details": "Property units: Dexus Property Group",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-27",
+      "category": "Real Estate",
+      "entity": "Goodman Group",
+      "details": "Property units: Goodman Group",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-27",
+      "category": "Real Estate",
+      "entity": "Stockland",
+      "details": "Property units: Stockland",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-27",
+      "category": "Liabilities",
+      "entity": "AGL Energy",
+      "details": "Domestic fixed interest bonds with AGL Energy",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-27",
+      "category": "Liabilities",
+      "entity": "AMP",
+      "details": "Domestic fixed interest bonds with AMP",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-27",
+      "category": "Liabilities",
+      "entity": "APT Pipelines",
+      "details": "Domestic fixed interest bonds with APT Pipelines",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-27",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Domestic fixed interest bonds with Commonwealth Bank",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-27",
+      "category": "Liabilities",
+      "entity": "Colonial Holding",
+      "details": "Domestic fixed interest bonds with Colonial Holding",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-27",
+      "category": "Liabilities",
+      "entity": "Goodman Plus Trust",
+      "details": "Domestic fixed interest bonds with Goodman Plus Trust",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-27",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Domestic fixed interest bonds with NAB",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-27",
+      "category": "Liabilities",
+      "entity": "Origin Energy",
+      "details": "Domestic fixed interest bonds with Origin Energy",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-27",
+      "category": "Liabilities",
+      "entity": "Russell Australian Semi-Government Bond",
+      "details": "Domestic fixed interest bonds with Russell Australian Semi-Government Bond",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-27",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Domestic fixed interest bonds with Westpac",
+      "pdf_url": "southcotta_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-27",
+      "category": "Liabilities",
+      "entity": "Woolworths",
+      "details": "Domestic fixed interest bonds with Woolworths",
+      "pdf_url": "southcotta_44p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/southcotta_44p.pdf"
+}

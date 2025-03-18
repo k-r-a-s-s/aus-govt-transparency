@@ -1,0 +1,221 @@
+{
+  "mp_name": "Dai Le",
+  "party": "Unknown",
+  "electorate": "Fowler",
+  "disclosures": [
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Shares",
+      "entity": "Dawn Media Productions Pty Ltd",
+      "details": "Shares in Dawn Media Productions Pty Ltd",
+      "pdf_url": "le_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Shares",
+      "entity": "Dawn Foundation",
+      "details": "Shares in Dawn Foundation",
+      "pdf_url": "le_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Shares",
+      "entity": "All Energy Group",
+      "details": "Shares in All Energy Group",
+      "pdf_url": "le_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Real Estate",
+      "entity": "Dulwich Hill",
+      "details": "Residential/Investment property in Dulwich Hill",
+      "pdf_url": "le_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Real Estate",
+      "entity": "Hurlstone Park",
+      "details": "Residential/Investment property in Hurlstone Park",
+      "pdf_url": "le_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Real Estate",
+      "entity": "Smithfield",
+      "details": "Residential property in Smithfield",
+      "pdf_url": "le_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Directorships",
+      "entity": "Dawn Foundation",
+      "details": "Director of Dawn Foundation",
+      "pdf_url": "le_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Directorships",
+      "entity": "All Energy Group",
+      "details": "Director of All Energy Group",
+      "pdf_url": "le_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Liabilities",
+      "entity": "car finance",
+      "details": "car finance",
+      "pdf_url": "le_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Liabilities",
+      "entity": "St George Bank",
+      "details": "Loans with St George Bank",
+      "pdf_url": "le_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Savings/Investments",
+      "entity": "Great Southern Bank",
+      "details": "Everyday Savings Account at Great Southern Bank",
+      "pdf_url": "le_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Savings/Investments",
+      "entity": "St George Bank",
+      "details": "Everyday Savings Account at St George Bank",
+      "pdf_url": "le_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Savings/Investments",
+      "entity": "St George Bank",
+      "details": "Savings account at St George Bank",
+      "pdf_url": "le_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth",
+      "details": "Savings account at Commonwealth",
+      "pdf_url": "le_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Other Assets",
+      "entity": "Car",
+      "details": "Car",
+      "pdf_url": "le_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Other Assets",
+      "entity": "Car",
+      "details": "Car",
+      "pdf_url": "le_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Income Sources",
+      "entity": "Council",
+      "details": "Council allowance",
+      "pdf_url": "le_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Gifts",
+      "entity": "Qantas Lounge",
+      "details": "Qantas Lounge",
+      "pdf_url": "le_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Gifts",
+      "entity": "Virgin Club",
+      "details": "Virgin Club",
+      "pdf_url": "le_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2024-07-18",
+      "category": "Income Sources",
+      "entity": "Fairfield City Council",
+      "details": "Self - Council allowance - Fairfield City Council",
+      "pdf_url": "le_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-18",
+      "category": "Shares",
+      "entity": "Dawn Media Productions Pty Ltd",
+      "details": "Deletion of Shares in Dawn Media Productions Pty Ltd",
+      "pdf_url": "le_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-18",
+      "category": "Shares",
+      "entity": "Dawn Foundation",
+      "details": "Deletion of Shares in Dawn Foundation",
+      "pdf_url": "le_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-18",
+      "category": "Real Estate",
+      "entity": "Hurlstone Park",
+      "details": "Deletion of Real Estate in Hurlstone Park",
+      "pdf_url": "le_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-18",
+      "category": "Directorships",
+      "entity": "Dawn Foundation",
+      "details": "Deletion of Directorship of Dawn Foundation",
+      "pdf_url": "le_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-18",
+      "category": "Liabilities",
+      "entity": "car finance",
+      "details": "Deletion of Self - car - car finance",
+      "pdf_url": "le_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-18",
+      "category": "Liabilities",
+      "entity": "St George Bank",
+      "details": "Deletion of Spuse/partner - loans - St George Bank",
+      "pdf_url": "le_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-18",
+      "category": "Other Assets",
+      "entity": "car",
+      "details": "Deletion of Self - car",
+      "pdf_url": "le_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-23",
+      "category": "Liabilities",
+      "entity": "St George Bank",
+      "details": "Spouse/partner - loans - St George Bank",
+      "pdf_url": "le_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-30",
+      "category": "Travel",
+      "entity": "Global Public Policy Institute and ANU National Security College",
+      "details": "Travel to India as a part of an Australian and German delegations of parliamentarians on a program arranged and facilitated by Global Public Policy Institute and ANU National Security College.",
+      "pdf_url": "le_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-30",
+      "category": "Travel",
+      "entity": "Robert Bosch Foundation",
+      "details": "Robert Bosch Foundation organised travel which included: flights, accommodation, ground transport and meals in India (New Delhi and Mumbai), 19-25 October 2024.",
+      "pdf_url": "le_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/le_47p.pdf"
+}

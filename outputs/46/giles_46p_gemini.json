@@ -1,0 +1,177 @@
+{
+  "mp_name": "Andrew Giles",
+  "party": "Unknown",
+  "electorate": "Scullin",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "Telstra",
+      "details": "Spouse/partner holds shares in Telstra",
+      "pdf_url": "giles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "Wesfarmers",
+      "details": "Spouse/partner holds shares in Wesfarmers",
+      "pdf_url": "giles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "Starpharma",
+      "details": "Spouse/partner holds shares in Starpharma",
+      "pdf_url": "giles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Trusts",
+      "entity": "Ceccon Pty Ltd",
+      "details": "Family Superannuation Trust, Member",
+      "pdf_url": "giles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Trusts",
+      "entity": "Ceccon Pty Ltd",
+      "details": "Family Superannuation Trust, spouse/partner is a member",
+      "pdf_url": "giles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Clifton Hill, Residence",
+      "pdf_url": "giles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Clifton Hill, Residence - spouse/partner",
+      "pdf_url": "giles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Directorships",
+      "entity": "Ceccon Pty Ltd",
+      "details": "Family superannuation trust - spouse/partner",
+      "pdf_url": "giles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "Westpac bank",
+      "details": "Mortgage on residential property",
+      "pdf_url": "giles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "Westpac bank",
+      "details": "Mortgage on residential property - spouse/partner",
+      "pdf_url": "giles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "Westpac Bank",
+      "details": "Savings accounts",
+      "pdf_url": "giles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "Westpac Bank",
+      "details": "Savings account - spouse/partner",
+      "pdf_url": "giles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Savings account - spouse/partner",
+      "pdf_url": "giles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation",
+      "pdf_url": "giles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation - spouse/partner",
+      "pdf_url": "giles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Income Sources",
+      "entity": "University of Melbourne",
+      "details": "Salary - University of Melbourne - spouse/partner",
+      "pdf_url": "giles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Qantas Chairman's Lounge",
+      "details": "Membership",
+      "pdf_url": "giles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Virgin Club",
+      "details": "Membership",
+      "pdf_url": "giles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Australian Services Union",
+      "details": "Membership",
+      "pdf_url": "giles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Qantas Chairman's Lounge",
+      "details": "Spouse/Partner Membership",
+      "pdf_url": "giles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Virgin Club",
+      "details": "Spouse/Partner Membership",
+      "pdf_url": "giles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "CPSU",
+      "details": "Spouse/Partner Membership",
+      "pdf_url": "giles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-13",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Upgrade to air travel from economy to business (Sydney - Cairns, Qantas Flight QF 927 \u2013 21 Aug 19)",
+      "pdf_url": "giles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-13",
+      "category": "Other Interests",
+      "entity": "Asylum Seeker Resource Centre",
+      "details": "Support for independent not-for-profit organisation",
+      "pdf_url": "giles_46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/giles_46p.pdf"
+}

@@ -1,0 +1,905 @@
+{
+  "mp_name": "Anika Wells",
+  "party": "Australian Labor Party",
+  "electorate": "Lilley",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Joint residency with spouse in Chermside, QLD",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Joint mortgage with spouse on residential property",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Joint savings account with spouse",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Savings/Investments",
+      "entity": "ME Bank",
+      "details": "Savings account (Dependent children)",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from joint investment property set out above",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "Australian Labor Party",
+      "details": "Member of Australian Labor Party",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "Australian Lawyers Alliance",
+      "details": "Member of Australian Lawyers Alliance",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "Queensland Law Society",
+      "details": "Member of Queensland Law Society",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "The Australian Workers' Union",
+      "details": "Member of The Australian Workers' Union",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "Australian Services Union",
+      "details": "Member of Australian Services Union",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Travel",
+      "entity": "QANTAS",
+      "details": "QANTAS Chairman's Membership",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Travel",
+      "entity": "Virgin",
+      "details": "Virgin Beyond Membership",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Hospitality",
+      "entity": "NRL & ARL",
+      "details": "Corporate suite ticket to State of Origin - Game I",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Hospitality",
+      "entity": "NRL & ARL",
+      "details": "Corporate suite ticket to State of Origin - Game III",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Hospitality",
+      "entity": "ASTRA",
+      "details": "ASTRA annual subscription",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-10-19",
+      "category": "Gifts",
+      "entity": "Tennis Australia",
+      "details": "Tennis racquet (Babolat Pure Aero)",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-10-19",
+      "category": "Gifts",
+      "entity": "Football Australia",
+      "details": "5 x tickets to Matildas v Canada game in Brisbane",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-10-19",
+      "category": "Gifts",
+      "entity": "The Guardian",
+      "details": "2 x tickets to Australian Parliament House 2022 Mid-Winter Ball",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-10-19",
+      "category": "Hospitality",
+      "entity": "AFL",
+      "details": "2 x Corporate Suite tickets to Brisbane Lions and Geelong Cats 2022 AFL Preliminary Final",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-10-19",
+      "category": "Hospitality",
+      "entity": "FIBA Women's Basketball",
+      "details": "2 x Corporate Suite tickets to FIBA Women's Basketball World Championships 2022 Opening Ceremony",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-10-19",
+      "category": "Hospitality",
+      "entity": "AFL",
+      "details": "2 x Corporate Suite tickets to 2022 AFL Grand Final",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-10-19",
+      "category": "Hospitality",
+      "entity": "NFL & ARL",
+      "details": "2 x Corporate Suite tickets to Prime Minister's XIII matches",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-10-19",
+      "category": "Hospitality",
+      "entity": "FIBA Women's Basketball",
+      "details": "2 x Corporate Suite tickets to FIBA Women's Basketball World Championships 2022 Finals and Medal Ceremony",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-10-19",
+      "category": "Hospitality",
+      "entity": "ARL & NRL",
+      "details": "2 x Corporate Suite tickets to NRL Grand Finals 2022",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-11-16",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "2 x Furphy Marquee tickets to 2022 Lexus Melbourne Cup Race Day",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-02-13",
+      "category": "Gifts",
+      "entity": "National Rugby League",
+      "details": "1 x Australian Rugby League World Cup England 2021 jersey signed by all team members",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2021-12-10",
+      "category": "Hospitality",
+      "entity": "Virgin Australia",
+      "details": "Two tickets to Brisbane Lions v Western Bulldogs on 4 September 2021",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-02-13",
+      "category": "Travel",
+      "entity": "Tennis Australia",
+      "details": "2 x tickets to 2023 Australian Open Men's and Women's Final matches",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-02-13",
+      "category": "Travel",
+      "entity": "FIFA",
+      "details": "2 x VVIP tickets to 2022 FIFA World Cup Australia v France match",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-02-13",
+      "category": "Travel",
+      "entity": "AFL",
+      "details": "6 x tickets to 2022 AFL Women's Grand Final",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-02-13",
+      "category": "Travel",
+      "entity": "Cricket Australia and Cricket Queensland",
+      "details": "3 x Corporate suite tickets to Men's Test Series Australia v South Africa Brisbane Test",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-02-13",
+      "category": "Travel",
+      "entity": "Cricket Australia",
+      "details": "3 x Corporate suite tickets to 2022 Boxing Day Test Australia v South Africa match",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-02-13",
+      "category": "Gifts",
+      "entity": "Australian Sailing",
+      "details": "Framed signed jersey of Australian Olympic Tokyo 2020 Sailing team",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2023-02-13",
+      "category": "Gifts",
+      "entity": "Eden Park",
+      "details": "Frame Women in Sport New Zealand print (13/20)",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-02-13",
+      "category": "Travel",
+      "entity": "Qatari Ministry of Foreign Affairs",
+      "details": "Minister and 2 staff x 4 nights accommodation in Doha, Qatar",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-02-17",
+      "category": "Gifts",
+      "entity": "Tennis Australia",
+      "details": "5 x Australian Open 2023 (AO23) branded merchandise items",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-02-17",
+      "category": "Gifts",
+      "entity": "Queensland Rugby Union",
+      "details": "1 x Queensland Reds Pacifika Warm Up Tee",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-03-30",
+      "category": "Gifts",
+      "entity": "National Rugby League",
+      "details": "Merchandise pack containing Indigenous All Stars Ladies Jersey (signed), NRL 2023 Premiership Ball (signed by Brett Kimmorley & Meg Ward) and NRL Notebook",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-03-30",
+      "category": "Gifts",
+      "entity": "Brisbane Broncos",
+      "details": "Merchandise pack containing New Era 2023 Team hat, Broncos headphones, Broncos in the Community Book, Supporter scarf, Supporter beanie, Broncos insulated water bottle, Supporter socks and pens",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2023-03-30",
+      "category": "Gifts",
+      "entity": "Cricket Australia",
+      "details": "Framed International Cricket Council Men's T20 World Cup 2022 memorabilia",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-03-30",
+      "category": "Travel",
+      "entity": "Football Australia",
+      "details": "Dinner with coach of the Sooceroos",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-03-30",
+      "category": "Gifts",
+      "entity": "Brisbane Broncos",
+      "details": "2023 Brisbane Broncos Women's City Jersey",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2023-03-30",
+      "category": "Travel",
+      "entity": "Dolphins NRL",
+      "details": "2 x Chairman's Club tickets to Dolphins v Brisbane Broncos game",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-03-30",
+      "category": "Travel",
+      "entity": "Netball Queensland and Queensland Firebirds",
+      "details": "2 x VIP tickets to Queensland Firebirds v Sunshine Coast Lightning game",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-03",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Joint residency with spouse in Wavell Heights, QLD",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-03",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Rental property in Chermside, QLD",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-03",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rental income for Chermside property",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-30",
+      "category": "Travel",
+      "entity": "Brisbane Lions",
+      "details": "3 x VIP tickets to Brisbane Lions v Gold Coast Suns game",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-30",
+      "category": "Gifts",
+      "entity": "Rowing Australia",
+      "details": "Rowing Australia branded clothing",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2023-07-26",
+      "category": "Gifts",
+      "entity": "Commonwealth Games Australia",
+      "details": "Framed medal stand jacket from Birmingham 2022 Commonwealth Games Team Uniform",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-07-26",
+      "category": "Travel",
+      "entity": "Sydney Swans",
+      "details": "2 x VIP Suite tickets to Brisbane Lions v Sydney Swans game",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-09",
+      "category": "Gifts",
+      "entity": "Football Australia",
+      "details": "Matilda's 2023 FIFA Women's World Cup supporter clothing",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-08-09",
+      "category": "Gifts",
+      "entity": "Foxtel Australia",
+      "details": "Framed photo collage of Minister at Parliament House event at start of winter sports season",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-08-09",
+      "category": "Gifts",
+      "entity": "FIFA",
+      "details": "2023 FIFA Women's World Cup supporter merchandise",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-08-09",
+      "category": "Gifts",
+      "entity": "Football Australia",
+      "details": "2023 FIFA Women's World Cup Matilda's / Australia supporter merchandise",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-08-09",
+      "category": "Travel",
+      "entity": "FIFA",
+      "details": "2 x FIFA Suite tickets for 2023 FIFA Women's World Cup Australia v Ireland match",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-09",
+      "category": "Travel",
+      "entity": "FIFA",
+      "details": "2 x FIFA Suite tickets for 2023 FIFA Women's World Cup Australia v Nigeria match",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-09",
+      "category": "Travel",
+      "entity": "FIFA",
+      "details": "2 x FIFA Suite tickets for 2023 FIFA Women's World Cup Australia v Canada match",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-09",
+      "category": "Travel",
+      "entity": "Football Australia",
+      "details": "4 x Tickets for Matildas v France \"Send Off Match\"",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-24",
+      "category": "Travel",
+      "entity": "FIFA",
+      "details": "2 x FIFA Suite tickets to 2023 FIFA Women's World Cup Australia v France quarter final match",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-24",
+      "category": "Travel",
+      "entity": "FIFA",
+      "details": "2 x FIFA Suite tickets to 2023 FIFA Women's World Cup Australia v England semi-final match",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-24",
+      "category": "Travel",
+      "entity": "FIFA",
+      "details": "5 x FIFA Suite tickets to 2023 FIFA Women's World Cup Australia v Sweden third place match",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-24",
+      "category": "Travel",
+      "entity": "FIFA",
+      "details": "2 x FIFA Suite tickets to 2023 FIFA Women's World Cup England v Spain Final match",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-09-05",
+      "category": "Gifts",
+      "entity": "Paralympics Australia",
+      "details": "Paralympics Australia supporting clothing",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2023-09-05",
+      "category": "Travel",
+      "entity": "Brisbane Festival Board and Executive",
+      "details": "Spouse received 2 x tickets to Official Brisbane Festival Riverfire VIP Function",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-09-06",
+      "category": "Gifts",
+      "entity": "FIFA",
+      "details": "2023 FIFA Women's World Cup Final merchandise",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-09-06",
+      "category": "Gifts",
+      "entity": "Rugby Australia",
+      "details": "2023 Rugby Australia Rugby World Cup supporter wear and merchandise",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-09-06",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "*Spouse* Qantas Platinum Membership",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-09-12",
+      "category": "Travel",
+      "entity": "National Rugby League",
+      "details": "2 x Suite tickets to Brisbane Broncos v Melbourne Storm match",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-09-12",
+      "category": "Travel",
+      "entity": "Australian Football League",
+      "details": "2 x Suite tickets to Brisbane Lions v Port Adelaide match",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-10-10",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Flight upgrade (Minister and Chief of Staff) on QF8082",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-10-10",
+      "category": "Gifts",
+      "entity": "National Institute of Sport, Expertise and Performance(France)",
+      "details": "INSEP branded merchandise and clothing and framed picture",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2023-10-10",
+      "category": "Gifts",
+      "entity": "International Basketball Federation (FIBA)",
+      "details": "FIBA supporter merchandise",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-10-10",
+      "category": "Travel",
+      "entity": "Australian Footbal League (AFL)",
+      "details": "2 x Suite tickets to 2023 AFL Grand Final",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-10-10",
+      "category": "Travel",
+      "entity": "National Rugby League (NRL) and Australian Rugby League (ARL)",
+      "details": "2 x Suite tickets to 2023 NRLW and NRL Grand Finals",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-10-10",
+      "category": "Gifts",
+      "entity": "International Olympic Committee",
+      "details": "Book, key ring and cashmere scarf",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2023-10-10",
+      "category": "Gifts",
+      "entity": "Global Observatory for Gender Equality in Sport",
+      "details": "Scarf, chocolate and wooden children's toys",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2023-10-10",
+      "category": "Gifts",
+      "entity": "Honourable Am\u00e9lie Oud\u00e9a-Cast\u00e9ra, Minister for Sport and the Olympic & Paralympic Games (France)",
+      "details": "Paris 2024 Games merchandise",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-10-10",
+      "category": "Gifts",
+      "entity": "Paris 2024 Games Team",
+      "details": "Paris 2024 Games merchandise",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-10-10",
+      "category": "Gifts",
+      "entity": "Paris 2024 Games Olympic Village Team",
+      "details": "Framed picture",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-10-10",
+      "category": "Travel",
+      "entity": "Rugby Australia",
+      "details": "2 x Lodge tickets to Rugby World Cup 2023 Australia v Wales match",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-02-05",
+      "category": "Travel",
+      "entity": "AFLW",
+      "details": "5 tickets to AFLW Brisbane Lions Game vs Adelaide Crows.",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-02-05",
+      "category": "Travel",
+      "entity": "Treasury Wine Estates",
+      "details": "Guest of Treasury Wine Estates to the Melbourne Cup.",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-02-05",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Five tickets to Women's A-League - Brisbane Roar vs Western United.",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-02-05",
+      "category": "Travel",
+      "entity": "Tennis Queensland",
+      "details": "4 Tickets Brisbane International Tennis - Guest of Tennis Queensland.",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-02-05",
+      "category": "Travel",
+      "entity": "Cricket Australia",
+      "details": "Guest of Cricket Australia to the Australia vs Pakistan 3rd test.",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-02-05",
+      "category": "Travel",
+      "entity": "McGrath Foundation",
+      "details": "Guest of McGrath Foundation at the Jane McGrath High Tea.",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-02-05",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Round of Golf at the Royal Queensland Golf Club for Minister and 3 guests.",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-02-05",
+      "category": "Travel",
+      "entity": "Racing Queensland",
+      "details": "Two tickets to Magic Millions Race Day - Guest of Racing Queensland.",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-02-05",
+      "category": "Travel",
+      "entity": "Tennis Australia",
+      "details": "Two tickets to the Australian Open night sessions for day 3 and 4",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-02-05",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Gift bag from the Australian Open including tennis themed merchandise and sporting equipment.",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2024-02-22",
+      "category": "Travel",
+      "entity": "Cricket Australia",
+      "details": "Two tickets to the Second Test v West Indies",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-02-22",
+      "category": "Travel",
+      "entity": "Nine",
+      "details": "Ticket to Australian Open Night Session (Day 14)",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-02-22",
+      "category": "Travel",
+      "entity": "Tennis Australia",
+      "details": "Ticket to Australian Open Night Session (Day 15)",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-02-22",
+      "category": "Income Sources",
+      "entity": "Suncorp",
+      "details": "Spouse- Employee-",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-18",
+      "category": "Travel",
+      "entity": "Frontier Touring",
+      "details": "Two Tickets to Taylor Swift- The Eras Tour",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-18",
+      "category": "Travel",
+      "entity": "Australian Sailing",
+      "details": "Ticket to SailGP Sydney",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-18",
+      "category": "Gifts",
+      "entity": "Australian Sailing",
+      "details": "Clothing",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2024-03-18",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Two tickets to Brisbane Broncos Round 2 Match v Rabbitohs",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-04-17",
+      "category": "Travel",
+      "entity": "Motorsport Australia",
+      "details": "2 tickets to Formula 1 Australian Grand Prix on 23 March 2024",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-04-17",
+      "category": "Travel",
+      "entity": "Motorsport Australia",
+      "details": "2 tickets to Motorsport Australia President's Dinner on 23 March 2024",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-04-17",
+      "category": "Travel",
+      "entity": "Australian Grand Prix Corporation",
+      "details": "2 tickets to Formula 1 Australian Grand Prix on 24 March 2024",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-23",
+      "category": "Travel",
+      "entity": "South Australian Tourism Commission",
+      "details": "Ticket to LIV Golf South Australian Government Hospitality area",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-04",
+      "category": "Travel",
+      "entity": "Australian Football League",
+      "details": "Two tickets to AFL Elimination Final on 7 September 2024",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-22",
+      "category": "Travel",
+      "entity": "Australian Football League",
+      "details": "Ticket to the 2024 Brownlow Medal Count",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-28",
+      "category": "Travel",
+      "entity": "Australian Football League",
+      "details": "2 Tickets to 2024 AFL Grand Final",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-30",
+      "category": "Travel",
+      "entity": "National Rugby League",
+      "details": "Ticket to the 2024 Dally M Awards",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-11-04",
+      "category": "Travel",
+      "entity": "National Rugby League",
+      "details": "Ticket to 2024 NRL Grand Final",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-12-05",
+      "category": "Gifts",
+      "entity": "Brisbane Roar FC",
+      "details": "Football Jersey and t-shirts",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2024-12-05",
+      "category": "Travel",
+      "entity": "Brisbane Lions",
+      "details": "6 tickets to AFLW Preliminary Final",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-12-05",
+      "category": "Travel",
+      "entity": "Golf Australia",
+      "details": "2 tickets to Australian PGA Championship",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-12-05",
+      "category": "Gifts",
+      "entity": "Golf Australia",
+      "details": "Olympic Golf bag",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2024-12-05",
+      "category": "Gifts",
+      "entity": "Australian Olympic Committee",
+      "details": "Olympic team merchandise",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2024-12-05",
+      "category": "Gifts",
+      "entity": "Paralympics Australia",
+      "details": "Paralympic team merchandise",
+      "pdf_url": "wells_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2025-01-13",
+      "category": "Travel",
+      "entity": "Cricket Australia",
+      "details": "2 tickets with Hospitality to the Brisbane Test on 14/12 - Aus v India",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-01-24",
+      "category": "Travel",
+      "entity": "Cricket Australia",
+      "details": "2 tickets with hospitality- Aus v India Test Match on 26/12",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-01-24",
+      "category": "Travel",
+      "entity": "Tennis Australia",
+      "details": "2 tickets with hospitality - Brisbane International on 29/12 and 30/12",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-02-04",
+      "category": "Travel",
+      "entity": "Venues NSW",
+      "details": "Ticket with hospitality - Australia v India Test Match on 4/1/25",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-02-04",
+      "category": "Travel",
+      "entity": "Cricket Australia",
+      "details": "Ticket with hospitality - Australia v India Test Match on 5/1/25",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-02-04",
+      "category": "Travel",
+      "entity": "McGrath Foundation",
+      "details": "Ticket to Jane McGrath High Tea",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-02-19",
+      "category": "Travel",
+      "entity": "Nine",
+      "details": "Ticket with hospitality - Australian Open 22/1/2025",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-02-19",
+      "category": "Travel",
+      "entity": "Tennis Australia",
+      "details": "Ticket with hospitality - Australian Open 23/1/2025",
+      "pdf_url": "wells_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-02-28",
+      "category": "Travel",
+      "entity": "Australian Sailing",
+      "details": "Ticket to Sail GP Sydney",
+      "pdf_url": "wells_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/wells_47p.pdf"
+}

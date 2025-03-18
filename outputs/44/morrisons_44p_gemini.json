@@ -1,0 +1,174 @@
+{
+  "mp_name": "Scott John Morrison",
+  "party": null,
+  "electorate": "Cook",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "SUPERANNUATION",
+      "pdf_url": "morrisons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Trusts",
+      "entity": "Morrison Family Trust",
+      "details": "Dormant; NIL beneficial interest",
+      "pdf_url": "morrisons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Dolans Bay; Residence",
+      "pdf_url": "morrisons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Directorships",
+      "entity": "Morrison Strategic Advisory Services",
+      "details": "Consultancy Trustee",
+      "pdf_url": "morrisons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "morrisons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Liabilities",
+      "entity": "CommBank, CitiBank, AMEX",
+      "details": "Mortgage, Viridian, VISA, Mastercard, Credit, Amex",
+      "pdf_url": "morrisons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "MLC",
+      "details": "SUPERANNUATION",
+      "pdf_url": "morrisons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "CommBank",
+      "details": "Savings",
+      "pdf_url": "morrisons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "morrisons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "morrisons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "morrisons_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "morrisons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "morrisons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "morrisons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-17",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Complimentary Foxtel services in Electorate Office in Cronulla (ongoing); Season ticket to home games of the Southern Districts Rugby Union Club, Sylvania Waters; Gift of a Mont Blanc Pen from Mr Xiang Mo Huang, Yuhu Group - value $330; Gift of a 2013 Wallabies Jersey signed by the current Australian Team",
+      "pdf_url": "morrisons_44p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2013-12-17",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Complimentary Membership of the Qantas Chairman's Lounge (and spouse); Complimentary Membership of the Virgin Club Lounge (and spouse)",
+      "pdf_url": "morrisons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-17",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Membership of the Liberal Party of Australia, NSW Division (and spouse); Honorary Membership of the Royal Motor Yacht Club, Woolooware (and spouse); Membership of the National Press Club; Membership of the Cronulla RSL Club; Honorary Membership of the South Metropolitan Regional Scout Council, NSW; Honorary Membership of the Cronulla Surf Life Saving Club; Honorary Membership of the North Cronulla Life Saving Club; Honorary Membership of the Elouera Surf Life Saving Club; Honorary Membership of the Wanda Surf Life Saving Club",
+      "pdf_url": "morrisons_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-04-17",
+      "category": "Memberships",
+      "entity": "Royal Motor Yacht Club, Woolooware",
+      "details": "Gift of 14/15 Membership",
+      "pdf_url": "morrisons_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-05-28",
+      "category": "Gifts",
+      "entity": "Mr Gotabaya Rajapaksa",
+      "details": "Noritake seventeen piece tea set (Odessa Platinum)",
+      "pdf_url": "morrisons_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2014-07-02",
+      "category": "Hospitality",
+      "entity": "Australian Rugby Union, Showcall Crewing Pty Ltd",
+      "details": "Wallabies versus France Rugby Union Match at Allianz Stadium (with father); Keith Urban concert in June",
+      "pdf_url": "morrisons_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-12-02",
+      "category": "Hospitality",
+      "entity": "Fox Sports",
+      "details": "Tickets to see Taylor Swift concert",
+      "pdf_url": "morrisons_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-12-02",
+      "category": "Gifts",
+      "entity": "Maronite Eparchy of Australia",
+      "details": "Gift of 12 bottles of Adyar 2012 Sangiovese wine",
+      "pdf_url": "morrisons_44p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2016-03-29",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Tickets to Circus Oz (four tickets); Tickets to Tina Arena concert (two tickets - Hamer Hall Melbourne as guest of Showcall Crewing Pty Ltd.); Honorary Membership 2016 Season Cronulla Sharks Leagues Club",
+      "pdf_url": "morrisons_44p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/morrisons_44p.pdf"
+}

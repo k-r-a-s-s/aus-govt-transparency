@@ -1,0 +1,137 @@
+{
+  "mp_name": "Craig Robert Thomson",
+  "party": "N/A",
+  "electorate": "Dobell",
+  "disclosures": [
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Residence in Bateau Bay",
+      "pdf_url": "thomsonc_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Liabilities",
+      "entity": "SGE Credit Union",
+      "details": "Mortgage",
+      "pdf_url": "thomsonc_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings",
+      "pdf_url": "thomsonc_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Savings/Investments",
+      "entity": "Bank West",
+      "details": "Savings",
+      "pdf_url": "thomsonc_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Savings/Investments",
+      "entity": "SGE Credit Union",
+      "details": "Savings",
+      "pdf_url": "thomsonc_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Savings",
+      "pdf_url": "thomsonc_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "Savings",
+      "pdf_url": "thomsonc_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Other Assets",
+      "entity": "AMP",
+      "details": "Superannuation",
+      "pdf_url": "thomsonc_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Other Assets",
+      "entity": "First State",
+      "details": "Superannuation Fund",
+      "pdf_url": "thomsonc_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "260 radio station - employee",
+      "pdf_url": "thomsonc_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Foxtel provided to electoral office",
+      "pdf_url": "thomsonc_43p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Memberships",
+      "entity": "Chairman's Lounge",
+      "details": "Large Membership",
+      "pdf_url": "thomsonc_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Gifts",
+      "entity": "Telstra",
+      "details": "1 ticket NRL Grand Final",
+      "pdf_url": "thomsonc_43p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2011-08-16",
+      "category": "Other Interests",
+      "entity": "Australian Labor Party (New South Wales Branch)",
+      "details": "In May 2011 the Australian Labor Party (New South Wales Branch) paid a sum of money in settlement of a legal matter to which I was party. I was not the recipient of the payment.",
+      "pdf_url": "thomsonc_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-08-16",
+      "category": "Liabilities",
+      "entity": "Kalantzis Lawyers",
+      "details": "Open account with Kalantzis Lawyers relating to the above legal matter.",
+      "pdf_url": "thomsonc_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-05-09",
+      "category": "Other Interests",
+      "entity": "ALP NSW Branch",
+      "details": "The NSW Branch of the ALP have assisted with my legal expenses in relation to allegations raised about me. This assistance was up until Sunday 29th April.",
+      "pdf_url": "thomsonc_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-09-28",
+      "category": "Liabilities",
+      "entity": "Bankwest",
+      "details": "I now have just taken out a mortgage with Bankwest.",
+      "pdf_url": "thomsonc_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-06-19",
+      "category": "Other Interests",
+      "entity": "Worthington & Allan",
+      "details": "A bank account held in trust by a Mr Worthington and a Mr Allan to which members of the public can donate money to assist me with my legal fees has been established. Today a payment from that fund has been made to my lawyers and it is expected that further payments will be made over coming months. Could my members' interests please be adjusted to reflect this.",
+      "pdf_url": "thomsonc_43p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/43/thomsonc_43p.pdf"
+}

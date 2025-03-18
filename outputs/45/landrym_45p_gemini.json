@@ -1,0 +1,175 @@
+{
+  "mp_name": "Michelle Leanne Landry",
+  "party": "Unknown",
+  "electorate": "Capricornia",
+  "disclosures": [
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "landrym_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "landrym_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Real Estate",
+      "entity": "Cammermoor, Yeppoon",
+      "details": "Home",
+      "pdf_url": "landrym_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "landrym_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "landrym_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Bank Loan",
+      "pdf_url": "landrym_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Savings/Investments",
+      "entity": "National Aust Bank, Medibank",
+      "details": "NAB Shares, Shares",
+      "pdf_url": "landrym_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Savings/Investments",
+      "entity": "National Aust Bank",
+      "details": "Savings Accounts",
+      "pdf_url": "landrym_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "landrym_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "landrym_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "landrym_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "landrym_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "landrym_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "landrym_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Hospitality",
+      "entity": "Qantas Chairmans Lounge",
+      "details": "Qantas Chairmans Lounge",
+      "pdf_url": "landrym_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Hospitality",
+      "entity": "Virgin Chairmans Lounge",
+      "details": "Virgin Chairmans Lounge",
+      "pdf_url": "landrym_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-11-21",
+      "category": "Gifts",
+      "entity": "ASTRA",
+      "details": "Complimentary Subscription television by ASTRA for EO",
+      "pdf_url": "landrym_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2017-03-21",
+      "category": "Real Estate",
+      "entity": "Griffith, ACT",
+      "details": "Residence",
+      "pdf_url": "landrym_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-12-05",
+      "category": "Travel",
+      "entity": "REX",
+      "details": "REX Flights $500",
+      "pdf_url": "landrym_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-05-21",
+      "category": "Hospitality",
+      "entity": "Beef Australia",
+      "details": "Entry to Beef Australia and associated events. Approximate value $1,110",
+      "pdf_url": "landrym_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-06-12",
+      "category": "Gifts",
+      "entity": "Telstra",
+      "details": "Telstra TV box (approx. $350)",
+      "pdf_url": "landrym_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2018-12-03",
+      "category": "Gifts",
+      "entity": "Unknown",
+      "details": "Framed Portrait of Sir Joh Bjelke-Petersen (Value Unknown)",
+      "pdf_url": "landrym_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-03-29",
+      "category": "Gifts",
+      "entity": "Australian Open",
+      "details": "2 Tickets to Australian Open ($100 Value)",
+      "pdf_url": "landrym_45p.pdf",
+      "sub_category": "Sports Tickets"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/landrym_45p.pdf"
+}

@@ -1,0 +1,399 @@
+{
+  "mp_name": "Zali Steggall",
+  "party": "Unknown",
+  "electorate": "Warringah",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Zali's Edge Pty Ltd",
+      "details": "N/A",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Kusatsu Lty Limited",
+      "details": "N/A",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "AT Media Pty Ltd",
+      "details": "Spouse/partner",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "TAZ",
+      "details": "Spouse/partner",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Kids Pty Ltd",
+      "details": "Spouse/partner",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "Timothy Irving Family Trust",
+      "details": "Beneficial interest held; Investor/unit holder; beneficiary",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "Timothy Irving Family Trust",
+      "details": "Beneficial interest held; Investor/unit holder; beneficiary",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "AT Media Unit Trust",
+      "details": "Beneficial interest held; Consulting services; unit holder is Timothy Irving Family Trust",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "Timothy Irving Family Trust",
+      "details": "Beneficial interest held; Investor/unit holder; beneficiary",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "North Balgowlah, NSW; Residential",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Manly, NSW; Investment property",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "North Balgowlah, NSW; Spouse/partner; Residential",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Directorships",
+      "entity": "Zali's Edge Pty Ltd",
+      "details": "Trustee company",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Directorships",
+      "entity": "Governor, Queenwood School, Mosman",
+      "details": "Secondary Independent education provider",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Directorships",
+      "entity": "Director, Olympic Winter Institute of Australia",
+      "details": "Sporting Non For Profit Organisation",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Directorships",
+      "entity": "Director, Sport Australia Hall of Fame",
+      "details": "Sporting Non for Profit Organisation",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Directorships",
+      "entity": "Zali's Edge Pty Ltd",
+      "details": "Spouse/partner; Trustee company",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Directorships",
+      "entity": "AT Media Pty Limited",
+      "details": "Spouse/partner; Trustee company",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Directorships",
+      "entity": "TAZ & Kids Pty Limited",
+      "details": "Spouse/partner; Trustee company",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "St George Bank",
+      "details": "Mortgage on residential and investment properties",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "Nissan finance",
+      "details": "Vehicle finance",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "St George Bank",
+      "details": "Spouse/partner; Mortgage on residential and investment properties",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "Nissan finance",
+      "details": "Spouse/partner; Vehicle finance",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "St George",
+      "details": "Savings",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Savings",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "St George",
+      "details": "Spouse/partner; Savings",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "ING Superannuation account",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "The TAZ Superannuation Fund, shares in BT Panorama",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Spouse/partner; The TAZ Superannuation Fund, shares in BT Panorama",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rental property",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Spouse/partner; Consultancy income",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Annual lift pass, Perisher",
+      "pdf_url": "steggall_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "ANZSLA",
+      "details": "N/A",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Court of Arbitration for Sport",
+      "details": "N/A",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Women in Sports Law",
+      "details": "N/A",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Qantas Chairman's lounge",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Return Airfare to Splendour in the Grass (Syd->Gold Coast->Sydney) provided by Festival organisers to facilitate participation in Politics Panel",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Foxtel subscription Electoral Office",
+      "pdf_url": "steggall_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Directorships",
+      "entity": "OWIA, SAHOF or Governor of Queenwood School.",
+      "details": "No longer director",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-24",
+      "category": "Gifts",
+      "entity": "Paradise Beach Purveyors",
+      "details": "Food Items donated for Crossbench Christmas Party",
+      "pdf_url": "steggall_46p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2019-12-24",
+      "category": "Gifts",
+      "entity": "Nomad Brewing Company",
+      "details": "Beverages donated for Crossbench Christmas Party",
+      "pdf_url": "steggall_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-12-24",
+      "category": "Gifts",
+      "entity": "Dad & Dave's Brewing",
+      "details": "Beverages donated for Crossbench Christmas Party",
+      "pdf_url": "steggall_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-12-24",
+      "category": "Gifts",
+      "entity": "Manly Spirits Co. Distillery",
+      "details": "Beverages donated for Crossbench Christmas Party",
+      "pdf_url": "steggall_46p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2021-06-01",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Registration to Ultra Trail Australia 100km event",
+      "pdf_url": "steggall_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-06-01",
+      "category": "Gifts",
+      "entity": "Warringah Independent Ltd Mosman Independent Hub",
+      "details": "Use as needed of",
+      "pdf_url": "steggall_46p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2021-06-01",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Pamela Pauline unframed print",
+      "pdf_url": "steggall_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-12-03",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Ethical Superannuation account",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-12-03",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Demonstration vehicle for personal use pending delivery of purchased vehicle",
+      "pdf_url": "steggall_46p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2021-12-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 tickets to Matilda v US football game on 27/11/21",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-12-03",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Pamela Pauline unframed print",
+      "pdf_url": "steggall_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-12-03",
+      "category": "Gifts",
+      "entity": "Warringah Independent Pty Ltd",
+      "details": "support for miscellaneous electoral office and volunteer expenses",
+      "pdf_url": "steggall_46p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2021-12-03",
+      "category": "Other Assets",
+      "entity": "ING Superannuation account",
+      "details": "Closure of",
+      "pdf_url": "steggall_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-12-03",
+      "category": "Memberships",
+      "entity": "ANZSLA or Women in Sports Law",
+      "details": "No longer member of",
+      "pdf_url": "steggall_46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/steggall_46p.pdf"
+}

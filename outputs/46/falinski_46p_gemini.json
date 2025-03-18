@@ -1,0 +1,458 @@
+{
+  "mp_name": "Jason Falinski",
+  "party": "Unknown",
+  "electorate": "Mackellar",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Zed Jay One Pty Ltd",
+      "details": "Self",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Falinski Property Group Pty Ltd",
+      "details": "Self",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Zed Jay One Pty Ltd",
+      "details": "Spouse/partner",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Marjoco Pty Ltd",
+      "details": "Spouse/partner",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Brierley Hill Pty Ltd",
+      "details": "Spouse/partner",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "Zed Jay Two Pty Ltd atf Striker Superannuation Fund",
+      "details": "Self Managed Superannuation Fund, Beneficial interest: Yes",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "Public Service Superannuation",
+      "details": "Superannuation Fund, Beneficial interest: Yes",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "Morgan Investment Trust",
+      "details": "Discretionary Family Trust, Beneficial interest: Yes",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "Commonwealth Bank Superannuation Fund",
+      "details": "Superannuation Fund, Beneficial interest: Yes",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "Sunsuper",
+      "details": "Superannuation Fund, Beneficial interest: Yes",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "Pareto Trust",
+      "details": "Discretionary Family Trust, Beneficial interest: Yes",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "Pareto Trust",
+      "details": "Discretionary Family Trust, Beneficial interest: Yes (Dependent children)",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "Collaroy",
+      "details": "Family Home, Self",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "Woolloomooloo",
+      "details": "Investment, Self",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "Collaroy",
+      "details": "Family Home, Spouse/partner",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "North Sydney",
+      "details": "Investment, Spouse/partner",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Directorships",
+      "entity": "Zed Jay One Pty Ltd",
+      "details": "Trustee, Self",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Directorships",
+      "entity": "Zed Jay Two Pty Ltd",
+      "details": "Trustee, Self",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Directorships",
+      "entity": "Zed Jay One Pty Ltd",
+      "details": "Trustee, Spouse/partner",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "Macquarie Bank",
+      "details": "Mortgage, Self",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Mortgage, Spouse/partner",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "Striker SMSF",
+      "details": "Self",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "Public Service Superannuation Scheme",
+      "details": "Self",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "Commonwealth Bank Superannuation Fund",
+      "details": "Spouse/partner",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "Suncorp Superannuation Fund",
+      "details": "Spouse/partner",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from Employment, Self",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from savings and investments as set out above, Self",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from employment, Spouse/partner",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from savings, shareholdings and investments as set out above, Spouse/partner",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Long Reef SLSC",
+      "details": "Self",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Dee Why RSL",
+      "details": "Self",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Royal Prince Alfred Yacht Club",
+      "details": "Self",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Whale Beach SLSC",
+      "details": "Self",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Bayview Golf Club",
+      "details": "Self",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Patron of Job Support",
+      "details": "Self",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Member of Manly Sea Eagles",
+      "details": "Self",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Member of Warringah Rats Supporter Club",
+      "details": "Self",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Member of the Liberal Party",
+      "details": "Self",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Membership of Qantas Chairmans Club",
+      "details": "Self",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Membership of Virgin Club",
+      "details": "Self",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Membership of Qantas Chairmans Club",
+      "details": "Spouse/partner",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Membership of Virgin Club",
+      "details": "Spouse/partner",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Royal Prince Alfred Yacht Club",
+      "details": "Spouse/partner",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Complimentary Foxtel Subscription in Electorate Office provided by Australian Subscription Television and Radio Association, Self",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "Bank Australia",
+      "details": "Savings Account, Self",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "ASG Education Fund",
+      "details": "Savings Account, Self",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Term Deposit, Spouse/partner",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings Account, Spouse/partner",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "Bank Australia",
+      "details": "Savings Account, Dependent children",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "X",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-08-16",
+      "category": "Other Assets",
+      "entity": "Volkswagon",
+      "details": "Provision of a Volkswagon Van CP30JZ for $3,500 used for campaign & office use",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-11-06",
+      "category": "Hospitality",
+      "entity": "Tab Corp Ltd",
+      "details": "2 x tickets to the 2019 Melbourne Cup, including hospitatlity from Tab Corp Ltd",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-02-06",
+      "category": "Travel",
+      "entity": "Rugby Australia",
+      "details": "Attendance at Rugby Sevens football game on Sunday 2 February as guest of Rugby Australia in my capacity as co-chair of Parliamant Rugby Friendship Group.",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-11-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 x tickets for the VIP Function at the Wallabies v New Zealand match at ANZ Stadium on Saturday 31st October 2020.",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-09",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Self and Souse /partner: Purpose: Canberra Investment property",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-09",
+      "category": "Liabilities",
+      "entity": "Macquarie Bank",
+      "details": "Spouse/partner: Mortgage: Creditor: Macquarie Bank",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-09",
+      "category": "Investments",
+      "entity": "Call Option",
+      "details": "delete: Call Option on a property in Canberra for self and spouse",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-07-28",
+      "category": "Shares",
+      "entity": "TEMPLAR MANAGEMENT PTY LTD",
+      "details": "TEMPLAR MANAGEMENT PTY LTD ACN 650 910 740",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-07-28",
+      "category": "Directorships",
+      "entity": "TEMPLAR MANAGEMENT PTY LTD",
+      "details": "TEMPLAR MANAGEMENT PTY LTD ACN 650 910 740",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-08-24",
+      "category": "Gifts",
+      "entity": "Ocean Alley",
+      "details": "1 x gifted Ocean Alley Album Chiroscuro (Amount priceless)\n2 x Tee shirts Ocean Alley (Amount priceless)",
+      "pdf_url": "falinski_46p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2021-10-13",
+      "category": "Investments",
+      "entity": "Bitcoin Cryptocurrency",
+      "details": "0.01000000 x Bitcoin Cryptocurrency",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-10-13",
+      "category": "Investments",
+      "entity": "Ethereum Cryptocurrency",
+      "details": "0.10000000 x Ethereum Cryptocurrency",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-11-16",
+      "category": "Travel",
+      "entity": "Tabcorp",
+      "details": "Tabcorp Box at Randwick race course for Melbourne Cup day 2 November 2021",
+      "pdf_url": "falinski_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-02-07",
+      "category": "Travel",
+      "entity": "Westpac",
+      "details": "Attended the New Years day - day 1 Test Cricket match on 5 January 2022 - invitation received from Westpac",
+      "pdf_url": "falinski_46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/falinski_46p.pdf"
+}

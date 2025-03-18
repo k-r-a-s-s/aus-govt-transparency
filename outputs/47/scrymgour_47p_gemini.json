@@ -1,0 +1,65 @@
+{
+  "mp_name": "Marion Scrymgour",
+  "party": "Unknown",
+  "electorate": "Lingiari",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Shares",
+      "entity": "Mangililiwayu Consultants",
+      "details": "Self",
+      "pdf_url": "scrymgour_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Real Estate",
+      "entity": "Tiwi Darwin NT",
+      "details": "Residential",
+      "pdf_url": "scrymgour_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Mortgage on",
+      "pdf_url": "scrymgour_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Parliamentary Pension from service in State Parliament",
+      "pdf_url": "scrymgour_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Toyota Prado 2018 model",
+      "pdf_url": "scrymgour_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Commonwealth Bank Savings account",
+      "pdf_url": "scrymgour_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "AICD",
+      "details": "AICD Member",
+      "pdf_url": "scrymgour_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-11-04",
+      "category": "Memberships",
+      "entity": "Qantas",
+      "details": "Qantas Chairmans Lounge Membership renewed as of September 2024",
+      "pdf_url": "scrymgour_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/scrymgour_47p.pdf"
+}

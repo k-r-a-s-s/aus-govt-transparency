@@ -1,0 +1,509 @@
+{
+  "mp_name": "Louise Jane Miller-Frost",
+  "party": "N/A",
+  "electorate": "Boothby",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Shares",
+      "entity": "Whitefield Limited",
+      "details": "Shareholding",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Shares",
+      "entity": "Resmed Inc",
+      "details": "Shareholding",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Shares",
+      "entity": "Coles Limited",
+      "details": "Shareholding",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Shares",
+      "entity": "Eagers Automotive Limited",
+      "details": "Shareholding",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Trusts",
+      "entity": "Soaring Eagle Holdings",
+      "details": "Trustee for the Cheater Family Trust #2, sole director and shareholder",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Trusts",
+      "entity": "KAC Assignment Trust",
+      "details": "No longer operational",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Real Estate",
+      "entity": "Cumberland Park SA",
+      "details": "Residential",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Real Estate",
+      "entity": "Kensington Park SA",
+      "details": "Investment",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Real Estate",
+      "entity": "Glynde SA",
+      "details": "Investment",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Real Estate",
+      "entity": "Goolwa SA",
+      "details": "Investment",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Real Estate",
+      "entity": "McCracken SA",
+      "details": "Investment",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Directorships",
+      "entity": "Soaring Eagle Holdings",
+      "details": "Trustee of family trust",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Directorships",
+      "entity": "Kim C Consulting",
+      "details": "Consulting services and directorships",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Liabilities",
+      "entity": "Macquarie Bank",
+      "details": "Mortgage on residential property",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Liabilities",
+      "entity": "Macquarie Bank",
+      "details": "Mortgages on investment properties",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "Peoples Choice Credit Union",
+      "details": "Transaction account",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "Colonial First Choice",
+      "details": "Savings account",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "Peoples Choice Credit Union",
+      "details": "Savings account",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Transaction account",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Savings account",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Business Account Soaring Eagle Holdings",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Business Account Kim C Consulting Pty Ltd",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Car",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Other Assets",
+      "entity": "Hostplus",
+      "details": "Superannuation",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Income Sources",
+      "entity": "Kim C Consulting",
+      "details": "Consulting and directorships",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's Lounge",
+      "pdf_url": "miller-frost_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Other Interests",
+      "entity": "SA Museum",
+      "details": "Presiding Member",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Other Interests",
+      "entity": "Alwyndor Management Committee",
+      "details": "Chair",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Other Interests",
+      "entity": "Sarah Group Holdings",
+      "details": "Member Advisory Board",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Other Interests",
+      "entity": "Minda Inc",
+      "details": "Chair Audit, Finance, Investment and Risk Committee",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Other Interests",
+      "entity": "Warriparinga Advisory team",
+      "details": "Advisors to Southern Cultural Immersion and Living Kaurna Cultural Centre",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Other Interests",
+      "entity": "Flinders University College of Government, Business and Law",
+      "details": "Chair Advisory Board",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "All share holdings sold",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-10-26",
+      "category": "Memberships",
+      "entity": "Marion City Lions Club",
+      "details": "Membership",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-10-26",
+      "category": "Memberships",
+      "entity": "Blackwood RSL",
+      "details": "Membership",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-10-26",
+      "category": "Memberships",
+      "entity": "Plympton Football Club",
+      "details": "Membership",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-10-26",
+      "category": "Real Estate",
+      "entity": "Canberra",
+      "details": "Residential",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-11-01",
+      "category": "Hospitality",
+      "entity": "Virgin",
+      "details": "Virgin Lounge membership",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-11-02",
+      "category": "Memberships",
+      "entity": "Mitcham Historical Society",
+      "details": "Membership",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-02-03",
+      "category": "Real Estate",
+      "entity": "15 May Terrace Kensington Park SA 5045",
+      "details": "Deletion of Real Estate",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-02-08",
+      "category": "Directorships",
+      "entity": "Flinders University Governing Council",
+      "details": "for spouse Kim Cheater",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-02-08",
+      "category": "Directorships",
+      "entity": "Minda Inc",
+      "details": "for spouse Kim Cheater (Audit Committee only)",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-02-08",
+      "category": "Directorships",
+      "entity": "SA Museum",
+      "details": "for spouse Kim Cheater",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-02-08",
+      "category": "Directorships",
+      "entity": "Alwyndor Aged Care",
+      "details": "for spouse Kim Cheater (wholly owned by City of Holdfast Bay)",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-02-08",
+      "category": "Directorships",
+      "entity": "Sarah Group",
+      "details": "for spouse Kim Cheater",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-02-08",
+      "category": "Directorships",
+      "entity": "Return to Work SA",
+      "details": "for spouse Kim Cheater",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-02-08",
+      "category": "Directorships",
+      "entity": "Warriparinga Advisory Team",
+      "details": "for spouse Kim Cheater (representing Southern Cultural Immersion) (voluntary and unpaid)",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-04-14",
+      "category": "Memberships",
+      "entity": "Glenelg Football Club",
+      "details": "Membership",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-04-14",
+      "category": "Directorships",
+      "entity": "Royal Automobile Association of SA Inc, RAA Insurance Holdings Ltd, and RAA Insurance Ltd",
+      "details": "For spouse Kim Cheater: Director",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-15",
+      "category": "Gifts",
+      "entity": "Flinders University Sleep Clinic",
+      "details": "Withings smart health monitors",
+      "pdf_url": "miller-frost_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-05-16",
+      "category": "Income Sources",
+      "entity": "PWC",
+      "details": "Partner / Spouse income: retired partner pension",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-09-05",
+      "category": "Travel",
+      "entity": "FIFA",
+      "details": "One ticket to Matildas v Sweden",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-09-06",
+      "category": "Directorships",
+      "entity": "Belair Primary School",
+      "details": "Community member of the Governing Council of Belair Primary School (unpaid)",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-03",
+      "category": "Memberships",
+      "entity": "Rotary Club of Holdfast Bay",
+      "details": "Honorary Member",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-03",
+      "category": "Memberships",
+      "entity": "Somerton Surf Life Saving Club",
+      "details": "Vice-Patron",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-03",
+      "category": "Memberships",
+      "entity": "Belair Primary School",
+      "details": "Member Governing Council",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-03",
+      "category": "Memberships",
+      "entity": "Mitcham Historical Society",
+      "details": "Deletion of membership",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-12-11",
+      "category": "Memberships",
+      "entity": "SA Film Corporation Screen Circle",
+      "details": "Membership",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-12-11",
+      "category": "Gifts",
+      "entity": "Professor Cheng and delegation, from Nanjing University of Traditional Chinese Medicine",
+      "details": "Framed brocade from Nanjing City, gift from Professor Cheng and delegation, from Nanjing University of Traditional Chinese Medicine",
+      "pdf_url": "miller-frost_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2024-01-31",
+      "category": "Directorships",
+      "entity": "Australian Unity Ltd",
+      "details": "Kim Cheater (spouse) : Australian Unity Ltd",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-02-02",
+      "category": "Memberships",
+      "entity": "Hills Choral Society",
+      "details": "Patron",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-02-06",
+      "category": "Memberships",
+      "entity": "Friends of Belair National Park",
+      "details": "Membership",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-02-06",
+      "category": "Memberships",
+      "entity": "Friends of Old Government House",
+      "details": "Membership",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-02-13",
+      "category": "Memberships",
+      "entity": "Australian Services Union",
+      "details": "Membership",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-02-13",
+      "category": "Memberships",
+      "entity": "United Workers Union",
+      "details": "Membership",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-10",
+      "category": "Memberships",
+      "entity": "Blackwood Football Club Axeman's Club",
+      "details": "Blackwood Football Club Axeman's Club (purchased)",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-09-26",
+      "category": "Memberships",
+      "entity": "Somerton Surf Life Saving Club",
+      "details": "Vice-Patron of the Somerton Surf Life Saving Club",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-09-30",
+      "category": "Real Estate",
+      "entity": "Kensington Park",
+      "details": "I have sold the property at Kensington Park",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-11-05",
+      "category": "Travel",
+      "entity": "Anglicare SA",
+      "details": "2 tickets to the Anglicare SA fundraising dinner where I was representing the SA Premier",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-01-13",
+      "category": "Memberships",
+      "entity": "Friends of Old Government House",
+      "details": "Membership",
+      "pdf_url": "miller-frost_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-01-13",
+      "category": "Memberships",
+      "entity": "Friends of Belair National Park",
+      "details": "Membership",
+      "pdf_url": "miller-frost_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/miller-frost_47p.pdf"
+}

@@ -1,0 +1,477 @@
+{
+  "mp_name": "Matthew Keogh",
+  "party": "Australian Labor Party",
+  "electorate": "Burt",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Trusts",
+      "entity": "Rosalie Trust",
+      "details": "Discretionary secondary beneficiary",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Trusts",
+      "entity": "JD Hay Family Trust",
+      "details": "Discretionary primary beneficiary",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Trusts",
+      "entity": "Hay Service Trust",
+      "details": "Discretionary primary beneficiary",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "House and land in Mount Lawley, Western Australia. Family Purposes",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Directorships",
+      "entity": "TEDxPerth Inc.",
+      "details": "Board Member",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Directorships",
+      "entity": "Impact Seed Limited",
+      "details": "Non-Executive Director",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Liabilities",
+      "entity": "St George Bank",
+      "details": "Mortgage (joint with spouse)",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Liabilities",
+      "entity": "Macquarie Bank",
+      "details": "Car loan",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Liabilities",
+      "entity": "St George Bank",
+      "details": "Visa Credit card",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Liabilities",
+      "entity": "ANZ",
+      "details": "Visa Credit card",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Savings/Investments",
+      "entity": "St George Bank",
+      "details": "Savings Account (joint with spouse)",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Savings/Investments",
+      "entity": "St George Bank",
+      "details": "Mortgage Offset Account (joint with spouse)",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Savings Account",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Savings Account",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Net Saver Account",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Car",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Motorcycle",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Other Assets",
+      "entity": "AustralianSuper",
+      "details": "Superannuation and associated Life & TPD Insurance",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Income Sources",
+      "entity": "Western Power",
+      "details": "Salary - Spouse",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Gifts",
+      "entity": "Australian Subscription Television and Radio Association (ASTRA)",
+      "details": "Standard Foxtel subscription for Electorate Office",
+      "pdf_url": "keogh_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Chairmans Lounge membership",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Travel",
+      "entity": "Virgin Australia",
+      "details": "The Club membership",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Travel",
+      "entity": "Perth Airport",
+      "details": "Complimentary short term parking",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Memberships",
+      "entity": "Australian Labor Party",
+      "details": "N/A",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Memberships",
+      "entity": "The Law Society of Western Australia",
+      "details": "N/A",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Memberships",
+      "entity": "Australian Workers Union (WA)",
+      "details": "N/A",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Memberships",
+      "entity": "Kelmscott Agricultural Society",
+      "details": "N/A",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Memberships",
+      "entity": "Gloucester Park Harness Racing",
+      "details": "Honourary membership",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Memberships",
+      "entity": "Honourary Fellow of the Australian Digital Commerce Association",
+      "details": "N/A",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-07",
+      "category": "Hospitality",
+      "entity": "Law Society of Western Australia",
+      "details": "Law Society of Western Australia Immediate Past President's Dinner on 13 June 2019. Value unknown.",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-07",
+      "category": "Hospitality",
+      "entity": "Law Society of Western Australia",
+      "details": "Spouse: Law Society of Western Australia Immediate Past President's Dinner on 13 June 2019. Value unknown.",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-07",
+      "category": "Hospitality",
+      "entity": "Mineral Resources",
+      "details": "Box tickets to State of Origin game 2 in Perth on 23 June 2019 with Mineral Resources. Value unknown.",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-07",
+      "category": "Travel",
+      "entity": "Virgin Australia",
+      "details": "Child: complimentary upgrade to business class for Nicholas Keogh on flights VA678 and VA271 on 29 June 2019 from Virgin Australia. Value approx. $1,300.",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-07",
+      "category": "Travel",
+      "entity": "Fortescue Metals Group",
+      "details": "Air and land transport to Sod Turning of Eliwana Mine near Tom Price, WA on 5 July 2019 from Fortescue Metals Group. Value unknown.",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-07",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Box tickets to Fremantle Dockers v West Coast Eagles on 6 July 2019. Value unknown.",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-07",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Spouse: Box tickets to Fremantle Dockers v West Coast Eagles on 6 July 2019. Value unknown.",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-09-09",
+      "category": "Directorships",
+      "entity": "Impact Seed Limited",
+      "details": "Spouse - Impact Seed Limited - Non-Executive Director. DELETION",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-09-09",
+      "category": "Income Sources",
+      "entity": "Western Power",
+      "details": "Spouse - Salary \u2013 Western Power DELETION",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-09-09",
+      "category": "Gifts",
+      "entity": "CGM Communications",
+      "details": "Gift of ticket to AFL Game in Premium Suite, Optus Stadium, on Saturday, 6 July 2019 from CGM Communications, Value: Unknown",
+      "pdf_url": "keogh_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2019-09-09",
+      "category": "Gifts",
+      "entity": "CGM Communications",
+      "details": "Gift of ticket for spouse to AFL Game in Premium Suite, Optus Stadium, on Saturday, 6 July 2019 from CGM Communications, Value: Unknown",
+      "pdf_url": "keogh_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2019-09-09",
+      "category": "Gifts",
+      "entity": "AHA",
+      "details": "Gift of ticket to AFL Game in Premium Suite, Optus Stadium, on Sunday, 11 August 2019 from AHA, Value: Unknown",
+      "pdf_url": "keogh_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2019-09-09",
+      "category": "Gifts",
+      "entity": "AHA",
+      "details": "Gift of ticket for spouse AFL Game: in Premium Suite, Optus Stadium, on Sunday, 11 August 2019 from AHA, Value: Unknown",
+      "pdf_url": "keogh_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2019-09-09",
+      "category": "Gifts",
+      "entity": "Basketball Australia",
+      "details": "Gift of ticket to Basketball Game Australia vs Canada: RAC Arena, on Saturday, 17 August 2019 from Basketball Australia, Value: Unknown",
+      "pdf_url": "keogh_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2019-09-09",
+      "category": "Gifts",
+      "entity": "Basketball Australia",
+      "details": "Gift of ticket for spouse to Basketball Game Australia vs Canada: RAC Arena, on Saturday, 17 August 2019 from Basketball Australia, Value: Unknown",
+      "pdf_url": "keogh_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2019-09-09",
+      "category": "Income Sources",
+      "entity": "Department of the Premier and Cabinet (Western Australian Government)",
+      "details": "Spouse Salary",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-02-05",
+      "category": "Travel",
+      "entity": "NBL Commissioner",
+      "details": "Tickets to NBL Game at Melbourne Arena on 29 January 2020. Courtesy of NBL Commissioner. Value unknown.",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-02-21",
+      "category": "Travel",
+      "entity": "WA Opera",
+      "details": "Complimentary tickets (x2) to West Australian Opera's \"Bran Nue Dae\" on 7 February 2020 from WA Opera. Value unknown.",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-09-18",
+      "category": "Travel",
+      "entity": "Satterley Property Group",
+      "details": "Gift of tickets to AFL Game: in Premium Suite, Optus Stadium, on Sunday, 9 August 2020 from Satterley Property Group, Value: Unknown.",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-09-18",
+      "category": "Travel",
+      "entity": "Satterley Property Group",
+      "details": "Gift of tickets for spouse to AFL Game: in Premium Suite, Optus Stadium, on Sunday, 9 August 2020 from Satterley Property Group, Value: Unknown.",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-04-06",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Alcohol Beverages Australia dinner at Parliament House, Canberra 18 March 2021. Value unknown",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-06",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2x tickets to AFL Toyota Finals Series 2021 Second Semi-Final, Game 2 at Optus Stadium Friday 3 September. Value unknown.",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-10-19",
+      "category": "Gifts",
+      "entity": "ABC",
+      "details": "ABC gifted a book - Hard Quiz - valued at $32.99, a pair of socks and a drink bottle (value unknown) in place of their annual ABC parliamentary Showcase at Parliament House Canberra.",
+      "pdf_url": "keogh_46p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2021-12-02",
+      "category": "Gifts",
+      "entity": "Google",
+      "details": "\"In an Australian Light\" - Landscape photography by Jo Turner, gifted by Google alongside information on the \"Google Digital Future Initiative\". value unknown.",
+      "pdf_url": "keogh_46p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2022-01-13",
+      "category": "Gifts",
+      "entity": "The White House",
+      "details": "Christmas 2021 gift from the White House - tree decoration, value unknown",
+      "pdf_url": "keogh_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-01-13",
+      "category": "Gifts",
+      "entity": "Lion",
+      "details": "Christmas card and gift from Lion, 12 cans of limited edition beer. Value unknown.",
+      "pdf_url": "keogh_46p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2022-04-07",
+      "category": "Trusts",
+      "entity": "Rosalie Trust",
+      "details": "Self: Rosalie Trust DELETION",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-04-07",
+      "category": "Trusts",
+      "entity": "Rosalie Trust",
+      "details": "Spouse: Rosalie Trust DELETION",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-04-07",
+      "category": "Trusts",
+      "entity": "JD Hay Family Trust",
+      "details": "Spouse: JD Hay Family Trust DELETION",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-04-07",
+      "category": "Trusts",
+      "entity": "Hay Service Trust",
+      "details": "Spouse: Hay Service Trust DELETION",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-04-07",
+      "category": "Trusts",
+      "entity": "Rosalie Trust",
+      "details": "Children: Rosalie Trust DELETION",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-04-11",
+      "category": "Travel",
+      "entity": "Avis",
+      "details": "Avis President's Club membership - unknown value.",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-04-11",
+      "category": "Gifts",
+      "entity": "WA Red Hat Society",
+      "details": "Matt Keogh and Staff gifted a chocolate hamper by the \"Scarlet Darlings\" chapter of the WA Red Hat Society to say thank you for supporting their community group throughout the years and to say an early Merry Christmas. Value unknown.",
+      "pdf_url": "keogh_46p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2022-04-11",
+      "category": "Directorships",
+      "entity": "TEDxPerth Inc.",
+      "details": "Spouse - TEDxPerth Inc. Board Member DELETION",
+      "pdf_url": "keogh_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-04-11",
+      "category": "Gifts",
+      "entity": "Cancer Council",
+      "details": "Bucket Hat and Suncream - Cancer Council - value unknown",
+      "pdf_url": "keogh_46p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2020-08-27",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2x AFL tickets for West Coast Eagles v Carlton Optus Stadium, Sunday 9 August 2020. Value unknown",
+      "pdf_url": "keogh_46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/keogh_46p.pdf"
+}

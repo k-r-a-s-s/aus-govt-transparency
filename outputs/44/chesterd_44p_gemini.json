@@ -1,0 +1,579 @@
+{
+  "mp_name": "Darren Chester",
+  "party": "The Nationals",
+  "electorate": "Gippsland",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Shares",
+      "entity": "AXXA",
+      "details": "Shares",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Shares",
+      "entity": "GOTISCAN",
+      "details": "Shares",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Shares",
+      "entity": "ML",
+      "details": "Shares (Spouse)",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Shares",
+      "entity": "MC",
+      "details": "Shares (Dependent Children)",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Trusts",
+      "entity": "Chester Family Trust",
+      "details": "No Longer Trading, Primary Beneficial Interest",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Trusts",
+      "entity": "Chester Family Trust",
+      "details": "No Longer Trading, Primary Beneficial Interest (Spouse)",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Trusts",
+      "entity": "Chester Family Trust",
+      "details": "No Longer Trading, Primary Beneficial Interest (Dependent Children)",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Trusts",
+      "entity": "NIC",
+      "details": "Beneficial interest",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Trusts",
+      "entity": "NIC",
+      "details": "Beneficial interest (Spouse)",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Trusts",
+      "entity": "ML",
+      "details": "Beneficial interest (Dependent Children)",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Real Estate",
+      "entity": "Lakes Entrance",
+      "details": "Investment",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Real Estate",
+      "entity": "Lakes Entrance",
+      "details": "(Family Residence) - Joint",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Real Estate",
+      "entity": "Lakes Entrance",
+      "details": "(Family Residence) - Joint (Spouse)",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Nil (Dependent Children)",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Mortgage - Investment Loan",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Mortgage - Home Loan - Joint",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Mortgage - Home Loan - Joint (Spouse)",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Nil (Dependent Children)",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Nil (Spouse)",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Nil (Dependent Children)",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Cheque/Savings Accounts",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Cheque / Savings Accounts (Spouse)",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Savings Accounts (Dependent Children)",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Private Superannuation Fund",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Private Superannuation Fund (Spouse)",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Nil (Dependent Children)",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Investment Property - Rent",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Income Sources",
+      "entity": "Lake Entrance Primary School",
+      "details": "Wages (Spouse)",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Income Sources",
+      "entity": "Retail - Lakes Entrance",
+      "details": "Casual Work (Dependent Children)",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "Lakes Entrance Golf Club",
+      "details": "Honorary Membership",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Travel",
+      "entity": "Qantas Club",
+      "details": "Virgin Velocity",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Hospitality",
+      "entity": "National Press Club",
+      "details": "Pay TV Subscription - Foxtel",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Nil (Spouse)",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Nil (Dependent Children)",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Nil (Spouse)",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Nil (Dependent Children)",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Nil (Spouse)",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Nil (Dependent Children)",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-12-09",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-12-19",
+      "category": "Memberships",
+      "entity": "National Press Club of Australia",
+      "details": "membership",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-01-22",
+      "category": "Gifts",
+      "entity": "Tennis Australia",
+      "details": "Australian open- guest of Tennis Australia - day session",
+      "pdf_url": "chesterd_44p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2014-01-22",
+      "category": "Gifts",
+      "entity": "Telstra Consumer",
+      "details": "Australian open-guest of Telstra Consumer + country wide - night session",
+      "pdf_url": "chesterd_44p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2014-01-22",
+      "category": "Gifts",
+      "entity": "Cricket Victoria",
+      "details": "Boxing Day Test - guest of Cricket Victoria",
+      "pdf_url": "chesterd_44p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2014-07-18",
+      "category": "Hospitality",
+      "entity": "Foxtel",
+      "details": "Foxtel Reconnection due to office relocation @ Foxtel at sale electrorate office",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-09-29",
+      "category": "Hospitality",
+      "entity": "Energy Australia",
+      "details": "Grand Final Pre-Match Event - guest of Energy Australia",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-09-29",
+      "category": "Gifts",
+      "entity": "Energy Australia",
+      "details": "AFL Grand Final Tickets x 2 - guest of Energy Australia",
+      "pdf_url": "chesterd_44p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2014-11-17",
+      "category": "Memberships",
+      "entity": "National Press Club",
+      "details": "Membership of National Press Club",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-01-21",
+      "category": "Gifts",
+      "entity": "Tennis Australia",
+      "details": "Tickets for myself and my wife for the Australian open as guests of Tennis Australia on 20/1/15.",
+      "pdf_url": "chesterd_44p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2015-05-27",
+      "category": "Travel",
+      "entity": "Turkish Government",
+      "details": "Guest of the Turkish Government at International Defence Industry Fair IS",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-05-27",
+      "category": "Hospitality",
+      "entity": "Turkish Government",
+      "details": "#3x Nights Accommodation for 4,5,6 May 2015 - Hyatt Regency Istanbul Atakoy Myself and Adviser",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-05-27",
+      "category": "Travel",
+      "entity": "Turkish Government",
+      "details": "#3x Days Ground Transport for 4,5,6 May 2015 ix Sedan, ix Mini-Van Myself and Adviser",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-07-03",
+      "category": "Memberships",
+      "entity": "Virgin Australia",
+      "details": "Membership to \"The club\" from Virgin Australia",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-09-24",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "3 nights accomnatation and hospitality at Royal Zambezi Lodge",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-09-24",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Charter Flight from Lusaka to Rayal Zambezi Lodge",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-10-28",
+      "category": "Gifts",
+      "entity": "Anthony Di Pietro",
+      "details": "melbourne Victory v melbourne City Chairman's Function and match Tickets x 2. Saturday October 17, 2015, invited by Victory Chairman Anthony Di Pietro",
+      "pdf_url": "chesterd_44p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2015-10-28",
+      "category": "Gifts",
+      "entity": "Marshall Baillieu",
+      "details": "6x red wine Carruades de Lafitte Pauillac donated for use at Parliament House Yang Endeavour Youth scheme Function on october 13 (all members and senators invited). Donor - Mashall Ballieu.",
+      "pdf_url": "chesterd_44p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2015-11-18",
+      "category": "Hospitality",
+      "entity": "News Limited",
+      "details": "Guest of News Limited at Australia v Kyrgyzstan Soccer match in Canberra on 12/11/15. Tickets and hospitality.",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-12-10",
+      "category": "Gifts",
+      "entity": "Esor Australia",
+      "details": "opening night of Opera Australia's \"The Elixir of Love\" in melbourne as guest of Chief Executive and Artistic Director - mr + mrs Chester - Hospitality prouded by Esor Australia.",
+      "pdf_url": "chesterd_44p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2016-01-29",
+      "category": "Travel",
+      "entity": "Gates foundation",
+      "details": "Save the Children delegation to Cambodia to view NGO aid programs; flights, accommodation and food. Supported by Gates foundation. January 17-25.",
+      "pdf_url": "chesterd_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-02-02",
+      "category": "Gifts",
+      "entity": "Tony Di Pietro",
+      "details": "melbourne Victory v Sydney Chairman's function and match Tickets x2 January 26th 2016 Invited by Victory chairman Tony Di Pietro",
+      "pdf_url": "chesterd_44p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2016-02-02",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Australian open quarter Final tickets x2 Guet of Qantas and also access to Emirates Lange",
+      "pdf_url": "chesterd_44p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2016-02-02",
+      "category": "Real Estate",
+      "entity": "Westpac Bank",
+      "details": "2BD unit, purchased 27/1/16. Mortgage, DJ Chester",
+      "pdf_url": "chesterd_44p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/chesterd_44p.pdf"
+}

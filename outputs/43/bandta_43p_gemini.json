@@ -1,0 +1,128 @@
+{
+  "mp_name": "Adam Paul Bandt",
+  "party": "N/A",
+  "electorate": "Melbourne",
+  "disclosures": [
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "AMP",
+      "details": "Shareholdings in public and private companies",
+      "pdf_url": "bandta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Trusts",
+      "entity": "ASPAR HOLDINGS PTY LTD",
+      "details": "Superannuation Fund - Member",
+      "pdf_url": "bandta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Parkville - Residence",
+      "pdf_url": "bandta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Liabilities",
+      "entity": "ST GEORGE BANK",
+      "details": "Mortgage",
+      "pdf_url": "bandta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "ST GEORGE BANK",
+      "details": "Savings",
+      "pdf_url": "bandta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Flemington - Residence",
+      "pdf_url": "bandta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Liabilities",
+      "entity": "ST GEORGE BANK",
+      "details": "Mortgage",
+      "pdf_url": "bandta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "ST GEORGE BANK",
+      "details": "Savings",
+      "pdf_url": "bandta_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-03-21",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Firefighting Helmet $352.00",
+      "pdf_url": "bandta_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-03-21",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Addition: Flemington Residence",
+      "pdf_url": "bandta_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-10-11",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Spouse: Received domestic flight upgrade from economy to business class on Melbourne to Sydney flight on 25/09/2012",
+      "pdf_url": "bandta_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-10-11",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Spouse: Received domestic flight upgrade from economy to business class on Sydney to Canberra flight on 26/09/2012",
+      "pdf_url": "bandta_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-27",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Spouse: Received domestic flight upgrade from economy to business class on Melbourne to Canberra flight on 21/11/2012",
+      "pdf_url": "bandta_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-02-06",
+      "category": "Memberships",
+      "entity": "Qantas",
+      "details": "Complimentary Qantas Chairman's Lounge membership",
+      "pdf_url": "bandta_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-02-06",
+      "category": "Memberships",
+      "entity": "Virgin Australia",
+      "details": "Complimentary Virgin Australia Lounge membership",
+      "pdf_url": "bandta_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-03-21",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Deletion: Parkville Residence",
+      "pdf_url": "bandta_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-03-20",
+      "category": "Travel",
+      "entity": "German government/ Goethe Institut",
+      "details": "Trip to Germany for Renewable Energy tour, funded and organised by German government/ Goethe Institut. Travel to/from Germany, Business Class. Accommodation in Berlin. 22-29 April 2012.",
+      "pdf_url": "bandta_43p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/43/bandta_43p.pdf"
+}

@@ -1,0 +1,129 @@
+{
+  "mp_name": "Michael Sukkar",
+  "party": "Unknown",
+  "electorate": "Deakin",
+  "disclosures": [
+    {
+      "declaration_date": "2016-09-20",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Self: NIL, Spouse: NIL, Dependent Children: NIL",
+      "pdf_url": "sukkarm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-20",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Self: NIL, Spouse: NIL, Dependent Children: NIL",
+      "pdf_url": "sukkarm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-20",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Self: Blackburn (Residence), Canberra (Investment); Spouse: Blackburn (Residence); Dependent Children: NIL",
+      "pdf_url": "sukkarm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-20",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Self: NIL, Spouse: NIL, Dependent Children: NIL",
+      "pdf_url": "sukkarm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-20",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Self: NIL, Spouse: NIL, Dependent Children: NIL",
+      "pdf_url": "sukkarm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-20",
+      "category": "Liabilities",
+      "entity": "Bank of Melbourne",
+      "details": "Self: Residential Mortgage, Investment Mortgage; Spouse: Residential Mortgage; Dependent Children: NIL",
+      "pdf_url": "sukkarm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-20",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Self: NIL, Spouse: NIL, Dependent Children: NIL",
+      "pdf_url": "sukkarm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-20",
+      "category": "Savings/Investments",
+      "entity": "Bank of Melbourne",
+      "details": "Self: Saving, Spouse: Saving, Dependent Children: Unknown",
+      "pdf_url": "sukkarm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-20",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Unknown",
+      "pdf_url": "sukkarm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-20",
+      "category": "Income Sources",
+      "entity": "GHD Pty Ltd",
+      "details": "Self: NIL, Spouse: GHD Pty Ltd, Dependent Children: NIL",
+      "pdf_url": "sukkarm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-20",
+      "category": "Gifts",
+      "entity": "Foxtel",
+      "details": "Self: Foxtel Platinum Package, Astra, Value Unknown",
+      "pdf_url": "sukkarm_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-09-20",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Self: NIL, Spouse: NIL, Dependent Children: NIL",
+      "pdf_url": "sukkarm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-20",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Self: NIL, Spouse: NIL, Dependent Children: NIL",
+      "pdf_url": "sukkarm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-20",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Self: NIL, Spouse: NIL, Dependent Children: NIL",
+      "pdf_url": "sukkarm_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-16",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Addition: Canberra Investment Property; Deletion: Fitzroy North Investment Property",
+      "pdf_url": "sukkarm_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-09-20",
+      "category": "Memberships",
+      "entity": "Rotary Club of Nunawading",
+      "details": "Rotary Club of Nunawading: Annual Subscription $310",
+      "pdf_url": "sukkarm_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-08-25",
+      "category": "Income Sources",
+      "entity": "GHD Pty Ltd",
+      "details": "Mrs Anna Louise Sukkar \u2013 on maternity leave from GHD Pty Ltd",
+      "pdf_url": "sukkarm_45p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/sukkarm_45p.pdf"
+}

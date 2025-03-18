@@ -1,0 +1,122 @@
+{
+  "mp_name": "Peter Sidebottom",
+  "party": "Unknown",
+  "electorate": "Braddon",
+  "disclosures": [
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "FORTH, TAS - RESIDENTIAL",
+      "pdf_url": "sidebottoms_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "FORTH, TAS - RESIDENTIAL (Spouse)",
+      "pdf_url": "sidebottoms_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "LENAH VALLEY, HOBART - RENTAL (Spouse)",
+      "pdf_url": "sidebottoms_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "sidebottoms_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "sidebottoms_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Liabilities",
+      "entity": "MYSTATE CREDIT UNION",
+      "details": "MORTGAGE",
+      "pdf_url": "sidebottoms_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Liabilities",
+      "entity": "MYSTATE CREDIT UNION",
+      "details": "MORTGAGE (Spouse)",
+      "pdf_url": "sidebottoms_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "sidebottoms_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Savings/Investments",
+      "entity": "MYSTATE",
+      "details": "SAVINGS",
+      "pdf_url": "sidebottoms_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Savings/Investments",
+      "entity": "MYSTATE",
+      "details": "SAVINGS (Spouse)",
+      "pdf_url": "sidebottoms_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Savings/Investments",
+      "entity": "MYSTATE / COMMONWEALTH",
+      "details": "SAVINGS (Dependent Children)",
+      "pdf_url": "sidebottoms_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "VEHICLES (Spouse)",
+      "pdf_url": "sidebottoms_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "VEHICLES (Dependent Children)",
+      "pdf_url": "sidebottoms_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "SPOUSES INCOME",
+      "pdf_url": "sidebottoms_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "sidebottoms_43p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "sidebottoms_43p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/43/sidebottoms_43p.pdf"
+}

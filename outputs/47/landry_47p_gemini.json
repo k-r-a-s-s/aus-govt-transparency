@@ -1,0 +1,431 @@
+{
+  "mp_name": "Michelle Landry",
+  "party": "N/A",
+  "electorate": "Capricornia",
+  "disclosures": [
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Shares",
+      "entity": "Medibank",
+      "details": "N/A",
+      "pdf_url": "landry_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Shares",
+      "entity": "National Australian Bank",
+      "details": "N/A",
+      "pdf_url": "landry_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Shares",
+      "entity": "Virgin Money UK",
+      "details": "N/A",
+      "pdf_url": "landry_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Home - Residential, Lammermoor QLD",
+      "pdf_url": "landry_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Unit - Residential, Griffith ACT",
+      "pdf_url": "landry_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Home Loan",
+      "pdf_url": "landry_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Unit Loan (Residential)",
+      "pdf_url": "landry_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Savings Account",
+      "pdf_url": "landry_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Gifts",
+      "entity": "Qantas Chairmans Lounge",
+      "details": "Membership",
+      "pdf_url": "landry_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Gifts",
+      "entity": "Virgin Club",
+      "details": "Membership",
+      "pdf_url": "landry_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Gifts",
+      "entity": "ASTRA",
+      "details": "TV Complimentary Subscription",
+      "pdf_url": "landry_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Gifts",
+      "entity": "Hastings Deering",
+      "details": "1 x CAT 794 AC Mining Truck - Collectable Diecast Scale Model Replica gifted by Hastings Deering",
+      "pdf_url": "landry_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Gifts",
+      "entity": "Gallipoli Cultural Assoc.",
+      "details": "Turkish Plate - Gallipoli Cultural Assoc.",
+      "pdf_url": "landry_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Gifts",
+      "entity": "Tabcorp",
+      "details": "Ticket from Tabcorp for Derby Day in the Birdcage 2019",
+      "pdf_url": "landry_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Gifts",
+      "entity": "Tabcorp",
+      "details": "Ticket from Tabcorp for Melbourne Cup in the Birdcage 2019",
+      "pdf_url": "landry_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Gifts",
+      "entity": "Australian Hotel Association",
+      "details": "Ticket from the Australian Hotel Association for the AHA National Board Luncheon 2019",
+      "pdf_url": "landry_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "2 x tickets to Hugh Jackman Show valued at $360 2020",
+      "pdf_url": "landry_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Gifts",
+      "entity": "ASTRA",
+      "details": "Subscription to ASTRA 2020",
+      "pdf_url": "landry_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "2 x tickets to the National Farmers Federation 40th Anniversary Gala Dinner Valued $560",
+      "pdf_url": "landry_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Corporate ticket to State of Origin 2019",
+      "pdf_url": "landry_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Entry into Beef Week - Week Pass",
+      "pdf_url": "landry_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Gifts",
+      "entity": "Beef Australia",
+      "details": "1 x ticket to the Nose to Tail Dinner (2/5/2021) - Beef Australia",
+      "pdf_url": "landry_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Gifts",
+      "entity": "Beef Australia",
+      "details": "1 x ticket to the Celebrity Lunch (3/5/2021) - Beef Australia",
+      "pdf_url": "landry_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Gifts",
+      "entity": "Beef Australia",
+      "details": "1 x ticket to the Main Event Lunch (4/5/2021) - Beef Australia",
+      "pdf_url": "landry_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Gifts",
+      "entity": "Beef Australia",
+      "details": "1 x ticket to the Graeme Acton Beef Connections Lunch (5/5/2021) - Beef Australia",
+      "pdf_url": "landry_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Gifts",
+      "entity": "Beef Australia",
+      "details": "1 x ticket to the NAB Ladies Lunch - (7/5/2021) - Beef Australia",
+      "pdf_url": "landry_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Gifts",
+      "entity": "Beef Australia",
+      "details": "2 x tickets to the REAL Group Gala Ball - (8/5/2021) - Beef Australia",
+      "pdf_url": "landry_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Gifts",
+      "entity": "Beef Australia",
+      "details": "1 x ticket to the Rabobank Beef Industry Awards - (3/5/2021) - Beef Australia",
+      "pdf_url": "landry_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "2 x tickets to Rockhampton Girls Grammar Race Day",
+      "pdf_url": "landry_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "8 x tickets to NRL Finals Game - Eels vs Knights Sunday 12th September 2021",
+      "pdf_url": "landry_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "1 x ticket to Queensland Hotel Association Race Day in Rockhampton",
+      "pdf_url": "landry_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Gifts",
+      "entity": "QTIC",
+      "details": "2 x tickets from QTIC to the Queensland Tourism Awards 2021",
+      "pdf_url": "landry_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "2 x tickets to Rural Press Club Lunch",
+      "pdf_url": "landry_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Travel",
+      "entity": "Bowen River Utilities",
+      "details": "Flight from Rockhampton to Collinsville return 29/6/2020 - 30/6/2020 (Visit to Urannah Dam site)",
+      "pdf_url": "landry_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-09",
+      "category": "Gifts",
+      "entity": "Yeppoon business people",
+      "details": "1 x rose gold Pandora bracelet, gift from Yeppoon business people",
+      "pdf_url": "landry_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-03-22",
+      "category": "Gifts",
+      "entity": "Camm Group",
+      "details": "2 tickets from Camm Group to the Rural Press Club",
+      "pdf_url": "landry_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-03-22",
+      "category": "Gifts",
+      "entity": "QLD Tourism Industry Council",
+      "details": "2 tickets from QLD Tourism Industry Council to Qantas Australian Tourism Awards",
+      "pdf_url": "landry_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-03-10",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "1 x ticket to the North Qld Cowboys vs Canberra Raiders NRL game on 4 March 2023 - Bravus Corporate Box",
+      "pdf_url": "landry_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-15",
+      "category": "Travel",
+      "entity": "Bravus Mining and Resources",
+      "details": "2 x return tickets to Carmichael Mine from Rockhampton- Bravus Mining and Resources (24th October 2023)",
+      "pdf_url": "landry_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-02-07",
+      "category": "Gifts",
+      "entity": "Sky News",
+      "details": "1 Skynews streaming subscrition",
+      "pdf_url": "landry_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2024-02-07",
+      "category": "Gifts",
+      "entity": "Asia Pacific Parliamentary forum",
+      "details": "2 x decorative plates gifted at the Asia Pacific Parliamentary forum",
+      "pdf_url": "landry_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2024-05-23",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Beef week entry ticket x1",
+      "pdf_url": "landry_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-23",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Cattle Australia Breakfast symposium ticket x1",
+      "pdf_url": "landry_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-23",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "More to Meat Campaign- Networking event ticket x1",
+      "pdf_url": "landry_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-23",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Beef week Woolworths Breakfast ticket x1",
+      "pdf_url": "landry_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-23",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Celebrity Chef lunch with Tom Hitchcock ticket x 2",
+      "pdf_url": "landry_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-23",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Beef Week welcome Reception ticket x1",
+      "pdf_url": "landry_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-23",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "AMPC National Beef Carcass competition awards dinner ticket x1",
+      "pdf_url": "landry_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-23",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Ray White Rural Industry Breakfast ticket x2",
+      "pdf_url": "landry_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-23",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Westpac sundowner drinks and canapes ticket x1",
+      "pdf_url": "landry_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-23",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Meat and Livestock Sundowner drinks and canapes ticket x2",
+      "pdf_url": "landry_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-23",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Rural Press Club Breakfast ticket x1",
+      "pdf_url": "landry_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-23",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Westpac High Tea ticket x1",
+      "pdf_url": "landry_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-23",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "NAB Ladies Lunch ticket x1",
+      "pdf_url": "landry_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-23",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "World Butchers Challenge Dinner tickets x2",
+      "pdf_url": "landry_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-23",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Gala Beef Ball tickets x4",
+      "pdf_url": "landry_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/landry_47p.pdf"
+}

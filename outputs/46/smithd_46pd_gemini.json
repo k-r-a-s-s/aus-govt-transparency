@@ -1,0 +1,376 @@
+{
+  "mp_name": "David Smith",
+  "party": "Unknown",
+  "electorate": "Bean",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "NIB",
+      "details": "Spouse/partner",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "NRMA",
+      "details": "Spouse/partner",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Not Applicable - Dependent Children",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "The Centenera Family Trust",
+      "details": "Farming and property investment joint beneficiary",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "The J. Centenera Family Trust",
+      "details": "Farming and property investment joint beneficiary",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "The Marcmonella Property Trust",
+      "details": "Farming and property investment joint beneficiary",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "The Joliz Trust",
+      "details": "Farming and property investment joint beneficiary",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "The Parilla Manager's Trust",
+      "details": "Farming and property management joint beneficiary",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "The Joleta Sanitation Trust",
+      "details": "Venture Capital joint beneficiary",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "The Centenera Family Trust",
+      "details": "Farming and property investment joint beneficiary - Dependent Children",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "The J. Centenera Family Trust",
+      "details": "Farming and property investment joint beneficiary - Dependent Children",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "The Marcmonella Property Trust",
+      "details": "Farming and property investment joint beneficiary - Dependent Children",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "The Joliz Trust",
+      "details": "Farming and property investment joint beneficiary - Dependent Children",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "The Parilla Manager's Trust",
+      "details": "Farming and property investment joint beneficiary - Dependent Children",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "The Joleta Sanitation Trust",
+      "details": "Venture Capital joint beneficiary - Dependent Children",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable - Trustee",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "Farrer ACT",
+      "details": "Residential",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "Farrer ACT",
+      "details": "Residential - Spouse/Partner",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Mortgage on residential property",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Mortgage on residential property - Spouse/Partner",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Personal loan - Spouse/Partner",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth",
+      "details": "Savings",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth",
+      "details": "Term Deposit",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Savings - Spouse/partner",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Savings - Dependent Children",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "Car",
+      "details": "Spouse/partner",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "Superannuation",
+      "details": "Spouse/partner",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "Government Board income",
+      "details": "Spouse/partner",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "Consultancy fees",
+      "details": "Spouse/partner",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Gifts",
+      "entity": "Chairman's Lounge",
+      "details": "Self",
+      "pdf_url": "smithd_46pd.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-09-05",
+      "category": "Directorships",
+      "entity": "Centenera Nominees Pty Ltd",
+      "details": "My spouse is a director of the following companies",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-09-05",
+      "category": "Directorships",
+      "entity": "Joleta Pty Ltd",
+      "details": "My spouse is a director of the following companies",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-09-05",
+      "category": "Directorships",
+      "entity": "Joleta Sanitation Pty Ltd",
+      "details": "My spouse is a director of the following companies",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-09-05",
+      "category": "Travel",
+      "entity": "Government of Taiwan",
+      "details": "My spouse and I received return air travel, accommodation and hospitality from the Government of Taiwan as part of a delegation that visited Taiwan between 25 August and 31 August",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2019-09-05",
+      "category": "Gifts",
+      "entity": "Virgin Velocity",
+      "details": "Upgrade to Virgin Velocity membership to the Club level for both MP and spouse",
+      "pdf_url": "smithd_46pd.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-09-05",
+      "category": "Directorships",
+      "entity": "Unknown",
+      "details": "Deletion of Companies",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2020-02-18",
+      "category": "Hospitality",
+      "entity": "Brumbies",
+      "details": "Tickets and hospitality to Brumbies match for member and spouse on 15/02/20",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2020-03-30",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Three tickets to WNBL final on 4 March",
+      "pdf_url": "smithd_46pd.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2020-09-18",
+      "category": "Directorships",
+      "entity": "Centenera Nominees Pty Ltd",
+      "details": "Spouse/Partner Name of Company: Centenera Nominees Pty Ltd. Nature of Activity: Farming and Property investment",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2020-09-18",
+      "category": "Directorships",
+      "entity": "Joleta Pty Ltd",
+      "details": "Spouse/Partner Name of Company: Joleta Pty Ltd. Nature of Activity: Farming and Property investment",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2020-09-18",
+      "category": "Directorships",
+      "entity": "Joleta Sanitation Pty Ltd",
+      "details": "Spouse/Partner Name of Company: Joleta Sanitation Pty Ltd. Nature of Activity: Venture Capital",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2020-09-18",
+      "category": "Directorships",
+      "entity": "Pentract Holdings Pty Ltd",
+      "details": "Spouse/Partner Name of Company: Pentract Holdings Pty Ltd. Nature of Activity: Cyber security education",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2022-02-23",
+      "category": "Hospitality",
+      "entity": "Cricket Australia",
+      "details": "Attended Women's Ashes Test at Manuka Oval as guest of Cricket Australia (27 January)",
+      "pdf_url": "smithd_46pd.pdf"
+    },
+    {
+      "declaration_date": "2022-02-23",
+      "category": "Hospitality",
+      "entity": "Cricket ACT",
+      "details": "Attended T20 International at Manuka Oval as guest of Cricket ACT (15 February)",
+      "pdf_url": "smithd_46pd.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/smithd_46pd.pdf"
+}

@@ -1,0 +1,635 @@
+{
+  "mp_name": "Angus Taylor",
+  "party": "Unknown",
+  "electorate": "Hume",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Gufee Pty Ltd",
+      "details": "Self",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Maclaughlin River Pastoral Pty Ltd",
+      "details": "Self (via Gufee Pty Ltd)",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Growth Farms Pty Ltd",
+      "details": "Self (via Gufee Pty Ltd)",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Gufee Pty Ltd",
+      "details": "Spouse/partner",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Maclaughlin River Pastoral Pty Ltd",
+      "details": "Spouse/partner (via Gufee Pty Ltd)",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Growth Farms Pty Ltd",
+      "details": "Spouse/partner (via Gufee Pty Ltd)",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "AJ & L Taylor Family Trust",
+      "details": "Self, Family Trust, Angus Taylor, Louise Clegg & Gufee Pty Ltd",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "AJ & L Taylor Family Trust",
+      "details": "Spouse/partner, Family Trust, Angus Taylor, Louise Clegg & Gufee Pty Ltd",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Goulburn, NSW, Home and Farm, Self",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Goulburn, NSW, Home and Farm, Spouse/partner",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Directorships",
+      "entity": "Gufee Pty Ltd",
+      "details": "Self, Investment company, corporate trustee",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Directorships",
+      "entity": "Gufee Pty Ltd",
+      "details": "Spouse/partner, Investment company, corporate trustee",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Directorships",
+      "entity": "Maclaughlin River Pastoral Company Pty Ltd",
+      "details": "Spouse/partner, Family farming operation",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Directorships",
+      "entity": "Goulburn UC Limited",
+      "details": "Spouse/partner, Education Services",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Directorships",
+      "entity": "United States Studies Centre",
+      "details": "Spouse/partner, Education Services and Thinktank",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Directorships",
+      "entity": "Sydney Institute",
+      "details": "Spouse/partner, Thinktank",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Partnerships",
+      "entity": "Farm Partnerships Australia",
+      "details": "Self, Partner (via Gufee Pty Ltd), Farming business",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Partnerships",
+      "entity": "Farm Partnerships Australia",
+      "details": "Spouse/partner, Partner (via Gufee Pty Ltd), Farming business",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Self, Credit card",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Spouse/partner, Credit card",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Self, Term deposits",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Spouse/partner, Term deposits",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Self, Investment Account",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Self, Transaction Accounts",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "Vanguard",
+      "details": "Self, Investment Account",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "Plum Financial Services",
+      "details": "Self, Superannuation Account",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Self, Life insurance",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Self, Saving Account",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Spouse/partner, Investment Account",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Spouse/partner, Transaction Accounts",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "Vanguard",
+      "details": "Spouse/partner, Investment Account",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "Plum Financial Services",
+      "details": "Spouse/partner, Superannuation Account",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Spouse/partner, Saving Account",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Dependent children, Transaction/savings accounts (x 4)",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Self, Livestock",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Spouse/partner, Livestock",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Self, None other than otherwise disclosed in this form.",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "PG Heley Chambers",
+      "details": "Spouse/partner, Work as a Barrister",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Spouse/partner, None other than otherwise disclosed in this form.",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Dependent children, Occasional casual work",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Liberal Party of Australia",
+      "details": "Self",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Goulburn Triathlon Club",
+      "details": "Self",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Triathlon NSW",
+      "details": "Self",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Goulburn Cycling Club",
+      "details": "Self",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Cycling NSW",
+      "details": "Self",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Ski Club of Australia",
+      "details": "Self",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Goulburn Rural Fire Brigade",
+      "details": "Self",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Camden Show (Patron)",
+      "details": "Self",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Cooma Ski Club",
+      "details": "Self",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "St Andrew's College (University of Sydney) Foundation",
+      "details": "Self",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Shore School Foundation",
+      "details": "Self",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Abbotsleigh School Foundation",
+      "details": "Self",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Liberal Party of Australia",
+      "details": "Spouse/partner",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Goulburn and District Education Foundation",
+      "details": "Spouse/partner",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Ski Club of Australia",
+      "details": "Spouse/partner",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Gundary Rural Fire Brigade",
+      "details": "Spouse/partner",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "NSW Bar Association",
+      "details": "Spouse/partner",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Goulburn University Centre",
+      "details": "Spouse/partner",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "NSW Cross Country Ski Club",
+      "details": "Spouse/partner",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Australian Constitutional Law Association",
+      "details": "Spouse/partner",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Abbotsleigh School Foundation",
+      "details": "Spouse/partner",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Ski Club of Australia Committee",
+      "details": "Dependent children",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "University of Sydney Rowing Club",
+      "details": "Dependent children",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Thredbo Ski Patrol",
+      "details": "Dependent children",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-09-16",
+      "category": "Hospitality",
+      "entity": "Narellan Rotary Ball",
+      "details": "2 x complimentary tickets to the Narellan Rotary Ball from Marsden's Law Group",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-28",
+      "category": "Hospitality",
+      "entity": "Parliamentary Press Gallery",
+      "details": "2 x complimentary tickets to the Parliamentary Press Gallery Mid Winter Ball from Shell Australia",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-23",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Spouse - Sydney, NSW - Investment",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-04-02",
+      "category": "Hospitality",
+      "entity": "Qantas",
+      "details": "Self, Complimentary Membership of Qantas Chairman's Lounge",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-04-02",
+      "category": "Hospitality",
+      "entity": "Virgin",
+      "details": "Self, Complimentary Membership of Virgin 'The Club'",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-04-02",
+      "category": "Hospitality",
+      "entity": "Qantas",
+      "details": "Spouse, Complimentary Membership of Qantas Chairman's Lounge",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-04-02",
+      "category": "Hospitality",
+      "entity": "Virgin",
+      "details": "Spouse, Complimentary Membership of Virgin 'The Club'",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-04-02",
+      "category": "Directorships",
+      "entity": "Chesterfields Flats Pty Ltd",
+      "details": "Spouse, Activities of company - Property",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-04-02",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Upgrade of Qantas flight from Business Class to First Class from Sydney to Dallas.",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-04-02",
+      "category": "Gifts",
+      "entity": "US Secretary of Energy",
+      "details": "Decorative tray - Gift from US Secretary of Energy - Remains with the Department of Industry, Science, Energy and Resources.",
+      "pdf_url": "taylor_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2020-04-21",
+      "category": "Shares",
+      "entity": "Growth Farms Pty Ltd",
+      "details": "Self: Growth Farms Pty Ltd (via Gufee Pty Ltd)",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-04-21",
+      "category": "Shares",
+      "entity": "Growth Farms Pty Ltd",
+      "details": "Spouse: Growth Farms Pty Ltd (via Gufee Pty Ltd)",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-08-24",
+      "category": "Memberships",
+      "entity": "Gundary Rural Fire Brigade",
+      "details": "Self",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-08-24",
+      "category": "Memberships",
+      "entity": "Macarthur A League Club",
+      "details": "Self - Patron",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-08-24",
+      "category": "Memberships",
+      "entity": "St Andrews College Student Club",
+      "details": "Dependent children",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-08-24",
+      "category": "Memberships",
+      "entity": "Canberra Grammar School Foundation",
+      "details": "Self",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-08-24",
+      "category": "Memberships",
+      "entity": "Goulburn Triathlon Club",
+      "details": "Dependent children",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-11-30",
+      "category": "Travel",
+      "entity": "Empire Energy",
+      "details": "Return charter flight and hospitality in NT on Friday 16 October 2020 with Empire Energy.",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-08-11",
+      "category": "Memberships",
+      "entity": "Cathedral Church of St Saviour, Goulburn",
+      "details": "Patron",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-08-11",
+      "category": "Gifts",
+      "entity": "Ampol",
+      "details": "1 x NSW State of Origin rugby jersey from Ampol",
+      "pdf_url": "taylor_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2021-08-11",
+      "category": "Gifts",
+      "entity": "European Australian Business Council",
+      "details": "1 x Coffee table book from the European Australian Business Council",
+      "pdf_url": "taylor_46p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2022-02-08",
+      "category": "Shares",
+      "entity": "Maclaughlin River Holdings No 1. Pty Ltd",
+      "details": "Self/Spouse: Maclaughlin River Holdings No 1. Pty Ltd (via Gufee)",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-02-08",
+      "category": "Trusts",
+      "entity": "Maclaughlin River Land Trust No.1",
+      "details": "Self/Spouse: Maclaughlin River Land Trust No.1; Nature of its operation: Family Trust; Beneficial Interest: Angus Taylor, Louise Clegg & Gufee Pty Ltd",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-02-09",
+      "category": "Shares",
+      "entity": "Maclaughlin River Holdings No 1. Pty Ltd",
+      "details": "Self/Spouse: Maclaughlin River Holdings No 1. Pty Ltd (via Gufee)",
+      "pdf_url": "taylor_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-02-09",
+      "category": "Trusts",
+      "entity": "Maclaughlin River Land Trust No.1",
+      "details": "Self/Spouse: Maclaughlin River Land Trust No.1; Nature of its operation: Family Trust; Beneficial Interest: Angus Taylor, Louise Clegg & Gufee Pty Ltd",
+      "pdf_url": "taylor_46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/taylor_46p.pdf"
+}

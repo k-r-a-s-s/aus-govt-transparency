@@ -1,0 +1,324 @@
+{
+  "mp_name": "David Arthur Gillespie",
+  "party": "Unknown",
+  "electorate": "Lyne",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Telstra",
+      "details": "Shares in public and private companies (including holding companies)",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "AGL Energy",
+      "details": "Shares in public and private companies (including holding companies)",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "AMP LTD",
+      "details": "Shares in public and private companies (including holding companies)",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "ANZ Bank",
+      "details": "Shares in public and private companies (including holding companies)",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "BHP Billiton",
+      "details": "Shares in public and private companies (including holding companies)",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Woolworths",
+      "details": "Shares in public and private companies (including holding companies)",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Commonwealth Bank",
+      "details": "Shares in public and private companies (including holding companies)",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Henderson",
+      "details": "Shares in public and private companies (including holding companies)",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "NAB",
+      "details": "Shares in public and private companies (including holding companies)",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Wesfarmers",
+      "details": "Shares in public and private companies (including holding companies)",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Hastings Co-Op LTD",
+      "details": "Shares in public and private companies (including holding companies)",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "David A Gillespie Pty LTD",
+      "details": "Shares in public and private companies (including holding companies)",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Goldenboot Pty LTD",
+      "details": "Shares in public and private companies (including holding companies)",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Templemore Investments Pty LTD",
+      "details": "Shares in public and private companies (including holding companies)",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Port Macquarie Gastroenterology Pty Ltd",
+      "details": "Shares in public and private companies (including holding companies)",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Trusts",
+      "entity": "William Harvey Unit Trust",
+      "details": "Beneficial interest",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Trusts",
+      "entity": "Howard Florey Unit Trust",
+      "details": "Beneficial interest",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Trusts",
+      "entity": "David & Charlotte Gillespie Family Trust",
+      "details": "Beneficial interest",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "Randwick NSW",
+      "details": "Investment",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "Port Macquarie NSW",
+      "details": "Investment",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "Wauchope NSW",
+      "details": "Residence & Farm",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "Port Macquarie NSW",
+      "details": "5 units (residential investment)",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "Port Macquarie NSW",
+      "details": "10 units (commercial investment)",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "David A Gillespie Pty Ltd",
+      "details": "Investment",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "Port Macquarie Gastroenterology Pty Ltd",
+      "details": "Trading Business",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "Templemore Investments Pty Ltd",
+      "details": "Trustee company",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "Goldenboot Pty Ltd",
+      "details": "Trustee Company",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Partnerships",
+      "entity": "D & C Gillespie",
+      "details": "Primary Production",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Bank Loan",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Savings Account",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Savings Account",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "Goldman Sachs Cash Trust",
+      "details": "Investment Account",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "Bank of Queensland",
+      "details": "Savings Account",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation interest - David & Charlotte Gillespie Superannuation Fund (SMSF)",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Private motor vehicle x3",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from Investments set out above",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Royal Australasian College of Physicians",
+      "details": "Membership of any organisation where a conflict of interest with a Member's public duties could foreseeably arise or be seen to arise",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Gastroenterology Society of Australia",
+      "details": "Membership of any organisation where a conflict of interest with a Member's public duties could foreseeably arise or be seen to arise",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-04-17",
+      "category": "Shares",
+      "entity": "Northern Star Resources Ltd",
+      "details": "Shareholding in Public Companies",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-04-29",
+      "category": "Travel",
+      "entity": "Crown Prince of Abu Dhabi",
+      "details": "Travel. Australian Parliamentarian Visit to Abu Dhabi & Dubai UAE at invitation of HH The Crown Prince of Abu Dhabi. 10 April - 17 April re: Return B/C Airfares, Accommodation, Transfers + Meals Meetings briefings and visits to/with: Australian Ambassador; Embassy Reception with Michele Robb & Also Attendance involvement in Australia Unlimited Trade fair etc visit to personal bet. Australia Base at AL Minhad; Abu Dhabi Tourism Development Company; Emirates Airlines; HE Reem Al Hashimy, Minister of State; Dubaiforts World: HE Razan Al Mubarak, Secretary General Abudhabi Environmental Agency; Mubadala Development Company, & Abu Dhabi Investment Authority, Masdar City & Institute, Meetings with Crown Prince Abu Dhabi & Dr Anwah Gargarsh Minister for Foreign Affairs Visit to Nuclear faculty being formulated",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-05-28",
+      "category": "Shares",
+      "entity": "Westfarmers",
+      "details": "Shares (Westfarmers) Spouse CK Gillespie",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-06-18",
+      "category": "Shares",
+      "entity": "AGL",
+      "details": "Sale of AGL shares held in joint names (David Charlotte Gillespie)",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-12-03",
+      "category": "Savings/Investments",
+      "entity": "DC Gillespie Superfund",
+      "details": "Collection House Limited Shares CLA.ASX",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-12-03",
+      "category": "Shares",
+      "entity": "M2 Group Ltd",
+      "details": "M2 Group Ltd Shares MTU ASX",
+      "pdf_url": "gillespied_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-12-03",
+      "category": "Shares",
+      "entity": "ANZ LTO",
+      "details": "Shares ANZ LTO ASX",
+      "pdf_url": "gillespied_44p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/gillespied_44p.pdf"
+}

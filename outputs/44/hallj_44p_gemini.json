@@ -1,0 +1,93 @@
+{
+  "mp_name": "Jill Griffiths Hall",
+  "party": "N/A",
+  "electorate": "Shortland",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "NRMA",
+      "details": "Shareholding in NRMA",
+      "pdf_url": "hallj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Marsden Park, NSW, 50% Share - Investment; Lyneham, ACT 50% share - 2nd Residence; Swansea Heads, NSW 50% Share - Residence",
+      "pdf_url": "hallj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "Members Equity",
+      "details": "Mortgage - Family Home",
+      "pdf_url": "hallj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "Members Equity",
+      "details": "Mortgage - Investments",
+      "pdf_url": "hallj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "Members Equity",
+      "details": "Offset A/C",
+      "pdf_url": "hallj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth",
+      "details": "Investment Savings A/C",
+      "pdf_url": "hallj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "Companion Credit Union",
+      "details": "Savings A/C",
+      "pdf_url": "hallj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "HESTA",
+      "details": "Superannuation",
+      "pdf_url": "hallj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Patron of a number of organisations",
+      "pdf_url": "hallj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "National Institute of Accountants",
+      "pdf_url": "hallj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Trustee LAKE MACQUARIE LANDCARE",
+      "pdf_url": "hallj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "NETWORK PUBLIC FUND MANAGEENT COMMITTEE",
+      "pdf_url": "hallj_44p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/hallj_44p.pdf"
+}

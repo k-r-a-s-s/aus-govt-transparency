@@ -1,0 +1,692 @@
+{
+  "mp_name": "Scott John Morrison",
+  "party": "Liberal Party of Australia",
+  "electorate": "Cook",
+  "disclosures": [
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "SUPERANNUATION",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Trusts",
+      "entity": "MORRISON FAMILY TRUST",
+      "details": "DORMANT, NIL Beneficial interest",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "DOLANS BAY, NSW, RESIDENCE",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Liabilities",
+      "entity": "COMMBANK",
+      "details": "MORTGAGE, VIRIDIAN, VISA, MASTERCARD, CREDIT",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Liabilities",
+      "entity": "CITIBANK",
+      "details": "VISA, MASTERCARD",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Liabilities",
+      "entity": "AMEX",
+      "details": "CREDIT",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Savings/Investments",
+      "entity": "MLC",
+      "details": "SUPERANNUATION",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "SUPERANNUATION",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Savings/Investments",
+      "entity": "COMMBANK",
+      "details": "SAVINGS",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "SEE APPENDIX A",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Upgrade of four economy tickets from Virgin Australia for travel from Nadi Int Airport to Sydney Int Airport on 17 July 2016; Accommodation upgrade from Turtle Island Resort Limited 17 July 2016",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Hospitality",
+      "entity": "Qantas",
+      "details": "Complimentary membership of Qantas Chairman's Lounge",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Hospitality",
+      "entity": "Virgin",
+      "details": "Complimentary membership of the Virgin Club Lounge",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "SEE APPENDIX B",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Gifts",
+      "entity": "Foxtel",
+      "details": "I have previously declared I have received complimentary Foxtel services in my Electorate Office in Cronulla. This service is ongoing.",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Gifts",
+      "entity": "Southern Districts Rugby Union Club, Sylvania Waters.",
+      "details": "Season ticket to home games of the Southern Districts Rugby Union Club, Sylvania Waters.",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Gifts",
+      "entity": "Cronulla Sharks",
+      "details": "Number One Ticket Holder of the Cronulla Sharks.",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Memberships",
+      "entity": "Qantas",
+      "details": "Complimentary Membership of the Qantas Chairman's Lounge",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Memberships",
+      "entity": "Virgin",
+      "details": "Complimentary Membership of the Virgin Club Lounge",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Memberships",
+      "entity": "Liberal Party of Australia",
+      "details": "Membership of the Liberal Party of Australia, NSW Division",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Memberships",
+      "entity": "Royal Motor Yacht Club",
+      "details": "Honorary Membership of the Royal Motor Yacht Club, Woolooware",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Memberships",
+      "entity": "National Press Club",
+      "details": "Membership of the National Press Club",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Memberships",
+      "entity": "Cronulla RSL Club",
+      "details": "Membership of Cronulla RSL Club",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Memberships",
+      "entity": "Cronulla Sharks",
+      "details": "Number 1 ticket holder and honorary member, Cronulla Sharks",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Memberships",
+      "entity": "South Metropolitan Regional Scout Council",
+      "details": "Honorary Membership of the South Metropolitan Regional Scout Council, NSW",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Memberships",
+      "entity": "Cronulla Surf Life Saving Club",
+      "details": "Honorary Membership of the Cronulla Surf Life Saving Club",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Memberships",
+      "entity": "North Cronulla Surf Life Saving Club",
+      "details": "Honorary Membership of the North Cronulla Surf Life Saving Club",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Memberships",
+      "entity": "Elouera Surf Life Saving Club",
+      "details": "Honorary Membership of the Elouera Surf Life Saving Club",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Memberships",
+      "entity": "Wanda Surf Life Saving Club",
+      "details": "Honorary Membership of the Wanda Surf Life Saving Club",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Memberships",
+      "entity": "Cook Community Classic",
+      "details": "Patron of the Cook Community Classic",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Memberships",
+      "entity": "Compassion",
+      "details": "Compassion (Donor)",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Memberships",
+      "entity": "Shirelive Church",
+      "details": "Shirelive Church, Sutherland",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Memberships",
+      "entity": "Southern Districts Rugby Union Football Club",
+      "details": "Complimentary sponsor, Southern Districts Rugby Union Football Club",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Memberships",
+      "entity": "Australian Kookaburra Kids Foundation",
+      "details": "Parliamentary Patron - Australian Kookaburra Kids Foundation",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Memberships",
+      "entity": "St George Football Association",
+      "details": "Patron - St George Football Association",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Memberships",
+      "entity": "Qantas",
+      "details": "Complimentary Membership of the Qantas Chairman's Lounge",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Memberships",
+      "entity": "Virgin",
+      "details": "Complimentary Membership of the Virgin Club Lounge",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Memberships",
+      "entity": "Liberal Party of Australia",
+      "details": "Membership of the Liberal Party of Australia, NSW Division",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Memberships",
+      "entity": "Royal Motor Yacht Club",
+      "details": "Honorary Membership of the Royal Motor Yacht Club, Woolooware",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-18",
+      "category": "Travel",
+      "entity": "Qantas Airways",
+      "details": "Upgrade of flight from Qantas Airways for travel from Dallas to Sydney on Saturday 8 October 2016",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-11-25",
+      "category": "Gifts",
+      "entity": "NRL",
+      "details": "Gift of two tickets from the NRL to attend the Sharks v Cowboys NRL game on 23/09/16",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2016-11-25",
+      "category": "Gifts",
+      "entity": "NRL",
+      "details": "Gift of two tickets from the NRL to attend the Dally M Awards on 28/09/2016",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2016-11-25",
+      "category": "Gifts",
+      "entity": "NRL",
+      "details": "Gift of two tickets from the NRL to attend the 2016 NRL Grand Final Dinner on 29/09/2016",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2016-11-25",
+      "category": "Gifts",
+      "entity": "NRL",
+      "details": "Gift of two tickets from the NRL to attend the 2016 NRL Grand Final on 02/10/2016",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2017-03-21",
+      "category": "Gifts",
+      "entity": "ANZ",
+      "details": "Gift of two tickets from ANZ to attend the Adele Concert on 10/03/2017 at ANZ Stadium.",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2017-03-21",
+      "category": "Memberships",
+      "entity": "Cronulla Sharks",
+      "details": "Honorary Cronulla Sharks Chairman's Membership",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-02-26",
+      "category": "Gifts",
+      "entity": "Netball NSW",
+      "details": "Gift of four tickets from Netball NSW to attend the Suncorp Super Netball League Round 2 game on 25/02/2017 at Qudos Bank Arena",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2017-08-14",
+      "category": "Income Sources",
+      "entity": "Australian Subscription Television and Radio Association",
+      "details": "Automatic annual renewal for Foxtel subscription from the Australian Subscription Television and Radio Association for the Electorate Office.",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-09-23",
+      "category": "Travel",
+      "entity": "National Rugby League Ltd",
+      "details": "Complimentary ticket from National Rugby League Ltd to attend the Cronulla-Sutherland Sharks versus North Queensland Cowboys game on September 10th.",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-09-23",
+      "category": "Travel",
+      "entity": "Clontarf Foundation",
+      "details": "Clontarf Foundation - Outback Adventure: In August I joined some Clontarf graduates, their mentors and some of the business leaders who financially support the program on an outback trek to Bourke and Brewarrina.",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-10-06",
+      "category": "Gifts",
+      "entity": "ANZ Stadium",
+      "details": "I wish to advise the tickets were a gift from ANZ Stadium, not ANZ. Correcting a declaration made on 21st March 2017.",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2017-11-17",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Upgrade of a flight from Sydney to Dallas on Tuesday 10th October 2017 from Qantas",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-11-17",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Upgrade of a flight from Dallas to Sydney on Saturday 14th October 2017 from Qantas",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-12-07",
+      "category": "Gifts",
+      "entity": "QANTAS",
+      "details": "Gift of a Boeing 787-9 Dreamliner Model from QANTAS",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2017-12-07",
+      "category": "Gifts",
+      "entity": "Coopers",
+      "details": "Gift of a Magnum of Coopers Extra Strong Vintage Ale signed by the family and a framed picture celebrating my 10th anniversary as the Federal Member for Cook. Received from the Australian Chamber of Commerce and Industry.",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2018-09-05",
+      "category": "Gifts",
+      "entity": "Australian-Israel Chamber of Commerce",
+      "details": "Gift of a Hors D'oeuvre Waratah Plate from the Australian-Israel Chamber of Commerce valued at $325.00",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2018-09-25",
+      "category": "Gifts",
+      "entity": "Joko Widodo, President of Indonesia",
+      "details": "Gift of a Traditional Acehnese hat from the Indonesian President, Joko Widodo, valued at $750",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2018-10-04",
+      "category": "Gifts",
+      "entity": "AFL",
+      "details": "Gift of two tickets from the AFL to attend the Richmond vs Hawthorn AFL game at the MCG on 6/09/2018",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2018-10-04",
+      "category": "Gifts",
+      "entity": "Sydney Roosters Chairman's Club",
+      "details": "Gift of two tickets from the Sydney Roosters Chairman's Club to attend the Roosters vs Sharks NRL game at Allianz Stadium on 8/09/2018",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2018-10-04",
+      "category": "Gifts",
+      "entity": "NRL",
+      "details": "Gift of two tickets from the NRL to attend the Sharks vs Penrith NRL game at the Allianz Stadium on 14/09/2018",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2018-10-04",
+      "category": "Gifts",
+      "entity": "North Melbourne Football Club",
+      "details": "Gift of two tickets from the North Melbourne Football Club to attend the North Melbourne Grand Final Breakfast at the Melbourne Convention Centre on 29/09/2018",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2018-10-04",
+      "category": "Gifts",
+      "entity": "AFL",
+      "details": "Gift of two tickets from the AFL to attend the Grand Final Lunch at the MCG on 29/09/2018",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2018-10-04",
+      "category": "Gifts",
+      "entity": "AFL",
+      "details": "Gift of two tickets from the AFL to attend the Grand Final between Collingwood vs West Coast Eagles at the MCG on 29/09/2018",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2018-10-04",
+      "category": "Gifts",
+      "entity": "NRL",
+      "details": "Gift of one ticket from the NRL to attend the Grand Final between the Roosters vs Storm at the ANZ Stadium on 30/09/2018",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2018-10-18",
+      "category": "Gifts",
+      "entity": "ACS",
+      "details": "Gift of a Monte Blanc Pen from ACS valued at $450 to be surrendered to the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2018-10-25",
+      "category": "Gifts",
+      "entity": "Civmec Construction and Engineering Pty Ltd",
+      "details": "Gift of a Framed Picture of a Medal Ship, from Jim Fitzgerald, Executive Chairman, Civmec Construction and Engineering Pty Ltd, valued at $380",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Decorative"
+    },
+    {
+      "declaration_date": "2018-11-26",
+      "category": "Gifts",
+      "entity": "AHA NSW",
+      "details": "Gift of four tickets from AHA NSW to attend the Taylor Swift 'Reputation' concert at ANZ Stadium on 2/11/2018",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2018-12-06",
+      "category": "Gifts",
+      "entity": "Kmart",
+      "details": "Gift of Christmas Decorations for Kmart Wishing Tree from Kmart valued at $677 on 7 November.",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2018-12-06",
+      "category": "Gifts",
+      "entity": "Target",
+      "details": "Gift of Christmas Decorations for Target UnitingCare Christmas Tree from Target valued at $344 on 15 November 2018.",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2018-12-14",
+      "category": "Memberships",
+      "entity": "Patron Advance",
+      "details": "Patron - Advance",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-12-14",
+      "category": "Memberships",
+      "entity": "Alannah & Madeline Foundation",
+      "details": "Patron - Alannah & Madeline Foundation",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-12-14",
+      "category": "Memberships",
+      "entity": "Surf Life Saving Australia",
+      "details": "Vice Patron - Surf Life Saving Australia",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-12-14",
+      "category": "Memberships",
+      "entity": "Mito Foundation",
+      "details": "Patron Mito Foundation",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-12-14",
+      "category": "Memberships",
+      "entity": "Cronulla-Sutherland District Junior Rugby Football League",
+      "details": "Patron - Cronulla-Sutherland District Junior Rugby Football League",
+      "pdf_url": "morrisons_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-12-14",
+      "category": "Gifts",
+      "entity": "Will Power",
+      "details": "Gift from Mr Will Power of an Indy 500 Bell Helmet signed by Will Power and glass bottle signed by Will Power valued at $1750 to be surrendered to the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2018-12-14",
+      "category": "Gifts",
+      "entity": "Joko Widodo, President of Indonesia",
+      "details": "Gift of a large wooden sculpture and carving sphere with metal patterned detail on wooden stand from His Excellency Joko Widodo, President of Indonesia valued at $1596. Gift to be surrendered to the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2018-12-14",
+      "category": "Gifts",
+      "entity": "Peter O'Neill, Prime Minister of Papua New Guinea",
+      "details": "Gift of the APEC Leaders Pin received from the Hon. Peter O'Neill, Prime Minister of Papua New Guinea valued at $3804 to be surrendered to the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2018-12-14",
+      "category": "Gifts",
+      "entity": "Australian Chamber of Commerce and Industry",
+      "details": "Gift of 700ml bottle of Sullivans Cove American Oak Single Cask Tasmanian Single Malt Whisky from the Australian Chamber of Commerce and Industry valued at $330. To be retained.",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2019-01-01",
+      "category": "Gifts",
+      "entity": "Steven Marshall MP",
+      "details": "Gift from the Hon Steven Marshall MP of a pair of R.M. Williams Comfort Craftsman Boots valued at $545. To be retained.",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-01-25",
+      "category": "Gifts",
+      "entity": "Australian and Indian Cricket teams",
+      "details": "Gift from the Australian and Indian Cricket teams of framed and signed dual nation cricket bats valued at $5000. To be donated to the McGrath Foundation.",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2019-02-18",
+      "category": "Gifts",
+      "entity": "President of India",
+      "details": "Gift from the President of India of a marble gold leaf hand painted vase valued at $770. To be surrendered to the Department of the Prime Minister and Cabinet.",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-02-18",
+      "category": "Gifts",
+      "entity": "Mrs Estelle Tallis, First Lady of the Republic of Vanuatu",
+      "details": "Gift from Mrs Estelle Tallis, First Lady of the Republic of Vanuatu, of carved ivory pig tusk bracelet valued at $990. To be retained.",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-02-18",
+      "category": "Gifts",
+      "entity": "Dr Shrish Acharya, Acting Medical Superintendent, Colonial War Memorial Hospital",
+      "details": "Gift from Dr Shrish Acharya, Acting Medical Superintendent, Colonial War Memorial Hospital, of traditional Fijian kava bowl valued at $480. To be retained.",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-02-21",
+      "category": "Gifts",
+      "entity": "Cuban Ambassador",
+      "details": "Gift from the Cuban Ambassador of Cuban Cigars, Alcohol and CDs valued at $1200. To be surrendered to the Department of the Prime Minister and Cabinet.",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2019-04-05",
+      "category": "Gifts",
+      "entity": "Cricket Australia",
+      "details": "Gift of a signed cricket bat, from Cricket Australia.",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2019-04-05",
+      "category": "Gifts",
+      "entity": "Australia-Israel Chamber of Commerce",
+      "details": "Gift of Silver Platter from the Australia-Israel Chamber of Commerce.",
+      "pdf_url": "morrisons_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-04-05",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "1 x hospitality ticket to Richmond vs Carlton AFL game.",
+      "pdf_url": "morrisons_45p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/morrisons_45p.pdf"
+}

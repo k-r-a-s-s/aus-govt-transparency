@@ -1,0 +1,123 @@
+{
+  "mp_name": "David Ian Feeney",
+  "party": "Unknown",
+  "electorate": "Batman",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Shares",
+      "entity": "Maurice Blackburn Pty Ltd",
+      "details": "Spouse holds shares in Maurice Blackburn Pty Ltd",
+      "pdf_url": "feeneyd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Trusts",
+      "entity": "Liberty Sanger Family Trust",
+      "details": "Beneficial interest for self and spouse. Spouse is also a trustee.",
+      "pdf_url": "feeneyd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Real Estate",
+      "entity": "East Melbourne, VIC",
+      "details": "Residential Property",
+      "pdf_url": "feeneyd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Real Estate",
+      "entity": "Seddon, VIC",
+      "details": "Investment Property",
+      "pdf_url": "feeneyd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Directorships",
+      "entity": "Maurice Blackburn Pty Ltd",
+      "details": "Spouse - Law firm",
+      "pdf_url": "feeneyd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Mortgage on investment property, Credit Card (VISA), Credit Card (Mastercard) for self.",
+      "pdf_url": "feeneyd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Mortgage on investment property, Credit Card (VISA) for spouse.",
+      "pdf_url": "feeneyd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Savings/Investments",
+      "entity": "LUCRF",
+      "details": "Superannuation and Cash deposit(s) for self",
+      "pdf_url": "feeneyd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Term deposit and Cash deposit for spouse",
+      "pdf_url": "feeneyd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Savings Account for self",
+      "pdf_url": "feeneyd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Savings Accounts and Cheque Accounts for spouse",
+      "pdf_url": "feeneyd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Life insurance for spouse",
+      "pdf_url": "feeneyd_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "None Declared",
+      "pdf_url": "feeneyd_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-04-24",
+      "category": "Gifts",
+      "entity": "Austal",
+      "details": "Model Littoral Combat Ship gifted by Austal worth $4000",
+      "pdf_url": "feeneyd_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2015-04-24",
+      "category": "Gifts",
+      "entity": "Austal",
+      "details": "Model Joint High Speed Vessel gifted by Austal worth $4000",
+      "pdf_url": "feeneyd_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2015-08-19",
+      "category": "Travel",
+      "entity": "Save The Children",
+      "details": "Delegation to Papua New Guinea from 27 July 2015 to 31 July 2015 sponsored by Save The Children; airfares, accommodation and meals provided.",
+      "pdf_url": "feeneyd_44p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/feeneyd_44p.pdf"
+}

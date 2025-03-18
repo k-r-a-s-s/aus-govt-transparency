@@ -1,0 +1,775 @@
+{
+  "mp_name": "Andrew John Southcott",
+  "party": "N/A",
+  "electorate": "Boothby",
+  "disclosures": [
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "House in Hawthorn, SA - Residence",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Liabilities",
+      "entity": "BANK SA",
+      "details": "MORTGAGE",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Liabilities",
+      "entity": "BANK SA",
+      "details": "PERSONAL LOAN",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Liabilities",
+      "entity": "MR LINDSAY SOUTHCOTT",
+      "details": "PERSONAL LOAN",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Liabilities",
+      "entity": "AUSTRALIAN TAXATION OFFICE",
+      "details": "TAX DEBT",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Savings/Investments",
+      "entity": "BANK SA",
+      "details": "CHEQUE & SAVINGS ACCOUNT",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Other Assets",
+      "entity": "ASGARD",
+      "details": "SUPERANNUATION FUND",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Other Assets",
+      "entity": "ASGARD",
+      "details": "LIFE INSURANCE",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Income Sources",
+      "entity": "COUNSEL & POLICY OFFICER",
+      "details": "Policy and Legal Officer",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Income Sources",
+      "entity": "REAL ESTATE INSTITUTE OF SOUTH AUSTRALIA",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Gifts",
+      "entity": "QANTAS",
+      "details": "CHAIRMAN'S LOUNGE",
+      "pdf_url": "southcotta_43p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Gifts",
+      "entity": "TELSTRA",
+      "details": "FEDERAL PARLIAMENTARY MEMBERSHIP OF THE NATIONAL PRESS CLUB",
+      "pdf_url": "southcotta_43p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Memberships",
+      "entity": "PLEASE SEE ATTACHED LIST",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Memberships",
+      "entity": "THE NATIONAL MALAYA & BORNEO VETERANS ASSOCIATION AUSTRALIA INC",
+      "details": "HONORARY PATRON",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Liabilities",
+      "entity": "BANK SA",
+      "details": "PERSONAL LOAN WITH BANK SA HAS BEEN DISCHARGED",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Memberships",
+      "entity": "Adelaide Football Club",
+      "details": "Family Membership",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Memberships",
+      "entity": "Adelaide University Boat Club",
+      "details": "Vice President",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Memberships",
+      "entity": "Blackwood Business Network",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Memberships",
+      "entity": "Blackwood Community Recreation Centre",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Memberships",
+      "entity": "Coromandel Community Centre Inc",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Memberships",
+      "entity": "Friends of Brighton Secondary School",
+      "details": "Life Member",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Memberships",
+      "entity": "Friends of Tutti Ensemble",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Memberships",
+      "entity": "Hills Choral Society",
+      "details": "Patron",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Memberships",
+      "entity": "Lions International (Brighton Branch)",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Memberships",
+      "entity": "Marion RSL",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Memberships",
+      "entity": "National Press Club of Australia",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Memberships",
+      "entity": "Operation Flinders Property Acquisition Group",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Memberships",
+      "entity": "Plympton Flyers Little Athletics",
+      "details": "Patron",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Memberships",
+      "entity": "Rotary Club of Blackwood",
+      "details": "Honorary Member",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Memberships",
+      "entity": "Royal United Services Institute of South Australia",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Memberships",
+      "entity": "Royal Zoological Society of South Australia",
+      "details": "Member (Family Membership)",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Memberships",
+      "entity": "Somerton Surf Life Saving Club",
+      "details": "Vice Patron",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Memberships",
+      "entity": "South Australian Cricket Association",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Memberships",
+      "entity": "The Australian Institute of International Affairs",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Memberships",
+      "entity": "Vietnam Veterans Federation, SA Branch",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-03-07",
+      "category": "Memberships",
+      "entity": "Royal Australian College of General Practitioners",
+      "details": "Joined as an Associate Member.",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-03-07",
+      "category": "Memberships",
+      "entity": "Somerton Baptist Church Netball Club",
+      "details": "2011 Sponsorship",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-03-07",
+      "category": "Hospitality",
+      "entity": "ASTRA (FOXTEL)",
+      "details": "Complimentary installation of the iQHD and the Platinum HD package (Electorate Office)",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-03-07",
+      "category": "Hospitality",
+      "entity": "Commercial Radio Australia Ltd",
+      "details": "Complimentary DAB+ digital radio (Parliament House Office)",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-03-07",
+      "category": "Liabilities",
+      "entity": "Australian Taxation Office",
+      "details": "I have discharged my debt.",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-07-06",
+      "category": "Memberships",
+      "entity": "Adelaide University Boat Club",
+      "details": "Renewed membership for 2011-2012",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-07-06",
+      "category": "Memberships",
+      "entity": "General Practice Network South",
+      "details": "Member",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-07-06",
+      "category": "Memberships",
+      "entity": "The Hills Choral Society",
+      "details": "Patron",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-07-06",
+      "category": "Memberships",
+      "entity": "Schuss Ski Club",
+      "details": "Member",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-07-06",
+      "category": "Memberships",
+      "entity": "Royal United Services Institute of South Australia",
+      "details": "Renewed membership subscription for 1.7.10 to 30.6.11",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-08-25",
+      "category": "Liabilities",
+      "entity": "BankSA",
+      "details": "Investment Loan",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-08-25",
+      "category": "Savings/Investments",
+      "entity": "Asgard eWrap Investment Account",
+      "details": "My financial adviser has an authority to operate this account on my behalf without authorisation from me.",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-08-25",
+      "category": "Memberships",
+      "entity": "Royal United Services Institute of South Australia",
+      "details": "Subscription renewal 1.7.11 to 30.6.12",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Memberships",
+      "entity": "Marion RSL",
+      "details": "Membership Renewal Subscription",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Memberships",
+      "entity": "Blackwood Community Recreation Centre",
+      "details": "Renewed Sponsorship",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Memberships",
+      "entity": "Lions Club of Brighton",
+      "details": "Subscription Renewal 1.7.11 to 30.6.12",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Memberships",
+      "entity": "Plympton Flyers Little Athletics Club",
+      "details": "Patron",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Asgard eCash account",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Advance Property Securities M Blend",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Ausbil Investment Trust - Australian Active Equity Fund",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Eley Griffiths Group Small co Fund",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "GVI Global Industrial Share Fund",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Maple-Brown Abbott Imputation Fund",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Platinum International Brands Fund",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Advance Defensive Multi-Blend Fund",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Advance Property Securities M-Blend",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "AMP Capital Corporate Bond Fund (Class A)",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "AMP Capital Enhanced Yield Fund - Class A",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "APN AREIT Fund",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Ausbil Investment Trust - Aust Active Equity Fund",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Eley Griffiths Group Small Co Fund",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Hunter Hall Value Growth Trust",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Maple-Brown Abbott Imputation Fund",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Money Market Investment Account",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Perennial Tactical Income Trust",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Perpetual Wholesale Concentrated Equity",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Platinum International Brands Fund",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Platinum International Fund",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Schroder Credit Securities Fund",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Zurich Investments Equity Income Fund",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Advance Defensive Multi-Blend Fund",
+      "details": "Wife's Asgard Superannuation Account",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Advance Property Securities M-Blend",
+      "details": "Wife's Asgard Superannuation Account",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "AMP Capital Corporate Bond Fund (Class A)",
+      "details": "Wife's Asgard Superannuation Account",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "APN AREIT Fund",
+      "details": "Wife's Asgard Superannuation Account",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Ausbil Investment Trust - Australian Active Equity Fund",
+      "details": "Wife's Asgard Superannuation Account",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Eley Griffiths Group Small Co Fund",
+      "details": "Wife's Asgard Superannuation Account",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Hunter Hall Value Growth Trust",
+      "details": "Wife's Asgard Superannuation Account",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Maple-Brown Abbott Imputation Fund",
+      "details": "Wife's Asgard Superannuation Account",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Money Market Investment Account",
+      "details": "Wife's Asgard Superannuation Account",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Perennial Tactical Income Trust",
+      "details": "Wife's Asgard Superannuation Account",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Perpetual Wholesale Concentrated Equity",
+      "details": "Wife's Asgard Superannuation Account",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Platinum International Brands Fund",
+      "details": "Wife's Asgard Superannuation Account",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Platinum International Fund",
+      "details": "Wife's Asgard Superannuation Account",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Schroder Credit Securities Fund",
+      "details": "Wife's Asgard Superannuation Account",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-23",
+      "category": "Savings/Investments",
+      "entity": "Zurich Investments Equity Income Fund",
+      "details": "Wife's Asgard Superannuation Account",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-10-14",
+      "category": "Hospitality",
+      "entity": "Drink Wise Australia",
+      "details": "Accepted hospitality as guest to the 27th Annual Sport Australia Hall of Fame Induction & Awards Gala Dinner, 13 October 2011 in Melbourne",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-11-04",
+      "category": "Shares",
+      "entity": "Aust.",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-11-04",
+      "category": "Shares",
+      "entity": "NZ Banking Group (ANZ)",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-11-04",
+      "category": "Shares",
+      "entity": "Woodside Petroleum (WPL)",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-11-04",
+      "category": "Shares",
+      "entity": "Woolworths Limited (WOW)",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-11-08",
+      "category": "Memberships",
+      "entity": "Somerton Surf Life Saving Club",
+      "details": "Vice Patron - Season 2011/2012",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-11-11",
+      "category": "Memberships",
+      "entity": "Sport of Swimming in South Australia (Swimming SA)",
+      "details": "Vice Patron",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-02-03",
+      "category": "Shares",
+      "entity": "SPDR S",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-02-03",
+      "category": "Shares",
+      "entity": "P/ASX 200 Listed Property fund",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-03-20",
+      "category": "Shares",
+      "entity": "Westpac Convertible Preference Shares",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-06-20",
+      "category": "Memberships",
+      "entity": "Federal Parliamentary Membership of the National Press Club of Australia",
+      "details": "N/A",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-07-20",
+      "category": "Shares",
+      "entity": "Vanguard Property Securities Index Fund",
+      "details": "I wish to advise the Register of Members Interests that my Asgard eWrap Investment Account has purchased units in the Vanguard Property Securities Index Fund. I also wish to advise that the GVI Global Industrial Share Fund has been renamed the GVI Aubrey Global Growth and Income Fund (hedged) and to confirm that my Investment Account holds units in the renamed fund.",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-09-10",
+      "category": "Shares",
+      "entity": "AMP Capital Core Infrastructure Class A Managed Fund",
+      "details": "Purchase of Units",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-12-05",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Complimentary tickets to the Illusionists at the Festival Theatre - Opening night. (2 x tickets)",
+      "pdf_url": "southcotta_43p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2013-01-24",
+      "category": "Hospitality",
+      "entity": "Medibank",
+      "details": "Received Corporate Hospitality from Medibank to attend a Quarter Final at the Australian Open Tennis for both Dr Andrew Southcott & Kate Southcott.",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-01-24",
+      "category": "Shares",
+      "entity": "S",
+      "details": "Sold",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-01-24",
+      "category": "Shares",
+      "entity": "P/ASX200 Listed Property Fund Shares",
+      "details": "Sold",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-01-24",
+      "category": "Shares",
+      "entity": "Shopping Centres Australia Property Group",
+      "details": "Sold my Shares",
+      "pdf_url": "southcotta_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-06-25",
+      "category": "Shares",
+      "entity": "Schroder Credit Securities Fund.",
+      "details": "I wish to advise that I now hold units in Schroder Credit Securities Fund.",
+      "pdf_url": "southcotta_43p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/43/southcotta_43p.pdf"
+}

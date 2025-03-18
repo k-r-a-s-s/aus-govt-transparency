@@ -1,0 +1,691 @@
+{
+  "mp_name": "Kelly Megan O'Dwyer",
+  "party": "Unknown",
+  "electorate": "Higgins",
+  "disclosures": [
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Shares",
+      "entity": "Trisfall Pty Ltd",
+      "details": "Unknown",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Shares",
+      "entity": "Kingmeadow Pty Ltd",
+      "details": "Unknown",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Shares",
+      "entity": "Springhill Shopping Centre Pty Ltd",
+      "details": "Unknown",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Shares",
+      "entity": "Postspring Pty Ltd",
+      "details": "Unknown",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Shares",
+      "entity": "UBS",
+      "details": "Spouse",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Shares",
+      "entity": "Trisfall Pty Ltd",
+      "details": "Spouse",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Shares",
+      "entity": "Kingmeadow Pty Ltd",
+      "details": "Spouse",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Shares",
+      "entity": "Springhill Shopping Centre Pty Ltd",
+      "details": "Spouse",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Shares",
+      "entity": "Postspring Pty Ltd",
+      "details": "Spouse",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Trusts",
+      "entity": "DP & KS O'Dwyer Family Trust",
+      "details": "Beneficiary",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Trusts",
+      "entity": "Jonkel Family Trusts Nos 1 & 2",
+      "details": "Beneficiary",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Trusts",
+      "entity": "Jonkel Family Trusts Nos 1 & 2",
+      "details": "Beneficiary, Spouse",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Real Estate",
+      "entity": "South Yarra VIC 3141",
+      "details": "Residence",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Real Estate",
+      "entity": "Unknown",
+      "details": "Minority interest in developed land & shopping centre development in Cranbourne",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Self",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Directorships",
+      "entity": "Trisfall Pty Ltd",
+      "details": "Spouse, Investment",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Directorships",
+      "entity": "Kingmeadow Pty Ltd",
+      "details": "Spouse, Investment",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Directorships",
+      "entity": "Springhill Shopping Centre Pty Ltd",
+      "details": "Spouse, Investment",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Directorships",
+      "entity": "Postspring Pty Ltd",
+      "details": "Spouse, Investment",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Mortgage",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Savings Account",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Savings Account",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings Account",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Savings/Investments",
+      "entity": "UBS",
+      "details": "Managed Investment Fund",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Savings Account, Spouse",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings Account, Spouse",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Savings Account, Spouse",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Savings/Investments",
+      "entity": "Westpac/Bankers' Trust",
+      "details": "Managed Investment Fund, Spouse",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Savings/Investments",
+      "entity": "UBS",
+      "details": "Managed Investment Fund, Spouse",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Other Assets",
+      "entity": "Unknown",
+      "details": "Superannuation (Not Self Managed)",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Other Assets",
+      "entity": "Unknown",
+      "details": "Engagement Ring",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Other Assets",
+      "entity": "Unknown",
+      "details": "Superannuation (Not Self Managed), Spouse",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Other Assets",
+      "entity": "Unknown",
+      "details": "Car, Spouse",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Income Sources",
+      "entity": "Unknown",
+      "details": "Salary, Spouse",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Chairman's Club Membership (As Per All MP's)",
+      "pdf_url": "odwyer45p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Gifts",
+      "entity": "Virgin",
+      "details": "The Club Membership (As Per All MP's)",
+      "pdf_url": "odwyer45p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Gifts",
+      "entity": "Astra - Foxtel",
+      "details": "(As Supplied To All MP's Offices)",
+      "pdf_url": "odwyer45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Gifts",
+      "entity": "Kooyong Lawn Tennis Club",
+      "details": "Honorary Membership",
+      "pdf_url": "odwyer45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Spouse Chairman's Club Membership",
+      "pdf_url": "odwyer45p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Gifts",
+      "entity": "Virgin",
+      "details": "Spouse The Club Membership",
+      "pdf_url": "odwyer45p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Travel",
+      "entity": "Centre for Independent Studies",
+      "details": "Registration and hospitality and accommodation, Centre for Independent Studies, Consilium \u2013 29 July 2016",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Memberships",
+      "entity": "CWA (Country Women's Association)",
+      "details": "Unknown",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Memberships",
+      "entity": "North Melbourne Football Club",
+      "details": "Unknown",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Memberships",
+      "entity": "Melbourne Cricket Club",
+      "details": "Unknown",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Memberships",
+      "entity": "Centre of Independent Studies",
+      "details": "Unknown",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Memberships",
+      "entity": "Liberal Party - Victorian Division",
+      "details": "Unknown",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Memberships",
+      "entity": "Higgins 200 Club",
+      "details": "Unknown",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Memberships",
+      "entity": "Yarra River Keepers' Association",
+      "details": "Unknown",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Memberships",
+      "entity": "Melbourne Bowling Club",
+      "details": "Unknown",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Memberships",
+      "entity": "Malvern Historical Society",
+      "details": "Unknown",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Memberships",
+      "entity": "Prahran RSL",
+      "details": "Unknown",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Memberships",
+      "entity": "Malvern Bowling Club",
+      "details": "Unknown",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Memberships",
+      "entity": "Stonnington City Brass",
+      "details": "Patron",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Memberships",
+      "entity": "East Malvern Junior Girls Football Team",
+      "details": "Patron",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Memberships",
+      "entity": "Ovarian Cancer Australia",
+      "details": "Ambassador",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Memberships",
+      "entity": "National Press Club",
+      "details": "Unknown",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Memberships",
+      "entity": "Prahran Rotary",
+      "details": "Honorary Member",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Memberships",
+      "entity": "Toorak Rotary",
+      "details": "Honorary Member",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Memberships",
+      "entity": "Hawksburn Tennis Club",
+      "details": "Unknown",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Memberships",
+      "entity": "Kooyong Tennis Club",
+      "details": "Unknown",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Memberships",
+      "entity": "Duldig Gallery (Museum and Art Gallery)",
+      "details": "Unknown",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Memberships",
+      "entity": "East Malvern RSL",
+      "details": "Unknown",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Memberships",
+      "entity": "East Malvern/Tooronga Cricket Club",
+      "details": "Unknown",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Memberships",
+      "entity": "Essendon Football Club",
+      "details": "Spouse",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Memberships",
+      "entity": "Australian Football League",
+      "details": "Spouse",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Memberships",
+      "entity": "Athanaeum Club",
+      "details": "Spouse",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Memberships",
+      "entity": "Victoria Racing Club",
+      "details": "Spouse",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-19",
+      "category": "Other Interests",
+      "entity": "Unknown",
+      "details": "Head of Mergers and Acquisitions, Australia and New Zealand (UBS) \u2013 Part time, Spouse",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-11-03",
+      "category": "Hospitality",
+      "entity": "Channel 7",
+      "details": "Tickets and hospitality to AFL Grand Final on 1 October 2016 as guests of Channel 7.",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2016-11-03",
+      "category": "Hospitality",
+      "entity": "Suncorp and IAG",
+      "details": "Tickets and hospitality to Melbourne Cup Carnival on Derby Day, 29 October 2016 as guests of Suncorp and IAG (separate invitations).",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2017-02-13",
+      "category": "Hospitality",
+      "entity": "Opera Australia",
+      "details": "Tickets to performance of La Boheme in Sydney on 4 January 2017 as guests of Opera Australia.",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2017-02-13",
+      "category": "Hospitality",
+      "entity": "Arnold Bloch Leibler",
+      "details": "Tickets to Australian Open Men's Final match in Melbourne on 29 January 2017 as guests of Arnold Bloch Leibler.",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-16",
+      "category": "Hospitality",
+      "entity": "Victoria Properties & Investments Pty Ltd",
+      "details": "Victoria Properties & Investments Pty Ltd covered the catering costs (approx. $4506) for a community event in the Higgins electorate - Chinese New Year celebrations (February 2017)",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-16",
+      "category": "Hospitality",
+      "entity": "Volvo Cars Bilia South Yarra",
+      "details": "Volvo Cars Bilia South Yarra provided their address as the venue for a community event in the Higgins electorate - Chinese New celebrations (February 2017)",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-17",
+      "category": "Memberships",
+      "entity": "Kooyong Tennis Club",
+      "details": "Self",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-17",
+      "category": "Memberships",
+      "entity": "Zoos Victoria & Museums Victoria",
+      "details": "Self & Spouse",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-17",
+      "category": "Other Interests",
+      "entity": "Unknown",
+      "details": "Note my husband will be taking paternity leave around Easter 2017 for approximately 6 months",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-17",
+      "category": "Memberships",
+      "entity": "Victoria Racing Club",
+      "details": "Spouse (deleted)",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-17",
+      "category": "Real Estate",
+      "entity": "Mortgage CBA",
+      "details": "Self & Spouse",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-17",
+      "category": "Savings/Investments",
+      "entity": "Offset account CBA",
+      "details": "Self & Spouse",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-17",
+      "category": "Savings/Investments",
+      "entity": "NAB & CBA",
+      "details": "Self & Spouse \u2013 Delete",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-17",
+      "category": "Real Estate",
+      "entity": "Unknown",
+      "details": "Self - Selling primary residence (Auction 25 March 2017) Spouse - Purchase Primary Residence (Higgins Electorate)",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2017-06-05",
+      "category": "Real Estate",
+      "entity": "Unknown",
+      "details": "Self and spouse - minority interest in developed land and shopping centre development in Cranbourne (deleted)",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2017-06-22",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Self & Spouse - Mortgage (deleted)",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2017-06-22",
+      "category": "Real Estate",
+      "entity": "Primary Residence (South Yarra)",
+      "details": "(deleted)",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2017-08-14",
+      "category": "Gifts",
+      "entity": "Foxtel",
+      "details": "Complimentary one year subscription to Foxtel from Astra",
+      "pdf_url": "odwyer45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2017-10-03",
+      "category": "Hospitality",
+      "entity": "Network 7",
+      "details": "Hospitality & AFL Grand Final tickets (Richmond vs Adelaide Crows) as guest of Network 7, 30 September 2017.",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2017-10-03",
+      "category": "Hospitality",
+      "entity": "Mazda North Melbourne Grand Final Breakfast",
+      "details": "Mazda North Melbourne Grand Final Breakfast, 30 September 2017.",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2017-11-08",
+      "category": "Hospitality",
+      "entity": "Suncorp",
+      "details": "Tickets and hospitality to Melbourne Cup Carnival on Derby Day, 4 November 2017, as guests of Suncorp.",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2018-01-08",
+      "category": "Gifts",
+      "entity": "Campbells of Rutherglen",
+      "details": "Mix dozen case of wine from Campbells of Rutherglen, (value appropriately $360.)",
+      "pdf_url": "odwyer45p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2018-01-16",
+      "category": "Accommodation",
+      "entity": "Grand Hyatt Hong Kong",
+      "details": "Accommodation at the Grand Hyatt Hong Kong on 14 February 2018, covered by the Hong Kong SAR (I was an official speaker at the Asian Financial Forum).",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2018-07-03",
+      "category": "Gifts",
+      "entity": "L'Oreal Australia",
+      "details": "Sample gift pack from L'Oreal Australia",
+      "pdf_url": "odwyer45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2018-05-31",
+      "category": "Gifts",
+      "entity": "Netball Australia",
+      "details": "Telstra TV from Netball Australia (approximately value $192)",
+      "pdf_url": "odwyer45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-02-26",
+      "category": "Hospitality",
+      "entity": "ABL",
+      "details": "Tickets and hospitality to the Australian Open Men's Final on Sunday 27 January 2019. As guests of ABL.",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2019-02-26",
+      "category": "Hospitality",
+      "entity": "Nine Entertainment",
+      "details": "Tickets and hospitality to the Australian Open Women's Final on Saturday 26 January 2019. As guest of Nine Entertainment.",
+      "pdf_url": "odwyer45p.pdf"
+    },
+    {
+      "declaration_date": "2019-02-26",
+      "category": "Hospitality",
+      "entity": "KPMG Couta Boat Classic",
+      "details": "Tickets and hospitality to the KPMG Couta Boat Classic 2019 on Wednesday 3rd January 2019.",
+      "pdf_url": "odwyer45p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/odwyer45p.pdf"
+}

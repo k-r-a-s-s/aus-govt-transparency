@@ -1,0 +1,316 @@
+{
+  "mp_name": "Brendan O'Connor",
+  "party": "N/A",
+  "electorate": "Gorton",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Shares",
+      "entity": "Seven Creeks Equine Veterinary Clinic",
+      "details": "Spouse/partner",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Trusts",
+      "entity": "Seven Creeks Equine Veterinary Clinic",
+      "details": "Spouse/partner; Trust in relation to equine veterinary clinic; 25 per cent beneficial interest",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Real Estate",
+      "entity": "Keilor",
+      "details": "Self; Residential",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Real Estate",
+      "entity": "Fitzroy",
+      "details": "Self; Investment",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Real Estate",
+      "entity": "Lorne",
+      "details": "Self; Holiday House (occasional rental)",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Real Estate",
+      "entity": "Euroa",
+      "details": "Spouse/partner; Farm/Veterinary Clinic/Residential",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Real Estate",
+      "entity": "Longwood",
+      "details": "Spouse/partner; Farm",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Real Estate",
+      "entity": "Creightons Creek",
+      "details": "Spouse/partner; Farm",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Directorships",
+      "entity": "Seven Creeks Equine Veterinary Clinic",
+      "details": "Spouse/partner",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Self; Mortgage on primary residence (Keilor)",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Self; Mortgage on investment property (Lorne)",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Self; Mortgage on investment property (Fitzroy)",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Spouse/partner; Mortgage on residence/business property (Euroa)",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Spouse/partner; Mortgage on farm (Creightons Creek)",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Spouse/partner; Mortgage on farm (Longwood)",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Self; Savings",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Spouse/partner; Savings",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Other Assets",
+      "entity": "Vision Super",
+      "details": "Self; Superannuation",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Other Assets",
+      "entity": "Australian Retirement Trust",
+      "details": "Spouse/partner; Superannuation",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Spouse/partner; Farm equipment (including Horses, Cattle, Cars)",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Income Sources",
+      "entity": "Seven Creeks Equine Veterinary Clinic",
+      "details": "Spouse/partner; Salary",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Gifts",
+      "entity": "Qantas and Virgin Australia",
+      "details": "Self; Membership of Airline Lounges",
+      "pdf_url": "oconnor_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Memberships",
+      "entity": "Australian Services Union",
+      "details": "Self",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Memberships",
+      "entity": "Celtic Club",
+      "details": "Self",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Memberships",
+      "entity": "Amnesty International",
+      "details": "Spouse/partner",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Memberships",
+      "entity": "Australian Veterinary Association",
+      "details": "Spouse/partner",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Memberships",
+      "entity": "Equine Veterinarians Association",
+      "details": "Spouse/partner",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Memberships",
+      "entity": "The Australian Cattle Veterinarians Group",
+      "details": "Spouse/partner",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Memberships",
+      "entity": "The Australian Sheep, Camelid and Goats and Vet Group",
+      "details": "Spouse/partner",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Memberships",
+      "entity": "Australian Reproductions Veterinarians Group",
+      "details": "Spouse/partner",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Memberships",
+      "entity": "Australian Quarter Horse Association",
+      "details": "Spouse/partner",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Memberships",
+      "entity": "National Cutting Horse Association",
+      "details": "Spouse/partner",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-11-09",
+      "category": "Travel",
+      "entity": "Lion",
+      "details": "2 x Tickets to the 2022 Lexus Melbourne Cup from Lion",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-10-17",
+      "category": "Gifts",
+      "entity": "Asahi Beverages Australia",
+      "details": "2 x 2022 AFL Grand Final tickets",
+      "pdf_url": "oconnor_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-01-17",
+      "category": "Gifts",
+      "entity": "Opera Australia",
+      "details": "2 x Tickets to a performance of Don Giovanni on January 5 2023 from Opera Australia",
+      "pdf_url": "oconnor_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-01-30",
+      "category": "Gifts",
+      "entity": "Diageo Australia.",
+      "details": "2 x tickets to the Australian Open 2023 Men's Final on Sunday 29th January, with dinner at Society, provided by Diageo Australia.",
+      "pdf_url": "oconnor_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-03-29",
+      "category": "Gifts",
+      "entity": "Mongolian Minister for Education and Science",
+      "details": "Scarf (value $100 AUD) from the Mongolian Minister for Education and Science on 6/3/2023",
+      "pdf_url": "oconnor_47p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2023-10-12",
+      "category": "Gifts",
+      "entity": "Asahi Beverages",
+      "details": "2 x Ticket to the 2023 AFL Grand Final from Asahi Beverages",
+      "pdf_url": "oconnor_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-12-04",
+      "category": "Travel",
+      "entity": "Tabcorp",
+      "details": "2 x Tickets to Penfolds Victoria Derby Day from Tabcorp",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-02-20",
+      "category": "Travel",
+      "entity": "Diageo",
+      "details": "2 x Tickets to the 2024 Australian Open Men's Final with dinner at Gimlet from Diageo",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-02-20",
+      "category": "Real Estate",
+      "entity": "Niddrie",
+      "details": "Niddrie - Residential",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-02-20",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Mortgage on Residence (Niddrie)",
+      "pdf_url": "oconnor_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-09-10",
+      "category": "Real Estate",
+      "entity": "Keilor",
+      "details": "Keilor - Residential (property sold)",
+      "pdf_url": "oconnor_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/oconnor_47p.pdf"
+}

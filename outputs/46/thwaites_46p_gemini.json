@@ -1,0 +1,339 @@
+{
+  "mp_name": "Kate Thwaites",
+  "party": "ALP",
+  "electorate": "Jagajaga",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "Brambles Ltd",
+      "details": "Shareholding",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "Antipodes Global Investment Ltd",
+      "details": "Shareholding",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "MFF Capital Investments",
+      "details": "Shareholding",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "Ishares Global Healthcare ETF",
+      "details": "Shareholding",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "Amcor Ltd",
+      "details": "Shareholding",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Shareholding",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "Sydney Airport",
+      "details": "Shareholding",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "Orora Ltd",
+      "details": "Shareholding",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "Resmed Inc",
+      "details": "Shareholding",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "CSL Ltd",
+      "details": "Shareholding",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "BHP",
+      "details": "Shareholding",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "Telstra",
+      "details": "Shareholding",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "Woolworths",
+      "details": "Spouse/partner shareholding",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "Insurance Group Australia",
+      "details": "Spouse/partner shareholding",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Spouse/partner shareholding",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Real Estate",
+      "entity": "Collingwood",
+      "details": "Investment",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "D and S Thwaites",
+      "details": "Personal Loan",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Savings Account",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "Bank Australia",
+      "details": "Savings Account",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings Account (Spouse/partner)",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation Australian Super",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation PSS",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation Hostplus",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation Australian Super (Spouse/partner)",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from investments set out above",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from employment (VPS) (Spouse/partner)",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from investments set out above",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Qantas Chairmans Lounge membership",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Travel",
+      "entity": "Virgin",
+      "details": "Virgin Club membership",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Travel",
+      "entity": "Virgin",
+      "details": "Virgin Club membership (Spouse/partner)",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "ALP member",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "CPSU member",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Emilys List member",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not applicable",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Deletion",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "Sydney Airport",
+      "details": "Deletion",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-09-20",
+      "category": "Travel",
+      "entity": "Coca Cola South Pacific",
+      "details": "Ticket to Press Gallergy Midwinter Ball",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-09-20",
+      "category": "Investments",
+      "entity": "Commonwealth Bank Australia",
+      "details": "My partner no longer holds shares in Commonwealth Bank Australia",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-15",
+      "category": "Gifts",
+      "entity": "ASTRA",
+      "details": "Complimentary Foxtel subscription for Electorate Office from ASTRA",
+      "pdf_url": "thwaites_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-10-15",
+      "category": "Travel",
+      "entity": "US State Department",
+      "details": "International Visitors Leadership Program trip to the United States, sponsored by the US State Department (internal travel, accommodation and meal allowance paid for). September 29 - October 8 2019",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-11-18",
+      "category": "Real Estate",
+      "entity": "Rosanna",
+      "details": "My partner and I own a residential property in Rosanna",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-11-18",
+      "category": "Liabilities",
+      "entity": "Bank Australia",
+      "details": "My partner and I have a mortgage with Bank Australia",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-11-18",
+      "category": "Liabilities",
+      "entity": "Bank Australia",
+      "details": "Investment loan with Bank Australia",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-11-04",
+      "category": "Travel",
+      "entity": "Australian Turf Club",
+      "details": "2 Tickets - The Chairman's Club Lounge, Royal Randwick Racecourse Melbourne Cup Day 3rd November 2020 provided by the Australian Turf Club",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-07-05",
+      "category": "Memberships",
+      "entity": "North Heidelberg Football Club",
+      "details": "Member North Heidelberg Football Club",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-07-05",
+      "category": "Memberships",
+      "entity": "Future Women",
+      "details": "Member Future Women",
+      "pdf_url": "thwaites_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-02-10",
+      "category": "Hospitality",
+      "entity": "Johnson and Johnson",
+      "details": "Guest of Johnson and Johnson at National Press Club 09/02/2021 for address by Ms Grace Tame and Ms Brittany Higgins",
+      "pdf_url": "thwaites_46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/thwaites_46p.pdf"
+}

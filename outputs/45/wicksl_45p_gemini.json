@@ -1,0 +1,622 @@
+{
+  "mp_name": "Lucy Elizabeth Wicks",
+  "party": "Unknown",
+  "electorate": "Robertson",
+  "disclosures": [
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Insurance Australia Group",
+      "details": "Both individually and jointly owned with spouse",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Little Whistler Pty Ltd",
+      "details": "as trustee for Little Whistler Trust (jointly owned with spouse)",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Comverse Technology",
+      "details": "Spouse owns shares.",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Insurance Australia Group",
+      "details": "Jointly owned with spouse",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Little Whistler Pty Ltd",
+      "details": "as trustee for Little Whistler Trust (jointly owned with spouse) Spouse owns shares.",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Trusts",
+      "entity": "Candl Holdings Trust",
+      "details": "Family Trust, Primary Beneficiary",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Trusts",
+      "entity": "Little Whistler Trust",
+      "details": "Investment, Primary Beneficiary",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Trusts",
+      "entity": "Candl Holdings Trust",
+      "details": "Family Trust Spouse, Primary Beneficiary",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Trusts",
+      "entity": "Little Whistler Trust",
+      "details": "Investment, Spouse Primary Beneficiary",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Real Estate",
+      "entity": "Springfield NSW",
+      "details": "PPR",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Real Estate",
+      "entity": "Dee Why NSW",
+      "details": "Investment",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Real Estate",
+      "entity": "Springfield NSW",
+      "details": "Spouse PPR",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Real Estate",
+      "entity": "Dee Why NSW",
+      "details": "Spouse Investment",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Directorships",
+      "entity": "Little Whistler Pty Ltd",
+      "details": "Corporate Trustee for Little Whistler Trust",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Directorships",
+      "entity": "Little Whistler Pty Ltd",
+      "details": "Spouse Corporate Trustee for Little Whistler Trust",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "PLAN Lending",
+      "details": "Mortgage (jointly liable with spouse)",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "AMP Bank Ltd",
+      "details": "Mortgage (jointly liable with spouse)",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "PLAN Lending",
+      "details": "Spouse Mortgage (jointly liable with spouse)",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "AMP Bank Ltd",
+      "details": "Spouse Mortgage (jointly liable with spouse)",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "Capital Finance Australia",
+      "details": "Spouse Personal Vehicle Loan",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings accounts (jointly owned with spouse)",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Savings accounts (jointly owned with spouse)",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Spouse Savings accounts (jointly owned with spouse)",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Spouse Savings accounts (jointly owned with spouse)",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "Telstra",
+      "details": "Superannuation",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "First State Super",
+      "details": "Superannuation",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "Telstra & First State Super",
+      "details": "Life Insurance",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "Nestle Superannuation",
+      "details": "Spouse Superannuation",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "AIA",
+      "details": "Spouse Life Insurances",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Spouse Motor Vehicle for personal use",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from investment property set out above (jointly owned with spouse)",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Income Sources",
+      "entity": "Randstad",
+      "details": "Spouse Contractor to Sydney Trains via Randstad",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Gifts",
+      "entity": "MyElectorate Pty Ltd",
+      "details": "Ongoing hosting of website www.lucywicks.com.au provided by MyElectorate Pty Ltd",
+      "pdf_url": "wicksl_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Central Coast Leagues Club, Gosford",
+      "details": "N/A",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Everglades Country Club, Woy Woy",
+      "details": "N/A",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Easts (Eastern Suburbs Leagues Club Ltd), Woy Woy",
+      "details": "N/A",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Ettalong Beach Memorial Club",
+      "details": "N/A",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Qantas Chairman's Lounge",
+      "details": "N/A",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Virgin Australia - The Club",
+      "details": "N/A",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Terrigal Surf Life Saving Club",
+      "details": "N/A",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Gosford/Erina & Coastal Chamber of Commerce",
+      "details": "N/A",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Peninsula Chamber of Commerce",
+      "details": "N/A",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Central Coast Mariners",
+      "details": "N/A",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Central Coast Volleyball Club Inc.",
+      "details": "N/A",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Ambassador of Life Education",
+      "details": "\"Healthly Harold\"",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Breakers Country Club",
+      "details": "N/A",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Erina Leagues Club",
+      "details": "N/A",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Woy Woy Rotary Club",
+      "details": "N/A",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Gosford City Rotary Club",
+      "details": "(Hon. Member)",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Club Umina",
+      "details": "N/A",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Gosford RSL Club",
+      "details": "N/A",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "National Seniors Australia",
+      "details": "N/A",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Volunteer Marine Rescue NSW CC unit",
+      "details": "Unit Patron of Volunteer Marine Rescue NSW CC unit",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Central Coast Community Women's Health Centre",
+      "details": "N/A",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Little Blue Dinosaur foundation",
+      "details": "Ambassador",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "NSW National Servicemen's Assn. and affiliates Inc - Gosford City Sub Branch.",
+      "details": "Patron",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Terrigal Surf Life Saving Club",
+      "details": "Spouse",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Gosford RSL Club",
+      "details": "Spouse",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Qantas Chairman's Lounge",
+      "details": "Spouse",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Virgin Australia - The Club",
+      "details": "Spouse",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Central Coast Mariners Membership",
+      "details": "Spouse",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Interests",
+      "entity": "Unknown",
+      "details": "Nil known",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Interests",
+      "entity": "Unknown",
+      "details": "Spouse - Nil known",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Interests",
+      "entity": "Unknown",
+      "details": "Dependent Children - Nil known",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Hospitality",
+      "entity": "Unknown",
+      "details": "Nil",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Travel",
+      "entity": "Unknown",
+      "details": "Nil",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Travel",
+      "entity": "Unknown",
+      "details": "Spouse Nil",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Hospitality",
+      "entity": "Unknown",
+      "details": "Spouse Nil",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Travel",
+      "entity": "Unknown",
+      "details": "Dependent Children Nil",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Hospitality",
+      "entity": "Unknown",
+      "details": "Dependent Children Nil",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Gifts",
+      "entity": "Foxtel",
+      "details": "Installation and ongoing subscription to Foxtel pay television in West Gosford electorate office at no cost.",
+      "pdf_url": "wicksl_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2018-01-25",
+      "category": "Hospitality",
+      "entity": "NRMA Motoring & Services",
+      "details": "Sydney Cricket Ground \u2013 Australia vs. Pakistan - Private suite, as a guest of NRMA motoring & services",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-21",
+      "category": "Real Estate",
+      "entity": "Springfield NSW",
+      "details": "(Self and spouse) Springfield NSW \u2013 PPR",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-21",
+      "category": "Liabilities",
+      "entity": "AMP Bank Ltd",
+      "details": "(Self and spouse) Mortgage - AMP Bank Ltd",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-27",
+      "category": "Real Estate",
+      "entity": "Terrigal NSW",
+      "details": "Rental accommodation, Terrigal NSW",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-22",
+      "category": "Other Assets",
+      "entity": "Australian Landscape Gallery",
+      "details": "Landscape photography on loan for display in office (Canberra and West Gosford) from Australian Landscape Gallery (3 pieces)",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-06-07",
+      "category": "Income Sources",
+      "entity": "EthosBC",
+      "details": "Spouse - Contractor to Dept Finance, Service and Innovation via EthosBC, June 2017",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-06-07",
+      "category": "Income Sources",
+      "entity": "Randstad",
+      "details": "Spouse \u2013 Contractor to Sydney Trains via Randstad, May 2017",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-06-07",
+      "category": "Gifts",
+      "entity": "NAISDA Academy",
+      "details": "10 x tickets to attend the NAISDA Academy Mid-year Show (June) - regular price $25 per ticket",
+      "pdf_url": "wicksl_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2017-08-03",
+      "category": "Hospitality",
+      "entity": "Unknown",
+      "details": "Complimentary dinners on two separate occasions in July 2017, including with spouse. Total cost approximately $250.",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-08-16",
+      "category": "Hospitality",
+      "entity": "The Entertainment Grounds",
+      "details": "Complimentary Passes for the 2017/18 season at 'The Entertainment Grounds' on the Central Coast, NSW, valued at $59 each.",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-01-16",
+      "category": "Income Sources",
+      "entity": "EthosBC",
+      "details": "Spouse - CONTRACTOR TO DEPT FINANCE, SERVICE AND INNOVATION VIA ETHOS BC, JUNE 2017",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-02-08",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Savings account jointly owned with spouse (NAB) closed in January 2018",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-02-20",
+      "category": "Income Sources",
+      "entity": "DXC Technology",
+      "details": "Spouse - Employment with DXC Technology, February 2018",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2019-01-21",
+      "category": "Gifts",
+      "entity": "Australian Reptile Park",
+      "details": "Tasmanian Devil named 'Lucy Wicks' at the Devil's Ark enclosure at the Australian Reptile Park in Somersby (naming rights valued at approx. $2000)",
+      "pdf_url": "wicksl_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-03-11",
+      "category": "Memberships",
+      "entity": "Gosford RSL Club",
+      "details": "Spouse - Gosford RSL Club",
+      "pdf_url": "wicksl_45p.pdf"
+    },
+    {
+      "declaration_date": "2019-03-11",
+      "category": "Memberships",
+      "entity": "Central Coast Mariners Membership",
+      "details": "Spouse - Central Coast Mariners Membership",
+      "pdf_url": "wicksl_45p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/wicksl_45p.pdf"
+}

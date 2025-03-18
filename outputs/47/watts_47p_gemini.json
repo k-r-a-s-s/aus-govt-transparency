@@ -1,0 +1,669 @@
+{
+  "mp_name": "Timothy Watts",
+  "party": "N/A",
+  "electorate": "Gellibrand",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Travel Declaration 1 Info",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Travel Declaration 2 Info",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Real Estate Declaration 1 Info",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Shares",
+      "entity": "Watts Kwok Pty Ltd",
+      "details": "Acts solely as trustee for Watts Kwok Family Trust ACN 169 429 369",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Shares",
+      "entity": "Watts Kwok Pty Ltd",
+      "details": "Acts solely as trustee for Watts Kwok Family Trust ACN 169 429 369",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Shares",
+      "entity": "Bright Smart Media Services PL",
+      "details": "ACN 139 408 601",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Trusts",
+      "entity": "Watts Kwok Family Trust",
+      "details": "Property Holdings, Joint Beneficiary",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Trusts",
+      "entity": "Watts Kwok Pty Ltd as trustee for Watts Kwok Family Trust",
+      "details": "Joint beneficiary",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Trusts",
+      "entity": "Watts Kwok Family Trust",
+      "details": "Property Holdings, Joint Beneficiary",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Trusts",
+      "entity": "Watts Kwok Pty Ltd as trustee for Watts Kwok Family Trust",
+      "details": "Sole interest",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Trusts",
+      "entity": "Bright Smart Media Services",
+      "details": "Consultancy Services, Sole interest",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Trusts",
+      "entity": "Watts Kwok Family Trust",
+      "details": "Property Holdings, Joint beneficiary",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Trusts",
+      "entity": "Watts Kwok Family Trust",
+      "details": "Property Holdings, Children",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Trusts",
+      "entity": "Watts Kwok Family Trust",
+      "details": "Property Holdings, Children",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Footscray, Victoria; Residential",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Kingston, ACT; Investment",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Footscray, Victoria; Residential",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Directorships",
+      "entity": "Watts Kwok Pty Ltd",
+      "details": "Property Services",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Directorships",
+      "entity": "Watts Kwok Pty Ltd",
+      "details": "Property Services",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Directorships",
+      "entity": "Bright Smart Media Services Pty Ltd",
+      "details": "Consultancy",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Liabilities",
+      "entity": "Bank of Melbourne",
+      "details": "Home Loan",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Credit Card",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Credit Card",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Liabilities",
+      "entity": "Amex",
+      "details": "Credit Card",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Savings/Investments",
+      "entity": "Telstra Superannuation Scheme",
+      "details": "Superannuation",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Savings/Investments",
+      "entity": "AMP",
+      "details": "Superannuation",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Savings/Investments",
+      "entity": "BT",
+      "details": "Superannuation",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Savings/Investments",
+      "entity": "Australian Super",
+      "details": "Superannuation",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings Account",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Smart Access Account",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Savings/Investments",
+      "entity": "Bank of Melbourne",
+      "details": "Offset Account",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Savings/Investments",
+      "entity": "ING Direct",
+      "details": "Savings Account",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Savings/Investments",
+      "entity": "UP Bank",
+      "details": "Savings Account",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Savings/Investments",
+      "entity": "Bank of Melbourne",
+      "details": "Offset Account",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Smart Access Account",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Telstra Life Insurance",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Gifts",
+      "entity": "Foxtel",
+      "details": "Foxtel Connection for the electorate office, Foxtel",
+      "pdf_url": "watts_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Gifts",
+      "entity": "NBL",
+      "details": "Globall Basketball and personalised ball from NBL",
+      "pdf_url": "watts_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Gifts",
+      "entity": "Melbourne Theatre Company",
+      "details": "2 Tickets to Melbourne Theatre Company production of Laurinda, care of Melbourne Theatre Company",
+      "pdf_url": "watts_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Gifts",
+      "entity": "Malthouse Theatre Company",
+      "details": "2 Tickets to Malthouse Theatre Company production of Anna K, care of Malthouse Theatre Company",
+      "pdf_url": "watts_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Gifts",
+      "entity": "McKinnon Institute for Political Leadership",
+      "details": "McKinnon Institute for Political Leadership Advanced leadership program",
+      "pdf_url": "watts_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Gifts",
+      "entity": "Dr Rahul Tipnis",
+      "details": "Bottle of Johnny Walker Aged 18 years Whiskey from Dr Rahul Tipnis",
+      "pdf_url": "watts_47p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Gifts",
+      "entity": "Western United Football Club",
+      "details": "2022 A-League Grand Final ticket from Western United Football Club",
+      "pdf_url": "watts_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Gifts",
+      "entity": "AFL",
+      "details": "2 Tickets to the AFL Presidents Dinner and Melbourne v Bulldogs game from AFL",
+      "pdf_url": "watts_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Hospitality",
+      "entity": "QANTAS",
+      "details": "Complementary membership of QANTAS Chairman's Lounge",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Hospitality",
+      "entity": "Virgin Australia",
+      "details": "Complementary membership of Virgin Australia The Club",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "Western Bulldogs FC",
+      "details": "Member of Western Bulldogs FC",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "Williamstown Lifesaving Club",
+      "details": "Member of Williamstown Lifesaving Club",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "ALP, Williamstown Branch (Vic)",
+      "details": "Member of ALP, Williamstown Branch (Vic)",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "Western United FC",
+      "details": "Member of Western United FC",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "Footscray Traders Association",
+      "details": "Member of Footscray Traders Association",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "ALP, Footscray Branch (Vic)",
+      "details": "Member of ALP, Footscray Branch (Vic)",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "Victorian Tourism Industry Council",
+      "details": "Member of Victorian Tourism Industry Council",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "Australian Society of Travel Writers",
+      "details": "Member of Australian Society of Travel Writers",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "Footscray Community Arts Centre",
+      "details": "Member of Footscray Community Arts Centre",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-13",
+      "category": "Gifts",
+      "entity": "Japan's digital agency",
+      "details": "Gift- Water Bottle from Japan's digital agency. Approx value $45",
+      "pdf_url": "watts_47p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2022-09-13",
+      "category": "Gifts",
+      "entity": "G20",
+      "details": "Gift- Merchandise bag with water bottle and sanitiser from G20. Approx value $30",
+      "pdf_url": "watts_47p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2022-09-13",
+      "category": "Gifts",
+      "entity": "Japanese Minister for Digital Transformation",
+      "details": "Gift- Puzzle box from Japanese Minister for Digital Transformation. Approx value $84",
+      "pdf_url": "watts_47p.pdf",
+      "sub_category": "Electronics"
+    },
+    {
+      "declaration_date": "2022-09-13",
+      "category": "Gifts",
+      "entity": "Fortescue",
+      "details": "Gift- Indigenous print tie from Fortescue. Approx value $45",
+      "pdf_url": "watts_47p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2022-09-13",
+      "category": "Shares",
+      "entity": "ISHARES CORE COMPOSITE BOND ETF",
+      "details": "SPOUSE SHAREHOLDINGS (AS AT 11 APRIL 2022) ISHARES CORE COMPOSITE BOND ETF IAF",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-13",
+      "category": "Shares",
+      "entity": "ISHARES CORE MSCI WORLD EX AUS ESG LEADERS (AUD HEDGED) ETF",
+      "details": "SPOUSE SHAREHOLDINGS (AS AT 11 APRIL 2022) ISHARES CORE MSCI WORLD EX AUS ESG LEADERS (AUD HEDGED) ETF IHWL",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-13",
+      "category": "Shares",
+      "entity": "VANGUARD ETHICALLY CONSCIOUS INTERNATIONAL SHARES INDEX ETF",
+      "details": "SPOUSE SHAREHOLDINGS (AS AT 11 APRIL 2022) VANGUARD ETHICALLY CONSCIOUS INTERNATIONAL SHARES INDEX ETF VESG",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-13",
+      "category": "Shares",
+      "entity": "ISHARES CORE MSCI AUSTRALIA ESG LEADERS ETF",
+      "details": "SPOUSE SHAREHOLDINGS (AS AT 11 APRIL 2022) ISHARES CORE MSCI AUSTRALIA ESG LEADERS ETF IESG",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-13",
+      "category": "Shares",
+      "entity": "SPDR DOW JONES GLOBAL REAL ESTATE ESG FUND",
+      "details": "SPOUSE SHAREHOLDINGS (AS AT 11 APRIL 2022) SPDR DOW JONES GLOBAL REAL ESTATE ESG FUND",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-13",
+      "category": "Shares",
+      "entity": "VanEck FTSE Global Infrastructure (Hedged)",
+      "details": "SPOUSE SHAREHOLDINGS (AS AT 11 APRIL 2022) VanEck FTSE Global Infrastructure (Hedged)",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-13",
+      "category": "Shares",
+      "entity": "TELSTRA CORPORATION LTD",
+      "details": "SPOUSE SHAREHOLDINGS (AS AT 11 APRIL 2022) TELSTRA CORPORATION LTD",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-13",
+      "category": "Gifts",
+      "entity": "Salesforce",
+      "details": "Gift of 2 x Mid Winter Ball 2022 tickets from Salesforce",
+      "pdf_url": "watts_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-09-27",
+      "category": "Gifts",
+      "entity": "Asahi Beverages",
+      "details": "2 Tickets to AFL Grand Final 2022 including hospitality as guests of Asahi Beverages",
+      "pdf_url": "watts_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-09-27",
+      "category": "Savings/Investments",
+      "entity": "AMP and BT",
+      "details": "AMP and BT",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-11-29",
+      "category": "Gifts",
+      "entity": "Football Australia",
+      "details": "Gift -Socceroos Jersey from Football Australia $115",
+      "pdf_url": "watts_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-02-17",
+      "category": "Gifts",
+      "entity": "Melbourne Theatre Company",
+      "details": "Gifts- 2 x Tickets to \"Sunday\" performance from Melbourne Theatre Company. Approx value $250 AUD",
+      "pdf_url": "watts_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-02-17",
+      "category": "Gifts",
+      "entity": "Melbourne Symphony Orchestra",
+      "details": "Gifts- 2 x Tickets to MSO's 10th Anniversary Chinese New Year Concert at Arts Centre Melbourne- provided by Melbourne Symphony Orchestra. Approx value $194 AUD",
+      "pdf_url": "watts_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-02-17",
+      "category": "Gifts",
+      "entity": "Australian Ballet",
+      "details": "Gifts- 2 x Tickets to Ballet Under the Stars event and pre-performance reception from the Australian Ballet. Approx value - Event is a free non-ticketed event",
+      "pdf_url": "watts_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-07-11",
+      "category": "Gifts",
+      "entity": "Ambassador of Guatemala",
+      "details": "Gift - Zacapa XO Rum - one bottle - diplomatic gift from Ambassador of Guatemala in Canberra, June 2023. Approx value $160",
+      "pdf_url": "watts_47p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2023-07-11",
+      "category": "Gifts",
+      "entity": "Telstra Australia",
+      "details": "Gift - 2x tickets to 2023 Midwinter Ball, Parliament House, June 2023 - table sponsored by Telstra Australia. Approx value $330.",
+      "pdf_url": "watts_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-09-13",
+      "category": "Travel",
+      "entity": "Basketball Australia",
+      "details": "1 x ticket to Boomers v World exhibition match and function at Rod Laver Arena as guest of Basketball Australia",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-09-13",
+      "category": "Travel",
+      "entity": "FIFA",
+      "details": "Ticket to Matildas v England Women's World Cup Match on Wednesday 16 August. Invited by FIFA.",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-12-10",
+      "category": "Gifts",
+      "entity": "Foreign Minister of Morocco",
+      "details": "1x small rug, from Foreign Minister of Morocco, value AUD 250",
+      "pdf_url": "watts_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2024-01-10",
+      "category": "Travel",
+      "entity": "Qatari Ministry of Foreign Affairs",
+      "details": "Minister and 1 staff x 2 nights accommodation in Doha, Qatar as guest of Qatari Ministry of Foreign Affairs",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-01-23",
+      "category": "Gifts",
+      "entity": "Tennis Australia",
+      "details": "4 x RLA tickets to Australian Open Day 2 from Tennis Australia",
+      "pdf_url": "watts_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2024-07-09",
+      "category": "Travel",
+      "entity": "Western Bulldogs",
+      "details": "2 x Tickets to AFL match and hospitality at President's function from Western Bulldogs",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-09",
+      "category": "Travel",
+      "entity": "Capital Brief",
+      "details": "1x tickets to 2024 Midwinter Ball, Parliament House, July 2024 - table sponsored by Capital Brief. Approx value $330.",
+      "pdf_url": "watts_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-18",
+      "category": "Gifts",
+      "entity": "Cricket Australia",
+      "details": "Australian One Day cricket jersey from Cricket Australia",
+      "pdf_url": "watts_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2024-10-18",
+      "category": "Gifts",
+      "entity": "Western United FC",
+      "details": "Western United team jersey from Western United FC",
+      "pdf_url": "watts_47p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2024-10-18",
+      "category": "Gifts",
+      "entity": "IGEA (Interactive Games and Entertainment Association)",
+      "details": "1 x entry to the PAX Rising Indie Showcase from IGEA (Interactive Games and Entertainment Association)",
+      "pdf_url": "watts_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2024-10-18",
+      "category": "Gifts",
+      "entity": "IGEA (Interactive Games and Entertainment Association)",
+      "details": "2 x accompanying entry tickets to PAX from IGEA (Interactive Games and Entertainment Association)",
+      "pdf_url": "watts_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2024-11-29",
+      "category": "Gifts",
+      "entity": "Football Australia",
+      "details": "1 x ticket to the Australia v Saudi Arabia AFC Asian Qualifiers Game in Melbourne, from Football Australia",
+      "pdf_url": "watts_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2025-02-04",
+      "category": "Gifts",
+      "entity": "Maurice Blackburn",
+      "details": "1x ticket to the 2024-25 Season Big Bash League as a guest of Maurice Blackburn",
+      "pdf_url": "watts_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2025-02-04",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "5x tickets to Melbourne United vs Illawarra Hawks NBL game (all five tickets were donated to a community sporting organisation, the Bay City Lakers)",
+      "pdf_url": "watts_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2025-02-04",
+      "category": "Gifts",
+      "entity": "Tennis Australia",
+      "details": "2x tickets to the Australian Open, as guest of Tennis Australia (20 January, Rod Laver Arena)",
+      "pdf_url": "watts_47p.pdf",
+      "sub_category": "Sports Tickets"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/watts_47p.pdf"
+}

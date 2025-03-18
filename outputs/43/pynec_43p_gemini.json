@@ -1,0 +1,122 @@
+{
+  "mp_name": "Christopher Maurice Pyne",
+  "party": "N/A",
+  "electorate": "Sturt",
+  "disclosures": [
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Shares",
+      "entity": "Argo Investments",
+      "details": "Argo Investments",
+      "pdf_url": "pynec_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Trusts",
+      "entity": "CM+CJ Pyne Family Trust",
+      "details": "Beneficial interest financial.",
+      "pdf_url": "pynec_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Liabilities",
+      "entity": "ANZ Bank",
+      "details": "Mortgage, Personal loan",
+      "pdf_url": "pynec_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "I Saver Account",
+      "pdf_url": "pynec_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Watron le - a small business operated by her as a sole trader",
+      "pdf_url": "pynec_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Member of community organisations, sporting clubs ad. none of which present a conflict.",
+      "pdf_url": "pynec_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "pynec_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "As for self",
+      "pdf_url": "pynec_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Savings/Investments",
+      "entity": "Bank SA",
+      "details": "Kids Savings Accounts",
+      "pdf_url": "pynec_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "pynec_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-02-01",
+      "category": "Trusts",
+      "entity": "Watron IR Trust",
+      "details": "Adds Watron IR Trust and deletes CM+CJ Pyne Family Trust.",
+      "pdf_url": "pynec_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-02-14",
+      "category": "Travel",
+      "entity": "The Australia-Israel Cultural Exchange",
+      "details": "Accommodation, meals and internal travel in Israel country of The Australia-Israel Cultural Exchange, December 2010.",
+      "pdf_url": "pynec_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-02-14",
+      "category": "Travel",
+      "entity": "Moroccan Government",
+      "details": "Accommodation, meals ad intermed travel in Morocco guest of the Moroccan Government December 2010.",
+      "pdf_url": "pynec_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-08-17",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "Online Savings Account",
+      "pdf_url": "pynec_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-08-17",
+      "category": "Gifts",
+      "entity": "Hordd Mitchell Media Group.",
+      "details": "Tickets to the AFL. Carts v pod at the McGw",
+      "pdf_url": "pynec_43p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2013-01-18",
+      "category": "Travel",
+      "entity": "QANTAS",
+      "details": "Upgrade from Premium Economy to Business.",
+      "pdf_url": "pynec_43p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/43/pynec_43p.pdf"
+}

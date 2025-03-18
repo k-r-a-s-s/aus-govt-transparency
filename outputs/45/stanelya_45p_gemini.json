@@ -1,0 +1,143 @@
+{
+  "mp_name": "Anne Maree Stanley",
+  "party": "Australian Labor Party",
+  "electorate": "Werriwa",
+  "disclosures": [
+    {
+      "declaration_date": "2016-09-15",
+      "category": "Shares",
+      "entity": "IAG",
+      "details": "Shares in IAG",
+      "pdf_url": "stanelya_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-15",
+      "category": "Shares",
+      "entity": "Commonwealth Bank",
+      "details": "Shares in Commonwealth Bank held by spouse",
+      "pdf_url": "stanelya_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-15",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Residence in Lurnea, NSW",
+      "pdf_url": "stanelya_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-15",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Home loan (residential property)",
+      "pdf_url": "stanelya_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-15",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Saving Account",
+      "pdf_url": "stanelya_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-15",
+      "category": "Savings/Investments",
+      "entity": "ING Direct",
+      "details": "Saving Account",
+      "pdf_url": "stanelya_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-15",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Spouse saving account",
+      "pdf_url": "stanelya_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-15",
+      "category": "Other Assets",
+      "entity": "First State Personal Super",
+      "details": "Superannuation",
+      "pdf_url": "stanelya_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-15",
+      "category": "Other Assets",
+      "entity": "CBA staff super",
+      "details": "Superannuation (spouse)",
+      "pdf_url": "stanelya_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-15",
+      "category": "Memberships",
+      "entity": "Australian Labor Party",
+      "details": "Membership of Australian Labor Party",
+      "pdf_url": "stanelya_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-15",
+      "category": "Memberships",
+      "entity": "Australian Labor Party",
+      "details": "Spouse's Membership of Australian Labor Party",
+      "pdf_url": "stanelya_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-15",
+      "category": "Memberships",
+      "entity": "Financial Services Union",
+      "details": "Spouse's Membership of Financial Services Union",
+      "pdf_url": "stanelya_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-15",
+      "category": "Memberships",
+      "entity": "Liverpool Catholic Club",
+      "details": "Spouse's Membership of Liverpool Catholic Club",
+      "pdf_url": "stanelya_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-15",
+      "category": "Memberships",
+      "entity": "Western Suburbs Leagues Club",
+      "details": "Spouse's Membership of Western Suburbs Leagues Club",
+      "pdf_url": "stanelya_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-13",
+      "category": "Shares",
+      "entity": "Medibank Private",
+      "details": "Shares for Spouse Medibank Private",
+      "pdf_url": "stanelya_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-14",
+      "category": "Hospitality",
+      "entity": "Qantas",
+      "details": "Complementary Qantas Club Membership for myself and my spouse.",
+      "pdf_url": "stanelya_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-01-20",
+      "category": "Memberships",
+      "entity": "CFMEU NSW",
+      "details": "Joined CFMEU NSW 4th January 2017",
+      "pdf_url": "stanelya_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-28",
+      "category": "Travel",
+      "entity": "Virgin Australia",
+      "details": "\"The Club\" by Invitation",
+      "pdf_url": "stanelya_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-08-20",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "2 Tickets to the Narellan Rotary Ball 2017",
+      "pdf_url": "stanelya_45p.pdf",
+      "sub_category": "Sports Tickets"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/stanelya_45p.pdf"
+}

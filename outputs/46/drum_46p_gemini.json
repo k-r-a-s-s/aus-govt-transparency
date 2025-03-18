@@ -1,0 +1,263 @@
+{
+  "mp_name": "Damian Drum",
+  "party": "Unknown",
+  "electorate": "Nicholls",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Apiam Animal Health",
+      "details": "Self",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Select Harvest",
+      "details": "Self",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Avenira",
+      "details": "Spouse/partner",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Wesfarmers",
+      "details": "Spouse/partner",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "Damian Drum Family Trust",
+      "details": "Self, Savings Account",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Industrial Land in (50% Ownership) Hoopers Crossing, Land is tenanted and rent is received",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Spring Street, Melbourne, Residential Apartment",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Residential Unit (50% Ownership) Kingston ACT, Residential Apartment",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Residence in Kialla Victoria Joint Name with Spouse, Residential Home",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "House in Kialla in Joint Name with Member, Residential Home, Spouse/partner",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "House in Barwon Heads, Tenanted and rent is received, Spouse/partner",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Directorships",
+      "entity": "Pathways to Care Pty Ltd",
+      "details": "Director, NDIS Provider - Disability Services, Spouse/partner",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "Bendigo and Adelaide Bank",
+      "details": "Loans against real estate listed in point 3, Self, Spouse/partner",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "Bendigo and Adelaide Bank and Westpac",
+      "details": "Various Operating Accounts, Self",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank of Australia, Bendigo and Adelaide Bank and Westpac",
+      "details": "Various Operating Accounts, Spouse/partner",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Caravan permanently parked at Barwon Heads on an annual agreement, Self",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Superannuation Payment, Self",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Wage received as per point 4, Spouse/partner",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Qantas Chairman's Lounge",
+      "details": "Membership - (Gift), Self",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Virgin - The Club",
+      "details": "Membership (Gift), Self",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Shepparton Golf Club",
+      "details": "Membership (Paid), Self",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Geelong Football Club Past Players",
+      "details": "(Paid), Self",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Barwon Heads Gold Club",
+      "details": "Membership (Provisional) (Paid), Self",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Qantas Chairman's Lounge",
+      "details": "Membership - (Gift), Spouse/partner",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Virgin - The Club",
+      "details": "Membership (Gift), Spouse/partner",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Minor Share in Racehorses/Syndicate, Self",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-02-12",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Tickets for member and spouse to attend the evening session of the 2020 Australia Open on January 22th 2020 and the mens final on February 2nd 2020.",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-02-12",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Entrance to Derby Day 2019 held 2.11.2019 and hospitality at Flemington racecourse for member and Spouse.",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-02-12",
+      "category": "Travel",
+      "entity": "Racing Victoria",
+      "details": "Annual entrance ticket for member only provided by Racing Victoria",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-02-12",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Tickets for member and spouse to attend the evening session on Wednesday January 22, 2020 of The Australian Open.",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-02-12",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Tickets for member and spouse to attend The Australian Open Mens Final Sunday February 2nd 2020 including accomodation.",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-17",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Provision of Annual Foxtel subscripton and inital installtion of service into electorate office.",
+      "pdf_url": "drum_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-06-22",
+      "category": "Hospitality",
+      "entity": "Tabcorp",
+      "details": "Attendance at races in Sydney hosted by Tabcorp in 2021",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-11-29",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Travel, accommodation and hospitality to attend the Australia - UK Conservative Delegation \u2013 COP26 from 7-17th November 2021",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-02-02",
+      "category": "Travel",
+      "entity": "Assumption College",
+      "details": "Attendance at the Australian Open Tennis for MP and family including ticketing and hospitality provided by Assumption College",
+      "pdf_url": "drum_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-02-02",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Annual Foxtel subscription in the EO",
+      "pdf_url": "drum_46p.pdf",
+      "sub_category": "Other Gifts"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/drum_46p.pdf"
+}

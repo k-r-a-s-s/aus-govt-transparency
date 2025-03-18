@@ -1,0 +1,772 @@
+{
+  "mp_name": "Scott Morrison",
+  "party": "Liberal Party of Australia",
+  "electorate": "Cook",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Superannuation",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "Morrison Family Trust",
+      "details": "Dormant, Nil Beneficial Interest",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "Dolans Bay, NSW",
+      "details": "Residence",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "Commbank",
+      "details": "Mortgage",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "Commbank",
+      "details": "Viridian",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Visa, Mastercard",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "Amex",
+      "details": "Amex",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "Commbank",
+      "details": "Savings",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Travel",
+      "entity": "Turtle Island Resort Limited",
+      "details": "Accommodation upgrade June 2019",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Travel",
+      "entity": "Fiji Air",
+      "details": "Upgrade of four economy tickets from Fiji Air for travel from Sydney to Fiji June 2019",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Upgrade of four economy tickets from Qantas for travel from Fiji to Sydney June 2019",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Hospitality",
+      "entity": "Qantas",
+      "details": "Complimentary membership of Qantas Chairman's Lounge",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Hospitality",
+      "entity": "Virgin",
+      "details": "Complimentary membership of the Virgin Club Lounge",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Liberal Party of Australia, NSW Division",
+      "details": "Membership of the Liberal Party of Australia, NSW Division",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Royal Motor Yacht Club, Woolooware",
+      "details": "Honorary Membership of the Royal Motor Yacht Club, Woolooware",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "National Press Club",
+      "details": "Complimentary Membership of the National Press Club",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Cronulla RSL Club",
+      "details": "Complimentary Membership of the Cronulla RSL Club",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Cronulla Sharks Chairmans' Membership",
+      "details": "Honorary Cronulla Sharks Chairmans' Membership",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "South Metropolitan Regional Scout Council, NSW",
+      "details": "Honorary Membership of the South Metropolitan Regional Scout Council, NSW",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Cronulla Surf Life Saving Club",
+      "details": "Honorary Membership of the Cronulla Surf Life Saving Club",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "North Cronulla Surf Life Saving Club",
+      "details": "Honorary Membership of the North Cronulla Surf Life Saving Club",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Elouera Surf Life Saving Club",
+      "details": "Honorary Membership of the Elouera Surf Life Saving Club",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Wanda Surf Life Saving Club",
+      "details": "Honorary Membership of the Wanda Surf Life Saving Club",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Cook Community Classic",
+      "details": "Patron of the Cook Community Classic",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Horizon Church, Sutherland",
+      "details": "Member of Horizon Church, Sutherland",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Southern Districts Rugby Union Football Club",
+      "details": "Complimentary Sponsor, Southern Districts Rugby Union Football Club",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Australian Kookaburra Kids Foundation",
+      "details": "Parliamentary Patron, Australian Kookaburra Kids Foundation",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "St George Football Association",
+      "details": "Patron of the St George Football Association",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Alannah and Madeline Foundation",
+      "details": "Patron, Alannah and Madeline Foundation",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Surf Life Saving Australia",
+      "details": "Vice Patron, Surf Life Saving Australia",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Cronulla-Sutherland District Junior Rugby Football League",
+      "details": "Patron, Cronulla-Sutherland District Junior Rugby Football League",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Mitochondrial Foundation",
+      "details": "Patron, Mitochondrial Foundation",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Advance",
+      "details": "Patron, Advance",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Commonwealth Games Australia",
+      "details": "Patron, Commonwealth Games Australia",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Gifts",
+      "entity": "Foxtel",
+      "details": "Complimentary Foxtel services in my Electorate Office in Cronulla. This service is ongoing.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Gifts",
+      "entity": "Southern Districts Rugby Union Club, Sylvania Waters",
+      "details": "Season ticket to home games of the Southern Districts Rugby Union Club, Sylvania Waters",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Gifts",
+      "entity": "Cronulla Sharks",
+      "details": "Season ticket to home games of the Cronulla Sharks",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2019-08-15",
+      "category": "Gifts",
+      "entity": "Prime Minister of the Solomon Islands",
+      "details": "Gift of a decorative wooden head carving from the Prime Minister of the Solomon Islands. This item has been surrendered to the Department of Prime Minister and Cabinet and will be displayed in my Parliament House office.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-08-15",
+      "category": "Gifts",
+      "entity": "Her Majesty Queen Elizabeth II",
+      "details": "Gift of a pair of photographs of Her Majesty the Queen and Prince Phillip in black frames from Her Majesty Queen Elizabeth II.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-08-15",
+      "category": "Gifts",
+      "entity": "Mrs Akie Abe",
+      "details": "Gift of Kanebo skin cream to Mrs Morrison from Mrs Akie Abe. This item has been surrendered to the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-08-15",
+      "category": "Gifts",
+      "entity": "Prime Minister Shinzo Abe",
+      "details": "Gift of glasses and chopsticks from Prime Minister Shinzo Abe. This item has been donated to a National Collection through the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-08-15",
+      "category": "Gifts",
+      "entity": "President of the United States of America",
+      "details": "Gift of bald eagle cufflinks from the President of the United States of America.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-08-15",
+      "category": "Gifts",
+      "entity": "Prime Minister Shinzo Abe",
+      "details": "Gift of a silver pin from Prime Minister Shinzo Abe. This item has been surrendered to the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-08-15",
+      "category": "Gifts",
+      "entity": "Prime Minister Shinzo Abe",
+      "details": "Gift of a coloured pin from Prime Minister Shinzo Abe to Mrs Morrison. This item has been surrendered to the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-08-15",
+      "category": "Memberships",
+      "entity": "Victoria Racing Club",
+      "details": "2 x Honorary Memberships of the Victoria Racing Club",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-08-29",
+      "category": "Gifts",
+      "entity": "Kansai Promotional Council",
+      "details": "Gift of a pewter jug from the Kansai Promotional Council. This item has been donated to a National Collection through the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-10-11",
+      "category": "Travel",
+      "entity": "AFL",
+      "details": "Gift of 1 x ticket from the AFL to attend the AFL Grand Final Luncheon and game on 28 September 2019.",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-11",
+      "category": "Travel",
+      "entity": "NRL",
+      "details": "Gift of 1 x ticket from the NRL to attend the NRL Grand Final on 6 October 2019.",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-11",
+      "category": "Gifts",
+      "entity": "Mayor of Biarritz",
+      "details": "Gift of a Cazaux ceramic plate from the Mayor of Biarritz. This item will be donated to a National Collection through the Department of Prime Minister and Cabinet after it is displayed in my Parliament House office.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-10-11",
+      "category": "Gifts",
+      "entity": "President of the Republic of France and Mrs Brigitte Macron",
+      "details": "Gift of a Goicoechea Ceramic Globe from the President of the Republic of France and Mrs Brigitte Macron. This item will be donated to a National Collection through the Department of Prime Minister and Cabinet after it is displayed in my Parliament House office.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-10-11",
+      "category": "Gifts",
+      "entity": "Dr Nguyen Thanh Hung, Vice Chairman Vietjet",
+      "details": "Gift of a dress with bird and flower design from Dr Nguyen Thanh Hung, Vice Chairman Vietjet.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-10-11",
+      "category": "Travel",
+      "entity": "NRL",
+      "details": "Gift of 1 x ticket from the NRL to attend the Cronulla Sharks v Manly Sea Eagles NRL game on 14 September 2019.",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-18",
+      "category": "Gifts",
+      "entity": "Bishop Epalle Catholic School, Solomon Islands",
+      "details": "Gift of a carved wooden ornamental canoe from the Bishop Epalle Catholic School, Solomon Islands. This item has been surrendered to the Department of Prime Minister and Cabinet and will be displayed in my Parliament House office.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Decorative"
+    },
+    {
+      "declaration_date": "2019-10-18",
+      "category": "Memberships",
+      "entity": "Paralympics Australia",
+      "details": "Patron - Paralympics Australia",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-18",
+      "category": "Memberships",
+      "entity": "Elouera Surf Life Saving Club",
+      "details": "Vice Patron - Elouera Surf Life Saving Club",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-18",
+      "category": "Memberships",
+      "entity": "Club Marconi",
+      "details": "Honorary Membership - Club Marconi",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-18",
+      "category": "Memberships",
+      "entity": "Bronte Surf Life Saving Club",
+      "details": "Honorary Membership - Bronte Surf Life Saving Club",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-11-06",
+      "category": "Unknown",
+      "entity": "Unknown",
+      "details": "No alterations",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-11-06",
+      "category": "Gifts",
+      "entity": "Prime Minister for Fiji",
+      "details": "Gift of a signed Rugby World Cup Jersey from the Prime Minister for Fiji. This item has been donated to the Australian Rugby Foundation.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2019-11-06",
+      "category": "Gifts",
+      "entity": "President of the Democratic Republic of Timor-Leste",
+      "details": "Gift of a ceremonial tais, bracelet and scarf from the President of the Democratic Republic of Timor-Leste. These items have been surrendered to the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2019-11-06",
+      "category": "Gifts",
+      "entity": "Unknown",
+      "details": "Gift of a model of USS Canberra in perspex and wooden case. This item has been surrendered to the Department of Prime Minister and Cabinet and will be displayed in my Parliament House office.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-11-06",
+      "category": "Gifts",
+      "entity": "President and First Lady of the United States of America",
+      "details": "Gift of a calfskin leather jewellery box from the President and First Lady of the United States of America. This item has been donated to a National Collection through the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-11-06",
+      "category": "Gifts",
+      "entity": "Vice President and Second Lady of the United States of America",
+      "details": "Gift of a wooden oak cross with Vice President Seal from the Vice President and Second Lady of the United States of America. This item has been surrendered to the Department of Prime Minister and Cabinet and will be displayed in my Parliament House office.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-11-06",
+      "category": "Gifts",
+      "entity": "Secretary of State, United States of America",
+      "details": "Gift of a mahogany dressing box with federal eagle from the Secretary of State, United States of America. This item has been donated to a National Collection through the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-11-06",
+      "category": "Gifts",
+      "entity": "Mrs Susan Pompeo",
+      "details": "Gift of a glass paperweight from Mrs Susan Pompeo. This item has been donated to a National Collection through the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-11-06",
+      "category": "Gifts",
+      "entity": "President of the United States of America",
+      "details": "Gift of two Tiffany Globe-Trotter cases from the President of the United States of America. These items has been donated to a National Collection through the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-11-06",
+      "category": "Gifts",
+      "entity": "President of the United States of America",
+      "details": "Gift of a Paul Revere Silver Tiffany Bowl from the President of the United States of America. This item has been surrendered to the Department of Prime Minister and Cabinet and will be displayed in my Parliament House office.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-11-06",
+      "category": "Gifts",
+      "entity": "President of the United States of America",
+      "details": "Gift of a framed map of the Coral Sea from the President of the United States of America. This item has been surrendered to the Department of Prime Minister and Cabinet and will be displayed in my Parliament House office.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-11-06",
+      "category": "Gifts",
+      "entity": "President of the United States of America",
+      "details": "Gift of a calfskin leather photo album of the US Official Visit from the President of the United States of America. This item has been donated to a National Collection through the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-11-06",
+      "category": "Gifts",
+      "entity": "Akuna Capital",
+      "details": "Gift of a personalised trading coat from Akuna Capital. This item have been surrendered to the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2019-11-06",
+      "category": "Gifts",
+      "entity": "President of Indonesia",
+      "details": "Gift of a statue of Garuda Wisnu Kencana from the President of Indonesia. This item has been surrendered to the Department of Prime Minister and Cabinet and will be displayed in my Parliament House office.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Decorative"
+    },
+    {
+      "declaration_date": "2019-11-06",
+      "category": "Gifts",
+      "entity": "Sultan of Brunei",
+      "details": "Gift of a silver pressed box with small bowls from the Sultan of Brunei. These items have been surrendered to the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-11-06",
+      "category": "Gifts",
+      "entity": "Mr Peng Hong Wong",
+      "details": "Gift of a canvas print from Mr Peng Hong Wong. This item has been donated to a National Collection through the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2019-11-06",
+      "category": "Gifts",
+      "entity": "Australian Turf Club",
+      "details": "Gift of a Winx print souvenir from the Australian Turf Club.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-11-06",
+      "category": "Memberships",
+      "entity": "Beverley Park Golf Club",
+      "details": "Co-Patron - Beverley Park Golf Club",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-11-06",
+      "category": "Memberships",
+      "entity": "Michael Tynan Memorial Challenge",
+      "details": "Patron - Michael Tynan Memorial Challenge",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-19",
+      "category": "Gifts",
+      "entity": "HE Gen Prayut Chano-cha, Prime Minister of the Kingdom of Thailand",
+      "details": "Gift of a decorative box and silver garland from HE Gen Prayut Chano-cha, Prime Minister of the Kingdom of Thailand. This item has been surrendered to the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-12-19",
+      "category": "Gifts",
+      "entity": "HE Joko Widodo, President of the Republic of Indonesia",
+      "details": "Gift of a silver bull statue from HE Joko Widodo, President of the Republic of Indonesia. This item has been surrendered to the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Decorative"
+    },
+    {
+      "declaration_date": "2019-12-19",
+      "category": "Gifts",
+      "entity": "HE Gen Prayut Chano-cha, Prime Minister of the Kingdom of Thailand",
+      "details": "Gift of an antique dinner set from HE Gen Prayut Chano-cha, Prime Minister of the Kingdom of Thailand. This item has been surrendered to the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2019-12-19",
+      "category": "Gifts",
+      "entity": "HE Lionel Rouwen Aingimea, President of the Republic of Nauru",
+      "details": "Gift of a Mont Blanc Special Edition JFK GCH Fountain Pen and Ink Bottle from HE Lionel Rouwen Aingimea, President of the Republic of Nauru. This item has been surrendered to the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2019-12-19",
+      "category": "Gifts",
+      "entity": "Shriro Holdings Limited",
+      "details": "Gift of a Heston Blumenthal Everdure BBQ from Shriro Holdings Limited. This item has been surrendered to the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2020-02-04",
+      "category": "Gifts",
+      "entity": "Cricket Australia",
+      "details": "Gift of framed and signed Australian and New Zealand ICC Test Cricket Bats from Cricket Australia. This item has been surrendered to the Department of Prime Minister and Cabinet and will be donated to a charity or non-profit organisation.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2020-04-17",
+      "category": "Gifts",
+      "entity": "HE Joko Widodo, President of the Republic of Indonesia",
+      "details": "Gift of a filigree miniature of a Phinisi Ship from HE Joko Widodo, President of the Republic of Indonesia. This item has been surrendered to the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2020-07-02",
+      "category": "Memberships",
+      "entity": "City of Sydney RSL Club",
+      "details": "2020 Honorary Membership of the City of Sydney RSL Club",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-10",
+      "category": "Travel",
+      "entity": "Cronulla Sharks",
+      "details": "Gift of 1 x ticket from the Cronulla Sharks to attend the Canberra Raiders v Cronulla Sharks NRL game on 3 October 2020.",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-21",
+      "category": "Gifts",
+      "entity": "Katrina Okoronkwo",
+      "details": "Gift of a portrait from Katrina Okoronkwo. This item has been surrendered to the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2020-10-26",
+      "category": "Travel",
+      "entity": "NRL",
+      "details": "Gift of 1 x ticket from the NRL to attend the NRL Grand Final on 25 October 2020.",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Gifts",
+      "entity": "His Excellency Mr Shinzo Abe, Former Prime Minister of Japan",
+      "details": "Gift of a bottle of Hibiki Suntory Whiskey from His Excellency Mr Shinzo Abe, Former Prime Minister of Japan.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2020-12-22",
+      "category": "Gifts",
+      "entity": "Mr Dean Gibson of the Policy Exchange in the United Kingdom",
+      "details": "Gift of a book, De Jure Belli ac Pacis by Hugo Grotuis presented by Mr Dean Gibson of the Policy Exchange in the United Kingdom. This item has been surrendered to the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2020-12-22",
+      "category": "Gifts",
+      "entity": "Wollondilly Shire Council",
+      "details": "Gift of a 'Koala on a Ladder' bronze sculpture from the Wollondilly Shire Council. This item has been surrendered to the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-02-17",
+      "category": "Memberships",
+      "entity": "Cronulla RSL",
+      "details": "2021 Honorary Membership Cronulla RSL",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-02-17",
+      "category": "Memberships",
+      "entity": "KIDS Foundation",
+      "details": "Parliamentary Patron KIDS Foundation",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-03-30",
+      "category": "Travel",
+      "entity": "Richmond Football Club",
+      "details": "Gift of one ticket from the Richmond Football Club to attend the Richmond v Carlton AFL game on 18 March 2021.",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-03-30",
+      "category": "Travel",
+      "entity": "Horsley Park Rural Fire Service Brigade",
+      "details": "Gift of two tickets from members of the Horsley Park Rural Fire Service Brigade to attend the Parramatta Eels v Cronulla Sharks NRL game on 27 March 2021.",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-04-12",
+      "category": "Gifts",
+      "entity": "Sport Inclusion Australia",
+      "details": "Gift of Brisbane 2019 INAS Global Games Gold, Silver and Bronze framed medals from Sport Inclusion Australia. This item has been surrendered to the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2021-05-26",
+      "category": "Gifts",
+      "entity": "Mr Peter Barry",
+      "details": "Gift of a bottle of 2016 Jim Barry The Armagh Shiraz from Mr Peter Barry.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2021-07-09",
+      "category": "Gifts",
+      "entity": "Ngai Tahu (Tribal HQ) in New Zealand",
+      "details": "Gift of a Mere (flat stone weapon) from Ngai Tahu (Tribal HQ) in New Zealand. This item has been surrendered to the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-07-09",
+      "category": "Gifts",
+      "entity": "Ngai Tahu (Tribal HQ) in New Zealand",
+      "details": "Gift of a Kete Whakairo (woven flax bag) from Ngai Tahu (Tribal HQ) in New Zealand.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-07-09",
+      "category": "Memberships",
+      "entity": "Together for Humanity",
+      "details": "Parliamentary Patron Together for Humanity",
+      "pdf_url": "morrison_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-08-05",
+      "category": "Gifts",
+      "entity": "The Rt Hon Boris Johnson, Prime Minister of the United Kingdom",
+      "details": "Gift of a UK produce hamper from The Rt Hon Boris Johnson, Prime Minister of the United Kingdom. This item has been surrendered to the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2021-12-16",
+      "category": "Gifts",
+      "entity": "Dr Mario Draghi, Prime Minister of Italy",
+      "details": "Gift of a Salvatore Ferragamo Black Leather Briefcase from Dr Mario Draghi, Prime Minister of Italy. This item has been surrendered to the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-12-16",
+      "category": "Gifts",
+      "entity": "HE Joko Widodo, President of the Republic of Indonesia",
+      "details": "Gift of an ornamental horn and silver miniature gong from HE Joko Widodo, President of the Republic of Indonesia. This item has been surrendered to the Department of Prime Minister and Cabinet.",
+      "pdf_url": "morrison_46p.pdf",
+      "sub_category": "Decorative"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/morrison_46p.pdf"
+}

@@ -1,0 +1,801 @@
+{
+  "mp_name": "Richard Donald Marles",
+  "party": "Unknown",
+  "electorate": "Corio",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Trusts",
+      "entity": "Pengana Capital Investments",
+      "details": "Share Portfolio, Sole Beneficiary",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "East Geelong, Residential",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Queanbeyan, Residential",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "East Geelong, Investment",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "East Geelong, Residential",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Queanbeyan, Residential",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "East Geelong, Investment",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Partnerships",
+      "entity": "Gordon Legal",
+      "details": "Principal (salaried), Solicitors",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Credit Card, Bendigo Bank",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Joint mortgage - East Geelong, ME Bank",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Joint mortgage - Queanbeyan, ME Bank",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Joint mortgage - East Geelong, ME Bank",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Car Finance, Toyota Finance",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Joint mortgage - East Geelong, ME Bank",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Joint mortgage - Queanbeyan, ME Bank",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Joint mortgage - East Geelong, ME Bank",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "Bendigo Bank",
+      "details": "Four seperate savings accounts",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "ME Bank",
+      "details": "Joint Redraw Facility on mortgages",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "ME Bank",
+      "details": "Joint Transaction Account",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Three seperate savings accounts",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Two seperate savings accounts",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "ME Bank",
+      "details": "Joint Redraw Facility on mortgages",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "ME Bank",
+      "details": "Joint Transaction Account",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank of Australia",
+      "details": ": Savings Account",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": ": Savings Account",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank of Australia",
+      "details": ": Savings Account",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": ": Savings Account",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank of Australia",
+      "details": ": Savings Account",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": ": Savings Account",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Other Assets",
+      "entity": "Australian Super",
+      "details": "Superannuation with Australian Super",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Other Assets",
+      "entity": "ANZ Investments P/L",
+      "details": "Superannuation with ANZ Investments P/L",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Other Assets",
+      "entity": "Hostplus Superannuation",
+      "details": "Hostplus Superannuation",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Ford Focus",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Toyota Kluger (subject to a financing arrangement with Toyota Finance)",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Income Sources",
+      "entity": "Gordon Legal",
+      "details": "Principal (Salaried) with Gordon Legal",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Income Sources",
+      "entity": "Pengana Capital Investments",
+      "details": "Pengana Capital Investments (which is put directly back into the investment)",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "All previously declared gifts including: * Foxtel package for the Corio Electorate Office provided by ASTRA * Membership of the Qantas' Chairman's Lounge courtesy of Qantas * Membership of the The Lounge courtesy of Virgin Australia",
+      "pdf_url": "marles_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "* All previously declared hospitality",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Hospitality",
+      "entity": "Geelong Football Club",
+      "details": "* 1 ticket to President's Lunch at Geelong v GWS, GMHBA Stadium 13 April 2019 courtesy of the Geelong Football Club",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "* 1 ticket to Corporate Box at Melbourne v St Kilda, MCG 20 April 2019 courtesy of ***",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Hospitality",
+      "entity": "Geelong Football Club",
+      "details": "* 2 tickets to President's Dinner at Geelong v Sydney, GMHBA Stadium 1 June 2019 courtesy of the Geelong Football Club",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Hospitality",
+      "entity": "NT Government",
+      "details": "* 2 tickets to the Chief Minister's marquee at the V8 Supercars, Hidden Valley, Darwin courtesy of the NT Government",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Hospitality",
+      "entity": "Geelong Football Club",
+      "details": "* 2 tickets to President's Dinner at Geelong v Adelaide, GMHBA Stadium 28 June 2019 courtesy of the Geelong Football Club",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Hospitality",
+      "entity": "Western Bulldogs Football Club",
+      "details": "* 2 tickets to President's Dinner at Western Bulldogs v Geelong, Marvel Stadium 6 July 2019 courtesy of the Western Bulldogs Football Club",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Hospitality",
+      "entity": "Geelong Football Club",
+      "details": "Accompanied me to President's Dinner at Geelong v Sydney, GMHBA Stadium 1 June 2019 courtesy of the Geelong Football Club",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Hospitality",
+      "entity": "Western Bulldogs Football Club",
+      "details": "* Accompanied me to President's Dinner at Western Bulldogs v Geelong, Marvel Stadium 6 July 2019 courtesy of the Western Bulldogs Football Club",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "13th Beach Golf Club",
+      "details": "13th Beach Golf Club",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Royal Melbourne Golf Club",
+      "details": "Royal Melbourne Golf Club",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Melbourne Cricket Club",
+      "details": "Melbourne Cricket Club",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Geelong Football Club",
+      "details": "Geelong Football Club",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Transport Workers' Union of Australia",
+      "details": "Transport Workers' Union of Australia",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "United States Golf Association",
+      "details": "United States Golf Association",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Care Leavers of Australia Network",
+      "details": "Patron - Care Leavers of Australia Network",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Melanie Jewson Foundation",
+      "details": "Patron - Melanie Jewson Foundation",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "\"No 1 Ticket Holder\" at various community sports clubs from time to time",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Victoria Racing Club",
+      "details": "Victoria Racing Club",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Australian Services Union",
+      "details": "Australian Services Union",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Australian Plaintiff Lawyers Association",
+      "details": "Australian Plaintiff Lawyers Association",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Law Institute of Victoria",
+      "details": "Law Institute of Victoria",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Geelong Community Legal Centre",
+      "details": "Geelong Community Legal Centre",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Airdale Terrier Club of Victoria Inc",
+      "details": "Airdale Terrier Club of Victoria Inc",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Australian Institute of Company Directors",
+      "details": "Australian Institute of Company Directors",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Geelong Regional Library",
+      "details": "Geelong Regional Library",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Geelong Football Club",
+      "details": "Geelong Football Club",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Geelong Netball Club",
+      "details": "Geelong Netball Club",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Geelong Football Netball League",
+      "details": "Geelong Football Netball League",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "St Mary's Football and Netball Club",
+      "details": "St Mary's Football and Netball Club",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Victorian Netball Association",
+      "details": "Victorian Netball Association",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "13th Beach Golf Club",
+      "details": "13th Beach Golf Club",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "East Geelong Golf Club",
+      "details": "East Geelong Golf Club",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Geelong Canoe Club",
+      "details": "Geelong Canoe Club",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Barwon Sports Academy",
+      "details": "Barwon Sports Academy",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Geelong Football Club",
+      "details": "Geelong Football Club",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "St Mary's Football and Netball Club",
+      "details": "St Mary's Football and Netball Club",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "YMCA Basketball Club",
+      "details": "YMCA Basketball Club",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "North Geelong Cricket Club",
+      "details": "North Geelong Cricket Club",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "13th Beach Golf Club",
+      "details": "13th Beach Golf Club",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "East Geelong Golf Club",
+      "details": "East Geelong Golf Club",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Geelong Central Netball Association",
+      "details": "Geelong Central Netball Association",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Victorian Netball Association",
+      "details": "Victorian Netball Association",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "YMCA Basketball Club",
+      "details": "YMCA Basketball Club",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Geelong Football Club",
+      "details": "Geelong Football Club",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Geelong College Recreation Centre",
+      "details": "Geelong College Recreation Centre",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Geelong Regional Library",
+      "details": "Geelong Regional Library",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-09-19",
+      "category": "Hospitality",
+      "entity": "Geelong Football Club",
+      "details": "1 Ticket to AFL dinner and match on Friday 13 September, Geelong Vs West Coast Eagles at MCG. Ticket provided by Geelong Football Club.",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-02",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Spouse: Two seperate savings accounts with the Commonwealth Bank of Australia has been closed.",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-02",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Dependent children: Savings account with the Commonwealth Bank of Australia has been closed.",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-02",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Savings account with the Commonwealth Bank of Australia has been closed.",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-02",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Savings account with the Commonwealth Bank of Australia has been closed.",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-19",
+      "category": "Travel",
+      "entity": "International Institute For Strategic Leadership Dialogue",
+      "details": "Travel and accommodation (2 nights) for myself provided by the International Institute For Strategic Leadership Dialogue to attend the Dialogue in Israel.",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-19",
+      "category": "Travel",
+      "entity": "Emirates",
+      "details": "Business flight (Emirates) from Melbourne to Dubai on 13 December 2019",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-19",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Business flight from Dubai to Larnaca on 14 December 2019",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-19",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Business flight from Tel Aviv to Amman on 16 December 2019",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-19",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Business flight from Amman to Bahrain on 17 December 2019",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-19",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Business flight from Bahrain to Dubai on 17 December 2019",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-19",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Business flight from Dubai to Melbourne on 18 December 2019",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-19",
+      "category": "Hospitality",
+      "entity": "Cricket Australia",
+      "details": "2 general admission tickets to the Boxing Day match provided by Cricket Australia",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-19",
+      "category": "Hospitality",
+      "entity": "Cricket Australia",
+      "details": "2 tickets and hospitiality to the Boxing Day match provided by Cricket Australia",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-05-12",
+      "category": "Travel",
+      "entity": "Port of Newcastle",
+      "details": "Helicopter tour of the Port of Newcastle on Thursday 4th March 2021. Tour provided by the Port of Newcastle for myself, my Adviser.",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-06-21",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "President's lunch - Geelong Vs Gold Coast, Saturday 22nd May 2021 2 Tickets provided by GMHBA and 4 Tickets provided by Geelong Football Club",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-11-29",
+      "category": "Income Sources",
+      "entity": "Shine Lawyers Pty Ltd",
+      "details": "Spouse/Partner Employee of Shine Lawyers Pty Ltd (as of 10/1/22)",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-11-29",
+      "category": "Partnerships",
+      "entity": "Gordon Legal",
+      "details": "Spouse/Partner Gordon Legal, Principal (Salaried), Solicitors (as of 17/12/21)",
+      "pdf_url": "marles_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-11-29",
+      "category": "Income Sources",
+      "entity": "Gordon Legal",
+      "details": "Principal (Salaried) with Gordon Legal (as of 17/12/21)",
+      "pdf_url": "marles_46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/marles_46p.pdf"
+}

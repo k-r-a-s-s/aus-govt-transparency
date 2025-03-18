@@ -1,0 +1,613 @@
+{
+  "mp_name": "Zali Steggall",
+  "party": "N/A",
+  "electorate": "Warringah",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Shares",
+      "entity": "Zali's Edge Pty Ltd",
+      "details": "Self: Zali's Edge Pty Ltd",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Shares",
+      "entity": "Kusatsu Pty Ltd",
+      "details": "Self: Kusatsu Pty Ltd",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Shares",
+      "entity": "AT Media Pty Ltd",
+      "details": "Spouse/partner: AT Media Pty Ltd",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Shares",
+      "entity": "TAZ",
+      "details": "Spouse/partner: TAZ & Kids Pty Ltd",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Shares",
+      "entity": "Kids Pty Ltd",
+      "details": "Spouse/partner: TAZ & Kids Pty Ltd",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Trusts",
+      "entity": "Timothy Irving Family Trust",
+      "details": "Self: Timothy Irving Family Trust, Investor/Unit Holder, beneficiary",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Trusts",
+      "entity": "Timothy Irving Family Trust",
+      "details": "Spouse/partner: Timothy Irving Family Trust, investor/unit holder, beneficiary",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Trusts",
+      "entity": "AT Media Unit Trust",
+      "details": "Spouse/partner: AT Media Unit Trust, Consulting services, unit holder is Timothy Irving Family Trust",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Trusts",
+      "entity": "Timothy Irving Family Trust",
+      "details": "Dependent children: Timothy Irving Family Trust, Investor/unit holder, beneficiary",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Self: North Balgowlah, NSW, Residential",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Self: Manly, NSW, Investment property",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Spouse/partner: North Balgowlah, NSW, Residential",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Directorships",
+      "entity": "Zali's Edge Pty Ltd",
+      "details": "Self: Zali's Edge Pty Ltd, Trustee company",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Directorships",
+      "entity": "Zali's Edge Pty Ltd",
+      "details": "Spouse/partner: Zali's Edge Pty Ltd, Trustee company",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Directorships",
+      "entity": "AT Media Pty Ltd",
+      "details": "Spouse/partner: AT Media Pty Ltd, Trustee company",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Directorships",
+      "entity": "TAZ & Kids Pty Ltd",
+      "details": "Spouse/partner: TAZ & Kids Pty Ltd, Trustee company",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Liabilities",
+      "entity": "St George Bank",
+      "details": "Self: Mortgage on residential and investment properties",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Liabilities",
+      "entity": "St George Bank",
+      "details": "Spouse/partner: Mortgage on residential and investment properties",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Savings/Investments",
+      "entity": "St George",
+      "details": "Self: Savings",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Savings/Investments",
+      "entity": "St George",
+      "details": "Spouse/partner: Savings",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Self: The TAZ Superannuation account",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Other Assets",
+      "entity": "Australian Ethical",
+      "details": "Self: Superannuation with Australian Ethical",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Spouse/partner: The TAZ Superannuation account",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Other Assets",
+      "entity": "Australian Ethical",
+      "details": "Spouse/partner: Superannuation with Australian Ethical",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Spouse/partner: Hyundai Kona EV",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Self: Rental Property",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Spouse/partner: Consultancy income",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Memberships",
+      "entity": "Qantas",
+      "details": "Self: Qantas Chairman's Lounge Membership",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Self: N/A",
+      "pdf_url": "steggall_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Spouse/partner: N/A",
+      "pdf_url": "steggall_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Dependent children: N/A",
+      "pdf_url": "steggall_47p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Self: N/A",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Spouse/partner: N/A",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Dependent children: N/A",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Self: N/A",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Spouse/partner: N/A",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Dependent children: N/A",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Self: N/A",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Spouse/partner: N/A",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Dependent children: N/A",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "steggall_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-09-08",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Spirit discovery packs",
+      "pdf_url": "steggall_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-09-08",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Foxtel subscription electoral office",
+      "pdf_url": "steggall_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-09-08",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's Lounge",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-08",
+      "category": "Travel",
+      "entity": "Opera Australia",
+      "details": "Opera Australia tickets",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-08",
+      "category": "Gifts",
+      "entity": "Perisher Resorts",
+      "details": "2022 season lift pass, Perisher Resorts.",
+      "pdf_url": "steggall_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-10-17",
+      "category": "Travel",
+      "entity": "Opera Australia",
+      "details": "Opera Australia premiere tickets",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-10-17",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Bondi to Manly fun run entry and merchandise",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-12-21",
+      "category": "Gifts",
+      "entity": "Bucketty's",
+      "details": "Crossbench Christmas drinks - 3 cases of Bucketty's beer; 1 case Tawny Frogmouth Grogmouth Ale; 2 cases Manly Spirit Gin & Tonics and Vodka & Sodas; 2 cases Dad & Dave's beer and ginger beer",
+      "pdf_url": "steggall_47p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2023-12-18",
+      "category": "Gifts",
+      "entity": "Unknown",
+      "details": "House Crossbench Electorate December showcase - Warringah businesses",
+      "pdf_url": "steggall_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-12-18",
+      "category": "Gifts",
+      "entity": "Tawny Frogmouth",
+      "details": "Tawny Frogmouth 1 x case 'Grogmouth' Beer",
+      "pdf_url": "steggall_47p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2023-12-18",
+      "category": "Gifts",
+      "entity": "Buckettys",
+      "details": "Buckettys: 2 x cases of Ginger Beer",
+      "pdf_url": "steggall_47p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2023-12-18",
+      "category": "Gifts",
+      "entity": "Dad & Dave's",
+      "details": "Dad & Dave's",
+      "pdf_url": "steggall_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-12-18",
+      "category": "Gifts",
+      "entity": "Hazy Beer",
+      "details": "16 x cans Hazy Beer",
+      "pdf_url": "steggall_47p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2023-12-18",
+      "category": "Gifts",
+      "entity": "Ginger Beer",
+      "details": "16 x cans Ginger Beer",
+      "pdf_url": "steggall_47p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2023-12-18",
+      "category": "Gifts",
+      "entity": "Sophisticated Cocktail Co.",
+      "details": "Sophisticated Cocktail Co.",
+      "pdf_url": "steggall_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-12-18",
+      "category": "Gifts",
+      "entity": "Negroni",
+      "details": "1 x 750ml Negroni",
+      "pdf_url": "steggall_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-12-18",
+      "category": "Gifts",
+      "entity": "Pina Colada",
+      "details": "1 x 750ml Pina Colada",
+      "pdf_url": "steggall_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-12-18",
+      "category": "Gifts",
+      "entity": "Margarita",
+      "details": "1 x 750ml Margarita",
+      "pdf_url": "steggall_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-12-18",
+      "category": "Gifts",
+      "entity": "Goodradigbee",
+      "details": "Goodradigbee",
+      "pdf_url": "steggall_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-12-18",
+      "category": "Gifts",
+      "entity": "GIN",
+      "details": "12 x bottles of GIN",
+      "pdf_url": "steggall_47p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2023-12-18",
+      "category": "Gifts",
+      "entity": "Freshwater Brewing Co.",
+      "details": "Freshwater Brewing Co.",
+      "pdf_url": "steggall_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-12-18",
+      "category": "Gifts",
+      "entity": "Freshie Pils beer",
+      "details": "1 x case of Freshie Pils beer",
+      "pdf_url": "steggall_47p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2024-08-13",
+      "category": "Memberships",
+      "entity": "Wakehurst Golf Club",
+      "details": "Wakehurst Golf Club",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-08-13",
+      "category": "Gifts",
+      "entity": "Perisher",
+      "details": "Perisher lift passes",
+      "pdf_url": "steggall_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2024-10-25",
+      "category": "Travel",
+      "entity": "McPherson Independents",
+      "details": "Flights to Sunshine Coast and Flights from Gold Coast \u2013 provided by McPherson Independents - $629.33 and $768.06",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-25",
+      "category": "Travel",
+      "entity": "Community Independent Project",
+      "details": "Ground transport paid by Community Independent Project",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-25",
+      "category": "Hospitality",
+      "entity": "Voices of Fisher and Fairfax Matters community groups",
+      "details": "Sunshine Coast accommodation provided by Voices of Fisher and Fairfax Matters community groups",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-25",
+      "category": "Hospitality",
+      "entity": "Dickson Decides community group",
+      "details": "Brisbane accommodation provided by Dickson Decides community group",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-25",
+      "category": "Hospitality",
+      "entity": "Voices of Moncrief community group",
+      "details": "Gold Coast accommodation provided by Voices of Moncrief community group",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-11-08",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "NRL semi finals tickets (2)",
+      "pdf_url": "steggall_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-01-29",
+      "category": "Travel",
+      "entity": "Opera Australia",
+      "details": "Opening night tickets (2) and hospitality for Cinderella Opera from Opera Australia",
+      "pdf_url": "steggall_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/steggall_47p.pdf"
+}

@@ -1,0 +1,577 @@
+{
+  "mp_name": "Barry Wayne Haase",
+  "party": "Unknown",
+  "electorate": "Durack",
+  "disclosures": [
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Woodside Petroleum",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Epsilon Energy",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Telstra",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Qantas",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Commonwealth Bank",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Heron Resources",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Avoca Resources",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "The Asciano Group",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Mundo Minerals",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Toll Holdings",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Mincor Resources",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "BHP Billiton",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Brambles Industries Ltd",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Geodynamics Ltd",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Pioneer Nickel",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Rubicon Resources",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Wesfarmers Ltd",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Trusts",
+      "entity": "B.Haase Family Trust",
+      "details": "Family Trust, Beneficial Interest Yes",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Trusts",
+      "entity": "Akitio P/L",
+      "details": "Trustee Company, Beneficial Interest Yes",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Trusts",
+      "entity": "The Haase Super Fund",
+      "details": "Superannuation, Beneficial Interest Yes",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "Kensington, WA",
+      "details": "Private Residence",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "Maylands, WA",
+      "details": "Investment",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "North Perth, WA",
+      "details": "Investment",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "High Gate",
+      "details": "Investment",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "Woodlands, WA",
+      "details": "Investment",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "Inglewood, WA",
+      "details": "Investment",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "Kalgoorlie, WA",
+      "details": "Investment",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "Pollard Street, Geraldton WA",
+      "details": "Investment",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Directorships",
+      "entity": "Akitio P/L",
+      "details": "Director",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Liabilities",
+      "entity": "Challenge Bank",
+      "details": "Investment Loan",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "Challenge Bank",
+      "details": "Joint Savings Account - wife",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "AGC",
+      "details": "24 Hr at Call",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "Challenge Bank",
+      "details": "IBD",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Other Assets",
+      "entity": "M.L.C Superannuation",
+      "details": "Superannuation",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Other Assets",
+      "entity": "Friends Provident & Century Life Insurance",
+      "details": "Life insurance",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Shares",
+      "entity": "Woodside Petroleum",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Shares",
+      "entity": "Telstra",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Shares",
+      "entity": "Qantas",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Shares",
+      "entity": "Commonwealth Bank",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Shares",
+      "entity": "Heron Resources",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Shares",
+      "entity": "Avoca Resources",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Shares",
+      "entity": "Toll Holdings",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Shares",
+      "entity": "BHP Billiton",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Shares",
+      "entity": "Mincor Resources",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Shares",
+      "entity": "Brambles Industries Ltd",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Shares",
+      "entity": "Geodynamics Ltd",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Shares",
+      "entity": "Pioneer Resources",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Shares",
+      "entity": "Anglo Australian",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Shares",
+      "entity": "Asciano Ltd",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Shares",
+      "entity": "James Hardie Industries",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Shares",
+      "entity": "Mundo Minerals",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Shares",
+      "entity": "Virgin Blue Holdings",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Shares",
+      "entity": "Wesfarmers Ltd",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Shares",
+      "entity": "Wesfarmers Ltd Part",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Shares",
+      "entity": "Alacer Gold Corp",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Shares",
+      "entity": "Rubicon Resources",
+      "details": "Shareholding",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Trusts",
+      "entity": "B. Haase Family Trust",
+      "details": "Family Trust, Beneficial Interest Yes",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Trusts",
+      "entity": "Akitio P/L",
+      "details": "Trustee Company, Beneficial Interest Yes",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Trusts",
+      "entity": "The Haase Super Fund",
+      "details": "Superannuation, Beneficial Interest Yes",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Real Estate",
+      "entity": "Kensington, WA",
+      "details": "Private Residence",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Real Estate",
+      "entity": "Maylands, WA",
+      "details": "Investment",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Real Estate",
+      "entity": "Woodlands, WA",
+      "details": "Investment",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Real Estate",
+      "entity": "Inglewood, WA",
+      "details": "Investment",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Real Estate",
+      "entity": "Pollard St, Geraldton WA",
+      "details": "Investment",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Real Estate",
+      "entity": "Martha St, Guildford WA",
+      "details": "Private Residence",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Directorships",
+      "entity": "Akitio P/L",
+      "details": "Director",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Investment Loan",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Housing Loan",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Savings/Investments",
+      "entity": "Challenge Bank",
+      "details": "Joint Savings Account - wife",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Savings/Investments",
+      "entity": "AGC",
+      "details": "24hr at Call",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Savings/Investments",
+      "entity": "Challenge Bank",
+      "details": "IBD",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Other Assets",
+      "entity": "M.L.C Superannuation",
+      "details": "Superannuation",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Other Assets",
+      "entity": "Friends Provident & Century Life Insurance",
+      "details": "Life insurance",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "IPad -- Gift from Qantas",
+      "pdf_url": "haaseb_43p.pdf",
+      "sub_category": "Electronics"
+    },
+    {
+      "declaration_date": "2011-09-07",
+      "category": "Travel",
+      "entity": "Hengou Industries Co. Ltd Ningbo",
+      "details": "Travel to China & Associated Hospitality Hengou Industries Co. Ltd Ningbo",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-05-24",
+      "category": "Real Estate",
+      "entity": "Maylands, WA",
+      "details": "Deletion - Investment",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-05-24",
+      "category": "Real Estate",
+      "entity": "Woodlands, WA",
+      "details": "Deletion - Investment",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-05-24",
+      "category": "Real Estate",
+      "entity": "Inglewood, WA",
+      "details": "Deletion - Investment",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-14",
+      "category": "Real Estate",
+      "entity": "Kensington, WA",
+      "details": "Deletion - Private Residence",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-14",
+      "category": "Real Estate",
+      "entity": "Victoria Park, WA",
+      "details": "Addition Spouse - Private Residence",
+      "pdf_url": "haaseb_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-03-14",
+      "category": "Memberships",
+      "entity": "Qantas Chairman's Lounge",
+      "details": "Membership",
+      "pdf_url": "haaseb_43p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/43/haaseb_43p.pdf"
+}

@@ -1,0 +1,914 @@
+{
+  "mp_name": "Fiona Martin",
+  "party": "Liberal Party of Australia",
+  "electorate": "REID",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "CHILD PSYCH CORP PTY LTD",
+      "details": "Self",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Spouse/partner: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Dependent children: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Self: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Spouse/partner: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Dependent children: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Self: East Ryde, Residence",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Spouse/partner: Horsholm, Denmark, Parents residence",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Dependent children: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Directorships",
+      "entity": "Child Psych Corp Pty Ltd",
+      "details": "Self, Psychology clinics, consulting services",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Spouse/partner: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Dependent children: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Self: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Spouse/partner: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Dependent children: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "Australian and New Zealand Banking Group Limited",
+      "details": "Self: Mortgage in respect of property at East Ryde",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Self: Loan between self and Child Psych Corp Pty Ltd",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "Australian and New Zealand Banking Group Limited",
+      "details": "Spouse/partner: Mortgage in respect of property at East Ryde",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "Dankse Bank",
+      "details": "Spouse/partner: Mortgage in respect of property in Horsholm, Denmark",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Dependent children: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Self: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Spouse/partner: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Dependent children: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "Australian and New Zealand Banking Group Limited",
+      "details": "Self: Savings",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "Australian and New Zealand Banking Group Limited",
+      "details": "Self: Savings",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "Australian and New Zealand Banking Group Limited",
+      "details": "Self: Savings",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "Australian and New Zealand Banking Group Limited",
+      "details": "Self: Off set account",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "Australian and New Zealand Banking Group Limited",
+      "details": "Spouse/partner: Savings",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "Australian and New Zealand Banking Group Limited",
+      "details": "Spouse/partner: Savings",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "Australian and New Zealand Banking Group Limited",
+      "details": "Spouse/partner: Off set account",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "Dankse",
+      "details": "Spouse/partner: Savings",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "Dankse",
+      "details": "Spouse/partner: Savings",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "Dankse",
+      "details": "Spouse/partner: Savings",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Self: AMP Superannuation Fund, Insurance: TAL, Insurance: ANZ, Insurance: AON, Insurance: Allianz",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Spouse/partner: Motor vehicle, Motorcycle, CBUS Superannuation Fund, AEGON Superannuation Fund, Insurance: CBUS",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Dependent children: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "Child Psych Corp Pty Ltd",
+      "details": "Self: Consulting fees, salary, directors fee",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Spouse/partner: Salary as an Engineer, I am not aware of any other additional sources of income",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Dependent: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Gifts",
+      "entity": "QANTAS",
+      "details": "Self: Membership to QANTAS Chairman's Lounge",
+      "pdf_url": "martin_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Gifts",
+      "entity": "Virgin",
+      "details": "Self: Membership to Virgin's the Club",
+      "pdf_url": "martin_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Hospitality",
+      "entity": "Willard Public Affairs",
+      "details": "Spouse/partner: 2 Tickets and hospitality for a Sydney Swans AFL Game on 29th June 2019, valued at $225 per tickets",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Gifts",
+      "entity": "QANTAS",
+      "details": "Spouse/partner: Membership to QANTAS Chairman's Lounge",
+      "pdf_url": "martin_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Gifts",
+      "entity": "Virgin",
+      "details": "Spouse/partner: Membership to Virgin's the Club",
+      "pdf_url": "martin_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Liberal Party of Australia",
+      "details": "Self",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Australian Health Practitioner Regulation Agency (AHPRA)",
+      "details": "Self",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Psychology Board of Australia",
+      "details": "Self",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Australian Psychological Society",
+      "details": "Self: up until 30 June 2019",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "NSW National Servicemans Association and Affiliates",
+      "details": "Self: Patron of including Burwood and District Sub-branch",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "BUPA",
+      "details": "Self: health insurance membership",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "BUPA",
+      "details": "Spouse/partner: health insurance membership",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Interests",
+      "entity": "Little Blue Dinosaur Foundation",
+      "details": "Self: Ambassador",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Interests",
+      "entity": "Life Education",
+      "details": "Self: Ambassador",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Spouse/partner: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Dependent children: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Dependent children: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Dependent children: Nil",
+      "pdf_url": "martin_46p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Self: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Spouse/partner: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Dependent children: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Dependent children: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Dependent children: Nil",
+      "pdf_url": "martin_46p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Dependent: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Dependent children: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Dependent children: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Dependent children: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Dependent children: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Dependent children: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Dependent children: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Dependent children: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Dependent children: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Dependent children: Nil",
+      "pdf_url": "martin_46p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Dependent children: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Dependent children: Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Dependent children: Nil",
+      "pdf_url": "martin_46p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Spouse/partner: Nil",
+      "pdf_url": "martin_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Spouse/partner: Nil",
+      "pdf_url": "martin_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Self",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Self",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Self",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Self",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Self",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Self",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Self",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Self",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Self",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Spouse/partner",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Self",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-08-08",
+      "category": "Shares",
+      "entity": "CHILD PSYCHCORP PTY LTD",
+      "details": "Company is CHILD PSYCHCORP PTY LTD not CHILD PSYCH CORP PTY LTD",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-08-08",
+      "category": "Directorships",
+      "entity": "CHILD PSYCHCORP PTY LTD",
+      "details": "Company is CHILD PSYCHCORP PTY LTD not CHILD PSYCH CORP PTY LTD",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-08-08",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Company is CHILD PSYCHCORP PTY LTD not CHILD PSYCH CORP PTY LTD",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Liabilities",
+      "entity": "Danske Bank",
+      "details": "Mispelled Danske Bank",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "Danske Bank",
+      "details": "Mispelled Danske Bank",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "Mental Health Professional Network",
+      "details": "Unknown",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-09-20",
+      "category": "Gifts",
+      "entity": "ASTRA",
+      "details": "Complimentary Foxtel subscription for electorate office from ASTRA approximate value $1,600.00",
+      "pdf_url": "martin_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-10-08",
+      "category": "Shares",
+      "entity": "Child PsychCorp Pty Ltd",
+      "details": "Self - all shares in Child PsychCorp Pty Ltd no longer owned by Fiona Martin",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-08",
+      "category": "Directorships",
+      "entity": "Child PsychCorp Pty Ltd",
+      "details": "Self - Fiona Martin is no longer director of Child PsychCorp Pty Ltd",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-08",
+      "category": "Savings/Investments",
+      "entity": "Australian and New Zealand Banking Group",
+      "details": "Self - remove two savings accounts listed at Australian and New Zealand Banking Group",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-08",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Spouse - remove one motor vehicle",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-08",
+      "category": "Income Sources",
+      "entity": "Child PsychCorp Pty Ltd",
+      "details": "Self - no longer receiving consulting fees, salary, director fee from Child PsychCorp Pty Ltd",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-08",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Self - add one motor vehicle",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-01-13",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Spouse - add one motor vehicle",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-01-13",
+      "category": "Liabilities",
+      "entity": "Bankwest",
+      "details": "Self - Mortgage in respect of property at East Ryde creditor is now Bankwest",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-01-13",
+      "category": "Liabilities",
+      "entity": "Bankwest",
+      "details": "Spouse - Mortgage in respect of property at East Ryde creditor is now Bankwest",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-01-13",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Self - delete one motor vehicle",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-01-13",
+      "category": "Liabilities",
+      "entity": "ANZ",
+      "details": "Self - remove mortgage with ANZ with respect to East Ryde property",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-01-13",
+      "category": "Liabilities",
+      "entity": "ANZ",
+      "details": "Spouse - remove mortgage with ANZ with respect to East Ryde property",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-02-12",
+      "category": "Savings/Investments",
+      "entity": "ANZ Bank",
+      "details": "Self - Addition of one savings account",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-02-12",
+      "category": "Savings/Investments",
+      "entity": "BankWest",
+      "details": "Self - Addition of one offset account",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-02-12",
+      "category": "Savings/Investments",
+      "entity": "Bankwest",
+      "details": "Spouse - Addition of one offset account",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-02-12",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Self - deletion of loan between self and Child PsychCorp",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-02-12",
+      "category": "Liabilities",
+      "entity": "Danske",
+      "details": "Spouse - deletion of mortgage from Danske",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-02-12",
+      "category": "Memberships",
+      "entity": "Strathfield Golf Club",
+      "details": "Membership of Strathfield Golf Club",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-20",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Cricket bat signed by Sydney Thunders and Sixers women's cricket teams captains. Awarded at Sydney Derby 2019. Value unknown.",
+      "pdf_url": "martin_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2020-05-25",
+      "category": "Gifts",
+      "entity": "Campbell Arnott's",
+      "details": "Arnott's Tim Tam Biscuits value $4,160.00 from Campbell Arnott's for distribution to frontline essential workers, e.g. Concord Repatriation Hospital COVID-19 Clinic.",
+      "pdf_url": "martin_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-04-13",
+      "category": "Gifts",
+      "entity": "The Star Entertainment Group",
+      "details": "Two tickets to the Australian Premiere of Hamilton at The Sydney Lyric Theatre on 27 March 2021 valued at $250 each from The Star Entertainment Group",
+      "pdf_url": "martin_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2021-05-10",
+      "category": "Other Interests",
+      "entity": "McKinnon Institute For Political Leadership",
+      "details": "Scholarship recipient, the Advanced Political Leadership Course, from the McKinnon Institute For Political Leadership. Value of scholarship $24,000 (plus GST) The scholarship covers tuition, residential intensive, catering and accommodation",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-11-16",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "4 x tickets to FIFA World Cup AFC Asian Qualifiers Socceroos Vs Saudi Arabia Western Sydney Stadium. Valued at $220 per ticket",
+      "pdf_url": "martin_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-01-18",
+      "category": "Travel",
+      "entity": "Westpac",
+      "details": "Invitation from Westpac to Day 1 Vodafone Ashes Test: Australia v England SCG (Private Suite) value $899 + GST Date Wednesday 5th January 2022",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-01-18",
+      "category": "Travel",
+      "entity": "Cricket NSW",
+      "details": "Invitation from Cricket NSW to Day 2 Vodafone Ashes: Australia v England SCG (Steve Waugh Room) value 3 x $350 + GST each Date Thursday 6 January 2022",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-01-18",
+      "category": "Savings/Investments",
+      "entity": "Australian and New Zealand Banking Group",
+      "details": "Credit card",
+      "pdf_url": "martin_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-01-18",
+      "category": "Gifts",
+      "entity": "The Star Entertainment Group",
+      "details": "Bottle of Champagne and complimentary entree value $325 Date 29th December 2021",
+      "pdf_url": "martin_46p.pdf",
+      "sub_category": "Alcohol"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/martin_46p.pdf"
+}

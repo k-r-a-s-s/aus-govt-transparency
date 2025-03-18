@@ -1,0 +1,136 @@
+{
+  "mp_name": "Alex Hawke",
+  "party": "N/A",
+  "electorate": "Mitchell",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hawke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hawke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Kellyville NSW, Residential",
+      "pdf_url": "hawke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hawke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hawke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Mortgage on Residential Property, Credit Cards, Amex Mastercard",
+      "pdf_url": "hawke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "Aus Gov",
+      "details": "Superannuation",
+      "pdf_url": "hawke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "Rest, Aus Gov",
+      "details": "Superannuation",
+      "pdf_url": "hawke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Savings Account",
+      "pdf_url": "hawke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Savings Account",
+      "pdf_url": "hawke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Saving Account",
+      "pdf_url": "hawke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hawke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from occaisional contract employment",
+      "pdf_url": "hawke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hawke_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hawke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hawke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hawke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hawke_46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/hawke_46p.pdf"
+}

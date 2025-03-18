@@ -1,0 +1,558 @@
+{
+  "mp_name": "Matthew James Thistlethwaite",
+  "party": "Unknown",
+  "electorate": "Kingsford Smith",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Shares",
+      "entity": "Venice Ice Pty Ltd",
+      "details": "Shareholding in Venice Ice Pty Ltd (Self)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Shares",
+      "entity": "Venice Ice Pty Ltd",
+      "details": "Shareholding in Venice Ice Pty Ltd (Spouse)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "No beneficial interest held (Self)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "No beneficial interest held (Spouse)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "No trustee role (Self)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "No trustee role (Spouse)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Matraville - Family Home (Self)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Maroubra - Investment Property (Self)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Matraville - Family Home (Spouse)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Directorships",
+      "entity": "Venice Ice Pty Ltd",
+      "details": "Director of Venice Ice Pty Ltd - Family Home (Self)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Directorships",
+      "entity": "Venice Ice Pty Ltd",
+      "details": "Director of Venice Ice Pty Ltd - Family Home (Spouse)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "No partnerships (Self)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "No partnerships (Spouse)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Liabilities",
+      "entity": "Members Equity Bank",
+      "details": "Mortgage on Family Home (Self)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Liabilities",
+      "entity": "Members Equity Bank",
+      "details": "Mortgage on Investment Property (Self)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Liabilities",
+      "entity": "American Express",
+      "details": "Credit Card (Self)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Liabilities",
+      "entity": "Members Equity Bank",
+      "details": "Mortgage on Family Home (Spouse)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Liabilities",
+      "entity": "American Express",
+      "details": "Credit Card (Spouse)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Savings/Investments",
+      "entity": "St George",
+      "details": "Savings account (Self)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Savings/Investments",
+      "entity": "Qantas Staff Credit Union",
+      "details": "Savings account (Self)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Savings/Investments",
+      "entity": "St George",
+      "details": "Savings account (Spouse)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Savings account (Spouse)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rental income from investment property (Self)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Membership of Qantas Chairman's Lounge (Self)",
+      "pdf_url": "thistlethwaitem_44p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Gifts",
+      "entity": "Virgin",
+      "details": "Membership of Virgin The Club (Self)",
+      "pdf_url": "thistlethwaitem_44p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Membership of Qantas Chairman's Lounge (Spouse)",
+      "pdf_url": "thistlethwaitem_44p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Gifts",
+      "entity": "Virgin",
+      "details": "Membership of Virgin The Club (Spouse)",
+      "pdf_url": "thistlethwaitem_44p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Memberships",
+      "entity": "Australian Workers Union",
+      "details": "The Australian Workers Union (Self)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Memberships",
+      "entity": "Australian Labor Party",
+      "details": "The Australian Labor Party (Self)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Memberships",
+      "entity": "Maroubra Surf Lifesaving Club",
+      "details": "Maroubra Surf Lifesaving Club (Self)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Memberships",
+      "entity": "South Sydney Rugby League Football Club",
+      "details": "South Sydney Rugby League Football Club (Self)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Memberships",
+      "entity": "Maroubra Seals Club",
+      "details": "Maroubra Seals Club (Self)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Memberships",
+      "entity": "Souths Juniors Club",
+      "details": "Souths Juniors Club (Self)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Memberships",
+      "entity": "Malabar RSL Club",
+      "details": "Malabar RSL Club (Self)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Memberships",
+      "entity": "Matraville RSL Club",
+      "details": "Matraville RSL Club (Self)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Memberships",
+      "entity": "Coogee Legion Club",
+      "details": "Coogee Legion Club (Self)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Memberships",
+      "entity": "Rawdnick Club",
+      "details": "Rawdnick Club (Self)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Memberships",
+      "entity": "Maroubra Sports Club",
+      "details": "Maroubra Sports Club (Self)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Memberships",
+      "entity": "NSW Nurses & Midwives Association",
+      "details": "NSW Nurses & Midwives Association (Spouse)",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Gifts",
+      "entity": "South Sydney Rabbitohs",
+      "details": "2 x Tickets to Rabbitohs v Manly NRL Preliminary Final on 27/9/13 provided by South Sydney Rabbitohs",
+      "pdf_url": "thistlethwaitem_44p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Gifts",
+      "entity": "NRL",
+      "details": "2x Tickets to NRL Grand Final on 6/10/13 provided by the NRL",
+      "pdf_url": "thistlethwaitem_44p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Gifts",
+      "entity": "Forrest Gum",
+      "details": "1x Bottle of Grange Hermitage (1979) from Mr Forrest Gum on 7/9/13",
+      "pdf_url": "thistlethwaitem_44p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2014-01-28",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "1 Ticket to Westpac Corporate Suite on Day 2 of the 5th Ashes Test in Sydney on 4th January 2014",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-03-12",
+      "category": "Hospitality",
+      "entity": "Gift of Life Foundation",
+      "details": "1x ticket to corporate suite hosted by Gift of Life Foundation to the Rabbitohs v Roosters NRL game on 6 March 2014",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-04-22",
+      "category": "Hospitality",
+      "entity": "Gift of Life Foundation",
+      "details": "1x ticket to a Corporate Suite at the Rabbitohs v's St George game at the SCG on 5th April 2014 as a guest of the Gift of Life Foundation.",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-04-22",
+      "category": "Hospitality",
+      "entity": "Australian Turf Club",
+      "details": "2x tickets to Raceday Luncheon at Royal Randwick Racecourse on Saturday 19th April 2014 provided by Australian Turf Club",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-07-21",
+      "category": "Hospitality",
+      "entity": "Crown Resorts",
+      "details": "2x tickets to South Sydney Rabbitohs Gala Dinner on Thursday 10th July 2014 provided by Crown Resorts",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-07-21",
+      "category": "Hospitality",
+      "entity": "Opera Australia",
+      "details": "2 x tickets to Rigoletto on Saturday 12th July 2014 provided by Opera Australia.",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-08-07",
+      "category": "Other Assets",
+      "entity": "Allan Somerville",
+      "details": "1 Framed sketch by Allan Somerville of the Lifesavers Memorial at Coogee",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-08-28",
+      "category": "Other Assets",
+      "entity": "NSW Corrective Services",
+      "details": "1 x Aboriginal Painting provided by NSW corrective services at NAIDOC day on 22nd July 2014",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-08-28",
+      "category": "Hospitality",
+      "entity": "South Sydney Juniors Leagues Club",
+      "details": "2 x Tickets to a Corporate Suite at the Rabbitoh's vs Manly game at the SCG on 8th August 2014 as a guest of South Sydney Juniors Leagues Club",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-08-28",
+      "category": "Travel",
+      "entity": "National Aboriginal Sporting Chance Academy",
+      "details": "Accommodation, meals and transport supplied by the National Aboriginal Sporting Chance Academy from 10th - 16th August 2014 whilst volunteering as part of role model program at Niagra School.",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-10-10",
+      "category": "Hospitality",
+      "entity": "NRL",
+      "details": "2 x Tickets to a Corporate Suite at the Rabbitoh's v's Manly Preliminary Final at Allianz Stadium on the 12th September 2014 as a guest of the NRL",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-10-10",
+      "category": "Hospitality",
+      "entity": "NRL",
+      "details": "1 x Ticket to a Corporate Suite at the Rabbitoh's v's Sydney Roosters Preliminary Final at ANZ Stadium on the 26th September 2014 as a guest of the NRL",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-10-10",
+      "category": "Hospitality",
+      "entity": "NRL",
+      "details": "2 x Tickets to a Corporate Suite at the Rabbitoh's v's Canterbury Bulldogs Grand Final at ANZ Stadium on the 5th October 2014 as a guest of the NRL",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-10-17",
+      "category": "Hospitality",
+      "entity": "Crown Resorts",
+      "details": "2 x Tickets to the Red & Green Ball at Royal Randwick Ballroom on Friday 10th October 2014 as a guest of Crown Resorts.",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-11-07",
+      "category": "Travel",
+      "entity": "Global Alliance for Vaccines and Immunisation",
+      "details": "Flights, accommodation & meals to Laos from 06.10.14 to 10.10.14 provided by the Global Alliance for Vaccines and Immunisation",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-12-18",
+      "category": "Other Assets",
+      "entity": "Global Cantonese Association of Australia",
+      "details": "1 x Ornamental plate provided by the Global Cantonese Association of Australia on 17th December 2014",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-01-28",
+      "category": "Hospitality",
+      "entity": "Westpac Group",
+      "details": "Westpac Group - 7 January 2015. 1 Ticket to SCG Corporate Box for Australia v's India Test Match.",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-01-28",
+      "category": "Hospitality",
+      "entity": "Cricket NSW",
+      "details": "Cricket NSW- 29 December 2014. 4 Tickets to SCG for Sydney Sixers game.",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-03-30",
+      "category": "Travel",
+      "entity": "Spain-Australia Council Foundation",
+      "details": "Return business class flights to Madrid. Accommodation in Madrid and Seville including meals provided by the Spain-Australia Council Foundation (SACF) as part of their Australian Leaders Programme.",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-03-30",
+      "category": "Memberships",
+      "entity": "University of New South Wales International House Limited",
+      "details": "Company Membership to The University of New South Wales International House Limited",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-05-19",
+      "category": "Memberships",
+      "entity": "Scouts Australia South Metropolitan Region",
+      "details": "Acceptance of nomination for the position of Member on behalf of Scouts Australia South Metropolitan Region.",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-05-31",
+      "category": "Gifts",
+      "entity": "The Centenary of Anzac Jewish Program (COAJP)",
+      "details": "1 x Akubra Hat provided by The Centenary of Anzac Jewish Program (COAJP)",
+      "pdf_url": "thistlethwaitem_44p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2015-05-31",
+      "category": "Gifts",
+      "entity": "Taipei Economic and Cultural Office in Australia",
+      "details": "1 x hand painted tea set & plate provided by the Taipei Economic and Cultural Office in Australia",
+      "pdf_url": "thistlethwaitem_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2015-05-31",
+      "category": "Gifts",
+      "entity": "Taipei Economic and Cultural Office in Australia",
+      "details": "1 x ceramic vase provided by the Taipei Economic and Cultural Office in Australia",
+      "pdf_url": "thistlethwaitem_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2015-08-17",
+      "category": "Hospitality",
+      "entity": "South Sydney Rabbitohs",
+      "details": "3x tickets to the Churchill Club at the South Sydney Rabbitohs v Penrith game at ANZ Stadium on 2 August 2015 provided by South Sydney Rabbitohs.",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-08-17",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Qantas Flight upgrade Economy to Business class Sydney to Canberra flight on 9 August 2015.",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-08-17",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Investment property in Maroubra sold on 24 July 2015.",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-08-17",
+      "category": "Liabilities",
+      "entity": "ME Bank",
+      "details": "Mortgage on investment property in Maroubra with ME Bank discharged on 24 July 2015",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-08-17",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rental income on investment property in Maroubra",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-08-18",
+      "category": "Travel",
+      "entity": "Virgin",
+      "details": "Flight upgrade from Economy class to Business. Virgin flight Canberra to Sydney on 13 August 2015",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-10-16",
+      "category": "Travel",
+      "entity": "Singapore Government",
+      "details": "Return business class flights to Singapore, accommodation and meals provided by the Singapore Government as part of the Ministry of Foreign Affairs Distinguished Visitors Programme from Sunday 27th September to Thursday 1st October 2015",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-10-16",
+      "category": "Hospitality",
+      "entity": "NRL",
+      "details": "1 x Ticket to the NRL Grand Final on Sunday 4th October 2015 as a guest of the NRL.",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-10-16",
+      "category": "Hospitality",
+      "entity": "Crown Resorts",
+      "details": "1 x Ticket to the Red and Green Ball at the Royal Randwick Ballroom on Friday 9th October 2015 as a guest of Crown Resorts",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-02-23",
+      "category": "Hospitality",
+      "entity": "Westpac Group",
+      "details": "Westpac Group - 4th January 2016. 1x Ticket to sydney Cricket Ground Corporate Box for Australia v's West Indies Test Match.",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-03-08",
+      "category": "Hospitality",
+      "entity": "South Sydney Rabbitohs",
+      "details": "2 x Tickets to a Corporate Suite at the Roosters vs Rabbitohs game on Sunday 6th March 2016 at Allianz Stadium as a guest of South Sydney Rabbitohs",
+      "pdf_url": "thistlethwaitem_44p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/thistlethwaitem_44p.pdf"
+}

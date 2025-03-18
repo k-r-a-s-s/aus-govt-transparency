@@ -1,0 +1,431 @@
+{
+  "mp_name": "Michael McCormack",
+  "party": "N/A",
+  "electorate": "Riverina",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Shares",
+      "entity": "Myer",
+      "details": "Spouse/partner",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Not Applicable - Dependent children",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable - Spouse/partner",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable - Dependent children",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable - trustee capacity",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable - trustee capacity Spouse/partner",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable - trustee capacity Dependent children",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Real Estate",
+      "entity": "Wagga Wagga",
+      "details": "Residential",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Real Estate",
+      "entity": "Melbourne",
+      "details": "Investment",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Real Estate",
+      "entity": "Wagga Wagga",
+      "details": "Residential - Spouse/partner",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Real Estate",
+      "entity": "Kingston",
+      "details": "Investment - Spouse/partner",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Real Estate",
+      "entity": "Melbourne",
+      "details": "Investment - Spouse/partner",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Not Applicable - Dependent children",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Mortgage on Investment Property",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Mortgage on Investment Properties - Spouse/partner",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Not Applicable - Dependent children",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Not Applicable - Spouse/partner",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Not Applicable - Dependent children",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Savings Account",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Saving Account - Spouse/partner",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Not Applicable - Dependent children",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation - Spouse/partner",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Not Applicable - Dependent children",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Employment - Spouse/partner",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Not Applicable - Dependent children",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Gifts",
+      "entity": "Australian Subscription Television and Radio Association",
+      "details": "Annual renewal for Foxtel subscription from the Australian Subscription Television and Radio Association for the Wagga Wagga Electorate Office.",
+      "pdf_url": "mccormack_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Not Applicable - Spouse/partner",
+      "pdf_url": "mccormack_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Not Applicable - Dependent children",
+      "pdf_url": "mccormack_47p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Travel",
+      "entity": "Qantas, Virgin",
+      "details": "Complimentary membership of Qantas Chairman's Lounge, Complimentary membership of Virgin Club Lounge",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Travel",
+      "entity": "World Hellenic Inter-Parliamentary Association",
+      "details": "Partial reimbursement for accommodation, some food and partial reimbursement for air fares for World Hellenic Inter-Parliamentary Association trip to Greece - 14-24 July 2022",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Hospitality",
+      "entity": "Randwick Races",
+      "details": "Randwick Races ticket and hospitality - 2/11/2021",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Travel",
+      "entity": "Qantas, Virgin",
+      "details": "Complimentary membership of Qantas Chairman's Lounge, Complimentary membership of Virgin Club Lounge - Spouse/partner",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Hospitality",
+      "entity": "Randwick Races",
+      "details": "Randwick Races ticket and hospitality - 2/11/2021 - Spouse/partner",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Not Applicable - Dependent children",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Received a signed cricket bat by 1970's International Test Cricket Players on 4 March 2019 - DELETED",
+      "pdf_url": "mccormack_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-04-04",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's Lounge Membership",
+      "pdf_url": "mccormack_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2023-04-04",
+      "category": "Gifts",
+      "entity": "Virgin",
+      "details": "Virgin Beyond Lounge Membership",
+      "pdf_url": "mccormack_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2023-04-04",
+      "category": "Travel",
+      "entity": "Save the Children - Australia",
+      "details": "MP Learning Tour w/ travel, accommodation and hospitality in PNG, provided by Save the Children - Australia (from 15 to 20 Jan 2023)",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-04-04",
+      "category": "Travel",
+      "entity": "Save the Children - Australia",
+      "details": "Parliamentary (MP) Learning Tour to Kenya, Africa (3 Dec 2022 - 10 Dec 2022) hosted by Save the Children - Australia (Travel, hospitality and accommodation)",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-26",
+      "category": "Travel",
+      "entity": "Bill and Melinda Gates Foundation",
+      "details": "Travel provided to and from the United States of America (USA) by the Bill and Melinda Gates Foundation. Some accommodation, land transport and meals were provided by the Bill and Melinda Gates Foundation.",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-18",
+      "category": "Travel",
+      "entity": "World Hellenic Inter-Parliamentary Association",
+      "details": "Parliamentary (MP) Learning Tour to Greece (16 July to 25 July) hosted by the World Hellenic Inter-Parliamentary Association (part payment of travel, hospitality and accommodation)",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-18",
+      "category": "Other Interests",
+      "entity": "PADEE-WHIA",
+      "details": "I have been appointed co-chair (with Effie Triantafilopoulos of Canada) of the Communications Committee of the PADEE-WHIA (World Hellenic Inter-Parliamentary Association)",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-09",
+      "category": "Travel",
+      "entity": "UAE Government",
+      "details": "Sponsored travel provided by UAE Government to Abu Dhabi/Dubai, September 16-23, as part of Parliamentary delegation for self and spouse",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-09",
+      "category": "Gifts",
+      "entity": "Parliamentary Friends of the AFL",
+      "details": "Hawthorn Hawks 2023 team signed jersey unframed presented at the launch of Parliamentary Friends of the AFL on Tuesday 8 August 2023",
+      "pdf_url": "mccormack_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-11-13",
+      "category": "Travel",
+      "entity": "Australian American Leadership",
+      "details": "Sponsored travel provided by Australian American Leadership Youth Dialogue to Hawaii, October 24-29 2023 as part of Parliamentary delegation for self.",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-04-22",
+      "category": "Travel",
+      "entity": "Australia Tibet Council",
+      "details": "March 2024 - Return travel to Dharamsala, India. Travel, accommodation and meals were paid for by the Australia Tibet Council. Catherine McCormack - accommodation and meals were paid for by the Australia Tibet Council.",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-08-29",
+      "category": "Travel",
+      "entity": "Save the Children Fund",
+      "details": "Travel to Vanuatu for Michael McCormack provided by Save the Children Fund. 28 July to 3 August 2024. Accommodation and Meals were provided for both Michael and Catherine McCormack by Save the Children Fund.",
+      "pdf_url": "mccormack_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-11-13",
+      "category": "Gifts",
+      "entity": "Bunnings",
+      "details": "Tickets and hospitality at National Rugby League Grand Final in Sydney 6 October 2024 for two people provided by Bunnings.",
+      "pdf_url": "mccormack_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2024-11-13",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's Lounge Membership",
+      "pdf_url": "mccormack_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2024-11-13",
+      "category": "Travel",
+      "entity": "Embassy of Morocco",
+      "details": "Sponsored travel, meals and accommodation provided by the Embassy of Morocco to Morocco 26 October - 1 November 2024 as part of a Parliamentary Delegation for self and spouse.",
+      "pdf_url": "mccormack_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/mccormack_47p.pdf"
+}

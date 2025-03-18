@@ -1,0 +1,205 @@
+{
+  "mp_name": "Brian Keith Mitchell",
+  "party": "Unknown",
+  "electorate": "Lyons",
+  "disclosures": [
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "ATLAS IRON LIMITED",
+      "details": "FPO (AGO)",
+      "pdf_url": "mitchellb_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "WOOLWORTHS LIMITED",
+      "details": "FPO (WOW)",
+      "pdf_url": "mitchellb_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "SCENTRE GRP STAPLED",
+      "details": "(SCE)",
+      "pdf_url": "mitchellb_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "MYSTATE FPO",
+      "details": "(MYS)",
+      "pdf_url": "mitchellb_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "SCOTGOLD RESOURCES",
+      "details": "FPO (SEZ)",
+      "pdf_url": "mitchellb_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "WESTFIELD CORPSTAPLED",
+      "details": "(WFD)",
+      "pdf_url": "mitchellb_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "MYSTATE",
+      "details": "FPO (CMYS)",
+      "pdf_url": "mitchellb_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "PENNA, TASMANIA - RESIDENCE (MORTGAGED WITH MYSTATE)",
+      "pdf_url": "mitchellb_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "AS ABOVE, JOINTLY OWNED",
+      "pdf_url": "mitchellb_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "MYSTATE FINANCIAL",
+      "details": "MORTGAGE OF RESIDENCE",
+      "pdf_url": "mitchellb_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "MYSTATE FINANCIAL",
+      "details": "PERSONAL LOAN",
+      "pdf_url": "mitchellb_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "NISSAN FINANCIAL",
+      "details": "PERSONAL WAN/VEHICLE",
+      "pdf_url": "mitchellb_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "MYSTATE FINANCIAL",
+      "details": "OVERDRAFT ACCOUNT",
+      "pdf_url": "mitchellb_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "ANDREW SMITH",
+      "details": "PERSONAL LOAN",
+      "pdf_url": "mitchellb_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "MYSTATE FINANCIAL",
+      "details": "SAVINGS ACCOUNT / CHEQUE",
+      "pdf_url": "mitchellb_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "MYSTATE FINANCIAL",
+      "details": "OVERDRAFT ACCOUNT",
+      "pdf_url": "mitchellb_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "MYSTATE FINANCIAL",
+      "details": "OFFSET ACCOUNT",
+      "pdf_url": "mitchellb_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "BENDIGO BANK",
+      "details": "CHEQUE ACCOUNT",
+      "pdf_url": "mitchellb_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "BENDIGO BANK",
+      "details": "CHEQUE ACCOUNT",
+      "pdf_url": "mitchellb_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "COMMSEC/COMMONWEALTH BANK",
+      "details": "SHARES TRADING ACCOUNT",
+      "pdf_url": "mitchellb_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "SUPERANNUATION",
+      "pdf_url": "mitchellb_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-03",
+      "category": "Liabilities",
+      "entity": "PEPPER FINANCE",
+      "details": "FINANCE - PEPPER FINANCE",
+      "pdf_url": "mitchellb_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-03",
+      "category": "Liabilities",
+      "entity": "NISSAN FINANCE",
+      "details": "FINANCE - NISSAN FINANCE - DELETION",
+      "pdf_url": "mitchellb_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-06-26",
+      "category": "Liabilities",
+      "entity": "ANDREW SMITH",
+      "details": "PERSONAL LOAN - DELETION",
+      "pdf_url": "mitchellb_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-06-26",
+      "category": "Savings/Investments",
+      "entity": "MYSTATE FINANCIAL",
+      "details": "SAVINGS/CHEQUE ACCOUNT - ADDITION",
+      "pdf_url": "mitchellb_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-06-26",
+      "category": "Savings/Investments",
+      "entity": "MYSTATE FINANCIAL",
+      "details": "SAVINGS/CHEQUE ACCOUNT - ADDITION",
+      "pdf_url": "mitchellb_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-10-23",
+      "category": "Memberships",
+      "entity": "Virgin",
+      "details": "Lounge Membership",
+      "pdf_url": "mitchellb_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-10-23",
+      "category": "Memberships",
+      "entity": "Qantas",
+      "details": "Lounge Membership",
+      "pdf_url": "mitchellb_45p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/mitchellb_45p.pdf"
+}

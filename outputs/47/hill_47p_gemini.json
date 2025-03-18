@@ -1,0 +1,309 @@
+{
+  "mp_name": "Julian Hill",
+  "party": "N/A",
+  "electorate": "Bruce",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Trusts",
+      "entity": "Zenyellow Pty Ltd",
+      "details": "Director, Zenyellow Pty Ltd, Non-trading; Trustee Company of Damian Phillip Hill (DPH) F/T established and administered for DPH (deceased)",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Victoria, Port Melbourne; Previous/family residence",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Australian Capital Territory, Kingston; 52% share; Residential, investment",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Directorships",
+      "entity": "Zenyellow Pty Ltd",
+      "details": "Zenyellow Pty Ltd, See above (section 2)",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Residential Lease, Personal residence in Dandenong, Victoria; Owner, via Real Estate Agent",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Liabilities",
+      "entity": "Aussie Home Loans",
+      "details": "Mortgage",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Transaction account; Bank of Melbourne/St George Bank",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Savings/Investments",
+      "entity": "ANZ Bank",
+      "details": "Cheque Account (personal)",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Cash management and online saver accounts - for use in my capacity as executor/trustee of WL Hill Estate",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Savings/Investments",
+      "entity": "Teachers Mutual Bank",
+      "details": "Savings account",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Minor income from bank accounts/investments as set out above",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Gifts",
+      "entity": "Foxtel",
+      "details": "Complimentary annual Foxtel subscription for electorate office (ASTRA)",
+      "pdf_url": "hill_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Travel",
+      "entity": "Qantas and Virgin",
+      "details": "Hospitality/membership of Qantas and Virgin lounges",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Travel",
+      "entity": "Virgin",
+      "details": "Membership of Virgin lounge",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Memberships",
+      "entity": "IPAA (Vic)",
+      "details": "IPAA (Vic) - Member and Fellow",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Memberships",
+      "entity": "CPSU",
+      "details": "CPSU - Member",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Eden, NSW - 60% share; Investment",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Partner - Eden, NSW - 40% share; Investment",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Liabilities",
+      "entity": "Macquarie Bank Ltd",
+      "details": "Mortgage - Macquarie Bank Ltd",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Liabilities",
+      "entity": "Macquarie Bank Ltd",
+      "details": "Partner - Mortgage - Macquarie Bank Ltd",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Savings/Investments",
+      "entity": "Macquarie Bank Ltd",
+      "details": "Offset account - Macquarie Bank Ltd",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Savings/Investments",
+      "entity": "Macquarie Bank Ltd",
+      "details": "Partner - Offset account - Macquarie Bank Ltd",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Minor income from accounts/investments as altered",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Partner - minor income from accounts/investment as altered",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-10",
+      "category": "Liabilities",
+      "entity": "Aussie Home Loans",
+      "details": "Mortgage - Aussie Home Loans",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-10-20",
+      "category": "Gifts",
+      "entity": "Dataminr",
+      "details": "Receipt of a temporary 'First Alert' account from Dataminr considering its benefit for the work of MPs and Committees (value unknown)",
+      "pdf_url": "hill_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-11-13",
+      "category": "Income Sources",
+      "entity": "Spouse/partner",
+      "details": "Spouse/partner; Sole trader - Barrister at Victorian Bar",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-02-25",
+      "category": "Gifts",
+      "entity": "Peter Jackson and Mr Hussaini",
+      "details": "Two suits (1 black, 1 blue) and 2 x white shirts from Peter Jackson, plus a few bags of nuts and dried figs. Value unknown. Unsolicited gift from a constituent on 23 February 2023 that it became impossible to refuse without causing offence. Mr Hussaini has been requested and has agreed to not bring gifts in the future.",
+      "pdf_url": "hill_47p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2023-03-02",
+      "category": "Travel",
+      "entity": "Qantas Group",
+      "details": "One-way flight between Melbourne - Avalon to attend Avalon Airshow on 28 February 2023 - $92 (Qantas Group)",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-06-30",
+      "category": "Gifts",
+      "entity": "Hazara artist from Pakistan",
+      "details": "Framed artwork from exhibition by Hazara artist from Pakistan - mixed media, 36 x 31cm. Value unknown",
+      "pdf_url": "hill_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2023-11-16",
+      "category": "Travel",
+      "entity": "Ministry of Foreign Affairs Singapore",
+      "details": "I accepted an invitation from Singapore's Minister for Foreign Affairs, Dr Vivian Balakrishnan, to participate in the SR Nathan Fellowship from 31 October - 6 November 2023. The Ministry of Foreign Affairs Singapore provided flights, accommodation, ground transport and hospitality.",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-02-01",
+      "category": "Travel",
+      "entity": "Diageo Australia",
+      "details": "Attendance at the Australian Open men's final on Sunday 28 January 2024 (tickets and hospitality provided by Diageo Australia)",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-04-07",
+      "category": "Gifts",
+      "entity": "Mr Haidary",
+      "details": "Statue of me received from a constituent Mr Haidary. 56cm high. Seated on a 75cm high throne. Made in Iran. Value: Priceless.",
+      "pdf_url": "hill_47p.pdf",
+      "sub_category": "Decorative"
+    },
+    {
+      "declaration_date": "2024-04-18",
+      "category": "Travel",
+      "entity": "Taiwanese Ministry of Foreign Affairs",
+      "details": "Flights, accommodation, ground transport and hospitality provided by the Taiwanese Ministry of Foreign Affairs for bipartisan delegation visit to Taipei between 8-12 April 2024. Various courtesy gifts nominal value (teacup, glass, tea, coffee, sweets, key ring, pen and legislative yuan badge).",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-02",
+      "category": "Gifts",
+      "entity": "Vivek Singhal",
+      "details": "Small Anahata filigree swan, value unknown. (Courtesy gift by Vivek Singhal.)",
+      "pdf_url": "hill_47p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2024-08-15",
+      "category": "Trusts",
+      "entity": "Zenyellow Pty Ltd",
+      "details": "Removed entry",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-08-15",
+      "category": "Directorships",
+      "entity": "Zenyellow Pty Ltd",
+      "details": "Removed entry",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-08-15",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Cash management and online saver accounts - in my capacity as executor/trustee of WL Hill Estate",
+      "pdf_url": "hill_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-11-15",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Unsolicited upgrade at the gate on oversold flight - Qantas (Melbourne to Canberra, 12 November 2024)",
+      "pdf_url": "hill_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/hill_47p.pdf"
+}

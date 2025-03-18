@@ -1,0 +1,655 @@
+{
+  "mp_name": "Andrew Gee",
+  "party": "Unknown",
+  "electorate": "Calare",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Country Mile Superannuation Pty Ltd",
+      "details": "Self",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Country Mile Superannuation Pty Ltd",
+      "details": "Spouse/partner",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Trusts",
+      "entity": "ACG Superannuation Fund",
+      "details": "Director and shareholder of Country Mile Superannuation Pty Ltd which is trustee of ACG Superannuation Fund. Self. Self Managed Super Fund (SMSF)",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Trusts",
+      "entity": "ACG Superannuation Fund",
+      "details": "Director and shareholder of Country Mile Superannuation Pty Ltd which is trustee of ACG Superannuation Fund. Spouse/partner. SMSF",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Sydney, Rental, Self",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Orange, Home, Spouse/partner",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Orange, Rental, Spouse/partner",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Directorships",
+      "entity": "Country Mile Superannuation Pty Ltd",
+      "details": "SMSF, Self",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Directorships",
+      "entity": "Country Mile Superannuation Pty Ltd",
+      "details": "SMSF, Spouse/partner",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Mortgage on property, Self",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Mortgage on home, Self",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Liabilities",
+      "entity": "ANZ",
+      "details": "Mortgage on property, Self",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Mortgage on property, Spouse/partner",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Mortgage on home, Spouse/partner",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Liabilities",
+      "entity": "ANZ",
+      "details": "Mortgage on property, Spouse/partner",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "ANZ and Commonwealth Banks",
+      "details": "Savings, mortgage and SMSF accounts, Self",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "ANZ and Commonwealth Banks",
+      "details": "Savings, mortgage and SMSF accounts, Spouse/partner",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "ANZ and Commonwealth Banks",
+      "details": "Savings, Dependent children",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Assets held through operation of SMSF referrred to above Legal Super and associated benefits, Self",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Assets held through operation of SMSF referred to above, Legal Super and associated benefits, AMP Life Insurance Policy, Spouse/partner",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from property rental referred to above, Self",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from employment, income from property rental referred to above, Spouse/partner",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "Oberon Tarana Heritage Railway Inc",
+      "details": "Patron, Self",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "Mid-State Sub Branch of the National Servicemen's Association of Australia",
+      "details": "Patron, Self",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "Lithgow RSL Sub Branch",
+      "details": "Patron, Self",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "Manildra Pastoral Agricultural Association",
+      "details": "Patron, Self",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "Canowindra Bowling Club",
+      "details": "Member, Self",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "The Greenhouse of Orange at Orange Ex-Services Club",
+      "details": "Member, Self",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "Lions Club of Orange",
+      "details": "Member, Self",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "Orange Health Service Auxilliary",
+      "details": "Patron, Self",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "Orange Golf Club t/as Duntryleague",
+      "details": "Honorary Member, Self",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "Orange & District Pistol Club",
+      "details": "Patron, Self",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "Bathurst RSL Club",
+      "details": "Member, Self",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Pass/ticket to Bathurst Six Hour race and council pit suite on 21 April 2019 provided by Bathurst Regional Council, value unknown",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "NSW Bar Association",
+      "details": "Member",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "Australian Bar Association",
+      "details": "Member",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-08-19",
+      "category": "Shares",
+      "entity": "ACGee Pty Ltd",
+      "details": "Self and Spouse",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-08-19",
+      "category": "Directorships",
+      "entity": "ACGee Pty Ltd",
+      "details": "Self and Spouse, part of SMSF",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-08-19",
+      "category": "Gifts",
+      "entity": "Virgin Australia Club",
+      "details": "Membership",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-11-08",
+      "category": "Gifts",
+      "entity": "Bathurst Regional Council",
+      "details": "Two passes to 2019 Bathurst 1000 including race lunch in council suite on Sunday 13th of October 2019 provided by Bathurst Regional Council estimated value $225 each ($450 for both).",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2019-12-23",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Self, Spuse: Rental property located in Sydney held via SMSF company",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-23",
+      "category": "Liabilities",
+      "entity": "Liberty Financial",
+      "details": "Self, Spouse, Mortgage to Liberty Financial on property held via SMSF referred ot above",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-02-05",
+      "category": "Gifts",
+      "entity": "Bathurst Regional Council",
+      "details": "two passes/tickets to Bathurst 12 Hour race and council pit suite on 2/2/20 provided by Bathurst Regional Council, value unkown",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2020-02-05",
+      "category": "Gifts",
+      "entity": "Tennis Australia/Australian Open",
+      "details": "- two passes/tickets to session of Australian Open Tennis semi-finals - not used/apology sent - provided by Tennis Australia/Australian Open, value unkown",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2020-03-16",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Small Ornament from Parliamentary delegation of Cyprus, value unknown",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Decorative"
+    },
+    {
+      "declaration_date": "2020-03-16",
+      "category": "Gifts",
+      "entity": "New Caledonia trade delegation",
+      "details": "Two pens and case/cover from New Caledonia trade delegation, value unknown",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2020-03-16",
+      "category": "Gifts",
+      "entity": "PNG delegation",
+      "details": "Small framed PNG momento from PNG delegation, value unknown",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2020-03-16",
+      "category": "Memberships",
+      "entity": "NSW Rural Fire Service",
+      "details": "Member",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-16",
+      "category": "Memberships",
+      "entity": "Molong Bowling Club",
+      "details": "Social Member",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-25",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Self, Spouse. Children at university, child at independent school, child at public school.",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-04-28",
+      "category": "Memberships",
+      "entity": "Mid State Sub-branch of National Servicemen's Association of Australia",
+      "details": "Patron/member 2020",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-06-25",
+      "category": "Gifts",
+      "entity": "Central West Disc Golf",
+      "details": "NSW Open frisbee and two stubbie holders from Central West Disc Golf",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2020-06-25",
+      "category": "Gifts",
+      "entity": "Swisse Wellness Pty Ltd",
+      "details": "Plastic container of Apple Cider Vinegar tablets from Swisse Wellness Pty Ltd",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Electronics"
+    },
+    {
+      "declaration_date": "2020-06-25",
+      "category": "Memberships",
+      "entity": "NSW Rural Fire Service Association, Orange Community Broadcasters, Orange Emulators Rugby",
+      "details": "Member",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-31",
+      "category": "Gifts",
+      "entity": "Watershed Landcare",
+      "details": "Two jars of honey from Watershed Landcare value unknown",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2020-07-31",
+      "category": "Gifts",
+      "entity": "Johnson & Johnson",
+      "details": "Hand cream and Band Aid isopropyl alcohol from Johnson & Johnson value unknown",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2020-07-31",
+      "category": "Gifts",
+      "entity": "Foxtel",
+      "details": "Office Foxtel service from Foxtel value unknown",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2020-07-31",
+      "category": "Gifts",
+      "entity": "Australian Made Campaign Limited",
+      "details": "Box of several assorted Australian made products from Australian Made Campaign Limited value unknown",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2020-07-31",
+      "category": "Gifts",
+      "entity": "YouTube/Google/Allure EPM",
+      "details": "Curry mix, towel, cup, book from YouTube/Google/Allure EPM value unknown",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2020-07-31",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Self: Caravan, precious metal",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-31",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Member NSW Bar Association. Self",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-31",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Member Australian Bar Association. Self",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-11-16",
+      "category": "Gifts",
+      "entity": "Bathurst Regional Council",
+      "details": "Two passes and luncheon/access at council suite for Bathurst 1000 race, from Bathurst Regional Council, value unknown",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2021-01-27",
+      "category": "Gifts",
+      "entity": "Mia Garlick/Facebook",
+      "details": "small box of assorted items",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2021-01-27",
+      "category": "Gifts",
+      "entity": "Trojan Trays",
+      "details": "mug",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-01-27",
+      "category": "Gifts",
+      "entity": "Kate Gadsby",
+      "details": "Book \u2013 Convicts Capitalists and Corruption",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2021-01-27",
+      "category": "Gifts",
+      "entity": "Senator Perin Davey",
+      "details": "3 calendars",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2021-01-27",
+      "category": "Gifts",
+      "entity": "RDA Central West/Sam Harma",
+      "details": "tin of chocolates",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2021-01-27",
+      "category": "Gifts",
+      "entity": "Kandos Museum",
+      "details": "tea towel",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-01-27",
+      "category": "Gifts",
+      "entity": "Mackillop College Bathurst",
+      "details": "2020 year book",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2021-01-27",
+      "category": "Gifts",
+      "entity": "Charlie and Brenda Cassido /Australian Queen Bee Line",
+      "details": "bag of honey products",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-01-27",
+      "category": "Gifts",
+      "entity": "Kids Alive Do the Five",
+      "details": "1 DVD, 3 small books",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2021-01-27",
+      "category": "Gifts",
+      "entity": "Stephen Lesslie",
+      "details": "jar of honey",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-01-27",
+      "category": "Gifts",
+      "entity": "Gut Gaeta",
+      "details": "fruit",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-01-27",
+      "category": "Gifts",
+      "entity": "Lion",
+      "details": "two cases of beer",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2021-01-27",
+      "category": "Gifts",
+      "entity": "Bob Katter",
+      "details": "bag of products from North North Queensland primary producers",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-01-27",
+      "category": "Gifts",
+      "entity": "Swisse",
+      "details": "vitamins multipack, facemask, and mist",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-01-27",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Bayer Australia and ANZ + JB HiFi Berronca",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-01-27",
+      "category": "Gifts",
+      "entity": "Council of small Business organisations Australia",
+      "details": "1 bottle of sparkling Riesling",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2021-01-27",
+      "category": "Gifts",
+      "entity": "The Orange App",
+      "details": "bottle of self-labelled wine",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2021-01-27",
+      "category": "Gifts",
+      "entity": "Australian Made Campaign Limited and Australian Chamber of Commerce and Industry",
+      "details": "showbag of small products such as toothpaste and lip balm",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-01-27",
+      "category": "Memberships",
+      "entity": "Orange Community Broadcasters",
+      "details": "Self: Member",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-03-23",
+      "category": "Gifts",
+      "entity": "Bathurst Regional Council",
+      "details": "- One pass and luncheon/access (Sunday) at council suite for Bathurst 500 event/races, from Bathurst Regional Council, value unknown",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2021-03-23",
+      "category": "Other Interests",
+      "entity": "NSW Nationals/Lithgow Branch",
+      "details": "- Use of Nationals office, Lithgow when required, from NSW Nationals/Lithgow Branch, value unknown",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-10-08",
+      "category": "Memberships",
+      "entity": "Orange Show Society",
+      "details": "Patron",
+      "pdf_url": "gee_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-01-04",
+      "category": "Gifts",
+      "entity": "Bathurst Regional Council",
+      "details": "Three passes and luncheon/access at council suite for Bathurst 1000 race from Bathurst Regional Council, value unknown.",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2022-01-04",
+      "category": "Gifts",
+      "entity": "Hindu Council of Australia",
+      "details": "Framed photo of cenotaph from the Hindu Council of Australia, value unknown",
+      "pdf_url": "gee_46p.pdf",
+      "sub_category": "Other Gifts"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/gee_46p.pdf"
+}

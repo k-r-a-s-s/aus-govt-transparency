@@ -1,0 +1,268 @@
+{
+  "mp_name": "Emma Husar",
+  "party": "N/A",
+  "electorate": "Lindsay",
+  "disclosures": [
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "WESTPAC",
+      "details": "Personal Loan",
+      "pdf_url": "husare_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "ANZ",
+      "details": "Credit Card",
+      "pdf_url": "husare_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "HSBC",
+      "details": "Credit Card",
+      "pdf_url": "husare_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "National Press Club",
+      "details": "N/A",
+      "pdf_url": "husare_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Qantas Chairman's Lounge",
+      "details": "N/A",
+      "pdf_url": "husare_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Virgin 'the club'",
+      "details": "Membership",
+      "pdf_url": "husare_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-08-28",
+      "category": "Memberships",
+      "entity": "Qantas Chairman's Lounge",
+      "details": "N/A",
+      "pdf_url": "husare_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-08-28",
+      "category": "Memberships",
+      "entity": "Virgin Club",
+      "details": "N/A",
+      "pdf_url": "husare_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-08-28",
+      "category": "Memberships",
+      "entity": "ASTRA",
+      "details": "Complimentary Foxtel Subscription provided to my electorate office via subscription TV representative group ASTRA. This subscription was inherited from the former member of Lindsay",
+      "pdf_url": "husare_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-08-28",
+      "category": "Memberships",
+      "entity": "Penrith Valley Chamber of Commerce",
+      "details": "N/A",
+      "pdf_url": "husare_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-08-28",
+      "category": "Memberships",
+      "entity": "Penrith CBD Corp",
+      "details": "N/A",
+      "pdf_url": "husare_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-08-28",
+      "category": "Memberships",
+      "entity": "Zoo Fitness",
+      "details": "N/A",
+      "pdf_url": "husare_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-08-28",
+      "category": "Memberships",
+      "entity": "Nepean Valley Zonta Club",
+      "details": "N/A",
+      "pdf_url": "husare_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-08-28",
+      "category": "Memberships",
+      "entity": "Day of the Roses - The Granville Train Disaster",
+      "details": "N/A",
+      "pdf_url": "husare_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-12-13",
+      "category": "Memberships",
+      "entity": "Zoo Fitness",
+      "details": "$700.00",
+      "pdf_url": "husare_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-12-13",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Upgraded to business class by Qantas - Sydney to Melbourne (unknown)",
+      "pdf_url": "husare_45p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2017-12-13",
+      "category": "Gifts",
+      "entity": "Nepean Food Services",
+      "details": "Gluten Free meals - $200.00",
+      "pdf_url": "husare_45p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2017-12-13",
+      "category": "Gifts",
+      "entity": "Touched By Olivia",
+      "details": "RAOK - $200.00",
+      "pdf_url": "husare_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2017-12-13",
+      "category": "Hospitality",
+      "entity": "ATC",
+      "details": "Guest at ATC Board of Directors Lunch $150.00",
+      "pdf_url": "husare_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-12-13",
+      "category": "Hospitality",
+      "entity": "Matlida's International",
+      "details": "Guest at Matlida's International - Pepper Stadium Penrith $150.00",
+      "pdf_url": "husare_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-12-13",
+      "category": "Gifts",
+      "entity": "The Bar",
+      "details": "Hair and Makeup - $150.00",
+      "pdf_url": "husare_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2017-12-13",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Sydney Kings Tickets $150.00 per game",
+      "pdf_url": "husare_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2018-01-24",
+      "category": "Gifts",
+      "entity": "Australian Food and Grocery Council",
+      "details": "Gift box of small items $50.00",
+      "pdf_url": "husare_45p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2018-01-24",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Bottle of red wine - Complimentary received from Qantas(price unknown)",
+      "pdf_url": "husare_45p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2018-01-24",
+      "category": "Gifts",
+      "entity": "Screen Australia",
+      "details": "Several DVDs received from Screen Australia",
+      "pdf_url": "husare_45p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2018-01-24",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "2 x tickets to Western Sydney Wanders match - $150.00",
+      "pdf_url": "husare_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2018-01-24",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "3 x Qantas Joey Club - Complimentary",
+      "pdf_url": "husare_45p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2018-06-17",
+      "category": "Gifts",
+      "entity": "Parliament House",
+      "details": "Telstra T Box - Received in Parliament House",
+      "pdf_url": "husare_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2018-06-17",
+      "category": "Hospitality",
+      "entity": "Hotel Grand Chancellor",
+      "details": "Room upgrade - Hotel Grand Chancellor (Hotel instigated)",
+      "pdf_url": "husare_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-06-17",
+      "category": "Gifts",
+      "entity": "Miles Franklin Literary award event.",
+      "details": "No Move Boats by Felicity Castagna-book from - Miles Franklin Literary award event.",
+      "pdf_url": "husare_45p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2018-08-31",
+      "category": "Memberships",
+      "entity": "Australian Workers Union",
+      "details": "Membership to Australian Workers Union Paid by Member",
+      "pdf_url": "husare_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-08-31",
+      "category": "Memberships",
+      "entity": "Cockfighter's Ghost Wine Club",
+      "details": "Membership to Cockfighter's Ghost Wine Club $275.40 - Paid for by Member",
+      "pdf_url": "husare_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-08-31",
+      "category": "Gifts",
+      "entity": "Panthers",
+      "details": "Panthers vs Warriors Tickets Gift from Panthers",
+      "pdf_url": "husare_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2018-08-31",
+      "category": "Gifts",
+      "entity": "Diamonds Netball team",
+      "details": "Telstra T Box Gift from Diamonds Netball team",
+      "pdf_url": "husare_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2018-08-31",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Upgrade to flight 14 June Melbourne to Sydney Qantas initiated upgrade",
+      "pdf_url": "husare_45p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/husare_45p.pdf"
+}

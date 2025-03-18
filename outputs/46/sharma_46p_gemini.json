@@ -1,0 +1,632 @@
+{
+  "mp_name": "Dave Sharma",
+  "party": "Unknown",
+  "electorate": "Wentworth",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Ardent Leisure Group (ALG)",
+      "details": "Shareholding",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Appen Limited (APX)",
+      "details": "Shareholding",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Bisalloy Steel (BIS)",
+      "details": "Shareholding",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Bluescope Steel (BSL)",
+      "details": "Shareholding",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Catapult Group (CAT)",
+      "details": "Shareholding",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Coles Group (COL)",
+      "details": "Shareholding",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Kelly Partners Group (KPG)",
+      "details": "Shareholding",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Macquarie Group (MQG)",
+      "details": "Shareholding",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Macquarie Group Capital Notes (MQGPC)",
+      "details": "Shareholding",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Myer Holdings (MYR)",
+      "details": "Shareholding",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "National Australia Bank (NAB)",
+      "details": "Shareholding",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Platinum Asset (PTM)",
+      "details": "Shareholding",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Westpac Banking (WBC)",
+      "details": "Shareholding",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Wesfarmers Limited (WES)",
+      "details": "Shareholding",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Wisetech Global (WTC)",
+      "details": "Shareholding",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Xero (XRO)",
+      "details": "Shareholding",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Zip Co (Z1P)",
+      "details": "Shareholding",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Afterpay Touch (APT)",
+      "details": "Shareholding",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Argo Investments (ARG)",
+      "details": "Shareholding",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Blue Sky (BLA)",
+      "details": "Shareholding",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Cochlear (COH)",
+      "details": "Shareholding",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "CSL (CSL)",
+      "details": "Shareholding",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "McGrath Ltd (MEA)",
+      "details": "Shareholding",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Parazero (PRZ)",
+      "details": "Shareholding",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Roots (ROO)",
+      "details": "Shareholding",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "Sharma Family Trust",
+      "details": "Family trust, Beneficial interest: Dave Sharma, Rachel Lord",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "Lord Family Trust",
+      "details": "Family trust, Beneficial interest: Dave Sharma, Rachel Lord",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "Barton ACT",
+      "details": "Residential and Investment",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "Brisbane QLD",
+      "details": "Investment",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "Turramurra NSW",
+      "details": "Residential",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Directorships",
+      "entity": "Shekel Brainweigh Ltd (SBW)",
+      "details": "Manufacturer of digital scales and load-cells",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Directorships",
+      "entity": "Sharma Family Company Ptd Ltd",
+      "details": "Trustee for family trust",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Partnerships",
+      "entity": "Kelly Partners (Government, Incentives and Innovation)",
+      "details": "49% partnership interest through Sharma Family Company Ptd Ltd, Consulting and advisory services - INACTIVE.",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Mortgage on residential/investment property",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Mortgage on investment property Brisbane QLD",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Credit Card",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "28 Degrees",
+      "details": "Credit Card",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "Kelly and Partners Opportunities Fund",
+      "details": "Type of investment",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Cheque account",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings account",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Transaction account",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Savings accounts",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Superannuation account",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-01",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Two tickets to NRL semi-final Easts vs Melbourne at SCG, 28 Sep 2019",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-04",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Two tickets to Lowy annual speech, Sydney Town Hall",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-11-25",
+      "category": "Shares",
+      "entity": "Prospa",
+      "details": "Purchase of Prospa shares",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-11-25",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 tickets to U2 concert",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-11-25",
+      "category": "Memberships",
+      "entity": "Cruising Yacht Club of Australia",
+      "details": "Complementary membership of Cruising Yacht Club of Australia",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-01-23",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Family ticket to Shrek: The Musical",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-01-23",
+      "category": "Directorships",
+      "entity": "Shekel Brainweigh Ltd (SBW)",
+      "details": "Resignation from board of SBW",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-27",
+      "category": "Shares",
+      "entity": "QAN",
+      "details": "Purchase of shares in family trust",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-27",
+      "category": "Shares",
+      "entity": "SYD",
+      "details": "Purchase of shares in family trust",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-27",
+      "category": "Shares",
+      "entity": "MQG",
+      "details": "Purchase of shares in family trust",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-27",
+      "category": "Shares",
+      "entity": "ANZ",
+      "details": "Purchase of shares in family trust",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-06-30",
+      "category": "Shares",
+      "entity": "CSL",
+      "details": "Purchase of shares",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-06-30",
+      "category": "Shares",
+      "entity": "APX",
+      "details": "Purchase of shares",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-06-30",
+      "category": "Shares",
+      "entity": "MQG",
+      "details": "Purchase of shares",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-06-30",
+      "category": "Shares",
+      "entity": "APT",
+      "details": "Sale of shares",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-06-30",
+      "category": "Shares",
+      "entity": "Z1P",
+      "details": "Sale of shares",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-06-30",
+      "category": "Shares",
+      "entity": "MEA",
+      "details": "Sale of shares",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-06-30",
+      "category": "Shares",
+      "entity": "KPG",
+      "details": "Sale of shares",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-06-30",
+      "category": "Shares",
+      "entity": "MYR",
+      "details": "Sale of shares",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-06-30",
+      "category": "Shares",
+      "entity": "CAT",
+      "details": "Sale of shares",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-06-30",
+      "category": "Shares",
+      "entity": "BSL",
+      "details": "Sale of shares",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-06-30",
+      "category": "Liabilities",
+      "entity": "Westpac Bank",
+      "details": "Self/Spouse \u2013 Mortgage on residential property",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-06-30",
+      "category": "Investments",
+      "entity": "Wingate Investment Partners Trust No 3",
+      "details": "Family Trust",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-06-30",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Self/Spouse \u2013 Savings and offset accounts (linked to mortgage)",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-06-30",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Self/spouse - discharge of CBA mortgages",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-06-30",
+      "category": "Investments",
+      "entity": "Kelly and Partners Opportunities Fund",
+      "details": "Self/Partner - wind down of Kelly and Partners Opportunities Fund",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-08-26",
+      "category": "Shares",
+      "entity": "FANG",
+      "details": "Acquisition of FANG, NEA, APT shares.",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-08-26",
+      "category": "Shares",
+      "entity": "NEA",
+      "details": "Acquisition of FANG, NEA, APT shares.",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-08-26",
+      "category": "Shares",
+      "entity": "APT",
+      "details": "Acquisition of FANG, NEA, APT shares.",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-01-25",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Two tickets to SCG for second day of cricket test match vs India.",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-02-15",
+      "category": "Real Estate",
+      "entity": "Turramurra NSW",
+      "details": "Disposal of property",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-02-18",
+      "category": "Investments",
+      "entity": "Perennial Fund",
+      "details": "Perennial Fund",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-02-18",
+      "category": "Investments",
+      "entity": "Our Innovation Fund",
+      "details": "Our Innovation Fund",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-02-18",
+      "category": "Investments",
+      "entity": "Kelly Partners Special Opportunities Fund",
+      "details": "Kelly Partners Special Opportunities Fund",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-02-18",
+      "category": "Investments",
+      "entity": "Netwealth Equities Fund",
+      "details": "Netwealth Equities Fund",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-03-24",
+      "category": "Real Estate",
+      "entity": "Brisbane",
+      "details": "Disposal of investment property in Brisbane.",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-05-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Two tickets to opening night of Hamilton (the musical) at Sydney Lyric Theatre",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-05-03",
+      "category": "Real Estate",
+      "entity": "Centennial Park NSW",
+      "details": "Purchase of residential property in Centennial Park NSW",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-05-03",
+      "category": "Real Estate",
+      "entity": "Paddington NSW",
+      "details": "Disposal of residential property in Paddington NSW",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-06-04",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 x Chairman's Club function at SCG: Swans vs Carlton: Sun 30 May",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-06-15",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 x tickets to GOLD Sydney Children's Hospital fundraising dinner",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-08",
+      "category": "Shares",
+      "entity": "VanEck Global Clean Energy ETF (ASX: CLNE)",
+      "details": "Purchase of shares in VanEck Global Clean Energy ETF (ASX: CLNE) and ETFS Battery Tech & Lithium ETF (ASX: ACDC)",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-08",
+      "category": "Shares",
+      "entity": "ETFS Battery Tech",
+      "details": "Purchase of shares in VanEck Global Clean Energy ETF (ASX: CLNE) and ETFS Battery Tech & Lithium ETF (ASX: ACDC)",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-08",
+      "category": "Shares",
+      "entity": "Lithium ETF (ASX: ACDC)",
+      "details": "Purchase of shares in VanEck Global Clean Energy ETF (ASX: CLNE) and ETFS Battery Tech & Lithium ETF (ASX: ACDC)",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-02-23",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Tickets to Harry Potter and the Cursed Child",
+      "pdf_url": "sharma_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-02-23",
+      "category": "Real Estate",
+      "entity": "Barton ACT",
+      "details": "Barton ACT investment property",
+      "pdf_url": "sharma_46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/sharma_46p.pdf"
+}

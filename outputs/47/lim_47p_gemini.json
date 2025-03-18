@@ -1,0 +1,189 @@
+{
+  "mp_name": "Sam Lim",
+  "party": "Unknown",
+  "electorate": "TANGNEY",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-08",
+      "category": "Shares",
+      "entity": "Carnegie Clean Energy Limited",
+      "details": "Shareholding",
+      "pdf_url": "lim_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-08",
+      "category": "Shares",
+      "entity": "Living Cell Technologies Limited",
+      "details": "Shareholding",
+      "pdf_url": "lim_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-08",
+      "category": "Shares",
+      "entity": "White Cliff Minerals Limited",
+      "details": "Shareholding",
+      "pdf_url": "lim_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-08",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "lim_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-08",
+      "category": "Real Estate",
+      "entity": "Bedfordale",
+      "details": "Residential property",
+      "pdf_url": "lim_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-08",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "lim_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-08",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "lim_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-08",
+      "category": "Liabilities",
+      "entity": "ANZ Bank",
+      "details": "Mortgage",
+      "pdf_url": "lim_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-08",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "lim_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-08",
+      "category": "Savings/Investments",
+      "entity": "ANZ Bank",
+      "details": "Saving account",
+      "pdf_url": "lim_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-08",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Car",
+      "pdf_url": "lim_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-08",
+      "category": "Income Sources",
+      "entity": "West State Super",
+      "details": "Transition to Retirement Benefit",
+      "pdf_url": "lim_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-08",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "lim_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-08",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "lim_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-08",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "lim_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-08",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "lim_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-06",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Membership of the Qantas Chairman's lounge.",
+      "pdf_url": "lim_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2023-11-06",
+      "category": "Gifts",
+      "entity": "Foxtel",
+      "details": "Foxtel -subscription for the electorate",
+      "pdf_url": "lim_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-11-06",
+      "category": "Gifts",
+      "entity": "Perth Airport",
+      "details": "Complimentary Perth Airport Car access card.",
+      "pdf_url": "lim_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-11-06",
+      "category": "Gifts",
+      "entity": "Virgin Australia",
+      "details": "Membership of the velocity beyond lounge provide by Virgin Australia.",
+      "pdf_url": "lim_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2025-03-07",
+      "category": "Real Estate",
+      "entity": "Johor, Malaysia",
+      "details": "Family home",
+      "pdf_url": "lim_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-03-07",
+      "category": "Income Sources",
+      "entity": "Australian Super",
+      "details": "Australian Super Transition to Retirement Benefit",
+      "pdf_url": "lim_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-03-07",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Car",
+      "pdf_url": "lim_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-03-07",
+      "category": "Income Sources",
+      "entity": "West State Super",
+      "details": "West State Super Transition to Retirement Benefit",
+      "pdf_url": "lim_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-03-07",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Car - spouse",
+      "pdf_url": "lim_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/lim_47p.pdf"
+}

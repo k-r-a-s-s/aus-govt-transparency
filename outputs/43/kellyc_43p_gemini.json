@@ -1,0 +1,114 @@
+{
+  "mp_name": "Craig Kelly",
+  "party": "Unknown",
+  "electorate": "Hughes",
+  "disclosures": [
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Illawong, NSW, Residental",
+      "pdf_url": "kellyc_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Housing Loan",
+      "pdf_url": "kellyc_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Line of Credit provided to motorolk",
+      "pdf_url": "kellyc_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Housing Loan",
+      "pdf_url": "kellyc_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Line of Credit pranded to DVK Intern",
+      "pdf_url": "kellyc_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Savings Account",
+      "pdf_url": "kellyc_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "St. George Bank",
+      "details": "Savings Account",
+      "pdf_url": "kellyc_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Super annuation, Private Moto Vechicle",
+      "pdf_url": "kellyc_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Income Sources",
+      "entity": "Private Company",
+      "details": "Part Time Employment, Carers Allowance",
+      "pdf_url": "kellyc_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Tickets to NRL Semi-Final St. George vs Wests Tigers",
+      "pdf_url": "kellyc_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-11-18",
+      "category": "Other Interests",
+      "entity": "ASTRA",
+      "details": "ASTRA complimentary service in Electoral Office.",
+      "pdf_url": "kellyc_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-26",
+      "category": "Travel",
+      "entity": "Government of Taiwan",
+      "details": "Flight Sydney to Taipei 18 Nov 2012",
+      "pdf_url": "kellyc_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-26",
+      "category": "Travel",
+      "entity": "Government of Taiwan",
+      "details": "Flight Taipei to Kinmen (return) 18 Nov 2012",
+      "pdf_url": "kellyc_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-26",
+      "category": "Hospitality",
+      "entity": "Government of Taiwan",
+      "details": "Accommodation, Transport & Hospitality 18-21 Nov 2012",
+      "pdf_url": "kellyc_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-26",
+      "category": "Travel",
+      "entity": "Government of Taiwan",
+      "details": "Flight Taipei to Sydney 21 Nov 2012",
+      "pdf_url": "kellyc_43p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/43/kellyc_43p.pdf"
+}

@@ -1,0 +1,165 @@
+{
+  "mp_name": "Alicia Payne",
+  "party": "Unknown",
+  "electorate": "Canberra",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Woolworths Ltd",
+      "details": "Shareholding in Woolworths Ltd",
+      "pdf_url": "payne_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Solarshare Community Solar Farm",
+      "details": "Shareholding in Solarshare Community Solar Farm",
+      "pdf_url": "payne_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "No beneficial interest held in any trust",
+      "pdf_url": "payne_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not a trustee of any trust",
+      "pdf_url": "payne_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Real Estate",
+      "entity": "O'Connor, ACT",
+      "details": "Family home",
+      "pdf_url": "payne_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Real Estate",
+      "entity": "O'Connor, ACT",
+      "details": "Family home of spouse/partner",
+      "pdf_url": "payne_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "No registered directorships of companies",
+      "pdf_url": "payne_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "No partnerships",
+      "pdf_url": "payne_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Liabilities",
+      "entity": "ANZ Bank",
+      "details": "Home Loan for family home",
+      "pdf_url": "payne_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Liabilities",
+      "entity": "ANZ Bank",
+      "details": "Home loan for family home of spouse/partner",
+      "pdf_url": "payne_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Transaction account, two Goal Saver Accounts and a Netsaver Account",
+      "pdf_url": "payne_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "ANZ Bank",
+      "details": "Offset Account on Home Loan",
+      "pdf_url": "payne_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "UBank",
+      "details": "Account for electorate allowance",
+      "pdf_url": "payne_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "ANZ Bank",
+      "details": "Offset Account on Home Loan of spouse/partner",
+      "pdf_url": "payne_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Boat (Tinny approx value $9K) of spouse/partner",
+      "pdf_url": "payne_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Salary - employment",
+      "pdf_url": "payne_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Salary - employment of spouse/partner",
+      "pdf_url": "payne_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Gifts",
+      "entity": "Virgin Australia Club",
+      "details": "Virgin Australia Club Membership",
+      "pdf_url": "payne_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Gifts",
+      "entity": "Virgin Australia Club",
+      "details": "Virgin Australia Club Membership of spouse/partner",
+      "pdf_url": "payne_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "Community & Public Sector Union",
+      "details": "Member of Community & Public Sector Union",
+      "pdf_url": "payne_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "EMILY's List Australia",
+      "details": "Member of EMILY's List Australia",
+      "pdf_url": "payne_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "No other interests",
+      "pdf_url": "payne_46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/payne_46p.pdf"
+}

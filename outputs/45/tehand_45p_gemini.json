@@ -1,0 +1,432 @@
+{
+  "mp_name": "Daniel Thomas Tehan",
+  "party": "Unknown",
+  "electorate": "Wannon",
+  "disclosures": [
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Shares",
+      "entity": "TehanTrade",
+      "details": "Self",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Shares",
+      "entity": "Colonial Mutual",
+      "details": "Spouse",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Australian and overseas shares, including Telstra shares. Spouse",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Shares",
+      "entity": "IG",
+      "details": "Managed Fund. Spouse",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Shares",
+      "entity": "C shares",
+      "details": "Managed Fund. Spouse",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "O'Connor, ACT. Self. Residential investment",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Willoughby, NSW. Spouse. Residential investment",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Queanbeyan, NSW. Spouse. Residential investment",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Turner, ACT. Spouse. Residential investment",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Warrnambool, VIC. Spouse. Residential investment",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Kew, VIC. Spouse. Residential investment",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Hamilton, VIC. Spouse. Private residential",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Directorships",
+      "entity": "TehanTrade",
+      "details": "Self",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Property - O'Connor, ACT. Mortgage. Self",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Property - Queanbeyan, NSW. Mortgage. Spouse",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Savings/Investments",
+      "entity": "NAB/ANZ/Macquarie Bank",
+      "details": "Savings Accounts. Self",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Savings/Investments",
+      "entity": "Bendigo Bank",
+      "details": "Savings/Cheque Account. Self",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Savings Account. Spouse",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Savings and Cheque Accounts. Spouse",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Savings/Investments",
+      "entity": "Bendigo Bank",
+      "details": "Savings / Cheque Account. Spouse",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Part ownership of racehorse and occasional earnings from racehorse. Self",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from investments set out above. Self",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from investments set out above. Spouse",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Chairman's Lounge Membership. Self",
+      "pdf_url": "tehand_45p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Foxtel subscription for Hamilton electorate office. Self",
+      "pdf_url": "tehand_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Canberra Calling column in Pyrenees Advocate. Self",
+      "pdf_url": "tehand_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Wannon Whispers column in Casterton News. Self",
+      "pdf_url": "tehand_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Virgin Australia Velocity Frequent Flyer & Club Lounge Membership. Self",
+      "pdf_url": "tehand_45p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "AFI Farm Policy Journal quarterly subscription. Self",
+      "pdf_url": "tehand_45p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Complimentary Membership of the National Press Club of Australia. Self",
+      "pdf_url": "tehand_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Chairman's Lounge Membership. Spouse",
+      "pdf_url": "tehand_45p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Gifts",
+      "entity": "Virgin",
+      "details": "Club Lounge Membership. Spouse",
+      "pdf_url": "tehand_45p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Travel",
+      "entity": "The Herald Sun",
+      "details": "Attendance at Federal Parliamentary Press Gallery Midwinter Ball held at Parliament House, Canberra on 31 August 2016 as a guest of The Herald Sun.",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-08",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Upgrade from Business Class to First Class for air travel Melbourne to Dubai (16 July 2016); Paris to Dubai (23 July 2016); Dubai to Melbourne (24 July 2016). Provider of the benefits - Qantas.",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-01-27",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Self: Hamilton, Victoria. Private Residential",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-01-27",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Spouse: Turner, ACT. Private Residential (was previously residential investment)",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-01-27",
+      "category": "Liabilities",
+      "entity": "Aussie Home Loans",
+      "details": "Self: Property Hamilton, Victoria. Mortgage",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-01-27",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Spouse: Hamilton residential property sold",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-01-30",
+      "category": "Hospitality",
+      "entity": "Tennis Australia",
+      "details": "Attendance for self and son at 2017 Australian Open Women's Final on Saturday, 28 January 2017.",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-01-30",
+      "category": "Hospitality",
+      "entity": "Optus",
+      "details": "Attendance for self and son at 2017 Australian Open Men's Final on Sunday, 29 January 2017.",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-18",
+      "category": "Hospitality",
+      "entity": "Port Fairy Folk Festival Committee",
+      "details": "Two complimentary tickets for the Port Fairy Folk Festival 2017.",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-05-10",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Upgrade from Business Class to First Class for air travel Dubai to Melbourne (27 April 2017).",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-06-01",
+      "category": "Hospitality",
+      "entity": "Richmond Football Club",
+      "details": "Attendance of self and guest at the President's Function and Dreamtime at the G game between Richmond and Essendon on 27 May 2017 as guests of the Richmond Football Club.",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-06-17",
+      "category": "Travel",
+      "entity": "PayPal Australia",
+      "details": "Attendance at Federal Parliamentary Press Gallery Mid Winter Ball held at Parliament House, Canberra on 14 June 2017 as a guest of PayPal Australia.",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-07-07",
+      "category": "Memberships",
+      "entity": "The National Press Club of Australia",
+      "details": "Complimentary parliamentary membership of The National Press Club of Australia.",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-07-14",
+      "category": "Gifts",
+      "entity": "ASTRA",
+      "details": "Subscription Television for Hamilton Electorate Office. Complimentary subscription television provided by ASTRA.",
+      "pdf_url": "tehand_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2017-08-28",
+      "category": "Hospitality",
+      "entity": "Soldier On",
+      "details": "Attendance at 2017 Soldier On National Fundraising Ball held at QT, Canberra on 26 August 2017 as a guest of Soldier On.",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-10-13",
+      "category": "Hospitality",
+      "entity": "AFL",
+      "details": "AFL grand final Three complimentary tickets provided by AFL.",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-11-14",
+      "category": "Hospitality",
+      "entity": "Victoria Racing Club and Emirates",
+      "details": "Attendance for self and guest at Melbourne Cup on 7 November 2017.",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-11-14",
+      "category": "Memberships",
+      "entity": "Warrnambool RSL Sub-Branch",
+      "details": "Self- social membership of the Warrnambool RSL Sub-Branch.",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-01-29",
+      "category": "Hospitality",
+      "entity": "Optus",
+      "details": "Attendance for self and son at 2018 Australian Open Men's Final on Sunday, 28 January 2018.",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-03-09",
+      "category": "Hospitality",
+      "entity": "Woolworths Group",
+      "details": "Attendance at the fundraising 2018 Annual Dinner for The Melbourne Foundation for Business and Economics in Melbourne on 8 March 2018.",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-04-18",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Upgrade from Business Class to First Class for air travel taken in a private capacity from Melbourne to Los Angeles (5 April 2018).",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-05-20",
+      "category": "Hospitality",
+      "entity": "Novartis",
+      "details": "Attendance at NPC Post Budget Address and Luncheon at Parliament House on 9 May 2018.",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-08-13",
+      "category": "Hospitality",
+      "entity": "CrownBet",
+      "details": "Attendance at the fundraising The Million Dollar Lunch in support of the Children's Cancer Foundation in Melbourne on 3 August 2018",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-09-21",
+      "category": "Travel",
+      "entity": "News Limited",
+      "details": "Attendance at Federal Parliamentary Press Gallery Mid Winter Ball held at Parliament House, Canberra on 12 September 2018",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-10-08",
+      "category": "Hospitality",
+      "entity": "AFL",
+      "details": "Attendance of self and guest at the AFL grand final official function on 29 September 2018.",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2019-02-11",
+      "category": "Hospitality",
+      "entity": "Optus",
+      "details": "Attendance for self and son at 2019 Australian Open Men's Final on Sunday, 27 January 2019.",
+      "pdf_url": "tehand_45p.pdf"
+    },
+    {
+      "declaration_date": "2019-04-05",
+      "category": "Hospitality",
+      "entity": "Novartis",
+      "details": "Attendance at NPC Post Budget Address and Luncheon at Parliament House on 3 April 2019.",
+      "pdf_url": "tehand_45p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/tehand_45p.pdf"
+}

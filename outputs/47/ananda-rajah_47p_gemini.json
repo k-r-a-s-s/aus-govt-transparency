@@ -1,5 +1,5 @@
 {
-  "mp_name": "Michelle Ananda-Rajah",
+  "mp_name": "Ananda-Rajah",
   "party": "Unknown",
   "electorate": "Higgins",
   "disclosures": [
@@ -293,29 +293,36 @@
     {
       "declaration_date": "2022-08-22",
       "category": "Shares",
+      "entity": "Funds",
+      "details": "Held jointly with spouse in SMSF",
+      "pdf_url": "ananda-rajah_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Shares",
       "entity": "SSB4647AU.FND",
-      "details": "Held jointly with spouse in SMSF: FUNDS",
+      "details": "N/A",
       "pdf_url": "ananda-rajah_47p.pdf"
     },
     {
       "declaration_date": "2022-08-22",
       "category": "Shares",
       "entity": "MICH.AXW",
-      "details": "Held jointly with spouse in SMSF: FUNDS",
+      "details": "N/A",
       "pdf_url": "ananda-rajah_47p.pdf"
     },
     {
       "declaration_date": "2022-08-22",
       "category": "Shares",
       "entity": "VAP.AXW",
-      "details": "Held jointly with spouse in SMSF: FUNDS",
+      "details": "N/A",
       "pdf_url": "ananda-rajah_47p.pdf"
     },
     {
       "declaration_date": "2022-08-22",
       "category": "Shares",
       "entity": "TNK0003AU.FND",
-      "details": "Held jointly with spouse in SMSF: FUNDS",
+      "details": "N/A",
       "pdf_url": "ananda-rajah_47p.pdf"
     },
     {
@@ -330,6 +337,27 @@
       "category": "Trusts",
       "entity": "Hugo Ash Pty Ltd",
       "details": "Corporate trustee for Justice Family Trust; Beneficial interest: yes",
+      "pdf_url": "ananda-rajah_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Trusts",
+      "entity": "Justice Family Trust",
+      "details": "Discretionary trust linked to spouse's business; spouse/partner; Beneficial interest: yes",
+      "pdf_url": "ananda-rajah_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Trusts",
+      "entity": "Hugo Ash Pty Ltd",
+      "details": "Corporate trustee for Justice Family Trust; spouse/partner; Beneficial interest: yes",
+      "pdf_url": "ananda-rajah_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Trusts",
+      "entity": "Justice Family Trust",
+      "details": "Discretionary trust linked to spouse's business; Dependent children; Beneficial interest: yes",
       "pdf_url": "ananda-rajah_47p.pdf"
     },
     {
@@ -362,6 +390,27 @@
     },
     {
       "declaration_date": "2022-08-22",
+      "category": "Real Estate",
+      "entity": "North Carlton, VIC",
+      "details": "spouse/partner; Residential/investment",
+      "pdf_url": "ananda-rajah_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Real Estate",
+      "entity": "Brisbane, QLD",
+      "details": "spouse/partner; Residential/investment",
+      "pdf_url": "ananda-rajah_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Real Estate",
+      "entity": "Brisbane, QLD",
+      "details": "spouse/partner; Residential/investment",
+      "pdf_url": "ananda-rajah_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
       "category": "Directorships",
       "entity": "Hugo Ash Pty Ltd",
       "details": "Corporate trustee for Justice Family Trust",
@@ -369,9 +418,30 @@
     },
     {
       "declaration_date": "2022-08-22",
+      "category": "Directorships",
+      "entity": "Hugo Ash Pty Ltd",
+      "details": "spouse/partner; Corporate trustee for Justice Family Trust",
+      "pdf_url": "ananda-rajah_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Directorships",
+      "entity": "Unlisted unit trust",
+      "details": "Medical services as part of spouse's business",
+      "pdf_url": "ananda-rajah_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
       "category": "Liabilities",
       "entity": "Westpac, NAB",
       "details": "Mortgage on investment properties",
+      "pdf_url": "ananda-rajah_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Liabilities",
+      "entity": "Westpac, NAB",
+      "details": "Mortgage on investment properties; spouse/partner",
       "pdf_url": "ananda-rajah_47p.pdf"
     },
     {
@@ -390,16 +460,93 @@
     },
     {
       "declaration_date": "2022-08-22",
+      "category": "Savings/Investments",
+      "entity": "CBA, Westpac",
+      "details": "Savings; spouse/partner",
+      "pdf_url": "ananda-rajah_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Savings/Investments",
+      "entity": "Macquarie CMA",
+      "details": "Superannuation (SMSF); spouse/partner",
+      "pdf_url": "ananda-rajah_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
       "category": "Other Assets",
       "entity": "N/A",
-      "details": "(jointly held with spouse in SMSF): ART, David Boyd painting, Geoff Dyer painting, Mark Hanham painting, The Last Nomads painting",
+      "details": "(jointly held with spouse in SMSF): ART, David Boyd painting",
+      "pdf_url": "ananda-rajah_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "(jointly held with spouse in SMSF): Geoff Dyer painting",
+      "pdf_url": "ananda-rajah_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "(jointly held with spouse in SMSF): Mark Hanham painting",
+      "pdf_url": "ananda-rajah_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "(jointly held with spouse in SMSF): The Last Nomads painting",
+      "pdf_url": "ananda-rajah_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Other Assets",
+      "entity": "Onepath",
+      "details": "Onepath life insurance; spouse/partner",
+      "pdf_url": "ananda-rajah_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "as per declaration for member; spouse/partner",
       "pdf_url": "ananda-rajah_47p.pdf"
     },
     {
       "declaration_date": "2022-08-22",
       "category": "Income Sources",
       "entity": "N/A",
-      "details": "Rental income from investment properties and SMSF, Trust distribution income from Justice Family Trust",
+      "details": "Rental income from investment properties and SMSF",
+      "pdf_url": "ananda-rajah_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Income Sources",
+      "entity": "Justice Family Trust",
+      "details": "Trust distribution income from Justice Family Trust",
+      "pdf_url": "ananda-rajah_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rental income from investment properties and SMSF; spouse/partner",
+      "pdf_url": "ananda-rajah_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Income Sources",
+      "entity": "Justice Family Trust",
+      "details": "Trust distribution income from Justice Family Trust; spouse/partner",
+      "pdf_url": "ananda-rajah_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Income Sources",
+      "entity": "Justice Family Trust",
+      "details": "Trust distribution income from Justice Family Trust; dependent children",
       "pdf_url": "ananda-rajah_47p.pdf"
     },
     {
@@ -421,14 +568,14 @@
       "declaration_date": "2022-08-22",
       "category": "Memberships",
       "entity": "Australasian Infectious Diseases Society",
-      "details": "Member, due to lapse 2022",
+      "details": "member, due to lapse 2022",
       "pdf_url": "ananda-rajah_47p.pdf"
     },
     {
       "declaration_date": "2022-08-22",
       "category": "Memberships",
-      "entity": "BMJ Leader Journal",
-      "details": "Associate Editor-BMJ Leader journal, UK",
+      "entity": "BMJ Leader journal, UK",
+      "details": "Associate Editor",
       "pdf_url": "ananda-rajah_47p.pdf"
     },
     {
@@ -446,24 +593,52 @@
       "pdf_url": "ananda-rajah_47p.pdf"
     },
     {
-      "declaration_date": "2023-02-25",
+      "declaration_date": "2022-08-22",
+      "category": "Memberships",
+      "entity": "Qantas",
+      "details": "Qantas club membership; spouse/partner",
+      "pdf_url": "ananda-rajah_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Memberships",
+      "entity": "Australian and New Zealand College of Anaesthetists",
+      "details": "spouse/partner",
+      "pdf_url": "ananda-rajah_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Memberships",
+      "entity": "Australian Medical Association",
+      "details": "spouse/partner",
+      "pdf_url": "ananda-rajah_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Memberships",
+      "entity": "APHRA",
+      "details": "spouse/partner",
+      "pdf_url": "ananda-rajah_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-02-27",
       "category": "Travel",
       "entity": "eBay",
       "details": "Midwinter Ball hosted by eBay",
       "pdf_url": "ananda-rajah_47p.pdf"
     },
     {
-      "declaration_date": "2023-02-25",
+      "declaration_date": "2023-02-27",
       "category": "Travel",
       "entity": "Save the Children",
       "details": "Parliamentary Delegation to Papua New Guinea hosted by Save the Children",
       "pdf_url": "ananda-rajah_47p.pdf"
     },
     {
-      "declaration_date": "2023-02-25",
+      "declaration_date": "2023-02-27",
       "category": "Memberships",
-      "entity": "Qantas Chairman's Lounge",
-      "details": "N/A",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's Lounge",
       "pdf_url": "ananda-rajah_47p.pdf"
     },
     {
@@ -481,7 +656,7 @@
       "pdf_url": "ananda-rajah_47p.pdf"
     },
     {
-      "declaration_date": "2024-07-19",
+      "declaration_date": "2024-07-22",
       "category": "Gifts",
       "entity": "Liberty Belle Skin Care",
       "details": "Sample beauty products greater in value than $300 gifted by Liberty Belle Skin Care.",
@@ -491,218 +666,113 @@
     {
       "declaration_date": "2024-07-29",
       "category": "Shares",
-      "entity": "ASIA (Beta shares asia technology tigers ETF)",
-      "details": "N/A",
+      "entity": "ASIA",
+      "details": "ASIA (Beta shares asia technology tigers ETF)",
       "pdf_url": "ananda-rajah_47p.pdf"
     },
     {
       "declaration_date": "2024-07-29",
       "category": "Shares",
-      "entity": "EMMG Betashares martin.currie emerg markets fund",
-      "details": "N/A",
+      "entity": "EMMG",
+      "details": "EMMG Betashares martin.currie emerg markets fund",
       "pdf_url": "ananda-rajah_47p.pdf"
     },
     {
       "declaration_date": "2024-07-29",
       "category": "Shares",
-      "entity": "ETHI Betashares Gib Sustainability Ldrs ETF",
-      "details": "N/A",
+      "entity": "ETHI",
+      "details": "ETHI Betashares Gib Sustainability Ldrs ETF",
       "pdf_url": "ananda-rajah_47p.pdf"
     },
     {
       "declaration_date": "2024-07-29",
       "category": "Shares",
-      "entity": "EX20 Betashares Aus EX20 Port Diversifier ETF",
-      "details": "N/A",
+      "entity": "EX20",
+      "details": "EX20 Betashares Aus EX20 Port Diversifier ETF",
       "pdf_url": "ananda-rajah_47p.pdf"
     },
     {
       "declaration_date": "2024-07-29",
       "category": "Shares",
-      "entity": "HJPN Betashares Japan ETF- Currency",
-      "details": "N/A",
+      "entity": "HJPN",
+      "details": "HJPN Betashares Japan ETF- Currency",
       "pdf_url": "ananda-rajah_47p.pdf"
     },
     {
       "declaration_date": "2024-07-29",
       "category": "Shares",
-      "entity": "MICH Magellan Infra Fund Curr Hedged ETF",
-      "details": "N/A",
+      "entity": "MICH",
+      "details": "MICH Magellan Infra Fund Curr Hedged ETF",
       "pdf_url": "ananda-rajah_47p.pdf"
     },
     {
       "declaration_date": "2024-07-29",
       "category": "Shares",
-      "entity": "QSML Vaneck Vect MSCI Int small comp QTY ETF",
-      "details": "N/A",
+      "entity": "QSML",
+      "details": "QSML Vaneck Vect MSCI Int small comp QTY ETF",
       "pdf_url": "ananda-rajah_47p.pdf"
     },
     {
       "declaration_date": "2024-07-29",
       "category": "Shares",
-      "entity": "VLUE VanEck Vectors MSCI Int Value ETF",
-      "details": "N/A",
+      "entity": "VLUE",
+      "details": "VLUE VanEck Vectors MSCI Int Value ETF",
       "pdf_url": "ananda-rajah_47p.pdf"
     },
     {
       "declaration_date": "2024-07-29",
       "category": "Shares",
-      "entity": "DFA0042AU Dimensional Gib Sustainability Hedged",
-      "details": "N/A",
+      "entity": "DFA0042AU",
+      "details": "DFA0042AU Dimensional Gib Sustainability Hedged",
       "pdf_url": "ananda-rajah_47p.pdf"
     },
     {
       "declaration_date": "2024-07-29",
       "category": "Shares",
-      "entity": "ETL9987AU Neuberger Berman Global High Yield Fund",
-      "details": "N/A",
+      "entity": "ETL9987AU",
+      "details": "ETL9987AU Neuberger Berman Global High Yield Fund",
       "pdf_url": "ananda-rajah_47p.pdf"
     },
     {
       "declaration_date": "2024-07-29",
       "category": "Shares",
-      "entity": "ICLN:UQ ishares global clean energy",
-      "details": "N/A",
+      "entity": "ICLN:UQ",
+      "details": "ICLN:UQ ishares global clean energy",
       "pdf_url": "ananda-rajah_47p.pdf"
     },
     {
       "declaration_date": "2024-07-29",
       "category": "Shares",
       "entity": "IAP",
-      "details": "N/A",
-      "pdf_url": "ananda-rajah_47p.pdf"
-    },
-    {
-      "declaration_date": "2024-07-29",
-      "category": "Shares",
-      "entity": "Lynas Rare Earths LTD",
-      "details": "N/A",
-      "pdf_url": "ananda-rajah_47p.pdf"
-    },
-    {
-      "declaration_date": "2024-07-29",
-      "category": "Shares",
-      "entity": "NXT",
-      "details": "N/A",
-      "pdf_url": "ananda-rajah_47p.pdf"
-    },
-    {
-      "declaration_date": "2024-07-29",
-      "category": "Shares",
-      "entity": "RF1.ASX",
-      "details": "N/A",
-      "pdf_url": "ananda-rajah_47p.pdf"
-    },
-    {
-      "declaration_date": "2024-07-29",
-      "category": "Shares",
-      "entity": "WOT",
-      "details": "N/A",
-      "pdf_url": "ananda-rajah_47p.pdf"
-    },
-    {
-      "declaration_date": "2024-07-29",
-      "category": "Shares",
-      "entity": "KKC.ASX",
-      "details": "N/A",
-      "pdf_url": "ananda-rajah_47p.pdf"
-    },
-    {
-      "declaration_date": "2024-07-29",
-      "category": "Shares",
-      "entity": "AMY001TSSANDAL (liquated)",
-      "details": "N/A",
+      "details": "IAP, Lynas Rare Earths LTD, NXT, RF1.ASX, WOT, KKC.ASX, AMY001TSSANDAL (liquated)",
       "pdf_url": "ananda-rajah_47p.pdf"
     },
     {
       "declaration_date": "2024-07-29",
       "category": "Shares",
       "entity": "RPM Global Holdings",
-      "details": "N/A",
-      "pdf_url": "ananda-rajah_47p.pdf"
-    },
-    {
-      "declaration_date": "2024-07-29",
-      "category": "Shares",
-      "entity": "Cettire LTD",
-      "details": "N/A",
-      "pdf_url": "ananda-rajah_47p.pdf"
-    },
-    {
-      "declaration_date": "2024-07-29",
-      "category": "Shares",
-      "entity": "Frontier Digital Ventures LTD",
-      "details": "N/A",
+      "details": "RPM Global Holdings, Cettire LTD, Frontier Digital Ventures LTD",
       "pdf_url": "ananda-rajah_47p.pdf"
     },
     {
       "declaration_date": "2024-07-29",
       "category": "Shares",
       "entity": "MGF",
-      "details": "N/A",
-      "pdf_url": "ananda-rajah_47p.pdf"
-    },
-    {
-      "declaration_date": "2024-07-29",
-      "category": "Shares",
-      "entity": "MGFO",
-      "details": "N/A",
-      "pdf_url": "ananda-rajah_47p.pdf"
-    },
-    {
-      "declaration_date": "2024-07-29",
-      "category": "Shares",
-      "entity": "MGOC",
-      "details": "N/A",
-      "pdf_url": "ananda-rajah_47p.pdf"
-    },
-    {
-      "declaration_date": "2024-07-29",
-      "category": "Shares",
-      "entity": "MAET",
-      "details": "N/A",
-      "pdf_url": "ananda-rajah_47p.pdf"
-    },
-    {
-      "declaration_date": "2024-07-29",
-      "category": "Shares",
-      "entity": "PIM4432AU",
-      "details": "N/A",
+      "details": "MGF, MGFO, MGOC, MAET, PIM4432AU",
       "pdf_url": "ananda-rajah_47p.pdf"
     },
     {
       "declaration_date": "2024-07-29",
       "category": "Shares",
       "entity": "VUK",
-      "details": "N/A",
-      "pdf_url": "ananda-rajah_47p.pdf"
-    },
-    {
-      "declaration_date": "2024-07-29",
-      "category": "Shares",
-      "entity": "SSB4647AU.FND",
-      "details": "N/A",
-      "pdf_url": "ananda-rajah_47p.pdf"
-    },
-    {
-      "declaration_date": "2024-07-29",
-      "category": "Shares",
-      "entity": "VAP",
-      "details": "N/A",
-      "pdf_url": "ananda-rajah_47p.pdf"
-    },
-    {
-      "declaration_date": "2024-07-29",
-      "category": "Shares",
-      "entity": "TNK0003AU.FND",
-      "details": "N/A",
+      "details": "VUK, SSB4647AU.FND, VAP, TNK0003AU.FND",
       "pdf_url": "ananda-rajah_47p.pdf"
     },
     {
       "declaration_date": "2024-07-29",
       "category": "Shares",
       "entity": "ICLN.NAS",
-      "details": "N/A",
+      "details": "ICLN.NAS",
       "pdf_url": "ananda-rajah_47p.pdf"
     }
   ],

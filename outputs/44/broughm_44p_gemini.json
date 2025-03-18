@@ -1,0 +1,143 @@
+{
+  "mp_name": "Malcolm Thomas Brough",
+  "party": "Unknown",
+  "electorate": "Fisher",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-02",
+      "category": "Shares",
+      "entity": "AKC Exploration Ltd",
+      "details": "Spouse holds shares in AKC Exploration Ltd",
+      "pdf_url": "broughm_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-02",
+      "category": "Trusts",
+      "entity": "Tibro Enterprizes",
+      "details": "Beneficial interest. Consulting",
+      "pdf_url": "broughm_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-02",
+      "category": "Trusts",
+      "entity": "Brough Family Trust",
+      "details": "Beneficial interest",
+      "pdf_url": "broughm_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-02",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Alexandra Headland - Principal Place of Residence",
+      "pdf_url": "broughm_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-02",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Glasshouse Mtns - Investment Property",
+      "pdf_url": "broughm_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-02",
+      "category": "Liabilities",
+      "entity": "BOQ",
+      "details": "Mortgage",
+      "pdf_url": "broughm_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-02",
+      "category": "Liabilities",
+      "entity": "BOQ",
+      "details": "Spouse Mortgage",
+      "pdf_url": "broughm_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-02",
+      "category": "Savings/Investments",
+      "entity": "BOQ",
+      "details": "Savings",
+      "pdf_url": "broughm_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-02",
+      "category": "Savings/Investments",
+      "entity": "BOQ",
+      "details": "Spouse Savings",
+      "pdf_url": "broughm_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-02",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation",
+      "pdf_url": "broughm_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-02",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Life Insurance (Spouse)",
+      "pdf_url": "broughm_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-06-01",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Investment Property Unit, Canberra ACT (Addition)",
+      "pdf_url": "broughm_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-06-01",
+      "category": "Liabilities",
+      "entity": "Bank of Qld",
+      "details": "Mortgage Bank of Qld (Addition)",
+      "pdf_url": "broughm_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-05-19",
+      "category": "Travel",
+      "entity": "AIJAC",
+      "details": "Study Group visit to Israel, Sunday May 3 - Thursday May 7 2015, Sponsored by AIJAC (Australian/Israel & Jewish Affairs Council)",
+      "pdf_url": "broughm_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-06-12",
+      "category": "Travel",
+      "entity": "Virgin",
+      "details": "22 May Domestic Flight VA957 Sydney to Brisbane, Upgraded by Virgin from Economy to Business Class",
+      "pdf_url": "broughm_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-06-12",
+      "category": "Travel",
+      "entity": "Virgin",
+      "details": "31 May Domestic Flight VA1226 Brisbane to Canberra, Upgraded by Virgin from Economy to Business Class",
+      "pdf_url": "broughm_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-09-28",
+      "category": "Gifts",
+      "entity": "NRL",
+      "details": "2 tickets to attend Brisbane Broncos v Sydney Roosters, Gifted by NRL",
+      "pdf_url": "broughm_44p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2015-10-23",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Glasshouse Mountains Property Investment Property sold (Deletion)",
+      "pdf_url": "broughm_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-11",
+      "category": "Trusts",
+      "entity": "Tibro Enterprises",
+      "details": "Trust closed (Deletion)",
+      "pdf_url": "broughm_44p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/broughm_44p.pdf"
+}

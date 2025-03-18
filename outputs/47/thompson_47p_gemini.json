@@ -1,0 +1,134 @@
+{
+  "mp_name": "Phillip Thompson",
+  "party": "Liberal National Party",
+  "electorate": "Herbert",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-09",
+      "category": "Trusts",
+      "entity": "Phillip Thompson Trust",
+      "details": "To donate Commonwealth Superannuation invalidity payment to charities",
+      "pdf_url": "thompson_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-09",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Townsville, Residential",
+      "pdf_url": "thompson_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-03-06",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Bravus Corporate Box tickets - Opening Match 4 Mar 23, Cowboys v Raiders",
+      "pdf_url": "thompson_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-16",
+      "category": "Gifts",
+      "entity": "McKinnon Insititute for Political Leadership",
+      "details": "Scholarship from the McKinnon Insititute for Political Leadership for the Advanced Political Leadership Program including accommodation and meals for residential intensive components of the course.",
+      "pdf_url": "thompson_47p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2024-07-23",
+      "category": "Trusts",
+      "entity": "A&E Investments Trust",
+      "details": "A&E Investments Trust",
+      "pdf_url": "thompson_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-23",
+      "category": "Directorships",
+      "entity": "A&E Thompson Investments Pty Ltd",
+      "details": "A&E Thompson Investments Pty Ltd",
+      "pdf_url": "thompson_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-09",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Car",
+      "pdf_url": "thompson_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-09",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Commonwealth Superannuation - Invalidity payment donated to charities through the Phillip Thompson Trust",
+      "pdf_url": "thompson_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-09",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Qantas - Chairman's lounge",
+      "pdf_url": "thompson_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-08-09",
+      "category": "Gifts",
+      "entity": "Virgin Club",
+      "details": "Virgin Club",
+      "pdf_url": "thompson_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-08-09",
+      "category": "Memberships",
+      "entity": "SWISS 8",
+      "details": "SWISS 8 - Patron",
+      "pdf_url": "thompson_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-09",
+      "category": "Memberships",
+      "entity": "Bravery Trust",
+      "details": "Bravery Trust - Ambassador",
+      "pdf_url": "thompson_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-09",
+      "category": "Memberships",
+      "entity": "RUOK?",
+      "details": "RUOK? - Ambassador",
+      "pdf_url": "thompson_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-09",
+      "category": "Memberships",
+      "entity": "Liberal National Party",
+      "details": "Liberal National Party",
+      "pdf_url": "thompson_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-08",
+      "category": "Gifts",
+      "entity": "Castlemaine Perkins",
+      "details": "Castlemaine Perkins - provision of beverages",
+      "pdf_url": "thompson_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-08",
+      "category": "Gifts",
+      "entity": "Unknown",
+      "details": "Signed Cowboys Jersey",
+      "pdf_url": "thompson_47p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2022-08-08",
+      "category": "Gifts",
+      "entity": "Unknown",
+      "details": "Cowboys home games tickets",
+      "pdf_url": "thompson_47p.pdf",
+      "sub_category": "Sports Tickets"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/thompson_47p.pdf"
+}

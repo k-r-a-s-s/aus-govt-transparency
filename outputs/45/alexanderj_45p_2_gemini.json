@@ -1,0 +1,597 @@
+{
+  "mp_name": "John Gilbert Alexander",
+  "party": "Unknown",
+  "electorate": "Bennelong",
+  "disclosures": [
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "BHP",
+      "details": "BHP",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "BT INVESTMENTS",
+      "details": "BT INVESTMENTS",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "CHALLENGER",
+      "details": "CHALLENGER",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "COMET RIDGE",
+      "details": "COMET RIDGE",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "INTEGRATED RESEARCH",
+      "details": "INTEGRATED RESEARCH",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "SANTOS",
+      "details": "SANTOS",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "TRANSURBAN",
+      "details": "TRANSURBAN",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "WESTPAC",
+      "details": "WESTPAC",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "WOODSIDE",
+      "details": "WOODSIDE",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "ADELAIDE BRIGHTON",
+      "details": "ADELAIDE BRIGHTON (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "AMCOR",
+      "details": "AMCOR (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "ANZ",
+      "details": "ANZ (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "ARISTOCRAT",
+      "details": "ARISTOCRAT (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "ASX",
+      "details": "ASX (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "BERKSHIRE HATHAWAY",
+      "details": "BERKSHIRE HATHAWAY (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "BLACKMORES",
+      "details": "BLACKMORES (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "BRAMBLES",
+      "details": "BRAMBLES (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "CALTEX AUS",
+      "details": "CALTEX AUS (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "CELGENE CORP",
+      "details": "CELGENE CORP (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "COCA-COLA AMATIL",
+      "details": "COCA-COLA AMATIL (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "COCHLEAR",
+      "details": "COCHLEAR (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "COGNIZANT TECH",
+      "details": "COGNIZANT TECH (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "CREDIT CORP GROUP",
+      "details": "CREDIT CORP GROUP (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "CROWN RESORTS",
+      "details": "CROWN RESORTS (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "DIAGEO PLC",
+      "details": "DIAGEO PLC (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "EBAY",
+      "details": "EBAY (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "GLENNON SMALL COS",
+      "details": "GLENNON SMALL COS (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "HEALTHSCOPE",
+      "details": "HEALTHSCOPE (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "HEINEKEN",
+      "details": "HEINEKEN (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "JANUS HENDERSON",
+      "details": "JANUS HENDERSON (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "LEND LEASE",
+      "details": "LEND LEASE (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "LONDON STOCK EXCHANGE",
+      "details": "LONDON STOCK EXCHANGE (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "MACQUARIE",
+      "details": "MACQUARIE (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "MEDIBANK",
+      "details": "MEDIBANK (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "MEDTRONIC",
+      "details": "MEDTRONIC (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "NAB",
+      "details": "NAB (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "ORACLE",
+      "details": "ORACLE (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "PAYPAL",
+      "details": "PAYPAL (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "PRICELINE",
+      "details": "PRICELINE (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "REA",
+      "details": "REA (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "RECKITT BENCKISER",
+      "details": "RECKITT BENCKISER (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "SKY NETWORK TU",
+      "details": "SKY NETWORK TU (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "SPARK INFRASTRUCTURE",
+      "details": "SPARK INFRASTRUCTURE (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "STRYKER CORP",
+      "details": "STRYKER CORP (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "SYDNEY AIRPORT",
+      "details": "SYDNEY AIRPORT (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "TELSTRA",
+      "details": "TELSTRA (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "THE STAR ENTERTAINMENT",
+      "details": "THE STAR ENTERTAINMENT (Dependent Children)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "TRANSURBAN",
+      "details": "TRANSURBAN (Dependent Children)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "UNILEVER",
+      "details": "UNILEVER (Dependent Children)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "VIRTUS HEALTH VIBA",
+      "details": "VIRTUS HEALTH VIBA (Dependent Children)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "WESTPAC",
+      "details": "WESTPAC (Dependent Children)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "WOODSIDE",
+      "details": "WOODSIDE (Dependent Children)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "WOOLWORTHS",
+      "details": "WOOLWORTHS (Dependent Children)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Shares",
+      "entity": "ZOETIS",
+      "details": "ZOETIS (Dependent Children)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Trusts",
+      "entity": "GILBERT FRANK INVESTMENTS PL",
+      "details": "INVESTMENT, SOLE PROPRIETOR",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Trusts",
+      "entity": "CHADWICK FAMILY TRUST",
+      "details": "INVESTMENT, DEBORAH CHADWICK & CHILDREN",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Southern Highlands, BUSINESS",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Eastern Suburbs, RESIDENTIAL",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Northern Beaches, HOLIDAY HOME + HOLIDAY RENTALS",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Directorships",
+      "entity": "GILBERT FRANK INVESTMENTS P/L",
+      "details": "INVESTMENTS",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Directorships",
+      "entity": "DEBORAH CHADWICK DESIGNS PTY",
+      "details": "INVESTMENTS",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Liabilities",
+      "entity": "WESTPAC",
+      "details": "BANK LOAN",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Liabilities",
+      "entity": "CAPITAL FINANCE",
+      "details": "CAR LEASE",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Savings/Investments",
+      "entity": "GILBERT FRANK INVESTMENTS P/L",
+      "details": "STOCKS",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Savings/Investments",
+      "entity": "GILBERT FRANK SUPERANNUATION",
+      "details": "STOCKS",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Savings/Investments",
+      "entity": "CHADWICK SUPER FUND",
+      "details": "BONDS",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Savings/Investments",
+      "entity": "DEBORAH CHADWICK DESIGN PTY LTD",
+      "details": "BONDS",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Savings/Investments",
+      "entity": "WESTPAC",
+      "details": "BANK ACCOUNTS",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "BANK ACCOUNTS",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Savings/Investments",
+      "entity": "MACQUARIE BANK",
+      "details": "BANK ACCOUNTS (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Savings/Investments",
+      "entity": "RABO BANK",
+      "details": "BANK ACCOUNTS (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Savings/Investments",
+      "entity": "WESTPAC",
+      "details": "BANK ACCOUNTS (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "BANK ACCOUNTS (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "CARS",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "INCOME FROM INVESTMENTS",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "INCOME FROM HOLIDAY HOME AS OWNER (Spouse)",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Memberships",
+      "entity": "QANTAS CLUB CHAIRMAN'S LOUNGE",
+      "details": "QANTAS CLUB CHAIRMAN'S LOUNGE",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Memberships",
+      "entity": "VIRGIN CLUB LOUNGE",
+      "details": "VIRGIN CLUB LOUNGE",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Memberships",
+      "entity": "MACQUARIE PARK ROTARY",
+      "details": "MACQUARIE PARK ROTARY",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-03-01",
+      "category": "Memberships",
+      "entity": "AUSTRALIAN OPEN LAST 8 CLUB",
+      "details": "AUSTRALIAN OPEN LAST 8 CLUB",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-02-28",
+      "category": "Unknown",
+      "entity": "N/A",
+      "details": "No alterations",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-05-24",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "BHP, Transurban, Woodside, BT Investment, Challenger Ltd, Santos, Westpac, Integrated Research",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-08-16",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Silver",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2019-02-19",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Speaking engagement and hospitality for Saxton's Speaking",
+      "pdf_url": "alexanderj_45p_2.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/alexanderj_45p_2.pdf"
+}

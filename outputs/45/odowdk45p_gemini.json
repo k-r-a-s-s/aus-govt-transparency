@@ -1,0 +1,353 @@
+{
+  "mp_name": "Kenneth Desmond O'Dowd",
+  "party": "Unknown",
+  "electorate": "Flynn",
+  "disclosures": [
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "O'DOWD INVESTMENTS PTY LTD",
+      "details": "CAN 010326502",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "KEN O'DOWD PTY LTD",
+      "details": "ACN 063928334",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "O'DOWD HOLDING CO PTY LTD",
+      "details": "CAN 611839395",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Trusts",
+      "entity": "O'DOWDNVESTMENTSPTYLTD",
+      "details": "WORKING COMPANY, Beneficial interest 100%",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Trusts",
+      "entity": "O'DOWD FAMILY TRUST",
+      "details": "INVESTMENT COMPANY, WAGES/INCOME",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Real Estate",
+      "entity": "GLADSTONE",
+      "details": "MAIN RESIDENCE",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Real Estate",
+      "entity": "GLADSTONE",
+      "details": "UNIT INVESTMENT",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Directorships",
+      "entity": "CALLIOPE COUNTRY CLUB",
+      "details": "CHAIRMAN, GOLF AND BOWLS CLUB",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Directorships",
+      "entity": "KEN O'DOWD PTY LTD",
+      "details": "INVESTMENT COMPANY",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Directorships",
+      "entity": "O'DOWD HOLDING",
+      "details": "INVESTMENT COMPANY",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Directorships",
+      "entity": "O'DOWD INVESTMENTS PTY LTD",
+      "details": "TRUSTEE COMPANY",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "KEN O'DOWD PTY LTD",
+      "details": "LOAN FROM KEN O'DOWD PTY LTD (ADVANCE ON DIVIDEND)",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "SEE ATTACHMENT 'A' LISTED SHARES AND MANAGED FUNDS",
+      "details": "HELD WITHIN SELF MANAGED SUPERANNUATION FUND",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "SAVINGS ACCOUNT",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "WESTPAC-WITH SMSF",
+      "details": "WESTPAC BANK ACCOUNT",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "WITHIN SMSF",
+      "details": "MACQUARIE CASH ACCOUNT",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "SELF MANAGED SUPERFUND",
+      "details": "ASSETS IN SMSF ARE COMMERCIAL PROPERTY, CASH, SHARES AND MANAGED FUNDS",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "DIVIDENDS EX KEN O'DOWD PTY LTD (FROM PAST EARNINGS. COMPANY ONLY NOW RETAINS ONE INVESTMENT PROPERTY AS DISCLOSED)",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "QANTAS 'CHAIRMAN CLUB'",
+      "details": "N/A",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "VIRGIN",
+      "details": "N/A",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2017-04-07",
+      "category": "Savings/Investments",
+      "entity": "BT Wrap Cash Account",
+      "details": "De",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2017-04-07",
+      "category": "Savings/Investments",
+      "entity": "BT Core Gbl Share WS",
+      "details": "Inc",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2017-04-07",
+      "category": "Savings/Investments",
+      "entity": "Magellan Global",
+      "details": "Inc",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2017-04-07",
+      "category": "Savings/Investments",
+      "entity": "MFS Fully Hedged Global Equity Trust",
+      "details": "In",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2017-04-07",
+      "category": "Savings/Investments",
+      "entity": "Paradice Global Small Mid Cap",
+      "details": "In",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2017-04-07",
+      "category": "Savings/Investments",
+      "entity": "Amcor Limited",
+      "details": "Ne",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2017-04-07",
+      "category": "Savings/Investments",
+      "entity": "Australia And New Zealand Banking Group",
+      "details": "In",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2017-04-07",
+      "category": "Savings/Investments",
+      "entity": "Bhp Billiton Limited",
+      "details": "In",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2017-04-07",
+      "category": "Savings/Investments",
+      "entity": "Caltex Australia Limited",
+      "details": "In",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2017-04-07",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank Of Austral",
+      "details": "D",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2017-04-07",
+      "category": "Savings/Investments",
+      "entity": "Csl Limited",
+      "details": "N",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2017-04-07",
+      "category": "Savings/Investments",
+      "entity": "Lendlease Group Stapled",
+      "details": "N",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2017-04-07",
+      "category": "Savings/Investments",
+      "entity": "Macquarie Group Limited",
+      "details": "N",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2017-04-07",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank Limited",
+      "details": "C",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2017-04-07",
+      "category": "Savings/Investments",
+      "entity": "Resmed Inc Cdi 10:1 Foreign Exempt Nyse",
+      "details": "N",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2017-04-07",
+      "category": "Savings/Investments",
+      "entity": "Stockland Stapled",
+      "details": "[",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2017-04-07",
+      "category": "Savings/Investments",
+      "entity": "Telstra Corp Ltd",
+      "details": "T",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2017-04-07",
+      "category": "Savings/Investments",
+      "entity": "Transurban Group",
+      "details": "I",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2017-04-07",
+      "category": "Savings/Investments",
+      "entity": "Wesfarmers Limited",
+      "details": "I",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2017-04-07",
+      "category": "Savings/Investments",
+      "entity": "Westpac Banking Corporation",
+      "details": "I",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2017-04-07",
+      "category": "Savings/Investments",
+      "entity": "Westpac Business One Account",
+      "details": "I",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2017-04-07",
+      "category": "Savings/Investments",
+      "entity": "Westpac Term Deposit",
+      "details": "I",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2017-05-08",
+      "category": "Memberships",
+      "entity": "Calliope Golf Club",
+      "details": "No longer a Member",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2017-05-15",
+      "category": "Travel",
+      "entity": "Qatar Government",
+      "details": "Delegation to Palestine, courtesy of the Qatar Government",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2017-07-16",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Asian Delegation to Singapore, Myanmar & Indonesia 2/7/17 - 14/7/17 - Male Sarong Presented as gift - Value unknown",
+      "pdf_url": "odowdk45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2017-08-23",
+      "category": "Other Interests",
+      "entity": "Foxtel from Astra",
+      "details": "Ongoing Service provided to Office on an Ongoing Basis",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2017-08-28",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Cell Fi-Go Telstra Antenna, Telstra Countrynide Mobile Boosto",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2018-08-06",
+      "category": "Travel",
+      "entity": "Senator Nigel Scullion",
+      "details": "Woorabinda Charter Flight 18/7/18 Senator Nigel Scullion paid for Charter flight from Gladstone to Woolabinda & Return. For meetings with Conal",
+      "pdf_url": "odowdk45p.pdf"
+    },
+    {
+      "declaration_date": "2018-11-20",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Flight on VIP with the DPM, Emerald to Gladstone",
+      "pdf_url": "odowdk45p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/odowdk45p.pdf"
+}

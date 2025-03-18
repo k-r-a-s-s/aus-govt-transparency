@@ -1,0 +1,255 @@
+{
+  "mp_name": "Deborah Mary O'Neill",
+  "party": "Unknown",
+  "electorate": "Robertson",
+  "disclosures": [
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "CBN Developments Pty Ltd",
+      "details": "50% shareholding",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Trusts",
+      "entity": "PJ+DM Macinante SMSF",
+      "details": "Self Managed Superannuation Fund",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "Yorky's Knob",
+      "details": "Investment",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "Stanley, Alcomie",
+      "details": "Investment",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "Copacabana",
+      "details": "Principal Residence",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "Copacabana",
+      "details": "Investment",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "Bonsuille",
+      "details": "Investment",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Directorships",
+      "entity": "CBN Developments Pty Ltd",
+      "details": "Trustee Company Only",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Partnerships",
+      "entity": "P+D Macinante",
+      "details": "Consultant. Mowing, Cleaning, Property Management + Maintenance",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Liabilities",
+      "entity": "Adelaide Bank",
+      "details": "Mortgage",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Liabilities",
+      "entity": "RESI",
+      "details": "Mortgage",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Liabilities",
+      "entity": "Westpac Bank",
+      "details": "Mortgage",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Mortgage",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Liabilities",
+      "entity": "Capital Finance",
+      "details": "Car Loan",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Liabilities",
+      "entity": "Toyota Finance",
+      "details": "Car Loan",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Telstra Shares",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Savings",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "Savings",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Savings",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Car x 3, Utility x 2",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Life Assurance",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Life Assurance",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Consultancy - Education",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Royalties From Publications",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Income Sources",
+      "entity": "P+D Macinante",
+      "details": "Income from Management",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Chairman's Lounge Membership",
+      "pdf_url": "oneilld_43p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Memberships",
+      "entity": "NTEU",
+      "details": "N/A",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Memberships",
+      "entity": "ALP",
+      "details": "N/A",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Memberships",
+      "entity": "ETA",
+      "details": "N/A",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Memberships",
+      "entity": "ACE",
+      "details": "N/A",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Memberships",
+      "entity": "Local RSC",
+      "details": "N/A",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Memberships",
+      "entity": "League",
+      "details": "N/A",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Memberships",
+      "entity": "Surf Lifesaving",
+      "details": "N/A",
+      "pdf_url": "oneilld_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Memberships",
+      "entity": "Bowling Club",
+      "details": "N/A",
+      "pdf_url": "oneilld_43p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/43/oneilld_43p.pdf"
+}

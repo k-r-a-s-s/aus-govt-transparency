@@ -1,0 +1,200 @@
+{
+  "mp_name": "Andrew Damien Wilkie",
+  "party": "Unknown",
+  "electorate": "Denison",
+  "disclosures": [
+    {
+      "declaration_date": "2016-08-31",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Neika Tas 7054, Home",
+      "pdf_url": "wilkiea_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-08-31",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Home loan",
+      "pdf_url": "wilkiea_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-08-31",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Credit cards",
+      "pdf_url": "wilkiea_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-08-31",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Transaction accounts x 2",
+      "pdf_url": "wilkiea_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-08-31",
+      "category": "Savings/Investments",
+      "entity": "Bendigo Bank",
+      "details": "Transaction accounts x 2",
+      "pdf_url": "wilkiea_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-08-31",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "Transaction account",
+      "pdf_url": "wilkiea_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-08-31",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Motor vehicle",
+      "pdf_url": "wilkiea_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-08-31",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "PSS superannuation",
+      "pdf_url": "wilkiea_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-08-31",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "BT Super: (includes life ins.)",
+      "pdf_url": "wilkiea_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-08-31",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "DFRDB (includes death benefit)",
+      "pdf_url": "wilkiea_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-08-31",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Interest in property in Sandy Bay Tas 7005",
+      "pdf_url": "wilkiea_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-08-31",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "DFRDB pension",
+      "pdf_url": "wilkiea_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-08-31",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "DVA pension",
+      "pdf_url": "wilkiea_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-08-31",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Book royalties",
+      "pdf_url": "wilkiea_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-08-31",
+      "category": "Gifts",
+      "entity": "ASTRA",
+      "details": "Foxtel subscription for Hobart office provided by ASTRA",
+      "pdf_url": "wilkiea_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-08-31",
+      "category": "Travel",
+      "entity": "Qantas and Virgin Australia",
+      "details": "Frequent flyer schemes and lounge memberships, and occasional upgrades from economy to business, from Qantas and Virgin Australia.",
+      "pdf_url": "wilkiea_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-08-31",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Niece is the CEO of the Australian Airports Association.",
+      "pdf_url": "wilkiea_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-19",
+      "category": "Savings/Investments",
+      "entity": "Bendigo Bank",
+      "details": "Deletion of 2x Bendigo Bank transaction accounts",
+      "pdf_url": "wilkiea_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-28",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "In a relationship with a senior RACGP official.",
+      "pdf_url": "wilkiea_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-09-04",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Property in South Hobart Tas 7004. Purpose is new home. Property in Neika Tas 7054 to be sold.",
+      "pdf_url": "wilkiea_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-11-17",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Deletion of Property in Neika Tas.",
+      "pdf_url": "wilkiea_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-11-17",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Deletion of Interest in property in Sandy Bay Tas.",
+      "pdf_url": "wilkiea_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-11-17",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Deletion of Relationship with a senior RACGP official.",
+      "pdf_url": "wilkiea_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-09-13",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Australian Super",
+      "pdf_url": "wilkiea_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-09-13",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Deletion of BT Super",
+      "pdf_url": "wilkiea_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-10-25",
+      "category": "Gifts",
+      "entity": "AIMPE",
+      "details": "Cologne valued at $145 from AIMPE.",
+      "pdf_url": "wilkiea_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-01-14",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Engaged to a GP.",
+      "pdf_url": "wilkiea_45p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/wilkiea_45p.pdf"
+}

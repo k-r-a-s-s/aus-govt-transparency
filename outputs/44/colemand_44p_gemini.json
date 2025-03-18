@@ -1,0 +1,569 @@
+{
+  "mp_name": "David Bernard Coleman",
+  "party": "N/A",
+  "electorate": "Banks",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Genbook Inc",
+      "details": "Shares in Genbook Inc",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "L21 Pty Ltd",
+      "details": "Shares in L21 Pty Ltd",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "L21 Consulting Pty Ltd",
+      "details": "Shares in L21 Consulting Pty Ltd",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Boral Ltd",
+      "details": "Shares in Boral Ltd",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Bluescope Steel Ltd",
+      "details": "Shares in Bluescope Steel Ltd",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Coca-Cola Amatil Ltd",
+      "details": "Shares in Coca-Cola Amatil Ltd",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "National Australia Bank Ltd",
+      "details": "Shares in National Australia Bank Ltd",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Boral Ltd",
+      "details": "Spouse's shares in Boral Ltd",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Bluescope Steel Ltd",
+      "details": "Spouse's shares in Bluescope Steel Ltd",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Coca-Cola Amatil Ltd",
+      "details": "Spouse's shares in Coca-Cola Amatil Ltd",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "National Australia Bank Ltd",
+      "details": "Spouse's shares in National Australia Bank Ltd",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Residential property in Cronulla NSW",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Spouse's Residential property in Cronulla NSW",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "Ninemsn Pty Ltd",
+      "details": "Director of Ninemsn Pty Ltd, Online Media",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "Yellow Brick Road Holdings Ltd",
+      "details": "Director of Yellow Brick Road Holdings Ltd, Financial Services",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "L21 Consulting Pty Ltd",
+      "details": "Director of L21 Consulting Pty Ltd, Consulting Services",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "ING Direct",
+      "details": "Home Mortgage",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "ING Direct",
+      "details": "Spouse's Home Mortgage",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "Macquarie Bank",
+      "details": "Cash Management Account",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "St George",
+      "details": "Savings Account",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "Savings Account",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "ING Direct",
+      "details": "Savings Account",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "ING Direct",
+      "details": "Spouse's Savings Account",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Spouse's Savings Account",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "Spouse's Savings Account",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "BankWest",
+      "details": "Dependent Children's Savings Account",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation, Australian Super",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Life Insurance, AMP",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Life Insurance, Australian Super",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Spouse's 401(k) Plan, Fidelity",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Spouse's Superannuation, ONE PATH",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Spouse's Superannuation, Legal Super",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Shares",
+      "entity": "Primary Health Care Ltd",
+      "details": "Additional Shareholdings",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Shares",
+      "entity": "QBE Ltd",
+      "details": "Additional Shareholdings",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Shares",
+      "entity": "Rio Tinto Ltd",
+      "details": "Additional Shareholdings",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Shares",
+      "entity": "Primary Health Care Ltd",
+      "details": "Additional Shareholdings (Spouse)",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Shares",
+      "entity": "QBE Ltd",
+      "details": "Additional Shareholdings (Spouse)",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Shares",
+      "entity": "Rio Tinto Ltd",
+      "details": "Additional Shareholdings (Spouse)",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "QANTAS Chairman's Club",
+      "details": "Membership",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "QANTAS Chairman's Club",
+      "details": "Membership - Spouse",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Travel",
+      "entity": "QANTAS",
+      "details": "Los Angeles - New York, Spouse and two children, Economy - Business, 21/11/13",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Travel",
+      "entity": "QANTAS",
+      "details": "Sydney - Canberra, Self, Economy - Business, 8/12/13",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "St George",
+      "details": "Additional Savings Account",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Directorships",
+      "entity": "ninemsn Pty Ltd",
+      "details": "Resigned",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Directorships",
+      "entity": "Yellow Brick Road Holdings Ltd",
+      "details": "Resigned",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Shares",
+      "entity": "L21 Consulting Pty Ltd",
+      "details": "Company deregistered",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Directorships",
+      "entity": "L21 Consulting Pty Ltd",
+      "details": "Company deregistered",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-01-14",
+      "category": "Memberships",
+      "entity": "Virgin Australia",
+      "details": "Received Membership of Virgin Australia Club",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-01-15",
+      "category": "Hospitality",
+      "entity": "Nine Entertainment Co",
+      "details": "Dinner, November 19 2013",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-02-05",
+      "category": "Shares",
+      "entity": "AGL Ltd",
+      "details": "Shares, AGL Ltd, Purchased by Self and Spouse, 28/1/2014.",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-02-05",
+      "category": "Gifts",
+      "entity": "Ms Xiangguang Lin, Ms Qanying Huang",
+      "details": "Partial sponsorship provided for Chinese New Year event held on 25 January 2014",
+      "pdf_url": "colemand_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2014-04-17",
+      "category": "Memberships",
+      "entity": "Virgin Australia",
+      "details": "Spouse, Membership of Virgin Australia Lounge, 28 February 2014",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-04-24",
+      "category": "Income Sources",
+      "entity": "NSW Liberal Party Banks FEC",
+      "details": "Payment by NSW Liberal Party Banks FEC for First Speech function, payment made on April 7",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-07-15",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Flight upgrade, Economy to Premium Economy, Qantas, Sydney - Los Angeles, 27 June 2014",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-08-25",
+      "category": "Travel",
+      "entity": "Virgin",
+      "details": "Flight upgrade, Economy to Business, Virgin, Sydney - Brisbane, 20 August 2014",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-08-25",
+      "category": "Travel",
+      "entity": "Virgin",
+      "details": "Flight upgrade, Economy to Business, Virgin, Sydney - Gold Coast, 21 August 2014",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-08-25",
+      "category": "Travel",
+      "entity": "Virgin",
+      "details": "Flight upgrade, Economy to Business, Virgin, Gold Coast - Sydney, 23 August 2014",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-08-25",
+      "category": "Hospitality",
+      "entity": "Intercontinental Gold Coast, Centre for Independent Studies",
+      "details": "Accommodation and Hospitality, Intercontinental Gold Coast, Centre for Independent Studies Consilium Conference, 21 August - 23 August 2014",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-10-02",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "House, Residential, Purchased by Self and Spouse, Lugarno NSW",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-10-02",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "House, Investment, Self and Spouse, Cronulla NSW",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-11-06",
+      "category": "Gifts",
+      "entity": "Mr Daniel Eskandari",
+      "details": "Decorative Platter, Provided by Mr Daniel Eskandari, 6 November 2014",
+      "pdf_url": "colemand_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2015-03-04",
+      "category": "Gifts",
+      "entity": "Acline Pty Ltd",
+      "details": "Donation of Banner for Chinese New Year Function by Acline Pty Ltd.",
+      "pdf_url": "colemand_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2015-03-10",
+      "category": "Hospitality",
+      "entity": "Yuhu Group Pty Ltd",
+      "details": "Lunch provided by Yuhu Group Pty Ltd to self and spouse, 15 February 2015",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-05-28",
+      "category": "Income Sources",
+      "entity": "NSW Liberal Party Banks FEC",
+      "details": "Contribution to 2015 Chinese New Year Event, NSW Liberal Party Banks FEC",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-06-17",
+      "category": "Income Sources",
+      "entity": "NSW Liberal Party Banks FEC",
+      "details": "Contribution to 2015 Chinese New Year Event Performer Fees, NSW Liberal Party Banks FEC",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-06-23",
+      "category": "Income Sources",
+      "entity": "NSW Liberal Party Banks FEC",
+      "details": "Payment for Letterbox Distributions, Budget and Anzac Day Material, NSW Liberal Party Banks FEC",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-07-31",
+      "category": "Travel",
+      "entity": "Virgin Australia",
+      "details": "Virgin Australia, Flight upgrade, Economy - Premium Economy, Sydney - Los Angeles, June 26 2015",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-07-31",
+      "category": "Travel",
+      "entity": "Virgin Australia",
+      "details": "Virgin Australia, Flight Transfer, 26 June 2015",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-07-31",
+      "category": "Travel",
+      "entity": "Virgin Australia",
+      "details": "Virgin Australia, Flight upgrade, Economy - Business, Los Angeles - Sydney, July 10 2015",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-07-31",
+      "category": "Travel",
+      "entity": "Virgin Australia",
+      "details": "Virgin Australia, Flight Transfer, 10 July 2015",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-03",
+      "category": "Gifts",
+      "entity": "Beverly Hills Cinemas",
+      "details": "Donation of Cinema for October 28 Banks Junior Short Film Contest, Beverly Hills Cinemas",
+      "pdf_url": "colemand_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2015-11-03",
+      "category": "Gifts",
+      "entity": "Event Cinemas",
+      "details": "Donation of Contestant Prize for October 28 Banks Junior Short Film Contest, Event Cinemas",
+      "pdf_url": "colemand_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2015-11-03",
+      "category": "Gifts",
+      "entity": "Vodafone",
+      "details": "Donation of Prizes for October 28 Banks Junior Short Film Contest, Vodafone",
+      "pdf_url": "colemand_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2015-11-03",
+      "category": "Gifts",
+      "entity": "Shopfront Theatre",
+      "details": "Donation of Prize for October 28 Banks Junior Short Film Contest, Shopfront Theatre",
+      "pdf_url": "colemand_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-01-22",
+      "category": "Income Sources",
+      "entity": "NSW Liberal Party Banks FEC",
+      "details": "NSW Liberal Party, Banks FEC, Contribution to costs of Banks Chinese Community Function, October 2015",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-03-03",
+      "category": "Income Sources",
+      "entity": "NSW Liberal Party Banks FEC",
+      "details": "NSW Liberal Party, Banks FEC, Payment of costs for Banks Chinese New Year Function, February 2016",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-04-08",
+      "category": "Income Sources",
+      "entity": "NSW Liberal Party Banks FEC",
+      "details": "NSW Liberal Party, Banks FEC, Payment of costs for Banks Economic Forum, February 2016",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-04-08",
+      "category": "Hospitality",
+      "entity": "Credit Suisse Ltd",
+      "details": "Credit Suisse Ltd, Payment for Dinner hosted by Parliamentary Friends of Innovation and Enterprise, 16 March 2016. I am Co-Chair of the Parliamentary Friends of Innovation",
+      "pdf_url": "colemand_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-04-08",
+      "category": "Hospitality",
+      "entity": "Club Rivers",
+      "details": "Club Rivers, Waiving of fees for Banks Community Awards held at Club Rivers, 6 April 2016",
+      "pdf_url": "colemand_44p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/colemand_44p.pdf"
+}

@@ -1,0 +1,107 @@
+{
+  "mp_name": "Andrew Charles Laming",
+  "party": "Unknown",
+  "electorate": "Bowman",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "OLESTA AND ANDREW LAMING SUPERANNUATION FUND",
+      "details": "ACN 159 102 897",
+      "pdf_url": "laminga_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Trusts",
+      "entity": "Unknown",
+      "details": "OLESTA AND ANDREW LAMING SUPERANNUATION FUND (Beneficial Interest)",
+      "pdf_url": "laminga_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Cleveland - Occupied",
+      "pdf_url": "laminga_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Canberra - Investment",
+      "pdf_url": "laminga_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Mooloolaba - Investment",
+      "pdf_url": "laminga_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "OLESTA ANDREW LAMING SUPERANNUATION FUND",
+      "details": "N/A",
+      "pdf_url": "laminga_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Credit Card, Line of Credit x 3",
+      "pdf_url": "laminga_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Line of Credit x 3, CDIA Account",
+      "pdf_url": "laminga_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Vehicle",
+      "pdf_url": "laminga_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Investment Property",
+      "pdf_url": "laminga_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-06-03",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Dwelling - Thornlands",
+      "pdf_url": "laminga_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-06-03",
+      "category": "Memberships",
+      "entity": "Chairman's Lounge",
+      "details": "QANTAS Kirgin Club",
+      "pdf_url": "laminga_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-06-03",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Self-managed super fund",
+      "pdf_url": "laminga_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-06-03",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Dwelling - Cleveland (Deleted)",
+      "pdf_url": "laminga_44p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/laminga_44p.pdf"
+}

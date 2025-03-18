@@ -1,0 +1,108 @@
+{
+  "mp_name": "Sussan Ley",
+  "party": "N/A",
+  "electorate": "Farrer",
+  "disclosures": [
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "leys_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "leys_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "Albury",
+      "details": "Residential",
+      "pdf_url": "leys_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "leys_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "leys_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "leys_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "Home Building Society",
+      "details": "Deposit, Savings",
+      "pdf_url": "leys_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "leys_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "leys_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "leys_43p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "leys_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "leys_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "leys_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-11-22",
+      "category": "Travel",
+      "entity": "Albury Wodonga Community College",
+      "details": "Visit to New Zealand Feb 2011 - early childhood and training for Jobseekers. Sponsored by Albury Wodonga Community College",
+      "pdf_url": "leys_43p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/43/leys_43p.pdf"
+}

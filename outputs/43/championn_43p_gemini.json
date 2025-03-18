@@ -1,0 +1,138 @@
+{
+  "mp_name": "Nicholas David Champion",
+  "party": "Unknown",
+  "electorate": "Wakefield",
+  "disclosures": [
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "BHP Billiton",
+      "details": "Shareholding in public company",
+      "pdf_url": "championn_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Origin Energy",
+      "details": "Shareholding in public company",
+      "pdf_url": "championn_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Telstra",
+      "details": "Shareholding in public company (deceased)",
+      "pdf_url": "championn_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Macquarie Bank",
+      "details": "Shareholding in public company",
+      "pdf_url": "championn_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Burton, South Australia; Purpose: Home",
+      "pdf_url": "championn_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Savings, Cheque, Visa accounts",
+      "pdf_url": "championn_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "CARE Superannuation Fund Account",
+      "pdf_url": "championn_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Australian Government Employees Superannuation Trust",
+      "pdf_url": "championn_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Membership of Qantas Chairmens Lounge",
+      "pdf_url": "championn_43p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Gold Membership of Virgin Airlines Velocity Lounge",
+      "pdf_url": "championn_43p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Gifts",
+      "entity": "Astra",
+      "details": "Foxtel Subscription for office television - basic package provided by Astra",
+      "pdf_url": "championn_43p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2010-10-24",
+      "category": "Liabilities",
+      "entity": "Maquarie Mortgages",
+      "details": "Mortgage",
+      "pdf_url": "championn_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-05-19",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Australian Defence Force Parliamentary Program trip to East Timor. From Monday 11 April to Friday 15 April 2011 I was part of an ADFPP trip to East Timor.",
+      "pdf_url": "championn_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-05-19",
+      "category": "Shares",
+      "entity": "Macquarie Bank",
+      "details": "On Wednesday 27 April I sold my shares in Macquarie Bank.",
+      "pdf_url": "championn_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-07-04",
+      "category": "Liabilities",
+      "entity": "Homeside (NAB)",
+      "details": "Mortgage on property with Homeside (NAB). Signed documents on 22/6/2011",
+      "pdf_url": "championn_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-07-04",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Part owner of property in West Croydon (SA). Signed documents on 22/6/2011",
+      "pdf_url": "championn_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-07-04",
+      "category": "Shares",
+      "entity": "Macquarie Bank",
+      "details": "Unknown details",
+      "pdf_url": "championn_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-08-17",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "On a Qantas flight between Sydney and Los Angeles in early July 2011 I was upgraded from economy class to business class.",
+      "pdf_url": "championn_43p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/43/championn_43p.pdf"
+}

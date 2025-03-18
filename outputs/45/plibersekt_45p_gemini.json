@@ -1,0 +1,392 @@
+{
+  "mp_name": "Tanya Joan Plibersek",
+  "party": "N/A",
+  "electorate": "Sydney",
+  "disclosures": [
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Trusts",
+      "entity": "Coutts-Trotter Family Trust",
+      "details": "Sole beneficiary",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Trusts",
+      "entity": "Jessie Street Trust",
+      "details": "$5000 grant awarded annually",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Real Estate",
+      "entity": "Kingston, ACT",
+      "details": "Residential",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Real Estate",
+      "entity": "Rosebery, NSW",
+      "details": "Residential",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Mortgage",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Mortgage (jointly held)",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Savings/Investments",
+      "entity": "Qudos Bank",
+      "details": "Cheque accounts",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Savings/Investments",
+      "entity": "NAB and Westpac",
+      "details": "Savings accounts",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Other Assets",
+      "entity": "First State Superannuation",
+      "details": "Spouse",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Salary (Spouse)",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's Lounge Membership",
+      "pdf_url": "plibersekt_45p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Gifts",
+      "entity": "Virgin Australia",
+      "details": "Virgin Australia Lounge Membership",
+      "pdf_url": "plibersekt_45p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's Lounge Membership (Spouse)",
+      "pdf_url": "plibersekt_45p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Memberships",
+      "entity": "ALP (NSW Branch)",
+      "details": "Member",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Memberships",
+      "entity": "Australian Fabians",
+      "details": "Member",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Memberships",
+      "entity": "Australian Republican Movement",
+      "details": "Member",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Memberships",
+      "entity": "Challenge (NSW Left)",
+      "details": "Member",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Memberships",
+      "entity": "Community and Public Sector Union",
+      "details": "Member",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Memberships",
+      "entity": "EMILY's List Australia",
+      "details": "Member",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Memberships",
+      "entity": "Evatt Foundation",
+      "details": "Member",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Memberships",
+      "entity": "Family Drug Support",
+      "details": "Member",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Memberships",
+      "entity": "Inner Sydney Regional Council for Social Development",
+      "details": "Member",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Memberships",
+      "entity": "Inter Parliamentary Union",
+      "details": "Member",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Memberships",
+      "entity": "Amnesty International",
+      "details": "Donor",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Memberships",
+      "entity": "Bridge for Asylum Seekers Foundation",
+      "details": "Donor",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Memberships",
+      "entity": "International Women's Development Agency",
+      "details": "Donor",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Memberships",
+      "entity": "Matthew Talbot Hostel",
+      "details": "Donor",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Memberships",
+      "entity": "Wayside Chapel",
+      "details": "Donor",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Memberships",
+      "entity": "UNICEF Australia",
+      "details": "Donor",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Memberships",
+      "entity": "Jessie Street Trust",
+      "details": "Trustee",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-16",
+      "category": "Gifts",
+      "entity": "artist",
+      "details": "'Fizza' poster ($50 value approx.)",
+      "pdf_url": "plibersekt_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-09-16",
+      "category": "Gifts",
+      "entity": "Sutherland District Trade Union Club",
+      "details": "Scarf ($50 value approx.)",
+      "pdf_url": "plibersekt_45p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2016-09-16",
+      "category": "Gifts",
+      "entity": "Chinese Ambassador",
+      "details": "4 tins of tea, pen, USB drive, book ($100 value approx.)",
+      "pdf_url": "plibersekt_45p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2016-09-16",
+      "category": "Gifts",
+      "entity": "Ovarian Cancer Research Centre",
+      "details": "Earrings and necklace ($195 value)",
+      "pdf_url": "plibersekt_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-09-16",
+      "category": "Gifts",
+      "entity": "Screen Australia",
+      "details": "Selection of DVDs ($150 value approx.)",
+      "pdf_url": "plibersekt_45p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2016-09-16",
+      "category": "Gifts",
+      "entity": "Hamlin Fistula",
+      "details": "Book ( $32.99 value)",
+      "pdf_url": "plibersekt_45p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2016-10-26",
+      "category": "Gifts",
+      "entity": "Nude by Nature",
+      "details": "Nude by Nature Make-up, Selection of items RRP $300, Donated to Randwick Girls High School to Raffle for P&C fundraising.",
+      "pdf_url": "plibersekt_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2017-08-23",
+      "category": "Real Estate",
+      "entity": "Ljubljana, Slovenia",
+      "details": "Residential Investment Property, Joint owner (with spouse)",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-08-23",
+      "category": "Liabilities",
+      "entity": "Westpac Banking Corporation",
+      "details": "Mortgage on above property",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-12-19",
+      "category": "Memberships",
+      "entity": "Life Education NSW",
+      "details": "Appointment as Life Education NSW Ambassador - 2017",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-12-19",
+      "category": "Real Estate",
+      "entity": "Caringbah NSW",
+      "details": "Part owner of a flat - Investment - inherited from deceased family member",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-03-13",
+      "category": "Memberships",
+      "entity": "City of Sydney RSL",
+      "details": "City of Sydney RSL (expires December 2018) - complimentary",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-03-13",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rental income",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-05-18",
+      "category": "Liabilities",
+      "entity": "Westpac Banking Corporation",
+      "details": "Joint mortgages for self and spouse- Westpac Banking Corporation",
+      "pdf_url": "plibersekt_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-07-26",
+      "category": "Gifts",
+      "entity": "Virgin Australia",
+      "details": "Membership of Virgin Australia Airlines 'The Club' for self and spouse.",
+      "pdf_url": "plibersekt_45p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2018-12-11",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "1 x Taittinger Comtes de Champagne 2007, received from Qantas Value: $330 Gifted to Bourke Street Public School for their Christmas fundraiser",
+      "pdf_url": "plibersekt_45p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2019-03-13",
+      "category": "Memberships",
+      "entity": "City of Sydney RSL",
+      "details": "Honorary membership of the City of Sydney RSL 2019",
+      "pdf_url": "plibersekt_45p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/plibersekt_45p.pdf"
+}

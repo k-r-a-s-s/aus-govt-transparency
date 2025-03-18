@@ -1,0 +1,153 @@
+{
+  "mp_name": "Justine Elliot",
+  "party": "Unknown",
+  "electorate": "Richmond",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Self: Nil, Spouse: Nil, Dependent Children: Nil",
+      "pdf_url": "elliotj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Self: Nil, Spouse: Nil, Dependent Children: Nil",
+      "pdf_url": "elliotj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Self: Nunderi - Residence; Fingal Head - Investment, Spouse: Nunderi - Residence, Dependent Children: Nil",
+      "pdf_url": "elliotj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Self: Nil, Spouse: Nil, Dependent Children: Nil",
+      "pdf_url": "elliotj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Self: Nil, Spouse: Nil, Dependent Children: Nil",
+      "pdf_url": "elliotj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Self: Nil, Spouse: Nil, Dependent Children: Nil",
+      "pdf_url": "elliotj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "Bank of Qld, St George Bank, Heritage Building Society",
+      "details": "Self: Savings Acc., Spouse: Savings Acc., Dependent Children: Savings Acc., Heritage Savings Acc",
+      "pdf_url": "elliotj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Self: Nil, Spouse: Nil, Dependent Children: Nil",
+      "pdf_url": "elliotj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Self: Nil, Spouse: Nil, Dependent Children: Nil",
+      "pdf_url": "elliotj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Self: Nil, Spouse: Nil, Dependent Children: Nil",
+      "pdf_url": "elliotj_44p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Self: Nil, Spouse: Nil, Dependent Children: Nil",
+      "pdf_url": "elliotj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Self: Nil, Spouse: Nil, Dependent Children: Nil",
+      "pdf_url": "elliotj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Self: Nil, Spouse: Nil, Dependent Children: Nil",
+      "pdf_url": "elliotj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-08",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "3 Tickets Inaugural Boomerang Festival - Byron Bay.",
+      "pdf_url": "elliotj_44p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2015-02-12",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "2 x tickets to Byron Falls Festival December 2014",
+      "pdf_url": "elliotj_44p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2015-08-05",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Investment Property (Joint with husband) - Murwillumbah",
+      "pdf_url": "elliotj_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-08-05",
+      "category": "Liabilities",
+      "entity": "Goldice Pty Ltd",
+      "details": "Mortgage (Joint with husband)",
+      "pdf_url": "elliotj_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-08-05",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rental Income (Joint with husband)",
+      "pdf_url": "elliotj_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-08-05",
+      "category": "Liabilities",
+      "entity": "American Express",
+      "details": "Credit Card (Self)",
+      "pdf_url": "elliotj_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-05-04",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "2 x tickets to Byron Bluesfest (March 2016).",
+      "pdf_url": "elliotj_44p.pdf",
+      "sub_category": "Sports Tickets"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/elliotj_44p.pdf"
+}

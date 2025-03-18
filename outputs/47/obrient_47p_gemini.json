@@ -1,0 +1,509 @@
+{
+  "mp_name": "Ted O'Brien",
+  "party": "N/A",
+  "electorate": "Fairfax",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Shares",
+      "entity": "Aurizon Holdings Ltd",
+      "details": "N/A",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Shares",
+      "entity": "Fortescue Metals Grp Ltd",
+      "details": "N/A",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Shares",
+      "entity": "JB Hi-Fi Ltd",
+      "details": "N/A",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Shares",
+      "entity": "Newcrest Mining",
+      "details": "N/A",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Shares",
+      "entity": "One Market",
+      "details": "N/A",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Shares",
+      "entity": "Rio Tinto Ltd",
+      "details": "N/A",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Shares",
+      "entity": "Super Retail Rep Ltd",
+      "details": "N/A",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Shares",
+      "entity": "Suncorp Grp Ltd",
+      "details": "N/A",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Shares",
+      "entity": "Tabcorp Holdings Ltd",
+      "details": "N/A",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Shares",
+      "entity": "Telstra Corporation",
+      "details": "N/A",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Shares",
+      "entity": "Woolworths Grp Ltd",
+      "details": "N/A",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Shares",
+      "entity": "News Corp",
+      "details": "N/A",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Shares",
+      "entity": "The Lottery Corporation",
+      "details": "N/A",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Shares",
+      "entity": "Walt Disney",
+      "details": "N/A",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Shares",
+      "entity": "Fox Corp",
+      "details": "N/A",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Shares",
+      "entity": "Endeavour Group Ltd",
+      "details": "N/A",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Trusts",
+      "entity": "Store Invest Enhanced Income Fund No. 1",
+      "details": "Investment vehicle for self storage properties. Beneficial interest",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Trusts",
+      "entity": "MXT (Metrics) Master Income Trust",
+      "details": "Unitholding in Australian based alternative asset manager. Beneficial interest",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Buderim Qld - Primary Residence",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Canberra ACT - Second residence for sitting weeks and during other Parliamentary duties",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Buderim - Primary Residence (Spouse/partner)",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Morayfield Qld - Investment (part interest) (Spouse/partner)",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Directorships",
+      "entity": "Generation Innovation",
+      "details": "Not for Profit assisting young Australians (unpaid)",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Directorships",
+      "entity": "Generation Innovation",
+      "details": "Not for Profit assisting young Australians (unpaid) (Spouse/partner)",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Home loan (Joint) against Buderim property",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Home loan (Joint) against Canberra property",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Home loan (Joint) against Buderim property (Spouse/partner)",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Home loan (Joint) against Canberra property (Spouse/partner)",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Savings Account (joint)",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Complete Access Account (joint)",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Mastercard",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Personal Credit Card",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Electorate Allowance Transaction Account",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Savings/Investments",
+      "entity": "Australian Super",
+      "details": "Superannuation Account",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Savings Account (joint) (Spouse/partner)",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Complete Access Account (joint) (Spouse/partner)",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Saving Account (sole) (Spouse/partner)",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Savings/Investments",
+      "entity": "Uni Super",
+      "details": "Superannuation Account (Spouse/partner)",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Savings/Investments",
+      "entity": "Ord Minnett Multi-Asset High Growth Portfolio",
+      "details": "Managed Investment Scheme (Spouse/partner)",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Youth Saver Account (Dependent children)",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Managed investment scheme, encompassing separately managed accounts: Investor directed portfolio service. Ord Minnett Australian Emerging Companies portfolio - Ord Minnett Australian Core Equities Portfolio - ASIA - BETA ASIATECH TIGERS ETF UNITS CRED - BETAAUSCORPBONDETF ETF UNITS - MNRS - BETA GLOBAL GOLD ETF UNITS - MVA - VANECK PROPERTY ETF UNITS - NDQ - BETASHARENASDAQ100 ETF UNITS",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "QHAL - VANEXK QUAL HEDGED ETF UNITS",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Car",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Car (Spouse/partner)",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Memberships",
+      "entity": "Queensland Club",
+      "details": "N/A",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Qantas Chairman's Lounge Membership",
+      "pdf_url": "obrient_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Virgin VIP Club Membership",
+      "pdf_url": "obrient_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Astra TV Subscription in Electorate Office",
+      "pdf_url": "obrient_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Travel",
+      "entity": "China Matters",
+      "details": "Travel - flights, ground transfers, meals and accommodation provided by \"China Matters\" for a study tour to China: 23-29 Sept 2019",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Travel",
+      "entity": "Ministry of Foreign Affairs, Republic of China (Taiwan)",
+      "details": "Travel - flights, ground transfers, meals and accommodation provided by \"the Ministry of Foreign Affairs, Republic of China (Taiwan)\" for a study tour to Taiwan: 29 October - 1 November 2019.",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-11-24",
+      "category": "Shares",
+      "entity": "Findi",
+      "details": "Spouse",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-11-24",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Member: Property in Canberra purchased for second residence",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-11-24",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Member: Property in Canberra previously listed as second residence converts to investment",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-02-22",
+      "category": "Travel",
+      "entity": "Coalition for Conservation",
+      "details": "Contribution of $5000 towards accommodation and domestic flights for study tour to the USA and Canada (23 Jan - 9 Feb 2023) - provided by Coalition for Conservation",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-23",
+      "category": "Travel",
+      "entity": "Alliance for Responsible Citizenship",
+      "details": "Travel - attendance at the Alliance for Responsible Citizenship including flights, accommodation, transfers, conference registration and events provided by \"Alliance for Responsible Citizenship\u201d held in the United Kingdom: expenses spread between 27 Oct \u2013 5 Nov 2023",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-12-22",
+      "category": "Travel",
+      "entity": "Coalition for Conservation",
+      "details": "Travel - attendance at COP28, including flights, accommodation, transfers, conference registration and events provided by \"Coalition for Conservation\" held in Dubai, United Arab Emirates: expenses spread between 5 Dec - 13 Dec 2023.",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-08-12",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Spouse: Morayfield property - project has ceased.",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-08-12",
+      "category": "Shares",
+      "entity": "Fortescue Metals Grp Ltd",
+      "details": "Disposed",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-08-12",
+      "category": "Shares",
+      "entity": "Newcrest Mining",
+      "details": "Disposed",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-08-12",
+      "category": "Shares",
+      "entity": "One Market",
+      "details": "Disposed",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-08-12",
+      "category": "Shares",
+      "entity": "Rio Tinto Ltd",
+      "details": "Disposed",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-08-12",
+      "category": "Shares",
+      "entity": "Tabcorp Holdings Ltd",
+      "details": "Disposed",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-08-12",
+      "category": "Shares",
+      "entity": "Telstra Corporation",
+      "details": "Disposed",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-08-12",
+      "category": "Shares",
+      "entity": "News Corp",
+      "details": "Disposed",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-08-12",
+      "category": "Shares",
+      "entity": "Walt Disney",
+      "details": "Disposed",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-08-12",
+      "category": "Shares",
+      "entity": "Fox Corp",
+      "details": "Disposed",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-08-12",
+      "category": "Shares",
+      "entity": "Endeavour Group Ltd",
+      "details": "Disposed",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-08-14",
+      "category": "Shares",
+      "entity": "JBHI-FI",
+      "details": "Disposed",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-12-20",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Equity for Sophia - GCI - GRYPHON CAPITAL Income Trust",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-12-20",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Equity for Sophia - Regal Investment Fund",
+      "pdf_url": "obrient_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-12-20",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Equity for Children - Ophir High Conviction Fund",
+      "pdf_url": "obrient_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/obrient_47p.pdf"
+}

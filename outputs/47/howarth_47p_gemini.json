@@ -1,0 +1,109 @@
+{
+  "mp_name": "Luke Howarth",
+  "party": "Unknown",
+  "electorate": "Petrie",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-05",
+      "category": "Trusts",
+      "entity": "Howarth Family Trust",
+      "details": "Business sold trust dormant. Family trust",
+      "pdf_url": "howarth_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-05",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Clontarf: Residential home",
+      "pdf_url": "howarth_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-05",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Mount Pleasant: Investment",
+      "pdf_url": "howarth_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-05",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Clontarf: Residential home",
+      "pdf_url": "howarth_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-05",
+      "category": "Liabilities",
+      "entity": "Westpac Bank",
+      "details": "Mortgage",
+      "pdf_url": "howarth_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-05",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Savings Cryptocurrency",
+      "pdf_url": "howarth_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-05",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rental property income",
+      "pdf_url": "howarth_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-05",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Education primary school teacher income",
+      "pdf_url": "howarth_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-05",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Part time jobs for two sons living at home.",
+      "pdf_url": "howarth_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-05",
+      "category": "Memberships",
+      "entity": "Chameleon House",
+      "details": "Patron Chameleon House",
+      "pdf_url": "howarth_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-03-30",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Received Tickets to the Dolphins Game at Suncorp Stadium 24 March 2023.",
+      "pdf_url": "howarth_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2024-10-03",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "House at Woody Point for Louise Howarth",
+      "pdf_url": "howarth_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-03",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Removal house at Clontarf L and L Howarth",
+      "pdf_url": "howarth_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-03",
+      "category": "Gifts",
+      "entity": "DP World",
+      "details": "Sporting tickets and accommodation in Singapore valued at $7,000 from DP World.",
+      "pdf_url": "howarth_47p.pdf",
+      "sub_category": "Sports Tickets"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/howarth_47p.pdf"
+}

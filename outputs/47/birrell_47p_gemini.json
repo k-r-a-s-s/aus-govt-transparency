@@ -1,0 +1,124 @@
+{
+  "mp_name": "Sam Birrell",
+  "party": "Unknown",
+  "electorate": "Nicholls",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Shares",
+      "entity": "Telstra",
+      "details": "Shareholding in Telstra",
+      "pdf_url": "birrell_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Residential property in Shepparton",
+      "pdf_url": "birrell_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Liabilities",
+      "entity": "Bank of Melbourne",
+      "details": "Mortgage on Residential Property",
+      "pdf_url": "birrell_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Liabilities",
+      "entity": "RACV Finance",
+      "details": "Car Loan",
+      "pdf_url": "birrell_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Savings account",
+      "pdf_url": "birrell_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Other Assets",
+      "entity": "Colonial First State",
+      "details": "Colonial superannuation fund",
+      "pdf_url": "birrell_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Other Assets",
+      "entity": "Uni Super",
+      "details": "Uni Super superannuation fund",
+      "pdf_url": "birrell_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from employment (Spouse/partner)",
+      "pdf_url": "birrell_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Memberships",
+      "entity": "Alpine Club of Victoria",
+      "details": "Member",
+      "pdf_url": "birrell_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Memberships",
+      "entity": "Melbourne Cricket Club",
+      "details": "Member",
+      "pdf_url": "birrell_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Memberships",
+      "entity": "RACV Club",
+      "details": "Member",
+      "pdf_url": "birrell_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-08",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's Lounge",
+      "pdf_url": "birrell_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2023-06-22",
+      "category": "Gifts",
+      "entity": "Lion Brewing",
+      "details": "2 Tickets to the Parliamentary Midwinter Ball",
+      "pdf_url": "birrell_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-08-15",
+      "category": "Gifts",
+      "entity": "Foxtel",
+      "details": "Foxtel VIP Program - Annual Value $1680.00",
+      "pdf_url": "birrell_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-08-28",
+      "category": "Travel",
+      "entity": "Coalition for Conservation International",
+      "details": "Coalition for Conservation International Climate Conference 17-18 August 2023",
+      "pdf_url": "birrell_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-28",
+      "category": "Hospitality",
+      "entity": "Taronga Zoo",
+      "details": "Taronga Zoo Wildlife Retreat. Accommodation $355.00, Conference $150.00",
+      "pdf_url": "birrell_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/birrell_47p.pdf"
+}

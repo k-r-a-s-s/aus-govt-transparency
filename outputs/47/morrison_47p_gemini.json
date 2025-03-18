@@ -1,0 +1,623 @@
+{
+  "mp_name": "Scott Morrison",
+  "party": "Liberal Party of Australia",
+  "electorate": "Cook",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Shares",
+      "entity": "Triginta Pty LTD",
+      "details": "Superannuation",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Superannuation (Spouse/partner)",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Trusts",
+      "entity": "Morrison Family Trust",
+      "details": "Advisory Services, Beneficiary",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Trusts",
+      "entity": "Triginta Pty Ltd ATF Morrison Family Trust",
+      "details": "Advisory Services, Trustee",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Real Estate",
+      "entity": "Dolans Bay NSW",
+      "details": "Residential",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Directorships",
+      "entity": "Morrison Family Trust",
+      "details": "Advisory Services",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Directorships",
+      "entity": "Triginta Pty Ltd",
+      "details": "Trustee Company",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Liabilities",
+      "entity": "Commbank",
+      "details": "Mortgage",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Liabilities",
+      "entity": "Commbank",
+      "details": "Viridian",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Liabilities",
+      "entity": "Commbank",
+      "details": "Mortgage (Spouse/partner)",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Liabilities",
+      "entity": "Commbank",
+      "details": "Viridian (Spouse/partner)",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Liabilities",
+      "entity": "Commbank",
+      "details": "Visa (Spouse/partner)",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Mastercard (Spouse/partner)",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Liabilities",
+      "entity": "David Jones",
+      "details": "AMEX (Spouse/partner)",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Savings/Investments",
+      "entity": "MLC, Australian Super",
+      "details": "Superannuation",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Savings/Investments",
+      "entity": "MLC",
+      "details": "Superannuation (Spouse/partner)",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Savings/Investments",
+      "entity": "Commbank",
+      "details": "Savings",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Savings/Investments",
+      "entity": "Commbank",
+      "details": "Savings (Spouse/partner)",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Private Vehicle (Spouse/partner)",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Income Sources",
+      "entity": "Victory of Life Church",
+      "details": "Honorarium",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Income Sources",
+      "entity": "Worldwide Support for Development",
+      "details": "Honorarium",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Gifts",
+      "entity": "Foxtel",
+      "details": "Complimentary Foxtel services in my Electorate Office in Cronulla. This service is ongoing",
+      "pdf_url": "morrison_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Gifts",
+      "entity": "Southern Districts Rugby Union Club, Sylvania Waters",
+      "details": "Season Ticket to home games",
+      "pdf_url": "morrison_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Gifts",
+      "entity": "Cronulla Sharks",
+      "details": "Season ticket to home games",
+      "pdf_url": "morrison_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Gifts",
+      "entity": "Ace Gutters",
+      "details": "Corporate Hospitality for Cronulla Sharks home games",
+      "pdf_url": "morrison_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Travel",
+      "entity": "Victory Life Centre",
+      "details": "Return Business class airfare Sydney to Perth - 16-18 July 2022",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Travel",
+      "entity": "The Chosun Ilbo",
+      "details": "Return Business class airfare to Sydney to Seoul, South Korea, Accommodation and incidentals - 12 - 15 July 2022",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Travel",
+      "entity": "Worldwide Support for Development",
+      "details": "Return Business class airfare Sydney to Tokyo, Japan, Accommodation and incidentals - 24-30 July 2022",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Hospitality",
+      "entity": "Hoyts Cronulla",
+      "details": "Movie Tickets for my staff - 22 June 2022",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Hospitality",
+      "entity": "NRL",
+      "details": "Ticket to Round 1 State of Origin - 8 June 2022",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Hospitality",
+      "entity": "Qantas",
+      "details": "Complimentary membership of Qantas Chairman's Lounge",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Hospitality",
+      "entity": "Virgin",
+      "details": "Complimentary membership of the Virgin Beyond Lounge (formerly The Club)",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Hospitality",
+      "entity": "Servcorp",
+      "details": "Provision of office facilities and administrative support in Japan on 25 - 29 July 2022",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Travel",
+      "entity": "Worldwide Support for Development",
+      "details": "Return Business class airfare Sydney to Tokyo, Japan, Accommodation and incidentals (Spouse/partner) - 24-30 July 2022",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Hospitality",
+      "entity": "Qantas",
+      "details": "Complimentary membership of Qantas Chairman's Lounge (Spouse/partner)",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Hospitality",
+      "entity": "Virgin",
+      "details": "Complimentary membership of the Virgin Beyond Lounge (formerly The Club) (Spouse/partner)",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Memberships",
+      "entity": "Liberal Party of Australia, NSW Division",
+      "details": "Membership",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Memberships",
+      "entity": "Royal Motor Yacht Club Woolooware",
+      "details": "Honorary Membership",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Memberships",
+      "entity": "National Press Club",
+      "details": "Complimentary Membership",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Memberships",
+      "entity": "Cronulla RSL Club",
+      "details": "Honorary Membership",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Memberships",
+      "entity": "Cronulla Sharks",
+      "details": "Honorary Chairman's Membership",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Memberships",
+      "entity": "South Metropolitan Regional Scout Council, NSW",
+      "details": "Honorary Membership",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Memberships",
+      "entity": "Cronulla Surf Life Saving Club",
+      "details": "Honorary Membership",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Memberships",
+      "entity": "North Cronulla Surf Life Saving Club",
+      "details": "Honorary Membership",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Memberships",
+      "entity": "Elouera Surf Life Saving Club",
+      "details": "Vice Patron",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Memberships",
+      "entity": "Wanda Surf Life Saving Club",
+      "details": "Honorary Membership",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Memberships",
+      "entity": "Cook Community Classic",
+      "details": "Patron",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Memberships",
+      "entity": "Horizon Church, Sutherland",
+      "details": "Member",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Memberships",
+      "entity": "Southern Districts Rugby Union Football Club",
+      "details": "Complimentary Sponsor",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Memberships",
+      "entity": "Australian Kookaburra Kids Foundation",
+      "details": "Parliamentary Patron",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Memberships",
+      "entity": "St George Football Association",
+      "details": "Patron",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Memberships",
+      "entity": "Cronulla-Sutherland District Junior Rugby Football League",
+      "details": "Patron",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Memberships",
+      "entity": "Mitochondrial Foundation",
+      "details": "Patron",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Memberships",
+      "entity": "Beverley Park Golf Club",
+      "details": "Co-Patron",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Memberships",
+      "entity": "Michael Tynan Memorial Challenge",
+      "details": "Patron",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Memberships",
+      "entity": "KIDS Foundation",
+      "details": "Parliamentary Patron",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Memberships",
+      "entity": "Liberal Party of Australia, NSW Division",
+      "details": "Membership (Spouse/partner)",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Memberships",
+      "entity": "Royal Motor Yacht Club, Woolooware",
+      "details": "Honorary Membership (Spouse/partner)",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "From time to time, I will receive honorariums from speaking engagements overseas.",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Other Interests",
+      "entity": "Worldwide Speakers Group",
+      "details": "In the interest of full disclosure, my attendance will sometimes be arranged by the Worldwide Speakers Group",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Memberships",
+      "entity": "Together for Humanity",
+      "details": "Parliamentary Patron",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Honorarium - Victory of Life Church",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-13",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Honorarium - The Chosun Ilbo co Ltd",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-13",
+      "category": "Memberships",
+      "entity": "International Democrat Union",
+      "details": "Honorary Advisory Board",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-11-29",
+      "category": "Memberships",
+      "entity": "Hudson Institute",
+      "details": "Member of the Strategic Advisory Board of the China Center",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-01-01",
+      "category": "Travel",
+      "entity": "International Democrat Union",
+      "details": "Business Class Airfare, Sydney to New York, Business Class Airfare, New York to Washington DC, Business Class Airfare, Washington DC to New YorkSydney, Accommodation and Incidentals, 4-11 December 2022",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-03-09",
+      "category": "Travel",
+      "entity": "Inter-Parliamentary Alliance on China",
+      "details": "Return Business Class Airfare, Sydney to Japan, Accommodation and Incidentals - 16-18 February 2023",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-04-07",
+      "category": "Travel",
+      "entity": "NRL",
+      "details": "Gift of 12 x tickets from NRL to attend the Parramatta Eels vs Cronulla Sharks game on 10 March 2023",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-04-18",
+      "category": "Travel",
+      "entity": "Canberra Raiders",
+      "details": "Gift of two tickets from Canberra Raiders to the Canberra Raiders vs Sharks game on Sunday 19 March",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-04-21",
+      "category": "Travel",
+      "entity": "Opera Australia",
+      "details": "2 Tickets to Madama Butterfly from Opera Australia - 24 March 2023, Return car transfer to Madama Butterfly from International Foundation for Arts and Culture - 24 March 2023",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-02",
+      "category": "Memberships",
+      "entity": "Center for New American Security (CNAS)",
+      "details": "Honorary Member - Strategic Advisory Board",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-25",
+      "category": "Income Sources",
+      "entity": "Harper Collins Christian Publishing",
+      "details": "Royalties advance",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-06-13",
+      "category": "Gifts",
+      "entity": "Feros Group",
+      "details": "Corporate Hospitality from Feros Group to attend the Sharks vs Broncos game on Saturday 3 June",
+      "pdf_url": "morrison_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-07-03",
+      "category": "Travel",
+      "entity": "International Democrat Union",
+      "details": "Return Business class flights to UK and accommodation in London for myself and Mrs Morrison",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-30",
+      "category": "Travel",
+      "entity": "Feros Group",
+      "details": "Occasionally I will receive corporate hospitality from Feros Group to attend Cronulla Sharks home games.",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-09-11",
+      "category": "Travel",
+      "entity": "NRL",
+      "details": "Guest of NRL for NRL Finals Game 9 September 2023",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-10-23",
+      "category": "Travel",
+      "entity": "Yushan Forum",
+      "details": "Business class airfares, Sydney to Taipei, Taipei to Bangkok, accommodation and incidentals. 9-12 October 2023.",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-10-23",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Business class airfare, Bangkok to Colombo, Colombo to Sydney accommodation and incidentals. The Galle Dialogue 12-14 October 2023. Due to a flight cancellation from Bangkok to Colombo, the Member was not able to attend The Galle Dialogue. The flight was replaced with a business class airfare from Bangkok to Sydney on 12 October 2023.",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-13",
+      "category": "Travel",
+      "entity": "Alliance for Responsible Citizenship Conference",
+      "details": "Return Business Class Airfare, Sydney to London, accommodation and incidentals. 28 October to 1 November 2023.",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-13",
+      "category": "Travel",
+      "entity": "Rt Hon. Boris Johnson, former UK Prime Minister",
+      "details": "Return Private Charter Flight, London to Tel Aviv, accommodation, security and incidentals. Guest of 4 and 5 November 2023.",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-13",
+      "category": "Travel",
+      "entity": "University of St Andrews",
+      "details": "Return Business Class Airfare, London to Edinburgh, accommodation and incidentals. 3 and 4 November 2023.",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-13",
+      "category": "Travel",
+      "entity": "Royal Over-Seas League",
+      "details": "Accommodation and incidentals, London. 1 and 2 November 2023.",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-12-01",
+      "category": "Travel",
+      "entity": "Ethnic Business Awards",
+      "details": "1 night's hotel accommodation, courtesy of the Ethnic Business Awards, on 20 November 2023 in Sydney",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-12-21",
+      "category": "Travel",
+      "entity": "IDU Forum",
+      "details": "One way Business Class Airfare, Sydney to Washington (via Houston), accommodation and incidentals. 4 to 8 December 2023.",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-12-28",
+      "category": "Travel",
+      "entity": "IDU Forum",
+      "details": "One way Business Class Airfare, Sydney to Washington (via Houston), accommodation and incidentals. 4 to 8 December 2023.",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-12-28",
+      "category": "Travel",
+      "entity": "Doha Forum",
+      "details": "First Class airfare, Washington to Chicago, Business Class airfare, Chicago to Doha, and Business Class airfare Doha to Sydney, accommodation and incidentals. 9 to 11 December 2023.",
+      "pdf_url": "morrison_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-02-02",
+      "category": "Travel",
+      "entity": "Pacific Forum",
+      "details": "Return Business Class Airfare, Sydney to Honolulu, accommodation and incidentals for myself and Mrs Morrison. 15 to 21 January 2024.",
+      "pdf_url": "morrison_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/morrison_47p.pdf"
+}

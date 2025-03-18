@@ -1,0 +1,998 @@
+{
+  "mp_name": "Zoe Daniel",
+  "party": "Unknown",
+  "electorate": "Goldstein",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-09",
+      "category": "Shares",
+      "entity": "Zoe Daniel Consulting",
+      "details": "Unknown",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-09",
+      "category": "Shares",
+      "entity": "MediaSea",
+      "details": "Unknown",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-09",
+      "category": "Real Estate",
+      "entity": "Hampton, Victoria",
+      "details": "Residential",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-09",
+      "category": "Real Estate",
+      "entity": "Separation Creek, Victoria",
+      "details": "Holiday house",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-09",
+      "category": "Savings/Investments",
+      "entity": "ANZ Bank",
+      "details": "Savings Account x 2",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-09",
+      "category": "Savings/Investments",
+      "entity": "Citibank",
+      "details": "Savings Account",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-09",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Savings account",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-09",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Savings Account",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-09",
+      "category": "Other Assets",
+      "entity": "Subaru Outback",
+      "details": "Unknown",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-09",
+      "category": "Other Assets",
+      "entity": "Nissan Navara",
+      "details": "Unknown",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-09",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from book royalties (Harper Collins and Allen and Unwin)",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-09",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from contract work, Internews",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-09",
+      "category": "Memberships",
+      "entity": "Essendon Football Club",
+      "details": "Unknown",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-09",
+      "category": "Memberships",
+      "entity": "International Womens Forum",
+      "details": "Unknown",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-09",
+      "category": "Gifts",
+      "entity": "Qantas Club",
+      "details": "Qantas Club Chairman's Lounge Membership",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-08-09",
+      "category": "Gifts",
+      "entity": "Virgin Australia",
+      "details": "Virgin Australia Beyond Program",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-09-09",
+      "category": "Gifts",
+      "entity": "Killakanoon",
+      "details": "Wine-Killakanoon Vouvray (Tony Burke - Book Launch)",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2022-09-09",
+      "category": "Gifts",
+      "entity": "Miss BleBlu",
+      "details": "Coasters",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2022-09-09",
+      "category": "Gifts",
+      "entity": "Paul Witton",
+      "details": "Champagne (Krug)",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2022-09-09",
+      "category": "Gifts",
+      "entity": "Sandringham Football Club",
+      "details": "Chopping board, key ring, candle",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-09-09",
+      "category": "Gifts",
+      "entity": "Grain Growers Association",
+      "details": "Water bottle, walking gators",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2022-09-09",
+      "category": "Gifts",
+      "entity": "Grain Growers Association",
+      "details": "Lunch - Red Emperor Southbank",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2022-09-09",
+      "category": "Gifts",
+      "entity": "Nordacious Art",
+      "details": "Poster - Women's Place is in the House",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-09-09",
+      "category": "Gifts",
+      "entity": "Carolyn Glascodine",
+      "details": "Pot Plants",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-09-09",
+      "category": "Gifts",
+      "entity": "Australian Made Campaign",
+      "details": "Woollen scarf and hat",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2022-09-09",
+      "category": "Gifts",
+      "entity": "Dietitians Australia",
+      "details": "Book - The Leading Voice of Nutrition",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2022-09-09",
+      "category": "Gifts",
+      "entity": "Consumer Healthcare Products Australia",
+      "details": "Mixed small pharmacy goods",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-09-09",
+      "category": "Gifts",
+      "entity": "Minerals Council of Australia",
+      "details": "Book and Tote bag",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2022-09-09",
+      "category": "Gifts",
+      "entity": "Choice",
+      "details": "Subscription to Choice Consumer Magazine",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2022-09-09",
+      "category": "Gifts",
+      "entity": "Carolyn Holbrook",
+      "details": "Book - Lessons from History",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2022-09-09",
+      "category": "Gifts",
+      "entity": "Michelle Panayi",
+      "details": "Book - The Rise and Fall of Patriarchy",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2022-09-09",
+      "category": "Gifts",
+      "entity": "Ben Ball",
+      "details": "Book - Good Arguments",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2022-09-09",
+      "category": "Gifts",
+      "entity": "Thomas Mayor",
+      "details": "Book - Finding the Heart of the Nation",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2022-09-09",
+      "category": "Gifts",
+      "entity": "Patrick Brown",
+      "details": "Book - No Place on Earth",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2022-09-09",
+      "category": "Gifts",
+      "entity": "Embassy of Israel",
+      "details": "Book - Thou Shalt Innovate",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2022-09-14",
+      "category": "Income Sources",
+      "entity": "UniSuper",
+      "details": "Superannuation fund",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-14",
+      "category": "Income Sources",
+      "entity": "Australian Super",
+      "details": "Superannuation fund",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-14",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "PSS pension - Zoe Daniel",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-14",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "PSS pension - William Reid (spouse)",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-11-14",
+      "category": "Gifts",
+      "entity": "IndiGold Pty Ltd",
+      "details": "support for miscellaneous electoral office and volunteer expenses",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2022-11-14",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "10 Packets of Tim Tams for volunteers",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-11-14",
+      "category": "Hospitality",
+      "entity": "Essendon Football club",
+      "details": "Essendon Football Club 150-year celebration Function",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-11-14",
+      "category": "Hospitality",
+      "entity": "Dora Burns",
+      "details": "Dinner with supporters",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-11-14",
+      "category": "Hospitality",
+      "entity": "Climate 200",
+      "details": "Climate 200 Drinks",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-11-14",
+      "category": "Gifts",
+      "entity": "IndiGold Pty Ltd.",
+      "details": "Articles of clothing",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2022-11-14",
+      "category": "Hospitality",
+      "entity": "The Shop, Distributive and Allied Employees' Association",
+      "details": "Dinner hosted by the Shop, Distributive and Allied Employees' Association",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-11-14",
+      "category": "Hospitality",
+      "entity": "Australian Minerals Council",
+      "details": "Parliamentary dinner hosted by the Australian Minerals Council",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-11-14",
+      "category": "Hospitality",
+      "entity": "Australian Council for International Development (ACFID)",
+      "details": "Dinner hosted by the Australian Council for International Development",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-11-14",
+      "category": "Gifts",
+      "entity": "Arron Fa'aoso",
+      "details": "Book - So Far, So Good",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2022-11-14",
+      "category": "Gifts",
+      "entity": "Alex Epstein",
+      "details": "Book - Fossil Future",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2022-11-14",
+      "category": "Gifts",
+      "entity": "Chinese Embassy",
+      "details": "Scarf",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2022-11-14",
+      "category": "Memberships",
+      "entity": "Sandringham Yacht Club",
+      "details": "Honorary Membership of the Sandringham Yacht Club for the season 2022/2023",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-11-14",
+      "category": "Gifts",
+      "entity": "Salvation Army",
+      "details": "Three key rings and chocolates",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2023-02-17",
+      "category": "Gifts",
+      "entity": "CYMEDI Australia/Saean Motors",
+      "details": "Anti-Fire Smoke Mask",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-02-17",
+      "category": "Gifts",
+      "entity": "Myanmar Unity Govt",
+      "details": "Scarf and purse",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2023-02-17",
+      "category": "Gifts",
+      "entity": "Australian Institute of Employment Rights",
+      "details": "Book: A New Work Relations Architecture",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2023-02-17",
+      "category": "Travel",
+      "entity": "Future Women",
+      "details": "Dinner 2 tickets: Budgeting for Women's Success",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-02-17",
+      "category": "Gifts",
+      "entity": "Naturopaths and Herbalists Association of Australia",
+      "details": "Assorted small products",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-02-17",
+      "category": "Gifts",
+      "entity": "Crop Life Australia",
+      "details": "Coffee, chocolates and keep cup",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2023-02-17",
+      "category": "Gifts",
+      "entity": "Greg Wills",
+      "details": "Box of chocolates",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2023-02-17",
+      "category": "Gifts",
+      "entity": "Taiwan in Australia",
+      "details": "Two Tins Black Tea, 2023 Calendar",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2023-02-17",
+      "category": "Gifts",
+      "entity": "Australian Forest Products Association",
+      "details": "Christmas tree ornament",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Decorative"
+    },
+    {
+      "declaration_date": "2023-02-17",
+      "category": "Gifts",
+      "entity": "The Conversation",
+      "details": "Book: 2022: Reckoning with Power and Influence Edited by Michael Hopkins",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2023-02-17",
+      "category": "Gifts",
+      "entity": "Transparency Warrior",
+      "details": "Pro Bono Freedom of Information services",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-02-17",
+      "category": "Travel",
+      "entity": "Tennis Australia",
+      "details": "Australian Open tickets - Inspirational Series for Gender Equality Dinner and Women's semi finals match",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-02-17",
+      "category": "Gifts",
+      "entity": "Lisa Barron Designs",
+      "details": "Teal Blouse",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-02-17",
+      "category": "Gifts",
+      "entity": "Minerals Council of Australia",
+      "details": "Coffee Mug",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-05-23",
+      "category": "Gifts",
+      "entity": "Brighton Life Saving Club",
+      "details": "Two Jumpers",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-05-23",
+      "category": "Gifts",
+      "entity": "Unlaelled Australia Limited",
+      "details": "Hand wash and soap",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-05-23",
+      "category": "Gifts",
+      "entity": "NRL",
+      "details": "Football",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-05-23",
+      "category": "Gifts",
+      "entity": "The Australian Ballet",
+      "details": "2x Theatre Tickets Don Quixote, 2x tickets to Post-Performance function, 1 Souvenir program. Attended by a staff member",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-05-23",
+      "category": "Gifts",
+      "entity": "Canberra Theatre Company",
+      "details": "2x Theatre Tickets Julia, 2 tickets to Post-Show Celebration",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-05-23",
+      "category": "Gifts",
+      "entity": "Jeff Naylor Changing Faces",
+      "details": "Chocolate",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-05-23",
+      "category": "Gifts",
+      "entity": "Yfoundations",
+      "details": "Tee Shirt",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2023-05-23",
+      "category": "Gifts",
+      "entity": "Hardie Grant Publishing",
+      "details": "Book: Finding the Heart of the Nation by Thomas Mayor",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2023-05-23",
+      "category": "Gifts",
+      "entity": "Hardie Grant Publishing",
+      "details": "Book: Fire Country by Victor Steffensen",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2023-05-23",
+      "category": "Gifts",
+      "entity": "Hardie Grant Publishing",
+      "details": "Book: Loving Country by Bruce Pascoe and Vicky Shukuroglou",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2023-05-23",
+      "category": "Gifts",
+      "entity": "Hardie Grant Publishing",
+      "details": "Book: Looking After Country With Fire by Victor Steffensen",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2023-05-23",
+      "category": "Gifts",
+      "entity": "Hardie Grant Publishing",
+      "details": "Book: Finding our Heart by Thomas Mayor",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2023-05-23",
+      "category": "Gifts",
+      "entity": "Hardie Grant Publishing",
+      "details": "Book: Culture is Life by Wayne Quilliam",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2023-05-23",
+      "category": "Gifts",
+      "entity": "Harper Entertainment",
+      "details": "Book: Democracy! By Philip Bunting",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2023-05-23",
+      "category": "Gifts",
+      "entity": "Embassy of the Kingdom of Morocco",
+      "details": "Argan Oil 15ml",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-07-25",
+      "category": "Gifts",
+      "entity": "Ray Purcell, Grow Hope Foundation",
+      "details": "2x tickets, Grow Hope Dinner from",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-07-25",
+      "category": "Gifts",
+      "entity": "Sticky Labels",
+      "details": "Sticky labels, mouse pad and football. from",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-07-25",
+      "category": "Gifts",
+      "entity": "Miele Brighton",
+      "details": "Wine glasses and recipe book from",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2023-07-25",
+      "category": "Gifts",
+      "entity": "The Australian Ballet",
+      "details": "2x Theatre Tickets Identity 2x tickets to VIP Interval drinks and Post-Performance function, 1 Souvenir program. Attended by a staff member, from",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-07-25",
+      "category": "Gifts",
+      "entity": "Tim Forcey",
+      "details": "Home Energy Use Efficiency Assessment from",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-07-25",
+      "category": "Gifts",
+      "entity": "Football Australia",
+      "details": "2x Tickets to Matildas v.s. France Soccer Match 14 July, from",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-09-19",
+      "category": "Other Assets",
+      "entity": "Tesla",
+      "details": "Tesla Model Y",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-09-25",
+      "category": "Gifts",
+      "entity": "FIFA and Football Australia",
+      "details": "26 July 2023 Matildas Flag and Pin, Matildas Scarf from",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-09-25",
+      "category": "Gifts",
+      "entity": "Burnet Institute",
+      "details": "2 August 2023 Indoor Air Quality/CO2 monitor from",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-09-25",
+      "category": "Gifts",
+      "entity": "Bayside Men's Shed",
+      "details": "31 August 2023 Cutting Board from",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-09-25",
+      "category": "Gifts",
+      "entity": "Australian Organic Ltd",
+      "details": "4 September 2023 1 box Nerada organics tea bags from from",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-09-25",
+      "category": "Gifts",
+      "entity": "Art Disrupt",
+      "details": "7 September 2023 Board Game-Gas Tycoon from",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-10-04",
+      "category": "Savings/Investments",
+      "entity": "Generation Life",
+      "details": "Generation Life Investment Bond",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-12-11",
+      "category": "Gifts",
+      "entity": "Hope Assistance Local Tradies",
+      "details": "Hat -",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2023-12-11",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Book: An Unlikely Prisoner by Sean Turnell - The National Unity Government of Myanmar",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2023-12-11",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Book: A Year of Consequence, Edited by Justin Bergman - The Conversation",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2023-12-11",
+      "category": "Gifts",
+      "entity": "CropLife Australia",
+      "details": "Plum pudding",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-12-11",
+      "category": "Gifts",
+      "entity": "Embassy of Thailand",
+      "details": "Necklace",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-12-11",
+      "category": "Gifts",
+      "entity": "Embassy of Japan",
+      "details": "2024 Calendar",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2023-12-15",
+      "category": "Gifts",
+      "entity": "Royal Brighton Yacht Club",
+      "details": "Ex-officio membership of the Royal Brighton Yacht Club - Royal Brighton Yacht Club",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2024-03-04",
+      "category": "Gifts",
+      "entity": "Australian Climate and Biodiversity Foundation",
+      "details": "Bag -",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2024-03-04",
+      "category": "Gifts",
+      "entity": "The Pharmacy Guild of Australia",
+      "details": "Note Book -",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2024-03-04",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Note Book - Bespoke Approach",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2024-03-04",
+      "category": "Gifts",
+      "entity": "Djirra",
+      "details": "Scarf, candle and soap art ornaments -",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2024-03-04",
+      "category": "Gifts",
+      "entity": "St Leonard's College",
+      "details": "Food Hamper -",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2024-04-26",
+      "category": "Gifts",
+      "entity": "ReachOut Australia",
+      "details": "Hoodie -",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2024-04-26",
+      "category": "Gifts",
+      "entity": "Embassy of Thailand",
+      "details": "Silver bracelet -",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2024-04-26",
+      "category": "Gifts",
+      "entity": "David Lindenmayer",
+      "details": "Book: The Forest Wars -",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2024-08-19",
+      "category": "Gifts",
+      "entity": "Penguin Random House Australia",
+      "details": "Book: Juice by Tim Winton from",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2024-08-19",
+      "category": "Gifts",
+      "entity": "Early Childhood Australia",
+      "details": "Duplo and Lego Blocks from",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2024-11-18",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Flight upgrade from Qantas received at gate or lounge after economy check in, unsolicited: 17 November 2023 QF1533 CBR-MEL.",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-11-18",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Flight upgrade from Qantas received at gate or lounge after economy check in, unsolicited: 22 July 2024 QF1276 MEL-CBR.",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-11-18",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Flight upgrade from Qantas received at gate or lounge after economy check in, unsolicited: 18 August 2024 QF1280 MEL-CBR.",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-11-18",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Qantas Platinum frequent flyer status",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-11-18",
+      "category": "Memberships",
+      "entity": "Qantas",
+      "details": "Qantas Club membership (personally paid)",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-11-18",
+      "category": "Other Assets",
+      "entity": "VW",
+      "details": "VW Golf 2016",
+      "pdf_url": "daniel_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-11-25",
+      "category": "Gifts",
+      "entity": "Water Justice Hub",
+      "details": "Book: Retelling Australia's Water Story by Quentin Grafton from Water Justice Hub",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2024-11-25",
+      "category": "Gifts",
+      "entity": "The Copyright Agency",
+      "details": "Book: Deep Water the World of the Ocean by James Bradley from The Copyright Agency",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2024-11-25",
+      "category": "Gifts",
+      "entity": "Marcus O'Reilly, Aviva Tuffield, Paddy O'Reilly and Jol Blazey",
+      "details": "Book: Balcony Over Jerusalem by John Lyons from",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2024-11-25",
+      "category": "Gifts",
+      "entity": "Marcus O'Reilly, Aviva Tuffield, Paddy O'Reilly and Jol Blazey",
+      "details": "Book: A Very Short History of the Israel-Palestine Conflict by Ilan Pappe from",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2024-11-25",
+      "category": "Gifts",
+      "entity": "Marcus O'Reilly, Aviva Tuffield, Paddy O'Reilly and Jol Blazey",
+      "details": "Book: The Hundred Years' War on Palestine by Rashid Khalidi from",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2024-11-25",
+      "category": "Gifts",
+      "entity": "Marcus O'Reilly, Aviva Tuffield, Paddy O'Reilly and Jol Blazey",
+      "details": "Book: Palestine A-Z by Kate Thompson from",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2024-11-25",
+      "category": "Gifts",
+      "entity": "Marcus O'Reilly, Aviva Tuffield, Paddy O'Reilly and Jol Blazey",
+      "details": "Book: The Sunbird by Sara Haddad from",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2024-11-25",
+      "category": "Gifts",
+      "entity": "Crop Life Australia",
+      "details": "Traditional Plum Pudding from",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2024-11-25",
+      "category": "Gifts",
+      "entity": "Alex Ryvchin",
+      "details": "Book: The 7 Deadly Myths by Alex Ryvchin from the Author",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2024-11-25",
+      "category": "Gifts",
+      "entity": "Every Home Global Concern Australia",
+      "details": "Book: Look What God Is Doing by Dick Eastman from Every Home Global Concern Australia",
+      "pdf_url": "daniel_47p.pdf",
+      "sub_category": "Clothing"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/daniel_47p.pdf"
+}

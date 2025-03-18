@@ -1,0 +1,340 @@
+{
+  "mp_name": "Melissa Price",
+  "party": "Unknown",
+  "electorate": "Durack",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Shares",
+      "entity": "Yowie Ltd",
+      "details": "N/A",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Shares",
+      "entity": "Southern Cross Payment Ltd",
+      "details": "N/A",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Shares",
+      "entity": "Rural Funds Group",
+      "details": "N/A",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Shares",
+      "entity": "Betashares S",
+      "details": "N/A",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Shares",
+      "entity": "P 500",
+      "details": "N/A",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Shares",
+      "entity": "H",
+      "details": "N/A",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Shares",
+      "entity": "W Quantity Surveyors Pty Ltd",
+      "details": "N/A",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Trusts",
+      "entity": "Bell Trust",
+      "details": "Beneficiary, Quantity Surveyors",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Marmion, Western Australia, Residential",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Geraldton, Western Australia, Residential",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Geraldton, Western Australia, Investment",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Kingston, ACT, Residential",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Marmion, Western Australia, Residential",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Geraldton, Western Australia, Residential",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Geraldton, Western Australia, Investment",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Directorships",
+      "entity": "H&W Quantity Surveyors Pty Ltd",
+      "details": "Quantity Surveyors",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Mortgage",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Mortgage",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Savings/Investments",
+      "entity": "Police & Nurses Ltd",
+      "details": "Savings",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Savings",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Savings",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Savings",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from employment",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Gifts",
+      "entity": "Geraldton Fisherman's Co-operative",
+      "details": "Hospitality",
+      "pdf_url": "price_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Hospitality",
+      "entity": "Shore Leave Festival",
+      "details": "N/A",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Hospitality",
+      "entity": "Ord Valley Events",
+      "details": "N/A",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Hospitality",
+      "entity": "Shore Leave Festival",
+      "details": "N/A",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Hospitality",
+      "entity": "Ord Valley Events",
+      "details": "N/A",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Qantas Chairmans Lounge Membership",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Travel",
+      "entity": "Virgin",
+      "details": "Virgin Membership",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Travel",
+      "entity": "Perth Airport",
+      "details": "parking card",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Qantas Chairmans Lounge Membership",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Travel",
+      "entity": "Virgin",
+      "details": "Virgin Membership",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "Pilbara Universities Centre (PUC)",
+      "details": "member",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "Australian Institute of Company Directors (AICD)",
+      "details": "N/A",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-11-09",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Deletion: Sanders Street, Geraldton (residential property).",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-08",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Shoreleave, hospitality $345 x 2 (M Price and B Bell)",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-24",
+      "category": "Hospitality",
+      "entity": "The Cambridge Hotel, Kununurra",
+      "details": "N/A",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-24",
+      "category": "Hospitality",
+      "entity": "The Kimberley Moon, Ord Valley Events",
+      "details": "N/A",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-12-12",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Deletion: Kingston, ACT",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-12-19",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "\"Geraldton, Western Australia investment property\" to be altered to \"Geraldton, Western Australia residential property\"",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-03",
+      "category": "Hospitality",
+      "entity": "Ord Valley Events",
+      "details": "N/A",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-03",
+      "category": "Hospitality",
+      "entity": "Shore Leave Festival",
+      "details": "N/A",
+      "pdf_url": "price_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-02-12",
+      "category": "Gifts",
+      "entity": "Nexus Airlines",
+      "details": "Nexus Airlines model plane with resin display stand.",
+      "pdf_url": "price_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2025-02-12",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Deletion: Marmion, Western Australia",
+      "pdf_url": "price_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/price_47p.pdf"
+}

@@ -1,0 +1,101 @@
+{
+  "mp_name": "Anthony Michael Byrne",
+  "party": "Australian Labor Party",
+  "electorate": "Holt",
+  "disclosures": [
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "BERWICK, VICTORIA, RESIDENCE",
+      "pdf_url": "byrnea_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Directorships",
+      "entity": "MCMILLAN CONSULTING GROUP",
+      "details": "CONSULTANCY",
+      "pdf_url": "byrnea_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "ANZ BANK",
+      "details": "MORTGAGE & PERSONAL LOAN",
+      "pdf_url": "byrnea_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "BANKWEST",
+      "details": "PERSONAL LOAN",
+      "pdf_url": "byrnea_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "ST GEORGE BANK",
+      "details": "PERSONAL LOAN",
+      "pdf_url": "byrnea_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "ANZ BANK",
+      "details": "SAVINGS & CHEQUE ACCOUNT",
+      "pdf_url": "byrnea_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "HESTA SUPERANNUATION",
+      "details": "N/A",
+      "pdf_url": "byrnea_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "CONSULTANCY FEES",
+      "pdf_url": "byrnea_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Gifts",
+      "entity": "ASTRA",
+      "details": "COMPLIMENTARY ELECTORATE OFFICE PAY TV SUBSCRIPTION SUPPLIED BY ASTRA",
+      "pdf_url": "byrnea_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "AUSTRALIAN LABOR PARTY",
+      "details": "N/A",
+      "pdf_url": "byrnea_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "AUSTRALIAN SERVICES UNION",
+      "details": "N/A",
+      "pdf_url": "byrnea_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-04-19",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from Employment",
+      "pdf_url": "byrnea_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-08-22",
+      "category": "Hospitality",
+      "entity": "Ladbrokes",
+      "details": "2 Complimentary Tickets, AFL Match at the MCG 28/7/18, Guests of Ladbrokes",
+      "pdf_url": "byrnea_45p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/byrnea_45p.pdf"
+}

@@ -1,0 +1,675 @@
+{
+  "mp_name": "Christopher John Crewther",
+  "party": "Unknown",
+  "electorate": "Dunkley",
+  "disclosures": [
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "CJC Property Consultants Pty Ltd (t/a Nineteen Consulting)",
+      "details": "Self",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Trusts",
+      "entity": "BDC & Associates Family Trust",
+      "details": "Self, Currently Dormant, Listed Beneficiary",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Self Brunswick West, Investment and occasional residence",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Spouse Brunswick West, Investment and occasional residence",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Directorships",
+      "entity": "Zoe Support Australia Ltd",
+      "details": "Self, NFP support for young mothers",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Directorships",
+      "entity": "CJC Property Consultants PL (t/a Nineteen Consulting)",
+      "details": "Self, Agricultural trade and consulting (currently dormant)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "AMP",
+      "details": "Self, Mortgage (shared with spouse)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "Alphera Finance",
+      "details": "Self, Chattel Mortgage - Private Vehicle (shared with spouse)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "AMP",
+      "details": "Spouse, Mortgage (shared with self)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "Alphera Finance",
+      "details": "Spouse, Chattel Mortgage - Private Vehicle (shared with self)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "AMP",
+      "details": "Self, Offset transaction account 1 (shared with spouse)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "AMP",
+      "details": "Self, Offset transaction account 2 (shared with spouse)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Self, Transaction account (shared with spouse)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Self, Savings account (shared with spouse)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "UBank (NAB)",
+      "details": "Self, Savings account 1 (shared with spouse)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "UBank (NAB)",
+      "details": "Self, Savings account 2 (shared with spouse)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "ING Direct",
+      "details": "Self, Savings account",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "AMP",
+      "details": "Spouse, Offset savings account 1 (shared with self)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "AMP",
+      "details": "Spouse, Offset transaction account 2 (shared with self)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Spouse, Transaction account (shared with self)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Spouse, Savings account (shared with self)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "UBank (NAB)",
+      "details": "Spouse, Savings account 1 (shared with self)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "UBank (NAB)",
+      "details": "Spouse, Savings account 2 (shared with self)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Self, Private Vehicle (shared with spouse)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Spouse, Private Vehicle (shared with self)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Self, Rental (AirBnB) Income (shared with spouse)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Spouse, Rental (AirBnB) Income (shared with self)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Rotary Club of Frankston",
+      "details": "Self",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Frankston Business Network",
+      "details": "Self",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Golden Key International Honour Society (ANU and UC)",
+      "details": "Self",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Mensa (Australian Mensa Inc)",
+      "details": "Self",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Empty Space Project Inc",
+      "details": "Self",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "North West Rail Alliance Inc",
+      "details": "Self",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Global Voices",
+      "details": "Self",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Asia-Pacific College of Diplomacy Alumni",
+      "details": "Self",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Australian National University Alumni",
+      "details": "Self",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "The University of Canberra Alumni",
+      "details": "Self",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "St Hilda's College, The University of Melbourne, Alumni",
+      "details": "Self",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Real Estate Institute of New South Wales",
+      "details": "Self",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Liberal Party of Australia (Victorian Division)",
+      "details": "Self",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Velocity (Virgin Australia)",
+      "details": "Self",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Qantas (One World)",
+      "details": "Self",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Naked Wines",
+      "details": "Self",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Law Institute of Victoria",
+      "details": "Spouse",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Dress for Success Mornington Peninsula",
+      "details": "Spouse",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Liberal Party of Australia (Victorian Division)",
+      "details": "Spouse",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Australian National University Alumni",
+      "details": "Spouse",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Burgmann College Alumni",
+      "details": "Spouse",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Velocity (Virgin Australia)",
+      "details": "Spouse",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Qantas (One World)",
+      "details": "Spouse",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Golden Key International Honour Society (ANU)",
+      "details": "Spouse",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Hospitality",
+      "entity": "Astra",
+      "details": "Item 11: Astra Subscriptions Pay TV for Electorate Office, Self",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Memberships",
+      "entity": "Mornington Golf Course",
+      "details": "Item 11 & 13: Complimentary Mornington Golf Course Membership, Self",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Hospitality",
+      "entity": "Qantas",
+      "details": "Item 12 & 13: Qantas Chairman's Lounge Membership, Self and spouse",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Hospitality",
+      "entity": "Virgin",
+      "details": "Item 12 & 13: Virgin 'The Club' Lounge Membership Self and spouse",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-23",
+      "category": "Memberships",
+      "entity": "Australian Welsh Male Choir",
+      "details": "Item 13",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-23",
+      "category": "Savings/Investments",
+      "entity": "AustralianSuper",
+      "details": "Item 9- AustralianSuper (Self and Spouse)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-23",
+      "category": "Hospitality",
+      "entity": "Australian Open",
+      "details": "Item 11- Tickets: Australian Open Tennis 2017 (Self and Spouse)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-01-17",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Section 3 - Real Estate, Purchase of primary residence for self and spouse in Mount Eliza Victoria.",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-01-17",
+      "category": "Savings/Investments",
+      "entity": "Home Loans",
+      "details": "Section 8 - Redraw Account, With Home Loans",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-01-17",
+      "category": "Hospitality",
+      "entity": "CUA Credit Union",
+      "details": "Section 11 - Complementary tickets to a Big Bash Cricket match, Guest of CUA Credit Union and Financial Services.",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-06-15",
+      "category": "Liabilities",
+      "entity": "Homeloans & Mortgage Ezy",
+      "details": "Section 6 (self and spouse) Mortgages (self and spouse), Homeloans & Mortgage Ezy",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-06-15",
+      "category": "Savings/Investments",
+      "entity": "Mortgage Ezy",
+      "details": "Section 8 (self and spouse) Offset Account (self and spouse), Mortgage Ezy",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-06-15",
+      "category": "Memberships",
+      "entity": "Committee for Greater Frankston",
+      "details": "Section 13 (self) Committee for Greater Frankston",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-06-15",
+      "category": "Liabilities",
+      "entity": "AMP",
+      "details": "Section 6 (self and spouse) Mortgage (shared with self/spouse), AMP - DELETED",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-06-15",
+      "category": "Income Sources",
+      "entity": "AirBnB",
+      "details": "Section 10 (self and spouse) Delete AirBnB (self and spouse) - DELETED",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-07-27",
+      "category": "Travel",
+      "entity": "Global Fund",
+      "details": "Item 12: Pacific Friends of Global Fund (Parliamentary delegation on HIV / Tuberculosis/ Malaria to Myanmar/ Thailand) -flights, accommodation and travel costs.",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-07-27",
+      "category": "Hospitality",
+      "entity": "Astra",
+      "details": "Item 11: Astra Subscriptions - 12 month subscription for pay T.V for Electorate Office.",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-08-22",
+      "category": "Memberships",
+      "entity": "North West Rail Alliance Inc",
+      "details": "Item 13 Delete North West Rail Alliance Inc",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-09-25",
+      "category": "Memberships",
+      "entity": "Action Sweetwater Creek Inc",
+      "details": "Item 13 Action Sweetwater Creek Inc (Membership)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-09-25",
+      "category": "Memberships",
+      "entity": "Seaford RSL",
+      "details": "Item 13 Seaford RSL (Affiliate Membership)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-09-25",
+      "category": "Memberships",
+      "entity": "IHG Club",
+      "details": "Item 13 IHG Club (Platinum Member)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-09-25",
+      "category": "Memberships",
+      "entity": "Europcar",
+      "details": "Item 13 Europcar (Privilege Club)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-09-25",
+      "category": "Memberships",
+      "entity": "Empty Space Project Inc",
+      "details": "Item 13 Empty Space Project Inc - DELETED",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-12-22",
+      "category": "Memberships",
+      "entity": "Frankston Football Club",
+      "details": "Section 13 - Memberships - Self, Frankston Football Club 2018 Membership",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-12-22",
+      "category": "Memberships",
+      "entity": "Langwarrin Community Centre",
+      "details": "Section 13 - Memberships - Self, Langwarrin Community Centre Membership",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-01-31",
+      "category": "Travel",
+      "entity": "Bill and Melinda Gates Foundation",
+      "details": "Item 12 Save the Children Delegation to Solomon Islands sponsored by Bill and Melinda Gates Foundation airfares, accommodation, travel, some food",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-04-24",
+      "category": "Trusts",
+      "entity": "Crewther Family Trust",
+      "details": "Crewther Family Trust - Self, Spouse and Dependent child. (Item 2ii)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-04-24",
+      "category": "Memberships",
+      "entity": "Mount Eliza Woodland Residents Association Inc.",
+      "details": "Mount Eliza Woodland Residents Association Inc. - self (item 13)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-05-21",
+      "category": "Hospitality",
+      "entity": "Australian Leisure and Hospitality",
+      "details": "Item 12 - Self, Hospitality/catering from Australian Leisure and Hospitality",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-08-16",
+      "category": "Travel",
+      "entity": "French Government",
+      "details": "-PIPA Programme (France) - flights, accommodation, travel, interpreter and some food covered by French Government. (self) - item 12)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-08-16",
+      "category": "Travel",
+      "entity": "Kosovo Government",
+      "details": "Kosovo delegation - some internal vehicular travel and some food covered by kosovo Government. (both items 12-self)",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-08-16",
+      "category": "Savings/Investments",
+      "entity": "Crewther Do Superannuation Fund",
+      "details": "-Crewther Do Superannuation Fund (self & Spouse) -iking",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-08-16",
+      "category": "Savings/Investments",
+      "entity": "Australian Super",
+      "details": "Australian Super (self) -delete - item 9 - DELETED",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-08-16",
+      "category": "Savings/Investments",
+      "entity": "Australian Super",
+      "details": "Australian Super (Spouse) -delete-item 9 - DELETED",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-08-16",
+      "category": "Trusts",
+      "entity": "BDC & Associate's Family Trust",
+      "details": "BDC & Associate's Family Trust \u2013 Item 2",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-09-06",
+      "category": "Shares",
+      "entity": "Gretals Australia PL",
+      "details": "Investment - Gretals Australia PL.",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-10-22",
+      "category": "Savings/Investments",
+      "entity": "Crewther Do Pty Ltd",
+      "details": "Self Managed Super Fund Investment Details (self and spouse): corporate trustee, Crewther Do Pty Ltd. New investments under SMSF:",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-10-22",
+      "category": "Savings/Investments",
+      "entity": "Vanguard Health Care Exchange Traded Fund",
+      "details": "Units in VHT - Vanguard Health Care Exchange Traded Fund (listed on the New York stock exchange);",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-10-22",
+      "category": "Savings/Investments",
+      "entity": "Vanguard Information Technology Exchange Traded Fund",
+      "details": "Units in VGT - Vanguard Information Technology Exchange Traded Fund (listed on the New York stock exchange);",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-10-22",
+      "category": "Shares",
+      "entity": "Berkshire Hathaway",
+      "details": "Units in BRK - Berkshire Hathaway Class B Shares;",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-10-22",
+      "category": "Savings/Investments",
+      "entity": "Platinum International Exchange Traded Fund",
+      "details": "Units in PIXX - Platinum International Exchange Traded Fund (listed on the Australian stock exchange); and",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-10-22",
+      "category": "Savings/Investments",
+      "entity": "Vanguard Australian Shares High Yield Exchange Traded Fund",
+      "details": "Units in VHY - Vanguard Australian Shares High Yield Exchange Traded Fund (listed on the Australian stock exchange).",
+      "pdf_url": "crewtherc_45p.pdf"
+    },
+    {
+      "declaration_date": "2019-02-12",
+      "category": "Gifts",
+      "entity": "Tennis Australia",
+      "details": "Add: Section 11 & 12 Gifts / Hospitality, Tennis Australia \u2013 Australian Open tennis tickets and lunch for self and spouse.",
+      "pdf_url": "crewtherc_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2019-02-12",
+      "category": "Hospitality",
+      "entity": "Tennis Australia",
+      "details": "Add: Section 11 & 12 Gifts / Hospitality, Access to tennis courts for self.",
+      "pdf_url": "crewtherc_45p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/crewtherc_45p.pdf"
+}

@@ -1,0 +1,226 @@
+{
+  "mp_name": "Pat Conaghan",
+  "party": "N/A",
+  "electorate": "Cowper",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Shares",
+      "entity": "Conaghan Lawyers Pty Limited",
+      "details": "Self",
+      "pdf_url": "conaghan_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Shares",
+      "entity": "IAG",
+      "details": "Spouse/partner",
+      "pdf_url": "conaghan_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "conaghan_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Real Estate",
+      "entity": "Port Macquarie",
+      "details": "Residential - Self",
+      "pdf_url": "conaghan_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Real Estate",
+      "entity": "Kempsey",
+      "details": "Investment - Self",
+      "pdf_url": "conaghan_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Real Estate",
+      "entity": "Port Macquarie",
+      "details": "Residential - Spouse/partner",
+      "pdf_url": "conaghan_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Real Estate",
+      "entity": "Kempsey",
+      "details": "Investment - Spouse/partner",
+      "pdf_url": "conaghan_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Directorships",
+      "entity": "Conaghan Lawyers Pty Limited",
+      "details": "Self - Legal Services",
+      "pdf_url": "conaghan_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "conaghan_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Mortgage - home - Self",
+      "pdf_url": "conaghan_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Mortgage - investment - Self",
+      "pdf_url": "conaghan_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Liabilities",
+      "entity": "VW financial services",
+      "details": "Car lease (amarok) - Self",
+      "pdf_url": "conaghan_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Liabilities",
+      "entity": "Mercedes Benz finance",
+      "details": "Car Lease (Mercedes Benz ML250) - Self",
+      "pdf_url": "conaghan_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Liabilities",
+      "entity": "BMW finance",
+      "details": "Car lease (C250) - Self",
+      "pdf_url": "conaghan_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Personal loan - Self",
+      "pdf_url": "conaghan_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Liabilities",
+      "entity": "Commonwealth bank",
+      "details": "Credit card - Self",
+      "pdf_url": "conaghan_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Mortgage Residential - Spouse/partner",
+      "pdf_url": "conaghan_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Mortgage-investment - Spouse/partner",
+      "pdf_url": "conaghan_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Credit card - Spouse/partner",
+      "pdf_url": "conaghan_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth",
+      "details": "Saving - Self",
+      "pdf_url": "conaghan_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Savings - Spouse/partner",
+      "pdf_url": "conaghan_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth",
+      "details": "Savings - Dependent children",
+      "pdf_url": "conaghan_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Other Assets",
+      "entity": "Vehicle Amoarok",
+      "details": "Self",
+      "pdf_url": "conaghan_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Other Assets",
+      "entity": "Vehicle Mercedes",
+      "details": "Self",
+      "pdf_url": "conaghan_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Income Sources",
+      "entity": "Conaghan Lawyers",
+      "details": "Legal services (passive income) - Self",
+      "pdf_url": "conaghan_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Parliamentary income - Self",
+      "pdf_url": "conaghan_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Income Sources",
+      "entity": "Conaghan Lawyers",
+      "details": "Secretarial services - Spouse/partner",
+      "pdf_url": "conaghan_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Income Sources",
+      "entity": "Oz Design Port Macquarie",
+      "details": "Employment - Spouse/partner",
+      "pdf_url": "conaghan_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Upgrade from Bronze to Emerald Qantas Club - Self",
+      "pdf_url": "conaghan_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Travel",
+      "entity": "Virgin",
+      "details": "Upgrade to Virgin Business - Self",
+      "pdf_url": "conaghan_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-03-18",
+      "category": "Memberships",
+      "entity": "South West Rocks Surf Life Saving Club",
+      "details": "13 Membership",
+      "pdf_url": "conaghan_46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/conaghan_46p.pdf"
+}

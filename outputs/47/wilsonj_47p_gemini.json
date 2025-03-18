@@ -1,0 +1,425 @@
+{
+  "mp_name": "Josh Wilson",
+  "party": null,
+  "electorate": "Fremantle",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Shares",
+      "entity": "Colonial First State",
+      "details": "Units in Colonial First State managed funds: (1) imputation fund (2) future leaders fund. Units (jointly) in Colonial First State managed funds, as above.",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Shares",
+      "entity": "Telstra",
+      "details": "Shares in Telstra",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Shares",
+      "entity": "QANTAS",
+      "details": "Shares in QANTAS",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Shares",
+      "entity": "National Australia Bank",
+      "details": "Shares in National Australia Bank",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Shares",
+      "entity": "Medibank Private",
+      "details": "Shares in Medibank Private",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Shares",
+      "entity": "Virgin Money UK PLC",
+      "details": "Shares in Virgin Money UK PLC",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Shares",
+      "entity": "Rarex Ltd",
+      "details": "Shares in Rarex Ltd",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Shares",
+      "entity": "Aurizon Holdings",
+      "details": "Shares in Aurizon Holdings",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Shares",
+      "entity": "Argo Investments",
+      "details": "Shares in Argo Investments",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Fremantle, WA - Residence",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Beaconsfield, WA - Investment",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Spearwood, WA - Investment",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Mortgage on residence (Fremantle)",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Mortgage on investment property (Beaconsfield)",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Mortgage on investment property (Spearwood)",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Credit card account",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Savings accounts",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Other Assets",
+      "entity": "Australian Super",
+      "details": "Superannuation, Australian Super",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rental income from investment properties",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Gifts",
+      "entity": "ASTRA",
+      "details": "Foxtel subscription in Fremantle Electorate Office provided by ASTRA",
+      "pdf_url": "wilsonj_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Gifts",
+      "entity": "Football Federation Australia",
+      "details": "One VIP ticket to the Soccer World Cup Qualifier (Australia v Japan) at Stadium Australia on 24/03/2022. Courtesy Football Federation Australia. Value unknown.",
+      "pdf_url": "wilsonj_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Memberships",
+      "entity": "Australian Labor Party (WA Branch)",
+      "details": "Member, Australian Labor Party (WA Branch)",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Memberships",
+      "entity": "Community and Public Sector Union",
+      "details": "Membership, Community and Public Sector Union",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Memberships",
+      "entity": "QANTAS",
+      "details": "Member, QANTAS Chairman's Lounge",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Memberships",
+      "entity": "Virgin Australia",
+      "details": "Member, Virgin Australia Club",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Memberships",
+      "entity": "Fremantle Workers Club",
+      "details": "Member, Fremantle Workers Club",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Memberships",
+      "entity": "Fremantle City Soccer Club",
+      "details": "Member, Fremantle City Soccer Club",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Memberships",
+      "entity": "Army Museum of WA",
+      "details": "Patron, Army Museum of WA",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Memberships",
+      "entity": "Fremantle Lawn Tennis Club",
+      "details": "Patron, Fremantle Lawn Tennis Club",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Memberships",
+      "entity": "Royal Lifesaving WA",
+      "details": "Keep Watch Ambassador, Royal Lifesaving WA",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Memberships",
+      "entity": "Surf Lifesaving WA",
+      "details": "Vice-Patron, Surf Lifesaving WA",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Memberships",
+      "entity": "Fremantle Italian Club",
+      "details": "Member, Fremantle Italian Club",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Memberships",
+      "entity": "Fremantle Chamber of Commerce",
+      "details": "Associate Member, Fremantle Chamber of Commerce",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Memberships",
+      "entity": "Parliament House Sports Club",
+      "details": "Member, Parliament House Sports Club",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Memberships",
+      "entity": "Australian Fabians",
+      "details": "Members, Australian Fabians",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Memberships",
+      "entity": "Fremantle Dockers",
+      "details": "Member, Fremantle Dockers (AFLW)",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-18",
+      "category": "Other Interests",
+      "entity": "McKinnon Institute for Political Leadership",
+      "details": "Participation in Advanced Political Leadership 2022 Programme",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-18",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Two tickets to the opening night performance of Alice in Wonderland at His Majesty's Theatre on 06/05/2022. Value unknown",
+      "pdf_url": "wilsonj_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-09-18",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Two tickets to the opening night of IN.RESIDENCE at the State Theatre of WA on 09/06/2022. Value unknown",
+      "pdf_url": "wilsonj_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-09-18",
+      "category": "Gifts",
+      "entity": "Black Swan Theatre Company",
+      "details": "Two tickets courtesy of Black Swan Theatre Company to The Glass Menagerie on/09/06/2022. Value unknown",
+      "pdf_url": "wilsonj_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-09-18",
+      "category": "Gifts",
+      "entity": "Fremantle Football Club",
+      "details": "Two tickets to the AFL game Fremantle Dockers v West Coast Eagles on 13/08/2022, courtesy Fremantle Football Club value unknown",
+      "pdf_url": "wilsonj_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-03-09",
+      "category": "Gifts",
+      "entity": "Black Swan Theatre Co",
+      "details": "Two tickets from Black Swan Theatre Co for Cyrano production on Friday 3 March 2023. Value unknown.",
+      "pdf_url": "wilsonj_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-03-09",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Two tickets from Perth Festival to Bon Iver concert on Sunday 26 February 2023, including bus shuttle transfer to and from the venue. Value unknown.",
+      "pdf_url": "wilsonj_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-04-03",
+      "category": "Hospitality",
+      "entity": "Optus",
+      "details": "Two tickets to the AFL game Fremantle Dockers v West Coast Eagles on 02/04/2023, courtesy Optus",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-04-06",
+      "category": "Travel",
+      "entity": "Rottnest Island Chamber of Commerce",
+      "details": "2x ferry tickets to Rottnest Island for the Rottnest Island Chamber of Commerce's 'Rottnest After Dark 2023' event, valued at $128. Food and drink provided by Rottnest Island Chamber of Commerce, value unknown.",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-06-15",
+      "category": "Travel",
+      "entity": "Fremantle Football Club",
+      "details": "2x tickets to Fremantle Dockers football game on 10/06/2023 in Chairman's Lounge, Courtesty of Fremantle Football Club. Hospitality (food and drinks) provided by Fremantle Football Club Value unknown",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-06-15",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Sale of Real Estate in Spearwood, WA (Investment)",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-06-15",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Discharge of National Australia Bank loan and mortgage arrangements re investment property (Spearwood, WA)",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-07-27",
+      "category": "Travel",
+      "entity": "FIFA",
+      "details": "2 tickets and hospitality hosted by FIFA Women's World Cup Australia & New Zealand 2023 for Match 19 - Canada - Republic of Ireland on 26/7/23. Value unknown.",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-10-16",
+      "category": "Travel",
+      "entity": "Taiwanese Government",
+      "details": "Trip to Republic of China (Taiwan) provided by the Taiwanese Government - air travel, accommodation, food and city transport (24th - 29th September 2023). Mrs Wilson accompanied the delegation but personally met the cost of international air travel.",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-10-16",
+      "category": "Gifts",
+      "entity": "ANTA Pottery",
+      "details": "Pottery tea set (value unknown) from ANTA Pottery gifted by President Tsai Ing-wen.",
+      "pdf_url": "wilsonj_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2024-01-23",
+      "category": "Travel",
+      "entity": "United Cup",
+      "details": "Two tickets and hospitality courtesy of United Cup to tennis match on 03/01/2024. Value unknown.",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-02-05",
+      "category": "Travel",
+      "entity": "Save the Children Australia and the Gates Foundation",
+      "details": "Trip to Indonesia (Jakarta, Lombok, and Bali) provided by Save the Children Australia and the Gates Foundation as part of the Australian Regional Leadership Initiative \u2013 including air travel (international and internal flights), accommodation, food and city transport (14-20 January 2024). Mrs Wilson accompanied the delegation. The cost of Mrs Wilson's flights were met at Mr and Mrs Wilson's own expense.",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-15",
+      "category": "Travel",
+      "entity": "Rottnest Island Chamber of Commerce",
+      "details": "2x ferry tickets to Rottnest Island for the Rottnest Island Chamber of Commerce's 'Rottnest After Dark 2023' event, valued at $136. Sundowner event hospitality provided by Rottnest Island Chamber of Commerce, value unknown.",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-09",
+      "category": "Travel",
+      "entity": "University of Notre Dame Fremantle",
+      "details": "1x ticket to the Business News Breakfast event with the Prime Minister, courtesy of the University of Notre Dame Fremantle. Value unknown.",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-08-05",
+      "category": "Shares",
+      "entity": "Virgin Money UK PLC",
+      "details": "Spouse/Partner - sale of all shares in Virgin Money UK PLC",
+      "pdf_url": "wilsonj_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-08-21",
+      "category": "Gifts",
+      "entity": "Burnett Institute",
+      "details": "Indoor air quality sensor gifted from Burnett Institute following a briefing on indoor air quality. Value approximately $330.",
+      "pdf_url": "wilsonj_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2024-08-22",
+      "category": "Shares",
+      "entity": "Rarex Ltd",
+      "details": "Spouse/Partner - sale of all shares in Rarex Ltd",
+      "pdf_url": "wilsonj_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/wilsonj_47p.pdf"
+}

@@ -1,0 +1,126 @@
+{
+  "mp_name": "Adam Paul Bandt",
+  "party": "N/A",
+  "electorate": "Melbourne",
+  "disclosures": [
+    {
+      "declaration_date": "2016-09-01",
+      "category": "Shares",
+      "entity": "AMP",
+      "details": "AMP shares",
+      "pdf_url": "bandta_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-01",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "House in Flemington, Residence (jointly owned with spouse)",
+      "pdf_url": "bandta_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-01",
+      "category": "Liabilities",
+      "entity": "Bank of Melbourne",
+      "details": "Mortgage over house",
+      "pdf_url": "bandta_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-01",
+      "category": "Savings/Investments",
+      "entity": "Bank of Melbourne",
+      "details": "Savings account",
+      "pdf_url": "bandta_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-01",
+      "category": "Other Assets",
+      "entity": "HESTA EcoPool; FutureSuper",
+      "details": "Superannuation & Life Insurance Policy: HESTA EcoPool. Superannuation: FutureSuper.",
+      "pdf_url": "bandta_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-01",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Qantas Chairman's Lounge Membership; Virgin Club Membership; Occasional upgrades from economy to business class on Virgin and Qantas",
+      "pdf_url": "bandta_45p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2016-09-01",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Qantas Chairman's Lounge Membership; Virgin Club Membership; Occasional upgrades from economy to business class on Virgin and Qantas",
+      "pdf_url": "bandta_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-08-31",
+      "category": "Gifts",
+      "entity": "National Gallery of Victoria",
+      "details": "From National Gallery of Victoria: 8 Complimentary tickets to exhibitions; various art books.",
+      "pdf_url": "bandta_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Liabilities",
+      "entity": "Bank Australia",
+      "details": "MORTGAGE over house in Flemington with Bank Australia.",
+      "pdf_url": "bandta_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-23",
+      "category": "Savings/Investments",
+      "entity": "Bank Australia",
+      "details": "SAVINGS ACCOUNTS with Bank Australia.",
+      "pdf_url": "bandta_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-02-14",
+      "category": "Hospitality",
+      "entity": "Tennis Australia & Australian Open",
+      "details": "Attendance & lunch at Australian Open on 23 January 2017. Provided by Tennis Australia & Australian Open.",
+      "pdf_url": "bandta_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-06-19",
+      "category": "Gifts",
+      "entity": "Melbourne Museum",
+      "details": "Tickets for entry to Melbourne Museum. Tickets for entry to cultural & dance events. 2 x '2 degrees' lapel pins.",
+      "pdf_url": "bandta_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2017-08-10",
+      "category": "Gifts",
+      "entity": "Foxtel",
+      "details": "Subscription to Foxtel in electorate office",
+      "pdf_url": "bandta_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2018-02-28",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Qantas frequent flyer points received and used to upgrade work travel from economy to business.",
+      "pdf_url": "bandta_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-05-30",
+      "category": "Gifts",
+      "entity": "Netball Australia",
+      "details": "From Netball Australia: Telstra TV",
+      "pdf_url": "bandta_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-02-19",
+      "category": "Travel",
+      "entity": "Parliament of Kuwait, General Delegation of Palestine",
+      "details": "As part of cross-parliamentary delegation, travel to Kuwait, Jordan, Israel and Palestine. Flights, travel, accommodation and meals paid for by Parliament of Kuwait and General Delegation of Palestine to Australia, New Zealand and the Pacific. Gift (vase \u2013 unknown value) received from Hebron Governate.",
+      "pdf_url": "bandta_45p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/bandta_45p.pdf"
+}

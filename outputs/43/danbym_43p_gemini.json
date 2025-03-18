@@ -1,0 +1,277 @@
+{
+  "mp_name": "Michael David Danby",
+  "party": "Unknown",
+  "electorate": "Melbourne Ports",
+  "disclosures": [
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Shares",
+      "entity": "BHP",
+      "details": "Shareholdings",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Shares",
+      "entity": "Westpac",
+      "details": "Shareholdings",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Shares",
+      "entity": "ANZ",
+      "details": "Shareholdings",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Shares",
+      "entity": "Santos",
+      "details": "Shareholdings",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Shares",
+      "entity": "Macquarie Bank",
+      "details": "Shareholdings",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Shares",
+      "entity": "Westfarmers",
+      "details": "Shareholdings",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Elwood (Unit), Home",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Mortgage",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "V2 Cash Management Account",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Investment Children's TV Series 'Animalia'",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Barrister fees",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-02-28",
+      "category": "Shares",
+      "entity": "Rio Tinto",
+      "details": "Shares",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-07-22",
+      "category": "Travel",
+      "entity": "International Consultation Jewish Parliamentarians",
+      "details": "Flight economy class fair Melb - Tel Aviv return",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-07-22",
+      "category": "Gifts",
+      "entity": "Get Wines Direct",
+      "details": "2 bores of wine from Get Wines Direct valued at $599.96",
+      "pdf_url": "danbym_43p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2011-07-22",
+      "category": "Travel",
+      "entity": "Parliamentary Forum of CCD",
+      "details": "Lecconomy class airfarefiom Tel-Avivto Vilnius return",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-07-22",
+      "category": "Hospitality",
+      "entity": "ICJP",
+      "details": "2 nights Accomodation David Citadel hotel",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-07-22",
+      "category": "Hospitality",
+      "entity": "Unknown",
+      "details": "2 nights Accomodation Vilnius Negila",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-13",
+      "category": "Shares",
+      "entity": "Woodside",
+      "details": "Shares",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-13",
+      "category": "Travel",
+      "entity": "International Coalition of Jewish Parliamentarians",
+      "details": "Return economy airfares Melb-New York return",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-13",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Melbourne - Los Angeles Business Class upgrade",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-13",
+      "category": "Hospitality",
+      "entity": "International Coalition of",
+      "details": "1 night Accommodation New York",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-09-13",
+      "category": "Hospitality",
+      "entity": "Jewish Parliamentaria",
+      "details": "2 nights Accommodation Washington",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-11-18",
+      "category": "Shares",
+      "entity": "Nu Farm",
+      "details": "Shares",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-02-15",
+      "category": "Hospitality",
+      "entity": "Unknown",
+      "details": "4 nights accomodation King David Hotel Aust/UK/Israel Leadership Cont",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-02-15",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Upgrade to Business from Premium Economy Melbourne - Frankfurt Retern",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-03-21",
+      "category": "Travel",
+      "entity": "NATO/SHAPE",
+      "details": "Economy return flights to Brussels. Accommodation for three days",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-04-03",
+      "category": "Travel",
+      "entity": "Qantas Airways",
+      "details": "Qantas Airways upgrade from Premium Economy to Business Class Melbourne to Frankfurt",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-04-03",
+      "category": "Travel",
+      "entity": "Unknown",
+      "details": "NATOR Pratt FoundationCombined premium economy Care Frenklurt Melb neturn",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-04-03",
+      "category": "Travel",
+      "entity": "Draft Foundation",
+      "details": "Econbry Pure Brussels-Warsaw - Frankfurt & Warsaw accon",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-05-24",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Upgrade Melb-Sing",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-05-24",
+      "category": "Hospitality",
+      "entity": "Unknown",
+      "details": "3 Nights accom Hotel Alicia (Tunis)",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-05-24",
+      "category": "Travel",
+      "entity": "Unknown",
+      "details": "Return Economy curtare Frambler-Tunis. bor Democracy",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-05-24",
+      "category": "Hospitality",
+      "entity": "International Cont of Porn",
+      "details": "3 Nights Accom Ford Elgm Hotel) (Ottawa) - Economy love - Frankfurt-Oflower ",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-05-24",
+      "category": "Unknown",
+      "entity": "Unknown",
+      "details": "Pratt Foundubon upgrade air heket",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-07-17",
+      "category": "Shares",
+      "entity": "Next DC",
+      "details": "Shares",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-01-18",
+      "category": "Travel",
+      "entity": "Quantas",
+      "details": "Upgrade Melb-Sing",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-01-18",
+      "category": "Hospitality",
+      "entity": "Guest Australia",
+      "details": "4 Nights accom Park Plaza Hotel London Israel-Un-Oralogue",
+      "pdf_url": "danbym_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-02-07",
+      "category": "Gifts",
+      "entity": "Korean Embassy",
+      "details": "3 Tickets Australia Open Mens Final ",
+      "pdf_url": "danbym_43p.pdf",
+      "sub_category": "Sports Tickets"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/43/danbym_43p.pdf"
+}

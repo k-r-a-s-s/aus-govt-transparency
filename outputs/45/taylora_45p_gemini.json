@@ -1,0 +1,286 @@
+{
+  "mp_name": "Angus James Taylor",
+  "party": "Unknown",
+  "electorate": "Hume",
+  "disclosures": [
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Gufee Pty Ltd",
+      "details": "Shareholding",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Gufee Pastoral Co. Pty Ltd",
+      "details": "Shareholding",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Growth Farms Australia Pty Ltd",
+      "details": "Shareholding",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Derwent Recruitment Associates",
+      "details": "Shareholding",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Derwent Executive International",
+      "details": "Shareholding",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Trusts",
+      "entity": "AJ & L Taylor Family Trust",
+      "details": "Family Trust",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Goulburn, Home and Farm",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Sydney, Investment property",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Directorships",
+      "entity": "Gufee Pty Ltd",
+      "details": "Investment company, corporate trustee",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Directorships",
+      "entity": "Gufee Pastoral Co. Pty Ltd",
+      "details": "Farming company",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Partnerships",
+      "entity": "Farm Partnerships Australia",
+      "details": "Partner (via Gufee Pty Ltd), Farming business",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Credit card",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Mortgage",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Term deposits",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Investment account",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Transaction accounts",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "Vanguard",
+      "details": "Investment account",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "Plum Financial Services",
+      "details": "Superannuation account",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Life insurance",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Saving account",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Livestock",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Gifts",
+      "entity": "Spyfest",
+      "details": "Guest at local event - $150.00",
+      "pdf_url": "taylora_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Gifts",
+      "entity": "Foxtel",
+      "details": "Press Gallery Ball - Guest of Foxtel $200.00",
+      "pdf_url": "taylora_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Goulburn Triathlon Club",
+      "details": "Membership",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Goulburn Cycling Club",
+      "details": "Membership",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Ski Club of Australia",
+      "details": "Membership",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Gundary rural Fire Brigade",
+      "details": "Membership",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-02-24",
+      "category": "Gifts",
+      "entity": "Smart Cities Expo World Forum",
+      "details": "Two Steinel halogen floodlights received from the Smart Cities Expo World Forum.",
+      "pdf_url": "taylora_45p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2017-03-21",
+      "category": "Shares",
+      "entity": "Derwent Executive",
+      "details": "Shareholding - Sold to founder",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-04-19",
+      "category": "Hospitality",
+      "entity": "NAB",
+      "details": "Attendance at Sydney Institute Dinner - Louise Taylor was guest of NAB at Sydney Institute Dinner held 6 April 2017.",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-04-11",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Sale of property at Wallaroy Road, Woollahra - Settled on 29 March 2017. Jointly owned with spouse.",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-04-11",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Discharge of NAB mortgage on above property. Discharged on 29 March 2017. Joint mortgage held with spouse.",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-08-16",
+      "category": "Directorships",
+      "entity": "Goulburn UC Pty Ltd (the Goulburn University Centre)",
+      "details": "Director - Louise Taylor Directorship",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-08-16",
+      "category": "Memberships",
+      "entity": "The Sydney Institute",
+      "details": "Director and member - Louise Taylor Directorship",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-08-16",
+      "category": "Hospitality",
+      "entity": "NAB",
+      "details": "Tickets to Lowy Institute Address by Boris Johnson - Louise Taylor was a guest of NAB, Value = $500.00",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-02-22",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "ING term deposits - Proceeds from sale of property",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-05-21",
+      "category": "Hospitality",
+      "entity": "Woolworths",
+      "details": "Tickets to Sydney Institute dinner - 2x tickets (Value $600) guests of Woolworths",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-08-27",
+      "category": "Travel",
+      "entity": "RDP Group, FTI Group and Dalcross",
+      "details": "Flight to Condobolin 17/8/18 for hay donation event as guest of RDP Group, FTI Group and Dalcross",
+      "pdf_url": "taylora_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-08-27",
+      "category": "Gifts",
+      "entity": "Narellan Rotary",
+      "details": "2 x tickets to Narellan Rotary Ball 11/8/18 as guests of Narellan Rotary",
+      "pdf_url": "taylora_45p.pdf",
+      "sub_category": "Sports Tickets"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/taylora_45p.pdf"
+}

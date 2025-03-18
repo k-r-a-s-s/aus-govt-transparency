@@ -1,0 +1,781 @@
+{
+  "mp_name": "Timothy Wilson",
+  "party": "Unknown",
+  "electorate": "Goldstein",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Dynamic Sunrise Pty Ltd",
+      "details": "in Wilson-Bolger Superannuation Pty Ltd",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Cybg Plc",
+      "details": "in Wilson-Bolger Superannuation Pty Ltd",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Telstra",
+      "details": "in Wilson-Bolger Superannuation Pty Ltd",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Sonic Healthcare",
+      "details": "in Wilson-Bolger Superannuation Pty Ltd",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Westpac",
+      "details": "in Wilson-Bolger Superannuation Pty Ltd",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "in Wilson-Bolger Superannuation Pty Ltd",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "National Australia Bank",
+      "details": "in Wilson-Bolger Superannuation Pty Ltd",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Rio Tinto",
+      "details": "in Wilson-Bolger Superannuation Pty Ltd",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "ASX",
+      "details": "in Wilson-Bolger Superannuation Pty Ltd",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "CSL Limited",
+      "details": "in Wilson-Bolger Superannuation Pty Ltd",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "IVV shares",
+      "details": "in Wilson-Bolger Superannuation Pty Ltd",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "WAM Leaders",
+      "details": "in Wilson-Bolger Superannuation Pty Ltd",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "WAM Capital",
+      "details": "in Wilson-Bolger Superannuation Pty Ltd",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Bolger-Wilson Investments Pty Ltd",
+      "details": "Shareholder and beneficiary (investment trust)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Cybg Plc",
+      "details": "in Wilson-Bolger Superannuation Pty Ltd. (Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Telstra",
+      "details": "in Wilson-Bolger Superannuation Pty Ltd. (Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Sonic Healthcare",
+      "details": "in Wilson-Bolger Superannuation Pty Ltd. (Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Westpac",
+      "details": "in Wilson-Bolger Superannuation Pty Ltd. (Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "in Wilson-Bolger Superannuation Pty Ltd. (Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "National Australia Bank",
+      "details": "in Wilson-Bolger Superannuation Pty Ltd. (Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Rio Tinto",
+      "details": "in Wilson-Bolger Superannuation Pty Ltd. (Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "ASX",
+      "details": "in Wilson-Bolger Superannuation Pty Ltd. (Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "CSL Limited",
+      "details": "in Wilson-Bolger Superannuation Pty Ltd. (Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "IVV shares",
+      "details": "in Wilson-Bolger Superannuation Pty Ltd. (Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "WAM Leaders",
+      "details": "in Wilson-Bolger Superannuation Pty Ltd. (Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "WAM Capital",
+      "details": "in Wilson-Bolger Superannuation Pty Ltd. (Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Bolger-Wilson Investments Pty Ltd",
+      "details": "Shareholder and beneficiary (investment trust). (Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Trusts",
+      "entity": "Bolger-Wilson Investments Pty Ltd",
+      "details": "Investment Trust, 50 per cent beneficial interest",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Trusts",
+      "entity": "Wilson-Bolger Superannuation",
+      "details": "Superannuation Fund, 50 per cent beneficial interest",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Trusts",
+      "entity": "Bolger-Wilson Investments Pty Ltd",
+      "details": "Investment Trust, 50 per cent beneficial interest (Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Trusts",
+      "entity": "Wilson-Bolger Superannuation",
+      "details": "Superannuation Fund, 50 per cent beneficial interest (Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Property, City of Melbourne, Investment",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Property, City of Bayside (Co-owned), Residence",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Property, Mornington Peninsula Shire (Co-owned), Residence/Investment",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Property, Australian Capital Territory (Co-owned), Residence/Investment",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Property, City of Port Phillip, Investment (Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Property, City of Bayside (Co-owned), Residence (Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Property, Mornington Peninsula Shire (Co-owned), Residence/Investment (Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Property, Australian Capital Territory (Co-owned), Residence/Investment (Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Directorships",
+      "entity": "Dynamic Sunrise Pty Ltd",
+      "details": "Public affairs",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Directorships",
+      "entity": "Bolger-Wilson Investments Pty Ltd",
+      "details": "Investment Trust",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Directorships",
+      "entity": "Bolger-Wilson Investments Pty Ltd",
+      "details": "Investment Trust (Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Partnerships",
+      "entity": "A Plus Approach",
+      "details": "Co-partnership (Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Property, City of Melbourne",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Property, City of Bayside (Co-owned)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Property, Mornington Peninsula Shire (Co-owned)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Property, Australian Capital Territory (Co-owned)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Credit Card",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Property, City of Port Phillip (Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Property, City of Bayside (Co-owned) (Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Property, Mornington Peninsula Shire (Co-owned) (Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Property, Australian Capital Territory (Co-owned) (Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Credit Card (Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "Bank of Melbourne",
+      "details": "4x savings accounts",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "4x savings accounts",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "Bank of Melbourne",
+      "details": "2x savings accounts (Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "2x savings accounts (Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "2 x motor vehicles",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "1 x motor vehicle (Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Payments and royalties from copyrighted works",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rent from Canberra property",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Teacher's salary (Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "Liberal Party of Australia (Victorian Division), Institute of Public Affairs, Melbourne Cricket Club, Melbourne Football Club, Sandringham Yacht Club, Sandringham Bowls Club, Old Brighton Grammarians Football Club, Royal Brighton Yacht Club, Hampton Life Saving Club, Sorrento Sailing Couta Boat Club",
+      "details": "No 1 Ticket Holder for Sandringham Bowls Club and Old Brighton Grammarians Football Club",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "Liberal Party of Australia (Victorian Division), Institute of Public Affairs, Victorian Racing Club, Melbourne Football Club, Victorian Institute of Teaching",
+      "details": "(Spouse/Partner)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-16",
+      "category": "Gifts",
+      "entity": "Melbourne Racing Club",
+      "details": "2x tickets to Caulfield Guineas",
+      "pdf_url": "wilsont_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2019-10-16",
+      "category": "Travel",
+      "entity": "QANTAS Airways",
+      "details": "Unsolicited Business class upgrade, Brisbane to Hong Kong flight",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-16",
+      "category": "Travel",
+      "entity": "The Economist Newspaper",
+      "details": "Flights (Brisbane to Hong Kong, and Hong Kong to Melbourne) and accommodation to speak at The Economist's Open Future Festival",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-16",
+      "category": "Hospitality",
+      "entity": "Armenian National Committee of Australia",
+      "details": "Hospitality and internal land transport around Armenia, and a bottle of Ararat Cognac",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-11-26",
+      "category": "Hospitality",
+      "entity": "Melbourne Racing Club",
+      "details": "2 x guest tickets for Melbourne Racing Club Committee Room, Caulfield Guineas, 2019 Melbourne Spring Racing Carnival",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-11-26",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "2 x guest tickets for Tabcorp Birdcage Enclosure, Derby Day, 2019 Melbourne Spring Racing Carnival",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-11-26",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "2 x guest tickets for Lion Nathan Birdcage Enclosure, Derby Day, 2019 Melbourne Spring Racing Carnival",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-11-26",
+      "category": "Hospitality",
+      "entity": "Melbourne Racing Club",
+      "details": "2 x guest tickets for Melbourne Racing Club Committee Room, Peninsula Cup, 2019 Melbourne Spring Racing Carnival",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-11-26",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "2 x guest tickets for Lion Nathan Birdcage Enclosure, Melbourne Cup Day, 2019 Melbourne Spring Racing Carnival",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-11-26",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "2 x guest tickets for Tabcorp Birdcage Enclosure, Stakes Day, 2019 Melbourne Spring Racing Carnival",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-11-26",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "2 x guest tickets for Penot Ricard Birdcage Enclosure, Stakes Day, 2019 Melbourne Spring Racing Carnival",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-19",
+      "category": "Shares",
+      "entity": "Beta shares Global Sustainability ETF",
+      "details": "N/A",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-19",
+      "category": "Shares",
+      "entity": "WAM Global",
+      "details": "N/A",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-19",
+      "category": "Shares",
+      "entity": "WAM Micro Cap",
+      "details": "N/A",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-19",
+      "category": "Shares",
+      "entity": "Beta shares Australian Sustainability Leaders ETF",
+      "details": "N/A",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-02-21",
+      "category": "Gifts",
+      "entity": "John Short Strategic Advisory",
+      "details": "Framed David Rowe cartoon of franking credits rebellion",
+      "pdf_url": "wilsont_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2020-02-27",
+      "category": "Shares",
+      "entity": "BBOZ BETASHARES Australia Equities",
+      "details": "Earlier declaration incorrectly stated they were deleted, when they should have been added",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-03",
+      "category": "Gifts",
+      "entity": "Australian Hotels Association",
+      "details": "Red, white and sparkling wine",
+      "pdf_url": "wilsont_46p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2020-03-03",
+      "category": "Gifts",
+      "entity": "Australian Brewers Association",
+      "details": "Beer",
+      "pdf_url": "wilsont_46p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2020-07-17",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "An Australian-made Gray-Nicolls cricket bat with English willow",
+      "pdf_url": "wilsont_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2020-12-16",
+      "category": "Gifts",
+      "entity": "Diageo PLC",
+      "details": "1 x bottle of gin",
+      "pdf_url": "wilsont_46p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2020-12-16",
+      "category": "Gifts",
+      "entity": "Pernod Ricard",
+      "details": "1 x bottle of gin",
+      "pdf_url": "wilsont_46p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2020-12-16",
+      "category": "Shares",
+      "entity": "Rio Tinto",
+      "details": "Sale of Rio Tinto shares held in Member's own name, and spouse's name.",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-01-27",
+      "category": "Shares",
+      "entity": "Bolger Wilson Superannuation Fund",
+      "details": "Centuria Industrial Reit, Adore Beauty Group Limited, Betashares Asia Technology Tiger ETF",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-01-27",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Betashares Australian Small Companies Select Fund (Held personally)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-02-16",
+      "category": "Shares",
+      "entity": "Lynas Rare Earths Ltd (ASX:LYC)",
+      "details": "N/A",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-02-24",
+      "category": "Gifts",
+      "entity": "ANZ",
+      "details": "Two tickets (valued at $850) for admission to the Australian Open Women's Final - hosted by ANZ",
+      "pdf_url": "wilsont_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2021-02-24",
+      "category": "Shares",
+      "entity": "Auroch Minerals Ltd (ASX:AOU)",
+      "details": "N/A",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-02-24",
+      "category": "Shares",
+      "entity": "Copper Mountain Mining Corporation (ASX:C6C)",
+      "details": "N/A",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-06-30",
+      "category": "Other Interests",
+      "entity": "McKinnon Institute for Political Leadership",
+      "details": "Scholarship recipient - Advanced Political Leadership Course from the McKinnon Institute for Political Leadership",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-06-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Property, City of Melbourne. Investment (Self (co-owned))",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-06-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Property, City of Melbourne. Investment (Spouse (co-owned))",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-06-30",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Property, City of Melbourne. Investment (Self)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-06-30",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Property, City of Melbourne. Investment (Spouse)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-06-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rent from Property, City of Melbourne (Self)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-06-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rent from Property, City of Port Phillip (Spouse)",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-08-03",
+      "category": "Shares",
+      "entity": "Vanguard MSCI International Small Companies Index ETF (VISM)",
+      "details": "N/A",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-08-03",
+      "category": "Shares",
+      "entity": "Vanguard MSCI Index International Shares ETF (VGS)",
+      "details": "N/A",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-08-16",
+      "category": "Shares",
+      "entity": "VAS - Vanguard Australian Shares Index ETF",
+      "details": "N/A",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-17",
+      "category": "Memberships",
+      "entity": "Brighton Union Cricket Club",
+      "details": "Honorary Membership, Brighton Union Cricket Club 2021/22",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-10-01",
+      "category": "Gifts",
+      "entity": "Lion Nathan",
+      "details": "2 cases of Furphy Beer from Lion Nathan to celebrate the Dees smashing the Dogs 140 - 66, acknowledging one needed a beer in the second quarter for entirely different reasons to the end of the third ...",
+      "pdf_url": "wilsont_46p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2021-10-01",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Sale of property by husband in the City of Port Phillip",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-10-08",
+      "category": "Shares",
+      "entity": "AOU",
+      "details": "In preparation for joining the Executive, I have sold my interests in the following shares: AOU, C6C and LYC. I therefore understand that all remaining shares held in my name are aggregate economy-wide ETFs.",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-10-08",
+      "category": "Shares",
+      "entity": "C6C",
+      "details": "In preparation for joining the Executive, I have sold my interests in the following shares: AOU, C6C and LYC. I therefore understand that all remaining shares held in my name are aggregate economy-wide ETFs.",
+      "pdf_url": "wilsont_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-10-08",
+      "category": "Shares",
+      "entity": "LYC",
+      "details": "In preparation for joining the Executive, I have sold my interests in the following shares: AOU, C6C and LYC. I therefore understand that all remaining shares held in my name are aggregate economy-wide ETFs.",
+      "pdf_url": "wilsont_46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/wilsont_46p.pdf"
+}

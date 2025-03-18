@@ -1,0 +1,115 @@
+{
+  "mp_name": "Susan Lamb",
+  "party": "N/A",
+  "electorate": "Longman",
+  "disclosures": [
+    {
+      "declaration_date": "2018-09-13",
+      "category": "Trusts",
+      "entity": "MATES (QLD)",
+      "details": "Spouse has interest in MATES (QLD)",
+      "pdf_url": "lambs_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-09-13",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "DAKABIN - Family Home (Self and Spouse)",
+      "pdf_url": "lambs_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-09-13",
+      "category": "Liabilities",
+      "entity": "SG Fleet",
+      "details": "Novated Lease (Self)",
+      "pdf_url": "lambs_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-09-13",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Home Loan (Self)",
+      "pdf_url": "lambs_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-09-13",
+      "category": "Liabilities",
+      "entity": "Toyota Finance",
+      "details": "Car Loan (Self)",
+      "pdf_url": "lambs_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-09-13",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Home Loan (Spouse)",
+      "pdf_url": "lambs_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-09-13",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Smart Access Savings accounts (Self)",
+      "pdf_url": "lambs_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-09-13",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Everyday offset savings (Self)",
+      "pdf_url": "lambs_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-09-13",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Smart Access Savings accounts (Spouse)",
+      "pdf_url": "lambs_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-09-13",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Everyday offset savings (Spouse)",
+      "pdf_url": "lambs_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-09-13",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Toyota Land Cruiser (Self)",
+      "pdf_url": "lambs_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-09-13",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Salary as MP (Self)",
+      "pdf_url": "lambs_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-12-04",
+      "category": "Memberships",
+      "entity": "Sandstone Point Lions",
+      "details": "Membership of - Sandstone Point Lions",
+      "pdf_url": "lambs_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2018-12-04",
+      "category": "Memberships",
+      "entity": "Australian Palestinian Advocacy Network",
+      "details": "Membership of - Australian Palestinian Advocacy Network",
+      "pdf_url": "lambs_45p_2.pdf"
+    },
+    {
+      "declaration_date": "2019-01-21",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Gifted two (2) tickets to Woodford at approximately $700 each so total estimated value $1,400.",
+      "pdf_url": "lambs_45p_2.pdf",
+      "sub_category": "Sports Tickets"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/lambs_45p_2.pdf"
+}

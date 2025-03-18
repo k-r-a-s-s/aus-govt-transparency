@@ -1,0 +1,72 @@
+{
+  "mp_name": "Laurie Ferguson",
+  "party": "Unknown",
+  "electorate": "Werriwa",
+  "disclosures": [
+    {
+      "declaration_date": "2010-09-29",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Granville, Birrell St - Residential",
+      "pdf_url": "fergusonl_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-09-29",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Granville, The Avenue - Investment (Joint)",
+      "pdf_url": "fergusonl_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-09-29",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Mortgage (Granville)",
+      "pdf_url": "fergusonl_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-09-29",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Term deposits (Granville, Thimoul)",
+      "pdf_url": "fergusonl_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-09-29",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Investment Property",
+      "pdf_url": "fergusonl_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-11-30",
+      "category": "Travel",
+      "entity": "Sultanate of Oman",
+      "details": "Visited Oman between October 31 and November 4 as a guest of the Sultanate of Oman. The Government expended $9335.50 on Business Return Airfare to Muscat and $2400.00 on Grand Hyatt, Muscat.",
+      "pdf_url": "fergusonl_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-02-06",
+      "category": "Income Sources",
+      "entity": "Mother's Estate",
+      "details": "Received $145,000 and will also receive one fifth of the sale of two residences from the will.",
+      "pdf_url": "fergusonl_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-02-08",
+      "category": "Income Sources",
+      "entity": "Mother's Estate",
+      "details": "Received a further $993.48.",
+      "pdf_url": "fergusonl_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-06-17",
+      "category": "Income Sources",
+      "entity": "Mother's Estate",
+      "details": "Received a further $158,212.77.",
+      "pdf_url": "fergusonl_43p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/43/fergusonl_43p.pdf"
+}

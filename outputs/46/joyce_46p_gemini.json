@@ -1,0 +1,591 @@
+{
+  "mp_name": "Barnaby Joyce",
+  "party": "National Party",
+  "electorate": "New England",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Shares",
+      "entity": "ANZ",
+      "details": "ANZ - ANZ",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Shares",
+      "entity": "CBA",
+      "details": "CBA - CBA",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Shares",
+      "entity": "Transurban",
+      "details": "TCL - Transurban",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Shares",
+      "entity": "Vocus Group",
+      "details": "VOC - Vocus Group",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Shares",
+      "entity": "Virtus",
+      "details": "VRT - Virtus",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Shares",
+      "entity": "Costa group",
+      "details": "Costa group",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Shares",
+      "entity": "Westfarmers",
+      "details": "WES - Westfarmers",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Shares",
+      "entity": "Vanguard",
+      "details": "Vanguard",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Shares",
+      "entity": "ING",
+      "details": "ING - ING",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Shares",
+      "entity": "Coles Group",
+      "details": "Coles Group",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Shares",
+      "entity": "5G Network Limited",
+      "details": "5GN - 5G Network Limited",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Shares",
+      "entity": "Australian Agricultural Company",
+      "details": "AAC - Australian Agricultural Company",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Shares",
+      "entity": "After Pay Touch",
+      "details": "APT - After Pay Touch",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Shares",
+      "entity": "Appen Limited",
+      "details": "APX - Appen Limited",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Shares",
+      "entity": "BHP Group",
+      "details": "BHP - BHP Group",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Shares",
+      "entity": "CSL Limited",
+      "details": "CSL - CSL Limited",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Shares",
+      "entity": "Lynas Corp",
+      "details": "LYC - Lynas Corp",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Shares",
+      "entity": "Macquarie Group",
+      "details": "MQG - Macquarie Group",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Shares",
+      "entity": "NAB",
+      "details": "NAB - NAB",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Shares",
+      "entity": "Ramelius Resources",
+      "details": "RMS - Ramelius Resources",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Shares",
+      "entity": "Sydney Airport Staple",
+      "details": "SYD - Sydney Airport Staple",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Shares",
+      "entity": "Birtus Health Limted SPO",
+      "details": "BRT - Birtus Health Limted SPO",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Trusts",
+      "entity": "Sebastian Joyce Trust",
+      "details": "Share investment, Master Sebastian Joyce",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Loomberah NSW, Residential",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Rural property, Baradine NSW, Rural property",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Braddon, ACT, Investment property",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Partnerships",
+      "entity": "BT & NT JOYCE",
+      "details": "Financial Partner, Farming",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Mortage on residential property",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Mortage on rural property",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Overdraft on rural property",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Overdraft on stock",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Liabilities",
+      "entity": "ING",
+      "details": "Mortage on investment property",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Savings",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Savings",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Savings",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Savings",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Savings/Investments",
+      "entity": "Regional Australia Bank",
+      "details": "Savings",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Stock and crop",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Parliamentary Superannuation",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Suncrop Superannuation",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Future royalties from published book",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Sale of stock and sale of crops",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "All noted in previous declarations",
+      "pdf_url": "joyce_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "All noted in previous declarations",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Memberships",
+      "entity": "Qantas Chairman's lounge",
+      "details": "Qantas Chairman's lounge",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Memberships",
+      "entity": "Virgin Club Lounge",
+      "details": "Virgin Club Lounge",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Memberships",
+      "entity": "National Party",
+      "details": "National Party- NSW",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-08-15",
+      "category": "Travel",
+      "entity": "Maloney Group",
+      "details": "Accomodation provided on 11 August, 2019 in Sydney - Maloney Group, Sydney",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-08-28",
+      "category": "Other Interests",
+      "entity": "ASTRA",
+      "details": "Complimentary subscription television to the Electorate Office provided by ASTRA (Subscription Media Australia)",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-24",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Change of Address, New Residential address - Woolbrook",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-03-16",
+      "category": "Shares",
+      "entity": "EOS",
+      "details": "Sebastian JOYCE (son), Trust fund purchased shares in EOS (Electro Optic Systems Hldg Ltd)",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-03-17",
+      "category": "Other Assets",
+      "entity": "Sebastian Joyce",
+      "details": "Purchase - head of Cattle (multiple) - Sebastian Joyce",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-05-12",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Private Charter Flight (Armidale - Brisbane 5.5.2021)",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-06-22",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Loomberah NSW - Investment Property",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-03",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Credit Card - Westpac",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-03",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Credit Card - NAB",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-03",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Credit Card - NAB",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-03",
+      "category": "Savings/Investments",
+      "entity": "Regional Australia Bank",
+      "details": "Regional Australia Bank - Savings",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-03",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "CBA - Investment Account",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-03",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "CBA - Investment Account",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-03",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Livestock",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-03",
+      "category": "Memberships",
+      "entity": "Tamworth Sub-Branch of the RSL",
+      "details": "Tamworth Sub-Branch of the RSL",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-03",
+      "category": "Memberships",
+      "entity": "Tamworth Jockey Club",
+      "details": "Tamworth Jockey Club",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-03",
+      "category": "Memberships",
+      "entity": "Tamworth Business Chamber",
+      "details": "Tamworth Business Chamber",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-03",
+      "category": "Patronage",
+      "entity": "Uralla Historical Society",
+      "details": "Uralla Historical Society",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-03",
+      "category": "Patronage",
+      "entity": "Oxley Branch-National Serviceman Association",
+      "details": "Oxley Branch-National Serviceman Association",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-03",
+      "category": "Patronage",
+      "entity": "Manilla Branch-Australian Stockhorse Association",
+      "details": "Manilla Branch-Australian Stockhorse Association",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-03",
+      "category": "Patronage",
+      "entity": "Scouts Australian-NSW North West",
+      "details": "Scouts Australian-NSW North West",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-03",
+      "category": "Patronage",
+      "entity": "Tamworth regional U3A",
+      "details": "Tamworth regional U3A",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-03",
+      "category": "Patronage",
+      "entity": "Tamworth Musical Society",
+      "details": "Tamworth Musical Society",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-03",
+      "category": "Patronage",
+      "entity": "New England Regional Art Museum",
+      "details": "New England Regional Art Museum",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-03",
+      "category": "Patronage",
+      "entity": "St Alberts College- UNE",
+      "details": "St Alberts College- UNE",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-03",
+      "category": "Patronage",
+      "entity": "Walcha Rugby Club",
+      "details": "Walcha Rugby Club",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-03",
+      "category": "Patronage",
+      "entity": "Tenterfield friends of Sir Henry Parkes School of Arts",
+      "details": "Tenterfield friends of Sir Henry Parkes School of Arts",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-03",
+      "category": "Shares",
+      "entity": "Vocus Group",
+      "details": "Shareholdings (Partner) - Vocus Group",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-03",
+      "category": "Shares",
+      "entity": "Costa Group",
+      "details": "Shareholdings (Partner) - Costa Group",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-03",
+      "category": "Shares",
+      "entity": "Transurban",
+      "details": "Shareholdings (Partner) - Transurban",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-03",
+      "category": "Shares",
+      "entity": "CSL Limited",
+      "details": "Shareholdings (Dependent) - CSL Limited",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-03",
+      "category": "Shares",
+      "entity": "Sydney Airport Limited",
+      "details": "Shareholdings (Dependent) - Sydney Airport Limited",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-03",
+      "category": "Shares",
+      "entity": "Electro Optic Systems",
+      "details": "Shareholdings (Dependent) - Electro Optic Systems",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-03",
+      "category": "Partnerships",
+      "entity": "BT & NT Joyce",
+      "details": "Partnership (Self) - BT & NT Joyce",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-03",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Account (Dependent) - NAB - Savings",
+      "pdf_url": "joyce_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-03",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Account (Dependent) - Westpac - Savings",
+      "pdf_url": "joyce_46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/joyce_46p.pdf"
+}

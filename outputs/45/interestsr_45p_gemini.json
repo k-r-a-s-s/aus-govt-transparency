@@ -1,0 +1,115 @@
+{
+  "mp_name": "Unknown",
+  "party": "Unknown",
+  "electorate": "Unknown",
+  "disclosures": [
+    {
+      "declaration_date": "Unknown",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Shareholdings in public and private companies (including holding companies) indicating the name of the company or companies",
+      "pdf_url": "interestsr_45p.pdf"
+    },
+    {
+      "declaration_date": "Unknown",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Family and business trusts and nominee companies in which a beneficial interest is held, indicating the name of the trust, the nature of its operation and beneficial interest",
+      "pdf_url": "interestsr_45p.pdf"
+    },
+    {
+      "declaration_date": "Unknown",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Trusts in which the Member, the Member's spouse/partner, or a child who is wholly or mainly dependent on the Member for support, is a trustee (but not including a trustee of an estate where no beneficial interest is held), indicating the name of the trust, the nature of its operation and the beneficiary of the trust",
+      "pdf_url": "interestsr_45p.pdf"
+    },
+    {
+      "declaration_date": "Unknown",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Real estate, including the location (suburb or area only) and the purpose for which it is owned",
+      "pdf_url": "interestsr_45p.pdf"
+    },
+    {
+      "declaration_date": "Unknown",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Registered directorships of companies",
+      "pdf_url": "interestsr_45p.pdf"
+    },
+    {
+      "declaration_date": "Unknown",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Partnerships indicating the nature of the interests and the activities of the partnership",
+      "pdf_url": "interestsr_45p.pdf"
+    },
+    {
+      "declaration_date": "Unknown",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Liabilities indicating the nature of the liability and the creditor concerned",
+      "pdf_url": "interestsr_45p.pdf"
+    },
+    {
+      "declaration_date": "Unknown",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "The nature of any bonds, debentures and like investments",
+      "pdf_url": "interestsr_45p.pdf"
+    },
+    {
+      "declaration_date": "Unknown",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Saving or investment accounts, indicating their nature and the name of the bank or other institutions concerned",
+      "pdf_url": "interestsr_45p.pdf"
+    },
+    {
+      "declaration_date": "Unknown",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "The nature of any other assets (excluding household and personal effects) each valued at over $7,500",
+      "pdf_url": "interestsr_45p.pdf"
+    },
+    {
+      "declaration_date": "Unknown",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "The nature of any other substantial sources of income",
+      "pdf_url": "interestsr_45p.pdf"
+    },
+    {
+      "declaration_date": "Unknown",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Gifts valued at more than $750 received from official sources, or at more than $300 where received from other than official sources",
+      "pdf_url": "interestsr_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "Unknown",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Any sponsored travel or hospitality received where the value of the sponsored travel or hospitality exceeds $300",
+      "pdf_url": "interestsr_45p.pdf"
+    },
+    {
+      "declaration_date": "Unknown",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Membership of any organisation where a conflict of interest with a Member's public duties could foreseeably arise or be seen to arise",
+      "pdf_url": "interestsr_45p.pdf"
+    },
+    {
+      "declaration_date": "Unknown",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Any other interests where a conflict of interest with a Member's public duties could foreseeably arise or be seen to arise",
+      "pdf_url": "interestsr_45p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/interestsr_45p.pdf"
+}

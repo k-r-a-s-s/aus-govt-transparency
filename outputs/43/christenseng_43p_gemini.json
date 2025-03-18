@@ -1,0 +1,108 @@
+{
+  "mp_name": "George Robert Christensen",
+  "party": "Unknown",
+  "electorate": "Dawson",
+  "disclosures": [
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Personal Loans (x2)",
+      "pdf_url": "christenseng_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Credit Card",
+      "pdf_url": "christenseng_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Savings Accounts (x2)",
+      "pdf_url": "christenseng_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Cheque Account",
+      "pdf_url": "christenseng_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Savings/Investments",
+      "entity": "Bendigo Bank",
+      "details": "Savings Account",
+      "pdf_url": "christenseng_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-08-21",
+      "category": "Memberships",
+      "entity": "Mackay Regional Centre for Social Development",
+      "details": "N/A",
+      "pdf_url": "christenseng_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Memberships",
+      "entity": "Qantas",
+      "details": "Complimentary membership to Qantas Chairmans Lounge",
+      "pdf_url": "christenseng_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-01-25",
+      "category": "Other Interests",
+      "entity": "Austar",
+      "details": "Complementary Austar connection received at no charge for the Dawson electorate office.",
+      "pdf_url": "christenseng_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-03-25",
+      "category": "Travel",
+      "entity": "Taipei Economic & Cultural Office in Australia",
+      "details": "Return Business Class flight to Taiwan plus accommodation, for myself & partner.",
+      "pdf_url": "christenseng_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-06-02",
+      "category": "Gifts",
+      "entity": "Digital Radio Plus",
+      "details": "Small portable digital radio, given by Digital Radio Plus to all Federal MP's.",
+      "pdf_url": "christenseng_43p.pdf",
+      "sub_category": "Electronics"
+    },
+    {
+      "declaration_date": "2011-07-17",
+      "category": "Hospitality",
+      "entity": "Unknown",
+      "details": "Complementary ticket from Red Carpet 32 to the Mackay Cup 2011",
+      "pdf_url": "christenseng_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-07-17",
+      "category": "Hospitality",
+      "entity": "Telstra",
+      "details": "Complementary Corporate Box ticket from Telstra to Townsville VB Race. 2011",
+      "pdf_url": "christenseng_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-01",
+      "category": "Shares",
+      "entity": "QPAM PTD LTD",
+      "details": "300,000 Shares",
+      "pdf_url": "christenseng_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-21",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Complementary VIP ticket to the \"Pride & Glory 3\" Muay Thai Kickboxing Tournament at the Mackay Entertainment & Convention Centre; $300 value",
+      "pdf_url": "christenseng_43p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/43/christenseng_43p.pdf"
+}

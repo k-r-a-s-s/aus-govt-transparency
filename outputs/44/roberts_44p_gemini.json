@@ -1,0 +1,230 @@
+{
+  "mp_name": "Robert Stuart",
+  "party": "Unknown",
+  "electorate": "Fadden",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Shares",
+      "entity": "Robert Investment House Pty Ltd",
+      "details": "Shares in Robert Investment House Pty Ltd",
+      "pdf_url": "roberts_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Shares",
+      "entity": "Evolution Gold Shares",
+      "details": "Shares in Evolution Gold Shares",
+      "pdf_url": "roberts_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Shares",
+      "entity": "Robert Investment House",
+      "details": "Spouse's shares in Robert Investment House",
+      "pdf_url": "roberts_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Shares",
+      "entity": "Evolution Mining Shares",
+      "details": "Children's shares in Evolution Mining Shares",
+      "pdf_url": "roberts_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Shares",
+      "entity": "Oceana Gold Shares",
+      "details": "Children's shares in Oceana Gold Shares",
+      "pdf_url": "roberts_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Trusts",
+      "entity": "Robert Investment Private Investment Company",
+      "details": "Beneficial interest",
+      "pdf_url": "roberts_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Trusts",
+      "entity": "Robert Investment Private Investment Company",
+      "details": "Spouse's beneficial interest",
+      "pdf_url": "roberts_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Real Estate",
+      "entity": "Units x 3",
+      "details": "Units in Kingscliff, investment",
+      "pdf_url": "roberts_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Real Estate",
+      "entity": "Home",
+      "details": "Home Nerang, family home",
+      "pdf_url": "roberts_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Directorships",
+      "entity": "Robert Investment House Pty Ltd",
+      "details": "Director of Robert Investment House Pty Ltd",
+      "pdf_url": "roberts_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Directorships",
+      "entity": "Robert Investment House Pty Ltd",
+      "details": "Spouse director of Robert Investment House Pty Ltd",
+      "pdf_url": "roberts_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Portfolio investment loan NAB",
+      "pdf_url": "roberts_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Home Loan NAB",
+      "pdf_url": "roberts_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Savings account, offset account",
+      "pdf_url": "roberts_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Spouse savings account, offset account",
+      "pdf_url": "roberts_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Children's savings account",
+      "pdf_url": "roberts_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Rare Coin Collection",
+      "pdf_url": "roberts_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Robert Super Fund",
+      "pdf_url": "roberts_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Beneficiary of extended family trust",
+      "pdf_url": "roberts_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Foxter Subscription, Qantas Chairman's Lounge, Virgin the Club Lounge, Green Vase, V8 Supercar Replica",
+      "pdf_url": "roberts_44p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2014-09-27",
+      "category": "Gifts",
+      "entity": "Virgin Australia",
+      "details": "Virgin travel voucher donated by Virgin Australia for the Fadden Forum annual dinner raffle",
+      "pdf_url": "roberts_44p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2014-09-27",
+      "category": "Memberships",
+      "entity": "Austar",
+      "details": "1 year subscription",
+      "pdf_url": "roberts_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-01-22",
+      "category": "Memberships",
+      "entity": "Gold Coast Turf Club",
+      "details": "Honorary member",
+      "pdf_url": "roberts_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-02-23",
+      "category": "Memberships",
+      "entity": "Gold Coast Arts Centre",
+      "details": "Complimentary annual movie pass",
+      "pdf_url": "roberts_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-06-09",
+      "category": "Gifts",
+      "entity": "Virgin Australia",
+      "details": "Virgin travel voucher donated by Virgin Australia for Fadden Northern Gold Coast Seniors Expo",
+      "pdf_url": "roberts_44p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2015-07-03",
+      "category": "Travel",
+      "entity": "Emirates airline",
+      "details": "Upgrade to first class because business class was over booked and Emirates did the upgrade",
+      "pdf_url": "roberts_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-07-20",
+      "category": "Memberships",
+      "entity": "Gold Coast Turf Club",
+      "details": "Honorary member",
+      "pdf_url": "roberts_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-02-16",
+      "category": "Directorships",
+      "entity": "Robert International Pty Ltd",
+      "details": "Robert International Pty Ltd as trustee for the Robert Family Trust and Robert Investment Family Trust",
+      "pdf_url": "roberts_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-02-16",
+      "category": "Memberships",
+      "entity": "The Arts Centre Gold Coast",
+      "details": "Annual Pass",
+      "pdf_url": "roberts_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-02-16",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Sale. Three units Kingscliff NSW",
+      "pdf_url": "roberts_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-04-06",
+      "category": "Gifts",
+      "entity": "Turkisti Government",
+      "details": "Turquoise Vase, Silver Mirror",
+      "pdf_url": "roberts_44p.pdf",
+      "sub_category": "Other Gifts"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/roberts_44p.pdf"
+}

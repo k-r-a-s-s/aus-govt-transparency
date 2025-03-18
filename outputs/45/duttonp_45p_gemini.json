@@ -21,21 +21,21 @@
       "declaration_date": "2016-10-12",
       "category": "Trusts",
       "entity": "RHT Family Trust (RHT Investments P/L ATF)",
-      "details": "Beneficial interest",
+      "details": "Beneficial interest, Investment",
       "pdf_url": "duttonp_45p.pdf"
     },
     {
       "declaration_date": "2016-10-12",
       "category": "Real Estate",
-      "entity": "Kingston, ACT",
-      "details": "Residential Investment",
+      "entity": "N/A",
+      "details": "Kingston, ACT, Residential Investment",
       "pdf_url": "duttonp_45p.pdf"
     },
     {
       "declaration_date": "2016-10-12",
       "category": "Real Estate",
-      "entity": "Moreton Island, QLD",
-      "details": "Residential Investment",
+      "entity": "N/A",
+      "details": "Moreton Island, QLD, Residential Investment",
       "pdf_url": "duttonp_45p.pdf"
     },
     {
@@ -99,14 +99,14 @@
     },
     {
       "declaration_date": "2016-10-12",
-      "category": "Travel",
-      "entity": "Virgin",
+      "category": "Memberships",
+      "entity": "Virgin Club",
       "details": "Virgin Club Membership",
       "pdf_url": "duttonp_45p.pdf"
     },
     {
       "declaration_date": "2016-10-12",
-      "category": "Other Interests",
+      "category": "Memberships",
       "entity": "Foxtel",
       "details": "Electorate Office Foxtel Connection",
       "pdf_url": "duttonp_45p.pdf"
@@ -114,169 +114,161 @@
     {
       "declaration_date": "2016-10-12",
       "category": "Real Estate",
-      "entity": "Palm Beach, Qld",
-      "details": "Residential Investment",
+      "entity": "N/A",
+      "details": "Palm Beach, Qld, Residential Investment",
       "pdf_url": "duttonp_45p.pdf"
     },
     {
       "declaration_date": "2016-10-12",
       "category": "Real Estate",
-      "entity": "Spring Hill, Qld",
-      "details": "Residential Investment",
+      "entity": "N/A",
+      "details": "Spring Hill, Qld, Residential Investment",
       "pdf_url": "duttonp_45p.pdf"
     },
     {
       "declaration_date": "2016-10-12",
       "category": "Real Estate",
-      "entity": "Camp Mountain, Qld",
-      "details": "Principal place of residence",
+      "entity": "N/A",
+      "details": "Camp Mountain, Qld, Principal place of residence",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Income Sources",
+      "entity": "RHT Investments (Qld) P/L and Bald Hills Child Care P/L",
+      "details": "Employment by RHT Investments",
       "pdf_url": "duttonp_45p.pdf"
     },
     {
       "declaration_date": "2016-10-12",
       "category": "Directorships",
       "entity": "RHT Investments (Qld) P/L",
-      "details": "Child Care/Investment. Spouse director",
+      "details": "Child Care/Investment",
       "pdf_url": "duttonp_45p.pdf"
     },
     {
       "declaration_date": "2016-10-12",
       "category": "Directorships",
       "entity": "Bald Hills Child Care P/L",
-      "details": "Child Care. Spouse director",
+      "details": "Child Care",
       "pdf_url": "duttonp_45p.pdf"
     },
     {
       "declaration_date": "2016-10-12",
       "category": "Directorships",
       "entity": "PK Super P/L",
-      "details": "SMSF. Spouse director",
-      "pdf_url": "duttonp_45p.pdf"
-    },
-    {
-      "declaration_date": "2016-10-12",
-      "category": "Income Sources",
-      "entity": "RHT Investments (Qld) P/L",
-      "details": "Employment, spouse income.",
-      "pdf_url": "duttonp_45p.pdf"
-    },
-    {
-      "declaration_date": "2016-10-12",
-      "category": "Income Sources",
-      "entity": "Bald Hills Child Care P/L",
-      "details": "Employment, spouse income.",
+      "details": "SMSF",
       "pdf_url": "duttonp_45p.pdf"
     },
     {
       "declaration_date": "2016-10-12",
       "category": "Shares",
       "entity": "RHT Investments (Qld) P/L",
-      "details": "Spouse Share holdings",
+      "details": "Shareholdings in public and private companies - Spouse",
       "pdf_url": "duttonp_45p.pdf"
     },
     {
       "declaration_date": "2016-10-12",
       "category": "Shares",
       "entity": "PK Super (Qld) P/L",
-      "details": "Spouse Share holdings",
+      "details": "Shareholdings in public and private companies - Spouse",
       "pdf_url": "duttonp_45p.pdf"
     },
     {
       "declaration_date": "2016-10-12",
       "category": "Trusts",
       "entity": "RHT Family Trust (RHT Investments P/L ATF)",
-      "details": "Spouse Beneficial interest",
+      "details": "Beneficial interest, Investment - Spouse",
       "pdf_url": "duttonp_45p.pdf"
     },
     {
       "declaration_date": "2016-10-12",
       "category": "Liabilities",
       "entity": "ANZ, NAB",
-      "details": "Credit Facilities. Spouse Liability",
-      "pdf_url": "duttonp_45p.pdf"
-    },
-    {
-      "declaration_date": "2017-10-07",
-      "category": "Other Assets",
-      "entity": "Kedron Caravans",
-      "details": "Refurbishment of interior of caravan as mobile office.",
-      "pdf_url": "duttonp_45p.pdf"
-    },
-    {
-      "declaration_date": "2016-10-12",
-      "category": "Trusts",
-      "entity": "RHT Family Trust (RHT Investments P/L ATF)",
-      "details": "Children Beneficial interest",
+      "details": "Credit Facilities - Spouse",
       "pdf_url": "duttonp_45p.pdf"
     },
     {
       "declaration_date": "2016-10-12",
       "category": "Savings/Investments",
       "entity": "ANZ, QPCU",
-      "details": "Spouse Savings Accounts",
-      "pdf_url": "duttonp_45p.pdf"
-    },
-    {
-      "declaration_date": "2016-10-12",
-      "category": "Savings/Investments",
-      "entity": "NAB, CBA",
-      "details": "Savings Accounts for dependent children",
+      "details": "Savings Accounts - Spouse",
       "pdf_url": "duttonp_45p.pdf"
     },
     {
       "declaration_date": "2016-10-12",
       "category": "Other Assets",
       "entity": "N/A",
-      "details": "Spouse Life Insurance, Furniture",
+      "details": "Life Insurance, Furniture - Spouse",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Savings/Investments",
+      "entity": "NAB, CBA",
+      "details": "Savings Accounts - Dependent Children",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Trusts",
+      "entity": "RHT Family Trust (RHT Investments P/L ATF)",
+      "details": "Beneficial interest, Investment - Dependent Children",
       "pdf_url": "duttonp_45p.pdf"
     },
     {
       "declaration_date": "2016-10-12",
       "category": "Real Estate",
       "entity": "N/A",
-      "details": "Residential investment Spring Hill Qld. Alteration.",
+      "details": "Spring Hill Qld, Residential investment",
       "pdf_url": "duttonp_45p.pdf"
     },
     {
       "declaration_date": "2016-11-29",
       "category": "Real Estate",
-      "entity": "RHT Investment (QLD) P/L",
-      "details": "Purchase of investment property, Trustee for RHT Family Trust.",
+      "entity": "N/A",
+      "details": "RHT Investment (QLD)P/L as trustee for RHT Family Trust purchased an investment property in Townsville",
       "pdf_url": "duttonp_45p.pdf"
     },
     {
       "declaration_date": "2017-02-13",
       "category": "Hospitality",
       "entity": "Cricket Australia",
-      "details": "Tickets and hospitality Australia v Pakistan First Test",
+      "details": "Tickets and hospitality Australia v Pakistan First Test courtesy Cricket Australia",
       "pdf_url": "duttonp_45p.pdf"
     },
     {
       "declaration_date": "2017-02-13",
       "category": "Hospitality",
-      "entity": "Cricket Queensland",
-      "details": "Tickets and hospitality Australia v Pakistan Second Test",
+      "entity": "Sydney Cricket and Sports Ground Trust",
+      "details": "Tickets and hospitality Australia v Pakistan Third Test courtesy Sydney Cricket and Sports Ground Trust",
       "pdf_url": "duttonp_45p.pdf"
     },
     {
       "declaration_date": "2017-02-13",
-      "category": "Gifts",
+      "category": "Hospitality",
       "entity": "Tourism Training Australia",
       "details": "Wine courtesy of Tourism Training Australia",
-      "pdf_url": "duttonp_45p.pdf",
-      "sub_category": "Alcohol"
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-06-07",
+      "category": "Other Interests",
+      "entity": "Kedron Caravans",
+      "details": "Refurbishment of interior of caravan as mobile office by Kedron Caravans",
+      "pdf_url": "duttonp_45p.pdf"
     },
     {
       "declaration_date": "2017-06-15",
       "category": "Gifts",
-      "entity": "President of Sri Lanka",
+      "entity": "N/A",
       "details": "Vase from President of Sri Lanka approximate value $750",
       "pdf_url": "duttonp_45p.pdf",
       "sub_category": "Other Gifts"
     },
     {
       "declaration_date": "2017-09-22",
-      "category": "Other Interests",
+      "category": "Memberships",
       "entity": "Foxtel",
       "details": "Complimentary annual subscription to Foxtel in Electorate Office",
       "pdf_url": "duttonp_45p.pdf"
@@ -284,15 +276,15 @@
     {
       "declaration_date": "2017-09-22",
       "category": "Hospitality",
-      "entity": "Prostate Cancer",
-      "details": "Complimentary transfers to Prostate Cancer 'Hands Across the Blue' event Gloucester Passage Qld, 26 August 2017",
+      "entity": "N/A",
+      "details": "Complimentary transfers to Prostate Cancer \"Hands Across the Blue\" event Gloucester Passage Qld",
       "pdf_url": "duttonp_45p.pdf"
     },
     {
       "declaration_date": "2017-10-17",
       "category": "Travel",
       "entity": "Qantas",
-      "details": "Upgrade courtesy of Qantas on QF9 Dubai to London, 27 September, 2017",
+      "details": "Upgrade courtesy of Qantas on QF9 Dubai to London",
       "pdf_url": "duttonp_45p.pdf"
     },
     {
@@ -340,7 +332,7 @@
     {
       "declaration_date": "2018-02-21",
       "category": "Hospitality",
-      "entity": "Adelaide Strikers",
+      "entity": "o Adelaide Strikers",
       "details": "Tickets and hospitality BBL match Brisbane and Adelaide courtesy o Adelaide Strikers",
       "pdf_url": "duttonp_45p.pdf"
     },
@@ -396,5 +388,6 @@
       "pdf_url": "duttonp_45p.pdf"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "pdf_path": "pdfs/45/duttonp_45p.pdf"
 }

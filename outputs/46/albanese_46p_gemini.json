@@ -5,51 +5,87 @@
   "disclosures": [
     {
       "declaration_date": "2019-07-30",
-      "category": "Real Estate",
+      "category": "Shares",
       "entity": "N/A",
-      "details": "House (with Carmel Tebbutt) Marrickville - Home",
+      "details": "Nil",
+      "pdf_url": "albanese_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Nil",
       "pdf_url": "albanese_46p.pdf"
     },
     {
       "declaration_date": "2019-07-30",
       "category": "Real Estate",
       "entity": "N/A",
-      "details": "Unit - Canberra - Home",
+      "details": "House (with Carmel Tebbutt) Marrickville - Home; Unit - Canberra - Home; House (with Carmel Tebbutt) - Marrickville - Investment; House - Dulwich Hill - Investment",
       "pdf_url": "albanese_46p.pdf"
     },
     {
       "declaration_date": "2019-07-30",
-      "category": "Real Estate",
+      "category": "Directorships",
       "entity": "N/A",
-      "details": "House (with Carmel Tebbutt) - Marrickville - Investment",
+      "details": "Nil",
       "pdf_url": "albanese_46p.pdf"
     },
     {
       "declaration_date": "2019-07-30",
-      "category": "Real Estate",
+      "category": "Partnerships",
       "entity": "N/A",
-      "details": "House - Dulwich Hill - Investment",
+      "details": "Nil",
+      "pdf_url": "albanese_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Mortgage on Marrickville investment property (with C. Tebbutt); Mortgage on Dulwich Hill investment property",
+      "pdf_url": "albanese_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth",
+      "details": "Savings Account",
+      "pdf_url": "albanese_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "albanese_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "albanese_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "albanese_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Nil",
       "pdf_url": "albanese_46p.pdf"
     },
     {
       "declaration_date": "2019-07-30",
       "category": "Memberships",
-      "entity": "South Sydney RLFC",
-      "details": "Life Member",
-      "pdf_url": "albanese_46p.pdf"
-    },
-    {
-      "declaration_date": "2019-07-30",
-      "category": "Memberships",
-      "entity": "Qantas Chairman Lounge",
-      "details": "N/A",
-      "pdf_url": "albanese_46p.pdf"
-    },
-    {
-      "declaration_date": "2019-07-30",
-      "category": "Memberships",
-      "entity": "Virgin Club Lounge",
-      "details": "N/A",
+      "entity": "South Sydney RLFC, Qantas Chairman Lounge, Virgin Club Lounge",
+      "details": "South Sydney RLFC(Life Member); Qantas Chairman Lounge; Virgin Club Lounge",
       "pdf_url": "albanese_46p.pdf"
     },
     {
@@ -61,44 +97,44 @@
     },
     {
       "declaration_date": "2019-07-30",
-      "category": "Travel",
-      "entity": "N/A",
-      "details": "Tickets to Cosi on 4 May 2019 from Melbourne Theatre Company",
+      "category": "Hospitality",
+      "entity": "Melbourne Theatre Company",
+      "details": "Tickets to Cosi on 4 May 2019",
       "pdf_url": "albanese_46p.pdf"
     },
     {
       "declaration_date": "2019-07-30",
-      "category": "Travel",
-      "entity": "N/A",
-      "details": "Tickets to Sate of Origin Game 1 on 5 June 2019 from NRL",
+      "category": "Hospitality",
+      "entity": "NRL",
+      "details": "Tickets to Sate of Origin Game 1 on 5 June 2019",
       "pdf_url": "albanese_46p.pdf"
     },
     {
       "declaration_date": "2019-07-30",
-      "category": "Travel",
-      "entity": "N/A",
-      "details": "Tickets to Sydney vs Hawthorn AFL game on 21 June 2019 from Willard Public Affairs",
+      "category": "Hospitality",
+      "entity": "Willard Public Affairs",
+      "details": "Tickets to Sydney vs Hawthorn AFL game on 21 June 2019",
       "pdf_url": "albanese_46p.pdf"
     },
     {
       "declaration_date": "2019-07-30",
-      "category": "Travel",
-      "entity": "N/A",
-      "details": "Tickets to West Tigers vs South Sydney NRL game on 27 June 2019 from West Tigers Football Club",
+      "category": "Hospitality",
+      "entity": "West Tigers Football Club",
+      "details": "Tickets to West Tigers vs South Sydney NRL game on 27 June 2019",
       "pdf_url": "albanese_46p.pdf"
     },
     {
       "declaration_date": "2019-07-30",
-      "category": "Travel",
-      "entity": "N/A",
-      "details": "Tickets to State of Origin Game 3 on 10 July 2019 from NRL",
+      "category": "Hospitality",
+      "entity": "NRL",
+      "details": "Tickets to State of Origin Game 3 on 10 July 2019",
       "pdf_url": "albanese_46p.pdf"
     },
     {
       "declaration_date": "2019-07-30",
-      "category": "Travel",
-      "entity": "N/A",
-      "details": "Tickets to Lord of the Flies on 27 July 2019 from Sydney Theatre Company",
+      "category": "Hospitality",
+      "entity": "Sydney Theatre Company",
+      "details": "Tickets to Lord of the Flies on 27 July 2019",
       "pdf_url": "albanese_46p.pdf"
     },
     {
@@ -118,40 +154,40 @@
     {
       "declaration_date": "2019-11-04",
       "category": "Gifts",
-      "entity": "N/A",
-      "details": "Self: Tickets to games including the NRL Grand Final from the NRL;",
+      "entity": "NRL",
+      "details": "Self: Tickets to games including the NRL Grand Final",
       "pdf_url": "albanese_46p.pdf",
       "sub_category": "Sports Tickets"
     },
     {
       "declaration_date": "2019-11-04",
       "category": "Gifts",
-      "entity": "N/A",
-      "details": "Tickets to the AFL Grand Final from the AFL;",
+      "entity": "AFL",
+      "details": "Self: Tickets to the AFL Grand Final",
       "pdf_url": "albanese_46p.pdf",
       "sub_category": "Sports Tickets"
     },
     {
       "declaration_date": "2019-11-04",
       "category": "Gifts",
-      "entity": "N/A",
-      "details": "Australian Diamonds supporters pack from Netball Australia;",
+      "entity": "Netball Australia",
+      "details": "Self: Australian Diamonds supporters pack",
       "pdf_url": "albanese_46p.pdf",
       "sub_category": "Other Gifts"
     },
     {
       "declaration_date": "2019-11-04",
       "category": "Gifts",
-      "entity": "N/A",
-      "details": "Cheeseboard from the North Melbourne Football Club;",
+      "entity": "North Melbourne Football Club",
+      "details": "Self: Cheeseboard",
       "pdf_url": "albanese_46p.pdf",
       "sub_category": "Sports Tickets"
     },
     {
       "declaration_date": "2019-11-04",
       "category": "Gifts",
-      "entity": "N/A",
-      "details": "Don't Stop Believin' presented by author Olivia Newton John.",
+      "entity": "Olivia Newton John",
+      "details": "Self: Don't Stop Believin' presented by author Olivia Newton John.",
       "pdf_url": "albanese_46p.pdf",
       "sub_category": "Other Gifts"
     },
@@ -159,20 +195,20 @@
       "declaration_date": "2019-11-04",
       "category": "Travel",
       "entity": "N/A",
-      "details": "Self: Upgrade on QF4 Honolulu to Sydney 10 October 2019;",
+      "details": "Self: Upgrade on QF4 Honolulu to Sydney 10 October 2019",
       "pdf_url": "albanese_46p.pdf"
     },
     {
       "declaration_date": "2019-11-04",
-      "category": "Travel",
+      "category": "Hospitality",
       "entity": "Australian American Leadership Dialogue",
-      "details": "Accommodation provided by the Australian American Leadership Dialogue in connection with the Honolulu Leadership Dialogue.",
+      "details": "Self: Accommodation provided by the Australian American Leadership Dialogue in connection with the Honolulu Leadership Dialogue.",
       "pdf_url": "albanese_46p.pdf"
     },
     {
       "declaration_date": "2020-02-25",
       "category": "Gifts",
-      "entity": "Mastercard",
+      "entity": "Mastercard - Cricket",
       "details": "3 Jan - Day 1 Sydney Test from Mastercard - Cricket",
       "pdf_url": "albanese_46p.pdf",
       "sub_category": "Sports Tickets"
@@ -180,7 +216,7 @@
     {
       "declaration_date": "2020-02-25",
       "category": "Gifts",
-      "entity": "N/A",
+      "entity": "Tennis Australia",
       "details": "29 Jan - Guest ticket Australian Open from Tennis Australia",
       "pdf_url": "albanese_46p.pdf",
       "sub_category": "Sports Tickets"
@@ -269,7 +305,7 @@
       "declaration_date": "2020-10-23",
       "category": "Gifts",
       "entity": "Australian Made Campaign Limited",
-      "details": "My office recieved a sample pack of Australian made products from Australian Made Campaign Limited",
+      "details": "My office received a sample pack of Australian made products from Australian Made Campaign Limited",
       "pdf_url": "albanese_46p.pdf",
       "sub_category": "Other Gifts"
     },
@@ -301,9 +337,9 @@
       "declaration_date": "2021-02-12",
       "category": "Gifts",
       "entity": "Australian Distillers Association",
-      "details": "Bottle of Four Pillars Gin - gift from Australian Distillers Association",
+      "details": "Battle of Four Pillars Gin - gift from Australian Distillers Association",
       "pdf_url": "albanese_46p.pdf",
-      "sub_category": "Alcohol"
+      "sub_category": "Other Gifts"
     },
     {
       "declaration_date": "2021-02-12",
@@ -378,7 +414,7 @@
     {
       "declaration_date": "2021-09-06",
       "category": "Gifts",
-      "entity": "South Sydney football club",
+      "entity": "South Sydney Football club",
       "details": "During the NRL season, I was a guest of South Sydney football club as a life member.",
       "pdf_url": "albanese_46p.pdf",
       "sub_category": "Sports Tickets"
@@ -468,5 +504,6 @@
       "sub_category": "Sports Tickets"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "pdf_path": "pdfs/46/albanese_46p.pdf"
 }

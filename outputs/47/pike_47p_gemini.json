@@ -1,0 +1,193 @@
+{
+  "mp_name": "Henry Pike",
+  "party": "Unknown",
+  "electorate": "Bowman",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Shares",
+      "entity": "Santos Ltd",
+      "details": "Spouse/partner: Santos Ltd",
+      "pdf_url": "pike_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Ormiston, Queensland - Residence",
+      "pdf_url": "pike_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Mortgage",
+      "pdf_url": "pike_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Liabilities",
+      "entity": "St George",
+      "details": "Car loan (joint)",
+      "pdf_url": "pike_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Liabilities",
+      "entity": "Angle Finance",
+      "details": "Car loan (joint)",
+      "pdf_url": "pike_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Spouse/partner: Mortgage (joint)",
+      "pdf_url": "pike_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Liabilities",
+      "entity": "St George",
+      "details": "Spouse/partner: Car loan (joint)",
+      "pdf_url": "pike_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Liabilities",
+      "entity": "Angle Finance",
+      "details": "Spouse/partner: Car loan (joint)",
+      "pdf_url": "pike_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Savings accounts",
+      "pdf_url": "pike_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Spouse/partner: Savings accounts",
+      "pdf_url": "pike_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Australian Super Account",
+      "pdf_url": "pike_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Mercer Super Account - Spouse/partner",
+      "pdf_url": "pike_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "House of Representatives",
+      "pdf_url": "pike_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Salary income - Spouse/partner",
+      "pdf_url": "pike_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's Lounge Membership",
+      "pdf_url": "pike_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Gifts",
+      "entity": "Foxtel",
+      "details": "Foxtel subscription - Electorate Office",
+      "pdf_url": "pike_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Memberships",
+      "entity": "Redlands RSL Club",
+      "details": "Redlands RSL Club",
+      "pdf_url": "pike_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Memberships",
+      "entity": "Redlands Sporting Club",
+      "details": "Redlands Sporting Club",
+      "pdf_url": "pike_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Memberships",
+      "entity": "Point Lookout Surf Lifesaving Club",
+      "details": "Point Lookout Surf Lifesaving Club",
+      "pdf_url": "pike_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Memberships",
+      "entity": "Karragarra Yacht Club",
+      "details": "Karragarra Yacht Club",
+      "pdf_url": "pike_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Memberships",
+      "entity": "Victoria Point Sharks Club",
+      "details": "Victoria Point Sharks Club",
+      "pdf_url": "pike_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-06-13",
+      "category": "Travel",
+      "entity": "Alliance for Responsible Citizenship (ARC)",
+      "details": "Alliance for Responsible Citizenship (ARC) - guest ARC Conference (London, UK) sponsorship to attend, including airfare, accommodation, and conference ticket.",
+      "pdf_url": "pike_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-03-14",
+      "category": "Liabilities",
+      "entity": "Macquarie",
+      "details": "Mortgage - Macquarie",
+      "pdf_url": "pike_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-03-14",
+      "category": "Travel",
+      "entity": "Brisbane International",
+      "details": "2 x ticket to Brisbane International tennis and hospitality",
+      "pdf_url": "pike_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-03-14",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Mortgage - NAB - DELETION",
+      "pdf_url": "pike_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-03-14",
+      "category": "Liabilities",
+      "entity": "St George",
+      "details": "Car loan - St George - DELETION",
+      "pdf_url": "pike_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/pike_47p.pdf"
+}

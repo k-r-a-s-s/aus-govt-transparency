@@ -1,0 +1,299 @@
+{
+  "mp_name": "David Smith",
+  "party": "Unknown",
+  "electorate": "Bean",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Shares",
+      "entity": "IAG",
+      "details": "Spouse/partner",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Trusts",
+      "entity": "The J. Centenera Family Trust",
+      "details": "Farming and property investment, Joint beneficiary, Spouse/partner",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Trusts",
+      "entity": "The Marcmonella Property Trust",
+      "details": "Farming and property investment, Joint beneficiary, Spouse/partner",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Trusts",
+      "entity": "The Joliz Trust",
+      "details": "Farming and property investment, Joint beneficiary, Spouse/partner",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Trusts",
+      "entity": "The Joleta Sanitation Trust",
+      "details": "Venture capital, Joint beneficiary, Spouse/partner",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Trusts",
+      "entity": "The J. Centenera Family Trust",
+      "details": "Farming and property investment, Joint beneficiary, Dependent children",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Trusts",
+      "entity": "The Marcmonella Property Trust",
+      "details": "Farming and property investment, Joint beneficiary, Dependent children",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Trusts",
+      "entity": "The Joliz Trust",
+      "details": "Farming and property investment, Joint beneficiary, Dependent children",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Trusts",
+      "entity": "The Joleta Sanitation Trust",
+      "details": "Venture capital, Joint beneficiary, Dependent children",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Real Estate",
+      "entity": "Farrer ACT",
+      "details": "Residential, Self",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Real Estate",
+      "entity": "Farrer ACT",
+      "details": "Residential, Spouse/partner",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Directorships",
+      "entity": "Joleta Pty Ltd",
+      "details": "Farming and property investment, Spouse/partner",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Directorships",
+      "entity": "Joleta Sanitation Pty Ltd",
+      "details": "Venture capital, Spouse/partner",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Mortgage on residential property, Self",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Mortgage on residential property, Spouse/partner",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth",
+      "details": "Savings, Self",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth",
+      "details": "Term Deposit, Self",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Savings, Spouse/partner",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Savings, Dependent children",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Car, Spouse/partner",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Superannuation, Spouse/partner",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Government Board income, Spouse/partner",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Consultancy fees, Spouse/partner",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Gifts",
+      "entity": "Chairman's Lounge Qantas",
+      "details": "Self",
+      "pdf_url": "smith_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Gifts",
+      "entity": "Virgin Beyond",
+      "details": "Self",
+      "pdf_url": "smith_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Gifts",
+      "entity": "Virgin Beyond",
+      "details": "Spouse/partner",
+      "pdf_url": "smith_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Travel",
+      "entity": "Southern Cross Club",
+      "details": "2 tickets to Southern Cross Club 50th anniversary dinner, Self",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Memberships",
+      "entity": "Kababaihang ni Rizal",
+      "details": "Filipino association, Spouse/partner",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Trusts",
+      "entity": "The Centenera Family Trust",
+      "details": "The Centenera Family Trust - spouse and dependent children joint beneficiaries",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Trusts",
+      "entity": "The Parilla Manager's Trust",
+      "details": "The Parilla Manager's Trust - spouse and dependent children joint beneficiaries",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Directorships",
+      "entity": "Centenera Nominees Pty Ltd",
+      "details": "spouse",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Directorships",
+      "entity": "Pentract Holdings Pty Ltd",
+      "details": "spouse",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-11-02",
+      "category": "Hospitality",
+      "entity": "Cricket ACT",
+      "details": "Guest of Cricket ACT at T20 International on 14 October",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-07-26",
+      "category": "Hospitality",
+      "entity": "Cricket Australia",
+      "details": "2 tickets to the Ashes Test with access to hospitality on 30 June as a guest of Cricket Australia",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-07-26",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Airfares and accommodation to the Solomon Islands as part of the Australian Regional Leadership Initiative from 15-21 July",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-10-12",
+      "category": "Travel",
+      "entity": "Taiwanese Government",
+      "details": "Trip to Republic of China (Taiwan) provided by the Taiwanese Government - air travel, accommodation, food and city transport \u2013 (24th - 29th September 2023).",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-04-05",
+      "category": "Travel",
+      "entity": "Australia Tibet Council",
+      "details": "Travel and accommodation to India between 8-14 March provided by the Australia Tibet Council",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-23",
+      "category": "Hospitality",
+      "entity": "Brumbies",
+      "details": "Two tickets to the Brumbies Anzac Round on 27 April 2024 as a guest of the Brumbies",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-23",
+      "category": "Hospitality",
+      "entity": "Clubs ACT",
+      "details": "Two tickets to the Chefs signature dinner at the Southern Cross Club Woden on 3 May as a guest of Clubs ACT",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-01-23",
+      "category": "Hospitality",
+      "entity": "Cricket Australia",
+      "details": "Ticket to 5th Test in Sydney and associated hospitality on 4 January 2025 as a guest of Cricket Australia",
+      "pdf_url": "smith_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-02-25",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Upgrade of personal travel from Sydney to Canberra with Qantas from economy to business on 18 January (a consequence of a flight cancellation - no other seats available)",
+      "pdf_url": "smith_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/smith_47p.pdf"
+}

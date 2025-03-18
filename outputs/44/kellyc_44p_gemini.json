@@ -1,0 +1,65 @@
+{
+  "mp_name": "Craig Kelly",
+  "party": "Unknown",
+  "electorate": "Hughes",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "Jindabyne Super Pty Ltd",
+      "details": "SM Super Fund",
+      "pdf_url": "kellyc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Sutherland Shire, Residential Home",
+      "pdf_url": "kellyc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Home Loan",
+      "pdf_url": "kellyc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Savings Account",
+      "pdf_url": "kellyc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Motor Vehicle",
+      "pdf_url": "kellyc_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-07-14",
+      "category": "Travel",
+      "entity": "Australia/Israel & Jewish Affairs Council",
+      "details": "Trip to Israel and the west Bank for Study Tour on realities of political and social life in the region, Funded and organised by the Australia/Israel & Jewish Affairs Council. Business class lights, accommodation, transport and hospitality, 26 April '14 - 3 May '14.",
+      "pdf_url": "kellyc_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-09-15",
+      "category": "Memberships",
+      "entity": "Australian PGA",
+      "details": "Honorary Membership of the Australian PGA. Offered to members of Parliamentary Friends of Golf by the Australian PGA.",
+      "pdf_url": "kellyc_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-08-06",
+      "category": "Memberships",
+      "entity": "Club Central Menai",
+      "details": "Room hire waiver for Community Forum - 05/06/15",
+      "pdf_url": "kellyc_44p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/kellyc_44p.pdf"
+}

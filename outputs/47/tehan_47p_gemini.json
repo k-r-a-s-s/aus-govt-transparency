@@ -1,0 +1,513 @@
+{
+  "mp_name": "Daniel Tehan",
+  "party": "Unknown",
+  "electorate": "Wannon",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Shares",
+      "entity": "TehanTrade Pty Ltd",
+      "details": "TehanTrade Pty Ltd",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Shares",
+      "entity": "Colonial Mutual",
+      "details": "Colonial Mutual: Managed Fund - Overseas and Domestic Shares",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Shares",
+      "entity": "Telstra",
+      "details": "Telstra",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Shares",
+      "entity": "IAG",
+      "details": "IAG",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Trusts",
+      "entity": "TehanTrade Pty Ltd",
+      "details": "Investment Trust, Eligible Beneficiary",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Real Estate",
+      "entity": "Hamilton, VIC",
+      "details": "Private residential",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Real Estate",
+      "entity": "O'Connor, ACT",
+      "details": "Residential investment",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Real Estate",
+      "entity": "Turner, ACT",
+      "details": "Private residential",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Real Estate",
+      "entity": "Willoughby, NSW",
+      "details": "Residential investment",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Real Estate",
+      "entity": "Queanbeyan, NSW",
+      "details": "Residential investment",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Real Estate",
+      "entity": "Warrnambool, VIC",
+      "details": "Residential investment",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Real Estate",
+      "entity": "Kew, VIC",
+      "details": "Residential investment",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Directorships",
+      "entity": "TehanTrade Pty Ptd",
+      "details": "Investment Trust",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Liabilities",
+      "entity": "Aussie Home Loans",
+      "details": "Mortgage on residential property - Hamilton, VIC",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Mortgage on investment property - O'Connor, ACT",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Mortgage on investment property - Queanbeyan, NSW",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Savings",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "Savings",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Savings/Investments",
+      "entity": "Macquarie Bank",
+      "details": "Savings",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings / Cheque",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Savings",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Part ownership of racehorse and occasional earnings from racehorse.",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Life insurance",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from investments set out above",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's Lounge Membership",
+      "pdf_url": "tehan_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Gifts",
+      "entity": "Virgin Australia",
+      "details": "Virgin Australia Club Lounge Membership",
+      "pdf_url": "tehan_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Gifts",
+      "entity": "ASTRA",
+      "details": "Foxtel subscription for Hamilton electorate office provided by ASTRA.",
+      "pdf_url": "tehan_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Gifts",
+      "entity": "National Press Club of Australia",
+      "details": "Complimentary membership to the National Press Club of Australia.",
+      "pdf_url": "tehan_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Gifts",
+      "entity": "Pyrenees Advocate",
+      "details": "Canberra Calling column in Pyrenees Advocate.",
+      "pdf_url": "tehan_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Memberships",
+      "entity": "Unknown",
+      "details": "Unknown",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Other Interests",
+      "entity": "Unknown",
+      "details": "Unknown",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Hospitality",
+      "entity": "Richmond Football Club",
+      "details": "16 June 2022 - Attendance of Self and son at AFL Round 14 Football (Richmond V's Carlton). Attendance of Self and son at the Hafey Dining Function. Guests of the Richmond Football Club. 2 X Tickets.",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Travel",
+      "entity": "Tabcorp",
+      "details": "25 June 2022 - Attendance of Self and 3 children at AFL Round 15 Football (Richmond V's Geelong). Guests of Tabcorp. 4 X Tickets.",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-04",
+      "category": "Hospitality",
+      "entity": "AFL",
+      "details": "22 July 2022 - Attendance of Self and guests at AFL Round 19 Football (Richmond V's Freemantle). Guests of the AFL. 3 X Tickets.",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-28",
+      "category": "Travel",
+      "entity": "Australia India Institute",
+      "details": "3/9/22 - 9/9/22 - Travel and Accommodation for Self to India provided by Australia India Institute. Travel: Business Class Airfare - Melbourne, Australia to Delhi, India (Return). Accommodation - The Oberoi, New Delhi.",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-28",
+      "category": "Travel",
+      "entity": "Gateway House: Indian Council on Global Relations",
+      "details": "4/9/22-5/9/22 - Travel and Accommodation for Self in India provided by Gateway House: Indian Council on Global Relations. Travel: Business Class Airfare - Delhi to Mumbai (Return). Accommodation - Trident, Mumbai.",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-10-24",
+      "category": "Gifts",
+      "entity": "The Australian Consumers' Association",
+      "details": "4/10/22 - The Australian Consumers' Association - CHOICE Magazine - Annual Complementary Subscription. Value $98",
+      "pdf_url": "tehan_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2022-11-15",
+      "category": "Hospitality",
+      "entity": "Treasury Wine Estates",
+      "details": "31/10/2022 - Attendance for self at AHA National Board Luncheon (Melbourne) - Presented/Provided by Treasury Wine Estates.",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-11-15",
+      "category": "Travel",
+      "entity": "Lion",
+      "details": "01/11/2022 - Travel & Hospitality: Attendance for Self and Guest (David Tehan) at Lexus Melbourne Cup Day, Travel from Flemington Racecourse to Melbourne City Marina. Presented/Provided by Lion.",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-11-15",
+      "category": "Gifts",
+      "entity": "The Grangeburn Bowling Club (Hamilton)",
+      "details": "4/11/2022: Gift Hamper presented to Dan Tehan by The Grangeburn Bowling Club (Hamilton). Value $102.65",
+      "pdf_url": "tehan_47p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2022-11-15",
+      "category": "Gifts",
+      "entity": "Suffoir Wines (Macarthur)",
+      "details": "4/11/2022: Suffoir Combo Gin (3 x 200ml) given to Dan Tehan by Suffoir Wines (Macarthur). Value $120.00",
+      "pdf_url": "tehan_47p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2022-11-15",
+      "category": "Gifts",
+      "entity": "ReachServices",
+      "details": "27/10/2022: Gift Hamper presented to Dan Tehan by ReachServices. Value $40",
+      "pdf_url": "tehan_47p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2022-12-12",
+      "category": "Gifts",
+      "entity": "AME Systems",
+      "details": "Crystal Clock and Book from AME Systems",
+      "pdf_url": "tehan_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2023-01-19",
+      "category": "Gifts",
+      "entity": "JAM TV Australia",
+      "details": "21/12/2022: Dolce & Gabbana - Christmas Gift Hamper from JAM TV Australia, Value $130.00",
+      "pdf_url": "tehan_47p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2023-02-17",
+      "category": "Travel",
+      "entity": "Diageo Australia",
+      "details": "Attendance for self and son at 2023 Australian Open Tennis, Men's Semi-Final on Friday 27 January 2023. Provider of the benefit was Diageo Australia.",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-02-17",
+      "category": "Gifts",
+      "entity": "Steve Donohue @ Endeavour Group",
+      "details": "30/1/2023: Chapel Hill The Vicar Shiraz (1 X 750ml bottle) from Steve Donohue @ Endeavour Group. Value $70.00",
+      "pdf_url": "tehan_47p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2023-09-13",
+      "category": "Travel",
+      "entity": "Richmond Football Club",
+      "details": "Attendance for Self and brother David at 2023 Richmond Presidents Function and AFL Football Game on Sunday 30 July 2023. Provider of the benefit was Richmond Football Club.",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-09-13",
+      "category": "Travel",
+      "entity": "Richmond Football Club",
+      "details": "Attendance for Self and Guest at 2023 Richmond Presidents The Lounge and AFL Football Game on Saturday 19 August 2023. Provider of the benefit was Richmond Football Club.",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-09-28",
+      "category": "Other Interests",
+      "entity": "CJD Support Group Network Pty Ltd",
+      "details": "Member is supporting the CJD Support Group Network Pty Ltd and is running for CJD from Canberra to Warrnambool 950km during 7/9/23-14/9/23.\nAs part of the fundraising activities, Member is promoting the 'gofundme' page with a target of $50,000, as at 20/9/23, donations are at $18,145 with 65 donors.\nThis funding will help with research and clinical trials and the funding is administered by CJD Support Group Network Pty Ltd.",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-12-08",
+      "category": "Travel",
+      "entity": "Alliance for Responsible Citizenship LTD (ARC)",
+      "details": "Business Class return flights (Melbourne - London) & 3 nights hotel accommodation in London for Member to attend the Alliance for Responsible Citizenship Inaugural Conference, provided by Alliance for Responsible Citizenship LTD (ARC). Conference dates: Monday 30 October 2023 to Wednesday 1 November 2023.",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-12-08",
+      "category": "Other Interests",
+      "entity": "Alliance for Responsible Citizenship LTD (ARC)",
+      "details": "Fully funded ticket for Member to attend the Alliance for Responsible Citizenship Inaugural Conference. Conference dates: Monday 30 October 2023 to Wednesday 1 November 2023. Provided by Alliance for Responsible Citizenship LTD (ARC).",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-08",
+      "category": "Shares",
+      "entity": "Colonial Mutual",
+      "details": "Colonial Mutual: Managed Fund - Overseas and Domestic Shares",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-08",
+      "category": "Shares",
+      "entity": "Telstra",
+      "details": "Telstra",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-08",
+      "category": "Shares",
+      "entity": "IAG",
+      "details": "IAG",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-08",
+      "category": "Real Estate",
+      "entity": "Turner, ACT",
+      "details": "Private residential",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-08",
+      "category": "Real Estate",
+      "entity": "Willoughby, NSW",
+      "details": "Residential investment",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-08",
+      "category": "Real Estate",
+      "entity": "Queanbeyan, NSW",
+      "details": "Residential investment",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-08",
+      "category": "Real Estate",
+      "entity": "Warrnambool, VIC",
+      "details": "Residential investment",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-08",
+      "category": "Real Estate",
+      "entity": "Kew, VIC",
+      "details": "Residential investment",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-08",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Mortgage on investments property - Queanbeyan, NSW",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-08",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-08",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Savings/Cheque",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-08",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-08",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from investments per item 3 (real estate)",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-08",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's Lounge Membership",
+      "pdf_url": "tehan_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2024-03-08",
+      "category": "Gifts",
+      "entity": "Virgin Australia",
+      "details": "Virgin Australia Club Lounge Membership",
+      "pdf_url": "tehan_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2024-08-26",
+      "category": "Travel",
+      "entity": "Save the Children's Vanuatu",
+      "details": "Sponsored travel, accommodation, and meals for self and daughter Elly for a visit to Vanuatu for the purpose as participants of a study tour.\nDeparture from Melbourne 26 July 2024 and return Melbourne on 4 August 2024.\nProvider of the benefits was Save the Children's Vanuatu community-based climate resilience project.",
+      "pdf_url": "tehan_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-02-18",
+      "category": "Travel",
+      "entity": "Sportsbet",
+      "details": "Attendance for self and son at 2025 Australian Open Tennis, Men's Semi-Final on Friday 24 January 2025. Provider of the benefit was Sportsbet.",
+      "pdf_url": "tehan_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/tehan_47p.pdf"
+}

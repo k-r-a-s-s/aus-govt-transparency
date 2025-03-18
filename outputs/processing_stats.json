@@ -1,0 +1,43 @@
+{
+  "total_processed": 774,
+  "total_success": 774,
+  "total_failed": 0,
+  "total_rate_limited": 0,
+  "parliaments": {
+    "43rd": {
+      "processed": 150,
+      "success": 150,
+      "failed": 0,
+      "rate_limited": 0,
+      "stored_in_db": 150
+    },
+    "44th": {
+      "processed": 153,
+      "success": 153,
+      "failed": 0,
+      "rate_limited": 0,
+      "stored_in_db": 153
+    },
+    "45th": {
+      "processed": 159,
+      "success": 159,
+      "failed": 0,
+      "rate_limited": 0,
+      "stored_in_db": 159
+    },
+    "46th": {
+      "processed": 155,
+      "success": 155,
+      "failed": 0,
+      "rate_limited": 0,
+      "stored_in_db": 155
+    },
+    "47th": {
+      "processed": 157,
+      "success": 157,
+      "failed": 0,
+      "rate_limited": 0,
+      "stored_in_db": 157
+    }
+  }
+}

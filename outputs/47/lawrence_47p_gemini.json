@@ -1,0 +1,291 @@
+{
+  "mp_name": "Tania Lawrence",
+  "party": "Unknown",
+  "electorate": "Hasluck",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Shares",
+      "entity": "Beelu Forest Distilling Company Pty Ltd",
+      "details": "Self",
+      "pdf_url": "lawrence_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Shares",
+      "entity": "Advantage Enterprises Pty Ltd",
+      "details": "Self",
+      "pdf_url": "lawrence_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Shares",
+      "entity": "Advantage Enterprises Pty Ltd",
+      "details": "Spouse/partner",
+      "pdf_url": "lawrence_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Trusts",
+      "entity": "Nenia Family Trust",
+      "details": "Family Trust, Joint beneficiary. Self",
+      "pdf_url": "lawrence_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Trusts",
+      "entity": "Nenia Family Trust",
+      "details": "Family Trust, Joint beneficiary. Spouse/partner",
+      "pdf_url": "lawrence_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Mundaring, WA - Residential. Self",
+      "pdf_url": "lawrence_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Bayswater, WA - Business. Self",
+      "pdf_url": "lawrence_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Kingston, ACT - Residential Investment. Self",
+      "pdf_url": "lawrence_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Directorships",
+      "entity": "Beelu Forest Distilling Company Pty Ltd",
+      "details": "Distillery. Self",
+      "pdf_url": "lawrence_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Directorships",
+      "entity": "Advantage Enterprises Pty Ltd",
+      "details": "Health and Fitness. Spouse/partner",
+      "pdf_url": "lawrence_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Liabilities",
+      "entity": "St George",
+      "details": "Mortgage. Self",
+      "pdf_url": "lawrence_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Liabilities",
+      "entity": "AMP",
+      "details": "Mortgage. Self",
+      "pdf_url": "lawrence_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Liabilities",
+      "entity": "St George",
+      "details": "Credit card. Self",
+      "pdf_url": "lawrence_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Credit Card. Self",
+      "pdf_url": "lawrence_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "St George",
+      "details": "Savings. Self",
+      "pdf_url": "lawrence_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "Bendigo",
+      "details": "Savings. Self",
+      "pdf_url": "lawrence_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "AMP",
+      "details": "Savings. Self",
+      "pdf_url": "lawrence_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Savings. Spouse/partner",
+      "pdf_url": "lawrence_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Motor vehicles. Spouse/partner",
+      "pdf_url": "lawrence_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Income Sources",
+      "entity": "Advantage Enterprises Pty Ltd",
+      "details": "Employment. Spouse/partner",
+      "pdf_url": "lawrence_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's Lounge Access. Self",
+      "pdf_url": "lawrence_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Gifts",
+      "entity": "Virgin",
+      "details": "Virgin Beyond Lounge access. Self",
+      "pdf_url": "lawrence_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Perth Airport Carpark Pass providing parking at no cost. Self",
+      "pdf_url": "lawrence_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Gifts",
+      "entity": "Subscription Television Australia",
+      "details": "Foxtel for my electorate office. Self",
+      "pdf_url": "lawrence_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Gifts",
+      "entity": "Virgin",
+      "details": "Virgin Beyond Lounge access. Spouse/partner",
+      "pdf_url": "lawrence_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-12-22",
+      "category": "Travel",
+      "entity": "Save the Children Australia",
+      "details": "Delegate on the Australian Regional Leadership Initiative to Kenya to better understand context, delivery, value and impact of Australian aid. Program delivered by Save the Children Australia with funding from the Bill and Melinda Gates Foundation covering economy travel and accommodation.",
+      "pdf_url": "lawrence_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-12-22",
+      "category": "Income Sources",
+      "entity": "Beelu Forest Distillery",
+      "details": "Rental income",
+      "pdf_url": "lawrence_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-14",
+      "category": "Travel",
+      "entity": "Rio Tinto",
+      "details": "Travel to and within Mongolia, accommodation and hospitality provided by Rio Tinto to participate in the Mongolia Economic Forum, the Naadam Festival and to visit the Oyu Tolgoi mine as chair of the Australia Mongolia Interparliamentary Group, 8-15 July 2023",
+      "pdf_url": "lawrence_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-14",
+      "category": "Travel",
+      "entity": "Rio Tinto",
+      "details": "For spouse, Nenad Djurdjevic: accommodation and hospitality provided by Rio Tinto to accompany MP in Mongolia. International and Domestic air travel at own expense.",
+      "pdf_url": "lawrence_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-14",
+      "category": "Gifts",
+      "entity": "Mongolian Government",
+      "details": "Two scarves gifted by Mongolian Government",
+      "pdf_url": "lawrence_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2024-03-08",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Spouse/ Partner: Qantas Platinum membership",
+      "pdf_url": "lawrence_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2024-08-19",
+      "category": "Directorships",
+      "entity": "Beelu Forest Distilling Company Pty Ltd",
+      "details": "Spouse/Partner",
+      "pdf_url": "lawrence_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-08-19",
+      "category": "Income Sources",
+      "entity": "Beelu Forest Distilling Company Pty Ltd",
+      "details": "Spouse/Partner",
+      "pdf_url": "lawrence_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-08-19",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Spouse/Partner Qantas Platinum membership",
+      "pdf_url": "lawrence_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2024-08-19",
+      "category": "Travel",
+      "entity": "Steel Blue Work Boots",
+      "details": "Self 1 ticket to UFC Perth by sponsor Steel Blue Work Boots",
+      "pdf_url": "lawrence_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-08-19",
+      "category": "Gifts",
+      "entity": "Pinelli Wines, Bailey Brewing and Oakover Wines",
+      "details": "Donation by Pinelli Wines, Bailey Brewing and Oakover Wines towards prizes and hospitality for Hasluck Volunteer Awards 2024",
+      "pdf_url": "lawrence_47p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2024-10-31",
+      "category": "Travel",
+      "entity": "Robert Bosch Foundation (Germany)",
+      "details": "Travel to and within India, accommodation and hospitality provided by Robert Bosch Foundation (Germany) to participate in the Global Study Tour, 19-26 October 2024.",
+      "pdf_url": "lawrence_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-31",
+      "category": "Memberships",
+      "entity": "Ellenbrook Bowls Club inc",
+      "details": "Appointed Vice-Patron Ellenbrook Bowls Club inc for the 2024-25 season.",
+      "pdf_url": "lawrence_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-31",
+      "category": "Memberships",
+      "entity": "Swan Districts Football Club",
+      "details": "Appointed Co-Patrol Swan Districts Football Club, for the 2025 season.",
+      "pdf_url": "lawrence_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/lawrence_47p.pdf"
+}

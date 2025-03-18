@@ -1,0 +1,754 @@
+{
+  "mp_name": "Tony Abbott",
+  "party": "Liberal Party",
+  "electorate": "Warringah",
+  "disclosures": [
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "NAB Limited",
+      "details": "Shares with NAB Limited and CSL (Dependent Children)",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "CSL",
+      "details": "Shares with NAB Limited and CSL (Dependent Children)",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Forestville, NSW - Residence",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Forestville, NSW - Residence (Spouse)",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "AFSH Nominees P/L",
+      "details": "Residential Mortgage",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "American Express",
+      "details": "Charge Card",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "Westpac Visa",
+      "details": "Credit Card",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "AFSH Nominees P/L",
+      "details": "Residential Mortgage (Spouse)",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "American Express",
+      "details": "Charge Card (supplementary) (Spouse)",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "Coles Myer Mastercard",
+      "details": "Credit Card (Spouse)",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank and HSBC",
+      "details": "Various Individual and Joint accounts with spouse",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Various Individual and Joint accounts with spouse (Spouse)",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank and ANZ",
+      "details": "Various Savings accounts (Dependent Children)",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Motor Vehicles, Baum Bicycle",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Motor Vehicles (Spouse)",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Royalties as an author, Small interest income from cash accounts, Advisory board position - Ramsay Centre for Western Civilisation, Irregular Honorariums from overseas speaking engagements",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from employment as a child care worker, Small interest income from cash accounts (Spouse)",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Memberships and Patronages (Annexure 'C')",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Other Interests (Annexure 'D')",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Gifts received between the cessation of the 44th Parliament and the opening of the 45th Parliament (Annexure 'A')",
+      "pdf_url": "abbottt_45p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Travel or Hospitality received between the cessation of the 44th Parliament and the opening of the 45th Parliament (Annexure 'B')",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Gifts",
+      "entity": "Hurley",
+      "details": "A wetsuit from Hurley",
+      "pdf_url": "abbottt_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Gifts",
+      "entity": "TriEvents",
+      "details": "Complimentary registration to participate in the recent Dwellingup 40, provided by TriEvents (the organiser)",
+      "pdf_url": "abbottt_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Gifts",
+      "entity": "Kezco Tailors of Melbourne",
+      "details": "Discounted clothing from Kezco Tailors of Melbourne",
+      "pdf_url": "abbottt_45p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Gifts",
+      "entity": "Foxtel",
+      "details": "An ongoing pay TV subscription for my electorate office, provided by Foxtel",
+      "pdf_url": "abbottt_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Travel",
+      "entity": "Virgin",
+      "details": "Flight upgrade on a domestic Virgin flight from Melbourne to Sydney in August (Spouse)",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Travel",
+      "entity": "AECR, Emirates",
+      "details": "Alliance of European Conservatives and Reformists (AECR) invited me to deliver a speech at their recent conference in Prague on 15-18 September 2016. Flights, accommodation and incidentals for my wife and I were met by the AECR. Emirates upgraded my wife and I on a leg from Prague to Dubai.",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Liberal Party of Australia (NSW Division)",
+      "details": "Membership of the Liberal Party of Australia (NSW Division)",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Northern Sydney Cycling Club",
+      "details": "Membership of the Northern Sydney Cycling Club",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Davidson Rural Fire Service",
+      "details": "Membership of the Davidson Rural Fire Service",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Queenscliff Surf Lifesaving Club",
+      "details": "Membership of the Queenscliff Surf Lifesaving Club",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "QANTAS Chairman's Club Lounge",
+      "details": "Membership of the QANTAS Chairman's Club Lounge (and spouse)",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Virgin Australia's 'The Club'",
+      "details": "Membership of Virgin Australia's 'The Club' (and spouse)",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "National Press Club",
+      "details": "Membership of the National Press Club",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "National Gallery of Australia",
+      "details": "Membership of the National Gallery of Australia (and spouse)",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Hyatt Courtesy Club",
+      "details": "Membership of the Hyatt Courtesy Club",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Rotary Club of Manly",
+      "details": "Honorary Member of the Rotary Club of Manly",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Wakehurst Golf Club",
+      "details": "Honorary Member of the Wakehurst Golf Club",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Manly Sea Eagles",
+      "details": "No 1 Ticket holder of the Manly Sea Eagles",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Queenscliff Surf Lifesaving Club",
+      "details": "Patron of the Queenscliff Surf Lifesaving Club",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Manly Lifesaving Club",
+      "details": "Patron of the Manly Lifesaving Club",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "North Steyne Surf Lifesaving Club",
+      "details": "Patron of the North Steyne Surf Lifesaving Club",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Forestville Junior Rugby League Club",
+      "details": "Patron of the Forestville Junior Rugby League Club",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Manly Rugby Football Club",
+      "details": "Patron of the Manly Rugby Football Club",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Wakehurst Football Club",
+      "details": "Patron of the Wakehurst Football Club",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Australian Air League Manly Squadron",
+      "details": "Patron of the Australian Air League Manly Squadron",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Soldiers' Avenue of Honour stakeholders group",
+      "details": "Patron of the Soldiers' Avenue of Honour stakeholders group",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Soldier On",
+      "details": "Ambassador of Soldier On",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Manly Women's Shelter",
+      "details": "Patron of the Manly Women's Shelter (Spouse)",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Royal Far West",
+      "details": "Ambassador for the Royal Far West (Spouse)",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Pollie Pedal cycling ride has raised funds for Australian charities",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Interests",
+      "entity": "Carers Australia; the Australian Paralympic Team; Royal Flying Doctors Service; medical research into children's leukaemia, breast cancer, diabetes, prostate cancer; the Poche Centre for Indigenous Health at Sydney University; and Ronald McDonald House",
+      "details": "Over $5,000,000 raised for good causes.",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Interests",
+      "entity": "Carers Australia, Bear Cottage",
+      "details": "In 2016, Pollie Pedal raised over $300,000 for Carers Australia (as my national charity) and $18,240 for Bear Cottage (as my local electorate charity)",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Interests",
+      "entity": "Soldier On, StreetWork Northern Beaches",
+      "details": "Soldier On and StreetWork Northern Beaches have agreed to be the national and local beneficiaries in 2017",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Interests",
+      "entity": "Michael Wheelahan, Timothy J.F. McEvoy, Arnold Bloch Leibler",
+      "details": "Received pro bono legal advice in a defamation case brought by Mr John Setka",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Interests",
+      "entity": "Ramsay Centre for Western Civilisation",
+      "details": "Advisory board position for the newly established Ramsay Centre for Western Civilisation",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Interests",
+      "entity": "Ukraine International Advisory Council",
+      "details": "President of Ukraine appointed me to an advisory council",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Interests",
+      "entity": "Warringah Remembers",
+      "details": "Warringah Remembers committee holds a commemorative service at North Head",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-18",
+      "category": "Memberships",
+      "entity": "Australians for Constitutional Monarchy",
+      "details": "Invitation to become a patron of Australians for Constitutional Monarchy",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-27",
+      "category": "Travel",
+      "entity": "CQS",
+      "details": "Travelled to New York City and London as a guest of CQS. They provided travel, some hospitality and accommodation.",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-27",
+      "category": "Travel",
+      "entity": "The Spectator Magazine",
+      "details": "Attended the Conservative Party Conference in Birmingham as a guest of The Spectator Magazine and they met the cost of travel (including my return flight to Australia), some hospitality and accommodation.",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-11-28",
+      "category": "Travel",
+      "entity": "Anglicare PNG, Airways Hotel Limited",
+      "details": "Travelled to Port Moresby to address the Anglicare PNG annual fundraising dinner. Anglicare PNG met the cost of travel, while accommodation and incidentals were covered by Airways Hotel Limited.",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-12-14",
+      "category": "Gifts",
+      "entity": "Bowerhaus",
+      "details": "An item of jewellery from Bowerhaus given to my wife",
+      "pdf_url": "abbottt_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-12-14",
+      "category": "Gifts",
+      "entity": "Ralston Solutions Proprietary Limited",
+      "details": "Received a selection of Australian wines by Ralston Solutions Proprietary Limited",
+      "pdf_url": "abbottt_45p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2016-12-22",
+      "category": "Travel",
+      "entity": "Mohammed bin Rashid Al Maktoum Foundation, Washington Speakers Bureau",
+      "details": "Invited to attend the Knowledge Summit in Dubai, United Arab Emirates. Costs met by the Foundation and arranged by the Washington Speakers Bureau.",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-02-13",
+      "category": "Travel",
+      "entity": "Virgin",
+      "details": "Upgrade on a privately funded return Virgin flight from Sydney to Adelaide.",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-02-13",
+      "category": "Hospitality",
+      "entity": "Cancer Council, South Australia",
+      "details": "Invited to participate in the Tour Down Under as a part of the 2017 Beat Cancer Tour. One night's accommodation in Adelaide provided by the Cancer Council, South Australia.",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-02-13",
+      "category": "Travel",
+      "entity": "Virgin",
+      "details": "Upgrade on a privately funded return Virgin flight from Sydney to Melbourne (Spouse)",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-30",
+      "category": "Travel",
+      "entity": "ACRE",
+      "details": "The Alliance for Conservatives and Reformists in Europe (ACRE) sponsored my visit to Europe and the United Kingdom from 4-11 March 2017. The Alliance met the cost of flights as well as accommodation in Warsaw and Brussels.",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-30",
+      "category": "Hospitality",
+      "entity": "Bow Group",
+      "details": "During the London leg of my visit, the Bow Group met the cost of accommodation.",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-05-11",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Pollie Pedal has raised money for various charities",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-05-11",
+      "category": "Other Interests",
+      "entity": "Carers Australia, the Royal Flying Doctor Service, Ronald McDonald House, Youth Insearch and the Paralympic Games",
+      "details": "Over $5,500,000 has been raised for good causes",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-05-11",
+      "category": "Other Interests",
+      "entity": "Soldier On, Streetwork",
+      "details": "In 2017 Pollie Pedal raised over $410 000 for Soldier On (as my national charity) and over $60 000 for Streetwork (as my local charity)",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-06-20",
+      "category": "Travel",
+      "entity": "AIJAC",
+      "details": "Mrs Abbott and I travelled to the Middle East from 13 - 21 May 2017. The Australia/Israel and Jewish Affairs Council (AIJAC) sponsored our visit and met the cost of flights, accommodation and ground transport while visiting Israel.",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-07-31",
+      "category": "Gifts",
+      "entity": "FTI Consulting",
+      "details": "A bottle of wine, given to me by FTI Consulting.",
+      "pdf_url": "abbottt_45p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2017-07-31",
+      "category": "Gifts",
+      "entity": "Sarina Russo Group",
+      "details": "A tie, given to me by Sarina Russo Group.",
+      "pdf_url": "abbottt_45p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2017-07-31",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Received a new Samsonite suitcase from a local supporter",
+      "pdf_url": "abbottt_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2017-07-31",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Received a complimentary upgrade to Premium Economy on a privately funded flight from Australia to the UAE (self and spouse).",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-10-20",
+      "category": "Gifts",
+      "entity": "Arab Bank Australia",
+      "details": "A bottle of wine, given to me by Arab Bank Australia",
+      "pdf_url": "abbottt_45p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2017-10-20",
+      "category": "Gifts",
+      "entity": "Racing NSW",
+      "details": "Family passes to the Royal Randwick Racecourse Director's Room given to me by Racing NSW.",
+      "pdf_url": "abbottt_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2017-10-20",
+      "category": "Memberships",
+      "entity": "Institute for Free Trade",
+      "details": "Accepted an invitation to serve on the international advisory board of the Institute for Free Trade.",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-10-20",
+      "category": "Travel",
+      "entity": "Global Warming Policy Foundation (GWPF)",
+      "details": "Mrs Abbott and I travelled to London in October 2017. The cost of flights, accommodation and ground transport were met by the Global Warming Policy Foundation (GWPF).",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-11-23",
+      "category": "Travel",
+      "entity": "Alliance Defending Freedom (ADF)",
+      "details": "Travelled to the United States of America from 28 October \u2013 4 November 2017. The costs of my flights and ground transport were met by the Alliance Defending Freedom (ADF).",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-12-04",
+      "category": "Gifts",
+      "entity": "Sydney Uni Velo Club (SUVelo)",
+      "details": "Two cycling kits, given to myself and Mrs Abbott by the Sydney Uni Velo Club (SUVelo).",
+      "pdf_url": "abbottt_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2017-12-04",
+      "category": "Gifts",
+      "entity": "Australian Monarchist League",
+      "details": "A print given to me by the Australian Monarchist League.",
+      "pdf_url": "abbottt_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2017-12-22",
+      "category": "Hospitality",
+      "entity": "Tourism Institute",
+      "details": "The Tourism Institute provided hospitality for my annual Warringah community Christmas reception.",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-12-22",
+      "category": "Memberships",
+      "entity": "United In Compassion",
+      "details": "My wife has accepted the invitation to become a patron of United In Compassion; and both positions are voluntary.",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-12-22",
+      "category": "Memberships",
+      "entity": "Kidsxpress",
+      "details": "My wife has accepted the invitation to join the board of Kidsxpress; and both positions are voluntary.",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-05-14",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Purchased a new motor vehicle.",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-05-14",
+      "category": "Liabilities",
+      "entity": "St George Bank",
+      "details": "Personal loan with St George Bank.",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-06-13",
+      "category": "Gifts",
+      "entity": "Ceerose Pty Ltd",
+      "details": "A Montblanc pen which I have donated to Soldier On Australia for their future fundraising efforts given by Ceerose Pty Ltd.",
+      "pdf_url": "abbottt_45p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2018-06-13",
+      "category": "Travel",
+      "entity": "Virgin Australia",
+      "details": "Wife received a complimentary upgrade from Virgin Australia on privately funded travel to Melbourne from Sydney",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-06-13",
+      "category": "Other Interests",
+      "entity": "Pollie Pedal",
+      "details": "Pollie Pedal has raised money for various charities",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-06-13",
+      "category": "Other Interests",
+      "entity": "Carers Australia, Royal Flying Doctor Service, Ronald McDonald House, Youth Insearch, Paralympic Games",
+      "details": "Over $6,000,000 has been raised for good causes",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-06-13",
+      "category": "Other Interests",
+      "entity": "Soldier On Australia",
+      "details": "In 2018, Pollie Pedal raised over $460 000 for Soldier On Australia",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-06-13",
+      "category": "Other Interests",
+      "entity": "Streetwork",
+      "details": "In 2018, Pollie Pedal raised over $50 000 for Streetwork.",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-08-01",
+      "category": "Travel",
+      "entity": "Strategic Leadership Dialogue",
+      "details": "The Strategic Leadership Dialogue sponsored my travel to Israel and the United States of America from 6 - 13 July 2018. The Dialogue also met the cost of my accommodation while in Israel.",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-08-01",
+      "category": "Travel",
+      "entity": "Qantas Airways",
+      "details": "Upgrade received on flight returning to Australia from Qantas Airways.",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-08-01",
+      "category": "Income Sources",
+      "entity": "Servcorp Limited",
+      "details": "Received an honorarium to speak at an event hosted by Servcorp Limited in New York City recently.",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-10-22",
+      "category": "Travel",
+      "entity": "The Oxford Union",
+      "details": "Travelled to The United Kingdom and France in October 2018. The cost of accommodation and some ground transport while in the United Kingdom was met by The Oxford Union.",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-10-22",
+      "category": "Travel",
+      "entity": "The New Criterion",
+      "details": "The cost of flights, along with accommodation and ground transport while in France was met by The New Criterion.",
+      "pdf_url": "abbottt_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-11-26",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Given a set of three small polished opal stones by one of the local elders during a recent visit to Coober Pedy as Special Envoy for Indigenous Affairs. Valued professionally but not yet assessed over $300.",
+      "pdf_url": "abbottt_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-01-25",
+      "category": "Gifts",
+      "entity": "Sapphire International Marketing Pty Ltd",
+      "details": "At a function held recently in my electorate, Sapphire International Marketing Pty Ltd gave my wife a Versace vase. Donated the vase to StreetWork Australia Limited",
+      "pdf_url": "abbottt_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-03-13",
+      "category": "Travel",
+      "entity": "Virgin Australia Airlines",
+      "details": "Received an upgrade on personally-funded travel on a Virgin Australia Airlines flight from Canberra to Sydney on 27 February 2019.",
+      "pdf_url": "abbottt_45p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/abbottt_45p.pdf"
+}

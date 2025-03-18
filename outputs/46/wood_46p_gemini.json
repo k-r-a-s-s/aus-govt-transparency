@@ -1,0 +1,226 @@
+{
+  "mp_name": "Jason Wood",
+  "party": "N/A",
+  "electorate": "La Trobe",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "Eight H Pty Ltd.",
+      "details": "Self",
+      "pdf_url": "wood_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "LLTK Pty Ltd",
+      "details": "Self, holding company",
+      "pdf_url": "wood_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "SkinB5 Pty. Itd.",
+      "details": "Spouse/partner",
+      "pdf_url": "wood_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "Stritech Holdings Pty. Ltd.",
+      "details": "Spouse/partner",
+      "pdf_url": "wood_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Trusts",
+      "entity": "Eight H Trust",
+      "details": "Holds Eight H Pty Ltd, Receives rent Dandenong Ranges, Self",
+      "pdf_url": "wood_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Trusts",
+      "entity": "LLTK Trust & LLTK Pty Ltd",
+      "details": "Holds entities for Eight H Trust, Shelf company, Self",
+      "pdf_url": "wood_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Trusts",
+      "entity": "ALC Global Enterprise Trust",
+      "details": "ALC Global Enterprises Pty. Ltd., Holds ALC Global Holdings Pty Ltd, Spouse/partner",
+      "pdf_url": "wood_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Trusts",
+      "entity": "ALC Global Holdings Pty. Ltd.",
+      "details": "Holds SkinB5 Pty Ltd, Manufactures/Sell SkinB5, Spouse/partner",
+      "pdf_url": "wood_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Real Estate",
+      "entity": "Dandenong Ranges",
+      "details": "Residential, Self",
+      "pdf_url": "wood_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Real Estate",
+      "entity": "Dandenong Ranges",
+      "details": "Commercial, Self",
+      "pdf_url": "wood_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Real Estate",
+      "entity": "Dandenong Ranges",
+      "details": "Residential, Spouse/partner",
+      "pdf_url": "wood_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Directorships",
+      "entity": "Eight H Pty Ltd.",
+      "details": "Commercial building Sassafras, Self",
+      "pdf_url": "wood_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Directorships",
+      "entity": "SkinB5 Pty Ltd",
+      "details": "Manufacture and sales of skincare products, Spouse/partner",
+      "pdf_url": "wood_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Home loan, Self",
+      "pdf_url": "wood_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Commercial building, Self",
+      "pdf_url": "wood_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Home loan, Spouse/partner",
+      "pdf_url": "wood_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Company loan, Spouse/partner",
+      "pdf_url": "wood_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Loan, off set account, Self",
+      "pdf_url": "wood_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "Savings, Spouse/partner",
+      "pdf_url": "wood_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Offset, Spouse/partner",
+      "pdf_url": "wood_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "Ubank",
+      "details": "Savings, Spouse/partner",
+      "pdf_url": "wood_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Gifts",
+      "entity": "Virgin The Club",
+      "details": "Self",
+      "pdf_url": "wood_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Gifts",
+      "entity": "Qantas Chairman's Lounge",
+      "details": "Self",
+      "pdf_url": "wood_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Gifts",
+      "entity": "Virgin The Club",
+      "details": "Spouse/partner",
+      "pdf_url": "wood_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Gifts",
+      "entity": "Qantas Chairman's Lounge",
+      "details": "Spouse/partner",
+      "pdf_url": "wood_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Australia China Healthcare and Nutrition Association (President)",
+      "details": "Spouse/partner",
+      "pdf_url": "wood_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-25",
+      "category": "Gifts",
+      "entity": "Bhandra Thotath",
+      "details": "Painting presented by artist Bhandra Thotath Value $250.00",
+      "pdf_url": "wood_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-10-04",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "2 x AFL Grand Final tickets plus corporate hospitality",
+      "pdf_url": "wood_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2019-10-04",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "3 x AFL Final tickets",
+      "pdf_url": "wood_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2019-10-31",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "PM's Cricket Match - 24/10/19",
+      "pdf_url": "wood_46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/wood_46p.pdf"
+}

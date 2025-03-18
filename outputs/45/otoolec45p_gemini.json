@@ -1,0 +1,324 @@
+{
+  "mp_name": "Catherine Elizabeth O'Toole",
+  "party": "Unknown",
+  "electorate": "Herbert",
+  "disclosures": [
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "Telstra",
+      "details": "Shares held by self",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "Telstra",
+      "details": "Shares held by spouse",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Residence in Aitkenvale, Qld",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Investment property in Aitkenvale, Qld",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Residence in Aitkenvale, Qld (spouse)",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Investment property in Aitkenvale, Qld (spouse)",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Mortgage - Investment",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Loan - Investments",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Mortgage - Investment (spouse)",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Loan - Investments (spouse)",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Savings/Investments",
+      "entity": "MLC",
+      "details": "Managed Fund x 2",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "Code Valley Corp Pty old",
+      "details": "Share holding",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Savings/Investments",
+      "entity": "MLC",
+      "details": "Managed Fund (Spouse)",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "Code Valley Corp Pty old",
+      "details": "Share holding (Spouse)",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings Account x 2",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Savings Account x 3",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings Account x 2 (spouse)",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Savings Account x 3 (spouse)",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Other Assets",
+      "entity": "MLC",
+      "details": "Superannuation",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Other Assets",
+      "entity": "MLC",
+      "details": "Life Assurance within Super",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Other Assets",
+      "entity": "MLC",
+      "details": "Superannuation (spouse)",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Other Assets",
+      "entity": "MLC",
+      "details": "Life Assurance within Super (spouse)",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from Investments",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Wages July 2/7/16 - 5/8/16 previous workplace",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from Investments (spouse)",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Memberships",
+      "entity": "Amnesty International",
+      "details": "Membership",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Memberships",
+      "entity": "ASU",
+      "details": "Membership",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Memberships",
+      "entity": "CPSU",
+      "details": "Membership",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Memberships",
+      "entity": "Amnesty International",
+      "details": "Membership (spouse)",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-28",
+      "category": "Unknown",
+      "entity": "N/A",
+      "details": "No alterations",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-20",
+      "category": "Other Assets",
+      "entity": "Cathy O'Toole",
+      "details": "Vehicle Mazda 2 Owned by Cathy O'Toole",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-20",
+      "category": "Memberships",
+      "entity": "Dennis and Cathy O'Toole",
+      "details": "Qantas Club Chairman's",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-20",
+      "category": "Hospitality",
+      "entity": "Dennis and Cathy O'Toole",
+      "details": "Tickets to Cowboys Box 20/8/16",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-20",
+      "category": "Hospitality",
+      "entity": "Dennis and Cathy O'Toole",
+      "details": "Tickets to Cowboys NRL Box 16/9/16",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-20",
+      "category": "Hospitality",
+      "entity": "Dennis and Cathy O'Toole",
+      "details": "TEL 25 year Anniversary Dinner x 2",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2016-11-02",
+      "category": "Shares",
+      "entity": "Dennis James O'Toole",
+      "details": "Suncorp Shares",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2018-08-30",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Complimentary venue hire for Jobtrain forum - $500.00 (30/07/2018)",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2018-08-30",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Festival of Chamber Music - 3 separate events - $483.00 (27/7-4/8/18)",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2018-08-30",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Cowboys - box seat Guest of Cowboys CEO - $300.00 (9/08/2018)",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2018-08-30",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Dinner - Bank of Qld Guest - $107.00 (21/08/2018)",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2018-08-30",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Townsville Airport Parking pass when required for meetings at airport - $5.00 per hour",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2018-11-28",
+      "category": "Memberships",
+      "entity": "Cathy & Dennis O'Toole",
+      "details": "Virgin Australia membership for The Club",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2018-11-28",
+      "category": "Memberships",
+      "entity": "Cathy & Dennis O'Toole",
+      "details": "Qantas membership for Chairman's Lounge",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2019-02-20",
+      "category": "Hospitality",
+      "entity": "Cathy & Dennis O'Toole",
+      "details": "Two complimentary tickets to the JCU Townsville Fire 2017/2018 Season MVP dinner",
+      "pdf_url": "otoolec45p.pdf"
+    },
+    {
+      "declaration_date": "2019-04-09",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Cathy & Dennis O'Toole attended Nth Qld Cowboys home game in corporate suite as guests of Nth Qld Cowboys.",
+      "pdf_url": "otoolec45p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/otoolec45p.pdf"
+}

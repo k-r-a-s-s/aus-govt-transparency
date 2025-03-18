@@ -1,0 +1,108 @@
+{
+  "mp_name": "Andrew William Hastie",
+  "party": "Unknown",
+  "electorate": "Canning",
+  "disclosures": [
+    {
+      "declaration_date": "2015-11-09",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "hastie_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-09",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "hastie_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-09",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "hastie_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-09",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "hastie_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-09",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "hastie_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-09",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "hastie_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-09",
+      "category": "Savings/Investments",
+      "entity": "Defence Bank",
+      "details": "Savings",
+      "pdf_url": "hastie_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-09",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Savings",
+      "pdf_url": "hastie_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-09",
+      "category": "Other Assets",
+      "entity": "2013 Mitsubishi Triton",
+      "details": "2013 Mitsubishi Triton",
+      "pdf_url": "hastie_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-09",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "hastie_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-09",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "hastie_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2015-11-09",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "hastie_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-09",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "hastie_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-09",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "hastie_44p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/hastie_44p.pdf"
+}

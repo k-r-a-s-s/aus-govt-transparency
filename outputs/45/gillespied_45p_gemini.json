@@ -1,0 +1,702 @@
+{
+  "mp_name": "David Arthur Gillespie",
+  "party": "Unknown",
+  "electorate": "Lyne",
+  "disclosures": [
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "TELSTRA",
+      "details": "Self",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "AGL ENERGY",
+      "details": "Self",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "AMP LTD",
+      "details": "Self",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "ANZ BANK",
+      "details": "Self",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "WOOLWORTHS",
+      "details": "Self",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "COMMONWEALTH BANK",
+      "details": "Self",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "NAB",
+      "details": "Self",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "WESFARMERS",
+      "details": "Self",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "HASTINGS COOP LTD",
+      "details": "Self",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "DAVID A GILLESPIE PTY LTD",
+      "details": "Self",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "TEMPLEMORE INVESTMENTS",
+      "details": "Self",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "PORT MACQUARIE GASTROENTEROLOGY",
+      "details": "Self",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "NORTH STAR RESOURCES",
+      "details": "Self",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "M2 GROUP",
+      "details": "Self",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "VOCUS",
+      "details": "Self",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "COLLECTION HOUSE",
+      "details": "Self",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "TELSTRA",
+      "details": "Spouse",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "COMMONWEALTH BANK",
+      "details": "Spouse",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "AGL ENERGY",
+      "details": "Spouse",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "AMP",
+      "details": "Spouse",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "ANZ BANK",
+      "details": "Spouse",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "BHP BILLITON",
+      "details": "Spouse",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "BRAMBLES",
+      "details": "Spouse",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "INSURANCE AUSTRALIA GROUP",
+      "details": "Spouse",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "SOUTHERN CROSS MEDIA",
+      "details": "Spouse",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "WOOLWORTHS",
+      "details": "Spouse",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "NEWSCORP",
+      "details": "Spouse",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "21ST CENTURY FOX",
+      "details": "Spouse",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "OCEANIA GOLD",
+      "details": "Spouse",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "HENDERSON",
+      "details": "Spouse",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "NAB",
+      "details": "Spouse",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "WESFARMERS",
+      "details": "Spouse",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "HASTINGS COOP LTD",
+      "details": "Spouse",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "DAVID A GILLESPIE PTY LTD",
+      "details": "Spouse",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "GOLDENBOOT PTY LTD",
+      "details": "Spouse",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "TEMPLEMORE INVESTMENTS",
+      "details": "Spouse",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "PORT MACQUARIE GASTROENTEROLOGY",
+      "details": "Spouse",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "VOCUS",
+      "details": "Spouse",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "COLLECTION HOUSE ETA",
+      "details": "Spouse",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "M2 GROUP",
+      "details": "Spouse",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "NORTHERN STAR RESOURCES",
+      "details": "Spouse",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Trusts",
+      "entity": "William Harvey Unit Trust",
+      "details": "Self, TRUST-INVESTMENT, Unit Holder Beneficiary",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Trusts",
+      "entity": "Howard Florey Unit Trust",
+      "details": "Self, TRUST-INVESTMENT, Unit Holder",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Trusts",
+      "entity": "David + Charlotte Gillespie Family Trust",
+      "details": "Self, TRUST-INVESTMENT, Beneficiary",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Trusts",
+      "entity": "William Harvey Unit Trust",
+      "details": "Spouse, TRUST-INVESTMENT, Beneficiary",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Trusts",
+      "entity": "David + Charlotte Gillespie Family Trust",
+      "details": "Spouse, TRUST-INVESTMENT, Beneficiary",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Trusts",
+      "entity": "William Harvey Unit Trust",
+      "details": "Dependent Children, TRUST-INVESTMENT, Beneficiary",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Trusts",
+      "entity": "David + Charlotte Gillespie Family Trust",
+      "details": "Dependent Children, TRUST-INVESTMENT, Beneficiary",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Trusts",
+      "entity": "William Harvey Unit Trust",
+      "details": "Self, TRUST-INVESTMENT, Director of Trustee Company",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Trusts",
+      "entity": "Howard Florey Unit Trust",
+      "details": "Self, TRUST-INVESTMENT, Director of Trustee Company",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Trusts",
+      "entity": "David + Charlotte Gillespie Family Trust",
+      "details": "Self, TRUST-INVESTMENT, Director of Trustee Company",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Trusts",
+      "entity": "William Harvey Unit Trust",
+      "details": "Spouse, TRUST-INVESTMENT, Director of Trustee Company",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Trusts",
+      "entity": "Howard Florey Unit Trust",
+      "details": "Spouse, TRUST-INVESTMENT, Director of Trustee Company",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Trusts",
+      "entity": "David + Charlotte Gillespie Family Trust",
+      "details": "Spouse, TRUST-INVESTMENT, Director of Trustee Company",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Real Estate",
+      "entity": "Randwick NSW, Port Macquarie, Port Macquarie, Port Macquarie, Wauchope",
+      "details": "Self, Investment, Units x5 Investment Residential, Units x10 Investment Commercial, Residence & Farm",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Real Estate",
+      "entity": "Port Macquarie, Port Macquarie, Wauchope",
+      "details": "Spouse, Units x5 Investment Residential, Units x10 Commercial Investment, Residence & Farm",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Real Estate",
+      "entity": "Port Macquarie, Port Macquarie",
+      "details": "Dependent Children, Units x5 Residential Investment, Units x10 Commercial Investment",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Directorships",
+      "entity": "David A Gillespie Pty Ltd",
+      "details": "Self, Investment Trading",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Directorships",
+      "entity": "Port Macquarie Gastroenterology Pty Ltd",
+      "details": "Self, Trading Business",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Directorships",
+      "entity": "Templemore Investment Pty Ltd, Goldenboot Pty Ltd",
+      "details": "Self, Trustee Company",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Directorships",
+      "entity": "David A Gillespie Pty Ltd",
+      "details": "Spouse, Investment Trading",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Directorships",
+      "entity": "Templemore Investment Pty Ltd, Goldenboots Pty Ltd",
+      "details": "Spouse, Trustee Company",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Partnerships",
+      "entity": "D & C Gillespie",
+      "details": "Self, Partnership, Primary Production",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Partnerships",
+      "entity": "D & C Gillespie",
+      "details": "Spouse, Partnership, Primary Production",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Self, Residential Housing Loan Mortgage",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Self, Savings Account",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Self, Savings Account Written In Error",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Savings/Investments",
+      "entity": "Bank of Queensland",
+      "details": "Self, Savings Account",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Spouse, Savings Account",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Savings/Investments",
+      "entity": "Westpac Bank",
+      "details": "Spouse, Savings Account, Investment Account",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Savings/Investments",
+      "entity": "BT Cash Management Trust",
+      "details": "Spouse, Investment Account",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Savings/Investments",
+      "entity": "Bank of Queensland",
+      "details": "Spouse, Savings Account",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Dependent Children, Savings Account",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Dependent Children, Savings Account",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Other Assets",
+      "entity": "BT Personal Superannuation Fund Account",
+      "details": "Self, Personal",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Other Assets",
+      "entity": "David & Charlotte Gillespie Superannuation Fund (SMSF)",
+      "details": "Self, Private Motor Vehicle",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Other Assets",
+      "entity": "BT Personal Superannuation Account",
+      "details": "Spouse",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Other Assets",
+      "entity": "David & Charlotte Gillespie Superannuation Fund (SMSF)",
+      "details": "Spouse",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Self, Income from Investments Set out above",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Spouse, Income from Investments Set out above",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Dependent Children, Income from Investments Set out above",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Travel",
+      "entity": "Virgin Club",
+      "details": "Self, Complimentary Virgin Club Membership Upgrade from Velocity",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Hospitality",
+      "entity": "Qantas Club",
+      "details": "Self, Complimentary Qantas Club Membership Upgrade to Chairman's Lounge",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Travel",
+      "entity": "Qantas Club",
+      "details": "Spouse, Complimentary Upgrade from Qantas Club to Chairman's Lounge",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Travel",
+      "entity": "Virgin Velocity",
+      "details": "Spouse, Complimentary Upgrade from Virgin Velocity to Club Lounge",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Memberships",
+      "entity": "Royal Australasian College of Physicians, AMA(NSW), Gastroenterology Society of Australia",
+      "details": "Self, RACP, GESA",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-26",
+      "category": "Shares",
+      "entity": "BHP",
+      "details": "Addition: BHP Shares",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-26",
+      "category": "Shares",
+      "entity": "Vocus",
+      "details": "Addition: Vocus Shares (Merger of M2 Group Take up of Rights Issue)",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-26",
+      "category": "Shares",
+      "entity": "Iron Mountain",
+      "details": "Deletion: Iron Mountain Shares Acquired in Share Spin Off",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-02-09",
+      "category": "Shares",
+      "entity": "CYBG PLC",
+      "details": "Addition: Shares",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-02-09",
+      "category": "Shares",
+      "entity": "TWE",
+      "details": "Addition: Shares",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-02-09",
+      "category": "Shares",
+      "entity": "AGL",
+      "details": "Deletion: Shares AGL, Spouse sold remaining shares. PortMacquarie Gastroenterology Pty Ltd - deregistered the company",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-02-09",
+      "category": "Shares",
+      "entity": "Port Macquarie Gastroenterology Pty Ltd",
+      "details": "Deletion: Shares AGL, Spouse sold remaining shares. PortMacquarie Gastroenterology Pty Ltd - deregistered the company",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-06-07",
+      "category": "Real Estate",
+      "entity": "Home Unit",
+      "details": "Addition: Real Estate, Home Unit in Trust. Home Unit c/ Unit Trust Templemore Investment Pty Ltd ATF Gillespie Family Trust",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-06-12",
+      "category": "Shares",
+      "entity": "Oceanagold (formerly Climax Mining)",
+      "details": "Deletion: Share (spouse owned), (Climax Mining formerly) OCEANAGOLD",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-07-22",
+      "category": "Shares",
+      "entity": "Golden Boot Pty Ltd",
+      "details": "Addition: Shares (existing not new), correction of administrative Clerical oversight by me",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-02-15",
+      "category": "Real Estate",
+      "entity": "Real Estate Holdings of DIC Gillespie Superfund by Corporate Trustee and by Golden Boot Pty Ltd",
+      "details": "Deletion: Sale of unit/commercial in PortMacquarie.",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-05-25",
+      "category": "Savings/Investments",
+      "entity": "Platinum InternationalFund",
+      "details": "Addition: D&C Gillespie Superannuation Fund, Units Platinum InternationalFund",
+      "pdf_url": "gillespied_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-08-14",
+      "category": "Shares",
+      "entity": "Telstra",
+      "details": "Addition: Spouse, Additional Telstra Shares",
+      "pdf_url": "gillespied_45p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/gillespied_45p.pdf"
+}

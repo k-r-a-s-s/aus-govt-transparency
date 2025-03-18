@@ -1,0 +1,543 @@
+{
+  "mp_name": "Sophie Scamps",
+  "party": "N/A",
+  "electorate": "Mackellar",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Shares",
+      "entity": "ADJU Pty Ltd",
+      "details": "N/A",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Shares",
+      "entity": "Avalon Mortgage Solutions Pty Ltd",
+      "details": "N/A",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Shares",
+      "entity": "Lexington 806 Pty Ltd",
+      "details": "N/A",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Shares",
+      "entity": "55 Pyrmont Bridge Rd Pty Ltd",
+      "details": "N/A",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Shares",
+      "entity": "Pelorus Private Equity Pty Ltd",
+      "details": "N/A",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Trusts",
+      "entity": "JHSF (SMSF)",
+      "details": "Self Managed Super Fund, Joint beneficiary",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Trusts",
+      "entity": "Palmgrove Trust (Family Trust)",
+      "details": "Family Trust, Joint beneficiary",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Trusts",
+      "entity": "Waratah Hotel Group Unit Trust",
+      "details": "Property Investment Unit Trust, Joint beneficiary",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Avalon Beach, NSW, Family Home",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Wee Jasper, NSW, Farm",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Terrey Hills, NSW, Investment",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Kenilworth Local Govt Area - North West Tasmania, Investment",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Directorships",
+      "entity": "ADJU Pty Ltd",
+      "details": "Trustee company",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Directorships",
+      "entity": "Lexington 806 Pty Ltd",
+      "details": "Trustee company",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Directorships",
+      "entity": "Avalon Mortgage Solutions Pty Ltd",
+      "details": "Trading Company",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Liabilities",
+      "entity": "ANZ Bank",
+      "details": "Mortgage on Family Home",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Liabilities",
+      "entity": "La Trobe Financial",
+      "details": "Mortgage on Investment Property",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Mortgage on Investment Property",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Liabilities",
+      "entity": "ANZ Bank",
+      "details": "Car lease",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Car",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Gifts",
+      "entity": "Foxtel",
+      "details": "Foxtel Subscription for Electorate Office",
+      "pdf_url": "scamps_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Gifts",
+      "entity": "Glenn Street Theatre",
+      "details": "Tickets to Glenn Street Theatre - 6 August 2022 - (Less than $300)",
+      "pdf_url": "scamps_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Framed Artwork Print",
+      "pdf_url": "scamps_47p.pdf",
+      "sub_category": "Decorative"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Memberships",
+      "entity": "Whale Beach Surf Lifesaving Club",
+      "details": "Honorary Patron",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Savings/Investments",
+      "entity": "ANZ Bank",
+      "details": "Savings Account",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Savings/Investments",
+      "entity": "St George Bank",
+      "details": "Savings account",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Savings account",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Directorships",
+      "entity": "Independent Mackellar Pty Ltd",
+      "details": "Trading Company",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Directorships",
+      "entity": "Crispin & Jeffries Trust",
+      "details": "Trading company",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Partnerships",
+      "entity": "Crispin & Jeffrey Mortgage Solutions",
+      "details": "Shares in a Unit Trust, Mortgage Broking",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-25",
+      "category": "Trusts",
+      "entity": "Palmgrove Trust (Family Trust)",
+      "details": "Details of entities in Palmgrove Trust (Family Trust)",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-25",
+      "category": "Trusts",
+      "entity": "Avalon Mortgage Solutions Pty Ltd",
+      "details": "Details of entities in Palmgrove Trust (Family Trust)",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-25",
+      "category": "Trusts",
+      "entity": "Pelorus Private Equity Pty Ltd",
+      "details": "Details of entities in Palmgrove Trust (Family Trust)",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-25",
+      "category": "Trusts",
+      "entity": "TSLA - CFDs",
+      "details": "Details of entities in Palmgrove Trust (Family Trust)",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-11-30",
+      "category": "Travel",
+      "entity": "Australia vs England Netball",
+      "details": "2 VIP tickets including hospitality for Australia vs England Netball (Diamonds vs English Roses and Australian men vs English men), Qudos Bank Arena",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-11-30",
+      "category": "Gifts",
+      "entity": "UNICEF",
+      "details": "2 Tickets to UNICEF charity event, supplied by Family Friendly Workplaces",
+      "pdf_url": "scamps_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-11-30",
+      "category": "Gifts",
+      "entity": "ARIA Awards Sydney",
+      "details": "3 Tickets to ARIA Awards Sydney",
+      "pdf_url": "scamps_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-11-30",
+      "category": "Gifts",
+      "entity": "Device Technologies",
+      "details": "Aspect Skincare products, supplied by Device Technologies",
+      "pdf_url": "scamps_47p.pdf",
+      "sub_category": "Electronics"
+    },
+    {
+      "declaration_date": "2022-12-14",
+      "category": "Gifts",
+      "entity": "Sunset Festival",
+      "details": "8 tickets to Sunset Festival (1 ticket used)",
+      "pdf_url": "scamps_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-12-14",
+      "category": "Memberships",
+      "entity": "Qantas",
+      "details": "Complimentary membership - Qantas Chairman's Lounge",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-12-14",
+      "category": "Memberships",
+      "entity": "Virgin",
+      "details": "Complimentary membership of Virgin Beyond",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-12-16",
+      "category": "Trusts",
+      "entity": "Waratah Hotel Group Unit Trust",
+      "details": "Sold - Waratah Hotel Group Unit Trust",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-03-10",
+      "category": "Shares",
+      "entity": "Pelorus Private Equity Pty Ltd",
+      "details": "SOLD - Pelorus Private Equity Pty Ltd (Joint Shareholding Sold 10/03/2023)",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-03-10",
+      "category": "Travel",
+      "entity": "Save the Children",
+      "details": "Travel and accommodation in relation to a Parliamentary Health Delegation to Papua New Guinea organised and funded by Save the Children.",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-03-10",
+      "category": "Travel",
+      "entity": "Liverpool Plains Action Group",
+      "details": "Helicopter flight around the Pilliga and Liverpool Plains Area to view the proposed Coal Seam Gas projects and proposed gas pipeline, courtesy of the Liverpool Plains Action Group",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-24",
+      "category": "Travel",
+      "entity": "The Tibet Information Office",
+      "details": "Return travel to India, accommodation, transport and food in relation to delegation to meet with the Tibetan Parliament in Exile, His Holiness the Dalai Lama and Tibetan community, courtesy of The Tibet Information Office (official agency of the Central Tibetan Administration.",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-06-14",
+      "category": "Gifts",
+      "entity": "Climate 200",
+      "details": "Social media training for staff, video production and graphic design services provided by Climate 200.",
+      "pdf_url": "scamps_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2023-10-25",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Sale of investment property - Wollongabba, Queensland",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-10-25",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Sale of investment property - Terrey Hills, NSW",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-12",
+      "category": "Travel",
+      "entity": "The Australia Institute",
+      "details": "Travel from Canberra to Launceston and Launceston to Sydney, overnight hotel accommodation in Launceston, courtesy of the The Australia Institute.",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-04-04",
+      "category": "Directorships",
+      "entity": "Cherry St Investments Pty Ltd",
+      "details": "N/A",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-04-04",
+      "category": "Trusts",
+      "entity": "Cherry St Investments Superannuation Fund",
+      "details": "Cherry St Investments Superannuation Fund (Self Managed Super Fund - sole beneficiary)",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-04-08",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Westpac Savings Account",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-04-08",
+      "category": "Savings/Investments",
+      "entity": "Bendigo Bank",
+      "details": "Bendigo Bank Statement Account",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-04-08",
+      "category": "Savings/Investments",
+      "entity": "Bendigo Bank",
+      "details": "Bendigo Bank Savings Account",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-14",
+      "category": "Directorships",
+      "entity": "Independent Mackellar Pty Ltd",
+      "details": "Directorship of Independent Mackellar Pty Ltd",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-06-17",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Westpac Business account - for Self Managed Superannuation Fund",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-06-17",
+      "category": "Savings/Investments",
+      "entity": "Children's Bank Accounts",
+      "details": "Children's Bank Accounts - CBA - 1 x Youth Saver, 2 x transaction accounts",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-01",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Avalon NSW",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-04-04",
+      "category": "Shares",
+      "entity": "Cherry St Investments Pty Ltd",
+      "details": "Cherry St Investments Pty Ltd (Superannuation Trustee Proprietary Company)",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-04-04",
+      "category": "Directorships",
+      "entity": "Cherry St Investments Pty Ltd",
+      "details": "Cherry St Investments Pty Ltd (Superannuation Trustee Proprietary Company)",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-09-01",
+      "category": "Shares",
+      "entity": "Tesla Motors Inc",
+      "details": "Tesla Motors Inc (Myself and Spouse)",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-09-01",
+      "category": "Directorships",
+      "entity": "Lexington 806 Pty Ltd",
+      "details": "Lexington 806 Pty Ltd (spouse)",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-09-01",
+      "category": "Shares",
+      "entity": "Lexington 806 Pty Ltd",
+      "details": "Lexington 806 Pty Ltd (spouse)",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-09-01",
+      "category": "Directorships",
+      "entity": "Independent Mackellar Pty Ltd",
+      "details": "Independent Mackellar Pty Ltd (Spouse)",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-09-01",
+      "category": "Shares",
+      "entity": "Independent Mackellar Pty Ltd",
+      "details": "Independent Mackellar Pty Ltd (Spouse)",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-09",
+      "category": "Investments",
+      "entity": "Spouse SMSF",
+      "details": "Spouse SMSF - NASDAQ 100 (CFDs)",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-09",
+      "category": "Investments",
+      "entity": "Spouse SMSF",
+      "details": "Spouse SMSF Russell 2000 (CFDs)",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-09",
+      "category": "Investments",
+      "entity": "Spouse SMSF",
+      "details": "Spouse SMSF S&P 500 (CFDs)",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-02",
+      "category": "Gifts",
+      "entity": "Blunt Umbrellas Australia",
+      "details": "Umbrella from Blunt Umbrellas Australia",
+      "pdf_url": "scamps_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2024-11-08",
+      "category": "Memberships",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's Lounge membership",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-11-18",
+      "category": "Memberships",
+      "entity": "Virgin",
+      "details": "Virgin Beyond membership",
+      "pdf_url": "scamps_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-01-02",
+      "category": "Directorships",
+      "entity": "ADJU Pty Ltd",
+      "details": "ADJU Pty Ltd trust company - resignation of directorship",
+      "pdf_url": "scamps_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/scamps_47p.pdf"
+}

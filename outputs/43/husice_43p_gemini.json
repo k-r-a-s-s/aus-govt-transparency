@@ -1,0 +1,325 @@
+{
+  "mp_name": "Ed Husic",
+  "party": "Unknown",
+  "electorate": "Chifley",
+  "disclosures": [
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Shares",
+      "entity": "Walt Disney Corporation (ESPN)",
+      "details": "Employee's Share Options, Via Employment With",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Blacktown, NSW - Residential",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Russell Lea, NSW - Investment",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Mortgage",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Liabilities",
+      "entity": "Credit Union Aust.",
+      "details": "Mortgage",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Savings",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "Credit Union Aust.",
+      "details": "Savings",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Other Assets",
+      "entity": "AMP",
+      "details": "The AMP Superannuation Fund Member",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Income Sources",
+      "entity": "Walt Disney Corporation (ESPN)",
+      "details": "Employee of",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Tickets (x2), Sydney Kings Basketball Match (16/10/10) ($320)",
+      "pdf_url": "husice_43p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-01-20",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Two tickets to Sydney Kings basketball game (13 November 2010). Est. value $320.",
+      "pdf_url": "husice_43p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2011-01-31",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "On 31 December 2010 my wife, Bridget Tilley and I received a flight upgrade to business class for our Qantas flight from Sydney to Los Angeles.",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-01-31",
+      "category": "Hospitality",
+      "entity": "ASTRA Subscription Television Australia",
+      "details": "On 17 January 2011 ASTRA Subscription Television Australia installed a complementary Foxtel connection in the electorate office valued at approx $130 per month.",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-03-25",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Two tickets to Sydney Kings basketball game (Sunday 6 March 2011). Est. value $320. I was also presented with a framed Sydney Kings Jersey to the approximate value of $200.",
+      "pdf_url": "husice_43p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2011-07-06",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "My wife Bridget Tilley and I recently purchased land at Colebee, NSW, situated within the Chifley electorate. Our intention is to build our new residence on the site. We have secured a mortgage from the lender Newcastle Permanent to fund the purchase of the land. The settlement of the purchase took place on 24 February 2011.",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-28",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "SELF/SPOUSE: ACQUIRED RESIDENTIAL PROPERTY, COLEBEE, NSW.",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-28",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "INVESTMENT PROPERTIES IN BLACKTOWN/RUSSELL LEA",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-28",
+      "category": "Liabilities",
+      "entity": "Newcastle Permanent",
+      "details": "SELF/SPOUSE: MORTGAGES ON RESIDENTIAL PROPERTY WITH NEWCASTLE PERMANENT. MORTGAGES WITH NEWCASTLE PERMANENT FOR BOTH INVESTMENT PROPERTIES (BLACKTOWN/RUSSELL LEA)",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-28",
+      "category": "Memberships",
+      "entity": "Campaign Action",
+      "details": "SELF: BOARD MEMBER, CAMPAIGN ACTION. PATRON: MT DRUITT TOWN RANGERS FOOTBALL CLUB. PATRON: MIDNIGHT BASKETBALL (MT DRUITT). ALL POSITIONS ARE UNDERTAKEN WITHOUT REMUNERATION.",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-28",
+      "category": "Shares",
+      "entity": "Walt Disney Corp (ESPN)",
+      "details": "SPOUSE: SOLD EMPLOYEE SHARE OPTIONS IN WALT DISNEY CORP (ESPN)",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-28",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "SELF: FINALISED MORTGAGE WITH WESTPAC FOR BLACKTOWN PROPERTY.",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-28",
+      "category": "Liabilities",
+      "entity": "Credit Union AUS",
+      "details": "SPOUSE: FINALISED MORTGAGE WITH CREDIT UNION AUS FOR RUSSELL LEA PROPERTY.",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-28",
+      "category": "Income Sources",
+      "entity": "ESPN",
+      "details": "SPOUSE: FINALISED EMPLOYMENT WITH ESPN (JULY 2012)",
+      "pdf_url": "husice_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-12-19",
+      "category": "Gifts",
+      "entity": "Sportsyear Pty Ltd.",
+      "details": "December, 2012: Ten (10) x 2013 Sportsyear Diaries valued at $50 each - donated by Sportsyear Pty Ltd.",
+      "pdf_url": "husice_43p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2013-04-26",
+      "category": "Gifts",
+      "entity": "Optus",
+      "details": "23 March 2013 my wife and I received tickets from Optus to the Western Sydney Wanderers game at Parramatta Stadium.",
+      "pdf_url": "husice_43p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2013-04-26",
+      "category": "Gifts",
+      "entity": "Football Federation Australia",
+      "details": "26 March 2013 my wife and I received tickets from Football Federation Australia to the Socceroos vs Oman World Cup Qualifier at ANZ Stadium in Sydney.",
+      "pdf_url": "husice_43p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2013-04-26",
+      "category": "Gifts",
+      "entity": "SBS",
+      "details": "21 April 2013 my wife and I received tickets from SBS to the Western Sydney Wanderers Grand Final game at Allianz Stadium in Sydney.",
+      "pdf_url": "husice_43p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2013-06-25",
+      "category": "Gifts",
+      "entity": "Arnott's",
+      "details": "On 23 May I visited the Arnott's manufacturing plant in Huntingwood in my electorate. As a token of their appreciation they presented me with a gift box of their products",
+      "pdf_url": "husice_43p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2013-06-25",
+      "category": "Hospitality",
+      "entity": "Ebay and Paypal",
+      "details": "On 19 June my wife Bridget and I attended the MidWinter Ball as guests of Ebay and PayPal.",
+      "pdf_url": "husice_43p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/43/husice_43p.pdf"
+}

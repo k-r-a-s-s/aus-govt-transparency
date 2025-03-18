@@ -1,0 +1,214 @@
+{
+  "mp_name": "Tony Burke",
+  "party": "Unknown",
+  "electorate": "WATSON",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Punchbowl, NSW, Residential",
+      "pdf_url": "burke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Meander Valley, Tasmania, Personal/Occasional Rental",
+      "pdf_url": "burke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Punchbowl, NSW, Residential (Spouse/partner)",
+      "pdf_url": "burke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "West Tamar, Tasmania, Investment/Family Use (Spouse/partner)",
+      "pdf_url": "burke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Mortgages on properties listed above",
+      "pdf_url": "burke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Mortgages on properties listed above (Spouse/partner)",
+      "pdf_url": "burke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings Account",
+      "pdf_url": "burke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "ME",
+      "details": "Savings Account",
+      "pdf_url": "burke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings Account (Spouse/partner)",
+      "pdf_url": "burke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from Meander Valley property",
+      "pdf_url": "burke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from West Tamar property (Spouse/partner)",
+      "pdf_url": "burke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Dept of Finance (Spouse/partner)",
+      "pdf_url": "burke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Foxtel services to my Electorate Office, Qantas and Virgin airport lounges",
+      "pdf_url": "burke_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Qantas and Virgin airport lounges (Spouse/partner)",
+      "pdf_url": "burke_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Selected Rugby League games - Canterbury Bulldogs, Selected performances - Opera Australia, Sydney Theatre Company, Belvoir Theatre Company, Griffin Theatre, a number of concerts, performances, festivals and exhibitions in my capacity as Shadow Minister for the Arts.",
+      "pdf_url": "burke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "As Above (Spouse/partner)",
+      "pdf_url": "burke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Selected performances, festivals and concerts (Dependent children)",
+      "pdf_url": "burke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "ALP, Shop, Distributive and Allied Employess Association, Lakemba Bowing Club Benevolent Society, Local Registered Clubs",
+      "pdf_url": "burke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "ALP, United Services Union (Spouse/partner)",
+      "pdf_url": "burke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-11-14",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Unit - Canberra - Investment",
+      "pdf_url": "burke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-11-14",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Mortage Canberra investment property - Creditor Commonwealth Bank",
+      "pdf_url": "burke_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-11-14",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rental income Canberra investment property until 30 Nov 2019",
+      "pdf_url": "burke_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-08-18",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "purchase of land Huon Valley, mortgage CBA",
+      "pdf_url": "burke_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-08-18",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "CBA Mortgage for land Huon Valley",
+      "pdf_url": "burke_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-01-19",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Investment Property* - Huon Valley Council",
+      "pdf_url": "burke_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-01-19",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Investment Property* - City of Port Phillip",
+      "pdf_url": "burke_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-01-19",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Beneficiary - Estate Late Kevin Burke",
+      "pdf_url": "burke_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-01-31",
+      "category": "Investments",
+      "entity": "N/A",
+      "details": "Income from property - City of Port Phillip",
+      "pdf_url": "burke_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-01-31",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Mortgage property - City of Port Phillip - CBA",
+      "pdf_url": "burke_46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/burke_46p.pdf"
+}

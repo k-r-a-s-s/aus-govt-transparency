@@ -1,0 +1,456 @@
+{
+  "mp_name": "Jenny Ware",
+  "party": "N/A",
+  "electorate": "Hughes",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Shares",
+      "entity": "Telstra Corporation Limited",
+      "details": "Self",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Shares",
+      "entity": "Medibank Private Limited",
+      "details": "Self",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Shares",
+      "entity": "Telstra Corporation Limited",
+      "details": "Spouse/partner",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Shares",
+      "entity": "Medibank Private Limited",
+      "details": "Spouse/partner",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable - Self",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable - Spouse/partner",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Real Estate",
+      "entity": "Gymea Bay, NSW",
+      "details": "Residential - Self",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Real Estate",
+      "entity": "Hurstville, NSW",
+      "details": "Part owner, Investment - Self",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Real Estate",
+      "entity": "Coff Harbour, NSW",
+      "details": "Part owner, Investment - Self",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Real Estate",
+      "entity": "Gymea Bay, NSW",
+      "details": "Residential - Spouse/partner",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Real Estate",
+      "entity": "Hurstville, NSW",
+      "details": "Part owner, Investment - Spouse/partner",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Real Estate",
+      "entity": "Coffs Harbour, NSW",
+      "details": "Part owner, Investment - Spouse/partner",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Not Applicable - Self",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Not Applicable - Self",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Liabilities",
+      "entity": "AMP Bank",
+      "details": "Mortgage on Residential, Gymea Bay - Self",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Liabilities",
+      "entity": "AMP Bank",
+      "details": "Mortgage on Investment, Hurstville - Self",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Liabilities",
+      "entity": "AMP Bank",
+      "details": "Mortgage on Residential, Gymea Bay - Spouse/partner",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Liabilities",
+      "entity": "AMP Bank",
+      "details": "Mortgage on Investment, Hurstville - Spouse/partner",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Not Applicable - Self",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Not Applicable - Spouse/partner",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Savings/Investments",
+      "entity": "AMP Bank",
+      "details": "Savings - Self",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Savings/Investments",
+      "entity": "St. George",
+      "details": "Savings - Self",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Savings/Investments",
+      "entity": "AMP Bank",
+      "details": "Savings - Spouse/partner",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Savings/Investments",
+      "entity": "St. George",
+      "details": "Savings - Spouse/partner",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Savings/Investments",
+      "entity": "St. George",
+      "details": "Savings - Dependent children",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation - Self",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Life Insurance - Self",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation - Spouse/partner",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Life Insurance - Spouse/partner",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Not Applicable - Dependent children",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rent - Self",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rent - Spouse/partner",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Wages - Dependent children",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Not Applicable - Self",
+      "pdf_url": "ware_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Memberships",
+      "entity": "Sutherland Shire Softball Association",
+      "details": "Member - Self",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Memberships",
+      "entity": "Monkeys Softball Club Inc.",
+      "details": "Member - Self",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Memberships",
+      "entity": "Sydney Cricket Ground Trust",
+      "details": "Member - Self",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Memberships",
+      "entity": "Gymea Trade Union Club",
+      "details": "Member - Self",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Memberships",
+      "entity": "Miranda RSL Club",
+      "details": "Member - Self",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Memberships",
+      "entity": "Sutherland Bowling Club",
+      "details": "Member - Self",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Memberships",
+      "entity": "Gymea Trade Union Club",
+      "details": "Member - Spouse/partner",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Memberships",
+      "entity": "Miranda RSL Club",
+      "details": "Member - Spouse/partner",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-10-20",
+      "category": "Gifts",
+      "entity": "Foxtel",
+      "details": "Foxtel Annual Subscription",
+      "pdf_url": "ware_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-10-20",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's Lounge",
+      "pdf_url": "ware_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-10-20",
+      "category": "Gifts",
+      "entity": "Virgin",
+      "details": "Virgin Beyond Lounge Velocity Club",
+      "pdf_url": "ware_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-11-23",
+      "category": "Gifts",
+      "entity": "Coalition for Conservation",
+      "details": "COP27 Delegation: Flights and Accommodation: 9-15 November 2022 Provided by Coalition for Conservation",
+      "pdf_url": "ware_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2023-07-19",
+      "category": "Travel",
+      "entity": "AIJAC",
+      "details": "AIJAC's Rambam Program 24 June - 2 July 2023 All expenses included: Flights, Accommodation and all expenses.",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-03",
+      "category": "Travel",
+      "entity": "Coalition for Conservation",
+      "details": "Coalition for Conservation International Climate Conference, August 17-18, 2023 held at the Wildlife Retreat at Taronga Zoo. Accommodation Package was paid for by Coalition for Conservation who hosted the conference",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-06",
+      "category": "Memberships",
+      "entity": "University of Wollongong Liberal Club",
+      "details": "Patron",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-06",
+      "category": "Memberships",
+      "entity": "Club Kirrawee",
+      "details": "Patron",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-06",
+      "category": "Memberships",
+      "entity": "Scott Rindfleish Foundation",
+      "details": "Patron",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-06",
+      "category": "Memberships",
+      "entity": "Club on East",
+      "details": "Member",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-06",
+      "category": "Memberships",
+      "entity": "Cronulla RSL",
+      "details": "Member",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-01-07",
+      "category": "Memberships",
+      "entity": "University of Wollongong Liberal Club",
+      "details": "Patron, ",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-04-29",
+      "category": "Memberships",
+      "entity": "ARAD: Association of Rooftop and Airspace Development",
+      "details": "Bronze Membership 19 March 2024 - 19 March 2025",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-04-29",
+      "category": "Memberships",
+      "entity": "Sutherland Shire Business Chamber",
+      "details": "",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-04-29",
+      "category": "Memberships",
+      "entity": "Rotary Club of Engadine",
+      "details": "",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-04-29",
+      "category": "Memberships",
+      "entity": "Rotary Club of Sutherland",
+      "details": "",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-31",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "VA988 7 March 2024 Brisbane to Sydney Economy Flex Upgrade to Business Class when onboard (offered not requested)",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-31",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "QF44 16 January 2023 Denpasar to Sydney Economy Flex Upgrade to Business Class at the gate (offered not requested)",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-31",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "QF1506 2 December 2022 Canberra to Sydney Economy Flex Upgrade to Business Class at the gate (offered not requested)",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-12-19",
+      "category": "Memberships",
+      "entity": "Ingleburn Business Chamber",
+      "details": "-1 year Membership",
+      "pdf_url": "ware_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-01-07",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Cronulla-Sutherland Sharks Official Signed Jersey 2024",
+      "pdf_url": "ware_47p.pdf",
+      "sub_category": "Clothing"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/ware_47p.pdf"
+}

@@ -1,0 +1,542 @@
+{
+  "mp_name": "Garth Hamilton",
+  "party": "N/A",
+  "electorate": "Groom",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Shares",
+      "entity": "Harvey Norman Holdings Limited",
+      "details": "Self",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Shares",
+      "entity": "Stockland Corporation Ltd",
+      "details": "Self",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Trusts",
+      "entity": "Garth & Louise Hamilton Family Trust",
+      "details": "Self, Property Investment, Joint Beneficiary",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Trusts",
+      "entity": "Garth & Louise Hamilton Family Trust",
+      "details": "Spouse/partner, Property Investment, Joint Beneficiary",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "South Toowoomba, Investment, Self",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "South Toowoomba, Investment, Self",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Middle Ridge, Investment, Self",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "South Toowoomba, Investment, Spouse/partner",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "South Toowoomba, Investment, Spouse/partner",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Middle Ridge, Investment, Spouse/partner",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Partnerships",
+      "entity": "G & L Hamilton Partnership",
+      "details": "Self, Financial Partner, Consulting",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Partnerships",
+      "entity": "G & L Hamilton Partnership",
+      "details": "Spouse/partner, Financial Partner, Consulting",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Mortgage on Investment Property - South Toowoomba, Self",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Mortgage on Investment Property - South Toowoomba, Self",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Mortgage on Investment Property - South Toowoomba, Self",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Mortgage on Investment Property - Middle Ridge, Self",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Mortgage on Investment Property - South Toowoomba, Spouse/partner",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Mortgage on Investment Property - South Toowoomba, Spouse/partner",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Mortgage on Investment Property - South Toowoomba, Spouse/partner",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Mortgage on Investment Property - Middle Ridge, Spouse/partner",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Liabilities",
+      "entity": "ING",
+      "details": "Mortgage Perth, Self",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Liabilities",
+      "entity": "ING",
+      "details": "Mortgage Perth, Spouse/partner",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Credit Card, Self",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Credit Card, Spouse/partner",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings, Self",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Savings, Self",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Transaction, Self",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings, Spouse/partner",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings, Dependent children",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Savings/Investments",
+      "entity": "Heritage",
+      "details": "Savings, Dependent children",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Car, Self",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Other Assets",
+      "entity": "QSuper",
+      "details": "Superannuation, Self",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Other Assets",
+      "entity": "AMP",
+      "details": "Superannuation, Self",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "UK Occupational Pension Scheme, Superannuation, Self",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Car, Spouse/partner",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Other Assets",
+      "entity": "AMP",
+      "details": "Superannuation, Spouse/partner",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Other Assets",
+      "entity": "Lloyds",
+      "details": "Superannuation, Spouse/partner",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rent - Investment Property - South Toowoomba, Self",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rent - Investment Property - South Toowoomba, Self",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rent - Investment Property - Middle Ridge, Self",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rent - Investment Property - South Toowoomba, Spouse/partner",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rent - Investment Property - South Toowoomba, Spouse/partner",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rent - Investment Property - Middle Ridge, Spouse/partner",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Business income, Self",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Employment income, Spouse/partner",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Memberships",
+      "entity": "Qantas Chairman's Lounge",
+      "details": "Self",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Memberships",
+      "entity": "Virgin Australia Beyond Program",
+      "details": "Self",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Memberships",
+      "entity": "National Press Club of Australia",
+      "details": "Self",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Other Interests",
+      "entity": "Fairholme College",
+      "details": "P & F Fundraising Committee, Spouse/partner",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Other Interests",
+      "entity": "Protea Place",
+      "details": "Fundraising, Spouse/partner",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Other Interests",
+      "entity": "Toowoomba Grammar School",
+      "details": "Fundraising, Spouse/partner",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Dependent Child - Academic Scholarship, Dependent children",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-11-30",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Dependent Child - Reduction in school fees due to spouse employment",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-12-08",
+      "category": "Memberships",
+      "entity": "Upper Flagstone Rural Fire Brigade",
+      "details": "(Volunteer Firefighter)",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-06-28",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Self - Newtown - Residential",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-06-28",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Spouse/partner - Newtown - Residential",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-06-28",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Self - South Toowoomba - Investment, DELETION",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-06-28",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Spouse/partner - South Toowoomba - Investment, DELETION",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-06-28",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Self - Rent - Investment Property - South Toowoomba, DELETION",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-06-28",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Spouse/partner - Rent - Investment Property - South Toowoomba, DELETION",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-06-28",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Self - Mortgage on Residential Property - Newtown",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-06-28",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Spouse/partner - Mortgage on Residential Property - Newtown",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-06-28",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Self - Mortgage on Investment Property - South Toowoomba, DELETION",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-06-28",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Spouse/partner - Mortgage on Investment Property - South Toowoomba, DELETION",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-06-28",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Dependent Child - Reduction in school fees due to spouse employment, DELETION",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-07-13",
+      "category": "Other Assets",
+      "entity": "BUSSQ",
+      "details": "Spouse/partner - Superannuation",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-06-28",
+      "category": "Travel",
+      "entity": "Alliance for Responsible Citizenship",
+      "details": "Self - Airfares and accommodation to attend London UK conference (30 Oct 2023 - 1 Nov 2023)",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-09-01",
+      "category": "Gifts",
+      "entity": "A constituent",
+      "details": "Great Grandfather Rare Tawny Gift Box ($350)",
+      "pdf_url": "hamilton_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2024-03-18",
+      "category": "Travel",
+      "entity": "Australia/Israel & Jewish Affairs Council (AIJAC)",
+      "details": "Self - Airfares and accommodation to participate in the MP Study Visit to Israel (8 Mar 2024 \u2013 14 Mar 2024)",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-17",
+      "category": "Shares",
+      "entity": "Harvey Norman Holdings Limited",
+      "details": "DELETION",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-17",
+      "category": "Shares",
+      "entity": "Stockland Corporation Ltd",
+      "details": "DELETION",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-09-02",
+      "category": "Travel",
+      "entity": "American Chamber of Commerce in Australia (AmCham) and the Insurance Council of Australia (ICA)",
+      "details": "Self - Airfares and accommodation to participate in the AmCham/ICA US Study Tour (21 - 26 July 2024)",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-09-02",
+      "category": "Hospitality",
+      "entity": "Suncorp Stadium",
+      "details": "Tickets to various rugby games at Suncorp Stadium courtesy of a constituent",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-09-03",
+      "category": "Other Interests",
+      "entity": "Queensland Theatre",
+      "details": "Child - Bursary of $1100 to attend Theatre Residency Week (TRW) in Brisbane from 16 to 21 September 2024",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Two tickets to Toowoomba Weetwood Raceday (28 September 2024)",
+      "pdf_url": "hamilton_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-02-18",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Tickets to Brisbane Roar FC v Newcastle Jets at Suncorp Stadium (7 January 2025)",
+      "pdf_url": "hamilton_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/hamilton_47p.pdf"
+}

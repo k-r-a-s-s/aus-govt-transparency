@@ -1,0 +1,161 @@
+{
+  "mp_name": "Andrew Giles",
+  "party": "Unknown",
+  "electorate": "Scullin",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Shares",
+      "entity": "Telstra",
+      "details": "Telstra",
+      "pdf_url": "giles_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Shares",
+      "entity": "Wesfarmers",
+      "details": "Wesfarmers",
+      "pdf_url": "giles_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Clifton Hill, Victoria. Residential",
+      "pdf_url": "giles_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Mortgage on residential property",
+      "pdf_url": "giles_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Savings",
+      "pdf_url": "giles_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings",
+      "pdf_url": "giles_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation",
+      "pdf_url": "giles_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Income Sources",
+      "entity": "University of Melbourne",
+      "details": "Salary - University of Melbourne",
+      "pdf_url": "giles_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's Lounge membership",
+      "pdf_url": "giles_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Gifts",
+      "entity": "Virgin",
+      "details": "Virgin Club membership",
+      "pdf_url": "giles_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-08-22",
+      "category": "Memberships",
+      "entity": "Australian Services Union",
+      "details": "Australian Services Union",
+      "pdf_url": "giles_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-12-20",
+      "category": "Gifts",
+      "entity": "Australian Chamber of Commerce",
+      "details": "Penfolds St Henri Shiraz 2017 from the Australian Chamber of Commerce",
+      "pdf_url": "giles_47p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2022-12-20",
+      "category": "Gifts",
+      "entity": "Orthodox Archdiocese of Australia",
+      "details": "Medallion and Icon from the Orthodox Archdiocese of Australia",
+      "pdf_url": "giles_47p.pdf",
+      "sub_category": "Decorative"
+    },
+    {
+      "declaration_date": "2023-05-30",
+      "category": "Travel",
+      "entity": "Holding Redlich",
+      "details": "Use of a Boardroom, including lunch, coffee and afternoon tea from Holding Redlich",
+      "pdf_url": "giles_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-07-31",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Unrequested Flight Upgrade from Economy to Business on VA259 MEL - CBR (24/07/23)",
+      "pdf_url": "giles_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-29",
+      "category": "Travel",
+      "entity": "Virgin Australia",
+      "details": "Unrequested upgrade from Economy to Business Class on a Virgin Australia flight from Perth to Melbourne",
+      "pdf_url": "giles_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-31",
+      "category": "Gifts",
+      "entity": "Gold Coast Afghan Community Inc",
+      "details": "Small woven rug from the Gold Coast Afghan Community Inc valued at $500.",
+      "pdf_url": "giles_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-11-13",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Unrequested upgrade at check-in from Economy to Business on Qantas Flight Melbourne to Canberra (12/11/23)",
+      "pdf_url": "giles_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-17",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Unrequested flight upgrade from economy to business on Qantas flight (CBR - MEL) 17/11/2023.",
+      "pdf_url": "giles_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-27",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Unrequested flight upgrade at airport from Economy to Business on Qantas flight Melbourne to Canberra on 26/11/23",
+      "pdf_url": "giles_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-29",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Unrequested Qantas upgrade to Business Class on flight QF1548.",
+      "pdf_url": "giles_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/giles_47p.pdf"
+}

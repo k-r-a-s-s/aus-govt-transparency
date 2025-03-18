@@ -1,0 +1,446 @@
+{
+  "mp_name": "Sarah Moya Henderson",
+  "party": "Unknown",
+  "electorate": "Corangamite",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "AGL Energy Ltd",
+      "details": "Held Personally",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Alinta Energy Ltd",
+      "details": "Held Personally",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Aristocrat Liesure Ltd",
+      "details": "Held Personally",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Cisco Systems Inc",
+      "details": "Held Personally",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Fairfax Media Ltd",
+      "details": "Held Personally",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Infigen Energy Ltd",
+      "details": "Held Personally",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Lendlease Group Corporation Ltd",
+      "details": "Held Personally",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Mining Projects Group Ltd",
+      "details": "Held Personally",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "National Australia Bank Ltd",
+      "details": "Held Personally",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "News Corporation",
+      "details": "Held Personally",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Qantas Airways Ltd",
+      "details": "Held Personally",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Santos Ltd",
+      "details": "Held Personally",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Ten Network Holdings Limited",
+      "details": "Held Personally",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Twenty-First Century Fox Inc",
+      "details": "Held Personally",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Amcor Limited",
+      "details": "Held by SMH Superannuation Fund",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Australian Foundation Investment Company Ltd",
+      "details": "Held by SMH Superannuation Fund",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Bendigo",
+      "details": "Held by SMH Superannuation Fund",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Adelaide Bank Ltd",
+      "details": "Held by SMH Superannuation Fund",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "BHP Billiton Limited",
+      "details": "Held by SMH Superannuation Fund",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "ISHS China EFT",
+      "details": "Held by SMH Superannuation Fund",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Woodside Petroleum",
+      "details": "Held by SMH Superannuation Fund",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Australia",
+      "details": "Spouse",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "New Zealand Banking Group Ltd",
+      "details": "Spouse",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Spouse",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "iSelect Ltd",
+      "details": "Spouse",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Metagasco Ltd",
+      "details": "Spouse",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Origin Energy Ltd",
+      "details": "Spouse",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Trusts",
+      "entity": "Kudos Management Group Trust",
+      "details": "Business",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Trusts",
+      "entity": "SMH Superannuation Fund Trust",
+      "details": "Self-managed superannuation fund",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Property, Barwon Heads (jointly owned with spouse) Residence",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Property, Birregurra Primary Production",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Property, Ombersley Vendor Finance",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "Kudos Management Group Pty Ltd",
+      "details": "Corporate trustee, previously a consulting business",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Bank loans (spouse)",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Personal saving",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Personal saving",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Electorate allowance",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Joint saving with spouse",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Kudos Management",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "SMH Superannuation Fund",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "Fidelity Investments",
+      "details": "401(k) investment",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Personal saving (spouse)",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Electorate allowance (spouse)",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Joint saving with spouse (spouse)",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "Bendigo and Adelaide Bank",
+      "details": "Personal saving (spouse)",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "AMP",
+      "details": "Superannuation (spouse)",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from investments.",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from work as Victorian Member of Parliament; income from primary production in Birregurra; income from investments.",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Gifts",
+      "entity": "Australian Subscription Television and Radio Association, Qantas Airways, Virgin Australia",
+      "details": "Annual Foxtel subscription provided by Australian Subscription Television and Radio Association to electorate office; Chairman's Club membership provided by Qantas Airways; The Club membership provided by Virgin Australia.",
+      "pdf_url": "hendersons_44p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Travel",
+      "entity": "Victorian government",
+      "details": "Two Victoria Racing Club members tickets provided by Victoria Racing Club annually; Myki ticket for unlimited travel on Victorian government owned public transport.",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Hospitality",
+      "entity": "VECCI",
+      "details": "Hospitality provided by VECCI, AFL Finals football match, 20 September 2013.",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Hospitality",
+      "entity": "VECCI",
+      "details": "Hospitality provided by VECCI, AFL Grand Final football match, 28 September 2013.*",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Hospitality",
+      "entity": "Tabcorp",
+      "details": "Hospitality provided by Tabcorp, Spring Racing Carnival Melbourne, 2 November 2011.*",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Melbourne Cricket Club, Victoria Racing Club, Geelong Football Club, Irrewarra Beeac Football Club",
+      "details": "Melbourne Cricket Club; Victoria Racing Club; Geelong Football Club; Irrewarra Beeac Football Club (no. 1 ticket holder 2013).",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Melbourne Cricket Club, The Australian Club, Geelong Football Club, Victorian Farmers Federation; Otway Agroforesty Network; Birregurra Golf Club; Qantas Club",
+      "details": "Spouse",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Machinery and plant (primary production) (spouse)",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Australia",
+      "details": "Spouse (deletion)",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "New Zealand Banking Group Ltd",
+      "details": "Spouse (deletion)",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Spouse (deletion)",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Origin Energy Ltd",
+      "details": "Spouse (deletion)",
+      "pdf_url": "hendersons_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-10-17",
+      "category": "Gifts",
+      "entity": "AFL",
+      "details": "Two tickets to the 2014 AFL Grand Final, as provided by the AFL.",
+      "pdf_url": "hendersons_44p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2015-11-18",
+      "category": "Gifts",
+      "entity": "Jemala Pty Ltd",
+      "details": "1 x Shawl provided by Jemala Pty Ltd",
+      "pdf_url": "hendersons_44p.pdf",
+      "sub_category": "Other Gifts"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/hendersons_44p.pdf"
+}

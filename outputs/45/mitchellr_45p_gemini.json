@@ -1,0 +1,138 @@
+{
+  "mp_name": "Robert George Mitchell",
+  "party": "Unknown",
+  "electorate": "McEwen",
+  "disclosures": [
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Self: NIL, Spouse: NIL, Dependent Children: NIL",
+      "pdf_url": "mitchellr_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Self: N/A, Spouse: Not applicable, Dependent Children: N/A",
+      "pdf_url": "mitchellr_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Self: NIL, Spouse: NIL, Dependent Children: NIL",
+      "pdf_url": "mitchellr_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Whittlesea - Residence (Self), Whittlesea - Residence (Spouse)",
+      "pdf_url": "mitchellr_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "mitchellr_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "mitchellr_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Mortgage (Self), Mortgage (Spouse), Dependent Children: NIL",
+      "pdf_url": "mitchellr_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Savings/Investments",
+      "entity": "Westpac, CBA",
+      "details": "Savings accounts",
+      "pdf_url": "mitchellr_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "mitchellr_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Salary (Spouse), NIL (Self), NIL(Dependent Children)",
+      "pdf_url": "mitchellr_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Gifts",
+      "entity": "Qantas, Virgin",
+      "details": "FF",
+      "pdf_url": "mitchellr_45p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "mitchellr_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "mitchellr_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "mitchellr_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-28",
+      "category": "Income Sources",
+      "entity": "ASTRA",
+      "details": "Received a complimentary pay-tv subscription for electorate office courtesy of ASTRA.",
+      "pdf_url": "mitchellr_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-02-14",
+      "category": "Gifts",
+      "entity": "Macedon Ranges Shire Council",
+      "details": "2x tickets Bruce Springsteen Hanging Rock Reserve 11/02/17",
+      "pdf_url": "mitchellr_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2017-11-08",
+      "category": "Gifts",
+      "entity": "Macedon Ranges Shire",
+      "details": "2 tickets to Midnight Oil council Courtesy of Macedon Ranges Shire",
+      "pdf_url": "mitchellr_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2018-03-23",
+      "category": "Hospitality",
+      "entity": "AFL",
+      "details": "2 x tickets to the Richmond President's Dinner 22/03 courtesy of the AFL",
+      "pdf_url": "mitchellr_45p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/mitchellr_45p.pdf"
+}

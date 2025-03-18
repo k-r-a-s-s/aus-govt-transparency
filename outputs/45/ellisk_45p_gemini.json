@@ -1,0 +1,119 @@
+{
+  "mp_name": "Katherine Margaret Ellis",
+  "party": "N/A",
+  "electorate": "Adelaide",
+  "disclosures": [
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Wayville, SA; Norwood, SA; Kingston, ACT - residential, investment, residential",
+      "pdf_url": "ellisk_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Wayville; Aldinga - residential, holiday home",
+      "pdf_url": "ellisk_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Liabilities",
+      "entity": "ANZ",
+      "details": "Mortgage",
+      "pdf_url": "ellisk_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Liabilities",
+      "entity": "ANZ",
+      "details": "Mortgage",
+      "pdf_url": "ellisk_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "Savings",
+      "pdf_url": "ellisk_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth",
+      "details": "Savings",
+      "pdf_url": "ellisk_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Income Sources",
+      "entity": "News Ltd, FiveAA",
+      "details": "income for employment",
+      "pdf_url": "ellisk_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "N/A",
+      "entity": "N/A",
+      "details": "Alteration",
+      "pdf_url": "ellisk_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-06-13",
+      "category": "Memberships",
+      "entity": "Adelaide Crows Football Club Board",
+      "details": "Director - AFL club",
+      "pdf_url": "ellisk_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-06-13",
+      "category": "Memberships",
+      "entity": "Australian Institute of Company Directors",
+      "details": "Professional Association",
+      "pdf_url": "ellisk_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-10-27",
+      "category": "Gifts",
+      "entity": "Adelaide Football Club",
+      "details": "AFL Grand final tickets, flights & accomodation for 2 - as one of the Directors",
+      "pdf_url": "ellisk_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2017-11-15",
+      "category": "Gifts",
+      "entity": "ADELAIDE FOOTBALL CLUB",
+      "details": "2 AFL Grandfinal tickets",
+      "pdf_url": "ellisk_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2018-06-15",
+      "category": "Gifts",
+      "entity": "Netball Aust",
+      "details": "Telstra Television Box - Gifted",
+      "pdf_url": "ellisk_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2018-06-15",
+      "category": "Gifts",
+      "entity": "Adelaide Football Club",
+      "details": "Season passes - Gifted",
+      "pdf_url": "ellisk_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2018-10-05",
+      "category": "Gifts",
+      "entity": "Adelaide Crows Football Club",
+      "details": "2 x flights, AFL GF tickets + accommodation as a Director of the",
+      "pdf_url": "ellisk_45p.pdf",
+      "sub_category": "Sports Tickets"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/ellisk_45p.pdf"
+}

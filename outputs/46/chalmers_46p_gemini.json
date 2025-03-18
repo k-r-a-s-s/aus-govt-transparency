@@ -1,0 +1,448 @@
+{
+  "mp_name": "Jim Chalmers",
+  "party": "Australian Labor Party (ALP)",
+  "electorate": "Rankin",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "House (Daisy Hill, QLD) - Primary Residence; Apartment (Forrest, ACT) - Secondary Residence",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Mortgage (Daisy Hill, QLD); Mortgage (Forrest, ACT); Credit card (debit and credit)",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Savings Account; Cheque Account",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Savings Account",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings Account",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "CRA",
+      "details": "Savings Account",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "MLC",
+      "details": "Managed Fund",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation (Q Super); Superannuation (Australian Super); Superannuation (MLC); 2015 Mazda 5",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "Courier Mail",
+      "details": "Journalist Salary",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "chalmers_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's Lounge; Virgin Velocity - The Club Membership; Qantas Platinum One Status",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Georgetown University",
+      "details": "Advisory Board Member for Centre for Australian, New Zealand and Pacific Students (Georgetown University, Washington) (since 2014)",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "ALP",
+      "details": "Australian Labor Party (ALP)",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "AWU",
+      "details": "Australian Workers Union (AWU)",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Griffith University",
+      "details": "Griffith University Logan Campus Development Advisory Group",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Logan Chamber of Commerce",
+      "details": "Logan Chamber of Commerce (General Membership)",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Australian Institute of Company Directors",
+      "details": "Australian Institute of Company Directors",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Griffith University",
+      "details": "School of Government and International Relations Advisory Board (Griffith University)",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Karawatha Forest Protection Society",
+      "details": "Karawatha Forest Protection Society",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Koongoora Women's Refuge",
+      "details": "Koongoora Women's Refuge",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "National Seniors",
+      "details": "National Seniors",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Multilink Community Services",
+      "details": "Multilink Community Services",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "PGA of Australia",
+      "details": "PGA of Australia Honorary Membership",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Kingston East Neighbourhood Group",
+      "details": "Kingston East Neighbourhood Group",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "4118 Club",
+      "details": "4118 Club",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Surf Life Saving QLD",
+      "details": "Surf Life Saving QLD - vice patron role",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "House (Springwood QLD) (Jointly with spouse) - Vacant until taking up primary residence",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Mortgage (Springwood, QLD) (Jointly with spouse)",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Credit Card - CBA (Spouse)",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Travel",
+      "entity": "Lion",
+      "details": "State of Origin Game 1 Match with Lion (x1 ticket in corporate box) on 05 June 2019 in Brisbane (Self)",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Women in Media Qld Div(Spouse)",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Journalist Salary (Uri Eunice)(Spouse)",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Savings Account (ING) - self",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation (MLC) - self",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Journalist Salary (Courier Mail) (Spouse)",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-08-14",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Springwood (QLD) - Primary Residence",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-08-14",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Daisy Hill (QLD) - Vacant until sold",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-08-14",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Springwood (QLD) - Vacant until taking up residence",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-08-14",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Daisy Hill (QLD) - Primary Residence",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-09-19",
+      "category": "Hospitality",
+      "entity": "Lion",
+      "details": "Press Gallery Mid-Winter Ball tickets courtesy of LION (x2) (Wednesday 18 September 2019)",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-08",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Daisy Hill (QLD)",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-08",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Mortgage (Daisy Hill, QLD)",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-23",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "3-month membership at F45 Training Logan Central",
+      "pdf_url": "chalmers_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-11-06",
+      "category": "Gifts",
+      "entity": "Telstra",
+      "details": "Tickets for Grinspoon Chemical Hearts Tour from Telstra (x6) on 08 November 2019 (donated to local organisation)",
+      "pdf_url": "chalmers_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2019-11-06",
+      "category": "Gifts",
+      "entity": "Telstra",
+      "details": "Donated tickets received from Telstra for Grinspoon Chemical Hearts Tour to local volunteers at Springwood AFL Club and staff",
+      "pdf_url": "chalmers_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2020-01-20",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "F45 Logan Central Membership",
+      "pdf_url": "chalmers_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2020-01-20",
+      "category": "Gifts",
+      "entity": "QPAC",
+      "details": "Gift to spouse in her work capacity, attended \"Book of Mormon\" at QPAC on 05 January 2020",
+      "pdf_url": "chalmers_46p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2020-06-15",
+      "category": "Gifts",
+      "entity": "Greenlee Cottages",
+      "details": "Provided to spouse in work capacity - two nights accommodation at Greenlee Cottages (Canungra, Scenic Rim) (5-7 June 2020)",
+      "pdf_url": "chalmers_46p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2020-12-02",
+      "category": "Gifts",
+      "entity": "Noosa Tourism",
+      "details": "Provided to spouse in work capacity - weekend accommodation provided by Noosa Tourism (04-06 December 2020)",
+      "pdf_url": "chalmers_46p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2020-12-02",
+      "category": "Gifts",
+      "entity": "Destination Gold Coast",
+      "details": "Provided to spouse in work capacity - Weekend accommodation provided by Destination Gold Coast (13-15 November 2020)",
+      "pdf_url": "chalmers_46p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2021-03-05",
+      "category": "Gifts",
+      "entity": "Utting Research",
+      "details": "Local issues identification and market research - Utting Research",
+      "pdf_url": "chalmers_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-03-23",
+      "category": "Gifts",
+      "entity": "Lion Nathan",
+      "details": "3 x Queensland State of Origin replica training jerseys, one signed by team. Received from Lion Nathan.",
+      "pdf_url": "chalmers_46p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2022-01-27",
+      "category": "Travel",
+      "entity": "Brisbane Bullets",
+      "details": "Guest of the Brisbane Bullets - 3 tickets plus parking to the Brisbane Bullets versus Melbourne United NBL Game (Wednesday 26 January 2022)",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-03-30",
+      "category": "Hospitality",
+      "entity": "Brisbane Broncos",
+      "details": "NRL Round 1 - Brisbane Broncos v South Sydney hosted by the Chairman, Brisbane Broncos (1x ticket in Chairman's Lounge) on 11 March in Brisbane",
+      "pdf_url": "chalmers_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-04-07",
+      "category": "Gifts",
+      "entity": "Former Origin Greats",
+      "details": "Framed Queensland jersey received from the Former Origin Greats (worth more than $300.00)",
+      "pdf_url": "chalmers_46p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2022-03-30",
+      "category": "Hospitality",
+      "entity": "Brisbane Broncos",
+      "details": "NRL Round 1 - 1 ticket to Brisbane Broncos v South Sydney hosted by the Broncos Chairman, 11 March 2022 in Brisbane",
+      "pdf_url": "chalmers_46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/chalmers_46p.pdf"
+}

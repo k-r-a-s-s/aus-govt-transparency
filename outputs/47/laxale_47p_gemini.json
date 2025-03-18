@@ -1,0 +1,771 @@
+{
+  "mp_name": "Jerome Laxale",
+  "party": "Unknown",
+  "electorate": "Bennelong",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Shares",
+      "entity": "Laxale's Hair",
+      "details": "Self",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Shares",
+      "entity": "Beauty Supplies Pty Ltd",
+      "details": "Self",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Shares",
+      "entity": "GFTH PTY LTD",
+      "details": "Spouse/partner",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Not Applicable Dependent Children",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable Self",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Trusts",
+      "entity": "The Koorooba Trust",
+      "details": "Spouse/partner, Investment, Joint Beneficiary",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable Dependent children",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable Self",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable Spouse/partner",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable Dependent children",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Not Applicable Self",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Real Estate",
+      "entity": "North Ryde, NSW",
+      "details": "Spouse/partner, Residential",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Not Applicable Dependent children",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Directorships",
+      "entity": "StateCover Mutual",
+      "details": "Self, Workers Compensation insurance",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Directorships",
+      "entity": "Local Government Procurement (Associate Director)",
+      "details": "Self, Procurement Company",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Directorships",
+      "entity": "Local Government NSW",
+      "details": "Self, Industry Body",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Directorships",
+      "entity": "GFTH PTY LTD",
+      "details": "Spouse/partner, Consultancy",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Not Applicable Dependent children",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Not Applicable Self",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Not Applicable Spouse/partner",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Not Applicable Dependent children",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Not Applicable Self",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Liabilities",
+      "entity": "First Mac",
+      "details": "Mortgage on residential property Spouse/partner",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Not Applicable Dependent children",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Not Applicable Self",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Savings/Investments",
+      "entity": "Colonial First State",
+      "details": "Managed Fund Spouse/partner",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Savings/Investments",
+      "entity": "Australian Ethical",
+      "details": "Managed Fund Dependent children",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Savings Self",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Savings Spouse/partner",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Savings Dependent children",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation Self",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation Spouse/partner",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Life Assurance Policy Spouse/partner",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Not Applicable Dependent children",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Directors Fees StateCover Mutual and Local Government NSW Self",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "City of Ryde Councillor Salary Self",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Interest from Savings Self",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Sole Trader Consultant Self",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Shareholding Divdend Self",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Employment Spouse/partner",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from Savings Spouse/partner",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Shareholding Dividend Spouse/partner",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from Managed Funds Spouse/partner",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from Savings Dependent children",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from Managed Funds Dependent children",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Not Applicable Self",
+      "pdf_url": "laxale_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Not Applicable Spouse/partner",
+      "pdf_url": "laxale_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Not Applicable Dependent children",
+      "pdf_url": "laxale_47p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Not Applicable Self",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Not Applicable Spouse/partner",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Not Applicable Dependent children",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Not Applicable Self",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Not Applicable Spouse/partner",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Not Applicable Dependent children",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not Applicable Self",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not Applicable Spouse/partner",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-03",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not Applicable Dependent children",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-07-27",
+      "category": "Hospitality",
+      "entity": "Qantas Chairmans Lounge",
+      "details": "Membership to Qantas Chairmans Lounge",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-07-27",
+      "category": "Directorships",
+      "entity": "Statecover Mutual",
+      "details": "Resigned director of Statecover Mutual",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-07-27",
+      "category": "Directorships",
+      "entity": "Local Government Procurement",
+      "details": "Resigned associate director of Local Government Procurement",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-07-27",
+      "category": "Directorships",
+      "entity": "Local Government NSW",
+      "details": "Resigned director of Local Government NSW",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-07-27",
+      "category": "Income Sources",
+      "entity": "City of Ryde",
+      "details": "Resigned Councillor on the City of Ryde",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-07-27",
+      "category": "Income Sources",
+      "entity": "Statecover Mutual",
+      "details": "Resigned director of Statecover Mutual",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-07-27",
+      "category": "Income Sources",
+      "entity": "Local Government Procurement",
+      "details": "Resigned associate director of Local Government Procurement",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-07-27",
+      "category": "Income Sources",
+      "entity": "Local Government NSW",
+      "details": "Resigned director of Local Government NSW",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-23",
+      "category": "Other Interests",
+      "entity": "Moko Operations Pty Ltd",
+      "details": "Provision of venue and catering for constituent events from time to time from Moko Operations Pty Ltd",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-10-10",
+      "category": "Travel",
+      "entity": "Virgin Beyond Lounge",
+      "details": "Membership of Virgin Beyond Lounge",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-10-10",
+      "category": "Hospitality",
+      "entity": "Sydney FC vs Melbourne Victory",
+      "details": "Tickets to Sydney FC vs Melbourne Victory",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-10-27",
+      "category": "Trusts",
+      "entity": "The Koorooba Trust",
+      "details": "Spouse no longer has interest in The Koorooba Trust as I'm advised that it has been closed.",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-12-06",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Unit - Canberra (Investment)",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-12-06",
+      "category": "Hospitality",
+      "entity": "Sydney FC vs Western Sydney Wanderers",
+      "details": "Tickets to Sydney FC vs Western Sydney Wanderers",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-12-06",
+      "category": "Other Interests",
+      "entity": "City of Ryde's Sustainable Waste to Art Prize artists",
+      "details": "Various artworks on loan from City of Ryde's Sustainable Waste to Art Prize artists for display in Parliamentary Office",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-12-06",
+      "category": "Liabilities",
+      "entity": "Resimac",
+      "details": "Mortgage on property in Canberra - Creditor is Resimac",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-12-06",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "rent from investment property",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-12-06",
+      "category": "Travel",
+      "entity": "Virgin Beyond Lounge",
+      "details": "Spouse - Membership of Virgin Beyond Lounge",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-02-20",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Foxtel installation and subscription as electorate office",
+      "pdf_url": "laxale_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-02-20",
+      "category": "Hospitality",
+      "entity": "Matildas vs Spain",
+      "details": "Tickets to Matildas vs Spain",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-09",
+      "category": "Liabilities",
+      "entity": "Humm",
+      "details": "Loan with Humm for Home Improvements",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-09",
+      "category": "Hospitality",
+      "entity": "Sydney FC vs Newcastle Jets",
+      "details": "Tickets to Sydney FC vs Newcastle Jets",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-09",
+      "category": "Memberships",
+      "entity": "Australian Asian Association of Bennelong",
+      "details": "Patron of the Australian Asian Association of Bennelong",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-07-04",
+      "category": "Hospitality",
+      "entity": "A League",
+      "details": "Tickets to A-League Grand Final provided by A League",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-11",
+      "category": "Travel",
+      "entity": "Korea Foundation",
+      "details": "Accommodation, hospitality and ground travel on Australian Political Exchange Council delegation to Seoul, Republic of Korea provided by the Korea Foundation",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-11",
+      "category": "Hospitality",
+      "entity": "Optus",
+      "details": "Tickets to the FIFA Womens World Cup England vs Denmark and Netherlands vs South Africa provided by Optus",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-11",
+      "category": "Hospitality",
+      "entity": "FIFA",
+      "details": "Tickets to the FIFA Womens World Cup England vs Denmark provided by FIFA",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-11",
+      "category": "Other Interests",
+      "entity": "FIFA",
+      "details": "FIFA Womens World Cup Merchandise provided by FIFA",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-09-11",
+      "category": "Hospitality",
+      "entity": "FIFA",
+      "details": "Ticket to the FIFA womens world cup final provided by FIFA (unable to attend)",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-09-11",
+      "category": "Other Interests",
+      "entity": "The Ranch, Marsfield",
+      "details": "Provision of venue and catering for constituent events from time to time from The Ranch, Marsfield.",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-09-11",
+      "category": "Hospitality",
+      "entity": "FIFA",
+      "details": "Tickets to the FIFA womens world cup Australia vs England provided by FIFA",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-10-09",
+      "category": "Hospitality",
+      "entity": "Memento Hospitality",
+      "details": "Provision of venue and catering for events from time to time from Memento Hospitality",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-10-09",
+      "category": "Other Interests",
+      "entity": "Hyundai",
+      "details": "Use of vehicles from time to time from Hyundai",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-10-09",
+      "category": "Hospitality",
+      "entity": "Sydney FC",
+      "details": "Tickets to Sydney FC Sky Blue Ball provided by Sydney FC",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-27",
+      "category": "Hospitality",
+      "entity": "Edwards Life Sciences",
+      "details": "Ticket to Amcham Alliance Dinner by Edwards Life Sciences",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-27",
+      "category": "Hospitality",
+      "entity": "Pharmacy Guild",
+      "details": "Tickets to Sydney Institute Annual Dinner Lecture by Pharmacy Guild",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-27",
+      "category": "Hospitality",
+      "entity": "Armenian National Committee of Australia",
+      "details": "Tickets to Armenian National Committee Annual Fundraising Dinner by the Armenian National Committee of Australia",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-01-25",
+      "category": "Travel",
+      "entity": "Australian American Leadership Dialogue",
+      "details": "Meals, transfers and attendance at the West Coast Leadership Dialogue by the Australian American Leadership Dialogue",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-12",
+      "category": "Hospitality",
+      "entity": "Sydney FC",
+      "details": "Tickets to Sydney FC vs Brisbane Roar given by Sydney FC",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-08",
+      "category": "Hospitality",
+      "entity": "Sydney FC",
+      "details": "Tickets to Sydney FC vs Perth Glory from Sydney FC",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-06-03",
+      "category": "Travel",
+      "entity": "Australian Turf Club",
+      "details": "Tickets to Lord Mayors Cup provided by Australian Turf Club",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-17",
+      "category": "Hospitality",
+      "entity": "Foxtel",
+      "details": "Tickets to midwinter ball provided by Foxtel",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-17",
+      "category": "Hospitality",
+      "entity": "Australian Investment Council",
+      "details": "Tickets to midwinter ball provided by Australian Investment Council",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-24",
+      "category": "Hospitality",
+      "entity": "PACA Sydney",
+      "details": "Tickets to American Idiot Play provided by PACA Sydney",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-12-24",
+      "category": "Hospitality",
+      "entity": "Sydney FC",
+      "details": "Tickets to Sydney FC vs Western Sydney Wanderers from Sydney FC",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-12-24",
+      "category": "Gifts",
+      "entity": "NRL",
+      "details": "Signed Wests Tigers Jersey from the NRL",
+      "pdf_url": "laxale_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2025-01-24",
+      "category": "Hospitality",
+      "entity": "Sydney FC",
+      "details": "Tickets to Sydney FC vs Central Coast Mariners by Sydney FC",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-01-24",
+      "category": "Hospitality",
+      "entity": "Hoops Capital",
+      "details": "Tickets to Sydney Kings vs Adelaide 36ers by Hoops Capital",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-02-05",
+      "category": "Other Interests",
+      "entity": "democracyCo",
+      "details": "Deliberative Democracy Forum promoted and facilitated by democracyCo, to be held in March 2025.",
+      "pdf_url": "laxale_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-02-14",
+      "category": "Gifts",
+      "entity": "Avocados Australia",
+      "details": "One tray of avocados provided by Avocados Australia, and a further two trays passed onto me by my colleagues to avoid food waste. To be brought back to Bennelong to give to local residents.",
+      "pdf_url": "laxale_47p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2025-03-03",
+      "category": "Hospitality",
+      "entity": "Humanise Health",
+      "details": "Tickets to 'So Hot Right Now Redefining Menopause' conference provided by 'Humanise Health'",
+      "pdf_url": "laxale_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/laxale_47p.pdf"
+}

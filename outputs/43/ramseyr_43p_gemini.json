@@ -1,0 +1,403 @@
+{
+  "mp_name": "Rowan Ramsey",
+  "party": "N/A",
+  "electorate": "Grey",
+  "disclosures": [
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Shares",
+      "entity": "ANZ",
+      "details": "Shareholdings in public and private companies (including holding companies)",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Shares",
+      "entity": "AUSTRALIAN FOUNDATION INVESTMENTS",
+      "details": "Shareholdings in public and private companies (including holding companies)",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Shares",
+      "entity": "AWB",
+      "details": "Shareholdings in public and private companies (including holding companies)",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Shares",
+      "entity": "BHP BILITON",
+      "details": "Shareholdings in public and private companies (including holding companies)",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Shares",
+      "entity": "BLUESCOPE STEEL",
+      "details": "Shareholdings in public and private companies (including holding companies)",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Shares",
+      "entity": "FOSTERS",
+      "details": "Shareholdings in public and private companies (including holding companies)",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Shares",
+      "entity": "NAB",
+      "details": "Shareholdings in public and private companies (including holding companies)",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Shares",
+      "entity": "QBE INSURANCE",
+      "details": "Shareholdings in public and private companies (including holding companies)",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Shares",
+      "entity": "SYLVASTATE",
+      "details": "Shareholdings in public and private companies (including holding companies)",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Shares",
+      "entity": "TELSTRA",
+      "details": "Shareholdings in public and private companies (including holding companies)",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Shares",
+      "entity": "VITERA",
+      "details": "Shareholdings in public and private companies (including holding companies)",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Trusts",
+      "entity": "RAMSEY FAMILY TRUST",
+      "details": "AGRICULTURAL LAND HOLDING, Trustee",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Trusts",
+      "entity": "BARRANCO P/L",
+      "details": "NO INTERESTS, BENIFICIARY OF RAMSEY FAMILY TRUST",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Real Estate",
+      "entity": "AGRICULTURAL LAND, BUCKLEBOO",
+      "details": "FAMILY FARM (LEASED)",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Real Estate",
+      "entity": "HOUSE, PT NEILL SA",
+      "details": "BEACH HOUSE",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Real Estate",
+      "entity": "STRATA UNIT, MAULANDS SA",
+      "details": "INVESTMENT PROPERTY",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Real Estate",
+      "entity": "HOUSE, JAMESTOWN SA",
+      "details": "INVESTMENT PROPERTY",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Partnerships",
+      "entity": "REM RAMSEY",
+      "details": "AGRICULTURAL EQUIPMENT, LAND HOLDINGS, 2 SHARE HOLDINGS",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Liabilities",
+      "entity": "ANZ BANK",
+      "details": "HOUSING LOAN",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "FAMILY TRUST OPERATING ACC",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "PARTNERSHIP ACC",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "ACCESS CEST",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "ON LINE SAVER ACC",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Savings/Investments",
+      "entity": "BANK SA",
+      "details": "POWER SAVER ACC",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Other Assets",
+      "entity": "ANZ",
+      "details": "SUPERANNUATION ACCOUNT",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Other Assets",
+      "entity": "CITY MUTUAL LIFE INSURANCE",
+      "details": "Unknown",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Income Sources",
+      "entity": "MEMBER OFFICE",
+      "details": "CASUAL EMPLOYMENT",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Income Sources",
+      "entity": "DECS SA TEACHING",
+      "details": "CASUAL EMPLOYMENT",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Gifts",
+      "entity": "QANTAS",
+      "details": "CHATRIMANS CLUB MEMBERSHIP VELOCITY REWARDS",
+      "pdf_url": "ramseyr_43p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Gifts",
+      "entity": "VIRGIN",
+      "details": "CHATRIMANS CLUB MEMBERSHIP VELOCITY REWARDS",
+      "pdf_url": "ramseyr_43p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Memberships",
+      "entity": "SOUTH AUSTRALIAN FARMERS FEDERATION (SAFF)",
+      "details": "Unknown",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Memberships",
+      "entity": "EYRE PENINSULA AGRICULTURAL RESEARCH FOUNDATION (EPARDF)",
+      "details": "Unknown",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Spouse Economy flight upgrade Business Adelaide to Canberra",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-11-24",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Trip to Innaminka - Arkaroola from Adelaide return - Overnight at Innaminka. Paid own accommodation DRL. Countery - Beach Energy 9-10 Nov.",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-04-11",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Mrs Teresa Ramsey upgrade from economy seating to Business Class QF701 Melbourne - Adelaide 30 march 2011.",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-05-19",
+      "category": "Travel",
+      "entity": "AREVA",
+      "details": "Various meals and transfers provided by AREVA on study tour in France over a 3 day period May 2011",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-05-19",
+      "category": "Travel",
+      "entity": "Air France",
+      "details": "Flight upgraded to Business Air France (Paris to Stockholm) Flight 2062 30/4/11",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-05-19",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Flight upgraded to Business Qantas (Sydney to Heathrow) Flight 1 13/4/11",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-05-19",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Flight upgraded to Business Qantas (Bangkok to Sydney) Flight 2 6/5/11",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-06-21",
+      "category": "Shares",
+      "entity": "Whitefield",
+      "details": "Unknown",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-06-21",
+      "category": "Shares",
+      "entity": "Treasury Wine Estates Ltd",
+      "details": "Unknown",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-08-17",
+      "category": "Memberships",
+      "entity": "Port Pirie Chamber of Commerce",
+      "details": "Unknown",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-10-27",
+      "category": "Travel",
+      "entity": "Santos",
+      "details": "Charter Flight Adelaide - Moomba - Adelaide 25 October 2011 provided by Santos",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-01-16",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Upgrade to Business Class seating Melbourne - Adelaide for Rowan and Teresa Ramsey 15 December 2011",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-01-16",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Flights to and from Australia and accommodation to attend the Sabah Wildlife Conservation Colloquium in Kota Kinabalu, Sabah, Malaysia. 8-12 January 2012",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-01-16",
+      "category": "Travel",
+      "entity": "Malaysian Palm Oil Board",
+      "details": "Flights and accommodation to Sandakan for related purposes courtesy of the Malaysian Palm Oil Board",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-03-09",
+      "category": "Hospitality",
+      "entity": "SANTOS",
+      "details": "Beneath the Winds exhibition of Southeast Asian Art followed by dinner at the Art Gallery of SA 20 January 2012",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-03-22",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Upgrade to Business Class Mrs Teresa Ramsey was upgraded from economy to business class seating QF708 Sunday 26 February 2012",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-05-27",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Upgrade to Business Class Mrs Teresa Ramsey was upgraded from economy to business class seating QF713 Friday 11 May 2012",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-09-19",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Economy to Business Class Upgrade Rowan & Teresa Ramsey 2 August 2012 New York - Los Angeles QF108",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-09-19",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Economy to Business Class Upgrade Rowan & Teresa Ramsey 2 August 2012 Los Angeles - Melbourne QF094",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-02-14",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Upgrade to Business Class Mrs Teresa Ramsey QF706 Monday 4 February 2013",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-02-14",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Upgrade to Business Class Mrs Teresa Ramsey QF737 Thursday 7 February 2013",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-05-14",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Flight Upgrade Economy to Business Class Virgin Blue Saturday 4 May Adelaide - Melbourne for Rowan & Teresa Ramsey",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-06-25",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Upgrade to Business Class Qantas Mrs Teresa Ramsey 20 June 2013 QF737",
+      "pdf_url": "ramseyr_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-07-02",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Flight upgrade Economy to Business Qantas QF713 Friday 28 June 2013 Mrs Teresa Ramsey",
+      "pdf_url": "ramseyr_43p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/43/ramseyr_43p.pdf"
+}

@@ -1,0 +1,564 @@
+{
+  "mp_name": "Barnaby Joyce",
+  "party": "N/A",
+  "electorate": "New England",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Shares",
+      "entity": "ANZ",
+      "details": "ANZ-ANZ",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Shares",
+      "entity": "CBA",
+      "details": "\u0421\u0412\u0410-\u0421\u0412\u0410",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Shares",
+      "entity": "Virtus",
+      "details": "VRT-Virtus",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Shares",
+      "entity": "Westfarmers",
+      "details": "WES-Westfarmers",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Shares",
+      "entity": "Vanguard",
+      "details": "Vanguard",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Shares",
+      "entity": "ING",
+      "details": "ING-ING",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Shares",
+      "entity": "Coles Group",
+      "details": "Coles Group",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Shares",
+      "entity": "5G Network limited",
+      "details": "5GN-5G Network limited",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Shares",
+      "entity": "Australian Agricultural Company",
+      "details": "AAC-Australian Agricultural Company",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Shares",
+      "entity": "After Pay touch",
+      "details": "APT-After Pay touch",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Shares",
+      "entity": "Appen Limited",
+      "details": "APX-Appen Limited",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Shares",
+      "entity": "BHP Group",
+      "details": "BHP-BHP Group",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Shares",
+      "entity": "Lynas Corp",
+      "details": "LYC-Lynas Corp",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Shares",
+      "entity": "Macquarie Group",
+      "details": "MQG-Macquarie Group",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Shares",
+      "entity": "NAB",
+      "details": "NAB-NAB",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Shares",
+      "entity": "Ramelius Resources",
+      "details": "RMS-Ramelius Resources",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Shares",
+      "entity": "Birtus Health Limited SPO",
+      "details": "BRT-Birtus Health Limited SPO",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Trusts",
+      "entity": "Sebastian Joyce Trust",
+      "details": "Share Investment, Master Sebastian Joyce",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Loomberah NSW, Residential",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Rural Property, Baradine NSW, Rural Property",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Braddon ACT, Investment Property",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Mortgage on residential property",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Mortgage on rural property",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Overdraft on rural property",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Overdraft on stock",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Liabilities",
+      "entity": "ING",
+      "details": "Mortgage on Investment Property",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Savings",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Savings/Investments",
+      "entity": "Regional Australia Bank",
+      "details": "Savings",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Investment Account",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Savings",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Savings",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Savings",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Investment",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Stock and Crop",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Parliamentary Superannuation",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Suncorp Superannuation",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Future royalities from published book",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Sale of stock and sale or crops",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Memberships",
+      "entity": "Qantas Chairmans Lounge",
+      "details": "N/A",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Memberships",
+      "entity": "National Party NSW",
+      "details": "N/A",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Memberships",
+      "entity": "Tamworth RSL Sub Branch",
+      "details": "N/A",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Memberships",
+      "entity": "Tamworth Business Chamber",
+      "details": "N/A",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Memberships",
+      "entity": "Tamworth Jockey Club",
+      "details": "N/A",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-17",
+      "category": "Memberships",
+      "entity": "West Tamworth Leagues Club",
+      "details": "N/A",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Hospitality",
+      "entity": "Australian Club, Sydney",
+      "details": "One night complimentary accommodation provided by the Australian Club, Sydney",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-10-19",
+      "category": "Hospitality",
+      "entity": "Newcastle Club, Newcastle",
+      "details": "One night complimentary accommodation provided by the Newcastle Club, Newcastle",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-12-09",
+      "category": "Travel",
+      "entity": "Taipei Economic and Cultural Office in Australia",
+      "details": "Complimentary Airfares, 4 nights accommodation and Meals in Taiwan provided by the Taipei Economic and Cultural Office in Australia.",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-04",
+      "category": "Hospitality",
+      "entity": "Hancock Prospecting",
+      "details": "2 x complimentary tickets - Australian Swimming Championships (Gold Coast) 18 April 2023",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-03",
+      "category": "Memberships",
+      "entity": "University of New England Standing Committee of Convocation",
+      "details": "University of New England Standing Committee of Convocation Committee Member",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-09-26",
+      "category": "Travel",
+      "entity": "Assange Campaign Group",
+      "details": "International Economy Airfares (Sydney/Washington/Sydney) and Accommodation and Hospitality (2 nights) - provided by Assange Campaign Group",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-10-18",
+      "category": "Travel",
+      "entity": "Qantas, Assange Campaign Group",
+      "details": "24.9.2023 Complimentary upgrade from Economy to Premium Economy seating provided by Qantas - Los Angeles to Sydney (Overall travel sponsored by Assange Campaign Group)",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-09",
+      "category": "Travel",
+      "entity": "Alliance for Responsible Citizenship",
+      "details": "International Airfares - Business Class (Sydney/London/Sydney), Accommodation, Hospitality (4 nights) and conference membership - provided by Alliance for Responsible Citizenship Inaugural Conference",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-02-09",
+      "category": "Memberships",
+      "entity": "SkyNews Streaming",
+      "details": "Complimentary Yearly Subscription - SkyNews Streaming",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-04",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Loomberah NSW - Investment property - SOLD",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-13",
+      "category": "Shares",
+      "entity": "BOC",
+      "details": "BOC - Self",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-13",
+      "category": "Shares",
+      "entity": "Superhero",
+      "details": "Superhero - Self",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-13",
+      "category": "Shares",
+      "entity": "Spaceship",
+      "details": "Spaceship - Self",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-13",
+      "category": "Shares",
+      "entity": "BOC",
+      "details": "BOC - dependent children",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-13",
+      "category": "Shares",
+      "entity": "CBA",
+      "details": "CBA - dependent children",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-13",
+      "category": "Shares",
+      "entity": "Block",
+      "details": "Block - dependent children",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-13",
+      "category": "Shares",
+      "entity": "Woodside Energy",
+      "details": "Woodside Energy - dependent children",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-13",
+      "category": "Shares",
+      "entity": "Rare Earths",
+      "details": "Rare Earths - dependent children",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-13",
+      "category": "Savings/Investments",
+      "entity": "Regional Australia Bank",
+      "details": "Regional Australia Bank - Savings - dependent children",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-13",
+      "category": "Shares",
+      "entity": "Virtus",
+      "details": "VRT Virtus - self",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-13",
+      "category": "Shares",
+      "entity": "Afterpay Touch",
+      "details": "APT After Pay Touch - self",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-13",
+      "category": "Shares",
+      "entity": "Birtus Health Limited SPO",
+      "details": "BRT Birtus Health Limited SPO - self",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-13",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Braddon ACT - Investment Property SOLD",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-13",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "NAB - dependent children",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-13",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Westpac - dependent children",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-03-13",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "CBA - dependent children",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-05",
+      "category": "Shares",
+      "entity": "Global 100 EFT",
+      "details": "Global 100 EFT (currently only listed as 100)",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-05",
+      "category": "Shares",
+      "entity": "Lynas Rare Earths",
+      "details": "LYC-Lynas Rare Earths (currently listed as LYC-Lynas Corp)",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-25",
+      "category": "Gifts",
+      "entity": "S Kidman & Co",
+      "details": "Hat $500",
+      "pdf_url": "joyce_47p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2024-08-27",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Purchase of residential property - Woolbrook",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-11-01",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Complimentary Conference Pass for MP and Partner - CPAC Australia Conference (4-6 October 2024)",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-11-15",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "50 Made to Order Trucker Hats (Country Trucker Hats) approx value $750.00",
+      "pdf_url": "joyce_47p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2024-11-25",
+      "category": "Travel",
+      "entity": "National Mining and Related Industries",
+      "details": "Return charter flights, one night accommodation, ground bus transport, gala dinner ticket - provided by National Mining and Related Industries.",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-11-28",
+      "category": "Memberships",
+      "entity": "Bundarra Sport & Recreation Club Ltd",
+      "details": "Complimentary annual membership of the Bundarra Sport & Recreation Club Ltd",
+      "pdf_url": "joyce_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-03-12",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Purchase of residential / farm property - Woolbrook (clarification of update provided on 27 August 2024 )",
+      "pdf_url": "joyce_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/joyce_47p.pdf"
+}

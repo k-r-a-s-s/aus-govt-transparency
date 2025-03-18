@@ -1,0 +1,408 @@
+{
+  "mp_name": "Antony (Tony) Pasin",
+  "party": "Unknown",
+  "electorate": "Barker",
+  "disclosures": [
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Trusts",
+      "entity": "L&G Pasin Family Trust / Pasin Nominees Pty Ltd",
+      "details": "Primary Production and Investment. Potential beneficiary of discretionary trust",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Trusts",
+      "entity": "Pepe Family Trust / Pasin Nominees Pty Ltd",
+      "details": "Currently dormant. Potential beneficiary of discretionary trust",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Trusts",
+      "entity": "L&G Pasin Family Trust / Pasin Nominees Pty Ltd",
+      "details": "Primary Production and Investment. Potential beneficiary of discretionary trust (Spouse)",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Trusts",
+      "entity": "Pepe Family Trust / Pasin Nominees Pty Ltd",
+      "details": "Currently dormant. Potential beneficiary of discretionary trust (Spouse)",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Mount Gambier, SA - Residential",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Mount Gambier, SA - Investment",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Mount Gambier, SA - Investment",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Mount Gambier, SA - Investment",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "OB Flat, SA - Investment",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Largs Bay, SA - Investment (Spouse)",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Liabilities",
+      "entity": "National Mortgage Market - Adelaide Bank",
+      "details": "Mortgage on Largs Bay investment property (Spouse)",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Various accounts",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Various accounts (Spouse)",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Savings/Investments",
+      "entity": "Adelaide Bank",
+      "details": "Mortgage offset account (Spouse)",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation - Statewide Super",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation - Statewide Super (Spouse)",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rental Income - Mount Gambier investment property",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rental Income - Mount Gambier investment property",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Income Sources",
+      "entity": "Pasin Lee Lawyers",
+      "details": "Drawings (Spouse)",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rental Income - Largs Bay investment property (Spouse)",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's Lounge Membership",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Travel",
+      "entity": "Virgin Australia",
+      "details": "Virgin Australia Club Membership",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Hospitality",
+      "entity": "National Press Club of Australia",
+      "details": "National Press Club of Australia Membership",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's Lounge Membership (Spouse)",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Travel",
+      "entity": "Virgin Australia",
+      "details": "Virgin Australia Club Membership (Spouse)",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Memberships",
+      "entity": "Liberal Party of Australia (SA Division)",
+      "details": "N/A",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Memberships",
+      "entity": "Italo Australia Club Mount Gambier",
+      "details": "N/A",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Memberships",
+      "entity": "All Men's Sheds in the electorate",
+      "details": "N/A",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Memberships",
+      "entity": "Liberal Party of Australia (SA Division)",
+      "details": "(Spouse)",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Nil (Spouse)",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-10",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Nil (Dependent Children)",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Adelaide, SA - Investment",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Adelaide, SA - Investment (Spouse)",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Mortgage on Adelaide investment property",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Mortgage on Adelaide investment property \u2013 (Spouse)",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-02-27",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rental Income - Adelaide, SA Investment Property",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-02-27",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rental Income - Adelaide, SA Investment Property. (Spouse)",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-02-27",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Mount Gambier, SA - Investment",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-02-27",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Mount Gambier, SA - Investment",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-02-27",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rental Income - Mount Gambier Investment Property",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-23",
+      "category": "Hospitality",
+      "entity": "AIJAC",
+      "details": "Hospitality in the form of flights, accomodation, most consumables and transport from the Australia / Israel and Jewish Affairs Council (AIJAC) through the Rambam Israel Fellowship Program to facilitate attendance on the Coalition MP Study Group Visit to Israel between 03.03.17 and 10.03.17",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-08-10",
+      "category": "Hospitality",
+      "entity": "Foxtel",
+      "details": "Subscription to Foxtel - Mount Gambier Electoral Office",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-08-10",
+      "category": "Hospitality",
+      "entity": "Foxtel",
+      "details": "Connection - Mount Gambier Electorate Office",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-09-07",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Mount Gambier, SA Investment.",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-09-07",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rental Income - Mount Gambier Investment Property.",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-12-12",
+      "category": "Hospitality",
+      "entity": "Cricket Australia",
+      "details": "x2 Hospitality Corporate tickets to 2017-18 Ashis test from Cricket Australia on 2 December 2017.",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-06-26",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Adelaide, SA - Residential",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-06-26",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Adelaide, SA - Residential",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-06-26",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rental Income Adelaide, SA - Investment Property",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-06-26",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rental Income - Adelaide, SA - Investment Property",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-06-26",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Adelaide, SA - Investment",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-06-26",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Adelaide, SA - Investment",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-11-06",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Murray Bridge Electorate Office value $1088.40",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2019-03-02",
+      "category": "Travel",
+      "entity": "Responsible Wood and Australian Forest Products Association",
+      "details": "All expenses paid (flights, accommodation, on ground transports and meals) as part of forestry delegation in role as co-chair of the Parliamentary Friends of Forestry and Forest Products Group. Attendance facilitated by Responsible Wood and Australian Forest Products Association. between 8th to 12 December 2018",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2019-02-12",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Kingston SE Festival Music Family Pass total $320.00 Tickets",
+      "pdf_url": "pasint_45p.pdf"
+    },
+    {
+      "declaration_date": "2019-02-12",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Connection - Mount Gambier Electorate Office",
+      "pdf_url": "pasint_45p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/pasint_45p.pdf"
+}

@@ -1,0 +1,580 @@
+{
+  "mp_name": "Garth Hamilton",
+  "party": "Unknown",
+  "electorate": "Groom",
+  "disclosures": [
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Trusts",
+      "entity": "Garth & Louise Hamilton Family Trust",
+      "details": "Property Investment, Joint Beneficiary",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Trusts",
+      "entity": "Garth & Louise Hamilton Family Trust",
+      "details": "Property Investment, Joint Beneficiary",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "South Toowoomba, Investment",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "South Toowoomba, Investment",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Middle Ridge, Investment",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "South Toowoomba, Investment",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "South Toowoomba, Investment",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Middle Ridge, Investment",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Directorships",
+      "entity": "Lynham Pty Ltd",
+      "details": "Construction",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Partnerships",
+      "entity": "G & L Hamilton Partnership",
+      "details": "Financial Partner, Consulting",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Partnerships",
+      "entity": "G & L Hamilton Partnership",
+      "details": "Financial Partner, Consulting",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Mortgage on Investment Property South Toowoomba",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Mortgage on Investment Property South Toowoomba",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Mortgage on Investment Property Middle Ridge",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Mortgage Perth",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Credit Card",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Mortgage on Investment Property South Toowoomba",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Mortgage on Investment Property South Toowoomba",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Mortgage on Investment Property Middle Ridge",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Mortgage Perth",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Credit Card",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Savings",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Savings/Investments",
+      "entity": "Heritage",
+      "details": "Savings",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Car",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Car",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rent Investment Property South Toowoomba",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rent Investment Property South Toowoomba",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rent Investment Property Middle Ridge",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rent Investment Property South Toowoomba",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rent Investment Property South Toowoomba",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rent Investment Property Middle Ridge",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Business Income",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hamilton_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hamilton_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hamilton_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-17",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-18",
+      "category": "Other Assets",
+      "entity": "Q Super",
+      "details": "Superannuation",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-18",
+      "category": "Other Assets",
+      "entity": "AMP",
+      "details": "Superannuation",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-18",
+      "category": "Other Assets",
+      "entity": "AMP",
+      "details": "Superannuation",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-18",
+      "category": "Other Assets",
+      "entity": "Lloyds",
+      "details": "Superannuation",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-02-25",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Gift of a Mont Blanc fountain pen from a personal friend on the occasion of Mr Hamilton's First Speech",
+      "pdf_url": "hamilton_46p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2021-03-24",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Transaction account",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-03-24",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation fund - UK Occupational Pension Scheme",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-03-24",
+      "category": "Travel",
+      "entity": "Toowoomba Hospital Foundation",
+      "details": "Two tickets to Toowoomba Hospital Foundation Legends at their Game Luncheon (March 2021)",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-03-24",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Savings",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-03-24",
+      "category": "Liabilities",
+      "entity": "ING",
+      "details": "Credit card",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-03-31",
+      "category": "Other Interests",
+      "entity": "Spouse",
+      "details": "P & F Fundraising Committee - Fairholme College",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-07-26",
+      "category": "Travel",
+      "entity": "LifeFlight",
+      "details": "Two tickets to LifeFlight Ball (May 2021)",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-07-27",
+      "category": "Hospitality",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's Lounge Membership",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-08-09",
+      "category": "Travel",
+      "entity": "Clive Berghofer",
+      "details": "Tickets and hospitality - Rugby Union Test Match (Brisbane) - July 2021",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-11-15",
+      "category": "Memberships",
+      "entity": "National Press Club of Australia",
+      "details": "National Press Club of Australia Membership",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-11-15",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Spouse - Air transport between Toowoomba and Canberra (return) - value unknown (11 & 12 May 2021)",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-11-15",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Dependent child - Academic scholarship",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-11-15",
+      "category": "Shares",
+      "entity": "Harvey Norman Holdings Limited",
+      "details": "Unknown",
+      "pdf_url": "hamilton_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-11-15",
+      "category": "Shares",
+      "entity": "Suncorp Group Limited",
+      "details": "Unknown",
+      "pdf_url": "hamilton_46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/hamilton_46p.pdf"
+}

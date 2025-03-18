@@ -1,0 +1,65 @@
+{
+  "mp_name": "Laura Mary Smyth",
+  "party": "N/A",
+  "electorate": "La Trobe",
+  "disclosures": [
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Location: Melbourne, Purpose: Investment",
+      "pdf_url": "smythl_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Mortgage",
+      "pdf_url": "smythl_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Savings (1), Savings (2)",
+      "pdf_url": "smythl_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Savings",
+      "pdf_url": "smythl_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation accrued during former employment",
+      "pdf_url": "smythl_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Partner's income derived from usual employment",
+      "pdf_url": "smythl_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-05-22",
+      "category": "Travel",
+      "entity": "Turkish Government",
+      "details": "During the period from 20 April 2012 to 26 April 2012, I visited Turkey for ANZAC commemorations and received the hospitality of the Turkish Government during that period. While I met my own costs of travel to and from Turkey, the Turkish Government provided accommodation, hospitality and transport within Turkey.",
+      "pdf_url": "smythl_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-09-10",
+      "category": "Travel",
+      "entity": "Global Fund",
+      "details": "I visited East Timor as part of a delegation of Australian and New Zealand Parliamentarians looking at public health initiatives in malaria, TB and HIV funded by the Global Fund. The cost of the visit in September 2012 was borne by the Global Fund.",
+      "pdf_url": "smythl_43p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/43/smythl_43p.pdf"
+}

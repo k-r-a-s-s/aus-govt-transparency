@@ -1,0 +1,107 @@
+{
+  "mp_name": "Michelle Leanne Landry",
+  "party": "Unknown",
+  "electorate": "Capricornia",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Shares",
+      "entity": "National Australia Bank",
+      "details": "Shareholdings in public and private companies",
+      "pdf_url": "landrym_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Credit Card",
+      "pdf_url": "landrym_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Working Account",
+      "pdf_url": "landrym_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Term Deposit",
+      "pdf_url": "landrym_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Savings/Investments",
+      "entity": "Bank of Queensland",
+      "details": "Savings Account",
+      "pdf_url": "landrym_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Other Assets",
+      "entity": "National Australia Bank",
+      "details": "Superannuation",
+      "pdf_url": "landrym_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Income Sources",
+      "entity": "NAB Shares",
+      "details": "Refer Item 1 - Shares",
+      "pdf_url": "landrym_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Chairman Lounge",
+      "pdf_url": "landrym_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Travel",
+      "entity": "Virgin",
+      "details": "The Club",
+      "pdf_url": "landrym_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-05-28",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Land, Yeppoon 4703, build residence",
+      "pdf_url": "landrym_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-05-28",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Mortgage",
+      "pdf_url": "landrym_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-11-26",
+      "category": "Shares",
+      "entity": "Medibank Private",
+      "details": "Shares",
+      "pdf_url": "landrym_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-11-26",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Yeppoon, QLD 4703, Residence",
+      "pdf_url": "landrym_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-11-26",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "DELETION: Land, Yeppoon 4703, build residence",
+      "pdf_url": "landrym_44p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/landrym_44p.pdf"
+}

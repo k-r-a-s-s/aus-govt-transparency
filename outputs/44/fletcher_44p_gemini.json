@@ -1,0 +1,371 @@
+{
+  "mp_name": "Paul Fletcher",
+  "party": "Liberal Party of Australia",
+  "electorate": "Bradfield",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Shares",
+      "entity": "Devizes Investments Pty Ltd",
+      "details": "See Attachment 1",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Shares",
+      "entity": "Griff-Dev Investments Pty Ltd",
+      "details": "See Attachment 1",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Shares",
+      "entity": "Manuela Zappacosta (spouse)",
+      "details": "See Attachment 1",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Trusts",
+      "entity": "P&M Fletcher Superannuation Fund",
+      "details": "Self Managed Superannuation Fund, Beneficiary",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Roseville, NSW; Family Home",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "See Attachment 2",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Liabilities",
+      "entity": "ING Direct",
+      "details": "Mortgage on Residential Home",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "See Attachment 4",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "See Attachment 5",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "See Attachment 6",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "See Attachment 7",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "See Attachment 8",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Shares",
+      "entity": "Devizes Investments Pty Ltd",
+      "details": "Devizes Investments Pty Ltd",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Shares",
+      "entity": "Griff-Dev Investments Pty Ltd",
+      "details": "Griff-Dev Investments Pty Ltd as trustee of the P&M Fletcher Superannuation Fund",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Shares",
+      "entity": "SPDR S",
+      "details": "SPDR S&P/ASX 200 Fund",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Shares",
+      "entity": "P/ASX 200 Fund",
+      "details": "SPDR S&P/ASX 200 Fund",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Shares",
+      "entity": "Devizes Investments",
+      "details": "Shares MSCI Emerging Markets Exchange Traded Fund, iShares Global 100 Exchange Traded Fund, iShares MSCI Australia 200 Exchange Traded Fund, Vanguard Australian Shares High Yield Exchange Traded Fund, Ku-ring-gai Financial Services Ltd, Vanguard MSCI Australian Small Companies Index Exchange Traded Fund",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Shares",
+      "entity": "Griff-Dev Investments Pty Ltd",
+      "details": "SPDR S&P/ASX 200 Listed Property Fund, Vanguard All-World ex-US Shares Index Exchange Traded Fund, Australian United Investment Company Limited",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Shares",
+      "entity": "Manuela Zappacosta",
+      "details": "Zappacosta Jewels Pty Ltd, NIB Holdings Ltd",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Trusts",
+      "entity": "P&M Fletcher Superannuation Fund",
+      "details": "P&M Fletcher Superannuation Fund",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Family home, Roseville NSW",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Directorships",
+      "entity": "Devizes Investments Pty Ltd",
+      "details": "Devizes Investments Pty Ltd",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Directorships",
+      "entity": "Griff-Dev Investments Pty Ltd",
+      "details": "Griff-Dev Investments Pty Ltd",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Liabilities",
+      "entity": "ING Direct",
+      "details": "Mortgage over family home",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Liabilities",
+      "entity": "Commsec Margin Lending",
+      "details": "Margin Loan",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Savings/Investments",
+      "entity": "Aberdeen Inflation Linked Bond Fund",
+      "details": "Aberdeen Inflation Linked Bond Fund, Mercer Australian Inflation Linked Bond Fund, PIMCO EQT Wholesale Global Real Return Fund, PIMCO EQT Wholesale Diversified Fixed Interest Fund, Loan to Zappacosta Jewels, Vanguard Index Australian Property Securities Fund, Vanguard Index International Shares Fund, Vanguard Index Australian Shares Fund, Platinum International Fund",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Savings/Investments",
+      "entity": "Griff-Dev Investments Pty Ltd",
+      "details": "Vanguard Index Diversified Bond Fund, Ardea Inflation Linked Bond Fund, BT Institutional Enhanced Fixed Interest Fund, Macquarie True Index-Linked Australian Shares Fund.",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Savings/Investments",
+      "entity": "Paul Fletcher",
+      "details": "Macquarie Cash Management Account, ING Direct Orange Everyday Account, ING Direct Mortgage Offset Account, ING Direct Savings Account, St George Account - joint with Manuela Zappacosta",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Other Assets",
+      "entity": "Paul Fletcher",
+      "details": "Public Sector Superannuation Scheme, Australian Super",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Memberships",
+      "entity": "Paul Fletcher",
+      "details": "Liberal Party of Australia, NSW Division",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-06",
+      "category": "Memberships",
+      "entity": "Manuela Zappacosta",
+      "details": "Liberal Party of Australia, NSW Division",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-02-02",
+      "category": "Savings/Investments",
+      "entity": "netwealth Australia",
+      "details": "netwealth International Equities Index Fund",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-02-02",
+      "category": "Savings/Investments",
+      "entity": "Vanguard Australia",
+      "details": "Vanguard International Small Companies Index Fund",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-11-29",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Upgrades from Economy to Business on domestic flights of less than two hours. See Attachment 1",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-11-29",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "See Attachment 2",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-04-17",
+      "category": "Savings/Investments",
+      "entity": "Fidante Partners Limited",
+      "details": "Ardea Australian Inflation Linked Bond Fund",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-05-18",
+      "category": "Other Interests",
+      "entity": "Foxtel",
+      "details": "Foxtel Subscription - Electorate Office Bradfield (located in Lindfield)",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-05-18",
+      "category": "Memberships",
+      "entity": "National Press Club",
+      "details": "Complimentary membership supplied by National Press Club of Australia",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-06-22",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Travel- see attachment 1",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-06-22",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Gifts/Hospitality - see attachment 2",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-08-10",
+      "category": "Gifts",
+      "entity": "Huawei",
+      "details": "Chinese teapot and Huawei Bluetooth watch from Huawei (total value of the two items below $300)",
+      "pdf_url": "fletcher_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2015-08-23",
+      "category": "Gifts",
+      "entity": "Taipei Economic and Cultural Office",
+      "details": "Gift of vase from Representative to the Taipei Economic and Cultural Office (valued approximately AUD100)",
+      "pdf_url": "fletcher_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2015-10-02",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Travel-see attachment 1",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-01-08",
+      "category": "Memberships",
+      "entity": "City Tattersalls Club",
+      "details": "Complimentary membership for 2016 to the City Tattersalls Club",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-01-08",
+      "category": "Other Interests",
+      "entity": "Foxtel",
+      "details": "Complimentary subscription to Foxtel service in the electorate office for 2016",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-01-24",
+      "category": "Hospitality",
+      "entity": "Government House",
+      "details": "Accommodation at Government House, Norfolk Island for 1 Night during Ministerial Visit on 28 Jan 2016",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-01-18",
+      "category": "Gifts",
+      "entity": "Cocos Islanders",
+      "details": "Hand carved model of ship by Cocos Islanders, gifted by the Shire of Cocos Keeling Island. The estimated value is $120.00",
+      "pdf_url": "fletcher_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-02-04",
+      "category": "Gifts",
+      "entity": "Australian Food & Grocery Council",
+      "details": "Christmas hamper of assorted food and confectionery from Australian Food & Grocery Council",
+      "pdf_url": "fletcher_44p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2016-02-02",
+      "category": "Savings/Investments",
+      "entity": "Vanguard",
+      "details": "Vanguard Emerging Markets Equities Index Fund",
+      "pdf_url": "fletcher_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-03-12",
+      "category": "Gifts",
+      "entity": "Wine Australia",
+      "details": "Giftpack of 2 bottles of wine from Wine Australia",
+      "pdf_url": "fletcher_44p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2016-04-15",
+      "category": "Other Interests",
+      "entity": "Foxtel",
+      "details": "Complimentary subscription to second Foxtel box, located In Lindfield Ministerial office.",
+      "pdf_url": "fletcher_44p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/fletcher_44p.pdf"
+}

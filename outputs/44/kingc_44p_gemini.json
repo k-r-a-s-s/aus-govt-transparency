@@ -1,0 +1,335 @@
+{
+  "mp_name": "Catherine King",
+  "party": "N/A",
+  "electorate": "Ballarat",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Shares",
+      "entity": "GDF Suez",
+      "details": "Spouse - GDF Suez Shares",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Shares",
+      "entity": "One Steel",
+      "details": "Spouse - One Steel Shares",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Ballarat - Family Home",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Ballarat - Spouse - former Family home currently for sale.",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Mortgages",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Credit Card",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Spouse - Mortgages",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Spouse - Credit Card",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Savings & Trust Account (Dependent Child)",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Spouse - Savings & Trust Account (Dependent Child)",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Income Sources",
+      "entity": "KPMG",
+      "details": "KPMG Superannuation",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Income Sources",
+      "entity": "PSS",
+      "details": "PSS Superannuation",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Income Sources",
+      "entity": "ADF",
+      "details": "Spouse - ADF Navy Reserve Superannuation",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Income Sources",
+      "entity": "Visonsuper",
+      "details": "Spouse - Visonsuper",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Income Sources",
+      "entity": "GDF Suez",
+      "details": "Spouse - GDF Suez Employee",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Gifts",
+      "entity": "Foxtel",
+      "details": "Foxtel Connection Electorate Office",
+      "pdf_url": "kingc_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Gifts",
+      "entity": "Astra",
+      "details": "Sponsored by Astra",
+      "pdf_url": "kingc_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-04",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-03",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Property purchase of new family home. Ballarat Settlement 3 Dec 13",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-03",
+      "category": "Shares",
+      "entity": "GDF Suez",
+      "details": "Partner increase in GDF Suez Shares.",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-03",
+      "category": "Gifts",
+      "entity": "Foxtel",
+      "details": "Foxtel Connection Electorate Office",
+      "pdf_url": "kingc_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2014-02-20",
+      "category": "Shares",
+      "entity": "GDF Suez",
+      "details": "My husband Mark Francis Karlovic has recently acquired 260 shares with an approximate value of $400.00 in GDF Suez.",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-05-20",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "My husband and I have recently sold the property at Ballarat, 3350 with settlement completed on 22nd April, 2014.",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-10-15",
+      "category": "Travel",
+      "entity": "Gavi, the Vaccine Alliance",
+      "details": "Business Class Ticket with Thai Airways, Bangkok Airways and Singapore Airways to Laos (5th Oct to 8th Oct). Delegation to Laos of Australian MP's with Gavi, the Vaccine Alliance, Board",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-10-15",
+      "category": "Hospitality",
+      "entity": "Maison Souvannaphoum hotel and Laos Plaza Hotel",
+      "details": "Accommodation at the Miason Souvannaphoum and Lao Plaza Hotel and Meals (6th Oct to 7th Oct)",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-02-12",
+      "category": "Other Interests",
+      "entity": "Sovereign Hill Museums Association",
+      "details": "My husband Mark Karlovic has recently accepted an appointment as Manager of People and Performance at Sovereign Hill Museums Association.",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-02-12",
+      "category": "Other Interests",
+      "entity": "International Power Australia GDF Suez",
+      "details": "He has ceased employment at International Power Australia GDF Suez.",
+      "pdf_url": "kingc_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-12-16",
+      "category": "Gifts",
+      "entity": "Qantas Frequent Flyer",
+      "details": "I received a bottle of Penfolds RWT valued at $175 from Qantas Frequent Flyer on the 16th of December 2015.",
+      "pdf_url": "kingc_44p.pdf",
+      "sub_category": "Alcohol"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/kingc_44p.pdf"
+}

@@ -1,0 +1,80 @@
+{
+  "mp_name": "Catherine Fiona King",
+  "party": "Unknown",
+  "electorate": "Ballarat",
+  "disclosures": [
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Shares",
+      "entity": "One Steel",
+      "details": "Employee share scheme - Ordinary shoes",
+      "pdf_url": "kingc_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Residential property in Ballarat",
+      "pdf_url": "kingc_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Residential mortgage and credit card",
+      "pdf_url": "kingc_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Savings and Cheque account",
+      "pdf_url": "kingc_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Income Sources",
+      "entity": "Navy Reserve",
+      "details": "ADF",
+      "pdf_url": "kingc_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Nil other than those notified in previous parliaments.",
+      "pdf_url": "kingc_43p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2010-10-15",
+      "category": "Other Interests",
+      "entity": "Melbourne Health",
+      "details": "My sister Bernadette Virey is employed by the Melbourne Health, where she is involved in clinical trials for chronic disease and ulcerative colitis. I have sought advice re ensuring that no conflict of interest will arise.",
+      "pdf_url": "kingc_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-03-21",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "I additional Savings account. Deletion of Westpac Bank Account.",
+      "pdf_url": "kingc_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-04-02",
+      "category": "Other Interests",
+      "entity": "International Power Australia GDF Suez",
+      "details": "My husband Mr Mark Francis Karlovic has recently accepted an appointment as Regional Human Resources Manager with International Power Australia GDF Suez. His employment commences on 26 April, 2012.",
+      "pdf_url": "kingc_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-03-20",
+      "category": "Shares",
+      "entity": "GDF SUEZ",
+      "details": "My husband Mark Francis Karlovic has recently acquired 400 GDF SUEZ Performance Shares with an approximate value of $7,000.",
+      "pdf_url": "kingc_43p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/43/kingc_43p.pdf"
+}

@@ -1,0 +1,551 @@
+{
+  "mp_name": "Jamie Edward Briggs",
+  "party": "Unknown",
+  "electorate": "Mayo",
+  "disclosures": [
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Nil - Spouse",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Nil - Dependent Children",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Nil - Spouse",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Nil - Dependent Children",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Nil - Spouse",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Nil - Dependent Children",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Mount Barker, home",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Home - Spouse",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Home - Dependent Children",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Nil - Spouse",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Nil - Dependent Children",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Nil - Spouse",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Nil - Dependent Children",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Mortgage",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Mortgage - Spouse",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "N/A - Dependent Children",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Nil - Spouse",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Nil - Dependent Children",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Savings",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Savings - Spouse",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Savings - Dependent Children",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Other Assets",
+      "entity": "Westpac (BT Super)",
+      "details": "Superannuation",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Other Assets",
+      "entity": "Westpac (BT Super)",
+      "details": "Superannuation - Spouse",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "N/A - Dependent Children",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Income Sources",
+      "entity": "Mercacher College",
+      "details": "Wage - Spouse",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Nil - Dependent Children",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "briggsj_43p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Nil - Spouse",
+      "pdf_url": "briggsj_43p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Nil - Dependent Children",
+      "pdf_url": "briggsj_43p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Nil - Spouse",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Nil - Dependent Children",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Nil - Spouse",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Nil - Dependent Children",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Nil - Spouse",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Nil - Dependent Children",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-11-08",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Foxtel service for my electorate office in Mt Barker free of charge",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-11-08",
+      "category": "Hospitality",
+      "entity": "Mayor of KI",
+      "details": "Three nights accommodation on Kangaroo Island courtesy of the Mayor of KI",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-08-03",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Books Bugs, 'Cookie Muwonas' - small businesses operated by my wife.",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-08-03",
+      "category": "Gifts",
+      "entity": "Panurgem",
+      "details": "two tickets to the 'Watertod Masquerade ball from 'Panurgem' valued at $40 - July 2011",
+      "pdf_url": "briggsj_43p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2011-12-20",
+      "category": "Hospitality",
+      "entity": "Golf Australia",
+      "details": "Invited as a guest by Golf Australia to attend The Australian Open at The Lakes Golf Club, Eastlakes NSW. 13th November 2011",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-12-20",
+      "category": "Hospitality",
+      "entity": "PGA Australia",
+      "details": "Invited as a guest by PGA Australia to attend The President's Cup 2011 at the Royal Melbourne Golf Club, Black Rock, VICTORIA. 18th November 2011",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-01-20",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Qantas Flight QF93 from Melbourne to Los Angeles on Monday, 9th January Upgraded from business class to first class",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-01-20",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Qantas Flight QF94 from Los Angeles to Melbourne on Saturday, 14th January Upgraded from business class to first class",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-02-24",
+      "category": "Hospitality",
+      "entity": "Sealink/Coopers",
+      "details": "Invited as a guest of Sealink Travel Group to attend The Coopers Kangaroo Island Cup Carnival in the Sealink/Coopers Corporate Hospitality Marquee, including transport to and from Kangaroo Island. Attended the event with my wife, Estee. 19th February 2012",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-05-22",
+      "category": "Gifts",
+      "entity": "Tomich Wines",
+      "details": "2012 Tomich Arts Grace & Glory Shiraz Cap (12pk)",
+      "pdf_url": "briggsj_43p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2012-05-22",
+      "category": "Gifts",
+      "entity": "Tomich Wines",
+      "details": "2011 Tomich Arts Wing & Prayers Sav-Blanc (12pk)",
+      "pdf_url": "briggsj_43p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2012-05-22",
+      "category": "Gifts",
+      "entity": "Tomich Wines",
+      "details": "NV Tomich Sparkling Chardonnay (12pk)",
+      "pdf_url": "briggsj_43p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2012-05-22",
+      "category": "Gifts",
+      "entity": "Tomich Wines",
+      "details": "2010 Tomich Hill Pinot Noir Stelvin (12pk)",
+      "pdf_url": "briggsj_43p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2012-05-22",
+      "category": "Gifts",
+      "entity": "Tomich Wines",
+      "details": "2009 Tomich Hill Reserve Chardonnay (6pk)",
+      "pdf_url": "briggsj_43p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2012-08-03",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Qantas Flight QF11 from Sydney to LA on Thursday, 12th July 2012, upgraded from business class to first class",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-08-03",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Qantas Flight QF94 from LA to Melbourne on Saturday, 21st July 2012, upgraded from business class to first class",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-08-21",
+      "category": "Gifts",
+      "entity": "Coopers Brewery",
+      "details": "1 x carton Light M/N, 2 x carton Clear M/N, 2 x carton Pale Ale. Valued at $104.18. For function",
+      "pdf_url": "briggsj_43p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2012-11-05",
+      "category": "Hospitality",
+      "entity": "James Boag and Mumm",
+      "details": "2012 Melbourne Cup Spring Racing Carnival Derby Day - Complimentary tickets to the James Boag and Mumm Marquees. I was accompanied by my wife, Estee.",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-12-18",
+      "category": "Gifts",
+      "entity": "K1 Wines by Geoff Hardy",
+      "details": "1 x case of mixed wine",
+      "pdf_url": "briggsj_43p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2012-12-18",
+      "category": "Gifts",
+      "entity": "Tomich Wines",
+      "details": "1 x case of sparkling wine",
+      "pdf_url": "briggsj_43p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2012-12-18",
+      "category": "Hospitality",
+      "entity": "Golf Australia",
+      "details": "Invited as a guest by Golf Australia to attend the Emirates Australian Open at The Lakes Golf Club, Eastlakes NSW.",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-03-01",
+      "category": "Gifts",
+      "entity": "Huawei Technologies (Australia) Pty Ltd",
+      "details": "A copy of Ezra Vogel's book \"Deng Xiaoping and the transformation of China\" received from Jeremy Mitchell",
+      "pdf_url": "briggsj_43p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2013-06-26",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Mortgage, primary home in Aldgate",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-06-26",
+      "category": "Gifts",
+      "entity": "KI Wines by Geoff Hardy",
+      "details": "1 x care of mixed wine",
+      "pdf_url": "briggsj_43p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2013-06-26",
+      "category": "Memberships",
+      "entity": "Virgin Australia",
+      "details": "Membership to Virgin Club",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-06-26",
+      "category": "Hospitality",
+      "entity": "BHP Billiton",
+      "details": "Invited, together with wife Estee, as a guest in BHP Corporate Box at Carlton vs Essendon match at the mcg on Friday 7th June.",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-07-26",
+      "category": "Memberships",
+      "entity": "Crown Towers",
+      "details": "Annual Subscription to Garden and Home magazine",
+      "pdf_url": "briggsj_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-07-26",
+      "category": "Gifts",
+      "entity": "Coopers Brewery for function",
+      "details": "2 x cartons Coopers Pale Ale, 2 x cartons Coopers Clear",
+      "pdf_url": "briggsj_43p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2013-07-26",
+      "category": "Gifts",
+      "entity": "Tomich Wines for function",
+      "details": "1 x case of White Wine",
+      "pdf_url": "briggsj_43p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2013-07-26",
+      "category": "Gifts",
+      "entity": "Peter Salu for function",
+      "details": "6 bottles of Sparkling Wine",
+      "pdf_url": "briggsj_43p.pdf",
+      "sub_category": "Alcohol"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/43/briggsj_43p.pdf"
+}

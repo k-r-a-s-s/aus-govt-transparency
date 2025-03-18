@@ -1,0 +1,82 @@
+{
+  "mp_name": "George Robert Christensen",
+  "party": "Unknown",
+  "electorate": "Dawson",
+  "disclosures": [
+    {
+      "declaration_date": "2013-11-21",
+      "category": "Shares",
+      "entity": "QPAY PTY LTD",
+      "details": "Shareholding in private company",
+      "pdf_url": "christenseng_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-11-21",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Credit Card",
+      "pdf_url": "christenseng_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-11-21",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Cheque Account",
+      "pdf_url": "christenseng_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-11-21",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Savings Account",
+      "pdf_url": "christenseng_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-11-21",
+      "category": "Savings/Investments",
+      "entity": "Bendigo",
+      "details": "Cheque Account",
+      "pdf_url": "christenseng_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-11-21",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Complementary Membership to Private Virgin Lounge",
+      "pdf_url": "christenseng_44p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2013-11-21",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Complementary Membership to Qantas Chairman's Lounge",
+      "pdf_url": "christenseng_44p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2013-11-19",
+      "category": "Travel",
+      "entity": "Heartland Institute",
+      "details": "Reimbursement of return airfares to Las Vegas in the US, ex Brisbane. Declared 2014-07-15",
+      "pdf_url": "christenseng_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-07-15",
+      "category": "Hospitality",
+      "entity": "Heartland Institute",
+      "details": "2 x nights accommodation at Mandalay Bay Resort in Las Vegas",
+      "pdf_url": "christenseng_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-02-11",
+      "category": "Gifts",
+      "entity": "Virgin Australia",
+      "details": "Complementary Apple TV dock",
+      "pdf_url": "christenseng_44p.pdf",
+      "sub_category": "Travel"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/christenseng_44p.pdf"
+}

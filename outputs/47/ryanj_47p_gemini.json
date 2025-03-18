@@ -1,0 +1,423 @@
+{
+  "mp_name": "Joanne Ryan",
+  "party": "Unknown",
+  "electorate": "Lalor",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Werribee, Victoria - Residential (Joint with Partner)",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Savings/Investments",
+      "entity": "Great Southern Bank/CUA",
+      "details": "Savings",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Employment - Logistics (Spouse/Partner)",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "ryanj_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Memberships",
+      "entity": "Australian Labor Party VIC Division",
+      "details": "Member",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Memberships",
+      "entity": "Australian Workers Union",
+      "details": "Member",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Memberships",
+      "entity": "Australian Education Union",
+      "details": "Affiliated Membership",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Memberships",
+      "entity": "Essendon Football Club",
+      "details": "Member",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Memberships",
+      "entity": "Melbourne Vixens",
+      "details": "Member and Ambassador",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Memberships",
+      "entity": "Qantas Chairmans Lounge",
+      "details": "Membership",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Memberships",
+      "entity": "Virgin Velocity Club",
+      "details": "Membership",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Memberships",
+      "entity": "National Press Club",
+      "details": "Membership",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Memberships",
+      "entity": "Virgin Velocity Club",
+      "details": "Membership (Spouse/partner)",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Memberships",
+      "entity": "Qantas Chairmans Lounge",
+      "details": "Membership (Spouse/partner)",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Shares",
+      "entity": "JRJM One Pty Ltd",
+      "details": "Self - 5 Shares (Private Company)",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Shares",
+      "entity": "JRJM One Pty Ltd",
+      "details": "Spouse/Partner - 5 Shares (Private Company)",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Trusts",
+      "entity": "JRJM Family Trust",
+      "details": "Self - Residential Investment - Beneficiary",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Trusts",
+      "entity": "JRJM Family Trust",
+      "details": "Spouse/Partner - Residential Investment - Beneficiary",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Directorships",
+      "entity": "JRJM One Pty Ltd",
+      "details": "Self",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Self - Mortgage x 2",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Spouse/Partner - Mortgage x 2",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Savings/Investments",
+      "entity": "Great Southern Bank",
+      "details": "Self - Savings",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Self - Transaction x 2",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Spouse/Partner - Transaction x 3",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Unknown",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Western United A-League - Grand Final Ticket plus hospitality",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Melbourne Vixens - 2nd Semi final Ticket +1 plus hospitality",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Liabilities",
+      "entity": "CUA",
+      "details": "Self - Mortgage - Joint with Partner",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Liabilities",
+      "entity": "CUA",
+      "details": "Spouse/Partner - Mortgage - Joint with Partner",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Spouse/Partner - Credit Card",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Unknown",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Spouse/Partner - Cheque",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Unknown",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Memberships",
+      "entity": "Werribee Netball Association",
+      "details": "Self - Life Member",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Memberships",
+      "entity": "Western Environment Centre",
+      "details": "Self - Member",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Memberships",
+      "entity": "Wyndham Track and Field",
+      "details": "Self - Patron",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Memberships",
+      "entity": "Hoppers Crossing Bowls",
+      "details": "Self - Patron",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Memberships",
+      "entity": "Manor Lakes Football Club Women's Team",
+      "details": "Self - No 1 Ticket Holder",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Memberships",
+      "entity": "Werribee Tigers Football Club",
+      "details": "Self - Membership and Player Sponsor",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-19",
+      "category": "Memberships",
+      "entity": "Werribee Tigers Football Club",
+      "details": "Spouse/Partner - Member",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-11-04",
+      "category": "Real Estate",
+      "entity": "Werribee",
+      "details": "Self - Real Estate Investment (50% Purchased through JRJM Family Trust)",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-11-04",
+      "category": "Real Estate",
+      "entity": "Werribee",
+      "details": "Spouse/Partner - Real Estate Investment (50% Purchased through JRJM Family Trust)",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-11-04",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Derby Day Corporate Hospitality x 2 - Lion",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-07-18",
+      "category": "Hospitality",
+      "entity": "Netball Australia",
+      "details": "Netball Australia - 2 Tickets to 2023 Suncorp Super Netball Grand Final Lunch and Match - Value $375 per ticket.",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-27",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2x Tickets to the 2023 Lexus Melbourne Cup from Lion",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-02-13",
+      "category": "Travel",
+      "entity": "Tennis Australia",
+      "details": "Tickets to 2024 Australian Open from Tennis Australia",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-08-19",
+      "category": "Travel",
+      "entity": "Netball Australia",
+      "details": "Attended with guest the Suncorp Super Netball Grand Final Lunch & Game - Adelaide Firebirds v Melbourne Vixens in Adelaide on Saturday 3 August 2024 as guest of Netball Australia.",
+      "pdf_url": "ryanj_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-15",
+      "category": "Travel",
+      "entity": "Netball Australia",
+      "details": "Attended with 2 guests the 2024 England Series Match 3 \u2013 Origin Australian Diamonds v Vitality England Roses at Red Energy Arena, Bendigo on Wednesday, 25 September 2024 as Guests of Stacey West, CEO of Netball Australia.",
+      "pdf_url": "ryanj_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/ryanj_47p.pdf"
+}

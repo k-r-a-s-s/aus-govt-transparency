@@ -1,0 +1,770 @@
+{
+  "mp_name": "Jason Clare",
+  "party": "Unknown",
+  "electorate": "Blaxland",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Padstow Heights, Residence",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Liabilities",
+      "entity": "Newcastle Permanent",
+      "details": "MORTGAGE",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Savings/Investments",
+      "entity": "WESTPAC",
+      "details": "SAVINGS ACCOUNT, ELECTORATE ALLOWANCE",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "SAVINGS ACCOUNT",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Savings/Investments",
+      "entity": "COMMONWEALTH BANK",
+      "details": "SAVINGS ACCOUNT",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Other Assets",
+      "entity": "CBUS",
+      "details": "SUPERANNUATION",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Gifts",
+      "entity": "QANTAS",
+      "details": "QANTAS Chairman's Lounge Membership",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Gifts",
+      "entity": "VIRGIN",
+      "details": "VIRGIN VELOCITY VIP Lounge Membership",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Gifts",
+      "entity": "FOXTEL",
+      "details": "FOXTEL for Electorate Office - Annual subscription",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Gifts",
+      "entity": "Ambassador to Japan Reiichiro Takahashi",
+      "details": "1 x Table Runner, approx. value $100 received on Tuesday 2nd April 2019.",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Gifts",
+      "entity": "Grand Mufti of Australia",
+      "details": "Flowers, approx. value $40 received on Wednesday 3rd April 2019.",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Gifts",
+      "entity": "INPEX",
+      "details": "1 x Glass cube with vile of condensate, approx. value $16 received on Thursday 4th April 2019.",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Gifts",
+      "entity": "Australian Workers Union",
+      "details": "1 x Bottle of wine, approx. value $15 received on Tuesday 9th April 2019.",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Travel",
+      "entity": "Australia-Vietnam Young Leadership Dialogue",
+      "details": "Australia-Vietnam Young Leadership Dialogue - Travel and Accomodation in Vietnam",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Patron of Care Leavers Australasia Network (CLAN)",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Patron of Bankstown District Sports Club",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Patron of Bankstown RSL",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "White Ribbon Ambassador",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Patron of Bankstown Youth Development Service (BYDS)",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Real Estate",
+      "entity": "Unknown",
+      "details": "Self - Padstow Heights, Residence",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Liabilities",
+      "entity": "Newcastle Permanent",
+      "details": "Self - MORTGAGE",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Savings/Investments",
+      "entity": "WESTPAC",
+      "details": "Self - SAVINGS ACCOUNT; ELECTORATE ALLOWANCE",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Other Assets",
+      "entity": "CBUS",
+      "details": "Self - SUPERANNUATION",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Gifts",
+      "entity": "QANTAS, VIRGIN, FOXTEL",
+      "details": "Self - QANTAS Chairman's Lounge Membership; VIRGIN VELOCITY VIP Lounge Membership; FOXTEL for Electorate Office",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Travel",
+      "entity": "Australia-Vietnam Young Leadership Dialogue",
+      "details": "Australia-Vietnam Young Leadership Dialogue",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Memberships",
+      "entity": "Care Leavers Australasia Network (CLAN), Bankstown District Sports Club, Bankstown RSL, White Ribbon Ambassador, Bankstown Youth Development Service (BYDS)",
+      "details": "Self - Patron of Care Leavers Australasia Network (CLAN); Patron of Bankstown District Sports Club; Patron of Bankstown RSL; White Ribbon Ambassador; Patron of Bankstown Youth Development Service (BYDS)",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Spouse/partner - INCOME FROM EMPLOYMENT",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Other Assets",
+      "entity": "AMP",
+      "details": "Spouse/partner - SUPERANNUATION",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Savings/Investments",
+      "entity": "ING, COMMONWEALTH BANK",
+      "details": "Spouse/partner - SAVINGS ACCOUNT",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-26",
+      "category": "Real Estate",
+      "entity": "Unknown",
+      "details": "Padstow Heights, Residence",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-17",
+      "category": "Gifts",
+      "entity": "Australian Automobile Association",
+      "details": "Australian Automobile Association - Mobile Phone Charger (Power Bank) approx. value $30 received on 29th April 2019.",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Electronics"
+    },
+    {
+      "declaration_date": "2019-07-17",
+      "category": "Gifts",
+      "entity": "UNSW",
+      "details": "UNSW - Book - Refugee Rights and Policy Wordings, Professor Jane McAdam \u2013 approx. $30 received on 16th July 2019.",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2019-08-20",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Virgin Membership ' The Club' for Jason Clare MP and Ms Louise Tran",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-08-20",
+      "category": "Gifts",
+      "entity": "Care Leaver Australia Network (CLAN)",
+      "details": "Wine Glass received from Care Leaver Australia Network (CLAN) - Saturday 27th July 2019- approx value - $10",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2019-08-20",
+      "category": "Gifts",
+      "entity": "Swisse",
+      "details": "Vitamins gift box received from Swisse - Tuesday 23rd April 2019- approx value - $80",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-09-26",
+      "category": "Gifts",
+      "entity": "ASTRA",
+      "details": "Renewal of complimentary subscription television provided by ASTRA - valued at $1600 per annum - received 26th August 2019",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-09-26",
+      "category": "Gifts",
+      "entity": "St Joseph's Hospital Auburn",
+      "details": "1 x box of chocolates from St Joseph's Hospital Auburn - valued at approx. $10 received 27th August 2019",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2019-09-26",
+      "category": "Gifts",
+      "entity": "Uniting Dove Cottage Early Learning Centre Bankstown",
+      "details": "1 x box of chocolates and bunch of flowers received from Uniting Dove Cottage Early Learning Centre Bankstown - valued at approx $40 - received 2nd September 2019",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2019-09-26",
+      "category": "Gifts",
+      "entity": "Screen Australia",
+      "details": "1 x DVD - Magic Land of OZ - ABC and 1 x DVD Australia in Colour - SBS - from Screen Australia - valued at approx $40 - received 2nd September 2019",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2019-10-11",
+      "category": "Travel",
+      "entity": "QANTAS",
+      "details": "Complimentary upgrade - QANTAS - Flight Sydney to Singapore - Saturay 21st September 2019",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-02",
+      "category": "Gifts",
+      "entity": "Salesforce",
+      "details": "1 x book from Salesforce - valued at approx. $30, received on 26th November 2019",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2019-12-20",
+      "category": "Gifts",
+      "entity": "Food and Grocery Council",
+      "details": "1 x small Food hamper from Food and Grocery Council - valued at approx $30 received on 4th December 2019",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2019-12-20",
+      "category": "Gifts",
+      "entity": "Crop Life Australia",
+      "details": "1 x Grandma's Pudding from Crop Life Australia - valued at approx $20 received on 4th December 2019",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-12-20",
+      "category": "Gifts",
+      "entity": "Ministry of Foreign Affairs of Japan",
+      "details": "1 x Calendar from Ministry of Foreign Affairs of Japan - valued at approx $20 received on 4th December 2019",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2019-12-20",
+      "category": "Gifts",
+      "entity": "Affinity Intercultural Foundation",
+      "details": "1 x Box of Turkish Delight Sweets from Affinity Intercultural Foundation - valued at approx $10 received on 16th December 2019",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2020-02-05",
+      "category": "Liabilities",
+      "entity": "Newcastle Permanent",
+      "details": "MORTGAGE",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-16",
+      "category": "Gifts",
+      "entity": "US Embassy",
+      "details": "1 x Christmas ornament from US Embassy - vauled at $30 received on 20th December 2019",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Decorative"
+    },
+    {
+      "declaration_date": "2020-03-16",
+      "category": "Gifts",
+      "entity": "Bespoke Approach",
+      "details": "1 x Notebook - received from Bespoke Approach - valued at $35 received on 20th December 2019",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2020-03-16",
+      "category": "Gifts",
+      "entity": "Author Carl Beauchamp",
+      "details": "1 x Book received from Author Carl Beauchamp - valued at $24.95 received on 31st January 2019",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2020-03-16",
+      "category": "Gifts",
+      "entity": "Hugh S Macdonald",
+      "details": "1 x Book by Howard Thomas Brady received from Hugh S Macdonald - valued at $34 received on 10th March 2019",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2020-08-03",
+      "category": "Gifts",
+      "entity": "Bankstown RSL",
+      "details": "1 x Jacket and Cap received from Bankstown RSL - valued at $40 received on 10th July 2020",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2020-08-03",
+      "category": "Gifts",
+      "entity": "YouTube",
+      "details": "1 x Gift box from YouTube - valued at $40 received on 14th July 2020",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2020-08-26",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Patron of Bankstown District Amateur Football Association (BDAFA)",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-08-26",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Member of South Metropolitan Regional Scout Council",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-09-17",
+      "category": "Gifts",
+      "entity": "Canterbury Bankstown Chamber of Commerce",
+      "details": "1 x gift bag from Canterbury Bankstown Chamber of Commerce containing, coffee cup, coffee pods and t-shirt - valued at $40, received on Monday 7th September 2020.",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2020-09-25",
+      "category": "Gifts",
+      "entity": "Manildra Group",
+      "details": "\"Staysafe\" Anti bacterial hand sanitisers received from Manildra Group - valued at approx -$15, received on 21st September 2020",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2020-09-25",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Patron of Canterbury Bankstown Chamber of Commerce",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-09-16",
+      "category": "Gifts",
+      "entity": "Canterbury Bankstown Chamber of Commerce",
+      "details": "1 x gift bag from Canterbury Bankstown Chamber of Commerce containing, coffee cup, coffee pods and t-shirt - valued at $40, received on Monday 7th September 2020.",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2020-11-28",
+      "category": "Gifts",
+      "entity": "Salesforce",
+      "details": "1 x book from Salesforce - valued at approx. $30, received on 26th November 2019",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2021-12-14",
+      "category": "Gifts",
+      "entity": "Cancer Council",
+      "details": "1 x sunscreen and hat from Cancer Council - received on 10 November 2021 - valued at $30",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2021-12-14",
+      "category": "Gifts",
+      "entity": "Melanoma Institute of Australia",
+      "details": "2 x t-shirts, bandana and stickers from Melanoma Institute of Australia - received on 19 November 2021 - valued at $60",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2021-12-14",
+      "category": "Gifts",
+      "entity": "Google Australia",
+      "details": "1 x book from Google Australia - received on 19 November 2021 - valued at $60",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2021-12-14",
+      "category": "Gifts",
+      "entity": "Advanced Cairns",
+      "details": "1 x tie from Advanced Cairns - received on 22 November 2021 - valued at $20",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2021-12-14",
+      "category": "Gifts",
+      "entity": "Clubs NSW",
+      "details": "1 x gift box from Clubs NSW - received on 24 November 2021 - valued at $100",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-12-14",
+      "category": "Gifts",
+      "entity": "Bureau of Meteorology",
+      "details": "1 x calendar from Bureau of Meteorology - received on 24 November 2021 - valued at $20",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2021-12-14",
+      "category": "Gifts",
+      "entity": "Croplife",
+      "details": "1 x Xmas pudding from Croplife - received on 29 November 2021 - valued at $40",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-12-14",
+      "category": "Gifts",
+      "entity": "Small Business Organisation Australia",
+      "details": "1 x bottle of wine from Small Business Organisation Australia - received on 29 November 2021 - valued at $40",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2021-12-14",
+      "category": "Gifts",
+      "entity": "Facebook Australia",
+      "details": "1 x gift box from Facebook Australia - received on 29 November 2021 - valued at $70",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2021-12-14",
+      "category": "Gifts",
+      "entity": "Muslim Women Australia",
+      "details": "1 x gift box from Muslim Women Australia - received on 10 December - valued at $80",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-12-14",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Self and Spouse - Rent",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-01-17",
+      "category": "Gifts",
+      "entity": "Copyright Agency",
+      "details": "1 x Book received from Copyright Agency \u2013 value at $30 - received on 15 December 2021",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2022-01-17",
+      "category": "Gifts",
+      "entity": "Life's Little Treasurer",
+      "details": "1 x Beanie received from Life's Little Treasurer - valued at $20 \u2013 received on 15 December 2021",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-01-17",
+      "category": "Gifts",
+      "entity": "Lion Corporation",
+      "details": "1 x Case of Beer from Lion Corporation \u2013 value at $50 - received on 16 December 2021",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2022-01-17",
+      "category": "Gifts",
+      "entity": "Bespoke Approach",
+      "details": "1 x Notebook from Bespoke Approach - valued at $30 - received on 4 January 2022",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2022-01-17",
+      "category": "Gifts",
+      "entity": "U.S. Embassy",
+      "details": "1 x Christmas Ornament from U.S. Embassy - valued at $30 \u2013 received on 4 January 2022",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Decorative"
+    },
+    {
+      "declaration_date": "2022-01-17",
+      "category": "Gifts",
+      "entity": "Embassy of the People's Republic of China",
+      "details": "1 x Calendar from Embassy of the People's Republic of China \u2013 valued at $30 - received on 4 January 2022",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2022-01-17",
+      "category": "Gifts",
+      "entity": "Westpac",
+      "details": "1 x Ticket to the New Years Test from Westpac - received on 6 January 2022",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2021-10-21",
+      "category": "Gifts",
+      "entity": "Facebook Australia",
+      "details": "1 x Gift box from Facebook Australia - received on 14 October 2021 - valued at $50",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2021-10-21",
+      "category": "Gifts",
+      "entity": "ABC",
+      "details": "1 x Gift bag from ABC - received on 11 October 2021 - valued at $60",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-10-21",
+      "category": "Gifts",
+      "entity": "Real Estate Institute",
+      "details": "1 x Gift box from Real Estate Institute - received on 18 October 2021 - valued at $85",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-10-21",
+      "category": "Gifts",
+      "entity": "The Conversation",
+      "details": "1 x Book from The Conversation - received on 18 October 2021 - valued at $25",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2021-10-21",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Self and Spouse - Milton - Holiday and investment",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-10-21",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Self and Spouse - Mortgage on Milton property - Westpac",
+      "pdf_url": "clare_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-10-08",
+      "category": "Gifts",
+      "entity": "AIME",
+      "details": "1 x jumper from AIME - received on 3 September 2021 - valued at $40",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-10-08",
+      "category": "Gifts",
+      "entity": "Council of Small Business Organisations Australia",
+      "details": "1 x Keep Cup from Council of Small Business Organisations Australia - received on 16 September 2021 - valued at $20",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-10-08",
+      "category": "Gifts",
+      "entity": "Monash University Publishing",
+      "details": "1 x Book from Monash University Publishing - received on 30 September 2021 - valued at $20",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2021-10-08",
+      "category": "Gifts",
+      "entity": "Amputee NSW",
+      "details": "1 x Face Mask from Amputee NSW - received on 7 October 2021 - valued at $5",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-10-08",
+      "category": "Gifts",
+      "entity": "Common Grace",
+      "details": "1 x Hand Knitted Woollen Scarf from Common Grace - received on 7 October 2021 - valued at $30",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2021-07-07",
+      "category": "Gifts",
+      "entity": "David Leser",
+      "details": "1 x Book received from David Leser - received on 6 May 2021 - valued at $25",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2021-07-01",
+      "category": "Gifts",
+      "entity": "LGAQ",
+      "details": "1 x bottle of wine and coffee keep cup \u2013 received from LGAQ on Monday 21st June 21 \u2013 valued at $30",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2021-07-01",
+      "category": "Gifts",
+      "entity": "ALGA",
+      "details": "1 x hamper - received from ALGA on Monday 21st June 21 \u2013 valued at $60",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2021-07-01",
+      "category": "Gifts",
+      "entity": "Swan City",
+      "details": "2 bottles of wine - received from Swan City - on 15th June 21 - valued at $70",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2021-07-01",
+      "category": "Gifts",
+      "entity": "The Australian Traditional - Medicine Society",
+      "details": "1 x gift box of vitamins - received from The Australian Traditional - Medicine Society - on Wednesday 26th May - valued at $ 50",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-07-01",
+      "category": "Gifts",
+      "entity": "Salvation Army",
+      "details": "1 x pair of socks from Salvation Army received on Monday 24th May - valued at $10",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-04-06",
+      "category": "Gifts",
+      "entity": "Croplife",
+      "details": "1 x Gift box from Croplife - valued at $60 received on 15th February 2021",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-04-06",
+      "category": "Gifts",
+      "entity": "Mates against Melanoma",
+      "details": "1 x T-shirt, cap and mask from Mates against Melanoma - valued at $50 received on 15th February 2021",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2021-04-06",
+      "category": "Gifts",
+      "entity": "Josh Frydenberg MP",
+      "details": "1 x Book \"The Happiest Man of Earth\" by Eddie Jaku from Josh Frydenberg MP - valued at $19 received on 17th March 2021",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2021-04-06",
+      "category": "Gifts",
+      "entity": "Lion Australia",
+      "details": "1 x Gift box from Lion Australia - valued at $30 received on 18th March 2021",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-04-06",
+      "category": "Gifts",
+      "entity": "Nestle",
+      "details": "1 x Gift bag with Kit Kats from Nestle - valued at $10 received on 22nd March 2021",
+      "pdf_url": "clare_46p.pdf",
+      "sub_category": "Other Gifts"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/clare_46p.pdf"
+}

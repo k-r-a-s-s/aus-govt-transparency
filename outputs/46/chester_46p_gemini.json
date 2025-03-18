@@ -1,0 +1,258 @@
+{
+  "mp_name": "Darren Chester",
+  "party": "Unknown",
+  "electorate": "Gippsland",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "AXXA",
+      "details": "Self",
+      "pdf_url": "chester_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "OPTISCAN",
+      "details": "Self",
+      "pdf_url": "chester_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "CHESTER FAMILY TRUST",
+      "details": "NO LONGER TRADING PRIMARY Self",
+      "pdf_url": "chester_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "CHESTER FAMILY TRUST",
+      "details": "NO LONGER TRADING PRIMARY Spouse/partner",
+      "pdf_url": "chester_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "CHESTER FAMILY TRUST",
+      "details": "NO LONGER TRADING PRIMARY Dependent children",
+      "pdf_url": "chester_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Lakes Entrance VIC RESIDENTIAL Self",
+      "pdf_url": "chester_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Lakes Entrance VIC INVESTMENT Self",
+      "pdf_url": "chester_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Ivanhoe VIC INVESTMENT Self",
+      "pdf_url": "chester_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Kingston ACT INVESTMENT Self",
+      "pdf_url": "chester_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Kingston ACT RESIDENTIAL (NOTE 50% OWNERSHIP) Spouse/partner",
+      "pdf_url": "chester_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Lakes Entrance VIC RESIDENTIAL Spouse/partner",
+      "pdf_url": "chester_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "chester_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "chester_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "WESTPAC",
+      "details": "MORTGAGE - LAKES ENTRANCE Self",
+      "pdf_url": "chester_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "WESTPAC",
+      "details": "MORTGAGE - IVANHOE Self",
+      "pdf_url": "chester_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "BENDIGO BANK",
+      "details": "MORTGAGE - KINGSTON Self",
+      "pdf_url": "chester_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "WESTPAC",
+      "details": "CHEQUE/SAVINGS Self",
+      "pdf_url": "chester_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "WESTPAC",
+      "details": "CHEQUE/SAVINGS Spouse/partner",
+      "pdf_url": "chester_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "WESTPAC",
+      "details": "SAVINGS Dependent children",
+      "pdf_url": "chester_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "PRIVATE SUPERANNUATION FUNDS Self",
+      "pdf_url": "chester_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "PRIVATE SUPERANNUATION FUNDS Spouse/partner",
+      "pdf_url": "chester_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "WAGES - LAKES ENTRANCE PRIMARY SCHOOL Spouse/partner",
+      "pdf_url": "chester_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "WAGES - CASUAL WORK - LAKES ENTRANCE/MELBOURNE Dependent children",
+      "pdf_url": "chester_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "MEMBERSHIP AIRLINE LOUNGES (QANTAS/VIRGIN) Self",
+      "pdf_url": "chester_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "MEMBERSHIP GOLF CLUB Self",
+      "pdf_url": "chester_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "MEMBERSHIP PRESS CLUB Self",
+      "pdf_url": "chester_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "PAY TV SUBSCRIPTION - ELECTORATE OFFICE Self",
+      "pdf_url": "chester_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "chester_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "chester_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "chester_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-11-26",
+      "category": "Hospitality",
+      "entity": "Tabcorp",
+      "details": "2 Tickets to the Birdcage at the Melbourne Cup on November 5, 2019.",
+      "pdf_url": "chester_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-23",
+      "category": "Hospitality",
+      "entity": "Suncorp Group Limited",
+      "details": "2 x Tickets to Elton John Concert AAMI Park February 22, 2020 - value $250 each",
+      "pdf_url": "chester_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-06-02",
+      "category": "Hospitality",
+      "entity": "Rex Airlines",
+      "details": "Rex Airlines lounge membership",
+      "pdf_url": "chester_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-11-23",
+      "category": "Hospitality",
+      "entity": "TabCorp",
+      "details": "2 x Tickets to Chairman's Club at Paramount Stakes Day, November 6, 2021",
+      "pdf_url": "chester_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-01-18",
+      "category": "Hospitality",
+      "entity": "Tabcorp",
+      "details": "3 x Tickets to Boxing Day Test - Ashes Cricket on December 27, 2022.",
+      "pdf_url": "chester_46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/chester_46p.pdf"
+}

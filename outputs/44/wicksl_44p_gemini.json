@@ -1,0 +1,515 @@
+{
+  "mp_name": "Lucy Elizabeth Wicks",
+  "party": "N/A",
+  "electorate": "Robertson",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Insurance Australia Group",
+      "details": "Insurance Australia Group (both individually and jointly owned with spouse)",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Comverse Technology",
+      "details": "Comverse Technology Insurance Australia Group (jointly owned with spouse)",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "nil",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "Dee Why",
+      "details": "Dee Why NSW Investment",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "nil",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "nil",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Mortgage (jointly liable with spouse)",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Mortgage (jointly liable with spouse)",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "Capital Finance Australia",
+      "details": "Personal Vehicle Loan",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings accounts (jointly owned with spouse)",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Savings account (jointly owned with spouse)",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "Telstra",
+      "details": "Superannuation - Telstra, Life Insurance - Telstra & First State Super",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "First State Super",
+      "details": "Superannuation - First State Super",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "Australian Eligible Rollover Fund",
+      "details": "Superannuation - Australian Eligible Rollover Fund",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "Nestle",
+      "details": "Superannuation - Nestle Superannuation, Superannuation -Mercer",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "MLC",
+      "details": "Superannuation - MLC",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "AIA",
+      "details": "Life Insurance - AIA, Motor Vehicles for personal use, Superannuation - PSS",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from investment property set out above (jointly owned with spouse)",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Income Sources",
+      "entity": "IBM Australia",
+      "details": "Contractor to IBM Australia via Candle ICT",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "nil",
+      "pdf_url": "wicksl_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "nil",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Central Coast Leagues Club, Gosford",
+      "details": "Central Coast Leagues Club, Gosford",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Everglades Country Club, Woy Woy",
+      "details": "Everglades Country Club, Woy Woy",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Easts (Eastern Suburbs Leagues Club Ltd), Woy",
+      "details": "Easts (Eastern Suburbs Leagues Club Ltd), Woy",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "nil known",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Patron of National Servicemen's Re-Enactment Unit",
+      "details": "Patron of National Servicemen's Re-Enactment Unit",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Patron of Central Coast Family History Society",
+      "details": "Patron of Central Coast Family History Society",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Gifts",
+      "entity": "Foxtel",
+      "details": "Foxtel at Electorate Office",
+      "pdf_url": "wicksl_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's Lounge",
+      "pdf_url": "wicksl_44p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Gifts",
+      "entity": "Virgin Australia",
+      "details": "Virgin Australia - The Club",
+      "pdf_url": "wicksl_44p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Gifts",
+      "entity": "Starship Cruises Pty Ltd",
+      "details": "Starship Cruises Pty Ltd \u2013 one complimentary ticket and one reduced price ticket for Naval Fleet Review Cruise (5 October 2013)",
+      "pdf_url": "wicksl_44p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "Superannuation",
+      "details": "Superannuation \u2013 MLC rolled over into Nestle Super",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "Superannuation",
+      "details": "Superannuation \u2013 Mercer rolled over into Nestle Super",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-01-02",
+      "category": "Memberships",
+      "entity": "Gosford RSL",
+      "details": "Self - Member of Gosford RSL, December 2013.",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-01-02",
+      "category": "Other Interests",
+      "entity": "Robert Puffett",
+      "details": "Two artworks for display in Electorate Office: on temporary loan from Robert Puffett. November 2013",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-01-02",
+      "category": "Other Interests",
+      "entity": "Joseph Rolella",
+      "details": "Image for print on Christmas cards \"Slack Tide\" by Joseph Rolella. Used with permission. December 2013",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-01-30",
+      "category": "Memberships",
+      "entity": "Terrigal Surf Lifesaving Club",
+      "details": "Terrigal Surf Lifesaving Club January 2014",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-01-30",
+      "category": "Memberships",
+      "entity": "National Seniors Australia",
+      "details": "National Seniors Australia November 2013",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-01-30",
+      "category": "Memberships",
+      "entity": "Erina Chamber of Commerce",
+      "details": "Erina Chamber of Commerce Joined December 2012",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-01-30",
+      "category": "Memberships",
+      "entity": "Gosford Chamber of Commerce",
+      "details": "Gosford Chamber of Commerce Joined February 2012",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-01-30",
+      "category": "Other Assets",
+      "entity": "Life Education",
+      "details": "Life Education \"Healthy Harold\" December 2013",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-01-30",
+      "category": "Income Sources",
+      "entity": "IBM Australia",
+      "details": "Spouse - IBM Australia December 2013",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-01-30",
+      "category": "Income Sources",
+      "entity": "IBM Australia",
+      "details": "Spouse - Contractor to IBM Australia via Candle ICT December 2013",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-02-05",
+      "category": "Other Interests",
+      "entity": "Volunteer Marine Rescue NSW Central Coast Unit",
+      "details": "Volunteer Marine Rescue NSW Central Coast Unit 5th February 2014",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-02-13",
+      "category": "Other Assets",
+      "entity": "ASERF",
+      "details": "ROLLOVER OF SUPERANNUATION FUND JANUARY 2014",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-03-06",
+      "category": "Shares",
+      "entity": "Little Whistler Pty Ltd",
+      "details": "Little Whistler Pty Ltd, Intermediate holding company, Trustee Feb 2014",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-03-06",
+      "category": "Trusts",
+      "entity": "Candl Holdings Trust",
+      "details": "Candl Holdings Trust, Family Trust, Primary Beneficiaries Feb 2014",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-03-06",
+      "category": "Trusts",
+      "entity": "Little Whistler Trust",
+      "details": "Little Whistler Trust, Investment, Primary Beneficiaries Feb 2014",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-03-06",
+      "category": "Directorships",
+      "entity": "Candl Holdings Trust",
+      "details": "Candl Holdings Trust, Family Trust, Primary Beneficiaries Feb 2014",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-03-06",
+      "category": "Directorships",
+      "entity": "Little Whistler Pty Ltd",
+      "details": "Little Whistler Pty Ltd, Corporate Trustee for Little Whistler Trust Feb 2014",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-03-06",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's Lounge Oct 2013",
+      "pdf_url": "wicksl_44p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2014-03-06",
+      "category": "Memberships",
+      "entity": "Ettalong Beach Memorial Club",
+      "details": "Ettalong Beach Memorial Club - joined Feb 2014",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-05-26",
+      "category": "Liabilities",
+      "entity": "PLAN Lending",
+      "details": "Mortgage - PLAN Lending",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-05-26",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Mortgage - CBA",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-07-04",
+      "category": "Gifts",
+      "entity": "Gosford Racing Club",
+      "details": "2014/2015 Season Pass x 2, Gosford Racing Club, Racecourse Rd, Gosford",
+      "pdf_url": "wicksl_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2014-07-21",
+      "category": "Gifts",
+      "entity": "Gift Central Coast Lapidary Club",
+      "details": "Handmade bracelet & single opal, Gift Central Coast Lapidary Club 3/7/14",
+      "pdf_url": "wicksl_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2014-07-21",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Upgrade to Business Class Sydney to Canberra, Qantas 13/7/14",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-12-02",
+      "category": "Memberships",
+      "entity": "Club Umina",
+      "details": "Club Umina September 2014",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-12-02",
+      "category": "Memberships",
+      "entity": "Gosford RSL Club",
+      "details": "Gosford RSL Club October 2014",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-02-16",
+      "category": "Gifts",
+      "entity": "Minister for Health & Sport",
+      "details": "2x Football Tickets - VIP Box Representing Minister for Health & Sport 26 January 2015 Newcastle Stadium Semi Final of Asian Cup Socceroos vs UAE Value estimated at $200 each Attended with husband Chris",
+      "pdf_url": "wicksl_44p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2015-02-22",
+      "category": "Income Sources",
+      "entity": "IBM Australia",
+      "details": "Spouse - IBM Australia February 2015",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-04-27",
+      "category": "Real Estate",
+      "entity": "Springfield",
+      "details": "Springfield NSW, PPR",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-04-27",
+      "category": "Liabilities",
+      "entity": "AMP Bank Ltd",
+      "details": "Mortgage \u2013 AMP Bank Ltd",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-06-25",
+      "category": "Memberships",
+      "entity": "Woy Woy Rotary Club",
+      "details": "Woy Woy Rotary Club",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-08-12",
+      "category": "Other Interests",
+      "entity": "MyElectorate Pty Ltd.",
+      "details": "The establishment and ongoing hosting of my website www.lucywicks.com.au, provided by MyElectorate Pty Ltd.",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-10-09",
+      "category": "Income Sources",
+      "entity": "Sydney Trains",
+      "details": "Spouse - Sydney Trains via Randstad Sept 2015",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-10-15",
+      "category": "Other Interests",
+      "entity": "CommInsure",
+      "details": "Insurance payouts by CommInsure due to storm damage of principal place of residence",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-16",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Travel - Qantas flight QF1522 from Canberra to Sydney on the 12th of November 2015 Complimentary upgrade from Economy class to Business class",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-20",
+      "category": "Memberships",
+      "entity": "Breakers Country Club, Wamberal",
+      "details": "Member: Breakers Country Club, Wamberal",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-20",
+      "category": "Memberships",
+      "entity": "Erina Leagues Club, Erina",
+      "details": "Member: Erina Leagues Club, Erina",
+      "pdf_url": "wicksl_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-03-30",
+      "category": "Hospitality",
+      "entity": "Central Coast Stadium",
+      "details": "Acceptance of invitation to A-League football match at Central Coast Stadium - Gosford. Mariners vs Newcastle, on the 28th Feb 2016 Chairman's lounge tickets for myself and my husband. Total value: $360",
+      "pdf_url": "wicksl_44p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/wicksl_44p.pdf"
+}

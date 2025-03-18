@@ -1,0 +1,188 @@
+{
+  "mp_name": "Stephen Jones",
+  "party": "Unknown",
+  "electorate": "Whitlam",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Trusts",
+      "entity": "Quilter Family Trust",
+      "details": "Family trust operated by children's grandfather. Joint beneficiary",
+      "pdf_url": "jones_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Mount Warrigal, NSW - Residential",
+      "pdf_url": "jones_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Kingston, ACT - Investment",
+      "pdf_url": "jones_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Liabilities",
+      "entity": "St George",
+      "details": "Mortgage",
+      "pdf_url": "jones_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Savings/Investments",
+      "entity": "Vanguard Australian Shares ETF",
+      "details": "Index fund",
+      "pdf_url": "jones_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Savings/Investments",
+      "entity": "Vanguard Active Global Growth Fund",
+      "details": "Index fund",
+      "pdf_url": "jones_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Savings/Investments",
+      "entity": "ANZ Bank",
+      "details": "Savings",
+      "pdf_url": "jones_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Savings/Investments",
+      "entity": "ANZ Bank",
+      "details": "Savings",
+      "pdf_url": "jones_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation",
+      "pdf_url": "jones_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rental Income",
+      "pdf_url": "jones_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Gifts",
+      "entity": "Qantas Chairman's Lounge",
+      "details": "Qantas Chairman's Lounge membership",
+      "pdf_url": "jones_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Gifts",
+      "entity": "Virgin The Club",
+      "details": "Virgin The Club membership",
+      "pdf_url": "jones_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Gifts",
+      "entity": "ASTRA",
+      "details": "Foxtel subscription in Electorate Office from ASTRA.",
+      "pdf_url": "jones_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-02-15",
+      "category": "Gifts",
+      "entity": "Prime Minister of Vanuatu",
+      "details": "Cuff links received as an official gift by the Prime Minister of Vanuatu.",
+      "pdf_url": "jones_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-08-24",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Spouse/Partner: Braddon ACT - Residential",
+      "pdf_url": "jones_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-24",
+      "category": "Liabilities",
+      "entity": "ME Bank",
+      "details": "Spouse/Partner: Mortagage - ME Bank",
+      "pdf_url": "jones_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-24",
+      "category": "Savings/Investments",
+      "entity": "ME Bank",
+      "details": "Spouse/Partner: Savings - ME Bank",
+      "pdf_url": "jones_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-24",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Spouse/Partner: Superannuation",
+      "pdf_url": "jones_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-24",
+      "category": "Memberships",
+      "entity": "CPSU",
+      "details": "Spouse/Partner: CPSU Official",
+      "pdf_url": "jones_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-29",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Turner ACT - Residential (joint with spouse)",
+      "pdf_url": "jones_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-29",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Mortgage - Westpac (joint with spouse)",
+      "pdf_url": "jones_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-29",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Savings - Westpac (spouse)",
+      "pdf_url": "jones_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-29",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Braddon ACT - Residential",
+      "pdf_url": "jones_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-29",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Kingston ACT - Residential",
+      "pdf_url": "jones_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-29",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rental income",
+      "pdf_url": "jones_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/jones_47p.pdf"
+}

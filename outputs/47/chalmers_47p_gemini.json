@@ -1,0 +1,497 @@
+{
+  "mp_name": "Jim Chalmers",
+  "party": "Unknown",
+  "electorate": "RANKIN",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "House (Springwood, QLD), Primary Residence",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Apartment (Forrest, ACT), Secondary Residence",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Mortgage (Springwood, QLD)",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Mortgage (Forrest, ACT)",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Credit Card (debit and credit)",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Credit Card",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Savings",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Cheque",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Savings",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Savings",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Savings",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Savings/Investments",
+      "entity": "MLC",
+      "details": "Managed fund",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation (Australian Retirement Trust)",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation (Australian Super)",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation (Russell Investments)",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "2015 Mazda CX5",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "chalmers_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Qantas Chairman's Lounge",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Virgin Velocity - The Club Membership",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Qantas Platinum One Status",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "ALP (Springwood, QLD Branch)",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "AWU QLD",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Brisbane Broncos",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "National Press Club",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Kawartha Forest Protection Society",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Centre for Women and Co (Logan Central)",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Logan Chamber of Commerce (general membership)",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Multilink Community Services",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Kingston East Neighbourhood Group",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Logan East Community Neighbourhood Centre",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Surf Life Saving QLd (vice patron role)",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Rochedale Springwood (QLD) Lions Club",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "YFS",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Women in Media (QLD) (Deputy Convenor)",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "MEAA Union",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Editor @ News Corporation",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Griffith University School of Government and International Relations Advisory Board (DELETION)",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Georgetown University Center for Australian, New Zealand and Pacific Studies (CANZPS) Board of Advisors (DELETION)",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Australian Institute of Company Directors (DELETION)",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "National Seniors (DELETION)",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "PGA of Australia Honorary Membership (DELETION)",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "4116 Club (DELETION)",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Hospitality",
+      "entity": "Courier Mail",
+      "details": "Dinner hosted by the Courier Mail @ Black Hide Steakhouse with spouse and tickets (x2) in the Chairman's Lounge, Suncorp Stadium for the NRL Brisbane Broncos vs South Roosters Match on Friday 08 April 2022",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Travel",
+      "entity": "Westpac Bank",
+      "details": "Ticket to the National Press Club Address by the then Leader of the Opposition, the Hon Anthony Albanese, hosted by Westpac Bank on 18 May 2022",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Travel",
+      "entity": "Australian Rugby League Commission, National Rugby League",
+      "details": "Game 1 State of Origin Match (NSW v QLD) at Accor Stadium, Sydney hosted by Peter V'landys AM and Andrew Abdo (x1 ticket) on Wednesday 08 June 2022",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Gifts",
+      "entity": "SKY News",
+      "details": "Bottle of wine (Penfolds Bin 150 Marananga Shiraz), Book (Borne to be Live - 25 ears of SKY news Australia) and SKY notebook on Wednesday 08 June 2022 from SKY News",
+      "pdf_url": "chalmers_47p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Hospitality",
+      "entity": "Brisbane Broncos",
+      "details": "NRL Match - Brisbane Broncos vs St George Dragons hosted by Dave Donaghy (Chief Executive Officer, Brisbane Broncos) (x5 tickets in Corporate Box) on Sunday 10 July 2022",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Travel",
+      "entity": "Royal National Agricultural and Industrial Association of Queensland",
+      "details": "VIP tickets (x2) for the 2 week period of the EKKA from Brendan Christou (Chief Executive Officer, Royal National Agricultural and Industrial Association of Queensland) on 20 July 2022 (not used)",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-27",
+      "category": "Travel",
+      "entity": "NINE Newspapers",
+      "details": "Press Gallery Mid Winter Ball tickets (x2) courtesy of NINE Newspapers (Wednesday 07 September 2022)",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-01-27",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Tickets to the Bullets NBL Game (01 January 2023) (x2) and jerseys (x2)",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-02-03",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Gift to spouse in her work capacity, attended 'Hamilton - The Musical' at QPAC on Tuesday 31 January 2023",
+      "pdf_url": "chalmers_47p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2023-02-03",
+      "category": "Travel",
+      "entity": "Tennis Australia",
+      "details": "Attended Australian Open Men's Final as a guest of Tennis Australia with spouse (x2 tickets) on on Sunday 29 January 2023",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-03-14",
+      "category": "Travel",
+      "entity": "Brisbane Broncos",
+      "details": "NRL Match - Brisbane Broncos vs Cowboys hosted by Brisbane Broncos (x3 tickets in Chairman's Lounge, Suncorp Stadium) on Friday 10 March 2023",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-03-08",
+      "category": "Gifts",
+      "entity": "Westpac and NRL",
+      "details": "QLD Reds and Indigenous all stars jerseys from Westpac and NRL on Wednesday 08 March 2023",
+      "pdf_url": "chalmers_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-03-08",
+      "category": "Gifts",
+      "entity": "Peter King (Westpac), Andrew Abdo (NRL)",
+      "details": "Official Westpac branded NRL match ball, NRL A5 notebook and an Indigenous All Star Mens Jersey (signed) gifted from Peter King (Chief Executive Officer, Westpac) and Andrew Abdo (Chief Executive Officer, NRL) on Wednesday 08 March 2023",
+      "pdf_url": "chalmers_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-06-22",
+      "category": "Travel",
+      "entity": "News Ltd",
+      "details": "Press Gallery Mid Winter Ball Tickets (x2) courtesy of News Ltd (Wednesday 21 June 2023)",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-10-20",
+      "category": "Travel",
+      "entity": "Australian Rugby League Commission and National Rugby League",
+      "details": "NRL Match - Brisbane Broncos vs Warrior hosted by Australian Rugby League Commission and National Rugby League (x1 ticket in Hirer's Suite) on Saturday 23 September 2023",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-01-11",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "4 x tickets to Brisbane International tennis on Saturday 6th January 2024",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-01-11",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "6 x tickets to the Brisbane Bullets Basketball game on 27/12/2023",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-06-21",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "5 x tickets to Brisbane Broncos NRL match on Sunday 26th May 2024",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-25",
+      "category": "Travel",
+      "entity": "Nine Fairfax Media",
+      "details": "Press Gallery Mid-Winter Ball tickets courtesy of Nine Fairfax Media (x2) (Wednesday 3 July 2024)",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-08-09",
+      "category": "Travel",
+      "entity": "Australian Rugby League Commission and National Rugby League",
+      "details": "NRL State of Origin Game 3 - Hosted by Australian Rugby League Commission and National Rugby League (x1 ticket in Chairman's Room) on Wednesday 17 July 2024",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-28",
+      "category": "Travel",
+      "entity": "Brisbane Bullets",
+      "details": "Two tickets from Brisbane Bullets to Basketball Game on Saturday, 5 October 2024 - Brisbane Bullets v Sydney Kings",
+      "pdf_url": "chalmers_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-01-30",
+      "category": "Travel",
+      "entity": "Brisbane Bullets",
+      "details": "6x tickets from the Brisbane Bullets to the NBL game on 27 December 2024 (Brisbane Bullets v Illawarra Hawks)",
+      "pdf_url": "chalmers_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/chalmers_47p.pdf"
+}

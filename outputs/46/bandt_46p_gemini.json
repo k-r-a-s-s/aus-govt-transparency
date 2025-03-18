@@ -1,0 +1,221 @@
+{
+  "mp_name": "Adam Bandt",
+  "party": "N/A",
+  "electorate": "Melbourne",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "AMP",
+      "details": "AMP shares, obtained when AMP demutualised.",
+      "pdf_url": "bandt_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "Shebah (All Women Rideshare)",
+      "details": "Shebah (All Women Rideshare)",
+      "pdf_url": "bandt_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "bandt_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "House in Flemington, Residential",
+      "pdf_url": "bandt_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "House in Flemington, Residential",
+      "pdf_url": "bandt_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "bandt_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Directorships",
+      "entity": "Period Pty Ltd",
+      "details": "Manufacturing",
+      "pdf_url": "bandt_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "bandt_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "Bank Australia",
+      "details": "Mortgage over house",
+      "pdf_url": "bandt_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "Bank Australia",
+      "details": "Mortgage over house",
+      "pdf_url": "bandt_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "Bank Australia",
+      "details": "Savings Account",
+      "pdf_url": "bandt_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "Bank Australia",
+      "details": "Savings account",
+      "pdf_url": "bandt_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "Australian Ethical - Emerging Companies Fund",
+      "details": "Investment account",
+      "pdf_url": "bandt_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation & Life Insurance Policy - HESTA EcoPool.",
+      "pdf_url": "bandt_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation - FutureSuper",
+      "pdf_url": "bandt_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Superannuation: PSSAP",
+      "pdf_url": "bandt_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "bandt_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Wages from employment.",
+      "pdf_url": "bandt_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's Lounge Membership",
+      "pdf_url": "bandt_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Gifts",
+      "entity": "Virgin",
+      "details": "Virgin Club Membership",
+      "pdf_url": "bandt_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Gifts",
+      "entity": "Qantas/Virgin",
+      "details": "Ocassional upgrades from economy to business class on Virgin and Qantas",
+      "pdf_url": "bandt_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Other gifts as per previous declarations in prior parliaments.",
+      "pdf_url": "bandt_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's Lounge Membership",
+      "pdf_url": "bandt_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Gifts",
+      "entity": "Virgin",
+      "details": "Virgin Club Membership",
+      "pdf_url": "bandt_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Gifts",
+      "entity": "Qantas/Virgin",
+      "details": "Ocassional upgrades from economy to business class on Virgin and Qantas",
+      "pdf_url": "bandt_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "3RRR",
+      "details": "Member of 3RRR community radio station.",
+      "pdf_url": "bandt_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-09-06",
+      "category": "Gifts",
+      "entity": "ASTRA",
+      "details": "Electorate office provided with complementary television subscription by ASTRA.",
+      "pdf_url": "bandt_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-10-21",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Spouse - Qantas flight upgrade on personal flight",
+      "pdf_url": "bandt_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-01-25",
+      "category": "Shares",
+      "entity": "AMP",
+      "details": "AMP Shares (Shares received on AMP demutualisation have been sold)",
+      "pdf_url": "bandt_46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/bandt_46p.pdf"
+}

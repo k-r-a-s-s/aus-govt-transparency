@@ -1,0 +1,409 @@
+{
+  "mp_name": "John Alexander",
+  "party": "Unknown",
+  "electorate": "Bennelong",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Gilbert Frank Investments P/L",
+      "details": "Shares held",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "John Alexander's Clubs P/L",
+      "details": "Shares held",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Alexanders Tennis Professionals",
+      "details": "Shares held",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Alchemy",
+      "details": "Shares held",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "BHP",
+      "details": "Shares held",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Comet Ridge",
+      "details": "Shares held",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Transurban",
+      "details": "Shares held",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Westpac",
+      "details": "Shares held",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "ANZ",
+      "details": "Shares held",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "NAB",
+      "details": "Shares held",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Rio Tinto",
+      "details": "Shares held",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Zenith",
+      "details": "Shares held",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "AMP",
+      "details": "Shares held",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Telstra",
+      "details": "Shares held",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Putney NSW, Family home",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "Gilbert Frank Investments P/L",
+      "details": "Investments",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "Bell Potter",
+      "details": "Margin lending for share purchase",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Mortgage on home",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "Alphera",
+      "details": "Car hire purchase",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Personal Accounts",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Business Accounts",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Qantas Club Chairman's Lounge",
+      "details": "N/A",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Virgin Club Lounge",
+      "details": "N/A",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "Australian Open Last 8 Club",
+      "details": "N/A",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "Perpetual",
+      "details": "Addition",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "STW Communications",
+      "details": "Addition",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-03-19",
+      "category": "Shares",
+      "entity": "BT Investment",
+      "details": "Addition",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-03-19",
+      "category": "Shares",
+      "entity": "Crown",
+      "details": "Addition",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-03-19",
+      "category": "Shares",
+      "entity": "Telstra",
+      "details": "Addition",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-03-19",
+      "category": "Shares",
+      "entity": "Toll Holdings",
+      "details": "Addition",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-05-14",
+      "category": "Travel",
+      "entity": "AIJAC",
+      "details": "Study trip to Israel, April 2014: AIJAC sponsored trip: travel costs, meals and four nights' accommodation.",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-05-14",
+      "category": "Shares",
+      "entity": "Newcrest",
+      "details": "Shareholdings",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-05-14",
+      "category": "Shares",
+      "entity": "Atlas Iron",
+      "details": "Shareholdings",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-05-14",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Deletion of Personal Vehicle - AUDI A6",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-06-24",
+      "category": "Travel",
+      "entity": "Korea Foundation",
+      "details": "Study trip to Korea, 7-12 July 2014 Korea Foundation sponsored trip: travel costs, meals and accommodation.",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-06-24",
+      "category": "Shares",
+      "entity": "Woodside",
+      "details": "Shareholdings",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-06-24",
+      "category": "Gifts",
+      "entity": "Australasian Railways Association",
+      "details": "Framed map: \"Railways of Australia 2014\" map, gift from Australasian Railways Association.",
+      "pdf_url": "alexanderj_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2014-06-24",
+      "category": "Shares",
+      "entity": "Toll Holdings",
+      "details": "Shareholdings - Deletion",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-12-02",
+      "category": "Hospitality",
+      "entity": "VA925",
+      "details": "Flight Upgrade VA925 on 15 October 2014, upgrade to business class",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-12-02",
+      "category": "Shares",
+      "entity": "Challenger Ltd",
+      "details": "Shareholdings",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-12-02",
+      "category": "Shares",
+      "entity": "Rio",
+      "details": "Shareholding in Rio",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-12-02",
+      "category": "Shares",
+      "entity": "Alchemy",
+      "details": "Shareholding in Alchemy",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-12-02",
+      "category": "Shares",
+      "entity": "Perpetual",
+      "details": "Shareholding in Perpetual",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-06-22",
+      "category": "Shares",
+      "entity": "BHP",
+      "details": "Shareholding in BHP",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-06-22",
+      "category": "Shares",
+      "entity": "Transurban",
+      "details": "Shareholding in Transurban",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-06-22",
+      "category": "Shares",
+      "entity": "Newcrest",
+      "details": "Shareholding in Newcrest",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-06-22",
+      "category": "Shares",
+      "entity": "Atlas Iron",
+      "details": "Shareholding in Atlas Iron",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-06-22",
+      "category": "Shares",
+      "entity": "STW Communications",
+      "details": "Shareholding in STW Communications",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-02-04",
+      "category": "Shares",
+      "entity": "Transurban Group",
+      "details": "Shareholdings",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-02-04",
+      "category": "Shares",
+      "entity": "Newcrest Mining",
+      "details": "Shareholdings",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-02-04",
+      "category": "Shares",
+      "entity": "Atlas Iron Ltd",
+      "details": "Shareholdings",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-02-04",
+      "category": "Shares",
+      "entity": "Macquarie Group Ltd",
+      "details": "Shareholdings",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-02-04",
+      "category": "Shares",
+      "entity": "South32 Ltd",
+      "details": "Shareholdings",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-02-04",
+      "category": "Shares",
+      "entity": "Santos Ltd",
+      "details": "Shareholdings",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-02-04",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Private use Motor Vehicle",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-02-04",
+      "category": "Shares",
+      "entity": "Telstra",
+      "details": "Shareholding in Telstra",
+      "pdf_url": "alexanderj_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-02-04",
+      "category": "Shares",
+      "entity": "Crown",
+      "details": "Shareholding in Crown",
+      "pdf_url": "alexanderj_44p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/alexanderj_44p.pdf"
+}

@@ -1,3 +1,763 @@
 {
-  "relationships": []
+  "mp_name": "Peter Craig Dutton",
+  "party": "N/A",
+  "electorate": "Dickson",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "DUTTON HOLDINGS (QLD) PTY.LTD.",
+      "details": "Name of Company",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "RHT INVESTMENTS (QLD) PTY.LTD.",
+      "details": "Spouse",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "CAMP MOUNTAIN, QLD",
+      "details": "RESIDENCE",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "KINGSTON, ACT",
+      "details": "RESIDENTIAL",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "MORETON ISLAND, QLD",
+      "details": "INVESTMENT",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "EVERTON PARK, QLD",
+      "details": "Spouse - INVESTMENT",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "nil",
+      "details": "Self",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "RHT INVESTMENTS P/L",
+      "details": "Spouse - INVESTMENT",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "BALD HILLS CHILD CARE PTY LTD",
+      "details": "Spouse - CHILD CARE",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "CBA, NAB, QPCU COMMSEC",
+      "details": "MORTGAGE/CREDIT FACILITY (CLOSED 24/9/13)",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "NAB QPCU",
+      "details": "Spouse - MORTGAGE/CREDIT FACILITY",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "NAB, QPCU, CBA, WESTPAC",
+      "details": "SAVINGS",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "NAB, QPCU, WESTPAC",
+      "details": "Spouse - SAVINGS",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "NAB, CBA",
+      "details": "Dependent Children - SAVINGS",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "LIFE INSURANCE, TRACTOR, PK SUPERANNUATION FUND",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Spouse - LIFE INSURANCE, PK SUPERANNUATION FUND",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "INVESTMENT INCOME",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Income Sources",
+      "entity": "BALD HILLS CHILD CARE P/L, DUTTON HOLDINGS (QLD) P/L",
+      "details": "Spouse - EMPLOYMENT",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Spouse - INVESTMENT INCOME",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Framed and signed 2013 Tour de France 100th edition \"Orica Green Edge\" jersey, Mounted autographed Queensland Rugby Hall of Fame football, Autographed Australian Wallabies jersey",
+      "pdf_url": "duttonp_44p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "AS ATTACHED",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "AS ATTACHED",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Interests",
+      "entity": "QANTAS CHAIRMAN'S LOUNGE MEMBERSHIP",
+      "details": "QANTAS CHAIRMAN'S LOUNGE MEMBERSHIP, VIRGIN CLUB MEMBERSHIP, ELECTORATE OFFICE FOXTEL CONNECTION",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Interests",
+      "entity": "QANTAS CHAIRMAN'S LOUNGE MEMBERSHIP",
+      "details": "Spouse - QANTAS CHAIRMAN'S LOUNGE MEMBERSHIP, VIRGIN CLUB MEMBERSHIP",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "SDF (PK SUPERANNUATION FUND) - ACQUIRED",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "SLK (PK SUPERANNUATION FUND) - ACQUIRED",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "MCS (PK SUPERANNUATION FUND) - ACQUIRED",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "PGF (PK SUPERANNUATION FUND) - ACQUIRED",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Real Estate",
+      "entity": "BALD HILLS PROPERTY",
+      "details": "DISPOSED",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "SPOUSE EVERTON PARK PROPERTY SUBDIVIDED AND ONE BLOCK DISPOSED - PARTLY DISPOSED",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Shares",
+      "entity": "ANZ",
+      "details": "DISPOSED",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Shares",
+      "entity": "BHP",
+      "details": "DISPOSED",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Shares",
+      "entity": "QAN",
+      "details": "DISPOSED",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Other Assets",
+      "entity": "SDF",
+      "details": "DISPOSED",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-05",
+      "category": "Other Assets",
+      "entity": "SLK",
+      "details": "DISPOSED",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-11-30",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Minister for Health and Minister for Sport events attended, some with wife and/or children and/or staff. In some cases the tickets and or hospitality may or may not have exceeded $300.",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-01-24",
+      "category": "Hospitality",
+      "entity": "Tennis Queensland",
+      "details": "Guest of Tennis Queensland fundraising dinner 29 December",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-01-24",
+      "category": "Hospitality",
+      "entity": "Cricket Australia",
+      "details": "Guest of Cricket Australia 3rd Ashes Test Australia vs England 3 January",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-01-24",
+      "category": "Hospitality",
+      "entity": "McGrath Foundation",
+      "details": "Guest of McGrath Foundation at (Breast Cancer Day) 3rd Ashes Cricket Test 5 January",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-02-21",
+      "category": "Travel",
+      "entity": "Tennis Australia",
+      "details": "Guest of Tennis Australia at the Twilight Session Men's Final of the Australian Open 26 January",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-02-21",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Qantas upgrade - Sydney to Wellington 31 January",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-02-21",
+      "category": "Travel",
+      "entity": "Virgin",
+      "details": "Virgin upgrade - Wellington to Brisbane 1 February",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-02-21",
+      "category": "Travel",
+      "entity": "Emirates",
+      "details": "Emirates upgrade - Dubai to Brisbane 9 February",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-02-21",
+      "category": "Travel",
+      "entity": "Australian Olympic Committee",
+      "details": "Visit to Winter Olympics, Sochi Russia sponsored by Australian Olympic Committee 5-8 February",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-02-21",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Disposed of shareholding (PK Superannuation Fund) PGF",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-02-21",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Disposed of shareholding (PK Superannuation Fund) PGFO",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-02-21",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Disposed of shareholding (PK Superannuation Fund) MCS",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-02-21",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Closed Ord Minnett trading account (PK Superannuation Fund)",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-04-24",
+      "category": "Liabilities",
+      "entity": "NAB to ANZ",
+      "details": "Partial refinance from NAB to ANZ",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-04-24",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Memorabilia Roger Federer/Rod Laver Night Tennis Queensland",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-04-24",
+      "category": "Hospitality",
+      "entity": "Football Federation Old",
+      "details": "Guest of Football Federation Old for Westfield Matildas vs Brazil 6 April",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-04-24",
+      "category": "Hospitality",
+      "entity": "Gold Coast Suns Chairman",
+      "details": "Guest of Gold Coast Suns Chairman for GC Suns vs Hawthorn 12 April",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-04-24",
+      "category": "Trusts",
+      "entity": "RHT Investments (QLD) Pty. Ltd. ATF RHT Family Trust",
+      "details": "Spouse",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-04-24",
+      "category": "Liabilities",
+      "entity": "NAB to ANZ",
+      "details": "Spouse - Partial refinance from NAB to ANZ",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-04-24",
+      "category": "Trusts",
+      "entity": "RHT Family Trust",
+      "details": "Spouse - Purchase by RHT Family Trust of business from Bald Hills Child Care Pty.Ltd.",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-06-16",
+      "category": "Hospitality",
+      "entity": "Football Federation Australia",
+      "details": "Guest of Football Federation Australia at Hyundai A League and Westfield W League 2013/14 Awards 28 April",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-06-16",
+      "category": "Hospitality",
+      "entity": "Football Federation Australia",
+      "details": "Guest of Football Federation Australia Hyundai A League Grand Final 4 May",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-06-16",
+      "category": "Hospitality",
+      "entity": "Australian Olympic Committee",
+      "details": "Guest of Australian Olympic Committee Olympic family reception for Winter Olympics 2014 team dinner 9 May",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-06-16",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Attend the Victor Chang Cardiac Research dinner 15 May",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-06-16",
+      "category": "Hospitality",
+      "entity": "ORL",
+      "details": "Guest of ORL State of Origin naming dinner 19 May",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-06-16",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Attend Socceroos Official Farewell for 2014 FIFA World Cup Dinner 22 May",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-06-16",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Attend Juvenile Diabetes Research Foundation Dinner 24 May",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-07-17",
+      "category": "Hospitality",
+      "entity": "AFL",
+      "details": "Guest of AFL at the AFL Hall of Fame Induction Dinner 4 June",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-07-17",
+      "category": "Hospitality",
+      "entity": "ARU",
+      "details": "Guest of ARU at Wallabies vs France 7 June",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-07-17",
+      "category": "Hospitality",
+      "entity": "NRL",
+      "details": "Guest of NRL at State of Origin Game 2 18 June",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-07-17",
+      "category": "Hospitality",
+      "entity": "Netball Australia",
+      "details": "Guest of Netball Australia at 2014 ANZ Netball Grand Final 22 June",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-09-04",
+      "category": "Travel",
+      "entity": "ARU",
+      "details": "Tickets to Brumbies vs Waratahs ANZ Stadium courtesy ARU",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-09-04",
+      "category": "Travel",
+      "entity": "NRL",
+      "details": "Tickets and hospitality to State of Origin 3 NRL courtesy of NRL",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-09-04",
+      "category": "Travel",
+      "entity": "Emirates Airlines",
+      "details": "Upgrade on flight QF8435 Brisbane to Glasgow courtesy Emirates Airlines",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-09-04",
+      "category": "Travel",
+      "entity": "Australian Commonwealth Games Association",
+      "details": "Tickets and hospitality for 2014 Glasgow Commonwealth Games, Glasgow courtesy of Australian Commonwealth Games Association",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-09-04",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Signed West Coast Eagles guernsey",
+      "pdf_url": "duttonp_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2014-09-04",
+      "category": "Travel",
+      "entity": "Broncos",
+      "details": "Tickets to Broncos vs St George at Suncorp Stadium courtesy of Broncos",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-09-04",
+      "category": "Travel",
+      "entity": "Abell Point Marina",
+      "details": "Flights, accommodation and hospitality to attend Prostate Cancer Foundation Fundraising event courtesy of Abell Point Marina",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-10-13",
+      "category": "Travel",
+      "entity": "ARU",
+      "details": "Tickets and hospitality - Wallabies vs Pumas Cbus Stadium Gold Coast courtesy ARU",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-10-13",
+      "category": "Hospitality",
+      "entity": "University of Queensland",
+      "details": "Hospitality - University of Queensland Centre for Research Excellence in Telehealth",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-10-13",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Hospitality - opening of 'David Lindsay' Wing of the Pindara Private Hospital",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-10-13",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Tickets and hospitality - North Melbourne breakfast",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-10-13",
+      "category": "Travel",
+      "entity": "AFL",
+      "details": "Tickets and hospitality - AFL Grand Final courtesy of AFL",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-10-13",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Spouse - Sale of Everton Park property",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-10-13",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Spouse - NAB Mortgage facility",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-10-28",
+      "category": "Travel",
+      "entity": "NRL",
+      "details": "Tickets and hospitality - NRL Grand Final courtesy of NRL",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-10-28",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Signed and framed Gold Coast Suns guernsey",
+      "pdf_url": "duttonp_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2014-10-28",
+      "category": "Hospitality",
+      "entity": "Sport Australia",
+      "details": "Attend 29th Hall of Fame dinner courtesy of Sport Australia",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-10-28",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Attend Children's Hospital Foundation Telethon Ball",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-10-28",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Transfers, tickets and hospitality to attend Supercheap Bathurst 1000 courtesy of V8 Supercars representing Prime Minister",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-10-28",
+      "category": "Travel",
+      "entity": "Cancer Australia",
+      "details": "Attend Pink Ribbon Breakfast courtesy Cancer Australia",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-12-18",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Purchase Palm Beach Investment property - Mortgage ANZ Bank",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-12-18",
+      "category": "Hospitality",
+      "entity": "Golf Australia",
+      "details": "Hospitality Australian Golf Open as guest of Golf Australia",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-12-18",
+      "category": "Travel",
+      "entity": "Cricket Australia",
+      "details": "Tickets and Hospitality Commonwealth Bank /S\u00ed Test courtesy of Cricket Australia",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-12-18",
+      "category": "Travel",
+      "entity": "Cricket Australia",
+      "details": "Tickets and Hospitality Commonwealth Bank 2nd Test courtesy of Cricket Australia",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-12-18",
+      "category": "Directorships",
+      "entity": "Camelia Avenue Childcare Centre",
+      "details": "RHT Investments Qld Pty.Ltd. established the business Camelia Avenue Childcare Centre - Spouse",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-02-09",
+      "category": "Travel",
+      "entity": "Cricket Australia",
+      "details": "Tickets and Hospitality Australia vs India Test Sydney courtesy of Cricket Australia",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-02-09",
+      "category": "Travel",
+      "entity": "Medibank",
+      "details": "Tickets and Hospitality Emirates Australian Open Men's Tennis Final courtesy of Medibank",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-03-23",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Tickets ICC Cricket World Cup Australia vs New Zealand",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-05-29",
+      "category": "Travel",
+      "entity": "National Rugby League",
+      "details": "Tickets and hospitality ANZAC Test Match Kangaroos vs Kiwis, Suncorp stadium courtesy of National Rugby League",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-05-29",
+      "category": "Shares",
+      "entity": "PK Super (Qld) Pty Ltd",
+      "details": "PK Super (Qld) Pty Ltd of which my wife Kirilly and I are shareholders. Kirilly is the Director",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-07-16",
+      "category": "Travel",
+      "entity": "Netball Australia",
+      "details": "Tickets and hospitality courtesy Netball Australia",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-07-16",
+      "category": "Travel",
+      "entity": "Australian Rugby Union",
+      "details": "Tickets and hospitality courtesy Australian Rugby Union",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-08-10",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Gifts received with no commercial value - Shirt from WelcomeFest World Refugee Day, Scarf from Bhutanese community, Religious painting, Pen holder from Singaporean High Commissioner, Set of lapel pins all wall plaque from Ministry of Home Affairs Singapore",
+      "pdf_url": "duttonp_44p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2015-08-15",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Tickets courtesy of Tennis Australia and Cricket Australia - no hospitality",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-10-27",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Boxed Gold vase S.R of Vietnam, Framed 3D carving, Malaysia, Framed 3D decorative carving - retained by DIBP in Kuala Lumpur, Plaque in blue velvet box \u2013 retained by ABF in Kuala Lumpur, Box of fresh dates and book from Embassy of United Arab Emirates, Batik shirt",
+      "pdf_url": "duttonp_44p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2015-11-27",
+      "category": "Travel",
+      "entity": "Cricket Queensland",
+      "details": "Ticket and hospitality Cricket Test Day 1 courtesy Cricket Queensland",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-27",
+      "category": "Travel",
+      "entity": "Stuart Giles",
+      "details": "Ticket and hospitality Cricket Test Day 2 courtesy Stuart Giles",
+      "pdf_url": "duttonp_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-27",
+      "category": "Travel",
+      "entity": "Emirates",
+      "details": "Upgrade on Emirates flight EK432 Singapore to Brisbane",
+      "pdf_url": "duttonp_44p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/duttonp_44p.pdf"
 }

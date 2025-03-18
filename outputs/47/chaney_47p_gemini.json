@@ -1,0 +1,256 @@
+{
+  "mp_name": "Kate Chaney",
+  "party": "Unknown",
+  "electorate": "Curtin",
+  "disclosures": [
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Trusts",
+      "entity": "Keane Kids Trust",
+      "details": "Family trust (dormant), Beneficiaries",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Trusts",
+      "entity": "Keane Kids Trust",
+      "details": "Family trust (dormant), Children",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "West Leederville, WA; Residential",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Directorships",
+      "entity": "Curtin Independent Pty Ltd",
+      "details": "Campaign support",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Mortgage",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Savings/Investments",
+      "entity": "ING Direct",
+      "details": "Transaction",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Savings/Investments",
+      "entity": "ING Direct",
+      "details": "Savings",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Savings/Investments",
+      "entity": "U Bank",
+      "details": "Savings",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Car",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Bike",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "MP Salary",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Earnings as barrister",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from facilitating for AICD",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Gifts",
+      "entity": "ASTRA",
+      "details": "Foxtel subscription",
+      "pdf_url": "chaney_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Memberships",
+      "entity": "Royal Agricultural Society of WA",
+      "details": "Councillor",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Memberships",
+      "entity": "Leederville Sporting Club",
+      "details": "Member",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Memberships",
+      "entity": "WA Bar Association",
+      "details": "Member",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Memberships",
+      "entity": "Law Society of WA",
+      "details": "Member",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-24",
+      "category": "Hospitality",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's Lounge membership",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-01",
+      "category": "Savings/Investments",
+      "entity": "Hostplus",
+      "details": "Hostplus superannuation fund (self)",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-01",
+      "category": "Savings/Investments",
+      "entity": "Hostplus",
+      "details": "Hostplus superannuation fund (husband)",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-06-21",
+      "category": "Travel",
+      "entity": "Grace Papers",
+      "details": "I attended the Budgeting for Womens Success dinner on 10 May as a guest of Grace Papers. I believe tickets were ~$300.",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-06-21",
+      "category": "Gifts",
+      "entity": "Holmes a Court Gallery",
+      "details": "I have been loaned artwork for my office from Holmes a Court Gallery.",
+      "pdf_url": "chaney_47p.pdf",
+      "sub_category": "Decorative"
+    },
+    {
+      "declaration_date": "2023-06-21",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Self- car (sold)",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-31",
+      "category": "Travel",
+      "entity": "Australian Government/Yothu Yindi Foundation",
+      "details": "Garma Festival entry/attendance from Australian Government/Yothu Yindi Foundation",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-10-09",
+      "category": "Travel",
+      "entity": "Qatar",
+      "details": "Upgrade to business class on Qatar flight Athens - Doha",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-08-02",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Two Commonwealth Bank accounts for work purposes.",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-08-02",
+      "category": "Memberships",
+      "entity": "Western Suburbs Business Association",
+      "details": "N/A",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-01-16",
+      "category": "Directorships",
+      "entity": "Curtin Independent Pty Ltd",
+      "details": "Spouse - no longer a director of Curtin Independent Pty Ltd",
+      "pdf_url": "chaney_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-01-16",
+      "category": "Hospitality",
+      "entity": "Qantas",
+      "details": "No longer a member of the Qantas Chairman's Lounge",
+      "pdf_url": "chaney_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/chaney_47p.pdf"
+}

@@ -1,0 +1,191 @@
+{
+  "mp_name": "Ross Xavier Vasta",
+  "party": "Unknown",
+  "electorate": "Bonner",
+  "disclosures": [
+    {
+      "declaration_date": "2016-09-14",
+      "category": "Shares",
+      "entity": "VTG",
+      "details": "Listed companies",
+      "pdf_url": "vastar_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-14",
+      "category": "Trusts",
+      "entity": "The Goodyear Trust",
+      "details": "Trustee of Superannuation Fund; Beneficial Interest",
+      "pdf_url": "vastar_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-14",
+      "category": "Trusts",
+      "entity": "The FW Family Trust",
+      "details": "Trustee of the family Trust; Beneficial Interest",
+      "pdf_url": "vastar_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-14",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Carindale, QLD - Home",
+      "pdf_url": "vastar_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-14",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Brisbane, QLD - Investment Property",
+      "pdf_url": "vastar_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-14",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Brisbane, QLD - Investment Property (Spouse)",
+      "pdf_url": "vastar_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-14",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Property Loan",
+      "pdf_url": "vastar_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-14",
+      "category": "Liabilities",
+      "entity": "Suncorp",
+      "details": "Property Loan (Spouse)",
+      "pdf_url": "vastar_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-14",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Motor Vehicle",
+      "pdf_url": "vastar_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-14",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Motor Vehicle (Spouse)",
+      "pdf_url": "vastar_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-14",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Investment Property",
+      "pdf_url": "vastar_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-14",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Investment Property (Spouse)",
+      "pdf_url": "vastar_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-14",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Manly, QLD - Investment Property",
+      "pdf_url": "vastar_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-06",
+      "category": "Shares",
+      "entity": "MLB",
+      "details": "Superannuation Fund",
+      "pdf_url": "vastar_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-06",
+      "category": "Shares",
+      "entity": "MPL",
+      "details": "Superannuation Fund",
+      "pdf_url": "vastar_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-06",
+      "category": "Shares",
+      "entity": "TNE",
+      "details": "Superannuation Fund",
+      "pdf_url": "vastar_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-14",
+      "category": "Shares",
+      "entity": "TNE",
+      "details": "Shareholding in public companies (Spouse)",
+      "pdf_url": "vastar_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-14",
+      "category": "Trusts",
+      "entity": "The Zamica Holdings Family Trust",
+      "details": "Trustee (Spouse)",
+      "pdf_url": "vastar_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-14",
+      "category": "Directorships",
+      "entity": "Goodyear Property Investments PL",
+      "details": "Director & Member (Spouse)",
+      "pdf_url": "vastar_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-14",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Goodyear Property investments PL, Trustee for self managed super fund, Director & Member (Self)",
+      "pdf_url": "vastar_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-14",
+      "category": "Shares",
+      "entity": "AJM",
+      "details": "Shareholding in public companies (Goodyear Super fund) Trust",
+      "pdf_url": "vastar_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-14",
+      "category": "Shares",
+      "entity": "TNE",
+      "details": "Shareholding in public companies (Goodyear Super fund) Trust",
+      "pdf_url": "vastar_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-14",
+      "category": "Shares",
+      "entity": "VCX",
+      "details": "Shareholding in public companies (Goodyear Super fund) Trust",
+      "pdf_url": "vastar_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-14",
+      "category": "Shares",
+      "entity": "VTG",
+      "details": "Shareholding in public companies (Goodyear Super fund) Trust",
+      "pdf_url": "vastar_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-14",
+      "category": "Trusts",
+      "entity": "The FW Family Trust",
+      "details": "(Trustee) (Spouse) - DELETION",
+      "pdf_url": "vastar_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-07-12",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Self Managed Super fund purchase -> Investment property in VIC",
+      "pdf_url": "vastar_45p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/vastar_45p.pdf"
+}

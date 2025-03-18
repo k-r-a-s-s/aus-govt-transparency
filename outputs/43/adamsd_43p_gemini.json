@@ -1,0 +1,51 @@
+{
+  "mp_name": "Dick Godfrey Adams",
+  "party": "Unknown",
+  "electorate": "Lyons",
+  "disclosures": [
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Shares",
+      "entity": "Commonwealth Bank",
+      "details": "764 shares",
+      "pdf_url": "adamsd_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Shares",
+      "entity": "My Share Limited",
+      "details": "Securities/1161",
+      "pdf_url": "adamsd_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Shares",
+      "entity": "demutualised Credit Union",
+      "details": "Securities/1161",
+      "pdf_url": "adamsd_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Longford 7301 Tas - family home",
+      "pdf_url": "adamsd_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-28",
+      "category": "Shares",
+      "entity": "Commonwealth Bank",
+      "details": "Added 16 shares to Commonwealth Bank shares, up to 780.",
+      "pdf_url": "adamsd_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-06-24",
+      "category": "Shares",
+      "entity": "Commonwealth Bank",
+      "details": "Increase from 764 to 800 shares.",
+      "pdf_url": "adamsd_43p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/43/adamsd_43p.pdf"
+}

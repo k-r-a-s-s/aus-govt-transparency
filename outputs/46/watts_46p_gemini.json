@@ -1,0 +1,338 @@
+{
+  "mp_name": "Timothy Watts",
+  "party": "N/A",
+  "electorate": "Gellibrand",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "Telstra",
+      "details": "Self",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "Telstra",
+      "details": "Spouse/partner",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "Tabcorp",
+      "details": "Spouse/partner",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Trusts",
+      "entity": "Watts Kwok Family Trust",
+      "details": "Asset holdings, Self, Yes Beneficial interest",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Trusts",
+      "entity": "Watts Kwok Family Trust",
+      "details": "Asset holdings, Spouse/partner, Yes Beneficial interest",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Trusts",
+      "entity": "Watts Kwok Family Trust",
+      "details": "Asset holdings, Self, Children Beneficial interest",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Trusts",
+      "entity": "Watts Kwok Family Trust",
+      "details": "Asset holdings, Spouse/partner, Children Beneficial interest",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Family home, Footscray, Principal residence, Self",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Apartment, Kingston, Investment, Self",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Family home, Footscray, Principal residence, Spouse/partner",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Directorships",
+      "entity": "Watts Kwok Pty Ltd",
+      "details": "Investment, Self",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Directorships",
+      "entity": "Live Sideways Pty Ltd trading at CycleStyle",
+      "details": "Online business selling clothing and accessories, Spouse/partner",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Directorships",
+      "entity": "Watts Kwok Pty Ltd",
+      "details": "Investment, Spouse/partner",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "Bank of Melbourne",
+      "details": "Home Loan, Self",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Savings Account, Self",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Smart Access Account, Self",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Netbank Saver Account, Self",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "HSBC UK",
+      "details": "Savings Account, Spouse/partner",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Smart Access Account, Spouse/partner",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Netbank Saver Account, Spouse/partner",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Savings Account, Dependent children",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Smart Access Account, Dependent children",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Term Deposit, Dependent children",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Telstra Superannuation Account, Self",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Oakton Superannuation Account, Spouse/partner",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Royalties and payments for writing, Self",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Rental income for property in Kingston, ACT, Self",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Income Sources",
+      "entity": "Live Sideways Pty Ltd trading as CycleStyle",
+      "details": "Spouse/partner",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Foxtel connection for the electorate office, Self",
+      "pdf_url": "watts_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "AFL Western Bulldogs",
+      "details": "Member, Self",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Footscray Community Arts Centre",
+      "details": "Board Member, Spouse/partner",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-21",
+      "category": "Gifts",
+      "entity": "Mt Buller",
+      "details": "Mt Buller Accommodation and Hospitality to the approximate value of $1,500 received by my wife in her private capacity.",
+      "pdf_url": "watts_46p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2019-10-21",
+      "category": "Gifts",
+      "entity": "Windsor Hotel",
+      "details": "Windsor Hotel Accommodation and Hospitality to the approximate value of $1,000 received by my wife in her private capacity.",
+      "pdf_url": "watts_46p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2019-10-21",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Qantas - upgraded return flights from Los Angeles to Business Class due to earlier flight cancellations.",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-21",
+      "category": "Hospitality",
+      "entity": "Seven Network",
+      "details": "Seven Network - Two tickets to the 2019 AFL Grand Final.",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-21",
+      "category": "Gifts",
+      "entity": "Helping Hoops",
+      "details": "Helping Hoops - one pair of Nike basketball shoes worn in 2019 Charity Shoot Out Celebrity Game.",
+      "pdf_url": "watts_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2019-12-11",
+      "category": "Travel",
+      "entity": "Australia Strategic Policy Institute International Cyber Centre",
+      "details": "Australia-Taiwan Cyber and Technology Dialogue, 3 nights accommodation Taipei, Economy flights \u2013 Melb Taipei return, Funded by Australia Strategic Policy Institute International Cyber Centre",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-02-03",
+      "category": "Hospitality",
+      "entity": "Mastercard",
+      "details": "Ticket and hospitality to Australian Open event 21/01/20 (Mastercard)",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-02-03",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "3 XBOX Video games (2K Games)",
+      "pdf_url": "watts_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2020-02-03",
+      "category": "Gifts",
+      "entity": "Klook ANZ",
+      "details": "Tickets to London attractions (London Eye, Hop On Hop Off Bus, Tower of London, Warner Bros Studio) received by my wife in private capacity (Klook ANZ)",
+      "pdf_url": "watts_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2020-03-12",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Family member gift declaration",
+      "pdf_url": "watts_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2020-03-12",
+      "category": "Hospitality",
+      "entity": "CBA",
+      "details": "Tickets and Hospitality to ICC Womens T20 World Cup at MCG provided by CBA",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-02-07",
+      "category": "Savings/Investments",
+      "entity": "Australian Super",
+      "details": "Partner- new superannuation fund- Australian Super",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-02-07",
+      "category": "Hospitality",
+      "entity": "Sportsbet",
+      "details": "Received 2 tickets to Australian Open Women's semi-final 2022 as guest of Sportsbet",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-02-07",
+      "category": "Memberships",
+      "entity": "Williamstown Swimming and Life Saving Club",
+      "details": "Member of local club- Williamstown Swimming and Life Saving Club",
+      "pdf_url": "watts_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-02-07",
+      "category": "Savings/Investments",
+      "entity": "Six Park",
+      "details": "Partner and children- Investment Account- Six Park",
+      "pdf_url": "watts_46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/watts_46p.pdf"
+}

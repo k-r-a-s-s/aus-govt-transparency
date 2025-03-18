@@ -1,161 +1,81 @@
 {
   "mp_name": "Peter Craig Dutton",
-  "party": "Unknown",
+  "party": "N/A",
   "electorate": "Dickson",
   "disclosures": [
     {
       "declaration_date": "2010-10-21",
       "category": "Shares",
       "entity": "BHP",
-      "details": "Shares in public companies",
+      "details": "Shareholding in BHP",
       "pdf_url": "duttonp_43p.pdf"
     },
     {
       "declaration_date": "2010-10-21",
       "category": "Shares",
       "entity": "QAN",
-      "details": "Shares in public companies",
+      "details": "Shareholding in QAN",
       "pdf_url": "duttonp_43p.pdf"
     },
     {
       "declaration_date": "2010-10-21",
       "category": "Shares",
       "entity": "ANZ",
-      "details": "Shares in public companies",
+      "details": "Shareholding in ANZ",
       "pdf_url": "duttonp_43p.pdf"
     },
     {
       "declaration_date": "2010-10-21",
       "category": "Shares",
-      "entity": "DUTTON HOLDINGS (QLD) PTY LTD",
-      "details": "Shares in a private company",
+      "entity": "Dutton Holdings (QLD) Pty Ltd",
+      "details": "Shareholding in Dutton Holdings (QLD) Pty Ltd",
       "pdf_url": "duttonp_43p.pdf"
     },
     {
       "declaration_date": "2010-10-21",
       "category": "Real Estate",
       "entity": "N/A",
-      "details": "CAMP MOUNTAIN, Principal place of residence",
+      "details": "Camp Mountain (Principal Place of Residence), Moreton Island (Investment), Bald Hills (Investment)",
       "pdf_url": "duttonp_43p.pdf"
     },
     {
       "declaration_date": "2010-10-21",
-      "category": "Real Estate",
-      "entity": "N/A",
-      "details": "MORETON ISLAND, Investment",
-      "pdf_url": "duttonp_43p.pdf"
-    },
-    {
-      "declaration_date": "2010-10-21",
-      "category": "Real Estate",
-      "entity": "N/A",
-      "details": "BALD HILLS, Investment",
+      "category": "Savings/Investments",
+      "entity": "QPCU, Westpac, CBA",
+      "details": "Savings A/C, Savings",
       "pdf_url": "duttonp_43p.pdf"
     },
     {
       "declaration_date": "2010-10-21",
       "category": "Liabilities",
-      "entity": "WESTPAC",
-      "details": "LOAN",
-      "pdf_url": "duttonp_43p.pdf"
-    },
-    {
-      "declaration_date": "2010-10-21",
-      "category": "Liabilities",
-      "entity": "CBA",
-      "details": "LOAN",
-      "pdf_url": "duttonp_43p.pdf"
-    },
-    {
-      "declaration_date": "2010-10-21",
-      "category": "Liabilities",
-      "entity": "QPCU",
-      "details": "OVERDRAFT",
-      "pdf_url": "duttonp_43p.pdf"
-    },
-    {
-      "declaration_date": "2010-10-21",
-      "category": "Savings/Investments",
-      "entity": "QPCU",
-      "details": "SAVINGS A/C",
-      "pdf_url": "duttonp_43p.pdf"
-    },
-    {
-      "declaration_date": "2010-10-21",
-      "category": "Savings/Investments",
-      "entity": "WESTPAC",
-      "details": "SAVINGS",
-      "pdf_url": "duttonp_43p.pdf"
-    },
-    {
-      "declaration_date": "2010-10-21",
-      "category": "Savings/Investments",
-      "entity": "CBA",
-      "details": "SAVINGS",
-      "pdf_url": "duttonp_43p.pdf"
-    },
-    {
-      "declaration_date": "2010-10-21",
-      "category": "Savings/Investments",
-      "entity": "QPCU",
-      "details": "SAVINGS",
-      "pdf_url": "duttonp_43p.pdf"
-    },
-    {
-      "declaration_date": "2010-10-21",
-      "category": "Savings/Investments",
-      "entity": "WESTPAC",
-      "details": "SAVINGS",
+      "entity": "Westpac, CBA, QPCU",
+      "details": "Loan, Overdraft",
       "pdf_url": "duttonp_43p.pdf"
     },
     {
       "declaration_date": "2010-10-21",
       "category": "Income Sources",
       "entity": "N/A",
-      "details": "LEASE INCOME FROM BALD HILLS PROPERTY.",
+      "details": "Lease income from Bald Hills property",
       "pdf_url": "duttonp_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Gifts",
+      "entity": "Qantas, Virgin",
+      "details": "Chairman's Lounge Membership (Qantas), Velocity Card/Lounge Access (Virgin), Foxtel Connection at Electorate Office, Partners Chairman's Lounge Membership",
+      "pdf_url": "duttonp_43p.pdf",
+      "sub_category": "Travel"
     },
     {
       "declaration_date": "2010-10-21",
       "category": "Income Sources",
-      "entity": "DUTTON HOLDINGS (QLD) P/L AND BALD HILLS CHILD CARE",
-      "details": "Wife employed",
+      "entity": "Dutton Holdings (QLD) P/L",
+      "details": "My wife is employed by Dutton Holdings (QLD) P/L and Bald Hills Child Care",
       "pdf_url": "duttonp_43p.pdf"
     },
     {
-      "declaration_date": "2010-10-21",
-      "category": "Gifts",
-      "entity": "N/A",
-      "details": "CHAIRMAN'S LOUNGE MEMBERSHIP (QANTAS)",
-      "pdf_url": "duttonp_43p.pdf",
-      "sub_category": "Travel"
-    },
-    {
-      "declaration_date": "2010-10-21",
-      "category": "Gifts",
-      "entity": "N/A",
-      "details": "VELOCITY CARD/LOUNGE ACCESS (VIRGIN)",
-      "pdf_url": "duttonp_43p.pdf",
-      "sub_category": "Travel"
-    },
-    {
-      "declaration_date": "2010-10-21",
-      "category": "Gifts",
-      "entity": "N/A",
-      "details": "FOXTEL CONNECTION AT ELECTORATE OFFICE",
-      "pdf_url": "duttonp_43p.pdf",
-      "sub_category": "Other Gifts"
-    },
-    {
-      "declaration_date": "2010-10-21",
-      "category": "Gifts",
-      "entity": "N/A",
-      "details": "PARTNERS CHAIRMAN'S LOUNGE MEMBERSHIP",
-      "pdf_url": "duttonp_43p.pdf",
-      "sub_category": "Travel"
-    },
-    {
-      "declaration_date": "2010-10-19",
+      "declaration_date": "2010-11-23",
       "category": "Hospitality",
       "entity": "AHIA",
       "details": "1 Night Accommodation Shangri-La Hotel Sydney Tuesday 9 November 2010 cost covered by AHIA, Conference Convenor",
@@ -185,8 +105,8 @@
     {
       "declaration_date": "2012-05-22",
       "category": "Trusts",
-      "entity": "PK Superannuation Fund",
-      "details": "(PC & K Dutton ATF)",
+      "entity": "PC & K Dutton ATF",
+      "details": "PK Superannuation Fund",
       "pdf_url": "duttonp_43p.pdf"
     },
     {
@@ -207,14 +127,14 @@
       "declaration_date": "2012-08-24",
       "category": "Real Estate",
       "entity": "N/A",
-      "details": "Investment property at Everton Park (purchased by wife)",
+      "details": "Investment property at Everton Park purchased by wife",
       "pdf_url": "duttonp_43p.pdf"
     },
     {
       "declaration_date": "2012-11-12",
       "category": "Liabilities",
-      "entity": "National Australia Bank",
-      "details": "Re-financing part of borrowings from Westpac to National Australia Bank",
+      "entity": "Westpac, National Australia Bank",
+      "details": "Re-financed part of borrowings from Westpac to National Australia Bank",
       "pdf_url": "duttonp_43p.pdf"
     },
     {
@@ -235,15 +155,23 @@
       "declaration_date": "2013-02-11",
       "category": "Hospitality",
       "entity": "Medibank Private",
-      "details": "Australian Tennis Open Melbourne. Courtesy of Medibank Private",
+      "details": "Australian Tennis Open Melbourne Courtesy of Medibank Private",
       "pdf_url": "duttonp_43p.pdf"
     },
     {
       "declaration_date": "2013-03-12",
       "category": "Other Interests",
       "entity": "N/A",
-      "details": "Advice to father regarding commercial loan relating to property at Everton Hills; assistance negotiating loan for which financial benefit may be received.",
+      "details": "Provided advice to my father regarding a commercial loan relating to a property he owns at Everton Hills, and assisted in negotiating the loan for which I may receive a financial benefit.",
       "pdf_url": "duttonp_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-05-27",
+      "category": "Gifts",
+      "entity": "Virgin",
+      "details": "Complimentary upgrade to Platinum level with Virgin Velocity rewards",
+      "pdf_url": "duttonp_43p.pdf",
+      "sub_category": "Travel"
     },
     {
       "declaration_date": "2013-05-27",
@@ -256,16 +184,8 @@
       "declaration_date": "2013-05-27",
       "category": "Hospitality",
       "entity": "BHP Billiton",
-      "details": "Tour of Bowen Basin coal mining operations sponsored by BHP Billiton 2 and 3 May 2013 (flight, meals, accommodation)",
+      "details": "Tour of Bowen Basin coal mining operations sponsored by BHP Billiton 2 and 3 May 2013",
       "pdf_url": "duttonp_43p.pdf"
-    },
-    {
-      "declaration_date": "2013-05-27",
-      "category": "Gifts",
-      "entity": "Virgin Velocity",
-      "details": "Complimentary upgrade to Platinum level with Virgin Velocity rewards",
-      "pdf_url": "duttonp_43p.pdf",
-      "sub_category": "Travel"
     },
     {
       "declaration_date": "2013-07-15",
@@ -275,5 +195,6 @@
       "pdf_url": "duttonp_43p.pdf"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "pdf_path": "pdfs/43/duttonp_43p.pdf"
 }

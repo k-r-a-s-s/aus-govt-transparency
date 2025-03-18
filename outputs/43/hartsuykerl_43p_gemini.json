@@ -1,0 +1,107 @@
+{
+  "mp_name": "Luke Hartsuyker",
+  "party": "Unknown",
+  "electorate": "Cowper",
+  "disclosures": [
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Shares",
+      "entity": "Telstra",
+      "details": "Shares in Telstra",
+      "pdf_url": "hartsuykerl_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Shares",
+      "entity": "AMP",
+      "details": "Shares in AMP",
+      "pdf_url": "hartsuykerl_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Shares",
+      "entity": "IAG",
+      "details": "Shares in IAG",
+      "pdf_url": "hartsuykerl_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Principal Residence in Coffs Harbour",
+      "pdf_url": "hartsuykerl_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Directorships",
+      "entity": "Yenload Pty Ltd",
+      "details": "Trustee of superannuation fund",
+      "pdf_url": "hartsuykerl_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Partnerships",
+      "entity": "T.R. & J. Hartsuyker",
+      "details": "25% interest in operating a caravan park & tourist attraction",
+      "pdf_url": "hartsuykerl_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Loan secured over residence",
+      "pdf_url": "hartsuykerl_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Bank A/c-line of credit",
+      "pdf_url": "hartsuykerl_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Savings/Investments",
+      "entity": "AMP Ltd",
+      "details": "Investment A/C",
+      "pdf_url": "hartsuykerl_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Personal Life Insurance Policy",
+      "pdf_url": "hartsuykerl_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Income Sources",
+      "entity": "T.R. & J. Hartsuyker Partnership",
+      "details": "Income from partnership",
+      "pdf_url": "hartsuykerl_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Income Sources",
+      "entity": "Diocese of Lismore - Catholic Church",
+      "details": "Wages",
+      "pdf_url": "hartsuykerl_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Income Sources",
+      "entity": "NSW Dept of TAFE",
+      "details": "Wages",
+      "pdf_url": "hartsuykerl_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-09-11",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Complimentary upgrade from Business Class to First Class on flight from London to Sydney via Singapore on 7-8 September 2012.",
+      "pdf_url": "hartsuykerl_43p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/43/hartsuykerl_43p.pdf"
+}

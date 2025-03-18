@@ -1,0 +1,433 @@
+{
+  "mp_name": "Sam Rae",
+  "party": "N/A",
+  "electorate": "Hawke",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Shares",
+      "entity": "4DMedical",
+      "details": "via Superannuation",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Shares",
+      "entity": "ANZ Bank",
+      "details": "via Superannuation",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Shares",
+      "entity": "ESTX EuroStoxx50 ETF",
+      "details": "via Superannuation",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Shares",
+      "entity": "Betashares FTSE 100 ETF",
+      "details": "via Superannuation",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Shares",
+      "entity": "Insurance Australia",
+      "details": "via Superannuation",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Shares",
+      "entity": "National Australia Bank",
+      "details": "via Superannuation",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Shares",
+      "entity": "Vanguard Australia Shares ETF",
+      "details": "via Superannuation",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Shares",
+      "entity": "Vanguard Australia High Yield ETF",
+      "details": "via Superannuation",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Ballan, VIC (Rental), Primary Residence",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Brunswick East, VIC, Secondary Residence",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Mortgage on second residence",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Mortgage on second residence (2)",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Investment Loan",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Credit Card",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Classic Banking (Offset)",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Savings/Investments",
+      "entity": "Hub24",
+      "details": "Superannuation",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Savings/Investments",
+      "entity": "Australian Super",
+      "details": "Superannuation",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Classic Banking (Offset) (2)",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Dollarmite",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "2016 Toyota Land Cruiser Prado",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Income Sources",
+      "entity": "ASU Victorian and Tasmanian Authorities and Services Branch",
+      "details": "Salary",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Memberships",
+      "entity": "Geelong Football Club",
+      "details": "N/A",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Memberships",
+      "entity": "Transport Workers Union",
+      "details": "N/A",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Memberships",
+      "entity": "Australian Labor Party",
+      "details": "N/A",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Memberships",
+      "entity": "QANTAS Frequent Flyer",
+      "details": "N/A",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Memberships",
+      "entity": "Virgin Velocity",
+      "details": "N/A",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Renting primary residence in Ballan, Victoria.",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Gifts",
+      "entity": "Virgin",
+      "details": "Complimentary Virgin Beyond membership",
+      "pdf_url": "rae_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-09-13",
+      "category": "Other Interests",
+      "entity": "Toyota",
+      "details": "Unregistered member of class action against Toyota",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-13",
+      "category": "Income Sources",
+      "entity": "Hyundai",
+      "details": "Partner's Hyundai Tucson",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-10-06",
+      "category": "Hospitality",
+      "entity": "Thomson Geer",
+      "details": "2 x Grand Final Tickets plus brunch provided by Thomson Geer.",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-01-25",
+      "category": "Gifts",
+      "entity": "Nick Pitliangis",
+      "details": "Christmas Hamper from Nick Pitliangis",
+      "pdf_url": "rae_47p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2023-01-25",
+      "category": "Gifts",
+      "entity": "Joe Catafalmo",
+      "details": "Christmas Hamper from Joe Catafalmo",
+      "pdf_url": "rae_47p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2023-01-25",
+      "category": "Shares",
+      "entity": "4DMedical",
+      "details": "4DMedical (via Superannuation)",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-01-25",
+      "category": "Shares",
+      "entity": "ANZ Bank",
+      "details": "ANZ Bank (via Superannuation)",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-01-25",
+      "category": "Shares",
+      "entity": "ESTX EuroStoxx50 ETF",
+      "details": "ESTX EuroStoxx50 ETF (via Superannuation)",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-01-25",
+      "category": "Shares",
+      "entity": "Betashares FTSE 100 ETF",
+      "details": "Betashares FTSE 100 ETF (via Superannuation)",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-01-25",
+      "category": "Shares",
+      "entity": "Insurance Australia",
+      "details": "Insurance Australia (via Superannuation)",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-01-25",
+      "category": "Shares",
+      "entity": "National Australia Bank",
+      "details": "National Australia Bank (via Superannuation)",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-01-25",
+      "category": "Shares",
+      "entity": "Vanguard Australia Shares ETF",
+      "details": "Vanguard Australia Shares ETF (via Superannuation)",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-01-25",
+      "category": "Shares",
+      "entity": "Vanguard Australia High Yield ETF",
+      "details": "Vanguard Australia High Yield ETF (via Superannuation)",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-02-16",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Complimentary Qantas Chairman's Lounge Membership",
+      "pdf_url": "rae_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2023-03-02",
+      "category": "Memberships",
+      "entity": "RSL",
+      "details": "RSL",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-03-02",
+      "category": "Travel",
+      "entity": "Linfox Group",
+      "details": "Tickets to 2023 Avalon Airshow for Member and staff from Linfox Group",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-23",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Spouse receiving Commonwealth Paid Parental Leave",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-23",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Commonwealth Childcare Subsidy",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-23",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Leased property",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-23",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from leased property",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-23",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Secondary residence",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-09-12",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "New residential property purchase in Ballan (spouse-owned)",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-09-12",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Spouse work vehicle",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-29",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Spouse: Family Loan",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-21",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Ballan, VIC (Rental)",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-11-11",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Work Vehicle - Hyundai Tucson",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-11-11",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "ASU Fighting Fund",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-11-11",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Parent Member of School Council",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-11-11",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Member of the Branch Executive Committee of Management, ASU Vic/Tas Branch",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-11-11",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Member, National Executive, Australian Services Union",
+      "pdf_url": "rae_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-11-11",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Spouse receiving Commonwealth Paid Parental Leave",
+      "pdf_url": "rae_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/rae_47p.pdf"
+}

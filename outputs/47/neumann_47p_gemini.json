@@ -1,0 +1,200 @@
+{
+  "mp_name": "Shayne Neumann",
+  "party": "N/A",
+  "electorate": "Blair",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Shares",
+      "entity": "Zenas Pty Ltd",
+      "details": "Self",
+      "pdf_url": "neumann_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Shares",
+      "entity": "Alanja Pty Ltd",
+      "details": "Self",
+      "pdf_url": "neumann_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Shares",
+      "entity": "Zenas Pty Ltd",
+      "details": "Spouse/partner",
+      "pdf_url": "neumann_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Trusts",
+      "entity": "Zenas Pty Ltd as Trustee for the Shayne Neumann Family Trust",
+      "details": "Family Trust; Discretionary Beneficiary; Self",
+      "pdf_url": "neumann_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Trusts",
+      "entity": "Zenas Pty Ltd as Trustee for the Shayne Neumann Family Trust",
+      "details": "Family Trust; Discretionary Beneficiary; Spouse/partner",
+      "pdf_url": "neumann_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Interest in residential unit at Caloundra, Queensland; Investment - rental; Self",
+      "pdf_url": "neumann_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Interest in residential unit at Palm Beach, Queensland; Investment - rental; Self",
+      "pdf_url": "neumann_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Residential Property in Ipswich, Queensland; Residential Property; Spouse/partner",
+      "pdf_url": "neumann_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Directorships",
+      "entity": "Zenas Pty Ltd",
+      "details": "Family Trust; Self",
+      "pdf_url": "neumann_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Directorships",
+      "entity": "Alanja Pty Ltd",
+      "details": "Investment; Self",
+      "pdf_url": "neumann_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Directorships",
+      "entity": "Zenas Pty Ltd",
+      "details": "Family Trust; Spouse/partner",
+      "pdf_url": "neumann_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Mortgage liabilities for both investment units; Self",
+      "pdf_url": "neumann_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Various streamline, keycard and cheque accounts in personal name and investment accounts via companies listed; Self",
+      "pdf_url": "neumann_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank of Australia and Bank of Queensland",
+      "details": "Various streamline, keycard and cheque accounts in personal name and investment accounts via companies listed; Spouse/partner",
+      "pdf_url": "neumann_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Interest in Australian Super Fund; Self",
+      "pdf_url": "neumann_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Interest in Australian Retirement Trust; Spouse/partner",
+      "pdf_url": "neumann_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from investment properties and interest on various bank accounts; Self",
+      "pdf_url": "neumann_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from Family Trust and interest from various bank accounts; Spouse/partner",
+      "pdf_url": "neumann_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Gifts",
+      "entity": "Australian Subscription Television and Radio Association (ASTRA)",
+      "details": "Subscription to Foxtel for Electorate Office; Self",
+      "pdf_url": "neumann_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Hospitality",
+      "entity": "QANTAS",
+      "details": "Complimentary membership of the QANTAS Chairmans Lounge; Self",
+      "pdf_url": "neumann_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Hospitality",
+      "entity": "Virgin",
+      "details": "Complimentary Membership of the Virgin Club Lounge; Self",
+      "pdf_url": "neumann_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Hospitality",
+      "entity": "QANTAS",
+      "details": "Complimentary membership of the QANTAS Chairmans Lounge; Spouse/partner",
+      "pdf_url": "neumann_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Hospitality",
+      "entity": "Virgin",
+      "details": "Complimentary Membership of the Virgin Club Lounge; Spouse/partner",
+      "pdf_url": "neumann_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-02-09",
+      "category": "Gifts",
+      "entity": "Brisbane Lions",
+      "details": "Ticket and hospitality from the Brisbane Lions at AFLW Grand Final at Brighton Homes Arena, Springfield Central (QLD) on 27 November 2022",
+      "pdf_url": "neumann_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-02-09",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Mortgage Liabilities for residential units at Caloundra and Palm Beach in Queensland (investment - Rental)",
+      "pdf_url": "neumann_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-04-23",
+      "category": "Travel",
+      "entity": "Taiwanese Ministry of Foreign Affairs",
+      "details": "Flights, accommodation, ground transport and hospitality provided by the Taiwanese Ministry of Foreign Affairs for bipartisan delegation visit 8 - 12 April 2024. Various courtesy gifts of nominal value (key ring, badge, pen, tea, coffee, sweets, teacup, glass)",
+      "pdf_url": "neumann_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-05-23",
+      "category": "Travel",
+      "entity": "Suncorp Insurance",
+      "details": "Tickets and hospitality for MP and six staff to Suncorp Stadium to see Broncos and Roosters game on Friday 3 May, 2024, worth $700, from Suncorp Insurance.",
+      "pdf_url": "neumann_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/neumann_47p.pdf"
+}

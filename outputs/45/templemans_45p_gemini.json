@@ -1,0 +1,563 @@
+{
+  "mp_name": "Susan Templeman",
+  "party": "Unknown",
+  "electorate": "Macquarie",
+  "disclosures": [
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Media Skills Pty Ltd",
+      "details": "Shareholding in Media Skills Pty Ltd",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Templeman Consulting Pty Ltd",
+      "details": "Shareholding in Templeman Consulting Pty Ltd",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Templeman-Fuller Superannuation Pty Ltd",
+      "details": "Shareholding in Templeman-Fuller Superannuation Pty Ltd",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Asset Resolution Ltd",
+      "details": "Shareholding in Asset Resolution Ltd",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "BHP Billiton Ltd",
+      "details": "Shareholding in BHP Billiton Ltd",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Benitec Biopharma Ltd",
+      "details": "Shareholding in Benitec Biopharma Ltd",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Macquarie Group Ltd",
+      "details": "Shareholding in Macquarie Group Ltd",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Perpetual Ltd",
+      "details": "Shareholding in Perpetual Ltd",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "South32 Ltd",
+      "details": "Shareholding in South32 Ltd",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Sydney Airport",
+      "details": "Shareholding in Sydney Airport",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Telstra Corp Ltd",
+      "details": "Shareholding in Telstra Corp Ltd",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Westpac Banking Corporation",
+      "details": "Shareholding in Westpac Banking Corporation",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Trusts",
+      "entity": "The Nirvana Trust",
+      "details": "Beneficial interest in Family Trust",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Real Estate",
+      "entity": "Winmalee",
+      "details": "Rebuilding family home",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Directorships",
+      "entity": "Templeman Consulting Pty Ltd",
+      "details": "Training business",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Directorships",
+      "entity": "Media Skills Pty Ltd",
+      "details": "Dormant",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Directorships",
+      "entity": "Templeman-Fuller Superannuation Pty Ltd",
+      "details": "Superannuation fund",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Directorships",
+      "entity": "Fitzgerald Memorial Aged Care Facility Ltd",
+      "details": "Non-profit aged care",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "Macquarie",
+      "details": "Visa",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "Savings account x 3",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "Term Deposit x 2",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "Macquarie",
+      "details": "Cash Management",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "Cheque account",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "AMP",
+      "details": "Terrn Deposit",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "NIL",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Fitzgerald Memorial Aged Care Board member",
+      "details": "Fitzgerald Memorial Aged Care Board member",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Women with Altitude",
+      "details": "Women with Altitude",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Springwood Chamber of Commerce",
+      "details": "Springwood Chamber of Commerce",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Blue Mountains Regional Chamber",
+      "details": "Blue Mountains Regional Chamber",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Blue Mountains Cultural Centre",
+      "details": "Blue Mountains Cultural Centre",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Richmond Club",
+      "details": "Richmond Club",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Windsor Leagues Club",
+      "details": "Windsor Leagues Club",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Springwood Sports Club",
+      "details": "Springwood Sports Club",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Media Entertainment & Arts Alliance",
+      "details": "Media Entertainment & Arts Alliance",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Interests",
+      "entity": "Windsor Red Cross",
+      "details": "Patron",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Interests",
+      "entity": "Blackheath & Mt Victoria RSL Sub-branch",
+      "details": "Patron",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Templeman Consulting Pty Ltd",
+      "details": "Director & Shareholder",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Rotary Club of Springwood",
+      "details": "Honorary member (Self)",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Qantas",
+      "details": "Chairmans Lounge member (Self & spouse)",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Virgin",
+      "details": "Club member (Self & spouse)",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Memberships",
+      "entity": "Hawkesbury Chamber of Commerce",
+      "details": "Member (Self)",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Directorships",
+      "entity": "Fitzgerald Memorial Aged Care",
+      "details": "Resigned",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-11-28",
+      "category": "Gifts",
+      "entity": "Martin Campbell",
+      "details": "Gift from Martin Campbell Value $550 (Painting)",
+      "pdf_url": "templemans_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-11-28",
+      "category": "Gifts",
+      "entity": "Australian Automobile Association",
+      "details": "Gift from Australian Automobile Association (Two tablet/mobile powerbanks)",
+      "pdf_url": "templemans_45p.pdf",
+      "sub_category": "Electronics"
+    },
+    {
+      "declaration_date": "2016-11-28",
+      "category": "Gifts",
+      "entity": "Hawkesbury Valley Toastmasters",
+      "details": "Gift from Hawkesbury Valley Toastmasters (Umbrella and two pens)",
+      "pdf_url": "templemans_45p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2016-11-28",
+      "category": "Gifts",
+      "entity": "Johnson & Johnson",
+      "details": "Gift from Johnson & Johnson (Neutrogena sunscreen and pack of band-aids)",
+      "pdf_url": "templemans_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-11-28",
+      "category": "Memberships",
+      "entity": "Valley Heights Locomotive Depot Heritage Museum",
+      "details": "Patron",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-11-28",
+      "category": "Memberships",
+      "entity": "Springwood Rotary Club",
+      "details": "Honarany member",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-01-12",
+      "category": "Real Estate",
+      "entity": "Campbell ACT",
+      "details": "Personal and sole ownership of unit in Campbell ACT For purposes of a Canberra residence",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-01-12",
+      "category": "Liabilities",
+      "entity": "ME Bank",
+      "details": "Personal mortgage on real estate set out above",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-28",
+      "category": "Savings/Investments",
+      "entity": "Rabo Bank",
+      "details": "Superannuation Fund Savings Account - Savings Account Rabo Bank",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-05-22",
+      "category": "Hospitality",
+      "entity": "ACO Soloists Concert",
+      "details": "Two Complimentary tickets to ACO Soloists Concert 14/May/2017 Value $149 each",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-05-22",
+      "category": "Shares",
+      "entity": "Asset Resolution Ltd",
+      "details": "Sale of shares held by Templeman-Fuller Superannuation Pty ltd",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-05-22",
+      "category": "Shares",
+      "entity": "BHP Billion Ltd",
+      "details": "Sale of shares held by Templeman-Fuller Superannuation Pty ltd",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-05-22",
+      "category": "Shares",
+      "entity": "Macquarie Group ltd",
+      "details": "Sale of shares held by Templeman-Fuller Superannuation Pty ltd",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-05-22",
+      "category": "Shares",
+      "entity": "Perpetual ltd",
+      "details": "Sale of shares held by Templeman-Fuller Superannuation Pty ltd",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-05-22",
+      "category": "Shares",
+      "entity": "South32 Ltd",
+      "details": "Sale of shares held by Templeman-Fuller Superannuation Pty ltd",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-05-22",
+      "category": "Shares",
+      "entity": "Sydney Airport Ltd",
+      "details": "Sale of shares held by Templeman-Fuller Superannuation Pty ltd",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-05-22",
+      "category": "Shares",
+      "entity": "Telstra Corp Ltd",
+      "details": "Sale of shares held by Templeman-Fuller Superannuation Pty ltd",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-05-22",
+      "category": "Shares",
+      "entity": "Westpac Banking Corp",
+      "details": "Sale of shares held by Templeman-Fuller Superannuation Pty ltd",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-07-07",
+      "category": "Hospitality",
+      "entity": "ACO Soloists Concert",
+      "details": "Two Complimentary tickets to ACO Soloists Concert 8 July 2017 Value $159 each",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-09-25",
+      "category": "Savings/Investments",
+      "entity": "AMP Wholesale Property Fund",
+      "details": "31 August 2017 through the Templeman-Fuller Superannuation Fund - AMP Wholesale Property Fund",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-09-25",
+      "category": "Savings/Investments",
+      "entity": "Wavestone Dynamic Aust Equity Fund",
+      "details": "31 August 2017 through the Templeman-Fuller Superannuation Fund - Wavestone Dynamic Aust Equity Fund.",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-09-25",
+      "category": "Hospitality",
+      "entity": "Australian Chamber Orchestra",
+      "details": "Australian Chamber Orchestra - Two tickets to Grieg and Beyond on 1/9/17",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-10-30",
+      "category": "Gifts",
+      "entity": "Screen Australia",
+      "details": "Package of 7x Australian Films from Screen Australia (received 30/10/17) Lion, The Kettering Incident, Jasper Jones, Doctor Doctor, The Family Law, Dance Academy, David Stratton: A Cinematic Life",
+      "pdf_url": "templemans_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2017-10-30",
+      "category": "Hospitality",
+      "entity": "The Escarpment Group",
+      "details": "2x tickets to the Hydro Majestic Opera Gala Dinner 30/9/17 courtesy of the Escarpment Group, valued at $300",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-11-30",
+      "category": "Travel",
+      "entity": "Australian Palestinian Advocacy Network",
+      "details": "Certain costs in relation to a trip to Israel / Palestinian Territories 4-9 November All flight costs were paid by me personally. The Australian - Palestinian Advocacy Network paid for hotel accommodation for this period, ground transport costs and some meals.",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-11-30",
+      "category": "Memberships",
+      "entity": "Valley Heights Locomotive Depot Heritage Museum",
+      "details": "Patron",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-12-19",
+      "category": "Hospitality",
+      "entity": "Hawkesbury Gazette",
+      "details": "4x tickets to Hawkesbury Gazette Christmas Party at Hawkesbury Race Club",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-12-19",
+      "category": "Gifts",
+      "entity": "Windsor Wolves",
+      "details": "1x polo shirt and 1x training shirt, courtesy of the Windsor Wolves",
+      "pdf_url": "templemans_45p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2018-03-20",
+      "category": "Real Estate",
+      "entity": "Winmalee",
+      "details": "My family home in Winmalee, NSW has now been re-built following destruction in the 2013 Blue Mountains Bushfires. My spouse and I jointly own this property and use it for the purpose of our family residence.",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-09-13",
+      "category": "Hospitality",
+      "entity": "Nine Entertainment Co. Holdings Limited",
+      "details": "One ticket for Mid-Winter Ball 12/9/2018 guest of Nine Entertainment Co. Holdings Limited.",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-09-13",
+      "category": "Memberships",
+      "entity": "Australia Palestine Advocacy Network",
+      "details": "Membership Australia Palestine Advocacy Network. 12/9/2018.",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-11-05",
+      "category": "Gifts",
+      "entity": "Coralie Anne Richmond",
+      "details": "Blue Mountains The City Within a Park by Coralie Anne Richmond published 1987. Hard copy limited edition book from the author 19 October 2018.",
+      "pdf_url": "templemans_45p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2018-11-05",
+      "category": "Gifts",
+      "entity": "Dyvest Health Care",
+      "details": "Dyvest Health Care - flowers and liquor upon opening of Winmalee Medical Centre 20 October 2018.",
+      "pdf_url": "templemans_45p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2019-02-12",
+      "category": "Hospitality",
+      "entity": "Opera Australia",
+      "details": "6 February 2019 Opera Australia production of Wozzeck: Two tickets $650 (self).",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2019-02-12",
+      "category": "Hospitality",
+      "entity": "Sydney Symphony",
+      "details": "9 February Sydney Symphony Season Opening Gala Launch: Two tickets $230 (self).",
+      "pdf_url": "templemans_45p.pdf"
+    },
+    {
+      "declaration_date": "2019-02-12",
+      "category": "Memberships",
+      "entity": "Hawkesbury Environment Network",
+      "details": "8 February 2019 Hawkesbury Environment Network membership (self).",
+      "pdf_url": "templemans_45p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/templemans_45p.pdf"
+}

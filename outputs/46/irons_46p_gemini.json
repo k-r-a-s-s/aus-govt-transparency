@@ -1,0 +1,427 @@
+{
+  "mp_name": "Stephen James Irons",
+  "party": "Liberal Party",
+  "electorate": "Swan",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Icap Pty Ltd",
+      "details": "Telstra, Centaur, Burey Gold, Visi, Ventnor",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Mandalay Pty Ltd",
+      "details": "JC Street Pty Ltd (Spouse/partner)",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Trusts",
+      "entity": "SJ Irons Family Trust",
+      "details": "Property Investment, Joint Beneficiary",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Trusts",
+      "entity": "C Street Family Trust",
+      "details": "Trustee of Business (Spouse/partner)",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "House - WA, Residence/Investment",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "House - WA, Residence",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "House - WA, Residence/Investment (Spouse/partner)",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "House - WA, Residence (Spouse/partner)",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Directorships",
+      "entity": "Hi Tech Products Pty Ltd",
+      "details": "Not Trading",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Directorships",
+      "entity": "JC Street Real Estate",
+      "details": "Not Trading (Spouse/partner)",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Directorships",
+      "entity": "Icap Pty Ltd",
+      "details": "Wholesaler (Spouse/partner)",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Directorships",
+      "entity": "Mandalay Pty Ltd",
+      "details": "Not Trading (Spouse/partner)",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Directorships",
+      "entity": "JC Street Pty Ltd",
+      "details": "Not Trading (Spouse/partner)",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Liabilities",
+      "entity": "Bankwest",
+      "details": "Housing Loan - Mortgage x 2",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Liabilities",
+      "entity": "MB Finance",
+      "details": "MV Loan",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Liabilities",
+      "entity": "Bankwest",
+      "details": "Housing Loan - Mortgage x 2 (Spouse/partner)",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "SJ Irons Superannuation Fund",
+      "details": "SMSF",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "Australian Super",
+      "details": "Govt Soperannuation Fund (Spouse/partner)",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "AMP & MEDIA",
+      "details": "Superannuation Fund x 2 (Spouse/partner)",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "Bankwest & ANZ",
+      "details": "Personal Accounts x 2",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "Bankwest",
+      "details": "Commercial Chq Account",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings Account (Spouse/partner)",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "2003 Nissan 350Z",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "2010 Ford G6E Sedan",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "2015 LWB Van",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Memorabilia",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Gym equipment",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "2012 BMW X5 (Spouse/partner)",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Company Dividends & Investment Incomes",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Investment Property Income and COSP Councillor Allowance (Spouse/partner)",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "WA Trotting - Honorary Memberships x 2",
+      "pdf_url": "irons_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Qantas Chairmans Lounge Access x 2",
+      "pdf_url": "irons_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Virgin Club Memeberships x 2",
+      "pdf_url": "irons_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Limited Foxtel Package in Electoral Office (Spouse/partner)",
+      "pdf_url": "irons_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "500 Club, Liberal Party, RPGC, MFC",
+      "details": "N/A",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "RPGC",
+      "details": "(Spouse/partner)",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 Tickets and Hospitality WCE vs Western Bulldogs",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 Tickets and Hospitality WCE vs Collingwood",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 WAFC Tickets and Hospitality Fremantle vs Sydney",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "PFC Luncheon at Lathlain Oval on NAIDOC Day",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 NRL Tickets and Hospitality State of Origin game",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-09-20",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "AFL Final WCE vs Essendon 2 x Tickets and Hospitality",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-09-20",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "AFL Final Geelong vs WCE 2 x Tickets and Hospitality",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-01",
+      "category": "Memberships",
+      "entity": "WACA",
+      "details": "2 x WACA complimentary Associate Memberships for 2019-2020 season",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-30",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "2020 Mazda SUV",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Deletion: House - WA",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-30",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Deletion: 2010 Ford G6E Sedan",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-30",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Deletion: 2015 LWB Van",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-30",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Deletion: 2012 BMW X5",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-30",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Deletion: MV Loan MB Finance",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-04-17",
+      "category": "Liabilities",
+      "entity": "Bankwest",
+      "details": "Deletion: Mortgage x 1 Bankwest",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-21",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 x Tickets to Fremantle vs West Coast 19th July 2020 including hospitality",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-08-18",
+      "category": "Shares",
+      "entity": "Surefire Resources",
+      "details": "Deletion: Surefire Resources",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-08-18",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 x Tickets and hospitality to the WCE vs Collingwood game 26/7/20 at Optus stadium",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-10-28",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 x Tickets AFL Elimination Final West Coast Eagles Vs Collingwood and hospitality 3/10/20",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-30",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 Tickets and Hospitality from AFL to Geelong vs GWS Semi-Final",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-30",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 Tickets and Hospitality from AFL to Geelong vs Melbourne Preliminary Final",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-30",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 Tickets and Hospitality from AFL to Western Bulldogs vs Melbourne Grand Final",
+      "pdf_url": "irons_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-30",
+      "category": "Gifts",
+      "entity": "Lion Beer",
+      "details": "2 Cartons of Furphy beer delivered to EO",
+      "pdf_url": "irons_46p.pdf",
+      "sub_category": "Alcohol"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/irons_46p.pdf"
+}

@@ -1,0 +1,857 @@
+{
+  "mp_name": "Katie Allen",
+  "party": "N/A",
+  "electorate": "Higgins",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "ANZ Banking Group Ltd",
+      "details": "Shareholding",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "Clydsedale Bank Plc",
+      "details": "Shareholding",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "National Australia Bank",
+      "details": "Shareholding",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "Westpac Banking Corp",
+      "details": "Shareholding",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "Trembrook Services Pty Ltd",
+      "details": "Shareholding",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "Updater Inc",
+      "details": "Shareholding - Spouse/partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "Xynk Pty Ltd",
+      "details": "Shareholding - Spouse/partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "Glynx Pty Ltd",
+      "details": "Shareholding - Spouse/partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Trusts",
+      "entity": "WB Stephens Family Trust",
+      "details": "Joint Beneficiary",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Trusts",
+      "entity": "Charles Allen Family Trust",
+      "details": "Secondary/Discretionary beneficiary",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Trusts",
+      "entity": "Senga Family Trust",
+      "details": "Investments, Discretionary beneficiary",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Trusts",
+      "entity": "M&K Allen Family Trust",
+      "details": "Investments, Discretionary beneficiary",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Trusts",
+      "entity": "Angela Allen Testementory Trust",
+      "details": "Education, Discretionary beneficiary",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Trusts",
+      "entity": "Charles Allen Family Trust",
+      "details": "Investments, Primary beneficiary - Spouse/Partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Trusts",
+      "entity": "Senga Family Trust",
+      "details": "Investments, Discretionary beneficiary - Spouse/Partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Trusts",
+      "entity": "M&K Allen Family Trust",
+      "details": "Investments, Discretionary beneficiary - Spouse/Partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Trusts",
+      "entity": "Angela Allen Testementory Trust",
+      "details": "Education, Joint beneficiary - Spouse/Partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Trusts",
+      "entity": "Charles Allen Family Trust",
+      "details": "Investments, Tertiary discretionary beneficiaries - Dependent children",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Trusts",
+      "entity": "Senga Family Trust",
+      "details": "Investments, Discretionary beneficiary - Dependent children",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Trusts",
+      "entity": "M&K Allen Family Trust",
+      "details": "Investments, Discretionary beneficiary - Dependent children",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Melbourne, Victoria; Residential",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Point Lonsdale, Victoria; Holiday Home/Investment",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Melbourne, Victoria; Residential - Spouse/partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Point Lonsdale, Victoria; Holiday Home/Investment - Spouse/partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Directorships",
+      "entity": "Merton Hall Foundation",
+      "details": "Fund Raising Charity",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Directorships",
+      "entity": "Trembrook Services",
+      "details": "Consulting",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Directorships",
+      "entity": "Xynk Pty Ltd",
+      "details": "Intellectual Property Ownership - Spouse/partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Directorships",
+      "entity": "Glynx Pty Ltd",
+      "details": "Software development - Spouse/partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Directorships",
+      "entity": "Stradbroke Pty Ltd",
+      "details": "Investments - Spouse/partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "National Australia bank",
+      "details": "Loan on holiday house",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "Macquarie Bank",
+      "details": "Loan on car",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Offset account",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Personal Credit Card * 2",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Business Credit Card * 1",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Loan on holiday house - Spouse/partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Offset account - Spouse/partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Personal Credit Card * 2 - Spouse/partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Business Credit Card * 1 - Spouse/partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Savings Account",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Business Account",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "First State Super",
+      "details": "Superannuation",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "Uni Super",
+      "details": "Superannuation",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "AustralianSuper",
+      "details": "Superannuation",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Savings Account - Spouse/partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "IOOF",
+      "details": "Superannuation - Spouse/partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "Aon",
+      "details": "Superannuation - Spouse/partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "Macquarie",
+      "details": "Investment - Spouse/partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "Macquarie",
+      "details": "Cash Management Trust - Spouse/partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Savings Account * 2 - Dependent children",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Car",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Car - Spouse/partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Parliamentary salary",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Partners in Performance Employment income - Spouse/partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Subscriber Melbourne Theatre Company",
+      "details": "N/A",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Medical Registration of Australia",
+      "details": "N/A",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Australian Company of Institute Directors",
+      "details": "Resigned July 2019",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Ambassador Club Melbourne",
+      "details": "N/A",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Royal Australasian College of Physicians",
+      "details": "Resigned July 2019",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Honorary Member Malvern Rotary Club",
+      "details": "N/A",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Royal South Yarra Lawn Tennis Club",
+      "details": "N/A",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Lyceum Club",
+      "details": "N/A",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "AMA",
+      "details": "Resigned July 2019",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Melbourne Football Club",
+      "details": "N/A",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Australia Academy of Heath and Medical Sciences",
+      "details": "Resigned June 2019",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "QANTAS Platinum Frequent Flyer Program",
+      "details": "N/A",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Albury Ski Club",
+      "details": "N/A",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "RCH Alpine Ski Club",
+      "details": "N/A",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Point Lonsdale Tennis Club",
+      "details": "N/A",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Liberal Party of Australia",
+      "details": "N/A",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Point Lonsdale Surf Lifesaving Club",
+      "details": "N/A",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Royal South Yarra Lawn Tennis Club",
+      "details": "Spouse/partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Melbourne Club",
+      "details": "Spouse/partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Institute of Public Affairs",
+      "details": "Spouse/partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "RCH Alpine Ski Club",
+      "details": "Spouse/partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Liberal Party of Australia",
+      "details": "Spouse/partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Australian Institute of Company Directors",
+      "details": "Spouse/partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Melbourne Cricket Club Member",
+      "details": "Spouse/partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Point Lonsdale Surf Lifesaving Club",
+      "details": "Spouse/partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "MCC Hockey Club",
+      "details": "Dependent children",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Point Lonsdale Surf Lifesaving Club",
+      "details": "Dependent children",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not Applicable - Spouse/partner",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not Applicable - Dependent children",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Royal Australasian College of Physicians",
+      "details": "Deletion, alteration",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "AMA",
+      "details": "Deletion, alteration",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Australian Institute of Company Directors",
+      "details": "Deletion, alteration",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "East Malvern RSL",
+      "details": "Addition, alteration",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Qantas Platinum Frequent Flyer",
+      "details": "Deletion, alteration for spouse",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Virgin Australia Platinum Frequent Flyer",
+      "details": "Deletion, alteration for spouse",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Gifts",
+      "entity": "Sky News",
+      "details": "Addition, Sky News Pay TV subscription Electorate Office",
+      "pdf_url": "allen_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Fellow, Australian Academy of Health and Medical Sciences",
+      "details": "Deletion",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-08-20",
+      "category": "Memberships",
+      "entity": "QANTAS Chairman's Lounge",
+      "details": "Addition",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-08-20",
+      "category": "Memberships",
+      "entity": "QANTAS Platinum Frequent Flyer Program",
+      "details": "Deletion",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-09-16",
+      "category": "Travel",
+      "entity": "Save the Children & Bill and Melinda Gates Foundation",
+      "details": "Save the Children Parliamentary tour to PNG August 12-17 2019 -- funded by a grant from the Bill and Melinda Gates Foundation to STC - travel, transfer, meals and accommodation",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-09-16",
+      "category": "Gifts",
+      "entity": "Children Cancer Foundation",
+      "details": "Children Cancer Foundation Chairty Lunch August 9th 2019 - 1 ticket",
+      "pdf_url": "allen_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2019-09-16",
+      "category": "Gifts",
+      "entity": "My Room Children's Cancer Charity",
+      "details": "My Room Children's Cancer Charity Dinner August 31st 2019 - 2 tickets",
+      "pdf_url": "allen_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2019-09-16",
+      "category": "Gifts",
+      "entity": "MCRI",
+      "details": "2 glass vases - MCRI Farewell Gift for 25 years service - August 28 2019",
+      "pdf_url": "allen_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-09-16",
+      "category": "Gifts",
+      "entity": "MGS",
+      "details": "Speakers Honorarium for MGS Community Forum event - donated directly by MGS to Stonnington Toy Library",
+      "pdf_url": "allen_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-09-16",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Kids Food Allergy for Dummies - Royalties ongoing",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-02",
+      "category": "Gifts",
+      "entity": "Self and Spouse",
+      "details": "Virgin Club Membership",
+      "pdf_url": "allen_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2020-02-04",
+      "category": "Travel",
+      "entity": "AIJAC",
+      "details": "Study Trip to Israel provided and paid for by AIJAC December 2019. Cost of airfares, accommodation and meals all covered.",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-02-04",
+      "category": "Gifts",
+      "entity": "Vision Australia (Higgins community organisation)",
+      "details": "Family ticket to Vision Australia (Higgins community organisation) Carols by Candlelight concert December 2019.",
+      "pdf_url": "allen_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2020-02-11",
+      "category": "Memberships",
+      "entity": "The Centre for Optimism",
+      "details": "N/A",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-02-11",
+      "category": "Memberships",
+      "entity": "Friends of Gardiners Creek",
+      "details": "N/A",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-02-11",
+      "category": "Memberships",
+      "entity": "East Malvern RSL",
+      "details": "Deletion",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-02-22",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "2 tickets to Australian Open Women's Final 2021",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-04-09",
+      "category": "Shares",
+      "entity": "Trembrook Services Pty Ltd",
+      "details": "Deletion Self",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-04-09",
+      "category": "Directorships",
+      "entity": "Trembrook Services Pty Ltd",
+      "details": "Deletion Self",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-04-09",
+      "category": "Shares",
+      "entity": "Trembrook Services Pty Ltd",
+      "details": "Deletion Spouse",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-04-09",
+      "category": "Directorships",
+      "entity": "Trembrook Services Pty Ltd",
+      "details": "Deletion Spouse",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-04-12",
+      "category": "Shares",
+      "entity": "Trembrook Services Pty Ltd",
+      "details": "Addition Spouse",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-04-12",
+      "category": "Directorships",
+      "entity": "Trembrook Services Pty Ltd",
+      "details": "Addition Spouse",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-05-31",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Car - Tesla Model 3",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-11-08",
+      "category": "Other Interests",
+      "entity": "McKinnon Institute for Political Leadership",
+      "details": "Scholarship recipient - Advanced Political Leadership course from the McKinnon Institute for Political Leadership",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-11-08",
+      "category": "Gifts",
+      "entity": "East Malvern Junior Football club",
+      "details": "90 pairs of junior football shorts donated by the East Malvern Junior Football club (with out of date sponsor logos) for free distribution to local Higgins primary schools and kindergartens",
+      "pdf_url": "allen_46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2022-02-01",
+      "category": "Travel",
+      "entity": "ANZ",
+      "details": "Two complimentary tickets to Australian Open Womens' Final with hospitality from ANZ",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-02-01",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Return flights Melbourne-Sydney, transfers and 1 nights accommodation as Key Note Speaker at an Australia Club Dinner in Sydney",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-02-21",
+      "category": "Travel",
+      "entity": "NAB",
+      "details": "Guest tickets (x2) to NAB corporate hospitality suite at MCG for T20 cricket",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-03-07",
+      "category": "Travel",
+      "entity": "Caulfield Grammar Foundation",
+      "details": "Guest at Caulfield Grammar Foundation Business Breakfast",
+      "pdf_url": "allen_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-03-25",
+      "category": "Travel",
+      "entity": "Federal Minister for Communications and the Arts",
+      "details": "2 tickets to the Opening of Hamilton the Musical in Melbourne, representing the Federal Minister for Communications and the Arts, the Hon Paul Fletcher MP.",
+      "pdf_url": "allen_46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/allen_46p.pdf"
+}

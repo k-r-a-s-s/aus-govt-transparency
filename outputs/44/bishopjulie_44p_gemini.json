@@ -1,0 +1,546 @@
+{
+  "mp_name": "Julie Isabel Bishop",
+  "party": "LIBERAL PARTY",
+  "electorate": "Curtin",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "TELSTRA CORP",
+      "details": "N/A",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "GNARABUP UNIT TRUST",
+      "details": "N/A",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "WJ BISHOP PTY LTD",
+      "details": "N/A",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "ISDELL PTY LTD",
+      "details": "N/A",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Trusts",
+      "entity": "ISDELL PTY LTD atf",
+      "details": "TRUSTEE, DIRECTOR",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Trusts",
+      "entity": "JI BISHOP MUTUAL",
+      "details": "INVESTMENT, MEMBER",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Trusts",
+      "entity": "JI BISHOP FAMILY",
+      "details": "INVESTMENT, MEMBER",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Trusts",
+      "entity": "JIBISHOP",
+      "details": "SUPERANNUATION, MEMBER",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Trusts",
+      "entity": "JIB UNIT TRUST",
+      "details": "INVESTMENT, MEMBER",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "FINCHDEAN PTY LTD",
+      "details": "DORMANT, DIRECTOR",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "BASKET RANGE SA, INVESTMENT",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "CRAWLEY WA, RESIDENCE",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "REDHILL ACT, INVESTMENT",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "ISDELL PTY LTD",
+      "details": "TRUSTEE",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "FINCHDEAN PTY LTD",
+      "details": "DORMANT",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "INDIAN PACIFIC LTD",
+      "details": "DIRECTOR",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "FLEXI PLUS MORTGAGE",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "SAVINGS ACCOUNT",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "ANTIQUES",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Income Sources",
+      "entity": "WEST COAST EAGLES",
+      "details": "DIRECTORS FEES WEST COAST EAGLES (RESIGNED 01/12/13)",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Gifts",
+      "entity": "ASTRA",
+      "details": "BASE LEVEL SUBSCRIPTION TELEVISION SERVICE",
+      "pdf_url": "bishopjulie_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Travel",
+      "entity": "VIRGIN AUSTRALIA",
+      "details": "THE CLUB",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Travel",
+      "entity": "QANTAS AUSTRALIA",
+      "details": "CHAIRMANS LOUNGE",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "WEST COAST EAGLES",
+      "details": "BOARD OF DIRECTORS (RESIGNED 01/12/13)",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "500 CLUB",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "LIBERAL PARTY",
+      "details": "N/A",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "WA MUSEUM FOUNDATION",
+      "details": "BOARD MEMBER",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "HIS MAJESTY'S THEATRE FOUNDATION",
+      "details": "BOARD MEMBER",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "SURF LIFE SAVING CLUBS/SERVICE CLUBS AND SPORTING CLUBS IN ELECTORATE",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "PATRON/VICE PATRON MEMBER/HONORARY MEMBER",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Directorships",
+      "entity": "INDIAN PACIFIC LTD",
+      "details": "DIRECTOR WEST COAST EAGLES (RESIGNED 01/12/13)",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-23",
+      "category": "Gifts",
+      "entity": "GVK India",
+      "details": "Handcrafted silver box 16 November 2013 (item retained by DFAT)",
+      "pdf_url": "bishopjulie_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2013-12-23",
+      "category": "Gifts",
+      "entity": "Yuju Group",
+      "details": "Mont Blanc Pen 10 December 2013",
+      "pdf_url": "bishopjulie_44p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2014-01-08",
+      "category": "Hospitality",
+      "entity": "Opera Australia",
+      "details": "Tickets and Hospitality \"South Pacific\" 31 December 2013",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-03-02",
+      "category": "Gifts",
+      "entity": "Rimbink Pato, Papua New Guinea Minister for Foreign Affairs.",
+      "details": "Framed Bird of Paradise 5 February 2014 (on loan for Display purposes in M127)",
+      "pdf_url": "bishopjulie_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2014-03-14",
+      "category": "Gifts",
+      "entity": "Malaysian Minister for Foreign Affairs",
+      "details": "White silk shawl 17 February 2014 Held for display in M/27",
+      "pdf_url": "bishopjulie_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2014-04-18",
+      "category": "Gifts",
+      "entity": "President of the Swiss Confederation and Head of the Federal Department of Foreign Affairs",
+      "details": "Swiss watch 27 March 2014",
+      "pdf_url": "bishopjulie_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2014-05-04",
+      "category": "Gifts",
+      "entity": "Save Our Marine Life (on behalf of Pew Charitable Trusts)",
+      "details": "Framed Picture of Baby Seal 15 April 2014",
+      "pdf_url": "bishopjulie_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2014-06-28",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "National Press Club Parliamentary Membership May 2014",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-08-05",
+      "category": "Memberships",
+      "entity": "Virgin Australia",
+      "details": "Membership The Club July 2014",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-08-05",
+      "category": "Memberships",
+      "entity": "QT Lounge",
+      "details": "The QT Lounge Private Membership July 2014",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-08-05",
+      "category": "Memberships",
+      "entity": "Australian Institute of Management",
+      "details": "Fellow Membership July 2014",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-08-18",
+      "category": "Travel",
+      "entity": "Kerry and Christine Stokes",
+      "details": "Flights Perth - Broome - Sydney Accommodation Broome WA 14-17 August",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-09-03",
+      "category": "Gifts",
+      "entity": "Qantas Australia",
+      "details": "Personalised Pyjamas August 2014",
+      "pdf_url": "bishopjulie_44p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2014-10-13",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "AFL Grand final ticket and Presidents lunch 27 September 2014",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-10-13",
+      "category": "Gifts",
+      "entity": "Hoskings",
+      "details": "Silver Earrings - Hoskings\nMember of the Public\nOctober 2014",
+      "pdf_url": "bishopjulie_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2014-10-27",
+      "category": "Travel",
+      "entity": "J & D Poynton",
+      "details": "Air Transport\nPerth to Margaret River Return\nJ & D Poynton\n26 October 2014",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-11-05",
+      "category": "Hospitality",
+      "entity": "Emirates Melbourne Cup",
+      "details": "Tickets to Emirates Melbourne Cup 4 November 2014 Emirates Marquee James Boag and Son Marquee Chairman's Club\nMelbourne Committee Room",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-11-18",
+      "category": "Gifts",
+      "entity": "2XU",
+      "details": "2XU Apparel Gift Pack 18 November 2014\n",
+      "pdf_url": "bishopjulie_44p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2015-01-15",
+      "category": "Hospitality",
+      "entity": "Michael Cassel Group",
+      "details": "Tickets Opening Night Les Miserables 7 January 2015",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-01-12",
+      "category": "Gifts",
+      "entity": "President Peru",
+      "details": "Vicuna Wool Scarf\nPresident Peru\nOllanta Humala Tasso\n10 December 2014\nON DISPLAY IN PARLIAMENT HOUSE OFFICE",
+      "pdf_url": "bishopjulie_44p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2015-01-12",
+      "category": "Travel",
+      "entity": "Qato Capital",
+      "details": "Ticket and Transport Melbourne \u2013 Portsea return\n2015 Portsea Polo\n",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-02-03",
+      "category": "Travel",
+      "entity": "Ministry Foreign Affairs - UAE",
+      "details": "Accommodation and Meal Expenses\nMinistry Foreign Affairs - UAE\n25-27 January 2015",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-02-11",
+      "category": "Gifts",
+      "entity": "Australian Subscription Television and Radio Association (ASTRA)",
+      "details": "Foxtel Subscription\nElectorate Office Subiaco\nFrom January 2015\n",
+      "pdf_url": "bishopjulie_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2015-04-06",
+      "category": "Hospitality",
+      "entity": "Denis Horgan",
+      "details": "7 March Ticket 2015 Leeuwin Estate Concert\nLeeuwin Estate Margaret River\nDenis Horgan",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-07-31",
+      "category": "Travel",
+      "entity": "Chilean Government",
+      "details": "Flight Santiago to Paracas\n2 July 2015\nChilean Government",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-08-14",
+      "category": "Hospitality",
+      "entity": "Australian Rugby Union LTD",
+      "details": "2 x Corporate tickets Bledisloe Cup\n8 August 2015\nAustralian Rugby Union LTD",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-08-20",
+      "category": "Hospitality",
+      "entity": "Kerry and Christine Stokes",
+      "details": "Flights Canberra \u2013 Broome- Sydney\n13 August and 16 August 2015\n1 x Corporate Ticket to Broome Cup Racing Carnival\n15 August 2015",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-08-31",
+      "category": "Accommodation",
+      "entity": "Kerry and Christine Stokes",
+      "details": "Accommodation Broome\n13-15 August 2015",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-10-06",
+      "category": "Hospitality",
+      "entity": "AFL",
+      "details": "2 x Corporate tickets AFL Grand Final\n3 October 2015\nAFL",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-12",
+      "category": "Gifts",
+      "entity": "The Daily Edition",
+      "details": "Leather goods",
+      "pdf_url": "bishopjulie_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2015-11-12",
+      "category": "Hospitality",
+      "entity": "Emirates",
+      "details": "Spring Racing - Carnival Tickets - 31st Oct + 3rd Nov",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-12",
+      "category": "Hospitality",
+      "entity": "Mumm",
+      "details": "Spring Racing - Carnival Tickets - 3rd Nov",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-12",
+      "category": "Hospitality",
+      "entity": "Lion",
+      "details": "Spring Racing - Carnival Tickets - 3rd Nov",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-12-04",
+      "category": "Gifts",
+      "entity": "Kim Ellery",
+      "details": "Ellery Clothing from Kim Ellery",
+      "pdf_url": "bishopjulie_44p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2015-12-04",
+      "category": "Gifts",
+      "entity": "Minister Pato/Wapenamanda Community",
+      "details": "2x Pigs gift by Minister Pato/Wapenamanda Community\n(Donated to local hospital)",
+      "pdf_url": "bishopjulie_44p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2015-12-04",
+      "category": "Gifts",
+      "entity": "Mambisanda Immanuel Lutheran District Hospital",
+      "details": "2x Pigs gift by Mambisanda Immanuel Lutheran District\nHospital (Donated to local Hospital)",
+      "pdf_url": "bishopjulie_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-01-31",
+      "category": "Hospitality",
+      "entity": "Deborah Lee-Furness",
+      "details": "Hugh Jackman Tickets from Deborah Lee-Furness\n15 December 2015",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-01-31",
+      "category": "Hospitality",
+      "entity": "Elton John AIDS Foundation",
+      "details": "Elton John Concert Tickets from Elton John\nAids Foundation\n17 December 2015",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-01-31",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Portsea Polo Ticket:\nPeroni\nJeep\n9 January 2016",
+      "pdf_url": "bishopjulie_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-25",
+      "category": "Gifts",
+      "entity": "Shiels",
+      "details": "1x Earrings from Shiels",
+      "pdf_url": "bishopjulie_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-03-24",
+      "category": "Gifts",
+      "entity": "+HUNTR",
+      "details": "+HUNTR - Running gear",
+      "pdf_url": "bishopjulie_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-03-24",
+      "category": "Gifts",
+      "entity": "Love from Venus",
+      "details": "Love from Venus \u2013 Jewellery",
+      "pdf_url": "bishopjulie_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-03-24",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Leeuwin Estate Concert Tickets",
+      "pdf_url": "bishopjulie_44p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/bishopjulie_44p.pdf"
+}

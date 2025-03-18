@@ -1,0 +1,199 @@
+{
+  "mp_name": "Julie Ann Owens",
+  "party": "Unknown",
+  "electorate": "Parramatta",
+  "disclosures": [
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "Telstra",
+      "details": "TELSTRA",
+      "pdf_url": "owensj_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "NRMA",
+      "details": "NRMA",
+      "pdf_url": "owensj_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Shares",
+      "entity": "IAG",
+      "details": "IAG",
+      "pdf_url": "owensj_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "NORTH PARRAMATTA - RESIDENCE",
+      "pdf_url": "owensj_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Liabilities",
+      "entity": "ANZ",
+      "details": "CREDIT CARD",
+      "pdf_url": "owensj_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "SAVINGS ACCOUNTS",
+      "pdf_url": "owensj_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "SAVINGS ACCOUNT",
+      "pdf_url": "owensj_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "PSS",
+      "details": "SUPERANNUATION - PSS, AUSTRALIAN SUPER, TOWER",
+      "pdf_url": "owensj_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "AUSTRALIAN SUPER",
+      "details": "SUPERANNUATION - PSS, AUSTRALIAN SUPER, TOWER",
+      "pdf_url": "owensj_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Other Assets",
+      "entity": "TOWER",
+      "details": "SUPERANNUATION - PSS, AUSTRALIAN SUPER, TOWER",
+      "pdf_url": "owensj_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "TRADITIONAL DRESS FROM NIGERIA",
+      "pdf_url": "owensj_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "SARI",
+      "pdf_url": "owensj_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "FLIGHT UPGRADES",
+      "pdf_url": "owensj_45p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "HARMONIUM",
+      "pdf_url": "owensj_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-09-27",
+      "category": "Travel",
+      "entity": "Australian Military",
+      "details": "10 DAYS IN AFGHANISTAN HOSTED BY AUSTRALIAN MILITARY",
+      "pdf_url": "owensj_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Unknown",
+      "entity": "Unknown",
+      "details": "Unknown",
+      "pdf_url": "owensj_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-11-18",
+      "category": "Gifts",
+      "entity": "Virgin",
+      "details": "UPGRADE OF FLIGHT (Syd to Cbr) - Virgin",
+      "pdf_url": "owensj_45p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2017-03-28",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "1 savings account ANZ",
+      "pdf_url": "owensj_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-28",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "1 cheque account ANZ",
+      "pdf_url": "owensj_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-03-28",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "1 HANDMADE ITEM",
+      "pdf_url": "owensj_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2017-05-09",
+      "category": "Gifts",
+      "entity": "ABLAS",
+      "details": "1 CHOCOLATE BASKET - GIFT FROM ABLAS",
+      "pdf_url": "owensj_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2017-08-01",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "BANK ACCOUNT NAB SAVINGS ACCOUNT",
+      "pdf_url": "owensj_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-08-01",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "BANK ACCOUNT NAB VISA DEBIT",
+      "pdf_url": "owensj_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-08-28",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "VISA DEBIT ACCOUNT NATIONAL AUSTRALIA BANK",
+      "pdf_url": "owensj_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-11-17",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "1 portrait - Painted by local artist",
+      "pdf_url": "owensj_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-08-06",
+      "category": "Gifts",
+      "entity": "Hillsong Convention Centre",
+      "details": "1 ticket $500 Ilaiyaraaja Concert - Hillsong Convention Centre Saturday 11 August 2018 \u2013 6:30pm",
+      "pdf_url": "owensj_45p.pdf",
+      "sub_category": "Sports Tickets"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/owensj_45p.pdf"
+}

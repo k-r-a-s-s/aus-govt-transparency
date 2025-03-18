@@ -1,0 +1,505 @@
+{
+  "mp_name": "Steven Ciobo",
+  "party": "N/A",
+  "electorate": "Moncrieff",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "ASTRA ENTERPRISES QHD PTY LTD",
+      "details": "Spouse shareholding",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "SCINTILLA STRATEGIC INVESTMENTS",
+      "details": "Spouse shareholding",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "CITIGROUP (USA)",
+      "details": "Spouse shareholding",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Trusts",
+      "entity": "HAWK TRUST",
+      "details": "Beneficial interest, Family Trust",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Trusts",
+      "entity": "HAWK TRUST WITH ASTRA ENTERPRISES QLD PTY LTD AS TRUSTEE",
+      "details": "Trustee, Family Trust",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "BROADBEACH WATERS (JOINT), Residence and Investment",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "BENOWA (JOINT), Investment",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "HOPE ISLAND (JOINT), Investment",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "ASTRA ENTERPRISES QLD PTY LTD",
+      "details": "Spouse directorship, Public relations",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "WESTPAC",
+      "details": "Mortgages & Overdraft Facility, Credit/Store cards",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "VARIOUS",
+      "details": "Credit/Store cards",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "ASTRA ENTERPRISES QLD PTY LTD",
+      "details": "Loan",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "BLJ CIOBO",
+      "details": "Loan",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "ORD MINETT (UNKNOWN)",
+      "details": "Margin Loan",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "WESTPAC",
+      "details": "Savings",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "ORD MINETT",
+      "details": "Savings",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "PSS & PCS Superannuation, Life Insurance Policies",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Investment income as outlined above",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Travel",
+      "entity": "National Australia Bank",
+      "details": "Ticket and hospitality for the 2013 AFL Grand Final",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Hospitality",
+      "entity": "Caltex VB",
+      "details": "Ticket and hospitality for the Gold Coast 600 V8",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Hospitality",
+      "entity": "Emirates FAWM",
+      "details": "Hospitality and Entry in the Emirates Derby Day",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Hospitality",
+      "entity": "Emirates Mumm",
+      "details": "Hospitality and Entry for Emirates Derby Day",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "ILANAH AQUA BODY CORPORATE",
+      "details": "Committee Member",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Memberships",
+      "entity": "VARIOUS SURF LIFESAVING QLD",
+      "details": "Positions eg vice patron of SLUR",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Interests",
+      "entity": "The Darling Hotel",
+      "details": "Room upgrade",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-02-10",
+      "category": "Hospitality",
+      "entity": "The Arts Centre Gold Coast",
+      "details": "VIP Double Movie Pass",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-03-05",
+      "category": "Travel",
+      "entity": "V8 Supercars Australia Pty Ltd",
+      "details": "Season pass providing entry to V8 Supercar events in 2014",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-03-05",
+      "category": "Memberships",
+      "entity": "National Press Club of Australia",
+      "details": "Complimentary Membership",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-05-26",
+      "category": "Gifts",
+      "entity": "European Australian Business Council",
+      "details": "Louis Vitton tie",
+      "pdf_url": "ciobos_44p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2014-05-26",
+      "category": "Gifts",
+      "entity": "Royal Australian Mint",
+      "details": "Commemorative Coin",
+      "pdf_url": "ciobos_44p.pdf",
+      "sub_category": "Decorative"
+    },
+    {
+      "declaration_date": "2014-05-26",
+      "category": "Gifts",
+      "entity": "Yerlan Baudarbek-Kozhatayev, Ambassador of the Republic of Kazakhstan",
+      "details": "Framed porcelain picture \u201cThe Nomads\u2019 Inheritance\u201d by painter Nelly Bube",
+      "pdf_url": "ciobos_44p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2014-05-26",
+      "category": "Gifts",
+      "entity": "H.E U Win Shein, Union Minister, Ministry of Finance, Republic of the Union of Myanmar",
+      "details": "Souvenir of Myanmar \"Golden Harp\"",
+      "pdf_url": "ciobos_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2014-05-26",
+      "category": "Gifts",
+      "entity": "Minerals Council of Australia",
+      "details": "Hi Visibility shirt",
+      "pdf_url": "ciobos_44p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2014-05-26",
+      "category": "Other Interests",
+      "entity": "Electorate office",
+      "details": "Foxtel subscription",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-05-26",
+      "category": "Hospitality",
+      "entity": "Bond University",
+      "details": "Complimentary tickets Bond University Gala Dinner for myself and my wife",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-07-15",
+      "category": "Memberships",
+      "entity": "Gold Coast Show Society",
+      "details": "Membership",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-07-15",
+      "category": "Memberships",
+      "entity": "National Press Club",
+      "details": "Membership",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-07-15",
+      "category": "Memberships",
+      "entity": "Friends of Gold Coast Arts Centre",
+      "details": "Membership",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-07-15",
+      "category": "Memberships",
+      "entity": "Gold Coast Central Chamber of Commerce",
+      "details": "Membership",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-07-15",
+      "category": "Memberships",
+      "entity": "Gold Coast Turf Club",
+      "details": "Honorary Member",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-07-15",
+      "category": "Memberships",
+      "entity": "Virgin Australia Club",
+      "details": "Membership",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-07-15",
+      "category": "Memberships",
+      "entity": "Qantas Chairman's Lounge",
+      "details": "Membership",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-07-15",
+      "category": "Other Interests",
+      "entity": "Crown Metropol, Melbourne",
+      "details": "Room upgrade",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-10-16",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Disposed of a vacant lot we owned in Benowa on the Gold Coast",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-10-16",
+      "category": "Gifts",
+      "entity": "Kingold Group",
+      "details": "Gifted a tie",
+      "pdf_url": "ciobos_44p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2014-10-16",
+      "category": "Gifts",
+      "entity": "Royal Australian Mint",
+      "details": "Southern Sky Series coin set",
+      "pdf_url": "ciobos_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2014-10-16",
+      "category": "Memberships",
+      "entity": "Gold Coast Turf Club",
+      "details": "Honorary membership",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-10-27",
+      "category": "Travel",
+      "entity": "Qantas Airways",
+      "details": "Upgrade on one of the legs of the journey",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-12-23",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Disposed of residence in Broadbeach Waters on the Gold Coast",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-12-23",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Opened two new Westpac accounts: One is a term deposit and the other a savings account.",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-12-23",
+      "category": "Gifts",
+      "entity": "Constituent",
+      "details": "Gifted a small rug, its value is unknown.",
+      "pdf_url": "ciobos_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2015-04-28",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Purchased a new residence in Broadbeach on the Gold Coast",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-06-18",
+      "category": "Hospitality",
+      "entity": "Hotel Raphael",
+      "details": "Complimentary room upgrade in Paris on 3 and 4 June 2015",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-08-19",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Purchased a new principal place of residence at Surfers Paradise",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-08-19",
+      "category": "Memberships",
+      "entity": "Gold Coast Turf Club",
+      "details": "Two Honorary Member Badges for the 2015/2016 Season",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-09-17",
+      "category": "Hospitality",
+      "entity": "Chairman's Club at the Gold Coast Suns vs Essendon",
+      "details": "Received tickets and hospitality to the Chairman's Club",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-10-19",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Disposed of the unit we jointly owned at Broadbeach.",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-01-04",
+      "category": "Memberships",
+      "entity": "Qantas Chairman's lounge",
+      "details": "Automatic renewal of membership",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-01-25",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Accepted two tickets to the Australian Open 2016.",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-02-09",
+      "category": "Travel",
+      "entity": "Mauritian Government",
+      "details": "Accommodation cost met by the Mauritian Government for attending IORA ministerial meeting in Mauritius",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-03-04",
+      "category": "Hospitality",
+      "entity": "Gold Coast Arts Centre",
+      "details": "VIP Double Movie pass",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-03-04",
+      "category": "Gifts",
+      "entity": "Kingold Group",
+      "details": "Tie",
+      "pdf_url": "ciobos_44p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2016-03-04",
+      "category": "Gifts",
+      "entity": "QT Canberra",
+      "details": "Custom figurine",
+      "pdf_url": "ciobos_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-03-04",
+      "category": "Gifts",
+      "entity": "New York Stock Exchange",
+      "details": "Commemorative coin",
+      "pdf_url": "ciobos_44p.pdf",
+      "sub_category": "Decorative"
+    },
+    {
+      "declaration_date": "2016-03-04",
+      "category": "Memberships",
+      "entity": "V8 Supercars",
+      "details": "VIP 2016 membership",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-05-03",
+      "category": "Gifts",
+      "entity": "Kingold Group",
+      "details": "Received a tie and scarf",
+      "pdf_url": "ciobos_44p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2016-05-03",
+      "category": "Gifts",
+      "entity": "Mr Shanjun Hu",
+      "details": "Received a commemorative coin",
+      "pdf_url": "ciobos_44p.pdf",
+      "sub_category": "Decorative"
+    },
+    {
+      "declaration_date": "2016-05-03",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Received two complimentary tickets to attend the Prime Minister's Cup Race day",
+      "pdf_url": "ciobos_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-05-03",
+      "category": "Travel",
+      "entity": "Emirates Airways",
+      "details": "Upgrade from Emirates Airways on one of the legs of the journey",
+      "pdf_url": "ciobos_44p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/ciobos_44p.pdf"
+}

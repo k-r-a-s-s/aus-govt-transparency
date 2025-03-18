@@ -1,0 +1,152 @@
+{
+  "mp_name": "Robert Mitchell",
+  "party": "Unknown",
+  "electorate": "McEwen",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "mitchellr_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "mitchellr_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Real Estate",
+      "entity": "Whittlesea",
+      "details": "residential",
+      "pdf_url": "mitchellr_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Real Estate",
+      "entity": "Phillip Island",
+      "details": "holiday home",
+      "pdf_url": "mitchellr_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "mitchellr_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "mitchellr_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Liabilities",
+      "entity": "Bendigo Bank",
+      "details": "Mortgage on Phillip Island property",
+      "pdf_url": "mitchellr_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Savings/Investments",
+      "entity": "Bendigo Bank, Westpac",
+      "details": "Savings",
+      "pdf_url": "mitchellr_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Savings",
+      "pdf_url": "mitchellr_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "mitchellr_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Salary",
+      "pdf_url": "mitchellr_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Gifts",
+      "entity": "Qantas FF",
+      "details": "N/A",
+      "pdf_url": "mitchellr_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Gifts",
+      "entity": "Virgin FF",
+      "details": "N/A",
+      "pdf_url": "mitchellr_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Gifts",
+      "entity": "Foxtel for EO",
+      "details": "N/A",
+      "pdf_url": "mitchellr_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Memberships",
+      "entity": "TWU",
+      "details": "N/A",
+      "pdf_url": "mitchellr_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Memberships",
+      "entity": "AWU",
+      "details": "N/A",
+      "pdf_url": "mitchellr_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-16",
+      "category": "Memberships",
+      "entity": "Lions Australia",
+      "details": "N/A",
+      "pdf_url": "mitchellr_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-10",
+      "category": "Hospitality",
+      "entity": "Linfox",
+      "details": "Guest of Linfox at Carlton vs Brisbane Lions match, Marvel Stadium Premier Suites on 5 May 2023",
+      "pdf_url": "mitchellr_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-09-20",
+      "category": "Hospitality",
+      "entity": "AFL",
+      "details": "Guest of the AFL at Carlton v Sydney match at the MCG Olympic Room on 8 September 2023",
+      "pdf_url": "mitchellr_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-02-05",
+      "category": "Hospitality",
+      "entity": "Diageo Australia",
+      "details": "Guest of Diageo Australia at men's semifinal at Rod Laver Arena on the evening of 26 January 2024.",
+      "pdf_url": "mitchellr_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/mitchellr_47p.pdf"
+}

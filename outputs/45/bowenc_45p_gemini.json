@@ -1,0 +1,320 @@
+{
+  "mp_name": "Christopher Eyles Bowen",
+  "party": "Unknown",
+  "electorate": "McMahon",
+  "disclosures": [
+    {
+      "declaration_date": "2016-09-01",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-01",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-01",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Residence, Smithfield Land, Bawley Point NSW; As Above",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-01",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-01",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-01",
+      "category": "Liabilities",
+      "entity": "Sydney Credit Union",
+      "details": "Mortgage (Residence and Land)",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-01",
+      "category": "Liabilities",
+      "entity": "American Express",
+      "details": "Credit Card (Amex)",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-01",
+      "category": "Savings/Investments",
+      "entity": "Sydney Credit Union, Australian Super, Sun Super",
+      "details": "Savings account (Joint), Superannuation",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-01",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-01",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-01",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "bowenc_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2016-09-01",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-01",
+      "category": "Memberships",
+      "entity": "Fairfield RSC Club, Smithfield RSE Club, Marcom Club, Guildford West Leagues Club, GWS Giants AFL Club",
+      "details": "N/A",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-01",
+      "category": "Memberships",
+      "entity": "GWS Giants",
+      "details": "N/A",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-01",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "None",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-01",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Lad Bawley Point, for construction of Holiday Home",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-12-19",
+      "category": "Other Interests",
+      "entity": "Crescent Foundation",
+      "details": "My wife Rebecca Mifsud has been appointed to the Board of the Crescent Foundation. This is a charity and she is not remunerated.",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-12-19",
+      "category": "Other Interests",
+      "entity": "Nine News",
+      "details": "On Sunday December 4/ I was a guest of Nine News at the One-Day cricket between Australia and New Zealand",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-12-19",
+      "category": "Memberships",
+      "entity": "United Services Union",
+      "details": "For the sake of completeness, I am a member of the United Services Union",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-04-20",
+      "category": "Gifts",
+      "entity": "Crescent Capital Partners",
+      "details": "Crumpler Backpack - Gifted on behalf of",
+      "pdf_url": "bowenc_45p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2017-06-09",
+      "category": "Gifts",
+      "entity": "Per Capita",
+      "details": "1 Bottle St Hugo Coonawarra Cabinet Sauvignon 2013 - Gift from Per Capita for speaking engagement",
+      "pdf_url": "bowenc_45p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2017-06-26",
+      "category": "Other Interests",
+      "entity": "Valspare Group Pty Ltd",
+      "details": "My wife has been employed by",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-07-19",
+      "category": "Gifts",
+      "entity": "Diageo Distellery",
+      "details": "Mortlach Whiskey - Gift from Diageo Distellery in McMahon Electorate",
+      "pdf_url": "bowenc_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2017-09-13",
+      "category": "Other Interests",
+      "entity": "Workplace Consultants",
+      "details": "My wife, Rebecca Mifsud, Director (sole) 'Workplace Consultants'",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-09-13",
+      "category": "Liabilities",
+      "entity": "Sydney Credit Union",
+      "details": "Mortgage for construction at house, Bawley Point with Sydney Credit Union.",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-11-16",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Complimentary upgrade from Economy to Business for flight QF41 Sydney - Jakarta 6/11/17",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-11-16",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Complimentary upgrade from Economy to Business for flight QF6 Singapore - Sydney 8/11/17",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-11-16",
+      "category": "Gifts",
+      "entity": "Maitland Business Chamber",
+      "details": "One bottle of 2015 Polkobin Shiraz gifted by Maitland Business Chamber",
+      "pdf_url": "bowenc_45p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2017-11-16",
+      "category": "Gifts",
+      "entity": "Ben Wyatt",
+      "details": "Received a bottle of Moss Wood Wilyakaup Ribbon Vale 2013 Merlot from Hon. Ben Wyatt, Treasurer of Western Australia being his payment of a bet as a result of the GWS Giants thrashing the West Coast Eagles in the 2017 AFL Finals",
+      "pdf_url": "bowenc_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2018-01-23",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "I attended the Australia/India Leadership Dialogue in New Delhi on 8-12 January 2018 with transport and accommodation provided by the Dialogue",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-01-23",
+      "category": "Other Interests",
+      "entity": "Unknown",
+      "details": "My wife, Rebecca Mifsud has been employed by Sydney Water.",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-07-05",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Bundaberg Rum Blend Your Own Rum Experience including 2 bottles of rum (value $250) 3 July",
+      "pdf_url": "bowenc_45p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2018-07-05",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Complementary Flight Upgrade Etihad Airways Sydney - Abu Dhabi Return (Business) 11-15 June",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-09-17",
+      "category": "Travel",
+      "entity": "China Matters",
+      "details": "Flights and Accommodation to Beijing from China Matters, for a study tour, 04/09/18 to 08/09/18.",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-10-18",
+      "category": "Hospitality",
+      "entity": "Mr. Anthony Pratt",
+      "details": "I attended the event 'A Night at the Opera' on 4 Oct 2018 with my wife Rebecca Mifsud as guests of Mr. Anthony Pratt",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-10-18",
+      "category": "Gifts",
+      "entity": "Australia Institute",
+      "details": "I received one bottle of 'The Riddler' Shiraz 2012 from the Australia Institute for a speaking engagement on 17 Oct 2018",
+      "pdf_url": "bowenc_45p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2018-11-06",
+      "category": "Hospitality",
+      "entity": "Clubs NSW",
+      "details": "My family and I attended the Invictus Games Closing Ceremony as guests of Clubs NSW.",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-11-06",
+      "category": "Gifts",
+      "entity": "The Australian Wine",
+      "details": "I received two bottles of wine from The Australian Wine as a gift for my address at the 2018 Outlook Conference.",
+      "pdf_url": "bowenc_45p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2018-11-06",
+      "category": "Memberships",
+      "entity": "Linwood Historic House",
+      "details": "I have accepted a request to become the Patron of Linwood Historic House.",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-11-06",
+      "category": "Memberships",
+      "entity": "Maltese Community Council of NSW",
+      "details": "I have accepted a request to become the Patron of the Maltese Community Council of NSW.",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-11-06",
+      "category": "Gifts",
+      "entity": "Diedree Steinwall and Simon O'Brien",
+      "details": "I received the gift of a Ferraghini travel bag from Diedree Steinwall and Simon O'Brien for opening their (Cook/Hughes) campaigns.",
+      "pdf_url": "bowenc_45p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2018-11-29",
+      "category": "Other Interests",
+      "entity": "Whitlam Institute",
+      "details": "My wife Rebecca Mifsud has been appointed a Member of the Board of the Whitlam Institute",
+      "pdf_url": "bowenc_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-11-29",
+      "category": "Other Interests",
+      "entity": "Sydney Credit Union",
+      "details": "I hold an annual Welcoming The Babies event. Whilst of no personal benefit to me, I disclose this event is sponsored by: Sydney Credit Union - $1000 donation, Fairfield City Council \u2013 100 saplings from nursery, Bounty - 100 New Baby sample gift bags",
+      "pdf_url": "bowenc_45p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/bowenc_45p.pdf"
+}

@@ -1,0 +1,108 @@
+{
+  "mp_name": "George Robert Christensen",
+  "party": "Unknown",
+  "electorate": "Dawson",
+  "disclosures": [
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Shares",
+      "entity": "QPAY PTY LTD",
+      "details": "N/A",
+      "pdf_url": "christenseng_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Credit Card",
+      "pdf_url": "christenseng_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Cheque Account",
+      "pdf_url": "christenseng_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Savings Account",
+      "pdf_url": "christenseng_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Savings Account",
+      "pdf_url": "christenseng_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Savings/Investments",
+      "entity": "Bendigo",
+      "details": "Cheque Account",
+      "pdf_url": "christenseng_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Savings/Investments",
+      "entity": "RAMS",
+      "details": "SAVINGS ACCOUNT",
+      "pdf_url": "christenseng_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Complimentary membership to private Virgin lounge.",
+      "pdf_url": "christenseng_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-30",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Complimentary membership to Qantas Chairman's Lounge.",
+      "pdf_url": "christenseng_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-08-15",
+      "category": "Gifts",
+      "entity": "Astra",
+      "details": "1 x Complimentary subscription to Foxtel provided by Astra. Value estimate $1,644",
+      "pdf_url": "christenseng_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2017-09-05",
+      "category": "Travel",
+      "entity": "Horizon Airways",
+      "details": "Horizon Airways - Charter Flight - Townsville to Mackay on 18 AUG 2017. Valued at $220.00- Incremental costs only for a One Way flight.",
+      "pdf_url": "christenseng_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-05-01",
+      "category": "Hospitality",
+      "entity": "Harrup Park Country Club",
+      "details": "Venue Hire Boardroom at Harrup Park Country Club, 89 Juliet St, Mackay on 16.5.18 Valued at $200.00 (incl GST)",
+      "pdf_url": "christenseng_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-08-15",
+      "category": "Travel",
+      "entity": "COAL21 Fund",
+      "details": "Study Trip to Tokyo, Japan with COAL21 Fund 29 July 2018 to 1 August 2018 Return Airfares to Japan Airport to hotel transfer (Tokyo) Accommodation (2 nights) Meals/hospitality",
+      "pdf_url": "christenseng_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-10-09",
+      "category": "Directorships",
+      "entity": "Imagio Pty Ltd",
+      "details": "Director and Shareholder (private company)",
+      "pdf_url": "christenseng_45p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/christenseng_45p.pdf"
+}

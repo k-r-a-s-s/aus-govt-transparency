@@ -1,0 +1,278 @@
+{
+  "mp_name": "Luke Ronald Howarth",
+  "party": "Unknown",
+  "electorate": "Petrie",
+  "disclosures": [
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Shares",
+      "entity": "Telstra",
+      "details": "Telstra Shares (Spouse)",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Trusts",
+      "entity": "Howarth Family Trust",
+      "details": "Shares in Pest Control Company (Self)",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Trusts",
+      "entity": "Howarth Family Trust",
+      "details": "Shares in Pest Control Company (Spouse)",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Trusts",
+      "entity": "Howarth Family Trust",
+      "details": "Shares in Pest Control Company (Dependent Children)",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Savings/Investments",
+      "entity": "Howarth industry super fund",
+      "details": "Superannuation (Self)",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Savings/Investments",
+      "entity": "Howarth industry super fund",
+      "details": "Superannuation (Spouse)",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "RESIDENCE AT SHORNCLIFFE (Investment, Self)",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "RESIDENCE AT CLONTARF (Current Family Home, Self)",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "RESIDENCE AT SHORNCLIFFE (Investment, Spouse)",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "RESIDENCE AT CLONTARF (Current Family Home, Spouse)",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Directorships",
+      "entity": "SANDGATE PEST CONTROL PTY LTD",
+      "details": "Pest Control Services (Spouse)",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Liabilities",
+      "entity": "ANZ",
+      "details": "MORTGAGE ON SHORNCLIFFE RESIDENCE (Self)",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Liabilities",
+      "entity": "ANZ",
+      "details": "MORTGAGE ON CLONTARF RESIDENCE (Self)",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Liabilities",
+      "entity": "ANZ",
+      "details": "MORTGAGE OF SHORNCLIFFE RESIDENCE (Spouse)",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Liabilities",
+      "entity": "ANZ",
+      "details": "MORTGAGE ON CLONTARF RESIDENCE (Spouse)",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "Cheque account and saving account (Self)",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "Family trust account (Self)",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Howarth industry superannuation benefit fund (Self)",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "Cheque account and saving account (Spouse)",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "Family trust account (Spouse)",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank",
+      "details": "Howarth industry superannuation benefit fund (Spouse)",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "Family trust account (Dependent Children)",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Howarth Industry Super Fund, property & cash (Self)",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Howarth Industry Super Fund, property & cash (Spouse)",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income through Family Trust (Self)",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income through Family Trust (Spouse)",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Income from Directors Dividend (Spouse)",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-21",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "1.Qantas Chairman's Lounge Membership, 2.Virgin Club Membership 3. Steel Capped Boots & local flights in Pilbara area - $1,000 value approx. - CME engagement tour Arpil 2015. 4. Large frames football memorabilia inc Pictures, Australian & NZ signed jerseys value",
+      "pdf_url": "howarthl_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2016-09-15",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Leather Boots and Cricket Ball - approx. $400 value - Sept 2016",
+      "pdf_url": "howarthl_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2016-11-22",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Holiday accomodation in Cooktown from a friend, 1 week. Stayed at their home $1500.",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-05-18",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Westpac Cheque account + Master Card",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-11-07",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "2 TICKETS - BASKETBALL $500. Brisbane Bullets game. 3-11-2017",
+      "pdf_url": "howarthl_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2018-02-27",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "TOUR OF SNOWY HYDRO SCHEME - GUEST OF FACILITY - COST UNKNOWN.",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-05-10",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Westpac Bank Account Howarth Family Trust Saving accounts Luke + Louise Howarth",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-05-10",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Rental income $400 a week. Shorncliffe Home.",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-05-10",
+      "category": "Savings/Investments",
+      "entity": "ANZ",
+      "details": "DELETION: ANZ Bank Account Howarth family trust saving accounts luke & louise howarth",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-08-14",
+      "category": "Real Estate",
+      "entity": "Westpac",
+      "details": "Purchased a block of land at Pinkenba - Westpac Mortgage",
+      "pdf_url": "howarthl_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-08-14",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Member of all party delegation organised by \"Save the Children\" Australia from Bill & Melinda Gates Foundation to Bangladesh - economy airfares & accommodation $4K approx",
+      "pdf_url": "howarthl_45p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/howarthl_45p.pdf"
+}

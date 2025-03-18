@@ -1,0 +1,151 @@
+{
+  "mp_name": "Catherine King",
+  "party": "N/A",
+  "electorate": "Ballarat",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "ONE Steel",
+      "details": "ONE Steel shares",
+      "pdf_url": "kingc_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "GDF Suez",
+      "details": "GDF Suez Shares",
+      "pdf_url": "kingc_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Residential property in Ballarat, Vic",
+      "pdf_url": "kingc_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "Westpac Bank",
+      "details": "Mortgage, Personal Loan, Credit Card",
+      "pdf_url": "kingc_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Savings Accounts",
+      "pdf_url": "kingc_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Motor vehicle",
+      "pdf_url": "kingc_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Income Sources",
+      "entity": "PSS Superannuation",
+      "details": "PSS Superannuation",
+      "pdf_url": "kingc_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Income Sources",
+      "entity": "KPMG Superannuation",
+      "details": "KPMG Superannuation",
+      "pdf_url": "kingc_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "FOXTELL Subscription - Electorate Office",
+      "pdf_url": "kingc_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Press Gallaery Ball - Sept Qantas",
+      "pdf_url": "kingc_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Richmond Football Club",
+      "details": "Richmond Football Club",
+      "pdf_url": "kingc_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Ballarat Fine Art Gallery",
+      "details": "Ballarat Fine Art Gallery",
+      "pdf_url": "kingc_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "Australian Republican Movement",
+      "details": "Australian Republican Movement",
+      "pdf_url": "kingc_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "North Melbourne Football Club",
+      "details": "North Melbourne Football Club",
+      "pdf_url": "kingc_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-02",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Purchase of investment property - Ballarat - settlement 10 April 2020",
+      "pdf_url": "kingc_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-04-06",
+      "category": "Hospitality",
+      "entity": "Qantas",
+      "details": "Continuation of annual membership of Qantas Chairmans Lounge for self and spouse",
+      "pdf_url": "kingc_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-04-06",
+      "category": "Hospitality",
+      "entity": "Virgin",
+      "details": "Continuation of annual membership of Virgins Club Lounge for self and spouse",
+      "pdf_url": "kingc_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-05-06",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Investment property rental income",
+      "pdf_url": "kingc_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-01",
+      "category": "Other Interests",
+      "entity": "Sovereign Hill Museums Association",
+      "details": "My spouse has recently ceased work with Sovereign Hill Museums Association and has commenced work with the Stroke Foundation of Australia",
+      "pdf_url": "kingc_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-03-31",
+      "category": "Other Interests",
+      "entity": "Store-IT Ballarat Self Storage",
+      "details": "Store-IT Ballarat Self Storage solutions are storing my Mobile Electorate Office Caravan in their back lot free of charge.",
+      "pdf_url": "kingc_46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/kingc_46p.pdf"
+}

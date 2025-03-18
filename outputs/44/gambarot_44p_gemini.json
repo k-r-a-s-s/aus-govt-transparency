@@ -1,0 +1,136 @@
+{
+  "mp_name": "Teresa Gambaro",
+  "party": "N/A",
+  "electorate": "Brisbane",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "AQC",
+      "details": "Local Shares",
+      "pdf_url": "gambarot_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Shares",
+      "entity": "N AQC",
+      "details": "N/A",
+      "pdf_url": "gambarot_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Trusts",
+      "entity": "NONE",
+      "details": "N/A",
+      "pdf_url": "gambarot_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "CARSELOINE",
+      "details": "INVESTMENT PROPERTY",
+      "pdf_url": "gambarot_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Real Estate",
+      "entity": "MORINGSIDE",
+      "details": "RESIDENCE",
+      "pdf_url": "gambarot_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Nil",
+      "pdf_url": "gambarot_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "St George Bank",
+      "details": "Residential Loan, Personal Loan",
+      "pdf_url": "gambarot_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Rachelle Maxwell Daughter Mortgage",
+      "pdf_url": "gambarot_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "St George",
+      "details": "Freedom Offset AC, Freedom Savings AC",
+      "pdf_url": "gambarot_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Savings/Investments",
+      "entity": "Heritage Building Society",
+      "details": "Savings Account Ben Maxwell",
+      "pdf_url": "gambarot_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Jewellry",
+      "pdf_url": "gambarot_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Lunch & 2 Tickets to Ashes Test on Friday 22d November, Gabba Brisbane.",
+      "pdf_url": "gambarot_44p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2013-12-10",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Lunch & 2 Tickets to Ashes Test on Friday 22nd November 2013",
+      "pdf_url": "gambarot_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Shares",
+      "entity": "Robert Duffy",
+      "details": "Share in Horse - Deleted",
+      "pdf_url": "gambarot_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-03-25",
+      "category": "Liabilities",
+      "entity": "Westpac Mortage",
+      "details": "Rachelle Maxwell - Deleted",
+      "pdf_url": "gambarot_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-03-25",
+      "category": "Savings/Investments",
+      "entity": "Heritage Savings Account",
+      "details": "Ben Maxwell - Deleted",
+      "pdf_url": "gambarot_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-07-13",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Purchase of unit Brisbane Area",
+      "pdf_url": "gambarot_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-30",
+      "category": "Travel",
+      "entity": "Emirates Airlines",
+      "details": "First Class Flight Upgrade, Flight EK434 6 November, DXB to BNE",
+      "pdf_url": "gambarot_44p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/gambarot_44p.pdf"
+}

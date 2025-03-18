@@ -1,0 +1,636 @@
+{
+  "mp_name": "Joe Hockey",
+  "party": "Unknown",
+  "electorate": "North Sydney",
+  "disclosures": [
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Shares",
+      "entity": "Babbage Hockey Pty Ltd",
+      "details": "Self",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Shares",
+      "entity": "XAI Pty Ltd",
+      "details": "Spouse",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Spouse - Unaware of any other interests",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Dependent children - Unaware of Interests",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Trusts",
+      "entity": "Babbage Hockey Family Trust",
+      "details": "Self - Managed solely by Spouse-I am unaware of interests - Beneficiary",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Trusts",
+      "entity": "Babbage Hockey Family Trust",
+      "details": "Spouse - Managed solely by Spouse-I am unaware of interests - Sole Director",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Trusts",
+      "entity": "XAI Superannuation Fund",
+      "details": "Spouse - Unaware of interests",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Dependent children - Beneficiaries",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Real Estate",
+      "entity": "Forrest, Canberra",
+      "details": "Self - Investment/Residence",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Real Estate",
+      "entity": "Malanda",
+      "details": "Self - Investment",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Real Estate",
+      "entity": "Forrest, Canberra",
+      "details": "Spouse - Investment",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Real Estate",
+      "entity": "Hunters Hill",
+      "details": "Spouse - Residence",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Real Estate",
+      "entity": "Malanda & Tarzali",
+      "details": "Spouse - Farm -Investment",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Real Estate",
+      "entity": "Stanwell Park",
+      "details": "Spouse - Investment/Residence",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Directorships",
+      "entity": "Babbage Hockey Pty Ltd.",
+      "details": "Spouse",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Directorships",
+      "entity": "XAI Pty Ltd",
+      "details": "Spouse",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Spouse - Unaware of any other interests",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Partnerships",
+      "entity": "Joe Hockey & M. Babbage (t/a Platypus Creek Farm)",
+      "details": "Self - Co-owners - Investment Farm - 25% interest",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Partnerships",
+      "entity": "Joe Hockey & XAI Pty Ltd (new portion of Platypus Creek Farm)",
+      "details": "Self - Co-owners - 50% interest - Investment Farm",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Partnerships",
+      "entity": "Joe Hockey & M Babbage (t/a Platypus Creek Farm)",
+      "details": "Spouse - Co-owners - 75% Interest Investment Farm",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Partnerships",
+      "entity": "Joe Hockey & XAI Pty Ltd (new part of Platypus Creek Farm)",
+      "details": "Spouse - 50% interest - Investment Farm",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Spouse - Unaware of any other interests",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Self - Guarantor for Melissa Babbage's combined interest, Farm Business Accounts, Mastercard Account",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Spouse - Unaware of details other than above",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Self - Savings/cheque account",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Self - Farm Business Account",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Spouse - Unaware of interests",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Self - Income from investments as per above",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Spouse - Income from employment and investments as per above",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Spouse - Unaware of any other interests",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Memberships",
+      "entity": "National Press Club",
+      "details": "Self - Honorary Parliamentary membership",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Memberships",
+      "entity": "A.R.M.",
+      "details": "Self",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Memberships",
+      "entity": "North Sydney Leagues and North Sydney Football Club",
+      "details": "Self",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Memberships",
+      "entity": "Amnesty International",
+      "details": "Self",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Memberships",
+      "entity": "World Vision supporter/contributor",
+      "details": "Self",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Memberships",
+      "entity": "St Joseph's college Indigenous Fund",
+      "details": "Self - Ambassador of",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Memberships",
+      "entity": "Northbridge Golf Club",
+      "details": "Self - Patron of",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Memberships",
+      "entity": "Cammeray Golf Club",
+      "details": "Self - Patron of",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Memberships",
+      "entity": "Northern Suburbs Netball Association",
+      "details": "Self - Patron of",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Memberships",
+      "entity": "Rotary of North Sydney",
+      "details": "Self - Member",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Memberships",
+      "entity": "North Shore Historical Society",
+      "details": "Self",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Memberships",
+      "entity": "Hunters Hill Ryde Community Services",
+      "details": "Self - Member",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Memberships",
+      "entity": "Lane Cove Community Aid Services",
+      "details": "Self - Member",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Memberships",
+      "entity": "Royal Sydney Yacht Squadron",
+      "details": "Self - Member",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Memberships",
+      "entity": "White Ribbon Foundation",
+      "details": "Self - Ambassador",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Memberships",
+      "entity": "Royal Life Saving Society's Keep Watch Program",
+      "details": "Self - Ambassador",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Memberships",
+      "entity": "Humpty Dumpty Foundation",
+      "details": "Self - Supporter",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Spouse - unaware of interests",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Spouse - Unaware of any other interests",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-12",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Self - Charter",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-11-12",
+      "category": "Travel",
+      "entity": "V8 Supercars, Bathurst",
+      "details": "Aviation transport \u2013 as guest of",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-11-12",
+      "category": "Travel",
+      "entity": "Burnawang Pastoral Company",
+      "details": "Aviation transport for travel Sydney - Echuca - Sydney from",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-01-25",
+      "category": "Hospitality",
+      "entity": "Foxtel",
+      "details": "Complimentary upgrade to Foxtel services in Electorate Office",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-03-07",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Spouse has resigned from her employment",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-06-02",
+      "category": "Other Assets",
+      "entity": "Mini Cooper",
+      "details": "Vehicle - Sale of Mini Cooper owned by Spouse",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-07-25",
+      "category": "Travel",
+      "entity": "LNP",
+      "details": "Charter travel in Far North Queensland as arranged by",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-11-09",
+      "category": "Travel",
+      "entity": "Hong Kong Special Administrative Region",
+      "details": "Accepted invitation from Hong Kong Special Administrative Region to visit Hong Kong",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-05-15",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Mortgage to Commonwealth Bank of Australia, Guarantor for M Babbage's combined interest, Farm Business Accounts (t/a Platypus Creek Farm), Credit Card Accounts",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-05-15",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings and cheque accounts, Farm Business accounts with CBA",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-05-15",
+      "category": "Partnerships",
+      "entity": "Joe Hockey & M Babbage t/a Platypus Creek Farm",
+      "details": "Dissolution of business partnership, although M Babbage remains co-owner of properties.",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-05-15",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Spouse sold property in Tarzali",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-05-18",
+      "category": "Travel",
+      "entity": "Liberal Party",
+      "details": "Liberal Party sponsored travel to London and Brussels",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-05-29",
+      "category": "Directorships",
+      "entity": "Host City Marathon Ltd",
+      "details": "Registered Directorship of Companies (Spouse) - New positions",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-05-29",
+      "category": "Directorships",
+      "entity": "Team AA Ltd",
+      "details": "Registered Directorship of Companies (Spouse) - New positions",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-05-29",
+      "category": "Directorships",
+      "entity": "Athletics Australia",
+      "details": "Registered Directorship of Companies (Spouse) - New positions",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-05-29",
+      "category": "Directorships",
+      "entity": "Australian Athletics Federation Ltd",
+      "details": "Registered Directorship of Companies (Spouse) - New positions",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-05-29",
+      "category": "Directorships",
+      "entity": "Steel Harbour Pty Ltd",
+      "details": "Registered Directorship of Companies (Spouse) - New positions",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-05-29",
+      "category": "Directorships",
+      "entity": "Babbage Hockey Pty Ltd",
+      "details": "Registered Directorship of Companies (Spouse) - positions already declared",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-05-29",
+      "category": "Directorships",
+      "entity": "XAI Family Pty Ltd",
+      "details": "Registered Directorship of Companies (Spouse) - positions already declared",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-08-14",
+      "category": "Hospitality",
+      "entity": "Crown",
+      "details": "Hotel room upgrades from Crown from time to time.",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-10-09",
+      "category": "Memberships",
+      "entity": "Virgin Australia",
+      "details": "Membership to \"The Club\" from Virgin Australia for myself and my spouse, Melissa Babbage",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-10-09",
+      "category": "Gifts",
+      "entity": "Virgin Australia",
+      "details": "As part of this Membership, Virgin Australia provided a Samsung Galaxy Tablet including 3 months free data usage",
+      "pdf_url": "hockeyj_43p.pdf",
+      "sub_category": "Electronics"
+    },
+    {
+      "declaration_date": "2012-11-02",
+      "category": "Travel",
+      "entity": "Singapore Ministry of Foreign Affairs",
+      "details": "Sponsored business class travel, accommodation and hospitality for spouse (Melissa Babbage) and myself Accepted invitation to visit Singapore in October from the Singapore Ministry of Foreign Affairs to participate in the Lee Kuan Yew Exchange Fellowship.",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-28",
+      "category": "Gifts",
+      "entity": "Tourism & Transport Forum",
+      "details": "Accepted two tickets to the Coldplay concert on Saturday 17 November 2012 in a corporate suite hosted by Tourism & Transport Forum for my wife, Melissa Babbage and myself.",
+      "pdf_url": "hockeyj_43p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2013-02-04",
+      "category": "Directorships",
+      "entity": "Swiss Re Life & Health Australia Ltd",
+      "details": "Registered Directorship of Companies (Spouse) \u2013 New Positions: Director - Swiss Re Life & Health Australia Ltd, Member - Advisory Board of Swiss Reinsurance Company Ltd Australia Branch",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-02-04",
+      "category": "Directorships",
+      "entity": "Team AA Ltd",
+      "details": "(Spouse) Already declared. Host City Marathon Ltd, Team AA Ltd, Athletics Australia, Australian Athletics Federation Ltd, Steel Harbour Pty Ltd, Babbage Hockey Pty Ltd, XAI Family Pty Ltd",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-02-04",
+      "category": "Directorships",
+      "entity": "Athletics Australia",
+      "details": "(Spouse) Already declared. Host City Marathon Ltd, Team AA Ltd, Athletics Australia, Australian Athletics Federation Ltd, Steel Harbour Pty Ltd, Babbage Hockey Pty Ltd, XAI Family Pty Ltd",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-02-04",
+      "category": "Directorships",
+      "entity": "Australian Athletics Federation Ltd",
+      "details": "(Spouse) Already declared. Host City Marathon Ltd, Team AA Ltd, Athletics Australia, Australian Athletics Federation Ltd, Steel Harbour Pty Ltd, Babbage Hockey Pty Ltd, XAI Family Pty Ltd",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-02-04",
+      "category": "Directorships",
+      "entity": "Steel Harbour Pty Ltd",
+      "details": "(Spouse) Already declared. Host City Marathon Ltd, Team AA Ltd, Athletics Australia, Australian Athletics Federation Ltd, Steel Harbour Pty Ltd, Babbage Hockey Pty Ltd, XAI Family Pty Ltd",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-02-04",
+      "category": "Directorships",
+      "entity": "Babbage Hockey Pty Ltd",
+      "details": "(Spouse) Already declared. Host City Marathon Ltd, Team AA Ltd, Athletics Australia, Australian Athletics Federation Ltd, Steel Harbour Pty Ltd, Babbage Hockey Pty Ltd, XAI Family Pty Ltd",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-02-04",
+      "category": "Directorships",
+      "entity": "XAI Family Pty Ltd",
+      "details": "(Spouse) Already declared. Host City Marathon Ltd, Team AA Ltd, Athletics Australia, Australian Athletics Federation Ltd, Steel Harbour Pty Ltd, Babbage Hockey Pty Ltd, XAI Family Pty Ltd",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-04-08",
+      "category": "Gifts",
+      "entity": "NRL",
+      "details": "Two NRL 2013 Gold Passes for myself and Melissa Babbage",
+      "pdf_url": "hockeyj_43p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2013-04-08",
+      "category": "Gifts",
+      "entity": "NRL",
+      "details": "Three NRL 2013 Season Passes for my children",
+      "pdf_url": "hockeyj_43p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2013-05-08",
+      "category": "Travel",
+      "entity": "MyJet",
+      "details": "Flight provided by MyJet from Ballarat to Bendigo Tuesday 16 April 2013",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-05-08",
+      "category": "Travel",
+      "entity": "MyJet",
+      "details": "Flight provided by MyJet from Bendigo to Canberra Wednesday 17 April 2013",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-06-05",
+      "category": "Other Interests",
+      "entity": "Terrain Natural Resource Management",
+      "details": "Tree Planting and remediation at Malanda Farm Receipt of 50% co-contribution from Terrain Natural Resource Management under the Commonwealth Government Care for Country Program for the revegetation of Williams Creek Tributary Gully.",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-07-04",
+      "category": "Travel",
+      "entity": "Pilatus Australia",
+      "details": "Round trip flights Melbourne-Cloncurry-Atherton-Sydney arranged by Cloncurry Shire Council - Mayor Andrew Daniels and provided by Pilatus Australia. 13-16 June, 2013 On the invitation of Cloncurry Shire Council for attendance at the Cloncurry & District Show Society Sponsors Evening & Cattleman's Dinner, Roundtables with representatives from Cloncurry beef industry and Cloncurry mining industry",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-07-04",
+      "category": "Accommodation",
+      "entity": "Cloncurry Shire Council",
+      "details": "Accommodation provided by Cloncurry Shire Council \u2013 Mayor Andrew Daniels. 13 June 2013 Accommodation: Gidgee Inn Motel, Cloncurry",
+      "pdf_url": "hockeyj_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-07-04",
+      "category": "Directorships",
+      "entity": "QSuper Limited",
+      "details": "New Position \u2013 Spouse Director of QSuper Limited (and related appointments) (June, 2013)",
+      "pdf_url": "hockeyj_43p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/43/hockeyj_43p.pdf"
+}

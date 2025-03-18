@@ -1,0 +1,335 @@
+{
+  "mp_name": "Brian Mitchell",
+  "party": "Unknown",
+  "electorate": "Lyons",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "WOW",
+      "details": "N/A",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "MYS",
+      "details": "N/A",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "WFD",
+      "details": "N/A",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Shares",
+      "entity": "MYS",
+      "details": "Spouse/partner",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Penna, Tasmania; Residential",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Penna, Tasmania; Residential; Spouse/partner",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "MyState Financial",
+      "details": "Mortgage (held jointly with spouse)",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "MyState Financial",
+      "details": "Personal Loan (held jointly with spouse)",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "Pepper Finance",
+      "details": "Vehicle Finance (held jointly with spouse)",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "MyState Financial",
+      "details": "Mortgage (held jointly with spouse); Spouse/partner",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "MyState Financial",
+      "details": "Personal Loan (held jointly with spouse); Spouse/partner",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Liabilities",
+      "entity": "Pepper Finance",
+      "details": "Vehicle Finance (held jointly with spouse); Spouse/partner",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "MyState",
+      "details": "Savings (held jointly with spouse)",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "MyState",
+      "details": "Offset (held jointly with spouse)",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "MyState",
+      "details": "Mortgage (held jointly with spouse)",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "MyState",
+      "details": "Personal Loan (held jointly with spouse)",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "ME Bank",
+      "details": "Credit (held jointly with spouse)",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "MyState",
+      "details": "Electorate (cheque)",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "MyState",
+      "details": "Campaign (cheque)",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "MyState",
+      "details": "Savings (held jointly with spouse); Spouse/partner",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "MyState",
+      "details": "Offset (held jointly with spouse); Spouse/partner",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "MyState",
+      "details": "Mortgage (held jointly with spouse); Spouse/partner",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "MyState",
+      "details": "Personal Loan (held jointly with spouse); Spouse/partner",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Savings/Investments",
+      "entity": "ME Bank",
+      "details": "Credit (held jointly with spouse); Spouse/partner",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Jeep Compass (owned jointly with spouse)",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Jeep Wrangler (financed jointly with spouse)",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Jeep Compass (owned jointly with spouse); Spouse/partner",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Jeep Wrangler (financed jointly with spouse); Spouse/partner",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Casual job; Dependent Children",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Gifts",
+      "entity": "Virgin",
+      "details": "Airport lounge membership",
+      "pdf_url": "mitchellb_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Airport lounge membership",
+      "pdf_url": "mitchellb_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Gifts",
+      "entity": "Virgin",
+      "details": "Airport lounge membership; Spouse/partner",
+      "pdf_url": "mitchellb_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Airport lounge membership; Spouse/partner",
+      "pdf_url": "mitchellb_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-29",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-11-28",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Spouse has commenced fulltime work October 2019",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-02-05",
+      "category": "Memberships",
+      "entity": "Australian Clay Target Association",
+      "details": "N/A",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-02-05",
+      "category": "Memberships",
+      "entity": "Spring Bay Clay Target Club",
+      "details": "N/A",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-02-05",
+      "category": "Memberships",
+      "entity": "Derwent Valley Field and Game Club",
+      "details": "N/A",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-02-05",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Spouse full time employment",
+      "pdf_url": "mitchellb_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-02-05",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Spouse no income",
+      "pdf_url": "mitchellb_46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/mitchellb_46p.pdf"
+}

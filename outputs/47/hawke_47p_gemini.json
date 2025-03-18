@@ -1,0 +1,172 @@
+{
+  "mp_name": "Alex Hawke",
+  "party": "Unknown",
+  "electorate": "Mitchell",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hawke_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hawke_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Kellyville - Residential",
+      "pdf_url": "hawke_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Kellyville - Residential",
+      "pdf_url": "hawke_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hawke_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hawke_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Residential Mortgage",
+      "pdf_url": "hawke_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Residential Mortgage",
+      "pdf_url": "hawke_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Savings/Investments",
+      "entity": "Commbank",
+      "details": "Savings",
+      "pdf_url": "hawke_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Savings",
+      "pdf_url": "hawke_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Savings/Investments",
+      "entity": "Commbank",
+      "details": "Savings",
+      "pdf_url": "hawke_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hawke_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "hawke_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Casual Work Education",
+      "pdf_url": "hawke_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Foxtel Office connection",
+      "pdf_url": "hawke_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Qantas Chairmans Lounge Membership",
+      "pdf_url": "hawke_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "NRL occaisional game tickets",
+      "pdf_url": "hawke_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Virgin The Club membership",
+      "pdf_url": "hawke_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Memberships",
+      "entity": "Castle Hill RSL District Club and RSL Sub branch",
+      "details": "N/A",
+      "pdf_url": "hawke_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-10-25",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Hospitality: Two tickets to the NRL Telstra Premiership Grand Final Sydney 2022 on 2 October 2022 - Value:998.00",
+      "pdf_url": "hawke_47p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2023-01-16",
+      "category": "Hospitality",
+      "entity": "Momento Hospitality",
+      "details": "Christmas Staff Lunch hospitality from Momento Hospitality 8 December 22: $1,560.00",
+      "pdf_url": "hawke_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-24",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Complimentary Directors Club tickets x 6 at a retail price of $1370.00 for the Western Sydney Wanderers FC match held on 22.10.2023",
+      "pdf_url": "hawke_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-01-31",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "QANTAS Chairmans Lounge membership - complimentary until 31.01.2027",
+      "pdf_url": "hawke_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/hawke_47p.pdf"
+}

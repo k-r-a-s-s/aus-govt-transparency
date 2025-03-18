@@ -1,0 +1,508 @@
+{
+  "mp_name": "Trevor Evans",
+  "party": "LNP",
+  "electorate": "Brisbane",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Windsor, QLD - Residential",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Liabilities",
+      "entity": "CBA",
+      "details": "Mortgage on home",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Liabilities",
+      "entity": "Toyota Finance",
+      "details": "Car loan",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Liabilities",
+      "entity": "Commonwealth",
+      "details": "HECS debt",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Savings x 2",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Savings",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Car VW Touareg 2015",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Gifts",
+      "entity": "Australia Post",
+      "details": "Postage stamp design sets from Australia Post under its design sets issue program",
+      "pdf_url": "evans__46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Virgin Club membership",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's membership",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "LNP",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Valley Chamber of Commerce",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Business groups of Ashgrove, Paddington, Kedron Brook Rd and Racecourse Rd",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Historical societies of New Farm, Windsor and Enoggera",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Brisbane Broncos",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "GPS Rugby and Brothers Rugby clubs",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Brisbane Pride Network",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "CWA",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Patron of New Farm Neighbourhood Centre",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Grange Bowls Club and Windsor Bowls Club",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "ANFE",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Ethnic Communities Council",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Lions (Herston)",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Kedron Brook Catchment Network",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Menzies Research Centre",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Australian Taxpayers Alliance",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Youth Advocacy Forum",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Royal United Service Institute",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Australian American Association",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Medical professional organisations",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "RACQ",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-24",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Upgrade from economy to business on Virgin flight Brisbane to Adelaide on 29 June 2019 - for self and spouse",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-18",
+      "category": "Travel",
+      "entity": "Australian Political Exchange Council",
+      "details": "Travel including flights, transfers and hospitality for political exchange to the Philippines, 28 Sep - 4 Oct 2019, hosted by the Australian Political Exchange Council.",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-18",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Flight upgrade from economy to business on Syd to Manila flight on 28 Sep 2019 from Qantas",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-18",
+      "category": "Gifts",
+      "entity": "Brisbane Festival",
+      "details": "Tickets for self and partner to Blanc de Blanc encore on 21 Sep 2019 from Brisbane Festival",
+      "pdf_url": "evans__46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2019-12-16",
+      "category": "Gifts",
+      "entity": "Wesfarmers Arts Commission",
+      "details": "Kittey Malarvie indigenous ceramic mug from Wesfarmers Arts Commission",
+      "pdf_url": "evans__46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-12-16",
+      "category": "Travel",
+      "entity": "Queensland Ballet",
+      "details": "Tickets for self and partner to opening night of The Nutcracker from Queensland Ballet",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2020-01-07",
+      "category": "Memberships",
+      "entity": "The Centre for Organic & Research Education (CORE)",
+      "details": "Honorary participating membership of The Centre for Organic & Research Education (CORE)",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2020-01-07",
+      "category": "Gifts",
+      "entity": "Brisbane Broncos",
+      "details": "Christmas present from the Brisbane Broncos including wine, chocolates and a restaurant voucher",
+      "pdf_url": "evans__46p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2020-01-07",
+      "category": "Gifts",
+      "entity": "Queensland Cricket",
+      "details": "Four tickets to Brisbane Heat BBL cricket match on 19 January 2020 and two Brisbane Heat polo shirts from Queensland Cricket",
+      "pdf_url": "evans__46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2020-02-03",
+      "category": "Gifts",
+      "entity": "Brisbane Lions",
+      "details": "Membership of AFL Brisbane Lions, from Brisbane Lions",
+      "pdf_url": "evans__46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2020-07-28",
+      "category": "Travel",
+      "entity": "Brisbane Broncos",
+      "details": "Tickets for self and partner to NRL Broncos vs Bulldogs match 11 July including corporate hospitality from Brisbane Broncos",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2020-07-28",
+      "category": "Memberships",
+      "entity": "New Farm Rotary Club",
+      "details": "Honorary Membership New Farm Rotary Club",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2020-11-06",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Membership of Resilient Rivers Initiative Taskforce, commencing Nov 2020",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2020-11-06",
+      "category": "Gifts",
+      "entity": "Melissa Simmonds",
+      "details": "Framed print of Paddington streetscape by Brisbane artist Melissa Simmonds",
+      "pdf_url": "evans__46p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2020-11-06",
+      "category": "Gifts",
+      "entity": "Australia Post",
+      "details": "Print of \"Beautiful Cities Brisbane\" postage stamp artwork design from Australia Post",
+      "pdf_url": "evans__46p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2020-11-06",
+      "category": "Gifts",
+      "entity": "Brisbane Lions",
+      "details": "4 tickets to AFL semi-final Brisbane Lions vs Geelong Cats, including corporate box hospitality, 17 Oct 2020, from Brisbane Lions",
+      "pdf_url": "evans__46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2020-12-18",
+      "category": "Gifts",
+      "entity": "Queensland Cricket",
+      "details": "Cricket bat signed by the Australian Women's Team received from Queensland Cricket at the official opening the National Cricket Campus at Shaw Road Wooloowin",
+      "pdf_url": "evans__46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2020-12-18",
+      "category": "Gifts",
+      "entity": "Brisbane Broncos",
+      "details": "Christmas hamper received from the Brisbane Broncos",
+      "pdf_url": "evans__46p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2020-12-18",
+      "category": "Memberships",
+      "entity": "Rotary Club of Brisbane Inner North",
+      "details": "Membership of the Rotary Club of Brisbane Inner North",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2021-04-20",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Upgrade to business class flight from Qantas, Canberra to Sydney 18 Mar 2021.",
+      "pdf_url": "evans__46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2021-04-20",
+      "category": "Gifts",
+      "entity": "Nestle",
+      "details": "Carton of Smarties confectionery, demonstrating recyclable new plastic-free packaging, from Nestle.",
+      "pdf_url": "evans__46p.pdf",
+      "sub_category": "Clothing"
+    },
+    {
+      "declaration_date": "2021-04-20",
+      "category": "Travel",
+      "entity": "Brisbane Racing Club",
+      "details": "Tickets for partner and I to Saturday Raceday at Eagle Farm 17 Apr 2021, including corporate hospitality, from Brisbane Racing Club.",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2021-04-20",
+      "category": "Memberships",
+      "entity": "Windsor Bowls Club",
+      "details": "Patron of Windsor Bowls Club.",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2021-07-05",
+      "category": "Gifts",
+      "entity": "Australian Organics Recycling Association",
+      "details": "A caricature portrait drawing of me birdwatching, plus a bottle of wine and some chocolates, from the Australian Organics Recycling Association, for speaking at their conference, 16 June 2021.",
+      "pdf_url": "evans__46p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2021-07-05",
+      "category": "Gifts",
+      "entity": "Sustaining Australia TV and the Australian Food & Grocery Council",
+      "details": "Carton of Smarties confectionery, demonstrating recyclable new plastic-free packaging, from Sustaining Australia TV and the Australian Food & Grocery Council.",
+      "pdf_url": "evans__46p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2021-12-21",
+      "category": "Memberships",
+      "entity": "Lions Club (Teneriffe)",
+      "details": "Member of Lions Club (Teneriffe)",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2021-12-21",
+      "category": "Gifts",
+      "entity": "Play Edo (Australia)",
+      "details": "'Safari' box set of Play Edo recycled content cardboard block toys from Play Edo (Australia)",
+      "pdf_url": "evans__46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-12-21",
+      "category": "Gifts",
+      "entity": "Fight Food Waste Australia",
+      "details": "Fight Food Waste 'twisted carrots' design cushion from Fight Food Waste Australia",
+      "pdf_url": "evans__46p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2021-12-21",
+      "category": "Gifts",
+      "entity": "Simon George & Sons, Brisbane fruiterers",
+      "details": "50 mangoes and 2 crates of cherries from Simon George & Sons, Brisbane fruiterers",
+      "pdf_url": "evans__46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-12-21",
+      "category": "Gifts",
+      "entity": "Brisbane Powerhouse",
+      "details": "'Ugly Xmas Rashie', supporting Great Barrier Reef Foundation, from the Brisbane Powerhouse",
+      "pdf_url": "evans__46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-12-21",
+      "category": "Gifts",
+      "entity": "Brisbane Broncos NRL",
+      "details": "Christmas hamper from the Brisbane Broncos NRL",
+      "pdf_url": "evans__46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2021-12-21",
+      "category": "Gifts",
+      "entity": "Brisbane Lions AFL",
+      "details": "Christmas hamper from the Brisbane Lions AFL",
+      "pdf_url": "evans__46p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2021-12-21",
+      "category": "Gifts",
+      "entity": "Pharmacy Guild",
+      "details": "Christmas hamper from the Pharmacy Guild",
+      "pdf_url": "evans__46p.pdf",
+      "sub_category": "Food"
+    },
+    {
+      "declaration_date": "2021-12-21",
+      "category": "Gifts",
+      "entity": "Lion Co",
+      "details": "Carton of Little Creatures Pacific Ale from Lion Co",
+      "pdf_url": "evans__46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2021-12-21",
+      "category": "Income Sources",
+      "entity": "Royal Australian and New Zealand of Obstetricians and Gynaecologists",
+      "details": "Partner is commencing training in 2022 with the Royal Australian and New Zealand of Obstetricians and Gynaecologists",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2021-12-21",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Partner has sold Car VW Golf 2013 and purchased Jeep Wrangler Rubicon 2020",
+      "pdf_url": "evans__46p.pdf"
+    },
+    {
+      "declaration_date": "2022-02-07",
+      "category": "Memberships",
+      "entity": "Brisbane's Living Heritage Network",
+      "details": "Brisbane's Living Heritage Network",
+      "pdf_url": "evans__46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/evans__46p.pdf"
+}

@@ -1,0 +1,192 @@
+{
+  "mp_name": "Emma McBride",
+  "party": "Australian Labor Party",
+  "electorate": "Dobell",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Shares",
+      "entity": "Wyong Town Financial Services Limited",
+      "details": "CAN 100 313 120",
+      "pdf_url": "mcbride_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "The Entrance, Residental",
+      "pdf_url": "mcbride_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Norah Head, Investment",
+      "pdf_url": "mcbride_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Mortgage",
+      "pdf_url": "mcbride_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Mortgage",
+      "pdf_url": "mcbride_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Savings account",
+      "pdf_url": "mcbride_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Smart Access account",
+      "pdf_url": "mcbride_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "NatWest",
+      "details": "Savings account",
+      "pdf_url": "mcbride_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Guild Super Superannuation Fund",
+      "pdf_url": "mcbride_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Australian Super Superannuation Fund",
+      "pdf_url": "mcbride_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "ASTRA Television Subscription",
+      "pdf_url": "mcbride_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's Lounge Membership",
+      "pdf_url": "mcbride_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Travel",
+      "entity": "Virgin Australia",
+      "details": "Virgin Australia The Club Membership",
+      "pdf_url": "mcbride_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "AHPRA",
+      "details": "AHPRA Pharmacy Registration",
+      "pdf_url": "mcbride_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Society of Hospital Pharmacists of Australia",
+      "details": "SHPA",
+      "pdf_url": "mcbride_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Pharmaceutical Society of Australia",
+      "details": "PSA",
+      "pdf_url": "mcbride_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Australian Labor Party",
+      "details": "NSW Branch",
+      "pdf_url": "mcbride_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Health Services Union",
+      "details": "N/A",
+      "pdf_url": "mcbride_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Mortgages: consolidated three to two",
+      "pdf_url": "mcbride_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Australian Institute of Company Directors",
+      "details": "AICD : no longer a member",
+      "pdf_url": "mcbride_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Interests",
+      "entity": "Central Coast Heart Premier League Netball",
+      "details": "stepped down as a Volunteer Director",
+      "pdf_url": "mcbride_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-10-02",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Guild Super Superannuation Fund rolled into Australian Super Superannuation Fund August 2019",
+      "pdf_url": "mcbride_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-11-11",
+      "category": "Savings/Investments",
+      "entity": "NatWest",
+      "details": "Savings account NatWest : this account is dormant, remaining funds were recovered and transferred to CBA Savings Account",
+      "pdf_url": "mcbride_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-19",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Mortgage",
+      "pdf_url": "mcbride_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-08",
+      "category": "Memberships",
+      "entity": "Long Jetty Landcare",
+      "details": "Volunteer",
+      "pdf_url": "mcbride_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-08",
+      "category": "Memberships",
+      "entity": "Toowoon Bay Surf Life Saving Club",
+      "details": "Volunteer",
+      "pdf_url": "mcbride_46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/mcbride_46p.pdf"
+}

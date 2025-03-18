@@ -1,0 +1,129 @@
+{
+  "mp_name": "Alan Peter Griffin",
+  "party": "Australian Labor Party",
+  "electorate": "Bruce",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-03",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "griffina_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-03",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "griffina_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-03",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Murrumbeena, VIC (Jointly with ex-wife) - Family Residence",
+      "pdf_url": "griffina_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-03",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "griffina_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-03",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "griffina_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-03",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "griffina_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-03",
+      "category": "Savings/Investments",
+      "entity": "CBA",
+      "details": "Cheque/Savings, Savings",
+      "pdf_url": "griffina_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-03",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "griffina_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-03",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "griffina_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-03",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "N/A",
+      "pdf_url": "griffina_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2013-12-03",
+      "category": "Travel",
+      "entity": "James Boags Pavilion",
+      "details": "Derby Day and Melbourne Cup Day Hospitality at James Boags Pavilion",
+      "pdf_url": "griffina_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-03",
+      "category": "Memberships",
+      "entity": "Australian Services Union, Australian Labor Party, Returned & Services League",
+      "details": "N/A",
+      "pdf_url": "griffina_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-03",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Foxtel installation in electorate office",
+      "pdf_url": "griffina_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-08-19",
+      "category": "Travel",
+      "entity": "Parliament of Azerbaijan",
+      "details": "Flights to and from Azerbaijan, Meals & Accommodation over 8 days - DELETED",
+      "pdf_url": "griffina_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-30",
+      "category": "Travel",
+      "entity": "Parliament of Azerbaijan",
+      "details": "Flights to and from Azerbaijan, Internal flights, Meals and Accommodation over 7 days - PROVIDED BY THE PARLIAMENT OF AZERBAIJAN - ADDED",
+      "pdf_url": "griffina_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-03-11",
+      "category": "Travel",
+      "entity": "United Nations Development Program",
+      "details": "Airfares, Accommodation & Meals over 13 days to and from the Marshall Islands to participate in an induction seminar for new MPs - ADDED",
+      "pdf_url": "griffina_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-03-11",
+      "category": "Travel",
+      "entity": "Korean Airlines",
+      "details": "Economy to Business - Seoul to Sydney - UPGRADE FROM - KOREAN AIRLINES - DELETED",
+      "pdf_url": "griffina_44p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/griffina_44p.pdf"
+}

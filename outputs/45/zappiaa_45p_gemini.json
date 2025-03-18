@@ -1,0 +1,289 @@
+{
+  "mp_name": "Tony Zappia",
+  "party": "N/A",
+  "electorate": "Makin",
+  "disclosures": [
+    {
+      "declaration_date": "2016-10-06",
+      "category": "Shares",
+      "entity": "ANZ",
+      "details": "Shareholdings in ANZ",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-06",
+      "category": "Shares",
+      "entity": "Santos",
+      "details": "Shareholdings in Santos",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-06",
+      "category": "Shares",
+      "entity": "Crown Resorts",
+      "details": "Shareholdings in Crown Resorts",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-06",
+      "category": "Shares",
+      "entity": "Newcrest Mining",
+      "details": "Shareholdings in Newcrest Mining",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-06",
+      "category": "Shares",
+      "entity": "Bluescope Steel",
+      "details": "Shareholdings in Bluescope Steel",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-06",
+      "category": "Shares",
+      "entity": "Wesfarmers",
+      "details": "Shareholdings in Wesfarmers",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-06",
+      "category": "Shares",
+      "entity": "BHP Billiton",
+      "details": "Shareholdings in BHP Billiton",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-06",
+      "category": "Shares",
+      "entity": "Telstra",
+      "details": "Spouse's Shareholdings in Telstra",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-06",
+      "category": "Shares",
+      "entity": "Suncorp Metway",
+      "details": "Spouse's Shareholdings in Suncorp Metway",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-06",
+      "category": "Shares",
+      "entity": "Goodman Group",
+      "details": "Spouse's Shareholdings in Goodman Group",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-06",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Real estate in Pooraka, SA",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-06",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Spouse has partial interest in investment property in St Kilda, Moana, and Ingle Farm",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-06",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Spouse has real estate in Pooraka, SA",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-06",
+      "category": "Savings/Investments",
+      "entity": "Bank SA",
+      "details": "Term Deposit with Bank SA",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-06",
+      "category": "Savings/Investments",
+      "entity": "Bendigo Bank",
+      "details": "Term Deposit with Bendigo Bank",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-06",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Term Deposit with Westpac",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-06",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Spouse's Term Deposit with Westpac",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-06",
+      "category": "Savings/Investments",
+      "entity": "Bank SA",
+      "details": "Spouse's Term Deposit with Bank SA",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-06",
+      "category": "Other Assets",
+      "entity": "AMVZ",
+      "details": "AMVZ Superannuation Fund",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-06",
+      "category": "Income Sources",
+      "entity": "Funlife Fitness Centre",
+      "details": "Spouse's source of income: Funlife Fitness Centre",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-09-16",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "QF1514 Canberra-Sydney flight upgraded from Economy to Business",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "Unknown",
+      "category": "Memberships",
+      "entity": "United Voice",
+      "details": "Membership of United Voice",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-06-20",
+      "category": "Shares",
+      "entity": "ANZ",
+      "details": "Deleted Shareholdings in ANZ",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-06-20",
+      "category": "Shares",
+      "entity": "Santos",
+      "details": "Deleted Shareholdings in Santos",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-06-20",
+      "category": "Shares",
+      "entity": "Wesfarmers",
+      "details": "Deleted Shareholdings in Wesfarmers",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-06-20",
+      "category": "Shares",
+      "entity": "Crown Resorts",
+      "details": "Deleted Shareholdings in Crown Resorts",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-06-20",
+      "category": "Shares",
+      "entity": "Bluescope Steel",
+      "details": "Deleted Shareholdings in Bluescope Steel",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-06-20",
+      "category": "Shares",
+      "entity": "Newcrest Mining",
+      "details": "Deleted Shareholdings in Newcrest Mining",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-06-20",
+      "category": "Shares",
+      "entity": "BHP Billiton",
+      "details": "Deleted Shareholdings in BHP Billiton",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-06-27",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "QF685 Melbourne-Adelaide, Flight upgrade to Business Class",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-06-28",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "QF754 Adelaide-Darwin, Flight upgraded to Business Class for Mr & Mrs Zappia",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-02-15",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Item 3 - Add: Part Interest in investment property in Clare SA and Pooraka SA",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-02-27",
+      "category": "Liabilities",
+      "entity": "Bank SA",
+      "details": "Item 6 - Self & Spouse - Bank SA Loan",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-02-27",
+      "category": "Savings/Investments",
+      "entity": "Bank SA",
+      "details": "Item 8 - Self - Delete Term Deposits with Bank SA",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-02-27",
+      "category": "Savings/Investments",
+      "entity": "Bendigo Bank",
+      "details": "Item 8 - Self - Delete Term Deposits with Bendigo Bank",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-02-27",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Item 8 - Self - Delete Term Deposits with Westpac",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-02-27",
+      "category": "Savings/Investments",
+      "entity": "Bank SA",
+      "details": "Item 8 - Spouse - Delete Term Deposit - Bank SA",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-02-19",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "VA221 Melbourne - Adelaide Flight Upgraded to Business Class",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-05-21",
+      "category": "Travel",
+      "entity": "Taiwan Government",
+      "details": "Economy Return Fares plus accommodation to Taiwan between 29/4/2018 and 4/5/2018 for Antonio Zappia & Spouse by Taiwan Government",
+      "pdf_url": "zappiaa_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-10-16",
+      "category": "Memberships",
+      "entity": "Qantas & Virgin",
+      "details": "Addition of membership to Qantas and Virgin Lounges",
+      "pdf_url": "zappiaa_45p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/45/zappiaa_45p.pdf"
+}

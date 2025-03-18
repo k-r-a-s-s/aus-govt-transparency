@@ -1,0 +1,158 @@
+{
+  "mp_name": "Mary Doyle",
+  "party": "Unknown",
+  "electorate": "Aston",
+  "disclosures": [
+    {
+      "declaration_date": "2023-05-17",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "doyle_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-17",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "doyle_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-17",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Nunawading, Victoria, Residential",
+      "pdf_url": "doyle_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-17",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "doyle_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-17",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "doyle_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-17",
+      "category": "Liabilities",
+      "entity": "Macquarie Bank",
+      "details": "Mortgage",
+      "pdf_url": "doyle_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-17",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "doyle_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-17",
+      "category": "Savings/Investments",
+      "entity": "Macquarie",
+      "details": "Savings",
+      "pdf_url": "doyle_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-17",
+      "category": "Savings/Investments",
+      "entity": "ME Bank",
+      "details": "Savings",
+      "pdf_url": "doyle_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-17",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "2014 Hybrid Camry, UniSuper, AustralianSuper",
+      "pdf_url": "doyle_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-17",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "doyle_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-17",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "doyle_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-05-17",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "doyle_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-17",
+      "category": "Memberships",
+      "entity": "Australian Services Union - Private Sector Branch",
+      "details": "N/A",
+      "pdf_url": "doyle_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-17",
+      "category": "Memberships",
+      "entity": "Media Entertainment Arts Alliance",
+      "details": "N/A",
+      "pdf_url": "doyle_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-17",
+      "category": "Memberships",
+      "entity": "Finance Sector Union",
+      "details": "membership began on 5 Sept 2022 and ended on 7 May 2023",
+      "pdf_url": "doyle_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-17",
+      "category": "Memberships",
+      "entity": "Victorian ALP Membership",
+      "details": "N/A",
+      "pdf_url": "doyle_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-17",
+      "category": "Memberships",
+      "entity": "Qantas Club membership",
+      "details": "N/A",
+      "pdf_url": "doyle_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-17",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "doyle_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-22",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's Lounge membership from 7 August 2023",
+      "pdf_url": "doyle_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2023-08-22",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Disposal of 2014 Hybrid Camry - sale of vehicle on 20 August 2023.",
+      "pdf_url": "doyle_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/doyle_47p.pdf"
+}

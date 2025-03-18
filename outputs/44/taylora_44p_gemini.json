@@ -1,0 +1,395 @@
+{
+  "mp_name": "Angus James Taylor",
+  "party": "Unknown",
+  "electorate": "Hume",
+  "disclosures": [
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Shares",
+      "entity": "Gufee Pty Ltd",
+      "details": "Gufee Pty Ltd, Gufee Pastoral Co. Pty Ltd, Growth Farms Australia Pty Ltd, Derwent Recruitment Associates, Derwent Executive International",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Shares",
+      "entity": "Gufee Pastoral Co. Pty Ltd",
+      "details": "Gufee Pty Ltd, Gufee Pastoral Co. Pty Ltd, Growth Farms Australia Pty Ltd, Derwent Recruitment Associates, Derwent Executive International - Spouse",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Trusts",
+      "entity": "AJ & L Taylor Family Trust",
+      "details": "Family Trust, Beneficial interest: Angus Taylor, Louise Clegg (Taylor), Gufee Pty Ltd",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Real Estate",
+      "entity": "Goulburn",
+      "details": "Home and Farm",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Real Estate",
+      "entity": "Sydney",
+      "details": "Investment property",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Real Estate",
+      "entity": "Goulburn",
+      "details": "Home and Farm - Spouse",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Real Estate",
+      "entity": "Sydney",
+      "details": "Investment property - Spouse",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Directorships",
+      "entity": "Gufee Pty Ltd",
+      "details": "Investment company, corporate trustee",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Directorships",
+      "entity": "Gufee Pastoral Co. Pty Ltd",
+      "details": "Farming company",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Directorships",
+      "entity": "Gufee Pty Ltd",
+      "details": "Investment company, corporate trustee - Spouse",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Directorships",
+      "entity": "Gufee Pastoral Co. Pty Ltd",
+      "details": "Farming company - Spouse",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Partnerships",
+      "entity": "Farm Partnerships Australia",
+      "details": "Partner (via Gufee Pty Ltd), Farming business",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Partnerships",
+      "entity": "Farm Partnerships Australia",
+      "details": "Partner (via Gufee Pty Ltd), Farming business - Spouse",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Credit card",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Mortgage",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank",
+      "details": "Credit card - Spouse",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Liabilities",
+      "entity": "National Australia Bank",
+      "details": "Mortgage - Spouse",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Term deposits",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Term deposits - Spouse",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Investment account",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Transaction accounts",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "Vanguard",
+      "details": "Investment account",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "Plum Financial Services",
+      "details": "Superannuation account",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Life insurance",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Saving account",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Investment account - Spouse",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Transaction accounts - Spouse",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "Vanguard",
+      "details": "Investment account - Spouse",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "Plum Financial Services",
+      "details": "Superannuation account - Spouse",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "ING",
+      "details": "Saving account - Spouse",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Savings/Investments",
+      "entity": "National Australia Bank",
+      "details": "Transaction/savings accounts (*4) - Dependent Children",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Other Assets",
+      "entity": "Livestock",
+      "details": "Livestock",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Other Assets",
+      "entity": "Livestock",
+      "details": "Livestock - Spouse",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Income Sources",
+      "entity": "Port Jackson Partners Ltd",
+      "details": "Outstanding dividend payments from Port Jackson Partners Ltd (completed by end FY2013/14)",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Income Sources",
+      "entity": "Rabobank",
+      "details": "Occasional presentations at Rabobank Executive Development Programme (for farmers) and Farm Management Prog",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "Goulburn Triathlon Club",
+      "details": "Goulburn Triathlon Club",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "Goulburn Cycling Club",
+      "details": "Goulburn Cycling Club",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "Ski Club of Australia",
+      "details": "Ski Club of Australia",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "Gundary Rural Fire Brigade",
+      "details": "Gundary Rural Fire Brigade",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "St Andrew's College, University of Sydney, College Council",
+      "details": "St Andrew's College, University of Sydney, College Council",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "Goulburn And District Education Foundation",
+      "details": "Goulburn And District Education Foundation - Spouse",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "Ski Club of Australia",
+      "details": "Ski Club of Australia - Spouse",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "Gundary Rural Fire Brigade",
+      "details": "Gundary Rural Fire Brigade - Spouse",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "NSW Bar Association",
+      "details": "NSW Bar Association - Spouse",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "Goulburn Swimming Club",
+      "details": "Goulburn Swimming Club - Dependent Children",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-12-09",
+      "category": "Memberships",
+      "entity": "Goulburn junior rugby and cricket clubs",
+      "details": "Goulburn junior rugby and cricket clubs - Dependent Children",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-05-14",
+      "category": "Hospitality",
+      "entity": "Minerals Council of Australia",
+      "details": "Angus and Louise Taylor attended the Sydney Institute Annual Lecture on 28th April 2014 as guests of the Minerals Council of Australia held at The Star in Sydney.",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-05-14",
+      "category": "Gifts",
+      "entity": "Bunja Smith",
+      "details": "Gift, received from friend and constituent Bunja Smith, of a framed map detailing Australia's Aboriginal Tribal Boundaries by Norman B Tindale.",
+      "pdf_url": "taylora_44p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2014-07-15",
+      "category": "Hospitality",
+      "entity": "Private Healthcare Australia",
+      "details": "I was a guest of Private Healthcare Australia to attend the Brumbies Rugby match at Canberra Stadium on Friday 11 July 2014.",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-07-15",
+      "category": "Hospitality",
+      "entity": "AMP",
+      "details": "My wife Louise and I were guests of AMP to attend the Brumbies Rugby match at Canberra Stadium on Saturday 15 March 2014.",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-07-15",
+      "category": "Hospitality",
+      "entity": "Woolworths",
+      "details": "My wife Louise and I were guests of Woolworths at the Mid Winter Ball held in Parliament House, Canberra on Wednesday June 18, 2014.",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-12-02",
+      "category": "Hospitality",
+      "entity": "Qantas",
+      "details": "Guest of Qantas at the National Press Club's 50th Anniversary Gala held Wednesday 10th September 2014.",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-10-21",
+      "category": "Hospitality",
+      "entity": "Woolworths",
+      "details": "My wife Louise and I were guests of Woolworths at the Mid-Winter Ball held in Parliament House, Canberra on Wednesday June 17, 2015.",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-10-21",
+      "category": "Hospitality",
+      "entity": "Goulburn Mulwaree Council",
+      "details": "My wife Louise and I were guests of Goulburn Mulwaree Council to attend the Spyfest Gala Dinner held in Goulburn on Saturday 26 September 2015.",
+      "pdf_url": "taylora_44p.pdf"
+    },
+    {
+      "declaration_date": "2016-04-06",
+      "category": "Hospitality",
+      "entity": "NAB",
+      "details": "My wife Louise and I were guests of NAB to attend the 20th Anniversary Dinner of Howard Government held in Parliament House, Canberra on Wednesday 2 March 2016.",
+      "pdf_url": "taylora_44p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/taylora_44p.pdf"
+}

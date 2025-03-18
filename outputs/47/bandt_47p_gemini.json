@@ -14,14 +14,14 @@
       "declaration_date": "2022-08-26",
       "category": "Shares",
       "entity": "Shebah (All Women Rideshare)",
-      "details": "Spouse/partner",
+      "details": "N/A",
       "pdf_url": "bandt_47p.pdf"
     },
     {
       "declaration_date": "2022-08-26",
       "category": "Shares",
       "entity": "N/A",
-      "details": "Not Applicable - Dependent children",
+      "details": "Not Applicable",
       "pdf_url": "bandt_47p.pdf"
     },
     {
@@ -35,35 +35,35 @@
       "declaration_date": "2022-08-26",
       "category": "Trusts",
       "entity": "N/A",
-      "details": "Spouse/partner - Not Applicable",
+      "details": "Not Applicable",
       "pdf_url": "bandt_47p.pdf"
     },
     {
       "declaration_date": "2022-08-26",
       "category": "Trusts",
       "entity": "N/A",
-      "details": "Dependent children - Not Applicable",
-      "pdf_url": "bandt_47p.pdf"
-    },
-    {
-      "declaration_date": "2022-08-26",
-      "category": "Real Estate",
-      "entity": "House in Flemington",
-      "details": "Residential",
-      "pdf_url": "bandt_47p.pdf"
-    },
-    {
-      "declaration_date": "2022-08-26",
-      "category": "Real Estate",
-      "entity": "House in Flemington",
-      "details": "Spouse/partner - Residential",
+      "details": "Not Applicable",
       "pdf_url": "bandt_47p.pdf"
     },
     {
       "declaration_date": "2022-08-26",
       "category": "Real Estate",
       "entity": "N/A",
-      "details": "Dependent children - Not Applicable",
+      "details": "House in Flemington, Residential",
+      "pdf_url": "bandt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "House in Flemington, Residential",
+      "pdf_url": "bandt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Not Applicable",
       "pdf_url": "bandt_47p.pdf"
     },
     {
@@ -77,14 +77,14 @@
       "declaration_date": "2022-08-26",
       "category": "Directorships",
       "entity": "N/A",
-      "details": "Spouse/partner - Not Applicable",
+      "details": "Not Applicable",
       "pdf_url": "bandt_47p.pdf"
     },
     {
       "declaration_date": "2022-08-26",
       "category": "Directorships",
       "entity": "N/A",
-      "details": "Dependent children - Not Applicable",
+      "details": "Not Applicable",
       "pdf_url": "bandt_47p.pdf"
     },
     {
@@ -98,14 +98,14 @@
       "declaration_date": "2022-08-26",
       "category": "Partnerships",
       "entity": "N/A",
-      "details": "Spouse/partner - Not Applicable",
+      "details": "Not Applicable",
       "pdf_url": "bandt_47p.pdf"
     },
     {
       "declaration_date": "2022-08-26",
       "category": "Partnerships",
       "entity": "N/A",
-      "details": "Dependent children - Not Applicable",
+      "details": "Not Applicable",
       "pdf_url": "bandt_47p.pdf"
     },
     {
@@ -119,14 +119,14 @@
       "declaration_date": "2022-08-26",
       "category": "Liabilities",
       "entity": "Bank Australia",
-      "details": "Spouse/partner - Mortgage over house",
+      "details": "Mortgage over house",
       "pdf_url": "bandt_47p.pdf"
     },
     {
       "declaration_date": "2022-08-26",
       "category": "Liabilities",
       "entity": "N/A",
-      "details": "Dependent children - Not Applicable",
+      "details": "Not Applicable",
       "pdf_url": "bandt_47p.pdf"
     },
     {
@@ -140,14 +140,14 @@
       "declaration_date": "2022-08-26",
       "category": "Savings/Investments",
       "entity": "N/A",
-      "details": "Spouse/partner - Not Applicable",
+      "details": "Not Applicable",
       "pdf_url": "bandt_47p.pdf"
     },
     {
       "declaration_date": "2022-08-26",
       "category": "Savings/Investments",
       "entity": "N/A",
-      "details": "Dependent children - Not Applicable",
+      "details": "Not Applicable",
       "pdf_url": "bandt_47p.pdf"
     },
     {
@@ -161,56 +161,49 @@
       "declaration_date": "2022-08-26",
       "category": "Savings/Investments",
       "entity": "Bank Australia",
-      "details": "Spouse/partner - Savings Account",
+      "details": "Savings Account",
       "pdf_url": "bandt_47p.pdf"
     },
     {
       "declaration_date": "2022-08-26",
       "category": "Savings/Investments",
       "entity": "Australian Ethical - Emerging Companies Fund",
-      "details": "Spouse/partner - Investment Account",
+      "details": "Investment Account",
       "pdf_url": "bandt_47p.pdf"
     },
     {
       "declaration_date": "2022-08-26",
       "category": "Savings/Investments",
       "entity": "N/A",
-      "details": "Dependent children - Not Applicable",
+      "details": "Not Applicable",
+      "pdf_url": "bandt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Other Assets",
+      "entity": "HESTA",
+      "details": "Superannuation & Life Insurance Policy",
+      "pdf_url": "bandt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Other Assets",
+      "entity": "Future Super",
+      "details": "Superannuation",
+      "pdf_url": "bandt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Other Assets",
+      "entity": "PSSAP",
+      "details": "Superannuation",
       "pdf_url": "bandt_47p.pdf"
     },
     {
       "declaration_date": "2022-08-26",
       "category": "Other Assets",
       "entity": "N/A",
-      "details": "Superannuation & Life Insurance Policy - HESTA",
-      "pdf_url": "bandt_47p.pdf"
-    },
-    {
-      "declaration_date": "2022-08-26",
-      "category": "Other Assets",
-      "entity": "N/A",
-      "details": "Superannuation - Future Super",
-      "pdf_url": "bandt_47p.pdf"
-    },
-    {
-      "declaration_date": "2022-08-26",
-      "category": "Other Assets",
-      "entity": "N/A",
-      "details": "Superannuation - PSSAP",
-      "pdf_url": "bandt_47p.pdf"
-    },
-    {
-      "declaration_date": "2022-08-26",
-      "category": "Other Assets",
-      "entity": "N/A",
-      "details": "Spouse/partner - Superannuation - PSSAP",
-      "pdf_url": "bandt_47p.pdf"
-    },
-    {
-      "declaration_date": "2022-08-26",
-      "category": "Other Assets",
-      "entity": "N/A",
-      "details": "Dependent children - Not Applicable",
+      "details": "Not Applicable",
       "pdf_url": "bandt_47p.pdf"
     },
     {
@@ -224,45 +217,44 @@
       "declaration_date": "2022-08-26",
       "category": "Income Sources",
       "entity": "N/A",
-      "details": "Wages from employment - Spouse/partner",
+      "details": "Wages from employment",
       "pdf_url": "bandt_47p.pdf"
     },
     {
       "declaration_date": "2022-08-26",
       "category": "Income Sources",
       "entity": "N/A",
-      "details": "Dependent children - Not Applicable",
+      "details": "Not Applicable",
       "pdf_url": "bandt_47p.pdf"
     },
     {
       "declaration_date": "2022-08-26",
       "category": "Gifts",
-      "entity": "Qantas Chairman's Lounge Membership",
-      "details": "Self",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's Lounge Membership",
       "pdf_url": "bandt_47p.pdf",
       "sub_category": "Travel"
     },
     {
       "declaration_date": "2022-08-26",
       "category": "Gifts",
-      "entity": "Virgin Club Membership",
-      "details": "Self",
+      "entity": "Virgin",
+      "details": "Virgin Club Membership",
       "pdf_url": "bandt_47p.pdf",
       "sub_category": "Travel"
     },
     {
       "declaration_date": "2022-08-26",
-      "category": "Gifts",
-      "entity": "Virgin Australia and Qantas",
-      "details": "Ocassional upgrades from economy to business class on Virgin and Qantas - Self",
-      "pdf_url": "bandt_47p.pdf",
-      "sub_category": "Travel"
+      "category": "Travel",
+      "entity": "Virgin, Qantas",
+      "details": "Ocassional upgrades from economy to business class on Virgin and Qantas",
+      "pdf_url": "bandt_47p.pdf"
     },
     {
       "declaration_date": "2022-08-26",
       "category": "Gifts",
       "entity": "N/A",
-      "details": "Other gifts as per previous declarations in prior parliaments. - Self",
+      "details": "Other gifts as per previous declarations in prior parliaments.",
       "pdf_url": "bandt_47p.pdf",
       "sub_category": "Other Gifts"
     },
@@ -270,82 +262,102 @@
       "declaration_date": "2022-08-26",
       "category": "Gifts",
       "entity": "N/A",
-      "details": "Pay TV subscription in electorate office - Self",
+      "details": "Pay TV subscription in electorate office",
       "pdf_url": "bandt_47p.pdf",
       "sub_category": "Other Gifts"
     },
     {
       "declaration_date": "2022-08-26",
       "category": "Gifts",
-      "entity": "Qantas Chairman's Lounge Membership",
-      "details": "Spouse/partner",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's Lounge Membership",
       "pdf_url": "bandt_47p.pdf",
       "sub_category": "Travel"
     },
     {
       "declaration_date": "2022-08-26",
       "category": "Gifts",
-      "entity": "Virgin Club Membership",
-      "details": "Spouse/partner",
+      "entity": "Virgin",
+      "details": "Virgin Club Membership",
       "pdf_url": "bandt_47p.pdf",
       "sub_category": "Travel"
     },
     {
       "declaration_date": "2022-08-26",
+      "category": "Travel",
+      "entity": "Virgin, Qantas",
+      "details": "Occasional upgrades from economy to business class on Virgin and Qantas",
+      "pdf_url": "bandt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
       "category": "Gifts",
-      "entity": "Virgin Australia and Qantas",
-      "details": "Occasional upgrades from economy to business class on Virgin and Qantas - Spouse/partner",
+      "entity": "N/A",
+      "details": "Not Applicable",
       "pdf_url": "bandt_47p.pdf",
-      "sub_category": "Travel"
-    },
-    {
-      "declaration_date": "2022-08-26",
-      "category": "Gifts",
-      "entity": "N/A",
-      "details": "Dependent children - Not Applicable",
-      "pdf_url": "bandt_47p.pdf",
-      "sub_category": "Office Items"
+      "sub_category": "Other Gifts"
     },
     {
       "declaration_date": "2022-08-26",
       "category": "Travel",
       "entity": "N/A",
-      "details": "See memberships & gifts in Q11 above - Self",
+      "details": "See memberships & gifts in Q11 above.",
       "pdf_url": "bandt_47p.pdf"
     },
     {
       "declaration_date": "2022-08-26",
-      "category": "Travel",
+      "category": "Hospitality",
       "entity": "N/A",
-      "details": "See memberships & gifts in Q11 above - Spouse/partner",
+      "details": "See memberships & gifts in Q11 above.",
       "pdf_url": "bandt_47p.pdf"
     },
     {
       "declaration_date": "2022-08-26",
       "category": "Travel",
       "entity": "N/A",
-      "details": "Dependent children - Not Applicable",
+      "details": "See memberships & gifts in Q11 above.",
+      "pdf_url": "bandt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "See memberships & gifts in Q11 above.",
+      "pdf_url": "bandt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "bandt_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Not Applicable",
       "pdf_url": "bandt_47p.pdf"
     },
     {
       "declaration_date": "2022-08-26",
       "category": "Memberships",
-      "entity": "3RRR community radio station",
-      "details": "Self",
+      "entity": "3RRR community radio station.",
+      "details": "Member of",
       "pdf_url": "bandt_47p.pdf"
     },
     {
       "declaration_date": "2022-08-26",
       "category": "Memberships",
       "entity": "N/A",
-      "details": "Not Applicable - Spouse/partner",
+      "details": "Not Applicable",
       "pdf_url": "bandt_47p.pdf"
     },
     {
       "declaration_date": "2022-08-26",
       "category": "Memberships",
       "entity": "N/A",
-      "details": "Dependent children - Not Applicable",
+      "details": "Not Applicable",
       "pdf_url": "bandt_47p.pdf"
     },
     {
@@ -359,14 +371,14 @@
       "declaration_date": "2022-08-26",
       "category": "Other Interests",
       "entity": "N/A",
-      "details": "Spouse/partner - Not Applicable",
+      "details": "Not Applicable",
       "pdf_url": "bandt_47p.pdf"
     },
     {
       "declaration_date": "2022-08-26",
       "category": "Other Interests",
       "entity": "N/A",
-      "details": "Dependent children - Not Applicable",
+      "details": "Not Applicable",
       "pdf_url": "bandt_47p.pdf"
     },
     {
@@ -378,14 +390,14 @@
       "sub_category": "Other Gifts"
     },
     {
-      "declaration_date": "2022-11-27",
+      "declaration_date": "2022-11-28",
       "category": "Travel",
-      "entity": "Qantas Platinum One membership",
-      "details": "N/A",
+      "entity": "Qantas",
+      "details": "Qantas Platinum One membership",
       "pdf_url": "bandt_47p.pdf"
     },
     {
-      "declaration_date": "2024-03-25",
+      "declaration_date": "2024-03-26",
       "category": "Gifts",
       "entity": "Frontier Touring",
       "details": "4 tickets to Taylor Swift at MCG",
@@ -393,5 +405,6 @@
       "sub_category": "Sports Tickets"
     }
   ],
-  "relationships": []
+  "relationships": [],
+  "pdf_path": "pdfs/47/bandt_47p.pdf"
 }

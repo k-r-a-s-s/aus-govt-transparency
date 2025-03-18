@@ -1,0 +1,164 @@
+{
+  "mp_name": "Emma Mcbride",
+  "party": "Australian Labor Party",
+  "electorate": "Dobell",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Shares",
+      "entity": "Wyong Town Financial Services Limited",
+      "details": "Wyong Town Financial Services Limited (CAN 100 313 120)",
+      "pdf_url": "mcbride_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "The Entrance, Residential",
+      "pdf_url": "mcbride_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Norah Head, Investment",
+      "pdf_url": "mcbride_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Mortgage",
+      "pdf_url": "mcbride_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Savings Account",
+      "pdf_url": "mcbride_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Smart Access Account",
+      "pdf_url": "mcbride_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Australian Super Superannuation Fund",
+      "pdf_url": "mcbride_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Investment property",
+      "pdf_url": "mcbride_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "ASTRA Television Subscription",
+      "pdf_url": "mcbride_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Hospitality",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's Lounge Membership",
+      "pdf_url": "mcbride_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Hospitality",
+      "entity": "Virgin Australia",
+      "details": "Virgin Australia Club Membership",
+      "pdf_url": "mcbride_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "AHPRA Pharmacy Registration",
+      "pdf_url": "mcbride_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Society of Hospital Pharmacists of Australia (SHPA)",
+      "pdf_url": "mcbride_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Pharmaceutical Society of Australia (PSA)",
+      "pdf_url": "mcbride_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Pharmaceutical Defence Limited (PDL)",
+      "pdf_url": "mcbride_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Australian Labor Party (NSW Branch)",
+      "pdf_url": "mcbride_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Health Services Union (HSU)",
+      "pdf_url": "mcbride_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Volunteer Long Jetty Landcare",
+      "pdf_url": "mcbride_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-29",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Volunteer Toowoon Bay SLSC",
+      "pdf_url": "mcbride_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Shares",
+      "entity": "Wyong Town Financial Services Limited",
+      "details": "Wyong Town Financial Services Limited (CAN 100 313 120) divested July 2022",
+      "pdf_url": "mcbride_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Liabilities",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Mortgage Commonwealth Bank of Australia closed June 2022",
+      "pdf_url": "mcbride_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-02-13",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Flight upgrade on official domestic travel (not requested).",
+      "pdf_url": "mcbride_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/mcbride_47p.pdf"
+}

@@ -1,0 +1,354 @@
+{
+  "mp_name": "Elizabeth Watson-Brown",
+  "party": "Unknown",
+  "electorate": "Ryan",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Shares",
+      "entity": "Commonwealth Bank",
+      "details": "Shares in Commonwealth Bank",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Shares",
+      "entity": "NAB",
+      "details": "Shares in NAB",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Shares",
+      "entity": "Wesfarmers",
+      "details": "Shares in Wesfarmers",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Shares",
+      "entity": "Coles",
+      "details": "Shares in Coles",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Real Estate",
+      "entity": "St Lucia, Queensland",
+      "details": "Residential (50%)",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Real Estate",
+      "entity": "Auchenflower, Queensland",
+      "details": "Investment (50%)",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Real Estate",
+      "entity": "Hastings Point, NSW",
+      "details": "Holiday flat (50%)",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Liabilities",
+      "entity": "Bank Australia",
+      "details": "Credit Card (50%)",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Liabilities",
+      "entity": "ANZ",
+      "details": "Credit Card (50%)",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Liabilities",
+      "entity": "Bank Australia",
+      "details": "Car loan (50%)",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Liabilities",
+      "entity": "Nissan",
+      "details": "Car loan",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Savings/Investments",
+      "entity": "Bank Australia",
+      "details": "Savings",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Savings/Investments",
+      "entity": "Macquarie Bank",
+      "details": "Savings",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Other Assets",
+      "entity": "SMSF",
+      "details": "SMSF Deposit paid, apartment Brisbane City (50%)",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "watson-brown_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Memberships",
+      "entity": "Australian Institute of Architects",
+      "details": "Member Australian Institute of Architects",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Credit Card (Dependent children)",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Real Estate",
+      "entity": "Adelaide, SA",
+      "details": "Residential (son)",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Liabilities",
+      "entity": "Bank Australia",
+      "details": "Car loan (Dependent children)",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "No Dependent children",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "No Dependent children",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "No Dependent children",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Savings (Dependent children)",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Savings/Investments",
+      "entity": "Westpac (Dependent children)",
+      "details": "Savings (Dependent children)",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Savings/Investments",
+      "entity": "ING (Dependent children)",
+      "details": "Savings (Dependent children)",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-26",
+      "category": "Memberships",
+      "entity": "Australian Institute of Architects",
+      "details": "Member Australian Institute of Architects",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-15",
+      "category": "Memberships",
+      "entity": "Life Fellow Australian Institute of Architects",
+      "details": "Life Fellow Australian Institute of Architects",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-15",
+      "category": "Memberships",
+      "entity": "Life Fellow Australian Institute of Architects",
+      "details": "Spouse: Life Fellow Australian Institute of Architects",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-15",
+      "category": "Other Interests",
+      "entity": "University of Queensland",
+      "details": "Adjunct Professor, University of Queensland",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-15",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "No Dependent children",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-15",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "No Dependent children",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-09-15",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "No Dependent children",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-12-09",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Self: Delete deposit paid, apartment Brisbane City",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-12-09",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Spouse/Partner: Delete deposit paid, apartment Brisbane City",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-12-09",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Delete Adelaide, SA dependent children",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-03-08",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Add Shareholdings",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-03-08",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Delete shares in Commonwealth Bank, NAB, Coles and Wesfarmers as they were sold",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-03-08",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Qantas Chairman's Lounge Membership",
+      "pdf_url": "watson-brown_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2023-03-08",
+      "category": "Savings/Investments",
+      "entity": "Bank Australia",
+      "details": "Savings account - Bank Australia",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-30",
+      "category": "Travel",
+      "entity": "Virgin Velocity",
+      "details": "Membership Virgin Velocity Beyond Programme",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-09-14",
+      "category": "Travel",
+      "entity": "Qantas & Virgin",
+      "details": "Cancellation of Qantas Chairman's Lounge membership. Cancellation of Virgin 'Beyond' membership",
+      "pdf_url": "watson-brown_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-09-14",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Bank shares in process of divestment",
+      "pdf_url": "watson-brown_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/watson-brown_47p.pdf"
+}

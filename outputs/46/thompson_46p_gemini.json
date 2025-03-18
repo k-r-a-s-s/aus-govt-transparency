@@ -1,0 +1,102 @@
+{
+  "mp_name": "Phillip Thompson",
+  "party": "Liberal National Party",
+  "electorate": "Herbert",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Trusts",
+      "entity": "Phillip Thompson Trust",
+      "details": "To donate commonwealth superannuation invalidity payment to charities",
+      "pdf_url": "thompson_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Townsville, Residential",
+      "pdf_url": "thompson_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Townsville, Investment",
+      "pdf_url": "thompson_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Mortgage",
+      "pdf_url": "thompson_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Liabilities",
+      "entity": "NAB",
+      "details": "Mortgage",
+      "pdf_url": "thompson_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Savings/Investments",
+      "entity": "NAB",
+      "details": "Savings",
+      "pdf_url": "thompson_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Car",
+      "pdf_url": "thompson_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Commonwealth Superannuation, Invalidity payment donated to charities through the Phillip Thompson Trust",
+      "pdf_url": "thompson_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Gifts",
+      "entity": "Qantas",
+      "details": "Qantas - Chairman's lounge",
+      "pdf_url": "thompson_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Gifts",
+      "entity": "Virgin",
+      "details": "Virgin - Club",
+      "pdf_url": "thompson_46p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Ambassador - SWISS 8",
+      "pdf_url": "thompson_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Ambassador - Bravery Trust",
+      "pdf_url": "thompson_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-30",
+      "category": "Memberships",
+      "entity": "Liberal National Party",
+      "details": "Liberal National Party",
+      "pdf_url": "thompson_46p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/46/thompson_46p.pdf"
+}

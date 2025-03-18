@@ -1,0 +1,371 @@
+{
+  "mp_name": "Alicia Payne",
+  "party": "Unknown",
+  "electorate": "Canberra",
+  "disclosures": [
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Shares",
+      "entity": "Woolworths Ltd",
+      "details": "Self",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Shares",
+      "entity": "Solarshare Community Solar Farm",
+      "details": "Spouse/partner",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Shares",
+      "entity": "N/A",
+      "details": "Not Applicable - Dependent children",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable - Self",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable - Spouse/partner",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable - Dependent children",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable - Self as Trustee",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable - Spouse/Partner as Trustee",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable - Dependent Children as Trustee",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Real Estate",
+      "entity": "O'Connor ACT",
+      "details": "Family home, shared with spouse - Self",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Real Estate",
+      "entity": "O'Connor ACT",
+      "details": "Family home shared with spouse - Spouse/partner",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Not Applicable - Dependent children",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Not Applicable - Self",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Not Applicable - Spouse/partner",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Directorships",
+      "entity": "N/A",
+      "details": "Not Applicable - Dependent children",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Not Applicable - Self",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Not Applicable - Spouse/partner",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Not Applicable - Dependent children",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Liabilities",
+      "entity": "ANZ Bank",
+      "details": "Home loan on family home shared with spouse - Self",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Liabilities",
+      "entity": "ANZ Bank",
+      "details": "Home loan on family home shared with spouse - Spouse/partner",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Liabilities",
+      "entity": "N/A",
+      "details": "Not Applicable - Dependent children",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Other Assets",
+      "entity": "Superannuation",
+      "details": "Self",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Other Assets",
+      "entity": "Superannuation",
+      "details": "Spouse/partner",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Other Assets",
+      "entity": "Motor vehicle",
+      "details": "Spouse/partner",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Other Assets",
+      "entity": "Boat (Tinny approx value $9K)",
+      "details": "Spouse/partner",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Not Applicable - Dependent children",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "Commonwealth Bank of Australia",
+      "details": "Transaction account, two Goal Saver accounts and a Net Saver Account - Self",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "ANZ Bank",
+      "details": "Offset Account on Home Loan (shared) - Self",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "UBank",
+      "details": "Transaction Account for Electorate Allowance - Self",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "ANZ Bank",
+      "details": "Offset Account on Home Loan (shared) - Spouse/partner",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Savings/Investments",
+      "entity": "N/A",
+      "details": "Not Applicable - Dependent children",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Not Applicable - Self",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Income Sources",
+      "entity": "Salary",
+      "details": "Spouse/partner",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Not Applicable - Dependent children",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Gifts",
+      "entity": "Virgin Club Membership",
+      "details": "Self",
+      "pdf_url": "payne_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Gifts",
+      "entity": "Qantas Club Membership",
+      "details": "Self",
+      "pdf_url": "payne_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Gifts",
+      "entity": "Virgin Club Membership",
+      "details": "Spouse/partner",
+      "pdf_url": "payne_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Gifts",
+      "entity": "Qantas Club Membership",
+      "details": "Spouse/partner",
+      "pdf_url": "payne_47p.pdf",
+      "sub_category": "Travel"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Not Applicable - Dependent children",
+      "pdf_url": "payne_47p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Not Applicable - Self",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Not Applicable - Spouse/partner",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Not Applicable - Dependent children",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Not Applicable - Self",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Not Applicable - Spouse/partner",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Not Applicable - Dependent children",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Memberships",
+      "entity": "Community and Public Sector Union (CPSU)",
+      "details": "Self",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Not Applicable - Spouse/partner",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Not Applicable - Dependent children",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not Applicable - Self",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not Applicable - Spouse/partner",
+      "pdf_url": "payne_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-18",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not Applicable - Dependent children",
+      "pdf_url": "payne_47p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/47/payne_47p.pdf"
+}

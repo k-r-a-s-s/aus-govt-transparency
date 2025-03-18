@@ -1,0 +1,93 @@
+{
+  "mp_name": "Melissa Parke",
+  "party": "Unknown",
+  "electorate": "Fremantle",
+  "disclosures": [
+    {
+      "declaration_date": "2013-11-15",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Beaconsfield, W.A. - Investment",
+      "pdf_url": "parkem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-11-15",
+      "category": "Liabilities",
+      "entity": "Westpac Bank",
+      "details": "Mortgage",
+      "pdf_url": "parkem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-11-15",
+      "category": "Savings/Investments",
+      "entity": "Westpac",
+      "details": "Savings A/C",
+      "pdf_url": "parkem_44p.pdf"
+    },
+    {
+      "declaration_date": "2013-11-15",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Mutual Fund Investment (Friends Provident International)",
+      "pdf_url": "parkem_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-04-24",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "DELETION: Real estate at Beaconsfield, W.A.",
+      "pdf_url": "parkem_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-04-24",
+      "category": "Liabilities",
+      "entity": "Westpac Bank",
+      "details": "DELETION: Mortgage with Westpac Bank",
+      "pdf_url": "parkem_44p.pdf"
+    },
+    {
+      "declaration_date": "2014-07-03",
+      "category": "Memberships",
+      "entity": "Civil Liberties Australia",
+      "details": "ADDITION: Renewal of Membership",
+      "pdf_url": "parkem_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-02-06",
+      "category": "Other Interests",
+      "entity": "East Fremantle Lacrosse Club",
+      "details": "ADDITION: Patron of East Fremantle Lacrosse Club",
+      "pdf_url": "parkem_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-03-17",
+      "category": "Travel",
+      "entity": "Virgin",
+      "details": "ADDITION: Upgrade to business class on Virgin flight - Flight from Perth to Thailand (09.01.15)",
+      "pdf_url": "parkem_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-06-17",
+      "category": "Travel",
+      "entity": "Moroccan Government",
+      "details": "ADDITION: Travel to and from Morocco and travel/accommodation in Morocco from 5-12 June offered by Moroccan Government for Parliamentary Delegation.",
+      "pdf_url": "parkem_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-09-18",
+      "category": "Savings/Investments",
+      "entity": "David Alder",
+      "details": "ADDITION: On September 9 2015 placed funds with financial adviser David Alder for ongoing management of investments in mixed asset-class portfolio",
+      "pdf_url": "parkem_44p.pdf"
+    },
+    {
+      "declaration_date": "2015-11-09",
+      "category": "Memberships",
+      "entity": "Surf Life Saving Western Australia (SLSWA)",
+      "details": "ADDITION: Patron of Surf Life Saving Western Australia (SLSWA) \u2013 2015/2016",
+      "pdf_url": "parkem_44p.pdf"
+    }
+  ],
+  "relationships": [],
+  "pdf_path": "pdfs/44/parkem_44p.pdf"
+}
