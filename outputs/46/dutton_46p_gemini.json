@@ -1,0 +1,430 @@
+{
+  "mp_name": "Peter Dutton",
+  "party": "Unknown",
+  "electorate": "Dickson",
+  "disclosures": [
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "Dutton Holdings (Qld) P/L",
+      "details": "Shares in Dutton Holdings (Qld) P/L",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "PK Super (Qld) P/L",
+      "details": "Shares in PK Super (Qld) P/L",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "K.D. Investments (Qld) Pty Ltd",
+      "details": "Shares in K.D. Investments (Qld) Pty Ltd",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "RHT Investments (Qld) P/L",
+      "details": "Shares in RHT Investments (Qld) P/L (Spouse/Partner)",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Shares",
+      "entity": "PK Super (Qld) P/L",
+      "details": "Shares in PK Super (Qld) P/L (Spouse/Partner)",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Trusts",
+      "entity": "NIL",
+      "details": "No beneficial interest held",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Trusts",
+      "entity": "RHT Family Trust",
+      "details": "Beneficiary via RHT Investments P/L ATF (Spouse/Partner)",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Trusts",
+      "entity": "RHT Family Trust",
+      "details": "Beneficiary via RHT Investments P/L ATF (Dependent children)",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Trusts",
+      "entity": "N/A",
+      "details": "Not Applicable - where the Member, the Member's spouse, or a child who is wholly or mainly dependent on the Member for support, is a trustee",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Real Estate",
+      "entity": "Camp Mountain Qld",
+      "details": "Principal place of residence",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Real Estate",
+      "entity": "Moreton Island, Qld",
+      "details": "Residential investment",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Real Estate",
+      "entity": "Palm Beach, Qld",
+      "details": "Residential investment",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Real Estate",
+      "entity": "Spring Hill, Qld",
+      "details": "Residential investment",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Directorships",
+      "entity": "NIL",
+      "details": "NIL",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Directorships",
+      "entity": "RHT Investments (Qld) P/L",
+      "details": "Child Care/Investment (Spouse/Partner)",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Directorships",
+      "entity": "Bald Hills Child Care P/L",
+      "details": "Child Care/Investment (Spouse/Partner)",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Directorships",
+      "entity": "PK Super P/L",
+      "details": "SMSF (Spouse/Partner)",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Directorships",
+      "entity": "K.D.Investments (Qld) Pty Ltd",
+      "details": "Investment (Spouse/Partner)",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Partnerships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Liabilities",
+      "entity": "ANZ, NAB",
+      "details": "Credit facilities",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Liabilities",
+      "entity": "Toyota Finance",
+      "details": "Motor Vehicle lease",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Liabilities",
+      "entity": "ANZ and NAB",
+      "details": "Commercial credit facilities/arrangements/guarantees including with ANZ and NAB (personal and business) (Spouse/Partner)",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "ANZ, QBank, NAB, CBA",
+      "details": "Savings Accounts",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "ANZ, Qbank",
+      "details": "Savings Accounts (Spouse/Partner)",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Savings/Investments",
+      "entity": "NAB, CBA",
+      "details": "Savings Accounts (Dependent children)",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Life Insurance, Furniture, Tractor, Motor Vehicle",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Life Insurance, Furniture (Spouse/Partner)",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Income Sources",
+      "entity": "RHT Investments (Qld) P/L and Bald Hills Child Care P/L",
+      "details": "Employment (Spouse/Partner)",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "dutton_46p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Travel",
+      "entity": "Electorate Office Foxtel Connection",
+      "details": "Details of travel/hospitality",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Hospitality",
+      "entity": "Former Origin Greats",
+      "details": "Tickets to State of Origin Suncorp Stadium courtesy of Former Origin Greats",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Hospitality",
+      "entity": "Queensland Reds Rugby",
+      "details": "Tickets and Hospitality Queensland Reds courtesy of Queensland Reds Rugby",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "Qantas Chairmans Lounge Membership",
+      "details": "Qantas Chairmans Lounge Membership",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "Virgin Club Membership",
+      "details": "Virgin Club Membership",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Not Applicable",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Trusts",
+      "entity": "RHT Family Trust",
+      "details": "Self: RHT Family Trust (RHT Investments P/L ATF) - DELETED",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-07-31",
+      "category": "Real Estate",
+      "entity": "Kingston",
+      "details": "Self: Kingston - Residential Investment - DELETED",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-09-19",
+      "category": "Travel",
+      "entity": "Icon Group",
+      "details": "Tickets and hospitality Day 2 Ashes Test London courtesy of Icon Group - ADDED",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-09-19",
+      "category": "Hospitality",
+      "entity": "Cricket Australia",
+      "details": "Tickets and hospitality Day 3 Ashes Test London courtesy of Cricket Australia - ADDED",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-09-19",
+      "category": "Hospitality",
+      "entity": "Brisbane Lions",
+      "details": "Ticket and hospitality AFL 2nd qualifying final Brisbane Lions v Richmond courtesy Brisbane Lions - ADDED",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-09-19",
+      "category": "Hospitality",
+      "entity": "Stuart Giles",
+      "details": "Tickets and hospitality AFL Finals Series Brisbane Lions vs GWS courtesy Stuart Giles - ADDED",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-09-19",
+      "category": "Shares",
+      "entity": "K. D. Investments (Qld) Pty.Ltd.",
+      "details": "SELF - DELETED",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-09-19",
+      "category": "Directorships",
+      "entity": "K. D. Investments (Qld) Pty.Ltd.",
+      "details": "SPOUSE - DELETED",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-17",
+      "category": "Travel",
+      "entity": "Cricket Australia",
+      "details": "Tickets and Hospitality Australia vs Pakistan courtesy of Cricket Australia - ADDED",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2019-12-19",
+      "category": "Gifts",
+      "entity": "President of Republic of Nauru",
+      "details": "Meist Ground Fountain Pen Mont Blanc and Ink Refill courtesy of President of Republic of Nauru - ADDED",
+      "pdf_url": "dutton_46p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2020-03-31",
+      "category": "Memberships",
+      "entity": "Mental Health Foundation of Australia",
+      "details": "Appointment Board Member Mental Health Foundation of Australia (pro bono) - Spouse ADDED",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-03-31",
+      "category": "Real Estate",
+      "entity": "Camp Mountain",
+      "details": "Property Camp Mountain - Self - DELETED",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-05-01",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "Extension of 45th Parliament interest - RHT Investment (QLD)P/L as Trustee for RHT Family Trust investment property in Townsville - AMENDMENT",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-08-05",
+      "category": "Real Estate",
+      "entity": "Dayboro",
+      "details": "Self: Dayboro - Residential/farm - ADDITION",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2020-12-21",
+      "category": "Travel",
+      "entity": "Neville Power",
+      "details": "I travelled on a charter flight at the invitation of Mr Neville Power from Canberra to Brisbane on Friday, 4 December 2020",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-02-10",
+      "category": "Hospitality",
+      "entity": "Cricket Australia and Cricket Queensland",
+      "details": "Tickets and hospitality Day 1 of the Vodafone Test Series Australia v India courtesy of Cricket Australia and Cricket Queensland",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-05-06",
+      "category": "Real Estate",
+      "entity": "Palm Beach Qld",
+      "details": "Residential investment - DELETED",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-06",
+      "category": "Real Estate",
+      "entity": "Brisbane CBD",
+      "details": "Self and Spouse: Residential investment Brisbane CBD",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-06",
+      "category": "Real Estate",
+      "entity": "Spring Hill",
+      "details": "Self residential investment Spring Hill",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2021-09-06",
+      "category": "Real Estate",
+      "entity": "Tangalooma",
+      "details": "Self residential investment Tangalooma",
+      "pdf_url": "dutton_46p.pdf"
+    },
+    {
+      "declaration_date": "2022-01-12",
+      "category": "Hospitality",
+      "entity": "South Australian Cricket Association",
+      "details": "Tickets and hospitality Day 1 of the Vodafone Test Series Australia v England courtesy of South Australian Cricket Association",
+      "pdf_url": "dutton_46p.pdf"
+    }
+  ],
+  "relationships": []
+}

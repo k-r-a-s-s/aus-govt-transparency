@@ -1,0 +1,1229 @@
+[
+  {
+    "entity": {
+      "id": "ea5c7b8e-6c94-43e5-90d4-3f72a603173d",
+      "entity_type": "Gifts",
+      "canonical_name": "archbishop makarios greek orthodox church of australia",
+      "first_appearance_date": "2020-12-10",
+      "last_appearance_date": "2020-12-10",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "1f0be7c8-d1cf-4c4d-b80c-2bc9b5be5d06",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2020-12-10",
+        "category": "Gifts",
+        "entity": "Archbishop Makarios, Greek Orthodox Church of Australia",
+        "details": "Indigenous artwork from Archbishop Makarios, Greek Orthodox Church of Australia",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Decorative",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "ea5c7b8e-6c94-43e5-90d4-3f72a603173d"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "49ccc393-1a40-479a-a336-310ca848aa03",
+      "entity_type": "Gifts",
+      "canonical_name": "australian distillers association",
+      "first_appearance_date": "2021-02-12",
+      "last_appearance_date": "2021-02-12",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "e487b668-5d0b-44b4-8bd1-4970e3616777",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2021-02-12",
+        "category": "Gifts",
+        "entity": "Australian Distillers Association",
+        "details": "Bottle of Four Pillars Gin - gift from Australian Distillers Association",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Alcohol",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "49ccc393-1a40-479a-a336-310ca848aa03"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "a6aab7ab-66a6-406c-8d53-947726b77d11",
+      "entity_type": "Gifts",
+      "canonical_name": "australian made campaign",
+      "first_appearance_date": "2020-10-23",
+      "last_appearance_date": "2020-10-23",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "0b71d30c-476d-482f-8bab-c2b8f4bdbfb9",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2020-10-23",
+        "category": "Gifts",
+        "entity": "Australian Made Campaign Limited",
+        "details": "My office recieved a sample pack of Australian made products from Australian Made Campaign Limited",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Other Gifts",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "a6aab7ab-66a6-406c-8d53-947726b77d11"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "11744bfa-d310-4bbf-80d5-3aad342c64c2",
+      "entity_type": "Gifts",
+      "canonical_name": "birch waite",
+      "first_appearance_date": "2020-02-25",
+      "last_appearance_date": "2020-02-25",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "cf4235f1-3778-488c-a7cc-b2cf48ebb543",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2020-02-25",
+        "category": "Gifts",
+        "entity": "Birch & Waite",
+        "details": "20 Dec - Presentation of pack of sauces from Birch & Waite",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Other Gifts",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "11744bfa-d310-4bbf-80d5-3aad342c64c2"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "c9af21be-0ae4-4a72-aaa0-8109ba3ab0f4",
+      "entity_type": "Gifts",
+      "canonical_name": "brisbane broncos",
+      "first_appearance_date": "2022-04-02",
+      "last_appearance_date": "2022-04-02",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "a27579b0-51b2-4c59-989d-c3c8b0107ddb",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2022-04-02",
+        "category": "Gifts",
+        "entity": "Brisbane Broncos",
+        "details": "11 March 2022 - Guest of Brisbane Broncos at Round 1 of NRL",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Sports Tickets",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "c9af21be-0ae4-4a72-aaa0-8109ba3ab0f4"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "8768dac7-875f-41b8-8f2b-23d4cc98a45b",
+      "entity_type": "Gifts",
+      "canonical_name": "canterbury leagues club",
+      "first_appearance_date": "2020-10-23",
+      "last_appearance_date": "2020-10-23",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "812621a2-1a6c-403e-ab94-f8f1c2978bf5",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2020-10-23",
+        "category": "Gifts",
+        "entity": "Canterbury Leagues Club",
+        "details": "Complimentary membership from Canterbury Leagues Club",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Other Gifts",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "8768dac7-875f-41b8-8f2b-23d4cc98a45b"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "ec2ec4ff-b563-46c2-ba4a-87df9834b391",
+      "entity_type": "Gifts",
+      "canonical_name": "clubs act",
+      "first_appearance_date": "2021-11-26",
+      "last_appearance_date": "2021-11-26",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "317b4784-1fff-4e08-894f-fc72b94fc578",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2021-11-26",
+        "category": "Gifts",
+        "entity": "Clubs ACT",
+        "details": "Gift hamper from Clubs ACT",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Food",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "ec2ec4ff-b563-46c2-ba4a-87df9834b391"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "2ac95db5-e0d0-44c9-a253-e5b626a57e67",
+      "entity_type": "Gifts",
+      "canonical_name": "japanese ambassador",
+      "first_appearance_date": "2021-07-13",
+      "last_appearance_date": "2021-07-13",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "15a358f2-f5bc-49e3-a7e7-f10ab7d1e544",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2021-07-13",
+        "category": "Gifts",
+        "entity": "Japanese Ambassador",
+        "details": "Gift from the Japanese Ambassador - Karuizawa carving wooden photo frame",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Other Gifts",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "2ac95db5-e0d0-44c9-a253-e5b626a57e67"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "803e04b0-d07b-42ca-b52e-82bb1b051ab8",
+      "entity_type": "Gifts",
+      "canonical_name": "larrakia nation aboriginal corporation",
+      "first_appearance_date": "2020-12-10",
+      "last_appearance_date": "2020-12-10",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "e9eb5503-84e8-465d-b8fb-94564243b3e7",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2020-12-10",
+        "category": "Gifts",
+        "entity": "Larrakia Nation Aboriginal Corporation",
+        "details": "Hunting spear from the Larrakia Nation Aboriginal Corporation",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Other Gifts",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "803e04b0-d07b-42ca-b52e-82bb1b051ab8"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "7a768b2d-51ba-4df5-984c-dc1bbbfd9247",
+      "entity_type": "Gifts",
+      "canonical_name": "mastercard",
+      "first_appearance_date": "2020-02-25",
+      "last_appearance_date": "2020-02-25",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "12e29b68-114f-44f6-abb9-238eea2e3f90",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2020-02-25",
+        "category": "Gifts",
+        "entity": "Mastercard",
+        "details": "3 Jan - Day 1 Sydney Test from Mastercard - Cricket",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Sports Tickets",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "7a768b2d-51ba-4df5-984c-dc1bbbfd9247"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "96197164-0ca4-4e88-9d86-dcdb1378c24b",
+      "entity_type": "Gifts",
+      "canonical_name": "michael cassel group",
+      "first_appearance_date": "2021-04-13",
+      "last_appearance_date": "2021-04-13",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "ae424380-a037-4e9f-bbdf-cd113104a261",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2021-04-13",
+        "category": "Gifts",
+        "entity": "Michael Cassel Group",
+        "details": "2 tickets to the Official Australian Premiere of Hamilton - gifted by Michael Cassel Group",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Sports Tickets",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "96197164-0ca4-4e88-9d86-dcdb1378c24b"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "1de37cf8-2023-412e-8275-d1a54cc5e012",
+      "entity_type": "Gifts",
+      "canonical_name": "nine network",
+      "first_appearance_date": "2022-02-11",
+      "last_appearance_date": "2022-02-11",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "36b37832-01be-4c63-9198-361de11befff",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2022-02-11",
+        "category": "Gifts",
+        "entity": "Nine Network",
+        "details": "29 Jan - 2 tickets to Australian Open from Nine Network",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Sports Tickets",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "1de37cf8-2023-412e-8275-d1a54cc5e012"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "0867f165-3d07-49b3-bc9d-77a11c31cf79",
+      "entity_type": "Gifts",
+      "canonical_name": "nrl",
+      "first_appearance_date": "2020-07-17",
+      "last_appearance_date": "2021-07-13",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "8a405ebd-dd8e-46f9-94b0-6b4cb9a0aab8",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2020-07-17",
+        "category": "Gifts",
+        "entity": "NRL",
+        "details": "26 Feb 2020 - Commemorative personalised football from the NRL",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Sports Tickets",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "0867f165-3d07-49b3-bc9d-77a11c31cf79"
+      },
+      {
+        "id": "14c2df79-29c7-4048-867c-030fc23a2007",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2020-10-19",
+        "category": "Gifts",
+        "entity": "NRL",
+        "details": "I attended 3 games of the NRL as a guest of the NRL.",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Sports Tickets",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "0867f165-3d07-49b3-bc9d-77a11c31cf79"
+      },
+      {
+        "id": "957bbb3a-b3fb-4381-a083-e51dc02433c1",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2021-07-13",
+        "category": "Gifts",
+        "entity": "NRL",
+        "details": "Gift from NRL - 2 Tickets to State of Origin Game 1 - Wednesday, 9 June 2021",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Sports Tickets",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "0867f165-3d07-49b3-bc9d-77a11c31cf79"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "0026d81f-0a5e-4139-8ed8-8bb595340ecb",
+      "entity_type": "Gifts",
+      "canonical_name": "paralympics australia",
+      "first_appearance_date": "2021-09-06",
+      "last_appearance_date": "2021-09-06",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "74ae9c68-4230-4822-a9e1-e275afd660b6",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2021-09-06",
+        "category": "Gifts",
+        "entity": "Paralympics Australia",
+        "details": "Merchandise and Apparel from Paralympics Australia",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Clothing",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "0026d81f-0a5e-4139-8ed8-8bb595340ecb"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "fdd0324d-421e-4c95-9727-9188b01aea35",
+      "entity_type": "Gifts",
+      "canonical_name": "president of indonesia",
+      "first_appearance_date": "2020-02-25",
+      "last_appearance_date": "2020-02-25",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "62b81e8a-0b55-446a-85b7-c0d9c5834bab",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2020-02-25",
+        "category": "Gifts",
+        "entity": "President of Indonesia",
+        "details": "10 Feb - Plate from President of Indonesia",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Other Gifts",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "fdd0324d-421e-4c95-9727-9188b01aea35"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "b4146396-6c35-41d6-92bd-1da2c35bd7bc",
+      "entity_type": "Gifts",
+      "canonical_name": "president of the house of representatives of cyprus",
+      "first_appearance_date": "2020-02-25",
+      "last_appearance_date": "2020-02-25",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "f94c34fe-764d-453a-b112-404398840ae1",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2020-02-25",
+        "category": "Gifts",
+        "entity": "President of the House of Representatives of Cyprus",
+        "details": "12 Feb - Icon from Cypriot delegation led by President of the House of Representatives of Cyprus",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Other Gifts",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "b4146396-6c35-41d6-92bd-1da2c35bd7bc"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "610688f0-305d-44de-af4c-05694837ba93",
+      "entity_type": "Gifts",
+      "canonical_name": "qantas",
+      "first_appearance_date": "2020-12-10",
+      "last_appearance_date": "2022-03-04",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "98fcd4be-0494-4764-8054-be88d35f7387",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2020-12-10",
+        "category": "Gifts",
+        "entity": "Qantas",
+        "details": "Gift from Qantas - Commemorative Qantas 747 Half Bar Cart",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Travel",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "610688f0-305d-44de-af4c-05694837ba93"
+      },
+      {
+        "id": "5a2ce875-0d54-471c-a028-4c8ea23490f5",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2022-03-04",
+        "category": "Gifts",
+        "entity": "Qantas",
+        "details": "Qantas Lifetime Platinum status, including leather travel wallet and luggage tag. Value unknown.",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Travel",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "610688f0-305d-44de-af4c-05694837ba93"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "29dd2b12-a10a-4c4a-ad66-57b00c3a348f",
+      "entity_type": "Gifts",
+      "canonical_name": "rex",
+      "first_appearance_date": "2021-07-13",
+      "last_appearance_date": "2021-07-13",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "22e7f012-b72a-49b5-aeb5-821d06ca2f2a",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2021-07-13",
+        "category": "Gifts",
+        "entity": "REX",
+        "details": "Gift from REX - Complimentary REX Lounge Membership & model of REX Boeing 737",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Travel",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "29dd2b12-a10a-4c4a-ad66-57b00c3a348f"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "f58f5a4d-ecdb-4fc4-87b7-708fdd47f2f0",
+      "entity_type": "Gifts",
+      "canonical_name": "richard king of radio 2 hd",
+      "first_appearance_date": "2020-10-19",
+      "last_appearance_date": "2020-10-19",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "a7ad7e98-f2e7-4390-b5c5-a00089d5ab40",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2020-10-19",
+        "category": "Gifts",
+        "entity": "Richard King of Radio 2 HD",
+        "details": "$5 instant scratchie from Richard King of Radio 2 HD on 19 October 2020",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Other Gifts",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "f58f5a4d-ecdb-4fc4-87b7-708fdd47f2f0"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "57d89668-0de5-4a47-a53d-dfc0d38976ab",
+      "entity_type": "Gifts",
+      "canonical_name": "south sydney football club",
+      "first_appearance_date": "2020-10-19",
+      "last_appearance_date": "2021-09-06",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "3c097b89-5095-4834-8f01-0ace4d1bba76",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2020-10-19",
+        "category": "Gifts",
+        "entity": "South Sydney Football Club",
+        "details": "During the NRL season, I was a guest of South Sydney football club as a life member.",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Sports Tickets",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "57d89668-0de5-4a47-a53d-dfc0d38976ab"
+      },
+      {
+        "id": "6d96a0fb-e4f3-44da-9426-0cb392cb1232",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2021-09-06",
+        "category": "Gifts",
+        "entity": "South Sydney football club",
+        "details": "During the NRL season, I was a guest of South Sydney football club as a life member.",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Sports Tickets",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "57d89668-0de5-4a47-a53d-dfc0d38976ab"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "16848e93-5cb6-482d-aab0-c5108bd73e5e",
+      "entity_type": "Gifts",
+      "canonical_name": "south sydney rabbitohs",
+      "first_appearance_date": "2021-09-06",
+      "last_appearance_date": "2021-09-06",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "1f21179a-013d-45d8-8c11-ee26427118e4",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2021-09-06",
+        "category": "Gifts",
+        "entity": "South Sydney Rabbitohs",
+        "details": "Apparel from South Sydney Rabbitohs",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Clothing",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "16848e93-5cb6-482d-aab0-c5108bd73e5e"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "186398c6-a6d7-4a5e-9cec-050deed40843",
+      "entity_type": "Gifts",
+      "canonical_name": "swisse",
+      "first_appearance_date": "2020-10-19",
+      "last_appearance_date": "2020-10-19",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "c3fe8d49-0159-4268-abf4-272c41ab0a09",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2020-10-19",
+        "category": "Gifts",
+        "entity": "Swisse",
+        "details": "Health product samples from Swisse on 23 September 2020",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Other Gifts",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "186398c6-a6d7-4a5e-9cec-050deed40843"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "7f178997-1d69-48ea-9759-de2d63e303e0",
+      "entity_type": "Gifts",
+      "canonical_name": "tabcorp",
+      "first_appearance_date": "2021-10-28",
+      "last_appearance_date": "2021-10-28",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "c19dfd65-783c-4d98-ba21-82545819bc42",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2021-10-28",
+        "category": "Gifts",
+        "entity": "TABCorp",
+        "details": "16 October 2021 - Guest of TABCorp at the TAB Everest Race Day",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Other Gifts",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "7f178997-1d69-48ea-9759-de2d63e303e0"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "e49517e5-8751-4044-9a13-bf144a7e4408",
+      "entity_type": "Gifts",
+      "canonical_name": "tamil arts and culture association",
+      "first_appearance_date": "2020-02-25",
+      "last_appearance_date": "2020-02-25",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "307e101b-ff6e-47d3-ad4b-5e95dbc5fd60",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2020-02-25",
+        "category": "Gifts",
+        "entity": "Tamil Arts and Culture Association",
+        "details": "11 Feb - Scarf from Tamil Arts and Culture Association",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Clothing",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "e49517e5-8751-4044-9a13-bf144a7e4408"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "7fdd0ae7-2bca-4d33-b19e-54ba2248a397",
+      "entity_type": "Gifts",
+      "canonical_name": "tennis australia",
+      "first_appearance_date": "2022-02-11",
+      "last_appearance_date": "2022-02-11",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "533c0b7d-63ab-4289-9c77-235a0bed2dcd",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2022-02-11",
+        "category": "Gifts",
+        "entity": "Tennis Australia",
+        "details": "22 Jan - 2 tickets to Australian Open from Tennis Australia",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Sports Tickets",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "7fdd0ae7-2bca-4d33-b19e-54ba2248a397"
+      },
+      {
+        "id": "42e0e242-1489-45a2-9855-452ff9b9ef89",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2022-02-11",
+        "category": "Gifts",
+        "entity": "Tennis Australia",
+        "details": "30 Jan - 2 tickets to Australian Open from Tennis Australia",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Sports Tickets",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "7fdd0ae7-2bca-4d33-b19e-54ba2248a397"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "a9a77a55-6485-4076-b64b-17d8db697737",
+      "entity_type": "Gifts",
+      "canonical_name": "the board of the lansdowne club",
+      "first_appearance_date": "2021-04-09",
+      "last_appearance_date": "2021-04-09",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "9a3321bb-8910-4a6e-99c2-e4ccfe939784",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2021-04-09",
+        "category": "Gifts",
+        "entity": "The Board of the Lansdowne Club",
+        "details": "Waterford Crystal decanter - gift from The Board of the Lansdowne Club",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "Other Gifts",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "a9a77a55-6485-4076-b64b-17d8db697737"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "4fb646d1-456f-48fc-b932-dc46d72c6899",
+      "entity_type": "Liabilities",
+      "canonical_name": "cba",
+      "first_appearance_date": "2021-09-15",
+      "last_appearance_date": "2021-09-15",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "61b9bd2e-518a-4662-b945-ab4ddb950344",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2021-09-15",
+        "category": "Liabilities",
+        "entity": "CBA",
+        "details": "7 September 2021 Mortgage on Marrickville investment property CBA (with C. Tebbutt)",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "4fb646d1-456f-48fc-b932-dc46d72c6899"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "460045ec-ece9-40e1-9737-16bcf9a10ecb",
+      "entity_type": "Liabilities",
+      "canonical_name": "commonwealth bank",
+      "first_appearance_date": "2019-11-04",
+      "last_appearance_date": "2019-11-04",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "d6defc50-be11-4c3c-972d-3b65345dcd9d",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2019-11-04",
+        "category": "Liabilities",
+        "entity": "Commonwealth Bank",
+        "details": "Self: Mortgage on Marrickville home- Commonwealth Bank (addition)",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "460045ec-ece9-40e1-9737-16bcf9a10ecb"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "a6449789-1d24-45fd-be8a-4c1206a57a51",
+      "entity_type": "Memberships",
+      "canonical_name": "canterbury leagues club",
+      "first_appearance_date": "2022-03-30",
+      "last_appearance_date": "2022-03-30",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "9a9b8a8f-8f79-4d23-8184-aa017e620f13",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2022-03-30",
+        "category": "Memberships",
+        "entity": "Canterbury Leagues Club",
+        "details": "Honorary Member of Canterbury Leagues Club for 2022",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "a6449789-1d24-45fd-be8a-4c1206a57a51"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "8a6df586-4244-4722-b0e7-3245da4dc5e1",
+      "entity_type": "Memberships",
+      "canonical_name": "italian chamber of commerce and industry in australia",
+      "first_appearance_date": "2021-02-12",
+      "last_appearance_date": "2021-02-12",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "973af8f3-2423-42c5-9902-6b4fa6626fca",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2021-02-12",
+        "category": "Memberships",
+        "entity": "Italian Chamber of Commerce and Industry in Australia Inc.",
+        "details": "Honorary Membership of the Italian Chamber of Commerce and Industry in Australia Inc.",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "8a6df586-4244-4722-b0e7-3245da4dc5e1"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "7d6bb6aa-87e3-4761-842a-caea49e0a8c6",
+      "entity_type": "Memberships",
+      "canonical_name": "qantas chairman lounge",
+      "first_appearance_date": "2019-07-30",
+      "last_appearance_date": "2019-07-30",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "37ac71bb-1d04-4a7b-a8d1-240e577c1537",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2019-07-30",
+        "category": "Memberships",
+        "entity": "Qantas Chairman Lounge",
+        "details": "N/A",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "7d6bb6aa-87e3-4761-842a-caea49e0a8c6"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "c9ff2b17-3233-42a1-8d01-d0fc1420faf7",
+      "entity_type": "Memberships",
+      "canonical_name": "south sydney rlfc",
+      "first_appearance_date": "2019-07-30",
+      "last_appearance_date": "2019-07-30",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "85819412-5afa-4d89-bb64-94dca429804f",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2019-07-30",
+        "category": "Memberships",
+        "entity": "South Sydney RLFC",
+        "details": "Life Member",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "c9ff2b17-3233-42a1-8d01-d0fc1420faf7"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "16cc45d2-fe5f-469c-aaef-e52d4293e9ca",
+      "entity_type": "Memberships",
+      "canonical_name": "virgin club lounge",
+      "first_appearance_date": "2019-07-30",
+      "last_appearance_date": "2019-07-30",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "c4bc6439-8fba-495e-982b-6214864f656e",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2019-07-30",
+        "category": "Memberships",
+        "entity": "Virgin Club Lounge",
+        "details": "N/A",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "16cc45d2-fe5f-469c-aaef-e52d4293e9ca"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "06ee68ed-8592-4143-8765-2fdf026d8b51",
+      "entity_type": "Memberships",
+      "canonical_name": "western suburbs lawn tennis association",
+      "first_appearance_date": "2021-12-16",
+      "last_appearance_date": "2021-12-16",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "9f268778-3063-41a7-a96d-84be7b645b5e",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2021-12-16",
+        "category": "Memberships",
+        "entity": "Western Suburbs Lawn Tennis Association Limited",
+        "details": "Honorary Membership - Western Suburbs Lawn Tennis Association Limited",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "06ee68ed-8592-4143-8765-2fdf026d8b51"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "c34dffe9-cf36-40b3-bbd1-76af9a64ffdb",
+      "entity_type": "Memberships",
+      "canonical_name": "wests cricket wsdcc",
+      "first_appearance_date": "2021-09-06",
+      "last_appearance_date": "2021-09-06",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "220cb1c8-ec4d-446c-8f09-bbbcbf6a5736",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2021-09-06",
+        "category": "Memberships",
+        "entity": "Wests Cricket (WSDCC)",
+        "details": "Acceptance of position of Patron of Wests Cricket (WSDCC) for the coming year",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "c34dffe9-cf36-40b3-bbd1-76af9a64ffdb"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "190f1756-2cfe-4864-9a56-d4862a94e2c0",
+      "entity_type": "Travel",
+      "canonical_name": "australian american leadership dialogue",
+      "first_appearance_date": "2019-11-04",
+      "last_appearance_date": "2019-11-04",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Anthony Albanese",
+      "notes": "",
+      "created_at": "2025-03-16 04:20:22",
+      "updated_at": "2025-03-16 04:20:22"
+    },
+    "timeline": [
+      {
+        "id": "abab7c04-b436-4d8a-9daf-3d3b3bc6819f",
+        "mp_name": "Anthony Albanese",
+        "party": "N/A",
+        "electorate": "Grayndler",
+        "declaration_date": "2019-11-04",
+        "category": "Travel",
+        "entity": "Australian American Leadership Dialogue",
+        "details": "Accommodation provided by the Australian American Leadership Dialogue in connection with the Honolulu Leadership Dialogue.",
+        "pdf_url": "albanese_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 04:20:22",
+        "updated_at": "2025-03-16 04:20:22",
+        "entity_id": "190f1756-2cfe-4864-9a56-d4862a94e2c0"
+      }
+    ]
+  }
+]

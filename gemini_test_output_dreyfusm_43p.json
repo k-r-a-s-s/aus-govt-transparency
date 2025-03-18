@@ -1,0 +1,384 @@
+{
+  "mp_name": "MARK DREYFUS",
+  "party": "Unknown",
+  "electorate": "ISAACS",
+  "disclosures": [
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Shares",
+      "entity": "Westpac Banking Corporation",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Held by Kenley Dale Pty Ltd as trustee for Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Shares",
+      "entity": "Sonic Healthcare Ltd",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Held by Kenley Dale Pty Ltd as trustee for Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Shares",
+      "entity": "Transurban Group",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Held by Kenley Dale Pty Ltd as trustee for Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Shares",
+      "entity": "BHP Billiton Ltd",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Held by Kenley Dale Pty Ltd as trustee for Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Shares",
+      "entity": "Computershare Ltd",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Held by Kenley Dale Pty Ltd as trustee for Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Shares",
+      "entity": "National Australia Bank",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Held by Kenley Dale Pty Ltd as trustee for Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Shares",
+      "entity": "Westfield Group",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Held by Kenley Dale Pty Ltd as trustee for Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Bonds/Debentures/Investments",
+      "entity": "Balmain AQUA High Income Trust",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Held by Kenley Dale Pty Ltd for Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Bonds/Debentures/Investments",
+      "entity": "Ausbil Investment Trust - Australian Active Equity Fund",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Held by Kenley Dale Pty Ltd for Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Bonds/Debentures/Investments",
+      "entity": "Australian Infrastructure",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Held by Kenley Dale Pty Ltd for Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Bonds/Debentures/Investments",
+      "entity": "Aviva Investors High Growth Shares Fund",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Held by Kenley Dale Pty Ltd for Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Bonds/Debentures/Investments",
+      "entity": "Commonwealth Bank Conv. Preferred",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Held by Kenley Dale Pty Ltd for Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Bonds/Debentures/Investments",
+      "entity": "Eley Griffiths Group Small Companies Fund",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Held by Kenley Dale Pty Ltd for Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Bonds/Debentures/Investments",
+      "entity": "Goldman Sachs Australian Infrastructure",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Held by Kenley Dale Pty Ltd for Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Bonds/Debentures/Investments",
+      "entity": "Intoll Group",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Held by Kenley Dale Pty Ltd for Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Bonds/Debentures/Investments",
+      "entity": "Macquarie Atlas Roads Group",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Held by Kenley Dale Pty Ltd for Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Bonds/Debentures/Investments",
+      "entity": "Orion Wholesale Australia Share Fund",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Held by Kenley Dale Pty Ltd for Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Bonds/Debentures/Investments",
+      "entity": "Perpetual Concentrated Equity Fund",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Held by Kenley Dale Pty Ltd for Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Bonds/Debentures/Investments",
+      "entity": "Prime Value Growth Fund",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Held by Kenley Dale Pty Ltd for Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Bonds/Debentures/Investments",
+      "entity": "DWS Global Equity Agribusiness Fund",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Held by Kenley Dale Pty Ltd for Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Bonds/Debentures/Investments",
+      "entity": "EQT Intrinsic Value International Sharemarkets Fund",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Held by Kenley Dale Pty Ltd for Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Bonds/Debentures/Investments",
+      "entity": "Grant Samuel Epoch Global Equity Unhedged",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Held by Kenley Dale Pty Ltd for Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Bonds/Debentures/Investments",
+      "entity": "GVI Global Industrial Share Fund",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Held by Kenley Dale Pty Ltd for Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Bonds/Debentures/Investments",
+      "entity": "Platinum International Fund",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Held by Kenley Dale Pty Ltd for Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Bonds/Debentures/Investments",
+      "entity": "Abacus Property Group",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Held by Kenley Dale Pty Ltd for Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Bonds/Debentures/Investments",
+      "entity": "Commonwealth Property",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Held by Kenley Dale Pty Ltd for Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Bonds/Debentures/Investments",
+      "entity": "UBS Property Securities Fund",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Held by Kenley Dale Pty Ltd for Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Shares",
+      "entity": "Sonic Healthcare",
+      "value": "Undisclosed",
+      "status": "Sold",
+      "details": "Shares no longer held by Kenley Dale Pty Ltd as trustee for the Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Shares",
+      "entity": "Transurban Group",
+      "value": "Undisclosed",
+      "status": "Sold",
+      "details": "Shares no longer held by Kenley Dale Pty Ltd as trustee for the Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Shares",
+      "entity": "BHP Billiton Limited",
+      "value": "Undisclosed",
+      "status": "Sold",
+      "details": "Shares no longer held by Kenley Dale Pty Ltd as trustee for the Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Shares",
+      "entity": "Westfield Group",
+      "value": "Undisclosed",
+      "status": "Sold",
+      "details": "Shares no longer held by Kenley Dale Pty Ltd as trustee for the Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Shares",
+      "entity": "Commonwealth Property",
+      "value": "Undisclosed",
+      "status": "Sold",
+      "details": "Shares no longer held by Kenley Dale Pty Ltd as trustee for the Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Shares",
+      "entity": "National Australia Bank",
+      "value": "Undisclosed",
+      "status": "Sold",
+      "details": "Shares no longer held by Kenley Dale Pty Ltd as trustee for the Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Shares",
+      "entity": "Commonwealth Bank. Conv. Pref",
+      "value": "Undisclosed",
+      "status": "Sold",
+      "details": "Shares no longer held by Kenley Dale Pty Ltd as trustee for the Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Shares",
+      "entity": "Westpac Banking Corporation",
+      "value": "Undisclosed",
+      "status": "Sold",
+      "details": "Shares no longer held by Kenley Dale Pty Ltd as trustee for the Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Shares",
+      "entity": "Computershare Limited",
+      "value": "Undisclosed",
+      "status": "Sold",
+      "details": "Shares no longer held by Kenley Dale Pty Ltd as trustee for the Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Bonds/Debentures/Investments",
+      "entity": "Ausbil Investment Trusst -Aust Active Equity Fund",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Investment acquired by Kenley Dale Pty Ltd as a trustee for the Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Bonds/Debentures/Investments",
+      "entity": "Aviva Investors High Growth Shares",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Investment acquired by Kenley Dale Pty Ltd as a trustee for the Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Bonds/Debentures/Investments",
+      "entity": "Greencape Wholesale Broadcap Fund",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Investment acquired by Kenley Dale Pty Ltd as a trustee for the Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Bonds/Debentures/Investments",
+      "entity": "Pengana Emerging Companies Fund",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Investment acquired by Kenley Dale Pty Ltd as a trustee for the Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Bonds/Debentures/Investments",
+      "entity": "Perpetual concentrated Equity Fund",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Investment acquired by Kenley Dale Pty Ltd as a trustee for the Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Bonds/Debentures/Investments",
+      "entity": "Prime Value Growth Fund",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Investment acquired by Kenley Dale Pty Ltd as a trustee for the Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Bonds/Debentures/Investments",
+      "entity": "Grant Samuel Epoch Global Equity",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Investment acquired by Kenley Dale Pty Ltd as a trustee for the Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Bonds/Debentures/Investments",
+      "entity": "APNAREITFund",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Investment acquired by Kenley Dale Pty Ltd as a trustee for the Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-07-19",
+      "category": "Bonds/Debentures/Investments",
+      "entity": "UBS Property Securities Fund",
+      "value": "Undisclosed",
+      "status": "Active",
+      "details": "Investment acquired by Kenley Dale Pty Ltd as a trustee for the Dreyfus Superannuation Fund"
+    },
+    {
+      "declaration_date": "2010-10-02",
+      "category": "Gifts",
+      "entity": "Monash Foundation",
+      "value": "Undisclosed",
+      "status": "Received",
+      "details": "Attendance at the AFL Grand Final at the MCG as guests of the Monash Foundation with children"
+    },
+    {
+      "declaration_date": "2010-06-03",
+      "category": "Travel",
+      "entity": "Australia Israel Cultural Exchange",
+      "value": "Undisclosed",
+      "status": "Received",
+      "details": "Travel from Canberra to Melbourne on a charter flight provided by the Australia Israel Cultural Exchange."
+    }
+  ],
+  "relationships": []
+}

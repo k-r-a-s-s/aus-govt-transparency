@@ -1,0 +1,622 @@
+{
+  "mp_name": "Peter Dutton",
+  "party": "N/A",
+  "electorate": "Dickson",
+  "disclosures": [
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Shares",
+      "entity": "Dutton Holdings (Qld) P/L",
+      "details": "Self",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Shares",
+      "entity": "PK Super (Qld) P/L",
+      "details": "Self",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Shares",
+      "entity": "RHT Investments (QId) P/L",
+      "details": "Spouse/partner",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Shares",
+      "entity": "PK Super (Qld) P/L",
+      "details": "Spouse/partner",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Trusts",
+      "entity": "Not Applicable",
+      "details": "Self",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Trusts",
+      "entity": "RHT Family Trust (RHT Investments (Qld) P/L ATF)",
+      "details": "Spouse/partner, Investment, Beneficiary",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Trusts",
+      "entity": "RHT Family Trust (RHT Investments (Qld) P/L ATF)",
+      "details": "Dependent children, Investment, Beneficiary",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Real Estate",
+      "entity": "Dayboro, Qld",
+      "details": "Self, Residential/farm",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Real Estate",
+      "entity": "Brisbane CBD, Qld",
+      "details": "Self, Residential investment",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Real Estate",
+      "entity": "Brisbane CBD, Qld",
+      "details": "Spouse/partner, Residential investment",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Directorships",
+      "entity": "Not Applicable",
+      "details": "Self",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Directorships",
+      "entity": "RHT Investments (Qld) P/L",
+      "details": "Spouse/partner, Investments",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Directorships",
+      "entity": "Bald Hills Child Care P/L",
+      "details": "Spouse/partner, NIL",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Directorships",
+      "entity": "PK Super (Qld) P/L",
+      "details": "Spouse/partner, SMSF",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Directorships",
+      "entity": "Dutton Holdings (Qld) P/L",
+      "details": "Spouse/partner, NIL",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Liabilities",
+      "entity": "NAB, Westpac",
+      "details": "Self, Credit facilities",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Liabilities",
+      "entity": "NAB, Westpac",
+      "details": "Spouse/partner, Credit facilities",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Savings/Investments",
+      "entity": "QBank, NAB, CBA, Westpac",
+      "details": "Self, Savings account",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Savings/Investments",
+      "entity": "ANZ, QBank, NAB, Westpac",
+      "details": "Spouse/partner, Savings account",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Savings/Investments",
+      "entity": "NAB, CBA",
+      "details": "Dependent children, Savings account",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Self, Life insurance, Furniture, Tractor, Motor Vehicle",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Spouse/partner, Life insurance, Furniture",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Income Sources",
+      "entity": "RHT Investments (Qld) P/L",
+      "details": "Spouse/partner, Investment income",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Travel",
+      "entity": "Electorate Office Foxtel Connection",
+      "details": "Self",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Hospitality",
+      "entity": "QANTAS Chairman's Lounge",
+      "details": "Self",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Memberships",
+      "entity": "Virgin Club Membership",
+      "details": "Self",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-05-21",
+      "category": "Memberships",
+      "entity": "Mental Health Foundation of Australia (Pro Bono)",
+      "details": "Spouse/partner, Board Member",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Travel",
+      "entity": "Hancock Prospecting",
+      "details": "16 June Flight Perth to Pilbara return courtesy of Hancock Prospecting",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Hospitality",
+      "entity": "NRL",
+      "details": "26 June Tickets and hospitality to State of Origin Game 2 courtesy of NRL",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-08-23",
+      "category": "Other Interests",
+      "entity": "RHT Investment (Qld) P/L",
+      "details": "Townsville Commercial Property owned by RHT Investment (Qld) P/L sold",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-10-12",
+      "category": "Hospitality",
+      "entity": "NRL",
+      "details": "Tickets and Hospitality - 2022 NRL Grand Final courtesy of the NRL",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-10-12",
+      "category": "Hospitality",
+      "entity": "AFL",
+      "details": "Tickets and Hospitality - 2022 AFL Grand Final courtesy of the AFL",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-10-12",
+      "category": "Hospitality",
+      "entity": "N/A",
+      "details": "Tickets to Midwinter Ball",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-11-09",
+      "category": "Travel",
+      "entity": "Hancock Prospecting",
+      "details": "12 October - Flight Rockhampton to Sydney to attend Bali Bombing Memorial and return Sydney to Mackay courtesy of Hancock Prospecting",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-11-09",
+      "category": "Shares",
+      "entity": "Dutton Holdings (Qld) P/L",
+      "details": "Dutton Holdings (Qld) P/L voluntarily deregistered",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-11-09",
+      "category": "Directorships",
+      "entity": "Dutton Holdings (Qld) P/L",
+      "details": "Dutton Holdings (Qld) P/L and Bald Hills Child Care P/L voluntarily deregistered",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-12-22",
+      "category": "Travel",
+      "entity": "Scale Facilitation",
+      "details": "Travel and accommodation as a guest of Scale Facilitation to attend the opening of Scale Facilitation and Recharge Industries in New York.",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-12-22",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Brisbane CBD, Residential Investment (Delete for Self and Spouse)",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2022-12-22",
+      "category": "Liabilities",
+      "entity": "Westpac",
+      "details": "Westpac (Delete for Self and Spouse)",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-02-02",
+      "category": "Hospitality",
+      "entity": "Cricket Australia",
+      "details": "Tickets and Hospitality - Aus v South Africa Third Test match courtesy of Cricket Australia",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "Unknown",
+      "category": "Hospitality",
+      "entity": "Rugby Australia",
+      "details": "27 and 28 January 2023 - Tickets and Hospitality - Sydney 7s Rugby courtesy of Rugby Australia",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "Unknown",
+      "category": "Hospitality",
+      "entity": "Channel Nine",
+      "details": "29 January 2023 - Tickets and Hospitality - Australian Open courtesy of Channel Nine",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-05-18",
+      "category": "Hospitality",
+      "entity": "Moreton Bay Regional Council",
+      "details": "23 April 2023 - Tickets and Hospitality - Titans v Dolphins NRL match courtesy of Moreton Bay Regional Council",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-06-27",
+      "category": "Hospitality",
+      "entity": "ARLC and NRL",
+      "details": "1 June 2023 - Tickets and hospitality - Game 1 2023 Ampol Women's State of Origin Series courtesy of the ARLC and NRL",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-06-27",
+      "category": "Hospitality",
+      "entity": "Federal Parliamentary Press Gallery",
+      "details": "21 June 2023 - Tickets to Midwinter Ball courtesy of the Federal Parliamentary Press Gallery",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-07-28",
+      "category": "Hospitality",
+      "entity": "Brisbane Broncos",
+      "details": "1 July 2023-Tickets and hospitality - Broncos v Dolphins courtesy of Brisbane Broncos",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-07-28",
+      "category": "Gifts",
+      "entity": "India Australia Strategic Alliance",
+      "details": "3 July 2023 - Mont Blanc pen from India Australia Strategic Alliance",
+      "pdf_url": "dutton_47p.pdf",
+      "sub_category": "Office Items"
+    },
+    {
+      "declaration_date": "2023-08-21",
+      "category": "Hospitality",
+      "entity": "Cricket Australia",
+      "details": "Tickets and Hospitality- Australia v England Fifth Ashes Test courtesy of Cricket Australia",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-21",
+      "category": "Hospitality",
+      "entity": "FIFA",
+      "details": "Tickets and Hospitality - 7 August 2023 - Australia v Denmark World Cup match courtesy of FIFA",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-21",
+      "category": "Hospitality",
+      "entity": "ASM Global",
+      "details": "Tickets and Hospitality - 12 August 2023 - Luke Combs concert courtesy of ASM Global",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-08-21",
+      "category": "Hospitality",
+      "entity": "FIFA",
+      "details": "Tickets and Hospitality - 19 August 2023 - Australia v Sweden World Cup match courtesy of FIFA",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-10-17",
+      "category": "Hospitality",
+      "entity": "Ballet Australia",
+      "details": "Tickets and Hospitality - 19 September 2023 - Swan Lake ballet courtesy of Ballet Australia",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-10-17",
+      "category": "Hospitality",
+      "entity": "Australian Football League",
+      "details": "Tickets and Hospitality - 23 September 2023 - Lions v Carlton Preliminary Final courtesy of the Australian Football League",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-10-17",
+      "category": "Hospitality",
+      "entity": "Brisbane Broncos",
+      "details": "Tickets and Hospitality - 23 September 2023 - Broncos v Warriors Preliminary Final courtesy of Brisbane Broncos",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-10-28",
+      "category": "Hospitality",
+      "entity": "NRL",
+      "details": "Tickets and Hospitality - 1 October 2023 - NRL Grand Final courtesy of NRL",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-10-28",
+      "category": "Hospitality",
+      "entity": "Queensland Ballet",
+      "details": "Tickets and Hospitality - 6 October 2023 - Strictly Gershwin courtesy of Queensland Ballet",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-29",
+      "category": "Travel",
+      "entity": "N/A",
+      "details": "Dinner and hospitality provided as part of attendance at India Australia Strategic Alliance Trade Delegation November 2023",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2023-11-29",
+      "category": "Gifts",
+      "entity": "OP Jindal Global University",
+      "details": "Academic stole and ornamental peacock from OP Jindal Global University",
+      "pdf_url": "dutton_47p.pdf",
+      "sub_category": "Decorative"
+    },
+    {
+      "declaration_date": "2023-11-29",
+      "category": "Gifts",
+      "entity": "India Australia Strategic Alliance",
+      "details": "Cufflinks and scarves from India Australia Strategic Alliance",
+      "pdf_url": "dutton_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-11-29",
+      "category": "Gifts",
+      "entity": "Hinduja Group",
+      "details": "Theorama from Hinduja Group",
+      "pdf_url": "dutton_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-11-29",
+      "category": "Gifts",
+      "entity": "Ajit Doval",
+      "details": "Ornamental sceptre from Ajit Doval",
+      "pdf_url": "dutton_47p.pdf",
+      "sub_category": "Decorative"
+    },
+    {
+      "declaration_date": "2023-11-29",
+      "category": "Gifts",
+      "entity": "Councillor Livingston Chettipally",
+      "details": "Ornamental peacock from Councillor Livingston Chettipally",
+      "pdf_url": "dutton_47p.pdf",
+      "sub_category": "Decorative"
+    },
+    {
+      "declaration_date": "2023-11-29",
+      "category": "Gifts",
+      "entity": "Nitkin Gadkarji, Minister for Road Transport and Highways",
+      "details": "Madhubani painting from Nitkin Gadkarji, Minister for Road Transport and Highways",
+      "pdf_url": "dutton_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-11-29",
+      "category": "Gifts",
+      "entity": "Akshardham Temple",
+      "details": "Books and pictures from Akshardham Temple",
+      "pdf_url": "dutton_47p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2023-11-29",
+      "category": "Gifts",
+      "entity": "Amitabh Kant",
+      "details": "Made in India by Amitabh Kant from Amitabh Kant",
+      "pdf_url": "dutton_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2023-12-19",
+      "category": "Travel",
+      "entity": "Warburton Group",
+      "details": "22 November 2023 Return flight Perth to Ginbata (Roy Hill) courtesy of Warburton Group",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-01-07",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "9 December 2023 \u2013 flight upgrade (Brisbane to Sydney) for myself and Kirilly Dutton courtesy of Qantas.",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-01-22",
+      "category": "Hospitality",
+      "entity": "Cricket Australia",
+      "details": "Tickets and hospitality - Australia v Pakistan Second Test match courtesy of Cricket Australia",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-01-22",
+      "category": "Hospitality",
+      "entity": "Cricket Australia",
+      "details": "Tickets and hospitality - Australia v Pakistan Third Test match courtesy of Cricket Australia",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-04-17",
+      "category": "Gifts",
+      "entity": "H.E Mr Ph\u1ea1m Minh Ch\u00ednh, Prime Minister of the Socialist Republic of Vietnam",
+      "details": "Ceramic Vase \"Bao An\" from HE Mr Ph\u1ea1m Minh Ch\u00ednh, Prime Minister of the Socialist Republic of Vietnam",
+      "pdf_url": "dutton_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2024-06-10",
+      "category": "Travel",
+      "entity": "Stanbroke",
+      "details": "Travel and hospitality - 18-19 May 2024 - Warren Vale courtesy of Stanbroke",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-06-10",
+      "category": "Hospitality",
+      "entity": "Brisbane Broncos",
+      "details": "Tickets and hospitality - 8 June 2024 - Round 14 NRL Broncos v Sharks courtesy of Brisbane Broncos",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-07-27",
+      "category": "Travel",
+      "entity": "the Liberal Party",
+      "details": "Travel and accommodation - Wellington, New Zealand - IDU Forum 2024 courtesy of the Liberal Party",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-08-12",
+      "category": "Travel",
+      "entity": "the Liberal Party",
+      "details": "Travel and accommodation (for myself and spouse) \u2013 United States - Australian American Leadership Dialogue 2024 courtesy of the Liberal Party",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-08-12",
+      "category": "Hospitality",
+      "entity": "Brisbane Lions",
+      "details": "Tickets and hospitality - 21 July 2024 - Brisbane Lions v Sydney Swans courtesy of Brisbane Lions",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-08-29",
+      "category": "Travel",
+      "entity": "Australia Israel & Jewish Affairs Council",
+      "details": "Travel and accommodation - Israel - courtesy of Australia Israel & Jewish Affairs Council",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-08-29",
+      "category": "Hospitality",
+      "entity": "Western Bulldogs",
+      "details": "Tickets and Hospitality - Round 23 Western Bulldogs v North Melbourne courtesy of Western Bulldogs",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-22",
+      "category": "Hospitality",
+      "entity": "AFL",
+      "details": "Tickets and hospitality - 28 September 2024 - AFL Grand Final courtesy of the AFL",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-22",
+      "category": "Hospitality",
+      "entity": "NRL",
+      "details": "Tickets and hospitality - 6 October 2024 - NRL Grand Final courtesy of NRL",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-22",
+      "category": "Hospitality",
+      "entity": "V8 Supercars",
+      "details": "Tickets and hospitality - 13 October 2024 - Bathurst 1000 courtesy of V8 Supercars",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-10-22",
+      "category": "Travel",
+      "entity": "Liberal Party of Australia",
+      "details": "Travel - 13 October 2024 - Sydney to Bathurst (return) - courtesy of the Liberal Party of Australia",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2024-12-23",
+      "category": "Gifts",
+      "entity": "Ferris Jin and Jamie Mao Juemin",
+      "details": "Chinese Tea Gift Sets courtesy of Ferris Jin and Jamie Mao Juemin",
+      "pdf_url": "dutton_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2024-12-23",
+      "category": "Gifts",
+      "entity": "Kevin Withers",
+      "details": "Whipper Snapper Distillery Upshot Whiskey courtesy of Kevin Withers",
+      "pdf_url": "dutton_47p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2024-12-23",
+      "category": "Other Interests",
+      "entity": "Arnold Bloch Leibler",
+      "details": "Ongoing legal assistance from Arnold Bloch Leibler re legal matters",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-01-31",
+      "category": "Hospitality",
+      "entity": "Cricket Australia",
+      "details": "Tickets and hospitality - Day 1 Sydney Test Match, Australia v India courtesy of Cricket Australia",
+      "pdf_url": "dutton_47p.pdf"
+    },
+    {
+      "declaration_date": "2025-01-31",
+      "category": "Shares",
+      "entity": "PK Super (Qld) P/L",
+      "details": "Items 1 and 4 - PK Super (Qld) P/L",
+      "pdf_url": "dutton_47p.pdf"
+    }
+  ],
+  "relationships": []
+}

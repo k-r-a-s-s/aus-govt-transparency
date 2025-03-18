@@ -1,0 +1,400 @@
+{
+  "mp_name": "Peter Craig Dutton",
+  "party": "Unknown",
+  "electorate": "Dickson",
+  "disclosures": [
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Shares",
+      "entity": "Dutton Holdings (Qld) P/L",
+      "details": "Shareholdings in public and private companies",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Shares",
+      "entity": "PK Super (Qld) P/L",
+      "details": "Shareholdings in public and private companies",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Trusts",
+      "entity": "RHT Family Trust (RHT Investments P/L ATF)",
+      "details": "Beneficial interest",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Real Estate",
+      "entity": "Kingston, ACT",
+      "details": "Residential Investment",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Real Estate",
+      "entity": "Moreton Island, QLD",
+      "details": "Residential Investment",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Liabilities",
+      "entity": "ANZ, CBA, NAB",
+      "details": "Credit Facilities",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Liabilities",
+      "entity": "Toyota Finance",
+      "details": "Motor Vehicle Lease",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Savings/Investments",
+      "entity": "ANZ, QPCU, NAB, CBA",
+      "details": "Savings Accounts",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Life Insurance, Furniture, Tractor, Motor Vehicle",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Gifts",
+      "entity": "NRL",
+      "details": "State of Origin tickets and hospitality",
+      "pdf_url": "duttonp_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Gifts",
+      "entity": "Australian Rugby Union",
+      "details": "Tickets and Hospitality",
+      "pdf_url": "duttonp_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Gifts",
+      "entity": "Netball Australia",
+      "details": "Netball tickets and hospitality",
+      "pdf_url": "duttonp_45p.pdf",
+      "sub_category": "Sports Tickets"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Qantas Chairmans Lounge Membership",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Travel",
+      "entity": "Virgin",
+      "details": "Virgin Club Membership",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Other Interests",
+      "entity": "Foxtel",
+      "details": "Electorate Office Foxtel Connection",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Real Estate",
+      "entity": "Palm Beach, Qld",
+      "details": "Residential Investment",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Real Estate",
+      "entity": "Spring Hill, Qld",
+      "details": "Residential Investment",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Real Estate",
+      "entity": "Camp Mountain, Qld",
+      "details": "Principal place of residence",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Directorships",
+      "entity": "RHT Investments (Qld) P/L",
+      "details": "Child Care/Investment. Spouse director",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Directorships",
+      "entity": "Bald Hills Child Care P/L",
+      "details": "Child Care. Spouse director",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Directorships",
+      "entity": "PK Super P/L",
+      "details": "SMSF. Spouse director",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Income Sources",
+      "entity": "RHT Investments (Qld) P/L",
+      "details": "Employment, spouse income.",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Income Sources",
+      "entity": "Bald Hills Child Care P/L",
+      "details": "Employment, spouse income.",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Shares",
+      "entity": "RHT Investments (Qld) P/L",
+      "details": "Spouse Share holdings",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Shares",
+      "entity": "PK Super (Qld) P/L",
+      "details": "Spouse Share holdings",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Trusts",
+      "entity": "RHT Family Trust (RHT Investments P/L ATF)",
+      "details": "Spouse Beneficial interest",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Liabilities",
+      "entity": "ANZ, NAB",
+      "details": "Credit Facilities. Spouse Liability",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-10-07",
+      "category": "Other Assets",
+      "entity": "Kedron Caravans",
+      "details": "Refurbishment of interior of caravan as mobile office.",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Trusts",
+      "entity": "RHT Family Trust (RHT Investments P/L ATF)",
+      "details": "Children Beneficial interest",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Savings/Investments",
+      "entity": "ANZ, QPCU",
+      "details": "Spouse Savings Accounts",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Savings/Investments",
+      "entity": "NAB, CBA",
+      "details": "Savings Accounts for dependent children",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Other Assets",
+      "entity": "N/A",
+      "details": "Spouse Life Insurance, Furniture",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-10-12",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "Residential investment Spring Hill Qld. Alteration.",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2016-11-29",
+      "category": "Real Estate",
+      "entity": "RHT Investment (QLD) P/L",
+      "details": "Purchase of investment property, Trustee for RHT Family Trust.",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-02-13",
+      "category": "Hospitality",
+      "entity": "Cricket Australia",
+      "details": "Tickets and hospitality Australia v Pakistan First Test",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-02-13",
+      "category": "Hospitality",
+      "entity": "Cricket Queensland",
+      "details": "Tickets and hospitality Australia v Pakistan Second Test",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-02-13",
+      "category": "Gifts",
+      "entity": "Tourism Training Australia",
+      "details": "Wine courtesy of Tourism Training Australia",
+      "pdf_url": "duttonp_45p.pdf",
+      "sub_category": "Alcohol"
+    },
+    {
+      "declaration_date": "2017-06-15",
+      "category": "Gifts",
+      "entity": "President of Sri Lanka",
+      "details": "Vase from President of Sri Lanka approximate value $750",
+      "pdf_url": "duttonp_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2017-09-22",
+      "category": "Other Interests",
+      "entity": "Foxtel",
+      "details": "Complimentary annual subscription to Foxtel in Electorate Office",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-09-22",
+      "category": "Hospitality",
+      "entity": "Prostate Cancer",
+      "details": "Complimentary transfers to Prostate Cancer 'Hands Across the Blue' event Gloucester Passage Qld, 26 August 2017",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-10-17",
+      "category": "Travel",
+      "entity": "Qantas",
+      "details": "Upgrade courtesy of Qantas on QF9 Dubai to London, 27 September, 2017",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-12-20",
+      "category": "Hospitality",
+      "entity": "Cricket Australia",
+      "details": "Ticket and hospitality Commonwealth Bank Women's Ashes Series T20 courtesy Cricket Australia",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-12-20",
+      "category": "Hospitality",
+      "entity": "Cricket Australia and Queensland Cricket",
+      "details": "Ticket and hospitality Day 1 Magellan Ashes First Test courtesy of Cricket Australia and Queensland Cricket",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-12-20",
+      "category": "Hospitality",
+      "entity": "Rugby League World Cup",
+      "details": "Ticket and hospitality Rugby League World Cup Semi Final courtesy Rugby League World Cup 2017",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2017-12-20",
+      "category": "Travel",
+      "entity": "Rex Airlines",
+      "details": "Complimentary transfers Melbourne to Wagga Wagga to Sydney courtesy of Rex Airlines",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-02-21",
+      "category": "Hospitality",
+      "entity": "Cricket Australia and SCG Trust",
+      "details": "Tickets and hospitality Magellan Ashes 5th test courtesy of Cricket Australia and SCG Trust",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-02-21",
+      "category": "Travel",
+      "entity": "Virgin Australia",
+      "details": "Virgin Australia flight upgrade Gold Coast to Adelaide",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-02-21",
+      "category": "Hospitality",
+      "entity": "Adelaide Strikers",
+      "details": "Tickets and hospitality BBL match Brisbane and Adelaide courtesy o Adelaide Strikers",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-02-21",
+      "category": "Hospitality",
+      "entity": "Tennis Queensland",
+      "details": "Ticket and hospitality Brisbane International courtesy of Tennis Queensland",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-05-16",
+      "category": "Hospitality",
+      "entity": "Full time Sports Management",
+      "details": "Tickets and hospitality Ed Sheeran Concert courtesy of Full time Sports Management",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2018-06-28",
+      "category": "Gifts",
+      "entity": "UAE Foreign Minister",
+      "details": "Large Coffee Table book courtesy of UAE Foreign Minister",
+      "pdf_url": "duttonp_45p.pdf",
+      "sub_category": "Books/Media"
+    },
+    {
+      "declaration_date": "2018-06-28",
+      "category": "Gifts",
+      "entity": "Netball Australia",
+      "details": "Telstra TV courtesy of Netball Australia",
+      "pdf_url": "duttonp_45p.pdf",
+      "sub_category": "Other Gifts"
+    },
+    {
+      "declaration_date": "2018-06-28",
+      "category": "Hospitality",
+      "entity": "Brisbane Broncos",
+      "details": "Ticket and hospitality Broncos game at Suncorp Stadium courtesy of Brisbane Broncos",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2019-01-25",
+      "category": "Hospitality",
+      "entity": "Cricket Australia and the SCG Trust",
+      "details": "Ticket and hospitality courtesy of Cricket Australia and the SCG Trust.",
+      "pdf_url": "duttonp_45p.pdf"
+    },
+    {
+      "declaration_date": "2019-02-12",
+      "category": "Hospitality",
+      "entity": "Queensland Cricket",
+      "details": "Ticket and hospitality BBL Brisbane Heat vs Perth Scorchers courtesy of Queensland Cricket",
+      "pdf_url": "duttonp_45p.pdf"
+    }
+  ],
+  "relationships": []
+}

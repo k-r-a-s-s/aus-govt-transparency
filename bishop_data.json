@@ -1,0 +1,413 @@
+{
+  "mp_name": "Bronwyn Kathleen Bishop",
+  "party": "Liberal",
+  "electorate": "Mackellar",
+  "disclosures": [
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Asset",
+      "sub_category": "Real Estate",
+      "temporal_type": "ongoing",
+      "entity": "Prince Alfred Parade, Newport",
+      "details": "Residence",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Asset",
+      "sub_category": "Real Estate",
+      "temporal_type": "ongoing",
+      "entity": "Barton, ACT",
+      "details": "Residence",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Asset",
+      "sub_category": "Real Estate",
+      "temporal_type": "ongoing",
+      "entity": "Potts Point, NSW",
+      "details": "Investment property",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Asset",
+      "sub_category": "Real Estate",
+      "temporal_type": "ongoing",
+      "entity": "Curtin, ACT",
+      "details": "Investment property",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Asset",
+      "sub_category": "Real Estate",
+      "temporal_type": "ongoing",
+      "entity": "Wollar, NSW",
+      "details": "Investment property",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Membership",
+      "sub_category": "Professional",
+      "temporal_type": "recurring",
+      "entity": "Dame Pattie Menzies Liberal Foundation",
+      "details": "Foundation",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Membership",
+      "sub_category": "Professional",
+      "temporal_type": "recurring",
+      "entity": "Gladen Cultural Exchange Institute",
+      "details": "Cultural",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Membership",
+      "sub_category": "Professional",
+      "temporal_type": "recurring",
+      "entity": "Opera Foundation Australia",
+      "details": "Cultural",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Membership",
+      "sub_category": "Professional",
+      "temporal_type": "recurring",
+      "entity": "NSW Bravehearts",
+      "details": "Charity",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Liability",
+      "sub_category": "Mortgage",
+      "temporal_type": "ongoing",
+      "entity": "ANZ Banking Group",
+      "details": "Mortgage",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Liability",
+      "sub_category": "Credit",
+      "temporal_type": "ongoing",
+      "entity": "ANZ",
+      "details": "Credit Cards",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Liability",
+      "sub_category": "Credit",
+      "temporal_type": "ongoing",
+      "entity": "Citibank",
+      "details": "Credit Cards",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Liability",
+      "sub_category": "Credit",
+      "temporal_type": "ongoing",
+      "entity": "American Express",
+      "details": "Credit Cards",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Liability",
+      "sub_category": "Other Liability",
+      "temporal_type": "ongoing",
+      "entity": "David Jones",
+      "details": "Store Cards",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Asset",
+      "sub_category": "Other Asset",
+      "temporal_type": "ongoing",
+      "entity": "ANZ Banking Group",
+      "details": "Term Deposits, Online Saver Account",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Income",
+      "sub_category": "Other Income",
+      "temporal_type": "recurring",
+      "entity": "Potts Point, NSW",
+      "details": "Income from investment property",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Income",
+      "sub_category": "Other Income",
+      "temporal_type": "recurring",
+      "entity": "Curtin, ACT",
+      "details": "Income from investment property",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Income",
+      "sub_category": "Other Income",
+      "temporal_type": "recurring",
+      "entity": "Wollar, NSW",
+      "details": "Income from investment property",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Income",
+      "sub_category": "Dividend",
+      "temporal_type": "recurring",
+      "entity": "ANZ Banking Group",
+      "details": "Income from Term Deposits",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-19",
+      "category": "Gift",
+      "sub_category": "Hospitality",
+      "temporal_type": "one-time",
+      "entity": "Opera Australia",
+      "details": "Tickets to the Winter season of the Australian Opera, Sydney",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Travel",
+      "sub_category": "Other Travel",
+      "temporal_type": "one-time",
+      "entity": "Mr Doug Thompson",
+      "details": "Charter flight from Mudgee to Sydney",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2010-10-25",
+      "category": "Gift",
+      "sub_category": "Hospitality",
+      "temporal_type": "one-time",
+      "entity": "Mr Ashley Pittard",
+      "details": "Tickets and hospitality (Ben Hur) in Sydney",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-02-15",
+      "category": "Asset",
+      "sub_category": "Real Estate",
+      "temporal_type": "one-time",
+      "entity": "Wollar, NSW",
+      "details": "Sale of farm property",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-02-15",
+      "category": "Asset",
+      "sub_category": "Real Estate",
+      "temporal_type": "ongoing",
+      "entity": "Dubbo",
+      "details": "Purchase of farm property",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-04-28",
+      "category": "Gift",
+      "sub_category": "Electronics",
+      "temporal_type": "one-time",
+      "entity": "Digital Radio Plus",
+      "details": "Small portable digital radio, given by Digital Radio Plus to all Federal MPs.",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-08-17",
+      "category": "Travel",
+      "sub_category": "Air Travel",
+      "temporal_type": "one-time",
+      "entity": "Huawei Technologies",
+      "details": "Sponsored travel to Singapore and China from 1-6 August 2011. International Business class airfares, internal travel and accommodation costs were paid for by Huawei Technologies.",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-08-17",
+      "category": "Gift",
+      "sub_category": "Hospitality",
+      "temporal_type": "one-time",
+      "entity": "Opera Australia",
+      "details": "Two tickets to the Winter Season of the Australian Opera",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-08-17",
+      "category": "Travel",
+      "sub_category": "Air Travel",
+      "temporal_type": "one-time",
+      "entity": "Qantas",
+      "details": "Staff member received an upgrade from Qantas economy to business class when he travelled with me from Sydney to Melbourne on 20 July 2011",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2011-10-24",
+      "category": "Gift",
+      "sub_category": "Entertainment",
+      "temporal_type": "one-time",
+      "entity": "NRL",
+      "details": "2 tickets to the NRL Grand Final on Sunday 2 October 2011.",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-03-22",
+      "category": "Gift",
+      "sub_category": "Decorative",
+      "temporal_type": "one-time",
+      "entity": "Australia Post",
+      "details": "Framed first day cover of stamp series celebrating one hundred years of compulsory enrolment",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-05-17",
+      "category": "Gift",
+      "sub_category": "Entertainment",
+      "temporal_type": "one-time",
+      "entity": "Yes, Prime Minister",
+      "details": "Attended a performance of \"Yes, Prime Minister\" on 4 April 2012 as guests. (2 tickets). Two members of my staff were also guests, along with their partners.",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-05-21",
+      "category": "Gift",
+      "sub_category": "Hospitality",
+      "temporal_type": "one-time",
+      "entity": "Opera Australia",
+      "details": "Two tickets to the 2012 Summer Season of Opera Australia",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-05-21",
+      "category": "Gift",
+      "sub_category": "Entertainment",
+      "temporal_type": "one-time",
+      "entity": "Manly Sea Eagles",
+      "details": "One ticket to the Manly Sea Eagles home game on 20 May 2012, to collect for the Salvation Army and view the game.",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-06-18",
+      "category": "Gift",
+      "sub_category": "Entertainment",
+      "temporal_type": "one-time",
+      "entity": "Huawei Technologies",
+      "details": "One ticket to a private box to view the State of Origin on Wednesday 13 June 2012",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-07-11",
+      "category": "Membership",
+      "sub_category": "Other Membership",
+      "temporal_type": "recurring",
+      "entity": "National Press Club of Australia",
+      "details": "Complimentary membership to the National Press Club of Australia",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-09-14",
+      "category": "Gift",
+      "sub_category": "Entertainment",
+      "temporal_type": "one-time",
+      "entity": "Huawei Technologies",
+      "details": "1 ticket, Bledisloe Cup, Saturday 18th August",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-26",
+      "category": "Gift",
+      "sub_category": "Entertainment",
+      "temporal_type": "one-time",
+      "entity": "Huawei Technologies",
+      "details": "1 Ticket, NRL Bulldogs v Rabbitohs 22nd September",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2012-11-26",
+      "category": "Gift",
+      "sub_category": "Hospitality",
+      "temporal_type": "one-time",
+      "entity": "Opera Australia",
+      "details": "Two tickets to the 2012 Winter Season of Opera Australia",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-02-12",
+      "category": "Gift",
+      "sub_category": "Entertainment",
+      "temporal_type": "one-time",
+      "entity": "SBS Corporation",
+      "details": "One ticket to a private box, Allianz Stadium, February 10 for the A-League game",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-02-12",
+      "category": "Membership",
+      "sub_category": "Other Membership",
+      "temporal_type": "recurring",
+      "entity": "Qantas Chairman's Lounge",
+      "details": "Complimentary membership to the Qantas Chairman's Lounge, 2013",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-06-06",
+      "category": "Membership",
+      "sub_category": "Other Membership",
+      "temporal_type": "recurring",
+      "entity": "Virgin Club",
+      "details": "Complimentary membership to the Virgin Club 2013.",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-06-06",
+      "category": "Gift",
+      "sub_category": "Decorative",
+      "temporal_type": "one-time",
+      "entity": "Australia Post",
+      "details": "Framed Stamp Series, celebrating the Centenary of Canberra",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-06-06",
+      "category": "Travel",
+      "sub_category": "Air Travel",
+      "temporal_type": "one-time",
+      "entity": "Hancock Prospecting Proprietary Limited",
+      "details": "Flight from Canberra to Sydney for myself and a staff member.",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-06-18",
+      "category": "Gift",
+      "sub_category": "Hospitality",
+      "temporal_type": "one-time",
+      "entity": "Opera Australia",
+      "details": "Two tickets to the Winter season of Opera Australia.",
+      "pdf_url": "bishopb_43p.pdf"
+    },
+    {
+      "declaration_date": "2013-07-10",
+      "category": "Gift",
+      "sub_category": "Entertainment",
+      "temporal_type": "one-time",
+      "entity": "Australian Rugby Union Limited",
+      "details": "2 tickets to the Wallabies v Lions Rugby Union on Saturday 6th July 2013",
+      "pdf_url": "bishopb_43p.pdf"
+    }
+  ],
+  "relationships": []
+}

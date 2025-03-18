@@ -1,0 +1,217 @@
+{
+  "mp_name": "Mark Alfred Dreyfus",
+  "party": "Australian Labor Party",
+  "electorate": "Isaacs",
+  "declaration_date": "2010-07-19",
+  "declarations": [
+    {
+      "category": "Shares",
+      "entity": "BHP Billiton Ltd",
+      "value": "Undisclosed",
+      "status": "Active",
+      "additional_details": {
+        "owner": "Self"
+      }
+    },
+    {
+      "category": "Shares",
+      "entity": "Telstra Corporation Ltd",
+      "value": "Undisclosed",
+      "status": "Active",
+      "additional_details": {
+        "owner": "Self"
+      }
+    },
+    {
+      "category": "Shares",
+      "entity": "Westpac Banking Corporation",
+      "value": "Undisclosed",
+      "status": "Active",
+      "additional_details": {
+        "owner": "Spouse"
+      }
+    },
+    {
+      "category": "Shares",
+      "entity": "Commonwealth Bank of Australia",
+      "value": "Undisclosed",
+      "status": "Active",
+      "additional_details": {
+        "owner": "Spouse"
+      }
+    },
+    {
+      "category": "Trusts",
+      "entity": "Dreyfus Family Trust",
+      "value": "Undisclosed",
+      "status": "Active",
+      "additional_details": {
+        "owner": "Self",
+        "role": "Beneficiary"
+      }
+    },
+    {
+      "category": "Trusts",
+      "entity": "Dreyfus Family Trust",
+      "value": "Undisclosed",
+      "status": "Active",
+      "additional_details": {
+        "owner": "Spouse",
+        "role": "Beneficiary"
+      }
+    },
+    {
+      "category": "Real Estate",
+      "entity": "Residential property in Malvern, VIC",
+      "value": "Undisclosed",
+      "status": "Active",
+      "additional_details": {
+        "owner": "Self",
+        "type": "Investment"
+      }
+    },
+    {
+      "category": "Real Estate",
+      "entity": "Holiday house in Rye, VIC",
+      "value": "Undisclosed",
+      "status": "Active",
+      "additional_details": {
+        "owner": "Self"
+      }
+    },
+    {
+      "category": "Real Estate",
+      "entity": "Residential property in Malvern, VIC",
+      "value": "Undisclosed",
+      "status": "Active",
+      "additional_details": {
+        "owner": "Spouse",
+        "type": "Investment"
+      }
+    },
+    {
+      "category": "Real Estate",
+      "entity": "Holiday house in Rye, VIC",
+      "value": "Undisclosed",
+      "status": "Active",
+      "additional_details": {
+        "owner": "Spouse"
+      }
+    },
+    {
+      "category": "Directorships",
+      "entity": "Dreyfus Nominees Pty Ltd",
+      "value": "Non-remunerated",
+      "status": "Active",
+      "additional_details": {
+        "owner": "Self"
+      }
+    },
+    {
+      "category": "Liabilities",
+      "entity": "Westpac Banking Corporation",
+      "value": "Undisclosed",
+      "status": "Active",
+      "additional_details": {
+        "owner": "Self",
+        "type": "Mortgage on investment property"
+      }
+    },
+    {
+      "category": "Liabilities",
+      "entity": "Westpac Banking Corporation",
+      "value": "Undisclosed",
+      "status": "Active",
+      "additional_details": {
+        "owner": "Spouse",
+        "type": "Mortgage on investment property"
+      }
+    },
+    {
+      "category": "Savings/Investment Accounts",
+      "entity": "Commonwealth Bank of Australia",
+      "value": "Undisclosed",
+      "status": "Active",
+      "additional_details": {
+        "owner": "Self",
+        "type": "Savings account"
+      }
+    },
+    {
+      "category": "Savings/Investment Accounts",
+      "entity": "Westpac Banking Corporation",
+      "value": "Undisclosed",
+      "status": "Active",
+      "additional_details": {
+        "owner": "Self",
+        "type": "Term deposit"
+      }
+    },
+    {
+      "category": "Savings/Investment Accounts",
+      "entity": "Commonwealth Bank of Australia",
+      "value": "Undisclosed",
+      "status": "Active",
+      "additional_details": {
+        "owner": "Spouse",
+        "type": "Savings account"
+      }
+    },
+    {
+      "category": "Savings/Investment Accounts",
+      "entity": "Westpac Banking Corporation",
+      "value": "Undisclosed",
+      "status": "Active",
+      "additional_details": {
+        "owner": "Spouse",
+        "type": "Term deposit"
+      }
+    },
+    {
+      "category": "Gifts",
+      "entity": "Monash Foundation",
+      "value": "approx. $400",
+      "status": "Received",
+      "additional_details": {
+        "owner": "Self",
+        "description": "Two tickets to AFL Grand Final"
+      }
+    },
+    {
+      "category": "Memberships",
+      "entity": "Australian Labor Party",
+      "value": "Undisclosed",
+      "status": "Active",
+      "additional_details": {
+        "owner": "Self"
+      }
+    },
+    {
+      "category": "Memberships",
+      "entity": "Law Institute of Victoria",
+      "value": "Undisclosed",
+      "status": "Active",
+      "additional_details": {
+        "owner": "Self"
+      }
+    },
+    {
+      "category": "Memberships",
+      "entity": "Victorian Bar Association",
+      "value": "Undisclosed",
+      "status": "Active",
+      "additional_details": {
+        "owner": "Self"
+      }
+    },
+    {
+      "category": "Memberships",
+      "entity": "Australian Labor Party",
+      "value": "Undisclosed",
+      "status": "Active",
+      "additional_details": {
+        "owner": "Spouse"
+      }
+    }
+  ]
+}

@@ -1,0 +1,3486 @@
+[
+  {
+    "entity": {
+      "id": "b3f869ab-cd85-4e54-b75b-1e64ec2d8b97",
+      "entity_type": "Directorships",
+      "canonical_name": "bald hills child care",
+      "first_appearance_date": "2022-05-21",
+      "last_appearance_date": "2022-05-21",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "2381c3ed-fe53-495c-9f18-c29e9c78a060",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-07-31",
+        "category": "Directorships",
+        "entity": "Bald Hills Child Care P/L",
+        "details": "Child Care/Investment (Spouse/Partner)",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "b3f869ab-cd85-4e54-b75b-1e64ec2d8b97"
+      },
+      {
+        "id": "a8e55720-fb1e-4518-9d17-ee3e9ab4169a",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-05-21",
+        "category": "Directorships",
+        "entity": "Bald Hills Child Care P/L",
+        "details": "Spouse/partner, NIL",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "b3f869ab-cd85-4e54-b75b-1e64ec2d8b97"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "12b80d08-abd1-4258-9347-8bf9e5ac4eff",
+      "entity_type": "Directorships",
+      "canonical_name": "dutton holdings qld",
+      "first_appearance_date": "2022-05-21",
+      "last_appearance_date": "2022-11-09",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "05981d24-5ea8-4627-b8be-3f2a8ffd1825",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-05-21",
+        "category": "Directorships",
+        "entity": "Dutton Holdings (Qld) P/L",
+        "details": "Spouse/partner, NIL",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "12b80d08-abd1-4258-9347-8bf9e5ac4eff"
+      },
+      {
+        "id": "785cfafb-de56-4e10-ad8e-b371ca3124c0",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-11-09",
+        "category": "Directorships",
+        "entity": "Dutton Holdings (Qld) P/L",
+        "details": "Dutton Holdings (Qld) P/L and Bald Hills Child Care P/L voluntarily deregistered",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "12b80d08-abd1-4258-9347-8bf9e5ac4eff"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "e54eaad8-e402-4931-8b21-e7dec2e5088c",
+      "entity_type": "Directorships",
+      "canonical_name": "k d investments qld",
+      "first_appearance_date": "2019-07-31",
+      "last_appearance_date": "2019-09-19",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "b51ac06d-8972-4ace-b103-8c6eea95d113",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-07-31",
+        "category": "Directorships",
+        "entity": "K.D.Investments (Qld) Pty Ltd",
+        "details": "Investment (Spouse/Partner)",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "e54eaad8-e402-4931-8b21-e7dec2e5088c"
+      },
+      {
+        "id": "87a9dc19-1bd2-4f3d-8832-8fb28c43de88",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-09-19",
+        "category": "Directorships",
+        "entity": "K. D. Investments (Qld) Pty.Ltd.",
+        "details": "SPOUSE - DELETED",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "e54eaad8-e402-4931-8b21-e7dec2e5088c"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "7f6d6690-666c-4b62-9693-62537dbb7b25",
+      "entity_type": "Directorships",
+      "canonical_name": "not applicable",
+      "first_appearance_date": "2022-05-21",
+      "last_appearance_date": "2022-05-21",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "7ac7b254-dd13-4a8c-a23d-a4b66599dcaf",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-05-21",
+        "category": "Directorships",
+        "entity": "Not Applicable",
+        "details": "Self",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "7f6d6690-666c-4b62-9693-62537dbb7b25"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "7c3afd1c-8b03-422f-8d4b-0cd5e0ee2f1d",
+      "entity_type": "Directorships",
+      "canonical_name": "pk super",
+      "first_appearance_date": "2019-07-31",
+      "last_appearance_date": "2019-07-31",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "acf6ca67-075d-4be9-9c49-86e55ff0f09f",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-07-31",
+        "category": "Directorships",
+        "entity": "PK Super P/L",
+        "details": "SMSF (Spouse/Partner)",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "7c3afd1c-8b03-422f-8d4b-0cd5e0ee2f1d"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "5ed7568a-b969-4f8a-8a33-6d5669ad2b7e",
+      "entity_type": "Directorships",
+      "canonical_name": "pk super qld",
+      "first_appearance_date": "2022-05-21",
+      "last_appearance_date": "2022-05-21",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "7313f7f5-676e-435e-a23c-2243b7d3a0ef",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-05-21",
+        "category": "Directorships",
+        "entity": "PK Super (Qld) P/L",
+        "details": "Spouse/partner, SMSF",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "5ed7568a-b969-4f8a-8a33-6d5669ad2b7e"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "b02d4fcc-48e7-4ed3-bff0-1af49b9dae2e",
+      "entity_type": "Directorships",
+      "canonical_name": "rht investments qld",
+      "first_appearance_date": "2022-05-21",
+      "last_appearance_date": "2022-05-21",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "5483c65d-d0a4-43f6-a9b9-55f750bad840",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-07-31",
+        "category": "Directorships",
+        "entity": "RHT Investments (Qld) P/L",
+        "details": "Child Care/Investment (Spouse/Partner)",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "b02d4fcc-48e7-4ed3-bff0-1af49b9dae2e"
+      },
+      {
+        "id": "d4f5bf5a-6933-4961-86db-9b6af5cf7cb2",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-05-21",
+        "category": "Directorships",
+        "entity": "RHT Investments (Qld) P/L",
+        "details": "Spouse/partner, Investments",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "b02d4fcc-48e7-4ed3-bff0-1af49b9dae2e"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "18a17236-4576-4374-b55e-bd4f64888f0b",
+      "entity_type": "Gifts",
+      "canonical_name": "ajit doval",
+      "first_appearance_date": "2023-11-29",
+      "last_appearance_date": "2023-11-29",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "9c148c51-f858-401d-b3d7-7ccb506de93f",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2023-11-29",
+        "category": "Gifts",
+        "entity": "Ajit Doval",
+        "details": "Ornamental sceptre from Ajit Doval",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "Decorative",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "18a17236-4576-4374-b55e-bd4f64888f0b"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "e9a1319f-c0b7-4a53-833a-6eecdb3eb334",
+      "entity_type": "Gifts",
+      "canonical_name": "akshardham temple",
+      "first_appearance_date": "2023-11-29",
+      "last_appearance_date": "2023-11-29",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "b6d86376-7b3e-43e4-849a-d0e8a7e47761",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2023-11-29",
+        "category": "Gifts",
+        "entity": "Akshardham Temple",
+        "details": "Books and pictures from Akshardham Temple",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "Books/Media",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "e9a1319f-c0b7-4a53-833a-6eecdb3eb334"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "53b6051f-02d9-42a1-945a-4d616c9e8ef9",
+      "entity_type": "Gifts",
+      "canonical_name": "amitabh kant",
+      "first_appearance_date": "2023-11-29",
+      "last_appearance_date": "2023-11-29",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "84c3cf5f-b36c-46d9-914f-3352f5a3e8de",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2023-11-29",
+        "category": "Gifts",
+        "entity": "Amitabh Kant",
+        "details": "Made in India by Amitabh Kant from Amitabh Kant",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "Other Gifts",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "53b6051f-02d9-42a1-945a-4d616c9e8ef9"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "fd3ada20-7724-4be4-a6e1-4d4a4a44e726",
+      "entity_type": "Gifts",
+      "canonical_name": "councillor livingston chettipally",
+      "first_appearance_date": "2023-11-29",
+      "last_appearance_date": "2023-11-29",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "547dd0a3-4d6c-448c-841b-71ab2d2d630e",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2023-11-29",
+        "category": "Gifts",
+        "entity": "Councillor Livingston Chettipally",
+        "details": "Ornamental peacock from Councillor Livingston Chettipally",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "Decorative",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "fd3ada20-7724-4be4-a6e1-4d4a4a44e726"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "8509cd0f-2d01-4a58-b754-5b5793bcff55",
+      "entity_type": "Gifts",
+      "canonical_name": "ferris jin and jamie mao juemin",
+      "first_appearance_date": "2024-12-23",
+      "last_appearance_date": "2024-12-23",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "5531b36c-1bb1-4af7-817a-cd2b95073d57",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2024-12-23",
+        "category": "Gifts",
+        "entity": "Ferris Jin and Jamie Mao Juemin",
+        "details": "Chinese Tea Gift Sets courtesy of Ferris Jin and Jamie Mao Juemin",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "Other Gifts",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "8509cd0f-2d01-4a58-b754-5b5793bcff55"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "fbfcaaeb-f76f-4390-909c-6d101dedab3c",
+      "entity_type": "Gifts",
+      "canonical_name": "h e mr ph\u1ea1m minh ch\u00ednh prime minister of the socialist republic of vietnam",
+      "first_appearance_date": "2024-04-17",
+      "last_appearance_date": "2024-04-17",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "4b2b58dd-b00d-4e71-afbb-0e97002fe5dd",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2024-04-17",
+        "category": "Gifts",
+        "entity": "H.E Mr Ph\u1ea1m Minh Ch\u00ednh, Prime Minister of the Socialist Republic of Vietnam",
+        "details": "Ceramic Vase \"Bao An\" from HE Mr Ph\u1ea1m Minh Ch\u00ednh, Prime Minister of the Socialist Republic of Vietnam",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "Other Gifts",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "fbfcaaeb-f76f-4390-909c-6d101dedab3c"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "70305d9d-40f5-460e-9de1-38fe2c6ed9c1",
+      "entity_type": "Gifts",
+      "canonical_name": "hinduja group",
+      "first_appearance_date": "2023-11-29",
+      "last_appearance_date": "2023-11-29",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "f7a8a5c9-3970-4139-a7c9-b09a67b8f4db",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2023-11-29",
+        "category": "Gifts",
+        "entity": "Hinduja Group",
+        "details": "Theorama from Hinduja Group",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "Other Gifts",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "70305d9d-40f5-460e-9de1-38fe2c6ed9c1"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "bafb08d9-892f-484e-be51-767c9f5e2568",
+      "entity_type": "Gifts",
+      "canonical_name": "india australia strategic alliance",
+      "first_appearance_date": "2023-07-28",
+      "last_appearance_date": "2023-11-29",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "d00d7103-5b45-4de7-8555-d6faa3fc4ae6",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2023-07-28",
+        "category": "Gifts",
+        "entity": "India Australia Strategic Alliance",
+        "details": "3 July 2023 - Mont Blanc pen from India Australia Strategic Alliance",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "Office Items",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "bafb08d9-892f-484e-be51-767c9f5e2568"
+      },
+      {
+        "id": "82274a9f-3518-4af7-83a1-7030a2873ce5",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2023-11-29",
+        "category": "Gifts",
+        "entity": "India Australia Strategic Alliance",
+        "details": "Cufflinks and scarves from India Australia Strategic Alliance",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "Other Gifts",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "bafb08d9-892f-484e-be51-767c9f5e2568"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "192f6f22-b69f-4283-bd9e-59a392191c80",
+      "entity_type": "Gifts",
+      "canonical_name": "kevin withers",
+      "first_appearance_date": "2024-12-23",
+      "last_appearance_date": "2024-12-23",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "2512a488-0272-4505-810f-8543e54d61e6",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2024-12-23",
+        "category": "Gifts",
+        "entity": "Kevin Withers",
+        "details": "Whipper Snapper Distillery Upshot Whiskey courtesy of Kevin Withers",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "Other Gifts",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "192f6f22-b69f-4283-bd9e-59a392191c80"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "369d7d98-5925-48dc-b4c1-c70e9e953305",
+      "entity_type": "Gifts",
+      "canonical_name": "nitkin gadkarji minister for road transport and highways",
+      "first_appearance_date": "2023-11-29",
+      "last_appearance_date": "2023-11-29",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "7d6aec35-56c5-46d3-891e-f34bf9b60624",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2023-11-29",
+        "category": "Gifts",
+        "entity": "Nitkin Gadkarji, Minister for Road Transport and Highways",
+        "details": "Madhubani painting from Nitkin Gadkarji, Minister for Road Transport and Highways",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "Other Gifts",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "369d7d98-5925-48dc-b4c1-c70e9e953305"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "4211b667-d902-411a-b5c4-01b8777c98f3",
+      "entity_type": "Gifts",
+      "canonical_name": "op jindal global university",
+      "first_appearance_date": "2023-11-29",
+      "last_appearance_date": "2023-11-29",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "25fe9e07-e17e-4e9b-8a27-d80952ebd6ed",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2023-11-29",
+        "category": "Gifts",
+        "entity": "OP Jindal Global University",
+        "details": "Academic stole and ornamental peacock from OP Jindal Global University",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "Decorative",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "4211b667-d902-411a-b5c4-01b8777c98f3"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "d08c03bd-9cd0-4262-a64b-801d7b363130",
+      "entity_type": "Gifts",
+      "canonical_name": "president of republic of nauru",
+      "first_appearance_date": "2019-12-19",
+      "last_appearance_date": "2019-12-19",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "33bceeef-ef59-4845-9341-ec856bb3671c",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-12-19",
+        "category": "Gifts",
+        "entity": "President of Republic of Nauru",
+        "details": "Meist Ground Fountain Pen Mont Blanc and Ink Refill courtesy of President of Republic of Nauru - ADDED",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "Office Items",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "d08c03bd-9cd0-4262-a64b-801d7b363130"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "f80cc876-7247-4f85-962e-1709d198f403",
+      "entity_type": "Hospitality",
+      "canonical_name": "afl",
+      "first_appearance_date": "2022-10-12",
+      "last_appearance_date": "2024-10-22",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "0d75b1b8-de46-4950-9664-88c329177b32",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-10-12",
+        "category": "Hospitality",
+        "entity": "AFL",
+        "details": "Tickets and Hospitality - 2022 AFL Grand Final courtesy of the AFL",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "f80cc876-7247-4f85-962e-1709d198f403"
+      },
+      {
+        "id": "d4950bf1-b1d2-4ba8-a6a7-b88b6179fb71",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2024-10-22",
+        "category": "Hospitality",
+        "entity": "AFL",
+        "details": "Tickets and hospitality - 28 September 2024 - AFL Grand Final courtesy of the AFL",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "f80cc876-7247-4f85-962e-1709d198f403"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "8bdc3551-76b1-436a-ab1c-a07cda442c32",
+      "entity_type": "Hospitality",
+      "canonical_name": "arlc and nrl",
+      "first_appearance_date": "2023-06-27",
+      "last_appearance_date": "2023-06-27",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "cdf0d8d0-78ac-4699-afe2-6648bc3b6b07",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2023-06-27",
+        "category": "Hospitality",
+        "entity": "ARLC and NRL",
+        "details": "1 June 2023 - Tickets and hospitality - Game 1 2023 Ampol Women's State of Origin Series courtesy of the ARLC and NRL",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "8bdc3551-76b1-436a-ab1c-a07cda442c32"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "78e5d9c5-39c2-4756-84e9-4b95b871c22f",
+      "entity_type": "Hospitality",
+      "canonical_name": "asm global",
+      "first_appearance_date": "2023-08-21",
+      "last_appearance_date": "2023-08-21",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "9297a3e6-59d0-496f-99ea-81a1a2c40fb7",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2023-08-21",
+        "category": "Hospitality",
+        "entity": "ASM Global",
+        "details": "Tickets and Hospitality - 12 August 2023 - Luke Combs concert courtesy of ASM Global",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "78e5d9c5-39c2-4756-84e9-4b95b871c22f"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "e983bb5b-8260-4d25-b12c-72883778b234",
+      "entity_type": "Hospitality",
+      "canonical_name": "australian football league",
+      "first_appearance_date": "2023-10-17",
+      "last_appearance_date": "2023-10-17",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "f6ea4b8f-a78a-4e35-9262-05f0716b3869",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2023-10-17",
+        "category": "Hospitality",
+        "entity": "Australian Football League",
+        "details": "Tickets and Hospitality - 23 September 2023 - Lions v Carlton Preliminary Final courtesy of the Australian Football League",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "e983bb5b-8260-4d25-b12c-72883778b234"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "34e734ed-9563-4119-9fb5-cb17db80bd36",
+      "entity_type": "Hospitality",
+      "canonical_name": "ballet australia",
+      "first_appearance_date": "2023-10-17",
+      "last_appearance_date": "2023-10-17",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "f1cfb9dd-177e-4880-aad9-1ce20d61e14d",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2023-10-17",
+        "category": "Hospitality",
+        "entity": "Ballet Australia",
+        "details": "Tickets and Hospitality - 19 September 2023 - Swan Lake ballet courtesy of Ballet Australia",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "34e734ed-9563-4119-9fb5-cb17db80bd36"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "988d0f3e-d7ef-4c62-84df-c09957c92cb8",
+      "entity_type": "Hospitality",
+      "canonical_name": "brisbane broncos",
+      "first_appearance_date": "2023-07-28",
+      "last_appearance_date": "2024-06-10",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "599e432e-7a5a-4548-809c-5170cf73bd1c",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2023-07-28",
+        "category": "Hospitality",
+        "entity": "Brisbane Broncos",
+        "details": "1 July 2023-Tickets and hospitality - Broncos v Dolphins courtesy of Brisbane Broncos",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "988d0f3e-d7ef-4c62-84df-c09957c92cb8"
+      },
+      {
+        "id": "c4fe838e-fa66-4acc-a2af-d674e916524d",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2023-10-17",
+        "category": "Hospitality",
+        "entity": "Brisbane Broncos",
+        "details": "Tickets and Hospitality - 23 September 2023 - Broncos v Warriors Preliminary Final courtesy of Brisbane Broncos",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "988d0f3e-d7ef-4c62-84df-c09957c92cb8"
+      },
+      {
+        "id": "5732722d-b544-4c2a-8051-5fa265c9c5e8",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2024-06-10",
+        "category": "Hospitality",
+        "entity": "Brisbane Broncos",
+        "details": "Tickets and hospitality - 8 June 2024 - Round 14 NRL Broncos v Sharks courtesy of Brisbane Broncos",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "988d0f3e-d7ef-4c62-84df-c09957c92cb8"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "826ec390-48f0-4113-9e1f-83bbc3d354e9",
+      "entity_type": "Hospitality",
+      "canonical_name": "brisbane lions",
+      "first_appearance_date": "2024-08-12",
+      "last_appearance_date": "2024-08-12",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "c7fb099a-775e-4219-b12f-49232a177a9e",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-09-19",
+        "category": "Hospitality",
+        "entity": "Brisbane Lions",
+        "details": "Ticket and hospitality AFL 2nd qualifying final Brisbane Lions v Richmond courtesy Brisbane Lions - ADDED",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "826ec390-48f0-4113-9e1f-83bbc3d354e9"
+      },
+      {
+        "id": "8128b17b-f6c9-4e67-8ed7-bc01d6377e18",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2024-08-12",
+        "category": "Hospitality",
+        "entity": "Brisbane Lions",
+        "details": "Tickets and hospitality - 21 July 2024 - Brisbane Lions v Sydney Swans courtesy of Brisbane Lions",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "826ec390-48f0-4113-9e1f-83bbc3d354e9"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "2caf61fe-579a-40ac-bc1d-3dc11a1c12e8",
+      "entity_type": "Hospitality",
+      "canonical_name": "channel nine",
+      "first_appearance_date": "Unknown",
+      "last_appearance_date": "Unknown",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "27ff9bae-c40d-4983-b396-9abd7dcbb2f3",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "Unknown",
+        "category": "Hospitality",
+        "entity": "Channel Nine",
+        "details": "29 January 2023 - Tickets and Hospitality - Australian Open courtesy of Channel Nine",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "2caf61fe-579a-40ac-bc1d-3dc11a1c12e8"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "a6af07bc-08ec-4667-aed5-90de1a3e9c95",
+      "entity_type": "Hospitality",
+      "canonical_name": "cricket australia",
+      "first_appearance_date": "2023-02-02",
+      "last_appearance_date": "2025-01-31",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "eba630dc-17af-48f4-9b44-82fc55fa2cde",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-09-19",
+        "category": "Hospitality",
+        "entity": "Cricket Australia",
+        "details": "Tickets and hospitality Day 3 Ashes Test London courtesy of Cricket Australia - ADDED",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "a6af07bc-08ec-4667-aed5-90de1a3e9c95"
+      },
+      {
+        "id": "d93db62f-74e6-43f5-871f-40836215f7df",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2023-02-02",
+        "category": "Hospitality",
+        "entity": "Cricket Australia",
+        "details": "Tickets and Hospitality - Aus v South Africa Third Test match courtesy of Cricket Australia",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "a6af07bc-08ec-4667-aed5-90de1a3e9c95"
+      },
+      {
+        "id": "e750568f-8dda-41a5-9c37-3f105fd7c172",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2023-08-21",
+        "category": "Hospitality",
+        "entity": "Cricket Australia",
+        "details": "Tickets and Hospitality- Australia v England Fifth Ashes Test courtesy of Cricket Australia",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "a6af07bc-08ec-4667-aed5-90de1a3e9c95"
+      },
+      {
+        "id": "f9851eb4-8279-411a-bc3b-f7d17eaf71d1",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2024-01-22",
+        "category": "Hospitality",
+        "entity": "Cricket Australia",
+        "details": "Tickets and hospitality - Australia v Pakistan Second Test match courtesy of Cricket Australia",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "a6af07bc-08ec-4667-aed5-90de1a3e9c95"
+      },
+      {
+        "id": "cdb4412c-30ac-4d83-90d9-50119f57b007",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2024-01-22",
+        "category": "Hospitality",
+        "entity": "Cricket Australia",
+        "details": "Tickets and hospitality - Australia v Pakistan Third Test match courtesy of Cricket Australia",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "a6af07bc-08ec-4667-aed5-90de1a3e9c95"
+      },
+      {
+        "id": "8c6f585b-f338-4022-9b58-1b09bdd3be83",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2025-01-31",
+        "category": "Hospitality",
+        "entity": "Cricket Australia",
+        "details": "Tickets and hospitality - Day 1 Sydney Test Match, Australia v India courtesy of Cricket Australia",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "a6af07bc-08ec-4667-aed5-90de1a3e9c95"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "66f7ba07-0cfc-4b63-a82a-d3daaf482f9f",
+      "entity_type": "Hospitality",
+      "canonical_name": "cricket australia and cricket queensland",
+      "first_appearance_date": "2021-02-10",
+      "last_appearance_date": "2021-02-10",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "d3ca969d-89db-49fd-a54f-c130bb65449c",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2021-02-10",
+        "category": "Hospitality",
+        "entity": "Cricket Australia and Cricket Queensland",
+        "details": "Tickets and hospitality Day 1 of the Vodafone Test Series Australia v India courtesy of Cricket Australia and Cricket Queensland",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "66f7ba07-0cfc-4b63-a82a-d3daaf482f9f"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "119fa2f9-571b-463a-a6f3-3fb3e6c844ef",
+      "entity_type": "Hospitality",
+      "canonical_name": "federal parliamentary press gallery",
+      "first_appearance_date": "2023-06-27",
+      "last_appearance_date": "2023-06-27",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "376fb7f8-6ad0-4f4a-ac7d-51667a31c86d",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2023-06-27",
+        "category": "Hospitality",
+        "entity": "Federal Parliamentary Press Gallery",
+        "details": "21 June 2023 - Tickets to Midwinter Ball courtesy of the Federal Parliamentary Press Gallery",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "119fa2f9-571b-463a-a6f3-3fb3e6c844ef"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "07da424e-b6f8-4451-9262-adf0a66a0852",
+      "entity_type": "Hospitality",
+      "canonical_name": "fifa",
+      "first_appearance_date": "2023-08-21",
+      "last_appearance_date": "2023-08-21",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "dc7b0482-7d3d-4a90-8980-915096a3437a",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2023-08-21",
+        "category": "Hospitality",
+        "entity": "FIFA",
+        "details": "Tickets and Hospitality - 7 August 2023 - Australia v Denmark World Cup match courtesy of FIFA",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "07da424e-b6f8-4451-9262-adf0a66a0852"
+      },
+      {
+        "id": "ef8bbd37-7d82-4137-b7a5-9daf88dcaa75",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2023-08-21",
+        "category": "Hospitality",
+        "entity": "FIFA",
+        "details": "Tickets and Hospitality - 19 August 2023 - Australia v Sweden World Cup match courtesy of FIFA",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "07da424e-b6f8-4451-9262-adf0a66a0852"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "1a07419c-cb90-40bb-aad7-9ecda08cfd1c",
+      "entity_type": "Hospitality",
+      "canonical_name": "former origin greats",
+      "first_appearance_date": "2019-07-31",
+      "last_appearance_date": "2019-07-31",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "e41c527d-edb4-484e-be66-14685b1c768a",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-07-31",
+        "category": "Hospitality",
+        "entity": "Former Origin Greats",
+        "details": "Tickets to State of Origin Suncorp Stadium courtesy of Former Origin Greats",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "1a07419c-cb90-40bb-aad7-9ecda08cfd1c"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "22426a90-ffb7-4a16-8bc3-e53b26bae86f",
+      "entity_type": "Hospitality",
+      "canonical_name": "moreton bay regional council",
+      "first_appearance_date": "2023-05-18",
+      "last_appearance_date": "2023-05-18",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "d60c90b7-8182-4ad2-a4d5-e0a0da52ddfb",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2023-05-18",
+        "category": "Hospitality",
+        "entity": "Moreton Bay Regional Council",
+        "details": "23 April 2023 - Tickets and Hospitality - Titans v Dolphins NRL match courtesy of Moreton Bay Regional Council",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "22426a90-ffb7-4a16-8bc3-e53b26bae86f"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "47b74303-0948-4db9-9e97-3f1cc1385043",
+      "entity_type": "Hospitality",
+      "canonical_name": "nrl",
+      "first_appearance_date": "2022-08-23",
+      "last_appearance_date": "2024-10-22",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "38e075d6-9be5-4b57-bc3b-d64be03bdd84",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-08-23",
+        "category": "Hospitality",
+        "entity": "NRL",
+        "details": "26 June Tickets and hospitality to State of Origin Game 2 courtesy of NRL",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "47b74303-0948-4db9-9e97-3f1cc1385043"
+      },
+      {
+        "id": "d6d87b3f-4602-4f3a-9b0a-6a6cedf15d3b",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-10-12",
+        "category": "Hospitality",
+        "entity": "NRL",
+        "details": "Tickets and Hospitality - 2022 NRL Grand Final courtesy of the NRL",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "47b74303-0948-4db9-9e97-3f1cc1385043"
+      },
+      {
+        "id": "344d6f41-e18f-4b4a-9d1c-6431f6a863fb",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2023-10-28",
+        "category": "Hospitality",
+        "entity": "NRL",
+        "details": "Tickets and Hospitality - 1 October 2023 - NRL Grand Final courtesy of NRL",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "47b74303-0948-4db9-9e97-3f1cc1385043"
+      },
+      {
+        "id": "a756824f-0e58-4fca-a1ba-cf200d9b4bd4",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2024-10-22",
+        "category": "Hospitality",
+        "entity": "NRL",
+        "details": "Tickets and hospitality - 6 October 2024 - NRL Grand Final courtesy of NRL",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "47b74303-0948-4db9-9e97-3f1cc1385043"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "2d319006-e748-4706-a5be-c934930f1abb",
+      "entity_type": "Hospitality",
+      "canonical_name": "qantas chairman s lounge",
+      "first_appearance_date": "2022-05-21",
+      "last_appearance_date": "2022-05-21",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "498b6a38-2754-43c2-ba99-2ec1be4374c8",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-05-21",
+        "category": "Hospitality",
+        "entity": "QANTAS Chairman's Lounge",
+        "details": "Self",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "2d319006-e748-4706-a5be-c934930f1abb"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "8745fab0-529a-4459-a125-cd3851138b92",
+      "entity_type": "Hospitality",
+      "canonical_name": "queensland ballet",
+      "first_appearance_date": "2023-10-28",
+      "last_appearance_date": "2023-10-28",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "d8498e83-7f12-47ea-9604-679b6bd107fb",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2023-10-28",
+        "category": "Hospitality",
+        "entity": "Queensland Ballet",
+        "details": "Tickets and Hospitality - 6 October 2023 - Strictly Gershwin courtesy of Queensland Ballet",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "8745fab0-529a-4459-a125-cd3851138b92"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "3fae3277-e41b-4730-90db-6e3f514b1f0b",
+      "entity_type": "Hospitality",
+      "canonical_name": "queensland reds rugby",
+      "first_appearance_date": "2019-07-31",
+      "last_appearance_date": "2019-07-31",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "1140408f-499d-45fe-973a-a190431edca2",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-07-31",
+        "category": "Hospitality",
+        "entity": "Queensland Reds Rugby",
+        "details": "Tickets and Hospitality Queensland Reds courtesy of Queensland Reds Rugby",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "3fae3277-e41b-4730-90db-6e3f514b1f0b"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "4947292d-8e12-4199-af31-d250eefcc3ce",
+      "entity_type": "Hospitality",
+      "canonical_name": "rugby australia",
+      "first_appearance_date": "Unknown",
+      "last_appearance_date": "Unknown",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "67e3ad08-c5bf-4138-9eac-e359056e8dfc",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "Unknown",
+        "category": "Hospitality",
+        "entity": "Rugby Australia",
+        "details": "27 and 28 January 2023 - Tickets and Hospitality - Sydney 7s Rugby courtesy of Rugby Australia",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "4947292d-8e12-4199-af31-d250eefcc3ce"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "e245307b-7147-4299-84ad-2ae8a19ab20e",
+      "entity_type": "Hospitality",
+      "canonical_name": "south australian cricket association",
+      "first_appearance_date": "2022-01-12",
+      "last_appearance_date": "2022-01-12",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "a196f702-2ef6-41db-a21d-954c3ce1e925",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2022-01-12",
+        "category": "Hospitality",
+        "entity": "South Australian Cricket Association",
+        "details": "Tickets and hospitality Day 1 of the Vodafone Test Series Australia v England courtesy of South Australian Cricket Association",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "e245307b-7147-4299-84ad-2ae8a19ab20e"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "34c37bb5-79d5-4ac9-b852-99ec99792c03",
+      "entity_type": "Hospitality",
+      "canonical_name": "stuart giles",
+      "first_appearance_date": "2019-09-19",
+      "last_appearance_date": "2019-09-19",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "253bf8cb-837e-460b-bf24-276394346dbe",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-09-19",
+        "category": "Hospitality",
+        "entity": "Stuart Giles",
+        "details": "Tickets and hospitality AFL Finals Series Brisbane Lions vs GWS courtesy Stuart Giles - ADDED",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "34c37bb5-79d5-4ac9-b852-99ec99792c03"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "decbfae7-23ff-49b0-8c1e-2c282e119028",
+      "entity_type": "Hospitality",
+      "canonical_name": "v8 supercars",
+      "first_appearance_date": "2024-10-22",
+      "last_appearance_date": "2024-10-22",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "93af5db4-b7f1-4ed5-bad2-5558714ced06",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2024-10-22",
+        "category": "Hospitality",
+        "entity": "V8 Supercars",
+        "details": "Tickets and hospitality - 13 October 2024 - Bathurst 1000 courtesy of V8 Supercars",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "decbfae7-23ff-49b0-8c1e-2c282e119028"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "09e4f9e4-0394-45ef-80ca-d3d1dd6391d0",
+      "entity_type": "Hospitality",
+      "canonical_name": "western bulldogs",
+      "first_appearance_date": "2024-08-29",
+      "last_appearance_date": "2024-08-29",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "e38cb1a2-ed32-4608-a659-380e23ccb30e",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2024-08-29",
+        "category": "Hospitality",
+        "entity": "Western Bulldogs",
+        "details": "Tickets and Hospitality - Round 23 Western Bulldogs v North Melbourne courtesy of Western Bulldogs",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "09e4f9e4-0394-45ef-80ca-d3d1dd6391d0"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "0b9cbfad-ac82-499d-a420-f3aa58fbf2aa",
+      "entity_type": "Income Sources",
+      "canonical_name": "rht investments qld",
+      "first_appearance_date": "2022-05-21",
+      "last_appearance_date": "2022-05-21",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "21638f80-40c1-498a-be17-db66925324d5",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-05-21",
+        "category": "Income Sources",
+        "entity": "RHT Investments (Qld) P/L",
+        "details": "Spouse/partner, Investment income",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "0b9cbfad-ac82-499d-a420-f3aa58fbf2aa"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "3947ab5d-72c6-4d13-afc4-abc4ecf7a304",
+      "entity_type": "Income Sources",
+      "canonical_name": "rht investments qld and bald hills child care",
+      "first_appearance_date": "2019-07-31",
+      "last_appearance_date": "2019-07-31",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "d54c37da-4bfc-4a88-a6a1-e09287f85808",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-07-31",
+        "category": "Income Sources",
+        "entity": "RHT Investments (Qld) P/L and Bald Hills Child Care P/L",
+        "details": "Employment (Spouse/Partner)",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "3947ab5d-72c6-4d13-afc4-abc4ecf7a304"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "bf2ab46f-6662-49bf-a03e-d3acb2cb2e8a",
+      "entity_type": "Liabilities",
+      "canonical_name": "anz and nab",
+      "first_appearance_date": "2019-07-31",
+      "last_appearance_date": "2019-07-31",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "9706fdb1-7630-4280-8cde-c04e58b6f8e1",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-07-31",
+        "category": "Liabilities",
+        "entity": "ANZ and NAB",
+        "details": "Commercial credit facilities/arrangements/guarantees including with ANZ and NAB (personal and business) (Spouse/Partner)",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "bf2ab46f-6662-49bf-a03e-d3acb2cb2e8a"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "0f300ad3-0d7b-4d70-b045-284d87e4434d",
+      "entity_type": "Liabilities",
+      "canonical_name": "anz nab",
+      "first_appearance_date": "2019-07-31",
+      "last_appearance_date": "2019-07-31",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "771ae926-b075-4964-8a2a-552af8efc8d8",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-07-31",
+        "category": "Liabilities",
+        "entity": "ANZ, NAB",
+        "details": "Credit facilities",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "0f300ad3-0d7b-4d70-b045-284d87e4434d"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "df9a2b7e-ce42-444a-94e4-ea324fbb492d",
+      "entity_type": "Liabilities",
+      "canonical_name": "nab westpac",
+      "first_appearance_date": "2022-05-21",
+      "last_appearance_date": "2022-05-21",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "d75e467b-b62f-4c86-8fa2-a7f6c1fe3b28",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-05-21",
+        "category": "Liabilities",
+        "entity": "NAB, Westpac",
+        "details": "Self, Credit facilities",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "df9a2b7e-ce42-444a-94e4-ea324fbb492d"
+      },
+      {
+        "id": "7bbfe8f7-93e9-4872-96bf-2632291ce9d7",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-05-21",
+        "category": "Liabilities",
+        "entity": "NAB, Westpac",
+        "details": "Spouse/partner, Credit facilities",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "df9a2b7e-ce42-444a-94e4-ea324fbb492d"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "10a91d09-335b-42d5-a0cd-a57efacdb09f",
+      "entity_type": "Liabilities",
+      "canonical_name": "toyota finance",
+      "first_appearance_date": "2019-07-31",
+      "last_appearance_date": "2019-07-31",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "70a7109a-3ab2-4ff3-8c2a-a21a6772ea62",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-07-31",
+        "category": "Liabilities",
+        "entity": "Toyota Finance",
+        "details": "Motor Vehicle lease",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "10a91d09-335b-42d5-a0cd-a57efacdb09f"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "5153ee14-5513-45f3-a77b-90fdf132a233",
+      "entity_type": "Liabilities",
+      "canonical_name": "westpac",
+      "first_appearance_date": "2022-12-22",
+      "last_appearance_date": "2022-12-22",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "29d03139-3749-46a2-838c-3be8272b3d35",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-12-22",
+        "category": "Liabilities",
+        "entity": "Westpac",
+        "details": "Westpac (Delete for Self and Spouse)",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "5153ee14-5513-45f3-a77b-90fdf132a233"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "411d5d70-dbf6-4eaa-9b3a-e5fe0f9c40f0",
+      "entity_type": "Memberships",
+      "canonical_name": "mental health foundation of australia",
+      "first_appearance_date": "2020-03-31",
+      "last_appearance_date": "2020-03-31",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "89758b39-48fa-45f2-b776-7155ccfd6c1a",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2020-03-31",
+        "category": "Memberships",
+        "entity": "Mental Health Foundation of Australia",
+        "details": "Appointment Board Member Mental Health Foundation of Australia (pro bono) - Spouse ADDED",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "411d5d70-dbf6-4eaa-9b3a-e5fe0f9c40f0"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "5b9e44f6-6c4e-4119-bc95-d6b42f976181",
+      "entity_type": "Memberships",
+      "canonical_name": "mental health foundation of australia pro bono",
+      "first_appearance_date": "2022-05-21",
+      "last_appearance_date": "2022-05-21",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "617eace8-320d-4568-90a2-2c9bd79c917f",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-05-21",
+        "category": "Memberships",
+        "entity": "Mental Health Foundation of Australia (Pro Bono)",
+        "details": "Spouse/partner, Board Member",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "5b9e44f6-6c4e-4119-bc95-d6b42f976181"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "77024cac-154f-49e8-b7c1-9dadd58cbc8a",
+      "entity_type": "Memberships",
+      "canonical_name": "qantas chairmans lounge membership",
+      "first_appearance_date": "2019-07-31",
+      "last_appearance_date": "2019-07-31",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "744d8e99-57cc-42b9-b48a-68281cda76e7",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-07-31",
+        "category": "Memberships",
+        "entity": "Qantas Chairmans Lounge Membership",
+        "details": "Qantas Chairmans Lounge Membership",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "77024cac-154f-49e8-b7c1-9dadd58cbc8a"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "3fcc531f-034b-46f3-aab6-56cec326c54a",
+      "entity_type": "Memberships",
+      "canonical_name": "virgin club membership",
+      "first_appearance_date": "2022-05-21",
+      "last_appearance_date": "2022-05-21",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "9a4be6c8-df89-4664-b9d9-e57edd2fcf1f",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-07-31",
+        "category": "Memberships",
+        "entity": "Virgin Club Membership",
+        "details": "Virgin Club Membership",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "3fcc531f-034b-46f3-aab6-56cec326c54a"
+      },
+      {
+        "id": "5c7a7595-0c92-4685-96e5-1c595616c199",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-05-21",
+        "category": "Memberships",
+        "entity": "Virgin Club Membership",
+        "details": "Self",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "3fcc531f-034b-46f3-aab6-56cec326c54a"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "7b745d2c-bf6d-4ee6-941e-bc665e370c56",
+      "entity_type": "Other Interests",
+      "canonical_name": "arnold bloch leibler",
+      "first_appearance_date": "2024-12-23",
+      "last_appearance_date": "2024-12-23",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "c1e44644-0d96-4659-9bfd-4334c6e4f62b",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2024-12-23",
+        "category": "Other Interests",
+        "entity": "Arnold Bloch Leibler",
+        "details": "Ongoing legal assistance from Arnold Bloch Leibler re legal matters",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "7b745d2c-bf6d-4ee6-941e-bc665e370c56"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "73c887e8-f259-43b5-80b4-870685248e4e",
+      "entity_type": "Other Interests",
+      "canonical_name": "rht investment qld",
+      "first_appearance_date": "2022-08-23",
+      "last_appearance_date": "2022-08-23",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "0d23acd6-57cd-4697-a566-5d5c30e023e6",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-08-23",
+        "category": "Other Interests",
+        "entity": "RHT Investment (Qld) P/L",
+        "details": "Townsville Commercial Property owned by RHT Investment (Qld) P/L sold",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "73c887e8-f259-43b5-80b4-870685248e4e"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "5ed7a16c-a54d-4045-8d50-98236990d601",
+      "entity_type": "Real Estate",
+      "canonical_name": "brisbane cbd",
+      "first_appearance_date": "2021-09-06",
+      "last_appearance_date": "2021-09-06",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "c35ef0eb-18b2-4409-b138-e59f85b7789e",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2021-09-06",
+        "category": "Real Estate",
+        "entity": "Brisbane CBD",
+        "details": "Self and Spouse: Residential investment Brisbane CBD",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "5ed7a16c-a54d-4045-8d50-98236990d601"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "97e6703a-1acd-4391-bf7f-cdf576a1cca9",
+      "entity_type": "Real Estate",
+      "canonical_name": "brisbane cbd qld",
+      "first_appearance_date": "2022-05-21",
+      "last_appearance_date": "2022-05-21",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "126ce53c-24f6-4319-9926-3625f5840b4b",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-05-21",
+        "category": "Real Estate",
+        "entity": "Brisbane CBD, Qld",
+        "details": "Self, Residential investment",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "97e6703a-1acd-4391-bf7f-cdf576a1cca9"
+      },
+      {
+        "id": "a518c4d0-66ca-4c9c-b7aa-0543be3bcb54",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-05-21",
+        "category": "Real Estate",
+        "entity": "Brisbane CBD, Qld",
+        "details": "Spouse/partner, Residential investment",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "97e6703a-1acd-4391-bf7f-cdf576a1cca9"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "29f419ca-4ba8-411f-9a9c-b8873aabb5c0",
+      "entity_type": "Real Estate",
+      "canonical_name": "camp mountain",
+      "first_appearance_date": "2020-03-31",
+      "last_appearance_date": "2020-03-31",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "423ea61a-82c8-4996-8061-5b8d341f8d5e",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2020-03-31",
+        "category": "Real Estate",
+        "entity": "Camp Mountain",
+        "details": "Property Camp Mountain - Self - DELETED",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "29f419ca-4ba8-411f-9a9c-b8873aabb5c0"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "36c66833-4e74-4c92-a095-256a40692d5f",
+      "entity_type": "Real Estate",
+      "canonical_name": "camp mountain qld",
+      "first_appearance_date": "2019-07-31",
+      "last_appearance_date": "2019-07-31",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "4549c864-e2a6-4cee-8e98-956b581540c8",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-07-31",
+        "category": "Real Estate",
+        "entity": "Camp Mountain Qld",
+        "details": "Principal place of residence",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "36c66833-4e74-4c92-a095-256a40692d5f"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "76b0053c-a86d-47db-9812-b434ced35795",
+      "entity_type": "Real Estate",
+      "canonical_name": "dayboro",
+      "first_appearance_date": "2020-08-05",
+      "last_appearance_date": "2020-08-05",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "5dead7e0-0c28-4718-939b-67fbe75facec",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2020-08-05",
+        "category": "Real Estate",
+        "entity": "Dayboro",
+        "details": "Self: Dayboro - Residential/farm - ADDITION",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "76b0053c-a86d-47db-9812-b434ced35795"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "262f4140-2965-4791-b520-00ba4c9cb761",
+      "entity_type": "Real Estate",
+      "canonical_name": "dayboro qld",
+      "first_appearance_date": "2022-05-21",
+      "last_appearance_date": "2022-05-21",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "ee14f02c-2a07-48fa-8394-71d21910ea8d",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-05-21",
+        "category": "Real Estate",
+        "entity": "Dayboro, Qld",
+        "details": "Self, Residential/farm",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "262f4140-2965-4791-b520-00ba4c9cb761"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "9969fd2e-b9a8-4a0f-a3af-db2dcc09941f",
+      "entity_type": "Real Estate",
+      "canonical_name": "kingston",
+      "first_appearance_date": "2019-07-31",
+      "last_appearance_date": "2019-07-31",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "7e80afae-9a81-4d8c-a3a6-6d76c5503f36",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-07-31",
+        "category": "Real Estate",
+        "entity": "Kingston",
+        "details": "Self: Kingston - Residential Investment - DELETED",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "9969fd2e-b9a8-4a0f-a3af-db2dcc09941f"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "39c92d3a-3735-4246-b959-444d4a13e416",
+      "entity_type": "Real Estate",
+      "canonical_name": "moreton island qld",
+      "first_appearance_date": "2019-07-31",
+      "last_appearance_date": "2019-07-31",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "f4d549da-d7cf-4844-a366-8c1c1d0e274f",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-07-31",
+        "category": "Real Estate",
+        "entity": "Moreton Island, Qld",
+        "details": "Residential investment",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "39c92d3a-3735-4246-b959-444d4a13e416"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "722e00c9-f7d8-4040-b4bd-759ee4e8e4b0",
+      "entity_type": "Real Estate",
+      "canonical_name": "palm beach qld",
+      "first_appearance_date": "2019-07-31",
+      "last_appearance_date": "2021-05-06",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "d4dfc1c6-d97c-4652-8915-12948dee1cd0",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-07-31",
+        "category": "Real Estate",
+        "entity": "Palm Beach, Qld",
+        "details": "Residential investment",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "722e00c9-f7d8-4040-b4bd-759ee4e8e4b0"
+      },
+      {
+        "id": "aa31a30a-c64d-4aa5-b084-88af58244407",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2021-05-06",
+        "category": "Real Estate",
+        "entity": "Palm Beach Qld",
+        "details": "Residential investment - DELETED",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "722e00c9-f7d8-4040-b4bd-759ee4e8e4b0"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "5a08e795-d780-45ac-9902-11ff63b3ff69",
+      "entity_type": "Real Estate",
+      "canonical_name": "spring hill",
+      "first_appearance_date": "2021-09-06",
+      "last_appearance_date": "2021-09-06",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "df4afaf5-41e0-4fd0-9c99-c472818a3591",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2021-09-06",
+        "category": "Real Estate",
+        "entity": "Spring Hill",
+        "details": "Self residential investment Spring Hill",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "5a08e795-d780-45ac-9902-11ff63b3ff69"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "93957773-f48b-4c93-9bd4-dfc1ea81a40b",
+      "entity_type": "Real Estate",
+      "canonical_name": "spring hill qld",
+      "first_appearance_date": "2019-07-31",
+      "last_appearance_date": "2019-07-31",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "60b91633-51b7-4a18-bc97-7f626c53a7fa",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-07-31",
+        "category": "Real Estate",
+        "entity": "Spring Hill, Qld",
+        "details": "Residential investment",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "93957773-f48b-4c93-9bd4-dfc1ea81a40b"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "56229019-734d-45bb-9998-8aef3797703f",
+      "entity_type": "Real Estate",
+      "canonical_name": "tangalooma",
+      "first_appearance_date": "2021-09-06",
+      "last_appearance_date": "2021-09-06",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "ff22bfa6-adb9-4624-834d-05e2ed4d5f21",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2021-09-06",
+        "category": "Real Estate",
+        "entity": "Tangalooma",
+        "details": "Self residential investment Tangalooma",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "56229019-734d-45bb-9998-8aef3797703f"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "3761ef32-daf9-47f8-a829-0ea56f8f4446",
+      "entity_type": "Savings/Investments",
+      "canonical_name": "anz qbank",
+      "first_appearance_date": "2019-07-31",
+      "last_appearance_date": "2019-07-31",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "738b936d-b6d2-4105-bd87-579834134d5f",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-07-31",
+        "category": "Savings/Investments",
+        "entity": "ANZ, Qbank",
+        "details": "Savings Accounts (Spouse/Partner)",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "3761ef32-daf9-47f8-a829-0ea56f8f4446"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "e13905e3-049c-4156-bb26-717e35ddb9e4",
+      "entity_type": "Savings/Investments",
+      "canonical_name": "anz qbank nab cba",
+      "first_appearance_date": "2019-07-31",
+      "last_appearance_date": "2019-07-31",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "e6d28cd9-4f63-4040-a583-16714a3b7b29",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-07-31",
+        "category": "Savings/Investments",
+        "entity": "ANZ, QBank, NAB, CBA",
+        "details": "Savings Accounts",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "e13905e3-049c-4156-bb26-717e35ddb9e4"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "24271037-1deb-4d63-9260-2e4e284fca91",
+      "entity_type": "Savings/Investments",
+      "canonical_name": "anz qbank nab westpac",
+      "first_appearance_date": "2022-05-21",
+      "last_appearance_date": "2022-05-21",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "44a9f329-32e4-4593-8e23-9b0f14fd2c1b",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-05-21",
+        "category": "Savings/Investments",
+        "entity": "ANZ, QBank, NAB, Westpac",
+        "details": "Spouse/partner, Savings account",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "24271037-1deb-4d63-9260-2e4e284fca91"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "69a71efa-fc1a-4c68-a54a-5b881b3adf55",
+      "entity_type": "Savings/Investments",
+      "canonical_name": "nab cba",
+      "first_appearance_date": "2022-05-21",
+      "last_appearance_date": "2022-05-21",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "96883119-ff03-483e-81ee-5ea9ace22185",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-07-31",
+        "category": "Savings/Investments",
+        "entity": "NAB, CBA",
+        "details": "Savings Accounts (Dependent children)",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "69a71efa-fc1a-4c68-a54a-5b881b3adf55"
+      },
+      {
+        "id": "d081c701-3c83-46f4-b236-0a4c9b1b018e",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-05-21",
+        "category": "Savings/Investments",
+        "entity": "NAB, CBA",
+        "details": "Dependent children, Savings account",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "69a71efa-fc1a-4c68-a54a-5b881b3adf55"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "c6d05d20-97a1-472d-8ebb-6a60e370fffc",
+      "entity_type": "Savings/Investments",
+      "canonical_name": "qbank nab cba westpac",
+      "first_appearance_date": "2022-05-21",
+      "last_appearance_date": "2022-05-21",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "1259e180-f28a-4322-9c3f-c080d20e3617",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-05-21",
+        "category": "Savings/Investments",
+        "entity": "QBank, NAB, CBA, Westpac",
+        "details": "Self, Savings account",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "c6d05d20-97a1-472d-8ebb-6a60e370fffc"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "d5174032-6459-4bd5-89d0-0d0a2134e1ba",
+      "entity_type": "Shares",
+      "canonical_name": "dutton holdings qld",
+      "first_appearance_date": "2022-05-21",
+      "last_appearance_date": "2022-11-09",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "34f19364-8b88-4681-8653-2d83d10e63b9",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-07-31",
+        "category": "Shares",
+        "entity": "Dutton Holdings (Qld) P/L",
+        "details": "Shares in Dutton Holdings (Qld) P/L",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "d5174032-6459-4bd5-89d0-0d0a2134e1ba"
+      },
+      {
+        "id": "62615539-9619-4bf4-be1f-c2c8451b8d14",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-05-21",
+        "category": "Shares",
+        "entity": "Dutton Holdings (Qld) P/L",
+        "details": "Self",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "d5174032-6459-4bd5-89d0-0d0a2134e1ba"
+      },
+      {
+        "id": "1a8a7099-ac3f-49f6-8c14-45ee8e0d9da5",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-11-09",
+        "category": "Shares",
+        "entity": "Dutton Holdings (Qld) P/L",
+        "details": "Dutton Holdings (Qld) P/L voluntarily deregistered",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "d5174032-6459-4bd5-89d0-0d0a2134e1ba"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "cc170b82-1760-4c79-80ac-c3012067fc09",
+      "entity_type": "Shares",
+      "canonical_name": "k d investments qld",
+      "first_appearance_date": "2019-07-31",
+      "last_appearance_date": "2019-09-19",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "93c0dcca-7fdc-4f62-aeed-bd5b457de69c",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-07-31",
+        "category": "Shares",
+        "entity": "K.D. Investments (Qld) Pty Ltd",
+        "details": "Shares in K.D. Investments (Qld) Pty Ltd",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "cc170b82-1760-4c79-80ac-c3012067fc09"
+      },
+      {
+        "id": "cc05c41e-f1f8-403a-ae1b-d4fb0e7f0462",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-09-19",
+        "category": "Shares",
+        "entity": "K. D. Investments (Qld) Pty.Ltd.",
+        "details": "SELF - DELETED",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "cc170b82-1760-4c79-80ac-c3012067fc09"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "e726bf42-3d73-4f80-873b-b384b7b5e1ac",
+      "entity_type": "Shares",
+      "canonical_name": "pk super qld",
+      "first_appearance_date": "2022-05-21",
+      "last_appearance_date": "2025-01-31",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "2463a03c-e20b-4dc5-817c-83ce24035a32",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-07-31",
+        "category": "Shares",
+        "entity": "PK Super (Qld) P/L",
+        "details": "Shares in PK Super (Qld) P/L",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "e726bf42-3d73-4f80-873b-b384b7b5e1ac"
+      },
+      {
+        "id": "78322ff6-e255-4735-aae5-f0a3a91f3a50",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-07-31",
+        "category": "Shares",
+        "entity": "PK Super (Qld) P/L",
+        "details": "Shares in PK Super (Qld) P/L (Spouse/Partner)",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "e726bf42-3d73-4f80-873b-b384b7b5e1ac"
+      },
+      {
+        "id": "dbef4ad1-fd6e-4d9c-9227-a956264850ee",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-05-21",
+        "category": "Shares",
+        "entity": "PK Super (Qld) P/L",
+        "details": "Self",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "e726bf42-3d73-4f80-873b-b384b7b5e1ac"
+      },
+      {
+        "id": "a00a36aa-f5b3-4b55-a3b9-700c8caa3447",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-05-21",
+        "category": "Shares",
+        "entity": "PK Super (Qld) P/L",
+        "details": "Spouse/partner",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "e726bf42-3d73-4f80-873b-b384b7b5e1ac"
+      },
+      {
+        "id": "647e217e-bbe7-42e7-b635-be6237328041",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2025-01-31",
+        "category": "Shares",
+        "entity": "PK Super (Qld) P/L",
+        "details": "Items 1 and 4 - PK Super (Qld) P/L",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "e726bf42-3d73-4f80-873b-b384b7b5e1ac"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "5fdd5b0f-8abc-4dbb-884a-8ad2272cfe5a",
+      "entity_type": "Shares",
+      "canonical_name": "rht investments qid",
+      "first_appearance_date": "2022-05-21",
+      "last_appearance_date": "2022-05-21",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "a55e4427-0e27-4f81-961e-45c30372c1f1",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-05-21",
+        "category": "Shares",
+        "entity": "RHT Investments (QId) P/L",
+        "details": "Spouse/partner",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "5fdd5b0f-8abc-4dbb-884a-8ad2272cfe5a"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "4c797757-012d-4bb2-b431-7b631cb566af",
+      "entity_type": "Shares",
+      "canonical_name": "rht investments qld",
+      "first_appearance_date": "2019-07-31",
+      "last_appearance_date": "2019-07-31",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "0fba18e4-7b03-4297-b14f-5600b0a8523c",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-07-31",
+        "category": "Shares",
+        "entity": "RHT Investments (Qld) P/L",
+        "details": "Shares in RHT Investments (Qld) P/L (Spouse/Partner)",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "4c797757-012d-4bb2-b431-7b631cb566af"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "27831cc3-8fa1-4edd-8409-231a64740e8a",
+      "entity_type": "Travel",
+      "canonical_name": "australia israel jewish affairs council",
+      "first_appearance_date": "2024-08-29",
+      "last_appearance_date": "2024-08-29",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "8b95c94e-019d-42f5-850d-112517e95f0e",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2024-08-29",
+        "category": "Travel",
+        "entity": "Australia Israel & Jewish Affairs Council",
+        "details": "Travel and accommodation - Israel - courtesy of Australia Israel & Jewish Affairs Council",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "27831cc3-8fa1-4edd-8409-231a64740e8a"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "67d51f7f-8b85-4a38-9446-ae02736b79d0",
+      "entity_type": "Travel",
+      "canonical_name": "cricket australia",
+      "first_appearance_date": "2019-12-17",
+      "last_appearance_date": "2019-12-17",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "d63d5f64-5599-4dad-bc1e-bb260beed556",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-12-17",
+        "category": "Travel",
+        "entity": "Cricket Australia",
+        "details": "Tickets and Hospitality Australia vs Pakistan courtesy of Cricket Australia - ADDED",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "67d51f7f-8b85-4a38-9446-ae02736b79d0"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "f95beeb6-858f-4735-b448-ac1e51d523aa",
+      "entity_type": "Travel",
+      "canonical_name": "electorate office foxtel connection",
+      "first_appearance_date": "2022-05-21",
+      "last_appearance_date": "2022-05-21",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "020bb745-1e1e-4afe-8b85-a6da88d8ea45",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-07-31",
+        "category": "Travel",
+        "entity": "Electorate Office Foxtel Connection",
+        "details": "Details of travel/hospitality",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "f95beeb6-858f-4735-b448-ac1e51d523aa"
+      },
+      {
+        "id": "2adfdd11-74a9-4bfd-81ed-a3d5a28e41f7",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-05-21",
+        "category": "Travel",
+        "entity": "Electorate Office Foxtel Connection",
+        "details": "Self",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "f95beeb6-858f-4735-b448-ac1e51d523aa"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "af2e5532-e83f-456d-88c6-6065ee90034b",
+      "entity_type": "Travel",
+      "canonical_name": "hancock prospecting",
+      "first_appearance_date": "2022-08-23",
+      "last_appearance_date": "2022-11-09",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "f72a9f19-1c29-49c8-b6e4-fee81ed545eb",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-08-23",
+        "category": "Travel",
+        "entity": "Hancock Prospecting",
+        "details": "16 June Flight Perth to Pilbara return courtesy of Hancock Prospecting",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "af2e5532-e83f-456d-88c6-6065ee90034b"
+      },
+      {
+        "id": "68371996-400f-42f6-9c26-6bf261289777",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-11-09",
+        "category": "Travel",
+        "entity": "Hancock Prospecting",
+        "details": "12 October - Flight Rockhampton to Sydney to attend Bali Bombing Memorial and return Sydney to Mackay courtesy of Hancock Prospecting",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "af2e5532-e83f-456d-88c6-6065ee90034b"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "2231c9c5-60dc-454b-b270-0e3545f07deb",
+      "entity_type": "Travel",
+      "canonical_name": "icon group",
+      "first_appearance_date": "2019-09-19",
+      "last_appearance_date": "2019-09-19",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "2293a957-2d06-4bd4-9a5a-dfb39d7a0ef8",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-09-19",
+        "category": "Travel",
+        "entity": "Icon Group",
+        "details": "Tickets and hospitality Day 2 Ashes Test London courtesy of Icon Group - ADDED",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "2231c9c5-60dc-454b-b270-0e3545f07deb"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "8d86b959-77b0-4c99-9aef-da046453930d",
+      "entity_type": "Travel",
+      "canonical_name": "liberal party of australia",
+      "first_appearance_date": "2024-10-22",
+      "last_appearance_date": "2024-10-22",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "960611a7-7649-40f0-8802-b833249ee31f",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2024-10-22",
+        "category": "Travel",
+        "entity": "Liberal Party of Australia",
+        "details": "Travel - 13 October 2024 - Sydney to Bathurst (return) - courtesy of the Liberal Party of Australia",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "8d86b959-77b0-4c99-9aef-da046453930d"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "6c24aaba-824e-4777-99c2-bcfcb4f31b3b",
+      "entity_type": "Travel",
+      "canonical_name": "neville power",
+      "first_appearance_date": "2020-12-21",
+      "last_appearance_date": "2020-12-21",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "191b7ccc-ef86-480d-84ac-d88662c9eb28",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2020-12-21",
+        "category": "Travel",
+        "entity": "Neville Power",
+        "details": "I travelled on a charter flight at the invitation of Mr Neville Power from Canberra to Brisbane on Friday, 4 December 2020",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "6c24aaba-824e-4777-99c2-bcfcb4f31b3b"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "a4a17501-307a-4e7a-89bb-0b776ad2e65d",
+      "entity_type": "Travel",
+      "canonical_name": "qantas",
+      "first_appearance_date": "2024-01-07",
+      "last_appearance_date": "2024-01-07",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "d80728e2-2df6-44a5-b992-af868ebd4ee1",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2024-01-07",
+        "category": "Travel",
+        "entity": "Qantas",
+        "details": "9 December 2023 \u2013 flight upgrade (Brisbane to Sydney) for myself and Kirilly Dutton courtesy of Qantas.",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "a4a17501-307a-4e7a-89bb-0b776ad2e65d"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "1aa51d59-f29a-49de-abfe-04fd86c2d4ef",
+      "entity_type": "Travel",
+      "canonical_name": "scale facilitation",
+      "first_appearance_date": "2022-12-22",
+      "last_appearance_date": "2022-12-22",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "ada7317c-c650-4fff-9337-096f5f9e858e",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-12-22",
+        "category": "Travel",
+        "entity": "Scale Facilitation",
+        "details": "Travel and accommodation as a guest of Scale Facilitation to attend the opening of Scale Facilitation and Recharge Industries in New York.",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "1aa51d59-f29a-49de-abfe-04fd86c2d4ef"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "696ed62e-491a-49b5-9579-561e5f9eee43",
+      "entity_type": "Travel",
+      "canonical_name": "stanbroke",
+      "first_appearance_date": "2024-06-10",
+      "last_appearance_date": "2024-06-10",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "9b2e3fcd-0f78-4704-ba8d-2638b43b7c7d",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2024-06-10",
+        "category": "Travel",
+        "entity": "Stanbroke",
+        "details": "Travel and hospitality - 18-19 May 2024 - Warren Vale courtesy of Stanbroke",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "696ed62e-491a-49b5-9579-561e5f9eee43"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "6428c228-fdba-4f64-9192-1360d278ff89",
+      "entity_type": "Travel",
+      "canonical_name": "the liberal party",
+      "first_appearance_date": "2024-07-27",
+      "last_appearance_date": "2024-08-12",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "20d3b11f-f8d7-4c2a-8eee-1a839329f654",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2024-07-27",
+        "category": "Travel",
+        "entity": "the Liberal Party",
+        "details": "Travel and accommodation - Wellington, New Zealand - IDU Forum 2024 courtesy of the Liberal Party",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "6428c228-fdba-4f64-9192-1360d278ff89"
+      },
+      {
+        "id": "c135c506-7e10-437e-a104-43b51f13d7f0",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2024-08-12",
+        "category": "Travel",
+        "entity": "the Liberal Party",
+        "details": "Travel and accommodation (for myself and spouse) \u2013 United States - Australian American Leadership Dialogue 2024 courtesy of the Liberal Party",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "6428c228-fdba-4f64-9192-1360d278ff89"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "40d7ce98-1884-486d-b932-035be9d5a4a9",
+      "entity_type": "Travel",
+      "canonical_name": "warburton group",
+      "first_appearance_date": "2023-12-19",
+      "last_appearance_date": "2023-12-19",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "9fa1c877-018d-485d-83ce-f1014ac59b5f",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2023-12-19",
+        "category": "Travel",
+        "entity": "Warburton Group",
+        "details": "22 November 2023 Return flight Perth to Ginbata (Roy Hill) courtesy of Warburton Group",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "40d7ce98-1884-486d-b932-035be9d5a4a9"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "709595bd-88c1-4944-a5d7-c80a6f98bbb9",
+      "entity_type": "Trusts",
+      "canonical_name": "not applicable",
+      "first_appearance_date": "2022-05-21",
+      "last_appearance_date": "2022-05-21",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "305f4207-ce02-42fa-b63f-75b0e40f308c",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-05-21",
+        "category": "Trusts",
+        "entity": "Not Applicable",
+        "details": "Self",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "709595bd-88c1-4944-a5d7-c80a6f98bbb9"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "62fc3c1e-f6a0-4de9-84aa-cdeb1342891f",
+      "entity_type": "Trusts",
+      "canonical_name": "rht family trust",
+      "first_appearance_date": "2019-07-31",
+      "last_appearance_date": "2019-07-31",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "6e306874-662f-4af9-91cc-03e26af443b2",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-07-31",
+        "category": "Trusts",
+        "entity": "RHT Family Trust",
+        "details": "Beneficiary via RHT Investments P/L ATF (Spouse/Partner)",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "62fc3c1e-f6a0-4de9-84aa-cdeb1342891f"
+      },
+      {
+        "id": "a7bd1624-5d00-4be4-b508-150e7192b170",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-07-31",
+        "category": "Trusts",
+        "entity": "RHT Family Trust",
+        "details": "Beneficiary via RHT Investments P/L ATF (Dependent children)",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "62fc3c1e-f6a0-4de9-84aa-cdeb1342891f"
+      },
+      {
+        "id": "f0089abd-6add-40bf-af29-c2a0c20a7592",
+        "mp_name": "Peter Dutton",
+        "party": "Unknown",
+        "electorate": "Dickson",
+        "declaration_date": "2019-07-31",
+        "category": "Trusts",
+        "entity": "RHT Family Trust",
+        "details": "Self: RHT Family Trust (RHT Investments P/L ATF) - DELETED",
+        "pdf_url": "dutton_46p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:25:12",
+        "updated_at": "2025-03-16 03:25:12",
+        "entity_id": "62fc3c1e-f6a0-4de9-84aa-cdeb1342891f"
+      }
+    ]
+  },
+  {
+    "entity": {
+      "id": "b2c1305d-f2f1-48af-8e2f-fd010f6401a3",
+      "entity_type": "Trusts",
+      "canonical_name": "rht family trust rht investments qld atf",
+      "first_appearance_date": "2022-05-21",
+      "last_appearance_date": "2022-05-21",
+      "is_active": 1,
+      "confidence_score": 1.0,
+      "mp_id": "Peter Dutton",
+      "notes": "",
+      "created_at": "2025-03-16 04:14:26",
+      "updated_at": "2025-03-16 04:14:26"
+    },
+    "timeline": [
+      {
+        "id": "1e8bfda0-d593-4bb4-8bb8-d6088304227a",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-05-21",
+        "category": "Trusts",
+        "entity": "RHT Family Trust (RHT Investments (Qld) P/L ATF)",
+        "details": "Spouse/partner, Investment, Beneficiary",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "b2c1305d-f2f1-48af-8e2f-fd010f6401a3"
+      },
+      {
+        "id": "b230562e-5eef-4559-b31e-83ca9c9ac3fd",
+        "mp_name": "Peter Dutton",
+        "party": "N/A",
+        "electorate": "Dickson",
+        "declaration_date": "2022-05-21",
+        "category": "Trusts",
+        "entity": "RHT Family Trust (RHT Investments (Qld) P/L ATF)",
+        "details": "Dependent children, Investment, Beneficiary",
+        "pdf_url": "dutton_47p.pdf",
+        "sub_category": "",
+        "created_at": "2025-03-16 03:24:41",
+        "updated_at": "2025-03-16 03:24:41",
+        "entity_id": "b2c1305d-f2f1-48af-8e2f-fd010f6401a3"
+      }
+    ]
+  }
+]
