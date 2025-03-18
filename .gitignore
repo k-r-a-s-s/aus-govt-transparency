@@ -1,1 +1,4 @@
 .qodo
+
+# Ignore PDF files
+*.pdf

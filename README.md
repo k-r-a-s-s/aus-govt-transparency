@@ -1,6 +1,6 @@
 # AI-Powered Political Disclosure Tracking System
 
-This project automates the extraction, structuring, and analysis of parliamentary financial disclosures using Google Cloud Vision OCR and Google Gemini 2.0 AI.
+This project automates the extraction, structuring, and analysis of parliamentary financial disclosures using Google Gemini 2.0 AI.
 
 ## Motivation & Goal
 
@@ -15,21 +15,28 @@ By doing so, we can:
 ## Tech Stack
 
 - **PDF Collection**: Python script to download PDFs from parliamentary websites
-- **OCR Processing**: Google Cloud Vision API for text extraction
-- **AI-Powered Data Structuring**: Google Gemini 2.0 Flash for structuring extracted text
+- **AI-Powered Data Structuring**: Google Gemini 2.0 Flash for direct PDF processing and data extraction
 - **Database Storage**: SQLite for local storage and analysis
 - **Query & Analysis**: Python scripts for data analysis and export
 
+## Gemini API Usage
+
+This project uses the Google Gemini API, which is available with a generous free tier:
+
+- **Gemini 2.0 Flash**: 15 requests per minute (RPM), 1,000,000 tokens per minute (TPM), 1,500 requests per day (RPD)
+
+The project includes robust rate limiting to ensure you stay within these free tier limits when processing large numbers of documents. You can adjust the rate limits using command line arguments:
+
+```bash
+# Process with more conservative rate limits
+python process_parliament_disclosures.py --rpm 10 --rpd 1400
+```
+
+For processing all parliaments, we recommend using slightly conservative rate limits (10-12 RPM instead of 15) to provide a safety margin.
+
 ## System Workflow
 
-The system supports two processing workflows:
-
-### Traditional OCR-based Workflow
-1. **PDF Collection**: PDFs are downloaded from parliamentary websites using the `scrape_parliament.py` script.
-2. **OCR Processing**: Google Cloud Vision API extracts text from PDFs.
-3. **AI-Powered Data Structuring**: Google Gemini 2.0 Flash categorizes text into structured JSON.
-4. **Database Storage**: AI-generated JSON is inserted into SQLite database.
-5. **Query & Analysis**: Structured data enables trend detection and analysis.
+The system workflow is straightforward:
 
 ### Direct PDF Processing Workflow
 1. **PDF Collection**: PDFs are downloaded from parliamentary websites using the `scrape_parliament.py` script.
@@ -47,13 +54,9 @@ The system supports two processing workflows:
 
 - `scrape_parliament.py`: Script to download PDFs from parliamentary websites
 - `parliament_urls.py`: Configuration file with URLs for different parliaments
-- `ocr_processor.py`: Module for handling PDF processing with Google Cloud Vision OCR
-- `gemini_processor.py`: Module for interacting with Google Gemini 2.0 API (OCR-based workflow)
 - `gemini_pdf_processor.py`: Module for direct PDF processing with Google Gemini 2.0 API
 - `db_handler.py`: Module for handling database operations
-- `process_disclosures.py`: Script that orchestrates the OCR-based workflow
 - `process_parliament_disclosures.py`: Main script that orchestrates the complete batch processing pipeline
-- `test_gemini.py`: Simple script to test the Gemini API with OCR text
 - `test_gemini_pdf.py`: Script to test direct PDF processing with Gemini API
 - `requirements.txt`: List of dependencies
 
@@ -67,10 +70,6 @@ The system supports two processing workflows:
 3. Set up environment variables in `.env.local`:
    ```
    GOOGLE_API_KEY=your_google_api_key
-   ```
-4. Set up Google Cloud credentials (for Vision API):
-   ```
-   export GOOGLE_APPLICATION_CREDENTIALS=/path/to/credentials.json
    ```
 
 ## Usage
@@ -88,40 +87,16 @@ python scrape_parliament.py --parliament 46th
 python scrape_parliament.py --all
 ```
 
-### Testing Gemini API with OCR Text
-
-```bash
-python test_gemini.py
-```
-
-### Testing with a specific PDF (OCR-based)
-
-```bash
-python test_gemini.py --pdf path/to/pdf
-```
-
 ### Testing Direct PDF Processing with Gemini
 
 ```bash
 python test_gemini_pdf.py --pdf path/to/pdf
 ```
 
-### Processing a Single PDF (OCR-based)
-
-```bash
-python process_disclosures.py --pdf path/to/pdf --output-dir structured_data
-```
-
 ### Processing a Single PDF (Direct PDF Processing)
 
 ```bash
 python test_gemini_pdf.py --pdf path/to/pdf --output-dir gemini_output
-```
-
-### Processing Multiple PDFs (OCR-based)
-
-```bash
-python process_disclosures.py --pdf-dir pdfs --output-dir structured_data --limit 5
 ```
 
 ### Processing Multiple PDFs (Direct PDF Processing)
@@ -153,6 +128,9 @@ python process_parliament_disclosures.py --skip-post-processing
 
 # Limit the number of PDFs processed per parliament
 python process_parliament_disclosures.py --limit 10
+
+# Process all parliaments with rate limiting and store in database
+python process_parliament_disclosures.py --all --store-in-db --rpm 10 --continue-on-error
 ```
 
 ### Processing Large PDFs (>20MB)
@@ -173,6 +151,21 @@ python test_gemini_pdf.py --pdf path/to/pdf --use-file-api
 
 ```bash
 python process_disclosures.py --export-json export.json
+```
+
+## Rate Limiting and Error Handling
+
+The system includes sophisticated rate limiting to ensure you don't exceed Gemini API limits:
+
+- **Adaptive Waiting**: Automatically waits when approaching rate limits
+- **Retry Logic**: Implements exponential backoff for rate limit errors
+- **Progress Tracking**: Shows real-time statistics on successful/failed/rate-limited requests
+- **Resumable Processing**: Can continue from where it left off if interrupted
+
+When processing all parliaments, use the `--continue-on-error` flag to ensure processing continues even if individual PDFs fail:
+
+```bash
+python process_parliament_disclosures.py --all --store-in-db --rpm 10 --continue-on-error
 ```
 
 ## Data Structure
@@ -340,17 +333,6 @@ python update_categories.py
 # To see changes without applying them
 python update_categories.py --dry-run
 ```
-
-## Comparison of Processing Methods
-
-| Feature | OCR-based Workflow | Direct PDF Processing |
-|---------|-------------------|----------------------|
-| Processing Speed | Slower (two-step process) | Faster (single-step process) |
-| PDF Size Limit | Limited by OCR API | Up to 3,600 pages or 2GB |
-| Page-specific References | Yes (can reference specific pages) | Limited (references entire document) |
-| Visual Element Understanding | Limited | Better (understands tables, charts, etc.) |
-| Implementation Complexity | Higher | Lower |
-| Cost | Higher (OCR + Gemini API) | Lower (Gemini API only) |
 
 ## Parliament Coverage
 

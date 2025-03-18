@@ -4,10 +4,14 @@ import logging
 import pathlib
 import copy
 import re
-from typing import Dict, Any, List, Optional, Union
+import time
+import datetime
+import random
+from typing import Dict, Any, List, Optional, Union, Deque
+from collections import deque
 from dotenv import load_dotenv
 import google.generativeai as genai
-from tenacity import retry, stop_after_attempt, wait_exponential
+from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 import time
 from tqdm import tqdm
 
@@ -20,6 +24,124 @@ logger = logging.getLogger(__name__)
 
 # Load environment variables
 load_dotenv('.env.local')
+
+class RateLimiter:
+    """
+    A class to handle rate limiting for API requests.
+    Implements a sliding window mechanism to track requests per minute.
+    """
+    
+    def __init__(self, requests_per_minute: int = 15, requests_per_day: int = 1500):
+        """
+        Initialize the rate limiter.
+        
+        Args:
+            requests_per_minute: Maximum number of requests allowed per minute
+            requests_per_day: Maximum number of requests allowed per day
+        """
+        self.requests_per_minute = requests_per_minute
+        self.requests_per_day = requests_per_day
+        
+        # Track request timestamps using deques
+        self.minute_window: Deque[float] = deque()
+        self.day_window: Deque[float] = deque()
+        
+        # Track successful requests and failures
+        self.total_successful_requests = 0
+        self.total_rate_limit_errors = 0
+        
+        logger.info(f"Rate limiter initialized with {requests_per_minute} RPM and {requests_per_day} RPD")
+    
+    def _cleanup_windows(self):
+        """Clean up expired timestamps from the windows"""
+        current_time = time.time()
+        
+        # Clean up minute window
+        while self.minute_window and (current_time - self.minute_window[0]) > 60:
+            self.minute_window.popleft()
+        
+        # Clean up day window
+        while self.day_window and (current_time - self.day_window[0]) > 86400:
+            self.day_window.popleft()
+    
+    def check_rate_limits(self) -> bool:
+        """
+        Check if the current request would exceed any rate limits.
+        
+        Returns:
+            True if limits are not exceeded, False otherwise
+        """
+        self._cleanup_windows()
+        
+        # Check minute limit
+        if len(self.minute_window) >= self.requests_per_minute:
+            return False
+        
+        # Check day limit
+        if len(self.day_window) >= self.requests_per_day:
+            return False
+        
+        return True
+    
+    def record_request(self):
+        """Record a successful request"""
+        current_time = time.time()
+        self.minute_window.append(current_time)
+        self.day_window.append(current_time)
+        self.total_successful_requests += 1
+    
+    def record_rate_limit_error(self):
+        """Record a rate limit error"""
+        self.total_rate_limit_errors += 1
+    
+    def get_current_usage(self) -> Dict[str, int]:
+        """
+        Get the current usage statistics.
+        
+        Returns:
+            Dictionary with current usage statistics
+        """
+        self._cleanup_windows()
+        return {
+            "requests_in_last_minute": len(self.minute_window),
+            "requests_in_last_day": len(self.day_window),
+            "total_successful_requests": self.total_successful_requests,
+            "total_rate_limit_errors": self.total_rate_limit_errors
+        }
+    
+    def wait_if_needed(self):
+        """Wait if necessary to avoid exceeding rate limits"""
+        while not self.check_rate_limits():
+            # Check which limit is causing the wait
+            current_rpm = len(self.minute_window)
+            current_rpd = len(self.day_window)
+            
+            if current_rpm >= self.requests_per_minute:
+                # Calculate time until oldest request expires from minute window
+                sleep_time = 60 - (time.time() - self.minute_window[0]) + 0.1  # Add a small buffer
+                logger.warning(f"Rate limit approaching: {current_rpm}/{self.requests_per_minute} RPM. Waiting {sleep_time:.2f}s")
+                time.sleep(max(1, min(sleep_time, 30)))  # Cap waiting time between 1-30 seconds
+            elif current_rpd >= self.requests_per_day:
+                # Daily limit reached, calculate time until oldest request expires
+                sleep_time = 86400 - (time.time() - self.day_window[0]) + 0.1
+                logger.warning(f"Daily rate limit reached: {current_rpd}/{self.requests_per_day} RPD. Long wait required: {sleep_time/60:.1f} minutes")
+                # For daily limits, we might want to terminate rather than wait a very long time
+                raise Exception(f"Daily rate limit of {self.requests_per_day} requests reached. Try again tomorrow.")
+            else:
+                # Add a small delay as a fallback
+                logger.info("Rate limits approaching, adding small delay")
+                time.sleep(2)
+            
+            # Recheck the windows after waiting
+            self._cleanup_windows()
+            
+        # Add a small random delay to avoid multiple processes hitting limits simultaneously
+        jitter = random.uniform(0.1, 0.5)
+        time.sleep(jitter)
+
+class RateLimitError(Exception):
+    """Exception raised when a rate limit is hit"""
+    pass
 
 class GeminiPDFProcessor:
     """
@@ -49,7 +171,33 @@ class GeminiPDFProcessor:
         # Post-processing flag
         self.apply_post_processing = apply_post_processing
         
-    @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=4, max=10))
+        # Initialize rate limiter (using default values for Gemini 2.0 Flash free tier)
+        self.rate_limiter = RateLimiter(requests_per_minute=15, requests_per_day=1500)
+        
+    def is_rate_limit_error(self, error: Exception) -> bool:
+        """
+        Check if an exception is related to rate limiting.
+        
+        Args:
+            error: The exception to check
+            
+        Returns:
+            True if the error is related to rate limiting
+        """
+        error_str = str(error).lower()
+        return (
+            "rate limit" in error_str or 
+            "quota exceeded" in error_str or 
+            "resource exhausted" in error_str or
+            "429" in error_str or
+            "too many requests" in error_str
+        )
+        
+    @retry(
+        retry=retry_if_exception_type(RateLimitError),
+        stop=stop_after_attempt(5), 
+        wait=wait_exponential(multiplier=1, min=4, max=60)
+    )
     def process_pdf(self, pdf_path: str, use_file_api: bool = False) -> Dict[str, Any]:
         """
         Process a PDF file directly with Gemini API and extract structured data.
@@ -64,6 +212,9 @@ class GeminiPDFProcessor:
             A dictionary containing the structured data extracted from the PDF.
         """
         logger.info(f"Processing PDF directly with Gemini API: {pdf_path}")
+        
+        # Check and wait for rate limits if needed
+        self.rate_limiter.wait_if_needed()
         
         # Get file size
         file_size = os.path.getsize(pdf_path)
@@ -97,6 +248,9 @@ class GeminiPDFProcessor:
                 prompt
             ])
             
+            # Record successful request
+            self.rate_limiter.record_request()
+            
             # Extract JSON from response
             structured_data = self._extract_json_from_response(response.text)
             
@@ -115,8 +269,18 @@ class GeminiPDFProcessor:
             return structured_data
             
         except Exception as e:
-            logger.error(f"Error processing PDF with Gemini API: {str(e)}")
-            raise
+            error_message = str(e)
+            logger.error(f"Error processing PDF with Gemini API: {error_message}")
+            
+            # Check if this is a rate limit error
+            if self.is_rate_limit_error(e):
+                self.rate_limiter.record_rate_limit_error()
+                logger.warning("Rate limit exceeded. Retrying with exponential backoff...")
+                # Add current timestamp to track when the error occurred
+                raise RateLimitError(f"Rate limit exceeded at {datetime.datetime.now().isoformat()}: {error_message}")
+            else:
+                # For other errors, re-raise
+                raise
     
     def post_process_disclosures(self, structured_data: Dict[str, Any]) -> Dict[str, Any]:
         """
@@ -362,29 +526,61 @@ Respond ONLY with the JSON object, nothing else.
         
         # Process each PDF
         results = []
-        for pdf_path in tqdm(pdf_files, desc="Processing PDFs"):
-            try:
-                # Process the PDF
-                structured_data = self.process_pdf(pdf_path, use_file_api=use_file_api)
-                
-                # Add the PDF path to the result
-                structured_data["pdf_path"] = pdf_path
-                
-                # Add to results
-                results.append(structured_data)
-                
-                # Log success
-                logger.info(f"Successfully processed: {pdf_path}")
-                
-                # Add a small delay to avoid rate limiting
-                time.sleep(1)
-                
-            except Exception as e:
-                logger.error(f"Error processing {pdf_path}: {str(e)}")
-                results.append({
-                    "error": str(e),
-                    "pdf_path": pdf_path
-                })
+        total_pdfs = len(pdf_files)
+        successful = 0
+        failed = 0
+        rate_limited = 0
         
-        logger.info(f"Batch processing complete. Processed {len(results)} PDFs.")
+        # Create a progress bar
+        with tqdm(total=total_pdfs, desc="Processing PDFs") as pbar:
+            for i, pdf_path in enumerate(pdf_files):
+                try:
+                    # Display current rate limits
+                    usage = self.rate_limiter.get_current_usage()
+                    rpm_usage = f"{usage['requests_in_last_minute']}/{self.rate_limiter.requests_per_minute} RPM"
+                    rpd_usage = f"{usage['requests_in_last_day']}/{self.rate_limiter.requests_per_day} RPD"
+                    logger.info(f"Rate limit status: {rpm_usage}, {rpd_usage}")
+                    
+                    # Update progress bar description
+                    pbar.set_description(f"Processing PDFs [{i+1}/{total_pdfs}] (S:{successful} F:{failed} R:{rate_limited})")
+                    
+                    # Process the PDF
+                    structured_data = self.process_pdf(pdf_path, use_file_api=use_file_api)
+                    
+                    # Add the PDF path to the result
+                    structured_data["pdf_path"] = pdf_path
+                    
+                    # Add to results
+                    results.append(structured_data)
+                    
+                    # Log success
+                    logger.info(f"Successfully processed: {pdf_path}")
+                    successful += 1
+                    
+                except RateLimitError as e:
+                    logger.warning(f"Rate limit error processing {pdf_path}: {str(e)}")
+                    results.append({
+                        "error": f"Rate limit error: {str(e)}",
+                        "pdf_path": pdf_path
+                    })
+                    rate_limited += 1
+                    
+                    # Wait longer when we hit rate limits
+                    wait_time = random.uniform(30, 60)
+                    logger.info(f"Waiting {wait_time:.1f}s after rate limit error")
+                    time.sleep(wait_time)
+                    
+                except Exception as e:
+                    logger.error(f"Error processing {pdf_path}: {str(e)}")
+                    results.append({
+                        "error": str(e),
+                        "pdf_path": pdf_path
+                    })
+                    failed += 1
+                
+                # Update progress bar
+                pbar.update(1)
+        
+        # Log final statistics
+        logger.info(f"Batch processing complete. Total: {total_pdfs}, Success: {successful}, Failed: {failed}, Rate Limited: {rate_limited}")
         return results 

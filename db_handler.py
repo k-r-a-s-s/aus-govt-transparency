@@ -490,59 +490,116 @@ class DatabaseHandler:
     
     def export_to_json(self, output_path: str) -> None:
         """
-        Export all data to a JSON file.
+        Export the database contents to a JSON file.
         
         Args:
-            output_path: Path to the output JSON file.
+            output_path: Path to save the JSON file.
         """
         logger.info(f"Exporting database to JSON: {output_path}")
         
         conn = sqlite3.connect(self.db_path)
-        conn.row_factory = sqlite3.Row
         cursor = conn.cursor()
         
+        # Get all MPs
+        cursor.execute("SELECT DISTINCT mp_name FROM disclosures")
+        mp_names = [row[0] for row in cursor.fetchall()]
+        
+        data = {}
+        for mp_name in mp_names:
+            # Get all disclosures for this MP
+            cursor.execute("""
+                SELECT id, mp_name, party, electorate, declaration_date, category, sub_category, 
+                item, temporal_type, start_date, end_date, details, pdf_url, entity
+                FROM disclosures 
+                WHERE mp_name = ?
+            """, (mp_name,))
+            
+            disclosures = []
+            for row in cursor.fetchall():
+                disclosures.append({
+                    "id": row[0],
+                    "mp_name": row[1],
+                    "party": row[2],
+                    "electorate": row[3],
+                    "declaration_date": row[4],
+                    "category": row[5],
+                    "sub_category": row[6],
+                    "item": row[7],
+                    "temporal_type": row[8],
+                    "start_date": row[9],
+                    "end_date": row[10],
+                    "details": row[11],
+                    "pdf_url": row[12],
+                    "entity": row[13]
+                })
+            
+            # Get all relationships for this MP
+            cursor.execute("""
+                SELECT relationship_id, mp_name, entity, relationship_type, value, date_logged
+                FROM relationships 
+                WHERE mp_name = ?
+            """, (mp_name,))
+            
+            relationships = []
+            for row in cursor.fetchall():
+                relationships.append({
+                    "relationship_id": row[0],
+                    "mp_name": row[1],
+                    "entity": row[2],
+                    "relationship_type": row[3],
+                    "value": row[4],
+                    "date_logged": row[5]
+                })
+            
+            # Add to data
+            data[mp_name] = {
+                "disclosures": disclosures,
+                "relationships": relationships
+            }
+        
+        conn.close()
+        
+        # Write to file
+        with open(output_path, "w") as f:
+            json.dump(data, f, indent=2)
+        
+        logger.info(f"Successfully exported database to: {output_path}")
+    
+    def create_backup(self, backup_path: str) -> None:
+        """
+        Create a backup of the database file.
+        
+        Args:
+            backup_path: Path where the backup will be saved.
+        """
+        logger.info(f"Creating database backup from {self.db_path} to {backup_path}")
+        
+        # Check if the source database exists
+        if not os.path.exists(self.db_path):
+            logger.warning(f"Source database {self.db_path} does not exist. No backup created.")
+            return
+        
         try:
-            # Get all unique MPs
-            cursor.execute("SELECT DISTINCT mp_name, party, electorate FROM disclosures")
-            mps = [dict(row) for row in cursor.fetchall()]
+            # Connect to the current database
+            source_conn = sqlite3.connect(self.db_path)
             
-            result = []
+            # Create a new database connection for the backup
+            if os.path.exists(backup_path):
+                logger.info(f"Backup file {backup_path} already exists. It will be overwritten.")
+                os.remove(backup_path)
             
-            # For each MP, get their disclosures and relationships
-            for mp in mps:
-                mp_name = mp["mp_name"]
-                
-                # Get disclosures
-                cursor.execute("SELECT * FROM disclosures WHERE mp_name = ?", (mp_name,))
-                disclosures = [dict(row) for row in cursor.fetchall()]
-                
-                # Get relationships
-                cursor.execute("SELECT * FROM relationships WHERE mp_name = ?", (mp_name,))
-                relationships = [dict(row) for row in cursor.fetchall()]
-                
-                # Create MP record
-                mp_record = {
-                    "mp_name": mp_name,
-                    "party": mp["party"],
-                    "electorate": mp["electorate"],
-                    "disclosures": disclosures,
-                    "relationships": relationships
-                }
-                
-                result.append(mp_record)
+            # Create backup using SQLite's backup feature
+            backup_conn = sqlite3.connect(backup_path)
+            source_conn.backup(backup_conn)
             
-            # Write to JSON file
-            with open(output_path, "w") as f:
-                json.dump(result, f, indent=2)
+            # Close connections
+            backup_conn.close()
+            source_conn.close()
             
-            logger.info(f"Successfully exported database to JSON: {output_path}")
-            
+            logger.info(f"Database backup successfully created at {backup_path}")
         except Exception as e:
-            logger.error(f"Error exporting database to JSON: {str(e)}")
+            logger.error(f"Error creating database backup: {str(e)}")
             raise
-            
-        finally:
-            conn.close()
     
     def get_entity_timeline(self, entity_id: str) -> Dict[str, Any]:
         """
