@@ -323,16 +323,23 @@ The system tracks how items persist over time:
 - **Medium-term items**: Present for 2 years
 - **Short-term items**: Present for 1 year
 
-### Command to Update Categories
+### Data Validation and Statistics
 
-To apply the improved category system to existing disclosures:
+To validate category consistency and generate statistics about the data:
 
 ```bash
+# Run validation and generate statistics
 python update_categories.py
 
-# To see changes without applying them
+# View category system and statistics without making changes
 python update_categories.py --dry-run
 ```
+
+This tool provides valuable insights including:
+- Category and subcategory distribution
+- Temporal type breakdown
+- Item persistence across years
+- Details about long-term items in the database
 
 ## Parliament Coverage
 

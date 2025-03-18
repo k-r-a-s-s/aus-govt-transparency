@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """
-Update existing disclosures with the new category system.
+Validate category data quality and generate comprehensive statistics.
 
-This script applies the improved categorization system to all existing disclosures,
-including standardized categories, subcategories, and temporal types.
+This script ensures all disclosures follow the standardized categorization system
+and generates statistical reports on the distribution of categories, subcategories,
+and temporal types across the database.
 """
 
 import os
@@ -20,34 +21,42 @@ logger = logging.getLogger(__name__)
 
 def update_categories(db_path: str, dry_run: bool = False):
     """
-    Update all disclosures with the new category system.
+    Validate disclosure categories and generate statistics on category distribution.
+    
+    This function ensures all disclosures in the database adhere to the standardized
+    category system and produces comprehensive statistics on the data distribution.
     
     Args:
         db_path: Path to the SQLite database file
-        dry_run: If True, only print changes without applying them
+        dry_run: If True, only print information without applying any changes
     """
-    logger.info(f"Updating categories in database at {db_path}")
+    logger.info(f"Validating categories and generating statistics for database at {db_path}")
     
     # Initialize the database handler
     db = DatabaseHandler(db_path=db_path)
     
-    # The link_existing_disclosures_to_entities method now also updates categories
+    # Validate and standardize categories
     if dry_run:
-        logger.info("Dry run mode: Changes will not be applied")
-        # Just print out categorization info
+        logger.info("Dry run mode: Category validation information only")
+        # Print out categorization system information
+        logger.info("Standardized category system:")
         for category in Categories.ALL:
             subcategories = Subcategories.MAPPING.get(category, [])
             logger.info(f"Category: {category}")
             for subcategory in subcategories:
                 logger.info(f"  - Subcategory: {subcategory}")
         
+        logger.info("Temporal type system:")
         for temporal_type in TemporalTypes.ALL:
             logger.info(f"Temporal Type: {temporal_type}")
     else:
-        # Update all categories
-        db.link_existing_disclosures_to_entities()
+        # Validate categories and entity references
+        logger.info("Validating categories and entity references...")
+        updated_count = db.link_existing_disclosures_to_entities()
+        logger.info(f"Validation complete: {updated_count} disclosures updated for consistency")
     
-    # Analyze the results
+    # Generate comprehensive statistics
+    logger.info("Generating disclosure statistics...")
     patterns = db.get_disclosure_patterns()
     
     # Print category stats
@@ -78,13 +87,15 @@ def update_categories(db_path: str, dry_run: bool = False):
         for item in long_term:
             logger.info(f"{item['name']} ({item['category']}): Present for {item['years']} years")
     
-    logger.info("Category update completed")
+    logger.info("Validation and statistics generation complete")
 
 def main():
-    """Main function to parse arguments and run the update."""
-    parser = argparse.ArgumentParser(description="Update disclosure categories with the new system")
+    """Main function to parse arguments and run validation and statistics generation."""
+    parser = argparse.ArgumentParser(
+        description="Validate disclosure categories and generate comprehensive statistics"
+    )
     parser.add_argument("--db-path", default="disclosures.db", help="Path to the SQLite database file")
-    parser.add_argument("--dry-run", action="store_true", help="Print changes without applying them")
+    parser.add_argument("--dry-run", action="store_true", help="Show statistics without applying any changes")
     
     args = parser.parse_args()
     
