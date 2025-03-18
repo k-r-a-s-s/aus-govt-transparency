@@ -1,0 +1,68 @@
+diff --git a/process_parliament_disclosures.py b/process_parliament_disclosures.py
+index 0000000..0000000 100644
+--- a/process_parliament_disclosures.py
++++ b/process_parliament_disclosures.py
+@@ -58,6 +58,7 @@ def process_pdfs(
+     skip_post_processing: bool = False,
+     requests_per_minute: int = 15,
+     requests_per_day: int = 1500,
++    standardize: bool = False,
+     continue_on_error: bool = False
+ ) -> Dict[str, Any]:
+     """
+@@ -73,6 +74,7 @@ def process_pdfs(
+         skip_post_processing: Whether to skip post-processing of extracted data
+         requests_per_minute: API rate limit in requests per minute
+         requests_per_day: API rate limit in requests per day
++        standardize: Whether to run data standardization after processing
+         continue_on_error: Whether to continue processing if an error occurs
+         
+     Returns:
+@@ -225,6 +227,28 @@ def process_pdfs(
+     logger.info(f"Total failed: {stats['total_failed']}")
+     logger.info(f"Total rate limited: {stats['total_rate_limited']}")
+     logger.info(f"Full statistics saved to: {stats_path}")
++    
++    # Run data standardization if requested
++    if standardize and store_in_db:
++        logger.info("\n" + "="*80)
++        logger.info("RUNNING DATA STANDARDIZATION")
++        logger.info("="*80)
++        
++        try:
++            import standardize_data
++            standardize_data.standardize_database(db_path=db_path)
++            
++            # Run category validation and update
++            logger.info("\n" + "="*80)
++            logger.info("RUNNING CATEGORY VALIDATION")
++            logger.info("="*80)
++            
++            import update_categories
++            update_categories.update_categories(db_path=db_path)
++        except Exception as e:
++            logger.error(f"Error during data standardization: {str(e)}")
++            logger.error("Standardization failed, but processing was completed successfully")
++    elif standardize and not store_in_db:
++        logger.warning("Standardization can only be run when storing data in the database (--store-in-db)")
+     
+     return stats
+ 
+@@ -242,6 +266,7 @@ def main():
+     parser.add_argument("--rpm", type=int, default=15, help="Requests per minute rate limit (default: 15)")
+     parser.add_argument("--rpd", type=int, default=1500, help="Requests per day rate limit (default: 1500)")
+     parser.add_argument("--continue-on-error", action="store_true", help="Continue processing if an error occurs")
++    parser.add_argument("--standardize", action="store_true", help="Run data standardization after processing")
+     
+     args = parser.parse_args()
+     
+@@ -262,7 +287,8 @@ def main():
+             limit=args.limit,
+             skip_post_processing=args.skip_post_processing,
+             requests_per_minute=args.rpm,
+-            requests_per_day=args.rpd
++            requests_per_day=args.rpd,
++            standardize=args.standardize
+         )
+     except Exception as e:
+         logger.error(f"Error: {e}") 

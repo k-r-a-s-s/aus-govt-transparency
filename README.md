@@ -133,6 +133,38 @@ python process_parliament_disclosures.py --limit 10
 python process_parliament_disclosures.py --all --store-in-db --rpm 10 --continue-on-error
 ```
 
+### Complete Batch Processing Pipeline with Data Standardization
+
+```bash
+# Process all parliaments with standardization (ensures consistent MP names and electorates)
+python process_parliament_disclosures.py --all --store-in-db --rpm 10 --continue-on-error --standardize
+
+# Skip scraping if PDFs are already downloaded
+python process_parliament_disclosures.py --all --store-in-db --skip-scraping --rpm 10 --continue-on-error --standardize
+```
+
+The `--standardize` flag ensures:
+1. MP names are standardized (removing middle names and handling inconsistencies)
+2. Electorate names are standardized (fixing case issues and updating renamed electorates)
+3. Category validation and statistics are generated
+
+This ensures data consistency and improves analysis quality by correctly tracking MPs across parliaments, even when their names appear with different formats.
+
+### Running Standardization Separately
+
+If you need to run standardization separately after processing:
+
+```bash
+# Run the complete standardization pipeline
+python standardize_data.py
+
+# Run just MP name standardization
+python standardize_mp_names.py
+
+# Run just electorate standardization
+python standardize_electorates.py
+```
+
 ### Processing Large PDFs (>20MB)
 
 For large PDFs, the system automatically uses the Gemini File API:

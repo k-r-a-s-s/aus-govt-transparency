@@ -219,6 +219,61 @@ def process_pdfs(
     logger.info(f"Total failed: {stats['total_failed']}")
     logger.info(f"Total rate limited: {stats['total_rate_limited']}")
     logger.info(f"Full statistics saved to: {stats_path}")
+
+    return stats
+
+def process_parliament_disclosures(
+    parliament: Optional[str] = None,
+    all_parliaments: bool = False,
+    output_dir: str = "outputs",
+    store_in_db: bool = False,
+    db_path: str = "disclosures.db",
+    limit: Optional[int] = None,
+    skip_scraping: bool = False,
+    skip_post_processing: bool = False,
+    requests_per_minute: int = 15,
+    requests_per_day: int = 1500,
+    continue_on_error: bool = False,
+    standardize: bool = False
+) -> Dict[str, Any]:
+    # ... existing code ...
+    
+    # Save overall stats to file
+    stats_path = os.path.join(output_dir, "processing_stats.json")
+    with open(stats_path, "w") as f:
+        json.dump(stats, f, indent=2)
+    
+    logger.info("PDF processing complete")
+    logger.info(f"Total processed: {stats['total_processed']}")
+    logger.info(f"Total success: {stats['total_success']}")
+    logger.info(f"Total failed: {stats['total_failed']}")
+    logger.info(f"Total rate limited: {stats['total_rate_limited']}")
+    logger.info(f"Full statistics saved to: {stats_path}")
+    
+    # Run data standardization if requested
+    if standardize and store_in_db:
+        logger.info("\n" + "="*80)
+        logger.info("RUNNING DATA STANDARDIZATION")
+        logger.info("="*80)
+        
+        try:
+            import standardize_data
+            standardize_data.standardize_database(db_path=db_path)
+            
+            # Run category validation and update
+            logger.info("\n" + "="*80)
+            logger.info("RUNNING CATEGORY VALIDATION")
+            logger.info("="*80)
+            
+            import update_categories
+            update_categories.update_categories(db_path=db_path)
+            
+        except Exception as e:
+            logger.error(f"Error during data standardization: {str(e)}")
+            logger.error("Standardization failed, but processing was completed successfully")
+    elif standardize and not store_in_db:
+        logger.warning("Standardization can only be run when storing data in the database (--store-in-db)")
+        logger.warning("Skipping standardization step")
     
     return stats
 
@@ -238,6 +293,7 @@ def main():
     parser.add_argument("--rpm", type=int, default=15, help="Requests per minute rate limit (default: 15)")
     parser.add_argument("--rpd", type=int, default=1500, help="Requests per day rate limit (default: 1500)")
     parser.add_argument("--continue-on-error", action="store_true", help="Continue processing if an error occurs")
+    parser.add_argument("--standardize", action="store_true", help="Run data standardization after processing")
     
     args = parser.parse_args()
     
