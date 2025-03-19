@@ -139,8 +139,8 @@ const Home: React.FC = () => {
               to="/gifts-travel" 
               className="bg-gradient-to-r from-pink-500 to-purple-500 p-4 rounded-lg shadow text-white hover:from-pink-600 hover:to-purple-600 transition-colors"
             >
-              <h3 className="text-lg font-semibold mb-2">Gifts & Travel Analysis</h3>
-              <p>Explore patterns in gifts and travel benefits received by MPs.</p>
+              <h3 className="text-lg font-semibold mb-2">Travel Analysis</h3>
+              <p>Explore patterns in travel benefits and sponsorships received by MPs.</p>
             </Link>
             
             <Link 
@@ -148,15 +148,15 @@ const Home: React.FC = () => {
               className="bg-gradient-to-r from-blue-500 to-teal-500 p-4 rounded-lg shadow text-white hover:from-blue-600 hover:to-teal-600 transition-colors"
             >
               <h3 className="text-lg font-semibold mb-2">Entity Network</h3>
-              <p>Discover connections between MPs and organizations.</p>
+              <p>Discover connections between MPs and organizations through their disclosed relationships.</p>
             </Link>
             
             <Link 
               to="/geographic" 
               className="bg-gradient-to-r from-amber-500 to-orange-500 p-4 rounded-lg shadow text-white hover:from-amber-600 hover:to-orange-600 transition-colors"
             >
-              <h3 className="text-lg font-semibold mb-2">Geographic View</h3>
-              <p>View disclosure patterns across Australian electorates.</p>
+              <h3 className="text-lg font-semibold mb-2">Asset Explorer</h3>
+              <p>View asset disclosure patterns across Australian Members of Parliament.</p>
             </Link>
           </div>
         </>

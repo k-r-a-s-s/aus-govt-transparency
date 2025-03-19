@@ -11,7 +11,7 @@ import {
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
 
 // Flag to determine whether to use mock data (for development)
-const USE_MOCK_DATA = true;
+const USE_MOCK_DATA = false;
 
 // Mock data for development
 const MOCK_DISCLOSURES: DisclosureData[] = Array.from({ length: 50 }, (_, i) => ({

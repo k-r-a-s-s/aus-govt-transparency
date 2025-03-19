@@ -72,6 +72,33 @@ The system workflow is straightforward:
    GOOGLE_API_KEY=your_google_api_key
    ```
 
+## Environment Variables and Security
+
+This project uses environment variables to manage sensitive information like API keys. To protect your credentials:
+
+1. **Never commit API keys or sensitive information to Git**
+   - The project includes a comprehensive `.gitignore` file that prevents accidentally committing sensitive files
+   - All files with patterns like `.env`, `.env.local`, `*.env` are ignored
+
+2. **Use example environment files**
+   - Copy the provided example files (`.env.example`, `api/.env.example`, etc.) to create your own configuration
+   - Example: `cp .env.example .env.local` then edit with your actual credentials
+
+3. **Available environment files**
+   - Root directory: `.env.local` for main project configuration (Google API keys)
+   - API directory: `api/.env` for Flask API configuration
+   - Frontend directory: `aus-govt-transparency-viz/frontend/.env` for frontend configuration
+   - Backend directory: `aus-govt-transparency-viz/backend/.env` for backend configuration
+
+4. **Environment variables reference**
+   - `GOOGLE_API_KEY`: Your Google Gemini API key (required for PDF processing)
+   - `DB_PATH`: Path to SQLite database (used by API)
+   - `PORT`: Port for running the API server
+   - `DEBUG`: Enable debug mode for Flask API
+   - `VITE_API_URL`: API URL for frontend requests
+
+Always inspect your Git commits with `git diff --staged` before committing to ensure no sensitive information is included.
+
 ## Usage
 
 ### Downloading PDFs
@@ -204,185 +231,4 @@ python process_parliament_disclosures.py --all --store-in-db --rpm 10 --continue
 
 The AI extracts structured data from PDFs into the following JSON format:
 
-```json
-{
-  "mp_name": "Mark Dreyfus",
-  "party": "Labor",
-  "electorate": "Isaacs",
-  "disclosures": [
-    {
-      "declaration_date": "2010-07-19",
-      "category": "Asset",
-      "sub_category": "Shares",
-      "item": "BHP Billiton Ltd",
-      "temporal_type": "ongoing",
-      "start_date": "2010-07-19",
-      "end_date": "",
-      "details": "Additional details about this declaration"
-    },
-    {
-      "declaration_date": "2010-07-19",
-      "category": "Asset",
-      "sub_category": "Real Estate",
-      "item": "Residential property in Melbourne, VIC",
-      "temporal_type": "ongoing",
-      "start_date": "2010-07-19",
-      "end_date": "",
-      "details": "Investment property"
-    },
-    {
-      "declaration_date": "2010-10-02",
-      "category": "Gift",
-      "sub_category": "Entertainment",
-      "item": "Two tickets to AFL Grand Final",
-      "temporal_type": "one-time",
-      "start_date": "2010-10-02",
-      "end_date": "2010-10-02",
-      "details": "Received from Monash Foundation, valued at approx. $400"
-    }
-  ],
-  "relationships": [
-    {
-      "entity": "BHP Billiton Ltd",
-      "relationship_type": "Owns Shares",
-      "value": "Undisclosed",
-      "date_logged": "2010-07-19"
-    },
-    {
-      "entity": "Monash Foundation",
-      "relationship_type": "Received Gift",
-      "value": "Approx. $400",
-      "date_logged": "2010-10-02"
-    }
-  ]
-}
 ```
-
-## Post-Processing Features
-
-The system includes post-processing capabilities to enhance the quality of extracted data:
-
-1. **Share Splitting**: Automatically splits grouped share entries into individual entries
-   - Before: `"entity": "BHP, QAN, ANZ, Dutton Holdings (QLD) Pty Ltd"`
-   - After: Four separate entries for BHP, QAN, ANZ, and Dutton Holdings
-
-2. **Gift Sub-Categorization**: Adds sub-categories to gift entries
-   - Sports Tickets: Tickets to sporting events
-   - Alcohol: Wine, spirits, etc.
-   - Food: Hampers, meals, etc.
-   - Clothing: Apparel items
-   - Electronics: Devices, gadgets
-   - Travel: Flights, accommodation, lounge access
-   - Books/Media: Publications, media
-   - Decorative: Artwork, ornaments
-   - Office Items: Stationery, business items
-
-## Database Schema
-
-The database schema consists of the following tables:
-
-### Disclosures Table
-
-| Column | Type | Description |
-|--------|------|-------------|
-| id | TEXT | Unique ID (UUID) |
-| mp_name | TEXT | MP's full name |
-| party | TEXT | Political party |
-| electorate | TEXT | MP's electorate/state |
-| declaration_date | TEXT | When the declaration was made |
-| category | TEXT | Asset, Liability, Income, Membership, Gift, Travel |
-| sub_category | TEXT | More specific classification (e.g., Shares, Real Estate) |
-| item | TEXT | What's being disclosed |
-| temporal_type | TEXT | one-time, recurring, ongoing |
-| start_date | TEXT | When the item began (for ongoing items) |
-| end_date | TEXT | When the item ended (if applicable) |
-| details | TEXT | Additional details about the declaration |
-| pdf_url | TEXT | Link to source document |
-| entity_id | TEXT | Reference to the related entity |
-| entity | TEXT | Company or organization linked to the declaration |
-
-### Entities Table
-
-| Column | Type | Description |
-|--------|------|-------------|
-| id | TEXT | Unique ID (UUID) |
-| entity_type | TEXT | Type of entity (company, organization, etc.) |
-| canonical_name | TEXT | Normalized name for the entity |
-| first_appearance_date | TEXT | Date first mentioned in disclosures |
-| last_appearance_date | TEXT | Date last mentioned in disclosures |
-| is_active | BOOLEAN | Whether the entity is still active |
-| confidence_score | FLOAT | Confidence in entity matching |
-| mp_id | TEXT | Associated MP's name |
-| notes | TEXT | Additional notes about the entity |
-
-### Relationships Table
-
-| Column | Type | Description |
-|--------|------|-------------|
-| relationship_id | TEXT | Unique ID (UUID) |
-| mp_name | TEXT | MP involved |
-| entity | TEXT | Company, donor, or organization |
-| relationship_type | TEXT | Owns Shares, Received Gift, etc. |
-| value | TEXT | Financial value if disclosed |
-| date_logged | TEXT | When the relationship was recorded |
-
-## Improved Category System
-
-The system uses an improved categorization system based on accounting principles, providing better insight into the nature of disclosed items:
-
-### Main Categories
-
-- **Asset**: Owned items that have value (shares, property)
-- **Liability**: Obligations or debts (loans, mortgages)
-- **Income**: Earnings received (dividends, salary)
-- **Membership**: Ongoing services or benefits (club memberships, professional associations)
-- **Gift**: Items received without payment (tickets, hospitality)
-- **Travel**: Travel-related benefits (flights, accommodation)
-
-### Temporal Classification
-
-Items are classified based on their temporal nature:
-
-- **one-time**: A single occurrence (e.g., a gift)
-- **recurring**: Repeats periodically (e.g., dividend payments)
-- **ongoing**: Continues indefinitely (e.g., share ownership)
-
-### Item Persistence Tracking
-
-The system tracks how items persist over time:
-
-- **Long-term items**: Present for 3+ years
-- **Medium-term items**: Present for 2 years
-- **Short-term items**: Present for 1 year
-
-### Data Validation and Statistics
-
-To validate category consistency and generate statistics about the data:
-
-```bash
-# Run validation and generate statistics
-python update_categories.py
-
-# View category system and statistics without making changes
-python update_categories.py --dry-run
-```
-
-This tool provides valuable insights including:
-- Category and subcategory distribution
-- Temporal type breakdown
-- Item persistence across years
-- Details about long-term items in the database
-
-## Parliament Coverage
-
-The system is configured to process disclosures from the following parliaments:
-
-- 47th Parliament (Current)
-- 46th Parliament
-- 45th Parliament
-- 44th Parliament
-- 43rd Parliament
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 

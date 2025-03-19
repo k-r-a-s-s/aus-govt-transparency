@@ -1,21 +1,28 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import Layout from './components/layout/Layout';
 import Home from './pages/Home';
 import MPProfile from './pages/MPProfile';
 import EntityExplorer from './pages/EntityExplorer';
 import DisclosureAnalytics from './pages/DisclosureAnalytics';
-import GiftsAndTravel from './pages/GiftsAndTravel';
+import { TravelAnalysis } from './pages/TravelAnalysis';
 import GeographicView from './pages/GeographicView';
 import Export from './pages/Export';
+import About from './pages/About';
+import Privacy from './pages/Privacy';
+import Terms from './pages/Terms';
+import Contact from './pages/Contact';
 
 // Create React Query client
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
-      staleTime: 5 * 60 * 1000, // 5 minutes
-      retry: 1,
+      staleTime: 1000 * 60 * 5, // 5 minutes
+      cacheTime: 1000 * 60 * 30, // 30 minutes
+      refetchOnWindowFocus: false,
+      retry: 1
     },
   },
 });
@@ -28,14 +35,20 @@ const App: React.FC = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/mp/:name" element={<MPProfile />} />
+            <Route path="/travel" element={<TravelAnalysis />} />
             <Route path="/entities" element={<EntityExplorer />} />
             <Route path="/analytics" element={<DisclosureAnalytics />} />
-            <Route path="/gifts-travel" element={<GiftsAndTravel />} />
-            <Route path="/geographic" element={<GeographicView />} />
+            <Route path="/geography" element={<GeographicView />} />
             <Route path="/export" element={<Export />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/terms" element={<Terms />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </Layout>
       </Router>
+      <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>
   );
 };
