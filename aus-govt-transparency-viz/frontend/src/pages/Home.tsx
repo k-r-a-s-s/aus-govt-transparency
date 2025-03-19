@@ -1,21 +1,29 @@
 import React from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { Link } from 'react-router-dom';
-import { fetchDisclosureStats } from '../services/api';
+import { fetchDisclosureStats, fetchDisclosures, fetchTimelineData } from '../services/api';
 import DisclosureTimeline from '../components/visualizations/DisclosureTimeline';
-import { useDisclosureData } from '../hooks/useDisclosureData';
 
 const Home: React.FC = () => {
   // Fetch disclosure data for visualizations
-  const { data: disclosures = [], isLoading: isLoadingDisclosures } = useDisclosureData({ limit: 1000 });
+  const { data: disclosures = [], isLoading: isLoadingDisclosures } = useQuery({
+    queryKey: ['disclosures'],
+    queryFn: () => fetchDisclosures({ limit: 1000 }),
+  });
   
   // Fetch statistics
   const { data: stats, isLoading: isLoadingStats } = useQuery({
     queryKey: ['disclosure-stats'],
     queryFn: fetchDisclosureStats,
   });
+
+  // Fetch timeline data
+  const { data: timelineData, isLoading: isLoadingTimeline } = useQuery({
+    queryKey: ['timeline'],
+    queryFn: fetchTimelineData,
+  });
   
-  const isLoading = isLoadingDisclosures || isLoadingStats;
+  const isLoading = isLoadingDisclosures || isLoadingStats || isLoadingTimeline;
   
   return (
     <div className="dashboard">
@@ -58,7 +66,9 @@ const Home: React.FC = () => {
           
           {/* Timeline Chart */}
           <div className="bg-white p-4 rounded-lg shadow mb-6">
-            <DisclosureTimeline data={disclosures} />
+            {timelineData && (
+              <DisclosureTimeline timelineData={timelineData} />
+            )}
           </div>
           
           {/* Top MPs and Categories */}
@@ -103,10 +113,10 @@ const Home: React.FC = () => {
             <div className="bg-white p-4 rounded-lg shadow">
               <h3 className="text-lg font-semibold mb-4">Disclosure Categories</h3>
               <div className="space-y-2">
-                {stats && stats.disclosures_by_category && Object.entries(stats.disclosures_by_category).map(([category, count]) => (
-                  <div key={category} className="flex justify-between items-center border-b pb-2">
-                    <span>{category}</span>
-                    <span className="font-semibold">{count} disclosures</span>
+                {stats?.categories?.map((category) => (
+                  <div key={category.category} className="flex justify-between items-center border-b pb-2">
+                    <span>{category.category}</span>
+                    <span className="font-semibold">{category.count} disclosures</span>
                   </div>
                 )) || <div className="text-gray-500">No data available</div>}
               </div>
@@ -136,7 +146,7 @@ const Home: React.FC = () => {
           {/* Quick Links */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <Link 
-              to="/gifts-travel" 
+              to="/travel" 
               className="bg-gradient-to-r from-pink-500 to-purple-500 p-4 rounded-lg shadow text-white hover:from-pink-600 hover:to-purple-600 transition-colors"
             >
               <h3 className="text-lg font-semibold mb-2">Travel Analysis</h3>
@@ -152,7 +162,7 @@ const Home: React.FC = () => {
             </Link>
             
             <Link 
-              to="/geographic" 
+              to="/geography" 
               className="bg-gradient-to-r from-amber-500 to-orange-500 p-4 rounded-lg shadow text-white hover:from-amber-600 hover:to-orange-600 transition-colors"
             >
               <h3 className="text-lg font-semibold mb-2">Asset Explorer</h3>

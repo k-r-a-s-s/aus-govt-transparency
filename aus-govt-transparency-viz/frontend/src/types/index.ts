@@ -1,6 +1,5 @@
 // MP data types
 export interface MP {
-  id: number;
   mp_name: string;
   party?: string;
   electorate?: string;
@@ -8,15 +7,21 @@ export interface MP {
 
 // Disclosure data types
 export interface DisclosureData {
-  id: number;
+  id: string;
   mp_name: string;
   party?: string;
   electorate?: string;
   category: string;
-  item: string;
+  item?: string;
   entity?: string;
+  entity_id?: string;
   declaration_date: string;
-  parliament_id: number;
+  details?: string;
+  sub_category?: string;
+  temporal_type?: string;
+  start_date?: string;
+  end_date?: string;
+  pdf_url?: string;
 }
 
 // Type for disclosure statistics
@@ -24,12 +29,14 @@ export interface DisclosureStats {
   total_disclosures: number;
   total_mps: number;
   total_entities: number;
-  disclosures_by_category: Record<string, number>;
-  disclosures_by_party: Record<string, number>;
+  categories: Array<{
+    category: string;
+    count: number;
+  }>;
   top_mps: Array<{
     mp_name: string;
-    count: number;
     party?: string;
+    count: number;
   }>;
 }
 
@@ -45,8 +52,7 @@ export interface NetworkNode {
 export interface NetworkLink {
   source: string;
   target: string;
-  value: number;
-  category?: string;
+  weight: number;
 }
 
 export interface NetworkData {
@@ -86,13 +92,10 @@ export interface GiftAnalysisData {
 export interface DisclosureQueryParams {
   limit?: number;
   offset?: number;
-  mp_name?: string;
+  mp?: string;
   category?: string;
   party?: string;
-  electorate?: string;
   entity?: string;
-  from_date?: string;
-  to_date?: string;
 }
 
 // API response types
@@ -111,12 +114,22 @@ export interface APIError {
   message: string;
 }
 
+// Timeline data type
+export interface TimelineData {
+  timeline: Array<{
+    month: string;
+    count: number;
+  }>;
+  categories: Array<{
+    month: string;
+    category: string;
+    count: number;
+  }>;
+}
+
 // Dashboard data type
 export interface DashboardData {
   recentDisclosures: DisclosureData[];
   stats: DisclosureStats;
-  timeline: {
-    date: string;
-    count: number;
-  }[];
+  timeline: TimelineData;
 } 

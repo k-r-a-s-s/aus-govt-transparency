@@ -1,8 +1,5 @@
 .qodo
 
-# Ignore PDF files
-*.pdf
-
 # Environment files
 .env
 .env.local

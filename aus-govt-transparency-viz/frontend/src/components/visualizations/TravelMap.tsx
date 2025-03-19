@@ -2,55 +2,31 @@ import React from 'react';
 import { Box, Typography, Paper } from '@mui/material';
 
 interface TravelMapProps {
-  disclosures?: Array<{
-    id: number;
-    mp_name: string;
-    entity: string;
-    description: string;
-    date: string;
-  }>;
+  data?: any[];
 }
 
-const TravelMap: React.FC<TravelMapProps> = ({ disclosures = [] }) => {
-  // This is a placeholder component for now
-  // In a future update, this would be replaced with an actual map visualization
-  // using libraries like react-leaflet, mapbox-gl, or google-maps-react
-  
+const TravelMap: React.FC<TravelMapProps> = ({ data = [] }) => {
   return (
-    <Paper 
-      elevation={0} 
-      sx={{ 
-        p: 3, 
+    <Paper sx={{ p: 3, mt: 2 }}>
+      <Typography variant="h6" gutterBottom>
+        Travel Destinations Map
+      </Typography>
+      <Typography variant="body2" color="text.secondary" paragraph>
+        Interactive map showing travel destinations will be displayed here.
+        This is a placeholder component that will be implemented in the future.
+      </Typography>
+      <Box sx={{ 
         height: 300, 
+        bgcolor: '#f5f5f5', 
         display: 'flex', 
-        flexDirection: 'column', 
         justifyContent: 'center', 
         alignItems: 'center',
-        backgroundColor: '#f5f5f5',
-        border: '1px dashed #ccc'
-      }}
-    >
-      <Box 
-        sx={{ 
-          width: 60, 
-          height: 60, 
-          borderRadius: '50%', 
-          backgroundColor: '#e0e0e0', 
-          display: 'flex', 
-          justifyContent: 'center', 
-          alignItems: 'center',
-          mb: 2
-        }}
-      >
-        <Box component="span" sx={{ fontSize: '2rem' }}>🌍</Box>
+        borderRadius: 1
+      }}>
+        <Typography variant="body1" color="text.secondary">
+          Map visualization coming soon
+        </Typography>
       </Box>
-      <Typography variant="h6" gutterBottom>
-        Travel Map Visualization
-      </Typography>
-      <Typography variant="body2" color="text.secondary" align="center">
-        A geographical visualization of travel destinations will be available in a future update.
-        {disclosures.length > 0 && ` Currently analyzing ${disclosures.length} travel records.`}
-      </Typography>
     </Paper>
   );
 };

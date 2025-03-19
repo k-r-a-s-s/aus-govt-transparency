@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
@@ -7,7 +7,7 @@ import Home from './pages/Home';
 import MPProfile from './pages/MPProfile';
 import EntityExplorer from './pages/EntityExplorer';
 import DisclosureAnalytics from './pages/DisclosureAnalytics';
-import { TravelAnalysis } from './pages/TravelAnalysis';
+import TravelAnalysis from './pages/TravelAnalysis';
 import GeographicView from './pages/GeographicView';
 import Export from './pages/Export';
 import About from './pages/About';
@@ -19,15 +19,13 @@ import Contact from './pages/Contact';
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
-      staleTime: 1000 * 60 * 5, // 5 minutes
-      cacheTime: 1000 * 60 * 30, // 30 minutes
       refetchOnWindowFocus: false,
-      retry: 1
+      staleTime: 5 * 60 * 1000,
     },
   },
 });
 
-const App: React.FC = () => {
+function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <Router>
@@ -51,6 +49,6 @@ const App: React.FC = () => {
       <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>
   );
-};
+}
 
 export default App;

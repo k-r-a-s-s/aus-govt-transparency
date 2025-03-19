@@ -27,10 +27,7 @@ export const useDisclosureData = (options: UseDisclosureDataProps = {}) => {
   // Use React Query to fetch and cache data
   return useQuery({
     queryKey,
-    queryFn: async () => {
-      const response = await fetchDisclosures(queryParams);
-      return response.data;
-    },
+    queryFn: async () => fetchDisclosures(queryParams),
     enabled,
     refetchOnWindowFocus,
     staleTime: 5 * 60 * 1000, // Consider data fresh for 5 minutes

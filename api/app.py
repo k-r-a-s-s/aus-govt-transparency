@@ -1,6 +1,6 @@
 import os
 import sqlite3
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, send_from_directory
 from flask_cors import CORS
 from dotenv import load_dotenv
 
@@ -32,26 +32,24 @@ def get_disclosures():
     
     # Build query
     query = """
-        SELECT d.*, m.name as mp_name, m.party
-        FROM disclosures d
-        JOIN mps m ON d.mp_id = m.id
+        SELECT * FROM disclosures
         WHERE 1=1
     """
     params = []
     
     if mp_name:
-        query += " AND m.name LIKE ?"
+        query += " AND mp_name LIKE ?"
         params.append(f'%{mp_name}%')
     
     if category:
-        query += " AND d.category = ?"
+        query += " AND category = ?"
         params.append(category)
         
     if entity:
-        query += " AND d.entity LIKE ?"
+        query += " AND entity LIKE ?"
         params.append(f'%{entity}%')
     
-    query += " ORDER BY d.date DESC LIMIT ? OFFSET ?"
+    query += " ORDER BY declaration_date DESC LIMIT ? OFFSET ?"
     params.extend([limit, offset])
     
     # Execute query
@@ -73,7 +71,7 @@ def get_stats():
     total_disclosures = conn.execute('SELECT COUNT(*) as count FROM disclosures').fetchone()['count']
     
     # Get number of MPs with disclosures
-    total_mps = conn.execute('SELECT COUNT(DISTINCT mp_id) as count FROM disclosures').fetchone()['count']
+    total_mps = conn.execute('SELECT COUNT(DISTINCT mp_name) as count FROM disclosures').fetchone()['count']
     
     # Get number of unique entities
     total_entities = conn.execute('SELECT COUNT(DISTINCT entity) as count FROM disclosures WHERE entity IS NOT NULL AND entity != ""').fetchone()['count']
@@ -88,10 +86,9 @@ def get_stats():
     
     # Get top MPs by disclosure count
     top_mps = conn.execute('''
-        SELECT m.name, m.party, COUNT(*) as count 
-        FROM disclosures d
-        JOIN mps m ON d.mp_id = m.id
-        GROUP BY d.mp_id 
+        SELECT mp_name, party, COUNT(*) as count 
+        FROM disclosures
+        GROUP BY mp_name 
         ORDER BY count DESC
         LIMIT 10
     ''').fetchall()
@@ -114,18 +111,22 @@ def get_mps():
     party = request.args.get('party', None)
     
     # Build query
-    query = "SELECT * FROM mps WHERE 1=1"
+    query = """
+        SELECT DISTINCT mp_name, party, electorate 
+        FROM disclosures
+        WHERE 1=1
+    """
     params = []
     
     if name:
-        query += " AND name LIKE ?"
+        query += " AND mp_name LIKE ?"
         params.append(f'%{name}%')
     
     if party:
         query += " AND party = ?"
         params.append(party)
     
-    query += " ORDER BY name"
+    query += " ORDER BY mp_name"
     
     # Execute query
     conn = get_db_connection()
@@ -176,11 +177,10 @@ def get_network():
     
     # Get all MPs and their connections to entities
     query = """
-        SELECT m.name as mp_name, m.party, d.entity, COUNT(*) as weight
-        FROM disclosures d
-        JOIN mps m ON d.mp_id = m.id
-        WHERE d.entity IS NOT NULL AND d.entity != ''
-        GROUP BY m.name, d.entity
+        SELECT mp_name, party, entity, COUNT(*) as weight
+        FROM disclosures
+        WHERE entity IS NOT NULL AND entity != ''
+        GROUP BY mp_name, entity
         ORDER BY weight DESC
     """
     
@@ -234,10 +234,10 @@ def get_timeline():
     # Get disclosures by date
     query = """
         SELECT 
-            strftime('%Y-%m', date) as month,
+            substr(declaration_date, 1, 7) as month,
             COUNT(*) as count
         FROM disclosures
-        WHERE date IS NOT NULL
+        WHERE declaration_date IS NOT NULL
         GROUP BY month
         ORDER BY month
     """
@@ -247,11 +247,11 @@ def get_timeline():
     # Get disclosures by category and date
     query_categories = """
         SELECT 
-            strftime('%Y-%m', date) as month,
+            substr(declaration_date, 1, 7) as month,
             category,
             COUNT(*) as count
         FROM disclosures
-        WHERE date IS NOT NULL
+        WHERE declaration_date IS NOT NULL
         GROUP BY month, category
         ORDER BY month
     """
@@ -273,7 +273,13 @@ def get_mp_details(name):
     conn = get_db_connection()
     
     # Get MP details
-    mp = conn.execute('SELECT * FROM mps WHERE name = ?', (name,)).fetchone()
+    mp_query = """
+    SELECT DISTINCT mp_name, party, electorate 
+    FROM disclosures 
+    WHERE mp_name = ?
+    LIMIT 1
+    """
+    mp = conn.execute(mp_query, (name,)).fetchone()
     
     if not mp:
         conn.close()
@@ -284,9 +290,9 @@ def get_mp_details(name):
     # Get MP's disclosures
     disclosures = conn.execute('''
         SELECT * FROM disclosures 
-        WHERE mp_id = ? 
-        ORDER BY date DESC
-    ''', (mp['id'],)).fetchall()
+        WHERE mp_name = ? 
+        ORDER BY declaration_date DESC
+    ''', (name,)).fetchall()
     
     mp_dict['disclosures'] = [dict(row) for row in disclosures]
     
@@ -294,10 +300,10 @@ def get_mp_details(name):
     categories = conn.execute('''
         SELECT category, COUNT(*) as count 
         FROM disclosures 
-        WHERE mp_id = ?
+        WHERE mp_name = ?
         GROUP BY category 
         ORDER BY count DESC
-    ''', (mp['id'],)).fetchall()
+    ''', (name,)).fetchall()
     
     mp_dict['categories'] = [dict(row) for row in categories]
     
@@ -305,17 +311,56 @@ def get_mp_details(name):
     entities = conn.execute('''
         SELECT entity, COUNT(*) as count 
         FROM disclosures 
-        WHERE mp_id = ? AND entity IS NOT NULL AND entity != ''
+        WHERE mp_name = ? AND entity IS NOT NULL AND entity != ''
         GROUP BY entity 
         ORDER BY count DESC 
         LIMIT 10
-    ''', (mp['id'],)).fetchall()
+    ''', (name,)).fetchall()
     
     mp_dict['entities'] = [dict(row) for row in entities]
     
     conn.close()
     
     return jsonify(mp_dict)
+
+@app.route('/api/pdf/<path:filename>', methods=['GET'])
+def get_pdf(filename):
+    """Serve PDF files."""
+    pdf_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'pdfs')
+    
+    # First try to locate the file directly
+    if os.path.isfile(os.path.join(pdf_dir, filename)):
+        return send_from_directory(pdf_dir, filename)
+    
+    # If not found, try searching in parliament subdirectories
+    for parliament in os.listdir(pdf_dir):
+        parliament_dir = os.path.join(pdf_dir, parliament)
+        if os.path.isdir(parliament_dir) and os.path.isfile(os.path.join(parliament_dir, filename)):
+            return send_from_directory(parliament_dir, filename)
+    
+    return jsonify({'error': 'PDF not found'}), 404
+
+@app.route('/api/pdf-info/<mp_name>', methods=['GET'])
+def get_pdf_info(mp_name):
+    """Get PDF information for a specific MP."""
+    # Try to determine the filename format from the database
+    conn = get_db_connection()
+    pdf_info = conn.execute('''
+        SELECT DISTINCT pdf_url
+        FROM disclosures
+        WHERE mp_name = ? AND pdf_url IS NOT NULL AND pdf_url != ''
+        ORDER BY declaration_date DESC
+    ''', (mp_name,)).fetchall()
+    conn.close()
+    
+    if not pdf_info:
+        return jsonify({'error': 'No PDF information found for this MP'}), 404
+    
+    # Return all available PDF files for this MP
+    return jsonify({
+        'mp_name': mp_name,
+        'pdf_files': [dict(row) for row in pdf_info]
+    })
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 3001))

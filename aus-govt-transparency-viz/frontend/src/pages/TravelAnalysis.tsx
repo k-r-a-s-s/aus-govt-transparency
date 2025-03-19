@@ -55,7 +55,7 @@ const entityColors = [
   '#d0ed57', '#ffc658', '#ff8042', '#ff6361', '#bc5090'
 ];
 
-export const TravelAnalysis: React.FC = () => {
+const TravelAnalysis: React.FC = () => {
   const [activeEntityIndex, setActiveEntityIndex] = useState<number | undefined>(undefined);
   const [activeMPIndex, setActiveMPIndex] = useState<number | undefined>(undefined);
 

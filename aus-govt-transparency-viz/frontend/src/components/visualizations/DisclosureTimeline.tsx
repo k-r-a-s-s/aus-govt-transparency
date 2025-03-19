@@ -1,5 +1,5 @@
-import React, { useMemo } from 'react';
-import { DisclosureData } from '../../types';
+import React from 'react';
+import { TimelineData } from '../../types';
 import {
   LineChart,
   Line,
@@ -12,40 +12,17 @@ import {
 } from 'recharts';
 
 interface DisclosureTimelineProps {
-  data: DisclosureData[];
+  timelineData: TimelineData;
   mpName?: string;
   height?: number;
 }
 
-/**
- * Transforms disclosure data into a format suitable for a timeline visualization
- */
-const transformToTimelineData = (data: DisclosureData[] = []) => {
-  // Group disclosures by month
-  const groupedByMonth: Record<string, number> = {};
-  
-  data.forEach(disclosure => {
-    const date = new Date(disclosure.declaration_date);
-    const monthYear = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`;
-    
-    groupedByMonth[monthYear] = (groupedByMonth[monthYear] || 0) + 1;
-  });
-  
-  // Convert to array and sort by date
-  return Object.entries(groupedByMonth)
-    .map(([date, count]) => ({ date, count }))
-    .sort((a, b) => a.date.localeCompare(b.date));
-};
-
 const DisclosureTimeline: React.FC<DisclosureTimelineProps> = ({ 
-  data = [],
+  timelineData,
   mpName,
   height = 300
 }) => {
-  // Memoize the transformation to avoid recalculating on every render
-  const timelineData = useMemo(() => transformToTimelineData(data), [data]);
-  
-  if (timelineData.length === 0) {
+  if (!timelineData || !timelineData.timeline || timelineData.timeline.length === 0) {
     return (
       <div className="text-center p-4 bg-gray-50 rounded-lg">
         <p className="text-gray-500">
@@ -67,7 +44,7 @@ const DisclosureTimeline: React.FC<DisclosureTimelineProps> = ({
       
       <ResponsiveContainer width="100%" height={height}>
         <LineChart
-          data={timelineData}
+          data={timelineData.timeline}
           margin={{
             top: 5,
             right: 30,
@@ -77,7 +54,7 @@ const DisclosureTimeline: React.FC<DisclosureTimelineProps> = ({
         >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis 
-            dataKey="date" 
+            dataKey="month" 
             angle={-45} 
             textAnchor="end"
             tick={{ fontSize: 12 }}
