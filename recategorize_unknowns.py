@@ -94,6 +94,18 @@ class UnknownRecategorizer:
                 'pattern': r'income\s*from|salary|dividend|rent\s*from|rental\s*income|distribution',
                 'subcategory': Subcategories.INCOME_OTHER,
                 'temporal_type': TemporalTypes.RECURRING
+            },
+            # Royalties and IP Income
+            {
+                'pattern': r'royalt|author|book|publication|copyright|patent',
+                'subcategory': Subcategories.INCOME_OTHER,
+                'temporal_type': TemporalTypes.RECURRING
+            },
+            # Sale of personal items
+            {
+                'pattern': r'sold|sale|proceeds|auction',
+                'subcategory': Subcategories.INCOME_OTHER,
+                'temporal_type': TemporalTypes.ONE_TIME
             }
         ],
         
@@ -113,8 +125,26 @@ class UnknownRecategorizer:
             },
             # Hospitality
             {
-                'pattern': r'dinner|lunch|meal|hospitality|food|wine|alcohol',
+                'pattern': r'dinner|lunch|meal|hospitality|food|wine|alcohol|bottle|catering|hamper|chocolates',
                 'subcategory': Subcategories.GIFT_HOSPITALITY,
+                'temporal_type': TemporalTypes.ONE_TIME
+            },
+            # Clothing and apparel
+            {
+                'pattern': r'suit|tailor|jersey|clothing|shirt|tie|apparel|scarf|hat|cap|dress|uniform',
+                'subcategory': Subcategories.GIFT_OTHER,
+                'temporal_type': TemporalTypes.ONE_TIME
+            },
+            # Sports equipment and items
+            {
+                'pattern': r'cycling|golf|tennis|equipment|sporting|sport\s*item|trophy|medal',
+                'subcategory': Subcategories.GIFT_OTHER,
+                'temporal_type': TemporalTypes.ONE_TIME
+            },
+            # Decorative gifts
+            {
+                'pattern': r'artwork|painting|sculpture|ornament|plaque|award|commemorative|decorative',
+                'subcategory': Subcategories.GIFT_DECORATIVE,
                 'temporal_type': TemporalTypes.ONE_TIME
             }
         ],
@@ -129,7 +159,13 @@ class UnknownRecategorizer:
             },
             # Other Travel
             {
-                'pattern': r'travel|accommodation|hotel|resort|trip',
+                'pattern': r'travel|accommodation|hotel|resort|trip|tour|visit',
+                'subcategory': Subcategories.TRAVEL_OTHER,
+                'temporal_type': TemporalTypes.ONE_TIME
+            },
+            # Event entries and competitions
+            {
+                'pattern': r'entrance\s*fee|entry\s*fee|competition\s*entry',
                 'subcategory': Subcategories.TRAVEL_OTHER,
                 'temporal_type': TemporalTypes.ONE_TIME
             }
@@ -147,6 +183,10 @@ class UnknownRecategorizer:
         'wes': (Categories.ASSET, Subcategories.ASSET_SHARES),
         'amp': (Categories.ASSET, Subcategories.ASSET_SHARES),
         'iag': (Categories.ASSET, Subcategories.ASSET_SHARES),
+        'westpac': (Categories.ASSET, Subcategories.ASSET_SHARES),
+        'woolworths': (Categories.ASSET, Subcategories.ASSET_SHARES),
+        'commonwealth bank': (Categories.ASSET, Subcategories.ASSET_SHARES),
+        'rio tinto': (Categories.ASSET, Subcategories.ASSET_SHARES),
         
         # Airlines and lounges
         'qantas': (Categories.MEMBERSHIP, Subcategories.MEMBERSHIP_PROFESSIONAL),
@@ -158,7 +198,25 @@ class UnknownRecategorizer:
         'nrl': (Categories.GIFT, Subcategories.GIFT_ENTERTAINMENT),
         'cricket australia': (Categories.GIFT, Subcategories.GIFT_ENTERTAINMENT),
         'football': (Categories.GIFT, Subcategories.GIFT_ENTERTAINMENT),
-        'tennis': (Categories.GIFT, Subcategories.GIFT_ENTERTAINMENT)
+        'tennis': (Categories.GIFT, Subcategories.GIFT_ENTERTAINMENT),
+        'australian open': (Categories.GIFT, Subcategories.GIFT_ENTERTAINMENT),
+        'rugby': (Categories.GIFT, Subcategories.GIFT_ENTERTAINMENT),
+        'grand final': (Categories.GIFT, Subcategories.GIFT_ENTERTAINMENT),
+        
+        # Publishers and media companies
+        'university press': (Categories.INCOME, Subcategories.INCOME_OTHER),
+        'publisher': (Categories.INCOME, Subcategories.INCOME_OTHER),
+        'media': (Categories.INCOME, Subcategories.INCOME_OTHER),
+        
+        # Tailors and clothing
+        'tailor': (Categories.GIFT, Subcategories.GIFT_OTHER),
+        'suit': (Categories.GIFT, Subcategories.GIFT_OTHER),
+        
+        # Political parties
+        'labor party': (Categories.MEMBERSHIP, Subcategories.MEMBERSHIP_OTHER),
+        'liberal party': (Categories.MEMBERSHIP, Subcategories.MEMBERSHIP_OTHER),
+        'national party': (Categories.MEMBERSHIP, Subcategories.MEMBERSHIP_OTHER),
+        'greens': (Categories.MEMBERSHIP, Subcategories.MEMBERSHIP_OTHER),
     }
     
     def __init__(self, db_path: str):
@@ -317,7 +375,7 @@ class UnknownRecategorizer:
                 elif category == Categories.GIFT:
                     temporal_type = TemporalTypes.ONE_TIME
                 else:
-                    temporal_type = ""
+                    temporal_type = TemporalTypes.ONE_TIME
                 
                 return category, subcategory, temporal_type
         
@@ -328,7 +386,7 @@ class UnknownRecategorizer:
                     return category, rule['subcategory'], rule['temporal_type']
         
         # Default if no patterns match
-        return Categories.UNKNOWN, "Other", ""
+        return Categories.UNKNOWN, "Other", TemporalTypes.ONE_TIME
     
     def _report_results(self, stats: Dict[str, int], dry_run: bool) -> None:
         """
