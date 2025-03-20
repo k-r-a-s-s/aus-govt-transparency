@@ -12,9 +12,6 @@ import os
 import time
 from typing import Dict, Any
 
-from recategorize_unknowns import UnknownRecategorizer
-from recategorize_unknowns_llm import LLMRecategorizer
-
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
@@ -44,6 +41,10 @@ def recategorize_complete_pipeline(
     Returns:
         Combined statistics from both approaches
     """
+    # Import recategorization modules here to avoid circular imports
+    from recategorize_unknowns import UnknownRecategorizer
+    from recategorize_unknowns_llm import LLMRecategorizer
+    
     start_time = time.time()
     stats = {
         "regex": {},
@@ -82,8 +83,8 @@ def recategorize_complete_pipeline(
     logger.info(f"Total processing time: {stats['total_time_seconds']:.1f} seconds")
     
     if "regex" in stats and stats["regex"]:
-        logger.info(f"Regex approach: {stats['regex']['recategorized']} entries recategorized " +
-                   f"({stats['regex']['recategorized']/stats['regex']['total']*100:.1f}% of unknown entries)")
+        logger.info(f"Regex approach: {stats['regex'].get('recategorized', 0)} entries recategorized " +
+                   f"({stats['regex'].get('recategorized', 0)/stats['regex'].get('total', 1)*100:.1f}% of unknown entries)")
     
     if "llm" in stats and stats["llm"]:
         logger.info(f"LLM approach: {stats.get('llm', {}).get('recategorized', 0)} entries recategorized " +

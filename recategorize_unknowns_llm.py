@@ -216,7 +216,8 @@ Your job is to analyze each entry and assign it to the appropriate category and 
                     {"role": "user", "content": prompt}
                 ],
                 "temperature": 0.1,  # Use low temperature for more consistent categorization
-                "max_tokens": 2000
+                "max_tokens": 2000,
+                "response_format": { "type": "json_object" }  # Explicitly request JSON format
             }
         )
         
@@ -228,38 +229,121 @@ Your job is to analyze each entry and assign it to the appropriate category and 
         result = response.json()
         llm_response = result["choices"][0]["message"]["content"]
         
+        # Log the first 100 chars of the response for debugging
+        logger.debug(f"LLM response preview: {llm_response[:100]}...")
+        
         # Extract JSON data from response
         try:
-            # The response should be a JSON array
-            categorizations = json.loads(llm_response)
-            return categorizations
+            # Try to parse the response directly first
+            response_data = json.loads(llm_response)
+            
+            # Check if it's a JSON object with a 'results' or 'categorizations' key
+            if isinstance(response_data, dict):
+                if 'results' in response_data:
+                    return response_data['results']
+                elif 'categorizations' in response_data:
+                    return response_data['categorizations']
+                elif 'entries' in response_data:
+                    return response_data['entries']
+                
+                # If it's a JSON object but none of the expected keys are present,
+                # check if it matches our expected format (array of objects with id, category, etc.)
+                if len(entries) == 1 and 'id' in response_data and 'category' in response_data:
+                    # Single entry response
+                    return [response_data]
+            
+            # If it's already an array, return it directly
+            if isinstance(response_data, list):
+                return response_data
+            
+            # If we get here, the response format wasn't what we expected
+            logger.warning(f"Unexpected JSON format, trying to extract array from: {llm_response[:200]}...")
+            
         except json.JSONDecodeError:
             logger.warning(f"Failed to parse LLM response as JSON, attempting to extract JSON")
-            # Try to extract JSON from the response text
-            try:
-                # Look for JSON array in a code block
-                if "```json" in llm_response:
-                    # Extract JSON from code block
-                    start_idx = llm_response.find("```json") + 7
-                    end_idx = llm_response.rfind("```")
-                    if start_idx >= 7 and end_idx > start_idx:
-                        json_str = llm_response[start_idx:end_idx].strip()
-                        categorizations = json.loads(json_str)
-                        return categorizations
-                
-                # Try to find JSON array directly
-                start_idx = llm_response.find('[')
-                end_idx = llm_response.rfind(']') + 1
-                if start_idx >= 0 and end_idx > start_idx:
-                    json_str = llm_response[start_idx:end_idx]
-                    categorizations = json.loads(json_str)
-                    return categorizations
-            except Exception as e:
-                logger.error(f"Failed to extract JSON from response: {str(e)}")
+        
+        # Try alternative extraction methods
+        try:
+            # Check for JSON array in a code block
+            if "```json" in llm_response:
+                # Extract JSON from code block
+                start_idx = llm_response.find("```json") + 7
+                end_idx = llm_response.rfind("```")
+                if start_idx >= 7 and end_idx > start_idx:
+                    json_str = llm_response[start_idx:end_idx].strip()
+                    logger.debug(f"Extracted JSON from code block: {json_str[:100]}...")
+                    data = json.loads(json_str)
+                    
+                    # Handle both array and object formats
+                    if isinstance(data, list):
+                        return data
+                    elif isinstance(data, dict) and ('results' in data or 'categorizations' in data or 'entries' in data):
+                        key = next(k for k in ['results', 'categorizations', 'entries'] if k in data)
+                        return data[key]
+                    
+                    # If it's a single entry response
+                    if len(entries) == 1 and 'id' in data and 'category' in data:
+                        return [data]
             
-            # Return empty list as fallback
-            logger.error(f"Could not parse LLM response, returning empty list")
+            # Try markdown code block format
+            elif "```" in llm_response:
+                start_idx = llm_response.find("```") + 3
+                end_idx = llm_response.rfind("```")
+                if start_idx >= 3 and end_idx > start_idx:
+                    # Skip language identifier if present
+                    if start_idx < end_idx and llm_response[start_idx] == '\n':
+                        start_idx += 1
+                    json_str = llm_response[start_idx:end_idx].strip()
+                    logger.debug(f"Extracted JSON from generic code block: {json_str[:100]}...")
+                    data = json.loads(json_str)
+                    
+                    # Process the data similar to above
+                    if isinstance(data, list):
+                        return data
+                    elif isinstance(data, dict) and any(k in data for k in ['results', 'categorizations', 'entries']):
+                        key = next(k for k in ['results', 'categorizations', 'entries'] if k in data)
+                        return data[key]
+                    
+                    if len(entries) == 1 and 'id' in data and 'category' in data:
+                        return [data]
+            
+            # Try to find JSON array directly
+            start_idx = llm_response.find('[')
+            end_idx = llm_response.rfind(']') + 1
+            if start_idx >= 0 and end_idx > start_idx:
+                json_str = llm_response[start_idx:end_idx]
+                logger.debug(f"Extracted JSON array: {json_str[:100]}...")
+                return json.loads(json_str)
+                
+            # Try to find JSON object directly
+            start_idx = llm_response.find('{')
+            end_idx = llm_response.rfind('}') + 1
+            if start_idx >= 0 and end_idx > start_idx:
+                json_str = llm_response[start_idx:end_idx]
+                logger.debug(f"Extracted JSON object: {json_str[:100]}...")
+                data = json.loads(json_str)
+                
+                # Process the data similar to above
+                if isinstance(data, dict):
+                    if any(k in data for k in ['results', 'categorizations', 'entries']):
+                        key = next(k for k in ['results', 'categorizations', 'entries'] if k in data)
+                        return data[key]
+                    
+                    # If it looks like a single entry response
+                    if len(entries) == 1 and 'id' in data and 'category' in data:
+                        return [data]
+            
+            # If we got here, we couldn't find valid JSON
+            logger.error(f"Failed to extract JSON from response. Full response: {llm_response}")
             return []
+            
+        except Exception as e:
+            logger.error(f"Failed to extract JSON from response: {str(e)}")
+            logger.error(f"Full response: {llm_response}")
+            
+        # Return empty list as fallback
+        logger.error(f"Could not parse LLM response, returning empty list")
+        return []
     
     def _create_categorization_prompt(self, entries: List[Dict[str, str]]) -> str:
         """
