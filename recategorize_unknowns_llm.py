@@ -16,6 +16,7 @@ import google.generativeai as genai
 from typing import Dict, List, Tuple, Optional, Any
 from db_handler import DatabaseHandler, Categories, Subcategories, TemporalTypes
 from dotenv import load_dotenv
+import re
 
 # Load environment variables
 load_dotenv('.env.local')
@@ -102,10 +103,14 @@ class LLMRecategorizer:
             }
         }
         
+        # Dynamically adjust the batch size for large sets
+        effective_batch_size = min(batch_size, 20) if len(unknown_entries) > 50 else batch_size
+        logger.info(f"Using batch size of {effective_batch_size} entries")
+        
         # Process entries in batches
-        for i in range(0, len(unknown_entries), batch_size):
-            batch = unknown_entries[i:i+batch_size]
-            logger.info(f"Processing batch {i//batch_size + 1}/{(len(unknown_entries) + batch_size - 1)//batch_size}")
+        for i in range(0, len(unknown_entries), effective_batch_size):
+            batch = unknown_entries[i:i+effective_batch_size]
+            logger.info(f"Processing batch {i//effective_batch_size + 1}/{(len(unknown_entries) + effective_batch_size - 1)//effective_batch_size}")
             
             try:
                 # Create batch for LLM processing
@@ -186,6 +191,8 @@ class LLMRecategorizer:
             except Exception as e:
                 logger.error(f"Error processing batch: {str(e)}")
                 stats['errors'] += 1
+                # Wait a bit longer if we hit an error
+                time.sleep(3)
         
         if not dry_run:
             conn.commit()
@@ -224,6 +231,10 @@ class LLMRecategorizer:
             
             # Log the first 100 chars of the response for debugging
             llm_response = response.text
+            if llm_response is None:
+                logger.error("Received empty response from Gemini API")
+                return []
+                
             logger.debug(f"LLM response preview: {llm_response[:100]}...")
             
             # Extract JSON data from response
@@ -232,8 +243,12 @@ class LLMRecategorizer:
             # Clean up subcategory fields if they contain category prefixes
             for result in results:
                 if "subcategory" in result and "category" in result:
-                    subcategory = result["subcategory"]
-                    category = result["category"]
+                    subcategory = result.get("subcategory")
+                    category = result.get("category")
+                    
+                    # Skip if either is None
+                    if subcategory is None or category is None:
+                        continue
                     
                     # Remove the category prefix if it exists
                     prefix = f"{category} > "
@@ -296,19 +311,51 @@ class LLMRecategorizer:
                 end_idx = llm_response.rfind("```")
                 if start_idx >= 7 and end_idx > start_idx:
                     json_str = llm_response[start_idx:end_idx].strip()
-                    logger.debug(f"Extracted JSON from code block: {json_str[:100]}...")
-                    data = json.loads(json_str)
                     
-                    # Handle both array and object formats
-                    if isinstance(data, list):
-                        return data
-                    elif isinstance(data, dict) and ('results' in data or 'categorizations' in data or 'entries' in data):
-                        key = next(k for k in ['results', 'categorizations', 'entries'] if k in data)
-                        return data[key]
-                    
-                    # If it's a single entry response
-                    if len(entries) == 1 and 'id' in data and 'category' in data:
-                        return [data]
+                    # Try to repair incomplete JSON - look for last complete object
+                    try:
+                        return json.loads(json_str)
+                    except json.JSONDecodeError as e:
+                        # If error is about the end of the JSON, try to find last complete object
+                        if "Extra data" in str(e) or "Expecting" in str(e):
+                            # Find position of last complete object
+                            last_obj_end = json_str.rfind("}")
+                            if last_obj_end > 0:
+                                # Find the beginning of the array
+                                array_start = json_str.find("[")
+                                if array_start >= 0 and array_start < last_obj_end:
+                                    # Find last complete object (find matching bracket)
+                                    bracket_count = 0
+                                    in_string = False
+                                    escape_next = False
+                                    last_complete_pos = -1
+                                    
+                                    for i, char in enumerate(json_str[array_start:last_obj_end+1]):
+                                        pos = array_start + i
+                                        if escape_next:
+                                            escape_next = False
+                                            continue
+                                            
+                                        if char == '\\' and not escape_next:
+                                            escape_next = True
+                                        elif char == '"' and not escape_next:
+                                            in_string = not in_string
+                                        elif not in_string:
+                                            if char == '{':
+                                                bracket_count += 1
+                                            elif char == '}':
+                                                bracket_count -= 1
+                                                if bracket_count == 0 and json_str[array_start:pos+1].count('{') > 0:
+                                                    last_complete_pos = pos
+                                    
+                                    if last_complete_pos > 0:
+                                        # Try parsing up to last complete object plus closing array bracket
+                                        truncated_json = json_str[array_start:last_complete_pos+1] + "]"
+                                        logger.debug(f"Attempting to parse truncated JSON: {truncated_json[:100]}...")
+                                        return json.loads(truncated_json)
+                        
+                        # If we got here, our repair attempt failed
+                        raise
             
             # Try markdown code block format
             elif "```" in llm_response:
@@ -319,33 +366,43 @@ class LLMRecategorizer:
                     if start_idx < end_idx and llm_response[start_idx] == '\n':
                         start_idx += 1
                     json_str = llm_response[start_idx:end_idx].strip()
-                    logger.debug(f"Extracted JSON from generic code block: {json_str[:100]}...")
-                    data = json.loads(json_str)
                     
-                    # Process the data similar to above
-                    if isinstance(data, list):
-                        return data
-                    elif isinstance(data, dict) and any(k in data for k in ['results', 'categorizations', 'entries']):
-                        key = next(k for k in ['results', 'categorizations', 'entries'] if k in data)
-                        return data[key]
-                    
-                    if len(entries) == 1 and 'id' in data and 'category' in data:
-                        return [data]
+                    # Try to repair incomplete JSON
+                    try:
+                        return json.loads(json_str)
+                    except json.JSONDecodeError as e:
+                        # Similar repair logic as above
+                        if "Extra data" in str(e) or "Expecting" in str(e):
+                            last_obj_end = json_str.rfind("}")
+                            array_start = json_str.find("[")
+                            if last_obj_end > 0 and array_start >= 0 and array_start < last_obj_end:
+                                truncated_json = json_str[array_start:last_obj_end+1] + "]"
+                                logger.debug(f"Attempting to parse truncated JSON: {truncated_json[:100]}...")
+                                return json.loads(truncated_json)
+                        raise
             
             # Try to find JSON array directly
             start_idx = llm_response.find('[')
             end_idx = llm_response.rfind(']') + 1
             if start_idx >= 0 and end_idx > start_idx:
                 json_str = llm_response[start_idx:end_idx]
-                logger.debug(f"Extracted JSON array: {json_str[:100]}...")
-                return json.loads(json_str)
+                try:
+                    return json.loads(json_str)
+                except json.JSONDecodeError as e:
+                    # Similar repair logic for direct arrays
+                    if "Extra data" in str(e) or "Expecting" in str(e):
+                        last_obj_end = json_str.rfind("}")
+                        if last_obj_end > 0:
+                            truncated_json = json_str[:last_obj_end+1] + "]"
+                            logger.debug(f"Attempting to parse truncated JSON: {truncated_json[:100]}...")
+                            return json.loads(truncated_json)
+                    raise
                 
             # Try to find JSON object directly
             start_idx = llm_response.find('{')
             end_idx = llm_response.rfind('}') + 1
             if start_idx >= 0 and end_idx > start_idx:
                 json_str = llm_response[start_idx:end_idx]
-                logger.debug(f"Extracted JSON object: {json_str[:100]}...")
                 data = json.loads(json_str)
                 
                 # Process the data similar to above
@@ -360,6 +417,38 @@ class LLMRecategorizer:
             
             # If we got here, we couldn't find valid JSON
             logger.error(f"Failed to extract JSON from response. Full response: {llm_response}")
+            
+            # As a last resort, try to manually construct results from the response
+            if "id" in llm_response and "category" in llm_response:
+                # Try to parse each individual entry
+                results = []
+                for entry in entries:
+                    entry_id = entry["id"]
+                    # Find this ID in the response
+                    id_start = llm_response.find(f'"id": "{entry_id}"')
+                    if id_start > 0:
+                        # Find the object containing this ID
+                        obj_start = llm_response.rfind("{", 0, id_start)
+                        obj_end = llm_response.find("}", id_start)
+                        if obj_start >= 0 and obj_end > 0:
+                            # Extract the category, subcategory, and temporal_type
+                            category_match = re.search(r'"category":\s*"([^"]+)"', llm_response[id_start:obj_end])
+                            subcategory_match = re.search(r'"subcategory":\s*"([^"]+)"', llm_response[id_start:obj_end])
+                            temporal_match = re.search(r'"temporal_type":\s*"([^"]+)"', llm_response[id_start:obj_end])
+                            
+                            if category_match:
+                                result = {
+                                    "id": entry_id,
+                                    "category": category_match.group(1),
+                                    "subcategory": subcategory_match.group(1) if subcategory_match else None,
+                                    "temporal_type": temporal_match.group(1) if temporal_match else "one-time"
+                                }
+                                results.append(result)
+                
+                if results:
+                    logger.info(f"Manually extracted {len(results)} results from malformed JSON")
+                    return results
+            
             return []
             
         except Exception as e:
@@ -433,32 +522,33 @@ Temporal types (IMPORTANT - use EXACTLY one of these strings):
         entries_json = json.dumps(entries, indent=2)
         
         return f"""
-I need you to categorize a batch of political disclosure entries. These are items that politicians have declared as part of their required disclosures.
+I need you to categorize the following political disclosure entries. These are items that politicians have declared as part of their required disclosures.
 
 {categories_info}
 
-Here are the entries to categorize, in JSON format:
+Here are the entries to categorize:
 {entries_json}
 
 For each entry, analyze the "item" and "details" fields to determine the most appropriate category, subcategory, and temporal type.
 
-Return a JSON array with objects in this format:
+Your response format must be a JSON array like this:
 [
   {{
     "id": "entry_id",
     "category": "chosen_category",
     "subcategory": "chosen_subcategory", 
-    "temporal_type": "one-time" | "recurring" | "ongoing", 
-    "confidence": "high/medium/low" (optional)
+    "temporal_type": "one-time" | "recurring" | "ongoing"
   }},
   ...
 ]
 
-IMPORTANT NOTES:
-1. For temporal_type, you MUST use exactly one of these three values: "one-time", "recurring", or "ongoing".
-2. For subcategory, use ONLY the subcategory name WITHOUT the category prefix. For example, use "Shares" not "Asset > Shares", use "Hospitality" not "Gift > Hospitality".
+IMPORTANT:
+1. For temporal_type, use EXACTLY one of: "one-time", "recurring", or "ongoing"
+2. For subcategory, use ONLY the subcategory name WITHOUT the category prefix
+3. The response must be valid JSON that can be parsed with standard JSON tools
+4. Do NOT include any other text or explanations, ONLY the JSON array
 
-Please respond ONLY with the JSON array, nothing else.
+Respond ONLY with the JSON array, nothing else before or after.
 """
     
     def _report_results(self, stats: Dict[str, Any], dry_run: bool) -> None:
