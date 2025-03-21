@@ -12,13 +12,13 @@ import argparse
 import json
 import os
 import time
-import requests
+import google.generativeai as genai
 from typing import Dict, List, Tuple, Optional, Any
 from db_handler import DatabaseHandler, Categories, Subcategories, TemporalTypes
 from dotenv import load_dotenv
 
 # Load environment variables
-load_dotenv()
+load_dotenv('.env.local')
 
 # Configure logging
 logging.basicConfig(
@@ -40,8 +40,15 @@ class LLMRecategorizer:
         self.db_path = db_path
         self.db = DatabaseHandler(db_path=db_path)
         self.api_key = os.getenv("GOOGLE_API_KEY")
+        
         if not self.api_key:
             logger.warning("No Google API key found. Set GOOGLE_API_KEY environment variable.")
+        else:
+            # Configure the Gemini API
+            genai.configure(api_key=self.api_key)
+            
+            # Get the Gemini model
+            self.model = genai.GenerativeModel('gemini-1.5-flash')
     
     def recategorize_with_llm(self, batch_size: int = 50, max_entries: int = None, dry_run: bool = False) -> Dict[str, Any]:
         """
@@ -201,169 +208,140 @@ class LLMRecategorizer:
         # Prepare the prompt for the LLM
         prompt = self._create_categorization_prompt(entries)
         
-        # Call the Gemini API
-        response = requests.post(
-            "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-001:generateContent",
-            headers={
-                "Content-Type": "application/json",
-                "x-goog-api-key": self.api_key
-            },
-            json={
-                "contents": [
-                    {
-                        "parts": [
-                            {
-                                "text": prompt
-                            }
-                        ]
-                    }
-                ],
-                "generationConfig": {
-                    "temperature": 0.1,
-                    "topP": 0.8,
-                    "topK": 40,
-                    "responseStateFormat": "STRUCTURED",
-                    "maxOutputTokens": 2048
-                }
+        try:
+            # Call Gemini API
+            generation_config = {
+                "temperature": 0.1,
+                "top_p": 0.8,
+                "top_k": 40,
+                "max_output_tokens": 2048,
             }
-        )
-        
-        if response.status_code != 200:
-            logger.error(f"Error from Gemini API: {response.text}")
-            raise Exception(f"API Error: {response.status_code}")
-        
-        # Parse the LLM response
-        result = response.json()
-        
-        # Extract the text from the Gemini response
-        candidates = result.get("candidates", [])
-        if not candidates:
-            logger.error("No candidates in Gemini response")
-            return []
             
-        content = candidates[0].get("content", {})
-        parts = content.get("parts", [])
-        if not parts:
-            logger.error("No parts in Gemini response")
-            return []
+            response = self.model.generate_content(
+                prompt,
+                generation_config=generation_config
+            )
             
-        llm_response = parts[0].get("text", "")
-        
-        # Log the first 100 chars of the response for debugging
-        logger.debug(f"LLM response preview: {llm_response[:100]}...")
-        
-        # Extract JSON data from response
-        try:
-            # Try to parse the response directly first
-            response_data = json.loads(llm_response)
+            # Log the first 100 chars of the response for debugging
+            llm_response = response.text
+            logger.debug(f"LLM response preview: {llm_response[:100]}...")
             
-            # Check if it's a JSON object with a 'results' or 'categorizations' key
-            if isinstance(response_data, dict):
-                if 'results' in response_data:
-                    return response_data['results']
-                elif 'categorizations' in response_data:
-                    return response_data['categorizations']
-                elif 'entries' in response_data:
-                    return response_data['entries']
+            # Extract JSON data from response
+            try:
+                # Try to parse the response directly first
+                response_data = json.loads(llm_response)
                 
-                # If it's a JSON object but none of the expected keys are present,
-                # check if it matches our expected format (array of objects with id, category, etc.)
-                if len(entries) == 1 and 'id' in response_data and 'category' in response_data:
-                    # Single entry response
-                    return [response_data]
-            
-            # If it's already an array, return it directly
-            if isinstance(response_data, list):
-                return response_data
-            
-            # If we get here, the response format wasn't what we expected
-            logger.warning(f"Unexpected JSON format, trying to extract array from: {llm_response[:200]}...")
-            
-        except json.JSONDecodeError:
-            logger.warning(f"Failed to parse LLM response as JSON, attempting to extract JSON")
-        
-        # Try alternative extraction methods
-        try:
-            # Check for JSON array in a code block
-            if "```json" in llm_response:
-                # Extract JSON from code block
-                start_idx = llm_response.find("```json") + 7
-                end_idx = llm_response.rfind("```")
-                if start_idx >= 7 and end_idx > start_idx:
-                    json_str = llm_response[start_idx:end_idx].strip()
-                    logger.debug(f"Extracted JSON from code block: {json_str[:100]}...")
-                    data = json.loads(json_str)
+                # Check if it's a JSON object with a 'results' or 'categorizations' key
+                if isinstance(response_data, dict):
+                    if 'results' in response_data:
+                        return response_data['results']
+                    elif 'categorizations' in response_data:
+                        return response_data['categorizations']
+                    elif 'entries' in response_data:
+                        return response_data['entries']
                     
-                    # Handle both array and object formats
-                    if isinstance(data, list):
-                        return data
-                    elif isinstance(data, dict) and ('results' in data or 'categorizations' in data or 'entries' in data):
-                        key = next(k for k in ['results', 'categorizations', 'entries'] if k in data)
-                        return data[key]
-                    
-                    # If it's a single entry response
-                    if len(entries) == 1 and 'id' in data and 'category' in data:
-                        return [data]
+                    # If it's a JSON object but none of the expected keys are present,
+                    # check if it matches our expected format (array of objects with id, category, etc.)
+                    if len(entries) == 1 and 'id' in response_data and 'category' in response_data:
+                        # Single entry response
+                        return [response_data]
+                
+                # If it's already an array, return it directly
+                if isinstance(response_data, list):
+                    return response_data
+                
+                # If we get here, the response format wasn't what we expected
+                logger.warning(f"Unexpected JSON format, trying to extract array from: {llm_response[:200]}...")
+                
+            except json.JSONDecodeError:
+                logger.warning(f"Failed to parse LLM response as JSON, attempting to extract JSON")
             
-            # Try markdown code block format
-            elif "```" in llm_response:
-                start_idx = llm_response.find("```") + 3
-                end_idx = llm_response.rfind("```")
-                if start_idx >= 3 and end_idx > start_idx:
-                    # Skip language identifier if present
-                    if start_idx < end_idx and llm_response[start_idx] == '\n':
-                        start_idx += 1
-                    json_str = llm_response[start_idx:end_idx].strip()
-                    logger.debug(f"Extracted JSON from generic code block: {json_str[:100]}...")
+            # Try alternative extraction methods
+            try:
+                # Check for JSON array in a code block
+                if "```json" in llm_response:
+                    # Extract JSON from code block
+                    start_idx = llm_response.find("```json") + 7
+                    end_idx = llm_response.rfind("```")
+                    if start_idx >= 7 and end_idx > start_idx:
+                        json_str = llm_response[start_idx:end_idx].strip()
+                        logger.debug(f"Extracted JSON from code block: {json_str[:100]}...")
+                        data = json.loads(json_str)
+                        
+                        # Handle both array and object formats
+                        if isinstance(data, list):
+                            return data
+                        elif isinstance(data, dict) and ('results' in data or 'categorizations' in data or 'entries' in data):
+                            key = next(k for k in ['results', 'categorizations', 'entries'] if k in data)
+                            return data[key]
+                        
+                        # If it's a single entry response
+                        if len(entries) == 1 and 'id' in data and 'category' in data:
+                            return [data]
+                
+                # Try markdown code block format
+                elif "```" in llm_response:
+                    start_idx = llm_response.find("```") + 3
+                    end_idx = llm_response.rfind("```")
+                    if start_idx >= 3 and end_idx > start_idx:
+                        # Skip language identifier if present
+                        if start_idx < end_idx and llm_response[start_idx] == '\n':
+                            start_idx += 1
+                        json_str = llm_response[start_idx:end_idx].strip()
+                        logger.debug(f"Extracted JSON from generic code block: {json_str[:100]}...")
+                        data = json.loads(json_str)
+                        
+                        # Process the data similar to above
+                        if isinstance(data, list):
+                            return data
+                        elif isinstance(data, dict) and any(k in data for k in ['results', 'categorizations', 'entries']):
+                            key = next(k for k in ['results', 'categorizations', 'entries'] if k in data)
+                            return data[key]
+                        
+                        if len(entries) == 1 and 'id' in data and 'category' in data:
+                            return [data]
+                
+                # Try to find JSON array directly
+                start_idx = llm_response.find('[')
+                end_idx = llm_response.rfind(']') + 1
+                if start_idx >= 0 and end_idx > start_idx:
+                    json_str = llm_response[start_idx:end_idx]
+                    logger.debug(f"Extracted JSON array: {json_str[:100]}...")
+                    return json.loads(json_str)
+                    
+                # Try to find JSON object directly
+                start_idx = llm_response.find('{')
+                end_idx = llm_response.rfind('}') + 1
+                if start_idx >= 0 and end_idx > start_idx:
+                    json_str = llm_response[start_idx:end_idx]
+                    logger.debug(f"Extracted JSON object: {json_str[:100]}...")
                     data = json.loads(json_str)
                     
                     # Process the data similar to above
-                    if isinstance(data, list):
-                        return data
-                    elif isinstance(data, dict) and any(k in data for k in ['results', 'categorizations', 'entries']):
-                        key = next(k for k in ['results', 'categorizations', 'entries'] if k in data)
-                        return data[key]
-                    
-                    if len(entries) == 1 and 'id' in data and 'category' in data:
-                        return [data]
-            
-            # Try to find JSON array directly
-            start_idx = llm_response.find('[')
-            end_idx = llm_response.rfind(']') + 1
-            if start_idx >= 0 and end_idx > start_idx:
-                json_str = llm_response[start_idx:end_idx]
-                logger.debug(f"Extracted JSON array: {json_str[:100]}...")
-                return json.loads(json_str)
+                    if isinstance(data, dict):
+                        if any(k in data for k in ['results', 'categorizations', 'entries']):
+                            key = next(k for k in ['results', 'categorizations', 'entries'] if k in data)
+                            return data[key]
+                        
+                        # If it looks like a single entry response
+                        if len(entries) == 1 and 'id' in data and 'category' in data:
+                            return [data]
                 
-            # Try to find JSON object directly
-            start_idx = llm_response.find('{')
-            end_idx = llm_response.rfind('}') + 1
-            if start_idx >= 0 and end_idx > start_idx:
-                json_str = llm_response[start_idx:end_idx]
-                logger.debug(f"Extracted JSON object: {json_str[:100]}...")
-                data = json.loads(json_str)
+                # If we got here, we couldn't find valid JSON
+                logger.error(f"Failed to extract JSON from response. Full response: {llm_response}")
+                return []
                 
-                # Process the data similar to above
-                if isinstance(data, dict):
-                    if any(k in data for k in ['results', 'categorizations', 'entries']):
-                        key = next(k for k in ['results', 'categorizations', 'entries'] if k in data)
-                        return data[key]
-                    
-                    # If it looks like a single entry response
-                    if len(entries) == 1 and 'id' in data and 'category' in data:
-                        return [data]
-            
-            # If we got here, we couldn't find valid JSON
-            logger.error(f"Failed to extract JSON from response. Full response: {llm_response}")
+            except Exception as e:
+                logger.error(f"Failed to extract JSON from response: {str(e)}")
+                logger.error(f"Full response: {llm_response}")
+                
+            # Return empty list as fallback
+            logger.error(f"Could not parse LLM response, returning empty list")
             return []
             
         except Exception as e:
-            logger.error(f"Failed to extract JSON from response: {str(e)}")
-            logger.error(f"Full response: {llm_response}")
-            
-        # Return empty list as fallback
-        logger.error(f"Could not parse LLM response, returning empty list")
-        return []
+            logger.error(f"Error calling Gemini API: {str(e)}")
+            raise
     
     def _create_categorization_prompt(self, entries: List[Dict[str, str]]) -> str:
         """
@@ -470,6 +448,9 @@ Please respond ONLY with the JSON array, nothing else.
             logger.info("\nRecategorized by subcategory:")
             for cat_subcat, count in sorted(stats['by_subcategory'].items(), key=lambda x: x[1], reverse=True)[:10]:
                 category, subcategory = cat_subcat.split(':')
+                # Remove redundant category prefix from subcategory if present
+                if subcategory.startswith(f"{category} > "):
+                    subcategory = subcategory[len(f"{category} > "):]
                 logger.info(f"  - {category} > {subcategory}: {count} entries")
         
         # Print sample recategorizations
