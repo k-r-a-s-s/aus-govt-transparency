@@ -212,6 +212,22 @@ python test_gemini_pdf.py --pdf path/to/pdf --use-file-api
 python process_disclosures.py --export-json export.json
 ```
 
+### Running Recategorization
+
+The system includes a comprehensive recategorization pipeline to improve entry categorization:
+
+```bash
+# Regular regex-based recategorization (fastest, no external API calls)
+python recategorize_unknowns.py --db-path=disclosures.db
+
+# LLM-based recategorization for remaining unknowns
+# Requires Google API key set as GOOGLE_API_KEY environment variable
+python recategorize_unknowns_llm.py --db-path=disclosures.db --max-entries=100
+
+# Run the complete pipeline
+python recategorize_all.py --db-path=disclosures.db
+```
+
 ## Rate Limiting and Error Handling
 
 The system includes sophisticated rate limiting to ensure you don't exceed Gemini API limits:

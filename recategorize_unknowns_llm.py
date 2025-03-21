@@ -3,7 +3,7 @@
 Recategorize Unknown Entries Using LLM
 
 This module improves data quality by recategorizing entries that remain as 'Unknown'
-after regex-based categorization, using a Language Model to analyze the entries.
+after regex-based categorization, using Google's Gemini API to analyze the entries.
 """
 
 import sqlite3
@@ -12,8 +12,8 @@ import argparse
 import json
 import os
 import time
-from typing import Dict, List, Tuple, Optional, Any
 import requests
+from typing import Dict, List, Tuple, Optional, Any
 from db_handler import DatabaseHandler, Categories, Subcategories, TemporalTypes
 from dotenv import load_dotenv
 
@@ -28,7 +28,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 class LLMRecategorizer:
-    """A class for recategorizing unknown entries using a Language Model."""
+    """A class for recategorizing unknown entries using Google's Gemini API."""
     
     def __init__(self, db_path: str):
         """
@@ -39,13 +39,13 @@ class LLMRecategorizer:
         """
         self.db_path = db_path
         self.db = DatabaseHandler(db_path=db_path)
-        self.api_key = os.getenv("OPENAI_API_KEY")
+        self.api_key = os.getenv("GOOGLE_API_KEY")
         if not self.api_key:
-            logger.warning("No OpenAI API key found. Set OPENAI_API_KEY environment variable.")
+            logger.warning("No Google API key found. Set GOOGLE_API_KEY environment variable.")
     
     def recategorize_with_llm(self, batch_size: int = 50, max_entries: int = None, dry_run: bool = False) -> Dict[str, Any]:
         """
-        Recategorize unknown entries using an LLM.
+        Recategorize unknown entries using Gemini.
         
         Args:
             batch_size: Number of entries to process in each batch
@@ -56,7 +56,7 @@ class LLMRecategorizer:
             Statistics about the recategorization
         """
         if not self.api_key:
-            logger.error("Cannot proceed without an OpenAI API key.")
+            logger.error("Cannot proceed without a Google API key.")
             return {
                 "error": "No API key",
                 "recategorized": 0,
@@ -190,7 +190,7 @@ class LLMRecategorizer:
     
     def _get_llm_categorizations(self, entries: List[Dict[str, str]]) -> List[Dict[str, str]]:
         """
-        Get categorizations from the LLM API.
+        Get categorizations from the Gemini API.
         
         Args:
             entries: List of entries to categorize
@@ -201,33 +201,53 @@ class LLMRecategorizer:
         # Prepare the prompt for the LLM
         prompt = self._create_categorization_prompt(entries)
         
-        # Call the OpenAI API
+        # Call the Gemini API
         response = requests.post(
-            "https://api.openai.com/v1/chat/completions",
+            "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-001:generateContent",
             headers={
-                "Authorization": f"Bearer {self.api_key}",
-                "Content-Type": "application/json"
+                "Content-Type": "application/json",
+                "x-goog-api-key": self.api_key
             },
             json={
-                "model": "gpt-3.5-turbo-0125",  # using a cheaper model for this task
-                "messages": [
-                    {"role": "system", "content": """You are a helpful assistant that categorizes political disclosure entries.
-Your job is to analyze each entry and assign it to the appropriate category and subcategory."""},
-                    {"role": "user", "content": prompt}
+                "contents": [
+                    {
+                        "parts": [
+                            {
+                                "text": prompt
+                            }
+                        ]
+                    }
                 ],
-                "temperature": 0.1,  # Use low temperature for more consistent categorization
-                "max_tokens": 2000,
-                "response_format": { "type": "json_object" }  # Explicitly request JSON format
+                "generationConfig": {
+                    "temperature": 0.1,
+                    "topP": 0.8,
+                    "topK": 40,
+                    "responseStateFormat": "STRUCTURED",
+                    "maxOutputTokens": 2048
+                }
             }
         )
         
         if response.status_code != 200:
-            logger.error(f"Error from OpenAI API: {response.text}")
+            logger.error(f"Error from Gemini API: {response.text}")
             raise Exception(f"API Error: {response.status_code}")
         
         # Parse the LLM response
         result = response.json()
-        llm_response = result["choices"][0]["message"]["content"]
+        
+        # Extract the text from the Gemini response
+        candidates = result.get("candidates", [])
+        if not candidates:
+            logger.error("No candidates in Gemini response")
+            return []
+            
+        content = candidates[0].get("content", {})
+        parts = content.get("parts", [])
+        if not parts:
+            logger.error("No parts in Gemini response")
+            return []
+            
+        llm_response = parts[0].get("text", "")
         
         # Log the first 100 chars of the response for debugging
         logger.debug(f"LLM response preview: {llm_response[:100]}...")
@@ -460,7 +480,7 @@ Please respond ONLY with the JSON array, nothing else.
 
 def main():
     """Main function to parse arguments and run the LLM recategorization."""
-    parser = argparse.ArgumentParser(description="Recategorize unknown entries using an LLM")
+    parser = argparse.ArgumentParser(description="Recategorize unknown entries using Gemini API")
     parser.add_argument("--db-path", default="disclosures.db", help="Path to the SQLite database file")
     parser.add_argument("--batch-size", type=int, default=50, help="Number of entries to process in each batch")
     parser.add_argument("--max-entries", type=int, help="Maximum number of entries to process")

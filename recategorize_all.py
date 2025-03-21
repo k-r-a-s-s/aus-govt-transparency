@@ -62,9 +62,9 @@ def recategorize_complete_pipeline(
     if not skip_llm:
         logger.info("\n=== STEP 2: LLM-based Recategorization ===")
         
-        # Check if OpenAI API key is available
-        if not os.getenv("OPENAI_API_KEY"):
-            logger.warning("No OpenAI API key found. Set OPENAI_API_KEY environment variable to use LLM recategorization.")
+        # Check if Google API key is available
+        if not os.getenv("GOOGLE_API_KEY"):
+            logger.warning("No Google API key found. Set GOOGLE_API_KEY environment variable to use LLM recategorization.")
             logger.warning("LLM-based recategorization will be skipped.")
         else:
             llm_recategorizer = LLMRecategorizer(db_path)
