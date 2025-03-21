@@ -391,10 +391,10 @@ Valid subcategories:
 - Liability > Credit: Credit cards, lines of credit
 - Liability > Other Liability: Other liabilities
 
-Temporal types:
-- one-time: Single occurrences (e.g., a gift)
-- recurring: Repeats periodically (e.g., dividend payment)
-- ongoing: Continues indefinitely (e.g., share ownership)
+Temporal types (IMPORTANT - use EXACTLY one of these strings):
+- "one-time": Single occurrences (e.g., a gift)
+- "recurring": Repeats periodically (e.g., dividend payment)
+- "ongoing": Continues indefinitely (e.g., share ownership)
 """
         
         entries_json = json.dumps(entries, indent=2)
@@ -415,12 +415,13 @@ Return a JSON array with objects in this format:
     "id": "entry_id",
     "category": "chosen_category",
     "subcategory": "chosen_subcategory",
-    "temporal_type": "chosen_temporal_type",
+    "temporal_type": "one-time" | "recurring" | "ongoing", 
     "confidence": "high/medium/low" (optional)
   }},
   ...
 ]
 
+IMPORTANT: For temporal_type, you MUST use exactly one of these three values: "one-time", "recurring", or "ongoing".
 Please respond ONLY with the JSON array, nothing else.
 """
     
@@ -457,7 +458,11 @@ Please respond ONLY with the JSON array, nothing else.
         if stats['samples']['recategorized']:
             logger.info("\nSample Recategorizations:")
             for i, sample in enumerate(stats['samples']['recategorized'], 1):
-                logger.info(f"  {i}. '{sample['item']}' ({sample['details'][:30]}...) → {sample['new_category']} > {sample['new_subcategory']}")
+                # Clean up subcategory display
+                subcategory = sample['new_subcategory']
+                if subcategory.startswith(f"{sample['new_category']} > "):
+                    subcategory = subcategory[len(f"{sample['new_category']} > "):]
+                logger.info(f"  {i}. '{sample['item']}' ({sample['details'][:30]}...) → {sample['new_category']} > {subcategory}")
 
 def main():
     """Main function to parse arguments and run the LLM recategorization."""
