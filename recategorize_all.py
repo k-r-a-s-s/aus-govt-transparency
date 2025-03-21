@@ -23,7 +23,7 @@ def recategorize_complete_pipeline(
     db_path: str, 
     skip_regex: bool = False, 
     skip_llm: bool = False,
-    llm_batch_size: int = 50,
+    llm_batch_size: int = 20,
     llm_max_entries: int = None,
     dry_run: bool = False
 ) -> Dict[str, Any]:
@@ -105,7 +105,7 @@ def main():
     parser.add_argument("--db-path", default="disclosures.db", help="Path to the SQLite database file")
     parser.add_argument("--skip-regex", action="store_true", help="Skip regex-based recategorization")
     parser.add_argument("--skip-llm", action="store_true", help="Skip LLM-based recategorization")
-    parser.add_argument("--llm-batch-size", type=int, default=50, help="Batch size for LLM processing")
+    parser.add_argument("--llm-batch-size", type=int, default=20, help="Batch size for LLM processing")
     parser.add_argument("--llm-max-entries", type=int, help="Maximum number of entries to process with LLM")
     parser.add_argument("--dry-run", action="store_true", help="Print changes without applying them")
     

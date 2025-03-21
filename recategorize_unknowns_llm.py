@@ -227,121 +227,148 @@ class LLMRecategorizer:
             logger.debug(f"LLM response preview: {llm_response[:100]}...")
             
             # Extract JSON data from response
-            try:
-                # Try to parse the response directly first
-                response_data = json.loads(llm_response)
-                
-                # Check if it's a JSON object with a 'results' or 'categorizations' key
-                if isinstance(response_data, dict):
-                    if 'results' in response_data:
-                        return response_data['results']
-                    elif 'categorizations' in response_data:
-                        return response_data['categorizations']
-                    elif 'entries' in response_data:
-                        return response_data['entries']
-                    
-                    # If it's a JSON object but none of the expected keys are present,
-                    # check if it matches our expected format (array of objects with id, category, etc.)
-                    if len(entries) == 1 and 'id' in response_data and 'category' in response_data:
-                        # Single entry response
-                        return [response_data]
-                
-                # If it's already an array, return it directly
-                if isinstance(response_data, list):
-                    return response_data
-                
-                # If we get here, the response format wasn't what we expected
-                logger.warning(f"Unexpected JSON format, trying to extract array from: {llm_response[:200]}...")
-                
-            except json.JSONDecodeError:
-                logger.warning(f"Failed to parse LLM response as JSON, attempting to extract JSON")
+            results = self._extract_json_from_response(llm_response, entries)
             
-            # Try alternative extraction methods
-            try:
-                # Check for JSON array in a code block
-                if "```json" in llm_response:
-                    # Extract JSON from code block
-                    start_idx = llm_response.find("```json") + 7
-                    end_idx = llm_response.rfind("```")
-                    if start_idx >= 7 and end_idx > start_idx:
-                        json_str = llm_response[start_idx:end_idx].strip()
-                        logger.debug(f"Extracted JSON from code block: {json_str[:100]}...")
-                        data = json.loads(json_str)
-                        
-                        # Handle both array and object formats
-                        if isinstance(data, list):
-                            return data
-                        elif isinstance(data, dict) and ('results' in data or 'categorizations' in data or 'entries' in data):
-                            key = next(k for k in ['results', 'categorizations', 'entries'] if k in data)
-                            return data[key]
-                        
-                        # If it's a single entry response
-                        if len(entries) == 1 and 'id' in data and 'category' in data:
-                            return [data]
-                
-                # Try markdown code block format
-                elif "```" in llm_response:
-                    start_idx = llm_response.find("```") + 3
-                    end_idx = llm_response.rfind("```")
-                    if start_idx >= 3 and end_idx > start_idx:
-                        # Skip language identifier if present
-                        if start_idx < end_idx and llm_response[start_idx] == '\n':
-                            start_idx += 1
-                        json_str = llm_response[start_idx:end_idx].strip()
-                        logger.debug(f"Extracted JSON from generic code block: {json_str[:100]}...")
-                        data = json.loads(json_str)
-                        
-                        # Process the data similar to above
-                        if isinstance(data, list):
-                            return data
-                        elif isinstance(data, dict) and any(k in data for k in ['results', 'categorizations', 'entries']):
-                            key = next(k for k in ['results', 'categorizations', 'entries'] if k in data)
-                            return data[key]
-                        
-                        if len(entries) == 1 and 'id' in data and 'category' in data:
-                            return [data]
-                
-                # Try to find JSON array directly
-                start_idx = llm_response.find('[')
-                end_idx = llm_response.rfind(']') + 1
-                if start_idx >= 0 and end_idx > start_idx:
-                    json_str = llm_response[start_idx:end_idx]
-                    logger.debug(f"Extracted JSON array: {json_str[:100]}...")
-                    return json.loads(json_str)
+            # Clean up subcategory fields if they contain category prefixes
+            for result in results:
+                if "subcategory" in result and "category" in result:
+                    subcategory = result["subcategory"]
+                    category = result["category"]
                     
-                # Try to find JSON object directly
-                start_idx = llm_response.find('{')
-                end_idx = llm_response.rfind('}') + 1
-                if start_idx >= 0 and end_idx > start_idx:
-                    json_str = llm_response[start_idx:end_idx]
-                    logger.debug(f"Extracted JSON object: {json_str[:100]}...")
-                    data = json.loads(json_str)
-                    
-                    # Process the data similar to above
-                    if isinstance(data, dict):
-                        if any(k in data for k in ['results', 'categorizations', 'entries']):
-                            key = next(k for k in ['results', 'categorizations', 'entries'] if k in data)
-                            return data[key]
-                        
-                        # If it looks like a single entry response
-                        if len(entries) == 1 and 'id' in data and 'category' in data:
-                            return [data]
-                
-                # If we got here, we couldn't find valid JSON
-                logger.error(f"Failed to extract JSON from response. Full response: {llm_response}")
-                return []
-                
-            except Exception as e:
-                logger.error(f"Failed to extract JSON from response: {str(e)}")
-                logger.error(f"Full response: {llm_response}")
-                
-            # Return empty list as fallback
-            logger.error(f"Could not parse LLM response, returning empty list")
-            return []
+                    # Remove the category prefix if it exists
+                    prefix = f"{category} > "
+                    if subcategory.startswith(prefix):
+                        result["subcategory"] = subcategory[len(prefix):]
+                        logger.debug(f"Cleaned up subcategory from '{subcategory}' to '{result['subcategory']}'")
+            
+            return results
             
         except Exception as e:
             logger.error(f"Error calling Gemini API: {str(e)}")
             raise
+            
+    def _extract_json_from_response(self, llm_response: str, entries: List[Dict[str, str]]) -> List[Dict[str, str]]:
+        """
+        Extract JSON data from the LLM response.
+        
+        Args:
+            llm_response: The text response from the LLM
+            entries: The original entries being categorized (for context)
+            
+        Returns:
+            List of categorization results
+        """
+        try:
+            # Try to parse the response directly first
+            response_data = json.loads(llm_response)
+            
+            # Check if it's a JSON object with a 'results' or 'categorizations' key
+            if isinstance(response_data, dict):
+                if 'results' in response_data:
+                    return response_data['results']
+                elif 'categorizations' in response_data:
+                    return response_data['categorizations']
+                elif 'entries' in response_data:
+                    return response_data['entries']
+                
+                # If it's a JSON object but none of the expected keys are present,
+                # check if it matches our expected format (array of objects with id, category, etc.)
+                if len(entries) == 1 and 'id' in response_data and 'category' in response_data:
+                    # Single entry response
+                    return [response_data]
+            
+            # If it's already an array, return it directly
+            if isinstance(response_data, list):
+                return response_data
+            
+            # If we get here, the response format wasn't what we expected
+            logger.warning(f"Unexpected JSON format, trying to extract array from: {llm_response[:200]}...")
+            
+        except json.JSONDecodeError:
+            logger.warning(f"Failed to parse LLM response as JSON, attempting to extract JSON")
+        
+        # Try alternative extraction methods
+        try:
+            # Check for JSON array in a code block
+            if "```json" in llm_response:
+                # Extract JSON from code block
+                start_idx = llm_response.find("```json") + 7
+                end_idx = llm_response.rfind("```")
+                if start_idx >= 7 and end_idx > start_idx:
+                    json_str = llm_response[start_idx:end_idx].strip()
+                    logger.debug(f"Extracted JSON from code block: {json_str[:100]}...")
+                    data = json.loads(json_str)
+                    
+                    # Handle both array and object formats
+                    if isinstance(data, list):
+                        return data
+                    elif isinstance(data, dict) and ('results' in data or 'categorizations' in data or 'entries' in data):
+                        key = next(k for k in ['results', 'categorizations', 'entries'] if k in data)
+                        return data[key]
+                    
+                    # If it's a single entry response
+                    if len(entries) == 1 and 'id' in data and 'category' in data:
+                        return [data]
+            
+            # Try markdown code block format
+            elif "```" in llm_response:
+                start_idx = llm_response.find("```") + 3
+                end_idx = llm_response.rfind("```")
+                if start_idx >= 3 and end_idx > start_idx:
+                    # Skip language identifier if present
+                    if start_idx < end_idx and llm_response[start_idx] == '\n':
+                        start_idx += 1
+                    json_str = llm_response[start_idx:end_idx].strip()
+                    logger.debug(f"Extracted JSON from generic code block: {json_str[:100]}...")
+                    data = json.loads(json_str)
+                    
+                    # Process the data similar to above
+                    if isinstance(data, list):
+                        return data
+                    elif isinstance(data, dict) and any(k in data for k in ['results', 'categorizations', 'entries']):
+                        key = next(k for k in ['results', 'categorizations', 'entries'] if k in data)
+                        return data[key]
+                    
+                    if len(entries) == 1 and 'id' in data and 'category' in data:
+                        return [data]
+            
+            # Try to find JSON array directly
+            start_idx = llm_response.find('[')
+            end_idx = llm_response.rfind(']') + 1
+            if start_idx >= 0 and end_idx > start_idx:
+                json_str = llm_response[start_idx:end_idx]
+                logger.debug(f"Extracted JSON array: {json_str[:100]}...")
+                return json.loads(json_str)
+                
+            # Try to find JSON object directly
+            start_idx = llm_response.find('{')
+            end_idx = llm_response.rfind('}') + 1
+            if start_idx >= 0 and end_idx > start_idx:
+                json_str = llm_response[start_idx:end_idx]
+                logger.debug(f"Extracted JSON object: {json_str[:100]}...")
+                data = json.loads(json_str)
+                
+                # Process the data similar to above
+                if isinstance(data, dict):
+                    if any(k in data for k in ['results', 'categorizations', 'entries']):
+                        key = next(k for k in ['results', 'categorizations', 'entries'] if k in data)
+                        return data[key]
+                    
+                    # If it looks like a single entry response
+                    if len(entries) == 1 and 'id' in data and 'category' in data:
+                        return [data]
+            
+            # If we got here, we couldn't find valid JSON
+            logger.error(f"Failed to extract JSON from response. Full response: {llm_response}")
+            return []
+            
+        except Exception as e:
+            logger.error(f"Failed to extract JSON from response: {str(e)}")
+            logger.error(f"Full response: {llm_response}")
+            
+        # Return empty list as fallback
+        logger.error(f"Could not parse LLM response, returning empty list")
+        return []
     
     def _create_categorization_prompt(self, entries: List[Dict[str, str]]) -> str:
         """
@@ -364,32 +391,38 @@ Valid categories:
 - Unknown: Only use this if you really cannot determine the category
 
 Valid subcategories:
-- Asset > Real Estate: Properties, homes, apartments
-- Asset > Shares: Company shares, stocks, investments
-- Asset > Trust: Trust funds or beneficiary positions
-- Asset > Other Asset: Other assets not in the above categories
+For Asset:
+- Real Estate: Properties, homes, apartments
+- Shares: Company shares, stocks, investments
+- Trust: Trust funds or beneficiary positions
+- Other Asset: Other assets not in the above categories
 
-- Income > Salary: Primary employment income
-- Income > Dividend: Income from investments
-- Income > Other Income: Other income sources
+For Income:
+- Salary: Primary employment income
+- Dividend: Income from investments
+- Other Income: Other income sources
 
-- Membership > Professional: Professional associations, airline lounges
-- Membership > Other Membership: Other types of membership
+For Membership:
+- Professional: Professional associations, airline lounges
+- Other Membership: Other types of membership
 
-- Gift > Hospitality: Food, drink, entertainment events
-- Gift > Entertainment: Tickets to events, performances
-- Gift > Travel Gift: Travel benefits given as gifts
-- Gift > Decorative: Artwork, ornaments, commemorative items
-- Gift > Electronics: Electronic devices
-- Gift > Other Gift: Other types of gifts
+For Gift:
+- Hospitality: Food, drink, entertainment events
+- Entertainment: Tickets to events, performances
+- Travel Gift: Travel benefits given as gifts
+- Decorative: Artwork, ornaments, commemorative items
+- Electronics: Electronic devices
+- Other Gift: Other types of gifts
 
-- Travel > Air Travel: Flights, air travel
-- Travel > Other Travel: Other travel benefits
+For Travel:
+- Air Travel: Flights, air travel
+- Other Travel: Other travel benefits
 
-- Liability > Mortgage: Home loans
-- Liability > Loan: Other loans
-- Liability > Credit: Credit cards, lines of credit
-- Liability > Other Liability: Other liabilities
+For Liability:
+- Mortgage: Home loans
+- Loan: Other loans
+- Credit: Credit cards, lines of credit
+- Other Liability: Other liabilities
 
 Temporal types (IMPORTANT - use EXACTLY one of these strings):
 - "one-time": Single occurrences (e.g., a gift)
@@ -414,14 +447,17 @@ Return a JSON array with objects in this format:
   {{
     "id": "entry_id",
     "category": "chosen_category",
-    "subcategory": "chosen_subcategory",
+    "subcategory": "chosen_subcategory", 
     "temporal_type": "one-time" | "recurring" | "ongoing", 
     "confidence": "high/medium/low" (optional)
   }},
   ...
 ]
 
-IMPORTANT: For temporal_type, you MUST use exactly one of these three values: "one-time", "recurring", or "ongoing".
+IMPORTANT NOTES:
+1. For temporal_type, you MUST use exactly one of these three values: "one-time", "recurring", or "ongoing".
+2. For subcategory, use ONLY the subcategory name WITHOUT the category prefix. For example, use "Shares" not "Asset > Shares", use "Hospitality" not "Gift > Hospitality".
+
 Please respond ONLY with the JSON array, nothing else.
 """
     
