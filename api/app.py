@@ -1,8 +1,9 @@
 import os
 import sqlite3
-from flask import Flask, jsonify, request, send_from_directory
+from flask import Flask, jsonify, request, send_from_directory, abort
 from flask_cors import CORS
 from dotenv import load_dotenv
+from db_handler import DatabaseHandler
 
 # Load environment variables from .env file
 load_dotenv()
@@ -14,6 +15,9 @@ CORS(app)
 # Get database path from environment variable
 DB_PATH = os.getenv('DB_PATH', '/Users/kevin/Documents/ProgrammingIsFun/PersonalProjects/g0v/aus-govt-transparency/disclosures.db')
 
+# Path to the PDFs directory
+PDF_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'pdfs')
+
 def get_db_connection():
     """Create a connection to the SQLite database."""
     conn = sqlite3.connect(DB_PATH)
@@ -22,13 +26,14 @@ def get_db_connection():
 
 @app.route('/api/disclosures', methods=['GET'])
 def get_disclosures():
-    """Get all disclosures with filtering options."""
+    """Get disclosures with filtering options."""
     # Get query parameters
-    mp_name = request.args.get('mp', None)
+    mp_name = request.args.get('mp_name', None)
     category = request.args.get('category', None)
     entity = request.args.get('entity', None)
     limit = request.args.get('limit', 100, type=int)
     offset = request.args.get('offset', 0, type=int)
+    filter_nil = request.args.get('filter_nil', 'true').lower() == 'true'
     
     # Build query
     query = """
@@ -44,7 +49,7 @@ def get_disclosures():
     if category:
         query += " AND category = ?"
         params.append(category)
-        
+    
     if entity:
         query += " AND entity LIKE ?"
         params.append(f'%{entity}%')
@@ -58,6 +63,12 @@ def get_disclosures():
     
     # Convert to list of dicts
     result = [dict(row) for row in disclosures]
+    
+    # Filter nil entries if requested
+    if filter_nil:
+        db_handler = DatabaseHandler(DB_PATH)
+        result = db_handler.filter_nil_entries(result)
+    
     conn.close()
     
     return jsonify(result)
@@ -65,29 +76,51 @@ def get_disclosures():
 @app.route('/api/stats', methods=['GET'])
 def get_stats():
     """Get statistics about disclosures, MPs, and entities."""
+    filter_nil = request.args.get('filter_nil', 'true').lower() == 'true'
     conn = get_db_connection()
     
+    # Base queries for with/without nil filtering
+    if filter_nil:
+        # Use a subquery to exclude nil entries
+        nil_condition = """
+            AND (
+                (item NOT IN ('n/a', 'nil', 'none', 'unknown', '') OR item IS NULL)
+                OR (entity NOT IN ('n/a', 'nil', 'none', 'unknown', '') OR entity IS NULL)
+                OR (details IS NOT NULL AND details != '' AND details NOT IN ('n/a', 'nil', 'none', 'unknown'))
+            )
+        """
+    else:
+        nil_condition = ""
+    
     # Get total disclosures
-    total_disclosures = conn.execute('SELECT COUNT(*) as count FROM disclosures').fetchone()['count']
+    total_disclosures = conn.execute(
+        f'SELECT COUNT(*) as count FROM disclosures WHERE 1=1 {nil_condition}'
+    ).fetchone()['count']
     
     # Get number of MPs with disclosures
     total_mps = conn.execute('SELECT COUNT(DISTINCT mp_name) as count FROM disclosures').fetchone()['count']
     
     # Get number of unique entities
-    total_entities = conn.execute('SELECT COUNT(DISTINCT entity) as count FROM disclosures WHERE entity IS NOT NULL AND entity != ""').fetchone()['count']
+    total_entities = conn.execute(
+        f'''SELECT COUNT(DISTINCT entity) as count 
+           FROM disclosures 
+           WHERE entity IS NOT NULL AND entity != "" {nil_condition}'''
+    ).fetchone()['count']
     
     # Get disclosure counts by category
-    categories = conn.execute('''
+    categories = conn.execute(f'''
         SELECT category, COUNT(*) as count 
         FROM disclosures 
+        WHERE 1=1 {nil_condition}
         GROUP BY category 
         ORDER BY count DESC
     ''').fetchall()
     
     # Get top MPs by disclosure count
-    top_mps = conn.execute('''
+    top_mps = conn.execute(f'''
         SELECT mp_name, party, COUNT(*) as count 
         FROM disclosures
+        WHERE 1=1 {nil_condition}
         GROUP BY mp_name 
         ORDER BY count DESC
         LIMIT 10
@@ -173,13 +206,26 @@ def get_entities():
 @app.route('/api/network', methods=['GET'])
 def get_network():
     """Get network data for entity explorer."""
+    filter_nil = request.args.get('filter_nil', 'true').lower() == 'true'
     conn = get_db_connection()
     
+    # Prepare nil condition if needed
+    if filter_nil:
+        nil_condition = """
+            AND (
+                (item NOT IN ('n/a', 'nil', 'none', 'unknown', '') OR item IS NULL)
+                OR (entity NOT IN ('n/a', 'nil', 'none', 'unknown', '') OR entity IS NULL)
+                OR (details IS NOT NULL AND details != '' AND details NOT IN ('n/a', 'nil', 'none', 'unknown'))
+            )
+        """
+    else:
+        nil_condition = ""
+    
     # Get all MPs and their connections to entities
-    query = """
+    query = f"""
         SELECT mp_name, party, entity, COUNT(*) as weight
         FROM disclosures
-        WHERE entity IS NOT NULL AND entity != ''
+        WHERE entity IS NOT NULL AND entity != '' {nil_condition}
         GROUP BY mp_name, entity
         ORDER BY weight DESC
     """
@@ -229,15 +275,28 @@ def get_network():
 @app.route('/api/timeline', methods=['GET'])
 def get_timeline():
     """Get disclosure timeline data."""
+    filter_nil = request.args.get('filter_nil', 'true').lower() == 'true'
     conn = get_db_connection()
     
+    # Prepare nil condition if needed
+    if filter_nil:
+        nil_condition = """
+            AND (
+                (item NOT IN ('n/a', 'nil', 'none', 'unknown', '') OR item IS NULL)
+                OR (entity NOT IN ('n/a', 'nil', 'none', 'unknown', '') OR entity IS NULL)
+                OR (details IS NOT NULL AND details != '' AND details NOT IN ('n/a', 'nil', 'none', 'unknown'))
+            )
+        """
+    else:
+        nil_condition = ""
+    
     # Get disclosures by date
-    query = """
+    query = f"""
         SELECT 
             substr(declaration_date, 1, 7) as month,
             COUNT(*) as count
         FROM disclosures
-        WHERE declaration_date IS NOT NULL
+        WHERE declaration_date IS NOT NULL {nil_condition}
         GROUP BY month
         ORDER BY month
     """
@@ -245,32 +304,57 @@ def get_timeline():
     timeline = conn.execute(query).fetchall()
     
     # Get disclosures by category and date
-    query_categories = """
+    query_categories = f"""
         SELECT 
             substr(declaration_date, 1, 7) as month,
             category,
             COUNT(*) as count
         FROM disclosures
-        WHERE declaration_date IS NOT NULL
+        WHERE declaration_date IS NOT NULL {nil_condition}
         GROUP BY month, category
-        ORDER BY month
+        ORDER BY month, category
     """
     
-    category_timeline = conn.execute(query_categories).fetchall()
+    timeline_categories = conn.execute(query_categories).fetchall()
+    
+    # Process results
+    months = {}
+    for row in timeline:
+        months[row['month']] = {
+            'month': row['month'],
+            'total': row['count'],
+            'categories': {}
+        }
+    
+    for row in timeline_categories:
+        month = row['month']
+        category = row['category']
+        count = row['count']
+        
+        if month in months:
+            months[month]['categories'][category] = count
+    
     conn.close()
     
-    # Format data for chart
-    result = {
-        'timeline': [dict(row) for row in timeline],
-        'categories': [dict(row) for row in category_timeline]
-    }
-    
-    return jsonify(result)
+    return jsonify(list(months.values()))
 
 @app.route('/api/mp/<name>', methods=['GET'])
 def get_mp_details(name):
     """Get details for a specific MP, including their disclosures."""
+    filter_nil = request.args.get('filter_nil', 'true').lower() == 'true'
     conn = get_db_connection()
+    
+    # Prepare nil condition if needed
+    if filter_nil:
+        nil_condition = """
+            AND (
+                (item NOT IN ('n/a', 'nil', 'none', 'unknown', '') OR item IS NULL)
+                OR (entity NOT IN ('n/a', 'nil', 'none', 'unknown', '') OR entity IS NULL)
+                OR (details IS NOT NULL AND details != '' AND details NOT IN ('n/a', 'nil', 'none', 'unknown'))
+            )
+        """
+    else:
+        nil_condition = ""
     
     # Get MP details
     mp_query = """
@@ -288,19 +372,19 @@ def get_mp_details(name):
     mp_dict = dict(mp)
     
     # Get MP's disclosures
-    disclosures = conn.execute('''
+    disclosures = conn.execute(f'''
         SELECT * FROM disclosures 
-        WHERE mp_name = ? 
+        WHERE mp_name = ? {nil_condition}
         ORDER BY declaration_date DESC
     ''', (name,)).fetchall()
     
     mp_dict['disclosures'] = [dict(row) for row in disclosures]
     
     # Get disclosure counts by category
-    categories = conn.execute('''
+    categories = conn.execute(f'''
         SELECT category, COUNT(*) as count 
         FROM disclosures 
-        WHERE mp_name = ?
+        WHERE mp_name = ? {nil_condition}
         GROUP BY category 
         ORDER BY count DESC
     ''', (name,)).fetchall()
@@ -308,10 +392,10 @@ def get_mp_details(name):
     mp_dict['categories'] = [dict(row) for row in categories]
     
     # Get entities connected to this MP
-    entities = conn.execute('''
+    entities = conn.execute(f'''
         SELECT entity, COUNT(*) as count 
         FROM disclosures 
-        WHERE mp_name = ? AND entity IS NOT NULL AND entity != ''
+        WHERE mp_name = ? AND entity IS NOT NULL AND entity != '' {nil_condition}
         GROUP BY entity 
         ORDER BY count DESC 
         LIMIT 10
@@ -326,15 +410,13 @@ def get_mp_details(name):
 @app.route('/api/pdf/<path:filename>', methods=['GET'])
 def get_pdf(filename):
     """Serve PDF files."""
-    pdf_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'pdfs')
-    
     # First try to locate the file directly
-    if os.path.isfile(os.path.join(pdf_dir, filename)):
-        return send_from_directory(pdf_dir, filename)
+    if os.path.isfile(os.path.join(PDF_DIR, filename)):
+        return send_from_directory(PDF_DIR, filename)
     
     # If not found, try searching in parliament subdirectories
-    for parliament in os.listdir(pdf_dir):
-        parliament_dir = os.path.join(pdf_dir, parliament)
+    for parliament in os.listdir(PDF_DIR):
+        parliament_dir = os.path.join(PDF_DIR, parliament)
         if os.path.isdir(parliament_dir) and os.path.isfile(os.path.join(parliament_dir, filename)):
             return send_from_directory(parliament_dir, filename)
     
@@ -342,25 +424,46 @@ def get_pdf(filename):
 
 @app.route('/api/pdf-info/<mp_name>', methods=['GET'])
 def get_pdf_info(mp_name):
-    """Get PDF information for a specific MP."""
-    # Try to determine the filename format from the database
+    """Get information about PDFs available for a specific MP."""
     conn = get_db_connection()
-    pdf_info = conn.execute('''
-        SELECT DISTINCT pdf_url
-        FROM disclosures
+    
+    # Get MP's disclosures that have PDF URLs
+    disclosures = conn.execute('''
+        SELECT DISTINCT pdf_url, declaration_date
+        FROM disclosures 
         WHERE mp_name = ? AND pdf_url IS NOT NULL AND pdf_url != ''
         ORDER BY declaration_date DESC
     ''', (mp_name,)).fetchall()
+    
+    pdf_info = [dict(row) for row in disclosures]
     conn.close()
     
-    if not pdf_info:
-        return jsonify({'error': 'No PDF information found for this MP'}), 404
+    return jsonify(pdf_info)
+
+@app.route('/api/nil-entries', methods=['GET'])
+def get_nil_entries():
+    """Get counts of nil entries in the database."""
+    category = request.args.get('category', None)
     
-    # Return all available PDF files for this MP
-    return jsonify({
-        'mp_name': mp_name,
-        'pdf_files': [dict(row) for row in pdf_info]
-    })
+    db_handler = DatabaseHandler(DB_PATH)
+    counts = db_handler.count_nil_entries(category)
+    
+    # Add breakdown by category if no specific category is requested
+    if not category:
+        # Get all categories
+        conn = get_db_connection()
+        categories = conn.execute("SELECT DISTINCT category FROM disclosures").fetchall()
+        conn.close()
+        
+        # Get counts for each category
+        category_counts = {}
+        for cat in categories:
+            cat_name = cat['category']
+            category_counts[cat_name] = db_handler.count_nil_entries(cat_name)
+        
+        counts['categories'] = category_counts
+    
+    return jsonify(counts)
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 3001))

@@ -428,41 +428,112 @@ class DatabaseHandler:
         Normalize an entity name for consistent matching.
         
         Args:
-            entity_name: The original entity name
+            entity_name: The entity name to normalize
             
         Returns:
-            A normalized version of the entity name
+            Normalized entity name
         """
+        # Skip if None or empty
         if not entity_name:
             return ""
         
         # Convert to lowercase
         normalized = entity_name.lower()
         
-        # Handle common company name variations
-        company_variations = {
-            'bhp': ['bhp', 'bhp billiton', 'bhp group', 'broken hill proprietary'],
-            'qantas': ['qantas', 'qantas airways', 'qantas airlines'],
-            'telstra': ['telstra', 'telstra corporation'],
-            'commonwealth bank': ['commonwealth bank', 'cba', 'commonwealth bank of australia'],
-            'nab': ['nab', 'national australia bank'],
-            'westpac': ['westpac', 'westpac banking corporation'],
-            'anz': ['anz', 'australia and new zealand banking group', 'australia & new zealand banking group']
-        }
+        # Remove common prefixes
+        prefixes = ["the ", "a ", "an "]
+        for prefix in prefixes:
+            if normalized.startswith(prefix):
+                normalized = normalized[len(prefix):]
         
-        # Check if the normalized name matches any of the variations
-        for canonical, variations in company_variations.items():
-            if any(variation in normalized for variation in variations):
-                return canonical
-        
-        # Remove common prefixes/suffixes
-        normalized = re.sub(r'\b(ltd|limited|inc|incorporated|pty|proprietary|p/l|pty ltd)\b', '', normalized)
-        
-        # Remove punctuation and extra whitespace
+        # Remove punctuation and extra spaces
         normalized = re.sub(r'[^\w\s]', ' ', normalized)
         normalized = re.sub(r'\s+', ' ', normalized).strip()
         
         return normalized
+    
+    def filter_nil_entries(self, entries: List[Dict[str, Any]], include_nil: bool = False) -> List[Dict[str, Any]]:
+        """
+        Filter out "Nil", "N/A", or empty entries from a list of disclosures.
+        
+        Args:
+            entries: List of disclosure entries
+            include_nil: If True, include nil entries instead of filtering them
+            
+        Returns:
+            Filtered list of entries without nil/N/A/empty values
+        """
+        if include_nil:
+            return entries
+            
+        nil_patterns = ["n/a", "nil", "none", "not applicable", "unknown"]
+        
+        def is_nil_entry(entry):
+            # Check if item and entity are nil-like
+            item = entry.get("item", "").lower() if entry.get("item") else ""
+            entity = entry.get("entity", "").lower() if entry.get("entity") else ""
+            details = entry.get("details", "").lower() if entry.get("details") else ""
+            
+            # Check if item/entity are nil-like
+            item_is_nil = any(item == pattern for pattern in nil_patterns)
+            entity_is_nil = any(entity == pattern for pattern in nil_patterns)
+            
+            # Check if details are nil-like or empty
+            details_is_nil = not details or any(details == pattern for pattern in nil_patterns)
+            
+            # Consider it a nil entry if:
+            # 1. Both item and entity are nil-like, or
+            # 2. Either item or entity is nil-like AND details are nil-like or empty
+            return (item_is_nil and entity_is_nil) or ((item_is_nil or entity_is_nil) and details_is_nil)
+        
+        return [entry for entry in entries if not is_nil_entry(entry)]
+    
+    def count_nil_entries(self, category: Optional[str] = None) -> Dict[str, int]:
+        """
+        Count the number of nil entries in the database.
+        
+        Args:
+            category: Optional category to filter by
+            
+        Returns:
+            Dictionary with counts of nil entries and total entries
+        """
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        
+        # Query parameters
+        params = []
+        category_filter = ""
+        if category:
+            category_filter = "AND category = ?"
+            params.append(category)
+        
+        # Count total entries
+        cursor.execute(f"SELECT COUNT(*) FROM disclosures WHERE 1=1 {category_filter}", params)
+        total_count = cursor.fetchone()[0]
+        
+        # SQL condition for nil entries
+        nil_condition = """
+            (
+                (item IS NULL OR item = '' OR LOWER(item) IN ('n/a', 'nil', 'none', 'not applicable', 'unknown'))
+                AND
+                (entity IS NULL OR entity = '' OR LOWER(entity) IN ('n/a', 'nil', 'none', 'not applicable', 'unknown'))
+                AND
+                (details IS NULL OR details = '' OR LOWER(details) IN ('n/a', 'nil', 'none', 'not applicable', 'unknown'))
+            )
+        """
+        
+        # Count nil entries
+        cursor.execute(f"SELECT COUNT(*) FROM disclosures WHERE {nil_condition} {category_filter}", params)
+        nil_count = cursor.fetchone()[0]
+        
+        conn.close()
+        
+        return {
+            "nil_entries": nil_count,
+            "total_entries": total_count,
+            "nil_percentage": round(nil_count / total_count * 100, 2) if total_count > 0 else 0
+        }
     
     def batch_store_structured_data(self, structured_data_list: List[Dict[str, Any]]) -> List[List[str]]:
         """
