@@ -110,7 +110,17 @@ class LLMRecategorizer:
         # Process entries in batches
         for i in range(0, len(unknown_entries), effective_batch_size):
             batch = unknown_entries[i:i+effective_batch_size]
-            logger.info(f"Processing batch {i//effective_batch_size + 1}/{(len(unknown_entries) + effective_batch_size - 1)//effective_batch_size}")
+            batch_num = i//effective_batch_size + 1
+            total_batches = (len(unknown_entries) + effective_batch_size - 1)//effective_batch_size
+            logger.info(f"Processing batch {batch_num}/{total_batches}")
+            
+            batch_start_time = time.time()
+            batch_stats = {
+                'processed': 0,
+                'recategorized': 0,
+                'skipped': 0,
+                'errors': 0
+            }
             
             try:
                 # Create batch for LLM processing
@@ -119,6 +129,7 @@ class LLMRecategorizer:
                     # Skip empty entries
                     if not item or item.lower() in ["n/a", "none", "nil", "unknown"] and not details:
                         stats['skipped'] += 1
+                        batch_stats['skipped'] += 1
                         continue
                     
                     batch_data.append({
@@ -135,6 +146,8 @@ class LLMRecategorizer:
                 
                 # Apply categorizations
                 for result in categorizations:
+                    batch_stats['processed'] += 1
+                    
                     entry_id = result.get("id")
                     new_category = result.get("category")
                     new_subcategory = result.get("subcategory")
@@ -167,6 +180,7 @@ class LLMRecategorizer:
                     # Update statistics
                     if new_category != Categories.UNKNOWN:
                         stats['recategorized'] += 1
+                        batch_stats['recategorized'] += 1
                         stats['by_category'][new_category] = stats['by_category'].get(new_category, 0) + 1
                         cat_subcat_key = f"{new_category}:{new_subcategory}"
                         stats['by_subcategory'][cat_subcat_key] = stats['by_subcategory'].get(cat_subcat_key, 0) + 1
@@ -185,12 +199,16 @@ class LLMRecategorizer:
                 if not dry_run:
                     conn.commit()
                 
+                batch_time = time.time() - batch_start_time
+                logger.info(f"Batch {batch_num}/{total_batches} completed in {batch_time:.1f}s: {batch_stats['processed']} processed, {batch_stats['recategorized']} recategorized ({batch_stats['recategorized']/len(batch)*100:.1f}% success rate)")
+                
                 # Add a small delay to avoid API rate limits
                 time.sleep(1)
                 
             except Exception as e:
-                logger.error(f"Error processing batch: {str(e)}")
+                logger.error(f"Error processing batch {batch_num}: {str(e)}")
                 stats['errors'] += 1
+                batch_stats['errors'] += 1
                 # Wait a bit longer if we hit an error
                 time.sleep(3)
         
@@ -276,6 +294,7 @@ class LLMRecategorizer:
         try:
             # Try to parse the response directly first
             response_data = json.loads(llm_response)
+            logger.debug("Successfully parsed LLM response as standard JSON")
             
             # Check if it's a JSON object with a 'results' or 'categorizations' key
             if isinstance(response_data, dict):
@@ -300,7 +319,7 @@ class LLMRecategorizer:
             logger.warning(f"Unexpected JSON format, trying to extract array from: {llm_response[:200]}...")
             
         except json.JSONDecodeError:
-            logger.warning(f"Failed to parse LLM response as JSON, attempting to extract JSON")
+            logger.warning(f"Standard JSON parsing failed, attempting alternative extraction methods...")
         
         # Try alternative extraction methods
         try:
@@ -314,7 +333,9 @@ class LLMRecategorizer:
                     
                     # Try to repair incomplete JSON - look for last complete object
                     try:
-                        return json.loads(json_str)
+                        result = json.loads(json_str)
+                        logger.info(f"Successfully extracted JSON from code block with {len(result) if isinstance(result, list) else 1} items")
+                        return result
                     except json.JSONDecodeError as e:
                         # If error is about the end of the JSON, try to find last complete object
                         if "Extra data" in str(e) or "Expecting" in str(e):
@@ -351,8 +372,9 @@ class LLMRecategorizer:
                                     if last_complete_pos > 0:
                                         # Try parsing up to last complete object plus closing array bracket
                                         truncated_json = json_str[array_start:last_complete_pos+1] + "]"
-                                        logger.debug(f"Attempting to parse truncated JSON: {truncated_json[:100]}...")
-                                        return json.loads(truncated_json)
+                                        result = json.loads(truncated_json)
+                                        logger.info(f"Successfully parsed truncated JSON with {len(result)} items")
+                                        return result
                         
                         # If we got here, our repair attempt failed
                         raise
@@ -369,7 +391,9 @@ class LLMRecategorizer:
                     
                     # Try to repair incomplete JSON
                     try:
-                        return json.loads(json_str)
+                        result = json.loads(json_str)
+                        logger.info(f"Successfully extracted JSON from markdown code block with {len(result) if isinstance(result, list) else 1} items")
+                        return result
                     except json.JSONDecodeError as e:
                         # Similar repair logic as above
                         if "Extra data" in str(e) or "Expecting" in str(e):
@@ -377,8 +401,9 @@ class LLMRecategorizer:
                             array_start = json_str.find("[")
                             if last_obj_end > 0 and array_start >= 0 and array_start < last_obj_end:
                                 truncated_json = json_str[array_start:last_obj_end+1] + "]"
-                                logger.debug(f"Attempting to parse truncated JSON: {truncated_json[:100]}...")
-                                return json.loads(truncated_json)
+                                result = json.loads(truncated_json)
+                                logger.info(f"Successfully parsed truncated markdown JSON with {len(result)} items")
+                                return result
                         raise
             
             # Try to find JSON array directly
@@ -387,15 +412,18 @@ class LLMRecategorizer:
             if start_idx >= 0 and end_idx > start_idx:
                 json_str = llm_response[start_idx:end_idx]
                 try:
-                    return json.loads(json_str)
+                    result = json.loads(json_str)
+                    logger.info(f"Successfully extracted direct JSON array with {len(result)} items")
+                    return result
                 except json.JSONDecodeError as e:
                     # Similar repair logic for direct arrays
                     if "Extra data" in str(e) or "Expecting" in str(e):
                         last_obj_end = json_str.rfind("}")
                         if last_obj_end > 0:
                             truncated_json = json_str[:last_obj_end+1] + "]"
-                            logger.debug(f"Attempting to parse truncated JSON: {truncated_json[:100]}...")
-                            return json.loads(truncated_json)
+                            result = json.loads(truncated_json)
+                            logger.info(f"Successfully parsed truncated direct JSON with {len(result)} items")
+                            return result
                     raise
                 
             # Try to find JSON object directly
@@ -404,6 +432,7 @@ class LLMRecategorizer:
             if start_idx >= 0 and end_idx > start_idx:
                 json_str = llm_response[start_idx:end_idx]
                 data = json.loads(json_str)
+                logger.info(f"Successfully extracted JSON object")
                 
                 # Process the data similar to above
                 if isinstance(data, dict):
@@ -416,7 +445,7 @@ class LLMRecategorizer:
                         return [data]
             
             # If we got here, we couldn't find valid JSON
-            logger.error(f"Failed to extract JSON from response. Full response: {llm_response}")
+            logger.error(f"All JSON extraction methods failed. Full response: {llm_response}")
             
             # As a last resort, try to manually construct results from the response
             if "id" in llm_response and "category" in llm_response:
@@ -446,7 +475,7 @@ class LLMRecategorizer:
                                 results.append(result)
                 
                 if results:
-                    logger.info(f"Manually extracted {len(results)} results from malformed JSON")
+                    logger.info(f"Successfully manually extracted {len(results)} results from malformed JSON using regex")
                     return results
             
             return []
