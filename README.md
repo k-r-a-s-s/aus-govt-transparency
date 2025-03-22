@@ -1,6 +1,6 @@
 # AI-Powered Political Disclosure Tracking System
 
-This project automates the extraction, structuring, and analysis of parliamentary financial disclosures using Google Gemini 2.0 AI.
+This project automates the extraction, structuring, and analysis of parliamentary financial disclosures using Google Gemini 2.0 Flash AI.
 
 ## Motivation & Goal
 
@@ -17,11 +17,24 @@ By doing so, we can:
 - **PDF Collection**: Python script to download PDFs from parliamentary websites
 - **AI-Powered Data Structuring**: Google Gemini 2.0 Flash for direct PDF processing and data extraction
 - **Database Storage**: SQLite for local storage and analysis
-- **Query & Analysis**: Python scripts for data analysis and export
+- **API Server**: Flask-based REST API for accessing the data
+- **Frontend**: React-based web application for visualization and analysis
+
+## Documentation
+
+Comprehensive documentation is available in the `docs/` directory:
+
+- [Documentation Index](docs/index.md)
+- [System Architecture](docs/architecture/overview.md)
+- [Backend Documentation](docs/backend/database.md)
+- [API Documentation](docs/api/endpoints.md)
+- [Frontend Documentation](docs/frontend/components.md)
+- [Setup Guide](docs/workflows/setup.md)
+- [LLM Guidance](docs/backend/llm_guidance.md)
 
 ## Gemini API Usage
 
-This project uses the Google Gemini API, which is available with a generous free tier:
+This project exclusively uses the Google Gemini 2.0 Flash model, which is available with a generous free tier:
 
 - **Gemini 2.0 Flash**: 15 requests per minute (RPM), 1,000,000 tokens per minute (TPM), 1,500 requests per day (RPD)
 
@@ -33,6 +46,62 @@ python process_parliament_disclosures.py --rpm 10 --rpd 1400
 ```
 
 For processing all parliaments, we recommend using slightly conservative rate limits (10-12 RPM instead of 15) to provide a safety margin.
+
+For detailed guidance on using Gemini 2.0 Flash effectively in this project, see the [LLM Guidance](docs/backend/llm_guidance.md) document.
+
+## Quick Start
+
+For detailed setup instructions, see the [Setup Guide](docs/workflows/setup.md).
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Set up environment variables in `.env.local`:
+   ```
+   GOOGLE_API_KEY=your_google_api_key
+   ```
+4. Run the API server:
+   ```bash
+   cd api
+   python app.py
+   ```
+5. Run the frontend:
+   ```bash
+   cd aus-govt-transparency-viz/frontend
+   npm install
+   npm run dev
+   ```
+
+## Environment Variables and Security
+
+This project uses environment variables to manage sensitive information like API keys. To protect your credentials:
+
+1. **Never commit API keys or sensitive information to Git**
+   - The project includes a comprehensive `.gitignore` file that prevents accidentally committing sensitive files
+   - All files with patterns like `.env`, `.env.local`, `*.env` are ignored
+
+2. **Use example environment files**
+   - Copy the provided example files (`.env.example`, `api/.env.example`, etc.) to create your own configuration
+   - Example: `cp .env.example .env.local` then edit with your actual credentials
+
+## Key Features
+
+- **PDF Scraping**: Automatically download PDFs from parliamentary websites
+- **AI Extraction**: Use Google Gemini 2.0 to extract structured data from PDFs
+- **Data Standardization**: Clean and standardize MP names, electorates, and categories
+- **Entity Analysis**: Identify and track entities mentioned in disclosures
+- **Visualizations**: Interactive visualizations of disclosure data
+- **Search & Filter**: Search and filter disclosures by MP, category, entity, etc.
+
+## Contributing
+
+Contributions are welcome! Please see the [Development Workflow](docs/workflows/development.md) guide before contributing.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## System Workflow
 
@@ -59,45 +128,6 @@ The system workflow is straightforward:
 - `process_parliament_disclosures.py`: Main script that orchestrates the complete batch processing pipeline
 - `test_gemini_pdf.py`: Script to test direct PDF processing with Gemini API
 - `requirements.txt`: List of dependencies
-
-## Setup
-
-1. Clone the repository
-2. Install dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-3. Set up environment variables in `.env.local`:
-   ```
-   GOOGLE_API_KEY=your_google_api_key
-   ```
-
-## Environment Variables and Security
-
-This project uses environment variables to manage sensitive information like API keys. To protect your credentials:
-
-1. **Never commit API keys or sensitive information to Git**
-   - The project includes a comprehensive `.gitignore` file that prevents accidentally committing sensitive files
-   - All files with patterns like `.env`, `.env.local`, `*.env` are ignored
-
-2. **Use example environment files**
-   - Copy the provided example files (`.env.example`, `api/.env.example`, etc.) to create your own configuration
-   - Example: `cp .env.example .env.local` then edit with your actual credentials
-
-3. **Available environment files**
-   - Root directory: `.env.local` for main project configuration (Google API keys)
-   - API directory: `api/.env` for Flask API configuration
-   - Frontend directory: `aus-govt-transparency-viz/frontend/.env` for frontend configuration
-   - Backend directory: `aus-govt-transparency-viz/backend/.env` for backend configuration
-
-4. **Environment variables reference**
-   - `GOOGLE_API_KEY`: Your Google Gemini API key (required for PDF processing)
-   - `DB_PATH`: Path to SQLite database (used by API)
-   - `PORT`: Port for running the API server
-   - `DEBUG`: Enable debug mode for Flask API
-   - `VITE_API_URL`: API URL for frontend requests
-
-Always inspect your Git commits with `git diff --staged` before committing to ensure no sensitive information is included.
 
 ## Usage
 
@@ -246,5 +276,4 @@ python process_parliament_disclosures.py --all --store-in-db --rpm 10 --continue
 ## Data Structure
 
 The AI extracts structured data from PDFs into the following JSON format:
-
 ```
