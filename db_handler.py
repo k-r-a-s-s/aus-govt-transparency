@@ -84,6 +84,9 @@ class TemporalTypes:
     # List of all valid temporal types
     ALL = [ONE_TIME, RECURRING, ONGOING]
 
+# Import our new item extraction function
+from extract_item_for_db_handler import extract_item_from_details
+
 class DatabaseHandler:
     """
     A class to handle database operations for storing structured data.
@@ -293,10 +296,10 @@ class DatabaseHandler:
                             sub_category = Subcategories.TRAVEL_OTHER
                 
                 # Item and entity information
-                item = disclosure.get("entity", "Unknown")
-                entity = item
+                entity = disclosure.get("entity", "Unknown")
                 details = disclosure.get("details", "")
                 pdf_url = disclosure.get("pdf_url", "")
+                item = extract_item_from_details(category, sub_category, entity, details)
                 
                 # Determine temporal type based on category
                 temporal_type = disclosure.get("temporal_type", "")

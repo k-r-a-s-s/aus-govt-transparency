@@ -258,6 +258,15 @@ class LLMRecategorizer:
             # Extract JSON data from response
             results = self._extract_json_from_response(llm_response, entries)
             
+            # Log all results to see raw categorizations
+            logger.info(f"Raw categorizations from Gemini (before filtering):")
+            for i, result in enumerate(results, 1):
+                entry_id = result.get("id", "unknown")
+                category = result.get("category", "not_provided")
+                subcategory = result.get("subcategory", "not_provided")
+                temporal_type = result.get("temporal_type", "not_provided")
+                logger.info(f"  {i}. ID: {entry_id}, Category: {category}, Subcategory: {subcategory}, Temporal: {temporal_type}")
+            
             # Clean up subcategory fields if they contain category prefixes
             for result in results:
                 if "subcategory" in result and "category" in result:
