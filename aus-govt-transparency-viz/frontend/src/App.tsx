@@ -5,6 +5,7 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import Layout from './components/layout/Layout';
 import Home from './pages/Home';
 import MPProfile from './pages/MPProfile';
+import Members from './pages/Members';
 import EntityExplorer from './pages/EntityExplorer';
 import DisclosureAnalytics from './pages/DisclosureAnalytics';
 import TravelAnalysis from './pages/TravelAnalysis';
@@ -33,6 +34,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/mp/:name" element={<MPProfile />} />
+            <Route path="/members" element={<Members />} />
             <Route path="/travel" element={<TravelAnalysis />} />
             <Route path="/entities" element={<EntityExplorer />} />
             <Route path="/analytics" element={<DisclosureAnalytics />} />

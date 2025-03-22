@@ -1,5 +1,6 @@
 import React, { ReactNode } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import MPSearch from './MPSearch';
 
 interface LayoutProps {
   children: ReactNode;
@@ -13,6 +14,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     { path: '/', label: 'Dashboard' },
     { path: '/analytics', label: 'Analytics' },
     { path: '/entities', label: 'Entities' },
+    { path: '/members', label: 'Members' },
     { path: '/travel', label: 'Travel Analysis' },
     { path: '/geographic', label: 'Geographic View' },
     { path: '/export', label: 'Export' },
@@ -67,6 +69,11 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                   </Link>
                 ))}
               </div>
+            </div>
+            
+            {/* MP Search component */}
+            <div className="hidden md:block w-64">
+              <MPSearch />
             </div>
           </div>
         </div>
