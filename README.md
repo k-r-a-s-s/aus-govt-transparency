@@ -94,6 +94,10 @@ This project uses environment variables to manage sensitive information like API
 - **Entity Analysis**: Identify and track entities mentioned in disclosures
 - **Visualizations**: Interactive visualizations of disclosure data
 - **Search & Filter**: Search and filter disclosures by MP, category, entity, etc.
+- **Entity Standardization**: Standardizes entity names for consistent analysis
+- **Double Disclosure Processing**: Intelligently splits combined entity names (e.g., "Qantas and Virgin") into separate entities while preserving the original combined name
+- **Data Quality Checks**: Validates data integrity and completeness
+- **Statistical Analysis**: Generates insights and trends from the data
 
 ## Contributing
 
@@ -118,6 +122,18 @@ The system workflow is straightforward:
 2. **Direct PDF Processing**: All PDFs are processed with Gemini 2.0 Flash with post-processing for enhanced data quality.
 3. **Database Storage**: Structured data is stored in SQLite database.
 4. **Output Organization**: JSON outputs are organized by parliament for easy access.
+
+### 3. Entity Processing
+- `scripts/process_entities.py`: Processes and standardizes entity names
+- `scripts/apply_entity_results.py`: Applies entity standardization results to the database
+- `scripts/apply_double_disclosure_entity_results.py`: Processes and splits combined entity names (e.g., "Qantas and Virgin") into separate entities while preserving the original combined name
+- `scripts/reset_original_entities.py`: Resets entity values to match original_entity values, useful for reprocessing double disclosures
+
+### 4. Data Analysis
+- `scripts/double_disclosure_analysis.py`: Analyzes potential double disclosures in the database
+- `scripts/prepare_gemini_entity_analysis.py`: Prepares data for Gemini analysis
+- `scripts/analyze_double_disclosures_with_gemini.py`: Analyzes entities with Gemini AI to distinguish between true multiple entities and single entities with compound names
+- `scripts/summarize_gemini_entity_analysis.py`: Summarizes and generates reports from Gemini analysis results
 
 ## Project Structure
 
@@ -311,3 +327,30 @@ For a comprehensive understanding of the double disclosure detection workflow, s
 - [Gemini API Setup](docs/guides/gemini_api_setup.md)
 
 This feature significantly improves data accuracy by properly handling cases where multiple entities are incorrectly grouped together in a single disclosure entry.
+
+### Data Processing Pipeline
+
+1. **PDF Processing**:
+   - `scripts/process_pdfs.py`: Extracts text from PDFs
+   - `scripts/parse_disclosures.py`: Parses disclosure text into structured data
+   - `scripts/apply_parsing_results.py`: Applies parsing results to database
+
+2. **Entity Processing**:
+   - `scripts/process_entities.py`: Processes and standardizes entity names
+   - `scripts/apply_entity_results.py`: Applies entity standardization results to database
+   - `scripts/apply_double_disclosure_entity_results.py`: Processes and splits combined entity names
+   - `scripts/reset_original_entities.py`: Resets entity values for reprocessing
+
+3. **Double Disclosure Processing**:
+   - `scripts/double_disclosure_analysis.py`: Identifies potential double disclosures
+   - `scripts/prepare_gemini_entity_analysis.py`: Prepares data for Gemini AI analysis
+   - `scripts/analyze_double_disclosures_with_gemini.py`: Uses Gemini AI to analyze entities
+   - `scripts/summarize_gemini_entity_analysis.py`: Generates analysis reports
+   - `scripts/apply_double_disclosure_entity_results.py`: Applies split results to database
+
+4. **Data Analysis**:
+   - `scripts/analyze_disclosures.py`: Performs statistical analysis
+   - `scripts/generate_reports.py`: Creates summary reports
+   - `scripts/export_data.py`: Exports data in various formats
+
+### Data Quality Checks
