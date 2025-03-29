@@ -95,11 +95,25 @@ class DoubleDisclosureEntityUpdater:
         else:
             logger.info("original_entity column already exists in disclosures table")
             
-        # Verify the column exists after potential creation
+        # Check if split_entity column exists
+        if "split_entity" not in column_names:
+            logger.info("Adding split_entity column to disclosures table")
+            if not self.dry_run:
+                cursor.execute("ALTER TABLE disclosures ADD COLUMN split_entity TEXT")
+                cursor.execute("CREATE INDEX IF NOT EXISTS idx_split_entity ON disclosures(split_entity)")
+                self.conn.commit()
+            else:
+                logger.info("[DRY RUN] Would add split_entity column to disclosures table")
+        else:
+            logger.info("split_entity column already exists in disclosures table")
+            
+        # Verify the columns exist after potential creation
         columns = cursor.execute("PRAGMA table_info(disclosures)").fetchall()
         column_names = [col["name"] for col in columns]
         if "original_entity" not in column_names:
             raise ValueError("Failed to create original_entity column")
+        if "split_entity" not in column_names:
+            raise ValueError("Failed to create split_entity column")
     
     def _backup_database(self):
         """
@@ -171,7 +185,7 @@ class DoubleDisclosureEntityUpdater:
         """
         cursor = self.conn.cursor()
         
-        # First ensure we have the original_entity column
+        # First ensure we have the original_entity and split_entity columns
         self._check_database_schema()
         
         # Load results from the input file
@@ -208,21 +222,28 @@ class DoubleDisclosureEntityUpdater:
             
             # Track if we modified anything for this entity
             modified_any = False
+            first_split_entity = split_entities[0].strip()
             
-            # For each disclosure, create new records for each split entity
+            # For each disclosure, update split_entity and create new records for each split entity if needed
             for row in rows:
-                # Only skip if this disclosure has already been split into multiple entities
-                # (i.e. original_entity is different from entity)
+                # If this disclosure has already been split (original_entity is different from entity),
+                # just update the split_entity column to match the current entity
                 if row["original_entity"] is not None and row["original_entity"] != row["entity"]:
-                    logger.info(f"Skipping already split disclosure for {original_entity}")
+                    if not self.dry_run:
+                        cursor.execute(
+                            "UPDATE disclosures SET split_entity = entity WHERE id = ?",
+                            (row["id"],)
+                        )
+                    total_updates += 1
+                    modified_any = True
+                    modified_entities.add(row["entity"])
                     continue
                 
-                # Keep the original disclosure with the first split entity
-                first_split_entity = split_entities[0].strip()
+                # For unsplit disclosures, update with the first split entity
                 if not self.dry_run:
                     cursor.execute(
-                        "UPDATE disclosures SET entity = ?, original_entity = ? WHERE id = ?",
-                        (first_split_entity, original_entity, row["id"])
+                        "UPDATE disclosures SET entity = ?, original_entity = ?, split_entity = ? WHERE id = ?",
+                        (first_split_entity, original_entity, first_split_entity, row["id"])
                     )
                 total_updates += 1
                 modified_any = True
@@ -236,6 +257,7 @@ class DoubleDisclosureEntityUpdater:
                         new_row["id"] = None  # Let SQLite auto-increment
                         new_row["entity"] = split_entity
                         new_row["original_entity"] = original_entity
+                        new_row["split_entity"] = split_entity
                         
                         # Build the INSERT statement dynamically
                         columns = ", ".join(new_row.keys())

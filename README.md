@@ -128,12 +128,60 @@ The system workflow is straightforward:
 - `scripts/apply_entity_results.py`: Applies entity standardization results to the database
 - `scripts/apply_double_disclosure_entity_results.py`: Processes and splits combined entity names (e.g., "Qantas and Virgin") into separate entities while preserving the original combined name
 - `scripts/reset_original_entities.py`: Resets entity values to match original_entity values, useful for reprocessing double disclosures
+- `scripts/standardize_entities.py`: Standardizes entity names using a multi-stage process:
+  1. Checks for populated `split_entity` column (requires running `apply_double_disclosure_entity_results.py` first)
+  2. Applies acronym standardization
+  3. Applies regex-based standardization
+  4. Applies fuzzy matching for similar entities
+  5. Applies case standardization
 
 ### 4. Data Analysis
 - `scripts/double_disclosure_analysis.py`: Analyzes potential double disclosures in the database
 - `scripts/prepare_gemini_entity_analysis.py`: Prepares data for Gemini analysis
 - `scripts/analyze_double_disclosures_with_gemini.py`: Analyzes entities with Gemini AI to distinguish between true multiple entities and single entities with compound names
 - `scripts/summarize_gemini_entity_analysis.py`: Summarizes and generates reports from Gemini analysis results
+
+### Database Schema for Entity Processing
+
+The system uses the following columns for entity processing:
+
+- `original_entity`: Contains the original entity name as extracted from documents
+- `entity`: The current standardized entity name
+- `split_entity`: Contains individual entities extracted from multi-entity strings (e.g., "Qantas" from "Qantas and Virgin")
+- `regex_standardized`: Used during standardization processing
+- `canonical_entity`: Used for the final standardized version
+
+### Entity Processing Workflow
+
+1. **Double Disclosure Processing**:
+   ```bash
+   # First, analyze and split combined entity names
+   python scripts/apply_double_disclosure_entity_results.py --db disclosures.db --input-file scripts/gemini_results/compiled_results.json
+   ```
+
+2. **Entity Standardization**:
+   ```bash
+   # Then standardize the split entities
+   python scripts/standardize_entities.py --db disclosures.db
+   
+   # Optional flags:
+   --no-fuzzy           # Skip fuzzy matching
+   --skip-regex         # Skip regex standardization
+   --skip-acronyms      # Skip acronym standardization
+   --auto              # Run without confirmation prompts
+   ```
+
+3. **Verification and Reset**:
+   ```bash
+   # If needed, reset entities to original values
+   python scripts/reset_original_entities.py
+   ```
+
+This workflow ensures that:
+1. Multi-entity strings are properly split before standardization
+2. The relationship between original and split entities is preserved
+3. Standardization is applied to individual entities rather than combined strings
+4. The process is clear and enforced through checks
 
 ## Project Structure
 
