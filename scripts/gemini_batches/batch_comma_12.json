@@ -1,0 +1,965 @@
+{
+  "batch_id": "comma_12",
+  "category": "comma",
+  "entities": [
+    {
+      "entity": "MR MAX LIONDOS, LIONDOS TAILORS, SYDNEY",
+      "proposed_splits": [
+        "MR MAX LIONDOS",
+        "LIONDOS TAILORS",
+        "SYDNEY"
+      ],
+      "context": [
+        {
+          "mp_name": "Tony Abbott",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Other Gift",
+          "item": "Suits",
+          "details": "SUITS"
+        },
+        {
+          "mp_name": "Tony Abbott",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Other Gift",
+          "item": "Suits",
+          "details": "SUITS FROM MR MAX LIONDOS, LIONDOS TAILORS, SYDNEY"
+        }
+      ]
+    },
+    {
+      "entity": "CBA, ANZ",
+      "proposed_splits": [
+        "CBA",
+        "ANZ"
+      ],
+      "context": [
+        {
+          "mp_name": "Anthony Albanese",
+          "party": "Australian Labor Party",
+          "category": "Liability",
+          "sub_category": "Other Liability",
+          "item": "Credit Card",
+          "details": "Mastercard, Visa"
+        },
+        {
+          "mp_name": "Ann Sudmalis",
+          "party": "Liberal Party of Australia",
+          "category": "Liability",
+          "sub_category": "Mortgage",
+          "item": "Residential Mortgage, Canberra Property Mortgage, Credit Cards",
+          "details": "MORTGAGE (Main Residence) CBA; MORTGAGE (Canberra Property) CBA; CREDIT CARDS CBA, ANZ; Spouse: N/A; Dependent Children: N/A"
+        },
+        {
+          "mp_name": "Kevin Hogan",
+          "party": "National Party of Australia",
+          "category": "Liability",
+          "sub_category": "Credit",
+          "item": "Credit Card",
+          "details": "Credit Card - Self"
+        },
+        {
+          "mp_name": "Kevin Hogan",
+          "party": "National Party of Australia",
+          "category": "Liability",
+          "sub_category": "Credit",
+          "item": "Credit Card",
+          "details": "Credit Card - Spouse/partner"
+        },
+        {
+          "mp_name": "Kevin Hogan",
+          "party": "National Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings Account",
+          "details": "Savings - Self"
+        }
+      ]
+    },
+    {
+      "entity": "Vladimir Yakunin, President of Russian Railways",
+      "proposed_splits": [
+        "Vladimir Yakunin",
+        "President of Russian Railways"
+      ],
+      "context": [
+        {
+          "mp_name": "Anthony Albanese",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Book 'Russia Through A Train Window'",
+          "details": "Was presented with a book 'Russia Through A Train Window' by Vladimir Yakunin, President of Russian Railways."
+        }
+      ]
+    },
+    {
+      "entity": "Ipswich Motorway Construction Company, Origin Alliance",
+      "proposed_splits": [
+        "Ipswich Motorway Construction Company",
+        "Origin Alliance"
+      ],
+      "context": [
+        {
+          "mp_name": "Anthony Albanese",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Half NSW State of Origin/South Sydney football jersey",
+          "details": "Was presented with a half NSW State of Origin/South Sydney football jersey by the Ipswich Motorway Construction Company, Origin Alliance."
+        }
+      ]
+    },
+    {
+      "entity": "Ministry of Economy, United Arab Emirates",
+      "proposed_splits": [
+        "Ministry of Economy",
+        "United Arab Emirates"
+      ],
+      "context": [
+        {
+          "mp_name": "Anthony Albanese",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Other Gift",
+          "item": "Statuette and fountain pen",
+          "details": "In December from the Ministry of Economy, United Arab Emirates, a statuette and a fountain pen"
+        }
+      ]
+    },
+    {
+      "entity": "Chen Yuming, Chinese Embassy in Australia",
+      "proposed_splits": [
+        "Chen Yuming",
+        "Chinese Embassy in Australia"
+      ],
+      "context": [
+        {
+          "mp_name": "Anthony Albanese",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Other Gift",
+          "item": "Fountain pen and calendar",
+          "details": "On 9 January 2013 from Chen Yuming, Chinese Embassy in Australia, a fountain pen, and calendar."
+        }
+      ]
+    },
+    {
+      "entity": "InterContinental Hotel, Melbourne",
+      "proposed_splits": [
+        "InterContinental Hotel",
+        "Melbourne"
+      ],
+      "context": [
+        {
+          "mp_name": "Robert Charles Baldwin",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Other Gift",
+          "item": "Tourism Industry Rates and/or room upgrades and/or club lounge access",
+          "details": "Provided with tourism industry rates and/or room upgrades and/or club lounge access and/or complimentary meeting room facilities"
+        }
+      ]
+    },
+    {
+      "entity": "Treasury Hotel, Brisbane",
+      "proposed_splits": [
+        "Treasury Hotel",
+        "Brisbane"
+      ],
+      "context": [
+        {
+          "mp_name": "Robert Charles Baldwin",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Other Gift",
+          "item": "Tourism Industry Rates and/or room upgrades and/or club lounge access",
+          "details": "Provided with tourism industry rates and/or room upgrades and/or club lounge access and/or complimentary meeting room facilities"
+        }
+      ]
+    },
+    {
+      "entity": "InterContinental Hotel, Perth",
+      "proposed_splits": [
+        "InterContinental Hotel",
+        "Perth"
+      ],
+      "context": [
+        {
+          "mp_name": "Robert Charles Baldwin",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Other Gift",
+          "item": "Tourism Industry Rates and/or room upgrades and/or club lounge access",
+          "details": "Provided with tourism industry rates and/or room upgrades and/or club lounge access and/or complimentary meeting room facilities"
+        }
+      ]
+    },
+    {
+      "entity": "Voyages Indigenous Tourism Australia, Ayres Rock",
+      "proposed_splits": [
+        "Voyages Indigenous Tourism Australia",
+        "Ayres Rock"
+      ],
+      "context": [
+        {
+          "mp_name": "Robert Charles Baldwin",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Accommodation at Ayres Rock",
+          "details": "When travelling on official business I received complimentary accommodation. One night. My chief of staff also received complimentary accommodation."
+        }
+      ]
+    },
+    {
+      "entity": "Exquirant P/L, Billson Family Trust",
+      "proposed_splits": [
+        "Exquirant P",
+        "L",
+        "Billson Family Trust"
+      ],
+      "context": [
+        {
+          "mp_name": "Bruce Fredrick Billson",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Trust",
+          "item": "Exquirant P/L",
+          "details": "Owns Exquirant P/L - Holds non transferable loss on April of byinen sole, sole trustee, potential discretionary beneficiary"
+        }
+      ]
+    },
+    {
+      "entity": "Wizard, GE Money, Commonwealth Bank",
+      "proposed_splits": [
+        "Wizard",
+        "GE Money",
+        "Commonwealth Bank"
+      ],
+      "context": [
+        {
+          "mp_name": "Sharon Bird",
+          "party": "Australian Labor Party",
+          "category": "Liability",
+          "sub_category": "Mortgage",
+          "item": "Mortgage",
+          "details": "Mortgage"
+        }
+      ]
+    },
+    {
+      "entity": "Australia National Credit Union, AGEST, PSS",
+      "proposed_splits": [
+        "Australia National Credit Union",
+        "AGEST",
+        "PSS"
+      ],
+      "context": [
+        {
+          "mp_name": "Sharon Bird",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Superannuation",
+          "details": "Savings Account, Superannuation"
+        }
+      ]
+    },
+    {
+      "entity": "Transport Workers Union (NSW), Emily's List, APHEDA",
+      "proposed_splits": [
+        "Transport Workers Union (NSW)",
+        "Emily's List",
+        "APHEDA"
+      ],
+      "context": [
+        {
+          "mp_name": "Sharon Bird",
+          "party": "Australian Labor Party",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Transport Workers Union (NSW) Membership",
+          "details": "Transport Workers Union (NSW)"
+        }
+      ]
+    },
+    {
+      "entity": "Mr Kaisheng YANG, President of ICBC",
+      "proposed_splits": [
+        "Mr Kaisheng YANG",
+        "President of ICBC"
+      ],
+      "context": [
+        {
+          "mp_name": "Christopher Bowen",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Decorative Screen Ornament",
+          "details": "Decorative Screen ornament - Approx $100"
+        }
+      ]
+    },
+    {
+      "entity": "Mr Xiongmo Huang, Chairman of Yuhu Group of companies",
+      "proposed_splits": [
+        "Mr Xiongmo Huang",
+        "Chairman of Yuhu Group of companies"
+      ],
+      "context": [
+        {
+          "mp_name": "Christopher Bowen",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Hospitality",
+          "item": "Penfolds Grange Wine",
+          "details": "Bottle of wine - Penfolds Grange 2002 from Mr Xiongmo Huang, Chairman of Yuhu Group of companies. Note: payment sent to PM&C as it was in excess of $300."
+        }
+      ]
+    },
+    {
+      "entity": "Police Credit Co-op, Australian Super",
+      "proposed_splits": [
+        "Police Credit Co-op",
+        "Australian Super"
+      ],
+      "context": [
+        {
+          "mp_name": "Anna Elizabeth Burke",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings/Superannuation",
+          "details": "Savings/Superannuation, Self"
+        }
+      ]
+    },
+    {
+      "entity": "Police Credit Co-op, ESSS, Uni Super",
+      "proposed_splits": [
+        "Police Credit Co-op",
+        "ESSS",
+        "Uni Super"
+      ],
+      "context": [
+        {
+          "mp_name": "Anna Elizabeth Burke",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings/Superannuation",
+          "details": "Savings/Superannuation, Spouse"
+        }
+      ]
+    },
+    {
+      "entity": "Metropolitan Ambulance Service, Monash University",
+      "proposed_splits": [
+        "Metropolitan Ambulance Service",
+        "Monash University"
+      ],
+      "context": [
+        {
+          "mp_name": "Anna Elizabeth Burke",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Spouse",
+          "details": "Spouse"
+        }
+      ]
+    },
+    {
+      "entity": "MTC productions, Qantas",
+      "proposed_splits": [
+        "MTC productions",
+        "Qantas"
+      ],
+      "context": [
+        {
+          "mp_name": "Anna Elizabeth Burke",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Tickets to MTC productions and Upgrade to First Class QF128",
+          "details": "Opening night tickets to the MTC productions for 2010 for myself and partner. Upgraded flight from business to first class for myself and husband on QF128 on 13/11/2009, Self"
+        }
+      ]
+    },
+    {
+      "entity": "Australian Labor Party, Australian Services Union, Friends of the ABC, Oxfam, Amnesty International, Associate member of the RSL, Police Ass Credit Co-Op, Box Hill Hawkes, Friends of Wattle Park, Friends of MGA, Friends of the Highway Gallery",
+      "proposed_splits": [
+        "Australian Labor Party",
+        "Australian Services Union",
+        "Friends of the ABC",
+        "Oxfam",
+        "Amnesty International",
+        "Associate member of the RSL",
+        "Police Ass Credit Co-Op",
+        "Box Hill Hawkes",
+        "Friends of Wattle Park",
+        "Friends of MGA",
+        "Friends of the Highway Gallery"
+      ],
+      "context": [
+        {
+          "mp_name": "Anna Elizabeth Burke",
+          "party": "Australian Labor Party",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Various Memberships",
+          "details": "Self"
+        }
+      ]
+    },
+    {
+      "entity": "Australian Labor Party, Friends of the ABC, Police Ass Credit Co-Op, Ambulance Employees Association, National Tertiary Education Union, Australian Sceptics",
+      "proposed_splits": [
+        "Australian Labor Party",
+        "Friends of the ABC",
+        "Police Ass Credit Co-Op",
+        "Ambulance Employees Association",
+        "National Tertiary Education Union",
+        "Australian Sceptics"
+      ],
+      "context": [
+        {
+          "mp_name": "Anna Elizabeth Burke",
+          "party": "Australian Labor Party",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Various Memberships",
+          "details": "Spouse"
+        }
+      ]
+    },
+    {
+      "entity": "Oakleigh/Carneign RSL, Box Hill RSL, Box Hill Lions",
+      "proposed_splits": [
+        "Oakleigh",
+        "Carneign RSL",
+        "Box Hill RSL",
+        "Box Hill Lions"
+      ],
+      "context": [
+        {
+          "mp_name": "Anna Elizabeth Burke",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Membership",
+          "details": "Membership Self"
+        }
+      ]
+    },
+    {
+      "entity": "Bulldogs Rugby League Club, Sydney Theatre Company",
+      "proposed_splits": [
+        "Bulldogs Rugby League Club",
+        "Sydney Theatre Company"
+      ],
+      "context": [
+        {
+          "mp_name": "Tony Burke",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Home Games and Sydney Theatre Company performances",
+          "details": "Bulldogs Rugby League Club - home games Sydney Theatre Company of selected performances as above"
+        }
+      ]
+    },
+    {
+      "entity": "Beechworth Honey, Corowa, NSW",
+      "proposed_splits": [
+        "Beechworth Honey",
+        "Corowa",
+        "NSW"
+      ],
+      "context": [
+        {
+          "mp_name": "Mark Butler",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Beechworth Honey Gift Basket",
+          "details": "Received a gift basket from Beechworth Honey, Corowa, NSW as part of a bee security awareness exercise. The retail value of gift basket is approximately $100."
+        }
+      ]
+    },
+    {
+      "entity": "Kelvin Crombie of Mundaring, Western Australia",
+      "proposed_splits": [
+        "Kelvin Crombie of Mundaring",
+        "Western Australia"
+      ],
+      "context": [
+        {
+          "mp_name": "Mark Butler",
+          "party": "Australian Labor Party",
+          "category": "Income",
+          "sub_category": "Other Income",
+          "item": "Book: Anzacs and Israel - A Significant Connection",
+          "details": "Received a book Anzacs and Israel - a significant connection. This was a gift from Mr Kelvin Crombie of Mundaring, Western Australia. The value of the gift is between $24.95."
+        }
+      ]
+    },
+    {
+      "entity": "City of Swan, Western Australia",
+      "proposed_splits": [
+        "City of Swan",
+        "Western Australia"
+      ],
+      "context": [
+        {
+          "mp_name": "Mark Butler",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Hospitality",
+          "item": "Swan Valley Liquer Shiraz wine",
+          "details": "Received a bottle of Swan Valley Liquer Shiraz wine from the City of Swan, Western Australia. The value of this gift is $95.00"
+        }
+      ]
+    },
+    {
+      "entity": "Lindsay Soutar, National Co-ordinator for 100% Renewable",
+      "proposed_splits": [
+        "Lindsay Soutar",
+        "National Co-ordinator for 100% Renewable"
+      ],
+      "context": [
+        {
+          "mp_name": "Mark Butler",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Cup cake",
+          "details": "Received a cup cake from Lindsay Soutar, National Co-ordinator for 100% Renewable on behalf of community groups joining the 'Big Solar' campaign across Australia. The value of the cup cake is approximately $5.00."
+        }
+      ]
+    },
+    {
+      "entity": "Thich Quang BA, Senior Monk",
+      "proposed_splits": [
+        "Thich Quang BA",
+        "Senior Monk"
+      ],
+      "context": [
+        {
+          "mp_name": "Mark Butler",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Etched tile",
+          "details": "Received an etched tile from the Most Venerable Thich Quang BA, Senior Monk for the Van Hanh Monastery in Lyneham."
+        }
+      ]
+    },
+    {
+      "entity": "CAPTAINS COLE, PAYNESVILLE",
+      "proposed_splits": [
+        "CAPTAINS COLE",
+        "PAYNESVILLE"
+      ],
+      "context": [
+        {
+          "mp_name": "Darren Chester",
+          "party": "National Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Accommodation",
+          "details": "TWO NIGHTS ACCOMMODATION - $4000"
+        }
+      ]
+    },
+    {
+      "entity": "Qantas, Boeing",
+      "proposed_splits": [
+        "Qantas",
+        "Boeing"
+      ],
+      "context": [
+        {
+          "mp_name": "Jason Clare",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Qantas Flight Upgrade and Working Dinner with Boeing",
+          "details": "Qantas flight upgrade Sydney to Los Angeles - Sunday 5th December, 2010 (from business class to first class); Working dinner with Boeing in St Louis -Thursday 9th December, 2010 (approximate value $100); and Qantas flight upgrade Los Angeles to Sydney - Wednesday 15th December, 2010 (from business class to first class)"
+        }
+      ]
+    },
+    {
+      "entity": "Navantia, Lockheed Martin",
+      "proposed_splits": [
+        "Navantia",
+        "Lockheed Martin"
+      ],
+      "context": [
+        {
+          "mp_name": "Jason Clare",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Model ship and aircraft",
+          "details": "Model ship from Navantia \u2013 17 November, 2010 (approximate value $100); Model aircraft from Lockheed Martin - 2 February, 2011 (approximate value $100)"
+        }
+      ]
+    },
+    {
+      "entity": "Avalon Airshow, Leighton Holdings, Parliamentary Friends of Clubs",
+      "proposed_splits": [
+        "Avalon Airshow",
+        "Leighton Holdings",
+        "Parliamentary Friends of Clubs"
+      ],
+      "context": [
+        {
+          "mp_name": "Jason Clare",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Hospitality",
+          "item": "Dinner/Lunch with Avalon Airshow Chairman/Leighton Holdings Chairman/Parliamentary Friends of Clubs Dinner",
+          "details": "Dinner with the Avalon Airshow Chairman & CEO \u2013 4 March, 2011 (approximate value $50); Lunch with David Mortimer, Chairman of Leighton Holdings and Leighton executives \u2013 14 March, 2011 (approximate value $80); and The Parliamentary Friends of Clubs Dinner - 23 March, 2011 (value $100)"
+        }
+      ]
+    },
+    {
+      "entity": "Greg Baxter, Boeing, Chris Jenkins",
+      "proposed_splits": [
+        "Greg Baxter",
+        "Boeing",
+        "Chris Jenkins"
+      ],
+      "context": [
+        {
+          "mp_name": "Jason Clare",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Mid Winter Ball & Bushmaster Model",
+          "details": "The Press Gallery Mid Winter Ball, guest of Greg Baxter, News Limited 15 June, 2011 (value $125); ASPI NSC Dinner, sponsored by Boeing \u2013 19 July, 2011 (approximate value $50); A glass model of a Bushmaster vehicle, gifted to me by Chris Jenkins, CEO Thales - 20 July, 2011 (approximate value $100)"
+        }
+      ]
+    },
+    {
+      "entity": "Emirates Airlines, Babcock UK, Airbus Military, Navantia",
+      "proposed_splits": [
+        "Emirates Airlines",
+        "Babcock UK",
+        "Airbus Military",
+        "Navantia"
+      ],
+      "context": [
+        {
+          "mp_name": "Jason Clare",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Flight upgrade, car transport, lunch, and dinner reception",
+          "details": "Flight upgrade from business class to first class on Emirates Airlines - 26 and 31 July; 5 and 6 August 2011, Car transport Falmouth to Plymouth, provided by Babcock UK - 2 August 2011, Lunch hosted by Airbus Military, Madrid Spain - 3 August 2011, Dinner Reception hosted by Navantia, Ferrol Spain - 3 August 2011"
+        }
+      ]
+    },
+    {
+      "entity": "Airbus Military, Navantia, Al Group",
+      "proposed_splits": [
+        "Airbus Military",
+        "Navantia",
+        "Al Group"
+      ],
+      "context": [
+        {
+          "mp_name": "Jason Clare",
+          "party": "Australian Labor Party",
+          "category": "Income",
+          "sub_category": "Other Income",
+          "item": "Branded Book, Tie, Plaques & Model Ship",
+          "details": "A branded book from Airbus Military, Spain \u2013 3 August 2011 (no commercial value); A tie, two commemorative plaques and a glass encased model ship from Navantia, Spain - 4 August 2011 (approximate total value $200); Private Dinner hosted by Al Group, Sydney - 10 August 2011 (approximate value $120)."
+        }
+      ]
+    },
+    {
+      "entity": "Police Services Association, Tongan Police Minister",
+      "proposed_splits": [
+        "Police Services Association",
+        "Tongan Police Minister"
+      ],
+      "context": [
+        {
+          "mp_name": "Jason Clare",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Other Gift",
+          "item": "Neck tie and wall hanging",
+          "details": "Police Services Association, 13 February 2012 - neck tie, estimated value $30.00. Tongan Police Minister, 15 February 2012 - Kingdom of Tonga wall hanging, estimated value $30.00."
+        }
+      ]
+    },
+    {
+      "entity": "Cyprus High Commission, Varley Group, Bruck Group, Indonesian National Police Chief",
+      "proposed_splits": [
+        "Cyprus High Commission",
+        "Varley Group",
+        "Bruck Group",
+        "Indonesian National Police Chief"
+      ],
+      "context": [
+        {
+          "mp_name": "Jason Clare",
+          "party": "Australian Labor Party",
+          "category": "Income",
+          "sub_category": "Other Income",
+          "item": "Diary, Book, Commemorative Book & Framed Photo",
+          "details": "Cyprus High Commission, 2 February 2012 \u2013 2012 bound diary and book \"Window on Cyprus\", combined estimated value $60.00. Varley Group, 10 February 2012 - commemorative book of the company's history, no commercial value. Bruck Group, 10 February 2012 - framed photo, estimated value $60.00. Indonesian National Police Chief, 20 February 2012 - commemorative plaque and wall hanging, combined estimated value $100.00."
+        }
+      ]
+    },
+    {
+      "entity": "Thales, Jordanian Government",
+      "proposed_splits": [
+        "Thales",
+        "Jordanian Government"
+      ],
+      "context": [
+        {
+          "mp_name": "Jason Clare",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Armoured vehicle model & commemorative plaque",
+          "details": "Thales, 14 September 2012 - glass encased model of armoured vehicle \"Hawkei\", estimated value $100.00, Jordanian Government, 25 September 2012 --commemorative plaque and Royal Guard accessory, combined estimated value $150.00"
+        }
+      ]
+    },
+    {
+      "entity": "Boeing, Minter Ellison",
+      "proposed_splits": [
+        "Boeing",
+        "Minter Ellison"
+      ],
+      "context": [
+        {
+          "mp_name": "Jason Clare",
+          "party": "Australian Labor Party",
+          "category": "Income",
+          "sub_category": "Other Income",
+          "item": "Framed Art Work & Book",
+          "details": "Boeing, 19 November 2012 - framed art work of \"Wedgetail\" aeroplane, estimated value $100.00. Minter Ellison, 11 February 2013 - book The Revenge of Geography, estimated value $40.00."
+        }
+      ]
+    },
+    {
+      "entity": "Bankstown Sports Club, NRL",
+      "proposed_splits": [
+        "Bankstown Sports Club",
+        "NRL"
+      ],
+      "context": [
+        {
+          "mp_name": "Jason Clare",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Wine bottles and corporate box tickets",
+          "details": "Bankstown Sports Club, 18 March 2013 \u2013 commemorative bottles of wine for the John Mackay Sports Centre Memorial Oval, estimated value $100.00. Bulldogs v Rabbitohs NRL, 29 March 2013 - two complimentary tickets in the Bulldogs' corporate box, estimated value $200.00."
+        }
+      ]
+    },
+    {
+      "entity": "Bankstown Sports Club, Channel 9, Interlink Roads, Bankstown RSL, Linfox, Pickles Auctions",
+      "proposed_splits": [
+        "Bankstown Sports Club",
+        "Channel 9",
+        "Interlink Roads",
+        "Bankstown RSL",
+        "Linfox",
+        "Pickles Auctions"
+      ],
+      "context": [
+        {
+          "mp_name": "Jason Clare",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Mateship Trek and complimentary Air New Guinea Upgrade",
+          "details": "From 15 to 25 April 2013, the Member for Cook and myself travelled with a group of young people to Papua New Guinea on the Mateship Trek, along the Black Cat Track between Wau and Salamaua. I received a complimentary upgrade on Air New Guinea flight PX005 from Port Moresby to Brisbane on 25 April 2013."
+        }
+      ]
+    },
+    {
+      "entity": "Maria Vandamme, Melba Foundation",
+      "proposed_splits": [
+        "Maria Vandamme",
+        "Melba Foundation"
+      ],
+      "context": [
+        {
+          "mp_name": "Simon Findlay Crean",
+          "party": "Australian Labor Party",
+          "category": "Income",
+          "sub_category": "Other Income",
+          "item": "CDs, DVDs & Fanfare Book",
+          "details": "Received a number of CDs, DVDs and a Fanfare book, from Ms Maria Vandamme, Melba Foundation. I have donated the music to schools throughout my electorate and the Clayton Library received the Fanfare book."
+        }
+      ]
+    },
+    {
+      "entity": "Education Department, WA",
+      "proposed_splits": [
+        "Education Department",
+        "WA"
+      ],
+      "context": [
+        {
+          "mp_name": "Tony Crook",
+          "party": "Nationals WA",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Employment",
+          "details": "Employment"
+        }
+      ]
+    },
+    {
+      "entity": "QPCU, Westpac, CBA",
+      "proposed_splits": [
+        "QPCU",
+        "Westpac",
+        "CBA"
+      ],
+      "context": [
+        {
+          "mp_name": "Peter Dutton",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings Account",
+          "details": "Savings A/C, Savings"
+        }
+      ]
+    },
+    {
+      "entity": "Westpac, CBA, QPCU",
+      "proposed_splits": [
+        "Westpac",
+        "CBA",
+        "QPCU"
+      ],
+      "context": [
+        {
+          "mp_name": "Peter Dutton",
+          "party": "Liberal National Party",
+          "category": "Liability",
+          "sub_category": "Loan",
+          "item": "Loan, Overdraft",
+          "details": "Loan, Overdraft"
+        }
+      ]
+    },
+    {
+      "entity": "Qantas, Virgin",
+      "proposed_splits": [
+        "Qantas",
+        "Virgin"
+      ],
+      "context": [
+        {
+          "mp_name": "Peter Dutton",
+          "party": "Liberal National Party",
+          "category": "Membership",
+          "sub_category": "Professional",
+          "item": "Chairman's Lounge & Velocity Card",
+          "details": "Chairman's Lounge Membership (Qantas), Velocity Card/Lounge Access (Virgin), Foxtel Connection at Electorate Office, Partners Chairman's Lounge Membership"
+        },
+        {
+          "mp_name": "Pli Bersek",
+          "party": "Australian Labor Party",
+          "category": "Membership",
+          "sub_category": "Professional",
+          "item": "Airline Lounge Membership",
+          "details": "Qantas chairman's Lounge membership, virgin Lounge membership"
+        },
+        {
+          "mp_name": "William Shorten",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Membership of Qantas Chairman's Lounge & Virgin \"The Club\"",
+          "details": "Complimentary membership of Qantas Chairman's Lounge, Complimentary membership of Virgin \"The Club\""
+        },
+        {
+          "mp_name": "Russell Broadbent",
+          "party": "Liberal Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Qantas Chairmans Lounge & Virgin Airlines Lounge membership",
+          "details": "Qantas Chairmans Lounge\nVirgin Airlines Lounge"
+        },
+        {
+          "mp_name": "Peter Khalil",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Chairmans Lounge Membership",
+          "details": "Chairmans Lounge"
+        }
+      ]
+    },
+    {
+      "entity": "Westpac, National Australia Bank",
+      "proposed_splits": [
+        "Westpac",
+        "National Australia Bank"
+      ],
+      "context": [
+        {
+          "mp_name": "Peter Dutton",
+          "party": "Liberal National Party",
+          "category": "Liability",
+          "sub_category": "Other Liability",
+          "item": "Refinanced Borrowings",
+          "details": "Re-financed part of borrowings from Westpac to National Australia Bank"
+        }
+      ]
+    },
+    {
+      "entity": "Mercer MMF Australian Inflation Linked Bond Fund, UBS Australian Bond Fund, EQT PIMCO Global Real Return Fund, EQT PIMCO Diversified Fixed Interest Fund",
+      "proposed_splits": [
+        "Mercer MMF Australian Inflation Linked Bond Fund",
+        "UBS Australian Bond Fund",
+        "EQT PIMCO Global Real Return Fund",
+        "EQT PIMCO Diversified Fixed Interest Fund"
+      ],
+      "context": [
+        {
+          "mp_name": "Paul Fletcher",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Shares",
+          "details": "Devizes Investments Pty Ltd holds units in the listed funds"
+        }
+      ]
+    },
+    {
+      "entity": "Perpetual Wealth Focus Investment Finds - Perpetual's Smaller Companies Fund, Wilson Investment Fund Limited.",
+      "proposed_splits": [
+        "Perpetual Wealth Focus Investment Finds - Perpetual's Smaller Companies Fund",
+        "Wilson Investment Fund Limited."
+      ],
+      "context": [
+        {
+          "mp_name": "Paul Fletcher",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Investment Funds",
+          "details": "Deletion of specified investment funds."
+        }
+      ]
+    }
+  ]
+}

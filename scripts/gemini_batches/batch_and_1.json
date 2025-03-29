@@ -1,0 +1,1120 @@
+{
+  "batch_id": "and_1",
+  "category": "and",
+  "entities": [
+    {
+      "entity": "ADELAIDE BANK AND RISMARK (THROUGH PERMANENT CUSTODIANS)",
+      "proposed_splits": [
+        "ADELAIDE BANK",
+        "RISMARK (THROUGH PERMANENT CUSTODIANS)"
+      ],
+      "context": [
+        {
+          "mp_name": "Tony Abbott",
+          "party": "Liberal Party of Australia",
+          "category": "Liability",
+          "sub_category": "Mortgage",
+          "item": "Residential Mortgage",
+          "details": "RESIDENTIAL MORTGAGE"
+        }
+      ]
+    },
+    {
+      "entity": "Melbourne Cricket Club (MCC) and Cricket Australia",
+      "proposed_splits": [
+        "Melbourne Cricket Club (MCC)",
+        "Cricket Australia"
+      ],
+      "context": [
+        {
+          "mp_name": "Tony Abbott",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Ashes Test Match Hospitality",
+          "details": "accepted the hospitality of the Melbourne Cricket Club (MCC) and Cricket Australia to attend the fourth Ashes Test Match on 26 December 2010."
+        }
+      ]
+    },
+    {
+      "entity": "Dulwich High School of Visual Arts and Design",
+      "proposed_splits": [
+        "Dulwich High School of Visual Arts",
+        "Design"
+      ],
+      "context": [
+        {
+          "mp_name": "Anthony Albanese",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Decorative",
+          "item": "Two coffee mugs",
+          "details": "Received two coffee mugs from Dulwich High School of Visual Arts and Design"
+        }
+      ]
+    },
+    {
+      "entity": "Emirates and Lion",
+      "proposed_splits": [
+        "Emirates",
+        "Lion"
+      ],
+      "context": [
+        {
+          "mp_name": "Anthony Albanese",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Hospitality",
+          "item": "Guest at the Melbourne Cup",
+          "details": "On Tuesday 6 November I was a guest of Emirates and Lion at the Melbourne Cup."
+        },
+        {
+          "mp_name": "Jamie Edward Briggs",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Two marquee tickets for 2013 Derby Day",
+          "details": "Two marquee tickets courtesy of Emirates and Lion for 2013 Derby Day"
+        }
+      ]
+    },
+    {
+      "entity": "Minister for the Indonesian Search and Rescue Agency",
+      "proposed_splits": [
+        "Minister for the Indonesian Search",
+        "Rescue Agency"
+      ],
+      "context": [
+        {
+          "mp_name": "Anthony Albanese",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Decorative",
+          "item": "Plaque",
+          "details": "In December from the Minister for the Indonesian Search and Rescue Agency, a plaque"
+        }
+      ]
+    },
+    {
+      "entity": "Channel 9 and Qantas",
+      "proposed_splits": [
+        "Channel 9",
+        "Qantas"
+      ],
+      "context": [
+        {
+          "mp_name": "Anthony Albanese",
+          "party": "Australian Labor Party",
+          "category": "Membership",
+          "sub_category": "Professional",
+          "item": "Cricket Test Ticket",
+          "details": "At the Third Cricket Test between Australia and Sri Lanka at the SCG I was a guest of Channel 9 and Qantas."
+        }
+      ]
+    },
+    {
+      "entity": "Qantas and Emirates",
+      "proposed_splits": [
+        "Qantas",
+        "Emirates"
+      ],
+      "context": [
+        {
+          "mp_name": "Anthony Albanese",
+          "party": "Australian Labor Party",
+          "category": "Membership",
+          "sub_category": "Professional",
+          "item": "A380 Aircraft Model",
+          "details": "On 29 April 2013 I was given a model A380 Aircraft from Qantas and Emirates."
+        }
+      ]
+    },
+    {
+      "entity": "Westpac and Rhymney Pty Ltd",
+      "proposed_splits": [
+        "Westpac",
+        "Rhymney Pty Ltd"
+      ],
+      "context": [
+        {
+          "mp_name": "Kevin Andrews",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Residential House Loan in Kilmore",
+          "details": "My wife and I have purchased a residential block at Kilmore for investment purposes. A house is being constructed on it. We have loans with Westpac and Rhymney Pty Ltd for this purpose."
+        }
+      ]
+    },
+    {
+      "entity": "Santos and Orica Green Edge",
+      "proposed_splits": [
+        "Santos",
+        "Orica Green Edge"
+      ],
+      "context": [
+        {
+          "mp_name": "Kevin Andrews",
+          "party": "Liberal Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Tour Down Under Attendance",
+          "details": "I attended stages of the Tour Down Under as a guest."
+        }
+      ]
+    },
+    {
+      "entity": "Shell and Optus",
+      "proposed_splits": [
+        "Shell",
+        "Optus"
+      ],
+      "context": [
+        {
+          "mp_name": "Kevin Andrews",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Tickets to Australian Open Tennis Championships",
+          "details": "My wife and I attended two nights of the Australian Open Tennis Championships as guests."
+        }
+      ]
+    },
+    {
+      "entity": "Andrews and Andrews Consulting Pty Ltd",
+      "proposed_splits": [
+        "Andrews",
+        "Andrews Consulting Pty Ltd"
+      ],
+      "context": [
+        {
+          "mp_name": "Karen Andrews",
+          "party": "Liberal National Party",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "HR Consulting Services",
+          "details": "Human Resources and Industrial Relations Consulting"
+        },
+        {
+          "mp_name": "Karen Andrews",
+          "party": "Liberal National Party",
+          "category": "Liability",
+          "sub_category": "Loan",
+          "item": "Loan",
+          "details": "Loan"
+        },
+        {
+          "mp_name": "Karen Andrews",
+          "party": "Liberal National Party",
+          "category": "Liability",
+          "sub_category": "Loan",
+          "item": "Loan",
+          "details": "Loan (Spouse)"
+        },
+        {
+          "mp_name": "Karen Andrews",
+          "party": "Liberal National Party",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "HR Consulting Services",
+          "details": "Human Resources and Industrial Relations Consulting (Spouse)"
+        },
+        {
+          "mp_name": "Karen Andrews",
+          "party": "Liberal National Party",
+          "category": "Liability",
+          "sub_category": "Loan",
+          "item": "Loan",
+          "details": "Loan (Dependent Children)"
+        }
+      ]
+    },
+    {
+      "entity": "Australian and New Zealand Banking Group Limited (ANZ)",
+      "proposed_splits": [
+        "Australian",
+        "New Zealand Banking Group Limited (ANZ)"
+      ],
+      "context": [
+        {
+          "mp_name": "Karen Andrews",
+          "party": "Liberal National Party",
+          "category": "Liability",
+          "sub_category": "Credit",
+          "item": "Line of Credit",
+          "details": "Line of Credit"
+        },
+        {
+          "mp_name": "Karen Andrews",
+          "party": "Liberal National Party",
+          "category": "Liability",
+          "sub_category": "Loan",
+          "item": "Investment Property Loan",
+          "details": "Residential Investment Property Loan"
+        },
+        {
+          "mp_name": "Karen Andrews",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings",
+          "details": "Savings"
+        },
+        {
+          "mp_name": "Karen Andrews",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Share Trading",
+          "details": "Share trading"
+        },
+        {
+          "mp_name": "Karen Andrews",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings (Spouse)",
+          "details": "Savings (Spouse)"
+        }
+      ]
+    },
+    {
+      "entity": "Australian and New Zealand Banking Group Limited",
+      "proposed_splits": [
+        "Australian",
+        "New Zealand Banking Group Limited"
+      ],
+      "context": [
+        {
+          "mp_name": "Karen Andrews",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings Account",
+          "details": "Savings Account"
+        },
+        {
+          "mp_name": "Fiona Martin",
+          "party": "Liberal Party of Australia",
+          "category": "Liability",
+          "sub_category": "Mortgage",
+          "item": "Residential Property Mortgage in East Ryde",
+          "details": "Self: Mortgage in respect of property at East Ryde"
+        },
+        {
+          "mp_name": "Fiona Martin",
+          "party": "Liberal Party of Australia",
+          "category": "Liability",
+          "sub_category": "Mortgage",
+          "item": "Residential Property Mortgage in East Ryde",
+          "details": "Spouse/partner: Mortgage in respect of property at East Ryde"
+        },
+        {
+          "mp_name": "Fiona Martin",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings Account",
+          "details": "Self: Savings"
+        },
+        {
+          "mp_name": "Fiona Martin",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings Account",
+          "details": "Self: Savings"
+        }
+      ]
+    },
+    {
+      "entity": "Star City Hotel and Apartments, Sydney",
+      "proposed_splits": [
+        "Star City Hotel",
+        "Apartments",
+        "Sydney"
+      ],
+      "context": [
+        {
+          "mp_name": "Robert Charles Baldwin",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Accommodation at Star City Hotel, Sydney",
+          "details": "Provided with tourism industry rates and/or room upgrades and/or club lounge access and/or complimentary meeting room facilities"
+        }
+      ]
+    },
+    {
+      "entity": "WA Chamber of Mineral and Energy",
+      "proposed_splits": [
+        "WA Chamber of Mineral",
+        "Energy"
+      ],
+      "context": [
+        {
+          "mp_name": "Julie Isabel Bishop",
+          "party": "Liberal Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Charter Flight",
+          "details": "Item 12 Charter Flight Perth - Cloudbreak, Newman and Karratha 7 June 2011"
+        }
+      ]
+    },
+    {
+      "entity": "eBay and PayPal",
+      "proposed_splits": [
+        "eBay",
+        "PayPal"
+      ],
+      "context": [
+        {
+          "mp_name": "David Bradbury",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Mid Winter Ball Tickets",
+          "details": "Two complimentary tickets for my wife Kylie Bradbury and myself to attend the Mid Winter Ball on Wednesday, 27 June 2012 in the Great Hall, Parliament House. The hospitality was provided by eBay and PayPal."
+        }
+      ]
+    },
+    {
+      "entity": "James Boag and Mumm",
+      "proposed_splits": [
+        "James Boag",
+        "Mumm"
+      ],
+      "context": [
+        {
+          "mp_name": "Jamie Edward Briggs",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Tickets to Melbourne Cup Carnival",
+          "details": "2012 Melbourne Cup Spring Racing Carnival Derby Day - Complimentary tickets to the James Boag and Mumm Marquees. I was accompanied by my wife, Estee."
+        }
+      ]
+    },
+    {
+      "entity": "Ass of Professional Engineers Scientists and Managers Aust. (APESMA)",
+      "proposed_splits": [
+        "Ass of Professional Engineers Scientists",
+        "Managers Aust. (APESMA)"
+      ],
+      "context": [
+        {
+          "mp_name": "Anna Elizabeth Burke",
+          "party": "Australian Labor Party",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "APESMA Membership",
+          "details": "Membership Spouse"
+        }
+      ]
+    },
+    {
+      "entity": "Australian Institute of Policy and Science",
+      "proposed_splits": [
+        "Australian Institute of Policy",
+        "Science"
+      ],
+      "context": [
+        {
+          "mp_name": "Mark Butler",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Box of assorted fruit",
+          "details": "Received a box of assorted fruit from the Australian Institute of Policy and Science. I estimate the value of the gift at approximately $75.00."
+        },
+        {
+          "mp_name": "Mark Butler",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Hospitality",
+          "item": "2009 Pirramimma McLaren Vale Shiraz",
+          "details": "Received a bottle of 2009 Pirramimma McLaren Vale Shiraz from the Australian Institute of Policy and Science for speaking at a Post Budget Health Briefing Breakfast. I estimate the gift to be valued at $32.00"
+        }
+      ]
+    },
+    {
+      "entity": "Adelaide Training and Employment Centre",
+      "proposed_splits": [
+        "Adelaide Training",
+        "Employment Centre"
+      ],
+      "context": [
+        {
+          "mp_name": "Mark Butler",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Hospitality",
+          "item": "Henschke Keyneton Euphonium Wine",
+          "details": "Received a bottle of Henschke Keyneton Euphonium wine from the Adelaide Training and Employment Centre. The value of this gift is approximately $40.00."
+        }
+      ]
+    },
+    {
+      "entity": "Taipei Economic and Cultural Office",
+      "proposed_splits": [
+        "Taipei Economic",
+        "Cultural Office"
+      ],
+      "context": [
+        {
+          "mp_name": "Darren Chester",
+          "party": "National Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Flights, accommodation and hospitality in Taiwan",
+          "details": "Member of 2012 Australian MP delegation to visit Taiwan, November 17-22. Flights, accommodation and hospitality provided by the Taipei Economic and Cultural Office"
+        },
+        {
+          "mp_name": "Josh Frydenberg",
+          "party": "Liberal Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Parliamentary Delegation to Taiwan (Flights, Accommodation, Hospitality)",
+          "details": "Parliamentary Delegation to Taiwan - Member of 2012 Australian MP Delegation to visit Taiwan from Saturday 17 November to Thursday 22 November 2012. Flights, accommodation and hospitality provided by the Taipei Economic and Cultural Office."
+        },
+        {
+          "mp_name": "Teresa Gambaro",
+          "party": "Liberal National Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Parliamentary Delegation to Taiwan (Flights, accommodation and hospitality)",
+          "details": "Parliamentary Delegation to Taiwan. Member of 2012 Australian MP Delegation to visit Taiwan from Saturday 17 November to Thursday 22 November 2012. Flights, accommodation and hospitality provided by the Taipei Economic and Cultural Office."
+        },
+        {
+          "mp_name": "Christopher Hayes",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Travel, Accommodation and Hospitality to Taiwan",
+          "details": "Travel, accommodation and hospitality for my wife and I were provided by the Taipei Economic and Cultural Office. From Thursday 2 December 2010 to Friday 10 December 2010, my wife and I were part of a bipartisan delegation to Taiwan."
+        },
+        {
+          "mp_name": "Jane Prentice",
+          "party": "Liberal National Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Flights, accommodation and hospitality",
+          "details": "Parliamentary Delegation to Taiwan, Member of 2012 Australian MP Delegation to visit Taiwan from Saturday 17 November to Thursday 22 November 2012. Flights, accommodation and hospitality provided by the Taipei Economic and Cultural Office."
+        }
+      ]
+    },
+    {
+      "entity": "Australian Subscription Television and Radio Association",
+      "proposed_splits": [
+        "Australian Subscription Television",
+        "Radio Association"
+      ],
+      "context": [
+        {
+          "mp_name": "Steven Ciobo",
+          "party": "Liberal National Party",
+          "category": "Gift",
+          "sub_category": "Other",
+          "item": "Complimentary Foxtel subscription",
+          "details": "Complimentary Foxtel subscription for electorate office"
+        },
+        {
+          "mp_name": "Stephen James Irons",
+          "party": "Liberal Party of Australia",
+          "category": "Travel",
+          "sub_category": "Air Travel",
+          "item": "FOXTEL IQ HD Installation",
+          "details": "Offer to have FOXTEL IQ HD installed in electorate office on a complimentary basis. An upgrade from a basic Foxtel Package. Value approx $130pm"
+        },
+        {
+          "mp_name": "Fiona Scott",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Other",
+          "item": "Complimentary TV subscription for electorate office",
+          "details": "Complimentary TV subscription for electorate office in Penrith"
+        },
+        {
+          "mp_name": "Matthew Philip Williams",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Pay television subscription",
+          "details": "Pay television subscription"
+        },
+        {
+          "mp_name": "Sarah Henderson",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Foxtel Subscription",
+          "details": "Self: Annual Foxtel subscription provided by Australian Subscription Television and Radio Association to electorate office"
+        }
+      ]
+    },
+    {
+      "entity": "Asialink and Huawei",
+      "proposed_splits": [
+        "Asialink",
+        "Huawei"
+      ],
+      "context": [
+        {
+          "mp_name": "Steven Ciobo",
+          "party": "Liberal National Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Australian Parliamentary Delegation to China",
+          "details": "Participated in the Asialink-Huawei Australian Parliamentary Delegation to China, accommodation, transport and meals provided by Asialink and Huawei."
+        }
+      ]
+    },
+    {
+      "entity": "Pixi Foto, Target and Bounty and Bankstown Council",
+      "proposed_splits": [
+        "Pixi Foto",
+        "Target",
+        "Bounty",
+        "Bankstown Council"
+      ],
+      "context": [
+        {
+          "mp_name": "Jason Clare",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Other Gift",
+          "item": "Product samples/prizes for event",
+          "details": "I distributed product samples Ord prizes to 140 local femities. Samples and prizes were provided by: Pixi foto, Target and Bounty and Bankstown Cainal, Local Community Event \"Welcoming the Babies\""
+        }
+      ]
+    },
+    {
+      "entity": "Westpac, Australian Industry Group, Australian Chamber of Commerce and Industry",
+      "proposed_splits": [
+        "Westpac",
+        "Australian Industry Group",
+        "Australian Chamber of Commerce",
+        "Industry"
+      ],
+      "context": [
+        {
+          "mp_name": "Jason Clare",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Dinner",
+          "details": "Dinner with Westpac - Wednesday 27th October, 2010 (approximate value $70); Working dinner with Australian Industry Group -Thursday 4th November, 2010 (approximate value $120); and Australian Chamber of Commerce and Industry Annual Dinner - Wednesday 24th November, 2010 (approximate value $75)"
+        }
+      ]
+    },
+    {
+      "entity": "Navantia, Foreign Minister of Bosnia and Herzegovina",
+      "proposed_splits": [
+        "Navantia",
+        "Foreign Minister of Bosnia",
+        "Herzegovina"
+      ],
+      "context": [
+        {
+          "mp_name": "Jason Clare",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Olive oil and framed picture",
+          "details": "Olive oil from Navantia - December, 2010 (approximate value $50); Small framed picture of Sarajevo from the Foreign Minister of Bosnia and Herzegovina \u2013 8 February, 2011 (approximate value $80)"
+        }
+      ]
+    },
+    {
+      "entity": "BHP Billiton, Interlink Roads, Clubs Australia, Bankstown RSL, Bankstown Sports Club, Linfox, Master Builders Association, Generation One, CFMEU, Australian Health Insurance Association and Publishing and Broadcasting Limited - Channel 9.",
+      "proposed_splits": [
+        "BHP Billiton",
+        "Interlink Roads",
+        "Clubs Australia",
+        "Bankstown RSL",
+        "Bankstown Sports Club",
+        "Linfox",
+        "Master Builders Association",
+        "Generation One",
+        "CFMEU",
+        "Australian Health Insurance Association",
+        "Publishing",
+        "Broadcasting Limited - Channel 9."
+      ],
+      "context": [
+        {
+          "mp_name": "Jason Clare",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Sandakan Mateship Trek",
+          "details": "From 8 to 17 April 2011, the Member for Cook, the Member for Lyne and myself took a group of students and community leaders on the Sandakan Mateship Trek, a trek along the Sandakan Death March, in Sabah Borneo. One night of accomodation provided by Accor Hotels."
+        }
+      ]
+    },
+    {
+      "entity": "PixiFoto Roselands, Heinz Australia, Church and Dwight Co",
+      "proposed_splits": [
+        "PixiFoto Roselands",
+        "Heinz Australia",
+        "Church",
+        "Dwight Co"
+      ],
+      "context": [
+        {
+          "mp_name": "Jason Clare",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Donations for local community event",
+          "details": "Held local community event called \"Welcoming the Babies\". The following organisations provided donations: PixiFoto Roselands gift voucher (approximate value $400); Heinz Australia products (approximate value $400); Church and Dwight Co product samples (approximate value $100); Bounty Bags (approximate value $2,000)"
+        }
+      ]
+    },
+    {
+      "entity": "US Customs and Border Protection, Woolworths, Defence Materials Technology Centre, Sri Lankan High Commission",
+      "proposed_splits": [
+        "US Customs",
+        "Border Protection",
+        "Woolworths",
+        "Defence Materials Technology Centre",
+        "Sri Lankan High Commission"
+      ],
+      "context": [
+        {
+          "mp_name": "Jason Clare",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Pewter mugs, grocery pack, photo, tea",
+          "details": "Set of four pewter mugs, 12 July 2012 - US Customs and Border Protection. Estimated value $150. Grocery pack and flowers, 9 August 2012 -Woolworths new store opening, Berala. Estimated value $50. Framed photo with ceramic plate, 15 August 2012 - Defence Materials Technology Centre (DMTC). Estimated value $200. Pure Ceylon Tea gift pack, 20 August 2012 - Sri Lankan High Commission. Estimated value $20."
+        }
+      ]
+    },
+    {
+      "entity": "Indonesian Government, Indonesian Minister for Law and Human Rights, Chief of Indonesian National Police, Indonesian Deputy Attorney General, Lebanese Community",
+      "proposed_splits": [
+        "Indonesian Government",
+        "Indonesian Minister for Law",
+        "Human Rights",
+        "Chief of Indonesian National Police",
+        "Indonesian Deputy Attorney General",
+        "Lebanese Community"
+      ],
+      "context": [
+        {
+          "mp_name": "Jason Clare",
+          "party": "Australian Labor Party",
+          "category": "Income",
+          "sub_category": "Other Income",
+          "item": "Framed Photograph, Commemorative Plaques & Coffee Table Book",
+          "details": "Indonesian Government, 4 September 2012 - framed photograph of Ministers in attendance at bilateral meetings, estimated value $50.00. Indonesian Minister for Law and Human Rights, 4 September 2012 -framed commemorative plaque, estimated value $50.00. Chief of Indonesian National Police, 4 September 2012-commemorative plaque, estimated value $50.00. Indonesian Deputy Attorney General, 4 September 2012 --commemorative plaque, estimated value $50.00. Lebanese Community, 13 September 2012 \u2013 Ikats of Central Asia coffee table book, estimated value $50.00."
+        }
+      ]
+    },
+    {
+      "entity": "Teochew Association Cabramatta and Shantou Municipal Council (China)",
+      "proposed_splits": [
+        "Teochew Association Cabramatta",
+        "Shantou Municipal Council (China)"
+      ],
+      "context": [
+        {
+          "mp_name": "Jason Clare",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Decorative",
+          "item": "Commemorative plaque with coin and silk print",
+          "details": "Teochew Association Cabramatta and Shantou Municipal Council (China), commemorative plaque with 40th Anniversary coin and framed silk print, approximate value $200."
+        }
+      ]
+    },
+    {
+      "entity": "Unions and Universities Club",
+      "proposed_splits": [
+        "Unions",
+        "Universities Club"
+      ],
+      "context": [
+        {
+          "mp_name": "John Kenneth Cobb",
+          "party": "National Party of Australia",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Unions and Universities Club Membership",
+          "details": "Membership of any organisation where a conflict of interest with a Member's public duties could foreseeably arise or be seen to arise"
+        }
+      ]
+    },
+    {
+      "entity": "Liquor, Hospitality and Miscellaneous Workers Union",
+      "proposed_splits": [
+        "Liquor",
+        "Hospitality",
+        "Miscellaneous Workers Union"
+      ],
+      "context": [
+        {
+          "mp_name": "Gregory Ivan Combet",
+          "party": "Australian Labor Party",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Liquor, Hospitality and Miscellaneous Workers Union Membership",
+          "details": "Unknown"
+        }
+      ]
+    },
+    {
+      "entity": "Guest of Construction, Forestry, Mining and Energy Union",
+      "proposed_splits": [
+        "Guest of Construction",
+        "Forestry",
+        "Mining",
+        "Energy Union"
+      ],
+      "context": [
+        {
+          "mp_name": "Gregory Ivan Combet",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "NRL Grand Final ticket",
+          "details": "NRL Grand Final, 3 October, 2010"
+        }
+      ]
+    },
+    {
+      "entity": "MM and RA COULTON",
+      "proposed_splits": [
+        "MM",
+        "RA COULTON"
+      ],
+      "context": [
+        {
+          "mp_name": "Mark Coulton",
+          "party": "National Party of Australia",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Partner Farming",
+          "details": "Partner Farming"
+        },
+        {
+          "mp_name": "Mark Coulton",
+          "party": "National Party of Australia",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Partner Farming",
+          "details": "Partner Farming"
+        }
+      ]
+    },
+    {
+      "entity": "Australian Political Exchange Council and the Korea Foundation",
+      "proposed_splits": [
+        "Australian Political Exchange Council",
+        "the Korea Foundation"
+      ],
+      "context": [
+        {
+          "mp_name": "Yvette D'Ath",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Delegation to the Republic of Korea",
+          "details": "Attended a delegation of young political representatives to the Republic of Korea. The delegation departed Australia, Friday 24th of June 2011 and returned to Australia on Saturday, 2 July 2011. All travel, accommodation and hospitality expenses were met by the Australian Political Exchange Council and the Korea Foundation. Gifts were presented, including items such as business card holder, decorative pencil case, letter opener, and other small items. Also provided was a small digital photo frame."
+        }
+      ]
+    },
+    {
+      "entity": "Redcliffe and Districts Cricket Club",
+      "proposed_splits": [
+        "Redcliffe",
+        "Districts Cricket Club"
+      ],
+      "context": [
+        {
+          "mp_name": "Yvette D'Ath",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Other Gift",
+          "item": "Signed New Zealand ICC World Twenty20 England 2009 shirt",
+          "details": "I received a New Zealand ICC World Twenty20 England 2009 shirt with some player signatures as a prize in raffle by the Redcliffe and Districts Cricket Club at the Einbunpin Festival on Sunday 28 July 2013."
+        }
+      ]
+    },
+    {
+      "entity": "Australian Subscription Television and Radio Association (ASTRA), Austar",
+      "proposed_splits": [
+        "Australian Subscription Television",
+        "Radio Association (ASTRA)",
+        "Austar"
+      ],
+      "context": [
+        {
+          "mp_name": "Warren Entsch",
+          "party": "Liberal National Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Subscription Television Connection",
+          "details": "Subscription television connection installed at electorate office at no cost"
+        }
+      ]
+    },
+    {
+      "entity": "Treaty Village Association of the South Fly District and Reef and Rainforest Research Centre (RRRC)",
+      "proposed_splits": [
+        "Treaty Village Association of the South Fly District",
+        "Reef",
+        "Rainforest Research Centre (RRRC)"
+      ],
+      "context": [
+        {
+          "mp_name": "Warren Entsch",
+          "party": "Liberal National Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Return Flight Cairns to Daru",
+          "details": "Travelled on RRRC air craft from Cairns to Daru return. Accepted invitation from the Treaty Village Association of the South Fly District in Papua New Guinea to attend the Commissioning of the Sustainability of the Coastal Communities of the South Fly Project."
+        }
+      ]
+    },
+    {
+      "entity": "Minister of Foreign Affairs and Cooperation, Kingdom of Morocco",
+      "proposed_splits": [
+        "Minister of Foreign Affairs",
+        "Cooperation",
+        "Kingdom of Morocco"
+      ],
+      "context": [
+        {
+          "mp_name": "Joel Fitzgibbon",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Pottery artefact",
+          "details": "Gift from the Minister of Foreign Affairs and Cooperation, Kingdom of Morocco: a pottery artefact"
+        }
+      ]
+    },
+    {
+      "entity": "Huawei and Asialink",
+      "proposed_splits": [
+        "Huawei",
+        "Asialink"
+      ],
+      "context": [
+        {
+          "mp_name": "Paul Fletcher",
+          "party": "Liberal Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Delegation to China",
+          "details": "Participation in delegation of 6 Liberal and Labor MPs to China, 3 March- 8 March 2013, organised by Huawei and Asialink and funded by Huawei."
+        }
+      ]
+    },
+    {
+      "entity": "Department of Finance and Administration",
+      "proposed_splits": [
+        "Department of Finance",
+        "Administration"
+      ],
+      "context": [
+        {
+          "mp_name": "John Alexander Forrest",
+          "party": "National Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Interest",
+          "details": "Spouse"
+        }
+      ]
+    },
+    {
+      "entity": "Taipei Economic and Cultural Office in Australia",
+      "proposed_splits": [
+        "Taipei Economic",
+        "Cultural Office in Australia"
+      ],
+      "context": [
+        {
+          "mp_name": "John Alexander Forrest",
+          "party": "National Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Visit to Taiwan - Air Fares, Accommodation, Hospitality",
+          "details": "Travel and Hospitality for John Forrest and Pam Forrest 2 Dec to 10 Dec 2010 in visit to Taiwan. Air Fares, Accommodation, Travel Hospitality"
+        },
+        {
+          "mp_name": "Matthew Thistlethwaite",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Hand painted tea set & plate",
+          "details": "1 x hand painted tea set & plate provided by the Taipei Economic and Cultural Office in Australia"
+        },
+        {
+          "mp_name": "Matthew Thistlethwaite",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Ceramic vase",
+          "details": "1 x ceramic vase provided by the Taipei Economic and Cultural Office in Australia"
+        },
+        {
+          "mp_name": "Gai Marie Brodtmann",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Tai-HWA Pottery vase",
+          "details": "TAI-HWA Pottery vase Gift given from  value: $500 approx."
+        },
+        {
+          "mp_name": "Nicholas David Champion",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Tai Hwa Pottery Urn",
+          "details": "Tai Hwa Pottery Urn Received as a gift from the Taipei Economic and Cultural Office in Australia"
+        }
+      ]
+    },
+    {
+      "entity": "Commonwealth and Foreign Office",
+      "proposed_splits": [
+        "Commonwealth",
+        "Foreign Office"
+      ],
+      "context": [
+        {
+          "mp_name": "Josh Frydenberg",
+          "party": "Liberal Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Four Nights Accommodation - London",
+          "details": "Commonwealth and Foreign Office Visitors Program: Four nights accommodation provided by the Commonwealth and Foreign Office - London: 16-23 December 2012."
+        }
+      ]
+    },
+    {
+      "entity": "International Planned Parenthood East, South-East Asia and Oceania Regional Office (IPPF ESEAOR)",
+      "proposed_splits": [
+        "International Planned Parenthood East",
+        "South-East Asia",
+        "Oceania Regional Office (IPPF ESEAOR)"
+      ],
+      "context": [
+        {
+          "mp_name": "Teresa Gambaro",
+          "party": "Liberal National Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Study Tour to Thai-Burma Border",
+          "details": "Parliamentary Group on Population and Development (PGPD) Study Tour to the Thai-Burma border from 13 to 20 February 2011. Travel paid by the International Planned Parenthood East, South-East Asia and Oceania Regional Office (IPPF ESEAOR) under the SPRINT Initiative. Accommodation: $419.51 Transportation and local Guides: $155.04 Per Diem: $656.20 TOTAL AMOUNT paid by IPPF ESEAOR: AUD$2,911.66"
+        }
+      ]
+    },
+    {
+      "entity": "Peel Chamber of Commerce and Industry.",
+      "proposed_splits": [
+        "Peel Chamber of Commerce",
+        "Industry."
+      ],
+      "context": [
+        {
+          "mp_name": "Gary Gray",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Membership Peel Chamber of Commerce",
+          "details": ""
+        }
+      ]
+    },
+    {
+      "entity": "Safety Bay Bowling and Recreation Club",
+      "proposed_splits": [
+        "Safety Bay Bowling",
+        "Recreation Club"
+      ],
+      "context": [
+        {
+          "mp_name": "Gary Gray",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Membership Safety Bay Bowling and Recreation Club",
+          "details": ""
+        },
+        {
+          "mp_name": "Gary Gray",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Safety Bay Bowling and Recreation Club Membership",
+          "details": "Safety Bay Bowling and Recreation Club"
+        }
+      ]
+    },
+    {
+      "entity": "Safety Bay Ex-Services and Community Club",
+      "proposed_splits": [
+        "Safety Bay Ex-Services",
+        "Community Club"
+      ],
+      "context": [
+        {
+          "mp_name": "Gary Gray",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Membership Safety Bay Ex-Services and Community Club",
+          "details": ""
+        },
+        {
+          "mp_name": "Gary Gray",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Safety Bay Ex-Services and Community Club Membership",
+          "details": "Safety Bay Ex-Services and Community Club"
+        }
+      ]
+    },
+    {
+      "entity": "The Returned and Services League of Australia - Rockingham",
+      "proposed_splits": [
+        "The Returned",
+        "Services League of Australia - Rockingham"
+      ],
+      "context": [
+        {
+          "mp_name": "Gary Gray",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Membership Returned and Services League of Australia",
+          "details": ""
+        }
+      ]
+    },
+    {
+      "entity": "The Returned and Services League of Australia - Kwinana Sub Branch",
+      "proposed_splits": [
+        "The Returned",
+        "Services League of Australia - Kwinana Sub Branch"
+      ],
+      "context": [
+        {
+          "mp_name": "Gary Gray",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Membership Returned and Services League of Australia",
+          "details": ""
+        }
+      ]
+    }
+  ]
+}

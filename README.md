@@ -276,4 +276,38 @@ python process_parliament_disclosures.py --all --store-in-db --rpm 10 --continue
 ## Data Structure
 
 The AI extracts structured data from PDFs into the following JSON format:
+
+## Entity Deduplication and Double Disclosure Detection
+
+The system includes specialized tools for identifying and handling "double disclosure" scenarios where a single disclosure entry contains multiple entities that should be treated separately:
+
+### Double Disclosure Detection Workflow
+
+```bash
+# Step 1: Analyze potential double disclosures in the database
+python scripts/double_disclosure_analysis.py
+
+# Step 2: Prepare data for Gemini analysis
+python scripts/prepare_gemini_entity_analysis.py
+
+# Step 3: Analyze entities with Gemini AI to distinguish between true multiple entities and single entities with compound names
+python scripts/analyze_double_disclosures_with_gemini.py --api-key-file .gemini_api_key
+
+# Step 4: Summarize and generate reports from Gemini analysis results
+python scripts/summarize_gemini_entity_analysis.py --input-file scripts/gemini_results/compiled_results.json --output-dir scripts/gemini_summary
+
+# Step 5: Apply high-confidence results to update the database (dry run)
+python scripts/apply_double_disclosure_entity_results.py --db disclosures.db --input-file scripts/gemini_results/compiled_results.json
+
+# Step 6: Apply changes to the database (after reviewing dry run)
+python scripts/apply_double_disclosure_entity_results.py --db disclosures.db --input-file scripts/gemini_results/compiled_results.json --no-dry-run
 ```
+
+### Double Disclosure Documentation
+
+For a comprehensive understanding of the double disclosure detection workflow, see:
+
+- [Double Disclosure Analysis Guide](docs/workflows/double_disclosure_detection.md)
+- [Gemini API Setup](docs/guides/gemini_api_setup.md)
+
+This feature significantly improves data accuracy by properly handling cases where multiple entities are incorrectly grouped together in a single disclosure entry.

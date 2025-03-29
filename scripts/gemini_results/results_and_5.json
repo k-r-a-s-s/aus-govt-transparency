@@ -1,0 +1,461 @@
+{
+  "batch_id": "and_5",
+  "category": "and",
+  "entities_count": 50,
+  "analysis_results": [
+    {
+      "entity_name": "Commonwealth Bank and HSBC",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct, well-known Australian and international banking entities.",
+      "split_entities": [
+        "Commonwealth Bank",
+        "HSBC"
+      ]
+    },
+    {
+      "entity_name": "Commonwealth Bank and ANZ",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate major Australian banks.",
+      "split_entities": [
+        "Commonwealth Bank",
+        "ANZ"
+      ]
+    },
+    {
+      "entity_name": "Carers Australia; the Australian Paralympic Team; Royal Flying Doctors Service; medical research into children's leukaemia, breast cancer, diabetes, prostate cancer; the Poche Centre for Indigenous Health at Sydney University; and Ronald McDonald House",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This lists several distinct Australian charities and organizations.",
+      "split_entities": [
+        "Carers Australia",
+        "the Australian Paralympic Team",
+        "Royal Flying Doctors Service",
+        "medical research into children's leukaemia, breast cancer, diabetes, prostate cancer",
+        "the Poche Centre for Indigenous Health at Sydney University",
+        "Ronald McDonald House"
+      ]
+    },
+    {
+      "entity_name": "Carers Australia, the Royal Flying Doctor Service, Ronald McDonald House, Youth Insearch and the Paralympic Games",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are all separate, well-known Australian organizations.",
+      "split_entities": [
+        "Carers Australia",
+        "the Royal Flying Doctor Service",
+        "Ronald McDonald House",
+        "Youth Insearch",
+        "the Paralympic Games"
+      ]
+    },
+    {
+      "entity_name": "Tennis Australia and Emirates",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Tennis Australia is an Australian sporting organization, and Emirates is an international airline.",
+      "split_entities": [
+        "Tennis Australia",
+        "Emirates"
+      ]
+    },
+    {
+      "entity_name": "Leadership Ballarat and Western Region",
+      "classification": "SINGLE",
+      "confidence": "MEDIUM",
+      "explanation": "Could be a single organization with a regional focus, or two separate entities.  Ambiguous without further information.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Earle Page College and New England Brewing Company",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct entities; a college and a brewery.",
+      "split_entities": [
+        "Earle Page College",
+        "New England Brewing Company"
+      ]
+    },
+    {
+      "entity_name": "The Australian and the Melbourne Institute",
+      "classification": "MULTIPLE",
+      "confidence": "LOW",
+      "explanation": "Ambiguous. 'The Australian' could refer to a newspaper or something else entirely. Needs clarification.",
+      "split_entities": [
+        "The Australian",
+        "the Melbourne Institute"
+      ]
+    },
+    {
+      "entity_name": "Emirates and Tennis Australia",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Emirates is an airline, and Tennis Australia is a sporting organization.",
+      "split_entities": [
+        "Emirates",
+        "Tennis Australia"
+      ]
+    },
+    {
+      "entity_name": "STAGE AND SCREEN",
+      "classification": "SINGLE",
+      "confidence": "MEDIUM",
+      "explanation": "Likely a single entity, but could theoretically represent two separate entities. Context suggests a single entity.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Harper Collins and Byron Bay Writers Festival",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Harper Collins is a publishing house and the Byron Bay Writers Festival is an event.",
+      "split_entities": [
+        "Harper Collins",
+        "Byron Bay Writers Festival"
+      ]
+    },
+    {
+      "entity_name": "Kuwait Parliament and Palestinian Authority",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct governmental entities.",
+      "split_entities": [
+        "Kuwait Parliament",
+        "Palestinian Authority"
+      ]
+    },
+    {
+      "entity_name": "Lion and Tabcorp",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Lion and Tabcorp are separate, large Australian companies.",
+      "split_entities": [
+        "Lion",
+        "Tabcorp"
+      ]
+    },
+    {
+      "entity_name": "Tabcorp and Lion",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Lion and Tabcorp are separate, large Australian companies.",
+      "split_entities": [
+        "Tabcorp",
+        "Lion"
+      ]
+    },
+    {
+      "entity_name": "Diedree Steinwall and Simon O'Brien",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two individuals.",
+      "split_entities": [
+        "Diedree Steinwall",
+        "Simon O'Brien"
+      ]
+    },
+    {
+      "entity_name": "Winnunga and residents of the Alexander McConachie Centre",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Winnunga is likely an organization, and the residents represent a group of individuals.",
+      "split_entities": [
+        "Winnunga",
+        "residents of the Alexander McConachie Centre"
+      ]
+    },
+    {
+      "entity_name": "L.C Buchholz and S.A Buchholz",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are likely two different individuals.",
+      "split_entities": [
+        "L.C Buchholz",
+        "S.A Buchholz"
+      ]
+    },
+    {
+      "entity_name": "Qantas and Virgin",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two major Australian airlines.",
+      "split_entities": [
+        "Qantas",
+        "Virgin"
+      ]
+    },
+    {
+      "entity_name": "Prof Peter Hoj Vice Chancellor and President The University of Queensland",
+      "classification": "SINGLE",
+      "confidence": "MEDIUM",
+      "explanation": "Likely a single individual holding multiple titles within the university.  Requires further clarification to confirm definitively.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Mr Peter Doust Board and Management St George Illawarra Dragons",
+      "classification": "SINGLE",
+      "confidence": "MEDIUM",
+      "explanation": "Ambiguous. Could be one person with dual roles or a reference to both the board and management.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Semaphore and Port Adelaide RSL Club",
+      "classification": "SINGLE",
+      "confidence": "MEDIUM",
+      "explanation": "Could be a single club with two locations or branches.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Semaphore and Port Adelaide RSL Clubs",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This clearly refers to two separate RSL clubs.",
+      "split_entities": [
+        "Semaphore RSL Club",
+        "Port Adelaide RSL Club"
+      ]
+    },
+    {
+      "entity_name": "Women's International League for Peace and Freedom QLD",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is the name of a single organization.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Transport Workers Union and ACTU",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct Australian labor unions.",
+      "split_entities": [
+        "Transport Workers Union",
+        "ACTU"
+      ]
+    },
+    {
+      "entity_name": "South Australian Department of Health and Ageing",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single government department.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Westpac, Finance and Others",
+      "classification": "MULTIPLE",
+      "confidence": "LOW",
+      "explanation": "'Others' is too vague. Needs more context.",
+      "split_entities": [
+        "Westpac",
+        "Finance",
+        "Others"
+      ]
+    },
+    {
+      "entity_name": "The Darling Hotel, QT Hotel Group and Crown Hotels",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three different hotel entities.",
+      "split_entities": [
+        "The Darling Hotel",
+        "QT Hotel Group",
+        "Crown Hotels"
+      ]
+    },
+    {
+      "entity_name": "Italian Chamber of Commerce and Industry (Queensland)",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single organization.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Ministry of Foreign Affairs and International Cooperation of the United Arab Emirates",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single government ministry.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Parliamentary Friends of Innovation and Enterprise",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is likely a single parliamentary group.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Golden Key International Honour Society (ANU and UC)",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This appears to be a single society with chapters at ANU and UC.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Bill and Melinda Gates Foundation",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single foundation.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Australian Leisure and Hospitality",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is likely a single industry association.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Pacific Friends of the Global Fund and the Asia Pacific Leaders Malaria Alliance (APLMA)",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate organizations.",
+      "split_entities": [
+        "Pacific Friends of the Global Fund",
+        "the Asia Pacific Leaders Malaria Alliance (APLMA)"
+      ]
+    },
+    {
+      "entity_name": "RHT Investments (Qld) P/L and Bald Hills Child Care P/L",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct companies.",
+      "split_entities": [
+        "RHT Investments (Qld) P/L",
+        "Bald Hills Child Care P/L"
+      ]
+    },
+    {
+      "entity_name": "Sydney Cricket and Sports Ground Trust",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single trust.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Cricket Australia and Queensland Cricket",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate governing bodies for cricket.",
+      "split_entities": [
+        "Cricket Australia",
+        "Queensland Cricket"
+      ]
+    },
+    {
+      "entity_name": "Cricket Australia and SCG Trust",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct organizations.",
+      "split_entities": [
+        "Cricket Australia",
+        "SCG Trust"
+      ]
+    },
+    {
+      "entity_name": "Cricket Australia and the SCG Trust",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct organizations.",
+      "split_entities": [
+        "Cricket Australia",
+        "the SCG Trust"
+      ]
+    },
+    {
+      "entity_name": "Cairns Penny Savings and Loans",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is likely a single financial institution.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Save the Children and the Bill & Melinda Gates Foundation",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate organizations.",
+      "split_entities": [
+        "Save the Children",
+        "the Bill & Melinda Gates Foundation"
+      ]
+    },
+    {
+      "entity_name": "Australia and New Zealand Banking Group Limited",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is the full name of a single bank.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Carewell Health Pty Ltd, Ricardo Health Limited, Soda Man Pty Ltd, and Chikara Pty Ltd",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are four separate companies.",
+      "split_entities": [
+        "Carewell Health Pty Ltd",
+        "Ricardo Health Limited",
+        "Soda Man Pty Ltd",
+        "Chikara Pty Ltd"
+      ]
+    },
+    {
+      "entity_name": "Australian and New Zealand Banking Group",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a shortened version of the name of a single bank.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Australian Food and Grocery Council",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single industry body.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Maurice Blackburn and Matthew Albert of Counsel",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These appear to be two separate legal professionals or entities.",
+      "split_entities": [
+        "Maurice Blackburn",
+        "Matthew Albert of Counsel"
+      ]
+    },
+    {
+      "entity_name": "Chartered Institute of Logistics and Transport Australia",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is the full name of a single professional body.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "The Charge d'Affaires a.i, James Carouso and Elizabeth Visbeek and the entire US Mission in Australia.",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This lists several distinct individuals and an entire diplomatic mission.",
+      "split_entities": [
+        "The Charge d'Affaires a.i",
+        "James Carouso",
+        "Elizabeth Visbeek",
+        "the entire US Mission in Australia"
+      ]
+    },
+    {
+      "entity_name": "Mr Elliott Charng from the Taipei Economic and Cultural Office",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This refers to a single individual within a single office.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Beyond Bank Australia and Strive for Autism",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate organizations.",
+      "split_entities": [
+        "Beyond Bank Australia",
+        "Strive for Autism"
+      ]
+    }
+  ],
+  "raw_response": "```json\n[\n  {\n    \"entity_name\": \"Commonwealth Bank and HSBC\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct, well-known Australian and international banking entities.\",\n    \"split_entities\": [\"Commonwealth Bank\", \"HSBC\"]\n  },\n  {\n    \"entity_name\": \"Commonwealth Bank and ANZ\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate major Australian banks.\",\n    \"split_entities\": [\"Commonwealth Bank\", \"ANZ\"]\n  },\n  {\n    \"entity_name\": \"Carers Australia; the Australian Paralympic Team; Royal Flying Doctors Service; medical research into children's leukaemia, breast cancer, diabetes, prostate cancer; the Poche Centre for Indigenous Health at Sydney University; and Ronald McDonald House\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This lists several distinct Australian charities and organizations.\",\n    \"split_entities\": [\"Carers Australia\", \"the Australian Paralympic Team\", \"Royal Flying Doctors Service\", \"medical research into children's leukaemia, breast cancer, diabetes, prostate cancer\", \"the Poche Centre for Indigenous Health at Sydney University\", \"Ronald McDonald House\"]\n  },\n  {\n    \"entity_name\": \"Carers Australia, the Royal Flying Doctor Service, Ronald McDonald House, Youth Insearch and the Paralympic Games\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are all separate, well-known Australian organizations.\",\n    \"split_entities\": [\"Carers Australia\", \"the Royal Flying Doctor Service\", \"Ronald McDonald House\", \"Youth Insearch\", \"the Paralympic Games\"]\n  },\n  {\n    \"entity_name\": \"Tennis Australia and Emirates\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Tennis Australia is an Australian sporting organization, and Emirates is an international airline.\",\n    \"split_entities\": [\"Tennis Australia\", \"Emirates\"]\n  },\n  {\n    \"entity_name\": \"Leadership Ballarat and Western Region\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Could be a single organization with a regional focus, or two separate entities.  Ambiguous without further information.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Earle Page College and New England Brewing Company\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct entities; a college and a brewery.\",\n    \"split_entities\": [\"Earle Page College\", \"New England Brewing Company\"]\n  },\n  {\n    \"entity_name\": \"The Australian and the Melbourne Institute\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"LOW\",\n    \"explanation\": \"Ambiguous. 'The Australian' could refer to a newspaper or something else entirely. Needs clarification.\",\n    \"split_entities\": [\"The Australian\", \"the Melbourne Institute\"]\n  },\n  {\n    \"entity_name\": \"Emirates and Tennis Australia\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Emirates is an airline, and Tennis Australia is a sporting organization.\",\n    \"split_entities\": [\"Emirates\", \"Tennis Australia\"]\n  },\n  {\n    \"entity_name\": \"STAGE AND SCREEN\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Likely a single entity, but could theoretically represent two separate entities. Context suggests a single entity.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Harper Collins and Byron Bay Writers Festival\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Harper Collins is a publishing house and the Byron Bay Writers Festival is an event.\",\n    \"split_entities\": [\"Harper Collins\", \"Byron Bay Writers Festival\"]\n  },\n  {\n    \"entity_name\": \"Kuwait Parliament and Palestinian Authority\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct governmental entities.\",\n    \"split_entities\": [\"Kuwait Parliament\", \"Palestinian Authority\"]\n  },\n  {\n    \"entity_name\": \"Lion and Tabcorp\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Lion and Tabcorp are separate, large Australian companies.\",\n    \"split_entities\": [\"Lion\", \"Tabcorp\"]\n  },\n  {\n    \"entity_name\": \"Tabcorp and Lion\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Lion and Tabcorp are separate, large Australian companies.\",\n    \"split_entities\": [\"Tabcorp\", \"Lion\"]\n  },\n  {\n    \"entity_name\": \"Diedree Steinwall and Simon O'Brien\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two individuals.\",\n    \"split_entities\": [\"Diedree Steinwall\", \"Simon O'Brien\"]\n  },\n  {\n    \"entity_name\": \"Winnunga and residents of the Alexander McConachie Centre\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Winnunga is likely an organization, and the residents represent a group of individuals.\",\n    \"split_entities\": [\"Winnunga\", \"residents of the Alexander McConachie Centre\"]\n  },\n  {\n    \"entity_name\": \"L.C Buchholz and S.A Buchholz\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are likely two different individuals.\",\n    \"split_entities\": [\"L.C Buchholz\", \"S.A Buchholz\"]\n  },\n  {\n    \"entity_name\": \"Qantas and Virgin\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two major Australian airlines.\",\n    \"split_entities\": [\"Qantas\", \"Virgin\"]\n  },\n  {\n    \"entity_name\": \"Prof Peter Hoj Vice Chancellor and President The University of Queensland\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Likely a single individual holding multiple titles within the university.  Requires further clarification to confirm definitively.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Mr Peter Doust Board and Management St George Illawarra Dragons\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Ambiguous. Could be one person with dual roles or a reference to both the board and management.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Semaphore and Port Adelaide RSL Club\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Could be a single club with two locations or branches.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Semaphore and Port Adelaide RSL Clubs\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This clearly refers to two separate RSL clubs.\",\n    \"split_entities\": [\"Semaphore RSL Club\", \"Port Adelaide RSL Club\"]\n  },\n  {\n    \"entity_name\": \"Women's International League for Peace and Freedom QLD\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is the name of a single organization.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Transport Workers Union and ACTU\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct Australian labor unions.\",\n    \"split_entities\": [\"Transport Workers Union\", \"ACTU\"]\n  },\n  {\n    \"entity_name\": \"South Australian Department of Health and Ageing\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single government department.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Westpac, Finance and Others\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"LOW\",\n    \"explanation\": \"'Others' is too vague. Needs more context.\",\n    \"split_entities\": [\"Westpac\", \"Finance\", \"Others\"]\n  },\n  {\n    \"entity_name\": \"The Darling Hotel, QT Hotel Group and Crown Hotels\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three different hotel entities.\",\n    \"split_entities\": [\"The Darling Hotel\", \"QT Hotel Group\", \"Crown Hotels\"]\n  },\n  {\n    \"entity_name\": \"Italian Chamber of Commerce and Industry (Queensland)\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single organization.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Ministry of Foreign Affairs and International Cooperation of the United Arab Emirates\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single government ministry.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Parliamentary Friends of Innovation and Enterprise\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is likely a single parliamentary group.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Golden Key International Honour Society (ANU and UC)\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This appears to be a single society with chapters at ANU and UC.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Bill and Melinda Gates Foundation\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single foundation.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Australian Leisure and Hospitality\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is likely a single industry association.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Pacific Friends of the Global Fund and the Asia Pacific Leaders Malaria Alliance (APLMA)\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate organizations.\",\n    \"split_entities\": [\"Pacific Friends of the Global Fund\", \"the Asia Pacific Leaders Malaria Alliance (APLMA)\"]\n  },\n  {\n    \"entity_name\": \"RHT Investments (Qld) P/L and Bald Hills Child Care P/L\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct companies.\",\n    \"split_entities\": [\"RHT Investments (Qld) P/L\", \"Bald Hills Child Care P/L\"]\n  },\n  {\n    \"entity_name\": \"Sydney Cricket and Sports Ground Trust\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single trust.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Cricket Australia and Queensland Cricket\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate governing bodies for cricket.\",\n    \"split_entities\": [\"Cricket Australia\", \"Queensland Cricket\"]\n  },\n  {\n    \"entity_name\": \"Cricket Australia and SCG Trust\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct organizations.\",\n    \"split_entities\": [\"Cricket Australia\", \"SCG Trust\"]\n  },\n  {\n    \"entity_name\": \"Cricket Australia and the SCG Trust\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct organizations.\",\n    \"split_entities\": [\"Cricket Australia\", \"the SCG Trust\"]\n  },\n  {\n    \"entity_name\": \"Cairns Penny Savings and Loans\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is likely a single financial institution.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Save the Children and the Bill & Melinda Gates Foundation\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate organizations.\",\n    \"split_entities\": [\"Save the Children\", \"the Bill & Melinda Gates Foundation\"]\n  },\n  {\n    \"entity_name\": \"Australia and New Zealand Banking Group Limited\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is the full name of a single bank.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Carewell Health Pty Ltd, Ricardo Health Limited, Soda Man Pty Ltd, and Chikara Pty Ltd\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are four separate companies.\",\n    \"split_entities\": [\"Carewell Health Pty Ltd\", \"Ricardo Health Limited\", \"Soda Man Pty Ltd\", \"Chikara Pty Ltd\"]\n  },\n  {\n    \"entity_name\": \"Australian and New Zealand Banking Group\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a shortened version of the name of a single bank.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Australian Food and Grocery Council\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single industry body.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Maurice Blackburn and Matthew Albert of Counsel\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These appear to be two separate legal professionals or entities.\",\n    \"split_entities\": [\"Maurice Blackburn\", \"Matthew Albert of Counsel\"]\n  },\n  {\n    \"entity_name\": \"Chartered Institute of Logistics and Transport Australia\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is the full name of a single professional body.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"The Charge d'Affaires a.i, James Carouso and Elizabeth Visbeek and the entire US Mission in Australia.\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This lists several distinct individuals and an entire diplomatic mission.\",\n    \"split_entities\": [\"The Charge d'Affaires a.i\", \"James Carouso\", \"Elizabeth Visbeek\", \"the entire US Mission in Australia\"]\n  },\n  {\n    \"entity_name\": \"Mr Elliott Charng from the Taipei Economic and Cultural Office\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This refers to a single individual within a single office.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Beyond Bank Australia and Strive for Autism\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate organizations.\",\n    \"split_entities\": [\"Beyond Bank Australia\", \"Strive for Autism\"]\n  }\n]\n```\n"
+}

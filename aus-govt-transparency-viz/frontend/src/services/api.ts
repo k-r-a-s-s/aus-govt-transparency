@@ -153,7 +153,7 @@ export const fetchMPs = async (
  * Fetch entities (organizations, individuals) mentioned in disclosures
  */
 export const fetchEntities = async (
-  params?: { name?: string; limit?: number }
+  params?: { name?: string; limit?: number; canonical?: boolean }
 ): Promise<{ entity: string; count: number }[]> => {
   return fetchApi<{ entity: string; count: number }[]>('entities', undefined, params);
 };
@@ -172,8 +172,64 @@ export const fetchTravelData = async (): Promise<DisclosureData[]> => {
  * Fetch network data for entity explorer
  */
 export const fetchNetworkData = async (
-  params?: { mp?: string; entity?: string }
+  params?: { mp?: string; entity?: string; canonical?: boolean }
 ): Promise<NetworkData> => {
+  if (USE_MOCK_DATA) {
+    // Generate mock network data
+    const mockMPs = [
+      { name: 'Jane Smith', party: 'Labor' },
+      { name: 'John Doe', party: 'Liberal' },
+      { name: 'Sarah Connor', party: 'Greens' },
+      { name: 'Thomas Anderson', party: 'Labor' },
+      { name: 'Alex Johnson', party: 'Independent' }
+    ];
+    
+    const mockEntities = [
+      'Acme Corporation',
+      'Global Industries',
+      'Tech Solutions Inc',
+      'Legal & General',
+      'Finance Partners',
+      'Media Group',
+      'Energy Enterprises'
+    ];
+    
+    // Create nodes
+    const nodes = [
+      // MP nodes
+      ...mockMPs.map(mp => ({
+        id: `mp-${mp.name}`,
+        name: mp.name,
+        type: 'mp' as const,
+        party: mp.party,
+        size: Math.floor(Math.random() * 5) + 1
+      })),
+      
+      // Entity nodes
+      ...mockEntities.map(entity => ({
+        id: `entity-${entity}`,
+        name: entity,
+        type: 'entity' as const,
+        size: Math.floor(Math.random() * 5) + 1
+      }))
+    ];
+    
+    // Create links
+    const links = [];
+    for (let i = 0; i < 20; i++) {
+      const mp = mockMPs[Math.floor(Math.random() * mockMPs.length)];
+      const entity = mockEntities[Math.floor(Math.random() * mockEntities.length)];
+      
+      links.push({
+        source: `mp-${mp.name}`,
+        target: `entity-${entity}`,
+        weight: Math.floor(Math.random() * 3) + 1
+      });
+    }
+    
+    return { nodes, links };
+  }
+  
   return fetchApi<NetworkData>('network', undefined, params);
 };
 
@@ -182,4 +238,43 @@ export const fetchNetworkData = async (
  */
 export const fetchTimelineData = async (): Promise<TimelineData> => {
   return fetchApi<TimelineData>('timeline');
+};
+
+/**
+ * Entity details including variants and connected MPs
+ */
+export interface EntityDetails {
+  entity: string;
+  count: number;
+  variants: string[];
+  connected_mps: {
+    mp_name: string;
+    party: string;
+    electorate: string;
+    political_bloc: string;
+  }[];
+}
+
+/**
+ * Fetch details about a specific entity
+ */
+export const fetchEntityDetails = async (
+  entityName: string,
+  params?: { canonical?: boolean }
+): Promise<EntityDetails> => {
+  return fetchApi<EntityDetails>(`entity/${encodeURIComponent(entityName)}`, undefined, params);
+};
+
+/**
+ * Search for entities by name
+ */
+export const searchEntities = async (
+  searchTerm: string,
+  params?: { limit?: number; canonical?: boolean }
+): Promise<{ entity: string; count: number }[]> => {
+  return fetchApi<{ entity: string; count: number }[]>(
+    'search/entities', 
+    undefined, 
+    { q: searchTerm, ...params }
+  );
 }; 

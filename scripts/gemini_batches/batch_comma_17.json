@@ -1,0 +1,917 @@
+{
+  "batch_id": "comma_17",
+  "category": "comma",
+  "entities": [
+    {
+      "entity": "Peninsular Hotel, Manila, Philippines",
+      "proposed_splits": [
+        "Peninsular Hotel",
+        "Manila",
+        "Philippines"
+      ],
+      "context": [
+        {
+          "mp_name": "Andrew Robb",
+          "party": "Liberal Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Suite Upgrade in Manila",
+          "details": "Free of charge upgrade to a suite at the Peninsular Hotel, in Manila, Philippines."
+        }
+      ]
+    },
+    {
+      "entity": "HE Burhan Gafoor, High Commissioner of the Republic of Singapore",
+      "proposed_splits": [
+        "HE Burhan Gafoor",
+        "High Commissioner of the Republic of Singapore"
+      ],
+      "context": [
+        {
+          "mp_name": "Andrew Robb",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Hospitality",
+          "item": "Ceramic dinnerware set",
+          "details": "Ceramic dinnerware set made by Mudrock on the occasion of the 50th Anniversary of Singapore & 50th Anniversary of Diplomatic Relations presented by HE Burhan Gafoor, High Commissioner of the Republic of Singapore. Price Unknown."
+        }
+      ]
+    },
+    {
+      "entity": "Mr Avi Hassan, Chief Scientist of Israel",
+      "proposed_splits": [
+        "Mr Avi Hassan",
+        "Chief Scientist of Israel"
+      ],
+      "context": [
+        {
+          "mp_name": "Andrew Robb",
+          "party": "Liberal Party of Australia",
+          "category": "Income",
+          "sub_category": "Other Income",
+          "item": "Framed Silver Relief of Jerusalem",
+          "details": "Framed Silver relief of Jerusalem presented by Mr Avi Hassan, Chief Scientist of Israel. Price $71"
+        }
+      ]
+    },
+    {
+      "entity": "Minister Gao Hucheng, Minister for Commerce, China",
+      "proposed_splits": [
+        "Minister Gao Hucheng",
+        "Minister for Commerce",
+        "China"
+      ],
+      "context": [
+        {
+          "mp_name": "Andrew Robb",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Other",
+          "item": "Montblanc Meisterstuck 149 Fountain pen",
+          "details": "Montblanc Meisterstuck 149 Fountain pen presented by Minister Gao Hucheng, Minister for Commerce, China."
+        }
+      ]
+    },
+    {
+      "entity": "John Short, Aurizon Australia",
+      "proposed_splits": [
+        "John Short",
+        "Aurizon Australia"
+      ],
+      "context": [
+        {
+          "mp_name": "Andrew Robb",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Framed original cartoon",
+          "details": "Framed original cartoon by David Rowe, Australian Financial Review presented by John Short, Aurizon Australia. Value $662.41"
+        }
+      ]
+    },
+    {
+      "entity": "Virgin Australia, The Club",
+      "proposed_splits": [
+        "Virgin Australia",
+        "The Club"
+      ],
+      "context": [
+        {
+          "mp_name": "Philip Maxwell Ruddock",
+          "party": "Liberal Party of Australia",
+          "category": "Membership",
+          "sub_category": "Professional",
+          "item": "Virgin Australia, The Club Membership",
+          "details": "Membership of any organisation"
+        }
+      ]
+    },
+    {
+      "entity": "Virgin Australia, The Club (member)",
+      "proposed_splits": [
+        "Virgin Australia",
+        "The Club (member)"
+      ],
+      "context": [
+        {
+          "mp_name": "Philip Maxwell Ruddock",
+          "party": "Liberal Party of Australia",
+          "category": "Membership",
+          "sub_category": "Professional",
+          "item": "Virgin Australia The Club Membership",
+          "details": "Membership of Mrs Heather Ruddock"
+        }
+      ]
+    },
+    {
+      "entity": "BROTHERS, Penrith Junior Rugby League Club",
+      "proposed_splits": [
+        "BROTHERS",
+        "Penrith Junior Rugby League Club"
+      ],
+      "context": [
+        {
+          "mp_name": "Fiona Scott",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Complimentary ticket to Sports Luncheon",
+          "details": "Complimentary ticket to the 19th Annual Sports Luncheon (valued at $110)"
+        }
+      ]
+    },
+    {
+      "entity": "Battle of 2007 Grange Heritage, Gift from Howard Kiangnio. Donated to Endeavour Foundation for Raffle",
+      "proposed_splits": [
+        "Battle of 2007 Grange Heritage",
+        "Gift from Howard Kiangnio. Donated to Endeavour Foundation for Raffle"
+      ],
+      "context": [
+        {
+          "mp_name": "William Shorten",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Battle of 2007 Grange Heritage Gift",
+          "details": "Gifts"
+        }
+      ]
+    },
+    {
+      "entity": "Virgin, Qantas, Etihad",
+      "proposed_splits": [
+        "Virgin",
+        "Qantas",
+        "Etihad"
+      ],
+      "context": [
+        {
+          "mp_name": "William Shorten",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Domestic & International Flight Upgrades to Business Class",
+          "details": "Domestic Flight Upgrades to Business Class - Virgin: 20.8.13 (x2), 22.9.13 23.9.13 (family), 4.10.13 (x2), 11.11.13 (x2 family); International flight upgrades to business class: Qantas - Melbourne/Dubai 27.10.13, Etihad - Abu Dhabi/Melbourne 28.10.13"
+        }
+      ]
+    },
+    {
+      "entity": "Dr Chau of Kingold Group, Vice President of the Republic of Indonesia",
+      "proposed_splits": [
+        "Dr Chau of Kingold Group",
+        "Vice President of the Republic of Indonesia"
+      ],
+      "context": [
+        {
+          "mp_name": "William Shorten",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Tie, Fragrances, Business Card Holder, Silk Prints",
+          "details": "Tie, Gift Box of Fragrances, Leather Business Card Holder 05.12.13 from Dr Chau of Kingold Group (Donated to Albion North Primary School as prizes). Print on Silk x 2 from Vice President of the Republic of Indonesia 10.12.13"
+        }
+      ]
+    },
+    {
+      "entity": "Opera Australia, Essendon Football Club",
+      "proposed_splits": [
+        "Opera Australia",
+        "Essendon Football Club"
+      ],
+      "context": [
+        {
+          "mp_name": "William Shorten",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Tickets to Opera Australia and Essendon Football Club",
+          "details": "Tickets x 2 Opera Australia \u201cThe King and I\" 14.06.14; 2 x tickets Essendon Football Club - Dreamtime function and match 31.05.14"
+        }
+      ]
+    },
+    {
+      "entity": "Toyota, AFL",
+      "proposed_splits": [
+        "Toyota",
+        "AFL"
+      ],
+      "context": [
+        {
+          "mp_name": "William Shorten",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Tickets to Toyota AFL Grand Final AFL Commission Luncheon",
+          "details": "2 x complimentary tickets to the 2014 Toyota AFL Grand Final AFL Commission Luncheon @ the MCG 27.09.14"
+        }
+      ]
+    },
+    {
+      "entity": "President U Thein Sein of Myanmar, President Xi Jinping of the People's Republic of China",
+      "proposed_splits": [
+        "President U Thein Sein of Myanmar",
+        "President Xi Jinping of the People's Republic of China"
+      ],
+      "context": [
+        {
+          "mp_name": "William Shorten",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Artwork and Vase",
+          "details": "Artwork from President U Thein Sein of Myanmar, Gift of a Vase from President Xi Jinping of the People's Republic of China 17.11.14"
+        }
+      ]
+    },
+    {
+      "entity": "Virgin Australia Airlines, Qantas Australia Airlines",
+      "proposed_splits": [
+        "Virgin Australia Airlines",
+        "Qantas Australia Airlines"
+      ],
+      "context": [
+        {
+          "mp_name": "William Shorten",
+          "party": "Australian Labor Party",
+          "category": "Membership",
+          "sub_category": "Professional",
+          "item": "Virgin Australia 'The Club' and Qantas 'The Chairmans Lounge' Memberships",
+          "details": "My wife and I received renewed memberships to 'The Club' of Virgin Australia Airlines and 'The Chairmans Lounge' of Qantas Australia Airlines"
+        }
+      ]
+    },
+    {
+      "entity": "Qantas, Emirates, Linfox",
+      "proposed_splits": [
+        "Qantas",
+        "Emirates",
+        "Linfox"
+      ],
+      "context": [
+        {
+          "mp_name": "William Shorten",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Upgrade from Business Class to First Class",
+          "details": "I received an upgrade from business class to first class by Qantas for travel Melb/Dubai 26.01.15 & an upgrade from business class to first class by Emirates from Dubai/Melb 07.01.15. Flight Sydney/Melbourne 04.02.15 for my wife and I on Linfox plane."
+        }
+      ]
+    },
+    {
+      "entity": "Charles Bilich, Mr Xiangmo Huang, International Department CPC Central Committee",
+      "proposed_splits": [
+        "Charles Bilich",
+        "Mr Xiangmo Huang",
+        "International Department CPC Central Committee"
+      ],
+      "context": [
+        {
+          "mp_name": "William Shorten",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Artwork, Grange Wine, Scarves, Tie, Toy Pandas, Ram Figurine",
+          "details": "Artwork in chalk from artist Charles Bilich, Bottle of 2002 Grange from Mr Xiangmo Huang donated to Women's Health West in my electorate, Two silk scarves and one silk tie for myself and my wife and toy pandas for my children from the International Department CPC Central Committee, Plinth with a figurine of a Ram symbolising Chinese Year of the Ram from Greater Western Sydney Chinese Community"
+        }
+      ]
+    },
+    {
+      "entity": "Fortescue Metals Group, International Department of the CCCP, Qantas",
+      "proposed_splits": [
+        "Fortescue Metals Group",
+        "International Department of the CCCP",
+        "Qantas"
+      ],
+      "context": [
+        {
+          "mp_name": "William Shorten",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Accommodation and Flight Upgrade to Business Class",
+          "details": "Two nights' accommodation in China for my wife and I, provided by Fortescue Metals Group, Accommodation upgrade at the Grand Hyatt Hotel Beijing, Meals and transport provided to my wife and I in China by the International Department of the CCCP, Accommodation upgrade at East Hotel Canberra for two nights, Accommodation upgrade at the Park Royal Hotel Brisbane for one night, Flight upgrade to Business Class by Qantas Canberra/Brisbane & Brisbane/Canberra"
+        }
+      ]
+    },
+    {
+      "entity": "Parliamentary Press Gallery, Melbourne Football Club, Various artists",
+      "proposed_splits": [
+        "Parliamentary Press Gallery",
+        "Melbourne Football Club",
+        "Various artists"
+      ],
+      "context": [
+        {
+          "mp_name": "William Shorten",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Tickets, Artwork, and Scroll",
+          "details": "Two tickets to the Parliamentary Press Gallery Mid Winter Ball from the Parliamentary Press Gallery. One ticket from Melbourne Football Club to Collingwood v Melbourne AFL Match. Chinese Calligraphy Poem Scroll Artwork from artist Mr. Zi Li Yao. Painting from artist Gail Mabo. Two tickets to opening night for the Winter Masterpieces from the Hermitage exhibition from the National Gallery of Victoria (NGV)."
+        }
+      ]
+    },
+    {
+      "entity": "Fraser Suites, Royal on the Park, ALP National Secretariat",
+      "proposed_splits": [
+        "Fraser Suites",
+        "Royal on the Park",
+        "ALP National Secretariat"
+      ],
+      "context": [
+        {
+          "mp_name": "William Shorten",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Accommodation Upgrades & Business class flights",
+          "details": "Accommodation upgrades - Fraser Suites Perth (3 nights). Accommodation upgrade - Royal on the Park Brisbane (1 night). Business class flights Melbourne/Perth for my wife and daughter provided by ALP National Secretariat on 11.09.15."
+        }
+      ]
+    },
+    {
+      "entity": "ING bank, Commonwealth bank",
+      "proposed_splits": [
+        "ING bank",
+        "Commonwealth bank"
+      ],
+      "context": [
+        {
+          "mp_name": "Luke Simpkins",
+          "party": "Liberal Party of Australia",
+          "category": "Liability",
+          "sub_category": "Mortgage",
+          "item": "Mortgage",
+          "details": "Self: Mortgage"
+        }
+      ]
+    },
+    {
+      "entity": "ANZ, Commonwealth bank",
+      "proposed_splits": [
+        "ANZ",
+        "Commonwealth bank"
+      ],
+      "context": [
+        {
+          "mp_name": "Luke Simpkins",
+          "party": "Liberal Party of Australia",
+          "category": "Liability",
+          "sub_category": "Mortgage",
+          "item": "Mortgage",
+          "details": "Spouse: Mortgage"
+        }
+      ]
+    },
+    {
+      "entity": "ING, Commonwealth bank.",
+      "proposed_splits": [
+        "ING",
+        "Commonwealth bank."
+      ],
+      "context": [
+        {
+          "mp_name": "Luke Simpkins",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Joint Savings Account",
+          "details": "Self: Joint savings account"
+        }
+      ]
+    },
+    {
+      "entity": "Westpac, Commonwealth bank.",
+      "proposed_splits": [
+        "Westpac",
+        "Commonwealth bank."
+      ],
+      "context": [
+        {
+          "mp_name": "Luke Simpkins",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Joint Savings Account",
+          "details": "Spouse: Joint savings account"
+        }
+      ]
+    },
+    {
+      "entity": "Qantas, Virgin Australia, Foxtel",
+      "proposed_splits": [
+        "Qantas",
+        "Virgin Australia",
+        "Foxtel"
+      ],
+      "context": [
+        {
+          "mp_name": "Anthony David Hawthorn Smith",
+          "party": "Liberal Party of Australia",
+          "category": "Membership",
+          "sub_category": "Professional",
+          "item": "Qantas Chairman's Lounge, Virgin Australia Platinum & Foxtel Services",
+          "details": "Complimentary Qantas Chairman's Lounge membership, Complimentary Platinum Membership - Virgin Australia, Complimentary Foxtel Services to Electorate Office"
+        }
+      ]
+    },
+    {
+      "entity": "WESTPAC, CBA, NT Credit Union",
+      "proposed_splits": [
+        "WESTPAC",
+        "CBA",
+        "NT Credit Union"
+      ],
+      "context": [
+        {
+          "mp_name": "Warren Snowdon",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings and Line of Credit",
+          "details": "Savings with spouse, Line of Credit with spouse; Savings with spouse, Savings; Savings, Savings CBA"
+        }
+      ]
+    },
+    {
+      "entity": "Australian Education Union, UNICEF, World Vision",
+      "proposed_splits": [
+        "Australian Education Union",
+        "UNICEF",
+        "World Vision"
+      ],
+      "context": [
+        {
+          "mp_name": "Warren Snowdon",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Membership",
+          "details": "Member, Kiwi Rugby Union Club, Friends of Rugby; CANSTEL, Australian Education Union, ACEL"
+        }
+      ]
+    },
+    {
+      "entity": "St Andrew's College, University of Sydney, College Council",
+      "proposed_splits": [
+        "St Andrew's College",
+        "University of Sydney",
+        "College Council"
+      ],
+      "context": [
+        {
+          "mp_name": "Angus Taylor",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "College Council Membership",
+          "details": "St Andrew's College, University of Sydney, College Council"
+        }
+      ]
+    },
+    {
+      "entity": "Bendigo Bank, Australian National Credit Union (C.U.A), Members Equity (M.E.)",
+      "proposed_splits": [
+        "Bendigo Bank",
+        "Australian National Credit Union (C.U.A)",
+        "Members Equity (M.E.)"
+      ],
+      "context": [
+        {
+          "mp_name": "Kelvin John Thomson",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings Account and Mortgage Offset Account",
+          "details": "Savings account, Mortgage offset account"
+        }
+      ]
+    },
+    {
+      "entity": "Bully Zero Australia Foundation, Hugh Middendorp",
+      "proposed_splits": [
+        "Bully Zero Australia Foundation",
+        "Hugh Middendorp"
+      ],
+      "context": [
+        {
+          "mp_name": "Kelvin John Thomson",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Bully Zero Australia Foundation Dinner Attendance",
+          "details": "Donation to Bully Zero Australia Foundation by Hugh Middendorp which enabled my partner Kerry and I to attend Foundation dinner."
+        }
+      ]
+    },
+    {
+      "entity": "Hugh Middendorp, Victoria First",
+      "proposed_splits": [
+        "Hugh Middendorp",
+        "Victoria First"
+      ],
+      "context": [
+        {
+          "mp_name": "Kelvin John Thomson",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Donation for NGO Establishment",
+          "details": "Donation by Hugh Middendorp to cover establishment costs of non-government organisation Victoria First, of which I am President, (no conflict with my public duties is foreseen)."
+        }
+      ]
+    },
+    {
+      "entity": "ING, ANZ",
+      "proposed_splits": [
+        "ING",
+        "ANZ"
+      ],
+      "context": [
+        {
+          "mp_name": "Alan Tudge",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings Account, Cheque Account, Superannuation",
+          "details": "ING, Savings a/c with ING. Cheque. Super"
+        }
+      ]
+    },
+    {
+      "entity": "Mr Andrew Forrest, Fortescue Metals",
+      "proposed_splits": [
+        "Mr Andrew Forrest",
+        "Fortescue Metals"
+      ],
+      "context": [
+        {
+          "mp_name": "Alan Tudge",
+          "party": "Liberal Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Flights and accommodation Perth-Port Hedland-Christmas Creek-Perth",
+          "details": "Flights from Perth to Port Hedland, Port Hedland to Christmas Creek and Christmas Creek to Perth. Overnight accommodation at Christmas Creek. 14th & 15th October 2013"
+        }
+      ]
+    },
+    {
+      "entity": "Pokana Pty Limited, Trustee of Superannuation Fund",
+      "proposed_splits": [
+        "Pokana Pty Limited",
+        "Trustee of Superannuation Fund"
+      ],
+      "context": [
+        {
+          "mp_name": "Malcolm Turnbull",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Trust",
+          "item": "Beneficial Interest in Superannuation Fund",
+          "details": "Beneficial Interest - Yes, Self"
+        },
+        {
+          "mp_name": "Malcolm Turnbull",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Trust",
+          "item": "Beneficial Interest in Superannuation Fund",
+          "details": "Beneficial Interest - Yes, Spouse"
+        }
+      ]
+    },
+    {
+      "entity": "Biennale of Sydney, Advisory Panel on Capital City Infrastructure, Expert Panel on Constitutional Recognition of Local Government, Integrated Design Strategy Expert Panel, Sydney Metropolitan Development Authority",
+      "proposed_splits": [
+        "Biennale of Sydney",
+        "Advisory Panel on Capital City Infrastructure",
+        "Expert Panel on Constitutional Recognition of Local Government",
+        "Integrated Design Strategy Expert Panel",
+        "Sydney Metropolitan Development Authority"
+      ],
+      "context": [
+        {
+          "mp_name": "Malcolm Turnbull",
+          "party": "Liberal Party of Australia",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Multiple Advisory Panel Memberships",
+          "details": "Item 4: Biennale of Sydney; Advisory Panel on Capital City Infrastructure; Expert Panel on Constitutional Recognition of Local Government; Integrated Design Strategy Expert Panel; Sydney Metropolitan Development Authority (Spouse) -DELETION"
+        }
+      ]
+    },
+    {
+      "entity": "Bowery Opportunity Fund, CVC Global Credit Opportunity Fund",
+      "proposed_splits": [
+        "Bowery Opportunity Fund",
+        "CVC Global Credit Opportunity Fund"
+      ],
+      "context": [
+        {
+          "mp_name": "Malcolm Turnbull",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Shares",
+          "details": "Item 7:- Bowery Opportunity Fund (self and spouse), CVC Global Credit Opportunity Fund (self and spouse) -ADDITION"
+        }
+      ]
+    },
+    {
+      "entity": "SGIIX, MSD Energy Partners Ltd, MSD Torchlight Partners Ltd, VGT, VIG",
+      "proposed_splits": [
+        "SGIIX",
+        "MSD Energy Partners Ltd",
+        "MSD Torchlight Partners Ltd",
+        "VGT",
+        "VIG"
+      ],
+      "context": [
+        {
+          "mp_name": "Malcolm Turnbull",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Shares",
+          "details": "Item 7:- SGIIX (self), MSD Energy Partners Ltd (self), MSD Torchlight Partners Ltd (self), VIG (self), VGT (self) - ADDITION"
+        }
+      ]
+    },
+    {
+      "entity": "Zebedee Growth Fund, Brookfield Wells Street Offshore Fund",
+      "proposed_splits": [
+        "Zebedee Growth Fund",
+        "Brookfield Wells Street Offshore Fund"
+      ],
+      "context": [
+        {
+          "mp_name": "Malcolm Turnbull",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Shares",
+          "details": "Item 7:- Zebedee Growth Fund (self), Brookfield Wells Street Offshore Fund (self) - ADDITION"
+        }
+      ]
+    },
+    {
+      "entity": "3G Natural Resources Offshore Fund, GYLD, DBJP",
+      "proposed_splits": [
+        "3G Natural Resources Offshore Fund",
+        "GYLD",
+        "DBJP"
+      ],
+      "context": [
+        {
+          "mp_name": "Malcolm Turnbull",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Shares",
+          "details": "Item 7:- 3G Natural Resources Offshore Fund (self), GYLD (Wilcrow), DBJP (self) - ADDITION"
+        }
+      ]
+    },
+    {
+      "entity": "MICSX, VGK",
+      "proposed_splits": [
+        "MICSX",
+        "VGK"
+      ],
+      "context": [
+        {
+          "mp_name": "Malcolm Turnbull",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Shares",
+          "details": "Item 7:- MICSX (self and spouse), VGK (Wilcrow Pty Ltd) - DELETION"
+        }
+      ]
+    },
+    {
+      "entity": "Pillemer Pty Ltd, Revo Pty Ltd",
+      "proposed_splits": [
+        "Pillemer Pty Ltd",
+        "Revo Pty Ltd"
+      ],
+      "context": [
+        {
+          "mp_name": "Malcolm Turnbull",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Shares Pillemer Pty Ltd, Shares Revo Pty Ltd",
+          "details": "Item 9:- Pillemer Pty Ltd (self & spouse), Revo Pty Ltd (self & spouse) -DELETION"
+        }
+      ]
+    },
+    {
+      "entity": "The Committee for Sydney, Australian Technology Park Precinct Management Ltd, United States Study Centre",
+      "proposed_splits": [
+        "The Committee for Sydney",
+        "Australian Technology Park Precinct Management Ltd",
+        "United States Study Centre"
+      ],
+      "context": [
+        {
+          "mp_name": "Malcolm Turnbull",
+          "party": "Liberal Party of Australia",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Committee for Sydney Membership",
+          "details": "Item 4:- The Committee for Sydney (spouse) Australian Technology Park Precinct Management Ltd (spouse) United States Study Centre (spouse) - DELETION"
+        }
+      ]
+    },
+    {
+      "entity": "AM2, CBA, HSBC, WESTPAC, NAB, AMEX, CITIBANK, DAVID JONES, NATIONAL AUSTRALIA BANK",
+      "proposed_splits": [
+        "AM2",
+        "CBA",
+        "HSBC",
+        "WESTPAC",
+        "NAB",
+        "AMEX",
+        "CITIBANK",
+        "DAVID JONES",
+        "NATIONAL AUSTRALIA BANK"
+      ],
+      "context": [
+        {
+          "mp_name": "Nickolas Varvaris",
+          "party": "Liberal Party of Australia",
+          "category": "Liability",
+          "sub_category": "Credit",
+          "item": "Credit Cards",
+          "details": "Credit Cards"
+        }
+      ]
+    },
+    {
+      "entity": "HSBC UK, Commonwealth Bank, NAB",
+      "proposed_splits": [
+        "HSBC UK",
+        "Commonwealth Bank",
+        "NAB"
+      ],
+      "context": [
+        {
+          "mp_name": "Timothy Watts",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings Account",
+          "details": "Savings Account, Smart Access Account, Netbank saver account, Savings account (Spouse)"
+        }
+      ]
+    },
+    {
+      "entity": "Central Coast Leagues Club, Gosford",
+      "proposed_splits": [
+        "Central Coast Leagues Club",
+        "Gosford"
+      ],
+      "context": [
+        {
+          "mp_name": "Lucy Wicks",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Club Membership",
+          "details": "Central Coast Leagues Club, Gosford"
+        },
+        {
+          "mp_name": "Lucy Wicks",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Central Coast Leagues Club Membership",
+          "details": ""
+        }
+      ]
+    },
+    {
+      "entity": "Everglades Country Club, Woy Woy",
+      "proposed_splits": [
+        "Everglades Country Club",
+        "Woy Woy"
+      ],
+      "context": [
+        {
+          "mp_name": "Lucy Wicks",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Club Membership",
+          "details": "Everglades Country Club, Woy Woy"
+        },
+        {
+          "mp_name": "Lucy Wicks",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Everglades Country Club Membership",
+          "details": ""
+        }
+      ]
+    },
+    {
+      "entity": "Easts (Eastern Suburbs Leagues Club Ltd), Woy",
+      "proposed_splits": [
+        "Easts (Eastern Suburbs Leagues Club Ltd)",
+        "Woy"
+      ],
+      "context": [
+        {
+          "mp_name": "Lucy Wicks",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Club Membership",
+          "details": "Easts (Eastern Suburbs Leagues Club Ltd), Woy"
+        }
+      ]
+    },
+    {
+      "entity": "Breakers Country Club, Wamberal",
+      "proposed_splits": [
+        "Breakers Country Club",
+        "Wamberal"
+      ],
+      "context": [
+        {
+          "mp_name": "Lucy Wicks",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Club Membership",
+          "details": "Member: Breakers Country Club, Wamberal"
+        },
+        {
+          "mp_name": "Lucy Wicks",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": NaN,
+          "details": ""
+        }
+      ]
+    },
+    {
+      "entity": "Erina Leagues Club, Erina",
+      "proposed_splits": [
+        "Erina Leagues Club",
+        "Erina"
+      ],
+      "context": [
+        {
+          "mp_name": "Lucy Wicks",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Club Membership",
+          "details": "Member: Erina Leagues Club, Erina"
+        }
+      ]
+    },
+    {
+      "entity": "Physioedge, Mile End",
+      "proposed_splits": [
+        "Physioedge",
+        "Mile End"
+      ],
+      "context": [
+        {
+          "mp_name": "Matthew Philip Williams",
+          "party": "Liberal Party of Australia",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Physiotherapy Practice Partnership",
+          "details": "Business partner, Physiotherapy practice - Spouse"
+        }
+      ]
+    }
+  ]
+}

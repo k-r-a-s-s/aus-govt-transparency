@@ -1,0 +1,471 @@
+{
+  "batch_id": "and_3",
+  "category": "and",
+  "entities_count": 50,
+  "analysis_results": [
+    {
+      "entity_name": "Australia and New Zealand Banking Group Limited (ANZ)",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "ANZ is a single entity, despite the 'and' in its name.  This is a well-known Australian bank.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "B. and Z. Davidson/Mischief Shoes",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "The context suggests a gift from potentially two distinct entities, a couple (B. and Z. Davidson) and a business (Mischief Shoes). However, it's possible 'Mischief Shoes' is a business owned by the couple.",
+      "split_entities": [
+        "B. and Z. Davidson",
+        "Mischief Shoes"
+      ]
+    },
+    {
+      "entity_name": "Andrews and Andrews Consulting Pty Limited",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This appears to be a single consulting firm with a common name structure.  The use of 'and' is standard in firm names.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Council of Small Business Australia and Intuit Inc.",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are clearly two separate organizations mentioned jointly in the context provided.",
+      "split_entities": [
+        "Council of Small Business Australia",
+        "Intuit Inc."
+      ]
+    },
+    {
+      "entity_name": "Carlton and United Breweries",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single large brewing company, a common name in Australia. The 'and' is part of the official name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Australian Israel and Jewish Affairs Council (AIJAC)",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "AIJAC is a single organization, even though its name includes 'and'.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Marilyn and Gary Nicholas",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This refers to two individuals.",
+      "split_entities": [
+        "Marilyn",
+        "Gary Nicholas"
+      ]
+    },
+    {
+      "entity_name": "Mr Wade Mark, Speaker of Trinidad and Tobago",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "While 'Trinidad and Tobago' is a single country, the phrasing suggests two separate roles/titles for one person.",
+      "split_entities": [
+        "Mr Wade Mark",
+        "Speaker of Trinidad and Tobago"
+      ]
+    },
+    {
+      "entity_name": "President of the Swiss Confederation and Head of the Federal Department of Foreign Affairs",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct governmental roles, likely held by the same person.",
+      "split_entities": [
+        "President of the Swiss Confederation",
+        "Head of the Federal Department of Foreign Affairs"
+      ]
+    },
+    {
+      "entity_name": "Kerry and Christine Stokes",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two individuals.",
+      "split_entities": [
+        "Kerry",
+        "Christine Stokes"
+      ]
+    },
+    {
+      "entity_name": "Australia-Guangdong Chamber of Commerce and the Communist Party of China",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct organizations.",
+      "split_entities": [
+        "Australia-Guangdong Chamber of Commerce",
+        "the Communist Party of China"
+      ]
+    },
+    {
+      "entity_name": "Sino Hydro and Bridge Engineering",
+      "classification": "SINGLE",
+      "confidence": "MEDIUM",
+      "explanation": "Could be a single entity with a compound name, or two related entities. More context is needed.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "MEDIA ENTERTAINMENT AND ARTS ALLIANCE",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Likely a single organization with a descriptive name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Hong Kong Economic and Trade Office",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single governmental office.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Gates Foundation and Save the Children Australia",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate, well-known organizations.",
+      "split_entities": [
+        "Gates Foundation",
+        "Save the Children Australia"
+      ]
+    },
+    {
+      "entity_name": "SA Buchholz & LC Buchholz and CE Fanning & AH Fanning",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Appears to be two distinct sets of individuals, likely partnerships.",
+      "split_entities": [
+        "SA Buchholz & LC Buchholz",
+        "CE Fanning & AH Fanning"
+      ]
+    },
+    {
+      "entity_name": "Associate member Box Hill/Oakleigh and Carnegie/Clayton RSL",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "Uncertain whether this represents a single RSL with multiple branches or separate entities.  More context is needed.",
+      "split_entities": [
+        "Associate member Box Hill/Oakleigh",
+        "Carnegie/Clayton RSL"
+      ]
+    },
+    {
+      "entity_name": "Ass of Professional Engineers Scientists and Managers Aust (APESMA)",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "APESMA is a single professional association, despite the 'and' in its full name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Building and Construction Industry Training Fund (Qld) Ltd (BCITF)",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is the name of a single organization.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Newell Lock and Co.",
+      "classification": "SINGLE",
+      "confidence": "MEDIUM",
+      "explanation": "Could be a single company or two separate entities. More context is needed.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Sheikh Mohammed bin Zayed Al Nahyan, Crown Prince of Abu Dhabi, and the Government of the United Arab Emirates",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This refers to an individual and a government.",
+      "split_entities": [
+        "Sheikh Mohammed bin Zayed Al Nahyan, Crown Prince of Abu Dhabi",
+        "the Government of the United Arab Emirates"
+      ]
+    },
+    {
+      "entity_name": "Australia China Business Council and Huawei Technologies",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct organizations.",
+      "split_entities": [
+        "Australia China Business Council",
+        "Huawei Technologies"
+      ]
+    },
+    {
+      "entity_name": "Katharine Siao-Yue Chang (Taipei Economic and Cultural Office in Australia)",
+      "classification": "SINGLE",
+      "confidence": "MEDIUM",
+      "explanation": "Ambiguous. Could be a person affiliated with the office, or a double disclosure. More context is needed.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Australian - Guangdong Chamber of Commerce and the Communist Party of China",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct organizations.",
+      "split_entities": [
+        "Australian - Guangdong Chamber of Commerce",
+        "the Communist Party of China"
+      ]
+    },
+    {
+      "entity_name": "Cairns Penny Savings and Loans, ING Direct, Westpac",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three separate financial institutions.",
+      "split_entities": [
+        "Cairns Penny Savings and Loans",
+        "ING Direct",
+        "Westpac"
+      ]
+    },
+    {
+      "entity_name": "Asian Forum of Parliamentarians on Population and Development (AFPPD)",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single organization.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "National Australia Bank and Newcastle Permanent",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate banks.",
+      "split_entities": [
+        "National Australia Bank",
+        "Newcastle Permanent"
+      ]
+    },
+    {
+      "entity_name": "Visy and The Australian",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate organizations.",
+      "split_entities": [
+        "Visy",
+        "The Australian"
+      ]
+    },
+    {
+      "entity_name": "Australian Mango Industry Association, Mushroom Growers Association and Onions Australia",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three distinct industry associations.",
+      "split_entities": [
+        "Australian Mango Industry Association",
+        "Mushroom Growers Association",
+        "Onions Australia"
+      ]
+    },
+    {
+      "entity_name": "Private Mortgage Funding and Management Pty Ltd",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single company.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Peel Chamber of Commerce and Industry",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single organization.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Rockingham Kwinana Chamber of Commerce and Industry",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single organization.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Hawaiian and Satterley Property Group",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "Ambiguous. Could be a joint venture or two separate entities. More context is needed.",
+      "split_entities": [
+        "Hawaiian",
+        "Satterley Property Group"
+      ]
+    },
+    {
+      "entity_name": "QANTAS - Chairmans, VIRGIN- The Club, Country Liberals, Territory Thunder Football Club, SIDS and Kids NT, Epique, RAAF Fishing Club, NT Police Association, Darwin Turf Club, ACCOR Membership",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This lists multiple distinct organizations and memberships.",
+      "split_entities": [
+        "QANTAS - Chairmans",
+        "VIRGIN- The Club",
+        "Country Liberals",
+        "Territory Thunder Football Club",
+        "SIDS and Kids NT",
+        "Epique",
+        "RAAF Fishing Club",
+        "NT Police Association",
+        "Darwin Turf Club",
+        "ACCOR Membership"
+      ]
+    },
+    {
+      "entity_name": "Taiwanese Government and Taipei Economic & Cultural Office",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct entities.",
+      "split_entities": [
+        "Taiwanese Government",
+        "Taipei Economic & Cultural Office"
+      ]
+    },
+    {
+      "entity_name": "Bendigo and Adelaide Bank",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single bank.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Australian Subscription Television and Radio Association, Qantas Airways, Virgin Australia",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three separate organizations.",
+      "split_entities": [
+        "Australian Subscription Television and Radio Association",
+        "Qantas Airways",
+        "Virgin Australia"
+      ]
+    },
+    {
+      "entity_name": "BENDIGO AND ADELALDE BANK LTD",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single bank (likely a misspelling of 'Adelaide').",
+      "split_entities": []
+    },
+    {
+      "entity_name": "William Ernest Hendy Estate and Family Foundation Trust",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate entities.",
+      "split_entities": [
+        "William Ernest Hendy Estate",
+        "Family Foundation Trust"
+      ]
+    },
+    {
+      "entity_name": "Virgin and Qantas",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate airlines.",
+      "split_entities": [
+        "Virgin",
+        "Qantas"
+      ]
+    },
+    {
+      "entity_name": "Qantas Airways and Virgin Australia",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate airlines.",
+      "split_entities": [
+        "Qantas Airways",
+        "Virgin Australia"
+      ]
+    },
+    {
+      "entity_name": "Mr Simon Coveney TD and Ambassador H.E. Mr. No\u00ebl White",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two different individuals.",
+      "split_entities": [
+        "Mr Simon Coveney TD",
+        "Ambassador H.E. Mr. No\u00ebl White"
+      ]
+    },
+    {
+      "entity_name": "Rural Industries Research and Development Corporation, Royal Embassy of Saudi Arabia",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct organizations.",
+      "split_entities": [
+        "Rural Industries Research and Development Corporation",
+        "Royal Embassy of Saudi Arabia"
+      ]
+    },
+    {
+      "entity_name": "National Rugby League Limited, Australian Dairy Industry Council, Mr Keene, One Mandate Publishing, The Australia and New Zealand School of Government, Australian Made Shop Pty Ltd",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This lists multiple distinct organizations and individuals.",
+      "split_entities": [
+        "National Rugby League Limited",
+        "Australian Dairy Industry Council",
+        "Mr Keene",
+        "One Mandate Publishing",
+        "The Australia and New Zealand School of Government",
+        "Australian Made Shop Pty Ltd"
+      ]
+    },
+    {
+      "entity_name": "Delisi Group and Bindaree Beef, Qantas, Australian Wool Innovation",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three distinct organizations; Delisi Group and Bindaree Beef could be considered a single entity, but in the context of gifts from multiple sources, they are listed as separate",
+      "split_entities": [
+        "Delisi Group",
+        "Bindaree Beef",
+        "Qantas",
+        "Australian Wool Innovation"
+      ]
+    },
+    {
+      "entity_name": "Mr Harry and Mrs Demetra Xydas",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two individuals.",
+      "split_entities": [
+        "Mr Harry",
+        "Mrs Demetra Xydas"
+      ]
+    },
+    {
+      "entity_name": "Maison Souvannaphoum hotel and Laos Plaza Hotel",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate hotels.",
+      "split_entities": [
+        "Maison Souvannaphoum hotel",
+        "Laos Plaza Hotel"
+      ]
+    },
+    {
+      "entity_name": "OLESTA AND ANDREW LAMING SUPERANNUATION FUND",
+      "classification": "SINGLE",
+      "confidence": "MEDIUM",
+      "explanation": "Ambiguous.  Could be a single fund with a compound name, or two entities. More context is needed.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "NRL and the Raiders",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct organizations (NRL and a specific rugby league team).",
+      "split_entities": [
+        "NRL",
+        "the Raiders"
+      ]
+    },
+    {
+      "entity_name": "AMP and Unisuper",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate superannuation providers.",
+      "split_entities": [
+        "AMP",
+        "Unisuper"
+      ]
+    }
+  ],
+  "raw_response": "```json\n[\n  {\n    \"entity_name\": \"Australia and New Zealand Banking Group Limited (ANZ)\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"ANZ is a single entity, despite the 'and' in its name.  This is a well-known Australian bank.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"B. and Z. Davidson/Mischief Shoes\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"The context suggests a gift from potentially two distinct entities, a couple (B. and Z. Davidson) and a business (Mischief Shoes). However, it's possible 'Mischief Shoes' is a business owned by the couple.\",\n    \"split_entities\": [\"B. and Z. Davidson\", \"Mischief Shoes\"]\n  },\n  {\n    \"entity_name\": \"Andrews and Andrews Consulting Pty Limited\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This appears to be a single consulting firm with a common name structure.  The use of 'and' is standard in firm names.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Council of Small Business Australia and Intuit Inc.\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are clearly two separate organizations mentioned jointly in the context provided.\",\n    \"split_entities\": [\"Council of Small Business Australia\", \"Intuit Inc.\"]\n  },\n  {\n    \"entity_name\": \"Carlton and United Breweries\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single large brewing company, a common name in Australia. The 'and' is part of the official name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Australian Israel and Jewish Affairs Council (AIJAC)\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"AIJAC is a single organization, even though its name includes 'and'.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Marilyn and Gary Nicholas\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This refers to two individuals.\",\n    \"split_entities\": [\"Marilyn\", \"Gary Nicholas\"]\n  },\n  {\n    \"entity_name\": \"Mr Wade Mark, Speaker of Trinidad and Tobago\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"While 'Trinidad and Tobago' is a single country, the phrasing suggests two separate roles/titles for one person.\",\n    \"split_entities\": [\"Mr Wade Mark\", \"Speaker of Trinidad and Tobago\"]\n  },\n  {\n    \"entity_name\": \"President of the Swiss Confederation and Head of the Federal Department of Foreign Affairs\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct governmental roles, likely held by the same person.\",\n    \"split_entities\": [\"President of the Swiss Confederation\", \"Head of the Federal Department of Foreign Affairs\"]\n  },\n  {\n    \"entity_name\": \"Kerry and Christine Stokes\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two individuals.\",\n    \"split_entities\": [\"Kerry\", \"Christine Stokes\"]\n  },\n  {\n    \"entity_name\": \"Australia-Guangdong Chamber of Commerce and the Communist Party of China\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct organizations.\",\n    \"split_entities\": [\"Australia-Guangdong Chamber of Commerce\", \"the Communist Party of China\"]\n  },\n  {\n    \"entity_name\": \"Sino Hydro and Bridge Engineering\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Could be a single entity with a compound name, or two related entities. More context is needed.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"MEDIA ENTERTAINMENT AND ARTS ALLIANCE\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Likely a single organization with a descriptive name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Hong Kong Economic and Trade Office\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single governmental office.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Gates Foundation and Save the Children Australia\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate, well-known organizations.\",\n    \"split_entities\": [\"Gates Foundation\", \"Save the Children Australia\"]\n  },\n  {\n    \"entity_name\": \"SA Buchholz & LC Buchholz and CE Fanning & AH Fanning\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Appears to be two distinct sets of individuals, likely partnerships.\",\n    \"split_entities\": [\"SA Buchholz & LC Buchholz\", \"CE Fanning & AH Fanning\"]\n  },\n  {\n    \"entity_name\": \"Associate member Box Hill/Oakleigh and Carnegie/Clayton RSL\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Uncertain whether this represents a single RSL with multiple branches or separate entities.  More context is needed.\",\n    \"split_entities\": [\"Associate member Box Hill/Oakleigh\", \"Carnegie/Clayton RSL\"]\n  },\n  {\n    \"entity_name\": \"Ass of Professional Engineers Scientists and Managers Aust (APESMA)\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"APESMA is a single professional association, despite the 'and' in its full name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Building and Construction Industry Training Fund (Qld) Ltd (BCITF)\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is the name of a single organization.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Newell Lock and Co.\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Could be a single company or two separate entities. More context is needed.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Sheikh Mohammed bin Zayed Al Nahyan, Crown Prince of Abu Dhabi, and the Government of the United Arab Emirates\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This refers to an individual and a government.\",\n    \"split_entities\": [\"Sheikh Mohammed bin Zayed Al Nahyan, Crown Prince of Abu Dhabi\", \"the Government of the United Arab Emirates\"]\n  },\n  {\n    \"entity_name\": \"Australia China Business Council and Huawei Technologies\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct organizations.\",\n    \"split_entities\": [\"Australia China Business Council\", \"Huawei Technologies\"]\n  },\n  {\n    \"entity_name\": \"Katharine Siao-Yue Chang (Taipei Economic and Cultural Office in Australia)\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Ambiguous. Could be a person affiliated with the office, or a double disclosure. More context is needed.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Australian - Guangdong Chamber of Commerce and the Communist Party of China\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct organizations.\",\n    \"split_entities\": [\"Australian - Guangdong Chamber of Commerce\", \"the Communist Party of China\"]\n  },\n  {\n    \"entity_name\": \"Cairns Penny Savings and Loans, ING Direct, Westpac\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three separate financial institutions.\",\n    \"split_entities\": [\"Cairns Penny Savings and Loans\", \"ING Direct\", \"Westpac\"]\n  },\n  {\n    \"entity_name\": \"Asian Forum of Parliamentarians on Population and Development (AFPPD)\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single organization.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"National Australia Bank and Newcastle Permanent\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate banks.\",\n    \"split_entities\": [\"National Australia Bank\", \"Newcastle Permanent\"]\n  },\n  {\n    \"entity_name\": \"Visy and The Australian\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate organizations.\",\n    \"split_entities\": [\"Visy\", \"The Australian\"]\n  },\n  {\n    \"entity_name\": \"Australian Mango Industry Association, Mushroom Growers Association and Onions Australia\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three distinct industry associations.\",\n    \"split_entities\": [\"Australian Mango Industry Association\", \"Mushroom Growers Association\", \"Onions Australia\"]\n  },\n  {\n    \"entity_name\": \"Private Mortgage Funding and Management Pty Ltd\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single company.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Peel Chamber of Commerce and Industry\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single organization.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Rockingham Kwinana Chamber of Commerce and Industry\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single organization.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Hawaiian and Satterley Property Group\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Ambiguous. Could be a joint venture or two separate entities. More context is needed.\",\n    \"split_entities\": [\"Hawaiian\", \"Satterley Property Group\"]\n  },\n  {\n    \"entity_name\": \"QANTAS - Chairmans, VIRGIN- The Club, Country Liberals, Territory Thunder Football Club, SIDS and Kids NT, Epique, RAAF Fishing Club, NT Police Association, Darwin Turf Club, ACCOR Membership\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This lists multiple distinct organizations and memberships.\",\n    \"split_entities\": [\"QANTAS - Chairmans\", \"VIRGIN- The Club\", \"Country Liberals\", \"Territory Thunder Football Club\", \"SIDS and Kids NT\", \"Epique\", \"RAAF Fishing Club\", \"NT Police Association\", \"Darwin Turf Club\", \"ACCOR Membership\"]\n  },\n  {\n    \"entity_name\": \"Taiwanese Government and Taipei Economic & Cultural Office\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct entities.\",\n    \"split_entities\": [\"Taiwanese Government\", \"Taipei Economic & Cultural Office\"]\n  },\n  {\n    \"entity_name\": \"Bendigo and Adelaide Bank\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single bank.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Australian Subscription Television and Radio Association, Qantas Airways, Virgin Australia\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three separate organizations.\",\n    \"split_entities\": [\"Australian Subscription Television and Radio Association\", \"Qantas Airways\", \"Virgin Australia\"]\n  },\n  {\n    \"entity_name\": \"BENDIGO AND ADELALDE BANK LTD\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single bank (likely a misspelling of 'Adelaide').\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"William Ernest Hendy Estate and Family Foundation Trust\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate entities.\",\n    \"split_entities\": [\"William Ernest Hendy Estate\", \"Family Foundation Trust\"]\n  },\n  {\n    \"entity_name\": \"Virgin and Qantas\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate airlines.\",\n    \"split_entities\": [\"Virgin\", \"Qantas\"]\n  },\n  {\n    \"entity_name\": \"Qantas Airways and Virgin Australia\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate airlines.\",\n    \"split_entities\": [\"Qantas Airways\", \"Virgin Australia\"]\n  },\n  {\n    \"entity_name\": \"Mr Simon Coveney TD and Ambassador H.E. Mr. No\u00ebl White\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two different individuals.\",\n    \"split_entities\": [\"Mr Simon Coveney TD\", \"Ambassador H.E. Mr. No\u00ebl White\"]\n  },\n  {\n    \"entity_name\": \"Rural Industries Research and Development Corporation, Royal Embassy of Saudi Arabia\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct organizations.\",\n    \"split_entities\": [\"Rural Industries Research and Development Corporation\", \"Royal Embassy of Saudi Arabia\"]\n  },\n  {\n    \"entity_name\": \"National Rugby League Limited, Australian Dairy Industry Council, Mr Keene, One Mandate Publishing, The Australia and New Zealand School of Government, Australian Made Shop Pty Ltd\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This lists multiple distinct organizations and individuals.\",\n    \"split_entities\": [\"National Rugby League Limited\", \"Australian Dairy Industry Council\", \"Mr Keene\", \"One Mandate Publishing\", \"The Australia and New Zealand School of Government\", \"Australian Made Shop Pty Ltd\"]\n  },\n  {\n    \"entity_name\": \"Delisi Group and Bindaree Beef, Qantas, Australian Wool Innovation\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three distinct organizations; Delisi Group and Bindaree Beef could be considered a single entity, but in the context of gifts from multiple sources, they are listed as separate\",\n    \"split_entities\": [\"Delisi Group\", \"Bindaree Beef\", \"Qantas\", \"Australian Wool Innovation\"]\n  },\n  {\n    \"entity_name\": \"Mr Harry and Mrs Demetra Xydas\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two individuals.\",\n    \"split_entities\": [\"Mr Harry\", \"Mrs Demetra Xydas\"]\n  },\n  {\n    \"entity_name\": \"Maison Souvannaphoum hotel and Laos Plaza Hotel\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate hotels.\",\n    \"split_entities\": [\"Maison Souvannaphoum hotel\", \"Laos Plaza Hotel\"]\n  },\n  {\n    \"entity_name\": \"OLESTA AND ANDREW LAMING SUPERANNUATION FUND\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Ambiguous.  Could be a single fund with a compound name, or two entities. More context is needed.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"NRL and the Raiders\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct organizations (NRL and a specific rugby league team).\",\n    \"split_entities\": [\"NRL\", \"the Raiders\"]\n  },\n  {\n    \"entity_name\": \"AMP and Unisuper\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate superannuation providers.\",\n    \"split_entities\": [\"AMP\", \"Unisuper\"]\n  }\n]\n```\n"
+}

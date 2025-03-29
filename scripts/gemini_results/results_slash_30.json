@@ -1,0 +1,202 @@
+{
+  "batch_id": "slash_30",
+  "category": "slash",
+  "entities_count": 23,
+  "analysis_results": [
+    {
+      "entity_name": "P/ASX 300 HIGH YIELD PLUS ETF UNITS (ZYAU)",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This appears to be a single ETF product with a descriptive name.  The 'P/' likely refers to a particular product identifier.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "DG Lawnton P/L",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is likely a single entity, a company (P/L denotes Proprietary Limited).",
+      "split_entities": []
+    },
+    {
+      "entity_name": "DG Lawnton Gosford P/L",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Another single entity, a likely branch or subsidiary of DG Lawnton P/L.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Copenhagen Investment Partners/Star of South project",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "While the wording suggests a connection,  'Star of South project' could be a project *undertaken by* Copenhagen Investment Partners.  More context is needed for high confidence.",
+      "split_entities": [
+        "Copenhagen Investment Partners",
+        "Star of South project"
+      ]
+    },
+    {
+      "entity_name": "Rugby Leagues/Minister for the Arts",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Clearly two distinct entities: a sporting league and a government minister.",
+      "split_entities": [
+        "Rugby Leagues",
+        "Minister for the Arts"
+      ]
+    },
+    {
+      "entity_name": "Transport Workers' Union of Australia SA/NT Branch Membership",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This refers to membership within a single union's SA/NT branch.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Australian Government/Yothu Yindi Foundation",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two separate entities: the Australian Government and a specific foundation.",
+      "split_entities": [
+        "Australian Government",
+        "Yothu Yindi Foundation"
+      ]
+    },
+    {
+      "entity_name": "CYMEDI Australia/Saean Motors",
+      "classification": "MULTIPLE",
+      "confidence": "LOW",
+      "explanation": "Insufficient information to determine if this is a joint venture or two separate entities mentioned together.",
+      "split_entities": [
+        "CYMEDI Australia",
+        "Saean Motors"
+      ]
+    },
+    {
+      "entity_name": "RHT Investments (QId) P/L",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A single company.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "RHT Family Trust (RHT Investments (Qld) P/L ATF)",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A single family trust, likely holding investments in RHT Investments (Qld) P/L.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "RHT Investment (Qld) P/L",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A single company.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Pebema P/L Superfund",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Likely a single superannuation fund operated by Pebema P/L.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Spouse/partner",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two distinct individuals.",
+      "split_entities": [
+        "Spouse",
+        "partner"
+      ]
+    },
+    {
+      "entity_name": "P/ASX 200 Financial Sector ETF",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A single Exchange Traded Fund.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "CPSU/CSA",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "Likely two separate unions, but requires confirmation.  The '/' might also represent a combined membership.",
+      "split_entities": [
+        "CPSU",
+        "CSA"
+      ]
+    },
+    {
+      "entity_name": "Harvey Water (South West Irrigation T/A)",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A single entity; 'T/A' means 'Trading As'.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Bank of Queensland/VISA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two separate entities: a bank and a payment network.",
+      "split_entities": [
+        "Bank of Queensland",
+        "VISA"
+      ]
+    },
+    {
+      "entity_name": "Great Southern Bank/CUA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two separate financial institutions.",
+      "split_entities": [
+        "Great Southern Bank",
+        "CUA"
+      ]
+    },
+    {
+      "entity_name": "Murrumbeena / East Malvern Community Financial Services Limited",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "The name suggests a single entity operating in two locations.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Solomon Islands/Save the Children",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A sovereign nation and a non-governmental organization.",
+      "split_entities": [
+        "Solomon Islands",
+        "Save the Children"
+      ]
+    },
+    {
+      "entity_name": "Australian Political Exchange Council/Ministry of Foreign Affairs Japan",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two distinct organizations from different countries.",
+      "split_entities": [
+        "Australian Political Exchange Council",
+        "Ministry of Foreign Affairs Japan"
+      ]
+    },
+    {
+      "entity_name": "FFA / FIFA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two separate football governing bodies.",
+      "split_entities": [
+        "FFA",
+        "FIFA"
+      ]
+    },
+    {
+      "entity_name": "25/6 Cunningham Griffiths ACT",
+      "classification": "SINGLE",
+      "confidence": "MEDIUM",
+      "explanation": "Uncertain. Could be a property address (25/6) and a company or entity (Cunningham Griffiths ACT), but may be a single entity designation.",
+      "split_entities": []
+    }
+  ],
+  "raw_response": "```json\n[\n  {\n    \"entity_name\": \"P/ASX 300 HIGH YIELD PLUS ETF UNITS (ZYAU)\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This appears to be a single ETF product with a descriptive name.  The 'P/' likely refers to a particular product identifier.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"DG Lawnton P/L\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is likely a single entity, a company (P/L denotes Proprietary Limited).\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"DG Lawnton Gosford P/L\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Another single entity, a likely branch or subsidiary of DG Lawnton P/L.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Copenhagen Investment Partners/Star of South project\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"While the wording suggests a connection,  'Star of South project' could be a project *undertaken by* Copenhagen Investment Partners.  More context is needed for high confidence.\",\n    \"split_entities\": [\"Copenhagen Investment Partners\", \"Star of South project\"]\n  },\n  {\n    \"entity_name\": \"Rugby Leagues/Minister for the Arts\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Clearly two distinct entities: a sporting league and a government minister.\",\n    \"split_entities\": [\"Rugby Leagues\", \"Minister for the Arts\"]\n  },\n  {\n    \"entity_name\": \"Transport Workers' Union of Australia SA/NT Branch Membership\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This refers to membership within a single union's SA/NT branch.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Australian Government/Yothu Yindi Foundation\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two separate entities: the Australian Government and a specific foundation.\",\n    \"split_entities\": [\"Australian Government\", \"Yothu Yindi Foundation\"]\n  },\n  {\n    \"entity_name\": \"CYMEDI Australia/Saean Motors\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"LOW\",\n    \"explanation\": \"Insufficient information to determine if this is a joint venture or two separate entities mentioned together.\",\n    \"split_entities\": [\"CYMEDI Australia\", \"Saean Motors\"]\n  },\n  {\n    \"entity_name\": \"RHT Investments (QId) P/L\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A single company.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"RHT Family Trust (RHT Investments (Qld) P/L ATF)\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A single family trust, likely holding investments in RHT Investments (Qld) P/L.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"RHT Investment (Qld) P/L\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A single company.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Pebema P/L Superfund\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Likely a single superannuation fund operated by Pebema P/L.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Spouse/partner\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two distinct individuals.\",\n    \"split_entities\": [\"Spouse\", \"partner\"]\n  },\n  {\n    \"entity_name\": \"P/ASX 200 Financial Sector ETF\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A single Exchange Traded Fund.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"CPSU/CSA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Likely two separate unions, but requires confirmation.  The '/' might also represent a combined membership.\",\n    \"split_entities\": [\"CPSU\", \"CSA\"]\n  },\n  {\n    \"entity_name\": \"Harvey Water (South West Irrigation T/A)\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A single entity; 'T/A' means 'Trading As'.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Bank of Queensland/VISA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two separate entities: a bank and a payment network.\",\n    \"split_entities\": [\"Bank of Queensland\", \"VISA\"]\n  },\n  {\n    \"entity_name\": \"Great Southern Bank/CUA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two separate financial institutions.\",\n    \"split_entities\": [\"Great Southern Bank\", \"CUA\"]\n  },\n  {\n    \"entity_name\": \"Murrumbeena / East Malvern Community Financial Services Limited\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"The name suggests a single entity operating in two locations.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Solomon Islands/Save the Children\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A sovereign nation and a non-governmental organization.\",\n    \"split_entities\": [\"Solomon Islands\", \"Save the Children\"]\n  },\n  {\n    \"entity_name\": \"Australian Political Exchange Council/Ministry of Foreign Affairs Japan\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two distinct organizations from different countries.\",\n    \"split_entities\": [\"Australian Political Exchange Council\", \"Ministry of Foreign Affairs Japan\"]\n  },\n  {\n    \"entity_name\": \"FFA / FIFA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two separate football governing bodies.\",\n    \"split_entities\": [\"FFA\", \"FIFA\"]\n  },\n  {\n    \"entity_name\": \"25/6 Cunningham Griffiths ACT\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Uncertain. Could be a property address (25/6) and a company or entity (Cunningham Griffiths ACT), but may be a single entity designation.\",\n    \"split_entities\": []\n  }\n]\n```\n"
+}

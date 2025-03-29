@@ -1,0 +1,1022 @@
+{
+  "batch_id": "comma_15",
+  "category": "comma",
+  "entities": [
+    {
+      "entity": "Queenslanders' Credit union, ME Bank, ANZ + CBA",
+      "proposed_splits": [
+        "Queenslanders' Credit union",
+        "ME Bank",
+        "ANZ",
+        "CBA"
+      ],
+      "context": [
+        {
+          "mp_name": "Terri Butler",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Salary Account",
+          "details": "Salary a/c + personal joint"
+        }
+      ]
+    },
+    {
+      "entity": "Australian Institute of Company Directors, CEMEZ, ASU",
+      "proposed_splits": [
+        "Australian Institute of Company Directors",
+        "CEMEZ",
+        "ASU"
+      ],
+      "context": [
+        {
+          "mp_name": "Terri Butler",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Membership",
+          "details": ""
+        }
+      ]
+    },
+    {
+      "entity": "Karl Marx Club, Old Girls Society, Gerard Hassays for women",
+      "proposed_splits": [
+        "Karl Marx Club",
+        "Old Girls Society",
+        "Gerard Hassays for women"
+      ],
+      "context": [
+        {
+          "mp_name": "Terri Butler",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Membership",
+          "details": ""
+        }
+      ]
+    },
+    {
+      "entity": "Qld District Labour Party, Relations for the ALP, Emily's List",
+      "proposed_splits": [
+        "Qld District Labour Party",
+        "Relations for the ALP",
+        "Emily's List"
+      ],
+      "context": [
+        {
+          "mp_name": "Terri Butler",
+          "party": "Australian Labor Party",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Qld District Labour Party, Relations for the ALP, Emily's List Membership",
+          "details": ""
+        }
+      ]
+    },
+    {
+      "entity": "Theodore Club Inc, Brisbane Broncos Leagues Club, Centenary Inner Club",
+      "proposed_splits": [
+        "Theodore Club Inc",
+        "Brisbane Broncos Leagues Club",
+        "Centenary Inner Club"
+      ],
+      "context": [
+        {
+          "mp_name": "Terri Butler",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Membership",
+          "details": ""
+        }
+      ]
+    },
+    {
+      "entity": "Arnold Dallas McPherson, Lawyers Bendigo",
+      "proposed_splits": [
+        "Arnold Dallas McPherson",
+        "Lawyers Bendigo"
+      ],
+      "context": [
+        {
+          "mp_name": "Lisa Chesters",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Hospitality",
+          "item": "IR21 Luncheon Hospitality",
+          "details": "Hospitality - IR21 Luncheon, Guest of"
+        }
+      ]
+    },
+    {
+      "entity": "GoTafe, Benalla",
+      "proposed_splits": [
+        "GoTafe",
+        "Benalla"
+      ],
+      "context": [
+        {
+          "mp_name": "Lisa Chesters",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Partner's Employer",
+          "details": "Partner Matt's employer"
+        }
+      ]
+    },
+    {
+      "entity": "Yerlan Baudarbek-Kozhatayev, Ambassador of the Republic of Kazakhstan",
+      "proposed_splits": [
+        "Yerlan Baudarbek-Kozhatayev",
+        "Ambassador of the Republic of Kazakhstan"
+      ],
+      "context": [
+        {
+          "mp_name": "Steven Ciobo",
+          "party": "Liberal National Party",
+          "category": "Gift",
+          "sub_category": "Other Gift",
+          "item": "Framed porcelain picture",
+          "details": "Framed porcelain picture \u201cThe Nomads\u2019 Inheritance\u201d by painter Nelly Bube"
+        }
+      ]
+    },
+    {
+      "entity": "H.E U Win Shein, Union Minister, Ministry of Finance, Republic of the Union of Myanmar",
+      "proposed_splits": [
+        "H.E U Win Shein",
+        "Union Minister",
+        "Ministry of Finance",
+        "Republic of the Union of Myanmar"
+      ],
+      "context": [
+        {
+          "mp_name": "Steven Ciobo",
+          "party": "Liberal National Party",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Myanmar Golden Harp Souvenir",
+          "details": "Souvenir of Myanmar \"Golden Harp\""
+        }
+      ]
+    },
+    {
+      "entity": "Crown Metropol, Melbourne",
+      "proposed_splits": [
+        "Crown Metropol",
+        "Melbourne"
+      ],
+      "context": [
+        {
+          "mp_name": "Steven Ciobo",
+          "party": "Liberal National Party",
+          "category": "Travel",
+          "sub_category": "Air Travel",
+          "item": "Hotel Room Upgrade",
+          "details": "Room upgrade"
+        }
+      ]
+    },
+    {
+      "entity": "Channel 9, Clubs NSW, Bankstown Sports Club, Bankstown RSL, Interlink Roads, Macquarie Group, Serco, Linfox, Northrup Grumman, International SOS, Kathmandu, Ms Margaret Jack, Microsoft, Deloitte, Qantas, Optus",
+      "proposed_splits": [
+        "Channel 9",
+        "Clubs NSW",
+        "Bankstown Sports Club",
+        "Bankstown RSL",
+        "Interlink Roads",
+        "Macquarie Group",
+        "Serco",
+        "Linfox",
+        "Northrup Grumman",
+        "International SOS",
+        "Kathmandu",
+        "Ms Margaret Jack",
+        "Microsoft",
+        "Deloitte",
+        "Qantas",
+        "Optus"
+      ],
+      "context": [
+        {
+          "mp_name": "Jason Clare",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Travel Costs to Turkey",
+          "details": "Travel costs to Turkey on the Gallipoli Mateship Trek."
+        }
+      ]
+    },
+    {
+      "entity": "Ms Xiangguang Lin, Ms Qanying Huang",
+      "proposed_splits": [
+        "Ms Xiangguang Lin",
+        "Ms Qanying Huang"
+      ],
+      "context": [
+        {
+          "mp_name": "David Coleman",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Partial Sponsorship for Event",
+          "details": "Partial sponsorship provided for Chinese New Year event held on 25 January 2014"
+        }
+      ]
+    },
+    {
+      "entity": "Intercontinental Gold Coast, Centre for Independent Studies",
+      "proposed_splits": [
+        "Intercontinental Gold Coast",
+        "Centre for Independent Studies"
+      ],
+      "context": [
+        {
+          "mp_name": "David Coleman",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Accommodation and Hospitality",
+          "details": "Accommodation and Hospitality, Intercontinental Gold Coast, Centre for Independent Studies Consilium Conference, 21 August - 23 August 2014"
+        }
+      ]
+    },
+    {
+      "entity": "CAMP MOUNTAIN, QLD",
+      "proposed_splits": [
+        "CAMP MOUNTAIN",
+        "QLD"
+      ],
+      "context": [
+        {
+          "mp_name": "Peter Dutton",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House in CAMP MOUNTAIN",
+          "details": "RESIDENCE"
+        }
+      ]
+    },
+    {
+      "entity": "KINGSTON, ACT",
+      "proposed_splits": [
+        "KINGSTON",
+        "ACT"
+      ],
+      "context": [
+        {
+          "mp_name": "Peter Dutton",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential Property in KINGSTON",
+          "details": "RESIDENTIAL"
+        }
+      ]
+    },
+    {
+      "entity": "MORETON ISLAND, QLD",
+      "proposed_splits": [
+        "MORETON ISLAND",
+        "QLD"
+      ],
+      "context": [
+        {
+          "mp_name": "Peter Dutton",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Investment Property in MORETON ISLAND",
+          "details": "INVESTMENT"
+        }
+      ]
+    },
+    {
+      "entity": "EVERTON PARK, QLD",
+      "proposed_splits": [
+        "EVERTON PARK",
+        "QLD"
+      ],
+      "context": [
+        {
+          "mp_name": "Peter Dutton",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Investment Property in EVERTON PARK",
+          "details": "Spouse - INVESTMENT"
+        }
+      ]
+    },
+    {
+      "entity": "CBA, NAB, QPCU COMMSEC",
+      "proposed_splits": [
+        "CBA",
+        "NAB",
+        "QPCU COMMSEC"
+      ],
+      "context": [
+        {
+          "mp_name": "Peter Dutton",
+          "party": "Liberal National Party",
+          "category": "Liability",
+          "sub_category": "Mortgage",
+          "item": "Mortgage/Credit Facility",
+          "details": "MORTGAGE/CREDIT FACILITY (CLOSED 24/9/13)"
+        }
+      ]
+    },
+    {
+      "entity": "NAB, QPCU, CBA, WESTPAC",
+      "proposed_splits": [
+        "NAB",
+        "QPCU",
+        "CBA",
+        "WESTPAC"
+      ],
+      "context": [
+        {
+          "mp_name": "Peter Dutton",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings Accounts",
+          "details": "SAVINGS"
+        }
+      ]
+    },
+    {
+      "entity": "NAB, QPCU, WESTPAC",
+      "proposed_splits": [
+        "NAB",
+        "QPCU",
+        "WESTPAC"
+      ],
+      "context": [
+        {
+          "mp_name": "Peter Dutton",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings Accounts",
+          "details": "Spouse - SAVINGS"
+        }
+      ]
+    },
+    {
+      "entity": "NAB, CBA",
+      "proposed_splits": [
+        "NAB",
+        "CBA"
+      ],
+      "context": [
+        {
+          "mp_name": "Peter Dutton",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings Accounts",
+          "details": "Dependent Children - SAVINGS"
+        },
+        {
+          "mp_name": "Peter Dutton",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings Account",
+          "details": "Savings Accounts - Dependent Children"
+        },
+        {
+          "mp_name": "Peter Dutton",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings Accounts",
+          "details": "Savings Accounts"
+        },
+        {
+          "mp_name": "Peter Dutton",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings Account",
+          "details": "Savings account"
+        }
+      ]
+    },
+    {
+      "entity": "BALD HILLS CHILD CARE P/L, DUTTON HOLDINGS (QLD) P/L",
+      "proposed_splits": [
+        "BALD HILLS CHILD CARE P",
+        "L",
+        "DUTTON HOLDINGS (QLD) P",
+        "L"
+      ],
+      "context": [
+        {
+          "mp_name": "Peter Dutton",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Employment",
+          "details": "Spouse - EMPLOYMENT"
+        }
+      ]
+    },
+    {
+      "entity": "Bank of Qld, St George Bank, Heritage Building Society",
+      "proposed_splits": [
+        "Bank of Qld",
+        "St George Bank",
+        "Heritage Building Society"
+      ],
+      "context": [
+        {
+          "mp_name": "Justine Elliot",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings Accounts",
+          "details": "Self: Savings Acc., Spouse: Savings Acc., Dependent Children: Savings Acc., Heritage Savings Acc"
+        }
+      ]
+    },
+    {
+      "entity": "North Queensland Cowboys, Rugby League Club",
+      "proposed_splits": [
+        "North Queensland Cowboys",
+        "Rugby League Club"
+      ],
+      "context": [
+        {
+          "mp_name": "Warren Entsch",
+          "party": "Liberal National Party",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "North Queensland Cowboys Membership",
+          "details": "North Queensland Cowboys Membership Value $412.00, Member of Parliamentary Friends of Rugby League 2014."
+        }
+      ]
+    },
+    {
+      "entity": "East Melbourne, VIC",
+      "proposed_splits": [
+        "East Melbourne",
+        "VIC"
+      ],
+      "context": [
+        {
+          "mp_name": "David Ian Feeney",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House in East Melbourne",
+          "details": "Residential Property"
+        }
+      ]
+    },
+    {
+      "entity": "Seddon, VIC",
+      "proposed_splits": [
+        "Seddon",
+        "VIC"
+      ],
+      "context": [
+        {
+          "mp_name": "David Ian Feeney",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Investment Property in Seddon",
+          "details": "Investment Property"
+        }
+      ]
+    },
+    {
+      "entity": "McGuigans Wines, Pokolbin",
+      "proposed_splits": [
+        "McGuigans Wines",
+        "Pokolbin"
+      ],
+      "context": [
+        {
+          "mp_name": "Joel Fitzgibbon",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Hospitality",
+          "item": "Case of McGuigan Wine",
+          "details": "Complimentary case of wine. 3 bottles of McGuigan personal reserve Shiraz 2011 Hunter Valley, 3 bottles of McGuigan Hand made Langhorne Creek Shiraz 2010, 3 bottles of McGuigan personal reserve Chardonnay 2013 - Hunter Ridge Vineyard, 3 bottles of McGuigan The Shortlist Hunter Valley Semillon 2007"
+        }
+      ]
+    },
+    {
+      "entity": "Tyrrell's Wines, Pokolbin",
+      "proposed_splits": [
+        "Tyrrell's Wines",
+        "Pokolbin"
+      ],
+      "context": [
+        {
+          "mp_name": "Joel Fitzgibbon",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Hospitality",
+          "item": "Bottles of Lunatiq Shiraz wine",
+          "details": "3 bottles of Lunatiq Shiraz wine"
+        }
+      ]
+    },
+    {
+      "entity": "National Australia Bank, ING",
+      "proposed_splits": [
+        "National Australia Bank",
+        "ING"
+      ],
+      "context": [
+        {
+          "mp_name": "Josh Frydenberg",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings Account and Cheque Account",
+          "details": "Self: Savings Account (jointly with spouse), Cheque Account National Australia Bank; Spouse: Savings Account ING; Dependent Children: N/A"
+        }
+      ]
+    },
+    {
+      "entity": "House, Mindarie, Western Australia",
+      "proposed_splits": [
+        "House",
+        "Mindarie",
+        "Western Australia"
+      ],
+      "context": [
+        {
+          "mp_name": "Ian Goodenough",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House in Mindarie",
+          "details": "Family Residence"
+        },
+        {
+          "mp_name": "Ian Goodenough",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House",
+          "details": "Family Residence"
+        }
+      ]
+    },
+    {
+      "entity": "House, Leederville, Western Australia",
+      "proposed_splits": [
+        "House",
+        "Leederville",
+        "Western Australia"
+      ],
+      "context": [
+        {
+          "mp_name": "Ian Goodenough",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House in Leederville",
+          "details": "Second Family Residence"
+        },
+        {
+          "mp_name": "Ian Goodenough",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Investment Apartment in Leederville",
+          "details": "Investment Property"
+        },
+        {
+          "mp_name": "Ian Goodenough",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House",
+          "details": "Second Family Residence"
+        },
+        {
+          "mp_name": "Ian Goodenough",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House",
+          "details": "Investment Property"
+        }
+      ]
+    },
+    {
+      "entity": "Commercial Complex, Belmont, Western Australia",
+      "proposed_splits": [
+        "Commercial Complex",
+        "Belmont",
+        "Western Australia"
+      ],
+      "context": [
+        {
+          "mp_name": "Ian Goodenough",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Commercial Property in Belmont",
+          "details": "Business and Investment Purposes"
+        },
+        {
+          "mp_name": "Ian Goodenough",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Commercial",
+          "details": "Business and Investment Purposes"
+        }
+      ]
+    },
+    {
+      "entity": "Factory/Warehouse, Belmont, Western Australia",
+      "proposed_splits": [
+        "Factory",
+        "Warehouse",
+        "Belmont",
+        "Western Australia"
+      ],
+      "context": [
+        {
+          "mp_name": "Ian Goodenough",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Commercial Property in Belmont",
+          "details": "Business and Investment Purposes"
+        },
+        {
+          "mp_name": "Ian Goodenough",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House",
+          "details": "Business and Investment Purposes"
+        }
+      ]
+    },
+    {
+      "entity": "Commercial Complex, Currambine, Western Australia",
+      "proposed_splits": [
+        "Commercial Complex",
+        "Currambine",
+        "Western Australia"
+      ],
+      "context": [
+        {
+          "mp_name": "Ian Goodenough",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Commercial Property in Currambine",
+          "details": "Business and Investment Purposes"
+        },
+        {
+          "mp_name": "Ian Goodenough",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Commercial",
+          "details": "Business and Investment Purposes"
+        }
+      ]
+    },
+    {
+      "entity": "Vacant Land, Currambine, Western Australia",
+      "proposed_splits": [
+        "Vacant Land",
+        "Currambine",
+        "Western Australia"
+      ],
+      "context": [
+        {
+          "mp_name": "Ian Goodenough",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Rural Land in Currambine",
+          "details": "Business and Investment Purposes"
+        },
+        {
+          "mp_name": "Ian Goodenough",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Land",
+          "details": "Business and Investment Purposes"
+        }
+      ]
+    },
+    {
+      "entity": "Rural Property, Red Gully, Western Australia",
+      "proposed_splits": [
+        "Rural Property",
+        "Red Gully",
+        "Western Australia"
+      ],
+      "context": [
+        {
+          "mp_name": "Ian Goodenough",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Rural Land in Red Gully",
+          "details": "Business and Investment Purposes"
+        },
+        {
+          "mp_name": "Ian Goodenough",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Real Estate",
+          "details": "Business and Investment Purposes"
+        }
+      ]
+    },
+    {
+      "entity": "Rural property, Granville, Western Australia",
+      "proposed_splits": [
+        "Rural property",
+        "Granville",
+        "Western Australia"
+      ],
+      "context": [
+        {
+          "mp_name": "Ian Goodenough",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Rural Land in Granville",
+          "details": "Business and Investment Purposes"
+        },
+        {
+          "mp_name": "Ian Goodenough",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Rural Land in Granville, WA",
+          "details": "Business and Investment Purposes"
+        }
+      ]
+    },
+    {
+      "entity": "QT Lounge, Canberra",
+      "proposed_splits": [
+        "QT Lounge",
+        "Canberra"
+      ],
+      "context": [
+        {
+          "mp_name": "Gary Gray",
+          "party": "Australian Labor Party",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Complimentary membership to the QT Lounge, Canberra",
+          "details": "Complimentary membership to the QT Lounge, Canberra."
+        }
+      ]
+    },
+    {
+      "entity": "ANZ, NAB/Homeside, Police Credit Union, TIO, Westpac",
+      "proposed_splits": [
+        "ANZ",
+        "NAB",
+        "Homeside",
+        "Police Credit Union",
+        "TIO",
+        "Westpac"
+      ],
+      "context": [
+        {
+          "mp_name": "Natasha Louise Griggs",
+          "party": "Country Liberal",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings Accounts",
+          "details": "Savings accounts"
+        }
+      ]
+    },
+    {
+      "entity": "Directors Griggsy Pty Ltd, Trustee Company",
+      "proposed_splits": [
+        "Directors Griggsy Pty Ltd",
+        "Trustee Company"
+      ],
+      "context": [
+        {
+          "mp_name": "Natasha Louise Griggs",
+          "party": "Country Liberal",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Director",
+          "details": "Director"
+        }
+      ]
+    },
+    {
+      "entity": "ANZ, Police Credit Union",
+      "proposed_splits": [
+        "ANZ",
+        "Police Credit Union"
+      ],
+      "context": [
+        {
+          "mp_name": "Christopher Hayes",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings/Cheque Accounts",
+          "details": "Savings/Cheque Accounts"
+        }
+      ]
+    },
+    {
+      "entity": "Gorms PIL, Allmero PIL",
+      "proposed_splits": [
+        "Gorms PIL",
+        "Allmero PIL"
+      ],
+      "context": [
+        {
+          "mp_name": "Christopher Hayes",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Agri Business Investment, Debenture",
+          "details": "Investment in Agri Business, Debenture Arlbery Sri Lodge"
+        }
+      ]
+    },
+    {
+      "entity": "Taiwanese Representative, Ms. Catherine Chang",
+      "proposed_splits": [
+        "Taiwanese Representative",
+        "Ms. Catherine Chang"
+      ],
+      "context": [
+        {
+          "mp_name": "Christopher Hayes",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Electronics",
+          "item": "Nexus 7 Tablet",
+          "details": "Received a Nexus 7 Tablet as a gift."
+        }
+      ]
+    },
+    {
+      "entity": "Melbourne Cricket Club, Victoria Racing Club, Geelong Football Club, Irrewarra Beeac Football Club",
+      "proposed_splits": [
+        "Melbourne Cricket Club",
+        "Victoria Racing Club",
+        "Geelong Football Club",
+        "Irrewarra Beeac Football Club"
+      ],
+      "context": [
+        {
+          "mp_name": "Sarah Henderson",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Club Memberships (Various)",
+          "details": "Melbourne Cricket Club; Victoria Racing Club; Geelong Football Club; Irrewarra Beeac Football Club (no. 1 ticket holder 2013)."
+        }
+      ]
+    },
+    {
+      "entity": "Melbourne Cricket Club, The Australian Club, Geelong Football Club, Victorian Farmers Federation; Otway Agroforesty Network; Birregurra Golf Club; Qantas Club",
+      "proposed_splits": [
+        "Melbourne Cricket Club",
+        "The Australian Club",
+        "Geelong Football Club",
+        "Victorian Farmers Federation; Otway Agroforesty Network; Birregurra Golf Club; Qantas Club"
+      ],
+      "context": [
+        {
+          "mp_name": "Sarah Henderson",
+          "party": "Liberal Party of Australia",
+          "category": "Membership",
+          "sub_category": "Professional",
+          "item": "Club Memberships",
+          "details": "Spouse"
+        }
+      ]
+    },
+    {
+      "entity": "HH The Crown Prince of Abu Dhabi, Sheik Mohammed bin Zayed Al Nahyan",
+      "proposed_splits": [
+        "HH The Crown Prince of Abu Dhabi",
+        "Sheik Mohammed bin Zayed Al Nahyan"
+      ],
+      "context": [
+        {
+          "mp_name": "Peter Hendy",
+          "party": "Liberal Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Accommodation and transport to the United Arab Emirates",
+          "details": "Joined other parliamentary colleagues as a guest of the HH The Crown Prince of Abu Dhabi, Sheik Mohammed bin Zayed Al Nahyan on a visit to the United Arab Emirates for 16-22 April 2015 inclusive. The trips purpose was to encourage the trade and security links between Australia and the UAE. All accommodation and transport expenses were met by the Office of the Crown Prince."
+        }
+      ]
+    },
+    {
+      "entity": "Forrest, ACT",
+      "proposed_splits": [
+        "Forrest",
+        "ACT"
+      ],
+      "context": [
+        {
+          "mp_name": "Joseph Benedict Hockey",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House in Forrest",
+          "details": "Investment/Residence"
+        },
+        {
+          "mp_name": "Joseph Benedict Hockey",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Investment Property in Forrest",
+          "details": "Investment (Spouse)"
+        }
+      ]
+    },
+    {
+      "entity": "Malanda, QLD",
+      "proposed_splits": [
+        "Malanda",
+        "QLD"
+      ],
+      "context": [
+        {
+          "mp_name": "Joseph Benedict Hockey",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Farm in Malanda",
+          "details": "Farm Business & Investment"
+        },
+        {
+          "mp_name": "Joseph Benedict Hockey",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Farm Investment in Malanda",
+          "details": "Farm Investment (Spouse)"
+        }
+      ]
+    },
+    {
+      "entity": "Hunters Hill, NSW",
+      "proposed_splits": [
+        "Hunters Hill",
+        "NSW"
+      ],
+      "context": [
+        {
+          "mp_name": "Joseph Benedict Hockey",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House in Hunters Hill",
+          "details": "Residence (Spouse)"
+        }
+      ]
+    },
+    {
+      "entity": "Stanwell Park, NSW",
+      "proposed_splits": [
+        "Stanwell Park",
+        "NSW"
+      ],
+      "context": [
+        {
+          "mp_name": "Joseph Benedict Hockey",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House in Stanwell Park",
+          "details": "Investment/Residence (Spouse)"
+        }
+      ]
+    }
+  ]
+}

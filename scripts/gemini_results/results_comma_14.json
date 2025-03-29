@@ -1,0 +1,521 @@
+{
+  "batch_id": "comma_14",
+  "category": "comma",
+  "entities_count": 50,
+  "analysis_results": [
+    {
+      "entity_name": "The Ministry of Foreign Affairs, Abu Dhabi, UAE",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "The Ministry of Foreign Affairs is a distinct entity from Abu Dhabi and the UAE.  The context shows them providing funding separately.",
+      "split_entities": [
+        "The Ministry of Foreign Affairs",
+        "Abu Dhabi",
+        "UAE"
+      ]
+    },
+    {
+      "entity_name": "Sir Bani Yas Forum, UAE",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "The Sir Bani Yas Forum is an organization distinct from the UAE, which is a country.",
+      "split_entities": [
+        "Sir Bani Yas Forum",
+        "UAE"
+      ]
+    },
+    {
+      "entity_name": "Hyatt Hotel, Intercontinental Hotel, Park Hyatt Hotel",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three separate hotel chains.  The context examples clearly show separate services provided by each.",
+      "split_entities": [
+        "Hyatt Hotel",
+        "Intercontinental Hotel",
+        "Park Hyatt Hotel"
+      ]
+    },
+    {
+      "entity_name": "Backcare Products Australia, National Rugby League, Brisbane Broncos",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three distinct organizations: a product company, a sporting league, and a sporting team.",
+      "split_entities": [
+        "Backcare Products Australia",
+        "National Rugby League",
+        "Brisbane Broncos"
+      ]
+    },
+    {
+      "entity_name": "Australian Institute of Political Science, The",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "\"The\" is part of the formal name of the Australian Institute of Political Science.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Eastwood Club, The",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "\"The\" is part of the formal name of the Eastwood Club.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Law Society of NSW, The",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "\"The\" is part of the formal name of the Law Society of NSW.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Sydney Institute, The",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "\"The\" is part of the formal name of the Sydney Institute.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "UNICEF, Parliamentary Association",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "UNICEF and a Parliamentary Association are clearly distinct international and national organizations respectively.",
+      "split_entities": [
+        "UNICEF",
+        "Parliamentary Association"
+      ]
+    },
+    {
+      "entity_name": "Anglo-Australasian Lawyer's Society, Australia Branch",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single organization with a branch specified.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Australian Lebanese Heart Foundation Ltd, The",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "\"The\" is part of the formal name of the Australian Lebanese Heart Foundation Ltd.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Hills Musical Society, The",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "\"The\" is part of the formal name of the Hills Musical Society.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Liberal Party of Australia, New South Wales Division",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single organization with a specified division.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Westpac, ANZ",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Westpac and ANZ are two separate major Australian banks.",
+      "split_entities": [
+        "Westpac",
+        "ANZ"
+      ]
+    },
+    {
+      "entity_name": "Australian Labor Party, Australian Workers Union",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct Australian political and trade union entities.",
+      "split_entities": [
+        "Australian Labor Party",
+        "Australian Workers Union"
+      ]
+    },
+    {
+      "entity_name": "Qantas, AFL",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Qantas is an airline and the AFL is the Australian Football League.",
+      "split_entities": [
+        "Qantas",
+        "AFL"
+      ]
+    },
+    {
+      "entity_name": "Etihad Airways, Qantas Airways",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate international airlines.",
+      "split_entities": [
+        "Etihad Airways",
+        "Qantas Airways"
+      ]
+    },
+    {
+      "entity_name": "Mr Ilija Dimovski MP, Assembly of the Republic of Macedonia",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Mr. Dimovski is a person, and the Assembly is a separate governmental body.",
+      "split_entities": [
+        "Mr Ilija Dimovski MP",
+        "Assembly of the Republic of Macedonia"
+      ]
+    },
+    {
+      "entity_name": "Mayor of Prelip, Republic of Macedonia",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "The Mayor is a person, and the Republic of Macedonia is a country.",
+      "split_entities": [
+        "Mayor of Prelip",
+        "Republic of Macedonia"
+      ]
+    },
+    {
+      "entity_name": "Qantas, Virgin Blue, ASTRA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three distinct organizations: two airlines and a media association.",
+      "split_entities": [
+        "Qantas",
+        "Virgin Blue",
+        "ASTRA"
+      ]
+    },
+    {
+      "entity_name": "Carlton Football Club, MCC, RACV, Liberal Party, Chevrolet Car Club, Union-University, RSL, Croydon Chamber of Commerce, Eastwood Golf Club",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This is a list of several distinct Australian organizations.",
+      "split_entities": [
+        "Carlton Football Club",
+        "MCC",
+        "RACV",
+        "Liberal Party",
+        "Chevrolet Car Club",
+        "Union-University",
+        "RSL",
+        "Croydon Chamber of Commerce",
+        "Eastwood Golf Club"
+      ]
+    },
+    {
+      "entity_name": "Vietnam Veterans Federation, SA Branch",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single organization with a specified branch.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "QANTAS CHAIRMAN'S LOUNGE, VELOCITY (VIRGIN AIRLINES)",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These refer to loyalty programs of two separate airlines.",
+      "split_entities": [
+        "QANTAS CHAIRMAN'S LOUNGE",
+        "VELOCITY (VIRGIN AIRLINES)"
+      ]
+    },
+    {
+      "entity_name": "SCOUTS VICTORIA, FRIENDS OF MOONEE PONDS CREEK, AUSTRALIAN CONSERVATION, AUSTRALIAN WORKERS UNION",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are four distinct organizations.",
+      "split_entities": [
+        "SCOUTS VICTORIA",
+        "FRIENDS OF MOONEE PONDS CREEK",
+        "AUSTRALIAN CONSERVATION",
+        "AUSTRALIAN WORKERS UNION"
+      ]
+    },
+    {
+      "entity_name": "Canberra ACT, Point Piper NSW, Potts Point NSW, Paddington NSW",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are locations, not organizations.",
+      "split_entities": [
+        "Canberra ACT",
+        "Point Piper NSW",
+        "Potts Point NSW",
+        "Paddington NSW"
+      ]
+    },
+    {
+      "entity_name": "Goldman Sachs, Goldman Sachs JB Were, Merrill Lynch, Morgan Stanley, Commonwealth Bank, Macquarie Bank, St George Bank, Westpac Banking Corporation",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This is a list of several distinct financial institutions.",
+      "split_entities": [
+        "Goldman Sachs",
+        "Goldman Sachs JB Were",
+        "Merrill Lynch",
+        "Morgan Stanley",
+        "Commonwealth Bank",
+        "Macquarie Bank",
+        "St George Bank",
+        "Westpac Banking Corporation"
+      ]
+    },
+    {
+      "entity_name": "Self, Wilcrow, TDF Hughes",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These appear to be individual or business names.",
+      "split_entities": [
+        "Self",
+        "Wilcrow",
+        "TDF Hughes"
+      ]
+    },
+    {
+      "entity_name": "Athenaeum (Philadelphia), Australian Club, Australian National Flag Association, Australian Republican Movement, Bondi Icebergs, Bondi Junction Waverley RSL, Eastern Suburbs Leagues Club, Hakoah Club, Law Institute of Victoria, Liberal Party of Australia, Lions Club of the Australian Parliament, North Bondi Surf Club, NSW Law Society, Rose Bay RSL",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This is a list of various Australian clubs and organizations.",
+      "split_entities": [
+        "Athenaeum (Philadelphia)",
+        "Australian Club",
+        "Australian National Flag Association",
+        "Australian Republican Movement",
+        "Bondi Icebergs",
+        "Bondi Junction Waverley RSL",
+        "Eastern Suburbs Leagues Club",
+        "Hakoah Club",
+        "Law Institute of Victoria",
+        "Liberal Party of Australia",
+        "Lions Club of the Australian Parliament",
+        "North Bondi Surf Club",
+        "NSW Law Society",
+        "Rose Bay RSL"
+      ]
+    },
+    {
+      "entity_name": "SPY, XME, XLE (MB Turnbull Pty Ltd)",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "Likely refers to investment vehicles.  More information is needed to confirm if they are all distinct.",
+      "split_entities": [
+        "SPY",
+        "XME",
+        "XLE (MB Turnbull Pty Ltd)"
+      ]
+    },
+    {
+      "entity_name": "CACT.SI, CMLT.SI, AEMN.SI (Wilcrow)",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "Likely refers to investment vehicles.  More information is needed to confirm if they are all distinct.",
+      "split_entities": [
+        "CACT.SI",
+        "CMLT.SI",
+        "AEMN.SI (Wilcrow)"
+      ]
+    },
+    {
+      "entity_name": "PPLT.K, XLE (Self)",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "Likely refers to investment vehicles.  More information is needed to confirm if they are all distinct.",
+      "split_entities": [
+        "PPLT.K",
+        "XLE (Self)"
+      ]
+    },
+    {
+      "entity_name": "Expert Panel on Constitutional Recognition of Local Government (Spouse), Integrated Design Commission SA (Spouse)",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two distinct organizations are mentioned.",
+      "split_entities": [
+        "Expert Panel on Constitutional Recognition of Local Government (Spouse)",
+        "Integrated Design Commission SA (Spouse)"
+      ]
+    },
+    {
+      "entity_name": "Santos Finance Hybrid CPN, Renewable Energy Corp Bond (MB Turnbull Pty Ltd)",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "Likely refers to financial instruments, needs further information to confirm distinctness.",
+      "split_entities": [
+        "Santos Finance Hybrid CPN",
+        "Renewable Energy Corp Bond (MB Turnbull Pty Ltd)"
+      ]
+    },
+    {
+      "entity_name": "Point Piper, NSW",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Point Piper is a location, NSW is a state.",
+      "split_entities": [
+        "Point Piper",
+        "NSW"
+      ]
+    },
+    {
+      "entity_name": "New York, USA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "New York is a city, USA is a country.",
+      "split_entities": [
+        "New York",
+        "USA"
+      ]
+    },
+    {
+      "entity_name": "Telstra, Optus, GlobalGig, Sydney Festival",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are four distinct Australian companies and an event.",
+      "split_entities": [
+        "Telstra",
+        "Optus",
+        "GlobalGig",
+        "Sydney Festival"
+      ]
+    },
+    {
+      "entity_name": "Centre for Liveable Cities, Government of Singapore",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "The Centre is a specific entity within the Singaporean government.",
+      "split_entities": [
+        "Centre for Liveable Cities",
+        "Government of Singapore"
+      ]
+    },
+    {
+      "entity_name": "Asciano, Electorate Office",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Asciano is a company, the Electorate Office is a separate entity.",
+      "split_entities": [
+        "Asciano",
+        "Electorate Office"
+      ]
+    },
+    {
+      "entity_name": "Manly Sea Eagles, NRMA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Manly Sea Eagles are a rugby league team, NRMA is an Australian road service organization.",
+      "split_entities": [
+        "Manly Sea Eagles",
+        "NRMA"
+      ]
+    },
+    {
+      "entity_name": "Anthony Johnston, URM Managing Director",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Anthony Johnston is a person; URM Managing Director is a title/position.",
+      "split_entities": [
+        "Anthony Johnston",
+        "URM Managing Director"
+      ]
+    },
+    {
+      "entity_name": "Jonah's, Whale Beach",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Jonah's is likely a restaurant; Whale Beach is a location.",
+      "split_entities": [
+        "Jonah's",
+        "Whale Beach"
+      ]
+    },
+    {
+      "entity_name": "Rimbink Pato, Papua New Guinea Minister for Foreign Affairs",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Rimbink Pato is a person, the title is a separate governmental position.",
+      "split_entities": [
+        "Rimbink Pato",
+        "Papua New Guinea Minister for Foreign Affairs"
+      ]
+    },
+    {
+      "entity_name": "Rural Finance, Victoria",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Rural Finance is likely a company or government agency, Victoria is a state.",
+      "split_entities": [
+        "Rural Finance",
+        "Victoria"
+      ]
+    },
+    {
+      "entity_name": "Qantas, Virgin Australia",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two major Australian airlines.",
+      "split_entities": [
+        "Qantas",
+        "Virgin Australia"
+      ]
+    },
+    {
+      "entity_name": "Bankvic, Victorian Teachers Mutual Bank",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct Australian banks.",
+      "split_entities": [
+        "Bankvic",
+        "Victorian Teachers Mutual Bank"
+      ]
+    },
+    {
+      "entity_name": "Wilson Medic One, Benetas",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct healthcare providers.",
+      "split_entities": [
+        "Wilson Medic One",
+        "Benetas"
+      ]
+    },
+    {
+      "entity_name": "Australian Opera, Sydney Theatre Company, Belvoir Theatre Company",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three distinct performing arts organizations.",
+      "split_entities": [
+        "Australian Opera",
+        "Sydney Theatre Company",
+        "Belvoir Theatre Company"
+      ]
+    },
+    {
+      "entity_name": "Chugg Entertainment, NRL, Canterbury Bulldogs",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are a promotions company, a sporting league, and a sporting team.",
+      "split_entities": [
+        "Chugg Entertainment",
+        "NRL",
+        "Canterbury Bulldogs"
+      ]
+    },
+    {
+      "entity_name": "SBS, NRMA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "SBS is a broadcaster, NRMA is an Australian road service organization.",
+      "split_entities": [
+        "SBS",
+        "NRMA"
+      ]
+    },
+    {
+      "entity_name": "Kazaru Pty Ltd, 123 Childcare",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct entities, likely a company and a childcare center.",
+      "split_entities": [
+        "Kazaru Pty Ltd",
+        "123 Childcare"
+      ]
+    }
+  ],
+  "raw_response": "```json\n[\n  {\n    \"entity_name\": \"The Ministry of Foreign Affairs, Abu Dhabi, UAE\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"The Ministry of Foreign Affairs is a distinct entity from Abu Dhabi and the UAE.  The context shows them providing funding separately.\",\n    \"split_entities\": [\"The Ministry of Foreign Affairs\", \"Abu Dhabi\", \"UAE\"]\n  },\n  {\n    \"entity_name\": \"Sir Bani Yas Forum, UAE\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"The Sir Bani Yas Forum is an organization distinct from the UAE, which is a country.\",\n    \"split_entities\": [\"Sir Bani Yas Forum\", \"UAE\"]\n  },\n  {\n    \"entity_name\": \"Hyatt Hotel, Intercontinental Hotel, Park Hyatt Hotel\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three separate hotel chains.  The context examples clearly show separate services provided by each.\",\n    \"split_entities\": [\"Hyatt Hotel\", \"Intercontinental Hotel\", \"Park Hyatt Hotel\"]\n  },\n  {\n    \"entity_name\": \"Backcare Products Australia, National Rugby League, Brisbane Broncos\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three distinct organizations: a product company, a sporting league, and a sporting team.\",\n    \"split_entities\": [\"Backcare Products Australia\", \"National Rugby League\", \"Brisbane Broncos\"]\n  },\n  {\n    \"entity_name\": \"Australian Institute of Political Science, The\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"\\\"The\\\" is part of the formal name of the Australian Institute of Political Science.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Eastwood Club, The\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"\\\"The\\\" is part of the formal name of the Eastwood Club.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Law Society of NSW, The\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"\\\"The\\\" is part of the formal name of the Law Society of NSW.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Sydney Institute, The\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"\\\"The\\\" is part of the formal name of the Sydney Institute.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"UNICEF, Parliamentary Association\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"UNICEF and a Parliamentary Association are clearly distinct international and national organizations respectively.\",\n    \"split_entities\": [\"UNICEF\", \"Parliamentary Association\"]\n  },\n  {\n    \"entity_name\": \"Anglo-Australasian Lawyer's Society, Australia Branch\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single organization with a branch specified.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Australian Lebanese Heart Foundation Ltd, The\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"\\\"The\\\" is part of the formal name of the Australian Lebanese Heart Foundation Ltd.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Hills Musical Society, The\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"\\\"The\\\" is part of the formal name of the Hills Musical Society.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Liberal Party of Australia, New South Wales Division\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single organization with a specified division.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Westpac, ANZ\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Westpac and ANZ are two separate major Australian banks.\",\n    \"split_entities\": [\"Westpac\", \"ANZ\"]\n  },\n  {\n    \"entity_name\": \"Australian Labor Party, Australian Workers Union\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct Australian political and trade union entities.\",\n    \"split_entities\": [\"Australian Labor Party\", \"Australian Workers Union\"]\n  },\n  {\n    \"entity_name\": \"Qantas, AFL\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Qantas is an airline and the AFL is the Australian Football League.\",\n    \"split_entities\": [\"Qantas\", \"AFL\"]\n  },\n  {\n    \"entity_name\": \"Etihad Airways, Qantas Airways\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate international airlines.\",\n    \"split_entities\": [\"Etihad Airways\", \"Qantas Airways\"]\n  },\n  {\n    \"entity_name\": \"Mr Ilija Dimovski MP, Assembly of the Republic of Macedonia\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Mr. Dimovski is a person, and the Assembly is a separate governmental body.\",\n    \"split_entities\": [\"Mr Ilija Dimovski MP\", \"Assembly of the Republic of Macedonia\"]\n  },\n  {\n    \"entity_name\": \"Mayor of Prelip, Republic of Macedonia\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"The Mayor is a person, and the Republic of Macedonia is a country.\",\n    \"split_entities\": [\"Mayor of Prelip\", \"Republic of Macedonia\"]\n  },\n  {\n    \"entity_name\": \"Qantas, Virgin Blue, ASTRA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three distinct organizations: two airlines and a media association.\",\n    \"split_entities\": [\"Qantas\", \"Virgin Blue\", \"ASTRA\"]\n  },\n  {\n    \"entity_name\": \"Carlton Football Club, MCC, RACV, Liberal Party, Chevrolet Car Club, Union-University, RSL, Croydon Chamber of Commerce, Eastwood Golf Club\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a list of several distinct Australian organizations.\",\n    \"split_entities\": [\"Carlton Football Club\", \"MCC\", \"RACV\", \"Liberal Party\", \"Chevrolet Car Club\", \"Union-University\", \"RSL\", \"Croydon Chamber of Commerce\", \"Eastwood Golf Club\"]\n  },\n  {\n    \"entity_name\": \"Vietnam Veterans Federation, SA Branch\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single organization with a specified branch.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"QANTAS CHAIRMAN'S LOUNGE, VELOCITY (VIRGIN AIRLINES)\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These refer to loyalty programs of two separate airlines.\",\n    \"split_entities\": [\"QANTAS CHAIRMAN'S LOUNGE\", \"VELOCITY (VIRGIN AIRLINES)\"]\n  },\n  {\n    \"entity_name\": \"SCOUTS VICTORIA, FRIENDS OF MOONEE PONDS CREEK, AUSTRALIAN CONSERVATION, AUSTRALIAN WORKERS UNION\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are four distinct organizations.\",\n    \"split_entities\": [\"SCOUTS VICTORIA\", \"FRIENDS OF MOONEE PONDS CREEK\", \"AUSTRALIAN CONSERVATION\", \"AUSTRALIAN WORKERS UNION\"]\n  },\n  {\n    \"entity_name\": \"Canberra ACT, Point Piper NSW, Potts Point NSW, Paddington NSW\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are locations, not organizations.\",\n    \"split_entities\": [\"Canberra ACT\", \"Point Piper NSW\", \"Potts Point NSW\", \"Paddington NSW\"]\n  },\n  {\n    \"entity_name\": \"Goldman Sachs, Goldman Sachs JB Were, Merrill Lynch, Morgan Stanley, Commonwealth Bank, Macquarie Bank, St George Bank, Westpac Banking Corporation\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a list of several distinct financial institutions.\",\n    \"split_entities\": [\"Goldman Sachs\", \"Goldman Sachs JB Were\", \"Merrill Lynch\", \"Morgan Stanley\", \"Commonwealth Bank\", \"Macquarie Bank\", \"St George Bank\", \"Westpac Banking Corporation\"]\n  },\n  {\n    \"entity_name\": \"Self, Wilcrow, TDF Hughes\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These appear to be individual or business names.\",\n    \"split_entities\": [\"Self\", \"Wilcrow\", \"TDF Hughes\"]\n  },\n  {\n    \"entity_name\": \"Athenaeum (Philadelphia), Australian Club, Australian National Flag Association, Australian Republican Movement, Bondi Icebergs, Bondi Junction Waverley RSL, Eastern Suburbs Leagues Club, Hakoah Club, Law Institute of Victoria, Liberal Party of Australia, Lions Club of the Australian Parliament, North Bondi Surf Club, NSW Law Society, Rose Bay RSL\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a list of various Australian clubs and organizations.\",\n    \"split_entities\": [\"Athenaeum (Philadelphia)\", \"Australian Club\", \"Australian National Flag Association\", \"Australian Republican Movement\", \"Bondi Icebergs\", \"Bondi Junction Waverley RSL\", \"Eastern Suburbs Leagues Club\", \"Hakoah Club\", \"Law Institute of Victoria\", \"Liberal Party of Australia\", \"Lions Club of the Australian Parliament\", \"North Bondi Surf Club\", \"NSW Law Society\", \"Rose Bay RSL\"]\n  },\n  {\n    \"entity_name\": \"SPY, XME, XLE (MB Turnbull Pty Ltd)\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Likely refers to investment vehicles.  More information is needed to confirm if they are all distinct.\",\n    \"split_entities\": [\"SPY\", \"XME\", \"XLE (MB Turnbull Pty Ltd)\"]\n  },\n  {\n    \"entity_name\": \"CACT.SI, CMLT.SI, AEMN.SI (Wilcrow)\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Likely refers to investment vehicles.  More information is needed to confirm if they are all distinct.\",\n    \"split_entities\": [\"CACT.SI\", \"CMLT.SI\", \"AEMN.SI (Wilcrow)\"]\n  },\n  {\n    \"entity_name\": \"PPLT.K, XLE (Self)\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Likely refers to investment vehicles.  More information is needed to confirm if they are all distinct.\",\n    \"split_entities\": [\"PPLT.K\", \"XLE (Self)\"]\n  },\n  {\n    \"entity_name\": \"Expert Panel on Constitutional Recognition of Local Government (Spouse), Integrated Design Commission SA (Spouse)\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two distinct organizations are mentioned.\",\n    \"split_entities\": [\"Expert Panel on Constitutional Recognition of Local Government (Spouse)\", \"Integrated Design Commission SA (Spouse)\"]\n  },\n  {\n    \"entity_name\": \"Santos Finance Hybrid CPN, Renewable Energy Corp Bond (MB Turnbull Pty Ltd)\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Likely refers to financial instruments, needs further information to confirm distinctness.\",\n    \"split_entities\": [\"Santos Finance Hybrid CPN\", \"Renewable Energy Corp Bond (MB Turnbull Pty Ltd)\"]\n  },\n  {\n    \"entity_name\": \"Point Piper, NSW\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Point Piper is a location, NSW is a state.\",\n    \"split_entities\": [\"Point Piper\", \"NSW\"]\n  },\n  {\n    \"entity_name\": \"New York, USA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"New York is a city, USA is a country.\",\n    \"split_entities\": [\"New York\", \"USA\"]\n  },\n  {\n    \"entity_name\": \"Telstra, Optus, GlobalGig, Sydney Festival\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are four distinct Australian companies and an event.\",\n    \"split_entities\": [\"Telstra\", \"Optus\", \"GlobalGig\", \"Sydney Festival\"]\n  },\n  {\n    \"entity_name\": \"Centre for Liveable Cities, Government of Singapore\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"The Centre is a specific entity within the Singaporean government.\",\n    \"split_entities\": [\"Centre for Liveable Cities\", \"Government of Singapore\"]\n  },\n  {\n    \"entity_name\": \"Asciano, Electorate Office\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Asciano is a company, the Electorate Office is a separate entity.\",\n    \"split_entities\": [\"Asciano\", \"Electorate Office\"]\n  },\n  {\n    \"entity_name\": \"Manly Sea Eagles, NRMA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Manly Sea Eagles are a rugby league team, NRMA is an Australian road service organization.\",\n    \"split_entities\": [\"Manly Sea Eagles\", \"NRMA\"]\n  },\n  {\n    \"entity_name\": \"Anthony Johnston, URM Managing Director\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Anthony Johnston is a person; URM Managing Director is a title/position.\",\n    \"split_entities\": [\"Anthony Johnston\", \"URM Managing Director\"]\n  },\n  {\n    \"entity_name\": \"Jonah's, Whale Beach\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Jonah's is likely a restaurant; Whale Beach is a location.\",\n    \"split_entities\": [\"Jonah's\", \"Whale Beach\"]\n  },\n  {\n    \"entity_name\": \"Rimbink Pato, Papua New Guinea Minister for Foreign Affairs\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Rimbink Pato is a person, the title is a separate governmental position.\",\n    \"split_entities\": [\"Rimbink Pato\", \"Papua New Guinea Minister for Foreign Affairs\"]\n  },\n  {\n    \"entity_name\": \"Rural Finance, Victoria\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Rural Finance is likely a company or government agency, Victoria is a state.\",\n    \"split_entities\": [\"Rural Finance\", \"Victoria\"]\n  },\n  {\n    \"entity_name\": \"Qantas, Virgin Australia\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two major Australian airlines.\",\n    \"split_entities\": [\"Qantas\", \"Virgin Australia\"]\n  },\n  {\n    \"entity_name\": \"Bankvic, Victorian Teachers Mutual Bank\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct Australian banks.\",\n    \"split_entities\": [\"Bankvic\", \"Victorian Teachers Mutual Bank\"]\n  },\n  {\n    \"entity_name\": \"Wilson Medic One, Benetas\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct healthcare providers.\",\n    \"split_entities\": [\"Wilson Medic One\", \"Benetas\"]\n  },\n  {\n    \"entity_name\": \"Australian Opera, Sydney Theatre Company, Belvoir Theatre Company\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three distinct performing arts organizations.\",\n    \"split_entities\": [\"Australian Opera\", \"Sydney Theatre Company\", \"Belvoir Theatre Company\"]\n  },\n  {\n    \"entity_name\": \"Chugg Entertainment, NRL, Canterbury Bulldogs\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are a promotions company, a sporting league, and a sporting team.\",\n    \"split_entities\": [\"Chugg Entertainment\", \"NRL\", \"Canterbury Bulldogs\"]\n  },\n  {\n    \"entity_name\": \"SBS, NRMA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"SBS is a broadcaster, NRMA is an Australian road service organization.\",\n    \"split_entities\": [\"SBS\", \"NRMA\"]\n  },\n  {\n    \"entity_name\": \"Kazaru Pty Ltd, 123 Childcare\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct entities, likely a company and a childcare center.\",\n    \"split_entities\": [\"Kazaru Pty Ltd\", \"123 Childcare\"]\n  }\n]\n```\n"
+}

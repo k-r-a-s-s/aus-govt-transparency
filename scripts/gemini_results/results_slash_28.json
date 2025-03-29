@@ -1,0 +1,404 @@
+{
+  "batch_id": "slash_28",
+  "category": "slash",
+  "entities_count": 50,
+  "analysis_results": [
+    {
+      "entity_name": "Exquisart P/L",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "P/L is a common suffix in Australian company names indicating 'Proprietary Limited'.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "PSS /AGEST",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "The use of '/' suggests two separate entities, but without further information, it's not definitive.",
+      "split_entities": [
+        "PSS",
+        "AGEST"
+      ]
+    },
+    {
+      "entity_name": "Minister Pato/Wapenamanda Community",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Clearly identifies a Minister and a community group as separate givers.",
+      "split_entities": [
+        "Minister Pato",
+        "Wapenamanda Community"
+      ]
+    },
+    {
+      "entity_name": "Qantas/Emirates",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct, well-known international airlines.",
+      "split_entities": [
+        "Qantas",
+        "Emirates"
+      ]
+    },
+    {
+      "entity_name": "Mortgage/Credit Card Bank of Melbourne",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Appears to be a single bank offering both mortgage and credit card services.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "ESSS / Uni Super",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "The '/' suggests two separate superannuation entities, but confirmation is needed.",
+      "split_entities": [
+        "ESSS",
+        "Uni Super"
+      ]
+    },
+    {
+      "entity_name": "Australia/Israel Jewish Affairs Council (AIJAC)",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single organization with a name reflecting its area of operation.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "ANU/Chifley Research Centre",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "The Chifley Research Centre is likely a part of the ANU (Australian National University).",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Australia/Israel Jewish Affairs Council",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single organization with a name reflecting its area of operation.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Australian Infrastructure Fund Units/Ordinary Fully Paid",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Describes different classes of units within a single fund.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "RHT INVESTMENTS P/L",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "P/L denotes 'Proprietary Limited', a common Australian company designation.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "LABOUR SERVICES+HOLDINGS P/L",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A single entity with a compound name. '+' is sometimes used instead of '&'.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Homeside/NAB",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Homeside and NAB (National Australia Bank) are distinct entities.",
+      "split_entities": [
+        "Homeside",
+        "NAB"
+      ]
+    },
+    {
+      "entity_name": "Commonwealth Bank of Australia/Colonial First State",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate major financial institutions in Australia.",
+      "split_entities": [
+        "Commonwealth Bank of Australia",
+        "Colonial First State"
+      ]
+    },
+    {
+      "entity_name": "Emirates/Qantas",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct, well-known international airlines.",
+      "split_entities": [
+        "Emirates",
+        "Qantas"
+      ]
+    },
+    {
+      "entity_name": "MultiMix W/S Aust Property Trust",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Likely a single property trust with a descriptive name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "AGEST Super P/L",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "P/L denotes 'Proprietary Limited', a common Australian company designation.  'Super' likely refers to superannuation.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Avanti Investments P/L",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "P/L denotes 'Proprietary Limited', a common Australian company designation.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "ANZ Investments P/L.",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "P/L denotes 'Proprietary Limited', a common Australian company designation.  'ANZ' likely refers to Australia and New Zealand Banking Group.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Sydney/Melbourne",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct Australian cities.",
+      "split_entities": [
+        "Sydney",
+        "Melbourne"
+      ]
+    },
+    {
+      "entity_name": "Melbourne/Sydney",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct Australian cities.",
+      "split_entities": [
+        "Melbourne",
+        "Sydney"
+      ]
+    },
+    {
+      "entity_name": "Westpac/Bankers' Trust",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate financial institutions.",
+      "split_entities": [
+        "Westpac",
+        "Bankers' Trust"
+      ]
+    },
+    {
+      "entity_name": "East Malvern/Tooronga Cricket Club",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Likely a single cricket club with a name incorporating two locations.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Pepe Family Trust/Pasin Nominees",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are likely two separate entities, a trust and a nominee company.",
+      "split_entities": [
+        "Pepe Family Trust",
+        "Pasin Nominees"
+      ]
+    },
+    {
+      "entity_name": "Barranco P/L",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "P/L denotes 'Proprietary Limited', a common Australian company designation.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "TUP Robb P/L (Ha Armchair)",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "P/L denotes 'Proprietary Limited', a common Australian company designation.  The parenthetical is descriptive, not another entity.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Collective Events P/L",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "P/L denotes 'Proprietary Limited', a common Australian company designation.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "AP Goldsmith Investments/L",
+      "classification": "SINGLE",
+      "confidence": "MEDIUM",
+      "explanation": "Unclear if '/L' is part of the name or an abbreviation. Needs further context.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "RAM Consultancy P/L",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "P/L denotes 'Proprietary Limited', a common Australian company designation.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "RAM Consultants P/L",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "P/L denotes 'Proprietary Limited', a common Australian company designation.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Asgard/St George",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two different financial institutions.",
+      "split_entities": [
+        "Asgard",
+        "St George"
+      ]
+    },
+    {
+      "entity_name": "P/ASX Dividend Opportunities ETF",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is likely a single Exchange Traded Fund (ETF).",
+      "split_entities": []
+    },
+    {
+      "entity_name": "NAB / ANZ / Macquarie Bank",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three distinct major Australian banks.",
+      "split_entities": [
+        "NAB",
+        "ANZ",
+        "Macquarie Bank"
+      ]
+    },
+    {
+      "entity_name": "CITIBANK US A/c",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A/c likely refers to account; this is one bank account.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "CITIBANK GREECE A/c",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A/c likely refers to account; this is one bank account.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "BANK OF CHINA - CHINA A/c",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A/c likely refers to account; this is one bank account.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "AFSH Nominees P/L",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "P/L denotes 'Proprietary Limited', a common Australian company designation.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "GILBERT FRANK INVESTMENTS P/L",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "P/L denotes 'Proprietary Limited', a common Australian company designation.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Astra/Foxtel",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Astra and Foxtel are distinct companies, though there's a business relationship implied.",
+      "split_entities": [
+        "Astra",
+        "Foxtel"
+      ]
+    },
+    {
+      "entity_name": "PSS/AGEST",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "The use of '/' suggests two separate entities, but without further information, it's not definitive.",
+      "split_entities": [
+        "PSS",
+        "AGEST"
+      ]
+    },
+    {
+      "entity_name": "Bendigo/ Adelaide Bank",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is the formal name of a single Australian bank.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "CJC Property Consultants Pty Ltd (t/a Nineteen Consulting)",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "'t/a' means 'trading as'; it's a single company using a different trading name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "CJC Property Consultants PL (t/a Nineteen Consulting)",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "'t/a' means 'trading as'; it's a single company using a different trading name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Dutton Holdings (Qld) P/L",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "P/L denotes 'Proprietary Limited', a common Australian company designation.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "PK Super (Qld) P/L",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "P/L denotes 'Proprietary Limited', a common Australian company designation.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "RHT Family Trust (RHT Investments P/L ATF)",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This appears to be a single family trust with an associated company.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "RHT Investments (Qld) P/L",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "P/L denotes 'Proprietary Limited', a common Australian company designation.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "PK Super P/L",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "P/L denotes 'Proprietary Limited', a common Australian company designation.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "VA 812 SYD/MELB",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a flight number with origin and destination cities.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "VA 925 SYD/BRISBANE",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a flight number with origin and destination cities.",
+      "split_entities": []
+    }
+  ],
+  "raw_response": "```json\n[\n  {\n    \"entity_name\": \"Exquisart P/L\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"P/L is a common suffix in Australian company names indicating 'Proprietary Limited'.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"PSS /AGEST\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"The use of '/' suggests two separate entities, but without further information, it's not definitive.\",\n    \"split_entities\": [\"PSS\", \"AGEST\"]\n  },\n  {\n    \"entity_name\": \"Minister Pato/Wapenamanda Community\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Clearly identifies a Minister and a community group as separate givers.\",\n    \"split_entities\": [\"Minister Pato\", \"Wapenamanda Community\"]\n  },\n  {\n    \"entity_name\": \"Qantas/Emirates\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct, well-known international airlines.\",\n    \"split_entities\": [\"Qantas\", \"Emirates\"]\n  },\n  {\n    \"entity_name\": \"Mortgage/Credit Card Bank of Melbourne\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Appears to be a single bank offering both mortgage and credit card services.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"ESSS / Uni Super\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"The '/' suggests two separate superannuation entities, but confirmation is needed.\",\n    \"split_entities\": [\"ESSS\", \"Uni Super\"]\n  },\n  {\n    \"entity_name\": \"Australia/Israel Jewish Affairs Council (AIJAC)\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single organization with a name reflecting its area of operation.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"ANU/Chifley Research Centre\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"The Chifley Research Centre is likely a part of the ANU (Australian National University).\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Australia/Israel Jewish Affairs Council\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single organization with a name reflecting its area of operation.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Australian Infrastructure Fund Units/Ordinary Fully Paid\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Describes different classes of units within a single fund.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"RHT INVESTMENTS P/L\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"P/L denotes 'Proprietary Limited', a common Australian company designation.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"LABOUR SERVICES+HOLDINGS P/L\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A single entity with a compound name. '+' is sometimes used instead of '&'.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Homeside/NAB\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Homeside and NAB (National Australia Bank) are distinct entities.\",\n    \"split_entities\": [\"Homeside\", \"NAB\"]\n  },\n  {\n    \"entity_name\": \"Commonwealth Bank of Australia/Colonial First State\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate major financial institutions in Australia.\",\n    \"split_entities\": [\"Commonwealth Bank of Australia\", \"Colonial First State\"]\n  },\n  {\n    \"entity_name\": \"Emirates/Qantas\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct, well-known international airlines.\",\n    \"split_entities\": [\"Emirates\", \"Qantas\"]\n  },\n  {\n    \"entity_name\": \"MultiMix W/S Aust Property Trust\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Likely a single property trust with a descriptive name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"AGEST Super P/L\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"P/L denotes 'Proprietary Limited', a common Australian company designation.  'Super' likely refers to superannuation.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Avanti Investments P/L\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"P/L denotes 'Proprietary Limited', a common Australian company designation.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"ANZ Investments P/L.\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"P/L denotes 'Proprietary Limited', a common Australian company designation.  'ANZ' likely refers to Australia and New Zealand Banking Group.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Sydney/Melbourne\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct Australian cities.\",\n    \"split_entities\": [\"Sydney\", \"Melbourne\"]\n  },\n  {\n    \"entity_name\": \"Melbourne/Sydney\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct Australian cities.\",\n    \"split_entities\": [\"Melbourne\", \"Sydney\"]\n  },\n  {\n    \"entity_name\": \"Westpac/Bankers' Trust\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate financial institutions.\",\n    \"split_entities\": [\"Westpac\", \"Bankers' Trust\"]\n  },\n  {\n    \"entity_name\": \"East Malvern/Tooronga Cricket Club\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Likely a single cricket club with a name incorporating two locations.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Pepe Family Trust/Pasin Nominees\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are likely two separate entities, a trust and a nominee company.\",\n    \"split_entities\": [\"Pepe Family Trust\", \"Pasin Nominees\"]\n  },\n  {\n    \"entity_name\": \"Barranco P/L\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"P/L denotes 'Proprietary Limited', a common Australian company designation.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"TUP Robb P/L (Ha Armchair)\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"P/L denotes 'Proprietary Limited', a common Australian company designation.  The parenthetical is descriptive, not another entity.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Collective Events P/L\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"P/L denotes 'Proprietary Limited', a common Australian company designation.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"AP Goldsmith Investments/L\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Unclear if '/L' is part of the name or an abbreviation. Needs further context.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"RAM Consultancy P/L\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"P/L denotes 'Proprietary Limited', a common Australian company designation.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"RAM Consultants P/L\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"P/L denotes 'Proprietary Limited', a common Australian company designation.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Asgard/St George\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two different financial institutions.\",\n    \"split_entities\": [\"Asgard\", \"St George\"]\n  },\n  {\n    \"entity_name\": \"P/ASX Dividend Opportunities ETF\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is likely a single Exchange Traded Fund (ETF).\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"NAB / ANZ / Macquarie Bank\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three distinct major Australian banks.\",\n    \"split_entities\": [\"NAB\", \"ANZ\", \"Macquarie Bank\"]\n  },\n  {\n    \"entity_name\": \"CITIBANK US A/c\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A/c likely refers to account; this is one bank account.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"CITIBANK GREECE A/c\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A/c likely refers to account; this is one bank account.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"BANK OF CHINA - CHINA A/c\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A/c likely refers to account; this is one bank account.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"AFSH Nominees P/L\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"P/L denotes 'Proprietary Limited', a common Australian company designation.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"GILBERT FRANK INVESTMENTS P/L\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"P/L denotes 'Proprietary Limited', a common Australian company designation.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Astra/Foxtel\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Astra and Foxtel are distinct companies, though there's a business relationship implied.\",\n    \"split_entities\": [\"Astra\", \"Foxtel\"]\n  },\n  {\n    \"entity_name\": \"PSS/AGEST\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"The use of '/' suggests two separate entities, but without further information, it's not definitive.\",\n    \"split_entities\": [\"PSS\", \"AGEST\"]\n  },\n  {\n    \"entity_name\": \"Bendigo/ Adelaide Bank\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is the formal name of a single Australian bank.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"CJC Property Consultants Pty Ltd (t/a Nineteen Consulting)\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"'t/a' means 'trading as'; it's a single company using a different trading name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"CJC Property Consultants PL (t/a Nineteen Consulting)\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"'t/a' means 'trading as'; it's a single company using a different trading name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Dutton Holdings (Qld) P/L\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"P/L denotes 'Proprietary Limited', a common Australian company designation.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"PK Super (Qld) P/L\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"P/L denotes 'Proprietary Limited', a common Australian company designation.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"RHT Family Trust (RHT Investments P/L ATF)\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This appears to be a single family trust with an associated company.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"RHT Investments (Qld) P/L\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"P/L denotes 'Proprietary Limited', a common Australian company designation.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"PK Super P/L\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"P/L denotes 'Proprietary Limited', a common Australian company designation.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"VA 812 SYD/MELB\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a flight number with origin and destination cities.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"VA 925 SYD/BRISBANE\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a flight number with origin and destination cities.\",\n    \"split_entities\": []\n  }\n]\n```\n"
+}

@@ -16,6 +16,7 @@ This directory contains comprehensive documentation for the Australian Governmen
   - [Database Schema](./backend/database.md): Database structure and operations
   - [PDF Processing](./backend/pdf_processing.md): PDF extraction pipeline
   - [Data Standardization](./backend/data_standardization.md): Standardization workflows
+  - [Entity Deduplication](./backend/entity_deduplication.md): Entity name standardization and deduplication
   - [LLM Guidance](./backend/llm_guidance.md): Guidelines for using Gemini 2.0 Flash
 
 - **API**
@@ -24,6 +25,7 @@ This directory contains comprehensive documentation for the Australian Governmen
 
 - **Frontend**
   - [Components](./frontend/components.md): Reusable UI components
+  - [Entity Explorer](./frontend/entity_explorer.md): Entity network exploration interface
   - [Pages & Routes](./frontend/pages.md): Application pages and routing
   - [Services](./frontend/services.md): API services and data handling
 

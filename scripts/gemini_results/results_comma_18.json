@@ -1,0 +1,525 @@
+{
+  "batch_id": "comma_18",
+  "category": "comma",
+  "entities_count": 50,
+  "analysis_results": [
+    {
+      "entity_name": "Tripple S Superannuation, AMP Super",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct superannuation funds.",
+      "split_entities": [
+        "Tripple S Superannuation",
+        "AMP Super"
+      ]
+    },
+    {
+      "entity_name": "CBA, Macquarie Bank",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "CBA (Commonwealth Bank of Australia) and Macquarie Bank are separate entities.",
+      "split_entities": [
+        "CBA",
+        "Macquarie Bank"
+      ]
+    },
+    {
+      "entity_name": "Province of Bohol, Philippines",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "The Province of Bohol is a province within the Philippines.",
+      "split_entities": [
+        "Province of Bohol",
+        "Philippines"
+      ]
+    },
+    {
+      "entity_name": "Graham Lewis, Constituent",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "Likely refers to an individual (Graham Lewis) and their constituent role, but could be a single entity name.",
+      "split_entities": [
+        "Graham Lewis",
+        "Constituent"
+      ]
+    },
+    {
+      "entity_name": "Department of Health, WA",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This refers to the Western Australian Department of Health.  'WA' is an abbreviation commonly used within the entity's name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "AECR, Emirates",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "AECR (Alliance of European Conservatives and Reformists) and Emirates are separate entities.  Context clearly shows this.",
+      "split_entities": [
+        "AECR",
+        "Emirates"
+      ]
+    },
+    {
+      "entity_name": "Carers Australia, Bear Cottage",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two distinct charities are mentioned.",
+      "split_entities": [
+        "Carers Australia",
+        "Bear Cottage"
+      ]
+    },
+    {
+      "entity_name": "Soldier On, StreetWork Northern Beaches",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two distinct charities are named.",
+      "split_entities": [
+        "Soldier On",
+        "StreetWork Northern Beaches"
+      ]
+    },
+    {
+      "entity_name": "Michael Wheelahan, Timothy J.F. McEvoy, Arnold Bloch Leibler",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two individuals and a law firm are listed.",
+      "split_entities": [
+        "Michael Wheelahan",
+        "Timothy J.F. McEvoy",
+        "Arnold Bloch Leibler"
+      ]
+    },
+    {
+      "entity_name": "Anglicare PNG, Airways Hotel Limited",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A charity and a hotel are separately identified.",
+      "split_entities": [
+        "Anglicare PNG",
+        "Airways Hotel Limited"
+      ]
+    },
+    {
+      "entity_name": "Mohammed bin Rashid Al Maktoum Foundation, Washington Speakers Bureau",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A foundation and a speakers bureau are named.",
+      "split_entities": [
+        "Mohammed bin Rashid Al Maktoum Foundation",
+        "Washington Speakers Bureau"
+      ]
+    },
+    {
+      "entity_name": "Cancer Council, South Australia",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is the South Australian branch of the Cancer Council.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Soldier On, Streetwork",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two separate charities are mentioned.",
+      "split_entities": [
+        "Soldier On",
+        "Streetwork"
+      ]
+    },
+    {
+      "entity_name": "Carers Australia, Royal Flying Doctor Service, Ronald McDonald House, Youth Insearch, Paralympic Games",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Multiple distinct organizations are listed.",
+      "split_entities": [
+        "Carers Australia",
+        "Royal Flying Doctor Service",
+        "Ronald McDonald House",
+        "Youth Insearch",
+        "Paralympic Games"
+      ]
+    },
+    {
+      "entity_name": "Today Show, Channel Nine",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A television program and the television network that broadcasts it.",
+      "split_entities": [
+        "Today Show",
+        "Channel Nine"
+      ]
+    },
+    {
+      "entity_name": "Shire of Wyndham, East Kimberley",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single local government area in Western Australia.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Parliament of Kuwait, General Delegation of Palestine",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two separate government entities are named.",
+      "split_entities": [
+        "Parliament of Kuwait",
+        "General Delegation of Palestine"
+      ]
+    },
+    {
+      "entity_name": "Sydney Credit Union, Australian Super, Sun Super",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A credit union and two superannuation funds are listed.",
+      "split_entities": [
+        "Sydney Credit Union",
+        "Australian Super",
+        "Sun Super"
+      ]
+    },
+    {
+      "entity_name": "Fairfield RSC Club, Smithfield RSE Club, Marcom Club, Guildford West Leagues Club, GWS Giants AFL Club",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Multiple distinct clubs are listed.",
+      "split_entities": [
+        "Fairfield RSC Club",
+        "Smithfield RSE Club",
+        "Marcom Club",
+        "Guildford West Leagues Club",
+        "GWS Giants AFL Club"
+      ]
+    },
+    {
+      "entity_name": "CBA, ANZ, BENDIGO BANK",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Three separate banks are listed.",
+      "split_entities": [
+        "CBA",
+        "ANZ",
+        "BENDIGO BANK"
+      ]
+    },
+    {
+      "entity_name": "Mr Cai Wei, Minister, Chinese Embassy",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This likely refers to a single individual's title and affiliation within the Chinese Embassy.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "SELECTED RUGBY LEAGUE GAMES/CANTERBURY BULLDOGS, SELECTED PERFORMANCES ARTS ORGANISATIONS INCLUDING OPERA AUSTRALIA, SYDNEY THEATRE CO BELVOIR THEATRE COMPANY, BLUESFEST",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Multiple events and organizations are listed.",
+      "split_entities": [
+        "SELECTED RUGBY LEAGUE GAMES/CANTERBURY BULLDOGS",
+        "SELECTED PERFORMANCES ARTS ORGANISATIONS INCLUDING OPERA AUSTRALIA",
+        "SYDNEY THEATRE CO BELVOIR THEATRE COMPANY",
+        "BLUESFEST"
+      ]
+    },
+    {
+      "entity_name": "ALP, SDA, LAKEMBA BOWLING CLUB BENEVOLENT SOCIETY, LOCAL REGISTERED CLUBS",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Multiple organizations and groups are listed.",
+      "split_entities": [
+        "ALP",
+        "SDA",
+        "LAKEMBA BOWLING CLUB BENEVOLENT SOCIETY",
+        "LOCAL REGISTERED CLUBS"
+      ]
+    },
+    {
+      "entity_name": "ALP, CANTERBURY CITY COMMUNITY CENTRE",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A political party and a community center are named.",
+      "split_entities": [
+        "ALP",
+        "CANTERBURY CITY COMMUNITY CENTRE"
+      ]
+    },
+    {
+      "entity_name": "Adrian Carson, CEO Institute for Urban Indigenous Health Brisbane",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This refers to a single individual and their position within a single organization.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "CBA, ING Direct",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two different banks are mentioned.",
+      "split_entities": [
+        "CBA",
+        "ING Direct"
+      ]
+    },
+    {
+      "entity_name": "QANTAS, Virgin Australia",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two competing Australian airlines.",
+      "split_entities": [
+        "QANTAS",
+        "Virgin Australia"
+      ]
+    },
+    {
+      "entity_name": "Save the Children Australia, Gates Foundation",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two distinct organizations are named.",
+      "split_entities": [
+        "Save the Children Australia",
+        "Gates Foundation"
+      ]
+    },
+    {
+      "entity_name": "Maurice Blackburn Pty Ltd, Melbourne University Publishing (MUP)",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A law firm and a publisher are listed.",
+      "split_entities": [
+        "Maurice Blackburn Pty Ltd",
+        "Melbourne University Publishing (MUP)"
+      ]
+    },
+    {
+      "entity_name": "ASTRA, Foxtel",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two separate companies are mentioned.",
+      "split_entities": [
+        "ASTRA",
+        "Foxtel"
+      ]
+    },
+    {
+      "entity_name": "Queensland Advisory Board, McKell Institute",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "It's unclear if this is a board *within* the McKell Institute or two separate entities. Context is insufficient.",
+      "split_entities": [
+        "Queensland Advisory Board",
+        "McKell Institute"
+      ]
+    },
+    {
+      "entity_name": "Georgetown University, Washington",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A university and a city are mentioned.",
+      "split_entities": [
+        "Georgetown University",
+        "Washington"
+      ]
+    },
+    {
+      "entity_name": "The Arts Centre, Gold Coast",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is likely a single arts center located on the Gold Coast.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Mr Saad Al-Shareef, Ambassador to Australia, State of Qatar",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This describes a single person and their title and affiliation.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Westpac Banking Corporation, Commonwealth Bank",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two separate banks are named.",
+      "split_entities": [
+        "Westpac Banking Corporation",
+        "Commonwealth Bank"
+      ]
+    },
+    {
+      "entity_name": "Commonwealth Bank, Westpac Banking Corporation",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two separate banks are named.",
+      "split_entities": [
+        "Commonwealth Bank",
+        "Westpac Banking Corporation"
+      ]
+    },
+    {
+      "entity_name": "AMP, Retirements Benefits Fund Tasmania",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two different superannuation providers.",
+      "split_entities": [
+        "AMP",
+        "Retirements Benefits Fund Tasmania"
+      ]
+    },
+    {
+      "entity_name": "Tasmanian Association of Community Houses, EMILY's List, Amnesty International, Cricket Tasmania, Huon Agricultural Society, Hawthorn Football Club, Lindisfarne Football Club, Australian Republican Movement, Clarence Football Club, Howrah Recreation Centre, Royal Society for the Prevention of Cruelty to Animals (RSPCA), Warrane/Mornington Neighbourhood House, Risdon Vale Neighbourhood House - Patron, Clifton Beach Royal Life Saving - Patron, Keep Watch Ambassador - Royal Life Saving Association",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Many different organizations are listed.",
+      "split_entities": [
+        "Tasmanian Association of Community Houses",
+        "EMILY's List",
+        "Amnesty International",
+        "Cricket Tasmania",
+        "Huon Agricultural Society",
+        "Hawthorn Football Club",
+        "Lindisfarne Football Club",
+        "Australian Republican Movement",
+        "Clarence Football Club",
+        "Howrah Recreation Centre",
+        "Royal Society for the Prevention of Cruelty to Animals (RSPCA)",
+        "Warrane/Mornington Neighbourhood House",
+        "Risdon Vale Neighbourhood House",
+        "Clifton Beach Royal Life Saving",
+        "Keep Watch Ambassador - Royal Life Saving Association"
+      ]
+    },
+    {
+      "entity_name": "St Hilda's College, The University of Melbourne, Alumni",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A college, a university, and alumni group are named.",
+      "split_entities": [
+        "St Hilda's College",
+        "The University of Melbourne",
+        "Alumni"
+      ]
+    },
+    {
+      "entity_name": "FOXTEL CABLE TELEVISION PTY LTD, QANTAS AIRWAYS LTD, VIRGIN AUSTRALIA AIRLINES PTY LTD, NATIONAL PRESS CLUB OF AUSTRALIA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Several distinct companies and organizations are listed.",
+      "split_entities": [
+        "FOXTEL CABLE TELEVISION PTY LTD",
+        "QANTAS AIRWAYS LTD",
+        "VIRGIN AUSTRALIA AIRLINES PTY LTD",
+        "NATIONAL PRESS CLUB OF AUSTRALIA"
+      ]
+    },
+    {
+      "entity_name": "AUSTRALIAN WORKERS' UNION OF EMPLOYEES, QLD, AUSTRALIAN LABOR PARTY, QLD",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two organizations and the state of Queensland are mentioned twice.",
+      "split_entities": [
+        "AUSTRALIAN WORKERS' UNION OF EMPLOYEES",
+        "QLD",
+        "AUSTRALIAN LABOR PARTY",
+        "QLD"
+      ]
+    },
+    {
+      "entity_name": "THE AUSTRALIAN AMERICAN LEADERSHIP DIALOGUE, VIRGIN AUSTRALIA AIRLINES PTY LTD",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A dialogue group and an airline are named.",
+      "split_entities": [
+        "THE AUSTRALIAN AMERICAN LEADERSHIP DIALOGUE",
+        "VIRGIN AUSTRALIA AIRLINES PTY LTD"
+      ]
+    },
+    {
+      "entity_name": "CATHY PACIFIC AIRWAYS, ROYAL JORDANIAN, QANTAS AIRWAYS, AUSTRALIA-ISRAEL JEWISH AFFAIRS COUNCIL (AIJAC)",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Airlines and an advocacy group are listed.",
+      "split_entities": [
+        "CATHY PACIFIC AIRWAYS",
+        "ROYAL JORDANIAN",
+        "QANTAS AIRWAYS",
+        "AUSTRALIA-ISRAEL JEWISH AFFAIRS COUNCIL (AIJAC)"
+      ]
+    },
+    {
+      "entity_name": "AZNUR PTY LTD, GOVERNMENT OF AZERBAIJAN",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A private company and a government are named.",
+      "split_entities": [
+        "AZNUR PTY LTD",
+        "GOVERNMENT OF AZERBAIJAN"
+      ]
+    },
+    {
+      "entity_name": "ANZ, CBA, NAB",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Three major Australian banks are listed.",
+      "split_entities": [
+        "ANZ",
+        "CBA",
+        "NAB"
+      ]
+    },
+    {
+      "entity_name": "ANZ, QPCU, NAB, CBA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Four financial institutions are listed.",
+      "split_entities": [
+        "ANZ",
+        "QPCU",
+        "NAB",
+        "CBA"
+      ]
+    },
+    {
+      "entity_name": "ANZ, QPCU",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two financial institutions are mentioned.",
+      "split_entities": [
+        "ANZ",
+        "QPCU"
+      ]
+    },
+    {
+      "entity_name": "News Ltd, FiveAA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A media company and a radio station are listed.",
+      "split_entities": [
+        "News Ltd",
+        "FiveAA"
+      ]
+    },
+    {
+      "entity_name": "ING Direct, Westpac (Spouse)",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two banks are mentioned, with clarification on one being the spouse's.",
+      "split_entities": [
+        "ING Direct",
+        "Westpac"
+      ]
+    },
+    {
+      "entity_name": "Cairns Penny Savings + Loans, Westpac, ANZ (Spouse)",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A local savings and loans institution and two major banks are mentioned.",
+      "split_entities": [
+        "Cairns Penny Savings",
+        "Loans",
+        "Westpac",
+        "ANZ"
+      ]
+    }
+  ],
+  "raw_response": "```json\n[\n  {\n    \"entity_name\": \"Tripple S Superannuation, AMP Super\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct superannuation funds.\",\n    \"split_entities\": [\"Tripple S Superannuation\", \"AMP Super\"]\n  },\n  {\n    \"entity_name\": \"CBA, Macquarie Bank\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"CBA (Commonwealth Bank of Australia) and Macquarie Bank are separate entities.\",\n    \"split_entities\": [\"CBA\", \"Macquarie Bank\"]\n  },\n  {\n    \"entity_name\": \"Province of Bohol, Philippines\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"The Province of Bohol is a province within the Philippines.\",\n    \"split_entities\": [\"Province of Bohol\", \"Philippines\"]\n  },\n  {\n    \"entity_name\": \"Graham Lewis, Constituent\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Likely refers to an individual (Graham Lewis) and their constituent role, but could be a single entity name.\",\n    \"split_entities\": [\"Graham Lewis\", \"Constituent\"]\n  },\n  {\n    \"entity_name\": \"Department of Health, WA\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This refers to the Western Australian Department of Health.  'WA' is an abbreviation commonly used within the entity's name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"AECR, Emirates\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"AECR (Alliance of European Conservatives and Reformists) and Emirates are separate entities.  Context clearly shows this.\",\n    \"split_entities\": [\"AECR\", \"Emirates\"]\n  },\n  {\n    \"entity_name\": \"Carers Australia, Bear Cottage\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two distinct charities are mentioned.\",\n    \"split_entities\": [\"Carers Australia\", \"Bear Cottage\"]\n  },\n  {\n    \"entity_name\": \"Soldier On, StreetWork Northern Beaches\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two distinct charities are named.\",\n    \"split_entities\": [\"Soldier On\", \"StreetWork Northern Beaches\"]\n  },\n  {\n    \"entity_name\": \"Michael Wheelahan, Timothy J.F. McEvoy, Arnold Bloch Leibler\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two individuals and a law firm are listed.\",\n    \"split_entities\": [\"Michael Wheelahan\", \"Timothy J.F. McEvoy\", \"Arnold Bloch Leibler\"]\n  },\n  {\n    \"entity_name\": \"Anglicare PNG, Airways Hotel Limited\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A charity and a hotel are separately identified.\",\n    \"split_entities\": [\"Anglicare PNG\", \"Airways Hotel Limited\"]\n  },\n  {\n    \"entity_name\": \"Mohammed bin Rashid Al Maktoum Foundation, Washington Speakers Bureau\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A foundation and a speakers bureau are named.\",\n    \"split_entities\": [\"Mohammed bin Rashid Al Maktoum Foundation\", \"Washington Speakers Bureau\"]\n  },\n  {\n    \"entity_name\": \"Cancer Council, South Australia\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is the South Australian branch of the Cancer Council.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Soldier On, Streetwork\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two separate charities are mentioned.\",\n    \"split_entities\": [\"Soldier On\", \"Streetwork\"]\n  },\n  {\n    \"entity_name\": \"Carers Australia, Royal Flying Doctor Service, Ronald McDonald House, Youth Insearch, Paralympic Games\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Multiple distinct organizations are listed.\",\n    \"split_entities\": [\"Carers Australia\", \"Royal Flying Doctor Service\", \"Ronald McDonald House\", \"Youth Insearch\", \"Paralympic Games\"]\n  },\n  {\n    \"entity_name\": \"Today Show, Channel Nine\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A television program and the television network that broadcasts it.\",\n    \"split_entities\": [\"Today Show\", \"Channel Nine\"]\n  },\n  {\n    \"entity_name\": \"Shire of Wyndham, East Kimberley\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single local government area in Western Australia.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Parliament of Kuwait, General Delegation of Palestine\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two separate government entities are named.\",\n    \"split_entities\": [\"Parliament of Kuwait\", \"General Delegation of Palestine\"]\n  },\n  {\n    \"entity_name\": \"Sydney Credit Union, Australian Super, Sun Super\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A credit union and two superannuation funds are listed.\",\n    \"split_entities\": [\"Sydney Credit Union\", \"Australian Super\", \"Sun Super\"]\n  },\n  {\n    \"entity_name\": \"Fairfield RSC Club, Smithfield RSE Club, Marcom Club, Guildford West Leagues Club, GWS Giants AFL Club\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Multiple distinct clubs are listed.\",\n    \"split_entities\": [\"Fairfield RSC Club\", \"Smithfield RSE Club\", \"Marcom Club\", \"Guildford West Leagues Club\", \"GWS Giants AFL Club\"]\n  },\n  {\n    \"entity_name\": \"CBA, ANZ, BENDIGO BANK\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Three separate banks are listed.\",\n    \"split_entities\": [\"CBA\", \"ANZ\", \"BENDIGO BANK\"]\n  },\n  {\n    \"entity_name\": \"Mr Cai Wei, Minister, Chinese Embassy\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This likely refers to a single individual's title and affiliation within the Chinese Embassy.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"SELECTED RUGBY LEAGUE GAMES/CANTERBURY BULLDOGS, SELECTED PERFORMANCES ARTS ORGANISATIONS INCLUDING OPERA AUSTRALIA, SYDNEY THEATRE CO BELVOIR THEATRE COMPANY, BLUESFEST\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Multiple events and organizations are listed.\",\n    \"split_entities\": [\"SELECTED RUGBY LEAGUE GAMES/CANTERBURY BULLDOGS\", \"SELECTED PERFORMANCES ARTS ORGANISATIONS INCLUDING OPERA AUSTRALIA\", \"SYDNEY THEATRE CO BELVOIR THEATRE COMPANY\", \"BLUESFEST\"]\n  },\n  {\n    \"entity_name\": \"ALP, SDA, LAKEMBA BOWLING CLUB BENEVOLENT SOCIETY, LOCAL REGISTERED CLUBS\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Multiple organizations and groups are listed.\",\n    \"split_entities\": [\"ALP\", \"SDA\", \"LAKEMBA BOWLING CLUB BENEVOLENT SOCIETY\", \"LOCAL REGISTERED CLUBS\"]\n  },\n  {\n    \"entity_name\": \"ALP, CANTERBURY CITY COMMUNITY CENTRE\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A political party and a community center are named.\",\n    \"split_entities\": [\"ALP\", \"CANTERBURY CITY COMMUNITY CENTRE\"]\n  },\n  {\n    \"entity_name\": \"Adrian Carson, CEO Institute for Urban Indigenous Health Brisbane\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This refers to a single individual and their position within a single organization.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"CBA, ING Direct\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two different banks are mentioned.\",\n    \"split_entities\": [\"CBA\", \"ING Direct\"]\n  },\n  {\n    \"entity_name\": \"QANTAS, Virgin Australia\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two competing Australian airlines.\",\n    \"split_entities\": [\"QANTAS\", \"Virgin Australia\"]\n  },\n  {\n    \"entity_name\": \"Save the Children Australia, Gates Foundation\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two distinct organizations are named.\",\n    \"split_entities\": [\"Save the Children Australia\", \"Gates Foundation\"]\n  },\n  {\n    \"entity_name\": \"Maurice Blackburn Pty Ltd, Melbourne University Publishing (MUP)\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A law firm and a publisher are listed.\",\n    \"split_entities\": [\"Maurice Blackburn Pty Ltd\", \"Melbourne University Publishing (MUP)\"]\n  },\n  {\n    \"entity_name\": \"ASTRA, Foxtel\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two separate companies are mentioned.\",\n    \"split_entities\": [\"ASTRA\", \"Foxtel\"]\n  },\n  {\n    \"entity_name\": \"Queensland Advisory Board, McKell Institute\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"It's unclear if this is a board *within* the McKell Institute or two separate entities. Context is insufficient.\",\n    \"split_entities\": [\"Queensland Advisory Board\", \"McKell Institute\"]\n  },\n  {\n    \"entity_name\": \"Georgetown University, Washington\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A university and a city are mentioned.\",\n    \"split_entities\": [\"Georgetown University\", \"Washington\"]\n  },\n  {\n    \"entity_name\": \"The Arts Centre, Gold Coast\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is likely a single arts center located on the Gold Coast.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Mr Saad Al-Shareef, Ambassador to Australia, State of Qatar\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This describes a single person and their title and affiliation.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Westpac Banking Corporation, Commonwealth Bank\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two separate banks are named.\",\n    \"split_entities\": [\"Westpac Banking Corporation\", \"Commonwealth Bank\"]\n  },\n  {\n    \"entity_name\": \"Commonwealth Bank, Westpac Banking Corporation\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two separate banks are named.\",\n    \"split_entities\": [\"Commonwealth Bank\", \"Westpac Banking Corporation\"]\n  },\n  {\n    \"entity_name\": \"AMP, Retirements Benefits Fund Tasmania\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two different superannuation providers.\",\n    \"split_entities\": [\"AMP\", \"Retirements Benefits Fund Tasmania\"]\n  },\n  {\n    \"entity_name\": \"Tasmanian Association of Community Houses, EMILY's List, Amnesty International, Cricket Tasmania, Huon Agricultural Society, Hawthorn Football Club, Lindisfarne Football Club, Australian Republican Movement, Clarence Football Club, Howrah Recreation Centre, Royal Society for the Prevention of Cruelty to Animals (RSPCA), Warrane/Mornington Neighbourhood House, Risdon Vale Neighbourhood House - Patron, Clifton Beach Royal Life Saving - Patron, Keep Watch Ambassador - Royal Life Saving Association\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Many different organizations are listed.\",\n    \"split_entities\": [\"Tasmanian Association of Community Houses\", \"EMILY's List\", \"Amnesty International\", \"Cricket Tasmania\", \"Huon Agricultural Society\", \"Hawthorn Football Club\", \"Lindisfarne Football Club\", \"Australian Republican Movement\", \"Clarence Football Club\", \"Howrah Recreation Centre\", \"Royal Society for the Prevention of Cruelty to Animals (RSPCA)\", \"Warrane/Mornington Neighbourhood House\", \"Risdon Vale Neighbourhood House\", \"Clifton Beach Royal Life Saving\", \"Keep Watch Ambassador - Royal Life Saving Association\"]\n  },\n  {\n    \"entity_name\": \"St Hilda's College, The University of Melbourne, Alumni\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A college, a university, and alumni group are named.\",\n    \"split_entities\": [\"St Hilda's College\", \"The University of Melbourne\", \"Alumni\"]\n  },\n  {\n    \"entity_name\": \"FOXTEL CABLE TELEVISION PTY LTD, QANTAS AIRWAYS LTD, VIRGIN AUSTRALIA AIRLINES PTY LTD, NATIONAL PRESS CLUB OF AUSTRALIA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Several distinct companies and organizations are listed.\",\n    \"split_entities\": [\"FOXTEL CABLE TELEVISION PTY LTD\", \"QANTAS AIRWAYS LTD\", \"VIRGIN AUSTRALIA AIRLINES PTY LTD\", \"NATIONAL PRESS CLUB OF AUSTRALIA\"]\n  },\n  {\n    \"entity_name\": \"AUSTRALIAN WORKERS' UNION OF EMPLOYEES, QLD, AUSTRALIAN LABOR PARTY, QLD\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two organizations and the state of Queensland are mentioned twice.\",\n    \"split_entities\": [\"AUSTRALIAN WORKERS' UNION OF EMPLOYEES\", \"QLD\", \"AUSTRALIAN LABOR PARTY\", \"QLD\"]\n  },\n  {\n    \"entity_name\": \"THE AUSTRALIAN AMERICAN LEADERSHIP DIALOGUE, VIRGIN AUSTRALIA AIRLINES PTY LTD\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A dialogue group and an airline are named.\",\n    \"split_entities\": [\"THE AUSTRALIAN AMERICAN LEADERSHIP DIALOGUE\", \"VIRGIN AUSTRALIA AIRLINES PTY LTD\"]\n  },\n  {\n    \"entity_name\": \"CATHY PACIFIC AIRWAYS, ROYAL JORDANIAN, QANTAS AIRWAYS, AUSTRALIA-ISRAEL JEWISH AFFAIRS COUNCIL (AIJAC)\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Airlines and an advocacy group are listed.\",\n    \"split_entities\": [\"CATHY PACIFIC AIRWAYS\", \"ROYAL JORDANIAN\", \"QANTAS AIRWAYS\", \"AUSTRALIA-ISRAEL JEWISH AFFAIRS COUNCIL (AIJAC)\"]\n  },\n  {\n    \"entity_name\": \"AZNUR PTY LTD, GOVERNMENT OF AZERBAIJAN\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A private company and a government are named.\",\n    \"split_entities\": [\"AZNUR PTY LTD\", \"GOVERNMENT OF AZERBAIJAN\"]\n  },\n  {\n    \"entity_name\": \"ANZ, CBA, NAB\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Three major Australian banks are listed.\",\n    \"split_entities\": [\"ANZ\", \"CBA\", \"NAB\"]\n  },\n  {\n    \"entity_name\": \"ANZ, QPCU, NAB, CBA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Four financial institutions are listed.\",\n    \"split_entities\": [\"ANZ\", \"QPCU\", \"NAB\", \"CBA\"]\n  },\n  {\n    \"entity_name\": \"ANZ, QPCU\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two financial institutions are mentioned.\",\n    \"split_entities\": [\"ANZ\", \"QPCU\"]\n  },\n  {\n    \"entity_name\": \"News Ltd, FiveAA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A media company and a radio station are listed.\",\n    \"split_entities\": [\"News Ltd\", \"FiveAA\"]\n  },\n  {\n    \"entity_name\": \"ING Direct, Westpac (Spouse)\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two banks are mentioned, with clarification on one being the spouse's.\",\n    \"split_entities\": [\"ING Direct\", \"Westpac\"]\n  },\n  {\n    \"entity_name\": \"Cairns Penny Savings + Loans, Westpac, ANZ (Spouse)\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A local savings and loans institution and two major banks are mentioned.\",\n    \"split_entities\": [\"Cairns Penny Savings\", \"Loans\", \"Westpac\", \"ANZ\"]\n  }\n]\n```\n"
+}

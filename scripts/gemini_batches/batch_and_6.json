@@ -1,0 +1,944 @@
+{
+  "batch_id": "and_6",
+  "category": "and",
+  "entities": [
+    {
+      "entity": "The Charge d'Affaires a.i, James Carouso and Elizabeth Visbeek and the entire US Mission in Australia",
+      "proposed_splits": [
+        "The Charge d'Affaires a.i",
+        "James Carouso",
+        "Elizabeth Visbeek",
+        "the entire US Mission in Australia"
+      ],
+      "context": [
+        {
+          "mp_name": "Joel Fitzgibbon",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "White House Christmas ornament 2018",
+          "details": "The White House Christmas ornament 2018."
+        }
+      ]
+    },
+    {
+      "entity": "Rudy and Julie Limantono of Zion Graphics",
+      "proposed_splits": [
+        "Rudy",
+        "Julie Limantono of Zion Graphics"
+      ],
+      "context": [
+        {
+          "mp_name": "Paul Fletcher",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Hospitality",
+          "item": "Christmas Hamper",
+          "details": "Christmas hamper from Rudy and Julie Limantono of Zion Graphics. The item is within the allowable limits."
+        }
+      ]
+    },
+    {
+      "entity": "Sydney Taiwan Festival Inc and Mr Rui Lin Shu (Tea Banjie Farm)",
+      "proposed_splits": [
+        "Sydney Taiwan Festival Inc",
+        "Mr Rui Lin Shu (Tea Banjie Farm)"
+      ],
+      "context": [
+        {
+          "mp_name": "Paul Fletcher",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "2 Taiwan tea gift sets",
+          "details": "2 Taiwan tea gift sets from the Sydney Taiwan Festival Inc and Mr Rui Lin Shu (Tea Banjie Farm) - a participant at the Sydney Taiwan Festival. Both items are within the allowable Limit."
+        }
+      ]
+    },
+    {
+      "entity": "PFMZ Pearl Super Pty Ltd and PFMZ Pty Ltd",
+      "proposed_splits": [
+        "PFMZ Pearl Super Pty Ltd",
+        "PFMZ Pty Ltd"
+      ],
+      "context": [
+        {
+          "mp_name": "Paul Fletcher",
+          "party": "Liberal Party of Australia",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Directorship of PFMZ Pearl Super Pty Ltd and PFMZ Pty Ltd",
+          "details": "I am a director of PFMZ Pearl Super Pty Ltd and PFMZ Pty Ltd. My wife Manuela Zappacosta is a director of PFMZ Pearl Super Pty Ltd and PFMZ Pty Ltd."
+        }
+      ]
+    },
+    {
+      "entity": "Real Estate Holdings of DIC Gillespie Superfund by Corporate Trustee and by Golden Boot Pty Ltd",
+      "proposed_splits": [
+        "Real Estate Holdings of DIC Gillespie Superfund by Corporate Trustee",
+        "by Golden Boot Pty Ltd"
+      ],
+      "context": [
+        {
+          "mp_name": "David Gillespie",
+          "party": "National Party of Australia",
+          "category": "Asset",
+          "sub_category": "Trust",
+          "item": "Apartment",
+          "details": "Deletion: Sale of unit/commercial in PortMacquarie."
+        }
+      ]
+    },
+    {
+      "entity": "Cameco and Chamber of Minerals And Energy",
+      "proposed_splits": [
+        "Cameco",
+        "Chamber of Minerals",
+        "Energy"
+      ],
+      "context": [
+        {
+          "mp_name": "Timothy Jerome Hammond",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Charter Flight from Kalgoorlie to Mount Keith Airport",
+          "details": "Charter flight courtesy of Cameco and Chamber of Minerals And Energy from Kalgoorlie to Mount Keith airport and Return."
+        }
+      ]
+    },
+    {
+      "entity": "Screen Australia and Hon Christian Porter MP, Minister for Social Services",
+      "proposed_splits": [
+        "Screen Australia",
+        "Hon Christian Porter MP",
+        "Minister for Social Services"
+      ],
+      "context": [
+        {
+          "mp_name": "Timothy Jerome Hammond",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "DVDs and Ceramic Bowl",
+          "details": "DVD's gifted by Screen Australia and a ceramic bowl made by Australian Disability Enterprises, gifted by Hon Christian Porter MP, Minister for Social Services"
+        }
+      ]
+    },
+    {
+      "entity": "Greg Hunt and Laurie Lawrence's Kids Alive Program",
+      "proposed_splits": [
+        "Greg Hunt",
+        "Laurie Lawrence's Kids Alive Program"
+      ],
+      "context": [
+        {
+          "mp_name": "Timothy Jerome Hammond",
+          "party": "Australian Labor Party",
+          "category": "Income",
+          "sub_category": "Other Income",
+          "item": "Income",
+          "details": "ASSORTED BOOKS AND DVD'S RELATING TO INFORMATION ON PREVENTION OF DROWNING AND TEACHING WATER SAFETY COURTESY OF THE MINISTER FOR SPORT, GREG HUNT, AND LAURIE LAWRENCE'S KIDS ALIVE PROGRAM"
+        }
+      ]
+    },
+    {
+      "entity": "TAIPEI ECONOMIC AND CULTURAL OFFICE",
+      "proposed_splits": [
+        "TAIPEI ECONOMIC",
+        "CULTURAL OFFICE"
+      ],
+      "context": [
+        {
+          "mp_name": "Ross Anthony Hart",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Small Ceramic Vase",
+          "details": "Gift of small ceramic Vase (approx. 15 cm tall) from Taipei Economic and Cultural Office in Australia- value unknown"
+        }
+      ]
+    },
+    {
+      "entity": "Mandurah Offshore Fishing and Sailing Club",
+      "proposed_splits": [
+        "Mandurah Offshore Fishing",
+        "Sailing Club"
+      ],
+      "context": [
+        {
+          "mp_name": "Andrew Hastie",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Patronage",
+          "details": "Patron of the Mandurah Offshore Fishing and Sailing Club (19.08.2016)"
+        },
+        {
+          "mp_name": "Andrew Hastie",
+          "party": "Liberal Party of Australia",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Patron of Mandurah Offshore Fishing and Sailing Club",
+          "details": "Patron of the Mandurah Offshore Fishing and Sailing Club for the 2017-2018 membership year."
+        },
+        {
+          "mp_name": "Andrew Hastie",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Patronage",
+          "details": "Patron"
+        }
+      ]
+    },
+    {
+      "entity": "New South Wales Jewish Board of Deputies and the Executive Council of Australian Jewry Inc.",
+      "proposed_splits": [
+        "New South Wales Jewish Board of Deputies",
+        "the Executive Council of Australian Jewry Inc."
+      ],
+      "context": [
+        {
+          "mp_name": "Andrew Hastie",
+          "party": "Liberal Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Flights, Accommodation, Transport & Meals",
+          "details": "A member of my staff was provided the opportunity to take part in the 2017 Joshua Berger Family Fellowship program. Flights, accommodation, transport and meals were covered by the program which was conducted jointly by the New South Wales Jewish Board of Deputies and the Executive Council of Australian Jewry Inc."
+        }
+      ]
+    },
+    {
+      "entity": "Barwon Heads Football and Netball Club",
+      "proposed_splits": [
+        "Barwon Heads Football",
+        "Netball Club"
+      ],
+      "context": [
+        {
+          "mp_name": "Sarah Henderson",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Barwon Heads Football and Netball Club Membership",
+          "details": "Barwon Heads Football and Netball Club"
+        }
+      ]
+    },
+    {
+      "entity": "Colac Football and Netball Club",
+      "proposed_splits": [
+        "Colac Football",
+        "Netball Club"
+      ],
+      "context": [
+        {
+          "mp_name": "Sarah Henderson",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Colac Football and Netball Club Membership",
+          "details": "Colac Football and Netball Club"
+        }
+      ]
+    },
+    {
+      "entity": "Geelong Amateurs Football and Netball Club",
+      "proposed_splits": [
+        "Geelong Amateurs Football",
+        "Netball Club"
+      ],
+      "context": [
+        {
+          "mp_name": "Sarah Henderson",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Geelong Amateurs Football and Netball Club Membership",
+          "details": "Geelong Amateurs Football and Netball Club"
+        }
+      ]
+    },
+    {
+      "entity": "Grovedale Tigers Football and Netball Club",
+      "proposed_splits": [
+        "Grovedale Tigers Football",
+        "Netball Club"
+      ],
+      "context": [
+        {
+          "mp_name": "Sarah Henderson",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Grovedale Tigers Football and Netball Club Membership",
+          "details": "Grovedale Tigers Football and Netball Club"
+        }
+      ]
+    },
+    {
+      "entity": "Inverleigh Football and Netball Club",
+      "proposed_splits": [
+        "Inverleigh Football",
+        "Netball Club"
+      ],
+      "context": [
+        {
+          "mp_name": "Sarah Henderson",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Gift",
+          "details": "Inverleigh Football and Netball Club"
+        },
+        {
+          "mp_name": "Libby Coker",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Sponsorship of Sporting Clubs",
+          "details": "Sponsorship of the following local sporting clubs:"
+        }
+      ]
+    },
+    {
+      "entity": "Lorne Football and Netball Club",
+      "proposed_splits": [
+        "Lorne Football",
+        "Netball Club"
+      ],
+      "context": [
+        {
+          "mp_name": "Sarah Henderson",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Gift",
+          "details": "Lorne Football and Netball Club"
+        }
+      ]
+    },
+    {
+      "entity": "Ocean Grove Football and Netball Club",
+      "proposed_splits": [
+        "Ocean Grove Football",
+        "Netball Club"
+      ],
+      "context": [
+        {
+          "mp_name": "Sarah Henderson",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Gift",
+          "details": "Ocean Grove Football and Netball Club"
+        }
+      ]
+    },
+    {
+      "entity": "Queenscliff Football and Netball Club",
+      "proposed_splits": [
+        "Queenscliff Football",
+        "Netball Club"
+      ],
+      "context": [
+        {
+          "mp_name": "Sarah Henderson",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Gift",
+          "details": "Queenscliff Football and Netball Club"
+        }
+      ]
+    },
+    {
+      "entity": "South Barwon Football and Netball Club",
+      "proposed_splits": [
+        "South Barwon Football",
+        "Netball Club"
+      ],
+      "context": [
+        {
+          "mp_name": "Sarah Henderson",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Gift",
+          "details": "South Barwon Football and Netball Club"
+        }
+      ]
+    },
+    {
+      "entity": "Torquay Football and Netball Club",
+      "proposed_splits": [
+        "Torquay Football",
+        "Netball Club"
+      ],
+      "context": [
+        {
+          "mp_name": "Sarah Henderson",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Gift",
+          "details": "Torquay Football and Netball Club"
+        }
+      ]
+    },
+    {
+      "entity": "Winchelsea Football and Netball Club",
+      "proposed_splits": [
+        "Winchelsea Football",
+        "Netball Club"
+      ],
+      "context": [
+        {
+          "mp_name": "Sarah Henderson",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Gift",
+          "details": "Winchelsea Football and Netball Club"
+        },
+        {
+          "mp_name": "Libby Coker",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Sponsorship of Sporting Clubs",
+          "details": "Sponsorship of the following local sporting clubs:"
+        }
+      ]
+    },
+    {
+      "entity": "Anglesea Football and Netball Club",
+      "proposed_splits": [
+        "Anglesea Football",
+        "Netball Club"
+      ],
+      "context": [
+        {
+          "mp_name": "Sarah Henderson",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Membership to Anglesea and Apollo Bay Hawks Football and Netball Club",
+          "details": "By reason of my sponsorship of such clubs; I am a member of the Anglesea Football and Netball Club and the Apollo Bay Hawks Football and Netball Club and I am not a member of Queenscliff Football Netball Club; and"
+        }
+      ]
+    },
+    {
+      "entity": "Lorne Aquatic and Angling Club",
+      "proposed_splits": [
+        "Lorne Aquatic",
+        "Angling Club"
+      ],
+      "context": [
+        {
+          "mp_name": "Sarah Henderson",
+          "party": "Liberal Party of Australia",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Lorne Aquatic and Angling Club Membership and Number 1 Ticket Holder",
+          "details": "I have become a member of the Lorne Aquatic and Angling Club and the club's No 1 ticket holder for 2019."
+        }
+      ]
+    },
+    {
+      "entity": "Asia Pacific Leaders Malaria Alliance and the Global Fund",
+      "proposed_splits": [
+        "Asia Pacific Leaders Malaria Alliance",
+        "the Global Fund"
+      ],
+      "context": [
+        {
+          "mp_name": "Julian Hill",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Delegation to Thailand and Myanmar",
+          "details": "Delegation to Thailand and Myanmar with Asia Pacific Leaders Malaria Alliance and the Global Fund (to fight AIDS Tuberculosis and Malaria) June 24 - July 1 2017. Total costs incurred: AUD 6,986.24. Airfares: 5,187.94, Hotels: 1,120.69, Incidental: 677.61"
+        }
+      ]
+    },
+    {
+      "entity": "The Bill and Melinda Gates Foundation",
+      "proposed_splits": [
+        "The Bill",
+        "Melinda Gates Foundation"
+      ],
+      "context": [
+        {
+          "mp_name": "Julian Hill",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Flight Costs, Hotel Accommodation & Ground Transport",
+          "details": "Certain costs in relation to a study tour to the Solomon Islands, January 2018. The Bill and Melinda Gates Foundation paid for flight costs (Melbourne - Brisbane \u2013 Honiara return + internal return flight from Honiara to Malaita Province), hotel accommodation 15 \u2013 19 January, ground transport costs and some meals. All other costs were paid by me personally."
+        },
+        {
+          "mp_name": "Nola Marino",
+          "party": "Liberal Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Travel Costs & Accommodation (Thailand & Myanmar)",
+          "details": "Sponsored travel funded by The Bill and Melinda Gates Foundation. Organised by the Pacific Friends of the Global fund and the Asia Pacific Leaders Malaria Alliance. Travel costs & accommodation to Thailand and Myanmar from 24 - 30 June 2017."
+        }
+      ]
+    },
+    {
+      "entity": "Department of Finance and the Japanese Ministry of Foreign Affairs",
+      "proposed_splits": [
+        "Department of Finance",
+        "the Japanese Ministry of Foreign Affairs"
+      ],
+      "context": [
+        {
+          "mp_name": "Julian Hill",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Flights, Accommodation, Meals & Ground Transport",
+          "details": "Flights, accommodation, meals and ground transport as part of an Australian Political Exchange Council delegation to Japan (2-10 March 2018) organised by the Department of Finance and the Japanese Ministry of Foreign Affairs"
+        },
+        {
+          "mp_name": "Madeleine King",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Flights, accommodation, meals and ground transport to Japan",
+          "details": "Flights, accommodation, meals and ground transport as part of an Australian Political Exchange Council delegation to Japan (2-10 March 2018) organised by the Department of Finance and the Japanese Ministry of Foreign Affairs."
+        }
+      ]
+    },
+    {
+      "entity": "The Taipei Economic and Cultural Office in Australia",
+      "proposed_splits": [
+        "The Taipei Economic",
+        "Cultural Office in Australia"
+      ],
+      "context": [
+        {
+          "mp_name": "Julian Hill",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Flight Costs, Hotel Accommodation & Ground Transport",
+          "details": "Certain costs in relation to a study tour to Taiwan, July 2018. The Taipei Economic and Cultural Office in Australia paid for flight costs (Melbourne - Brisbane - Taipei return), hotel accommodation 2-6 July, ground transport costs and some meals. All other costs were paid by me personally."
+        }
+      ]
+    },
+    {
+      "entity": "AIJAC - Australia/Israel and Jewish Affairs council",
+      "proposed_splits": [
+        "AIJAC - Australia",
+        "Israel",
+        "Jewish Affairs council"
+      ],
+      "context": [
+        {
+          "mp_name": "Kevin Hogan",
+          "party": "National Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Airfares Accommodation Transportation & Hospitality - Israel Trip",
+          "details": "Airfares accomodation transportation and hospitality- Israel trip 5 days. Sponsored by AIJAC - Australia/Israel and Jewish Affairs council cost unknown. May 2018 12. self"
+        }
+      ]
+    },
+    {
+      "entity": "Australia and New Zealand Banking Group (ANZ)",
+      "proposed_splits": [
+        "Australia",
+        "New Zealand Banking Group (ANZ)"
+      ],
+      "context": [
+        {
+          "mp_name": "Peter Khalil",
+          "party": "Australian Labor Party",
+          "category": "Liability",
+          "sub_category": "Mortgage",
+          "item": "Mortgage",
+          "details": "Addition of Mortgage for Self and Spouse."
+        }
+      ]
+    },
+    {
+      "entity": "Victorian Employee Chamber of Commerce and Industry",
+      "proposed_splits": [
+        "Victorian Employee Chamber of Commerce",
+        "Industry"
+      ],
+      "context": [
+        {
+          "mp_name": "Catherine King",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "AFL Grand Final Ticket with Hospitality",
+          "details": "Tickets and hospitality were provided to me by Victorian Employee Chamber of Commerce and Industry to the AFL Grand Final."
+        }
+      ]
+    },
+    {
+      "entity": "Westpac and Commonwealth Banks",
+      "proposed_splits": [
+        "Westpac",
+        "Commonwealth Banks"
+      ],
+      "context": [
+        {
+          "mp_name": "Madeleine King",
+          "party": "Australian Labor Party",
+          "category": "Liability",
+          "sub_category": "Mortgage",
+          "item": "Real Estate Mortgage",
+          "details": "Mortgages on all real estate (Joint)"
+        }
+      ]
+    },
+    {
+      "entity": "Chamber of Minerals and Energy (WA), Minerals Council of Australia",
+      "proposed_splits": [
+        "Chamber of Minerals",
+        "Energy (WA)",
+        "Minerals Council of Australia"
+      ],
+      "context": [
+        {
+          "mp_name": "Madeleine King",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Pilbara Resources Tour",
+          "details": "Pilbara Resources Tour sponsored by the Chamber of Minerals and Energy (WA) and the Minerals Council of Australia. (9/10/18 \u2013 11/10/18) * Itinerary supplied Cost Unknown"
+        }
+      ]
+    },
+    {
+      "entity": "BLUEYS CAF\u00c9 AND CARVERY",
+      "proposed_splits": [
+        "BLUEYS CAF\u00c9",
+        "CARVERY"
+      ],
+      "context": [
+        {
+          "mp_name": "Susan Lamb",
+          "party": "Australian Labor Party",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Spouse Catering Service",
+          "details": "Spouse, Catering"
+        }
+      ]
+    },
+    {
+      "entity": "Blueys Cafe and Carvery Catering (BCCC)",
+      "proposed_splits": [
+        "Blueys Cafe",
+        "Carvery Catering (BCCC)"
+      ],
+      "context": [
+        {
+          "mp_name": "Susan Lamb",
+          "party": "Australian Labor Party",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Blueys Cafe and Carvery Catering Directorship (Spouse)",
+          "details": "SPOUSE - Delete directorship of \"Blueys Cafe and Carvery Catering (BCCC)\""
+        }
+      ]
+    },
+    {
+      "entity": "PARRAMATTA AND DISTRICT SYNAGOGUE",
+      "proposed_splits": [
+        "PARRAMATTA",
+        "DISTRICT SYNAGOGUE"
+      ],
+      "context": [
+        {
+          "mp_name": "Julian Leeser",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Membership",
+          "details": ""
+        }
+      ]
+    },
+    {
+      "entity": "UNION, UNIVERSITY AND SCHOOLS CLUB",
+      "proposed_splits": [
+        "UNION",
+        "UNIVERSITY",
+        "SCHOOLS CLUB"
+      ],
+      "context": [
+        {
+          "mp_name": "Julian Leeser",
+          "party": "Liberal Party of Australia",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Union, University and Schools Club Membership",
+          "details": ""
+        }
+      ]
+    },
+    {
+      "entity": "SCG and Sports Ground Trust",
+      "proposed_splits": [
+        "SCG",
+        "Sports Ground Trust"
+      ],
+      "context": [
+        {
+          "mp_name": "Julian Leeser",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Trust",
+          "item": "Hospitality and Seat at SCG",
+          "details": "Guest of the SCG and Sports Ground Trust at the SCG on 7 January 2018 \u2013 hospitality and seat included"
+        }
+      ]
+    },
+    {
+      "entity": "Prudential and New York Life",
+      "proposed_splits": [
+        "Prudential",
+        "New York Life"
+      ],
+      "context": [
+        {
+          "mp_name": "Andrew Leigh",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Life Insurance Policy",
+          "details": "Life insurance policies (Spouse)"
+        }
+      ]
+    },
+    {
+      "entity": "Civmec Construction and Engineering Pty Ltd",
+      "proposed_splits": [
+        "Civmec Construction",
+        "Engineering Pty Ltd"
+      ],
+      "context": [
+        {
+          "mp_name": "Scott Morrison",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Other Gift",
+          "item": "Framed Picture of a Medal Ship",
+          "details": "Gift of a Framed Picture of a Medal Ship, from Jim Fitzgerald, Executive Chairman, Civmec Construction and Engineering Pty Ltd, valued at $380"
+        }
+      ]
+    },
+    {
+      "entity": "Australian Chamber of Commerce and Industry",
+      "proposed_splits": [
+        "Australian Chamber of Commerce",
+        "Industry"
+      ],
+      "context": [
+        {
+          "mp_name": "Scott Morrison",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Hospitality",
+          "item": "Tasmanian Single Malt Whisky",
+          "details": "Gift of 700ml bottle of Sullivans Cove American Oak Single Cask Tasmanian Single Malt Whisky from the Australian Chamber of Commerce and Industry valued at $330. To be retained."
+        }
+      ]
+    },
+    {
+      "entity": "Australian and Indian Cricket teams",
+      "proposed_splits": [
+        "Australian",
+        "Indian Cricket teams"
+      ],
+      "context": [
+        {
+          "mp_name": "Scott Morrison",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Framed and Signed Cricket Bats",
+          "details": "Gift from the Australian and Indian Cricket teams of framed and signed dual nation cricket bats valued at $5000. To be donated to the McGrath Foundation."
+        }
+      ]
+    },
+    {
+      "entity": "QANTAS AND VIRGIN",
+      "proposed_splits": [
+        "QANTAS",
+        "VIRGIN"
+      ],
+      "context": [
+        {
+          "mp_name": "Ben Morton",
+          "party": "Liberal Party of Australia",
+          "category": "Membership",
+          "sub_category": "Professional",
+          "item": "Airline Lounge Memberships",
+          "details": "AIRLINE LOUNGE MEMBERSHIPS"
+        }
+      ]
+    },
+    {
+      "entity": "SEE ATTACHMENT 'A' LISTED SHARES AND MANAGED FUNDS",
+      "proposed_splits": [
+        "SEE ATTACHMENT 'A' LISTED SHARES",
+        "MANAGED FUNDS"
+      ],
+      "context": [
+        {
+          "mp_name": "Kenneth Desmond O'Dowd",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Shares and Managed Funds",
+          "details": "HELD WITHIN SELF MANAGED SUPERANNUATION FUND"
+        }
+      ]
+    },
+    {
+      "entity": "Australia And New Zealand Banking Group",
+      "proposed_splits": [
+        "Australia",
+        "New Zealand Banking Group"
+      ],
+      "context": [
+        {
+          "mp_name": "Kenneth Desmond O'Dowd",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Bank Shares",
+          "details": "In"
+        }
+      ]
+    },
+    {
+      "entity": "Suncorp and IAG",
+      "proposed_splits": [
+        "Suncorp",
+        "IAG"
+      ],
+      "context": [
+        {
+          "mp_name": "Kelly Megan O'Dwyer",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Melbourne Cup Carnival Tickets and Hospitality",
+          "details": "Tickets and hospitality to Melbourne Cup Carnival on Derby Day, 29 October 2016 as guests of Suncorp and IAG (separate invitations)."
+        }
+      ]
+    },
+    {
+      "entity": "Dennis and Cathy O'Toole",
+      "proposed_splits": [
+        "Dennis",
+        "Cathy O'Toole"
+      ],
+      "context": [
+        {
+          "mp_name": "Catherine Elizabeth O'Toole",
+          "party": "Australian Labor Party",
+          "category": "Membership",
+          "sub_category": "Professional",
+          "item": "Qantas Club Chairman's Lounge Membership",
+          "details": "Qantas Club Chairman's"
+        },
+        {
+          "mp_name": "Catherine Elizabeth O'Toole",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Tickets to Cowboys Box",
+          "details": "Tickets to Cowboys Box 20/8/16"
+        },
+        {
+          "mp_name": "Catherine Elizabeth O'Toole",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Tickets to Cowboys NRL Box",
+          "details": "Tickets to Cowboys NRL Box 16/9/16"
+        },
+        {
+          "mp_name": "Catherine Elizabeth O'Toole",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Hospitality",
+          "item": "TEL 25 year Anniversary Dinner tickets",
+          "details": "TEL 25 year Anniversary Dinner x 2"
+        }
+      ]
+    },
+    {
+      "entity": "Responsible Wood and Australian Forest Products Association",
+      "proposed_splits": [
+        "Responsible Wood",
+        "Australian Forest Products Association"
+      ],
+      "context": [
+        {
+          "mp_name": "Antony (Tony) Pasin",
+          "party": "Liberal Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "All expenses paid forestry delegation",
+          "details": "All expenses paid (flights, accommodation, on ground transports and meals) as part of forestry delegation in role as co-chair of the Parliamentary Friends of Forestry and Forest Products Group. Attendance facilitated by Responsible Wood and Australian Forest Products Association. between 8th to 12 December 2018"
+        }
+      ]
+    },
+    {
+      "entity": "Australian Mining and Metals Association",
+      "proposed_splits": [
+        "Australian Mining",
+        "Metals Association"
+      ],
+      "context": [
+        {
+          "mp_name": "Charles Christian Porter",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Australian Mining and Metals Association Gala Dinner ticket",
+          "details": "1 x ticket to Australian Mining and Metals Association Gala Dinner, courtesy of the Australian Mining and Metals Association, estimated value $150."
+        }
+      ]
+    },
+    {
+      "entity": "Minister for Health and Welfare, South Korea",
+      "proposed_splits": [
+        "Minister for Health",
+        "Welfare",
+        "South Korea"
+      ],
+      "context": [
+        {
+          "mp_name": "Jane Prentice",
+          "party": "Liberal National Party",
+          "category": "Gift",
+          "sub_category": "Other",
+          "item": "Set of H.jin presentation spoon and chop sticks",
+          "details": "Official gifts from Minister for Health and Welfare, South Korea Set of H.jin presentation spoon and chop sticks"
+        },
+        {
+          "mp_name": "Jane Prentice",
+          "party": "Liberal National Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Pottery Tea Set",
+          "details": "Official gifts from Minister for Health and Welfare, South Korea 'Chunmarc' Pottery Tea Set ?"
+        }
+      ]
+    }
+  ]
+}

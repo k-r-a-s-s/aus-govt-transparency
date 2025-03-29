@@ -1,0 +1,494 @@
+{
+  "batch_id": "ampersand_31",
+  "category": "ampersand",
+  "entities_count": 50,
+  "analysis_results": [
+    {
+      "entity_name": "Surf Life Saving Clubs, Service Clubs & Sporting Clubs in Electorate",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "While the name uses 'and' and '&', the context suggests three distinct types of clubs rather than a single organization.  However, it's possible this represents a single umbrella group, making high confidence difficult.",
+      "split_entities": [
+        "Surf Life Saving Clubs",
+        "Service Clubs",
+        "Sporting Clubs in Electorate"
+      ]
+    },
+    {
+      "entity_name": "Korean Ambassador, Tourism & Transport Forum, Swan Valley Council",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are clearly three distinct and separate entities mentioned together.",
+      "split_entities": [
+        "Korean Ambassador",
+        "Tourism & Transport Forum",
+        "Swan Valley Council"
+      ]
+    },
+    {
+      "entity_name": "Griff-Dev Investments Pty Ltd as Trustee of the P&M Fletcher Superannuation Fund",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single entity: a company acting as trustee for a superannuation fund.  The '&' is part of the fund's name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Griff-Dev investments Pty Ltd as Trustee of the P&M Fletcher Superannuation Fund",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single entity: a company acting as trustee for a superannuation fund.  The '&' is part of the fund's name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Australia / Israel & Jewish Affairs Council",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This appears to be a single organization with a compound name, despite the slash. The context strongly supports this.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Griff Dev Investments Pty Ltd atf P&M Fletcher Superannuation Fund",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single entity, a company acting as trustee for a superannuation fund. 'atf' signifies 'as trustee for'.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Griff-Dev Investments Pty Ltd ATF P&M Fletcher Superannuation Fund",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single entity, a company acting as trustee for a superannuation fund. 'ATF' signifies 'as trustee for'.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Joe Hockey & M. Babbage (t/a Platypus Creek Farm)",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single business (Platypus Creek Farm) operated by two individuals.  '&' indicates a partnership, not separate entities.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Joe Hockey & M Babbage (t/a Platypus Creek Farm)",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single business (Platypus Creek Farm) operated by two individuals.  '&' indicates a partnership, not separate entities.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Joe Hockey & M Babbage t/a Platypus Creek Farm",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single business (Platypus Creek Farm) operated by two individuals.  '&' indicates a partnership, not separate entities.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Catholic Parish of Bundaberg (Holy Rosary), Bundaberg Rotary Club, Hinkler House Memorial Museum & Research Assn, University of Central Queensland, Liberal National Party of Queensland, Burnett Club, Brothers Sports Club, Hervey Bay Boat Club, Bundaberg RSL Club, Hervey Bay RSL Memorial Services Club, Hervey Bay Business Network",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are eleven distinct organizations.",
+      "split_entities": [
+        "Catholic Parish of Bundaberg (Holy Rosary)",
+        "Bundaberg Rotary Club",
+        "Hinkler House Memorial Museum & Research Assn",
+        "University of Central Queensland",
+        "Liberal National Party of Queensland",
+        "Burnett Club",
+        "Brothers Sports Club",
+        "Hervey Bay Boat Club",
+        "Bundaberg RSL Club",
+        "Hervey Bay RSL Memorial Services Club",
+        "Hervey Bay Business Network"
+      ]
+    },
+    {
+      "entity_name": "Elysium Pty Ltd, National Children's & Youth Law Centre, Australian Museum Trust",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three separate and distinct entities.",
+      "split_entities": [
+        "Elysium Pty Ltd",
+        "National Children's & Youth Law Centre",
+        "Australian Museum Trust"
+      ]
+    },
+    {
+      "entity_name": "Restaurant & Catering (R&C)",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single organization with a shortened version of its name in parentheses.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Bonalil Pty Limited, Bonedale Pty Limited, Felix Bay Limited, MB Turnbull Pty Limited, Pokana Pty Limited, Turnbull Foundation, Turnbull & Partners Pty Limited, Turnbull & Partners Holdings Pty Limited, Wilcrow Pty Limited, Advisory Panel on Capital City Infrastructure, Australian Folklife Festival Inc, Australian Technology Park Precinct Management Ltd, Biennale of Sydney, Centre for Independent Studies Limited, ISYS Search Software Pty Limited, Maurtray Pty Limited, Melbourne IT Limited, Redfern Waterloo Authority, The Committee for Sydney, The Redfern Foundation Limited, Turnbull & Partners Holdings Pty Limited, United States Study Centre",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This list contains many separate companies, foundations, and organizations.",
+      "split_entities": [
+        "Bonalil Pty Limited",
+        "Bonedale Pty Limited",
+        "Felix Bay Limited",
+        "MB Turnbull Pty Limited",
+        "Pokana Pty Limited",
+        "Turnbull Foundation",
+        "Turnbull & Partners Pty Limited",
+        "Turnbull & Partners Holdings Pty Limited",
+        "Wilcrow Pty Limited",
+        "Advisory Panel on Capital City Infrastructure",
+        "Australian Folklife Festival Inc",
+        "Australian Technology Park Precinct Management Ltd",
+        "Biennale of Sydney",
+        "Centre for Independent Studies Limited",
+        "ISYS Search Software Pty Limited",
+        "Maurtray Pty Limited",
+        "Melbourne IT Limited",
+        "Redfern Waterloo Authority",
+        "The Committee for Sydney",
+        "The Redfern Foundation Limited",
+        "Turnbull & Partners Holdings Pty Limited",
+        "United States Study Centre"
+      ]
+    },
+    {
+      "entity_name": "Dimensional Australian Value Trust, EQT Intrinsic Value International Sharemarkets Plus Fund, Goldman Sachs Private Equity Funds, Stone Street Real Estate Fund, Stone Street Fund, Bridge Street Asia Fund, Magellan Flagship Fund Limited, Pengana Emerging Companies Fund, Pengana Global Resources Fund, Platinum International Fund, XES, AMP Capital Structured High Yield Fund, CBAPB, WCTPA, Turnbull & Partners Pty Ltd, BNBG, MXUPA, MB Turnbull Pty Limited, Griffin Coal Mining Co - corporate bonds, Morgan Stanley Real Estate Fund VI, Republic of Indonesia Government Bonds, State Bank of India Hybrid Perpetual CPN, EWM, SPY, XLE, XME, XOP, GS Capital Partners VI, Tyndall Australian Share Wholesale Portfolio, Hunter Hall Value Growth Trust",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This is a list of numerous distinct investment funds and entities.",
+      "split_entities": [
+        "Dimensional Australian Value Trust",
+        "EQT Intrinsic Value International Sharemarkets Plus Fund",
+        "Goldman Sachs Private Equity Funds",
+        "Stone Street Real Estate Fund",
+        "Stone Street Fund",
+        "Bridge Street Asia Fund",
+        "Magellan Flagship Fund Limited",
+        "Pengana Emerging Companies Fund",
+        "Pengana Global Resources Fund",
+        "Platinum International Fund",
+        "XES",
+        "AMP Capital Structured High Yield Fund",
+        "CBAPB",
+        "WCTPA",
+        "Turnbull & Partners Pty Ltd",
+        "BNBG",
+        "MXUPA",
+        "MB Turnbull Pty Limited",
+        "Griffin Coal Mining Co - corporate bonds",
+        "Morgan Stanley Real Estate Fund VI",
+        "Republic of Indonesia Government Bonds",
+        "State Bank of India Hybrid Perpetual CPN",
+        "EWM",
+        "SPY",
+        "XLE",
+        "XME",
+        "XOP",
+        "GS Capital Partners VI",
+        "Tyndall Australian Share Wholesale Portfolio",
+        "Hunter Hall Value Growth Trust"
+      ]
+    },
+    {
+      "entity_name": "Pilmer pty ltd, Turnbull & Partners Pty Limited, Finance Now Holdings Pty Ltd",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three separate limited liability companies.",
+      "split_entities": [
+        "Pilmer pty ltd",
+        "Turnbull & Partners Pty Limited",
+        "Finance Now Holdings Pty Ltd"
+      ]
+    },
+    {
+      "entity_name": "Grandparent Vic, Business Clubs-Frankston/Mornington/Langwarrin, Frankston & Seaford Vietnam Veterans, Vietnam Veterans Aust America Assoc, Yamaha Park Tennis Club, Richmond Football Club",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "The ambiguity around 'Business Clubs-Frankston/Mornington/Langwarrin' lowers confidence. It could be one or multiple clubs.  The others are clearly separate.",
+      "split_entities": [
+        "Grandparent Vic",
+        "Business Clubs-Frankston",
+        "Mornington",
+        "Langwarrin",
+        "Frankston & Seaford Vietnam Veterans",
+        "Vietnam Veterans Aust America Assoc",
+        "Yamaha Park Tennis Club",
+        "Richmond Football Club"
+      ]
+    },
+    {
+      "entity_name": "Cairns Penny Savings & Loans, Westpac, Bendigo Bank",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three distinct financial institutions.",
+      "split_entities": [
+        "Cairns Penny Savings & Loans",
+        "Westpac",
+        "Bendigo Bank"
+      ]
+    },
+    {
+      "entity_name": "P&M Fletcher Superannuation Fund",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is the name of a single superannuation fund. The '&' is part of the name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Australian Services Union, Australian Labor Party, Returned & Services League",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three distinct Australian organizations.",
+      "split_entities": [
+        "Australian Services Union",
+        "Australian Labor Party",
+        "Returned & Services League"
+      ]
+    },
+    {
+      "entity_name": "Australia/Israel & Jewish Affairs Council",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This appears to be a single organization, even with the slash. Context strongly supports this interpretation.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "The Australia/Israel & Jewish Affairs Council",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single organization. The addition of 'The' does not change its nature.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Suncorp, Emirates, Lion, Diageo & CGU",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are four distinct companies operating in different sectors.",
+      "split_entities": [
+        "Suncorp",
+        "Emirates",
+        "Lion",
+        "Diageo",
+        "CGU"
+      ]
+    },
+    {
+      "entity_name": "L&G Pasin Family Trust/Pasin Nominees",
+      "classification": "SINGLE",
+      "confidence": "MEDIUM",
+      "explanation": "The slash could indicate a relationship (e.g., one entity managing the other), rather than separate entities.  More information is needed for high confidence.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "RAM Consultants P/L (Jointly & spouse)",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This refers to a single consultancy firm with details about the ownership structure.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Virgin, Slater & Gordon (UK) LLP",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct entities: an airline and a law firm.",
+      "split_entities": [
+        "Virgin",
+        "Slater & Gordon (UK) LLP"
+      ]
+    },
+    {
+      "entity_name": "Australian/Israel & Jewish Affairs Council",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single organization. The slash is likely part of the stylized name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "NAB, Commonwealth, Citibank, B&E Building Society",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are four different financial institutions.",
+      "split_entities": [
+        "NAB",
+        "Commonwealth Bank",
+        "Citibank",
+        "B&E Building Society"
+      ]
+    },
+    {
+      "entity_name": "B&E Building Society, MyState",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate building societies.",
+      "split_entities": [
+        "B&E Building Society",
+        "MyState"
+      ]
+    },
+    {
+      "entity_name": "CE Fanning & AH Fanning G&S Buchholz",
+      "classification": "SINGLE",
+      "confidence": "MEDIUM",
+      "explanation": "The '&' suggests a partnership, but the context is not entirely clear.  More details are needed for higher confidence.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Chairman, Chief Executive & The Board Canterbury Bankstown Bulldogs",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This refers to the leadership and governance structure of a single entity, the Canterbury Bankstown Bulldogs.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "SAVE THE CHILDREN AUSTRALIA, BILL & MELINDA GATES FOUNDATION",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate and well-known international organizations.",
+      "split_entities": [
+        "SAVE THE CHILDREN AUSTRALIA",
+        "BILL & MELINDA GATES FOUNDATION"
+      ]
+    },
+    {
+      "entity_name": "Claire Fitzpatrick, Managing Director Exploration & Production Aust, BP Australia",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This describes a single person's role within a single company, BP Australia.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Australia/Israel & Jewish Affairs Council (AIJAC)",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single organization.  (AIJAC) is simply an abbreviation.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "B&E Bank",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is the name of a single bank. The '&' is part of the name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Save The Children Fund, Bill & Melinda Gates Foundation, Oil Search Foundation",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three distinct organizations.",
+      "split_entities": [
+        "Save The Children Fund",
+        "Bill & Melinda Gates Foundation",
+        "Oil Search Foundation"
+      ]
+    },
+    {
+      "entity_name": "The Bill & Melinda Gates Foundation, Pacific Friends of the Global Fund, Asia Pacific Leaders Malaria Alliance, Chevron",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are four distinct organizations.",
+      "split_entities": [
+        "The Bill & Melinda Gates Foundation",
+        "Pacific Friends of the Global Fund",
+        "Asia Pacific Leaders Malaria Alliance",
+        "Chevron"
+      ]
+    },
+    {
+      "entity_name": "ANZ & ING, VicSuper, Westpac & ANZ, Health Super",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are four distinct financial institutions.",
+      "split_entities": [
+        "ANZ",
+        "ING",
+        "VicSuper",
+        "Westpac",
+        "ANZ",
+        "Health Super"
+      ]
+    },
+    {
+      "entity_name": "L&G Pasin Family Trust / Pasin Nominees Pty Ltd",
+      "classification": "SINGLE",
+      "confidence": "MEDIUM",
+      "explanation": "The slash suggests a close relationship, but not necessarily two separate entities. More context is needed.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "KLARE (QLD) Pty Ltd ATF, KJT & ASPitt Family Trust",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single entity, a company acting as trustee for a family trust.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "H&W Quantity Surveyors Pty Ltd",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single company, the '&' is part of the company name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Gosford/Erina & Coastal Chamber of Commerce",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This appears to be a single Chamber of Commerce serving multiple locations.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "M&K Allen Family Trust",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single family trust.  The '&' is part of the name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "BL & BM Broadbent Drapers Pty/Ltd",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is likely a single company. The '&' represents a partnership within the company name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "CBA, ANZ & Bendigo",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three distinct Australian banks.",
+      "split_entities": [
+        "CBA",
+        "ANZ",
+        "Bendigo"
+      ]
+    },
+    {
+      "entity_name": "Patron, Returned & Services League of Australia QLD Branch, National Servicemen's Sub Branch Inc.",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three separate entities: a person (Patron), a state branch, and a sub-branch.",
+      "split_entities": [
+        "Patron",
+        "Returned & Services League of Australia QLD Branch",
+        "National Servicemen's Sub Branch Inc."
+      ]
+    },
+    {
+      "entity_name": "Simon George & Sons, Brisbane fruiterers",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single business, 'Brisbane fruiterers' is descriptive, not a separate entity.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "B&S Pavier",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This appears to be a single business name. The '&' is part of the name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "L&G Pasin Family Trust/ Pasin Nominees Pty Ltd",
+      "classification": "SINGLE",
+      "confidence": "MEDIUM",
+      "explanation": "The slash suggests a connection, but not definitively two separate entities. More context would be helpful.",
+      "split_entities": []
+    }
+  ],
+  "raw_response": "```json\n[\n  {\n    \"entity_name\": \"Surf Life Saving Clubs, Service Clubs & Sporting Clubs in Electorate\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"While the name uses 'and' and '&', the context suggests three distinct types of clubs rather than a single organization.  However, it's possible this represents a single umbrella group, making high confidence difficult.\",\n    \"split_entities\": [\"Surf Life Saving Clubs\", \"Service Clubs\", \"Sporting Clubs in Electorate\"]\n  },\n  {\n    \"entity_name\": \"Korean Ambassador, Tourism & Transport Forum, Swan Valley Council\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are clearly three distinct and separate entities mentioned together.\",\n    \"split_entities\": [\"Korean Ambassador\", \"Tourism & Transport Forum\", \"Swan Valley Council\"]\n  },\n  {\n    \"entity_name\": \"Griff-Dev Investments Pty Ltd as Trustee of the P&M Fletcher Superannuation Fund\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single entity: a company acting as trustee for a superannuation fund.  The '&' is part of the fund's name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Griff-Dev investments Pty Ltd as Trustee of the P&M Fletcher Superannuation Fund\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single entity: a company acting as trustee for a superannuation fund.  The '&' is part of the fund's name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Australia / Israel & Jewish Affairs Council\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This appears to be a single organization with a compound name, despite the slash. The context strongly supports this.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Griff Dev Investments Pty Ltd atf P&M Fletcher Superannuation Fund\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single entity, a company acting as trustee for a superannuation fund. 'atf' signifies 'as trustee for'.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Griff-Dev Investments Pty Ltd ATF P&M Fletcher Superannuation Fund\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single entity, a company acting as trustee for a superannuation fund. 'ATF' signifies 'as trustee for'.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Joe Hockey & M. Babbage (t/a Platypus Creek Farm)\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single business (Platypus Creek Farm) operated by two individuals.  '&' indicates a partnership, not separate entities.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Joe Hockey & M Babbage (t/a Platypus Creek Farm)\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single business (Platypus Creek Farm) operated by two individuals.  '&' indicates a partnership, not separate entities.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Joe Hockey & M Babbage t/a Platypus Creek Farm\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single business (Platypus Creek Farm) operated by two individuals.  '&' indicates a partnership, not separate entities.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Catholic Parish of Bundaberg (Holy Rosary), Bundaberg Rotary Club, Hinkler House Memorial Museum & Research Assn, University of Central Queensland, Liberal National Party of Queensland, Burnett Club, Brothers Sports Club, Hervey Bay Boat Club, Bundaberg RSL Club, Hervey Bay RSL Memorial Services Club, Hervey Bay Business Network\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are eleven distinct organizations.\",\n    \"split_entities\": [\"Catholic Parish of Bundaberg (Holy Rosary)\", \"Bundaberg Rotary Club\", \"Hinkler House Memorial Museum & Research Assn\", \"University of Central Queensland\", \"Liberal National Party of Queensland\", \"Burnett Club\", \"Brothers Sports Club\", \"Hervey Bay Boat Club\", \"Bundaberg RSL Club\", \"Hervey Bay RSL Memorial Services Club\", \"Hervey Bay Business Network\"]\n  },\n  {\n    \"entity_name\": \"Elysium Pty Ltd, National Children's & Youth Law Centre, Australian Museum Trust\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three separate and distinct entities.\",\n    \"split_entities\": [\"Elysium Pty Ltd\", \"National Children's & Youth Law Centre\", \"Australian Museum Trust\"]\n  },\n  {\n    \"entity_name\": \"Restaurant & Catering (R&C)\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single organization with a shortened version of its name in parentheses.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Bonalil Pty Limited, Bonedale Pty Limited, Felix Bay Limited, MB Turnbull Pty Limited, Pokana Pty Limited, Turnbull Foundation, Turnbull & Partners Pty Limited, Turnbull & Partners Holdings Pty Limited, Wilcrow Pty Limited, Advisory Panel on Capital City Infrastructure, Australian Folklife Festival Inc, Australian Technology Park Precinct Management Ltd, Biennale of Sydney, Centre for Independent Studies Limited, ISYS Search Software Pty Limited, Maurtray Pty Limited, Melbourne IT Limited, Redfern Waterloo Authority, The Committee for Sydney, The Redfern Foundation Limited, Turnbull & Partners Holdings Pty Limited, United States Study Centre\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This list contains many separate companies, foundations, and organizations.\",\n    \"split_entities\": [\"Bonalil Pty Limited\", \"Bonedale Pty Limited\", \"Felix Bay Limited\", \"MB Turnbull Pty Limited\", \"Pokana Pty Limited\", \"Turnbull Foundation\", \"Turnbull & Partners Pty Limited\", \"Turnbull & Partners Holdings Pty Limited\", \"Wilcrow Pty Limited\", \"Advisory Panel on Capital City Infrastructure\", \"Australian Folklife Festival Inc\", \"Australian Technology Park Precinct Management Ltd\", \"Biennale of Sydney\", \"Centre for Independent Studies Limited\", \"ISYS Search Software Pty Limited\", \"Maurtray Pty Limited\", \"Melbourne IT Limited\", \"Redfern Waterloo Authority\", \"The Committee for Sydney\", \"The Redfern Foundation Limited\", \"Turnbull & Partners Holdings Pty Limited\", \"United States Study Centre\"]\n  },\n  {\n    \"entity_name\": \"Dimensional Australian Value Trust, EQT Intrinsic Value International Sharemarkets Plus Fund, Goldman Sachs Private Equity Funds, Stone Street Real Estate Fund, Stone Street Fund, Bridge Street Asia Fund, Magellan Flagship Fund Limited, Pengana Emerging Companies Fund, Pengana Global Resources Fund, Platinum International Fund, XES, AMP Capital Structured High Yield Fund, CBAPB, WCTPA, Turnbull & Partners Pty Ltd, BNBG, MXUPA, MB Turnbull Pty Limited, Griffin Coal Mining Co - corporate bonds, Morgan Stanley Real Estate Fund VI, Republic of Indonesia Government Bonds, State Bank of India Hybrid Perpetual CPN, EWM, SPY, XLE, XME, XOP, GS Capital Partners VI, Tyndall Australian Share Wholesale Portfolio, Hunter Hall Value Growth Trust\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a list of numerous distinct investment funds and entities.\",\n    \"split_entities\": [\"Dimensional Australian Value Trust\", \"EQT Intrinsic Value International Sharemarkets Plus Fund\", \"Goldman Sachs Private Equity Funds\", \"Stone Street Real Estate Fund\", \"Stone Street Fund\", \"Bridge Street Asia Fund\", \"Magellan Flagship Fund Limited\", \"Pengana Emerging Companies Fund\", \"Pengana Global Resources Fund\", \"Platinum International Fund\", \"XES\", \"AMP Capital Structured High Yield Fund\", \"CBAPB\", \"WCTPA\", \"Turnbull & Partners Pty Ltd\", \"BNBG\", \"MXUPA\", \"MB Turnbull Pty Limited\", \"Griffin Coal Mining Co - corporate bonds\", \"Morgan Stanley Real Estate Fund VI\", \"Republic of Indonesia Government Bonds\", \"State Bank of India Hybrid Perpetual CPN\", \"EWM\", \"SPY\", \"XLE\", \"XME\", \"XOP\", \"GS Capital Partners VI\", \"Tyndall Australian Share Wholesale Portfolio\", \"Hunter Hall Value Growth Trust\"]\n  },\n  {\n    \"entity_name\": \"Pilmer pty ltd, Turnbull & Partners Pty Limited, Finance Now Holdings Pty Ltd\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three separate limited liability companies.\",\n    \"split_entities\": [\"Pilmer pty ltd\", \"Turnbull & Partners Pty Limited\", \"Finance Now Holdings Pty Ltd\"]\n  },\n  {\n    \"entity_name\": \"Grandparent Vic, Business Clubs-Frankston/Mornington/Langwarrin, Frankston & Seaford Vietnam Veterans, Vietnam Veterans Aust America Assoc, Yamaha Park Tennis Club, Richmond Football Club\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"The ambiguity around 'Business Clubs-Frankston/Mornington/Langwarrin' lowers confidence. It could be one or multiple clubs.  The others are clearly separate.\",\n    \"split_entities\": [\"Grandparent Vic\", \"Business Clubs-Frankston\", \"Mornington\", \"Langwarrin\", \"Frankston & Seaford Vietnam Veterans\", \"Vietnam Veterans Aust America Assoc\", \"Yamaha Park Tennis Club\", \"Richmond Football Club\"]\n  },\n  {\n    \"entity_name\": \"Cairns Penny Savings & Loans, Westpac, Bendigo Bank\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three distinct financial institutions.\",\n    \"split_entities\": [\"Cairns Penny Savings & Loans\", \"Westpac\", \"Bendigo Bank\"]\n  },\n  {\n    \"entity_name\": \"P&M Fletcher Superannuation Fund\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is the name of a single superannuation fund. The '&' is part of the name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Australian Services Union, Australian Labor Party, Returned & Services League\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three distinct Australian organizations.\",\n    \"split_entities\": [\"Australian Services Union\", \"Australian Labor Party\", \"Returned & Services League\"]\n  },\n  {\n    \"entity_name\": \"Australia/Israel & Jewish Affairs Council\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This appears to be a single organization, even with the slash. Context strongly supports this interpretation.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"The Australia/Israel & Jewish Affairs Council\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single organization. The addition of 'The' does not change its nature.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Suncorp, Emirates, Lion, Diageo & CGU\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are four distinct companies operating in different sectors.\",\n    \"split_entities\": [\"Suncorp\", \"Emirates\", \"Lion\", \"Diageo\", \"CGU\"]\n  },\n  {\n    \"entity_name\": \"L&G Pasin Family Trust/Pasin Nominees\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"The slash could indicate a relationship (e.g., one entity managing the other), rather than separate entities.  More information is needed for high confidence.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"RAM Consultants P/L (Jointly & spouse)\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This refers to a single consultancy firm with details about the ownership structure.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Virgin, Slater & Gordon (UK) LLP\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct entities: an airline and a law firm.\",\n    \"split_entities\": [\"Virgin\", \"Slater & Gordon (UK) LLP\"]\n  },\n  {\n    \"entity_name\": \"Australian/Israel & Jewish Affairs Council\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single organization. The slash is likely part of the stylized name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"NAB, Commonwealth, Citibank, B&E Building Society\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are four different financial institutions.\",\n    \"split_entities\": [\"NAB\", \"Commonwealth Bank\", \"Citibank\", \"B&E Building Society\"]\n  },\n  {\n    \"entity_name\": \"B&E Building Society, MyState\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate building societies.\",\n    \"split_entities\": [\"B&E Building Society\", \"MyState\"]\n  },\n  {\n    \"entity_name\": \"CE Fanning & AH Fanning G&S Buchholz\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"The '&' suggests a partnership, but the context is not entirely clear.  More details are needed for higher confidence.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Chairman, Chief Executive & The Board Canterbury Bankstown Bulldogs\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This refers to the leadership and governance structure of a single entity, the Canterbury Bankstown Bulldogs.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"SAVE THE CHILDREN AUSTRALIA, BILL & MELINDA GATES FOUNDATION\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate and well-known international organizations.\",\n    \"split_entities\": [\"SAVE THE CHILDREN AUSTRALIA\", \"BILL & MELINDA GATES FOUNDATION\"]\n  },\n  {\n    \"entity_name\": \"Claire Fitzpatrick, Managing Director Exploration & Production Aust, BP Australia\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This describes a single person's role within a single company, BP Australia.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Australia/Israel & Jewish Affairs Council (AIJAC)\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single organization.  (AIJAC) is simply an abbreviation.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"B&E Bank\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is the name of a single bank. The '&' is part of the name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Save The Children Fund, Bill & Melinda Gates Foundation, Oil Search Foundation\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three distinct organizations.\",\n    \"split_entities\": [\"Save The Children Fund\", \"Bill & Melinda Gates Foundation\", \"Oil Search Foundation\"]\n  },\n  {\n    \"entity_name\": \"The Bill & Melinda Gates Foundation, Pacific Friends of the Global Fund, Asia Pacific Leaders Malaria Alliance, Chevron\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are four distinct organizations.\",\n    \"split_entities\": [\"The Bill & Melinda Gates Foundation\", \"Pacific Friends of the Global Fund\", \"Asia Pacific Leaders Malaria Alliance\", \"Chevron\"]\n  },\n  {\n    \"entity_name\": \"ANZ & ING, VicSuper, Westpac & ANZ, Health Super\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are four distinct financial institutions.\",\n    \"split_entities\": [\"ANZ\", \"ING\", \"VicSuper\", \"Westpac\", \"ANZ\", \"Health Super\"]\n  },\n  {\n    \"entity_name\": \"L&G Pasin Family Trust / Pasin Nominees Pty Ltd\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"The slash suggests a close relationship, but not necessarily two separate entities. More context is needed.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"KLARE (QLD) Pty Ltd ATF, KJT & ASPitt Family Trust\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single entity, a company acting as trustee for a family trust.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"H&W Quantity Surveyors Pty Ltd\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single company, the '&' is part of the company name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Gosford/Erina & Coastal Chamber of Commerce\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This appears to be a single Chamber of Commerce serving multiple locations.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"M&K Allen Family Trust\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single family trust.  The '&' is part of the name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"BL & BM Broadbent Drapers Pty/Ltd\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is likely a single company. The '&' represents a partnership within the company name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"CBA, ANZ & Bendigo\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three distinct Australian banks.\",\n    \"split_entities\": [\"CBA\", \"ANZ\", \"Bendigo\"]\n  },\n  {\n    \"entity_name\": \"Patron, Returned & Services League of Australia QLD Branch, National Servicemen's Sub Branch Inc.\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three separate entities: a person (Patron), a state branch, and a sub-branch.\",\n    \"split_entities\": [\"Patron\", \"Returned & Services League of Australia QLD Branch\", \"National Servicemen's Sub Branch Inc.\"]\n  },\n  {\n    \"entity_name\": \"Simon George & Sons, Brisbane fruiterers\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single business, 'Brisbane fruiterers' is descriptive, not a separate entity.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"B&S Pavier\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This appears to be a single business name. The '&' is part of the name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"L&G Pasin Family Trust/ Pasin Nominees Pty Ltd\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"The slash suggests a connection, but not definitively two separate entities. More context would be helpful.\",\n    \"split_entities\": []\n  }\n]\n```\n"
+}

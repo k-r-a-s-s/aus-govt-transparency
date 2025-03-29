@@ -1,0 +1,919 @@
+{
+  "batch_id": "comma_16",
+  "category": "comma",
+  "entities": [
+    {
+      "entity": "HE Sheikh Khalid bin Abdullah Al-Khalifa, HE Dr Juma bin Ahmed Al-Kaabi, Saleh-Al-Munajem",
+      "proposed_splits": [
+        "HE Sheikh Khalid bin Abdullah Al-Khalifa",
+        "HE Dr Juma bin Ahmed Al-Kaabi",
+        "Saleh-Al-Munajem"
+      ],
+      "context": [
+        {
+          "mp_name": "Barnaby Joyce",
+          "party": "National Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Boat Figurines and Amber Jewellery",
+          "details": "1 boat figurine from HE Sheikh Khalid bin Abdullah Al-Khalifa, 1 boat figurine from HE Dr Juma bin Ahmed Al-Kaabi, 3 sets of amber jewellery from Saleh-Al-Munajem, 1 wooden boat figurine from shopkeeper."
+        }
+      ]
+    },
+    {
+      "entity": "Mr Brendan Pearson, Minerals Council of Australia",
+      "proposed_splits": [
+        "Mr Brendan Pearson",
+        "Minerals Council of Australia"
+      ],
+      "context": [
+        {
+          "mp_name": "Barnaby Joyce",
+          "party": "National Party of Australia",
+          "category": "Gift",
+          "sub_category": "Other Gift",
+          "item": "Hi-visibility 'Australians for Coal' mining shirt",
+          "details": "One hi-visibility 'Australians for Coal' mining shirt"
+        }
+      ]
+    },
+    {
+      "entity": "Winemakers' Federation of Australia, AUSVEG, Committee for Economic Development of Australia (CEDA), Opera Australia",
+      "proposed_splits": [
+        "Winemakers' Federation of Australia",
+        "AUSVEG",
+        "Committee for Economic Development of Australia (CEDA)",
+        "Opera Australia"
+      ],
+      "context": [
+        {
+          "mp_name": "Barnaby Joyce",
+          "party": "National Party of Australia",
+          "category": "Income",
+          "sub_category": "Other Income",
+          "item": "Wine, Book \"Game of Knowns\", Pen, Opera Tickets",
+          "details": "One bottle of wine, Book \"Game of Knowns\", Parker pen, Tickets to the opera"
+        }
+      ]
+    },
+    {
+      "entity": "Cr Don Chambers, Indigo Shire Council",
+      "proposed_splits": [
+        "Cr Don Chambers",
+        "Indigo Shire Council"
+      ],
+      "context": [
+        {
+          "mp_name": "Barnaby Joyce",
+          "party": "National Party of Australia",
+          "category": "Gift",
+          "sub_category": "Hospitality",
+          "item": "Bottle of wine",
+          "details": "One bottle of wine"
+        }
+      ]
+    },
+    {
+      "entity": "Rabobank, National Farmers Federation",
+      "proposed_splits": [
+        "Rabobank",
+        "National Farmers Federation"
+      ],
+      "context": [
+        {
+          "mp_name": "Barnaby Joyce",
+          "party": "National Party of Australia",
+          "category": "Income",
+          "sub_category": "Other Income",
+          "item": "Book & Wooden pen holder",
+          "details": "Book Life in the Australian Outback by Thijs Helensfeld from Rabobank; Wooden pen holder from the National Farmers Federation"
+        }
+      ]
+    },
+    {
+      "entity": "Mr John Cassegrain, Michael Hope",
+      "proposed_splits": [
+        "Mr John Cassegrain",
+        "Michael Hope"
+      ],
+      "context": [
+        {
+          "mp_name": "Barnaby Joyce",
+          "party": "National Party of Australia",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Wine and concert tickets",
+          "details": "1 bottle of 2014 Chardonnay, 1 bottle of 2012 Merlot from Mr John Cassegrain of Cassegrain Winery; 2 tickets to the Rolling Stones concert from Michael Hope of Hope Estate; 4 tickets to the Museum of Contemporary Art's Chuck Close: Prints, Process and Collaboration."
+        }
+      ]
+    },
+    {
+      "entity": "Bindaree Beef, The Australia Ballet",
+      "proposed_splits": [
+        "Bindaree Beef",
+        "The Australia Ballet"
+      ],
+      "context": [
+        {
+          "mp_name": "Barnaby Joyce",
+          "party": "National Party of Australia",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Cryovac scotch fillet and ballet tickets",
+          "details": "4 cryovac scotch fillet packages from Bindaree Beef; 4 tickets to The Australia Ballet Regional Tour in Tamworth"
+        }
+      ]
+    },
+    {
+      "entity": "CropLife Australia, Embassy of the Islamic Republic of Iran, Shenzhen Zhonglong Food Company",
+      "proposed_splits": [
+        "CropLife Australia",
+        "Embassy of the Islamic Republic of Iran",
+        "Shenzhen Zhonglong Food Company"
+      ],
+      "context": [
+        {
+          "mp_name": "Barnaby Joyce",
+          "party": "National Party of Australia",
+          "category": "Income",
+          "sub_category": "Other Income",
+          "item": "Wine Gift Box, Book Persia to Iran, Painting",
+          "details": "A wine gift box from CropLife Australia; Book Persia to Iran from the Embassy of the Isla Islamic Republic of Iran; Painting from the Shenzhen Zhonglong Food Company"
+        }
+      ]
+    },
+    {
+      "entity": "CHEN Lei, ZHI Shuping, HAN Changfu, LEE Dong Phil, OKUNO, CHOE, MORIYAMA, Hiroshi",
+      "proposed_splits": [
+        "CHEN Lei",
+        "ZHI Shuping",
+        "HAN Changfu",
+        "LEE Dong Phil",
+        "OKUNO",
+        "CHOE",
+        "MORIYAMA",
+        "Hiroshi"
+      ],
+      "context": [
+        {
+          "mp_name": "Barnaby Joyce",
+          "party": "National Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Gifts during North Asia visit",
+          "details": "Gifts during North Asia visit (Minister for Water Resources CHEN Lei, Minister Administration of Quality Supervision, Inspection and Quarantine ZHI Shuping, Minister for Agriculture HAN Changfu, Korean Minister for Agriculture, LEE Dong Phil, Head of JA Zenchu \u2013 OKUNO, CHOE, Minister for Agriculture MORIYAMA, Hiroshi)"
+        }
+      ]
+    },
+    {
+      "entity": "ANZ, Commonwealth, NAB, Metway",
+      "proposed_splits": [
+        "ANZ",
+        "Commonwealth",
+        "NAB",
+        "Metway"
+      ],
+      "context": [
+        {
+          "mp_name": "Robert Carl Katter",
+          "party": "Katter's Australian Party",
+          "category": "Liability",
+          "sub_category": "Loan",
+          "item": "Loans",
+          "details": "Loans"
+        }
+      ]
+    },
+    {
+      "entity": "HE Mr Wataru Takeshita, (Japan)",
+      "proposed_splits": [
+        "HE Mr Wataru Takeshita",
+        "(Japan)"
+      ],
+      "context": [
+        {
+          "mp_name": "Michael Keenan",
+          "party": "Liberal Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Mini Okiagari-Koboshi dolls",
+          "details": "ADDITION: Mini Okiagari-Koboshi dolls Presented by HE Mr Wataru Takeshita, (Japan) Minister of Reconstruction and Minister for Revitalisation of Fukushima during visit to WCDRR Japan 15 March 2015. On display Perth Ministerial Office"
+        }
+      ]
+    },
+    {
+      "entity": "Crown Resort, Perth",
+      "proposed_splits": [
+        "Crown Resort",
+        "Perth"
+      ],
+      "context": [
+        {
+          "mp_name": "Michael Keenan",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Hospitality",
+          "item": "Lunch at Nobu Restaurant",
+          "details": "ADDITION: Lunch Nobu Restaurant Guest of Crown Resort, Perth, 31 March 2015"
+        }
+      ]
+    },
+    {
+      "entity": "Interpol Secretary-General, Mr Jurgen Stock",
+      "proposed_splits": [
+        "Interpol Secretary-General",
+        "Mr Jurgen Stock"
+      ],
+      "context": [
+        {
+          "mp_name": "Michael Keenan",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Altanus Men's Watch",
+          "details": "ADDITION: Altanus Men's Watch Received from Interpol Secretary-General, Mr Jurgen Stock. Value $124 Euro (approx. $200.00 Australian Dollars) \u2013 as advised by meeting organisers from Interpol"
+        }
+      ]
+    },
+    {
+      "entity": "Gavi, the Vaccine Alliance",
+      "proposed_splits": [
+        "Gavi",
+        "the Vaccine Alliance"
+      ],
+      "context": [
+        {
+          "mp_name": "Catherine King",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Business Class Ticket to Laos",
+          "details": "Business Class Ticket with Thai Airways, Bangkok Airways and Singapore Airways to Laos (5th Oct to 8th Oct). Delegation to Laos of Australian MP's with Gavi, the Vaccine Alliance, Board"
+        }
+      ]
+    },
+    {
+      "entity": "Strathfield, NSW",
+      "proposed_splits": [
+        "Strathfield",
+        "NSW"
+      ],
+      "context": [
+        {
+          "mp_name": "Craig Laundy",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Property in Strathfield, NSW",
+          "details": "Suzanne Laundy"
+        }
+      ]
+    },
+    {
+      "entity": "Gundagai, NSW",
+      "proposed_splits": [
+        "Gundagai",
+        "NSW"
+      ],
+      "context": [
+        {
+          "mp_name": "Craig Laundy",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Property in Gundagai, NSW",
+          "details": "Suzanne Laundy"
+        },
+        {
+          "mp_name": "Craig Laundy",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Superannuation Fund in Gundagai",
+          "details": "The Laundy Family Super Fund"
+        }
+      ]
+    },
+    {
+      "entity": "Hume Building Society, NAB",
+      "proposed_splits": [
+        "Hume Building Society",
+        "NAB"
+      ],
+      "context": [
+        {
+          "mp_name": "Sussan Ley",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings Account",
+          "details": "Spouse: Savings, Savings"
+        }
+      ]
+    },
+    {
+      "entity": "Main Beach, QLD 4217",
+      "proposed_splits": [
+        "Main Beach",
+        "QLD 4217"
+      ],
+      "context": [
+        {
+          "mp_name": "Sussan Ley",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Rental Property in Main Beach",
+          "details": "Purchase on 9 June 2015, Rental property"
+        }
+      ]
+    },
+    {
+      "entity": "Empire Theatre, Toowoomba",
+      "proposed_splits": [
+        "Empire Theatre",
+        "Toowoomba"
+      ],
+      "context": [
+        {
+          "mp_name": "Ian Macfarlane",
+          "party": "Liberal National Party",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Theatre Invitation",
+          "details": "Invitation for Ian Macfarlane and Karen Macfarlane to attend opening performance of Cinderella, 13 Sep 2014, Empire Theatre, Toowoomba"
+        }
+      ]
+    },
+    {
+      "entity": "St George Bank, ANZ, NAB, Citibank",
+      "proposed_splits": [
+        "St George Bank",
+        "ANZ",
+        "NAB",
+        "Citibank"
+      ],
+      "context": [
+        {
+          "mp_name": "Russell Matheson",
+          "party": "Liberal Party of Australia",
+          "category": "Liability",
+          "sub_category": "Loan",
+          "item": "Home Loan and Credit Cards",
+          "details": "Home Loan, Credit Cards"
+        }
+      ]
+    },
+    {
+      "entity": "ANZ, CUA, NAB, Macarthur Credit Union",
+      "proposed_splits": [
+        "ANZ",
+        "CUA",
+        "NAB",
+        "Macarthur Credit Union"
+      ],
+      "context": [
+        {
+          "mp_name": "Russell Matheson",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings Account",
+          "details": "Savings"
+        }
+      ]
+    },
+    {
+      "entity": "Central Coast Bears, Woongarah Football Club",
+      "proposed_splits": [
+        "Central Coast Bears",
+        "Woongarah Football Club"
+      ],
+      "context": [
+        {
+          "mp_name": "Karen McNamara",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Foundation Membership",
+          "details": "Foundation member (Spouse)"
+        }
+      ]
+    },
+    {
+      "entity": "Central Coast Bears, Woongarah FC",
+      "proposed_splits": [
+        "Central Coast Bears",
+        "Woongarah FC"
+      ],
+      "context": [
+        {
+          "mp_name": "Karen McNamara",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Spouse Club Membership",
+          "details": "Foundation member (Spouse)"
+        }
+      ]
+    },
+    {
+      "entity": "CommBank, CitiBank, AMEX",
+      "proposed_splits": [
+        "CommBank",
+        "CitiBank",
+        "AMEX"
+      ],
+      "context": [
+        {
+          "mp_name": "Scott Morrison",
+          "party": "Liberal Party of Australia",
+          "category": "Liability",
+          "sub_category": "Mortgage",
+          "item": "Mortgage, Viridian, VISA, Mastercard, Credit, Amex",
+          "details": "Mortgage, Viridian, VISA, Mastercard, Credit, Amex"
+        }
+      ]
+    },
+    {
+      "entity": "Australian Rugby Union, Showcall Crewing Pty Ltd",
+      "proposed_splits": [
+        "Australian Rugby Union",
+        "Showcall Crewing Pty Ltd"
+      ],
+      "context": [
+        {
+          "mp_name": "Scott Morrison",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Wallabies versus France Rugby Union Match, Keith Urban Concert",
+          "details": "Wallabies versus France Rugby Union Match at Allianz Stadium (with father); Keith Urban concert in June"
+        }
+      ]
+    },
+    {
+      "entity": "Park Hyatt Hotel, The Rocks, Sydney",
+      "proposed_splits": [
+        "Park Hyatt Hotel",
+        "The Rocks",
+        "Sydney"
+      ],
+      "context": [
+        {
+          "mp_name": "Kelly Megan O'Dwyer",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Accommodation Upgrade",
+          "details": "Self, 3/2/15 - Unrequested accommodation upgrade"
+        }
+      ]
+    },
+    {
+      "entity": "Volvo Cars, Bilia South Yarra",
+      "proposed_splits": [
+        "Volvo Cars",
+        "Bilia South Yarra"
+      ],
+      "context": [
+        {
+          "mp_name": "Kelly Megan O'Dwyer",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Venue for Chinese New Year event",
+          "details": "Mr Paul Bartett, General Manager, Volvo Cars, Bilia South Yarra provided venue for a Higgins community Chinese New Year event on 5/2/16"
+        }
+      ]
+    },
+    {
+      "entity": "ANZ, NAB",
+      "proposed_splits": [
+        "ANZ",
+        "NAB"
+      ],
+      "context": [
+        {
+          "mp_name": "Julie Owens",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings Accounts",
+          "details": "3 Savings Accounts, Savings Account"
+        },
+        {
+          "mp_name": "Peter Dutton",
+          "party": "Liberal National Party",
+          "category": "Liability",
+          "sub_category": "Credit",
+          "item": "Credit Facilities",
+          "details": "Credit Facilities - Spouse"
+        },
+        {
+          "mp_name": "Peter Dutton",
+          "party": "Liberal National Party",
+          "category": "Liability",
+          "sub_category": "Credit",
+          "item": "Credit Facilities",
+          "details": "Credit facilities"
+        }
+      ]
+    },
+    {
+      "entity": "ARIA, PSS, Town",
+      "proposed_splits": [
+        "ARIA",
+        "PSS",
+        "Town"
+      ],
+      "context": [
+        {
+          "mp_name": "Julie Owens",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Superannuation",
+          "details": "Superannuation"
+        }
+      ]
+    },
+    {
+      "entity": "Brisbane, QLD",
+      "proposed_splits": [
+        "Brisbane",
+        "QLD"
+      ],
+      "context": [
+        {
+          "mp_name": "Clive Frederick Palmer",
+          "party": "Palmer United",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Commercial & Residential Properties in Brisbane",
+          "details": "Houses/Units/Land, Commercial Buildings, Residential/Investments"
+        },
+        {
+          "mp_name": "Ananda-Rajah",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential/Investment Property in Brisbane, QLD",
+          "details": "spouse/partner; Residential/investment"
+        },
+        {
+          "mp_name": "Ananda-Rajah",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential/Investment Property in Brisbane, QLD",
+          "details": "spouse/partner; Residential/investment"
+        }
+      ]
+    },
+    {
+      "entity": "Gold Coast, QLD",
+      "proposed_splits": [
+        "Gold Coast",
+        "QLD"
+      ],
+      "context": [
+        {
+          "mp_name": "Clive Frederick Palmer",
+          "party": "Palmer United",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Commercial & Residential Properties in Gold Coast",
+          "details": "Houses/Units/Land, Commercial Buildings, Restaurant, Residential/Investments"
+        }
+      ]
+    },
+    {
+      "entity": "Sunshine Coast, QLD",
+      "proposed_splits": [
+        "Sunshine Coast",
+        "QLD"
+      ],
+      "context": [
+        {
+          "mp_name": "Clive Frederick Palmer",
+          "party": "Palmer United",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential Properties in Sunshine Coast",
+          "details": "Houses/Units/Land, Residential/Investments"
+        }
+      ]
+    },
+    {
+      "entity": "National Rural Health Alliance, Friends of the Alliance",
+      "proposed_splits": [
+        "National Rural Health Alliance",
+        "Friends of the Alliance"
+      ],
+      "context": [
+        {
+          "mp_name": "Pli Bersek",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Rural Health Alliance Membership",
+          "details": "Member"
+        }
+      ]
+    },
+    {
+      "entity": "Minister Lembong, Indonesian Minister for Trade",
+      "proposed_splits": [
+        "Minister Lembong",
+        "Indonesian Minister for Trade"
+      ],
+      "context": [
+        {
+          "mp_name": "Pli Bersek",
+          "party": "Australian Labor Party",
+          "category": "Income",
+          "sub_category": "Other Income",
+          "item": "'Indonesian Kitchen' book",
+          "details": "'Indonesian Kitchen' book Gift from Minister Lembong, Indonesian Minister for Trade \u2013 value A$25 (IDR 250.000)"
+        }
+      ]
+    },
+    {
+      "entity": "Bendigo Bank, NAB",
+      "proposed_splits": [
+        "Bendigo Bank",
+        "NAB"
+      ],
+      "context": [
+        {
+          "mp_name": "Bernard Ripoll",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings Account",
+          "details": "Savings"
+        }
+      ]
+    },
+    {
+      "entity": "The Chairman of Queensland Cricket, Mr Jim",
+      "proposed_splits": [
+        "The Chairman of Queensland Cricket",
+        "Mr Jim"
+      ],
+      "context": [
+        {
+          "mp_name": "Bernard Ripoll",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Ticket to Cricket Match",
+          "details": "Attended Day 2 of The First Commonwealth Bank Test Holding Match on 22nd November 2013"
+        }
+      ]
+    },
+    {
+      "entity": "The Chairman of Cricket Australia, Mr Wally Edwards",
+      "proposed_splits": [
+        "The Chairman of Cricket Australia",
+        "Mr Wally Edwards"
+      ],
+      "context": [
+        {
+          "mp_name": "Bernard Ripoll",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Attendance at Carlton Mid One Day International Series",
+          "details": "Attended the Carlton Mid One Day International Series in Sydney on 19th January 2014"
+        }
+      ]
+    },
+    {
+      "entity": "Gavin Jackman, Executive Global Head of Orica Limited (Greenedge)",
+      "proposed_splits": [
+        "Gavin Jackman",
+        "Executive Global Head of Orica Limited (Greenedge)"
+      ],
+      "context": [
+        {
+          "mp_name": "Bernard Ripoll",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Attendance at the Australian Tour Down Under",
+          "details": "Attended the Final Stages of the Australian Tour Down Under in Adelaide from 23rd January to 27th January 2014"
+        }
+      ]
+    },
+    {
+      "entity": "Terry Slaugher, Springfield Lakes IGA",
+      "proposed_splits": [
+        "Terry Slaugher",
+        "Springfield Lakes IGA"
+      ],
+      "context": [
+        {
+          "mp_name": "Bernard Ripoll",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Attendance at 2014 State of Origin 3rd Match",
+          "details": "Attended the 2014 State of Origin 3rd Match in Brisbane QLD on 9th July 2014."
+        }
+      ]
+    },
+    {
+      "entity": "Mark Gibson, Chairman PGA of Australia",
+      "proposed_splits": [
+        "Mark Gibson",
+        "Chairman PGA of Australia"
+      ],
+      "context": [
+        {
+          "mp_name": "Bernard Ripoll",
+          "party": "Australian Labor Party",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "PGA Australia Annual Honorary Membership",
+          "details": "7th October 2014, PGA Australia Annual Honorary Membership"
+        }
+      ]
+    },
+    {
+      "entity": "David Smith, CEO of National Rugby League",
+      "proposed_splits": [
+        "David Smith",
+        "CEO of National Rugby League"
+      ],
+      "context": [
+        {
+          "mp_name": "Bernard Ripoll",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Tickets to NRL Anzac Test and NRL Pacific Test",
+          "details": "1st May 2015 Received(not used due to weather) 2 tickets to the NRL Anzac Test, Brisbane QLD and 2nd of May 2015 received(not used due to weather) 2 tickets to the NRL Pacific Test in Robina, QLD"
+        }
+      ]
+    },
+    {
+      "entity": "Bill Pulver, CEO of Australian Rugby Union",
+      "proposed_splits": [
+        "Bill Pulver",
+        "CEO of Australian Rugby Union"
+      ],
+      "context": [
+        {
+          "mp_name": "Bernard Ripoll",
+          "party": "Australian Labor Party",
+          "category": "Membership",
+          "sub_category": "Professional",
+          "item": "Qantas Wallabies V Springboks Rugby Union Match Attendance",
+          "details": "18th July 2015, attended the Qantas Wallabies V Springboks Rugby Union Match in Brisbane."
+        }
+      ]
+    },
+    {
+      "entity": "Mr Wang Jianlin, Chairman of the Wanda Group, China",
+      "proposed_splits": [
+        "Mr Wang Jianlin",
+        "Chairman of the Wanda Group",
+        "China"
+      ],
+      "context": [
+        {
+          "mp_name": "Andrew Robb",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "China tea set and Tong Quing Hao Purer tea",
+          "details": "An Auratic authentic china tea set and Tong Quing Hao Purer tea"
+        }
+      ]
+    },
+    {
+      "entity": "Mr Guatam Adani, Chairman Adani Group",
+      "proposed_splits": [
+        "Mr Guatam Adani",
+        "Chairman Adani Group"
+      ],
+      "context": [
+        {
+          "mp_name": "Andrew Robb",
+          "party": "Liberal Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Private Charter Plane Flight",
+          "details": "Travelled from Ahmedabad to Mundra on Mr Guatam Adani, Chairman Adani Group's private charter plane on Saturday 10 January 2015."
+        }
+      ]
+    },
+    {
+      "entity": "HE Heraldo Munoz, Chile Foreign Min",
+      "proposed_splits": [
+        "HE Heraldo Munoz",
+        "Chile Foreign Min"
+      ],
+      "context": [
+        {
+          "mp_name": "Andrew Robb",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Wooden Chilean Indigenous Statue",
+          "details": "Wooden Chilean Indigenous Statue"
+        }
+      ]
+    },
+    {
+      "entity": "Mr Ollanta Humala Tasso, President of the Republic of Peru",
+      "proposed_splits": [
+        "Mr Ollanta Humala Tasso",
+        "President of the Republic of Peru"
+      ],
+      "context": [
+        {
+          "mp_name": "Andrew Robb",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Guanaco wool scarf",
+          "details": "Guanaco wool scarf in wooden box"
+        }
+      ]
+    },
+    {
+      "entity": "Mr Francois Hollande, President of France",
+      "proposed_splits": [
+        "Mr Francois Hollande",
+        "President of France"
+      ],
+      "context": [
+        {
+          "mp_name": "Andrew Robb",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Silver plate",
+          "details": "Silver plate"
+        }
+      ]
+    },
+    {
+      "entity": "Conrad Hotel, Dubai, UAE",
+      "proposed_splits": [
+        "Conrad Hotel",
+        "Dubai",
+        "UAE"
+      ],
+      "context": [
+        {
+          "mp_name": "Andrew Robb",
+          "party": "Liberal Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Suite Upgrade in Dubai",
+          "details": "Free of charge upgrade to a suite at the Conrad Hotel, Dubai, UAE."
+        }
+      ]
+    },
+    {
+      "entity": "Sheraton Kuwait Hotel, Kuwait City, Kuwait",
+      "proposed_splits": [
+        "Sheraton Kuwait Hotel",
+        "Kuwait City",
+        "Kuwait"
+      ],
+      "context": [
+        {
+          "mp_name": "Andrew Robb",
+          "party": "Liberal Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Suite Upgrade in Kuwait City",
+          "details": "Free of charge upgrade to a suite at the Sheraton Kuwait Hotel, Kuwait City, Kuwait."
+        }
+      ]
+    },
+    {
+      "entity": "St Regis Hotel, Doha, Qatar",
+      "proposed_splits": [
+        "St Regis Hotel",
+        "Doha",
+        "Qatar"
+      ],
+      "context": [
+        {
+          "mp_name": "Andrew Robb",
+          "party": "Liberal Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Suite Upgrade in Doha",
+          "details": "Free of charge upgrade to a suite at the St Regis Hotel, Doha, Qatar."
+        }
+      ]
+    }
+  ]
+}

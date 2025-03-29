@@ -1,0 +1,534 @@
+{
+  "batch_id": "comma_22",
+  "category": "comma",
+  "entities_count": 50,
+  "analysis_results": [
+    {
+      "entity_name": "Rose Bay, Tasmania",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Rose Bay is a suburb, and Tasmania is a state.  The context examples clearly show them as separate locations.",
+      "split_entities": [
+        "Rose Bay",
+        "Tasmania"
+      ]
+    },
+    {
+      "entity_name": "Toowoomba, Queensland",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Toowoomba is a city, and Queensland is a state. The context example shows a location within Queensland.",
+      "split_entities": [
+        "Toowoomba",
+        "Queensland"
+      ]
+    },
+    {
+      "entity_name": "Scarborough, WA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Scarborough is a suburb in Western Australia (WA).",
+      "split_entities": [
+        "Scarborough",
+        "WA"
+      ]
+    },
+    {
+      "entity_name": "MilSuper, GESB",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "Likely two separate superannuation funds.  Requires further verification to be HIGH confidence.",
+      "split_entities": [
+        "MilSuper",
+        "GESB"
+      ]
+    },
+    {
+      "entity_name": "Liberal Party of WA, Stirling Division",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "The Liberal Party of WA is a political party, and Stirling Division is a branch or electorate within it.",
+      "split_entities": [
+        "Liberal Party of WA",
+        "Stirling Division"
+      ]
+    },
+    {
+      "entity_name": "Jetts Fitness, Scarborough",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Jetts Fitness is a gym franchise, and Scarborough is a location. The context clarifies this as two separate entities.",
+      "split_entities": [
+        "Jetts Fitness",
+        "Scarborough"
+      ]
+    },
+    {
+      "entity_name": "Trigg, WA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Trigg is a suburb in Western Australia (WA).",
+      "split_entities": [
+        "Trigg",
+        "WA"
+      ]
+    },
+    {
+      "entity_name": "LJ Hooker, Warners Bay",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "LJ Hooker is a real estate agency, and Warners Bay is a location. The context shows a specific LJ Hooker branch.",
+      "split_entities": [
+        "LJ Hooker",
+        "Warners Bay"
+      ]
+    },
+    {
+      "entity_name": "Australian Workers' Union of Employees, Qld",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Australian Workers' Union of Employees is a union, and Qld (Queensland) specifies a state branch.",
+      "split_entities": [
+        "Australian Workers' Union of Employees",
+        "Qld"
+      ]
+    },
+    {
+      "entity_name": "Australian Labor Party, Qld",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Australian Labor Party is a political party, and Qld (Queensland) indicates a state branch.",
+      "split_entities": [
+        "Australian Labor Party",
+        "Qld"
+      ]
+    },
+    {
+      "entity_name": "Moreton Island, Qld",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Moreton Island is an island, and Qld (Queensland) is the state it belongs to.",
+      "split_entities": [
+        "Moreton Island",
+        "Qld"
+      ]
+    },
+    {
+      "entity_name": "Palm Beach, Qld",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Palm Beach is a location, and Qld (Queensland) specifies the state.",
+      "split_entities": [
+        "Palm Beach",
+        "Qld"
+      ]
+    },
+    {
+      "entity_name": "Spring Hill, Qld",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Spring Hill is a suburb, and Qld (Queensland) is the state.",
+      "split_entities": [
+        "Spring Hill",
+        "Qld"
+      ]
+    },
+    {
+      "entity_name": "ANZ, QBank, NAB, CBA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are all separate Australian banks.",
+      "split_entities": [
+        "ANZ",
+        "QBank",
+        "NAB",
+        "CBA"
+      ]
+    },
+    {
+      "entity_name": "ANZ, Qbank",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate Australian banks.",
+      "split_entities": [
+        "ANZ",
+        "Qbank"
+      ]
+    },
+    {
+      "entity_name": "Equity Access Loan, Westpac Bank",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Equity Access Loan is a type of loan product, and Westpac Bank is the financial institution.",
+      "split_entities": [
+        "Equity Access Loan",
+        "Westpac Bank"
+      ]
+    },
+    {
+      "entity_name": "Entsch Family Trust, Tuff Muff Exhaust",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are clearly two distinct entities: a family trust and a business.",
+      "split_entities": [
+        "Entsch Family Trust",
+        "Tuff Muff Exhaust"
+      ]
+    },
+    {
+      "entity_name": "ALP, NPC, Vintage Golf Club, Qutries Chairman's Lounge, Virgin Lounge, Kriss Flyer Membership, USU, Various Registered Clubs, NSW",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This lists multiple organizations and locations.  NSW likely refers to New South Wales.",
+      "split_entities": [
+        "ALP",
+        "NPC",
+        "Vintage Golf Club",
+        "Qutries Chairman's Lounge",
+        "Virgin Lounge",
+        "Kriss Flyer Membership",
+        "USU",
+        "Various Registered Clubs",
+        "NSW"
+      ]
+    },
+    {
+      "entity_name": "Macquarie Cash Management Account, ING Direct, RaboDirect, St George Bank",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are all separate financial institutions offering different accounts.",
+      "split_entities": [
+        "Macquarie Cash Management Account",
+        "ING Direct",
+        "RaboDirect",
+        "St George Bank"
+      ]
+    },
+    {
+      "entity_name": "ING Living Super, Public Sector Superannuation Scheme, PFMZ Pearl Superannuation Fund",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three different superannuation funds.",
+      "split_entities": [
+        "ING Living Super",
+        "Public Sector Superannuation Scheme",
+        "PFMZ Pearl Superannuation Fund"
+      ]
+    },
+    {
+      "entity_name": "Falls Festival, Lorne",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Falls Festival is a music festival, and Lorne is the location.",
+      "split_entities": [
+        "Falls Festival",
+        "Lorne"
+      ]
+    },
+    {
+      "entity_name": "NSW Rural Fire Service Association, Orange Community Broadcasters, Orange Emulators Rugby",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three separate organizations in Orange, NSW.",
+      "split_entities": [
+        "NSW Rural Fire Service Association",
+        "Orange Community Broadcasters",
+        "Orange Emulators Rugby"
+      ]
+    },
+    {
+      "entity_name": "Atlantic Council, Inter-Parliamentary Alliance on China",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct international organizations.",
+      "split_entities": [
+        "Atlantic Council",
+        "Inter-Parliamentary Alliance on China"
+      ]
+    },
+    {
+      "entity_name": "Military Brotherhood Motorcycle Club, Peel Branch",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A motorcycle club and its specific branch.",
+      "split_entities": [
+        "Military Brotherhood Motorcycle Club",
+        "Peel Branch"
+      ]
+    },
+    {
+      "entity_name": "Rest, Aus Gov",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "Requires further information to confirm if 'Rest' is an organization or a shortened name. 'Aus Gov' likely refers to the Australian Government.",
+      "split_entities": [
+        "Rest",
+        "Aus Gov"
+      ]
+    },
+    {
+      "entity_name": "Foxtel, Chairman's Lounge (Qantas), The Club (Virgin)",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Foxtel is a TV provider, and the others are airline lounges.",
+      "split_entities": [
+        "Foxtel",
+        "Chairman's Lounge (Qantas)",
+        "The Club (Virgin)"
+      ]
+    },
+    {
+      "entity_name": "Australian Labor Party, Australian Workers' Union, National Press Club, Campbelltown Catholic Club, Western Suburbs Rugby League Club, Cabra-Vale Diggers Club, National Servicemens' Association",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A list of different organizations.",
+      "split_entities": [
+        "Australian Labor Party",
+        "Australian Workers' Union",
+        "National Press Club",
+        "Campbelltown Catholic Club",
+        "Western Suburbs Rugby League Club",
+        "Cabra-Vale Diggers Club",
+        "National Servicemens' Association"
+      ]
+    },
+    {
+      "entity_name": "Australian Labor Party, Campbelltown Catholic Club, National Press Club, Western Suburbs Leagues Club",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are all separate organizations.",
+      "split_entities": [
+        "Australian Labor Party",
+        "Campbelltown Catholic Club",
+        "National Press Club",
+        "Western Suburbs Leagues Club"
+      ]
+    },
+    {
+      "entity_name": "American Express, ANZ, Westpac",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are all separate financial institutions.",
+      "split_entities": [
+        "American Express",
+        "ANZ",
+        "Westpac"
+      ]
+    },
+    {
+      "entity_name": "500 Club, Liberal Party, RPGC, MFC",
+      "classification": "MULTIPLE",
+      "confidence": "LOW",
+      "explanation": "Requires further information to identify RPGC and MFC.  Presumably separate organizations.",
+      "split_entities": [
+        "500 Club",
+        "Liberal Party",
+        "RPGC",
+        "MFC"
+      ]
+    },
+    {
+      "entity_name": "Keiraville, NSW",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Keiraville is a suburb, and NSW is New South Wales.",
+      "split_entities": [
+        "Keiraville",
+        "NSW"
+      ]
+    },
+    {
+      "entity_name": "Winsome Board, Ravenshoe Artist",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These appear to be two distinct entities - a board and an artist.",
+      "split_entities": [
+        "Winsome Board",
+        "Ravenshoe Artist"
+      ]
+    },
+    {
+      "entity_name": "The Chairman's Lounge, The Club",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Likely referring to two different clubs or lounges.",
+      "split_entities": [
+        "The Chairman's Lounge",
+        "The Club"
+      ]
+    },
+    {
+      "entity_name": "Lammermoor, Yeppoon QLD",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Lammermoor is likely a suburb or location within Yeppoon, Queensland.",
+      "split_entities": [
+        "Lammermoor",
+        "Yeppoon QLD"
+      ]
+    },
+    {
+      "entity_name": "Griffith, Canberra",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Griffith is a suburb of Canberra.",
+      "split_entities": [
+        "Griffith",
+        "Canberra"
+      ]
+    },
+    {
+      "entity_name": "Thornleigh, NSW",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Thornleigh is a suburb in NSW.",
+      "split_entities": [
+        "Thornleigh",
+        "NSW"
+      ]
+    },
+    {
+      "entity_name": "NAB, Suncorp, Warwick Credit Union, Westpac",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are all separate Australian financial institutions.",
+      "split_entities": [
+        "NAB",
+        "Suncorp",
+        "Warwick Credit Union",
+        "Westpac"
+      ]
+    },
+    {
+      "entity_name": "CWA, Bunbury Branch",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "CWA is likely the Country Women's Association, and Bunbury Branch is a local branch.",
+      "split_entities": [
+        "CWA",
+        "Bunbury Branch"
+      ]
+    },
+    {
+      "entity_name": "Tura Beach, NSW",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Tura Beach is a location in NSW.",
+      "split_entities": [
+        "Tura Beach",
+        "NSW"
+      ]
+    },
+    {
+      "entity_name": "Bega, NSW",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Bega is a town in NSW.",
+      "split_entities": [
+        "Bega",
+        "NSW"
+      ]
+    },
+    {
+      "entity_name": "Tuscany Apartments, Merimbula",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Tuscany Apartments is an accommodation provider in Merimbula.",
+      "split_entities": [
+        "Tuscany Apartments",
+        "Merimbula"
+      ]
+    },
+    {
+      "entity_name": "Dolans Bay, NSW",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Dolans Bay is a location in NSW.",
+      "split_entities": [
+        "Dolans Bay",
+        "NSW"
+      ]
+    },
+    {
+      "entity_name": "Horizon Church, Sutherland",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Horizon Church is a church located in Sutherland.",
+      "split_entities": [
+        "Horizon Church",
+        "Sutherland"
+      ]
+    },
+    {
+      "entity_name": "Southern Districts Rugby Union Club, Sylvania Waters",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Southern Districts Rugby Union Club is a sports club located in Sylvania Waters.",
+      "split_entities": [
+        "Southern Districts Rugby Union Club",
+        "Sylvania Waters"
+      ]
+    },
+    {
+      "entity_name": "Dr Nguyen Thanh Hung, Vice Chairman Vietjet",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Dr Nguyen Thanh Hung is an individual, and Vice Chairman Vietjet is a position within a company.",
+      "split_entities": [
+        "Dr Nguyen Thanh Hung",
+        "Vice Chairman Vietjet"
+      ]
+    },
+    {
+      "entity_name": "Bishop Epalle Catholic School, Solomon Islands",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Bishop Epalle Catholic School is a school located in the Solomon Islands.",
+      "split_entities": [
+        "Bishop Epalle Catholic School",
+        "Solomon Islands"
+      ]
+    },
+    {
+      "entity_name": "Secretary of State, United States of America",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Secretary of State is a position, and United States of America is a country.",
+      "split_entities": [
+        "Secretary of State",
+        "United States of America"
+      ]
+    },
+    {
+      "entity_name": "HE Gen Prayut Chano-cha, Prime Minister of the Kingdom of Thailand",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "HE Gen Prayut Chano-cha is a person, and Prime Minister of the Kingdom of Thailand is a position.",
+      "split_entities": [
+        "HE Gen Prayut Chano-cha",
+        "Prime Minister of the Kingdom of Thailand"
+      ]
+    },
+    {
+      "entity_name": "HE Joko Widodo, President of the Republic of Indonesia",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "HE Joko Widodo is a person, and President of the Republic of Indonesia is a position.",
+      "split_entities": [
+        "HE Joko Widodo",
+        "President of the Republic of Indonesia"
+      ]
+    },
+    {
+      "entity_name": "HE Lionel Rouwen Aingimea, President of the Republic of Nauru",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "HE Lionel Rouwen Aingimea is a person, and President of the Republic of Nauru is a position.",
+      "split_entities": [
+        "HE Lionel Rouwen Aingimea",
+        "President of the Republic of Nauru"
+      ]
+    }
+  ],
+  "raw_response": "```json\n[\n  {\n    \"entity_name\": \"Rose Bay, Tasmania\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Rose Bay is a suburb, and Tasmania is a state.  The context examples clearly show them as separate locations.\",\n    \"split_entities\": [\"Rose Bay\", \"Tasmania\"]\n  },\n  {\n    \"entity_name\": \"Toowoomba, Queensland\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Toowoomba is a city, and Queensland is a state. The context example shows a location within Queensland.\",\n    \"split_entities\": [\"Toowoomba\", \"Queensland\"]\n  },\n  {\n    \"entity_name\": \"Scarborough, WA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Scarborough is a suburb in Western Australia (WA).\",\n    \"split_entities\": [\"Scarborough\", \"WA\"]\n  },\n  {\n    \"entity_name\": \"MilSuper, GESB\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Likely two separate superannuation funds.  Requires further verification to be HIGH confidence.\",\n    \"split_entities\": [\"MilSuper\", \"GESB\"]\n  },\n  {\n    \"entity_name\": \"Liberal Party of WA, Stirling Division\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"The Liberal Party of WA is a political party, and Stirling Division is a branch or electorate within it.\",\n    \"split_entities\": [\"Liberal Party of WA\", \"Stirling Division\"]\n  },\n  {\n    \"entity_name\": \"Jetts Fitness, Scarborough\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Jetts Fitness is a gym franchise, and Scarborough is a location. The context clarifies this as two separate entities.\",\n    \"split_entities\": [\"Jetts Fitness\", \"Scarborough\"]\n  },\n  {\n    \"entity_name\": \"Trigg, WA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Trigg is a suburb in Western Australia (WA).\",\n    \"split_entities\": [\"Trigg\", \"WA\"]\n  },\n  {\n    \"entity_name\": \"LJ Hooker, Warners Bay\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"LJ Hooker is a real estate agency, and Warners Bay is a location. The context shows a specific LJ Hooker branch.\",\n    \"split_entities\": [\"LJ Hooker\", \"Warners Bay\"]\n  },\n  {\n    \"entity_name\": \"Australian Workers' Union of Employees, Qld\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Australian Workers' Union of Employees is a union, and Qld (Queensland) specifies a state branch.\",\n    \"split_entities\": [\"Australian Workers' Union of Employees\", \"Qld\"]\n  },\n  {\n    \"entity_name\": \"Australian Labor Party, Qld\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Australian Labor Party is a political party, and Qld (Queensland) indicates a state branch.\",\n    \"split_entities\": [\"Australian Labor Party\", \"Qld\"]\n  },\n  {\n    \"entity_name\": \"Moreton Island, Qld\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Moreton Island is an island, and Qld (Queensland) is the state it belongs to.\",\n    \"split_entities\": [\"Moreton Island\", \"Qld\"]\n  },\n  {\n    \"entity_name\": \"Palm Beach, Qld\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Palm Beach is a location, and Qld (Queensland) specifies the state.\",\n    \"split_entities\": [\"Palm Beach\", \"Qld\"]\n  },\n  {\n    \"entity_name\": \"Spring Hill, Qld\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Spring Hill is a suburb, and Qld (Queensland) is the state.\",\n    \"split_entities\": [\"Spring Hill\", \"Qld\"]\n  },\n  {\n    \"entity_name\": \"ANZ, QBank, NAB, CBA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are all separate Australian banks.\",\n    \"split_entities\": [\"ANZ\", \"QBank\", \"NAB\", \"CBA\"]\n  },\n  {\n    \"entity_name\": \"ANZ, Qbank\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate Australian banks.\",\n    \"split_entities\": [\"ANZ\", \"Qbank\"]\n  },\n  {\n    \"entity_name\": \"Equity Access Loan, Westpac Bank\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Equity Access Loan is a type of loan product, and Westpac Bank is the financial institution.\",\n    \"split_entities\": [\"Equity Access Loan\", \"Westpac Bank\"]\n  },\n  {\n    \"entity_name\": \"Entsch Family Trust, Tuff Muff Exhaust\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are clearly two distinct entities: a family trust and a business.\",\n    \"split_entities\": [\"Entsch Family Trust\", \"Tuff Muff Exhaust\"]\n  },\n  {\n    \"entity_name\": \"ALP, NPC, Vintage Golf Club, Qutries Chairman's Lounge, Virgin Lounge, Kriss Flyer Membership, USU, Various Registered Clubs, NSW\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This lists multiple organizations and locations.  NSW likely refers to New South Wales.\",\n    \"split_entities\": [\"ALP\", \"NPC\", \"Vintage Golf Club\", \"Qutries Chairman's Lounge\", \"Virgin Lounge\", \"Kriss Flyer Membership\", \"USU\", \"Various Registered Clubs\", \"NSW\"]\n  },\n  {\n    \"entity_name\": \"Macquarie Cash Management Account, ING Direct, RaboDirect, St George Bank\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are all separate financial institutions offering different accounts.\",\n    \"split_entities\": [\"Macquarie Cash Management Account\", \"ING Direct\", \"RaboDirect\", \"St George Bank\"]\n  },\n  {\n    \"entity_name\": \"ING Living Super, Public Sector Superannuation Scheme, PFMZ Pearl Superannuation Fund\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three different superannuation funds.\",\n    \"split_entities\": [\"ING Living Super\", \"Public Sector Superannuation Scheme\", \"PFMZ Pearl Superannuation Fund\"]\n  },\n  {\n    \"entity_name\": \"Falls Festival, Lorne\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Falls Festival is a music festival, and Lorne is the location.\",\n    \"split_entities\": [\"Falls Festival\", \"Lorne\"]\n  },\n  {\n    \"entity_name\": \"NSW Rural Fire Service Association, Orange Community Broadcasters, Orange Emulators Rugby\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three separate organizations in Orange, NSW.\",\n    \"split_entities\": [\"NSW Rural Fire Service Association\", \"Orange Community Broadcasters\", \"Orange Emulators Rugby\"]\n  },\n  {\n    \"entity_name\": \"Atlantic Council, Inter-Parliamentary Alliance on China\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct international organizations.\",\n    \"split_entities\": [\"Atlantic Council\", \"Inter-Parliamentary Alliance on China\"]\n  },\n  {\n    \"entity_name\": \"Military Brotherhood Motorcycle Club, Peel Branch\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A motorcycle club and its specific branch.\",\n    \"split_entities\": [\"Military Brotherhood Motorcycle Club\", \"Peel Branch\"]\n  },\n  {\n    \"entity_name\": \"Rest, Aus Gov\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Requires further information to confirm if 'Rest' is an organization or a shortened name. 'Aus Gov' likely refers to the Australian Government.\",\n    \"split_entities\": [\"Rest\", \"Aus Gov\"]\n  },\n  {\n    \"entity_name\": \"Foxtel, Chairman's Lounge (Qantas), The Club (Virgin)\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Foxtel is a TV provider, and the others are airline lounges.\",\n    \"split_entities\": [\"Foxtel\", \"Chairman's Lounge (Qantas)\", \"The Club (Virgin)\"]\n  },\n  {\n    \"entity_name\": \"Australian Labor Party, Australian Workers' Union, National Press Club, Campbelltown Catholic Club, Western Suburbs Rugby League Club, Cabra-Vale Diggers Club, National Servicemens' Association\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A list of different organizations.\",\n    \"split_entities\": [\"Australian Labor Party\", \"Australian Workers' Union\", \"National Press Club\", \"Campbelltown Catholic Club\", \"Western Suburbs Rugby League Club\", \"Cabra-Vale Diggers Club\", \"National Servicemens' Association\"]\n  },\n  {\n    \"entity_name\": \"Australian Labor Party, Campbelltown Catholic Club, National Press Club, Western Suburbs Leagues Club\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are all separate organizations.\",\n    \"split_entities\": [\"Australian Labor Party\", \"Campbelltown Catholic Club\", \"National Press Club\", \"Western Suburbs Leagues Club\"]\n  },\n  {\n    \"entity_name\": \"American Express, ANZ, Westpac\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are all separate financial institutions.\",\n    \"split_entities\": [\"American Express\", \"ANZ\", \"Westpac\"]\n  },\n  {\n    \"entity_name\": \"500 Club, Liberal Party, RPGC, MFC\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"LOW\",\n    \"explanation\": \"Requires further information to identify RPGC and MFC.  Presumably separate organizations.\",\n    \"split_entities\": [\"500 Club\", \"Liberal Party\", \"RPGC\", \"MFC\"]\n  },\n  {\n    \"entity_name\": \"Keiraville, NSW\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Keiraville is a suburb, and NSW is New South Wales.\",\n    \"split_entities\": [\"Keiraville\", \"NSW\"]\n  },\n  {\n    \"entity_name\": \"Winsome Board, Ravenshoe Artist\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These appear to be two distinct entities - a board and an artist.\",\n    \"split_entities\": [\"Winsome Board\", \"Ravenshoe Artist\"]\n  },\n  {\n    \"entity_name\": \"The Chairman's Lounge, The Club\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Likely referring to two different clubs or lounges.\",\n    \"split_entities\": [\"The Chairman's Lounge\", \"The Club\"]\n  },\n  {\n    \"entity_name\": \"Lammermoor, Yeppoon QLD\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Lammermoor is likely a suburb or location within Yeppoon, Queensland.\",\n    \"split_entities\": [\"Lammermoor\", \"Yeppoon QLD\"]\n  },\n  {\n    \"entity_name\": \"Griffith, Canberra\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Griffith is a suburb of Canberra.\",\n    \"split_entities\": [\"Griffith\", \"Canberra\"]\n  },\n  {\n    \"entity_name\": \"Thornleigh, NSW\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Thornleigh is a suburb in NSW.\",\n    \"split_entities\": [\"Thornleigh\", \"NSW\"]\n  },\n  {\n    \"entity_name\": \"NAB, Suncorp, Warwick Credit Union, Westpac\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are all separate Australian financial institutions.\",\n    \"split_entities\": [\"NAB\", \"Suncorp\", \"Warwick Credit Union\", \"Westpac\"]\n  },\n  {\n    \"entity_name\": \"CWA, Bunbury Branch\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"CWA is likely the Country Women's Association, and Bunbury Branch is a local branch.\",\n    \"split_entities\": [\"CWA\", \"Bunbury Branch\"]\n  },\n  {\n    \"entity_name\": \"Tura Beach, NSW\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Tura Beach is a location in NSW.\",\n    \"split_entities\": [\"Tura Beach\", \"NSW\"]\n  },\n  {\n    \"entity_name\": \"Bega, NSW\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Bega is a town in NSW.\",\n    \"split_entities\": [\"Bega\", \"NSW\"]\n  },\n  {\n    \"entity_name\": \"Tuscany Apartments, Merimbula\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Tuscany Apartments is an accommodation provider in Merimbula.\",\n    \"split_entities\": [\"Tuscany Apartments\", \"Merimbula\"]\n  },\n  {\n    \"entity_name\": \"Dolans Bay, NSW\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Dolans Bay is a location in NSW.\",\n    \"split_entities\": [\"Dolans Bay\", \"NSW\"]\n  },\n  {\n    \"entity_name\": \"Horizon Church, Sutherland\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Horizon Church is a church located in Sutherland.\",\n    \"split_entities\": [\"Horizon Church\", \"Sutherland\"]\n  },\n  {\n    \"entity_name\": \"Southern Districts Rugby Union Club, Sylvania Waters\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Southern Districts Rugby Union Club is a sports club located in Sylvania Waters.\",\n    \"split_entities\": [\"Southern Districts Rugby Union Club\", \"Sylvania Waters\"]\n  },\n  {\n    \"entity_name\": \"Dr Nguyen Thanh Hung, Vice Chairman Vietjet\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Dr Nguyen Thanh Hung is an individual, and Vice Chairman Vietjet is a position within a company.\",\n    \"split_entities\": [\"Dr Nguyen Thanh Hung\", \"Vice Chairman Vietjet\"]\n  },\n  {\n    \"entity_name\": \"Bishop Epalle Catholic School, Solomon Islands\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Bishop Epalle Catholic School is a school located in the Solomon Islands.\",\n    \"split_entities\": [\"Bishop Epalle Catholic School\", \"Solomon Islands\"]\n  },\n  {\n    \"entity_name\": \"Secretary of State, United States of America\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Secretary of State is a position, and United States of America is a country.\",\n    \"split_entities\": [\"Secretary of State\", \"United States of America\"]\n  },\n  {\n    \"entity_name\": \"HE Gen Prayut Chano-cha, Prime Minister of the Kingdom of Thailand\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"HE Gen Prayut Chano-cha is a person, and Prime Minister of the Kingdom of Thailand is a position.\",\n    \"split_entities\": [\"HE Gen Prayut Chano-cha\", \"Prime Minister of the Kingdom of Thailand\"]\n  },\n  {\n    \"entity_name\": \"HE Joko Widodo, President of the Republic of Indonesia\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"HE Joko Widodo is a person, and President of the Republic of Indonesia is a position.\",\n    \"split_entities\": [\"HE Joko Widodo\", \"President of the Republic of Indonesia\"]\n  },\n  {\n    \"entity_name\": \"HE Lionel Rouwen Aingimea, President of the Republic of Nauru\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"HE Lionel Rouwen Aingimea is a person, and President of the Republic of Nauru is a position.\",\n    \"split_entities\": [\"HE Lionel Rouwen Aingimea\", \"President of the Republic of Nauru\"]\n  }\n]\n```\n"
+}

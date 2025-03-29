@@ -142,10 +142,17 @@ def get_mps():
     # Get query parameters
     name = request.args.get('name', None)
     party = request.args.get('party', None)
+    bloc = request.args.get('political_bloc', None)
     
-    # Build query
+    # Build query - Modified to handle duplicate MP names
     query = """
-        SELECT DISTINCT mp_name, party, electorate 
+        WITH RankedMPs AS (
+            SELECT 
+                mp_name, 
+                party, 
+                electorate,
+                political_bloc,
+                ROW_NUMBER() OVER(PARTITION BY mp_name ORDER BY declaration_date DESC) as rn
         FROM disclosures
         WHERE 1=1
     """
@@ -159,7 +166,17 @@ def get_mps():
         query += " AND party = ?"
         params.append(party)
     
-    query += " ORDER BY mp_name"
+    if bloc:
+        query += " AND political_bloc = ?"
+        params.append(bloc)
+    
+    query += """
+        )
+        SELECT mp_name, party, electorate, political_bloc
+        FROM RankedMPs
+        WHERE rn = 1
+        ORDER BY mp_name
+    """
     
     # Execute query
     conn = get_db_connection()
@@ -173,40 +190,186 @@ def get_mps():
 
 @app.route('/api/entities', methods=['GET'])
 def get_entities():
-    """Get list of entities mentioned in disclosures."""
-    # Get query parameters
-    name = request.args.get('name', None)
-    limit = request.args.get('limit', 100, type=int)
+    """
+    Get a list of all unique entities.
+    Optional query parameters:
+    - canonical: If set to 'true', returns canonical entities
+    """
+    conn = get_db_connection()
     
-    # Build query
+    # Check if we should return canonical entities
+    use_canonical = request.args.get('canonical', 'false').lower() == 'true'
+    
+    if use_canonical:
+        query = """
+        SELECT DISTINCT canonical_entity as entity, COUNT(*) as count
+        FROM disclosures
+        WHERE canonical_entity IS NOT NULL AND canonical_entity != ''
+        GROUP BY canonical_entity
+        ORDER BY count DESC
+        """
+    else:
     query = """
-        SELECT entity, COUNT(*) as count
+        SELECT DISTINCT entity, COUNT(*) as count
         FROM disclosures
         WHERE entity IS NOT NULL AND entity != ''
-    """
-    params = []
+        GROUP BY entity
+        ORDER BY count DESC
+        """
     
-    if name:
-        query += " AND entity LIKE ?"
-        params.append(f'%{name}%')
-    
-    query += " GROUP BY entity ORDER BY count DESC LIMIT ?"
-    params.append(limit)
-    
-    # Execute query
-    conn = get_db_connection()
-    entities = conn.execute(query, params).fetchall()
-    
-    # Convert to list of dicts
-    result = [dict(row) for row in entities]
+    entities = conn.execute(query).fetchall()
     conn.close()
     
-    return jsonify(result)
+    # Convert to list of dicts
+    entities_list = [{"entity": e[0], "count": e[1]} for e in entities]
+    
+    return jsonify(entities_list)
+
+@app.route('/api/entity/<n>', methods=['GET'])
+def get_entity(n):
+    """
+    Get details about a specific entity, including MPs connected to it.
+    Optional query parameters:
+    - canonical: If set to 'true', uses canonical entity name for lookup
+    """
+    conn = get_db_connection()
+    
+    # Check if we should use canonical entity
+    use_canonical = request.args.get('canonical', 'false').lower() == 'true'
+    
+    if use_canonical:
+        # Get information about the canonical entity
+        query = """
+        SELECT canonical_entity as entity, COUNT(*) as count
+        FROM disclosures
+        WHERE canonical_entity = ?
+        GROUP BY canonical_entity
+        """
+        
+        entity_info = conn.execute(query, (n,)).fetchone()
+        
+        if entity_info is None:
+            conn.close()
+            return jsonify({"error": "Entity not found"}), 404
+        
+        # Get all variant names of this canonical entity
+        variant_query = """
+        SELECT DISTINCT entity
+        FROM disclosures
+        WHERE canonical_entity = ? AND entity != canonical_entity
+        """
+        
+        variants = conn.execute(variant_query, (n,)).fetchall()
+        variant_names = [v[0] for v in variants]
+        
+        # Get connected MPs (from disclosures with this canonical entity)
+        mp_query = """
+        SELECT DISTINCT mp_name, party, electorate, political_bloc
+        FROM disclosures
+        WHERE canonical_entity = ?
+        """
+        
+        connected_mps = conn.execute(mp_query, (n,)).fetchall()
+        
+    else:
+        # Original behavior (by exact entity name)
+        query = """
+        SELECT entity, COUNT(*) as count
+        FROM disclosures
+        WHERE entity = ?
+        GROUP BY entity
+        """
+        
+        entity_info = conn.execute(query, (n,)).fetchone()
+        
+        if entity_info is None:
+            conn.close()
+            return jsonify({"error": "Entity not found"}), 404
+        
+        variant_names = []
+        
+        # Get connected MPs
+        mp_query = """
+        SELECT DISTINCT mp_name, party, electorate, political_bloc
+        FROM disclosures
+        WHERE entity = ?
+        """
+        
+        connected_mps = conn.execute(mp_query, (n,)).fetchall()
+    
+    conn.close()
+    
+    # Convert to dict
+    entity_data = {
+        "entity": entity_info[0],
+        "count": entity_info[1],
+        "variants": variant_names,
+        "connected_mps": [
+            {"mp_name": mp[0], "party": mp[1], "electorate": mp[2], "political_bloc": mp[3]}
+            for mp in connected_mps
+        ]
+    }
+    
+    return jsonify(entity_data)
+
+@app.route('/api/search/entities', methods=['GET'])
+def search_entities():
+    """
+    Search for entities by name.
+    Required query parameters:
+    - q: Search query
+    Optional parameters:
+    - canonical: If set to 'true', searches canonical entities
+    - limit: Maximum number of results to return (default: 20)
+    """
+    search_term = request.args.get('q', '')
+    if not search_term:
+        return jsonify({"error": "Missing search term"}), 400
+    
+    use_canonical = request.args.get('canonical', 'false').lower() == 'true'
+    limit = request.args.get('limit', 20, type=int)
+    
+    conn = get_db_connection()
+    
+    if use_canonical:
+        query = """
+        SELECT DISTINCT canonical_entity as entity, COUNT(*) as count
+        FROM disclosures
+        WHERE canonical_entity LIKE ?
+        GROUP BY canonical_entity
+        ORDER BY count DESC
+        LIMIT ?
+        """
+    else:
+        query = """
+        SELECT DISTINCT entity, COUNT(*) as count
+        FROM disclosures
+        WHERE entity LIKE ?
+        GROUP BY entity
+        ORDER BY count DESC
+        LIMIT ?
+        """
+    
+    search_pattern = f"%{search_term}%"
+    entities = conn.execute(query, (search_pattern, limit)).fetchall()
+    conn.close()
+    
+    # Convert to list of dicts
+    entities_list = [{"entity": e[0], "count": e[1]} for e in entities]
+    
+    return jsonify(entities_list)
 
 @app.route('/api/network', methods=['GET'])
 def get_network():
-    """Get network data for entity explorer."""
+    """
+    Get network data for entity explorer.
+    Optional query parameters:
+    - filter_nil: If 'true', filter out nil/n/a values (default: true)
+    - canonical: If 'true', use canonical entity names (default: false)
+    """
     filter_nil = request.args.get('filter_nil', 'true').lower() == 'true'
+    use_canonical = request.args.get('canonical', 'false').lower() == 'true'
+    
     conn = get_db_connection()
     
     # Prepare nil condition if needed
@@ -221,12 +384,15 @@ def get_network():
     else:
         nil_condition = ""
     
+    # Choose entity field based on canonical parameter
+    entity_field = "canonical_entity" if use_canonical else "entity"
+    
     # Get all MPs and their connections to entities
     query = f"""
-        SELECT mp_name, party, entity, COUNT(*) as weight
+        SELECT mp_name, party, {entity_field} as entity, COUNT(*) as weight
         FROM disclosures
-        WHERE entity IS NOT NULL AND entity != '' {nil_condition}
-        GROUP BY mp_name, entity
+        WHERE {entity_field} IS NOT NULL AND {entity_field} != '' {nil_condition}
+        GROUP BY mp_name, {entity_field}
         ORDER BY weight DESC
     """
     
@@ -358,7 +524,7 @@ def get_mp_details(name):
     
     # Get MP details
     mp_query = """
-    SELECT DISTINCT mp_name, party, electorate 
+    SELECT DISTINCT mp_name, party, electorate, political_bloc 
     FROM disclosures 
     WHERE mp_name = ?
     LIMIT 1

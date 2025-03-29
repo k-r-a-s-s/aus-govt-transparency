@@ -1,0 +1,966 @@
+{
+  "batch_id": "comma_19",
+  "category": "comma",
+  "entities": [
+    {
+      "entity": "Bendigo Bank, Westpac (Dependent Children)",
+      "proposed_splits": [
+        "Bendigo Bank",
+        "Westpac (Dependent Children)"
+      ],
+      "context": [
+        {
+          "mp_name": "Warren Entsch",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings Account",
+          "details": "General Savings Accounts"
+        }
+      ]
+    },
+    {
+      "entity": "BKL, CWN, QBE, SEK",
+      "proposed_splits": [
+        "BKL",
+        "CWN",
+        "QBE",
+        "SEK"
+      ],
+      "context": [
+        {
+          "mp_name": "Jason Falinski",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Shares",
+          "details": "Striker SMSF holds shares in \u2013 BKL, CWN, QBE, SEK"
+        }
+      ]
+    },
+    {
+      "entity": "Long Reef Surf Life Saving Club, Warringah Chamber of Commerce, Manly Sea Eagles, Dee Why RSL Club",
+      "proposed_splits": [
+        "Long Reef Surf Life Saving Club",
+        "Warringah Chamber of Commerce",
+        "Manly Sea Eagles",
+        "Dee Why RSL Club"
+      ],
+      "context": [
+        {
+          "mp_name": "Jason Falinski",
+          "party": "Liberal Party of Australia",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Various Organizations Membership",
+          "details": "Member of various organizations"
+        }
+      ]
+    },
+    {
+      "entity": "Liberal Party of Australia, NSW Division",
+      "proposed_splits": [
+        "Liberal Party of Australia",
+        "NSW Division"
+      ],
+      "context": [
+        {
+          "mp_name": "Paul Fletcher",
+          "party": "Liberal Party of Australia",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Liberal Party Membership",
+          "details": "Membership"
+        },
+        {
+          "mp_name": "Paul Fletcher",
+          "party": "Liberal Party of Australia",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Liberal Party Membership",
+          "details": "Membership held by Spouse: Manuela Zappacosta"
+        },
+        {
+          "mp_name": "Scott Morrison",
+          "party": "Liberal Party of Australia",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Liberal Party NSW Division Membership",
+          "details": "Membership of the Liberal Party of Australia, NSW Division"
+        },
+        {
+          "mp_name": "Paul Fletcher",
+          "party": "Liberal Party of Australia",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Liberal Party Membership",
+          "details": "Member"
+        },
+        {
+          "mp_name": "Paul Fletcher",
+          "party": "Liberal Party of Australia",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Liberal Party Membership",
+          "details": "Member - Spouse"
+        }
+      ]
+    },
+    {
+      "entity": "Royal Goedewaagen, Schipol",
+      "proposed_splits": [
+        "Royal Goedewaagen",
+        "Schipol"
+      ],
+      "context": [
+        {
+          "mp_name": "Paul Fletcher",
+          "party": "Liberal Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Ceramic figurine",
+          "details": "Ceramic figurine from Royal Goedewaagen received from Schipol during Ministerial visit. The item is within the allowable limit"
+        }
+      ]
+    },
+    {
+      "entity": "Incheon Free Economic Zone, Korea",
+      "proposed_splits": [
+        "Incheon Free Economic Zone",
+        "Korea"
+      ],
+      "context": [
+        {
+          "mp_name": "Paul Fletcher",
+          "party": "Liberal Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Etched porcelain vase",
+          "details": "23 cm flower etched porcelain vase \"Nokcheongja\" from Incheon Free Economic Zone, Korea. Gift received during a Ministerial Visit in September."
+        }
+      ]
+    },
+    {
+      "entity": "Incheon International Airport, Korea",
+      "proposed_splits": [
+        "Incheon International Airport",
+        "Korea"
+      ],
+      "context": [
+        {
+          "mp_name": "Paul Fletcher",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Other Gift",
+          "item": "Red Tie",
+          "details": "'Lee Geon Maan' red tie with aeroplane motif from Incheon International Airport, Korea. (Ministerial Visit in September)"
+        }
+      ]
+    },
+    {
+      "entity": "APLMA, Global Fund",
+      "proposed_splits": [
+        "APLMA",
+        "Global Fund"
+      ],
+      "context": [
+        {
+          "mp_name": "Michael Randolph Freelander",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Delegation to Thailand and Myanmar",
+          "details": "Delegation to Thailand and Myanmar with APLMA and the Global Fund. Cost: $6,640.92"
+        }
+      ]
+    },
+    {
+      "entity": "Arnold Bloch Leibler, Mr David Bennett AC QC",
+      "proposed_splits": [
+        "Arnold Bloch Leibler",
+        "Mr David Bennett AC QC"
+      ],
+      "context": [
+        {
+          "mp_name": "Joshua Frydenberg",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Pro Bono Legal Advice",
+          "details": "Pro Bono legal advice provided by Arnold Bloch Leibler (Lawyers) and Mr David Bennett AC QC."
+        }
+      ]
+    },
+    {
+      "entity": "Randwick NSW, Port Macquarie, Port Macquarie, Port Macquarie, Wauchope",
+      "proposed_splits": [
+        "Randwick NSW",
+        "Port Macquarie",
+        "Port Macquarie",
+        "Port Macquarie",
+        "Wauchope"
+      ],
+      "context": [
+        {
+          "mp_name": "David Gillespie",
+          "party": "National Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Randwick",
+          "details": "Self, Investment, Units x5 Investment Residential, Units x10 Investment Commercial, Residence & Farm"
+        }
+      ]
+    },
+    {
+      "entity": "Port Macquarie, Port Macquarie, Wauchope",
+      "proposed_splits": [
+        "Port Macquarie",
+        "Port Macquarie",
+        "Wauchope"
+      ],
+      "context": [
+        {
+          "mp_name": "David Gillespie",
+          "party": "National Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Family Related",
+          "details": "Spouse, Units x5 Investment Residential, Units x10 Commercial Investment, Residence & Farm"
+        }
+      ]
+    },
+    {
+      "entity": "Port Macquarie, Port Macquarie",
+      "proposed_splits": [
+        "Port Macquarie",
+        "Port Macquarie"
+      ],
+      "context": [
+        {
+          "mp_name": "David Gillespie",
+          "party": "National Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Family Related",
+          "details": "Dependent Children, Units x5 Residential Investment, Units x10 Commercial Investment"
+        }
+      ]
+    },
+    {
+      "entity": "Templemore Investment Pty Ltd, Goldenboot Pty Ltd",
+      "proposed_splits": [
+        "Templemore Investment Pty Ltd",
+        "Goldenboot Pty Ltd"
+      ],
+      "context": [
+        {
+          "mp_name": "David Gillespie",
+          "party": "National Party of Australia",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Trustee Company Membership",
+          "details": "Self, Trustee Company"
+        }
+      ]
+    },
+    {
+      "entity": "Templemore Investment Pty Ltd, Goldenboots Pty Ltd",
+      "proposed_splits": [
+        "Templemore Investment Pty Ltd",
+        "Goldenboots Pty Ltd"
+      ],
+      "context": [
+        {
+          "mp_name": "David Gillespie",
+          "party": "National Party of Australia",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Spouse's Trustee Company Membership",
+          "details": "Spouse, Trustee Company"
+        }
+      ]
+    },
+    {
+      "entity": "Royal Australasian College of Physicians, AMA(NSW), Gastroenterology Society of Australia",
+      "proposed_splits": [
+        "Royal Australasian College of Physicians",
+        "AMA(NSW)",
+        "Gastroenterology Society of Australia"
+      ],
+      "context": [
+        {
+          "mp_name": "David Gillespie",
+          "party": "National Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Medical Associations Membership",
+          "details": "Self, RACP, GESA"
+        }
+      ]
+    },
+    {
+      "entity": "House, Yarralumla, Australian Capital Territory",
+      "proposed_splits": [
+        "House",
+        "Yarralumla",
+        "Australian Capital Territory"
+      ],
+      "context": [
+        {
+          "mp_name": "Ian Goodenough",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House",
+          "details": "Canberra Residence"
+        }
+      ]
+    },
+    {
+      "entity": "Vacant Commercial Land, Currambine",
+      "proposed_splits": [
+        "Vacant Commercial Land",
+        "Currambine"
+      ],
+      "context": [
+        {
+          "mp_name": "Ian Goodenough",
+          "party": "Liberal Party of Australia",
+          "category": "Income",
+          "sub_category": "Other Income",
+          "item": "Income",
+          "details": "Disposition on market sale to Aldi Foods Limited."
+        }
+      ]
+    },
+    {
+      "entity": "Two Houses, Leederville",
+      "proposed_splits": [
+        "Two Houses",
+        "Leederville"
+      ],
+      "context": [
+        {
+          "mp_name": "Ian Goodenough",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential Houses in Leederville",
+          "details": "Disposition of Two Houses, Leederville (Second Family Residence and Investment Property). Independent on-market sale following planning approval for 10 unit development."
+        }
+      ]
+    },
+    {
+      "entity": "Factory/Warehouse in Belmont, WA",
+      "proposed_splits": [
+        "Factory",
+        "Warehouse in Belmont",
+        "WA"
+      ],
+      "context": [
+        {
+          "mp_name": "Ian Goodenough",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Commercial Property in Belmont, WA",
+          "details": "Sale of Factory/Warehouse in Belmont, WA"
+        }
+      ]
+    },
+    {
+      "entity": "Thai Airways, business class; AIMS Immigration Specialist Pte Ltd; Naki Group",
+      "proposed_splits": [
+        "Thai Airways",
+        "business class; AIMS Immigration Specialist Pte Ltd; Naki Group"
+      ],
+      "context": [
+        {
+          "mp_name": "Ian Goodenough",
+          "party": "Liberal Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Return Airfare and Accommodation in Cambodia",
+          "details": "Return airfare between Perth and Phnom Penh, Cambodia, via Thai Airways, business class. Accommodation in serviced apartment, Silvertown, Phnom Penh, and road transportation, between 13 \u2013 16 March 2018. Guest speaker on economic development, trade and investment in Australia. Visit to Tuol Sleng Genocide Museum."
+        }
+      ]
+    },
+    {
+      "entity": "Malindo Air; Melia Hotel, Hanoi; Vietnam Airlines; Singapore Airlines; AIMS Immigration Specialist Pte Ltd",
+      "proposed_splits": [
+        "Malindo Air; Melia Hotel",
+        "Hanoi; Vietnam Airlines; Singapore Airlines; AIMS Immigration Specialist Pte Ltd"
+      ],
+      "context": [
+        {
+          "mp_name": "Ian Goodenough",
+          "party": "Liberal Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Airfare and Accommodation in Vietnam",
+          "details": "Airfare between Perth and Hanoi, via Malindo Air, business class. 1 night accommodation at Melia Hotel, Hanoi. Airfare between Hanoi to Ho Chi Minh City, via Vietnam Airlines, economy class. 3 nights accommodation at Bay Hotel, Ho Chi Minh City Airfare between Ho Chi Minh City and Perth, via Singapore Airlines, business class. Road transportation and sightseeing tours. Guest speaker on economic development, free trade agreements, and investment in Australia."
+        }
+      ]
+    },
+    {
+      "entity": "Australian Super, Comminsure Corporate Insurance Superannuation, OnePath Masterfund",
+      "proposed_splits": [
+        "Australian Super",
+        "Comminsure Corporate Insurance Superannuation",
+        "OnePath Masterfund"
+      ],
+      "context": [
+        {
+          "mp_name": "Patrick Gorman",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Superannuation",
+          "details": "Superannuation with Australian Super. Self and Spouse."
+        }
+      ]
+    },
+    {
+      "entity": "Tourism Council CEO, Evan Hall",
+      "proposed_splits": [
+        "Tourism Council CEO",
+        "Evan Hall"
+      ],
+      "context": [
+        {
+          "mp_name": "Patrick Gorman",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Wine and Beer",
+          "details": "Received a gift of 2 cases of wine and a carton of beer from local constituent and Tourism Council CEO, Evan Hall \u2013 value approx. $300"
+        }
+      ]
+    },
+    {
+      "entity": "Sam Buckeridge, BGC Group",
+      "proposed_splits": [
+        "Sam Buckeridge",
+        "BGC Group"
+      ],
+      "context": [
+        {
+          "mp_name": "Timothy Jerome Hammond",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Hospitality",
+          "item": "Adelaide Hills 'La Prova' Shiraz Sangiovese 2015",
+          "details": "1 BOTTLE OF ADELAIDE HILLS 'LA PROVA' SHIRAZ SANGIOVESE 2015 GIFTED BY SAM BUCKERIDGE, BGC GROUP"
+        }
+      ]
+    },
+    {
+      "entity": "Michael Crouch, Founder, ZIP Industries (AUST) PTY LTD",
+      "proposed_splits": [
+        "Michael Crouch",
+        "Founder",
+        "ZIP Industries (AUST) PTY LTD"
+      ],
+      "context": [
+        {
+          "mp_name": "Timothy Jerome Hammond",
+          "party": "Australian Labor Party",
+          "category": "Income",
+          "sub_category": "Other Income",
+          "item": "Employment Income",
+          "details": "1 BOOK AUTHORED BY COLLEEN McCOULLOUGH 'Water is Life' GIFTED BY MICHAEL CROUCH, FOUNDER, ZIP INDUSTRIES (AUST) PTY LTD"
+        }
+      ]
+    },
+    {
+      "entity": "Paul Perreault, CEO, CSL Limited",
+      "proposed_splits": [
+        "Paul Perreault",
+        "CEO",
+        "CSL Limited"
+      ],
+      "context": [
+        {
+          "mp_name": "Timothy Jerome Hammond",
+          "party": "Australian Labor Party",
+          "category": "Income",
+          "sub_category": "Other Income",
+          "item": "Employment Income",
+          "details": "1 X COFFEE TABLE BOOK DEPICTING 100 YEARS OF OPERATION OF CSL LIMITED GIFTED BY PAUL PERREAULT, CEO, CSL LIMITED VALUE UNKNOWN."
+        }
+      ]
+    },
+    {
+      "entity": "Nigel Satterley AO, CEO THE SATTERLEY GROUP, JOHN POYNTON AO, RICK NEWNHAM, CHIEF ECONOMIST, CCI WA",
+      "proposed_splits": [
+        "Nigel Satterley AO",
+        "CEO THE SATTERLEY GROUP",
+        "JOHN POYNTON AO",
+        "RICK NEWNHAM",
+        "CHIEF ECONOMIST",
+        "CCI WA"
+      ],
+      "context": [
+        {
+          "mp_name": "Timothy Jerome Hammond",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Hospitality",
+          "item": "Dinner at The Flower Drum",
+          "details": "DINNER WITH NIGEL SATTERLEY AO, CEO THE SATTERLEY GROUP JOHN POYNTON AO RICK NEWNHAM, CHIEF ECONOMIST, CCI WA VENUE: THE FLOWER DRUM DATE: 08 JUNE 2017 VALUE UNKNOWN"
+        }
+      ]
+    },
+    {
+      "entity": "Luke Mckenzie, CEO, Metcash",
+      "proposed_splits": [
+        "Luke Mckenzie",
+        "CEO",
+        "Metcash"
+      ],
+      "context": [
+        {
+          "mp_name": "Timothy Jerome Hammond",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Dinner",
+          "details": "DINNER HOSTED BY LUKE MCKENZIE CEO, METCASH VENUE: SOCIAL EATING HOUSE, BROADBEACH COST UNKNOWN"
+        }
+      ]
+    },
+    {
+      "entity": "Nazarudin Jaafar, Consul General of Malaysia",
+      "proposed_splits": [
+        "Nazarudin Jaafar",
+        "Consul General of Malaysia"
+      ],
+      "context": [
+        {
+          "mp_name": "Timothy Jerome Hammond",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Other",
+          "item": "Framed art piece displaying Malaysian rainforest",
+          "details": "Framed art piece displaying Malaysian rainforest, made from Predominately wood veneer. Presented by Mr Nazarudin Jaafar, Consul General of Malaysia, Value: Unknown"
+        }
+      ]
+    },
+    {
+      "entity": "Elliott Charng, Representative of Taiwan",
+      "proposed_splits": [
+        "Elliott Charng",
+        "Representative of Taiwan"
+      ],
+      "context": [
+        {
+          "mp_name": "Timothy Jerome Hammond",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Porcelain Vase",
+          "details": "A TAI-HWA POTTTERY GOLDEN CARVING PORCELAIN BLUE-AND-WHITE SERIES VASE ON STAND PRESENTED BY MR ELLIOTT CHARNG, REPRESENTATIVE OF TAIWAN"
+        }
+      ]
+    },
+    {
+      "entity": "Her Excellency Mrs Martha Mavrommati, High Commissioner of the Republic of Cyprus",
+      "proposed_splits": [
+        "Her Excellency Mrs Martha Mavrommati",
+        "High Commissioner of the Republic of Cyprus"
+      ],
+      "context": [
+        {
+          "mp_name": "Timothy Jerome Hammond",
+          "party": "Australian Labor Party",
+          "category": "Income",
+          "sub_category": "Other Income",
+          "item": "Income",
+          "details": "Coffee Table hard copy book \u201cWindow on Cyprus\" Presented by Her Excellency Mrs Martha Mavrommati, High Commissioner of the Republic of Cyprus"
+        }
+      ]
+    },
+    {
+      "entity": "Luke Mackenzie, Manager, Government Relations Metcash",
+      "proposed_splits": [
+        "Luke Mackenzie",
+        "Manager",
+        "Government Relations Metcash"
+      ],
+      "context": [
+        {
+          "mp_name": "Timothy Jerome Hammond",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Hospitality",
+          "item": "Lunch with Luke Mackenzie",
+          "details": "LUNCH WITH LUKE MACKENZIE MANAGER, GOVERNMENT RELATIONS METCASH DATE: 10 MARCH 2018 VENUE: MUST BAR, 519 BEAUFORT ST, HIGHGATE COST: UNKNOWN"
+        }
+      ]
+    },
+    {
+      "entity": "ANZ, CBA",
+      "proposed_splits": [
+        "ANZ",
+        "CBA"
+      ],
+      "context": [
+        {
+          "mp_name": "Ross Anthony Hart",
+          "party": "Australian Labor Party",
+          "category": "Liability",
+          "sub_category": "Other Liability",
+          "item": "Overdraft",
+          "details": "Overdraft"
+        },
+        {
+          "mp_name": "Ann Sudmalis",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings and Cheque Accounts",
+          "details": "Savings Acct-online, ANZ; Cheques Acct, ANZ; Cheque (x3) Accts, CBA; Spouse: N/A; Dependent Children: N/A"
+        }
+      ]
+    },
+    {
+      "entity": "QANTAS, VIRGIN AUSTRALIA",
+      "proposed_splits": [
+        "QANTAS",
+        "VIRGIN AUSTRALIA"
+      ],
+      "context": [
+        {
+          "mp_name": "Ross Anthony Hart",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Business to First Class Flight Upgrade",
+          "details": "Travel upgrades: QF 36 SIN-MEL Business to First Class 24 July VA 1362 MEL-LST Economy to Business 25 July"
+        }
+      ]
+    },
+    {
+      "entity": "Foxtel, Coffs Harbour EO",
+      "proposed_splits": [
+        "Foxtel",
+        "Coffs Harbour EO"
+      ],
+      "context": [
+        {
+          "mp_name": "Luke Hartsuyker",
+          "party": "National Party of Australia",
+          "category": "Gift",
+          "sub_category": "Other",
+          "item": "Platinum HD Foxtel Account",
+          "details": "Complimentary MP account, Platinum HD, $137 per month, Equates to $1,644 per year, commenced from 3 April 2018."
+        }
+      ]
+    },
+    {
+      "entity": "Br Armin, De La Salle University",
+      "proposed_splits": [
+        "Br Armin",
+        "De La Salle University"
+      ],
+      "context": [
+        {
+          "mp_name": "Christopher Hayes",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Return Airfares, Meals & Accommodation",
+          "details": "Travel to Manila, Philippines to address law students. Cost of return airfares met, meals and accommodation provided at no cost by De La Salle University."
+        }
+      ]
+    },
+    {
+      "entity": "Kuwait Parliament, Palestinian Authority",
+      "proposed_splits": [
+        "Kuwait Parliament",
+        "Palestinian Authority"
+      ],
+      "context": [
+        {
+          "mp_name": "Christopher Hayes",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Airfares, Accommodation & Meals",
+          "details": "From 7 January 2019 \u2013 16 January 2019 I was part of a delegation to Kuwait and Palestine. The delegation to Kuwait and Palestine was hosted by the Kuwait Parliament and Palestinian Authority. All airfares were provided by the Kuwait Parliament, as was accommodation and meals during our stay in Kuwait. All other accommodation and meals, during our stay in Jordan and Palestine, including ground travel, was provided by the Palestinian Authority."
+        }
+      ]
+    },
+    {
+      "entity": "Kingston, Canberra",
+      "proposed_splits": [
+        "Kingston",
+        "Canberra"
+      ],
+      "context": [
+        {
+          "mp_name": "Julian Hill",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Apartment in Kingston",
+          "details": "2 bedroom apartment (52% share)"
+        }
+      ]
+    },
+    {
+      "entity": "500 Club, Liberal Party",
+      "proposed_splits": [
+        "500 Club",
+        "Liberal Party"
+      ],
+      "context": [
+        {
+          "mp_name": "Stephen James Irons",
+          "party": "Liberal Party of Australia",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "500 Club, Liberal Party Membership",
+          "details": ""
+        }
+      ]
+    },
+    {
+      "entity": "NAB, Westpac",
+      "proposed_splits": [
+        "NAB",
+        "Westpac"
+      ],
+      "context": [
+        {
+          "mp_name": "Barnaby Joyce",
+          "party": "National Party of Australia",
+          "category": "Liability",
+          "sub_category": "Loan",
+          "item": "Home Loan",
+          "details": "Home Loan, Property Loan, Credit Card, Overdraft"
+        },
+        {
+          "mp_name": "Barnaby Joyce",
+          "party": "National Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings Account",
+          "details": "Savings"
+        },
+        {
+          "mp_name": "Joel Fitzgibbon",
+          "party": "Australian Labor Party",
+          "category": "Liability",
+          "sub_category": "Mortgage",
+          "item": "Various Mortgages, Business Loan",
+          "details": "Various mortgages (Cessnock - commercial, Nulkaba, Red Hill, Yarralumla, Cessnock - Residence); Business loan (Cessnock - Residence)"
+        },
+        {
+          "mp_name": "Joel Fitzgibbon",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings and Cheque Accounts",
+          "details": "Various savings and cheque accounts"
+        },
+        {
+          "mp_name": "Peter Dutton",
+          "party": "Liberal National Party",
+          "category": "Liability",
+          "sub_category": "Credit",
+          "item": "Credit Facilities",
+          "details": "Credit facilities"
+        }
+      ]
+    },
+    {
+      "entity": "CPA Australia, Nationals NSW",
+      "proposed_splits": [
+        "CPA Australia",
+        "Nationals NSW"
+      ],
+      "context": [
+        {
+          "mp_name": "Barnaby Joyce",
+          "party": "National Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Memberships",
+          "details": ""
+        }
+      ]
+    },
+    {
+      "entity": "Qantas, Virgin Australia, Mr John Short",
+      "proposed_splits": [
+        "Qantas",
+        "Virgin Australia",
+        "Mr John Short"
+      ],
+      "context": [
+        {
+          "mp_name": "Barnaby Joyce",
+          "party": "National Party of Australia",
+          "category": "Membership",
+          "sub_category": "Professional",
+          "item": "Model Plane from Qantas, Model Plane from Virgin Australia, Framed David Rowe Cartoon",
+          "details": "Model Plane from Qantas, approx 30cm long, Model Plane from Virgin Australia, approx 30cm long, Framed original David Rowe Cartoon from Mr John Short, Brisbane QLD 4068. Worth approx $621.25"
+        }
+      ]
+    },
+    {
+      "entity": "Bindaree Beef, Inverell",
+      "proposed_splits": [
+        "Bindaree Beef",
+        "Inverell"
+      ],
+      "context": [
+        {
+          "mp_name": "Barnaby Joyce",
+          "party": "National Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Beef Tomahawk, Beef Scotch Fillet, Beef Tenderloin, Half Leg Ham, Pork Loin, Lamb Butterflied Leg",
+          "details": "1 x Beef Tomahawk, 1 x Beef Scotch Fillet, 1 x Beef Tenderloin, 1 x Half Leg Ham, 1 x Pork Loin, 1 x Lamb Butterflied Leg Approx. Value $326.56; Gifted by Bindaree Beef, Inverell"
+        }
+      ]
+    },
+    {
+      "entity": "ANZ, Commonwealth, Westpac etc.",
+      "proposed_splits": [
+        "ANZ",
+        "Commonwealth",
+        "Westpac etc."
+      ],
+      "context": [
+        {
+          "mp_name": "Robert Carl Katter",
+          "party": "Katter's Australian Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings and Cheque Accounts",
+          "details": "The usual saving and cheque accounts"
+        },
+        {
+          "mp_name": "Robert Carl Katter",
+          "party": "Katter's Australian Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings and Cheque Accounts",
+          "details": "The usual saving and cheque accounts"
+        }
+      ]
+    },
+    {
+      "entity": "Perth, WA",
+      "proposed_splits": [
+        "Perth",
+        "WA"
+      ],
+      "context": [
+        {
+          "mp_name": "Michael Keenan",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House in Perth",
+          "details": "Personal Residence"
+        },
+        {
+          "mp_name": "Michael Keenan",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House in Perth",
+          "details": "Personal Residence (Spouse)"
+        }
+      ]
+    },
+    {
+      "entity": "Westpac, Esanda",
+      "proposed_splits": [
+        "Westpac",
+        "Esanda"
+      ],
+      "context": [
+        {
+          "mp_name": "Michael Keenan",
+          "party": "Liberal Party of Australia",
+          "category": "Liability",
+          "sub_category": "Mortgage",
+          "item": "Primary Residence Mortgage",
+          "details": "Mortgage Primary Residence, Loan Personal"
+        }
+      ]
+    },
+    {
+      "entity": "Bank of QLD, American Express",
+      "proposed_splits": [
+        "Bank of QLD",
+        "American Express"
+      ],
+      "context": [
+        {
+          "mp_name": "Peter Khalil",
+          "party": "Australian Labor Party",
+          "category": "Liability",
+          "sub_category": "Mortgage",
+          "item": "Mortgage",
+          "details": "Mortgage/Line of Credit/Credit Card"
+        }
+      ]
+    },
+    {
+      "entity": "ALP, Australian Workers Union",
+      "proposed_splits": [
+        "ALP",
+        "Australian Workers Union"
+      ],
+      "context": [
+        {
+          "mp_name": "Peter Khalil",
+          "party": "Australian Labor Party",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "ALP and AWU Membership",
+          "details": "Member"
+        }
+      ]
+    },
+    {
+      "entity": "Woodside Energy Ltd, National Australia Bank",
+      "proposed_splits": [
+        "Woodside Energy Ltd",
+        "National Australia Bank"
+      ],
+      "context": [
+        {
+          "mp_name": "Madeleine King",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Optus Stadium AFL Tickets",
+          "details": "2x Optus Stadium AFL Tickets (Private Suite) from Woodside Energy Ltd (WCE vs MELB 22/9/18). Value unknown; 2x Optus Stadium AFL Tickets from National Australia Bank (WCE vs MELB 22/09/2018). Value unknown; 2x Grand Final Tickets (September Club) from National Australia Bank (WCE vs Collingwood 29/09/2018) Value unknown"
+        }
+      ]
+    },
+    {
+      "entity": "Olesja, Andrew Laming",
+      "proposed_splits": [
+        "Olesja",
+        "Andrew Laming"
+      ],
+      "context": [
+        {
+          "mp_name": "Andrew Laming",
+          "party": "Liberal National Party",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Superannuation",
+          "details": "Superannuation"
+        }
+      ]
+    }
+  ]
+}

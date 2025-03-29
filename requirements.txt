@@ -2,6 +2,8 @@
 requests>=2.31.0
 beautifulsoup4>=4.12.2
 python-dotenv>=1.0.0
+pandas>=2.0.0  # For data manipulation and analysis
+lxml>=4.9.2  # Required for pandas read_html function
 
 # Google Cloud dependencies
 google-cloud-vision>=3.4.5

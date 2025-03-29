@@ -1,0 +1,27 @@
+{
+  "total_entities_analyzed": 1478,
+  "classification_counts": {
+    "single": 535,
+    "multiple": 943
+  },
+  "confidence_counts": {
+    "high": 1353,
+    "medium": 108,
+    "low": 17
+  },
+  "high_confidence_multiple_count": 868,
+  "percentages": {
+    "single": 36.2,
+    "multiple": 63.8,
+    "high_confidence": 91.54,
+    "high_confidence_multiple": 58.73
+  },
+  "separator_counts": {
+    "and": 501,
+    "ampersand": 58,
+    "comma": 719,
+    "slash": 174,
+    "plus": 12,
+    "other": 14
+  }
+}

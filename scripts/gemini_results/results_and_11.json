@@ -1,0 +1,158 @@
+{
+  "batch_id": "and_11",
+  "category": "and",
+  "entities_count": 17,
+  "analysis_results": [
+    {
+      "entity_name": "Council of Minerals and Energy",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This appears to be a single organization with a compound name.  The context suggests a single entity.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Western Sydney Wanderers and Turner Freeman Lawyers",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are clearly two separate entities: a sports team and a law firm.",
+      "split_entities": [
+        "Western Sydney Wanderers",
+        "Turner Freeman Lawyers"
+      ]
+    },
+    {
+      "entity_name": "Becketts Bar and Dining",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is likely a single establishment with a compound name, a common practice for restaurants.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Qantas Lounge and Virgin Club",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are separate airport lounge programs offered by competing airlines.",
+      "split_entities": [
+        "Qantas Lounge",
+        "Virgin Club"
+      ]
+    },
+    {
+      "entity_name": "Qantas, Virgin, Zero 95, Belgrave Football and Netball club, Eastern Football League, Foxtel",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This is a list of multiple, entirely separate organizations.",
+      "split_entities": [
+        "Qantas",
+        "Virgin",
+        "Zero 95",
+        "Belgrave Football and Netball club",
+        "Eastern Football League",
+        "Foxtel"
+      ]
+    },
+    {
+      "entity_name": "Melbourne Cricket Club, Belgrave Football and Netball Club, Lilydale Township Action Group, Lilydale RSL, Fernwood Gym",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This is a list of different community organizations and sporting clubs.",
+      "split_entities": [
+        "Melbourne Cricket Club",
+        "Belgrave Football and Netball Club",
+        "Lilydale Township Action Group",
+        "Lilydale RSL",
+        "Fernwood Gym"
+      ]
+    },
+    {
+      "entity_name": "ARAD: Association of Rooftop and Airspace Development",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single organization with a descriptive, compound name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "AMP and BT",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "AMP and BT are separate, albeit related, financial services companies.",
+      "split_entities": [
+        "AMP",
+        "BT"
+      ]
+    },
+    {
+      "entity_name": "IGEA (Interactive Games and Entertainment Association)",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single organization; the 'and' is part of its full name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Netball Queensland and Queensland Firebirds",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Netball Queensland is the governing body; Queensland Firebirds is a team within that organization's league.  While related, they are distinct entities.",
+      "split_entities": [
+        "Netball Queensland",
+        "Queensland Firebirds"
+      ]
+    },
+    {
+      "entity_name": "Brisbane Festival Board and Executive",
+      "classification": "SINGLE",
+      "confidence": "MEDIUM",
+      "explanation": "Likely a single organization.  'Board and Executive' refers to the internal structure, not separate entities.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "National Institute of Sport, Expertise and Performance(France)",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This seems to be one institute with a descriptive name, despite the commas.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "National Rugby League (NRL) and Australian Rugby League (ARL)",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "While related, NRL and ARL are distinct governing bodies.",
+      "split_entities": [
+        "National Rugby League (NRL)",
+        "Australian Rugby League (ARL)"
+      ]
+    },
+    {
+      "entity_name": "Honourable Am\u00e9lie Oud\u00e9a-Cast\u00e9ra, Minister for Sport and the Olympic & Paralympic Games (France)",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "This lists a person and their title, which encompasses multiple responsibilities, making a definitive split difficult.  It's not a typical 'double disclosure'.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Save the Children Australia and the Gates Foundation",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two completely separate organizations.",
+      "split_entities": [
+        "Save the Children Australia",
+        "the Gates Foundation"
+      ]
+    },
+    {
+      "entity_name": "Farm Plant, Livestock and Vehicles",
+      "classification": "SINGLE",
+      "confidence": "MEDIUM",
+      "explanation": "This could be a single farm business, or multiple entities if they are independently owned items listed together.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Hon Minister for Education and Training, Government of Sri Lanka",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This refers to a single ministerial position within the Sri Lankan government.",
+      "split_entities": []
+    }
+  ],
+  "raw_response": "```json\n[\n  {\n    \"entity_name\": \"Council of Minerals and Energy\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This appears to be a single organization with a compound name.  The context suggests a single entity.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Western Sydney Wanderers and Turner Freeman Lawyers\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are clearly two separate entities: a sports team and a law firm.\",\n    \"split_entities\": [\"Western Sydney Wanderers\", \"Turner Freeman Lawyers\"]\n  },\n  {\n    \"entity_name\": \"Becketts Bar and Dining\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is likely a single establishment with a compound name, a common practice for restaurants.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Qantas Lounge and Virgin Club\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are separate airport lounge programs offered by competing airlines.\",\n    \"split_entities\": [\"Qantas Lounge\", \"Virgin Club\"]\n  },\n  {\n    \"entity_name\": \"Qantas, Virgin, Zero 95, Belgrave Football and Netball club, Eastern Football League, Foxtel\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a list of multiple, entirely separate organizations.\",\n    \"split_entities\": [\"Qantas\", \"Virgin\", \"Zero 95\", \"Belgrave Football and Netball club\", \"Eastern Football League\", \"Foxtel\"]\n  },\n  {\n    \"entity_name\": \"Melbourne Cricket Club, Belgrave Football and Netball Club, Lilydale Township Action Group, Lilydale RSL, Fernwood Gym\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a list of different community organizations and sporting clubs.\",\n    \"split_entities\": [\"Melbourne Cricket Club\", \"Belgrave Football and Netball Club\", \"Lilydale Township Action Group\", \"Lilydale RSL\", \"Fernwood Gym\"]\n  },\n  {\n    \"entity_name\": \"ARAD: Association of Rooftop and Airspace Development\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single organization with a descriptive, compound name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"AMP and BT\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"AMP and BT are separate, albeit related, financial services companies.\",\n    \"split_entities\": [\"AMP\", \"BT\"]\n  },\n  {\n    \"entity_name\": \"IGEA (Interactive Games and Entertainment Association)\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single organization; the 'and' is part of its full name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Netball Queensland and Queensland Firebirds\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Netball Queensland is the governing body; Queensland Firebirds is a team within that organization's league.  While related, they are distinct entities.\",\n    \"split_entities\": [\"Netball Queensland\", \"Queensland Firebirds\"]\n  },\n  {\n    \"entity_name\": \"Brisbane Festival Board and Executive\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Likely a single organization.  'Board and Executive' refers to the internal structure, not separate entities.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"National Institute of Sport, Expertise and Performance(France)\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This seems to be one institute with a descriptive name, despite the commas.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"National Rugby League (NRL) and Australian Rugby League (ARL)\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"While related, NRL and ARL are distinct governing bodies.\",\n    \"split_entities\": [\"National Rugby League (NRL)\", \"Australian Rugby League (ARL)\"]\n  },\n  {\n    \"entity_name\": \"Honourable Am\u00e9lie Oud\u00e9a-Cast\u00e9ra, Minister for Sport and the Olympic & Paralympic Games (France)\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"This lists a person and their title, which encompasses multiple responsibilities, making a definitive split difficult.  It's not a typical 'double disclosure'.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Save the Children Australia and the Gates Foundation\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two completely separate organizations.\",\n    \"split_entities\": [\"Save the Children Australia\", \"the Gates Foundation\"]\n  },\n  {\n    \"entity_name\": \"Farm Plant, Livestock and Vehicles\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"This could be a single farm business, or multiple entities if they are independently owned items listed together.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Hon Minister for Education and Training, Government of Sri Lanka\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This refers to a single ministerial position within the Sri Lankan government.\",\n    \"split_entities\": []\n  }\n]\n```\n"
+}

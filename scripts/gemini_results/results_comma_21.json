@@ -1,0 +1,528 @@
+{
+  "batch_id": "comma_21",
+  "category": "comma",
+  "entities_count": 50,
+  "analysis_results": [
+    {
+      "entity_name": "MEMBERS EQUITI BANK, AMERICAN EXPRESS",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct financial institutions.",
+      "split_entities": [
+        "MEMBERS EQUITI BANK",
+        "AMERICAN EXPRESS"
+      ]
+    },
+    {
+      "entity_name": "MEMBERS EQUITY BANK, AMERICAN EXPRESS",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct financial institutions.",
+      "split_entities": [
+        "MEMBERS EQUITY BANK",
+        "AMERICAN EXPRESS"
+      ]
+    },
+    {
+      "entity_name": "ST GEORGE BANK, KUDOS BANK",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate Australian banks.",
+      "split_entities": [
+        "ST GEORGE BANK",
+        "KUDOS BANK"
+      ]
+    },
+    {
+      "entity_name": "ST GEORGE BANK, ING.",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate financial institutions operating in Australia.",
+      "split_entities": [
+        "ST GEORGE BANK",
+        "ING"
+      ]
+    },
+    {
+      "entity_name": "QANTAS, VIRGIN",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Qantas and Virgin are two competing Australian airline companies.",
+      "split_entities": [
+        "QANTAS",
+        "VIRGIN"
+      ]
+    },
+    {
+      "entity_name": "Xi Jinping, President, Peoples Republic of China",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This refers to a person, their title, and a country.",
+      "split_entities": [
+        "Xi Jinping",
+        "President",
+        "Peoples Republic of China"
+      ]
+    },
+    {
+      "entity_name": "Mayor of Hamburg, Federal Republic of Germany",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This refers to a position, a city, and a country.",
+      "split_entities": [
+        "Mayor of Hamburg",
+        "Federal Republic of Germany"
+      ]
+    },
+    {
+      "entity_name": "Baby Essawy, Palestinian Authority",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This refers to a person and a governing body.",
+      "split_entities": [
+        "Baby Essawy",
+        "Palestinian Authority"
+      ]
+    },
+    {
+      "entity_name": "Van Manen Family Trust, Van Manen Unit Trust",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are likely two different trust structures.",
+      "split_entities": [
+        "Van Manen Family Trust",
+        "Van Manen Unit Trust"
+      ]
+    },
+    {
+      "entity_name": "Riviera Super Pty Ltd (Trustee), Van Manen Family Superannuation Fund",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This lists a trustee company and a superannuation fund.",
+      "split_entities": [
+        "Riviera Super Pty Ltd (Trustee)",
+        "Van Manen Family Superannuation Fund"
+      ]
+    },
+    {
+      "entity_name": "Riviera Super Pty Ltd, Van Manen Investments Pty Ltd, Daughters of Promise",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three distinct entities.",
+      "split_entities": [
+        "Riviera Super Pty Ltd",
+        "Van Manen Investments Pty Ltd",
+        "Daughters of Promise"
+      ]
+    },
+    {
+      "entity_name": "CBA, GE",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "CBA (Commonwealth Bank of Australia) and GE (General Electric) are separate entities.",
+      "split_entities": [
+        "CBA",
+        "GE"
+      ]
+    },
+    {
+      "entity_name": "CBA, Qantas, Paypal",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three distinct organizations.",
+      "split_entities": [
+        "CBA",
+        "Qantas",
+        "Paypal"
+      ]
+    },
+    {
+      "entity_name": "QANTAS, Virgin",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Qantas and Virgin are two competing Australian airline companies.",
+      "split_entities": [
+        "QANTAS",
+        "Virgin"
+      ]
+    },
+    {
+      "entity_name": "Kelowna, British Columbia, Canada",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This lists a city, a province, and a country.",
+      "split_entities": [
+        "Kelowna",
+        "British Columbia",
+        "Canada"
+      ]
+    },
+    {
+      "entity_name": "Easts (Eastern Suburbs Leagues Club Ltd), Woy Woy",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "Woy Woy is a town; the other is a club.  The relationship isn't clear, but they are separate.",
+      "split_entities": [
+        "Easts (Eastern Suburbs Leagues Club Ltd)",
+        "Woy Woy"
+      ]
+    },
+    {
+      "entity_name": "The Indinup Trust, Avondale Investment Trust",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two different trust entities.",
+      "split_entities": [
+        "The Indinup Trust",
+        "Avondale Investment Trust"
+      ]
+    },
+    {
+      "entity_name": "South Perth, Townhouse; Kingston Apartment",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "South Perth is a location; the others describe properties.  More context needed for high confidence.",
+      "split_entities": [
+        "South Perth",
+        "Townhouse; Kingston Apartment"
+      ]
+    },
+    {
+      "entity_name": "South Perth, Townhouse; South Perth Townhouse; Victoria Park Townhouse",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "Locations and property descriptions. Needs more context for high confidence.",
+      "split_entities": [
+        "South Perth",
+        "Townhouse; South Perth Townhouse; Victoria Park Townhouse"
+      ]
+    },
+    {
+      "entity_name": "GESB, First National Parliamentary Contributory Superannuation Scheme",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct superannuation entities.",
+      "split_entities": [
+        "GESB",
+        "First National Parliamentary Contributory Superannuation Scheme"
+      ]
+    },
+    {
+      "entity_name": "Qantas Chairman's Lounge, Velocity Club Virgin",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are different airline lounge programs.",
+      "split_entities": [
+        "Qantas Chairman's Lounge",
+        "Velocity Club Virgin"
+      ]
+    },
+    {
+      "entity_name": "IF Foundation, Swan Chamber of Commerce, Kalamunda Chamber of Commerce, Lesmurdie Club, Lesmurdie Ratepayers Association, 500 Club, Knights of the Order of St John, Southern Districts Rotary Club, Swan Districts Football Club",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are all separate organizations.",
+      "split_entities": [
+        "IF Foundation",
+        "Swan Chamber of Commerce",
+        "Kalamunda Chamber of Commerce",
+        "Lesmurdie Club",
+        "Lesmurdie Ratepayers Association",
+        "500 Club",
+        "Knights of the Order of St John",
+        "Southern Districts Rotary Club",
+        "Swan Districts Football Club"
+      ]
+    },
+    {
+      "entity_name": "Bank of Queensland, Lowy Institute",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are a bank and a think tank.",
+      "split_entities": [
+        "Bank of Queensland",
+        "Lowy Institute"
+      ]
+    },
+    {
+      "entity_name": "South Sydney RLFC, Qantas Chairman Lounge, Virgin Club Lounge",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A sports club and airline lounges.",
+      "split_entities": [
+        "South Sydney RLFC",
+        "Qantas Chairman Lounge",
+        "Virgin Club Lounge"
+      ]
+    },
+    {
+      "entity_name": "Archbishop Makarios, Greek Orthodox Church of Australia",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A religious leader and the church.",
+      "split_entities": [
+        "Archbishop Makarios",
+        "Greek Orthodox Church of Australia"
+      ]
+    },
+    {
+      "entity_name": "Self, Gilbert Frank Investments P/L, Superanuation account",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "An individual, an investment company, and a superannuation account.",
+      "split_entities": [
+        "Self",
+        "Gilbert Frank Investments P/L",
+        "Superannuation account"
+      ]
+    },
+    {
+      "entity_name": "ANZ, Suncorp",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two separate Australian financial institutions.",
+      "split_entities": [
+        "ANZ",
+        "Suncorp"
+      ]
+    },
+    {
+      "entity_name": "St Helens, Tasmania",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A town and a state in Australia.",
+      "split_entities": [
+        "St Helens",
+        "Tasmania"
+      ]
+    },
+    {
+      "entity_name": "George Town, Tamania",
+      "classification": "MULTIPLE",
+      "confidence": "LOW",
+      "explanation": "Likely a typo ('Tamania' should be 'Tasmania').  Assuming it's a town and state.",
+      "split_entities": [
+        "George Town",
+        "Tamania"
+      ]
+    },
+    {
+      "entity_name": "Arnotts, Hachette Australia",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A biscuit company and a publishing company.",
+      "split_entities": [
+        "Arnotts",
+        "Hachette Australia"
+      ]
+    },
+    {
+      "entity_name": "Mr Adwar Rassam, Diageo Australia",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A person and an alcohol company.",
+      "split_entities": [
+        "Mr Adwar Rassam",
+        "Diageo Australia"
+      ]
+    },
+    {
+      "entity_name": "McKell Institute, Lion Brewing",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A think tank and a brewing company.",
+      "split_entities": [
+        "McKell Institute",
+        "Lion Brewing"
+      ]
+    },
+    {
+      "entity_name": "Virgin Australia, National Press Club, Astra-Foxtel, Qantas",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "An airline, a press club, a media company, and another airline.",
+      "split_entities": [
+        "Virgin Australia",
+        "National Press Club",
+        "Astra-Foxtel",
+        "Qantas"
+      ]
+    },
+    {
+      "entity_name": "Cazaly's Football Club, Cairns",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A football club and a city in Australia.",
+      "split_entities": [
+        "Cazaly's Football Club",
+        "Cairns"
+      ]
+    },
+    {
+      "entity_name": "Vice Patron, QLD Target Sports Inc.",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A title and an organization.",
+      "split_entities": [
+        "Vice Patron",
+        "QLD Target Sports Inc."
+      ]
+    },
+    {
+      "entity_name": "Vice Patron, QLD Rifle Association Inc.",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A title and an organization.",
+      "split_entities": [
+        "Vice Patron",
+        "QLD Rifle Association Inc."
+      ]
+    },
+    {
+      "entity_name": "Patron, QLD Labor Enabled",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A title and an organization.",
+      "split_entities": [
+        "Patron",
+        "QLD Labor Enabled"
+      ]
+    },
+    {
+      "entity_name": "Student, University of New England",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A person's status and an educational institution.",
+      "split_entities": [
+        "Student",
+        "University of New England"
+      ]
+    },
+    {
+      "entity_name": "Patron, Qld Labor for Refugees",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A title and an organization.",
+      "split_entities": [
+        "Patron",
+        "Qld Labor for Refugees"
+      ]
+    },
+    {
+      "entity_name": "Author, chapter for forthcoming book on human rights, Australian Catholic University",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A person's role, a book project, and a university.",
+      "split_entities": [
+        "Author",
+        "chapter for forthcoming book on human rights",
+        "Australian Catholic University"
+      ]
+    },
+    {
+      "entity_name": "Member of the Queensland Advisory Board of the McKell Institute, a research institute",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A position, an organization and a general description.",
+      "split_entities": [
+        "Member of the Queensland Advisory Board of the McKell Institute",
+        "a research institute"
+      ]
+    },
+    {
+      "entity_name": "Morningside, QLD",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A suburb and a state.",
+      "split_entities": [
+        "Morningside",
+        "QLD"
+      ]
+    },
+    {
+      "entity_name": "United Nations Association of Australia, Qld Division",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "An organization and its division.",
+      "split_entities": [
+        "United Nations Association of Australia",
+        "Qld Division"
+      ]
+    },
+    {
+      "entity_name": "Reid, ACT",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A suburb and a territory.",
+      "split_entities": [
+        "Reid",
+        "ACT"
+      ]
+    },
+    {
+      "entity_name": "Meldon, VIC",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A town and a state.",
+      "split_entities": [
+        "Meldon",
+        "VIC"
+      ]
+    },
+    {
+      "entity_name": "QANTAS, VIRGIN, FOXTEL",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "An airline, an airline, and a telecommunications company.",
+      "split_entities": [
+        "QANTAS",
+        "VIRGIN",
+        "FOXTEL"
+      ]
+    },
+    {
+      "entity_name": "Care Leavers Australasia Network (CLAN), Bankstown District Sports Club, Bankstown RSL, White Ribbon Ambassador, Bankstown Youth Development Service (BYDS)",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Multiple organizations and a title.",
+      "split_entities": [
+        "Care Leavers Australasia Network (CLAN)",
+        "Bankstown District Sports Club",
+        "Bankstown RSL",
+        "White Ribbon Ambassador",
+        "Bankstown Youth Development Service (BYDS)"
+      ]
+    },
+    {
+      "entity_name": "ING, COMMONWEALTH BANK",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two separate Australian banks.",
+      "split_entities": [
+        "ING",
+        "COMMONWEALTH BANK"
+      ]
+    },
+    {
+      "entity_name": "Patscherkofel Lodge, Mount Buller",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A lodge and a mountain resort location.",
+      "split_entities": [
+        "Patscherkofel Lodge",
+        "Mount Buller"
+      ]
+    },
+    {
+      "entity_name": "University of New South Wales, Faculty of Business",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A university and one of its faculties.",
+      "split_entities": [
+        "University of New South Wales",
+        "Faculty of Business"
+      ]
+    }
+  ],
+  "raw_response": "```json\n[\n  {\n    \"entity_name\": \"MEMBERS EQUITI BANK, AMERICAN EXPRESS\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct financial institutions.\",\n    \"split_entities\": [\"MEMBERS EQUITI BANK\", \"AMERICAN EXPRESS\"]\n  },\n  {\n    \"entity_name\": \"MEMBERS EQUITY BANK, AMERICAN EXPRESS\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct financial institutions.\",\n    \"split_entities\": [\"MEMBERS EQUITY BANK\", \"AMERICAN EXPRESS\"]\n  },\n  {\n    \"entity_name\": \"ST GEORGE BANK, KUDOS BANK\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate Australian banks.\",\n    \"split_entities\": [\"ST GEORGE BANK\", \"KUDOS BANK\"]\n  },\n  {\n    \"entity_name\": \"ST GEORGE BANK, ING.\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate financial institutions operating in Australia.\",\n    \"split_entities\": [\"ST GEORGE BANK\", \"ING\"]\n  },\n  {\n    \"entity_name\": \"QANTAS, VIRGIN\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Qantas and Virgin are two competing Australian airline companies.\",\n    \"split_entities\": [\"QANTAS\", \"VIRGIN\"]\n  },\n  {\n    \"entity_name\": \"Xi Jinping, President, Peoples Republic of China\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This refers to a person, their title, and a country.\",\n    \"split_entities\": [\"Xi Jinping\", \"President\", \"Peoples Republic of China\"]\n  },\n  {\n    \"entity_name\": \"Mayor of Hamburg, Federal Republic of Germany\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This refers to a position, a city, and a country.\",\n    \"split_entities\": [\"Mayor of Hamburg\", \"Federal Republic of Germany\"]\n  },\n  {\n    \"entity_name\": \"Baby Essawy, Palestinian Authority\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This refers to a person and a governing body.\",\n    \"split_entities\": [\"Baby Essawy\", \"Palestinian Authority\"]\n  },\n  {\n    \"entity_name\": \"Van Manen Family Trust, Van Manen Unit Trust\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are likely two different trust structures.\",\n    \"split_entities\": [\"Van Manen Family Trust\", \"Van Manen Unit Trust\"]\n  },\n  {\n    \"entity_name\": \"Riviera Super Pty Ltd (Trustee), Van Manen Family Superannuation Fund\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This lists a trustee company and a superannuation fund.\",\n    \"split_entities\": [\"Riviera Super Pty Ltd (Trustee)\", \"Van Manen Family Superannuation Fund\"]\n  },\n  {\n    \"entity_name\": \"Riviera Super Pty Ltd, Van Manen Investments Pty Ltd, Daughters of Promise\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three distinct entities.\",\n    \"split_entities\": [\"Riviera Super Pty Ltd\", \"Van Manen Investments Pty Ltd\", \"Daughters of Promise\"]\n  },\n  {\n    \"entity_name\": \"CBA, GE\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"CBA (Commonwealth Bank of Australia) and GE (General Electric) are separate entities.\",\n    \"split_entities\": [\"CBA\", \"GE\"]\n  },\n  {\n    \"entity_name\": \"CBA, Qantas, Paypal\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three distinct organizations.\",\n    \"split_entities\": [\"CBA\", \"Qantas\", \"Paypal\"]\n  },\n  {\n    \"entity_name\": \"QANTAS, Virgin\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Qantas and Virgin are two competing Australian airline companies.\",\n    \"split_entities\": [\"QANTAS\", \"Virgin\"]\n  },\n  {\n    \"entity_name\": \"Kelowna, British Columbia, Canada\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This lists a city, a province, and a country.\",\n    \"split_entities\": [\"Kelowna\", \"British Columbia\", \"Canada\"]\n  },\n  {\n    \"entity_name\": \"Easts (Eastern Suburbs Leagues Club Ltd), Woy Woy\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Woy Woy is a town; the other is a club.  The relationship isn't clear, but they are separate.\",\n    \"split_entities\": [\"Easts (Eastern Suburbs Leagues Club Ltd)\", \"Woy Woy\"]\n  },\n  {\n    \"entity_name\": \"The Indinup Trust, Avondale Investment Trust\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two different trust entities.\",\n    \"split_entities\": [\"The Indinup Trust\", \"Avondale Investment Trust\"]\n  },\n  {\n    \"entity_name\": \"South Perth, Townhouse; Kingston Apartment\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"South Perth is a location; the others describe properties.  More context needed for high confidence.\",\n    \"split_entities\": [\"South Perth\", \"Townhouse; Kingston Apartment\"]\n  },\n  {\n    \"entity_name\": \"South Perth, Townhouse; South Perth Townhouse; Victoria Park Townhouse\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Locations and property descriptions. Needs more context for high confidence.\",\n    \"split_entities\": [\"South Perth\", \"Townhouse; South Perth Townhouse; Victoria Park Townhouse\"]\n  },\n  {\n    \"entity_name\": \"GESB, First National Parliamentary Contributory Superannuation Scheme\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct superannuation entities.\",\n    \"split_entities\": [\"GESB\", \"First National Parliamentary Contributory Superannuation Scheme\"]\n  },\n  {\n    \"entity_name\": \"Qantas Chairman's Lounge, Velocity Club Virgin\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are different airline lounge programs.\",\n    \"split_entities\": [\"Qantas Chairman's Lounge\", \"Velocity Club Virgin\"]\n  },\n  {\n    \"entity_name\": \"IF Foundation, Swan Chamber of Commerce, Kalamunda Chamber of Commerce, Lesmurdie Club, Lesmurdie Ratepayers Association, 500 Club, Knights of the Order of St John, Southern Districts Rotary Club, Swan Districts Football Club\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are all separate organizations.\",\n    \"split_entities\": [\"IF Foundation\", \"Swan Chamber of Commerce\", \"Kalamunda Chamber of Commerce\", \"Lesmurdie Club\", \"Lesmurdie Ratepayers Association\", \"500 Club\", \"Knights of the Order of St John\", \"Southern Districts Rotary Club\", \"Swan Districts Football Club\"]\n  },\n  {\n    \"entity_name\": \"Bank of Queensland, Lowy Institute\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are a bank and a think tank.\",\n    \"split_entities\": [\"Bank of Queensland\", \"Lowy Institute\"]\n  },\n  {\n    \"entity_name\": \"South Sydney RLFC, Qantas Chairman Lounge, Virgin Club Lounge\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A sports club and airline lounges.\",\n    \"split_entities\": [\"South Sydney RLFC\", \"Qantas Chairman Lounge\", \"Virgin Club Lounge\"]\n  },\n  {\n    \"entity_name\": \"Archbishop Makarios, Greek Orthodox Church of Australia\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A religious leader and the church.\",\n    \"split_entities\": [\"Archbishop Makarios\", \"Greek Orthodox Church of Australia\"]\n  },\n  {\n    \"entity_name\": \"Self, Gilbert Frank Investments P/L, Superanuation account\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"An individual, an investment company, and a superannuation account.\",\n    \"split_entities\": [\"Self\", \"Gilbert Frank Investments P/L\", \"Superannuation account\"]\n  },\n  {\n    \"entity_name\": \"ANZ, Suncorp\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two separate Australian financial institutions.\",\n    \"split_entities\": [\"ANZ\", \"Suncorp\"]\n  },\n  {\n    \"entity_name\": \"St Helens, Tasmania\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A town and a state in Australia.\",\n    \"split_entities\": [\"St Helens\", \"Tasmania\"]\n  },\n  {\n    \"entity_name\": \"George Town, Tamania\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"LOW\",\n    \"explanation\": \"Likely a typo ('Tamania' should be 'Tasmania').  Assuming it's a town and state.\",\n    \"split_entities\": [\"George Town\", \"Tamania\"]\n  },\n  {\n    \"entity_name\": \"Arnotts, Hachette Australia\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A biscuit company and a publishing company.\",\n    \"split_entities\": [\"Arnotts\", \"Hachette Australia\"]\n  },\n  {\n    \"entity_name\": \"Mr Adwar Rassam, Diageo Australia\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A person and an alcohol company.\",\n    \"split_entities\": [\"Mr Adwar Rassam\", \"Diageo Australia\"]\n  },\n  {\n    \"entity_name\": \"McKell Institute, Lion Brewing\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A think tank and a brewing company.\",\n    \"split_entities\": [\"McKell Institute\", \"Lion Brewing\"]\n  },\n  {\n    \"entity_name\": \"Virgin Australia, National Press Club, Astra-Foxtel, Qantas\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"An airline, a press club, a media company, and another airline.\",\n    \"split_entities\": [\"Virgin Australia\", \"National Press Club\", \"Astra-Foxtel\", \"Qantas\"]\n  },\n  {\n    \"entity_name\": \"Cazaly's Football Club, Cairns\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A football club and a city in Australia.\",\n    \"split_entities\": [\"Cazaly's Football Club\", \"Cairns\"]\n  },\n  {\n    \"entity_name\": \"Vice Patron, QLD Target Sports Inc.\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A title and an organization.\",\n    \"split_entities\": [\"Vice Patron\", \"QLD Target Sports Inc.\"]\n  },\n  {\n    \"entity_name\": \"Vice Patron, QLD Rifle Association Inc.\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A title and an organization.\",\n    \"split_entities\": [\"Vice Patron\", \"QLD Rifle Association Inc.\"]\n  },\n  {\n    \"entity_name\": \"Patron, QLD Labor Enabled\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A title and an organization.\",\n    \"split_entities\": [\"Patron\", \"QLD Labor Enabled\"]\n  },\n  {\n    \"entity_name\": \"Student, University of New England\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A person's status and an educational institution.\",\n    \"split_entities\": [\"Student\", \"University of New England\"]\n  },\n  {\n    \"entity_name\": \"Patron, Qld Labor for Refugees\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A title and an organization.\",\n    \"split_entities\": [\"Patron\", \"Qld Labor for Refugees\"]\n  },\n  {\n    \"entity_name\": \"Author, chapter for forthcoming book on human rights, Australian Catholic University\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A person's role, a book project, and a university.\",\n    \"split_entities\": [\"Author\", \"chapter for forthcoming book on human rights\", \"Australian Catholic University\"]\n  },\n  {\n    \"entity_name\": \"Member of the Queensland Advisory Board of the McKell Institute, a research institute\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A position, an organization and a general description.\",\n    \"split_entities\": [\"Member of the Queensland Advisory Board of the McKell Institute\", \"a research institute\"]\n  },\n  {\n    \"entity_name\": \"Morningside, QLD\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A suburb and a state.\",\n    \"split_entities\": [\"Morningside\", \"QLD\"]\n  },\n  {\n    \"entity_name\": \"United Nations Association of Australia, Qld Division\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"An organization and its division.\",\n    \"split_entities\": [\"United Nations Association of Australia\", \"Qld Division\"]\n  },\n  {\n    \"entity_name\": \"Reid, ACT\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A suburb and a territory.\",\n    \"split_entities\": [\"Reid\", \"ACT\"]\n  },\n  {\n    \"entity_name\": \"Meldon, VIC\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A town and a state.\",\n    \"split_entities\": [\"Meldon\", \"VIC\"]\n  },\n  {\n    \"entity_name\": \"QANTAS, VIRGIN, FOXTEL\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"An airline, an airline, and a telecommunications company.\",\n    \"split_entities\": [\"QANTAS\", \"VIRGIN\", \"FOXTEL\"]\n  },\n  {\n    \"entity_name\": \"Care Leavers Australasia Network (CLAN), Bankstown District Sports Club, Bankstown RSL, White Ribbon Ambassador, Bankstown Youth Development Service (BYDS)\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Multiple organizations and a title.\",\n    \"split_entities\": [\"Care Leavers Australasia Network (CLAN)\", \"Bankstown District Sports Club\", \"Bankstown RSL\", \"White Ribbon Ambassador\", \"Bankstown Youth Development Service (BYDS)\"]\n  },\n  {\n    \"entity_name\": \"ING, COMMONWEALTH BANK\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two separate Australian banks.\",\n    \"split_entities\": [\"ING\", \"COMMONWEALTH BANK\"]\n  },\n  {\n    \"entity_name\": \"Patscherkofel Lodge, Mount Buller\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A lodge and a mountain resort location.\",\n    \"split_entities\": [\"Patscherkofel Lodge\", \"Mount Buller\"]\n  },\n  {\n    \"entity_name\": \"University of New South Wales, Faculty of Business\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A university and one of its faculties.\",\n    \"split_entities\": [\"University of New South Wales\", \"Faculty of Business\"]\n  }\n]\n```\n"
+}

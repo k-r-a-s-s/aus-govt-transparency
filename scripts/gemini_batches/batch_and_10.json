@@ -1,0 +1,949 @@
+{
+  "batch_id": "and_10",
+  "category": "and",
+  "entities": [
+    {
+      "entity": "Seven West Media and Anthony De Ceglie",
+      "proposed_splits": [
+        "Seven West Media",
+        "Anthony De Ceglie"
+      ],
+      "context": [
+        {
+          "mp_name": "Patrick Gorman",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Wiggles Concert Tickets",
+          "details": "Four tickets to the Wiggles concert on Saturday, 18 November, for myself, my wife Jess and our two children from Seven West Media and Anthony De Ceglie, Editor In Chief."
+        }
+      ]
+    },
+    {
+      "entity": "Chamber of Minerals and Energy",
+      "proposed_splits": [
+        "Chamber of Minerals",
+        "Energy"
+      ],
+      "context": [
+        {
+          "mp_name": "Patrick Gorman",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Women in Resources Awards Tickets",
+          "details": "Myself and my wife accepted tickets to the Women in Resources Awards from the Chamber of Minerals and Energy on Friday 22 March 2024."
+        }
+      ]
+    },
+    {
+      "entity": "American Chamber of Commerce in Australia (AmCham) and the Insurance Council of Australia (ICA)",
+      "proposed_splits": [
+        "American Chamber of Commerce in Australia (AmCham)",
+        "the Insurance Council of Australia (ICA)"
+      ],
+      "context": [
+        {
+          "mp_name": "Garth Hamilton",
+          "party": "Liberal National Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Airfares and Accommodation for US Study Tour",
+          "details": "Self - Airfares and accommodation to participate in the AmCham/ICA US Study Tour (21 - 26 July 2024)"
+        }
+      ]
+    },
+    {
+      "entity": "Dr Alan Mendoza and Henry Jackson Society",
+      "proposed_splits": [
+        "Dr Alan Mendoza",
+        "Henry Jackson Society"
+      ],
+      "context": [
+        {
+          "mp_name": "Andrew Hastie",
+          "party": "Liberal Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Flights and Accommodation for London Conference",
+          "details": "2022: Return flights and accommodation from Dr Alan Mendoza and Henry Jackson Society to participate in their London conference on \"Securing the Taiwan Strait with Indo-Pacific Tilt\""
+        }
+      ]
+    },
+    {
+      "entity": "Racing and Wagering WA (RWWA)",
+      "proposed_splits": [
+        "Racing",
+        "Wagering WA (RWWA)"
+      ],
+      "context": [
+        {
+          "mp_name": "Andrew Hastie",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Coldplay concert tickets",
+          "details": "Tickets to Coldplay concert (Perth - Sunday, 19 Nov 2023) for Mr and Mrs Andrew and Ruth Hastie, provided by Racing and Wagering WA (RWWA)."
+        }
+      ]
+    },
+    {
+      "entity": "Castle Hill RSL District Club and RSL Sub branch",
+      "proposed_splits": [
+        "Castle Hill RSL District Club",
+        "RSL Sub branch"
+      ],
+      "context": [
+        {
+          "mp_name": "Alex Hawke",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Membership Castle Hill RSL",
+          "details": ""
+        }
+      ]
+    },
+    {
+      "entity": "Peter Jackson and Mr Hussaini",
+      "proposed_splits": [
+        "Peter Jackson",
+        "Mr Hussaini"
+      ],
+      "context": [
+        {
+          "mp_name": "Julian Hill",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Other Gift",
+          "item": "Two suits and two shirts",
+          "details": "Two suits (1 black, 1 blue) and 2 x white shirts from Peter Jackson, plus a few bags of nuts and dried figs. Value unknown. Unsolicited gift from a constituent on 23 February 2023 that it became impossible to refuse without causing offence. Mr Hussaini has been requested and has agreed to not bring gifts in the future."
+        }
+      ]
+    },
+    {
+      "entity": "National Mining and Related Industries",
+      "proposed_splits": [
+        "National Mining",
+        "Related Industries"
+      ],
+      "context": [
+        {
+          "mp_name": "Barnaby Joyce",
+          "party": "National Party of Australia",
+          "category": "Travel",
+          "sub_category": "Air Travel",
+          "item": "Return Charter Flights, Accommodation and Gala Dinner Ticket",
+          "details": "Return charter flights, one night accommodation, ground bus transport, gala dinner ticket - provided by National Mining and Related Industries."
+        }
+      ]
+    },
+    {
+      "entity": "ANZ, Commonwealth, NAB, Metway, Qld Country Bank and others",
+      "proposed_splits": [
+        "ANZ",
+        "Commonwealth",
+        "NAB",
+        "Metway",
+        "Qld Country Bank",
+        "others"
+      ],
+      "context": [
+        {
+          "mp_name": "Robert Carl Katter",
+          "party": "Katter's Australian Party",
+          "category": "Liability",
+          "sub_category": "Loan",
+          "item": "Loans",
+          "details": "Loans"
+        }
+      ]
+    },
+    {
+      "entity": "NRL and NRLW Telstra Premiership",
+      "proposed_splits": [
+        "NRL",
+        "NRLW Telstra Premiership"
+      ],
+      "context": [
+        {
+          "mp_name": "Simon Kennedy",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Tickets to NRL and NRLW Telstra Premiership Finals",
+          "details": "Offer of tickets to 2024 NRL and NRLW Telstra Premiership Finals"
+        }
+      ]
+    },
+    {
+      "entity": "Thornlie Footbal and Sports Club",
+      "proposed_splits": [
+        "Thornlie Footbal",
+        "Sports Club"
+      ],
+      "context": [
+        {
+          "mp_name": "Matthew Keogh",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Venue Hire and Food for Sporting Champions Event",
+          "details": "Venue hire and food for the 2023 Burt Local Sporting Champions event held on 6 June 2023. Estimated value $300"
+        }
+      ]
+    },
+    {
+      "entity": "Ballarat and Grampians Community Legal Services Board",
+      "proposed_splits": [
+        "Ballarat",
+        "Grampians Community Legal Services Board"
+      ],
+      "context": [
+        {
+          "mp_name": "Catherine King",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Board Membership",
+          "details": "Spouse - Ballarat and Grampians Community Legal Services Board commencing 21 February 2023"
+        }
+      ]
+    },
+    {
+      "entity": "Bravus Mining and Resources",
+      "proposed_splits": [
+        "Bravus Mining",
+        "Resources"
+      ],
+      "context": [
+        {
+          "mp_name": "Michelle Landry",
+          "party": "Liberal National Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Return Tickets to Carmichael Mine",
+          "details": "2 x return tickets to Carmichael Mine from Rockhampton- Bravus Mining and Resources (24th October 2023)"
+        }
+      ]
+    },
+    {
+      "entity": "Pinelli Wines, Bailey Brewing and Oakover Wines",
+      "proposed_splits": [
+        "Pinelli Wines",
+        "Bailey Brewing",
+        "Oakover Wines"
+      ],
+      "context": [
+        {
+          "mp_name": "Tania Lawrence",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Hospitality",
+          "item": "Donation towards Hasluck Volunteer Awards",
+          "details": "Donation by Pinelli Wines, Bailey Brewing and Oakover Wines towards prizes and hospitality for Hasluck Volunteer Awards 2024"
+        }
+      ]
+    },
+    {
+      "entity": "Global Public Policy Institute and ANU National Security College",
+      "proposed_splits": [
+        "Global Public Policy Institute",
+        "ANU National Security College"
+      ],
+      "context": [
+        {
+          "mp_name": "Dai Le",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Travel to India as part of Australian and German parliamentarian delegation",
+          "details": "Travel to India as a part of an Australian and German delegations of parliamentarians on a program arranged and facilitated by Global Public Policy Institute and ANU National Security College."
+        }
+      ]
+    },
+    {
+      "entity": "Australia Israel and Jewish Affairs Council",
+      "proposed_splits": [
+        "Australia Israel",
+        "Jewish Affairs Council"
+      ],
+      "context": [
+        {
+          "mp_name": "Julian Leeser",
+          "party": "Liberal Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Travel to Israel and the UAE",
+          "details": "Travel to Israel and the UAE as a guest"
+        }
+      ]
+    },
+    {
+      "entity": "Westpac, Telstra and National Press Club",
+      "proposed_splits": [
+        "Westpac",
+        "Telstra",
+        "National Press Club"
+      ],
+      "context": [
+        {
+          "mp_name": "Julian Leeser",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Tickets to National Press Club Lunch",
+          "details": "Sponsored Tickets to the National Press Club Lunch"
+        }
+      ]
+    },
+    {
+      "entity": "Dural and District Business Chamber of Commerce",
+      "proposed_splits": [
+        "Dural",
+        "District Business Chamber of Commerce"
+      ],
+      "context": [
+        {
+          "mp_name": "Julian Leeser",
+          "party": "Liberal Party of Australia",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Business Chamber of Commerce Membership",
+          "details": "Membership"
+        }
+      ]
+    },
+    {
+      "entity": "R Hair 4 U, O, Dough, Wooden Mill, Well Versed Homes, Dulux, Southern Cleaning Supplies, Kennards Self Storage Thornleigh, Inspirations Paint Hornsby, Uni-Pro and Bunnings Thornleigh",
+      "proposed_splits": [
+        "R Hair 4 U",
+        "O",
+        "Dough",
+        "Wooden Mill",
+        "Well Versed Homes",
+        "Dulux",
+        "Southern Cleaning Supplies",
+        "Kennards Self Storage Thornleigh",
+        "Inspirations Paint Hornsby",
+        "Uni-Pro",
+        "Bunnings Thornleigh"
+      ],
+      "context": [
+        {
+          "mp_name": "Julian Leeser",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Sponsorship of Goods and Refreshments",
+          "details": "Sponsorship of goods (paint, cleaning supplies, storage) and refreshments for community graffiti removal clean up drive"
+        }
+      ]
+    },
+    {
+      "entity": "Welfare Rights and Advocacy Service",
+      "proposed_splits": [
+        "Welfare Rights",
+        "Advocacy Service"
+      ],
+      "context": [
+        {
+          "mp_name": "Zaneta Mascarenhas",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Other Gift",
+          "item": "Membership and Donation",
+          "details": "Member and donor. Also a donor of less than $300 to a number of charities."
+        }
+      ]
+    },
+    {
+      "entity": "Chamber of Minerals and Energy WA (CME), Minerals Council of Australia (MCA), and the Australian Petroleum Production & Exploration Association (APPEA)",
+      "proposed_splits": [
+        "Chamber of Minerals",
+        "Energy WA (CME)",
+        "Minerals Council of Australia (MCA)",
+        "the Australian Petroleum Production & Exploration Association (APPEA)"
+      ],
+      "context": [
+        {
+          "mp_name": "Zaneta Mascarenhas",
+          "party": "Liberal Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Commercial Flight Perth => Karratha Economy",
+          "details": "Commercial Flight QF 1830: Perth => Karratha Economy, Value: $1,022.86, Received: 12/10/22. Pilbara Resource Sector Familiarisation and Networking Tour"
+        },
+        {
+          "mp_name": "Zaneta Mascarenhas",
+          "party": "Liberal Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Accommodation and Charter Flights for Pilbara Resource Sector Tour",
+          "details": "2 nights' Accommodation - 1 night Kingfisher Village and 1 night Seasons Hotel, Newman. Breakfast, lunch, dinner included for duration. Received: 12 - 14/10 22;Charter flight: Karratha to Wodgina Airport Received: 13/10/2;Charter flight: Wodgina Airport to Christmas Creek Received: 13/10/22;Charter Flight: Christmas Creek to Newman Airport Received: 13/10/22;Charter Flights: Newman to Perth Received: 14/10/22;Value of all chartered flights and accommodation: approximately $1,350;Pilbara Resource Sector Familiarisation and Networking Tour"
+        },
+        {
+          "mp_name": "Zaneta Mascarenhas",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Other Gift",
+          "item": "Steel cap boots",
+          "details": "Steel cap boots, Value $150, Received 11/10/22, Pilbara Resource Sector Familiarisation and Networking Tour"
+        }
+      ]
+    },
+    {
+      "entity": "Hall and Prior Health and Aged Care Group",
+      "proposed_splits": [
+        "Hall",
+        "Prior Health",
+        "Aged Care Group"
+      ],
+      "context": [
+        {
+          "mp_name": "Zaneta Mascarenhas",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "International Women's Day Event Sponsorship",
+          "details": "Sponsorship - International Women's Day event, Value: $1,547.82"
+        }
+      ]
+    },
+    {
+      "entity": "Veolia Australia and New Zealand",
+      "proposed_splits": [
+        "Veolia Australia",
+        "New Zealand"
+      ],
+      "context": [
+        {
+          "mp_name": "Kristy Mcbain",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Hospitality",
+          "item": "Bottle of Archie Rose Distilling Co Gin",
+          "details": "700ml Bottle of Archie Rose Distilling Co, Bell Frog Tailored Gin from Veolia Australia and New Zealand. Value $100,"
+        }
+      ]
+    },
+    {
+      "entity": "OZWAC - Australian Women's and Children Research Foundation",
+      "proposed_splits": [
+        "OZWAC - Australian Women's",
+        "Children Research Foundation"
+      ],
+      "context": [
+        {
+          "mp_name": "Melissa Mcintosh",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Patronage of OZWAC",
+          "details": "Patron"
+        }
+      ]
+    },
+    {
+      "entity": "Konrad Adenauer Stiftung Regional Programme - Australia and the Pacific",
+      "proposed_splits": [
+        "Konrad Adenauer Stiftung Regional Programme - Australia",
+        "the Pacific"
+      ],
+      "context": [
+        {
+          "mp_name": "Zoe McKenzie",
+          "party": "Liberal Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Travel to Brussels and Berlin, meals and accommodation",
+          "details": "Travel to Brussels and Berlin 3 - 15 October, and meals and accommodation 8-14 October in Brussels and Berlin provided by the Konrad Adenauer Stiftung Regional Programme - Australia and the Pacific."
+        }
+      ]
+    },
+    {
+      "entity": "Flinders University College of Government, Business and Law",
+      "proposed_splits": [
+        "Flinders University College of Government",
+        "Business",
+        "Law"
+      ],
+      "context": [
+        {
+          "mp_name": "Louise Jane Miller-Frost",
+          "party": NaN,
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Chair Advisory Board",
+          "details": "Chair Advisory Board"
+        }
+      ]
+    },
+    {
+      "entity": "Royal Automobile Association of SA Inc, RAA Insurance Holdings Ltd, and RAA Insurance Ltd",
+      "proposed_splits": [
+        "Royal Automobile Association of SA Inc",
+        "RAA Insurance Holdings Ltd",
+        "RAA Insurance Ltd"
+      ],
+      "context": [
+        {
+          "mp_name": "Louise Jane Miller-Frost",
+          "party": NaN,
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Director RAA",
+          "details": "For spouse Kim Cheater: Director"
+        }
+      ]
+    },
+    {
+      "entity": "Professor Cheng and delegation, from Nanjing University of Traditional Chinese Medicine",
+      "proposed_splits": [
+        "Professor Cheng",
+        "delegation",
+        "from Nanjing University of Traditional Chinese Medicine"
+      ],
+      "context": [
+        {
+          "mp_name": "Louise Jane Miller-Frost",
+          "party": NaN,
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Framed brocade from Nanjing City",
+          "details": "Framed brocade from Nanjing City, gift from Professor Cheng and delegation, from Nanjing University of Traditional Chinese Medicine"
+        }
+      ]
+    },
+    {
+      "entity": "The Australian Sheep, Camelid and Goats and Vet Group",
+      "proposed_splits": [
+        "The Australian Sheep",
+        "Camelid",
+        "Goats",
+        "Vet Group"
+      ],
+      "context": [
+        {
+          "mp_name": "Brendan O'Connor",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Membership",
+          "details": "Spouse/partner"
+        }
+      ]
+    },
+    {
+      "entity": "Mongolian Minister for Education and Science",
+      "proposed_splits": [
+        "Mongolian Minister for Education",
+        "Science"
+      ],
+      "context": [
+        {
+          "mp_name": "Brendan O'Connor",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Scarf from Mongolian Minister",
+          "details": "Scarf (value $100 AUD) from the Mongolian Minister for Education and Science on 6/3/2023"
+        }
+      ]
+    },
+    {
+      "entity": "Community and Public Sector Union (CPSU)",
+      "proposed_splits": [
+        "Community",
+        "Public Sector Union (CPSU)"
+      ],
+      "context": [
+        {
+          "mp_name": "Alicia Payne",
+          "party": "Australian Labor Party",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Community and Public Sector Union Membership",
+          "details": "Self"
+        }
+      ]
+    },
+    {
+      "entity": "Taipei Economic and Cultural Office of Australia",
+      "proposed_splits": [
+        "Taipei Economic",
+        "Cultural Office of Australia"
+      ],
+      "context": [
+        {
+          "mp_name": "Gavin Pearce",
+          "party": "Liberal Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Sponsored travel to Taiwan - Airfares, Accommodation, Meals and Incidentals",
+          "details": "Sponsored travel to Taiwan including airfares, accommodation, meals and incidentals provided by the Taipei Economic and Cultural Office of Australia."
+        }
+      ]
+    },
+    {
+      "entity": "Astra Subscription Television and Radio Association",
+      "proposed_splits": [
+        "Astra Subscription Television",
+        "Radio Association"
+      ],
+      "context": [
+        {
+          "mp_name": "Tanya Plibersek",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Electorate Office Foxtel Subscription",
+          "details": "Astra Subscription Television and Radio Association - Foxtel subscription for electorate office"
+        }
+      ]
+    },
+    {
+      "entity": "Southern Youth and Family Services Warilla Housing Project",
+      "proposed_splits": [
+        "Southern Youth",
+        "Family Services Warilla Housing Project"
+      ],
+      "context": [
+        {
+          "mp_name": "Tanya Plibersek",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Decorative",
+          "item": "Indigenous artwork",
+          "details": "Indigenous artwork - gift from Southern Youth and Family Services Warilla Housing Project (located in Ministerial Office)"
+        }
+      ]
+    },
+    {
+      "entity": "ASU Victorian and Tasmanian Authorities and Services Branch",
+      "proposed_splits": [
+        "ASU Victorian",
+        "Tasmanian Authorities",
+        "Services Branch"
+      ],
+      "context": [
+        {
+          "mp_name": "Sam Rae",
+          "party": "Australian Labor Party",
+          "category": "Income",
+          "sub_category": "Other Income",
+          "item": "Salary",
+          "details": "Salary"
+        }
+      ]
+    },
+    {
+      "entity": "Mining and Energy Union",
+      "proposed_splits": [
+        "Mining",
+        "Energy Union"
+      ],
+      "context": [
+        {
+          "mp_name": "Dan Repacholi",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Accommodation and hospitality in Sydney",
+          "details": "Accommodation and hospitality in Sydney on 22 July 2022"
+        },
+        {
+          "mp_name": "Dan Repacholi",
+          "party": "Australian Labor Party",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Mining and Energy Union Membership",
+          "details": "Member of the Mining and Energy Union"
+        },
+        {
+          "mp_name": "Dan Repacholi",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Accommodation in Moranbah Queensland",
+          "details": "Mining and Energy Union provided 2 nights accommodation in Moranbah Queensland at the Property Vine - Monterey Moranbah for 2 People during a trip to speak with workers in the area"
+        },
+        {
+          "mp_name": "Dan Repacholi",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Accommodation at The Star in Brisbane & Gala Dinner",
+          "details": "Received 3 nights accommodation from the Mining and Energy Union on 29/30/31 October 2024 at The Star in Brisbane while I attended and spoke at their National Convention. Also attended their Gala Dinner on 31 October."
+        }
+      ]
+    },
+    {
+      "entity": "Sydney Kings and Sydney Flames",
+      "proposed_splits": [
+        "Sydney Kings",
+        "Sydney Flames"
+      ],
+      "context": [
+        {
+          "mp_name": "Dan Repacholi",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Tickets to Sydney Kings and Sydney Flames game",
+          "details": "4 tickets to the Sydney Kings and Sydney Flames game on Sunday 29 January 2023, included parking and hospitality provided by the NBL"
+        }
+      ]
+    },
+    {
+      "entity": "Brisbane Broncos and Queensland Energy Minister",
+      "proposed_splits": [
+        "Brisbane Broncos",
+        "Queensland Energy Minister"
+      ],
+      "context": [
+        {
+          "mp_name": "Dan Repacholi",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Ticket to Brisbane Broncos v Dolphins NRL Game",
+          "details": "Ticket to the corporate box at the Brisbane Broncos v Dolphins NRL Game on 24 March as a guest of the Queensland Energy Minister"
+        }
+      ]
+    },
+    {
+      "entity": "Mining and Energy Union Northern District",
+      "proposed_splits": [
+        "Mining",
+        "Energy Union Northern District"
+      ],
+      "context": [
+        {
+          "mp_name": "Dan Repacholi",
+          "party": "Australian Labor Party",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Mining and Energy Union Northern District Office Usage",
+          "details": "Use of an office by the Mining and Energy Union Northern District while my Electorate Office was undergoing a renovation. This was for a period of 7 weeks and allowed me and my Chief of Staff to utilise a space to meet and plan and do diary work."
+        }
+      ]
+    },
+    {
+      "entity": "L and J family trust",
+      "proposed_splits": [
+        "L",
+        "J family trust"
+      ],
+      "context": [
+        {
+          "mp_name": "Amanda Rishworth",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential Property and Savings",
+          "details": "Residental Property and Savings. Potential joint beneficiary in the event of parents death (never received a distribution)"
+        },
+        {
+          "mp_name": "Amanda Rishworth",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential Property and Savings",
+          "details": "Residental Property and Savings. Potential joint beneficiary in the event of parents death (never received a distribution)"
+        },
+        {
+          "mp_name": "Amanda Rishworth",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential Property and Savings",
+          "details": "Residental Property and Savings. Potential joint beneficiary in the event of parents death (never received a distribution)"
+        }
+      ]
+    },
+    {
+      "entity": "Chamber of Minerals & Energy WA (MCE), Minerals Council of Australia (MCA), and the Australian Petroleum Production & Exploration Association (APPEA)",
+      "proposed_splits": [
+        "Chamber of Minerals & Energy WA (MCE)",
+        "Minerals Council of Australia (MCA)",
+        "the Australian Petroleum Production & Exploration Association (APPEA)"
+      ],
+      "context": [
+        {
+          "mp_name": "Tracey Roberts",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Flights and Accommodation in Karratha and Newman",
+          "details": "Flights and accommodation - 2 nights accommodation in Karratha (1) and Newman (1) including meals - received 12-14/10/2022 Various Charter Flights: received 12-14/10/2022 Purpose of trip/context: Pilbara Resource Sector Familiarisation and Networking Tour Value: unknown"
+        }
+      ]
+    },
+    {
+      "entity": "Edith Cowan University School of Business and Law Advisory Board",
+      "proposed_splits": [
+        "Edith Cowan University School of Business",
+        "Law Advisory Board"
+      ],
+      "context": [
+        {
+          "mp_name": "Tracey Roberts",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Member of Advisory Board",
+          "details": "Member"
+        }
+      ]
+    },
+    {
+      "entity": "Wyndham Track and Field",
+      "proposed_splits": [
+        "Wyndham Track",
+        "Field"
+      ],
+      "context": [
+        {
+          "mp_name": "Joanne Ryan",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Patron",
+          "details": "Self - Patron"
+        }
+      ]
+    },
+    {
+      "entity": "Indonesian Minister for Administration and Bureaucratic Reform, H. Abdullah Azwar Anas",
+      "proposed_splits": [
+        "Indonesian Minister for Administration",
+        "Bureaucratic Reform",
+        "H. Abdullah Azwar Anas"
+      ],
+      "context": [
+        {
+          "mp_name": "Bill Shorten",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Decorative",
+          "item": "Wooden plaque and gold/black sarong",
+          "details": "Wooden plaque and gold/black sarong from Indonesian Minister for Administration and Bureaucratic Reform, H. Abdullah Azwar Anas"
+        }
+      ]
+    },
+    {
+      "entity": "Office of Southeast Asia, Department of Foreign Affairs and Trade",
+      "proposed_splits": [
+        "Office of Southeast Asia",
+        "Department of Foreign Affairs",
+        "Trade"
+      ],
+      "context": [
+        {
+          "mp_name": "Sally Sitou",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "FIFA World Cup Quarter Final tickets",
+          "details": "FIFA World Cup Quarter Final tickets x 2 England v Columbia from the Office of Southeast Asia, Department of Foreign Affairs and Trade 12/08/2023"
+        }
+      ]
+    },
+    {
+      "entity": "Office for Sport, Department of Health and Aged Care",
+      "proposed_splits": [
+        "Office for Sport",
+        "Department of Health",
+        "Aged Care"
+      ],
+      "context": [
+        {
+          "mp_name": "Sally Sitou",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "FIFA World Cup Semi Final Tickets",
+          "details": "FIFA World Cup Semi Final tickets x 2 Australia v England from the Office for Sport, Department of Health and Aged Care 16/08/2023"
+        },
+        {
+          "mp_name": "Sally Sitou",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "FIFA World Cup Final Tickets",
+          "details": "FIFA World Cup Final tickets x 2 England v Spain from the Office for Sport, Department of Health and Aged Care 20/08/2023"
+        }
+      ]
+    },
+    {
+      "entity": "Italian Chamber of Commerce and Industry",
+      "proposed_splits": [
+        "Italian Chamber of Commerce",
+        "Industry"
+      ],
+      "context": [
+        {
+          "mp_name": "Allegra Spender",
+          "party": "Independent",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Italian Chamber of Commerce and Industry membership",
+          "details": "Italian Chamber of Commerce and Industry (Honorary Membership)"
+        }
+      ]
+    },
+    {
+      "entity": "Voices of Fisher and Fairfax Matters community groups",
+      "proposed_splits": [
+        "Voices of Fisher",
+        "Fairfax Matters community groups"
+      ],
+      "context": [
+        {
+          "mp_name": "Zali Steggall",
+          "party": "Independent",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Sunshine Coast Accommodation",
+          "details": "Sunshine Coast accommodation provided by Voices of Fisher and Fairfax Matters community groups"
+        }
+      ]
+    },
+    {
+      "entity": "French Australia Chamber of Commerce and Industry",
+      "proposed_splits": [
+        "French Australia Chamber of Commerce",
+        "Industry"
+      ],
+      "context": [
+        {
+          "mp_name": "James Stevens",
+          "party": "Liberal Party of Australia",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Industry Group Membership",
+          "details": "Industry Group"
+        }
+      ]
+    },
+    {
+      "entity": "Maitland and District Cricket Umpire' and Scorers' Association Incorporated",
+      "proposed_splits": [
+        "Maitland",
+        "District Cricket Umpire'",
+        "Scorers' Association Incorporated"
+      ],
+      "context": [
+        {
+          "mp_name": "Meryl Swanson",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Maitland and District Cricket Umpire' and Scorers' Association Patronage",
+          "details": "Patron of Maitland and District Cricket Umpire' and Scorers' Association Incorporated"
+        }
+      ]
+    }
+  ]
+}

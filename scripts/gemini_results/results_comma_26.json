@@ -1,0 +1,163 @@
+{
+  "batch_id": "comma_26",
+  "category": "comma",
+  "entities_count": 19,
+  "analysis_results": [
+    {
+      "entity_name": "Liberal Party, Rotary Club, Relay for Life",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three distinct and unrelated organizations.",
+      "split_entities": [
+        "Liberal Party",
+        "Rotary Club",
+        "Relay for Life"
+      ]
+    },
+    {
+      "entity_name": "Football Australia, AIJAC",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Football Australia and AIJAC (Australia/Israel & Jewish Affairs Council) are separate entities.",
+      "split_entities": [
+        "Football Australia",
+        "AIJAC"
+      ]
+    },
+    {
+      "entity_name": "Bendigo Bank, ING",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Bendigo Bank and ING are separate financial institutions.",
+      "split_entities": [
+        "Bendigo Bank",
+        "ING"
+      ]
+    },
+    {
+      "entity_name": "Scale, Tabcorp, AFL, Melbourne City, Thomas Derum",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are all separate organizations: a business (Scale), a gambling company (Tabcorp), a sporting league (AFL), a football club (Melbourne City), and seemingly a travel agent or similar (Thomas Derum).",
+      "split_entities": [
+        "Scale",
+        "Tabcorp",
+        "AFL",
+        "Melbourne City",
+        "Thomas Derum"
+      ]
+    },
+    {
+      "entity_name": "Wurtulla, QLD",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Wurtulla is a suburb in Queensland.  'QLD' is simply an abbreviation for the state.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Kelowna, British Columbia, Canada",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Kelowna is a city in British Columbia, Canada. Listing the province and country provides geographical context, not separate entities.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Gymea Bay, NSW",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Gymea Bay is a suburb in NSW. 'NSW' is an abbreviation for the state.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Hurstville, NSW",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Hurstville is a suburb in NSW. 'NSW' is an abbreviation for the state.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Coff Harbour, NSW",
+      "classification": "SINGLE",
+      "confidence": "MEDIUM",
+      "explanation": "Likely a misspelling of Coffs Harbour, a town in NSW.  Assuming a typo, it's a single location.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Coffs Harbour, NSW",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Coffs Harbour is a city in NSW.  'NSW' is an abbreviation for the state.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "St Lucia, Queensland",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "St Lucia is a suburb in Queensland. 'Queensland' provides geographical context.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Auchenflower, Queensland",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Auchenflower is a suburb in Queensland. 'Queensland' provides geographical context.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Hastings Point, NSW",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Hastings Point is a town in NSW.  'NSW' is an abbreviation for the state.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Adelaide, SA",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Adelaide is a city in South Australia. 'SA' is an abbreviation for the state.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "ALP, Williamstown Branch (Vic)",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "ALP (Australian Labor Party) and its Williamstown branch are separate entities.",
+      "split_entities": [
+        "ALP",
+        "Williamstown Branch (Vic)"
+      ]
+    },
+    {
+      "entity_name": "ALP, Footscray Branch (Vic)",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "ALP (Australian Labor Party) and its Footscray branch are separate entities.",
+      "split_entities": [
+        "ALP",
+        "Footscray Branch (Vic)"
+      ]
+    },
+    {
+      "entity_name": "Summer Park, Brisbane",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Summer Park is a suburb of Brisbane.  'Brisbane' provides location context.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Hyde Park, Townsville",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Hyde Park is a suburb or area within Townsville.  'Townsville' gives location context.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "King Henry Cafe, Sassafras",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "King Henry Cafe is a business located in Sassafras. 'Sassafras' provides location context.",
+      "split_entities": []
+    }
+  ],
+  "raw_response": "```json\n[\n  {\n    \"entity_name\": \"Liberal Party, Rotary Club, Relay for Life\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three distinct and unrelated organizations.\",\n    \"split_entities\": [\"Liberal Party\", \"Rotary Club\", \"Relay for Life\"]\n  },\n  {\n    \"entity_name\": \"Football Australia, AIJAC\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Football Australia and AIJAC (Australia/Israel & Jewish Affairs Council) are separate entities.\",\n    \"split_entities\": [\"Football Australia\", \"AIJAC\"]\n  },\n  {\n    \"entity_name\": \"Bendigo Bank, ING\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Bendigo Bank and ING are separate financial institutions.\",\n    \"split_entities\": [\"Bendigo Bank\", \"ING\"]\n  },\n  {\n    \"entity_name\": \"Scale, Tabcorp, AFL, Melbourne City, Thomas Derum\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are all separate organizations: a business (Scale), a gambling company (Tabcorp), a sporting league (AFL), a football club (Melbourne City), and seemingly a travel agent or similar (Thomas Derum).\",\n    \"split_entities\": [\"Scale\", \"Tabcorp\", \"AFL\", \"Melbourne City\", \"Thomas Derum\"]\n  },\n  {\n    \"entity_name\": \"Wurtulla, QLD\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Wurtulla is a suburb in Queensland.  'QLD' is simply an abbreviation for the state.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Kelowna, British Columbia, Canada\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Kelowna is a city in British Columbia, Canada. Listing the province and country provides geographical context, not separate entities.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Gymea Bay, NSW\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Gymea Bay is a suburb in NSW. 'NSW' is an abbreviation for the state.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Hurstville, NSW\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Hurstville is a suburb in NSW. 'NSW' is an abbreviation for the state.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Coff Harbour, NSW\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Likely a misspelling of Coffs Harbour, a town in NSW.  Assuming a typo, it's a single location.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Coffs Harbour, NSW\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Coffs Harbour is a city in NSW.  'NSW' is an abbreviation for the state.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"St Lucia, Queensland\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"St Lucia is a suburb in Queensland. 'Queensland' provides geographical context.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Auchenflower, Queensland\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Auchenflower is a suburb in Queensland. 'Queensland' provides geographical context.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Hastings Point, NSW\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Hastings Point is a town in NSW.  'NSW' is an abbreviation for the state.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Adelaide, SA\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Adelaide is a city in South Australia. 'SA' is an abbreviation for the state.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"ALP, Williamstown Branch (Vic)\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"ALP (Australian Labor Party) and its Williamstown branch are separate entities.\",\n    \"split_entities\": [\"ALP\", \"Williamstown Branch (Vic)\"]\n  },\n  {\n    \"entity_name\": \"ALP, Footscray Branch (Vic)\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"ALP (Australian Labor Party) and its Footscray branch are separate entities.\",\n    \"split_entities\": [\"ALP\", \"Footscray Branch (Vic)\"]\n  },\n  {\n    \"entity_name\": \"Summer Park, Brisbane\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Summer Park is a suburb of Brisbane.  'Brisbane' provides location context.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Hyde Park, Townsville\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Hyde Park is a suburb or area within Townsville.  'Townsville' gives location context.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"King Henry Cafe, Sassafras\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"King Henry Cafe is a business located in Sassafras. 'Sassafras' provides location context.\",\n    \"split_entities\": []\n  }\n]\n```\n"
+}

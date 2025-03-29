@@ -1,0 +1,434 @@
+{
+  "batch_id": "and_10",
+  "category": "and",
+  "entities_count": 50,
+  "analysis_results": [
+    {
+      "entity_name": "Seven West Media and Anthony De Ceglie",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Seven West Media is a publicly listed media company. Anthony De Ceglie is an individual.  The context clearly shows two separate entities.",
+      "split_entities": [
+        "Seven West Media",
+        "Anthony De Ceglie"
+      ]
+    },
+    {
+      "entity_name": "Chamber of Minerals and Energy",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single organization with a compound name, a common structure for Australian industry bodies.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "American Chamber of Commerce in Australia (AmCham) and the Insurance Council of Australia (ICA)",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct and well-known Australian organizations.",
+      "split_entities": [
+        "American Chamber of Commerce in Australia (AmCham)",
+        "the Insurance Council of Australia (ICA)"
+      ]
+    },
+    {
+      "entity_name": "Dr Alan Mendoza and Henry Jackson Society",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Dr Alan Mendoza is an individual; the Henry Jackson Society is a UK think tank with Australian connections. The context clearly indicates two separate entities.",
+      "split_entities": [
+        "Dr Alan Mendoza",
+        "Henry Jackson Society"
+      ]
+    },
+    {
+      "entity_name": "Racing and Wagering WA (RWWA)",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is the official name of a single Western Australian government-owned organization.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Castle Hill RSL District Club and RSL Sub branch",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "While both are related to RSL, the lack of further context makes it difficult to definitively say whether they are separate entities or branches of a larger organization.  More information is needed.",
+      "split_entities": [
+        "Castle Hill RSL District Club",
+        "RSL Sub branch"
+      ]
+    },
+    {
+      "entity_name": "Peter Jackson and Mr Hussaini",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Peter Jackson (presumably not the filmmaker) and Mr Hussaini are individuals, clearly separate entities.",
+      "split_entities": [
+        "Peter Jackson",
+        "Mr Hussaini"
+      ]
+    },
+    {
+      "entity_name": "National Mining and Related Industries",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Likely a single organization with a descriptive compound name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "ANZ, Commonwealth, NAB, Metway, Qld Country Bank and others",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are all separate Australian financial institutions.",
+      "split_entities": [
+        "ANZ",
+        "Commonwealth",
+        "NAB",
+        "Metway",
+        "Qld Country Bank",
+        "others"
+      ]
+    },
+    {
+      "entity_name": "NRL and NRLW Telstra Premiership",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "NRL and NRLW are separate competitions within the same governing body, but still distinct entities.",
+      "split_entities": [
+        "NRL",
+        "NRLW Telstra Premiership"
+      ]
+    },
+    {
+      "entity_name": "Thornlie Footbal and Sports Club",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A single sports club with a compound name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Ballarat and Grampians Community Legal Services Board",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Likely a single organization serving multiple regions.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Bravus Mining and Resources",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This appears to be the name of a single mining company.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Pinelli Wines, Bailey Brewing and Oakover Wines",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Three separate wineries/breweries.",
+      "split_entities": [
+        "Pinelli Wines",
+        "Bailey Brewing",
+        "Oakover Wines"
+      ]
+    },
+    {
+      "entity_name": "Global Public Policy Institute and ANU National Security College",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two distinct organizations, one independent, the other part of the Australian National University.",
+      "split_entities": [
+        "Global Public Policy Institute",
+        "ANU National Security College"
+      ]
+    },
+    {
+      "entity_name": "Australia Israel and Jewish Affairs Council",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This seems to be the name of a single organization.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Westpac, Telstra and National Press Club",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three entirely separate organizations: a bank, a telco, and a media organization.",
+      "split_entities": [
+        "Westpac",
+        "Telstra",
+        "National Press Club"
+      ]
+    },
+    {
+      "entity_name": "Dural and District Business Chamber of Commerce",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single business chamber with a compound name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "R Hair 4 U, O, Dough, Wooden Mill, Well Versed Homes, Dulux, Southern Cleaning Supplies, Kennards Self Storage Thornleigh, Inspirations Paint Hornsby, Uni-Pro and Bunnings Thornleigh",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are multiple distinct businesses.",
+      "split_entities": [
+        "R Hair 4 U",
+        "O",
+        "Dough",
+        "Wooden Mill",
+        "Well Versed Homes",
+        "Dulux",
+        "Southern Cleaning Supplies",
+        "Kennards Self Storage Thornleigh",
+        "Inspirations Paint Hornsby",
+        "Uni-Pro",
+        "Bunnings Thornleigh"
+      ]
+    },
+    {
+      "entity_name": "Welfare Rights and Advocacy Service",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This appears to be a single organization.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Chamber of Minerals and Energy WA (CME), Minerals Council of Australia (MCA), and the Australian Petroleum Production & Exploration Association (APPEA)",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three separate industry associations.",
+      "split_entities": [
+        "Chamber of Minerals and Energy WA (CME)",
+        "Minerals Council of Australia (MCA)",
+        "the Australian Petroleum Production & Exploration Association (APPEA)"
+      ]
+    },
+    {
+      "entity_name": "Hall and Prior Health and Aged Care Group",
+      "classification": "SINGLE",
+      "confidence": "MEDIUM",
+      "explanation": "Could be a single group, or possibly a partnership.  More information needed for high confidence.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Veolia Australia and New Zealand",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is likely the Australian and New Zealand branch of a multinational company.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "OZWAC - Australian Women's and Children Research Foundation",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is the name of a single foundation.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Konrad Adenauer Stiftung Regional Programme - Australia and the Pacific",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single program with a geographical scope.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Flinders University College of Government, Business and Law",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This refers to a single college within Flinders University.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Royal Automobile Association of SA Inc, RAA Insurance Holdings Ltd, and RAA Insurance Ltd",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are related but distinct legal entities.",
+      "split_entities": [
+        "Royal Automobile Association of SA Inc",
+        "RAA Insurance Holdings Ltd",
+        "RAA Insurance Ltd"
+      ]
+    },
+    {
+      "entity_name": "Professor Cheng and delegation, from Nanjing University of Traditional Chinese Medicine",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Professor Cheng is an individual, the delegation is a group, and the University is a separate entity.",
+      "split_entities": [
+        "Professor Cheng",
+        "delegation",
+        "Nanjing University of Traditional Chinese Medicine"
+      ]
+    },
+    {
+      "entity_name": "The Australian Sheep, Camelid and Goats and Vet Group",
+      "classification": "SINGLE",
+      "confidence": "MEDIUM",
+      "explanation": "Ambiguous. Could be a single organization or a list of related entities.  More information is needed.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Mongolian Minister for Education and Science",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single ministerial portfolio.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Community and Public Sector Union (CPSU)",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is the full name of a single union.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Taipei Economic and Cultural Office of Australia",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single diplomatic office.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Astra Subscription Television and Radio Association",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Likely a single industry association.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Southern Youth and Family Services Warilla Housing Project",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This appears to be a single organization.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "ASU Victorian and Tasmanian Authorities and Services Branch",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single branch of a larger union.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Mining and Energy Union",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single union.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Sydney Kings and Sydney Flames",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate basketball teams.",
+      "split_entities": [
+        "Sydney Kings",
+        "Sydney Flames"
+      ]
+    },
+    {
+      "entity_name": "Brisbane Broncos and Queensland Energy Minister",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A sporting team and a government official.",
+      "split_entities": [
+        "Brisbane Broncos",
+        "Queensland Energy Minister"
+      ]
+    },
+    {
+      "entity_name": "Mining and Energy Union Northern District",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single district of a larger union.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "L and J family trust",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single family trust.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Chamber of Minerals & Energy WA (MCE), Minerals Council of Australia (MCA), and the Australian Petroleum Production & Exploration Association (APPEA)",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Three distinct industry bodies.",
+      "split_entities": [
+        "Chamber of Minerals & Energy WA (MCE)",
+        "Minerals Council of Australia (MCA)",
+        "the Australian Petroleum Production & Exploration Association (APPEA)"
+      ]
+    },
+    {
+      "entity_name": "Edith Cowan University School of Business and Law Advisory Board",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single advisory board.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Wyndham Track and Field",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Likely a single sports club or organization.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Indonesian Minister for Administration and Bureaucratic Reform, H. Abdullah Azwar Anas",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "The minister's title and his name are separate entities.",
+      "split_entities": [
+        "Indonesian Minister for Administration and Bureaucratic Reform",
+        "H. Abdullah Azwar Anas"
+      ]
+    },
+    {
+      "entity_name": "Office of Southeast Asia, Department of Foreign Affairs and Trade",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single government office within a department.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Office for Sport, Department of Health and Aged Care",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A single government office within a department.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Italian Chamber of Commerce and Industry",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A single organization with a compound name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Voices of Fisher and Fairfax Matters community groups",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two distinct community groups.",
+      "split_entities": [
+        "Voices of Fisher",
+        "Fairfax Matters community groups"
+      ]
+    },
+    {
+      "entity_name": "French Australia Chamber of Commerce and Industry",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A single organization.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Maitland and District Cricket Umpire' and Scorers' Association Incorporated",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is the full name of a single organization.",
+      "split_entities": []
+    }
+  ],
+  "raw_response": "```json\n[\n  {\n    \"entity_name\": \"Seven West Media and Anthony De Ceglie\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Seven West Media is a publicly listed media company. Anthony De Ceglie is an individual.  The context clearly shows two separate entities.\",\n    \"split_entities\": [\"Seven West Media\", \"Anthony De Ceglie\"]\n  },\n  {\n    \"entity_name\": \"Chamber of Minerals and Energy\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single organization with a compound name, a common structure for Australian industry bodies.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"American Chamber of Commerce in Australia (AmCham) and the Insurance Council of Australia (ICA)\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct and well-known Australian organizations.\",\n    \"split_entities\": [\"American Chamber of Commerce in Australia (AmCham)\", \"the Insurance Council of Australia (ICA)\"]\n  },\n  {\n    \"entity_name\": \"Dr Alan Mendoza and Henry Jackson Society\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Dr Alan Mendoza is an individual; the Henry Jackson Society is a UK think tank with Australian connections. The context clearly indicates two separate entities.\",\n    \"split_entities\": [\"Dr Alan Mendoza\", \"Henry Jackson Society\"]\n  },\n  {\n    \"entity_name\": \"Racing and Wagering WA (RWWA)\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is the official name of a single Western Australian government-owned organization.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Castle Hill RSL District Club and RSL Sub branch\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"While both are related to RSL, the lack of further context makes it difficult to definitively say whether they are separate entities or branches of a larger organization.  More information is needed.\",\n    \"split_entities\": [\"Castle Hill RSL District Club\", \"RSL Sub branch\"]\n  },\n  {\n    \"entity_name\": \"Peter Jackson and Mr Hussaini\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Peter Jackson (presumably not the filmmaker) and Mr Hussaini are individuals, clearly separate entities.\",\n    \"split_entities\": [\"Peter Jackson\", \"Mr Hussaini\"]\n  },\n  {\n    \"entity_name\": \"National Mining and Related Industries\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Likely a single organization with a descriptive compound name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"ANZ, Commonwealth, NAB, Metway, Qld Country Bank and others\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are all separate Australian financial institutions.\",\n    \"split_entities\": [\"ANZ\", \"Commonwealth\", \"NAB\", \"Metway\", \"Qld Country Bank\", \"others\"]\n  },\n  {\n    \"entity_name\": \"NRL and NRLW Telstra Premiership\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"NRL and NRLW are separate competitions within the same governing body, but still distinct entities.\",\n    \"split_entities\": [\"NRL\", \"NRLW Telstra Premiership\"]\n  },\n  {\n    \"entity_name\": \"Thornlie Footbal and Sports Club\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A single sports club with a compound name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Ballarat and Grampians Community Legal Services Board\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Likely a single organization serving multiple regions.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Bravus Mining and Resources\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This appears to be the name of a single mining company.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Pinelli Wines, Bailey Brewing and Oakover Wines\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Three separate wineries/breweries.\",\n    \"split_entities\": [\"Pinelli Wines\", \"Bailey Brewing\", \"Oakover Wines\"]\n  },\n  {\n    \"entity_name\": \"Global Public Policy Institute and ANU National Security College\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two distinct organizations, one independent, the other part of the Australian National University.\",\n    \"split_entities\": [\"Global Public Policy Institute\", \"ANU National Security College\"]\n  },\n  {\n    \"entity_name\": \"Australia Israel and Jewish Affairs Council\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This seems to be the name of a single organization.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Westpac, Telstra and National Press Club\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three entirely separate organizations: a bank, a telco, and a media organization.\",\n    \"split_entities\": [\"Westpac\", \"Telstra\", \"National Press Club\"]\n  },\n  {\n    \"entity_name\": \"Dural and District Business Chamber of Commerce\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single business chamber with a compound name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"R Hair 4 U, O, Dough, Wooden Mill, Well Versed Homes, Dulux, Southern Cleaning Supplies, Kennards Self Storage Thornleigh, Inspirations Paint Hornsby, Uni-Pro and Bunnings Thornleigh\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are multiple distinct businesses.\",\n    \"split_entities\": [\"R Hair 4 U\", \"O\", \"Dough\", \"Wooden Mill\", \"Well Versed Homes\", \"Dulux\", \"Southern Cleaning Supplies\", \"Kennards Self Storage Thornleigh\", \"Inspirations Paint Hornsby\", \"Uni-Pro\", \"Bunnings Thornleigh\"]\n  },\n  {\n    \"entity_name\": \"Welfare Rights and Advocacy Service\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This appears to be a single organization.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Chamber of Minerals and Energy WA (CME), Minerals Council of Australia (MCA), and the Australian Petroleum Production & Exploration Association (APPEA)\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three separate industry associations.\",\n    \"split_entities\": [\"Chamber of Minerals and Energy WA (CME)\", \"Minerals Council of Australia (MCA)\", \"the Australian Petroleum Production & Exploration Association (APPEA)\"]\n  },\n  {\n    \"entity_name\": \"Hall and Prior Health and Aged Care Group\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Could be a single group, or possibly a partnership.  More information needed for high confidence.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Veolia Australia and New Zealand\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is likely the Australian and New Zealand branch of a multinational company.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"OZWAC - Australian Women's and Children Research Foundation\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is the name of a single foundation.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Konrad Adenauer Stiftung Regional Programme - Australia and the Pacific\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single program with a geographical scope.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Flinders University College of Government, Business and Law\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This refers to a single college within Flinders University.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Royal Automobile Association of SA Inc, RAA Insurance Holdings Ltd, and RAA Insurance Ltd\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are related but distinct legal entities.\",\n    \"split_entities\": [\"Royal Automobile Association of SA Inc\", \"RAA Insurance Holdings Ltd\", \"RAA Insurance Ltd\"]\n  },\n  {\n    \"entity_name\": \"Professor Cheng and delegation, from Nanjing University of Traditional Chinese Medicine\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Professor Cheng is an individual, the delegation is a group, and the University is a separate entity.\",\n    \"split_entities\": [\"Professor Cheng\", \"delegation\", \"Nanjing University of Traditional Chinese Medicine\"]\n  },\n  {\n    \"entity_name\": \"The Australian Sheep, Camelid and Goats and Vet Group\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Ambiguous. Could be a single organization or a list of related entities.  More information is needed.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Mongolian Minister for Education and Science\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single ministerial portfolio.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Community and Public Sector Union (CPSU)\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is the full name of a single union.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Taipei Economic and Cultural Office of Australia\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single diplomatic office.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Astra Subscription Television and Radio Association\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Likely a single industry association.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Southern Youth and Family Services Warilla Housing Project\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This appears to be a single organization.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"ASU Victorian and Tasmanian Authorities and Services Branch\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single branch of a larger union.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Mining and Energy Union\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single union.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Sydney Kings and Sydney Flames\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate basketball teams.\",\n    \"split_entities\": [\"Sydney Kings\", \"Sydney Flames\"]\n  },\n  {\n    \"entity_name\": \"Brisbane Broncos and Queensland Energy Minister\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A sporting team and a government official.\",\n    \"split_entities\": [\"Brisbane Broncos\", \"Queensland Energy Minister\"]\n  },\n  {\n    \"entity_name\": \"Mining and Energy Union Northern District\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single district of a larger union.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"L and J family trust\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single family trust.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Chamber of Minerals & Energy WA (MCE), Minerals Council of Australia (MCA), and the Australian Petroleum Production & Exploration Association (APPEA)\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Three distinct industry bodies.\",\n    \"split_entities\": [\"Chamber of Minerals & Energy WA (MCE)\", \"Minerals Council of Australia (MCA)\", \"the Australian Petroleum Production & Exploration Association (APPEA)\"]\n  },\n  {\n    \"entity_name\": \"Edith Cowan University School of Business and Law Advisory Board\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single advisory board.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Wyndham Track and Field\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Likely a single sports club or organization.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Indonesian Minister for Administration and Bureaucratic Reform, H. Abdullah Azwar Anas\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"The minister's title and his name are separate entities.\",\n    \"split_entities\": [\"Indonesian Minister for Administration and Bureaucratic Reform\", \"H. Abdullah Azwar Anas\"]\n  },\n  {\n    \"entity_name\": \"Office of Southeast Asia, Department of Foreign Affairs and Trade\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single government office within a department.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Office for Sport, Department of Health and Aged Care\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A single government office within a department.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Italian Chamber of Commerce and Industry\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A single organization with a compound name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Voices of Fisher and Fairfax Matters community groups\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two distinct community groups.\",\n    \"split_entities\": [\"Voices of Fisher\", \"Fairfax Matters community groups\"]\n  },\n  {\n    \"entity_name\": \"French Australia Chamber of Commerce and Industry\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A single organization.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Maitland and District Cricket Umpire' and Scorers' Association Incorporated\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is the full name of a single organization.\",\n    \"split_entities\": []\n  }\n]\n```\n"
+}

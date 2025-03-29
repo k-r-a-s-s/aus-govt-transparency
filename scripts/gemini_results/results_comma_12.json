@@ -1,0 +1,488 @@
+{
+  "batch_id": "comma_12",
+  "category": "comma",
+  "entities_count": 50,
+  "analysis_results": [
+    {
+      "entity_name": "MR MAX LIONDOS, LIONDOS TAILORS, SYDNEY",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This appears to be a single business, Liondos Tailors, with the owner's name and location specified.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "CBA, ANZ",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "CBA (Commonwealth Bank of Australia) and ANZ (Australia and New Zealand Banking Group) are two distinct major Australian banks.",
+      "split_entities": [
+        "Commonwealth Bank of Australia",
+        "Australia and New Zealand Banking Group"
+      ]
+    },
+    {
+      "entity_name": "Vladimir Yakunin, President of Russian Railways",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This refers to a single person, Vladimir Yakunin, in his role as President of Russian Railways.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Ipswich Motorway Construction Company, Origin Alliance",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "While it's possible this refers to a single entity with a complex name, it is more likely two separate entities are named.  More context is needed to be completely certain.",
+      "split_entities": [
+        "Ipswich Motorway Construction Company",
+        "Origin Alliance"
+      ]
+    },
+    {
+      "entity_name": "Ministry of Economy, United Arab Emirates",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This refers to a single entity, the Ministry of Economy within the United Arab Emirates.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Chen Yuming, Chinese Embassy in Australia",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This refers to a single person, Chen Yuming, working at the Chinese Embassy in Australia. ",
+      "split_entities": []
+    },
+    {
+      "entity_name": "InterContinental Hotel, Melbourne",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This refers to a specific InterContinental hotel location in Melbourne.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Treasury Hotel, Brisbane",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This refers to a specific hotel in Brisbane.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "InterContinental Hotel, Perth",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This refers to a specific InterContinental hotel location in Perth.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Voyages Indigenous Tourism Australia, Ayres Rock",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This likely refers to Voyages Indigenous Tourism Australia's operations at Ayres Rock (Uluru).",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Exquirant P/L, Billson Family Trust",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Exquirant P/L is a company and Billson Family Trust is a separate legal entity.",
+      "split_entities": [
+        "Exquirant P/L",
+        "Billson Family Trust"
+      ]
+    },
+    {
+      "entity_name": "Wizard, GE Money, Commonwealth Bank",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three separate financial institutions.",
+      "split_entities": [
+        "Wizard",
+        "GE Money",
+        "Commonwealth Bank of Australia"
+      ]
+    },
+    {
+      "entity_name": "Australia National Credit Union, AGEST, PSS",
+      "classification": "MULTIPLE",
+      "confidence": "LOW",
+      "explanation": "Requires more information to determine if these are separate entities or part of a larger organization.  The context doesn't offer sufficient detail.",
+      "split_entities": [
+        "Australia National Credit Union",
+        "AGEST",
+        "PSS"
+      ]
+    },
+    {
+      "entity_name": "Transport Workers Union (NSW), Emily's List, APHEDA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three distinct organizations.",
+      "split_entities": [
+        "Transport Workers Union (NSW)",
+        "Emily's List",
+        "APHEDA"
+      ]
+    },
+    {
+      "entity_name": "Mr Kaisheng YANG, President of ICBC",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single individual, Mr. Kaisheng Yang, identified by his position at ICBC.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Mr Xiongmo Huang, Chairman of Yuhu Group of companies",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This refers to a single person, Mr. Xiongmo Huang, in his role as Chairman.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Police Credit Co-op, Australian Super",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two different entities: a credit union and a superannuation fund.",
+      "split_entities": [
+        "Police Credit Co-op",
+        "Australian Super"
+      ]
+    },
+    {
+      "entity_name": "Police Credit Co-op, ESSS, Uni Super",
+      "classification": "MULTIPLE",
+      "confidence": "LOW",
+      "explanation": "Requires more information to confirm if ESSS is a separate entity or related to Police Credit Co-op or Uni Super.",
+      "split_entities": [
+        "Police Credit Co-op",
+        "ESSS",
+        "Uni Super"
+      ]
+    },
+    {
+      "entity_name": "Metropolitan Ambulance Service, Monash University",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate and distinct organizations.",
+      "split_entities": [
+        "Metropolitan Ambulance Service",
+        "Monash University"
+      ]
+    },
+    {
+      "entity_name": "MTC productions, Qantas",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "MTC productions is a theatre company, Qantas is an airline.",
+      "split_entities": [
+        "MTC productions",
+        "Qantas"
+      ]
+    },
+    {
+      "entity_name": "Australian Labor Party, Australian Services Union, Friends of the ABC, Oxfam, Amnesty International, Associate member of the RSL, Police Ass Credit Co-Op, Box Hill Hawkes, Friends of Wattle Park, Friends of MGA, Friends of the Highway Gallery",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are all separate organizations.",
+      "split_entities": [
+        "Australian Labor Party",
+        "Australian Services Union",
+        "Friends of the ABC",
+        "Oxfam",
+        "Amnesty International",
+        "Associate member of the RSL",
+        "Police Ass Credit Co-Op",
+        "Box Hill Hawkes",
+        "Friends of Wattle Park",
+        "Friends of MGA",
+        "Friends of the Highway Gallery"
+      ]
+    },
+    {
+      "entity_name": "Australian Labor Party, Friends of the ABC, Police Ass Credit Co-Op, Ambulance Employees Association, National Tertiary Education Union, Australian Sceptics",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are all separate organizations.",
+      "split_entities": [
+        "Australian Labor Party",
+        "Friends of the ABC",
+        "Police Ass Credit Co-Op",
+        "Ambulance Employees Association",
+        "National Tertiary Education Union",
+        "Australian Sceptics"
+      ]
+    },
+    {
+      "entity_name": "Oakleigh/Carneign RSL, Box Hill RSL, Box Hill Lions",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These appear to be three separate RSL (Returned & Services League) and Lions Clubs.",
+      "split_entities": [
+        "Oakleigh RSL",
+        "Carneign RSL",
+        "Box Hill RSL",
+        "Box Hill Lions"
+      ]
+    },
+    {
+      "entity_name": "Bulldogs Rugby League Club, Sydney Theatre Company",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate entities: a rugby league club and a theatre company.",
+      "split_entities": [
+        "Bulldogs Rugby League Club",
+        "Sydney Theatre Company"
+      ]
+    },
+    {
+      "entity_name": "Beechworth Honey, Corowa, NSW",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This refers to Beechworth Honey, a company located in Corowa, NSW.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Kelvin Crombie of Mundaring, Western Australia",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This refers to a single person, Kelvin Crombie, with his location specified.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "City of Swan, Western Australia",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single local government area.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Lindsay Soutar, National Co-ordinator for 100% Renewable",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This refers to a single person and their role.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Thich Quang BA, Senior Monk",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single person.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "CAPTAINS COLE, PAYNESVILLE",
+      "classification": "SINGLE",
+      "confidence": "MEDIUM",
+      "explanation": "Likely a single business, but more context is needed to confirm.  Could be a person and location.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Qantas, Boeing",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate multinational corporations.",
+      "split_entities": [
+        "Qantas",
+        "Boeing"
+      ]
+    },
+    {
+      "entity_name": "Navantia, Lockheed Martin",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate large defense contractors.",
+      "split_entities": [
+        "Navantia",
+        "Lockheed Martin"
+      ]
+    },
+    {
+      "entity_name": "Avalon Airshow, Leighton Holdings, Parliamentary Friends of Clubs",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three distinct entities.",
+      "split_entities": [
+        "Avalon Airshow",
+        "Leighton Holdings",
+        "Parliamentary Friends of Clubs"
+      ]
+    },
+    {
+      "entity_name": "Greg Baxter, Boeing, Chris Jenkins",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three distinct individuals and a corporation.",
+      "split_entities": [
+        "Greg Baxter",
+        "Boeing",
+        "Chris Jenkins"
+      ]
+    },
+    {
+      "entity_name": "Emirates Airlines, Babcock UK, Airbus Military, Navantia",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are four separate multinational corporations.",
+      "split_entities": [
+        "Emirates Airlines",
+        "Babcock UK",
+        "Airbus Military",
+        "Navantia"
+      ]
+    },
+    {
+      "entity_name": "Airbus Military, Navantia, Al Group",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three separate entities.",
+      "split_entities": [
+        "Airbus Military",
+        "Navantia",
+        "Al Group"
+      ]
+    },
+    {
+      "entity_name": "Police Services Association, Tongan Police Minister",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate entities: an association and a government official.",
+      "split_entities": [
+        "Police Services Association",
+        "Tongan Police Minister"
+      ]
+    },
+    {
+      "entity_name": "Cyprus High Commission, Varley Group, Bruck Group, Indonesian National Police Chief",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are four distinct entities.",
+      "split_entities": [
+        "Cyprus High Commission",
+        "Varley Group",
+        "Bruck Group",
+        "Indonesian National Police Chief"
+      ]
+    },
+    {
+      "entity_name": "Thales, Jordanian Government",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate entities: a corporation and a government.",
+      "split_entities": [
+        "Thales",
+        "Jordanian Government"
+      ]
+    },
+    {
+      "entity_name": "Boeing, Minter Ellison",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are a corporation and a law firm.",
+      "split_entities": [
+        "Boeing",
+        "Minter Ellison"
+      ]
+    },
+    {
+      "entity_name": "Bankstown Sports Club, NRL",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are a sports club and a sporting league.",
+      "split_entities": [
+        "Bankstown Sports Club",
+        "NRL"
+      ]
+    },
+    {
+      "entity_name": "Bankstown Sports Club, Channel 9, Interlink Roads, Bankstown RSL, Linfox, Pickles Auctions",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are all separate organizations.",
+      "split_entities": [
+        "Bankstown Sports Club",
+        "Channel 9",
+        "Interlink Roads",
+        "Bankstown RSL",
+        "Linfox",
+        "Pickles Auctions"
+      ]
+    },
+    {
+      "entity_name": "Maria Vandamme, Melba Foundation",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is likely Ms. Vandamme associated with or working for the Melba Foundation.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Education Department, WA",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This refers to the Western Australian Education Department.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "QPCU, Westpac, CBA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three distinct financial institutions.",
+      "split_entities": [
+        "QPCU",
+        "Westpac",
+        "Commonwealth Bank of Australia"
+      ]
+    },
+    {
+      "entity_name": "Westpac, CBA, QPCU",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three distinct financial institutions.",
+      "split_entities": [
+        "Westpac",
+        "Commonwealth Bank of Australia",
+        "QPCU"
+      ]
+    },
+    {
+      "entity_name": "Qantas, Virgin",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two competing Australian airlines.",
+      "split_entities": [
+        "Qantas",
+        "Virgin Australia"
+      ]
+    },
+    {
+      "entity_name": "Westpac, National Australia Bank",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two of the big four Australian banks.",
+      "split_entities": [
+        "Westpac",
+        "National Australia Bank"
+      ]
+    },
+    {
+      "entity_name": "Mercer MMF Australian Inflation Linked Bond Fund, UBS Australian Bond Fund, EQT PIMCO Global Real Return Fund, EQT PIMCO Diversified Fixed Interest Fund",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are four distinct investment funds.",
+      "split_entities": [
+        "Mercer MMF Australian Inflation Linked Bond Fund",
+        "UBS Australian Bond Fund",
+        "EQT PIMCO Global Real Return Fund",
+        "EQT PIMCO Diversified Fixed Interest Fund"
+      ]
+    },
+    {
+      "entity_name": "Perpetual Wealth Focus Investment Finds - Perpetual's Smaller Companies Fund, Wilson Investment Fund Limited.",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate investment funds.",
+      "split_entities": [
+        "Perpetual Wealth Focus Investment Finds - Perpetual's Smaller Companies Fund",
+        "Wilson Investment Fund Limited."
+      ]
+    }
+  ],
+  "raw_response": "```json\n[\n  {\n    \"entity_name\": \"MR MAX LIONDOS, LIONDOS TAILORS, SYDNEY\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This appears to be a single business, Liondos Tailors, with the owner's name and location specified.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"CBA, ANZ\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"CBA (Commonwealth Bank of Australia) and ANZ (Australia and New Zealand Banking Group) are two distinct major Australian banks.\",\n    \"split_entities\": [\"Commonwealth Bank of Australia\", \"Australia and New Zealand Banking Group\"]\n  },\n  {\n    \"entity_name\": \"Vladimir Yakunin, President of Russian Railways\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This refers to a single person, Vladimir Yakunin, in his role as President of Russian Railways.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Ipswich Motorway Construction Company, Origin Alliance\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"While it's possible this refers to a single entity with a complex name, it is more likely two separate entities are named.  More context is needed to be completely certain.\",\n    \"split_entities\": [\"Ipswich Motorway Construction Company\", \"Origin Alliance\"]\n  },\n  {\n    \"entity_name\": \"Ministry of Economy, United Arab Emirates\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This refers to a single entity, the Ministry of Economy within the United Arab Emirates.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Chen Yuming, Chinese Embassy in Australia\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This refers to a single person, Chen Yuming, working at the Chinese Embassy in Australia. \",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"InterContinental Hotel, Melbourne\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This refers to a specific InterContinental hotel location in Melbourne.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Treasury Hotel, Brisbane\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This refers to a specific hotel in Brisbane.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"InterContinental Hotel, Perth\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This refers to a specific InterContinental hotel location in Perth.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Voyages Indigenous Tourism Australia, Ayres Rock\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This likely refers to Voyages Indigenous Tourism Australia's operations at Ayres Rock (Uluru).\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Exquirant P/L, Billson Family Trust\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Exquirant P/L is a company and Billson Family Trust is a separate legal entity.\",\n    \"split_entities\": [\"Exquirant P/L\", \"Billson Family Trust\"]\n  },\n  {\n    \"entity_name\": \"Wizard, GE Money, Commonwealth Bank\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three separate financial institutions.\",\n    \"split_entities\": [\"Wizard\", \"GE Money\", \"Commonwealth Bank of Australia\"]\n  },\n  {\n    \"entity_name\": \"Australia National Credit Union, AGEST, PSS\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"LOW\",\n    \"explanation\": \"Requires more information to determine if these are separate entities or part of a larger organization.  The context doesn't offer sufficient detail.\",\n    \"split_entities\": [\"Australia National Credit Union\", \"AGEST\", \"PSS\"]\n  },\n  {\n    \"entity_name\": \"Transport Workers Union (NSW), Emily's List, APHEDA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three distinct organizations.\",\n    \"split_entities\": [\"Transport Workers Union (NSW)\", \"Emily's List\", \"APHEDA\"]\n  },\n  {\n    \"entity_name\": \"Mr Kaisheng YANG, President of ICBC\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single individual, Mr. Kaisheng Yang, identified by his position at ICBC.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Mr Xiongmo Huang, Chairman of Yuhu Group of companies\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This refers to a single person, Mr. Xiongmo Huang, in his role as Chairman.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Police Credit Co-op, Australian Super\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two different entities: a credit union and a superannuation fund.\",\n    \"split_entities\": [\"Police Credit Co-op\", \"Australian Super\"]\n  },\n  {\n    \"entity_name\": \"Police Credit Co-op, ESSS, Uni Super\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"LOW\",\n    \"explanation\": \"Requires more information to confirm if ESSS is a separate entity or related to Police Credit Co-op or Uni Super.\",\n    \"split_entities\": [\"Police Credit Co-op\", \"ESSS\", \"Uni Super\"]\n  },\n  {\n    \"entity_name\": \"Metropolitan Ambulance Service, Monash University\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate and distinct organizations.\",\n    \"split_entities\": [\"Metropolitan Ambulance Service\", \"Monash University\"]\n  },\n  {\n    \"entity_name\": \"MTC productions, Qantas\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"MTC productions is a theatre company, Qantas is an airline.\",\n    \"split_entities\": [\"MTC productions\", \"Qantas\"]\n  },\n  {\n    \"entity_name\": \"Australian Labor Party, Australian Services Union, Friends of the ABC, Oxfam, Amnesty International, Associate member of the RSL, Police Ass Credit Co-Op, Box Hill Hawkes, Friends of Wattle Park, Friends of MGA, Friends of the Highway Gallery\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are all separate organizations.\",\n    \"split_entities\": [\"Australian Labor Party\", \"Australian Services Union\", \"Friends of the ABC\", \"Oxfam\", \"Amnesty International\", \"Associate member of the RSL\", \"Police Ass Credit Co-Op\", \"Box Hill Hawkes\", \"Friends of Wattle Park\", \"Friends of MGA\", \"Friends of the Highway Gallery\"]\n  },\n  {\n    \"entity_name\": \"Australian Labor Party, Friends of the ABC, Police Ass Credit Co-Op, Ambulance Employees Association, National Tertiary Education Union, Australian Sceptics\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are all separate organizations.\",\n    \"split_entities\": [\"Australian Labor Party\", \"Friends of the ABC\", \"Police Ass Credit Co-Op\", \"Ambulance Employees Association\", \"National Tertiary Education Union\", \"Australian Sceptics\"]\n  },\n  {\n    \"entity_name\": \"Oakleigh/Carneign RSL, Box Hill RSL, Box Hill Lions\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These appear to be three separate RSL (Returned & Services League) and Lions Clubs.\",\n    \"split_entities\": [\"Oakleigh RSL\", \"Carneign RSL\", \"Box Hill RSL\", \"Box Hill Lions\"]\n  },\n  {\n    \"entity_name\": \"Bulldogs Rugby League Club, Sydney Theatre Company\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate entities: a rugby league club and a theatre company.\",\n    \"split_entities\": [\"Bulldogs Rugby League Club\", \"Sydney Theatre Company\"]\n  },\n  {\n    \"entity_name\": \"Beechworth Honey, Corowa, NSW\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This refers to Beechworth Honey, a company located in Corowa, NSW.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Kelvin Crombie of Mundaring, Western Australia\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This refers to a single person, Kelvin Crombie, with his location specified.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"City of Swan, Western Australia\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single local government area.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Lindsay Soutar, National Co-ordinator for 100% Renewable\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This refers to a single person and their role.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Thich Quang BA, Senior Monk\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single person.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"CAPTAINS COLE, PAYNESVILLE\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Likely a single business, but more context is needed to confirm.  Could be a person and location.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Qantas, Boeing\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate multinational corporations.\",\n    \"split_entities\": [\"Qantas\", \"Boeing\"]\n  },\n  {\n    \"entity_name\": \"Navantia, Lockheed Martin\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate large defense contractors.\",\n    \"split_entities\": [\"Navantia\", \"Lockheed Martin\"]\n  },\n  {\n    \"entity_name\": \"Avalon Airshow, Leighton Holdings, Parliamentary Friends of Clubs\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three distinct entities.\",\n    \"split_entities\": [\"Avalon Airshow\", \"Leighton Holdings\", \"Parliamentary Friends of Clubs\"]\n  },\n  {\n    \"entity_name\": \"Greg Baxter, Boeing, Chris Jenkins\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three distinct individuals and a corporation.\",\n    \"split_entities\": [\"Greg Baxter\", \"Boeing\", \"Chris Jenkins\"]\n  },\n  {\n    \"entity_name\": \"Emirates Airlines, Babcock UK, Airbus Military, Navantia\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are four separate multinational corporations.\",\n    \"split_entities\": [\"Emirates Airlines\", \"Babcock UK\", \"Airbus Military\", \"Navantia\"]\n  },\n  {\n    \"entity_name\": \"Airbus Military, Navantia, Al Group\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three separate entities.\",\n    \"split_entities\": [\"Airbus Military\", \"Navantia\", \"Al Group\"]\n  },\n  {\n    \"entity_name\": \"Police Services Association, Tongan Police Minister\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate entities: an association and a government official.\",\n    \"split_entities\": [\"Police Services Association\", \"Tongan Police Minister\"]\n  },\n  {\n    \"entity_name\": \"Cyprus High Commission, Varley Group, Bruck Group, Indonesian National Police Chief\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are four distinct entities.\",\n    \"split_entities\": [\"Cyprus High Commission\", \"Varley Group\", \"Bruck Group\", \"Indonesian National Police Chief\"]\n  },\n  {\n    \"entity_name\": \"Thales, Jordanian Government\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate entities: a corporation and a government.\",\n    \"split_entities\": [\"Thales\", \"Jordanian Government\"]\n  },\n  {\n    \"entity_name\": \"Boeing, Minter Ellison\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are a corporation and a law firm.\",\n    \"split_entities\": [\"Boeing\", \"Minter Ellison\"]\n  },\n  {\n    \"entity_name\": \"Bankstown Sports Club, NRL\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are a sports club and a sporting league.\",\n    \"split_entities\": [\"Bankstown Sports Club\", \"NRL\"]\n  },\n  {\n    \"entity_name\": \"Bankstown Sports Club, Channel 9, Interlink Roads, Bankstown RSL, Linfox, Pickles Auctions\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are all separate organizations.\",\n    \"split_entities\": [\"Bankstown Sports Club\", \"Channel 9\", \"Interlink Roads\", \"Bankstown RSL\", \"Linfox\", \"Pickles Auctions\"]\n  },\n  {\n    \"entity_name\": \"Maria Vandamme, Melba Foundation\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is likely Ms. Vandamme associated with or working for the Melba Foundation.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Education Department, WA\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This refers to the Western Australian Education Department.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"QPCU, Westpac, CBA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three distinct financial institutions.\",\n    \"split_entities\": [\"QPCU\", \"Westpac\", \"Commonwealth Bank of Australia\"]\n  },\n  {\n    \"entity_name\": \"Westpac, CBA, QPCU\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three distinct financial institutions.\",\n    \"split_entities\": [\"Westpac\", \"Commonwealth Bank of Australia\", \"QPCU\"]\n  },\n  {\n    \"entity_name\": \"Qantas, Virgin\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two competing Australian airlines.\",\n    \"split_entities\": [\"Qantas\", \"Virgin Australia\"]\n  },\n  {\n    \"entity_name\": \"Westpac, National Australia Bank\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two of the big four Australian banks.\",\n    \"split_entities\": [\"Westpac\", \"National Australia Bank\"]\n  },\n  {\n    \"entity_name\": \"Mercer MMF Australian Inflation Linked Bond Fund, UBS Australian Bond Fund, EQT PIMCO Global Real Return Fund, EQT PIMCO Diversified Fixed Interest Fund\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are four distinct investment funds.\",\n    \"split_entities\": [\"Mercer MMF Australian Inflation Linked Bond Fund\", \"UBS Australian Bond Fund\", \"EQT PIMCO Global Real Return Fund\", \"EQT PIMCO Diversified Fixed Interest Fund\"]\n  },\n  {\n    \"entity_name\": \"Perpetual Wealth Focus Investment Finds - Perpetual's Smaller Companies Fund, Wilson Investment Fund Limited.\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate investment funds.\",\n    \"split_entities\": [\"Perpetual Wealth Focus Investment Finds - Perpetual's Smaller Companies Fund\", \"Wilson Investment Fund Limited.\"]\n  }\n]\n```\n"
+}

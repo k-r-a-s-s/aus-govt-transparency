@@ -399,4 +399,113 @@ The ErrorResponse model represents an error response from the API.
 ## Next Steps
 
 - [Frontend Components](../frontend/components.md)
-- [Frontend Services](../frontend/services.md) 
+- [Frontend Services](../frontend/services.md)
+
+## Disclosure Schema
+
+The Disclosure schema represents an individual interest disclosure entry.
+
+```typescript
+interface Disclosure {
+  id: string;
+  mp_name: string;
+  party: string;
+  electorate: string;
+  political_bloc: string;
+  category: string;
+  sub_category: string;
+  item: string;
+  entity: string;
+  canonical_entity: string; // Standard form of the entity name
+  declaration_date: string;
+  details: string;
+  pdf_source: string;
+}
+```
+
+| Field | Type | Description |
+|-------|------|-------------|
+| id | string | Unique identifier for the disclosure entry |
+| mp_name | string | Name of the MP who made the disclosure |
+| party | string | Political party of the MP |
+| electorate | string | Electorate represented by the MP |
+| political_bloc | string | Political bloc (e.g., "Labor", "Coalition", "Independent") |
+| category | string | Primary category of the disclosure (e.g., "Asset", "Liability") |
+| sub_category | string | Sub-category of the disclosure (e.g., "Real Estate", "Mortgage") |
+| item | string | Specific item disclosed |
+| entity | string | Entity related to the disclosure, if any |
+| canonical_entity | string | Standardized form of the entity name, used to group variants |
+| declaration_date | string | Date when the disclosure was made (YYYY-MM-DD) |
+| details | string | Additional details about the disclosure |
+| pdf_source | string | Name of the PDF file from which the disclosure was extracted |
+
+## Entity Details Schema
+
+The Entity Details schema represents detailed information about an entity and its connections.
+
+```typescript
+interface EntityDetails {
+  entity: string;
+  count: number;
+  variants: string[]; // Only populated when using canonical entities
+  connected_mps: {
+    mp_name: string;
+    party: string;
+    electorate: string;
+    political_bloc: string;
+  }[];
+}
+```
+
+| Field | Type | Description |
+|-------|------|-------------|
+| entity | string | Name of the entity |
+| count | number | Number of disclosures mentioning this entity |
+| variants | string[] | List of variant names that map to this canonical entity (only when canonical=true) |
+| connected_mps | array | Array of MPs connected to this entity |
+| connected_mps[].mp_name | string | Name of the connected MP |
+| connected_mps[].party | string | Party of the connected MP |
+| connected_mps[].electorate | string | Electorate of the connected MP |
+| connected_mps[].political_bloc | string | Political bloc of the connected MP |
+
+## Network Data Schema
+
+The Network Data schema represents the nodes and links for the entity network visualization.
+
+```typescript
+interface NetworkData {
+  nodes: NetworkNode[];
+  links: NetworkLink[];
+}
+
+interface NetworkNode {
+  id: string;
+  name: string;
+  type: 'mp' | 'entity';
+  party?: string; // Only for MP nodes
+  size?: number;
+  political_bloc?: string; // Only for MP nodes
+}
+
+interface NetworkLink {
+  source: string;
+  target: string;
+  weight: number;
+}
+```
+
+| Field | Type | Description |
+|-------|------|-------------|
+| nodes | array | Array of nodes in the network |
+| nodes[].id | string | Unique identifier for the node |
+| nodes[].name | string | Display name for the node |
+| nodes[].type | string | Type of node ("mp" or "entity") |
+| nodes[].party | string | Political party (for MP nodes only) |
+| nodes[].political_bloc | string | Political bloc (for MP nodes only) |
+| nodes[].size | number | Relative size of the node (based on connections) |
+| links | array | Array of links between nodes |
+| links[].source | string | ID of the source node |
+| links[].target | string | ID of the target node |
+| links[].weight | number | Weight/strength of the connection |
+
+When the `canonical=true` parameter is used, entity nodes will represent canonical entities rather than original entity names. 

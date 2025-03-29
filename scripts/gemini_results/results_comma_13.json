@@ -1,0 +1,533 @@
+{
+  "batch_id": "comma_13",
+  "category": "comma",
+  "entities_count": 50,
+  "analysis_results": [
+    {
+      "entity_name": "Mr Arne Duncan, US Secretary of Education",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This is clearly two separate entities: a person and a position within a government.",
+      "split_entities": [
+        "Mr Arne Duncan",
+        "US Secretary of Education"
+      ]
+    },
+    {
+      "entity_name": "Sustainable World Technologies, Adelaide, South Australia",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This lists a company and its location (city and state).",
+      "split_entities": [
+        "Sustainable World Technologies",
+        "Adelaide",
+        "South Australia"
+      ]
+    },
+    {
+      "entity_name": "Libby Lyons, CiticPacific Mining",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This is a person and a company.",
+      "split_entities": [
+        "Libby Lyons",
+        "CiticPacific Mining"
+      ]
+    },
+    {
+      "entity_name": "Tim Woodall, Miro Advisors",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This is a person and a company.",
+      "split_entities": [
+        "Tim Woodall",
+        "Miro Advisors"
+      ]
+    },
+    {
+      "entity_name": "Kensington, WA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This is a suburb and a state abbreviation.",
+      "split_entities": [
+        "Kensington",
+        "WA"
+      ]
+    },
+    {
+      "entity_name": "Maylands, WA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This is a suburb and a state abbreviation.",
+      "split_entities": [
+        "Maylands",
+        "WA"
+      ]
+    },
+    {
+      "entity_name": "North Perth, WA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This is a suburb and a state abbreviation.",
+      "split_entities": [
+        "North Perth",
+        "WA"
+      ]
+    },
+    {
+      "entity_name": "Woodlands, WA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This is a suburb and a state abbreviation.",
+      "split_entities": [
+        "Woodlands",
+        "WA"
+      ]
+    },
+    {
+      "entity_name": "Inglewood, WA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This is a suburb and a state abbreviation.",
+      "split_entities": [
+        "Inglewood",
+        "WA"
+      ]
+    },
+    {
+      "entity_name": "Kalgoorlie, WA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This is a city and a state abbreviation.",
+      "split_entities": [
+        "Kalgoorlie",
+        "WA"
+      ]
+    },
+    {
+      "entity_name": "Pollard Street, Geraldton WA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This is a street and a city and state.",
+      "split_entities": [
+        "Pollard Street",
+        "Geraldton",
+        "WA"
+      ]
+    },
+    {
+      "entity_name": "Pollard St, Geraldton WA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This is a street and a city and state.",
+      "split_entities": [
+        "Pollard St",
+        "Geraldton",
+        "WA"
+      ]
+    },
+    {
+      "entity_name": "Martha St, Guildford WA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This is a street and a city and state.",
+      "split_entities": [
+        "Martha St",
+        "Guildford",
+        "WA"
+      ]
+    },
+    {
+      "entity_name": "Victoria Park, WA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This is a suburb and a state abbreviation.",
+      "split_entities": [
+        "Victoria Park",
+        "WA"
+      ]
+    },
+    {
+      "entity_name": "Forrest, Canberra",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This is a suburb and a city.",
+      "split_entities": [
+        "Forrest",
+        "Canberra"
+      ]
+    },
+    {
+      "entity_name": "V8 Supercars, Bathurst",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This is a racing series and a city.",
+      "split_entities": [
+        "V8 Supercars",
+        "Bathurst"
+      ]
+    },
+    {
+      "entity_name": "ROTARY, LIONS, CLEAN OCEAN FOUNDATION",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three separate organizations.",
+      "split_entities": [
+        "ROTARY",
+        "LIONS",
+        "CLEAN OCEAN FOUNDATION"
+      ]
+    },
+    {
+      "entity_name": "RESERVAR LIBRARS CENTRE, CITY OF DARBIN",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "Assuming 'RESERVAR LIBRARS CENTRE' is a single entity, though the spelling suggests a typo.  'CITY OF DARBIN' is likely a local government area.",
+      "split_entities": [
+        "RESERVAR LIBRARS CENTRE",
+        "CITY OF DARBIN"
+      ]
+    },
+    {
+      "entity_name": "Wang Jin-pyng, President of the Legislative Yuan, Taiwan.",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This is a person, their title, and their country/region.",
+      "split_entities": [
+        "Wang Jin-pyng",
+        "President of the Legislative Yuan",
+        "Taiwan"
+      ]
+    },
+    {
+      "entity_name": "ANZ, Commonwealth, Westpac",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three separate Australian banks.",
+      "split_entities": [
+        "ANZ",
+        "Commonwealth Bank",
+        "Westpac"
+      ]
+    },
+    {
+      "entity_name": "Executive Director of Climate Change Research Strategy for Primary Industries, Michael Robinson.",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This is a job title and a person's name.",
+      "split_entities": [
+        "Executive Director of Climate Change Research Strategy for Primary Industries",
+        "Michael Robinson"
+      ]
+    },
+    {
+      "entity_name": "Bentong, Redgum Club-games",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "Requires more information to confirm if 'Bentong' is a location or organization, and if 'Redgum Club-games' is a singular entity or multiple.  Context suggests multiple entities.",
+      "split_entities": [
+        "Bentong",
+        "Redgum Club-games"
+      ]
+    },
+    {
+      "entity_name": "Telstra CEO, David Thodey",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This is a job title and a person's name.",
+      "split_entities": [
+        "Telstra CEO",
+        "David Thodey"
+      ]
+    },
+    {
+      "entity_name": "NATIONAL AUSTRALIA BANK, AMERICAN EXPRESS",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate financial institutions.",
+      "split_entities": [
+        "NATIONAL AUSTRALIA BANK",
+        "AMERICAN EXPRESS"
+      ]
+    },
+    {
+      "entity_name": "COLONIAL FIRST STATE, AMP LIFE LTD",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate financial institutions.",
+      "split_entities": [
+        "COLONIAL FIRST STATE",
+        "AMP LIFE LTD"
+      ]
+    },
+    {
+      "entity_name": "ANTHONY MUNDINE, NRL",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This is a person and the National Rugby League.",
+      "split_entities": [
+        "ANTHONY MUNDINE",
+        "NRL"
+      ]
+    },
+    {
+      "entity_name": "AUSTRALIAN LABOR PARTY, NSW BAR ASSOCIATION, ST. GEORGE DISTANCE RUGBY LEAGUE FOOTBALL CLUB LTD, INDEPENDANT EDUCATION UNION",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are four separate organizations.",
+      "split_entities": [
+        "AUSTRALIAN LABOR PARTY",
+        "NSW BAR ASSOCIATION",
+        "ST. GEORGE DISTANCE RUGBY LEAGUE FOOTBALL CLUB LTD",
+        "INDEPENDANT EDUCATION UNION"
+      ]
+    },
+    {
+      "entity_name": "St George District Rugby League Football Club Limited, St George Leagues Club Limited.",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate organizations, likely related but distinct.",
+      "split_entities": [
+        "St George District Rugby League Football Club Limited",
+        "St George Leagues Club Limited"
+      ]
+    },
+    {
+      "entity_name": "The St George Leagues Club Limited, The St George District Rugby League Limited.",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate organizations, likely related but distinct.",
+      "split_entities": [
+        "The St George Leagues Club Limited",
+        "The St George District Rugby League Limited"
+      ]
+    },
+    {
+      "entity_name": "CTH, WESTPAC",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "Assuming CTH is an abbreviation for a known Australian entity (Commonwealth Treasury Holdings etc). Requires more context for HIGH confidence.",
+      "split_entities": [
+        "CTH",
+        "WESTPAC"
+      ]
+    },
+    {
+      "entity_name": "AMP, MLC, CommSuper",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three separate Australian financial institutions related to superannuation.",
+      "split_entities": [
+        "AMP",
+        "MLC",
+        "CommSuper"
+      ]
+    },
+    {
+      "entity_name": "Millennium Forum, Liberal Party of Australia, NSW Division",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three separate entities: a forum, a political party, and its state division.",
+      "split_entities": [
+        "Millennium Forum",
+        "Liberal Party of Australia",
+        "NSW Division"
+      ]
+    },
+    {
+      "entity_name": "Royal Motor Yacht Club, Woolooware",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This is a yacht club and its location.",
+      "split_entities": [
+        "Royal Motor Yacht Club",
+        "Woolooware"
+      ]
+    },
+    {
+      "entity_name": "South Metropolitan Regional Scout Council, NSW",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This is a scout council and its state.",
+      "split_entities": [
+        "South Metropolitan Regional Scout Council",
+        "NSW"
+      ]
+    },
+    {
+      "entity_name": "Suncorp, Wide Bay Australia, Westpac Bundaberg, Qantas Staff Credit Union",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are four separate financial institutions.",
+      "split_entities": [
+        "Suncorp",
+        "Wide Bay Australia",
+        "Westpac Bundaberg",
+        "Qantas Staff Credit Union"
+      ]
+    },
+    {
+      "entity_name": "John Patrick Motors, Port Macquarie",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This is a car dealership and its location.",
+      "split_entities": [
+        "John Patrick Motors",
+        "Port Macquarie"
+      ]
+    },
+    {
+      "entity_name": "Stanley, Alcomie",
+      "classification": "MULTIPLE",
+      "confidence": "LOW",
+      "explanation": "Requires more information to confirm if these are locations or organizations.  Context suggests multiple entities but more info is needed.",
+      "split_entities": [
+        "Stanley",
+        "Alcomie"
+      ]
+    },
+    {
+      "entity_name": "ANZ, Citibank",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate banks.",
+      "split_entities": [
+        "ANZ",
+        "Citibank"
+      ]
+    },
+    {
+      "entity_name": "Westpac, UNFCU, CUTH",
+      "classification": "MULTIPLE",
+      "confidence": "LOW",
+      "explanation": "Requires more context to understand UNFCU and CUTH.  Assuming they are separate entities.",
+      "split_entities": [
+        "Westpac",
+        "UNFCU",
+        "CUTH"
+      ]
+    },
+    {
+      "entity_name": "AGRICULTURAL LAND, BUCKLEBOO",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "Assuming Buckleboo is a location. Needs more information to classify with high confidence.",
+      "split_entities": [
+        "AGRICULTURAL LAND",
+        "BUCKLEBOO"
+      ]
+    },
+    {
+      "entity_name": "HOUSE, PT NEILL SA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This describes a property type and location (PT Neill, South Australia).",
+      "split_entities": [
+        "HOUSE",
+        "PT NEILL",
+        "SA"
+      ]
+    },
+    {
+      "entity_name": "STRATA UNIT, MAULANDS SA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This describes a property type and location (Maulands, South Australia).",
+      "split_entities": [
+        "STRATA UNIT",
+        "MAULANDS",
+        "SA"
+      ]
+    },
+    {
+      "entity_name": "HOUSE, JAMESTOWN SA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This describes a property type and location (Jamestown, South Australia).",
+      "split_entities": [
+        "HOUSE",
+        "JAMESTOWN",
+        "SA"
+      ]
+    },
+    {
+      "entity_name": "Peppers Pier Resort, Park Hyatt",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate hotel brands.",
+      "split_entities": [
+        "Peppers Pier Resort",
+        "Park Hyatt"
+      ]
+    },
+    {
+      "entity_name": "Intercontinental Hotel, Sydney",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This is a hotel and its city.",
+      "split_entities": [
+        "Intercontinental Hotel",
+        "Sydney"
+      ]
+    },
+    {
+      "entity_name": "Madinat Jumeirah Hotel, Dubai, Intercontinental Hotel Sydney",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two hotels and a city.",
+      "split_entities": [
+        "Madinat Jumeirah Hotel",
+        "Dubai",
+        "Intercontinental Hotel Sydney"
+      ]
+    },
+    {
+      "entity_name": "The Lenna of Hobart hotel, Hobart, Park Hyatt Melbourne",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two hotels and two cities.",
+      "split_entities": [
+        "The Lenna of Hobart hotel",
+        "Hobart",
+        "Park Hyatt Melbourne"
+      ]
+    },
+    {
+      "entity_name": "Intercontinental Hotel, Park Hyatt Hotel, Stamford Hotel, Shangri-La Hotel",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are four separate hotel brands.",
+      "split_entities": [
+        "Intercontinental Hotel",
+        "Park Hyatt Hotel",
+        "Stamford Hotel",
+        "Shangri-La Hotel"
+      ]
+    },
+    {
+      "entity_name": "Park Hyatt Hotel, Melbourne",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This is a hotel and its city.",
+      "split_entities": [
+        "Park Hyatt Hotel",
+        "Melbourne"
+      ]
+    },
+    {
+      "entity_name": "Park Hyatt Hotel, Melbourne; Intercontinental Hotel, Sydney; Emirates; Qantas",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two hotels, two cities, and two airline brands.",
+      "split_entities": [
+        "Park Hyatt Hotel",
+        "Melbourne",
+        "Intercontinental Hotel",
+        "Sydney",
+        "Emirates",
+        "Qantas"
+      ]
+    }
+  ],
+  "raw_response": "```json\n[\n  {\n    \"entity_name\": \"Mr Arne Duncan, US Secretary of Education\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is clearly two separate entities: a person and a position within a government.\",\n    \"split_entities\": [\"Mr Arne Duncan\", \"US Secretary of Education\"]\n  },\n  {\n    \"entity_name\": \"Sustainable World Technologies, Adelaide, South Australia\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This lists a company and its location (city and state).\",\n    \"split_entities\": [\"Sustainable World Technologies\", \"Adelaide\", \"South Australia\"]\n  },\n  {\n    \"entity_name\": \"Libby Lyons, CiticPacific Mining\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a person and a company.\",\n    \"split_entities\": [\"Libby Lyons\", \"CiticPacific Mining\"]\n  },\n  {\n    \"entity_name\": \"Tim Woodall, Miro Advisors\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a person and a company.\",\n    \"split_entities\": [\"Tim Woodall\", \"Miro Advisors\"]\n  },\n  {\n    \"entity_name\": \"Kensington, WA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a suburb and a state abbreviation.\",\n    \"split_entities\": [\"Kensington\", \"WA\"]\n  },\n  {\n    \"entity_name\": \"Maylands, WA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a suburb and a state abbreviation.\",\n    \"split_entities\": [\"Maylands\", \"WA\"]\n  },\n  {\n    \"entity_name\": \"North Perth, WA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a suburb and a state abbreviation.\",\n    \"split_entities\": [\"North Perth\", \"WA\"]\n  },\n  {\n    \"entity_name\": \"Woodlands, WA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a suburb and a state abbreviation.\",\n    \"split_entities\": [\"Woodlands\", \"WA\"]\n  },\n  {\n    \"entity_name\": \"Inglewood, WA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a suburb and a state abbreviation.\",\n    \"split_entities\": [\"Inglewood\", \"WA\"]\n  },\n  {\n    \"entity_name\": \"Kalgoorlie, WA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a city and a state abbreviation.\",\n    \"split_entities\": [\"Kalgoorlie\", \"WA\"]\n  },\n  {\n    \"entity_name\": \"Pollard Street, Geraldton WA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a street and a city and state.\",\n    \"split_entities\": [\"Pollard Street\", \"Geraldton\", \"WA\"]\n  },\n  {\n    \"entity_name\": \"Pollard St, Geraldton WA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a street and a city and state.\",\n    \"split_entities\": [\"Pollard St\", \"Geraldton\", \"WA\"]\n  },\n  {\n    \"entity_name\": \"Martha St, Guildford WA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a street and a city and state.\",\n    \"split_entities\": [\"Martha St\", \"Guildford\", \"WA\"]\n  },\n  {\n    \"entity_name\": \"Victoria Park, WA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a suburb and a state abbreviation.\",\n    \"split_entities\": [\"Victoria Park\", \"WA\"]\n  },\n  {\n    \"entity_name\": \"Forrest, Canberra\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a suburb and a city.\",\n    \"split_entities\": [\"Forrest\", \"Canberra\"]\n  },\n  {\n    \"entity_name\": \"V8 Supercars, Bathurst\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a racing series and a city.\",\n    \"split_entities\": [\"V8 Supercars\", \"Bathurst\"]\n  },\n  {\n    \"entity_name\": \"ROTARY, LIONS, CLEAN OCEAN FOUNDATION\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three separate organizations.\",\n    \"split_entities\": [\"ROTARY\", \"LIONS\", \"CLEAN OCEAN FOUNDATION\"]\n  },\n  {\n    \"entity_name\": \"RESERVAR LIBRARS CENTRE, CITY OF DARBIN\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Assuming 'RESERVAR LIBRARS CENTRE' is a single entity, though the spelling suggests a typo.  'CITY OF DARBIN' is likely a local government area.\",\n    \"split_entities\": [\"RESERVAR LIBRARS CENTRE\", \"CITY OF DARBIN\"]\n  },\n  {\n    \"entity_name\": \"Wang Jin-pyng, President of the Legislative Yuan, Taiwan.\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a person, their title, and their country/region.\",\n    \"split_entities\": [\"Wang Jin-pyng\", \"President of the Legislative Yuan\", \"Taiwan\"]\n  },\n  {\n    \"entity_name\": \"ANZ, Commonwealth, Westpac\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three separate Australian banks.\",\n    \"split_entities\": [\"ANZ\", \"Commonwealth Bank\", \"Westpac\"]\n  },\n  {\n    \"entity_name\": \"Executive Director of Climate Change Research Strategy for Primary Industries, Michael Robinson.\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a job title and a person's name.\",\n    \"split_entities\": [\"Executive Director of Climate Change Research Strategy for Primary Industries\", \"Michael Robinson\"]\n  },\n  {\n    \"entity_name\": \"Bentong, Redgum Club-games\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Requires more information to confirm if 'Bentong' is a location or organization, and if 'Redgum Club-games' is a singular entity or multiple.  Context suggests multiple entities.\",\n    \"split_entities\": [\"Bentong\", \"Redgum Club-games\"]\n  },\n  {\n    \"entity_name\": \"Telstra CEO, David Thodey\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a job title and a person's name.\",\n    \"split_entities\": [\"Telstra CEO\", \"David Thodey\"]\n  },\n  {\n    \"entity_name\": \"NATIONAL AUSTRALIA BANK, AMERICAN EXPRESS\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate financial institutions.\",\n    \"split_entities\": [\"NATIONAL AUSTRALIA BANK\", \"AMERICAN EXPRESS\"]\n  },\n  {\n    \"entity_name\": \"COLONIAL FIRST STATE, AMP LIFE LTD\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate financial institutions.\",\n    \"split_entities\": [\"COLONIAL FIRST STATE\", \"AMP LIFE LTD\"]\n  },\n  {\n    \"entity_name\": \"ANTHONY MUNDINE, NRL\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a person and the National Rugby League.\",\n    \"split_entities\": [\"ANTHONY MUNDINE\", \"NRL\"]\n  },\n  {\n    \"entity_name\": \"AUSTRALIAN LABOR PARTY, NSW BAR ASSOCIATION, ST. GEORGE DISTANCE RUGBY LEAGUE FOOTBALL CLUB LTD, INDEPENDANT EDUCATION UNION\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are four separate organizations.\",\n    \"split_entities\": [\"AUSTRALIAN LABOR PARTY\", \"NSW BAR ASSOCIATION\", \"ST. GEORGE DISTANCE RUGBY LEAGUE FOOTBALL CLUB LTD\", \"INDEPENDANT EDUCATION UNION\"]\n  },\n  {\n    \"entity_name\": \"St George District Rugby League Football Club Limited, St George Leagues Club Limited.\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate organizations, likely related but distinct.\",\n    \"split_entities\": [\"St George District Rugby League Football Club Limited\", \"St George Leagues Club Limited\"]\n  },\n  {\n    \"entity_name\": \"The St George Leagues Club Limited, The St George District Rugby League Limited.\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate organizations, likely related but distinct.\",\n    \"split_entities\": [\"The St George Leagues Club Limited\", \"The St George District Rugby League Limited\"]\n  },\n  {\n    \"entity_name\": \"CTH, WESTPAC\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Assuming CTH is an abbreviation for a known Australian entity (Commonwealth Treasury Holdings etc). Requires more context for HIGH confidence.\",\n    \"split_entities\": [\"CTH\", \"WESTPAC\"]\n  },\n  {\n    \"entity_name\": \"AMP, MLC, CommSuper\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three separate Australian financial institutions related to superannuation.\",\n    \"split_entities\": [\"AMP\", \"MLC\", \"CommSuper\"]\n  },\n  {\n    \"entity_name\": \"Millennium Forum, Liberal Party of Australia, NSW Division\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three separate entities: a forum, a political party, and its state division.\",\n    \"split_entities\": [\"Millennium Forum\", \"Liberal Party of Australia\", \"NSW Division\"]\n  },\n  {\n    \"entity_name\": \"Royal Motor Yacht Club, Woolooware\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a yacht club and its location.\",\n    \"split_entities\": [\"Royal Motor Yacht Club\", \"Woolooware\"]\n  },\n  {\n    \"entity_name\": \"South Metropolitan Regional Scout Council, NSW\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a scout council and its state.\",\n    \"split_entities\": [\"South Metropolitan Regional Scout Council\", \"NSW\"]\n  },\n  {\n    \"entity_name\": \"Suncorp, Wide Bay Australia, Westpac Bundaberg, Qantas Staff Credit Union\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are four separate financial institutions.\",\n    \"split_entities\": [\"Suncorp\", \"Wide Bay Australia\", \"Westpac Bundaberg\", \"Qantas Staff Credit Union\"]\n  },\n  {\n    \"entity_name\": \"John Patrick Motors, Port Macquarie\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a car dealership and its location.\",\n    \"split_entities\": [\"John Patrick Motors\", \"Port Macquarie\"]\n  },\n  {\n    \"entity_name\": \"Stanley, Alcomie\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"LOW\",\n    \"explanation\": \"Requires more information to confirm if these are locations or organizations.  Context suggests multiple entities but more info is needed.\",\n    \"split_entities\": [\"Stanley\", \"Alcomie\"]\n  },\n  {\n    \"entity_name\": \"ANZ, Citibank\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate banks.\",\n    \"split_entities\": [\"ANZ\", \"Citibank\"]\n  },\n  {\n    \"entity_name\": \"Westpac, UNFCU, CUTH\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"LOW\",\n    \"explanation\": \"Requires more context to understand UNFCU and CUTH.  Assuming they are separate entities.\",\n    \"split_entities\": [\"Westpac\", \"UNFCU\", \"CUTH\"]\n  },\n  {\n    \"entity_name\": \"AGRICULTURAL LAND, BUCKLEBOO\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Assuming Buckleboo is a location. Needs more information to classify with high confidence.\",\n    \"split_entities\": [\"AGRICULTURAL LAND\", \"BUCKLEBOO\"]\n  },\n  {\n    \"entity_name\": \"HOUSE, PT NEILL SA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This describes a property type and location (PT Neill, South Australia).\",\n    \"split_entities\": [\"HOUSE\", \"PT NEILL\", \"SA\"]\n  },\n  {\n    \"entity_name\": \"STRATA UNIT, MAULANDS SA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This describes a property type and location (Maulands, South Australia).\",\n    \"split_entities\": [\"STRATA UNIT\", \"MAULANDS\", \"SA\"]\n  },\n  {\n    \"entity_name\": \"HOUSE, JAMESTOWN SA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This describes a property type and location (Jamestown, South Australia).\",\n    \"split_entities\": [\"HOUSE\", \"JAMESTOWN\", \"SA\"]\n  },\n  {\n    \"entity_name\": \"Peppers Pier Resort, Park Hyatt\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate hotel brands.\",\n    \"split_entities\": [\"Peppers Pier Resort\", \"Park Hyatt\"]\n  },\n  {\n    \"entity_name\": \"Intercontinental Hotel, Sydney\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a hotel and its city.\",\n    \"split_entities\": [\"Intercontinental Hotel\", \"Sydney\"]\n  },\n  {\n    \"entity_name\": \"Madinat Jumeirah Hotel, Dubai, Intercontinental Hotel Sydney\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two hotels and a city.\",\n    \"split_entities\": [\"Madinat Jumeirah Hotel\", \"Dubai\", \"Intercontinental Hotel Sydney\"]\n  },\n  {\n    \"entity_name\": \"The Lenna of Hobart hotel, Hobart, Park Hyatt Melbourne\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two hotels and two cities.\",\n    \"split_entities\": [\"The Lenna of Hobart hotel\", \"Hobart\", \"Park Hyatt Melbourne\"]\n  },\n  {\n    \"entity_name\": \"Intercontinental Hotel, Park Hyatt Hotel, Stamford Hotel, Shangri-La Hotel\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are four separate hotel brands.\",\n    \"split_entities\": [\"Intercontinental Hotel\", \"Park Hyatt Hotel\", \"Stamford Hotel\", \"Shangri-La Hotel\"]\n  },\n  {\n    \"entity_name\": \"Park Hyatt Hotel, Melbourne\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a hotel and its city.\",\n    \"split_entities\": [\"Park Hyatt Hotel\", \"Melbourne\"]\n  },\n  {\n    \"entity_name\": \"Park Hyatt Hotel, Melbourne; Intercontinental Hotel, Sydney; Emirates; Qantas\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two hotels, two cities, and two airline brands.\",\n    \"split_entities\": [\"Park Hyatt Hotel\", \"Melbourne\", \"Intercontinental Hotel\", \"Sydney\", \"Emirates\", \"Qantas\"]\n  }\n]\n```\n"
+}

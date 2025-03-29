@@ -1356,4 +1356,66 @@ class DatabaseHandler:
             return {}
             
         finally:
+            conn.close()
+    
+    def get_all_mps(self) -> List[Dict[str, Any]]:
+        """
+        Get a list of all MPs in the database.
+        
+        Returns:
+            List of dictionaries containing MP information.
+        """
+        conn = sqlite3.connect(self.db_path)
+        conn.row_factory = sqlite3.Row
+        
+        cursor = conn.cursor()
+        cursor.execute("""
+            SELECT DISTINCT mp_name as name, party, electorate 
+            FROM disclosures
+            ORDER BY mp_name
+        """)
+        
+        mps = [dict(row) for row in cursor.fetchall()]
+        conn.close()
+        
+        return mps
+    
+    def update_mp_party(self, mp_name: str, party: str) -> bool:
+        """
+        Update the party affiliation of an MP in the database.
+        
+        Args:
+            mp_name: The name of the MP to update
+            party: The party affiliation to set
+            
+        Returns:
+            True if any records were updated, False otherwise
+        """
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        
+        try:
+            # Update the party in all disclosures for this MP
+            cursor.execute("""
+                UPDATE disclosures
+                SET party = ?
+                WHERE mp_name = ?
+            """, (party, mp_name))
+            
+            rows_updated = cursor.rowcount
+            conn.commit()
+            
+            if rows_updated > 0:
+                logger.info(f"Updated party for '{mp_name}' to '{party}' ({rows_updated} records)")
+            else:
+                logger.warning(f"No records found for MP '{mp_name}'")
+                
+            return rows_updated > 0
+            
+        except Exception as e:
+            logger.error(f"Error updating party for MP '{mp_name}': {e}")
+            conn.rollback()
+            return False
+            
+        finally:
             conn.close() 

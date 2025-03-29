@@ -172,6 +172,7 @@ GET /api/entities
 |-----------|------|-------------|---------|
 | name | string | Filter by entity name (partial match) | None |
 | limit | integer | Maximum number of results to return | 100 |
+| canonical | boolean | Use canonical entity names | false |
 
 #### Response
 
@@ -192,7 +193,95 @@ GET /api/entities
 #### Example
 
 ```
-GET /api/entities?name=Global&limit=5
+GET /api/entities?name=Global&limit=5&canonical=true
+```
+
+### Get Entity Details
+
+Retrieves details about a specific entity, including connected MPs and variant names.
+
+```
+GET /api/entity/:name
+```
+
+#### Path Parameters
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| name | string | Entity name |
+
+#### Query Parameters
+
+| Parameter | Type | Description | Default |
+|-----------|------|-------------|---------|
+| canonical | boolean | Use canonical entity name for lookup | false |
+
+#### Response
+
+```json
+{
+  "entity": "Shell Company of Australia Limited",
+  "count": 4,
+  "variants": [
+    "The Shell Company of Australia Limited",
+    "Shell Company of Australia"
+  ],
+  "connected_mps": [
+    {
+      "mp_name": "Mark Dreyfus",
+      "party": "Australian Labor Party",
+      "electorate": "Isaacs",
+      "political_bloc": "Labor"
+    },
+    ...more MPs...
+  ]
+}
+```
+
+When `canonical=false` is used, the `variants` array will be empty.
+
+#### Example
+
+```
+GET /api/entity/Shell%20Company%20of%20Australia%20Limited?canonical=true
+```
+
+### Search Entities
+
+Searches for entities by name.
+
+```
+GET /api/search/entities
+```
+
+#### Query Parameters
+
+| Parameter | Type | Description | Default |
+|-----------|------|-------------|---------|
+| q | string | Search query (required) | None |
+| limit | integer | Maximum number of results to return | 20 |
+| canonical | boolean | Search canonical entity names | false |
+
+#### Response
+
+```json
+[
+  {
+    "entity": "Shell Company of Australia Limited",
+    "count": 4
+  },
+  {
+    "entity": "Shell Australia",
+    "count": 3
+  },
+  ...more entities...
+]
+```
+
+#### Example
+
+```
+GET /api/search/entities?q=Shell&canonical=true
 ```
 
 ### Get Network Data
@@ -208,6 +297,9 @@ GET /api/network
 | Parameter | Type | Description | Default |
 |-----------|------|-------------|---------|
 | filter_nil | boolean | Whether to filter out "nil" entries | true |
+| canonical | boolean | Use canonical entity names | false |
+| mp | string | Filter by MP name | None |
+| entity | string | Filter by entity name | None |
 
 #### Response
 
@@ -221,8 +313,8 @@ GET /api/network
       "party": "Labor"
     },
     {
-      "id": "Acme Corporation",
-      "name": "Acme Corporation",
+      "id": "Shell Company of Australia Limited",
+      "name": "Shell Company of Australia Limited",
       "type": "entity"
     },
     ...more nodes...
@@ -230,7 +322,7 @@ GET /api/network
   "links": [
     {
       "source": "Jane Smith",
-      "target": "Acme Corporation",
+      "target": "Shell Company of Australia Limited",
       "weight": 3
     },
     ...more links...
@@ -241,7 +333,7 @@ GET /api/network
 #### Example
 
 ```
-GET /api/network?filter_nil=true
+GET /api/network?filter_nil=true&canonical=true
 ```
 
 ### Get MP Details

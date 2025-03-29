@@ -1,0 +1,416 @@
+{
+  "batch_id": "and_6",
+  "category": "and",
+  "entities_count": 50,
+  "analysis_results": [
+    {
+      "entity_name": "The Charge d'Affaires a.i, James Carouso and Elizabeth Visbeek and the entire US Mission in Australia",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "This clearly lists three distinct individuals and a diplomatic mission as separate entities.",
+      "split_entities": [
+        "The Charge d'Affaires a.i, James Carouso",
+        "Elizabeth Visbeek",
+        "the entire US Mission in Australia"
+      ]
+    },
+    {
+      "entity_name": "Rudy and Julie Limantono of Zion Graphics",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This appears to be a single entity; a business likely owned by Rudy and Julie Limantono.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Sydney Taiwan Festival Inc and Mr Rui Lin Shu (Tea Banjie Farm)",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two distinct entities are mentioned: a festival and an individual with a business.",
+      "split_entities": [
+        "Sydney Taiwan Festival Inc",
+        "Mr Rui Lin Shu (Tea Banjie Farm)"
+      ]
+    },
+    {
+      "entity_name": "PFMZ Pearl Super Pty Ltd and PFMZ Pty Ltd",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two distinct, albeit related, Pty Ltd companies are named.",
+      "split_entities": [
+        "PFMZ Pearl Super Pty Ltd",
+        "PFMZ Pty Ltd"
+      ]
+    },
+    {
+      "entity_name": "Real Estate Holdings of DIC Gillespie Superfund by Corporate Trustee and by Golden Boot Pty Ltd",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Refers to two separate entities involved in real estate holdings.",
+      "split_entities": [
+        "Real Estate Holdings of DIC Gillespie Superfund by Corporate Trustee",
+        "Golden Boot Pty Ltd"
+      ]
+    },
+    {
+      "entity_name": "Cameco and Chamber of Minerals And Energy",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two separate organizations are listed.",
+      "split_entities": [
+        "Cameco",
+        "Chamber of Minerals And Energy"
+      ]
+    },
+    {
+      "entity_name": "Screen Australia and Hon Christian Porter MP, Minister for Social Services",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A government agency and a minister are clearly distinct entities.",
+      "split_entities": [
+        "Screen Australia",
+        "Hon Christian Porter MP, Minister for Social Services"
+      ]
+    },
+    {
+      "entity_name": "Greg Hunt and Laurie Lawrence's Kids Alive Program",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "An individual and a program are listed separately.",
+      "split_entities": [
+        "Greg Hunt",
+        "Laurie Lawrence's Kids Alive Program"
+      ]
+    },
+    {
+      "entity_name": "TAIPEI ECONOMIC AND CULTURAL OFFICE",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single entity, despite the 'and'; it is a common naming convention.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Mandurah Offshore Fishing and Sailing Club",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A single club with a compound name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "New South Wales Jewish Board of Deputies and the Executive Council of Australian Jewry Inc.",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two separate Jewish organizations.",
+      "split_entities": [
+        "New South Wales Jewish Board of Deputies",
+        "the Executive Council of Australian Jewry Inc."
+      ]
+    },
+    {
+      "entity_name": "Barwon Heads Football and Netball Club",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A single sporting club with a compound name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Colac Football and Netball Club",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A single sporting club with a compound name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Geelong Amateurs Football and Netball Club",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A single sporting club with a compound name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Grovedale Tigers Football and Netball Club",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A single sporting club with a compound name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Inverleigh Football and Netball Club",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A single sporting club with a compound name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Lorne Football and Netball Club",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A single sporting club with a compound name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Ocean Grove Football and Netball Club",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A single sporting club with a compound name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Queenscliff Football and Netball Club",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A single sporting club with a compound name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "South Barwon Football and Netball Club",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A single sporting club with a compound name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Torquay Football and Netball Club",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A single sporting club with a compound name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Winchelsea Football and Netball Club",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A single sporting club with a compound name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Anglesea Football and Netball Club",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A single sporting club with a compound name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Lorne Aquatic and Angling Club",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A single club with a compound name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Asia Pacific Leaders Malaria Alliance and the Global Fund",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two distinct international organizations.",
+      "split_entities": [
+        "Asia Pacific Leaders Malaria Alliance",
+        "the Global Fund"
+      ]
+    },
+    {
+      "entity_name": "The Bill and Melinda Gates Foundation",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is the name of a single, well-known foundation.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Department of Finance and the Japanese Ministry of Foreign Affairs",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two separate government bodies.",
+      "split_entities": [
+        "Department of Finance",
+        "the Japanese Ministry of Foreign Affairs"
+      ]
+    },
+    {
+      "entity_name": "The Taipei Economic and Cultural Office in Australia",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single entity; the 'and' is part of its official name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "AIJAC - Australia/Israel and Jewish Affairs council",
+      "classification": "SINGLE",
+      "confidence": "MEDIUM",
+      "explanation": "While it could be interpreted as multiple, the context suggests a single organization with a complex name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Australia and New Zealand Banking Group (ANZ)",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single bank with a compound name; ANZ is its common abbreviation.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Victorian Employee Chamber of Commerce and Industry",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single organization with a compound name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Westpac and Commonwealth Banks",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two separate banks.",
+      "split_entities": [
+        "Westpac",
+        "Commonwealth Banks"
+      ]
+    },
+    {
+      "entity_name": "Chamber of Minerals and Energy (WA), Minerals Council of Australia",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two separate organizations in the mining industry.",
+      "split_entities": [
+        "Chamber of Minerals and Energy (WA)",
+        "Minerals Council of Australia"
+      ]
+    },
+    {
+      "entity_name": "BLUEYS CAF\u00c9 AND CARVERY",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Likely a single business with a compound name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Blueys Cafe and Carvery Catering (BCCC)",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A single catering business, with '(BCCC)' being an abbreviation.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "PARRAMATTA AND DISTRICT SYNAGOGUE",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This seems to be a single synagogue with a location specified in its name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "UNION, UNIVERSITY AND SCHOOLS CLUB",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A single club, likely serving multiple constituencies.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "SCG and Sports Ground Trust",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "SCG refers to the Sydney Cricket Ground, a separate entity from the trust.",
+      "split_entities": [
+        "SCG",
+        "Sports Ground Trust"
+      ]
+    },
+    {
+      "entity_name": "Prudential and New York Life",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two separate insurance companies.",
+      "split_entities": [
+        "Prudential",
+        "New York Life"
+      ]
+    },
+    {
+      "entity_name": "Civmec Construction and Engineering Pty Ltd",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A single company with a compound name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Australian Chamber of Commerce and Industry",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A single organization with a compound name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Australian and Indian Cricket teams",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two separate cricket teams.",
+      "split_entities": [
+        "Australian Cricket team",
+        "Indian Cricket team"
+      ]
+    },
+    {
+      "entity_name": "QANTAS AND VIRGIN",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two separate airline companies.",
+      "split_entities": [
+        "QANTAS",
+        "VIRGIN"
+      ]
+    },
+    {
+      "entity_name": "SEE ATTACHMENT 'A' LISTED SHARES AND MANAGED FUNDS",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "Likely refers to two asset classes, but the phrasing is unclear.",
+      "split_entities": [
+        "SEE ATTACHMENT 'A' LISTED SHARES",
+        "MANAGED FUNDS"
+      ]
+    },
+    {
+      "entity_name": "Australia And New Zealand Banking Group",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A single bank with a compound name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Suncorp and IAG",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two separate Australian insurance companies.",
+      "split_entities": [
+        "Suncorp",
+        "IAG"
+      ]
+    },
+    {
+      "entity_name": "Dennis and Cathy O'Toole",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single entity; a couple.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Responsible Wood and Australian Forest Products Association",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two distinct industry associations.",
+      "split_entities": [
+        "Responsible Wood",
+        "Australian Forest Products Association"
+      ]
+    },
+    {
+      "entity_name": "Australian Mining and Metals Association",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "A single industry association with a compound name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Minister for Health and Welfare, South Korea",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "While it lists two portfolios, it's a single ministerial position.",
+      "split_entities": []
+    }
+  ],
+  "raw_response": "```json\n[\n  {\n    \"entity_name\": \"The Charge d'Affaires a.i, James Carouso and Elizabeth Visbeek and the entire US Mission in Australia\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This clearly lists three distinct individuals and a diplomatic mission as separate entities.\",\n    \"split_entities\": [\"The Charge d'Affaires a.i, James Carouso\", \"Elizabeth Visbeek\", \"the entire US Mission in Australia\"]\n  },\n  {\n    \"entity_name\": \"Rudy and Julie Limantono of Zion Graphics\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This appears to be a single entity; a business likely owned by Rudy and Julie Limantono.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Sydney Taiwan Festival Inc and Mr Rui Lin Shu (Tea Banjie Farm)\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two distinct entities are mentioned: a festival and an individual with a business.\",\n    \"split_entities\": [\"Sydney Taiwan Festival Inc\", \"Mr Rui Lin Shu (Tea Banjie Farm)\"]\n  },\n  {\n    \"entity_name\": \"PFMZ Pearl Super Pty Ltd and PFMZ Pty Ltd\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two distinct, albeit related, Pty Ltd companies are named.\",\n    \"split_entities\": [\"PFMZ Pearl Super Pty Ltd\", \"PFMZ Pty Ltd\"]\n  },\n  {\n    \"entity_name\": \"Real Estate Holdings of DIC Gillespie Superfund by Corporate Trustee and by Golden Boot Pty Ltd\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Refers to two separate entities involved in real estate holdings.\",\n    \"split_entities\": [\"Real Estate Holdings of DIC Gillespie Superfund by Corporate Trustee\", \"Golden Boot Pty Ltd\"]\n  },\n  {\n    \"entity_name\": \"Cameco and Chamber of Minerals And Energy\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two separate organizations are listed.\",\n    \"split_entities\": [\"Cameco\", \"Chamber of Minerals And Energy\"]\n  },\n  {\n    \"entity_name\": \"Screen Australia and Hon Christian Porter MP, Minister for Social Services\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A government agency and a minister are clearly distinct entities.\",\n    \"split_entities\": [\"Screen Australia\", \"Hon Christian Porter MP, Minister for Social Services\"]\n  },\n  {\n    \"entity_name\": \"Greg Hunt and Laurie Lawrence's Kids Alive Program\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"An individual and a program are listed separately.\",\n    \"split_entities\": [\"Greg Hunt\", \"Laurie Lawrence's Kids Alive Program\"]\n  },\n  {\n    \"entity_name\": \"TAIPEI ECONOMIC AND CULTURAL OFFICE\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single entity, despite the 'and'; it is a common naming convention.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Mandurah Offshore Fishing and Sailing Club\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A single club with a compound name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"New South Wales Jewish Board of Deputies and the Executive Council of Australian Jewry Inc.\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two separate Jewish organizations.\",\n    \"split_entities\": [\"New South Wales Jewish Board of Deputies\", \"the Executive Council of Australian Jewry Inc.\"]\n  },\n  {\n    \"entity_name\": \"Barwon Heads Football and Netball Club\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A single sporting club with a compound name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Colac Football and Netball Club\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A single sporting club with a compound name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Geelong Amateurs Football and Netball Club\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A single sporting club with a compound name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Grovedale Tigers Football and Netball Club\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A single sporting club with a compound name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Inverleigh Football and Netball Club\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A single sporting club with a compound name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Lorne Football and Netball Club\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A single sporting club with a compound name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Ocean Grove Football and Netball Club\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A single sporting club with a compound name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Queenscliff Football and Netball Club\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A single sporting club with a compound name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"South Barwon Football and Netball Club\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A single sporting club with a compound name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Torquay Football and Netball Club\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A single sporting club with a compound name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Winchelsea Football and Netball Club\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A single sporting club with a compound name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Anglesea Football and Netball Club\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A single sporting club with a compound name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Lorne Aquatic and Angling Club\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A single club with a compound name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Asia Pacific Leaders Malaria Alliance and the Global Fund\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two distinct international organizations.\",\n    \"split_entities\": [\"Asia Pacific Leaders Malaria Alliance\", \"the Global Fund\"]\n  },\n  {\n    \"entity_name\": \"The Bill and Melinda Gates Foundation\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is the name of a single, well-known foundation.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Department of Finance and the Japanese Ministry of Foreign Affairs\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two separate government bodies.\",\n    \"split_entities\": [\"Department of Finance\", \"the Japanese Ministry of Foreign Affairs\"]\n  },\n  {\n    \"entity_name\": \"The Taipei Economic and Cultural Office in Australia\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single entity; the 'and' is part of its official name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"AIJAC - Australia/Israel and Jewish Affairs council\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"While it could be interpreted as multiple, the context suggests a single organization with a complex name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Australia and New Zealand Banking Group (ANZ)\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single bank with a compound name; ANZ is its common abbreviation.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Victorian Employee Chamber of Commerce and Industry\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single organization with a compound name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Westpac and Commonwealth Banks\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two separate banks.\",\n    \"split_entities\": [\"Westpac\", \"Commonwealth Banks\"]\n  },\n  {\n    \"entity_name\": \"Chamber of Minerals and Energy (WA), Minerals Council of Australia\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two separate organizations in the mining industry.\",\n    \"split_entities\": [\"Chamber of Minerals and Energy (WA)\", \"Minerals Council of Australia\"]\n  },\n  {\n    \"entity_name\": \"BLUEYS CAF\u00c9 AND CARVERY\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Likely a single business with a compound name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Blueys Cafe and Carvery Catering (BCCC)\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A single catering business, with '(BCCC)' being an abbreviation.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"PARRAMATTA AND DISTRICT SYNAGOGUE\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This seems to be a single synagogue with a location specified in its name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"UNION, UNIVERSITY AND SCHOOLS CLUB\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A single club, likely serving multiple constituencies.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"SCG and Sports Ground Trust\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"SCG refers to the Sydney Cricket Ground, a separate entity from the trust.\",\n    \"split_entities\": [\"SCG\", \"Sports Ground Trust\"]\n  },\n  {\n    \"entity_name\": \"Prudential and New York Life\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two separate insurance companies.\",\n    \"split_entities\": [\"Prudential\", \"New York Life\"]\n  },\n  {\n    \"entity_name\": \"Civmec Construction and Engineering Pty Ltd\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A single company with a compound name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Australian Chamber of Commerce and Industry\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A single organization with a compound name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Australian and Indian Cricket teams\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two separate cricket teams.\",\n    \"split_entities\": [\"Australian Cricket team\", \"Indian Cricket team\"]\n  },\n  {\n    \"entity_name\": \"QANTAS AND VIRGIN\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two separate airline companies.\",\n    \"split_entities\": [\"QANTAS\", \"VIRGIN\"]\n  },\n  {\n    \"entity_name\": \"SEE ATTACHMENT 'A' LISTED SHARES AND MANAGED FUNDS\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Likely refers to two asset classes, but the phrasing is unclear.\",\n    \"split_entities\": [\"SEE ATTACHMENT 'A' LISTED SHARES\", \"MANAGED FUNDS\"]\n  },\n  {\n    \"entity_name\": \"Australia And New Zealand Banking Group\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A single bank with a compound name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Suncorp and IAG\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two separate Australian insurance companies.\",\n    \"split_entities\": [\"Suncorp\", \"IAG\"]\n  },\n  {\n    \"entity_name\": \"Dennis and Cathy O'Toole\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single entity; a couple.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Responsible Wood and Australian Forest Products Association\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two distinct industry associations.\",\n    \"split_entities\": [\"Responsible Wood\", \"Australian Forest Products Association\"]\n  },\n  {\n    \"entity_name\": \"Australian Mining and Metals Association\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A single industry association with a compound name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Minister for Health and Welfare, South Korea\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"While it lists two portfolios, it's a single ministerial position.\",\n    \"split_entities\": []\n  }\n]\n```\n"
+}

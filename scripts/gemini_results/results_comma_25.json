@@ -1,0 +1,510 @@
+{
+  "batch_id": "comma_25",
+  "category": "comma",
+  "entities_count": 50,
+  "analysis_results": [
+    {
+      "entity_name": "Takami Yasuhiro, Senior Adviser to Japanese Minister of Defense",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Takami Yasuhiro is a person, and 'Senior Adviser to Japanese Minister of Defense' is his title.  It's a single descriptive unit.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "North Ryde, NSW",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "North Ryde is a suburb, NSW is a state. These are two distinct geographical entities.",
+      "split_entities": [
+        "North Ryde",
+        "NSW"
+      ]
+    },
+    {
+      "entity_name": "The Ranch, Marsfield",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "The Ranch is likely a business/venue, Marsfield is a suburb.  These are two separate entities.",
+      "split_entities": [
+        "The Ranch",
+        "Marsfield"
+      ]
+    },
+    {
+      "entity_name": "Colonial First State, ANZ, NAB, Adelaide Bendigo, Westpac",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are all separate financial institutions in Australia.",
+      "split_entities": [
+        "Colonial First State",
+        "ANZ",
+        "NAB",
+        "Adelaide Bendigo",
+        "Westpac"
+      ]
+    },
+    {
+      "entity_name": "Colonial First State, ANZ, NAB, Adelaide Bendigo",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are all separate financial institutions in Australia.",
+      "split_entities": [
+        "Colonial First State",
+        "ANZ",
+        "NAB",
+        "Adelaide Bendigo"
+      ]
+    },
+    {
+      "entity_name": "Johor, Malaysia",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Johor is a state in Malaysia.  These are distinct geographical entities.",
+      "split_entities": [
+        "Johor",
+        "Malaysia"
+      ]
+    },
+    {
+      "entity_name": "NAB, Suncorp, Westpac",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are all separate financial institutions in Australia.",
+      "split_entities": [
+        "NAB",
+        "Suncorp",
+        "Westpac"
+      ]
+    },
+    {
+      "entity_name": "Commonwealth Bank, Suncorp",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate financial institutions in Australia.",
+      "split_entities": [
+        "Commonwealth Bank",
+        "Suncorp"
+      ]
+    },
+    {
+      "entity_name": "Bendigo Bank, ING Bank, Macquarie Bank, Commonwealth Bank",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are all separate financial institutions in Australia.",
+      "split_entities": [
+        "Bendigo Bank",
+        "ING Bank",
+        "Macquarie Bank",
+        "Commonwealth Bank"
+      ]
+    },
+    {
+      "entity_name": "ASTRA, Qantas, Virgin Australia",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "ASTRA is likely a separate entity from the airlines Qantas and Virgin Australia.",
+      "split_entities": [
+        "ASTRA",
+        "Qantas",
+        "Virgin Australia"
+      ]
+    },
+    {
+      "entity_name": "AFL, Geelong Football Club",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "AFL is the Australian Football League, a governing body; Geelong Football Club is a specific team.",
+      "split_entities": [
+        "AFL",
+        "Geelong Football Club"
+      ]
+    },
+    {
+      "entity_name": "Emily's List, Victorian Women Lawyers",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct organizations.",
+      "split_entities": [
+        "Emily's List",
+        "Victorian Women Lawyers"
+      ]
+    },
+    {
+      "entity_name": "PwC, Melbourne Racing Club",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "PwC is a professional services firm; Melbourne Racing Club is a sporting organization.",
+      "split_entities": [
+        "PwC",
+        "Melbourne Racing Club"
+      ]
+    },
+    {
+      "entity_name": "Penna, Tasmania",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Penna is a town in Tasmania.  These are two distinct geographical entities.",
+      "split_entities": [
+        "Penna",
+        "Tasmania"
+      ]
+    },
+    {
+      "entity_name": "Various sporting, community, non-profit organisations",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This refers to a category of organizations, not a list of specific entities.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Bendigo Bank, Westpac",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate financial institutions in Australia.",
+      "split_entities": [
+        "Bendigo Bank",
+        "Westpac"
+      ]
+    },
+    {
+      "entity_name": "MLC, Australian Super",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate superannuation providers in Australia.",
+      "split_entities": [
+        "MLC",
+        "Australian Super"
+      ]
+    },
+    {
+      "entity_name": "Rt Hon. Boris Johnson, former UK Prime Minister",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single person's name and title.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "ASTRA, McKinnon Institute",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These appear to be two different organizations.",
+      "split_entities": [
+        "ASTRA",
+        "McKinnon Institute"
+      ]
+    },
+    {
+      "entity_name": "Raffles Hotel management, Indonesia",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Raffles Hotel management is a business, Indonesia is a country. These are separate entities.",
+      "split_entities": [
+        "Raffles Hotel management",
+        "Indonesia"
+      ]
+    },
+    {
+      "entity_name": "The Cambridge Hotel, Kununurra",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "The Cambridge Hotel is a business, Kununurra is a town.  These are separate entities.",
+      "split_entities": [
+        "The Cambridge Hotel",
+        "Kununurra"
+      ]
+    },
+    {
+      "entity_name": "The Kimberley Moon, Ord Valley Events",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "Potentially two separate entities, but more context is needed to confirm they aren't related.",
+      "split_entities": [
+        "The Kimberley Moon",
+        "Ord Valley Events"
+      ]
+    },
+    {
+      "entity_name": "Pete Steggall, Central Coast",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Pete Steggall is a person, Central Coast is a region. These are separate entities.",
+      "split_entities": [
+        "Pete Steggall",
+        "Central Coast"
+      ]
+    },
+    {
+      "entity_name": "Daniel Skeffington, Bonnells Bay, Lake Macquarie City",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Daniel Skeffington is a person; Bonnells Bay and Lake Macquarie City are geographical locations.",
+      "split_entities": [
+        "Daniel Skeffington",
+        "Bonnells Bay",
+        "Lake Macquarie City"
+      ]
+    },
+    {
+      "entity_name": "Brett O'Farrell, Hunter Sports Academy",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Brett O'Farrell is a person; Hunter Sports Academy is an organization.",
+      "split_entities": [
+        "Brett O'Farrell",
+        "Hunter Sports Academy"
+      ]
+    },
+    {
+      "entity_name": "Paul Smith, Owner of the Sydney Kings",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a person's name and their title/description.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "ANZ, credit union SA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two different financial institutions.",
+      "split_entities": [
+        "ANZ",
+        "credit union SA"
+      ]
+    },
+    {
+      "entity_name": "American Express, Westpac, latitude financial group",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three separate financial institutions.",
+      "split_entities": [
+        "American Express",
+        "Westpac",
+        "latitude financial group"
+      ]
+    },
+    {
+      "entity_name": "Travancore, VIC",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Travancore is a suburb, VIC is a state. These are two distinct geographical entities.",
+      "split_entities": [
+        "Travancore",
+        "VIC"
+      ]
+    },
+    {
+      "entity_name": "Ambassador of Japan, HE Mr Kazuhiro Suzuki",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a person's title and name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Darling Point, NSW",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Darling Point is a suburb, NSW is a state. These are two distinct geographical entities.",
+      "split_entities": [
+        "Darling Point",
+        "NSW"
+      ]
+    },
+    {
+      "entity_name": "Great Mackerel Beach, NSW",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Great Mackerel Beach is a location, NSW is a state. These are two distinct geographical entities.",
+      "split_entities": [
+        "Great Mackerel Beach",
+        "NSW"
+      ]
+    },
+    {
+      "entity_name": "Woollahra, NSW",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Woollahra is a suburb, NSW is a state. These are two distinct geographical entities.",
+      "split_entities": [
+        "Woollahra",
+        "NSW"
+      ]
+    },
+    {
+      "entity_name": "Cambridgeshire, UK",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Cambridgeshire is a county in the UK.  These are distinct geographical entities.",
+      "split_entities": [
+        "Cambridgeshire",
+        "UK"
+      ]
+    },
+    {
+      "entity_name": "First Direct, Barclays",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate financial institutions.",
+      "split_entities": [
+        "First Direct",
+        "Barclays"
+      ]
+    },
+    {
+      "entity_name": "GIC, Standard Life",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate financial institutions.",
+      "split_entities": [
+        "GIC",
+        "Standard Life"
+      ]
+    },
+    {
+      "entity_name": "Lurnea, NSW",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Lurnea is a suburb, NSW is a state. These are two distinct geographical entities.",
+      "split_entities": [
+        "Lurnea",
+        "NSW"
+      ]
+    },
+    {
+      "entity_name": "Watson, ACT",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Watson is a suburb, ACT is a territory. These are two distinct geographical entities.",
+      "split_entities": [
+        "Watson",
+        "ACT"
+      ]
+    },
+    {
+      "entity_name": "ASTRA Subscription, Qantas Chairmans Lounge, Virgin The Club",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three separate entities related to subscriptions and lounge memberships.",
+      "split_entities": [
+        "ASTRA Subscription",
+        "Qantas Chairmans Lounge",
+        "Virgin The Club"
+      ]
+    },
+    {
+      "entity_name": "Liberal Party of Australia (SA Division), Norwood Football Club, Burnside Rotary Club, Campbelltown Rotary Club, Payneham RSL, North East Community Assistance Project",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are all separate organizations.",
+      "split_entities": [
+        "Liberal Party of Australia (SA Division)",
+        "Norwood Football Club",
+        "Burnside Rotary Club",
+        "Campbelltown Rotary Club",
+        "Payneham RSL",
+        "North East Community Assistance Project"
+      ]
+    },
+    {
+      "entity_name": "Pepperjack Grenache, Early Development Low Alcohol wine",
+      "classification": "MULTIPLE",
+      "confidence": "MEDIUM",
+      "explanation": "While both are wines, they are from different brands/producers, implying separate entities.",
+      "split_entities": [
+        "Pepperjack Grenache",
+        "Early Development Low Alcohol wine"
+      ]
+    },
+    {
+      "entity_name": "Goulburn, NSW",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Goulburn is a city, NSW is a state. These are two distinct geographical entities.",
+      "split_entities": [
+        "Goulburn",
+        "NSW"
+      ]
+    },
+    {
+      "entity_name": "Hamilton, VIC",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Hamilton is a city, VIC is a state. These are two distinct geographical entities.",
+      "split_entities": [
+        "Hamilton",
+        "VIC"
+      ]
+    },
+    {
+      "entity_name": "Turner, ACT",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Turner is a suburb, ACT is a territory. These are two distinct geographical entities.",
+      "split_entities": [
+        "Turner",
+        "ACT"
+      ]
+    },
+    {
+      "entity_name": "Willoughby, NSW",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Willoughby is a suburb, NSW is a state. These are two distinct geographical entities.",
+      "split_entities": [
+        "Willoughby",
+        "NSW"
+      ]
+    },
+    {
+      "entity_name": "Queanbeyan, NSW",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Queanbeyan is a city, NSW is a state. These are two distinct geographical entities.",
+      "split_entities": [
+        "Queanbeyan",
+        "NSW"
+      ]
+    },
+    {
+      "entity_name": "Warrnambool, VIC",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Warrnambool is a city, VIC is a state. These are two distinct geographical entities.",
+      "split_entities": [
+        "Warrnambool",
+        "VIC"
+      ]
+    },
+    {
+      "entity_name": "Kew, VIC",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Kew is a suburb, VIC is a state. These are two distinct geographical entities.",
+      "split_entities": [
+        "Kew",
+        "VIC"
+      ]
+    },
+    {
+      "entity_name": "Westpac Bank, Plan Lend Australia",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate financial institutions.",
+      "split_entities": [
+        "Westpac Bank",
+        "Plan Lend Australia"
+      ]
+    },
+    {
+      "entity_name": "Qantas Chairmans Lounge, Virgin club Lounge, Foxtel",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are three distinct entities offering different services.",
+      "split_entities": [
+        "Qantas Chairmans Lounge",
+        "Virgin club Lounge",
+        "Foxtel"
+      ]
+    }
+  ],
+  "raw_response": "```json\n[\n  {\n    \"entity_name\": \"Takami Yasuhiro, Senior Adviser to Japanese Minister of Defense\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Takami Yasuhiro is a person, and 'Senior Adviser to Japanese Minister of Defense' is his title.  It's a single descriptive unit.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"North Ryde, NSW\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"North Ryde is a suburb, NSW is a state. These are two distinct geographical entities.\",\n    \"split_entities\": [\"North Ryde\", \"NSW\"]\n  },\n  {\n    \"entity_name\": \"The Ranch, Marsfield\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"The Ranch is likely a business/venue, Marsfield is a suburb.  These are two separate entities.\",\n    \"split_entities\": [\"The Ranch\", \"Marsfield\"]\n  },\n  {\n    \"entity_name\": \"Colonial First State, ANZ, NAB, Adelaide Bendigo, Westpac\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are all separate financial institutions in Australia.\",\n    \"split_entities\": [\"Colonial First State\", \"ANZ\", \"NAB\", \"Adelaide Bendigo\", \"Westpac\"]\n  },\n  {\n    \"entity_name\": \"Colonial First State, ANZ, NAB, Adelaide Bendigo\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are all separate financial institutions in Australia.\",\n    \"split_entities\": [\"Colonial First State\", \"ANZ\", \"NAB\", \"Adelaide Bendigo\"]\n  },\n  {\n    \"entity_name\": \"Johor, Malaysia\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Johor is a state in Malaysia.  These are distinct geographical entities.\",\n    \"split_entities\": [\"Johor\", \"Malaysia\"]\n  },\n  {\n    \"entity_name\": \"NAB, Suncorp, Westpac\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are all separate financial institutions in Australia.\",\n    \"split_entities\": [\"NAB\", \"Suncorp\", \"Westpac\"]\n  },\n  {\n    \"entity_name\": \"Commonwealth Bank, Suncorp\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate financial institutions in Australia.\",\n    \"split_entities\": [\"Commonwealth Bank\", \"Suncorp\"]\n  },\n  {\n    \"entity_name\": \"Bendigo Bank, ING Bank, Macquarie Bank, Commonwealth Bank\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are all separate financial institutions in Australia.\",\n    \"split_entities\": [\"Bendigo Bank\", \"ING Bank\", \"Macquarie Bank\", \"Commonwealth Bank\"]\n  },\n  {\n    \"entity_name\": \"ASTRA, Qantas, Virgin Australia\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"ASTRA is likely a separate entity from the airlines Qantas and Virgin Australia.\",\n    \"split_entities\": [\"ASTRA\", \"Qantas\", \"Virgin Australia\"]\n  },\n  {\n    \"entity_name\": \"AFL, Geelong Football Club\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"AFL is the Australian Football League, a governing body; Geelong Football Club is a specific team.\",\n    \"split_entities\": [\"AFL\", \"Geelong Football Club\"]\n  },\n  {\n    \"entity_name\": \"Emily's List, Victorian Women Lawyers\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct organizations.\",\n    \"split_entities\": [\"Emily's List\", \"Victorian Women Lawyers\"]\n  },\n  {\n    \"entity_name\": \"PwC, Melbourne Racing Club\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"PwC is a professional services firm; Melbourne Racing Club is a sporting organization.\",\n    \"split_entities\": [\"PwC\", \"Melbourne Racing Club\"]\n  },\n  {\n    \"entity_name\": \"Penna, Tasmania\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Penna is a town in Tasmania.  These are two distinct geographical entities.\",\n    \"split_entities\": [\"Penna\", \"Tasmania\"]\n  },\n  {\n    \"entity_name\": \"Various sporting, community, non-profit organisations\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This refers to a category of organizations, not a list of specific entities.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Bendigo Bank, Westpac\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate financial institutions in Australia.\",\n    \"split_entities\": [\"Bendigo Bank\", \"Westpac\"]\n  },\n  {\n    \"entity_name\": \"MLC, Australian Super\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate superannuation providers in Australia.\",\n    \"split_entities\": [\"MLC\", \"Australian Super\"]\n  },\n  {\n    \"entity_name\": \"Rt Hon. Boris Johnson, former UK Prime Minister\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single person's name and title.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"ASTRA, McKinnon Institute\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These appear to be two different organizations.\",\n    \"split_entities\": [\"ASTRA\", \"McKinnon Institute\"]\n  },\n  {\n    \"entity_name\": \"Raffles Hotel management, Indonesia\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Raffles Hotel management is a business, Indonesia is a country. These are separate entities.\",\n    \"split_entities\": [\"Raffles Hotel management\", \"Indonesia\"]\n  },\n  {\n    \"entity_name\": \"The Cambridge Hotel, Kununurra\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"The Cambridge Hotel is a business, Kununurra is a town.  These are separate entities.\",\n    \"split_entities\": [\"The Cambridge Hotel\", \"Kununurra\"]\n  },\n  {\n    \"entity_name\": \"The Kimberley Moon, Ord Valley Events\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Potentially two separate entities, but more context is needed to confirm they aren't related.\",\n    \"split_entities\": [\"The Kimberley Moon\", \"Ord Valley Events\"]\n  },\n  {\n    \"entity_name\": \"Pete Steggall, Central Coast\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Pete Steggall is a person, Central Coast is a region. These are separate entities.\",\n    \"split_entities\": [\"Pete Steggall\", \"Central Coast\"]\n  },\n  {\n    \"entity_name\": \"Daniel Skeffington, Bonnells Bay, Lake Macquarie City\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Daniel Skeffington is a person; Bonnells Bay and Lake Macquarie City are geographical locations.\",\n    \"split_entities\": [\"Daniel Skeffington\", \"Bonnells Bay\", \"Lake Macquarie City\"]\n  },\n  {\n    \"entity_name\": \"Brett O'Farrell, Hunter Sports Academy\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Brett O'Farrell is a person; Hunter Sports Academy is an organization.\",\n    \"split_entities\": [\"Brett O'Farrell\", \"Hunter Sports Academy\"]\n  },\n  {\n    \"entity_name\": \"Paul Smith, Owner of the Sydney Kings\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a person's name and their title/description.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"ANZ, credit union SA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two different financial institutions.\",\n    \"split_entities\": [\"ANZ\", \"credit union SA\"]\n  },\n  {\n    \"entity_name\": \"American Express, Westpac, latitude financial group\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three separate financial institutions.\",\n    \"split_entities\": [\"American Express\", \"Westpac\", \"latitude financial group\"]\n  },\n  {\n    \"entity_name\": \"Travancore, VIC\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Travancore is a suburb, VIC is a state. These are two distinct geographical entities.\",\n    \"split_entities\": [\"Travancore\", \"VIC\"]\n  },\n  {\n    \"entity_name\": \"Ambassador of Japan, HE Mr Kazuhiro Suzuki\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a person's title and name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Darling Point, NSW\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Darling Point is a suburb, NSW is a state. These are two distinct geographical entities.\",\n    \"split_entities\": [\"Darling Point\", \"NSW\"]\n  },\n  {\n    \"entity_name\": \"Great Mackerel Beach, NSW\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Great Mackerel Beach is a location, NSW is a state. These are two distinct geographical entities.\",\n    \"split_entities\": [\"Great Mackerel Beach\", \"NSW\"]\n  },\n  {\n    \"entity_name\": \"Woollahra, NSW\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Woollahra is a suburb, NSW is a state. These are two distinct geographical entities.\",\n    \"split_entities\": [\"Woollahra\", \"NSW\"]\n  },\n  {\n    \"entity_name\": \"Cambridgeshire, UK\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Cambridgeshire is a county in the UK.  These are distinct geographical entities.\",\n    \"split_entities\": [\"Cambridgeshire\", \"UK\"]\n  },\n  {\n    \"entity_name\": \"First Direct, Barclays\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate financial institutions.\",\n    \"split_entities\": [\"First Direct\", \"Barclays\"]\n  },\n  {\n    \"entity_name\": \"GIC, Standard Life\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate financial institutions.\",\n    \"split_entities\": [\"GIC\", \"Standard Life\"]\n  },\n  {\n    \"entity_name\": \"Lurnea, NSW\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Lurnea is a suburb, NSW is a state. These are two distinct geographical entities.\",\n    \"split_entities\": [\"Lurnea\", \"NSW\"]\n  },\n  {\n    \"entity_name\": \"Watson, ACT\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Watson is a suburb, ACT is a territory. These are two distinct geographical entities.\",\n    \"split_entities\": [\"Watson\", \"ACT\"]\n  },\n  {\n    \"entity_name\": \"ASTRA Subscription, Qantas Chairmans Lounge, Virgin The Club\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three separate entities related to subscriptions and lounge memberships.\",\n    \"split_entities\": [\"ASTRA Subscription\", \"Qantas Chairmans Lounge\", \"Virgin The Club\"]\n  },\n  {\n    \"entity_name\": \"Liberal Party of Australia (SA Division), Norwood Football Club, Burnside Rotary Club, Campbelltown Rotary Club, Payneham RSL, North East Community Assistance Project\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are all separate organizations.\",\n    \"split_entities\": [\"Liberal Party of Australia (SA Division)\", \"Norwood Football Club\", \"Burnside Rotary Club\", \"Campbelltown Rotary Club\", \"Payneham RSL\", \"North East Community Assistance Project\"]\n  },\n  {\n    \"entity_name\": \"Pepperjack Grenache, Early Development Low Alcohol wine\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"While both are wines, they are from different brands/producers, implying separate entities.\",\n    \"split_entities\": [\"Pepperjack Grenache\", \"Early Development Low Alcohol wine\"]\n  },\n  {\n    \"entity_name\": \"Goulburn, NSW\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Goulburn is a city, NSW is a state. These are two distinct geographical entities.\",\n    \"split_entities\": [\"Goulburn\", \"NSW\"]\n  },\n  {\n    \"entity_name\": \"Hamilton, VIC\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Hamilton is a city, VIC is a state. These are two distinct geographical entities.\",\n    \"split_entities\": [\"Hamilton\", \"VIC\"]\n  },\n  {\n    \"entity_name\": \"Turner, ACT\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Turner is a suburb, ACT is a territory. These are two distinct geographical entities.\",\n    \"split_entities\": [\"Turner\", \"ACT\"]\n  },\n  {\n    \"entity_name\": \"Willoughby, NSW\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Willoughby is a suburb, NSW is a state. These are two distinct geographical entities.\",\n    \"split_entities\": [\"Willoughby\", \"NSW\"]\n  },\n  {\n    \"entity_name\": \"Queanbeyan, NSW\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Queanbeyan is a city, NSW is a state. These are two distinct geographical entities.\",\n    \"split_entities\": [\"Queanbeyan\", \"NSW\"]\n  },\n  {\n    \"entity_name\": \"Warrnambool, VIC\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Warrnambool is a city, VIC is a state. These are two distinct geographical entities.\",\n    \"split_entities\": [\"Warrnambool\", \"VIC\"]\n  },\n  {\n    \"entity_name\": \"Kew, VIC\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Kew is a suburb, VIC is a state. These are two distinct geographical entities.\",\n    \"split_entities\": [\"Kew\", \"VIC\"]\n  },\n  {\n    \"entity_name\": \"Westpac Bank, Plan Lend Australia\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate financial institutions.\",\n    \"split_entities\": [\"Westpac Bank\", \"Plan Lend Australia\"]\n  },\n  {\n    \"entity_name\": \"Qantas Chairmans Lounge, Virgin club Lounge, Foxtel\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are three distinct entities offering different services.\",\n    \"split_entities\": [\"Qantas Chairmans Lounge\", \"Virgin club Lounge\", \"Foxtel\"]\n  }\n]\n```\n"
+}

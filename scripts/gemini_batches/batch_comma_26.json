@@ -1,0 +1,350 @@
+{
+  "batch_id": "comma_26",
+  "category": "comma",
+  "entities": [
+    {
+      "entity": "Liberal Party, Rotary Club, Relay for Life",
+      "proposed_splits": [
+        "Liberal Party",
+        "Rotary Club",
+        "Relay for Life"
+      ],
+      "context": [
+        {
+          "mp_name": "Alan Tudge",
+          "party": "Liberal Party of Australia",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Liberal Party/Rotary Club/Relay for Life",
+          "details": "Liberal Party, Rotary Club, Relay for Life patron"
+        }
+      ]
+    },
+    {
+      "entity": "Football Australia, AIJAC",
+      "proposed_splits": [
+        "Football Australia",
+        "AIJAC"
+      ],
+      "context": [
+        {
+          "mp_name": "Albertus Van Manen",
+          "party": "Liberal National Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Football Australia Ticket & AIJAC Israel Fellowship Program",
+          "details": "26 - 3 - 2024 Football Australia 1x ticket to Australia vs Lebanon Canberra, 8- 3 - 2024 to 14 - 3 - 2024 AIJAC Rambam Israel Fellowship Program Study Group visit to Israel (Airfares, Accommodation and Meals)"
+        }
+      ]
+    },
+    {
+      "entity": "Bendigo Bank, ING",
+      "proposed_splits": [
+        "Bendigo Bank",
+        "ING"
+      ],
+      "context": [
+        {
+          "mp_name": "Aaron Violi",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings",
+          "details": "Savings"
+        }
+      ]
+    },
+    {
+      "entity": "Scale, Tabcorp, AFL, Melbourne City, Thomas Derum",
+      "proposed_splits": [
+        "Scale",
+        "Tabcorp",
+        "AFL",
+        "Melbourne City",
+        "Thomas Derum"
+      ],
+      "context": [
+        {
+          "mp_name": "Aaron Violi",
+          "party": "Liberal Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Avalon Airshow Ticket, Flemington Races Tickets, Geelong vs Collingwood Tickets, Melbourne City vs Wellington Phoenix Tickets, Collingwood vs Essendon Flights",
+          "details": "Avalon Airshow Ticket and Hospitality - Scale facilitation, 2 tickets and hospitality Flemington Races - Tabcorp, 2 tickets and hospitality - Geelong vs Collingwood - AFL, 4 tickets - Melbourne City vs Wellington Phoenix, 2 tickets and hospitality - Collingwood vs Essendon - AFL, Return flights to Sydney - Thomas Derum"
+        }
+      ]
+    },
+    {
+      "entity": "Wurtulla, QLD.",
+      "proposed_splits": [
+        "Wurtulla",
+        "QLD."
+      ],
+      "context": [
+        {
+          "mp_name": "Andrew Wallace",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Wurtulla,",
+          "details": "Principal Place of Residence"
+        }
+      ]
+    },
+    {
+      "entity": "Kelowna, British Columbia, Canada.",
+      "proposed_splits": [
+        "Kelowna",
+        "British Columbia",
+        "Canada."
+      ],
+      "context": [
+        {
+          "mp_name": "Andrew Wallace",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Kelowna,",
+          "details": "Investment/Holiday House"
+        }
+      ]
+    },
+    {
+      "entity": "Gymea Bay, NSW",
+      "proposed_splits": [
+        "Gymea Bay",
+        "NSW"
+      ],
+      "context": [
+        {
+          "mp_name": "Jenny Ware",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Gymea",
+          "details": "Residential - Self"
+        },
+        {
+          "mp_name": "Jenny Ware",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Family Related",
+          "details": "Residential - Spouse/partner"
+        }
+      ]
+    },
+    {
+      "entity": "Hurstville, NSW",
+      "proposed_splits": [
+        "Hurstville",
+        "NSW"
+      ],
+      "context": [
+        {
+          "mp_name": "Jenny Ware",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Hurstville,",
+          "details": "Part owner, Investment - Self"
+        },
+        {
+          "mp_name": "Jenny Ware",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Family Related",
+          "details": "Part owner, Investment - Spouse/partner"
+        }
+      ]
+    },
+    {
+      "entity": "Coff Harbour, NSW",
+      "proposed_splits": [
+        "Coff Harbour",
+        "NSW"
+      ],
+      "context": [
+        {
+          "mp_name": "Jenny Ware",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Coff",
+          "details": "Part owner, Investment - Self"
+        }
+      ]
+    },
+    {
+      "entity": "Coffs Harbour, NSW",
+      "proposed_splits": [
+        "Coffs Harbour",
+        "NSW"
+      ],
+      "context": [
+        {
+          "mp_name": "Jenny Ware",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Family Related",
+          "details": "Part owner, Investment - Spouse/partner"
+        }
+      ]
+    },
+    {
+      "entity": "St Lucia, Queensland",
+      "proposed_splits": [
+        "St Lucia",
+        "Queensland"
+      ],
+      "context": [
+        {
+          "mp_name": "Elizabeth Watson-Brown",
+          "party": "Australian Greens",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House in St Lucia",
+          "details": "Residential (50%)"
+        }
+      ]
+    },
+    {
+      "entity": "Auchenflower, Queensland",
+      "proposed_splits": [
+        "Auchenflower",
+        "Queensland"
+      ],
+      "context": [
+        {
+          "mp_name": "Elizabeth Watson-Brown",
+          "party": "Australian Greens",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Investment Apartment in Auchenflower",
+          "details": "Investment (50%)"
+        }
+      ]
+    },
+    {
+      "entity": "Hastings Point, NSW",
+      "proposed_splits": [
+        "Hastings Point",
+        "NSW"
+      ],
+      "context": [
+        {
+          "mp_name": "Elizabeth Watson-Brown",
+          "party": "Australian Greens",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Vacation Home in Hastings Point",
+          "details": "Holiday flat (50%)"
+        }
+      ]
+    },
+    {
+      "entity": "Adelaide, SA",
+      "proposed_splits": [
+        "Adelaide",
+        "SA"
+      ],
+      "context": [
+        {
+          "mp_name": "Elizabeth Watson-Brown",
+          "party": "Australian Greens",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House in Adelaide",
+          "details": "Residential (son)"
+        }
+      ]
+    },
+    {
+      "entity": "ALP, Williamstown Branch (Vic)",
+      "proposed_splits": [
+        "ALP",
+        "Williamstown Branch (Vic)"
+      ],
+      "context": [
+        {
+          "mp_name": "Timothy Watts",
+          "party": "Australian Labor Party",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "ALP Williamstown Branch Membership",
+          "details": "Member of ALP, Williamstown Branch (Vic)"
+        }
+      ]
+    },
+    {
+      "entity": "ALP, Footscray Branch (Vic)",
+      "proposed_splits": [
+        "ALP",
+        "Footscray Branch (Vic)"
+      ],
+      "context": [
+        {
+          "mp_name": "Timothy Watts",
+          "party": "Australian Labor Party",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "ALP Footscray Branch Membership",
+          "details": "Member of ALP, Footscray Branch (Vic)"
+        }
+      ]
+    },
+    {
+      "entity": "Summer Park, Brisbane",
+      "proposed_splits": [
+        "Summer Park",
+        "Brisbane"
+      ],
+      "context": [
+        {
+          "mp_name": "Andrew Willcox",
+          "party": "LNP",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Commercial Property in Summer Park Brisbane",
+          "details": "Owner/Landlord"
+        }
+      ]
+    },
+    {
+      "entity": "Hyde Park, Townsville",
+      "proposed_splits": [
+        "Hyde Park",
+        "Townsville"
+      ],
+      "context": [
+        {
+          "mp_name": "Andrew Willcox",
+          "party": "LNP",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Commercial Property in Hyde Park, Townsville",
+          "details": "Remove: Self | Hyde Park, Townsville"
+        }
+      ]
+    },
+    {
+      "entity": "King Henry Cafe, Sassafras",
+      "proposed_splits": [
+        "King Henry Cafe",
+        "Sassafras"
+      ],
+      "context": [
+        {
+          "mp_name": "Jason Wood",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Commercial Property - King Henry Cafe",
+          "details": "Commercial"
+        }
+      ]
+    }
+  ]
+}

@@ -3,6 +3,7 @@ export interface MP {
   mp_name: string;
   party?: string;
   electorate?: string;
+  political_bloc?: string;
 }
 
 // Disclosure data types

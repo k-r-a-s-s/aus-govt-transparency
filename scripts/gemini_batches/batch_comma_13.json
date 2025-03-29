@@ -1,0 +1,1048 @@
+{
+  "batch_id": "comma_13",
+  "category": "comma",
+  "entities": [
+    {
+      "entity": "Mr Arne Duncan, US Secretary of Education",
+      "proposed_splits": [
+        "Mr Arne Duncan",
+        "US Secretary of Education"
+      ],
+      "context": [
+        {
+          "mp_name": "Peter Robert Garrett",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Other",
+          "item": "Vase",
+          "details": "Vase presented by Mr Arne Duncan, US Secretary of Education, valued at $320.00"
+        }
+      ]
+    },
+    {
+      "entity": "Sustainable World Technologies, Adelaide, South Australia",
+      "proposed_splits": [
+        "Sustainable World Technologies",
+        "Adelaide",
+        "South Australia"
+      ],
+      "context": [
+        {
+          "mp_name": "Gary Gray",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Electronics",
+          "item": "Rockford Black Shiraz Bottle",
+          "details": "1 Bottle of Rockford Black Shiraz"
+        }
+      ]
+    },
+    {
+      "entity": "Libby Lyons, CiticPacific Mining",
+      "proposed_splits": [
+        "Libby Lyons",
+        "CiticPacific Mining"
+      ],
+      "context": [
+        {
+          "mp_name": "Gary Gray",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Hospitality",
+          "item": "Lakes Folly Hunter Valley Cabernet Bottle",
+          "details": "1 bottle Lakes Folly Hunter Valley Cabernet 2009. Valued at $80.00"
+        }
+      ]
+    },
+    {
+      "entity": "Tim Woodall, Miro Advisors",
+      "proposed_splits": [
+        "Tim Woodall",
+        "Miro Advisors"
+      ],
+      "context": [
+        {
+          "mp_name": "Gary Gray",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Other",
+          "item": "Vasse Felix Cabernet Sauvignon Bottle",
+          "details": "Vasse Felix 2010 Cabernet Sauvignon presented valued at $40.00"
+        }
+      ]
+    },
+    {
+      "entity": "Kensington, WA",
+      "proposed_splits": [
+        "Kensington",
+        "WA"
+      ],
+      "context": [
+        {
+          "mp_name": "Barry Wayne Haase",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House in Kensington",
+          "details": "Private Residence"
+        },
+        {
+          "mp_name": "Barry Wayne Haase",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House in Kensington",
+          "details": "Private Residence"
+        },
+        {
+          "mp_name": "Barry Wayne Haase",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House in Kensington",
+          "details": "Deletion - Private Residence"
+        }
+      ]
+    },
+    {
+      "entity": "Maylands, WA",
+      "proposed_splits": [
+        "Maylands",
+        "WA"
+      ],
+      "context": [
+        {
+          "mp_name": "Barry Wayne Haase",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Investment Property in Maylands",
+          "details": "Investment"
+        },
+        {
+          "mp_name": "Barry Wayne Haase",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Investment Apartment in Maylands",
+          "details": "Investment"
+        },
+        {
+          "mp_name": "Barry Wayne Haase",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Investment Apartment in Maylands",
+          "details": "Deletion - Investment"
+        }
+      ]
+    },
+    {
+      "entity": "North Perth, WA",
+      "proposed_splits": [
+        "North Perth",
+        "WA"
+      ],
+      "context": [
+        {
+          "mp_name": "Barry Wayne Haase",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Investment Property in North Perth",
+          "details": "Investment"
+        }
+      ]
+    },
+    {
+      "entity": "Woodlands, WA",
+      "proposed_splits": [
+        "Woodlands",
+        "WA"
+      ],
+      "context": [
+        {
+          "mp_name": "Barry Wayne Haase",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Investment Property in Woodlands",
+          "details": "Investment"
+        },
+        {
+          "mp_name": "Barry Wayne Haase",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Investment Apartment in Woodlands",
+          "details": "Investment"
+        },
+        {
+          "mp_name": "Barry Wayne Haase",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Investment Apartment in Woodlands",
+          "details": "Deletion - Investment"
+        }
+      ]
+    },
+    {
+      "entity": "Inglewood, WA",
+      "proposed_splits": [
+        "Inglewood",
+        "WA"
+      ],
+      "context": [
+        {
+          "mp_name": "Barry Wayne Haase",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Investment Property in Inglewood",
+          "details": "Investment"
+        },
+        {
+          "mp_name": "Barry Wayne Haase",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Investment Apartment in Inglewood",
+          "details": "Investment"
+        },
+        {
+          "mp_name": "Barry Wayne Haase",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Investment Apartment in Inglewood",
+          "details": "Deletion - Investment"
+        }
+      ]
+    },
+    {
+      "entity": "Kalgoorlie, WA",
+      "proposed_splits": [
+        "Kalgoorlie",
+        "WA"
+      ],
+      "context": [
+        {
+          "mp_name": "Barry Wayne Haase",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Investment Property in Kalgoorlie",
+          "details": "Investment"
+        }
+      ]
+    },
+    {
+      "entity": "Pollard Street, Geraldton WA",
+      "proposed_splits": [
+        "Pollard Street",
+        "Geraldton WA"
+      ],
+      "context": [
+        {
+          "mp_name": "Barry Wayne Haase",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Investment Property in Geraldton",
+          "details": "Investment"
+        }
+      ]
+    },
+    {
+      "entity": "Pollard St, Geraldton WA",
+      "proposed_splits": [
+        "Pollard St",
+        "Geraldton WA"
+      ],
+      "context": [
+        {
+          "mp_name": "Barry Wayne Haase",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Investment Property in Geraldton",
+          "details": "Investment"
+        }
+      ]
+    },
+    {
+      "entity": "Martha St, Guildford WA",
+      "proposed_splits": [
+        "Martha St",
+        "Guildford WA"
+      ],
+      "context": [
+        {
+          "mp_name": "Barry Wayne Haase",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House in Guildford",
+          "details": "Private Residence"
+        }
+      ]
+    },
+    {
+      "entity": "Victoria Park, WA",
+      "proposed_splits": [
+        "Victoria Park",
+        "WA"
+      ],
+      "context": [
+        {
+          "mp_name": "Barry Wayne Haase",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House in Victoria Park",
+          "details": "Addition Spouse - Private Residence"
+        }
+      ]
+    },
+    {
+      "entity": "Forrest, Canberra",
+      "proposed_splits": [
+        "Forrest",
+        "Canberra"
+      ],
+      "context": [
+        {
+          "mp_name": "Joe Hockey",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House in Forrest",
+          "details": "Self - Investment/Residence"
+        },
+        {
+          "mp_name": "Joe Hockey",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Investment Property in Forrest",
+          "details": "Spouse - Investment"
+        }
+      ]
+    },
+    {
+      "entity": "V8 Supercars, Bathurst",
+      "proposed_splits": [
+        "V8 Supercars",
+        "Bathurst"
+      ],
+      "context": [
+        {
+          "mp_name": "Joe Hockey",
+          "party": "Liberal Party of Australia",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Aviation Transport",
+          "details": "Aviation transport \u2013 as guest of"
+        }
+      ]
+    },
+    {
+      "entity": "ROTARY, LIONS, CLEAN OCEAN FOUNDATION",
+      "proposed_splits": [
+        "ROTARY",
+        "LIONS",
+        "CLEAN OCEAN FOUNDATION"
+      ],
+      "context": [
+        {
+          "mp_name": "Gregory Hunt",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Member of Rotary, Lions, Clean Ocean Foundation",
+          "details": "Member"
+        }
+      ]
+    },
+    {
+      "entity": "RESERVAR LIBRARS CENTRE, CITY OF DARBIN",
+      "proposed_splits": [
+        "RESERVAR LIBRARS CENTRE",
+        "CITY OF DARBIN"
+      ],
+      "context": [
+        {
+          "mp_name": "Harry Jenkins",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Customer Service",
+          "details": "CASUAL CUSTOMER SERVICE"
+        }
+      ]
+    },
+    {
+      "entity": "Wang Jin-pyng, President of the Legislative Yuan, Taiwan.",
+      "proposed_splits": [
+        "Wang Jin-pyng",
+        "President of the Legislative Yuan",
+        "Taiwan."
+      ],
+      "context": [
+        {
+          "mp_name": "Harry Jenkins",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Large sculptured porcelain vase",
+          "details": "Large sculptured porcelain vase"
+        }
+      ]
+    },
+    {
+      "entity": "ANZ, Commonwealth, Westpac",
+      "proposed_splits": [
+        "ANZ",
+        "Commonwealth",
+        "Westpac"
+      ],
+      "context": [
+        {
+          "mp_name": "Robert Carl Katter",
+          "party": "Katter's Australian Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings and Cheque Accounts",
+          "details": "Usual Savings and cheque Alcs"
+        },
+        {
+          "mp_name": "Robert Carl Katter",
+          "party": "Katter's Australian Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings and Cheque Accounts",
+          "details": "The usual saving and cheque accounts."
+        }
+      ]
+    },
+    {
+      "entity": "Executive Director of Climate Change Research Strategy for Primary Industries, Michael Robinson.",
+      "proposed_splits": [
+        "Executive Director of Climate Change Research Strategy for Primary Industries",
+        "Michael Robinson."
+      ],
+      "context": [
+        {
+          "mp_name": "Michael Kelly",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Wooden chopping board",
+          "details": "Wooden chopping board handcrafted from Australian Timber received at the opening of the inaugural National Climate Change Research Strategy for Primary Industries Conference in Melbourne on 17 February 2011. The approximate cost of the gift is $50."
+        }
+      ]
+    },
+    {
+      "entity": "Bentong, Redgum Club-games",
+      "proposed_splits": [
+        "Bentong",
+        "Redgum Club-games"
+      ],
+      "context": [
+        {
+          "mp_name": "Jennifer Louise Macklin",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "AFL tickets",
+          "details": "Value $280-received from AFL tickets 16/4/10"
+        }
+      ]
+    },
+    {
+      "entity": "Telstra CEO, David Thodey",
+      "proposed_splits": [
+        "Telstra CEO",
+        "David Thodey"
+      ],
+      "context": [
+        {
+          "mp_name": "Jennifer Louise Macklin",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Midwinter Ball tickets",
+          "details": "Midwinter Ball tickets for myself and Ross Turner from Telstra CEO, David Thodey. Received on 27 June 2012. Valued at $300"
+        }
+      ]
+    },
+    {
+      "entity": "NATIONAL AUSTRALIA BANK, AMERICAN EXPRESS",
+      "proposed_splits": [
+        "NATIONAL AUSTRALIA BANK",
+        "AMERICAN EXPRESS"
+      ],
+      "context": [
+        {
+          "mp_name": "Robert McClelland",
+          "party": "Australian Labor Party",
+          "category": "Liability",
+          "sub_category": "Mortgage",
+          "item": "Mortgage, Credit Cards",
+          "details": "MORTGAGE, VISA CREDIT CARD, AMERICAN EXPRESS CREDIT CARD"
+        }
+      ]
+    },
+    {
+      "entity": "COLONIAL FIRST STATE, AMP LIFE LTD",
+      "proposed_splits": [
+        "COLONIAL FIRST STATE",
+        "AMP LIFE LTD"
+      ],
+      "context": [
+        {
+          "mp_name": "Robert McClelland",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Superannuation",
+          "details": "EMPLOYER SUPERANNUATION, FLEXIBLE LIFE SUPERANNUATION, EMPLOYMENT RELATED SUPERANNUATION"
+        }
+      ]
+    },
+    {
+      "entity": "ANTHONY MUNDINE, NRL",
+      "proposed_splits": [
+        "ANTHONY MUNDINE",
+        "NRL"
+      ],
+      "context": [
+        {
+          "mp_name": "Robert McClelland",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Travel with Anthony Mundine & NRL",
+          "details": "SEE ABOVE FOR ANTHONY MUNDINE & NRL"
+        }
+      ]
+    },
+    {
+      "entity": "AUSTRALIAN LABOR PARTY, NSW BAR ASSOCIATION, ST. GEORGE DISTANCE RUGBY LEAGUE FOOTBALL CLUB LTD, INDEPENDANT EDUCATION UNION",
+      "proposed_splits": [
+        "AUSTRALIAN LABOR PARTY",
+        "NSW BAR ASSOCIATION",
+        "ST. GEORGE DISTANCE RUGBY LEAGUE FOOTBALL CLUB LTD",
+        "INDEPENDANT EDUCATION UNION"
+      ],
+      "context": [
+        {
+          "mp_name": "Robert McClelland",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": NaN,
+          "details": ""
+        }
+      ]
+    },
+    {
+      "entity": "St George District Rugby League Football Club Limited, St George Leagues Club Limited.",
+      "proposed_splits": [
+        "St George District Rugby League Football Club Limited",
+        "St George Leagues Club Limited."
+      ],
+      "context": [
+        {
+          "mp_name": "Robert McClelland",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Director of St George District Rugby League Football Club Limited",
+          "details": "My Spouse, Michelle McClelland, has become an unpaid Director of St George District Rugby League Football Club Limited and St George Leagues Club Limited."
+        }
+      ]
+    },
+    {
+      "entity": "The St George Leagues Club Limited, The St George District Rugby League Limited.",
+      "proposed_splits": [
+        "The St George Leagues Club Limited",
+        "The St George District Rugby League Limited."
+      ],
+      "context": [
+        {
+          "mp_name": "Robert McClelland",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Non paid Director of: The St George Leagues Club Limited",
+          "details": "My wife Michelle McClelland has been appointed as a non paid Director of: The St George Leagues Club Limited and The St George District Rugby League Limited."
+        }
+      ]
+    },
+    {
+      "entity": "CTH, WESTPAC",
+      "proposed_splits": [
+        "CTH",
+        "WESTPAC"
+      ],
+      "context": [
+        {
+          "mp_name": "Sophie Mirabella",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings",
+          "details": "SAVINGS"
+        }
+      ]
+    },
+    {
+      "entity": "AMP, MLC, CommSuper",
+      "proposed_splits": [
+        "AMP",
+        "MLC",
+        "CommSuper"
+      ],
+      "context": [
+        {
+          "mp_name": "Scott Morrison",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Superannuation",
+          "details": "Superannuation (Self)"
+        }
+      ]
+    },
+    {
+      "entity": "Millennium Forum, Liberal Party of Australia, NSW Division",
+      "proposed_splits": [
+        "Millennium Forum",
+        "Liberal Party of Australia",
+        "NSW Division"
+      ],
+      "context": [
+        {
+          "mp_name": "Scott Morrison",
+          "party": "Liberal Party of Australia",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Tickets to Jay Z and U2 concert",
+          "details": "2 Tickets to the Jay Z and U2 concert of 14 December 2010"
+        }
+      ]
+    },
+    {
+      "entity": "Royal Motor Yacht Club, Woolooware",
+      "proposed_splits": [
+        "Royal Motor Yacht Club",
+        "Woolooware"
+      ],
+      "context": [
+        {
+          "mp_name": "Scott Morrison",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Membership",
+          "details": "Membership"
+        },
+        {
+          "mp_name": "Scott Morrison",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Membership",
+          "details": "Membership"
+        },
+        {
+          "mp_name": "Scott Morrison",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Gift of Membership",
+          "details": "Gift of 12/13 Membership"
+        },
+        {
+          "mp_name": "Scott Morrison",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Gift of Membership",
+          "details": "Gift of 13/14 Membership"
+        },
+        {
+          "mp_name": "Scott Morrison",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Yacht Club Membership",
+          "details": "Gift of 14/15 Membership"
+        }
+      ]
+    },
+    {
+      "entity": "South Metropolitan Regional Scout Council, NSW",
+      "proposed_splits": [
+        "South Metropolitan Regional Scout Council",
+        "NSW"
+      ],
+      "context": [
+        {
+          "mp_name": "Scott Morrison",
+          "party": "Liberal Party of Australia",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "South Metropolitan Regional Scout Council Membership",
+          "details": "Membership"
+        },
+        {
+          "mp_name": "Scott Morrison",
+          "party": "Liberal Party of Australia",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "South Metropolitan Scout Council Membership",
+          "details": "Honorary Membership of the South Metropolitan Regional Scout Council, NSW"
+        },
+        {
+          "mp_name": "Scott Morrison",
+          "party": "Liberal Party of Australia",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "South Metropolitan Regional Scout Council Honorary Membership",
+          "details": "Honorary Membership"
+        }
+      ]
+    },
+    {
+      "entity": "Suncorp, Wide Bay Australia, Westpac Bundaberg, Qantas Staff Credit Union",
+      "proposed_splits": [
+        "Suncorp",
+        "Wide Bay Australia",
+        "Westpac Bundaberg",
+        "Qantas Staff Credit Union"
+      ],
+      "context": [
+        {
+          "mp_name": "Paul Christopher Neville",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings/Cheque accounts",
+          "details": "Savings/Cheque accounts"
+        }
+      ]
+    },
+    {
+      "entity": "John Patrick Motors, Port Macquarie",
+      "proposed_splits": [
+        "John Patrick Motors",
+        "Port Macquarie"
+      ],
+      "context": [
+        {
+          "mp_name": "Robert James Murray Oakeshott",
+          "party": "Independent",
+          "category": "Liability",
+          "sub_category": "Loan",
+          "item": "Personal Loan, Hire-Purchase",
+          "details": "Personal loan, Hire-Purchase"
+        }
+      ]
+    },
+    {
+      "entity": "Stanley, Alcomie",
+      "proposed_splits": [
+        "Stanley",
+        "Alcomie"
+      ],
+      "context": [
+        {
+          "mp_name": "Deborah Mary O'Neill",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Investment Property in Stanley, Alcomie",
+          "details": "Investment"
+        }
+      ]
+    },
+    {
+      "entity": "ANZ, Citibank",
+      "proposed_splits": [
+        "ANZ",
+        "Citibank"
+      ],
+      "context": [
+        {
+          "mp_name": "Julie Owens",
+          "party": "Australian Labor Party",
+          "category": "Liability",
+          "sub_category": "Credit",
+          "item": "Credit Cards",
+          "details": "Credit Cards"
+        },
+        {
+          "mp_name": "Julie Owens",
+          "party": "Australian Labor Party",
+          "category": "Liability",
+          "sub_category": "Loan",
+          "item": "Home Loan and Credit Cards",
+          "details": "Home Loan, Credit Cards"
+        },
+        {
+          "mp_name": "Julie Owens",
+          "party": "Australian Labor Party",
+          "category": "Liability",
+          "sub_category": "Loan",
+          "item": "Home Loan and Credit Card",
+          "details": "Home Loan, Credit Card"
+        }
+      ]
+    },
+    {
+      "entity": "Westpac, UNFCU, CUTH",
+      "proposed_splits": [
+        "Westpac",
+        "UNFCU",
+        "CUTH"
+      ],
+      "context": [
+        {
+          "mp_name": "Melissa Parke",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings Account",
+          "details": "Savings Account"
+        }
+      ]
+    },
+    {
+      "entity": "AGRICULTURAL LAND, BUCKLEBOO",
+      "proposed_splits": [
+        "AGRICULTURAL LAND",
+        "BUCKLEBOO"
+      ],
+      "context": [
+        {
+          "mp_name": "Rowan Ramsey",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Family Farm (Leased)",
+          "details": "FAMILY FARM (LEASED)"
+        }
+      ]
+    },
+    {
+      "entity": "HOUSE, PT NEILL SA",
+      "proposed_splits": [
+        "HOUSE",
+        "PT NEILL SA"
+      ],
+      "context": [
+        {
+          "mp_name": "Rowan Ramsey",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Vacation Home in PT NEILL",
+          "details": "BEACH HOUSE"
+        }
+      ]
+    },
+    {
+      "entity": "STRATA UNIT, MAULANDS SA",
+      "proposed_splits": [
+        "STRATA UNIT",
+        "MAULANDS SA"
+      ],
+      "context": [
+        {
+          "mp_name": "Rowan Ramsey",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Investment Apartment in MAULANDS",
+          "details": "INVESTMENT PROPERTY"
+        }
+      ]
+    },
+    {
+      "entity": "HOUSE, JAMESTOWN SA",
+      "proposed_splits": [
+        "HOUSE",
+        "JAMESTOWN SA"
+      ],
+      "context": [
+        {
+          "mp_name": "Rowan Ramsey",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Investment House in JAMESTOWN",
+          "details": "INVESTMENT PROPERTY"
+        }
+      ]
+    },
+    {
+      "entity": "Peppers Pier Resort, Park Hyatt",
+      "proposed_splits": [
+        "Peppers Pier Resort",
+        "Park Hyatt"
+      ],
+      "context": [
+        {
+          "mp_name": "Kevin Michael Rudd",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Room upgrade",
+          "details": "Room upgrade at Peppers Pier Resort, Hervey Bay. Room upgrades at Park Hyatt, Melbourne"
+        }
+      ]
+    },
+    {
+      "entity": "Intercontinental Hotel, Sydney",
+      "proposed_splits": [
+        "Intercontinental Hotel",
+        "Sydney"
+      ],
+      "context": [
+        {
+          "mp_name": "Kevin Michael Rudd",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Hotel Room Upgrade",
+          "details": "Room upgrade at the Intercontinental Hotel, Sydney, provided by Intercontinental Hotel, Sydney, 20 November 2010"
+        },
+        {
+          "mp_name": "Kevin Michael Rudd",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Hotel Room Upgrade",
+          "details": "Room upgrade at the Intercontinental Hotel, Sydney, provided by Intercontinental Hotel, Sydney, 10-12 February 2011."
+        },
+        {
+          "mp_name": "Kevin Michael Rudd",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Hotel Room Upgrades",
+          "details": "Room upgrade at the Intercontinental Hotel, Sydney, provided by Intercontinental Hotel, Sydney, 13 October, 2011. Room upgrade at the Intercontinental Hotel, Sydney, provided by Intercontinental Hotel, Sydney, 16 October, 2011."
+        },
+        {
+          "mp_name": "Kevin Michael Rudd",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Hotel Room Upgrade",
+          "details": "Room upgrade at Intercontinental Hotel, Sydney provided by Intercontinental Hotel, Sydney on Friday, 5 October."
+        },
+        {
+          "mp_name": "Kevin Michael Rudd",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Hotel Room Upgrade",
+          "details": "Room upgrade at Intercontinental Hotel, Sydney provided by Intercontinental Hotel, Sydney on Wednesday, 17 October."
+        }
+      ]
+    },
+    {
+      "entity": "Madinat Jumeirah Hotel, Dubai, Intercontinental Hotel Sydney",
+      "proposed_splits": [
+        "Madinat Jumeirah Hotel",
+        "Dubai",
+        "Intercontinental Hotel Sydney"
+      ],
+      "context": [
+        {
+          "mp_name": "Kevin Michael Rudd",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Lunch and Hotel Accommodation/Upgrade",
+          "details": "Lunch at the Madinat Jumeirah Hotel, Dubai, provided by the Madinat Jumeirah Hotel, Dubai, 30 November 2010. One night accommodation at the Intercontinental Hotel, Sydney, provided by Intercontinental Hotel, Sydney, 18 January 2011. Room upgrade at the Intercontinental Hotel, Sydney, provided by Intercontinental Hotel, Sydney, 19 January 2011."
+        }
+      ]
+    },
+    {
+      "entity": "The Lenna of Hobart hotel, Hobart, Park Hyatt Melbourne",
+      "proposed_splits": [
+        "The Lenna of Hobart hotel",
+        "Hobart",
+        "Park Hyatt Melbourne"
+      ],
+      "context": [
+        {
+          "mp_name": "Kevin Michael Rudd",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Hotel Room Upgrades",
+          "details": "Room upgrade at The Lenna of Hobart hotel, Hobart, provided by the Lenna of Hobart, Hobart, 13 July 2011. Room upgrade at the Park Hyatt Melbourne, provided by the Park Hyatt Melbourne, 14 July 2011."
+        }
+      ]
+    },
+    {
+      "entity": "Intercontinental Hotel, Park Hyatt Hotel, Stamford Hotel, Shangri-La Hotel",
+      "proposed_splits": [
+        "Intercontinental Hotel",
+        "Park Hyatt Hotel",
+        "Stamford Hotel",
+        "Shangri-La Hotel"
+      ],
+      "context": [
+        {
+          "mp_name": "Kevin Michael Rudd",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Hotel Room Upgrades",
+          "details": "Room upgrade at the Intercontinental Hotel, Sydney, provided by Intercontinental Hotel, Sydney, 18 March 2011. Room upgrade at the Park Hyatt Hotel, Melbourne, provided by Park Hyatt Hotel, Melbourne, 31 March 2011. Room upgrade at the Intercontinental Hotel, Sydney, provided by Intercontinental Hotel, Sydney, 4 April 2011. Room upgrade at the Stamford Hotel, Brisbane, provided by Stamford Hotel, Brisbane, 6 April 2011. Room upgrade at the Shangri-La Hotel, Cairns, provided by Shangri-La Hotel, Cairns, 7 April 2011."
+        }
+      ]
+    },
+    {
+      "entity": "Park Hyatt Hotel, Melbourne",
+      "proposed_splits": [
+        "Park Hyatt Hotel",
+        "Melbourne"
+      ],
+      "context": [
+        {
+          "mp_name": "Kevin Michael Rudd",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Hotel Room Upgrade",
+          "details": "Room upgrade at the Park Hyatt Hotel, Melbourne, provided by the Park Hyatt Hotel, Melbourne on Wednesday, 9 November, 2011."
+        }
+      ]
+    },
+    {
+      "entity": "Park Hyatt Hotel, Melbourne; Intercontinental Hotel, Sydney; Emirates; Qantas",
+      "proposed_splits": [
+        "Park Hyatt Hotel",
+        "Melbourne; Intercontinental Hotel",
+        "Sydney; Emirates; Qantas"
+      ],
+      "context": [
+        {
+          "mp_name": "Kevin Michael Rudd",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Hotel Room Upgrades and Flight Upgrades",
+          "details": "Room upgrade at the Park Hyatt Hotel, Melbourne, provided by Park Hyatt, Melbourne, 22 December 2011. Room upgrade at the Intercontinental Hotel, Sydney, provided by Intercontinental Hotel, Sydney, 20 and 23 December 2011. Upgraded from Business to First Class, Emirates, Addis Ababa to Dubai, Thursday 26 January 2012. Upgraded from Business to First Class, Emirates, Dubai to Zurich, Friday 27 January 2012. Upgraded from Business to First Class, Qantas, Sydney to Hong Kong, Wednesday 30 November 2011. Upgraded from Economy to Business, Qantas, Canberra to Brisbane, Sunday 11 December 2011. Upgraded from Economy to Business, Qantas, Brisbane to Melbourne, Sunday 8 January 2012. Upgraded from Economy to Business, Qantas, Melbourne to Brisbane, Monday 9 January 2012."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1018 @@
+{
+  "batch_id": "comma_20",
+  "category": "comma",
+  "entities": [
+    {
+      "entity": "Cammermoor, Yeppoon",
+      "proposed_splits": [
+        "Cammermoor",
+        "Yeppoon"
+      ],
+      "context": [
+        {
+          "mp_name": "Michelle Landry",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House in Yeppoon",
+          "details": "Home"
+        }
+      ]
+    },
+    {
+      "entity": "National Aust Bank, Medibank",
+      "proposed_splits": [
+        "National Aust Bank",
+        "Medibank"
+      ],
+      "context": [
+        {
+          "mp_name": "Michelle Landry",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Shares",
+          "details": "NAB Shares, Shares"
+        }
+      ]
+    },
+    {
+      "entity": "Griffith, ACT",
+      "proposed_splits": [
+        "Griffith",
+        "ACT"
+      ],
+      "context": [
+        {
+          "mp_name": "Michelle Landry",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House in Griffith",
+          "details": "Residence"
+        },
+        {
+          "mp_name": "Julie Collins",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House in Griffith",
+          "details": "Second home for work (100% ownership)"
+        }
+      ]
+    },
+    {
+      "entity": "HUME BUILDING SOCIETY, NAB",
+      "proposed_splits": [
+        "HUME BUILDING SOCIETY",
+        "NAB"
+      ],
+      "context": [
+        {
+          "mp_name": "Sussan Ley",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings Account",
+          "details": "Self: SAVINGS, Spouse: SAVINGS SAVINGS, Dependent Children:"
+        }
+      ]
+    },
+    {
+      "entity": "NAB, Suncorp, Warwick Credit Union",
+      "proposed_splits": [
+        "NAB",
+        "Suncorp",
+        "Warwick Credit Union"
+      ],
+      "context": [
+        {
+          "mp_name": "David Littleproud",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings",
+          "details": "Savings"
+        },
+        {
+          "mp_name": "David Littleproud",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings",
+          "details": "Savings (dependent children)"
+        },
+        {
+          "mp_name": "David Littleproud",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings Account",
+          "details": "Savings - Dependent children"
+        }
+      ]
+    },
+    {
+      "entity": "Barton, ACT",
+      "proposed_splits": [
+        "Barton",
+        "ACT"
+      ],
+      "context": [
+        {
+          "mp_name": "David Littleproud",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House in Canberra",
+          "details": "Private residence in Canberra"
+        }
+      ]
+    },
+    {
+      "entity": "H.E. Orhan Tavli, Governor of Canakkale",
+      "proposed_splits": [
+        "H.E. Orhan Tavli",
+        "Governor of Canakkale"
+      ],
+      "context": [
+        {
+          "mp_name": "Michael McCormack",
+          "party": "National Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Framed Attaturk Picture",
+          "details": "ON THURSDAY 15 FEBRUARY 2018 I RECEIVED A GIFT OF A FRAMED ATTATURK PICTURE (VALUE $150) FROM H.E. ORHAN TAVLI, GOVERNORI OF CANAKKALE DURING A MEETING WITH THE GOVERNOR & PRESIDENT OF THE GALLIPOLI HISTORICAL PARK DIRECTORATE"
+        }
+      ]
+    },
+    {
+      "entity": "Prince Henry Heights, Toowoomba, QLD",
+      "proposed_splits": [
+        "Prince Henry Heights",
+        "Toowoomba",
+        "QLD"
+      ],
+      "context": [
+        {
+          "mp_name": "John Joseph McVeigh",
+          "party": "Liberal National Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Real Estate in Toowoomba",
+          "details": "Returning Member declaration: Real estate owned in Prince Henry Heights, Toowoomba, QLD"
+        },
+        {
+          "mp_name": "John Joseph McVeigh",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Investment Property in Toowoomba",
+          "details": "Returning Member declaration: Real estate investment in Prince Henry Heights, Toowoomba, QLD"
+        },
+        {
+          "mp_name": "John Mcveigh",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House in Toowoomba",
+          "details": "Residential (Spouse/partner)"
+        },
+        {
+          "mp_name": "John Mcveigh",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Investment Property in Toowoomba",
+          "details": "Investment (Spouse/partner)"
+        }
+      ]
+    },
+    {
+      "entity": "Pure Land Learning College Assoc, Toowoomba",
+      "proposed_splits": [
+        "Pure Land Learning College Assoc",
+        "Toowoomba"
+      ],
+      "context": [
+        {
+          "mp_name": "John Joseph McVeigh",
+          "party": "Liberal National Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Gift",
+          "details": "Gift from Pure Land Learning College Assoc, Toowoomba. Value Unknown"
+        }
+      ]
+    },
+    {
+      "entity": "Westpac, CBA",
+      "proposed_splits": [
+        "Westpac",
+        "CBA"
+      ],
+      "context": [
+        {
+          "mp_name": "Robert Mitchell",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings Accounts",
+          "details": "Savings accounts"
+        }
+      ]
+    },
+    {
+      "entity": "Southern Districts Rugby Union Club, Sylvania Waters.",
+      "proposed_splits": [
+        "Southern Districts Rugby Union Club",
+        "Sylvania Waters."
+      ],
+      "context": [
+        {
+          "mp_name": "Scott Morrison",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Season ticket to rugby home games",
+          "details": "Season ticket to home games of the Southern Districts Rugby Union Club, Sylvania Waters."
+        }
+      ]
+    },
+    {
+      "entity": "Joko Widodo, President of Indonesia",
+      "proposed_splits": [
+        "Joko Widodo",
+        "President of Indonesia"
+      ],
+      "context": [
+        {
+          "mp_name": "Scott Morrison",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Traditional Acehnese hat",
+          "details": "Gift of a Traditional Acehnese hat from the Indonesian President, Joko Widodo, valued at $750"
+        },
+        {
+          "mp_name": "Scott Morrison",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Wooden sculpture and carving sphere",
+          "details": "Gift of a large wooden sculpture and carving sphere with metal patterned detail on wooden stand from His Excellency Joko Widodo, President of Indonesia valued at $1596. Gift to be surrendered to the Department of Prime Minister and Cabinet."
+        }
+      ]
+    },
+    {
+      "entity": "Peter O'Neill, Prime Minister of Papua New Guinea",
+      "proposed_splits": [
+        "Peter O'Neill",
+        "Prime Minister of Papua New Guinea"
+      ],
+      "context": [
+        {
+          "mp_name": "Scott Morrison",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Other",
+          "item": "APEC Leaders Pin",
+          "details": "Gift of the APEC Leaders Pin received from the Hon. Peter O'Neill, Prime Minister of Papua New Guinea valued at $3804 to be surrendered to the Department of Prime Minister and Cabinet."
+        }
+      ]
+    },
+    {
+      "entity": "Mrs Estelle Tallis, First Lady of the Republic of Vanuatu",
+      "proposed_splits": [
+        "Mrs Estelle Tallis",
+        "First Lady of the Republic of Vanuatu"
+      ],
+      "context": [
+        {
+          "mp_name": "Scott Morrison",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Carved ivory pig tusk bracelet",
+          "details": "Gift from Mrs Estelle Tallis, First Lady of the Republic of Vanuatu, of carved ivory pig tusk bracelet valued at $990. To be retained."
+        }
+      ]
+    },
+    {
+      "entity": "Dr Shrish Acharya, Acting Medical Superintendent, Colonial War Memorial Hospital",
+      "proposed_splits": [
+        "Dr Shrish Acharya",
+        "Acting Medical Superintendent",
+        "Colonial War Memorial Hospital"
+      ],
+      "context": [
+        {
+          "mp_name": "Scott Morrison",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Traditional Fijian kava bowl",
+          "details": "Gift from Dr Shrish Acharya, Acting Medical Superintendent, Colonial War Memorial Hospital, of traditional Fijian kava bowl valued at $480. To be retained."
+        }
+      ]
+    },
+    {
+      "entity": "Buderim, QLD",
+      "proposed_splits": [
+        "Buderim",
+        "QLD"
+      ],
+      "context": [
+        {
+          "mp_name": "Edward Lynam O'Brien",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House in Buderim",
+          "details": "Private Residence"
+        }
+      ]
+    },
+    {
+      "entity": "Newstead, QLD",
+      "proposed_splits": [
+        "Newstead",
+        "QLD"
+      ],
+      "context": [
+        {
+          "mp_name": "Edward Lynam O'Brien",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Investment Property in Newstead",
+          "details": "Investment"
+        }
+      ]
+    },
+    {
+      "entity": "Maroochydore, QLD",
+      "proposed_splits": [
+        "Maroochydore",
+        "QLD"
+      ],
+      "context": [
+        {
+          "mp_name": "Edward Lynam O'Brien",
+          "party": "Liberal National Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential Property Development Part-Interest in Maroochydore",
+          "details": "Real Estate Investment - Acquired a minority part-interest in a residential property development in Maroochydore, QLD."
+        }
+      ]
+    },
+    {
+      "entity": "National Union of Workers, Emily's List",
+      "proposed_splits": [
+        "National Union of Workers",
+        "Emily's List"
+      ],
+      "context": [
+        {
+          "mp_name": "Clare O'Neil",
+          "party": "Australian Labor Party",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "National Union of Workers, Emily's List Membership",
+          "details": "National Union of Workers, Emily's List"
+        },
+        {
+          "mp_name": "Clare O'Neil",
+          "party": "Australian Labor Party",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Union & Emily's List Membership",
+          "details": "National Union of Workers, Emily's List"
+        }
+      ]
+    },
+    {
+      "entity": "Kingston, ACT",
+      "proposed_splits": [
+        "Kingston",
+        "ACT"
+      ],
+      "context": [
+        {
+          "mp_name": "Tanya Plibersek",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House in Kingston",
+          "details": "Residential"
+        },
+        {
+          "mp_name": "Stephen Jones",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Rental Property in Kingston",
+          "details": "Rental"
+        },
+        {
+          "mp_name": "Tanya Plibersek",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House in Kingston",
+          "details": "Residential"
+        },
+        {
+          "mp_name": "Melissa Price",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Other Gift",
+          "item": "MP responsibilities",
+          "details": "MP responsibilities"
+        },
+        {
+          "mp_name": "Kristy Mcbain",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Investment Property in Kingston",
+          "details": "Add to self: Investment"
+        }
+      ]
+    },
+    {
+      "entity": "Rosebery, NSW",
+      "proposed_splits": [
+        "Rosebery",
+        "NSW"
+      ],
+      "context": [
+        {
+          "mp_name": "Tanya Plibersek",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House in Rosebery",
+          "details": "Residential"
+        },
+        {
+          "mp_name": "Tanya Plibersek",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Residential House in Rosebery",
+          "details": "Residential (with spouse)"
+        }
+      ]
+    },
+    {
+      "entity": "Ljubljana, Slovenia",
+      "proposed_splits": [
+        "Ljubljana",
+        "Slovenia"
+      ],
+      "context": [
+        {
+          "mp_name": "Tanya Plibersek",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Investment Apartment in Ljubljana",
+          "details": "Residential Investment Property, Joint owner (with spouse)"
+        },
+        {
+          "mp_name": "Tanya Plibersek",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Investment Apartment in Ljubljana",
+          "details": "Investment (with spouse)"
+        },
+        {
+          "mp_name": "Tanya Plibersek",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Investment Apartment in Ljubljana",
+          "details": "Investment (with spouse)"
+        },
+        {
+          "mp_name": "Tanya Plibersek",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Investment Property in Ljubljana",
+          "details": "Investment (with spouse)"
+        },
+        {
+          "mp_name": "Tanya Plibersek",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Investment Property in Ljubljana",
+          "details": "Investment (with spouse)"
+        }
+      ]
+    },
+    {
+      "entity": "AICD, Women on Boards",
+      "proposed_splits": [
+        "AICD",
+        "Women on Boards"
+      ],
+      "context": [
+        {
+          "mp_name": "Melissa Price",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": NaN,
+          "details": ""
+        }
+      ]
+    },
+    {
+      "entity": "ANZ, BANK SA",
+      "proposed_splits": [
+        "ANZ",
+        "BANK SA"
+      ],
+      "context": [
+        {
+          "mp_name": "Rowan Ramsey",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Bank Account",
+          "details": "BANK ACCOUNTS"
+        }
+      ]
+    },
+    {
+      "entity": "State Minister for Tourism, the Hon Leon Bignell MP",
+      "proposed_splits": [
+        "State Minister for Tourism",
+        "the Hon Leon Bignell MP"
+      ],
+      "context": [
+        {
+          "mp_name": "Amanda Rishworth",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "General admission tickets to WOMADelaide",
+          "details": "Received two complimentary general admission tickets to attend WOMADelaide. Attended with husband, Tim Walker."
+        }
+      ]
+    },
+    {
+      "entity": "former State Minister for Tourism, the Hon Leon Bignell MP",
+      "proposed_splits": [
+        "former State Minister for Tourism",
+        "the Hon Leon Bignell MP"
+      ],
+      "context": [
+        {
+          "mp_name": "Amanda Rishworth",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "General admission tickets to WOMADelaide",
+          "details": "Received two complimentary general admission tickets to attend WOMADelaide from Friday 09 March until Monday 12 March 2017. Attended a number of performances with husband, Tim Walker, over the course of the weekend."
+        }
+      ]
+    },
+    {
+      "entity": "Grand Hyatt, Taiwan",
+      "proposed_splits": [
+        "Grand Hyatt",
+        "Taiwan"
+      ],
+      "context": [
+        {
+          "mp_name": "Michelle Rowland",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Accommodation in Taiwan",
+          "details": "Accommodation at the Grand Hyatt, Taiwan from 30 April \u2013 4 May 2018"
+        }
+      ]
+    },
+    {
+      "entity": "CUA, NAB",
+      "proposed_splits": [
+        "CUA",
+        "NAB"
+      ],
+      "context": [
+        {
+          "mp_name": "Joanne Ryan",
+          "party": "Australian Labor Party",
+          "category": "Liability",
+          "sub_category": "Mortgage",
+          "item": "Mortgage, Personal Loan, Credit Card",
+          "details": "Mortgage - Joint with Spouse, Personal Loan (CUA), Mortgage - As Above, Credit Card (NAB), Dependent Children: N/A"
+        },
+        {
+          "mp_name": "Joanne Ryan",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Savings & Cheque Accounts",
+          "details": "Savings (CUA), Cheque (NAB), Dependent Children: N/A"
+        }
+      ]
+    },
+    {
+      "entity": "Werribee Netball Association, Western Environment Centre, AEU, ALP, AWY",
+      "proposed_splits": [
+        "Werribee Netball Association",
+        "Western Environment Centre",
+        "AEU",
+        "ALP",
+        "AWY"
+      ],
+      "context": [
+        {
+          "mp_name": "Joanne Ryan",
+          "party": "Australian Labor Party",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Association Memberships",
+          "details": "Life Member Werribee Netball Association, Member Western Environment Centre, Member AEU, Member ALP, Member AWY"
+        }
+      ]
+    },
+    {
+      "entity": "ZONTA CLUB OF MOUNT BARKER, SCOUTS SA TORRENS VALLEY",
+      "proposed_splits": [
+        "ZONTA CLUB OF MOUNT BARKER",
+        "SCOUTS SA TORRENS VALLEY"
+      ],
+      "context": [
+        {
+          "mp_name": "Rebekha Sharkie",
+          "party": "Centre Alliance",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "Organisation Membership",
+          "details": "MEMBER OF ZONTA INTERNATIONAL, COMMITTEE MEMBER, MEMBER OF SCOUTS SA TORRENS VALLEY"
+        }
+      ]
+    },
+    {
+      "entity": "Financial Contributor, Nick Xenophon Team",
+      "proposed_splits": [
+        "Financial Contributor",
+        "Nick Xenophon Team"
+      ],
+      "context": [
+        {
+          "mp_name": "Rebekha Sharkie",
+          "party": "Centre Alliance",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Financial Contributor",
+          "details": "Financial Contributor, Nick Xenophon Team"
+        }
+      ]
+    },
+    {
+      "entity": "Qantas, Virgin Australia, Foxtel, ASTRA",
+      "proposed_splits": [
+        "Qantas",
+        "Virgin Australia",
+        "Foxtel",
+        "ASTRA"
+      ],
+      "context": [
+        {
+          "mp_name": "Anthony David Hawthorn Smith",
+          "party": "Liberal Party of Australia",
+          "category": "Membership",
+          "sub_category": "Professional",
+          "item": "Complimentary Memberships",
+          "details": "Complimentary Qantas Chairman's Lounge Membership, Complimentary Platinum Membership - Virgin Australia, Complimentary Foxtel Services to Electorate Office at Suite One, 1 East Ridge Drive, Chirnside Park, Victoria by Australian Subscription Television and Radio Association (ASTRA)"
+        }
+      ]
+    },
+    {
+      "entity": "YourLawyer Pty Ltd, Ringwood",
+      "proposed_splits": [
+        "YourLawyer Pty Ltd",
+        "Ringwood"
+      ],
+      "context": [
+        {
+          "mp_name": "Anthony David Hawthorn Smith",
+          "party": "Liberal Party of Australia",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Pro bono Legal Advice",
+          "details": "Pro bono legal advice for me in relation to a dispute between a constituent and another party. Legal advice provided by YourLawyer Pty Ltd, Ringwood."
+        }
+      ]
+    },
+    {
+      "entity": "Eastern Suburbs Rugby Club, Canberra",
+      "proposed_splits": [
+        "Eastern Suburbs Rugby Club",
+        "Canberra"
+      ],
+      "context": [
+        {
+          "mp_name": "Warren Snowdon",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Patronage",
+          "details": "Patron"
+        }
+      ]
+    },
+    {
+      "entity": "NAB Equity Lending, Homeside Lending",
+      "proposed_splits": [
+        "NAB Equity Lending",
+        "Homeside Lending"
+      ],
+      "context": [
+        {
+          "mp_name": "Wayne Maxwell Swan",
+          "party": "Australian Labor Party",
+          "category": "Liability",
+          "sub_category": "Loan",
+          "item": "Margin Loan, Equity Loans",
+          "details": "Margin Loan, Homeside Equity Loans (Joint), Homeside Equity Personal Loan (Joint)"
+        }
+      ]
+    },
+    {
+      "entity": "Macquarie, MLC, NAB",
+      "proposed_splits": [
+        "Macquarie",
+        "MLC",
+        "NAB"
+      ],
+      "context": [
+        {
+          "mp_name": "Wayne Maxwell Swan",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Cash Management Trust, Unit Trust, Savings Account",
+          "details": "Cash Management Trust (Joint), Unit Trust, Savings Account"
+        }
+      ]
+    },
+    {
+      "entity": "Macquarie, NAB",
+      "proposed_splits": [
+        "Macquarie",
+        "NAB"
+      ],
+      "context": [
+        {
+          "mp_name": "Wayne Maxwell Swan",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Cash Management Trust, Savings Account",
+          "details": "Cash Management Trust (Joint), Savings Account (Spouse)"
+        }
+      ]
+    },
+    {
+      "entity": "The Roosevelt Hotel, New York",
+      "proposed_splits": [
+        "The Roosevelt Hotel",
+        "New York"
+      ],
+      "context": [
+        {
+          "mp_name": "Wayne Maxwell Swan",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Accommodation at The Roosevelt Hotel, New York",
+          "details": "Accepted five nights' accommodation at The Roosevelt Hotel, New York."
+        }
+      ]
+    },
+    {
+      "entity": "Royal Princess Hotel Larn Luang, Bangkok",
+      "proposed_splits": [
+        "Royal Princess Hotel Larn Luang",
+        "Bangkok"
+      ],
+      "context": [
+        {
+          "mp_name": "Wayne Maxwell Swan",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Accommodation at Royal Princess Hotel Larn Luang, Bangkok",
+          "details": "Accepted two nights accommodation (5-6 December 2016) at the Royal Princess Hotel Larn Luang, Bangkok from UNESCAP."
+        }
+      ]
+    },
+    {
+      "entity": "Royal Princess Larn Luang Hotel, Bangkok",
+      "proposed_splits": [
+        "Royal Princess Larn Luang Hotel",
+        "Bangkok"
+      ],
+      "context": [
+        {
+          "mp_name": "Wayne Maxwell Swan",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Accommodation at the Royal Princess Larn Luang Hotel, Bangkok",
+          "details": "Accepted two nights' accommodation (27-28 April 2017) at the Royal Princess Larn Luang Hotel, Bangkok from UNESCAP."
+        },
+        {
+          "mp_name": "Wayne Maxwell Swan",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Accommodation at the Royal Princess Larn Luang Hotel, Bangkok",
+          "details": "Accepted two nights' accommodation (5&6 December 2017) at the Royal Princess Larn Luang Hotel, Bangkok from UNESCAP."
+        }
+      ]
+    },
+    {
+      "entity": "Huating Hotel, Shanghai",
+      "proposed_splits": [
+        "Huating Hotel",
+        "Shanghai"
+      ],
+      "context": [
+        {
+          "mp_name": "Wayne Maxwell Swan",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Accommodation at the Huating Hotel, Shanghai",
+          "details": "Accepted two nights accommodation at the Huating Hotel, Shanghai, China."
+        }
+      ]
+    },
+    {
+      "entity": "Atura Hotel, Blacktown",
+      "proposed_splits": [
+        "Atura Hotel",
+        "Blacktown"
+      ],
+      "context": [
+        {
+          "mp_name": "Wayne Maxwell Swan",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Accommodation at the Atura Hotel, Blacktown",
+          "details": "Accepted one night's accommodation on 15 May 2017 at the Atura Hotel, Blacktown."
+        }
+      ]
+    },
+    {
+      "entity": "Hotel Mulia Senayan, Jakarta",
+      "proposed_splits": [
+        "Hotel Mulia Senayan",
+        "Jakarta"
+      ],
+      "context": [
+        {
+          "mp_name": "Wayne Maxwell Swan",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Accommodation at the Hotel Mulia Senayan, Jakarta",
+          "details": "Accepted one nights' accommodation on the 12 July 2017 at the Hotel Mulia Senayan, Jakarta, Indonesia."
+        }
+      ]
+    },
+    {
+      "entity": "SMART Infrastructure Facility, University of Wollongong",
+      "proposed_splits": [
+        "SMART Infrastructure Facility",
+        "University of Wollongong"
+      ],
+      "context": [
+        {
+          "mp_name": "Wayne Maxwell Swan",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Accommodation at the Grange Blooms Hotel, London",
+          "details": "Accepted three nights' accommodation (10,11 &12 September 2017) at the Grange Blooms Hotel, London from the SMART Infrastructure Facility, University of Wollongong for participation in a panel session \"Governance of Infrastructure Systems and Services\" at the International Symposia for Next Generation Infrastructure on 12 September 2017."
+        }
+      ]
+    },
+    {
+      "entity": "InterContinental Hotel, Adelaide",
+      "proposed_splits": [
+        "InterContinental Hotel",
+        "Adelaide"
+      ],
+      "context": [
+        {
+          "mp_name": "Wayne Maxwell Swan",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Accommodation at the InterContinental Hotel, Adelaide",
+          "details": "Accepted one night's accommodation at the InterContinental Hotel, Adelaide."
+        }
+      ]
+    },
+    {
+      "entity": "Hilton Hotel, Sydney",
+      "proposed_splits": [
+        "Hilton Hotel",
+        "Sydney"
+      ],
+      "context": [
+        {
+          "mp_name": "Wayne Maxwell Swan",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Accommodation at the Hilton Hotel, Sydney",
+          "details": "Accepted one night's accommodation at the Hilton Hotel, Sydney."
+        }
+      ]
+    },
+    {
+      "entity": "Padma Legian Hotel, Bali",
+      "proposed_splits": [
+        "Padma Legian Hotel",
+        "Bali"
+      ],
+      "context": [
+        {
+          "mp_name": "Wayne Maxwell Swan",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Accommodation at the Padma Legian Hotel, Bali",
+          "details": "Accepted three nights' accommodation at the Padma Legian Hotel, Bali."
+        }
+      ]
+    },
+    {
+      "entity": "Roger Smith, Hotel, New York",
+      "proposed_splits": [
+        "Roger Smith",
+        "Hotel",
+        "New York"
+      ],
+      "context": [
+        {
+          "mp_name": "Wayne Maxwell Swan",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Accommodation at the Roger Smith, Hotel, New York",
+          "details": "Accepted two nights' accommodation at the Roger Smith, Hotel, New York."
+        }
+      ]
+    },
+    {
+      "entity": "Hotel Orsay, Paris",
+      "proposed_splits": [
+        "Hotel Orsay",
+        "Paris"
+      ],
+      "context": [
+        {
+          "mp_name": "Wayne Maxwell Swan",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Accommodation at the Hotel Orsay, Paris",
+          "details": "Accepted three nights' accommodation at the Hotel Orsay, Paris."
+        }
+      ]
+    },
+    {
+      "entity": "Radisson Blu Hotel, Berlin",
+      "proposed_splits": [
+        "Radisson Blu Hotel",
+        "Berlin"
+      ],
+      "context": [
+        {
+          "mp_name": "Wayne Maxwell Swan",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Accommodation at the Radisson Blu Hotel, Berlin",
+          "details": "Accepted three nights' accommodation at the Radisson Blu Hotel, Berlin."
+        }
+      ]
+    }
+  ]
+}

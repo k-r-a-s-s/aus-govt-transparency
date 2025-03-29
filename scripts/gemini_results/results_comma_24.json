@@ -1,0 +1,430 @@
+{
+  "batch_id": "comma_24",
+  "category": "comma",
+  "entities_count": 50,
+  "analysis_results": [
+    {
+      "entity_name": "Virgin, Qantas",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Virgin and Qantas are two separate and well-known Australian airlines.  The context examples clearly indicate reference to both.",
+      "split_entities": [
+        "Virgin",
+        "Qantas"
+      ]
+    },
+    {
+      "entity_name": "RK Singh, Indian Minister for Energy",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This refers to a single individual, RK Singh, who holds the position of Indian Minister for Energy.  The title is descriptive, not a separate entity.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Tim Walz, Governor of Minnesota",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This refers to a single person, Tim Walz, who is the Governor of Minnesota. The title is descriptive, not a separate entity.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Taroom, QLD",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Taroom is a town in Queensland. QLD is an abbreviation for Queensland, and the phrase describes a location.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Wandoan, QLD",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Wandoan is a town in Queensland. QLD is an abbreviation for Queensland, and the phrase describes a location.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "DUGANDAN, QLD",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "DUGANDAN is a town in Queensland. QLD is an abbreviation for Queensland; the phrase describes a location.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "BARTON, ACT",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "BARTON is a suburb in the Australian Capital Territory (ACT). The phrase describes a location.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "BLACKWATER, QLD",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "BLACKWATER is a town in Queensland. QLD is an abbreviation for Queensland; the phrase describes a location.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "WOOLLOONGABBA, QLD",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "WOOLLOONGABBA is a suburb of Brisbane, Queensland. QLD is an abbreviation for Queensland; the phrase describes a location.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "ALP, United Services Union",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "ALP (Australian Labor Party) and the United Services Union are two distinct Australian organizations.",
+      "split_entities": [
+        "ALP",
+        "United Services Union"
+      ]
+    },
+    {
+      "entity_name": "Perpetual, MLC, Vanguard",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Perpetual, MLC, and Vanguard are separate financial services organizations operating in Australia.",
+      "split_entities": [
+        "Perpetual",
+        "MLC",
+        "Vanguard"
+      ]
+    },
+    {
+      "entity_name": "Hollywell, Queensland",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Hollywell is a suburb in Queensland. The phrase describes a location.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Coombabah, Queensland",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Coombabah is a suburb in Queensland. The phrase describes a location.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Australian Rugby League Commission, National Rugby League",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct, albeit related, organizations governing rugby league in Australia.",
+      "split_entities": [
+        "Australian Rugby League Commission",
+        "National Rugby League"
+      ]
+    },
+    {
+      "entity_name": "Peter King (Westpac), Andrew Abdo (NRL)",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two individuals are named, each affiliated with a different organization (Westpac and NRL).",
+      "split_entities": [
+        "Peter King (Westpac)",
+        "Andrew Abdo (NRL)"
+      ]
+    },
+    {
+      "entity_name": "CBA, ANZ, Credit Suisse",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "CBA (Commonwealth Bank of Australia), ANZ (Australia and New Zealand Banking Group), and Credit Suisse are separate banks.",
+      "split_entities": [
+        "CBA",
+        "ANZ",
+        "Credit Suisse"
+      ]
+    },
+    {
+      "entity_name": "Qantas, The Club, Virgin",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Qantas and Virgin are airlines, and 'The Club' likely refers to an airport lounge access program, making this multiple entities.",
+      "split_entities": [
+        "Qantas",
+        "The Club",
+        "Virgin"
+      ]
+    },
+    {
+      "entity_name": "Hampton, Victoria",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Hampton is a suburb in Victoria. The phrase describes a location.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Separation Creek, Victoria",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Separation Creek is a town in Victoria. The phrase describes a location.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Ray Purcell, Grow Hope Foundation",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Ray Purcell is an individual, and Grow Hope Foundation is a separate organization.",
+      "split_entities": [
+        "Ray Purcell",
+        "Grow Hope Foundation"
+      ]
+    },
+    {
+      "entity_name": "Australian Workers Union of Employees, Qld",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This is a single organization, the Australian Workers Union of Employees, with its location specified as Queensland.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Professor Ben Saul, The University of Sydney",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Professor Ben Saul is an individual, and The University of Sydney is a separate entity.",
+      "split_entities": [
+        "Professor Ben Saul",
+        "The University of Sydney"
+      ]
+    },
+    {
+      "entity_name": "QBank, NAB, CBA, Westpac",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are all separate Australian banks.",
+      "split_entities": [
+        "QBank",
+        "NAB",
+        "CBA",
+        "Westpac"
+      ]
+    },
+    {
+      "entity_name": "ANZ, QBank, NAB, Westpac",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are all separate Australian banks.",
+      "split_entities": [
+        "ANZ",
+        "QBank",
+        "NAB",
+        "Westpac"
+      ]
+    },
+    {
+      "entity_name": "H.E. Mr Ph\u1ea1m Minh Ch\u00ednh, Prime Minister of the Socialist Republic of Vietnam",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "This refers to a single individual, H.E. Mr Ph\u1ea1m Minh Ch\u00ednh, and his title.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Malanda, Queensland",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Malanda is a town in Queensland. The phrase describes a location.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Brinsmead, Queensland",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Brinsmead is a suburb in Queensland. The phrase describes a location.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Mooroobool, Queensland",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Mooroobool is a suburb in Queensland. The phrase describes a location.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Roseville, NSW",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Roseville is a suburb in New South Wales (NSW). The phrase describes a location.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Paddington, NSW",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Paddington is a suburb in New South Wales (NSW). The phrase describes a location.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Lettomanopello, Italy",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Lettomanopello is a town in Italy.  The phrase describes a location.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Wombarra, NSW",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Wombarra is a suburb in New South Wales (NSW). The phrase describes a location.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Newtown, NSW",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Newtown is a suburb in New South Wales (NSW). The phrase describes a location.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Country Mile Superannuation Pty Ltd, ACGee Pty Ltd",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate Pty Ltd companies.",
+      "split_entities": [
+        "Country Mile Superannuation Pty Ltd",
+        "ACGee Pty Ltd"
+      ]
+    },
+    {
+      "entity_name": "Commonwealth Bank, Liberty Financial",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate financial institutions.",
+      "split_entities": [
+        "Commonwealth Bank",
+        "Liberty Financial"
+      ]
+    },
+    {
+      "entity_name": "GRIFFITH, ACT",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Griffith is a suburb in the Australian Capital Territory (ACT). The phrase describes a location.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "ALI Group, MSBS, Australian Super Fund",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These appear to be three separate financial services entities.",
+      "split_entities": [
+        "ALI Group",
+        "MSBS",
+        "Australian Super Fund"
+      ]
+    },
+    {
+      "entity_name": "ALI Group, Australian Super Fund",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two separate financial services entities.",
+      "split_entities": [
+        "ALI Group",
+        "Australian Super Fund"
+      ]
+    },
+    {
+      "entity_name": "Foxtel, Melbourne Conversazioni",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Foxtel is a television provider, and Melbourne Conversazioni seems to be a separate organization or event.",
+      "split_entities": [
+        "Foxtel",
+        "Melbourne Conversazioni"
+      ]
+    },
+    {
+      "entity_name": "Lismore, Ballina",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Lismore and Ballina are separate towns in NSW, Australia.",
+      "split_entities": [
+        "Lismore",
+        "Ballina"
+      ]
+    },
+    {
+      "entity_name": "Qantas, Virgin, ASTRA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Qantas and Virgin are airlines; ASTRA is likely a separate entity (requires further context for complete certainty).",
+      "split_entities": [
+        "Qantas",
+        "Virgin",
+        "ASTRA"
+      ]
+    },
+    {
+      "entity_name": "Canberra, ACT",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Canberra is the capital city of Australia, located in the Australian Capital Territory (ACT). The phrase describes a location.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Australian Club, Sydney",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "The Australian Club is a single organization located in Sydney.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Newcastle Club, Newcastle",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "The Newcastle Club is a single organization located in Newcastle.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Qantas, Assange Campaign Group",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Qantas is an airline, and the Assange Campaign Group is a separate advocacy group.",
+      "split_entities": [
+        "Qantas",
+        "Assange Campaign Group"
+      ]
+    },
+    {
+      "entity_name": "ANZ, Commonwealth, Westpac, Qld Country Bank, etc.",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are all separate financial institutions, with \"etc.\" indicating more unspecified entities.",
+      "split_entities": [
+        "ANZ",
+        "Commonwealth",
+        "Westpac",
+        "Qld Country Bank",
+        "etc."
+      ]
+    },
+    {
+      "entity_name": "Brunswick, VIC",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Brunswick is a suburb in Victoria (VIC). The phrase describes a location.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Hervey Bay, QLD",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Hervey Bay is a city in Queensland (QLD). The phrase describes a location.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Harmers Haven, VIC",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Harmers Haven appears to be a location within Victoria (VIC). The phrase describes a location.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Melbourne, VIC",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Melbourne is a city in Victoria (VIC). The phrase describes a location.",
+      "split_entities": []
+    }
+  ],
+  "raw_response": "```json\n[\n  {\n    \"entity_name\": \"Virgin, Qantas\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Virgin and Qantas are two separate and well-known Australian airlines.  The context examples clearly indicate reference to both.\",\n    \"split_entities\": [\"Virgin\", \"Qantas\"]\n  },\n  {\n    \"entity_name\": \"RK Singh, Indian Minister for Energy\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This refers to a single individual, RK Singh, who holds the position of Indian Minister for Energy.  The title is descriptive, not a separate entity.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Tim Walz, Governor of Minnesota\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This refers to a single person, Tim Walz, who is the Governor of Minnesota. The title is descriptive, not a separate entity.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Taroom, QLD\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Taroom is a town in Queensland. QLD is an abbreviation for Queensland, and the phrase describes a location.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Wandoan, QLD\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Wandoan is a town in Queensland. QLD is an abbreviation for Queensland, and the phrase describes a location.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"DUGANDAN, QLD\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"DUGANDAN is a town in Queensland. QLD is an abbreviation for Queensland; the phrase describes a location.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"BARTON, ACT\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"BARTON is a suburb in the Australian Capital Territory (ACT). The phrase describes a location.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"BLACKWATER, QLD\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"BLACKWATER is a town in Queensland. QLD is an abbreviation for Queensland; the phrase describes a location.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"WOOLLOONGABBA, QLD\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"WOOLLOONGABBA is a suburb of Brisbane, Queensland. QLD is an abbreviation for Queensland; the phrase describes a location.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"ALP, United Services Union\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"ALP (Australian Labor Party) and the United Services Union are two distinct Australian organizations.\",\n    \"split_entities\": [\"ALP\", \"United Services Union\"]\n  },\n  {\n    \"entity_name\": \"Perpetual, MLC, Vanguard\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Perpetual, MLC, and Vanguard are separate financial services organizations operating in Australia.\",\n    \"split_entities\": [\"Perpetual\", \"MLC\", \"Vanguard\"]\n  },\n  {\n    \"entity_name\": \"Hollywell, Queensland\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Hollywell is a suburb in Queensland. The phrase describes a location.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Coombabah, Queensland\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Coombabah is a suburb in Queensland. The phrase describes a location.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Australian Rugby League Commission, National Rugby League\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct, albeit related, organizations governing rugby league in Australia.\",\n    \"split_entities\": [\"Australian Rugby League Commission\", \"National Rugby League\"]\n  },\n  {\n    \"entity_name\": \"Peter King (Westpac), Andrew Abdo (NRL)\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two individuals are named, each affiliated with a different organization (Westpac and NRL).\",\n    \"split_entities\": [\"Peter King (Westpac)\", \"Andrew Abdo (NRL)\"]\n  },\n  {\n    \"entity_name\": \"CBA, ANZ, Credit Suisse\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"CBA (Commonwealth Bank of Australia), ANZ (Australia and New Zealand Banking Group), and Credit Suisse are separate banks.\",\n    \"split_entities\": [\"CBA\", \"ANZ\", \"Credit Suisse\"]\n  },\n  {\n    \"entity_name\": \"Qantas, The Club, Virgin\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Qantas and Virgin are airlines, and 'The Club' likely refers to an airport lounge access program, making this multiple entities.\",\n    \"split_entities\": [\"Qantas\", \"The Club\", \"Virgin\"]\n  },\n  {\n    \"entity_name\": \"Hampton, Victoria\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Hampton is a suburb in Victoria. The phrase describes a location.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Separation Creek, Victoria\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Separation Creek is a town in Victoria. The phrase describes a location.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Ray Purcell, Grow Hope Foundation\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Ray Purcell is an individual, and Grow Hope Foundation is a separate organization.\",\n    \"split_entities\": [\"Ray Purcell\", \"Grow Hope Foundation\"]\n  },\n  {\n    \"entity_name\": \"Australian Workers Union of Employees, Qld\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This is a single organization, the Australian Workers Union of Employees, with its location specified as Queensland.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Professor Ben Saul, The University of Sydney\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Professor Ben Saul is an individual, and The University of Sydney is a separate entity.\",\n    \"split_entities\": [\"Professor Ben Saul\", \"The University of Sydney\"]\n  },\n  {\n    \"entity_name\": \"QBank, NAB, CBA, Westpac\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are all separate Australian banks.\",\n    \"split_entities\": [\"QBank\", \"NAB\", \"CBA\", \"Westpac\"]\n  },\n  {\n    \"entity_name\": \"ANZ, QBank, NAB, Westpac\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are all separate Australian banks.\",\n    \"split_entities\": [\"ANZ\", \"QBank\", \"NAB\", \"Westpac\"]\n  },\n  {\n    \"entity_name\": \"H.E. Mr Ph\u1ea1m Minh Ch\u00ednh, Prime Minister of the Socialist Republic of Vietnam\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"This refers to a single individual, H.E. Mr Ph\u1ea1m Minh Ch\u00ednh, and his title.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Malanda, Queensland\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Malanda is a town in Queensland. The phrase describes a location.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Brinsmead, Queensland\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Brinsmead is a suburb in Queensland. The phrase describes a location.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Mooroobool, Queensland\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Mooroobool is a suburb in Queensland. The phrase describes a location.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Roseville, NSW\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Roseville is a suburb in New South Wales (NSW). The phrase describes a location.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Paddington, NSW\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Paddington is a suburb in New South Wales (NSW). The phrase describes a location.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Lettomanopello, Italy\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Lettomanopello is a town in Italy.  The phrase describes a location.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Wombarra, NSW\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Wombarra is a suburb in New South Wales (NSW). The phrase describes a location.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Newtown, NSW\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Newtown is a suburb in New South Wales (NSW). The phrase describes a location.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Country Mile Superannuation Pty Ltd, ACGee Pty Ltd\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate Pty Ltd companies.\",\n    \"split_entities\": [\"Country Mile Superannuation Pty Ltd\", \"ACGee Pty Ltd\"]\n  },\n  {\n    \"entity_name\": \"Commonwealth Bank, Liberty Financial\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate financial institutions.\",\n    \"split_entities\": [\"Commonwealth Bank\", \"Liberty Financial\"]\n  },\n  {\n    \"entity_name\": \"GRIFFITH, ACT\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Griffith is a suburb in the Australian Capital Territory (ACT). The phrase describes a location.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"ALI Group, MSBS, Australian Super Fund\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These appear to be three separate financial services entities.\",\n    \"split_entities\": [\"ALI Group\", \"MSBS\", \"Australian Super Fund\"]\n  },\n  {\n    \"entity_name\": \"ALI Group, Australian Super Fund\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two separate financial services entities.\",\n    \"split_entities\": [\"ALI Group\", \"Australian Super Fund\"]\n  },\n  {\n    \"entity_name\": \"Foxtel, Melbourne Conversazioni\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Foxtel is a television provider, and Melbourne Conversazioni seems to be a separate organization or event.\",\n    \"split_entities\": [\"Foxtel\", \"Melbourne Conversazioni\"]\n  },\n  {\n    \"entity_name\": \"Lismore, Ballina\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Lismore and Ballina are separate towns in NSW, Australia.\",\n    \"split_entities\": [\"Lismore\", \"Ballina\"]\n  },\n  {\n    \"entity_name\": \"Qantas, Virgin, ASTRA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Qantas and Virgin are airlines; ASTRA is likely a separate entity (requires further context for complete certainty).\",\n    \"split_entities\": [\"Qantas\", \"Virgin\", \"ASTRA\"]\n  },\n  {\n    \"entity_name\": \"Canberra, ACT\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Canberra is the capital city of Australia, located in the Australian Capital Territory (ACT). The phrase describes a location.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Australian Club, Sydney\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"The Australian Club is a single organization located in Sydney.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Newcastle Club, Newcastle\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"The Newcastle Club is a single organization located in Newcastle.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Qantas, Assange Campaign Group\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Qantas is an airline, and the Assange Campaign Group is a separate advocacy group.\",\n    \"split_entities\": [\"Qantas\", \"Assange Campaign Group\"]\n  },\n  {\n    \"entity_name\": \"ANZ, Commonwealth, Westpac, Qld Country Bank, etc.\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are all separate financial institutions, with \\\"etc.\\\" indicating more unspecified entities.\",\n    \"split_entities\": [\"ANZ\", \"Commonwealth\", \"Westpac\", \"Qld Country Bank\", \"etc.\"]\n  },\n  {\n    \"entity_name\": \"Brunswick, VIC\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Brunswick is a suburb in Victoria (VIC). The phrase describes a location.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Hervey Bay, QLD\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Hervey Bay is a city in Queensland (QLD). The phrase describes a location.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Harmers Haven, VIC\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Harmers Haven appears to be a location within Victoria (VIC). The phrase describes a location.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Melbourne, VIC\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Melbourne is a city in Victoria (VIC). The phrase describes a location.\",\n    \"split_entities\": []\n  }\n]\n```\n"
+}

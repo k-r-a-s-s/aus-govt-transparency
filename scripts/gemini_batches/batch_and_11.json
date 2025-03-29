@@ -1,0 +1,324 @@
+{
+  "batch_id": "and_11",
+  "category": "and",
+  "entities": [
+    {
+      "entity": "Council of Minerals and Energy",
+      "proposed_splits": [
+        "Council of Minerals",
+        "Energy"
+      ],
+      "context": [
+        {
+          "mp_name": "Meryl Swanson",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Travel to Pilbara Region",
+          "details": "Travel to the Pilbara region hosted by the Council of Minerals and Energy to experience a better understanding of the industry - briefings by stakeholders"
+        }
+      ]
+    },
+    {
+      "entity": "Western Sydney Wanderers and Turner Freeman Lawyers",
+      "proposed_splits": [
+        "Western Sydney Wanderers",
+        "Turner Freeman Lawyers"
+      ],
+      "context": [
+        {
+          "mp_name": "Susan Templeman",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Tickets WSW FC v Sydney FC",
+          "details": "3 tickets WSW FC v Sydney FC $1,122 11/02/2023"
+        }
+      ]
+    },
+    {
+      "entity": "Becketts Bar and Dining",
+      "proposed_splits": [
+        "Becketts Bar",
+        "Dining"
+      ],
+      "context": [
+        {
+          "mp_name": "Susan Templeman",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Tickets to Theatre Vignette #6",
+          "details": "2 tickets Theatre Vignette #6 $400 23/02/2023"
+        }
+      ]
+    },
+    {
+      "entity": "Qantas Lounge and Virgin Club",
+      "proposed_splits": [
+        "Qantas Lounge",
+        "Virgin Club"
+      ],
+      "context": [
+        {
+          "mp_name": "Ross Vasta",
+          "party": "Liberal National Party",
+          "category": "Membership",
+          "sub_category": "Professional",
+          "item": "Qantas/Virgin Lounge Membership",
+          "details": "Qantas Lounge and Virgin Club"
+        }
+      ]
+    },
+    {
+      "entity": "Qantas, Virgin, Zero 95, Belgrave Football and Netball club, Eastern Football League, Foxtel",
+      "proposed_splits": [
+        "Qantas",
+        "Virgin",
+        "Zero 95",
+        "Belgrave Football",
+        "Netball club",
+        "Eastern Football League",
+        "Foxtel"
+      ],
+      "context": [
+        {
+          "mp_name": "Aaron Violi",
+          "party": "Liberal Party of Australia",
+          "category": "Membership",
+          "sub_category": "Professional",
+          "item": "Lounge Memberships, Vouchers & Subscriptions",
+          "details": "Qantas Chairman's Lounge Membership, Virgin Beyond Club membership, Zero 95 Gift Voucher, Belgrave Football and Netball club membership, Eastern Football League season membership, Foxtel subscription (Electoral Office)"
+        }
+      ]
+    },
+    {
+      "entity": "Melbourne Cricket Club, Belgrave Football and Netball Club, Lilydale Township Action Group, Lilydale RSL, Fernwood Gym",
+      "proposed_splits": [
+        "Melbourne Cricket Club",
+        "Belgrave Football",
+        "Netball Club",
+        "Lilydale Township Action Group",
+        "Lilydale RSL",
+        "Fernwood Gym"
+      ],
+      "context": [
+        {
+          "mp_name": "Aaron Violi",
+          "party": "Liberal Party of Australia",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "Gifts from Local Organizations",
+          "details": "Melbourne Cricket Club, Belgrave Football and Netball Club, Lilydale Township Action Group, Lilydale RSL, Fernwood Gym"
+        }
+      ]
+    },
+    {
+      "entity": "ARAD: Association of Rooftop and Airspace Development",
+      "proposed_splits": [
+        "ARAD: Association of Rooftop",
+        "Airspace Development"
+      ],
+      "context": [
+        {
+          "mp_name": "Jenny Ware",
+          "party": "Liberal Party of Australia",
+          "category": "Membership",
+          "sub_category": "Other Membership",
+          "item": "ARAD Bronze Membership",
+          "details": "Bronze Membership 19 March 2024 - 19 March 2025"
+        }
+      ]
+    },
+    {
+      "entity": "AMP and BT",
+      "proposed_splits": [
+        "AMP",
+        "BT"
+      ],
+      "context": [
+        {
+          "mp_name": "Timothy Watts",
+          "party": "Australian Labor Party",
+          "category": "Asset",
+          "sub_category": "Other Asset",
+          "item": "Amp",
+          "details": "AMP and BT"
+        }
+      ]
+    },
+    {
+      "entity": "IGEA (Interactive Games and Entertainment Association)",
+      "proposed_splits": [
+        "IGEA (Interactive Games",
+        "Entertainment Association)"
+      ],
+      "context": [
+        {
+          "mp_name": "Timothy Watts",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "PAX Rising Indie Showcase Entry",
+          "details": "1 x entry to the PAX Rising Indie Showcase from IGEA (Interactive Games and Entertainment Association)"
+        },
+        {
+          "mp_name": "Timothy Watts",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "PAX Entry Tickets",
+          "details": "2 x accompanying entry tickets to PAX from IGEA (Interactive Games and Entertainment Association)"
+        }
+      ]
+    },
+    {
+      "entity": "Netball Queensland and Queensland Firebirds",
+      "proposed_splits": [
+        "Netball Queensland",
+        "Queensland Firebirds"
+      ],
+      "context": [
+        {
+          "mp_name": "Anika Wells",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "VIP tickets to Queensland Firebirds v Sunshine Coast Lightning game",
+          "details": "2 x VIP tickets to Queensland Firebirds v Sunshine Coast Lightning game"
+        }
+      ]
+    },
+    {
+      "entity": "Brisbane Festival Board and Executive",
+      "proposed_splits": [
+        "Brisbane Festival Board",
+        "Executive"
+      ],
+      "context": [
+        {
+          "mp_name": "Anika Wells",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Tickets to Official Brisbane Festival Riverfire VIP Function",
+          "details": "Spouse received 2 x tickets to Official Brisbane Festival Riverfire VIP Function"
+        }
+      ]
+    },
+    {
+      "entity": "National Institute of Sport, Expertise and Performance(France)",
+      "proposed_splits": [
+        "National Institute of Sport",
+        "Expertise",
+        "Performance(France)"
+      ],
+      "context": [
+        {
+          "mp_name": "Anika Wells",
+          "party": "Australian Labor Party",
+          "category": "Gift",
+          "sub_category": "Entertainment",
+          "item": "INSEP branded merchandise and clothing and framed picture",
+          "details": "INSEP branded merchandise and clothing and framed picture"
+        }
+      ]
+    },
+    {
+      "entity": "National Rugby League (NRL) and Australian Rugby League (ARL)",
+      "proposed_splits": [
+        "National Rugby League (NRL)",
+        "Australian Rugby League (ARL)"
+      ],
+      "context": [
+        {
+          "mp_name": "Anika Wells",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Suite tickets to 2023 NRLW and NRL Grand Finals",
+          "details": "2 x Suite tickets to 2023 NRLW and NRL Grand Finals"
+        }
+      ]
+    },
+    {
+      "entity": "Honourable Am\u00e9lie Oud\u00e9a-Cast\u00e9ra, Minister for Sport and the Olympic & Paralympic Games (France)",
+      "proposed_splits": [
+        "Honourable Am\u00e9lie Oud\u00e9a-Cast\u00e9ra",
+        "Minister for Sport",
+        "the Olympic & Paralympic Games (France)"
+      ],
+      "context": [
+        {
+          "mp_name": "Anika Wells",
+          "party": "Australian Labor Party",
+          "category": "Unknown",
+          "sub_category": "Other",
+          "item": "Paris 2024 Games Merchandise",
+          "details": "Paris 2024 Games merchandise"
+        }
+      ]
+    },
+    {
+      "entity": "Save the Children Australia and the Gates Foundation",
+      "proposed_splits": [
+        "Save the Children Australia",
+        "the Gates Foundation"
+      ],
+      "context": [
+        {
+          "mp_name": "Josh Wilson",
+          "party": "Australian Labor Party",
+          "category": "Travel",
+          "sub_category": "Other Travel",
+          "item": "Trip to Indonesia",
+          "details": "Trip to Indonesia (Jakarta, Lombok, and Bali) provided by Save the Children Australia and the Gates Foundation as part of the Australian Regional Leadership Initiative \u2013 including air travel (international and internal flights), accommodation, food and city transport (14-20 January 2024). Mrs Wilson accompanied the delegation. The cost of Mrs Wilson's flights were met at Mr and Mrs Wilson's own expense."
+        }
+      ]
+    },
+    {
+      "entity": "Farm Plant, Livestock and Vehicles",
+      "proposed_splits": [
+        "Farm Plant",
+        "Livestock",
+        "Vehicles"
+      ],
+      "context": [
+        {
+          "mp_name": "Rick Wilson",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Farm Property",
+          "details": ""
+        },
+        {
+          "mp_name": "Rick Wilson",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Shares",
+          "item": "Farm Property",
+          "details": "Spouse/partner"
+        }
+      ]
+    },
+    {
+      "entity": "Hon Minister for Education and Training, Government of Sri Lanka",
+      "proposed_splits": [
+        "Hon Minister for Education",
+        "Training",
+        "Government of Sri Lanka"
+      ],
+      "context": [
+        {
+          "mp_name": "Jason Wood",
+          "party": "Liberal Party of Australia",
+          "category": "Asset",
+          "sub_category": "Real Estate",
+          "item": "Hotel Accommodation in Colombo",
+          "details": "Hotel Accommodation (provided by Hon Minister for Education and Training, Government of Sri Lanka) 4 nights from 18th July to 22nd July in Colombo, Sri Lanka."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,472 @@
+{
+  "batch_id": "slash_29",
+  "category": "slash",
+  "entities_count": 50,
+  "analysis_results": [
+    {
+      "entity_name": "QF 1320 CBR/SYD",
+      "classification": "SINGLE",
+      "confidence": "MEDIUM",
+      "explanation": "Likely a single flight number with origin (CBR) and destination (SYD) codes.  The `/` is a common separator in this context, not implying separate entities.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "QF 409 SYD/MEL",
+      "classification": "SINGLE",
+      "confidence": "MEDIUM",
+      "explanation": "Similar to the previous entry; a single flight with origin and destination codes.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Pebema P/L",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "P/L is a common abbreviation for 'Pty Ltd' (Proprietary Limited), indicating a single Australian company.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Pebema P/L Superannuation Fund",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "Refers to a superannuation fund *associated with* the company Pebema P/L, not two separate entities.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Australian Subscription Television Assoc. / Foxtel",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "The `/` suggests a listing of two different entities.  While related, they are separate organizations.",
+      "split_entities": [
+        "Australian Subscription Television Assoc.",
+        "Foxtel"
+      ]
+    },
+    {
+      "entity_name": "Orange Golf Club t/as Duntryleague",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "'t/as' means 'trading as', indicating a single entity operating under a different name.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "AFG/NAB",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "The `/` strongly suggests two separate financial institutions are mentioned.",
+      "split_entities": [
+        "AFG",
+        "NAB"
+      ]
+    },
+    {
+      "entity_name": "Save the Children Australia / Gates Foundation",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two distinct organizations, one an Australian NGO and the other a US foundation.",
+      "split_entities": [
+        "Save the Children Australia",
+        "Gates Foundation"
+      ]
+    },
+    {
+      "entity_name": "Royal NSW Lancers 1st/15th",
+      "classification": "SINGLE",
+      "confidence": "MEDIUM",
+      "explanation": "Could be a single military unit with two designations. More context is needed for certainty.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Bank of Melbourne / St George Bank",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two separate banks, both operating in Australia, are listed.",
+      "split_entities": [
+        "Bank of Melbourne",
+        "St George Bank"
+      ]
+    },
+    {
+      "entity_name": "Save The Children Australia/Gates Foundation",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Same as entry 8; two distinct organizations.",
+      "split_entities": [
+        "Save The Children Australia",
+        "Gates Foundation"
+      ]
+    },
+    {
+      "entity_name": "Israel / Palestinian Territories",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "These are two distinct geopolitical entities.",
+      "split_entities": [
+        "Israel",
+        "Palestinian Territories"
+      ]
+    },
+    {
+      "entity_name": "Foxtel/ASTRA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two separate entities in the Australian media and telecommunications industries.",
+      "split_entities": [
+        "Foxtel",
+        "ASTRA"
+      ]
+    },
+    {
+      "entity_name": "COMMSEC/COMMONWEALTH BANK",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Likely refers to two separate entities: COMMSEC (Australian Signals Directorate) and the Commonwealth Bank.",
+      "split_entities": [
+        "COMMSEC",
+        "COMMONWEALTH BANK"
+      ]
+    },
+    {
+      "entity_name": "WESTPAC/AMEX",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two separate financial institutions.",
+      "split_entities": [
+        "WESTPAC",
+        "AMEX"
+      ]
+    },
+    {
+      "entity_name": "WESTPAC/COMMONWEALTH BANK",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two separate Australian banks.",
+      "split_entities": [
+        "WESTPAC",
+        "COMMONWEALTH BANK"
+      ]
+    },
+    {
+      "entity_name": "NAB/St George",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two separate Australian banks.",
+      "split_entities": [
+        "NAB",
+        "St George"
+      ]
+    },
+    {
+      "entity_name": "Pepe Family Trust / Pasin Nominees Pty Ltd",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A family trust and a separate Pty Ltd company.",
+      "split_entities": [
+        "Pepe Family Trust",
+        "Pasin Nominees Pty Ltd"
+      ]
+    },
+    {
+      "entity_name": "Brisbane Friends of Bushkids (NFP/NGO Allied Health provider for children)",
+      "classification": "SINGLE",
+      "confidence": "MEDIUM",
+      "explanation": "Likely a single organization with multiple descriptors (NFP, NGO, etc.).  More information is needed to be certain.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Westpac/ING/ME Bank",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Three separate Australian financial institutions.",
+      "split_entities": [
+        "Westpac",
+        "ING",
+        "ME Bank"
+      ]
+    },
+    {
+      "entity_name": "QANTAS/VIRGIN",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two major Australian airlines.",
+      "split_entities": [
+        "QANTAS",
+        "VIRGIN"
+      ]
+    },
+    {
+      "entity_name": "Hunternet/HunterNetCo-Operative Ltd",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Likely two related but separate entities.",
+      "split_entities": [
+        "Hunternet",
+        "HunterNetCo-Operative Ltd"
+      ]
+    },
+    {
+      "entity_name": "NAB/ANZ/Macquarie Bank",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Three major Australian banks.",
+      "split_entities": [
+        "NAB",
+        "ANZ",
+        "Macquarie Bank"
+      ]
+    },
+    {
+      "entity_name": "Sydney Theatre Company/ St George Bank",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A theatre company and a bank.",
+      "split_entities": [
+        "Sydney Theatre Company",
+        "St George Bank"
+      ]
+    },
+    {
+      "entity_name": "LLTK P/L",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "P/L indicates a single Pty Ltd company.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Qantas/Virgin",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two major Australian airlines.",
+      "split_entities": [
+        "Qantas",
+        "Virgin"
+      ]
+    },
+    {
+      "entity_name": "Spouse/Partner Apartment - Wollongong",
+      "classification": "SINGLE",
+      "confidence": "MEDIUM",
+      "explanation": "Describes a single property; the `/` acts as a clarification, not a separator of entities.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Warrane/Mornington Neighbourhood House",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Likely two separate entities, possibly related community organizations.",
+      "split_entities": [
+        "Warrane",
+        "Mornington Neighbourhood House"
+      ]
+    },
+    {
+      "entity_name": "Dreyfus Superannuation Fund/Kenley Dale Pty Ltd",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A superannuation fund and a Pty Ltd company.",
+      "split_entities": [
+        "Dreyfus Superannuation Fund",
+        "Kenley Dale Pty Ltd"
+      ]
+    },
+    {
+      "entity_name": "RHT Investment (QLD)P/L",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "P/L denotes a single Pty Ltd company.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Australian Subscription Television Assoc/Foxtel",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Same as entry 5; two separate organizations.",
+      "split_entities": [
+        "Australian Subscription Television Assoc",
+        "Foxtel"
+      ]
+    },
+    {
+      "entity_name": "Tennis Australia/Australian Open",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "The governing body for tennis in Australia and its major tournament.",
+      "split_entities": [
+        "Tennis Australia",
+        "Australian Open"
+      ]
+    },
+    {
+      "entity_name": "YouTube/Google/Allure EPM",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Three distinct global companies.",
+      "split_entities": [
+        "YouTube",
+        "Google",
+        "Allure EPM"
+      ]
+    },
+    {
+      "entity_name": "Mia Garlick/Facebook",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "An individual and a social media company.",
+      "split_entities": [
+        "Mia Garlick",
+        "Facebook"
+      ]
+    },
+    {
+      "entity_name": "RDA Central West/Sam Harma",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "An organization and an individual.",
+      "split_entities": [
+        "RDA Central West",
+        "Sam Harma"
+      ]
+    },
+    {
+      "entity_name": "NSW Nationals/Lithgow Branch",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A political party and one of its branches.",
+      "split_entities": [
+        "NSW Nationals",
+        "Lithgow Branch"
+      ]
+    },
+    {
+      "entity_name": "Khalil Family Trust/Arcana Partners PTY LTD",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A family trust and a Pty Ltd company.",
+      "split_entities": [
+        "Khalil Family Trust",
+        "Arcana Partners PTY LTD"
+      ]
+    },
+    {
+      "entity_name": "Khalil Family Trust /Arcana Partners PTY LTD",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Same as previous entry.",
+      "split_entities": [
+        "Khalil Family Trust",
+        "Arcana Partners PTY LTD"
+      ]
+    },
+    {
+      "entity_name": "Spouse/partner: UniSuper",
+      "classification": "SINGLE",
+      "confidence": "MEDIUM",
+      "explanation": "Describes a single superannuation account holder; the colon clarifies the relationship, not separating entities.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Spouse/partner: Australian Super",
+      "classification": "SINGLE",
+      "confidence": "MEDIUM",
+      "explanation": "Similar to the previous entry.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Spouse/Partner",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two individuals.",
+      "split_entities": [
+        "Spouse",
+        "Partner"
+      ]
+    },
+    {
+      "entity_name": "Dunsborough/Yallingup CCI",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Likely refers to two separate locations or organizations within a CCI (Chamber of Commerce and Industry).",
+      "split_entities": [
+        "Dunsborough",
+        "Yallingup CCI"
+      ]
+    },
+    {
+      "entity_name": "Donnybrook/Balingup CCI",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Similar to the previous entry.",
+      "split_entities": [
+        "Donnybrook",
+        "Balingup CCI"
+      ]
+    },
+    {
+      "entity_name": "ANZ Investments P/L",
+      "classification": "SINGLE",
+      "confidence": "HIGH",
+      "explanation": "P/L indicates a single Pty Ltd company.",
+      "split_entities": []
+    },
+    {
+      "entity_name": "Bank of Queensland / VISA",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "A bank and a payment network.",
+      "split_entities": [
+        "Bank of Queensland",
+        "VISA"
+      ]
+    },
+    {
+      "entity_name": "Westpac/Amex",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two financial institutions.",
+      "split_entities": [
+        "Westpac",
+        "Amex"
+      ]
+    },
+    {
+      "entity_name": "NAB/AMP",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two Australian financial institutions.",
+      "split_entities": [
+        "NAB",
+        "AMP"
+      ]
+    },
+    {
+      "entity_name": "Pepe Family Trust/ Pasin Nominees Pty Ltd",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Same as entry 18.",
+      "split_entities": [
+        "Pepe Family Trust",
+        "Pasin Nominees Pty Ltd"
+      ]
+    },
+    {
+      "entity_name": "Yolla Cooperative/Australian Independent Rural Retailers",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Two separate organizations.",
+      "split_entities": [
+        "Yolla Cooperative",
+        "Australian Independent Rural Retailers"
+      ]
+    },
+    {
+      "entity_name": "ABC Friends SA/NT",
+      "classification": "MULTIPLE",
+      "confidence": "HIGH",
+      "explanation": "Likely refers to the South Australian and Northern Territory branches of ABC Friends.",
+      "split_entities": [
+        "ABC Friends SA",
+        "NT"
+      ]
+    }
+  ],
+  "raw_response": "```json\n[\n  {\n    \"entity_name\": \"QF 1320 CBR/SYD\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Likely a single flight number with origin (CBR) and destination (SYD) codes.  The `/` is a common separator in this context, not implying separate entities.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"QF 409 SYD/MEL\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Similar to the previous entry; a single flight with origin and destination codes.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Pebema P/L\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"P/L is a common abbreviation for 'Pty Ltd' (Proprietary Limited), indicating a single Australian company.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Pebema P/L Superannuation Fund\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Refers to a superannuation fund *associated with* the company Pebema P/L, not two separate entities.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Australian Subscription Television Assoc. / Foxtel\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"The `/` suggests a listing of two different entities.  While related, they are separate organizations.\",\n    \"split_entities\": [\"Australian Subscription Television Assoc.\", \"Foxtel\"]\n  },\n  {\n    \"entity_name\": \"Orange Golf Club t/as Duntryleague\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"'t/as' means 'trading as', indicating a single entity operating under a different name.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"AFG/NAB\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"The `/` strongly suggests two separate financial institutions are mentioned.\",\n    \"split_entities\": [\"AFG\", \"NAB\"]\n  },\n  {\n    \"entity_name\": \"Save the Children Australia / Gates Foundation\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two distinct organizations, one an Australian NGO and the other a US foundation.\",\n    \"split_entities\": [\"Save the Children Australia\", \"Gates Foundation\"]\n  },\n  {\n    \"entity_name\": \"Royal NSW Lancers 1st/15th\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Could be a single military unit with two designations. More context is needed for certainty.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Bank of Melbourne / St George Bank\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two separate banks, both operating in Australia, are listed.\",\n    \"split_entities\": [\"Bank of Melbourne\", \"St George Bank\"]\n  },\n  {\n    \"entity_name\": \"Save The Children Australia/Gates Foundation\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Same as entry 8; two distinct organizations.\",\n    \"split_entities\": [\"Save The Children Australia\", \"Gates Foundation\"]\n  },\n  {\n    \"entity_name\": \"Israel / Palestinian Territories\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"These are two distinct geopolitical entities.\",\n    \"split_entities\": [\"Israel\", \"Palestinian Territories\"]\n  },\n  {\n    \"entity_name\": \"Foxtel/ASTRA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two separate entities in the Australian media and telecommunications industries.\",\n    \"split_entities\": [\"Foxtel\", \"ASTRA\"]\n  },\n  {\n    \"entity_name\": \"COMMSEC/COMMONWEALTH BANK\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Likely refers to two separate entities: COMMSEC (Australian Signals Directorate) and the Commonwealth Bank.\",\n    \"split_entities\": [\"COMMSEC\", \"COMMONWEALTH BANK\"]\n  },\n  {\n    \"entity_name\": \"WESTPAC/AMEX\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two separate financial institutions.\",\n    \"split_entities\": [\"WESTPAC\", \"AMEX\"]\n  },\n  {\n    \"entity_name\": \"WESTPAC/COMMONWEALTH BANK\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two separate Australian banks.\",\n    \"split_entities\": [\"WESTPAC\", \"COMMONWEALTH BANK\"]\n  },\n  {\n    \"entity_name\": \"NAB/St George\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two separate Australian banks.\",\n    \"split_entities\": [\"NAB\", \"St George\"]\n  },\n  {\n    \"entity_name\": \"Pepe Family Trust / Pasin Nominees Pty Ltd\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A family trust and a separate Pty Ltd company.\",\n    \"split_entities\": [\"Pepe Family Trust\", \"Pasin Nominees Pty Ltd\"]\n  },\n  {\n    \"entity_name\": \"Brisbane Friends of Bushkids (NFP/NGO Allied Health provider for children)\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Likely a single organization with multiple descriptors (NFP, NGO, etc.).  More information is needed to be certain.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Westpac/ING/ME Bank\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Three separate Australian financial institutions.\",\n    \"split_entities\": [\"Westpac\", \"ING\", \"ME Bank\"]\n  },\n  {\n    \"entity_name\": \"QANTAS/VIRGIN\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two major Australian airlines.\",\n    \"split_entities\": [\"QANTAS\", \"VIRGIN\"]\n  },\n  {\n    \"entity_name\": \"Hunternet/HunterNetCo-Operative Ltd\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Likely two related but separate entities.\",\n    \"split_entities\": [\"Hunternet\", \"HunterNetCo-Operative Ltd\"]\n  },\n  {\n    \"entity_name\": \"NAB/ANZ/Macquarie Bank\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Three major Australian banks.\",\n    \"split_entities\": [\"NAB\", \"ANZ\", \"Macquarie Bank\"]\n  },\n  {\n    \"entity_name\": \"Sydney Theatre Company/ St George Bank\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A theatre company and a bank.\",\n    \"split_entities\": [\"Sydney Theatre Company\", \"St George Bank\"]\n  },\n  {\n    \"entity_name\": \"LLTK P/L\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"P/L indicates a single Pty Ltd company.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Qantas/Virgin\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two major Australian airlines.\",\n    \"split_entities\": [\"Qantas\", \"Virgin\"]\n  },\n  {\n    \"entity_name\": \"Spouse/Partner Apartment - Wollongong\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Describes a single property; the `/` acts as a clarification, not a separator of entities.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Warrane/Mornington Neighbourhood House\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Likely two separate entities, possibly related community organizations.\",\n    \"split_entities\": [\"Warrane\", \"Mornington Neighbourhood House\"]\n  },\n  {\n    \"entity_name\": \"Dreyfus Superannuation Fund/Kenley Dale Pty Ltd\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A superannuation fund and a Pty Ltd company.\",\n    \"split_entities\": [\"Dreyfus Superannuation Fund\", \"Kenley Dale Pty Ltd\"]\n  },\n  {\n    \"entity_name\": \"RHT Investment (QLD)P/L\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"P/L denotes a single Pty Ltd company.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Australian Subscription Television Assoc/Foxtel\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Same as entry 5; two separate organizations.\",\n    \"split_entities\": [\"Australian Subscription Television Assoc\", \"Foxtel\"]\n  },\n  {\n    \"entity_name\": \"Tennis Australia/Australian Open\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"The governing body for tennis in Australia and its major tournament.\",\n    \"split_entities\": [\"Tennis Australia\", \"Australian Open\"]\n  },\n  {\n    \"entity_name\": \"YouTube/Google/Allure EPM\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Three distinct global companies.\",\n    \"split_entities\": [\"YouTube\", \"Google\", \"Allure EPM\"]\n  },\n  {\n    \"entity_name\": \"Mia Garlick/Facebook\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"An individual and a social media company.\",\n    \"split_entities\": [\"Mia Garlick\", \"Facebook\"]\n  },\n  {\n    \"entity_name\": \"RDA Central West/Sam Harma\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"An organization and an individual.\",\n    \"split_entities\": [\"RDA Central West\", \"Sam Harma\"]\n  },\n  {\n    \"entity_name\": \"NSW Nationals/Lithgow Branch\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A political party and one of its branches.\",\n    \"split_entities\": [\"NSW Nationals\", \"Lithgow Branch\"]\n  },\n  {\n    \"entity_name\": \"Khalil Family Trust/Arcana Partners PTY LTD\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A family trust and a Pty Ltd company.\",\n    \"split_entities\": [\"Khalil Family Trust\", \"Arcana Partners PTY LTD\"]\n  },\n  {\n    \"entity_name\": \"Khalil Family Trust /Arcana Partners PTY LTD\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Same as previous entry.\",\n    \"split_entities\": [\"Khalil Family Trust\", \"Arcana Partners PTY LTD\"]\n  },\n  {\n    \"entity_name\": \"Spouse/partner: UniSuper\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Describes a single superannuation account holder; the colon clarifies the relationship, not separating entities.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Spouse/partner: Australian Super\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"MEDIUM\",\n    \"explanation\": \"Similar to the previous entry.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Spouse/Partner\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two individuals.\",\n    \"split_entities\": [\"Spouse\", \"Partner\"]\n  },\n  {\n    \"entity_name\": \"Dunsborough/Yallingup CCI\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Likely refers to two separate locations or organizations within a CCI (Chamber of Commerce and Industry).\",\n    \"split_entities\": [\"Dunsborough\", \"Yallingup CCI\"]\n  },\n  {\n    \"entity_name\": \"Donnybrook/Balingup CCI\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Similar to the previous entry.\",\n    \"split_entities\": [\"Donnybrook\", \"Balingup CCI\"]\n  },\n  {\n    \"entity_name\": \"ANZ Investments P/L\",\n    \"classification\": \"SINGLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"P/L indicates a single Pty Ltd company.\",\n    \"split_entities\": []\n  },\n  {\n    \"entity_name\": \"Bank of Queensland / VISA\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"A bank and a payment network.\",\n    \"split_entities\": [\"Bank of Queensland\", \"VISA\"]\n  },\n  {\n    \"entity_name\": \"Westpac/Amex\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two financial institutions.\",\n    \"split_entities\": [\"Westpac\", \"Amex\"]\n  },\n  {\n    \"entity_name\": \"NAB/AMP\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two Australian financial institutions.\",\n    \"split_entities\": [\"NAB\", \"AMP\"]\n  },\n  {\n    \"entity_name\": \"Pepe Family Trust/ Pasin Nominees Pty Ltd\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Same as entry 18.\",\n    \"split_entities\": [\"Pepe Family Trust\", \"Pasin Nominees Pty Ltd\"]\n  },\n  {\n    \"entity_name\": \"Yolla Cooperative/Australian Independent Rural Retailers\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Two separate organizations.\",\n    \"split_entities\": [\"Yolla Cooperative\", \"Australian Independent Rural Retailers\"]\n  },\n  {\n    \"entity_name\": \"ABC Friends SA/NT\",\n    \"classification\": \"MULTIPLE\",\n    \"confidence\": \"HIGH\",\n    \"explanation\": \"Likely refers to the South Australian and Northern Territory branches of ABC Friends.\",\n    \"split_entities\": [\"ABC Friends SA\", \"NT\"]\n  }\n]\n```\n"
+}
