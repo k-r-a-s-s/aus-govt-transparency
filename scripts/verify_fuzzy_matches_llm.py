@@ -35,9 +35,7 @@ def configure_gemini(api_key_env: str) -> bool:
     """Configures the Gemini client using an API key from an environment variable."""
     api_key = os.getenv(api_key_env)
     if not api_key:
-        print(f"Error: API key environment variable '{api_key_env}' not found.")
         print("Please set the environment variable before running the script.")
-        print("Example: export GEMINI_API_KEY='YOUR_API_KEY'")
         return False
     try:
         genai.configure(api_key=api_key)

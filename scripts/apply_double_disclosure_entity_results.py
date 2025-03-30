@@ -262,24 +262,71 @@ class DoubleDisclosureEntityUpdater:
                 # 2. Insert new rows for *subsequent* split entities
                 for next_split in subsequent_splits:
                     new_id = str(uuid.uuid4())
-                    new_row_values = []
-                    # Construct the values tuple in the correct column order
-                    for col_name in table_columns:
-                        if col_name == 'id':
-                            new_row_values.append(new_id)
-                        elif col_name == 'entity':
-                            new_row_values.append(next_split)
-                        elif col_name == 'original_entity':
-                            new_row_values.append(original_entity)
-                        elif col_name == 'split_entity':
-                            new_row_values.append(next_split)
-                        else:
-                            # Copy value from the original row
-                            new_row_values.append(row_dict.get(col_name))
+                    
+                    # Explicitly define data for the new row, copying from original
+                    new_row_data = {
+                        'id': new_id,
+                        'entity': next_split,
+                        'original_entity': original_entity,
+                        'split_entity': next_split, # Explicitly set split_entity
+                        # --- Copy other relevant fields (adjust list as needed based on actual schema) ---
+                        'parliament': row_dict.get('parliament'),
+                        'member_id': row_dict.get('member_id'),
+                        'first_name': row_dict.get('first_name'),
+                        'last_name': row_dict.get('last_name'),
+                        'electorate': row_dict.get('electorate'),
+                        'state': row_dict.get('state'),
+                        'party': row_dict.get('party'),
+                        'date': row_dict.get('date'),
+                        'category': row_dict.get('category'),
+                        'sub_category': row_dict.get('sub_category'),
+                        'item': row_dict.get('item'),
+                        'details': row_dict.get('details'),
+                        'source_url': row_dict.get('source_url'),
+                        'term_id': row_dict.get('term_id'),
+                        'volume': row_dict.get('volume'),
+                        'additional_notes': row_dict.get('additional_notes'),
+                        'page_number': row_dict.get('page_number'),
+                        'source_file': row_dict.get('source_file'),
+                        'amount': row_dict.get('amount'),
+                        'last_updated': row_dict.get('last_updated'), 
+                        'term_start_date': row_dict.get('term_start_date'),
+                        'term_end_date': row_dict.get('term_end_date'),
+                        'type': row_dict.get('type'),
+                        'document_id': row_dict.get('document_id'),
+                        # Add other columns present in your table schema, 
+                        # EXCLUDING intermediate columns like regex_standardized, fuzzy_match, canonical_entity
+                        # unless you specifically want to copy/set them here.
+                    }
 
+                    # Filter out None values and prepare for insertion
+                    # Ensure we only try to insert into columns that actually exist
+                    filtered_new_row_data = {k: v for k, v in new_row_data.items() if k in table_columns and v is not None}
+                    
+                    # Prepare column names and placeholders dynamically based on filtered data
+                    valid_columns = list(filtered_new_row_data.keys())
+                    column_str = ", ".join([f'"{col}"' for col in valid_columns])
+                    placeholder_str = ", ".join(["?"] * len(valid_columns))
+                    values_tuple = tuple(filtered_new_row_data[col] for col in valid_columns)
+                    
+                    # Construct and execute INSERT statement
                     insert_sql = f"INSERT INTO disclosures ({column_str}) VALUES ({placeholder_str})"
+                    
+                    if not values_tuple: # Skip if nothing to insert (shouldn't happen with ID)
+                         logger.warning(f"Skipping INSERT for split '{next_split}' from '{original_entity}' as no valid data was prepared.")
+                         continue
+                         
                     if not self.dry_run:
-                        cursor.execute(insert_sql, tuple(new_row_values))
+                        try:
+                            cursor.execute(insert_sql, values_tuple)
+                        except Exception as e:
+                             logger.error(f"Error executing INSERT for split '{next_split}' (New ID: {new_id}): {e}")
+                             logger.error(f"SQL: {insert_sql}")
+                             logger.error(f"Values: {values_tuple}")
+                             # Decide if we should continue or re-raise
+                             # continue # Option: Log error and continue with next split/row
+                             raise # Option: Stop processing on error
+                             
                     logger.debug(f"  [INSERT NEW ID: {new_id}] entity='{next_split}', original_entity='{original_entity}', split_entity='{next_split}'")
                     total_rows_inserted += 1
 
