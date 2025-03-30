@@ -15,6 +15,7 @@ import json
 import argparse
 import logging
 import sqlite3
+import uuid
 from typing import Dict, List, Any, Tuple
 from collections import defaultdict
 
@@ -180,119 +181,120 @@ class DoubleDisclosureEntityUpdater:
         return filtered_entities
     
     def update_database(self):
-        """
-        Update the database with the split entity results.
-        """
+        """Update the database by splitting entities identified as MULTIPLE."""
         cursor = self.conn.cursor()
-        
-        # First ensure we have the original_entity and split_entity columns
+
+        # Ensure required columns exist
         self._check_database_schema()
-        
-        # Load results from the input file
-        logger.info(f"Loading results from {self.input_file}")
-        with open(self.input_file, 'r') as f:
-            results = json.load(f)
-            
-        # Track statistics
-        total_updates = 0
-        total_new_disclosures = 0
-        modified_entities = set()
-        
-        # Process each entity that needs to be split
-        for entity_data in results.get("entity_results", []):
-            original_entity = entity_data.get("entity_name", "")
-            confidence = entity_data.get("confidence", "")
-            split_entities = entity_data.get("split_entities", [])
-            
-            if confidence != "HIGH" or not split_entities:
-                continue
-                
-            # Get all disclosures for this entity, checking both entity and original_entity fields
-            cursor.execute(
-                "SELECT * FROM disclosures WHERE entity = ? OR original_entity = ?", 
-                (original_entity, original_entity)
-            )
-            rows = cursor.fetchall()
-            
-            if not rows:
-                logger.warning(f"No disclosures found for entity: {original_entity}")
-                continue
-                
-            logger.info(f"Processing {len(rows)} disclosures for entity: {original_entity}")
-            
-            # Track if we modified anything for this entity
-            modified_any = False
-            first_split_entity = split_entities[0].strip()
-            
-            # For each disclosure, update split_entity and create new records for each split entity if needed
-            for row in rows:
-                # If this disclosure has already been split (original_entity is different from entity),
-                # just update the split_entity column to match the current entity
-                if row["original_entity"] is not None and row["original_entity"] != row["entity"]:
-                    if not self.dry_run:
-                        cursor.execute(
-                            "UPDATE disclosures SET split_entity = entity WHERE id = ?",
-                            (row["id"],)
-                        )
-                    total_updates += 1
-                    modified_any = True
-                    modified_entities.add(row["entity"])
-                    continue
-                
-                # For unsplit disclosures, update with the first split entity
-                if not self.dry_run:
-                    cursor.execute(
-                        "UPDATE disclosures SET entity = ?, original_entity = ?, split_entity = ? WHERE id = ?",
-                        (first_split_entity, original_entity, first_split_entity, row["id"])
-                    )
-                total_updates += 1
-                modified_any = True
-                
-                # Create new disclosures for each additional split entity
-                for split_entity in split_entities[1:]:
-                    split_entity = split_entity.strip()
-                    if not self.dry_run:
-                        # Create a new row with all the same data but the new entity
-                        new_row = dict(row)
-                        new_row["id"] = None  # Let SQLite auto-increment
-                        new_row["entity"] = split_entity
-                        new_row["original_entity"] = original_entity
-                        new_row["split_entity"] = split_entity
-                        
-                        # Build the INSERT statement dynamically
-                        columns = ", ".join(new_row.keys())
-                        placeholders = ", ".join(["?" for _ in new_row])
-                        values = list(new_row.values())
-                        
-                        cursor.execute(
-                            f"INSERT INTO disclosures ({columns}) VALUES ({placeholders})",
-                            values
-                        )
-                    total_new_disclosures += 1
-                    modified_entities.add(split_entity)
-            
-            # Only add to modified_entities if we actually modified something
-            if modified_any:
-                modified_entities.add(first_split_entity)
-            
+
+        # Load analysis results
+        analysis_data = self.load_analysis_results()
+        entities_to_split = self.filter_high_confidence_splits(analysis_data)
+
+        if not entities_to_split:
+            logger.info("No entities meet the criteria for splitting.")
+            return
+
+        # Backup before proceeding (if enabled and not dry run)
         if not self.dry_run:
+            self._backup_database()
+
+        total_rows_updated = 0
+        total_rows_inserted = 0
+        processed_original_entities = set()
+
+        # Get column names from the disclosures table dynamically
+        cursor.execute("PRAGMA table_info(disclosures)")
+        table_columns = [col["name"] for col in cursor.fetchall()]
+        # Ensure 'id' is present for error checking, though value will be replaced for inserts
+        if 'id' not in table_columns:
+            raise ValueError("Table 'disclosures' must have an 'id' column.")
+        # Prepare column string for INSERT
+        column_str = ", ".join([f'"{col}"' for col in table_columns]) # Quote names just in case
+        placeholder_str = ", ".join(["?"] * len(table_columns))
+
+        logger.info("Starting database update process...")
+
+        for entity_data in entities_to_split:
+            original_entity = entity_data.get("entity_name")
+            split_entities = [s.strip() for s in entity_data.get("split_entities", []) if s and s.strip()]
+
+            if not original_entity or len(split_entities) < 2: # Must have at least 2 splits
+                logger.warning(f"Skipping invalid split data for original entity: '{original_entity}'")
+                continue
+
+            # Avoid processing the same original entity multiple times if it appears duplicates in input
+            if original_entity in processed_original_entities:
+                continue
+            processed_original_entities.add(original_entity)
+
+            logger.info(f"--- Processing entity: '{original_entity}' -> {split_entities} ---")
+
+            # Find rows that need splitting for this entity
+            # We only want rows where the entity *is* the original compound name
+            # (i.e., it hasn't potentially been processed in a previous run)
+            cursor.execute(
+                "SELECT * FROM disclosures WHERE entity = ?",
+                (original_entity,)
+            )
+            rows_to_process = cursor.fetchall()
+
+            if not rows_to_process:
+                logger.warning(f"  No unprocessed rows found matching '{original_entity}'. It might have been processed already.")
+                continue
+
+            logger.info(f"  Found {len(rows_to_process)} rows to split for '{original_entity}'.")
+
+            first_split = split_entities[0]
+            subsequent_splits = split_entities[1:]
+
+            for row_dict in [dict(row) for row in rows_to_process]: # Convert rows to dicts
+                original_row_id = row_dict['id']
+
+                # 1. Update the existing row for the *first* split entity
+                update_sql = "UPDATE disclosures SET entity = ?, original_entity = ?, split_entity = ? WHERE id = ?"
+                update_values = (first_split, original_entity, first_split, original_row_id)
+                if not self.dry_run:
+                    cursor.execute(update_sql, update_values)
+                logger.debug(f"  [UPDATE ID: {original_row_id}] entity='{first_split}', original_entity='{original_entity}', split_entity='{first_split}'")
+                total_rows_updated += 1
+
+                # 2. Insert new rows for *subsequent* split entities
+                for next_split in subsequent_splits:
+                    new_id = str(uuid.uuid4())
+                    new_row_values = []
+                    # Construct the values tuple in the correct column order
+                    for col_name in table_columns:
+                        if col_name == 'id':
+                            new_row_values.append(new_id)
+                        elif col_name == 'entity':
+                            new_row_values.append(next_split)
+                        elif col_name == 'original_entity':
+                            new_row_values.append(original_entity)
+                        elif col_name == 'split_entity':
+                            new_row_values.append(next_split)
+                        else:
+                            # Copy value from the original row
+                            new_row_values.append(row_dict.get(col_name))
+
+                    insert_sql = f"INSERT INTO disclosures ({column_str}) VALUES ({placeholder_str})"
+                    if not self.dry_run:
+                        cursor.execute(insert_sql, tuple(new_row_values))
+                    logger.debug(f"  [INSERT NEW ID: {new_id}] entity='{next_split}', original_entity='{original_entity}', split_entity='{next_split}'")
+                    total_rows_inserted += 1
+
+        # Commit changes if not dry run
+        if not self.dry_run:
+            logger.info("Committing changes to database...")
             self.conn.commit()
-            
-        # Log summary statistics
-        logger.info(f"Committed {total_updates} updates and {total_new_disclosures} new disclosures to the database")
-        
-        # Verify the changes
-        cursor.execute("SELECT COUNT(*) as count, COUNT(CASE WHEN original_entity IS NOT NULL AND entity != original_entity THEN 1 END) as modified FROM disclosures;")
-        stats = cursor.fetchone()
-        logger.info(f"Found {stats['count']} total disclosures")
-        logger.info(f"Found {stats['modified']} disclosures where entity differs from original_entity")
-        
-        # Log a sample of modified entities
-        logger.info("Sample of modified entities:")
-        for entity in sorted(list(modified_entities))[:10]:
-            cursor.execute("SELECT COUNT(*) as count FROM disclosures WHERE entity = ?", (entity,))
-            count = cursor.fetchone()["count"]
-            logger.info(f"  {entity} ({count} disclosures)")
+            logger.info("Commit successful.")
+        else:
+            logger.info("DRY RUN: No changes were committed to the database.")
+
+        logger.info(f"--- Update Summary ---")
+        logger.info(f"Original entities processed for splitting: {len(processed_original_entities)}")
+        logger.info(f"Rows updated (for first split): {total_rows_updated}")
+        logger.info(f"New rows inserted (for subsequent splits): {total_rows_inserted}")
     
     def verify_results(self):
         """
@@ -327,6 +329,7 @@ class DoubleDisclosureEntityUpdater:
         """
         if self.conn:
             self.conn.close()
+            logger.info("Database connection closed.")
     
     def run(self):
         """

@@ -22,4 +22,11 @@ httpx>=0.25.0  # For fetching PDFs from URLs
 # Utilities
 tqdm>=4.66.1  # For progress bars
 tenacity>=8.2.3  # For retries
-uuid>=1.30  # For generating unique IDs 
+uuid>=1.30  # For generating unique IDs
+
+# Base requirements
+fuzzywuzzy
+python-Levenshtein # Often improves fuzzywuzzy speed
+
+# LLM Verification Script Requirements
+pandas 
