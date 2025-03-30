@@ -252,24 +252,23 @@ class DoubleDisclosureEntityUpdater:
                 original_row_id = row_dict['id']
 
                 # 1. Update the existing row for the *first* split entity
-                update_sql = "UPDATE disclosures SET entity = ?, original_entity = ?, split_entity = ? WHERE id = ?"
-                update_values = (first_split, original_entity, first_split, original_row_id)
+                update_sql = "UPDATE disclosures SET entity = ?, original_entity = ? WHERE id = ?"
+                update_values = (first_split, original_entity, original_row_id)
                 if not self.dry_run:
                     cursor.execute(update_sql, update_values)
-                logger.debug(f"  [UPDATE ID: {original_row_id}] entity='{first_split}', original_entity='{original_entity}', split_entity='{first_split}'")
+                logger.debug(f"  [UPDATE ID: {original_row_id}] entity='{first_split}', original_entity='{original_entity}' (split_entity untouched here)")
                 total_rows_updated += 1
 
                 # 2. Insert new rows for *subsequent* split entities
                 for next_split in subsequent_splits:
                     new_id = str(uuid.uuid4())
+                    logger.debug(f"Generated new UUID for split: {new_id}")
                     
                     # Explicitly define data for the new row, copying from original
                     new_row_data = {
-                        'id': new_id,
+                        'id': new_id,  # This should ALWAYS be included
                         'entity': next_split,
                         'original_entity': original_entity,
-                        'split_entity': next_split, # Explicitly set split_entity
-                        # --- Copy other relevant fields (adjust list as needed based on actual schema) ---
                         'parliament': row_dict.get('parliament'),
                         'member_id': row_dict.get('member_id'),
                         'first_name': row_dict.get('first_name'),
@@ -294,55 +293,98 @@ class DoubleDisclosureEntityUpdater:
                         'term_end_date': row_dict.get('term_end_date'),
                         'type': row_dict.get('type'),
                         'document_id': row_dict.get('document_id'),
-                        # Add other columns present in your table schema, 
-                        # EXCLUDING intermediate columns like regex_standardized, fuzzy_match, canonical_entity
-                        # unless you specifically want to copy/set them here.
                     }
 
-                    # Filter out None values and prepare for insertion
-                    # Ensure we only try to insert into columns that actually exist
-                    filtered_new_row_data = {k: v for k, v in new_row_data.items() if k in table_columns and v is not None}
+                    # Debug log the table columns
+                    logger.debug(f"Table columns: {table_columns}")
+                    logger.debug(f"Original new_row_data: {new_row_data}")
+
+                    # Ensure critical fields are always included
+                    filtered_new_row_data = {
+                        'id': new_id,  # Force include id
+                        'entity': next_split,  # Force include entity
+                        'original_entity': original_entity,  # Force include original_entity
+                        'split_entity': next_split,  # Force include split_entity matching entity
+                    }
+                    # Add other non-None values that exist in table_columns
+                    filtered_new_row_data.update({
+                        k: v for k, v in new_row_data.items() 
+                        if k in table_columns 
+                        and v is not None 
+                        and k not in filtered_new_row_data  # Don't overwrite forced fields
+                    })
+
+                    logger.debug(f"Filtered new_row_data: {filtered_new_row_data}")
                     
-                    # Prepare column names and placeholders dynamically based on filtered data
                     valid_columns = list(filtered_new_row_data.keys())
                     column_str = ", ".join([f'"{col}"' for col in valid_columns])
                     placeholder_str = ", ".join(["?"] * len(valid_columns))
                     values_tuple = tuple(filtered_new_row_data[col] for col in valid_columns)
-                    
-                    # Construct and execute INSERT statement
+
+                    # Debug log the SQL and values
+                    logger.debug(f"INSERT SQL: {column_str}")
+                    logger.debug(f"INSERT values: {values_tuple}")
+
                     insert_sql = f"INSERT INTO disclosures ({column_str}) VALUES ({placeholder_str})"
                     
-                    if not values_tuple: # Skip if nothing to insert (shouldn't happen with ID)
+                    if not values_tuple: 
                          logger.warning(f"Skipping INSERT for split '{next_split}' from '{original_entity}' as no valid data was prepared.")
                          continue
                          
                     if not self.dry_run:
                         try:
                             cursor.execute(insert_sql, values_tuple)
+                            logger.debug(f"Successfully executed INSERT for {new_id}")
                         except Exception as e:
                              logger.error(f"Error executing INSERT for split '{next_split}' (New ID: {new_id}): {e}")
                              logger.error(f"SQL: {insert_sql}")
                              logger.error(f"Values: {values_tuple}")
-                             # Decide if we should continue or re-raise
-                             # continue # Option: Log error and continue with next split/row
-                             raise # Option: Stop processing on error
+                             raise 
                              
-                    logger.debug(f"  [INSERT NEW ID: {new_id}] entity='{next_split}', original_entity='{original_entity}', split_entity='{next_split}'")
+                    logger.debug(f"  [INSERT NEW ID: {new_id}] entity='{next_split}', original_entity='{original_entity}' (split_entity untouched here)")
                     total_rows_inserted += 1
 
-        # Commit changes if not dry run
+        # Commit initial updates/inserts if not dry run
         if not self.dry_run:
-            logger.info("Committing changes to database...")
+            logger.info("Committing initial row updates/inserts...")
             self.conn.commit()
-            logger.info("Commit successful.")
-        else:
-            logger.info("DRY RUN: No changes were committed to the database.")
+            logger.info("Initial commit successful.")
 
+        # --- 3. Final Patch Step for split_entity ---
+        logger.info("Applying final patch to populate split_entity where NULL...")
+        patch_sql = """
+            UPDATE disclosures 
+            SET split_entity = entity 
+            WHERE split_entity IS NULL 
+              AND original_entity IS NOT NULL;
+        """
+        patch_rows_affected = 0
+        if not self.dry_run:
+            try:
+                cursor.execute(patch_sql)
+                patch_rows_affected = cursor.rowcount # Get affected rows for this specific statement
+                self.conn.commit() # Commit the patch separately
+                logger.info(f"Patch commit successful. Updated split_entity for {patch_rows_affected} rows.")
+            except Exception as e:
+                logger.error(f"Error applying split_entity patch: {e}")
+                self.conn.rollback() # Rollback patch on error
+        else:
+            # Estimate affected rows in dry run
+            cursor.execute("SELECT COUNT(*) FROM disclosures WHERE split_entity IS NULL AND original_entity IS NOT NULL")
+            estimated_patch_count = cursor.fetchone()[0]
+            logger.info(f"DRY RUN: Would attempt to patch split_entity for {estimated_patch_count} rows.")
+            patch_rows_affected = estimated_patch_count # Use estimate for logging
+
+        # Log summary (consider adding patch count here)
         logger.info(f"--- Update Summary ---")
         logger.info(f"Original entities processed for splitting: {len(processed_original_entities)}")
         logger.info(f"Rows updated (for first split): {total_rows_updated}")
         logger.info(f"New rows inserted (for subsequent splits): {total_rows_inserted}")
-    
+        logger.info(f"Rows patched (split_entity populated): {patch_rows_affected}")
+        
+        if self.dry_run:
+             logger.info("DRY RUN: No changes were committed to the database.")
+
     def verify_results(self):
         """
         Verify the database updates by checking counts and examples.
