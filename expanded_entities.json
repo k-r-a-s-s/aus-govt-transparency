@@ -1,0 +1,566 @@
+// Create mapping of abbreviations to their full names
+const entityMap = {
+  "1ag": "1AG", // Keeping original as not enough context
+  "1ozl": "OZ Minerals Limited", // Previously 1OZL, removed number prefix
+  "2xu": "2XU", // Performance sportswear brand
+  "3rrr": "3RRR", // Community radio station in Melbourne
+  "49ers": "49ers", // Keeping original as not enough context (could be sports team or YPO group)
+  "aaco": "Australian Agricultural Company",
+  "aald": "Australian American Leadership Dialogue",
+  "aami": "AAMI Insurance",
+  "abc": "Australian Broadcasting Corporation",
+  "abl": "Australian Baseball League",
+  "ablas": "ABLAS", // Keeping original as not enough context
+  "acci": "Australian Chamber of Commerce and Industry",
+  "accor": "Accor Hotels",
+  "ace": "ACE", // Keeping original as not enough context
+  "acorn": "Acorn", // Micro-investing platform
+  "acre": "Alliance for Conservatives and Reformists in Europe",
+  "acs": "Australian Computer Society",
+  "act": "Australian Capital Territory",
+  "activ": "Activ Foundation", // Disability service provider
+  "actu": "Australian Council of Trade Unions",
+  "adc": "ADC Forum", // Formerly Australian Davos Connection
+  "adf": "Australian Defence Force",
+  "adfpp": "Australian Defence Force Parliamentary Program",
+  "aecr": "Alliance of European Conservatives and Reformists",
+  "aeu": "Australian Education Union",
+  "afc": "Asian Football Confederation",
+  "afe": "AFE", // Keeping original as not enough context
+  "afg": "AFG", // Australian Finance Group
+  "afic": "Australian Foundation Investment Company",
+  "afl": "Australian Football League",
+  "aflw": "AFL Women's",
+  "afppd": "Asian Forum of Parliamentarians on Population and Development",
+  "afta": "Australian Federation of Travel Agents",
+  "agc": "AGC", // Keeping original as not enough context
+  "agest": "AustralianSuper", // Previously AGEST Super, now part of AustralianSuper
+  "agi": "AGI", // Keeping original as not enough context
+  "agl": "AGL Energy Limited",
+  "ago": "Atlas Iron Limited", // Now part of Hancock Prospecting
+  "agr": "AGR", // Keeping original as not enough context
+  "agu": "AGU", // Keeping original as not enough context
+  "aha": "Australian Hotels Association",
+  "ahg": "Automotive Holdings Group",
+  "ahia": "Australian Health Industry Alliance",
+  "ahl": "AHL", // Keeping original as not enough context
+  "ahpra": "Australian Health Practitioner Regulation Agency",
+  "aia": "AIA Australia", // Insurance company
+  "aicd": "Australian Institute of Company Directors",
+  "aiia": "Australian Information Industry Association",
+  "aijac": "Australia/Israel & Jewish Affairs Council",
+  "aime": "Australian Indigenous Mentoring Experience",
+  "aimpe": "Australian Institute of Marine and Power Engineers",
+  "ajm": "AJM", // Keeping original as not enough context
+  "ald": "ALD", // Keeping original as not enough context
+  "alga": "Australian Local Government Association",
+  "alo": "ALO", // Keeping original as not enough context
+  "alp": "Australian Labor Party",
+  "alpg": "Australian Ladies Professional Golf",
+  "am2": "AM2", // Keeping original as not enough context
+  "ama": "Australian Medical Association",
+  "amaq": "Australian Medical Association Queensland",
+  "amcor": "Amcor Limited",
+  "amec": "Association of Mining and Exploration Companies",
+  "amex": "American Express",
+  "amp": "AMP Limited",
+  "ampol": "Ampol Limited", // Previously Caltex Australia
+  "amvz": "AMVZ", // Keeping original as not enough context
+  "an2": "AN2", // Keeping original as not enough context
+  "anam": "Australian National Academy of Music",
+  "anz": "Australia and New Zealand Banking Group",
+  "aon": "AON Insurance",
+  "aou": "Auroch Minerals Limited",
+  "apa": "APA Group",
+  "apec": "Asia-Pacific Economic Cooperation",
+  "aphra": "Australian Health Practitioner Regulation Agency", // Same as AHPRA
+  "apl": "APL", // Keeping original as not enough context
+  "aplng": "Australia Pacific LNG",
+  "appea": "Australian Petroleum Production & Exploration Association",
+  "apt": "Afterpay Limited", // Now part of Block
+  "apx": "Appen Limited",
+  "aqc": "Australian Pacific Coal",
+  "arb": "ARB Corporation",
+  "areva": "Areva", // French nuclear power company
+  "arf": "ARF", // Keeping original as not enough context
+  "aria": "Australian Recording Industry Association",
+  "arlc": "Australian Rugby League Commission",
+  "arm": "ARM", // Keeping original as not enough context
+  "aru": "Australian Rugby Union", // Now Rugby Australia
+  "asahi": "Asahi Group Holdings", // Japanese beverage company
+  "aserf": "ASERF", // Keeping original as not enough context
+  "asia": "BetaShares Asia Technology Tigers ETF",
+  "aspi": "Australian Strategic Policy Institute",
+  "astra": "Australian Subscription Television and Radio Association",
+  "asu": "Australian Services Union",
+  "asx": "Australian Securities Exchange",
+  "at": "AT", // Keeping original as not enough context
+  "atc": "Australian Turf Club",
+  "atlas": "Atlas Iron Limited", // Now part of Hancock Prospecting
+  "aujs": "Australasian Union of Jewish Students",
+  "aust": "AUST", // Generic abbreviation for Australia
+  "avh": "AVH", // Keeping original as not enough context
+  "avis": "Avis Car Rental",
+  "avq": "AVQ", // Keeping original as not enough context
+  "aware": "Aware Super", // Previously First State Super
+  "awb": "AWB Limited", // Previously Australian Wheat Board
+  "awu": "Australian Workers' Union",
+  "awy": "AWY", // Keeping original as not enough context
+  "axa": "AXA", // Insurance company
+  "axxa": "AXXA", // Keeping original as not enough context
+  "azj": "AZJ", // Aurizon Holdings Limited
+  "bali": "Bali", // Location in Indonesia
+  "bank": "Bank", // Generic term
+  "bega": "Bega Cheese Limited",
+  "bfrix": "BFRIX", // Keeping original as not enough context
+  "bgc": "BGC Australia", // Construction company
+  "bhb": "BHB", // Keeping original as not enough context
+  "bhp": "BHP Group Limited",
+  "bitp": "BITP", // Keeping original as not enough context
+  "bkl": "Blackmores Limited",
+  "bld": "Boral Limited",
+  "blg": "BLG", // Keeping original as not enough context
+  "block": "Block, Inc.", // Formerly Square
+  "bnbg": "BNBG", // Keeping original as not enough context
+  "boat": "Boat", // Generic term
+  "boc": "BOC Limited", // Industrial gas supplier
+  "bond": "Bond", // Generic term for financial instrument
+  "bono": "Bono", // U2 band member, not an entity
+  "boq": "Bank of Queensland",
+  "bowen": "Bowen", // Location in Queensland
+  "bp": "BP Australia",
+  "brg": "BRG", // Keeping original as not enough context
+  "bsl": "BlueScope Steel Limited",
+  "bt": "BT Financial Group",
+  "bupa": "Bupa Australia",
+  "bussq": "Building Unions Superannuation Scheme Queensland",
+  "c6c": "C6C", // Keeping original as not enough context
+  "ca": "Cricket Australia",
+  "caa": "Civil Aviation Authority",
+  "caleb": "Caleb", // Personal name, not an entity
+  "canva": "Canva", // Australian design platform
+  "car": "Car", // Generic term
+  "care": "CARE Australia", // Humanitarian organization
+  "cat": "Caterpillar Inc.",
+  "cba": "Commonwealth Bank of Australia",
+  "cbapb": "Commonwealth Bank PERLS IX Capital Notes", // CBA preference shares
+  "cbus": "Cbus Super Fund",
+  "ce": "CE", // Keeping original as not enough context
+  "ceda": "Committee for Economic Development of Australia",
+  "cepu": "Communications, Electrical and Plumbing Union",
+  "cfmeu": "Construction, Forestry, Maritime, Mining and Energy Union",
+  "cgu": "CGU Insurance",
+  "china": "China", // Country, not an entity
+  "choe": "Choe", // Personal name, not an entity
+  "cim": "Cimic Group Limited", // Previously Leighton Holdings
+  "cis": "Centre for Independent Studies",
+  "clan": "Clan", // Generic term
+  "clare": "Clare", // Location, not an entity
+  "clock": "Clock", // Generic item, not an entity
+  "clwr": "CLWR", // Keeping original as not enough context
+  "coh": "Cochlear Limited",
+  "col": "Coles Group Limited",
+  "coles": "Coles Group Limited",
+  "costa": "Costa Group Holdings",
+  "cpsu": "Community and Public Sector Union",
+  "cqs": "CQS", // Global multi-strategy asset management firm
+  "cra": "CRA", // Keeping original as not enough context
+  "crown": "Crown Resorts Limited",
+  "cs": "CS", // Keeping original as not enough context
+  "csa": "CSA", // Keeping original as not enough context
+  "csbp": "CSBP Limited", // Chemicals and fertilizers
+  "csl": "CSL Limited", // Previously Commonwealth Serum Laboratories
+  "csr": "CSR Limited", // Building products company
+  "cua": "Credit Union Australia", // Now Great Southern Bank
+  "cub": "Carlton & United Breweries",
+  "cuba": "Cuba", // Country, not an entity
+  "cue": "Cue Clothing Co.",
+  "cvb": "CVB", // Keeping original as not enough context
+  "cwa": "Country Women's Association",
+  "cwn": "Crown Resorts Limited",
+  "cybg": "CYBG plc", // Now Virgin Money UK
+  "cyca": "Cruising Yacht Club of Australia",
+  "dalby": "Dalby", // Location in Queensland
+  "dansu": "Dansu", // Keeping original as not enough context
+  "dassh": "Deans of Arts, Social Sciences and Humanities",
+  "dbjp": "WisdomTree Japan Hedged Equity Fund",
+  "dcns": "DCNS", // Now Naval Group
+  "ddt": "DDT", // Keeping original as not enough context
+  "dexus": "Dexus Property Group",
+  "doha": "Doha", // Location in Qatar
+  "dough": "Dough", // Generic term, not an entity
+  "drr": "DRR", // Keeping original as not enough context
+  "dubai": "Dubai", // Location in UAE
+  "dulux": "Dulux Group",
+  "dxs": "Dexus Property Group",
+  "eas": "East Asia Summit",
+  "ebay": "eBay Australia",
+  "edd": "EDD", // Keeping original as not enough context
+  "edv": "EDV", // Keeping original as not enough context
+  "emb": "iShares J.P. Morgan USD Emerging Markets Bond ETF"// Second set of entity expansions
+  "emmg": "BetaShares Martin Currie Emerging Markets Fund",
+  "eos": "Electro Optic Systems Holdings Limited",
+  "escap": "United Nations Economic and Social Commission for Asia and the Pacific",
+  "espn": "ESPN",
+  "esr": "ESR Group",
+  "esss": "Emergency Services Superannuation Scheme",
+  "eta": "ETA", // Keeping original as not enough context
+  "etc": "ETC", // Not an entity abbreviation - "et cetera"
+  "ethi": "BetaShares Global Sustainability Leaders ETF",
+  "ethr": "BetaShares Ethereum ETF",
+  "euroa": "Euroa", // Location in Victoria
+  "ewm": "iShares MSCI Malaysia ETF",
+  "ewz": "iShares MSCI Brazil ETF",
+  "ex20": "BetaShares Australian Ex-20 Portfolio Diversifier ETF",
+  "ey": "Ernst & Young",
+  "fair": "BetaShares Australian Sustainability Leaders ETF",
+  "fang": "ETFS FANG+ ETF",
+  "fb": "Facebook (Meta Platforms, Inc.)",
+  "fbu": "Fletcher Building Limited",
+  "ffa": "Football Federation Australia", // Now Football Australia
+  "fifa": "Fédération Internationale de Football Association",
+  "fiami": "FIAMI", // Keeping original as not enough context
+  "findi": "FINDI", // Keeping original as not enough context
+  "fm": "FM", // Keeping original as not enough context
+  "fmg": "Fortescue Metals Group",
+  "fogs": "Former Origin Greats",
+  "frsa": "Family Relationship Services Australia",
+  "fsu": "Finance Sector Union",
+  "fte": "FTE", // Keeping original as not enough context
+  "funds": "FUNDS", // Generic term, not an entity
+  "g20": "Group of Twenty",
+  "gaicd": "Graduate of the Australian Institute of Company Directors",
+  "gavi": "Gavi, the Vaccine Alliance",
+  "gd": "GD", // Keeping original as not enough context
+  "ge": "General Electric",
+  "gem": "GEM", // Keeping original as not enough context
+  "gesb": "Government Employees Superannuation Board",
+  "gic": "Government Investment Corporation (Singapore)",
+  "gin": "Gin", // Alcoholic beverage, not an entity
+  "gopio": "Global Organization of People of Indian Origin",
+  "gpiix": "GPIIX", // Keeping original as not enough context
+  "gprix": "GPRIX", // Keeping original as not enough context
+  "gvk": "GVK Power & Infrastructure Limited",
+  "gwa": "GWA Group Limited",
+  "gwr": "GWR Group Limited",
+  "gxl": "Greencross Limited",
+  "gyld": "Arrow Dow Jones Global Yield ETF",
+  "hanif": "HANIF", // Keeping original as not enough context
+  "hedj": "WisdomTree Europe Hedged Equity Fund",
+  "hesta": "Health Employees Superannuation Trust Australia",
+  "hjpn": "BetaShares Japan ETF - Currency Hedged",
+  "home": "Home", // Generic term, not an entity
+  "hota": "Home of the Arts",
+  "house": "House", // Generic term, not an entity
+  "hsbc": "HSBC Bank Australia",
+  "hsu": "HSU", // Keeping original as not enough context
+  "hub24": "HUB24 Limited",
+  "humm": "Humm Group Limited", // Previously FlexiGroup
+  "huntr": "HUNTR", // Keeping original as not enough context
+  "hvn": "Harvey Norman Holdings",
+  "hyatt": "Hyatt Hotels Corporation",
+  "hyg": "iShares iBoxx $ High Yield Corporate Bond ETF",
+  "iag": "Insurance Australia Group",
+  "ial": "IAL", // Keeping original as not enough context
+  "iap": "Investec Australia Property Fund",
+  "ibis": "Ibis Hotels",
+  "ibm": "International Business Machines Corporation",
+  "icjp": "ICJP", // Keeping original as not enough context
+  "ifl": "IOOF Holdings Limited", // Now Insignia Financial
+  "ifpux": "IFPUX", // Keeping original as not enough context
+  "ig": "IG Markets",
+  "igk": "IGK", // Keeping original as not enough context
+  "iluka": "Iluka Resources",
+  "ing": "ING Bank Australia",
+  "inpex": "INPEX Corporation",
+  "iol": "IOL", // Keeping original as not enough context
+  "ioof": "IOOF Holdings Limited", // Now Insignia Financial
+  "ipa": "Institute of Public Affairs",
+  "ipac": "Inter-Parliamentary Alliance on China",
+  "iph": "IPH Limited",
+  "ipt": "Impact Minerals Limited",
+  "issac": "ISSAC", // Keeping original as not enough context
+  "isuzu": "Isuzu UTE Australia",
+  "ivv": "iShares Core S&P 500 ETF",
+  "jag": "JAG", // Keeping original as not enough context
+  "jean": "Jean", // Personal name, not an entity
+  "jng": "JNG", // Keeping original as not enough context
+  "johor": "Johor", // Location in Malaysia
+  "kerry": "Kerry", // Keeping original as not enough context
+  "kew": "Kew", // Suburb in Melbourne
+  "kimba": "Kimba", // Town in South Australia
+  "kmart": "Kmart Australia",
+  "kpg": "KPG", // Keeping original as not enough context
+  "kpmg": "KPMG Australia",
+  "lag": "LAG", // Keeping original as not enough context
+  "lc": "LC", // Keeping original as not enough context
+  "lexus": "Lexus Australia",
+  "lgaq": "Local Government Association of Queensland",
+  "lhpp": "LHPP", // Keeping original as not enough context
+  "lion": "Lion Pty Limited", // Formerly Lion Nathan
+  "lions": "Lions Club International",
+  "lll": "LLL", // Keeping original as not enough context
+  "lltk": "LLTK", // Keeping original as not enough context
+  "lnp": "Liberal National Party",
+  "loans": "Loans", // Generic term, not an entity
+  "lorne": "Lorne", // Town in Victoria
+  "lqd": "iShares iBoxx $ Investment Grade Corporate Bond ETF",
+  "lucrf": "Labour Union Co-operative Retirement Fund",
+  "lyc": "Lynas Rare Earths Limited",
+  "made": "Museum of Australian Democracy at Eureka",
+  "mbf": "MBF Australia", // Now Bupa
+  "mc": "MC", // Keeping original as not enough context
+  "mcc": "Melbourne Cricket Club",
+  "mcg": "Melbourne Cricket Ground",
+  "mcri": "Murdoch Children's Research Institute",
+  "me": "ME Bank", // Now Bank of Queensland
+  "mea": "MEA", // Keeping original as not enough context
+  "mech": "MECH", // Keeping original as not enough context
+  "mecu": "MECU", // Now Bank Australia
+  "meta": "Meta Platforms, Inc.",
+  "mfc": "MFC", // Keeping original as not enough context
+  "mffo": "MFFO", // Keeping original as not enough context
+  "mgc": "MGC", // Keeping original as not enough context
+  "mgf": "Magellan Global Fund",
+  "mgs": "Melbourne Grammar School",
+  "miami": "Miami", // Location, not an entity
+  "mich": "Magellan Infrastructure Fund Currency Hedged ETF",
+  "micsx": "MICSX", // Keeping original as not enough context
+  "mio": "MIO Partners",
+  "ml": "Merrill Lynch",
+  "mlb": "MLB", // Keeping original as not enough context
+  "mlc": "MLC Limited",
+  "mm": "MM", // Keeping original as not enough context
+  "mms": "McMillan Shakespeare Limited",
+  "mnd": "Monadelphous Group Limited",
+  "moana": "Moana", // Location, not an entity
+  "moy": "Millennium Minerals Limited",
+  "mpl": "Medibank Private Limited",
+  "mqg": "Macquarie Group Limited",
+  "mrc": "MRC", // Keeping original as not enough context
+  "mrma": "MRMA", // Keeping original as not enough context
+  "msbs": "Military Superannuation and Benefits Scheme",
+  "mtc": "Melbourne Theatre Company",
+  "mumm": "G.H. Mumm & Cie",
+  "mvf": "MVF", // Keeping original as not enough context
+  "mxupa": "MXUPA", // Keeping original as not enough context
+  "myer": "Myer Holdings Limited",
+  "myjet": "MyJet Australia",
+  "myola": "Myola", // Location, not an entity
+  "myr": "Malaysian Ringgit", // Currency, not an entity
+  "mys": "MYS", // Keeping original as not enough context
+  "n aqc": "N AQC", // Keeping original as not enough context
+  "na": "NA", // "Not Applicable", not an entity
+  "nab": "National Australia Bank",
+  "nag": "NAG", // Keeping original as not enough context
+  "nato": "North Atlantic Treaty Organization",
+  "nba": "National Basketball Association",
+  "nbl": "National Basketball League",
+  "nea": "NEA", // Keeping original as not enough context
+  "nexus": "Nexus Minerals Limited",
+  "nfl": "National Football League", // U.S. entity
+  "nga": "National Gallery of Australia",
+  "nhc": "New Hope Corporation",
+  "nib": "NIB Health Funds",
+  "nic": "NIC", // Keeping original as not enough context
+  "nida": "National Institute of Dramatic Art",
+  "nil": "NIL", // "Nothing", not an entity
+  "nine": "Nine Entertainment Co.",
+  "nly": "Annaly Capital Management",
+  "north": "NORTH", // Keeping original as not enough context
+  "npc": "NPC", // Keeping original as not enough context
+  "nrl": "National Rugby League",
+  "nrma": "National Roads and Motorists' Association",
+  "nsw": "New South Wales",
+  "nt": "Northern Territory",
+  "nteu": "National Tertiary Education Union",
+  "nxt": "NXT", // Keeping original as not enough context
+  "oecd": "Organisation for Economic Co-operation and Development",
+  "okuno": "Okuno", // Japanese surname, not an entity
+  "optus": "Optus",
+  "ore": "OceanaGold Corporation",
+  "orica": "Orica Limited",
+  "orl": "ORL", // Keeping original as not enough context
+  "osh": "Oil Search Limited", // Now part of Santos
+  "oxfam": "Oxfam Australia",
+  "p 500": "S&P 500",
+  "p2p": "P2P", // Keeping original as not enough context
+  "pall": "Aberdeen Standard Physical Palladium Shares ETF",
+  "paris": "Paris", // City, not an entity
+  "pdi": "PIMCO Dynamic Income Fund",
+  "penna": "Penna", // Location, not an entity
+  "perth": "Perth", // City in Western Australia
+  "pff": "iShares Preferred and Income Securities ETF",
+  "pfxf": "VanEck Vectors Preferred Securities ex Financials ETF",
+  "pga": "Professional Golfers Association of Australia",
+  "plum": "Plum Superannuation Fund",
+  "pon": "PON", // Keeping original as not enough context
+  "prr": "PRR", // Keeping original as not enough context
+  "prro": "PRRO", // Keeping original as not enough context
+  "pss": "Public Sector Superannuation Scheme",
+  "pssap": "Public Sector Superannuation Accumulation Plan",
+  "ptm": "PTM" // Keeping original as not enough context
+  "pwc": "PricewaterhouseCoopers",
+  "qan": "Qantas Airways Limited",
+  "qatar": "Qatar Airways",
+  "qbank": "QBANK (Queensland Police Credit Union)",
+  "qbe": "QBE Insurance Group Limited",
+  "qbyan": "QBYAN", // Appears to be a location name, keeping original
+  "qcb": "Queensland Country Bank",
+  "qld": "Queensland",
+  "qotor": "Qotor", // Keeping original as it appears to be a specific entity name
+  "qpac": "Queensland Performing Arts Centre",
+  "qpcu": "Queensland Police Credit Union",
+  "qraa": "Queensland Rural and Industry Development Authority", // Previously Queensland Rural Adjustment Authority
+  "qsml": "VanEck Vectors MSCI International Small Cap ETF",
+  "qtic": "Queensland Tourism Industry Council",
+  "raaa": "Regional Aviation Association of Australia",
+  "rabo": "Rabobank Australia",
+  "rac": "Royal Automobile Club", // Could be WA, VIC, etc. based on context
+  "raca": "Royal Automobile Club of Australia",
+  "racgp": "Royal Australian College of General Practitioners",
+  "racha": "Restaurant and Catering Industry Association",
+  "racp": "Royal Australasian College of Physicians",
+  "racq": "Royal Automobile Club of Queensland",
+  "racu": "RACU", // Keeping original as not enough context
+  "racv": "Royal Automobile Club of Victoria",
+  "racwa": "Royal Automobile Club of Western Australia",
+  "rae": "Rae & Partners Pty",
+  "rams": "RAMS Home Loans",
+  "rbf": "Retirement Benefits Fund",
+  "rcgc": "RCGC", // Keeping original as not enough context
+  "rdo": "RDO Equipment",
+  "rea": "REA Group",
+  "reid": "Reid", // Appears to be a location name, keeping original
+  "resi": "Resimac",
+  "rest": "REST Super",
+  "rex": "Regional Express Airlines",
+  "rfx": "RFX", // Keeping original as not enough context
+  "rhc": "Ramsay Health Care",
+  "rio": "Rio Tinto Limited",
+  "rmd": "ResMed Inc",
+  "rpgc": "RPGC", // Keeping original as not enough context
+  "rsl": "Returned and Services League of Australia",
+  "rtrfm": "RTRFM 92.1", // Community radio station in Perth
+  "rub": "RUB", // Keeping original as not enough context
+  "ruok": "R U OK?",
+  "rusi": "Royal United Services Institute",
+  "s32": "South32 Limited",
+  "sa": "South Australia",
+  "saca": "South Australian Cricket Association",
+  "sanfl": "South Australian National Football League",
+  "sbs": "Special Broadcasting Service",
+  "scale": "Scale Facilitation",
+  "scg": "Sydney Cricket Ground",
+  "scp": "Shopping Centres Australasia Property Group",
+  "sda": "Shop, Distributive and Allied Employees' Association",
+  "sdf": "SDF", // Keeping original as not enough context
+  "sdrl": "Seadrill Limited",
+  "sdrlk": "SDRLK", // Keeping original as not enough context
+  "seek": "SEEK Limited",
+  "sek": "SEK", // Keeping original as not enough context
+  "self": "Self", // Not an entity
+  "serco": "Serco Asia Pacific",
+  "seven": "Seven Network",
+  "sgiix": "SGIIX", // Keeping original as not enough context
+  "shape": "SHAPE Australia",
+  "shell": "Shell Australia",
+  "sil": "SIL", // Keeping original as not enough context
+  "silex": "Silex Systems Limited",
+  "siv": "SIV", // Keeping original as not enough context
+  "slk": "SLK", // Keeping original as not enough context
+  "smsf": "Self-Managed Superannuation Fund",
+  "smst": "SMST", // Keeping original as not enough context
+  "sons": "Sons", // Keeping original as not enough context
+  "spdmm": "South Pacific Defence Ministers' Meeting",
+  "spn": "SPN", // Keeping original as not enough context
+  "spy": "SPDR S&P 500 ETF Trust",
+  "stars": "STARS", // Keeping original as not enough context
+  "sul": "Super Retail Group Limited",
+  "sun": "Suncorp Group Limited",
+  "syd": "Sydney Airport",
+  "szl": "SZL", // Keeping original as not enough context
+  "tafe": "Technical and Further Education",
+  "tal": "TAL Life Limited",
+  "taz": "TAZ", // Keeping original as not enough context
+  "teco": "Taipei Economic and Cultural Office",
+  "tesla": "Tesla, Inc.",
+  "tg1": "TG1", // Keeping original as not enough context
+  "tgs": "TGS", // Keeping original as not enough context
+  "tio": "Territory Insurance Office",
+  "tkms": "ThyssenKrupp Marine Systems",
+  "tls": "Telstra Corporation Limited",
+  "tne": "Technology One Limited",
+  "toll": "Toll Group",
+  "tower": "Tower Insurance",
+  "trigg": "Trigg", // Suburb in Western Australia
+  "ttf": "Tourism & Transport Forum",
+  "twe": "Treasury Wine Estates",
+  "twr": "TWR", // Keeping original as not enough context
+  "twu": "Transport Workers Union",
+  "tyx": "TYX", // Keeping original as not enough context
+  "u2": "U2", // Not an entity, music band
+  "uae": "United Arab Emirates",
+  "ubank": "UBank",
+  "uber": "Uber Australia",
+  "ubs": "UBS Australia",
+  "uci": "Union Cycliste Internationale",
+  "uff": "UFF", // Keeping original as not enough context
+  "uk": "United Kingdom",
+  "unsw": "University of New South Wales",
+  "usa": "United States of America",
+  "usu": "United Services Union",
+  "uws": "University of Western Sydney", // Now Western Sydney University
+  "va925": "Virgin Australia Flight 925",
+  "vas": "Vanguard Australian Shares Index ETF",
+  "vax": "VAX", // Keeping original as not enough context
+  "vcx": "Vicinity Centres",
+  "vecci": "Victorian Chamber of Commerce and Industry", // Previously Victorian Employers' Chamber of Commerce and Industry
+  "vesg": "Vanguard Ethically Conscious International Shares Index ETF",
+  "vgk": "Vanguard FTSE Europe ETF",
+  "vgt": "Vanguard Information Technology ETF",
+  "vht": "Vanguard Health Care ETF",
+  "vhy": "Vanguard Australian Shares High Yield ETF",
+  "vic": "Victoria",
+  "vig": "Vanguard Dividend Appreciation ETF",
+  "visa": "Visa Inc.",
+  "visy": "Visy Industries",
+  "vline": "V/Line",
+  "vlue": "VanEck Vectors MSCI International Value ETF",
+  "vocus": "Vocus Group Limited",
+  "vow3d": "VOW3D", // Keeping original as not enough context
+  "vowg": "VOWG", // Keeping original as not enough context
+  "vrc": "Victoria Racing Club",
+  "vtg": "VTG", // Keeping original as not enough context
+  "vuk": "VUK", // Keeping original as not enough context
+  "vw": "Volkswagen",
+  "w pac": "Westpac Banking Corporation",
+  "wa": "Western Australia",
+  "waca": "Western Australian Cricket Association",
+  "wbc": "Westpac Banking Corporation",
+  "wce": "West Coast Eagles",
+  "wctpa": "WCTPA", // Keeping original as not enough context
+  "wds": "WDS", // Keeping original as not enough context
+  "wes": "Wesfarmers Limited",
+  "wests": "Western Suburbs Leagues Club",
+  "wfd": "Westfield Corporation",
+  "wfe": "WFE", // Keeping original as not enough context
+  "whc": "Whitehaven Coal",
+  "whia": "World Hellenic Inter-parliamentary Association",
+  "wot": "WOT", // Keeping original as not enough context
+  "wow": "Woolworths Group Limited",
+  "wpl": "Woodside Petroleum Limited", // Now Woodside Energy
+  "wwf": "World Wide Fund for Nature",
+  "xes": "XES", // Keeping original as not enough context
+  "xle": "Energy Select Sector SPDR Fund",
+  "xlp": "Consumer Staples Select Sector SPDR Fund",
+  "xlu": "Utilities Select Sector SPDR Fund",
+  "xme": "SPDR S&P Metals & Mining ETF",
+  "xop": "SPDR S&P Oil & Gas Exploration & Production ETF",
+  "xro": "Xero Limited",
+  "ypo": "Young Presidents' Organization",
+  "z1p": "Zip Co Limited",
+  "zegna": "Ermenegildo Zegna",
+  "μου": "MOU", // Keeping original as not enough context
+  "сва": "Commonwealth Bank of Australia"
+};

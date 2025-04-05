@@ -167,7 +167,7 @@ The system workflow is straightforward:
 ### 3. Entity Processing
 - `scripts/process_entities.py`: Processes and standardizes entity names
 - `scripts/apply_entity_results.py`: Applies entity standardization results to the database
-- `scripts/apply_double_disclosure_entity_results.py`: Processes and splits combined entity names (e.g., "Qantas and Virgin") into separate entities while preserving the original combined name
+- `scripts/apply_double_disclosure_entity_results.py`: Processes and splits combined entity names (e.g., "Qantas and Virgin") identified by prior analysis (like `analyze_double_disclosures_with_gemini.py`). It updates the original row for the first split entity and creates *new* rows for subsequent splits. **Crucially, when creating new rows, it copies all data from the original row, preserving fields (including NULLs) and only changing the `id`, `entity`, `original_entity`, and `split_entity` columns.** This ensures data integrity across the split entries.
 - `scripts/reset_original_entities.py`: Resets entity values to match original_entity values, useful for reprocessing double disclosures
 - `scripts/standardize_entities.py`: Standardizes entity names using a multi-stage process:
   1. Checks for populated `split_entity` column (requires running `apply_double_disclosure_entity_results.py` first)
@@ -187,8 +187,8 @@ The system workflow is straightforward:
 The system uses the following columns for entity processing:
 
 - `original_entity`: Contains the original entity name as extracted from documents
-- `entity`: The current standardized entity name
-- `split_entity`: Contains individual entities extracted from multi-entity strings (e.g., "Qantas" from "Qantas and Virgin")
+- `entity`: The current standardized entity name. After running `apply_double_disclosure_entity_results.py`, this will hold the individual split entity name for each row.
+- `split_entity`: Contains individual entities extracted from multi-entity strings (e.g., "Qantas" from "Qantas and Virgin"). This column is populated by `apply_double_disclosure_entity_results.py`.
 - `regex_standardized`: Used during standardization processing
 - `canonical_entity`: Used for the final standardized version
 
@@ -427,7 +427,7 @@ This feature significantly improves data accuracy by properly handling cases whe
 2. **Entity Processing**:
    - `scripts/process_entities.py`: Processes and standardizes entity names
    - `scripts/apply_entity_results.py`: Applies entity standardization results to database
-   - `scripts/apply_double_disclosure_entity_results.py`: Processes and splits combined entity names
+   - `scripts/apply_double_disclosure_entity_results.py`: Processes and splits combined entity names (copies all original data for new rows).
    - `scripts/reset_original_entities.py`: Resets entity values for reprocessing
 
 3. **Double Disclosure Processing**:
@@ -435,7 +435,7 @@ This feature significantly improves data accuracy by properly handling cases whe
    - `scripts/prepare_gemini_entity_analysis.py`: Prepares data for Gemini AI analysis
    - `scripts/analyze_double_disclosures_with_gemini.py`: Uses Gemini AI to analyze entities
    - `scripts/summarize_gemini_entity_analysis.py`: Generates analysis reports
-   - `scripts/apply_double_disclosure_entity_results.py`: Applies split results to database
+   - `scripts/apply_double_disclosure_entity_results.py`: Applies split results to database by updating the first split entity row and creating new rows (copying original data) for subsequent splits.
 
 4. **Data Analysis**:
    - `scripts/analyze_disclosures.py`: Performs statistical analysis

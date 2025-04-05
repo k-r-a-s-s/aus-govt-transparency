@@ -263,85 +263,67 @@ class DoubleDisclosureEntityUpdater:
                 for next_split in subsequent_splits:
                     new_id = str(uuid.uuid4())
                     logger.debug(f"Generated new UUID for split: {new_id}")
-                    
-                    # Explicitly define data for the new row, copying from original
-                    new_row_data = {
-                        'id': new_id,  # This should ALWAYS be included
-                        'entity': next_split,
-                        'original_entity': original_entity,
-                        'parliament': row_dict.get('parliament'),
-                        'member_id': row_dict.get('member_id'),
-                        'first_name': row_dict.get('first_name'),
-                        'last_name': row_dict.get('last_name'),
-                        'electorate': row_dict.get('electorate'),
-                        'state': row_dict.get('state'),
-                        'party': row_dict.get('party'),
-                        'date': row_dict.get('date'),
-                        'category': row_dict.get('category'),
-                        'sub_category': row_dict.get('sub_category'),
-                        'item': row_dict.get('item'),
-                        'details': row_dict.get('details'),
-                        'source_url': row_dict.get('source_url'),
-                        'term_id': row_dict.get('term_id'),
-                        'volume': row_dict.get('volume'),
-                        'additional_notes': row_dict.get('additional_notes'),
-                        'page_number': row_dict.get('page_number'),
-                        'source_file': row_dict.get('source_file'),
-                        'amount': row_dict.get('amount'),
-                        'last_updated': row_dict.get('last_updated'), 
-                        'term_start_date': row_dict.get('term_start_date'),
-                        'term_end_date': row_dict.get('term_end_date'),
-                        'type': row_dict.get('type'),
-                        'document_id': row_dict.get('document_id'),
-                    }
 
-                    # Debug log the table columns
-                    logger.debug(f"Table columns: {table_columns}")
-                    logger.debug(f"Original new_row_data: {new_row_data}")
+                    # *** START SIMPLIFIED COPY LOGIC ***
+                    # Copy all data from the original row
+                    new_row_values = row_dict.copy()
 
-                    # Ensure critical fields are always included
-                    filtered_new_row_data = {
-                        'id': new_id,  # Force include id
-                        'entity': next_split,  # Force include entity
-                        'original_entity': original_entity,  # Force include original_entity
-                        'split_entity': next_split,  # Force include split_entity matching entity
-                    }
-                    # Add other non-None values that exist in table_columns
-                    filtered_new_row_data.update({
-                        k: v for k, v in new_row_data.items() 
-                        if k in table_columns 
-                        and v is not None 
-                        and k not in filtered_new_row_data  # Don't overwrite forced fields
-                    })
+                    # Update the necessary fields
+                    new_row_values['id'] = new_id
+                    new_row_values['entity'] = next_split
+                    # Ensure original_entity is explicitly set from the loop variable
+                    new_row_values['original_entity'] = original_entity
+                    new_row_values['split_entity'] = next_split # Set split_entity here
 
-                    logger.debug(f"Filtered new_row_data: {filtered_new_row_data}")
-                    
-                    valid_columns = list(filtered_new_row_data.keys())
+                    # Ensure all keys are valid columns in the actual table
+                    valid_insert_data = {k: v for k, v in new_row_values.items() if k in table_columns}
+
+                    if 'id' not in valid_insert_data:
+                         logger.error(f"CRITICAL: 'id' column missing from final data for INSERT for split '{next_split}'. Skipping.")
+                         continue # Should not happen with this logic, but safety check
+
+                    # Prepare for SQL INSERT based on the filtered data
+                    valid_columns = list(valid_insert_data.keys())
+                    values_tuple = tuple(valid_insert_data[col] for col in valid_columns) # Ensure order matches
                     column_str = ", ".join([f'"{col}"' for col in valid_columns])
                     placeholder_str = ", ".join(["?"] * len(valid_columns))
-                    values_tuple = tuple(filtered_new_row_data[col] for col in valid_columns)
+                    # *** END SIMPLIFIED COPY LOGIC ***
+
 
                     # Debug log the SQL and values
-                    logger.debug(f"INSERT SQL: {column_str}")
-                    logger.debug(f"INSERT values: {values_tuple}")
+                    logger.debug(f"INSERT Columns: {column_str}")
+                    logger.debug(f"INSERT Values: {values_tuple}")
+
+                    # Log the ID being inserted (using the value prepared for the tuple)
+                    inserted_id_value = None
+                    try:
+                        id_index = valid_columns.index('id')
+                        inserted_id_value = values_tuple[id_index]
+                        logger.info(f"Attempting INSERT for new row. ID value to be inserted: {inserted_id_value} (Type: {type(inserted_id_value)})")
+                    except ValueError:
+                        logger.error("CRITICAL: 'id' column not found in valid_columns for INSERT!")
+                        logger.error(f"Valid columns were: {valid_columns}")
+                        continue # Skip this insert if ID is somehow missing
+
 
                     insert_sql = f"INSERT INTO disclosures ({column_str}) VALUES ({placeholder_str})"
-                    
-                    if not values_tuple: 
-                         logger.warning(f"Skipping INSERT for split '{next_split}' from '{original_entity}' as no valid data was prepared.")
+
+                    if not values_tuple:
+                         logger.warning(f"Skipping INSERT for split \\'{next_split}\\' from \\'{original_entity}\\' as no valid data was prepared.")
                          continue
-                         
+
                     if not self.dry_run:
                         try:
                             cursor.execute(insert_sql, values_tuple)
-                            logger.debug(f"Successfully executed INSERT for {new_id}")
+                            logger.debug(f"Successfully executed INSERT for {inserted_id_value}") # Log the actual inserted ID
                         except Exception as e:
-                             logger.error(f"Error executing INSERT for split '{next_split}' (New ID: {new_id}): {e}")
+                             logger.error(f"Error executing INSERT for split \\'{next_split}\\' (New ID: {new_id}, attempted ID: {inserted_id_value}): {e}")
                              logger.error(f"SQL: {insert_sql}")
                              logger.error(f"Values: {values_tuple}")
-                             raise 
-                             
-                    logger.debug(f"  [INSERT NEW ID: {new_id}] entity='{next_split}', original_entity='{original_entity}' (split_entity untouched here)")
+                             raise
+
+                    # Refined log using the value we checked before inserting
+                    logger.info(f"  [INSERT Recorded] Original Entity: '{original_entity}', New Entity: '{next_split}', Inserted ID: {inserted_id_value}")
                     total_rows_inserted += 1
 
         # Commit initial updates/inserts if not dry run
