@@ -46,36 +46,38 @@ os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 def create_grouping_db_tables(conn):
     cursor = conn.cursor()
-    # Communities Table
+    # Communities Table (No status column)
     cursor.execute("""
     CREATE TABLE IF NOT EXISTS entity_communities (
         community_id INTEGER PRIMARY KEY AUTOINCREMENT,
         canonical_name TEXT NOT NULL,
         iteration INTEGER NOT NULL,
-        status TEXT NOT NULL DEFAULT 'pending_review', -- pending_review, confirmed, rejected
         created_at DATETIME DEFAULT CURRENT_TIMESTAMP
     )
     """)
-    # Community Members Table
+    # Community Members Table (Added member_status column)
     cursor.execute("""
     CREATE TABLE IF NOT EXISTS entity_community_members (
         member_id INTEGER PRIMARY KEY AUTOINCREMENT,
         community_id INTEGER NOT NULL,
         normalized_entity TEXT NOT NULL,
+        member_status TEXT NOT NULL DEFAULT 'pending_review', -- ADDED (pending_review, confirmed, rejected)
         FOREIGN KEY (community_id) REFERENCES entity_communities (community_id)
     )
     """)
     # Index for faster lookup
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_member_entity ON entity_community_members (normalized_entity)")
+    cursor.execute("CREATE INDEX IF NOT EXISTS idx_member_community_id ON entity_community_members (community_id)") # Added index for joining
+    cursor.execute("CREATE INDEX IF NOT EXISTS idx_member_status ON entity_community_members (member_status)") # Added index for status query
     conn.commit()
 
 def get_confirmed_entities(conn):
     cursor = conn.cursor()
+    # Query based on member_status in the members table
     cursor.execute("""
     SELECT DISTINCT m.normalized_entity
     FROM entity_community_members m
-    JOIN entity_communities c ON m.community_id = c.community_id
-    WHERE c.status = 'confirmed'
+    WHERE m.member_status = 'confirmed'
     """)
     confirmed = {row[0] for row in cursor.fetchall()}
     return confirmed
@@ -84,18 +86,18 @@ def save_communities_to_db(conn, communities_dict, iteration):
     cursor = conn.cursor()
     saved_count = 0
     for canonical_name, members in communities_dict.items():
-        # Insert into entity_communities
+        # Insert into entity_communities (no status)
         cursor.execute("""
-        INSERT INTO entity_communities (canonical_name, iteration, status)
-        VALUES (?, ?, ?)
-        """, (canonical_name, iteration, 'pending_review'))
+        INSERT INTO entity_communities (canonical_name, iteration)
+        VALUES (?, ?)
+        """, (canonical_name, iteration))
         community_id = cursor.lastrowid
 
-        # Insert members into entity_community_members
-        member_data = [(community_id, member) for member in members]
+        # Insert members into entity_community_members with default status
+        member_data = [(community_id, member, 'pending_review') for member in members]
         cursor.executemany("""
-        INSERT INTO entity_community_members (community_id, normalized_entity)
-        VALUES (?, ?)
+        INSERT INTO entity_community_members (community_id, normalized_entity, member_status)
+        VALUES (?, ?, ?)
         """, member_data)
         saved_count += 1
     conn.commit()
