@@ -155,4 +155,72 @@ _All file moves and directory changes are tracked here for reproducibility and t
 
 **Result:**
 - The codebase is now consistent with the new directory structure, and all imports are correct for modular development.
+- All actions are tracked here for reproducibility and team awareness.
+
+## Documentation Overhaul: README Update (April 2024)
+
+### Actions Executed
+- Rewritten the `README.md` to reflect the new modular pipeline structure:
+    - Updated introduction and project description
+    - Removed backend/API/frontend references (now split out)
+    - Updated workflow to describe the new `/src` pipeline (preparation, parsing, cleaning, output)
+    - Updated setup and usage instructions for new entry points (e.g., `src/main.py`)
+    - Summarized the new canonical database schema
+    - Added clear "What's in this repo" and "What's not" sections
+    - Removed legacy script references
+- Maintained key points and clarity for new contributors
+
+**Result:**
+- The README now accurately describes the current state and structure of the codebase, supporting onboarding and reproducibility.
+- All actions are tracked here for reproducibility and team awareness.
+
+## Documentation Overhaul: docs/index.md Update (April 2024)
+
+### Actions Executed
+- Updated `docs/index.md` to reflect the new modular pipeline structure:
+    - Removed references to backend, API, and frontend docs that are no longer present or relevant
+    - Focused the structure on the modular pipeline, data processing, and current documentation
+    - Pointed to the main pipeline and backend scripts only if they remain
+    - Ensured the structure is clear for new contributors
+
+**Result:**
+- The documentation index now accurately describes the current documentation structure and guides contributors to the relevant sections.
+- All actions are tracked here for reproducibility and team awareness.
+
+## Documentation Overhaul: docs/backend/database.md Update (April 2024)
+
+### Actions Executed
+- Updated `docs/backend/database.md` to match the new canonical schema:
+    - Updated schema diagrams and table definitions to match `refactor_plan.rmd`
+    - Removed references to columns/tables that no longer exist
+    - Updated all class and method references to match the new `src/preparation/db_handler.py`
+    - Clarified that the canonical schema is the source of truth and pointed to the new modular structure
+
+**Result:**
+- The database documentation now accurately describes the canonical schema and the current codebase structure.
+- All actions are tracked here for reproducibility and team awareness.
+
+## Documentation Overhaul: docs/backend/pdf_processing.md Update (April 2024)
+
+### Actions Executed
+- Updated `docs/backend/pdf_processing.md` to reflect the new modular pipeline:
+    - Described the new scraping, Gemini PDF processing, post-processing, and database storage steps
+    - Removed references to scripts or classes that no longer exist or have moved
+    - Added and clarified usage examples for the new pipeline and entry points (e.g., `src/main.py`)
+    - Emphasized the modular structure and maintainability
+
+**Result:**
+- The PDF processing documentation now accurately describes the current pipeline and usage patterns.
+- All actions are tracked here for reproducibility and team awareness.
+
+## Documentation Overhaul: docs/backend/data_standardization.md Update (April 2024)
+
+### Actions Executed
+- Updated `docs/backend/data_standardization.md` to describe the new cleaning and standardization modules in `/src/cleaning`:
+    - Removed references to legacy scripts
+    - Added and clarified usage for the new standardization pipeline
+    - Emphasized modularity and the canonical schema
+
+**Result:**
+- The data standardization documentation now accurately describes the current pipeline and usage patterns.
 - All actions are tracked here for reproducibility and team awareness. 

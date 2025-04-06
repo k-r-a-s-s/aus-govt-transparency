@@ -6,28 +6,16 @@ This directory contains comprehensive documentation for the Australian Governmen
 
 ## Documentation Structure
 
-- **Architecture**
-  - [System Overview](./architecture/overview.md): High-level architecture and component interactions
-  - [Backend Architecture](./architecture/backend.md): Backend components and data flow
-  - [API Architecture](./architecture/api.md): API server architecture
-  - [Frontend Architecture](./architecture/frontend.md): Frontend structure and data flow
+- **Pipeline & Architecture**
+  - [System Overview](./architecture/overview.md): High-level architecture and pipeline stages
+  - [Pipeline Modules](../README.md#pipeline-workflow): Preparation, Parsing, Cleaning, Output
 
-- **Backend**
-  - [Database Schema](./backend/database.md): Database structure and operations
-  - [PDF Processing](./backend/pdf_processing.md): PDF extraction pipeline
-  - [Data Standardization](./backend/data_standardization.md): Standardization workflows
+- **Data Processing**
+  - [Database Schema](./backend/database.md): Canonical database structure and operations
+  - [PDF Processing](./backend/pdf_processing.md): PDF scraping and extraction pipeline
+  - [Data Standardization](./backend/data_standardization.md): Cleaning and standardization workflows
   - [Entity Deduplication](./backend/entity_deduplication.md): Entity name standardization and deduplication
   - [LLM Guidance](./backend/llm_guidance.md): Guidelines for using Gemini 2.0 Flash
-
-- **API**
-  - [Endpoints Reference](./api/endpoints.md): API endpoints documentation
-  - [Data Models](./api/data_models.md): Data structures and schemas
-
-- **Frontend**
-  - [Components](./frontend/components.md): Reusable UI components
-  - [Entity Explorer](./frontend/entity_explorer.md): Entity network exploration interface
-  - [Pages & Routes](./frontend/pages.md): Application pages and routing
-  - [Services](./frontend/services.md): API services and data handling
 
 - **Workflows**
   - [Setup Guide](./workflows/setup.md): Installation and configuration

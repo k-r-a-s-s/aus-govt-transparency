@@ -1,89 +1,83 @@
 # Database Schema and Operations
 
-The Australian Government Transparency Project uses SQLite as its database engine. The database is managed through the `DatabaseHandler` class in `db_handler.py`.
+The Australian Government Transparency Project uses SQLite as its database engine. The database is managed through the `DatabaseHandler` class in `src/preparation/db_handler.py`.
 
-## Database Schema
+## Canonical Database Schema
 
-The database consists of several tables that store different aspects of the disclosure data:
+The canonical schema is defined in `refactor_plan.rmd` and implemented in `/src/preparation/generate_schema.py`. The schema consists of three main tables:
 
-### Disclosures Table
-
-The main table that stores all disclosure entries extracted from PDFs.
-
+### 1. mps — Canonical list of Members of Parliament
 ```sql
-CREATE TABLE IF NOT EXISTS disclosures (
-    id TEXT PRIMARY KEY,
-    mp_name TEXT NOT NULL,
-    party TEXT,
+CREATE TABLE mps (
+    mp_id TEXT PRIMARY KEY,        -- e.g., "anthony_albanese"
+    full_name TEXT NOT NULL,
     electorate TEXT,
-    category TEXT,
-    sub_category TEXT,
-    item TEXT,
-    entity TEXT,
-    entity_id TEXT,
-    declaration_date TEXT,
-    details TEXT,
-    temporal_type TEXT,
-    start_date TEXT,
-    end_date TEXT,
-    pdf_url TEXT,
-    pdf_page INTEGER,
-    confidence REAL,
-    last_updated TEXT
-)
+    party TEXT,
+    wikidata_id TEXT               -- Optional external reference
+);
 ```
 
-### Entities Table
-
-Stores unique entities mentioned in disclosures.
-
+### 2. disclosures — Parsed disclosure entries
 ```sql
-CREATE TABLE IF NOT EXISTS entities (
-    id TEXT PRIMARY KEY,
-    name TEXT NOT NULL,
-    entity_type TEXT,
-    category TEXT,
-    abn TEXT,
-    description TEXT,
-    first_appearance TEXT,
-    last_appearance TEXT,
-    appearances_count INTEGER DEFAULT 0
-)
+CREATE TABLE disclosures (
+    disclosure_id TEXT PRIMARY KEY,       -- e.g., "2023-07-14_albanese_03"
+    mp_id TEXT NOT NULL,                  -- FK → mps(mp_id)
+    pdf_filename TEXT NOT NULL,           -- Source PDF
+    date TEXT NOT NULL,                   -- ISO 8601 (YYYY-MM-DD)
+    raw_description TEXT NOT NULL,        -- Full original description
+    raw_entity TEXT,                      -- Extracted entity string (not yet standardized)
+    category TEXT,                        -- Type of interest: "Shares", "Real Estate", "Gifts", etc.
+    interest_type TEXT CHECK(interest_type IN (
+        'acquired', 'disposed', 'held'
+    )),                                   -- Nature of disclosure
+    entity_id TEXT,                       -- Optional FK → entities(entity_id) after grouping
+    FOREIGN KEY (mp_id) REFERENCES mps(mp_id),
+    FOREIGN KEY (entity_id) REFERENCES entities(entity_id)
+);
 ```
 
-### Entity Appearances Table
-
-Tracks when entities appear in disclosures.
-
+### 3. entities — Cleaned & grouped entities
 ```sql
-CREATE TABLE IF NOT EXISTS entity_appearances (
-    id TEXT PRIMARY KEY,
-    entity_id TEXT NOT NULL,
-    disclosure_id TEXT NOT NULL,
-    appearance_date TEXT,
-    FOREIGN KEY (entity_id) REFERENCES entities (id),
-    FOREIGN KEY (disclosure_id) REFERENCES disclosures (id)
-)
+CREATE TABLE entities (
+    entity_id TEXT PRIMARY KEY,           -- Composite ID: e.g., "1-42"
+    canonical_name TEXT NOT NULL,         -- Standardized group label (e.g., "BHP Group")
+    iteration INTEGER,                    -- Grouping iteration number
+    status TEXT CHECK(status IN (
+        'confirmed', 'rejected', 'pending_review'
+    )),
+    notes TEXT
+);
 ```
 
-### MP Disclosure Stats Table
-
-Stores statistics about MP disclosures.
-
+### 🔍 Suggested Indexes (for performance)
 ```sql
-CREATE TABLE IF NOT EXISTS mp_disclosure_stats (
-    mp_name TEXT PRIMARY KEY,
-    total_disclosures INTEGER,
-    assets_count INTEGER,
-    liabilities_count INTEGER,
-    income_count INTEGER,
-    gifts_count INTEGER,
-    travel_count INTEGER,
-    memberships_count INTEGER,
-    unknown_count INTEGER,
-    last_updated TEXT
-)
+CREATE INDEX idx_disclosures_mp_id ON disclosures(mp_id);
+CREATE INDEX idx_disclosures_entity_id ON disclosures(entity_id);
+CREATE INDEX idx_disclosures_type ON disclosures(interest_type);
 ```
+
+## DatabaseHandler Class
+
+The `DatabaseHandler` class in `src/preparation/db_handler.py` provides a comprehensive interface for interacting with the database. Key methods include:
+
+- `__init__(self, db_path: str = "disclosures.db")`: Initialize the handler and schema
+- `store_structured_data(self, structured_data: Dict[str, Any]) -> List[str]`: Store structured data from parsed PDFs
+- `export_to_json(self, output_path: str)`: Export database contents to JSON
+- `create_backup(self, backup_path: str)`: Create a backup of the database
+- `get_all_mps(self) -> List[Dict[str, Any]]`: Get all MPs in the database
+- `update_mp_party(self, mp_name: str, party: str) -> bool`: Update party affiliation for an MP
+- `link_existing_disclosures_to_entities(self)`: Link disclosures to entities and standardize categories
+- `get_disclosure_patterns(self, mp_name: Optional[str] = None) -> Dict[str, Any]`: Analyze disclosure patterns
+
+See the source code for full method documentation and additional helpers.
+
+## Migration and Schema Evolution
+- The canonical schema is the source of truth. Any schema changes should be reflected in `refactor_plan.rmd` and implemented in `/src/preparation/generate_schema.py`.
+- Use the provided migration and backup utilities before making changes to production data.
+
+## Notes
+- All data processing and cleaning steps are modularized in `/src`.
+- For full pipeline details, see the [README](../../README.md) and [docs/index.md](../index.md).
 
 ## Database Indexes
 
@@ -99,7 +93,7 @@ CREATE INDEX IF NOT EXISTS idx_entities_name ON entities (name);
 
 ## The DatabaseHandler Class
 
-The `DatabaseHandler` class in `db_handler.py` provides a comprehensive interface for interacting with the database. Here are the key methods:
+The `DatabaseHandler` class in `src/preparation/db_handler.py` provides a comprehensive interface for interacting with the database. Here are the key methods:
 
 ### Initialization
 
