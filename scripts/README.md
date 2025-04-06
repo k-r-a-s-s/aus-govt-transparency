@@ -18,6 +18,13 @@ The following scripts implement a workflow for identifying and processing "doubl
 - **summarize_gemini_results.py**: Creates a CSV summary of Gemini analysis results for easier review.
 - **apply_gemini_entity_results.py**: Applies the Gemini analysis results to the database, splitting entities identified as containing multiple entities.
 
+## Entity Normalization
+
+- **standardize_entities.py**: Reads the `split_entity` column, expands known abbreviations using a provided JSON mapping file (`--mapping`), applies basic normalization (lowercase, removes special characters except '&', collapses whitespace), and writes the result to the `normalized_entity` column. This prepares names for further processing like deduplication.
+  ```bash
+  python standardize_entities.py --db <database_path> --mapping <path_to_expanded_entities.json>
+  ```
+
 ## Database Management
 
 - **init_db.py**: Initializes the database schema and indexes.
