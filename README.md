@@ -182,6 +182,20 @@ The system workflow is straightforward:
 - `scripts/analyze_double_disclosures_with_gemini.py`: Analyzes entities with Gemini AI to distinguish between true multiple entities and single entities with compound names
 - `scripts/summarize_gemini_entity_analysis.py`: Summarizes and generates reports from Gemini analysis results
 
+### 5. Iterative Entity Grouping and LLM Validation
+- `scripts/vector_entity_grouping.py`: This is the core script for identifying and validating groups of similar entity names.
+    - **Purpose:** To iteratively cluster normalized entity names based on semantic similarity (vector embeddings) and then use an LLM (Gemini) to perform granular validation of the members within each proposed cluster.
+    - **Workflow:**
+        1.  Calculates sentence embeddings for entities not yet confirmed.
+        2.  Builds a graph based on cosine similarity above a threshold.
+        3.  Detects communities using the Louvain algorithm.
+        4.  Sends multi-member communities to Gemini for member-by-member confirmation/rejection (unless `--no-llm-review` is used).
+        5.  Treats single-member communities (isolated entities) as confirmed.
+        6.  Saves all processed groups and member statuses (`confirmed`, `rejected`, `pending_review`) to a dedicated `entity_grouping.db` SQLite database, using a unique `community_ID` (e.g., "iteration-group_index").
+        7.  Outputs an intermediate JSON file (`iteration_<N>_reviewed_communities.json`) for debugging each iteration.
+    - **Iteration:** Designed to be run multiple times with increasing `--iteration` numbers. Each run excludes previously confirmed entities, allowing focus on the remaining ungrouped/rejected ones.
+    - **Setup & Usage:** See the detailed docstring within the script itself for environment setup (requires specific libraries like `python-louvain`, `google-generativeai`), API key configuration (`.env.local`), and command-line arguments (`--iteration`, `--threshold`, `--limit`, `--no-llm-review`).
+
 ### Database Schema for Entity Processing
 
 The system uses the following columns for entity processing:

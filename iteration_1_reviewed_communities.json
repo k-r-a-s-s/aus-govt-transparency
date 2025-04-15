@@ -1,0 +1,2376 @@
+{
+  "1-0": {
+    "iteration": 1,
+    "group_index": 0,
+    "canonical_name": "0151hk",
+    "member_statuses": {
+      "0151hk": "confirmed"
+    }
+  },
+  "1-1": {
+    "iteration": 1,
+    "group_index": 1,
+    "canonical_name": "100 women",
+    "member_statuses": {
+      "100 women": "confirmed"
+    }
+  },
+  "1-2": {
+    "iteration": 1,
+    "group_index": 2,
+    "canonical_name": "123 childcare",
+    "member_statuses": {
+      "123 childcare": "confirmed"
+    }
+  },
+  "1-3": {
+    "iteration": 1,
+    "group_index": 3,
+    "canonical_name": "13th beach golf club",
+    "member_statuses": {
+      "13th beach golf club": "confirmed"
+    }
+  },
+  "1-4": {
+    "iteration": 1,
+    "group_index": 4,
+    "canonical_name": "15 may terrace kensington park sa 5045",
+    "member_statuses": {
+      "15 may terrace kensington park sa 5045": "confirmed"
+    }
+  },
+  "1-5": {
+    "iteration": 1,
+    "group_index": 5,
+    "canonical_name": "190 yungurra drive dunsborough western australia",
+    "member_statuses": {
+      "190 yungurra drive dunsborough western australia": "confirmed"
+    }
+  },
+  "1-6": {
+    "iteration": 1,
+    "group_index": 6,
+    "canonical_name": "1970s international test cricket players",
+    "member_statuses": {
+      "1970s international test cricket players": "confirmed"
+    }
+  },
+  "1-7": {
+    "iteration": 1,
+    "group_index": 7,
+    "canonical_name": "1ag",
+    "member_statuses": {
+      "1ag": "confirmed"
+    }
+  },
+  "1-8": {
+    "iteration": 1,
+    "group_index": 8,
+    "canonical_name": "1ozl",
+    "member_statuses": {
+      "1ozl": "confirmed"
+    }
+  },
+  "1-9": {
+    "iteration": 1,
+    "group_index": 9,
+    "canonical_name": "1robert international pty ltd",
+    "member_statuses": {
+      "1robert international pty ltd": "confirmed"
+    }
+  },
+  "1-10": {
+    "iteration": 1,
+    "group_index": 10,
+    "canonical_name": "2013 merceded benz e250cdi avantgarde 212",
+    "member_statuses": {
+      "2013 merceded benz e250cdi avantgarde 212": "pending_review",
+      "2013 mercedes benz e250cdi avantgarde 212": "pending_review"
+    }
+  },
+  "1-11": {
+    "iteration": 1,
+    "group_index": 11,
+    "canonical_name": "2013 mitsubishi triton",
+    "member_statuses": {
+      "2013 mitsubishi triton": "confirmed"
+    }
+  },
+  "1-12": {
+    "iteration": 1,
+    "group_index": 12,
+    "canonical_name": "2014 bluesfest management",
+    "member_statuses": {
+      "2014 bluesfest management": "confirmed"
+    }
+  },
+  "1-13": {
+    "iteration": 1,
+    "group_index": 13,
+    "canonical_name": "2016 city tattersalls club",
+    "member_statuses": {
+      "2016 city tattersalls club": "confirmed"
+    }
+  },
+  "1-14": {
+    "iteration": 1,
+    "group_index": 14,
+    "canonical_name": "2025 open government partnership asia pacific regional meeting",
+    "member_statuses": {
+      "2025 open government partnership asia pacific regional meeting": "confirmed"
+    }
+  },
+  "1-15": {
+    "iteration": 1,
+    "group_index": 15,
+    "canonical_name": "21st century fox",
+    "member_statuses": {
+      "21st century fox": "confirmed"
+    }
+  },
+  "1-16": {
+    "iteration": 1,
+    "group_index": 16,
+    "canonical_name": "256 cunningham griffiths act",
+    "member_statuses": {
+      "256 cunningham griffiths act": "confirmed"
+    }
+  },
+  "1-17": {
+    "iteration": 1,
+    "group_index": 17,
+    "canonical_name": "28 degrees",
+    "member_statuses": {
+      "28 degrees": "pending_review",
+      "89 degrees": "pending_review",
+      "89 degrees east": "pending_review"
+    }
+  },
+  "1-18": {
+    "iteration": 1,
+    "group_index": 18,
+    "canonical_name": "2robert family trust",
+    "member_statuses": {
+      "2robert family trust": "confirmed"
+    }
+  },
+  "1-19": {
+    "iteration": 1,
+    "group_index": 19,
+    "canonical_name": "2xu",
+    "member_statuses": {
+      "2xu": "confirmed"
+    }
+  },
+  "1-20": {
+    "iteration": 1,
+    "group_index": 20,
+    "canonical_name": "3 robert investments family trust",
+    "member_statuses": {
+      "3 robert investments family trust": "confirmed"
+    }
+  },
+  "1-21": {
+    "iteration": 1,
+    "group_index": 21,
+    "canonical_name": "36 richardson & co",
+    "member_statuses": {
+      "36 richardson & co": "confirmed"
+    }
+  },
+  "1-22": {
+    "iteration": 1,
+    "group_index": 22,
+    "canonical_name": "3g natural resources offshore fund",
+    "member_statuses": {
+      "3g natural resources offshore fund": "confirmed"
+    }
+  },
+  "1-23": {
+    "iteration": 1,
+    "group_index": 23,
+    "canonical_name": "3rrr",
+    "member_statuses": {
+      "3rrr": "confirmed"
+    }
+  },
+  "1-24": {
+    "iteration": 1,
+    "group_index": 24,
+    "canonical_name": "3rrr community radio station",
+    "member_statuses": {
+      "3rrr community radio station": "confirmed"
+    }
+  },
+  "1-25": {
+    "iteration": 1,
+    "group_index": 25,
+    "canonical_name": "4118 club",
+    "member_statuses": {
+      "4118 club": "confirmed"
+    }
+  },
+  "1-26": {
+    "iteration": 1,
+    "group_index": 26,
+    "canonical_name": "49ers",
+    "member_statuses": {
+      "49ers": "confirmed"
+    }
+  },
+  "1-27": {
+    "iteration": 1,
+    "group_index": 27,
+    "canonical_name": "4dmedical",
+    "member_statuses": {
+      "4dmedical": "confirmed"
+    }
+  },
+  "1-28": {
+    "iteration": 1,
+    "group_index": 28,
+    "canonical_name": "4ds memory ltd",
+    "member_statuses": {
+      "4ds memory ltd": "confirmed"
+    }
+  },
+  "1-29": {
+    "iteration": 1,
+    "group_index": 29,
+    "canonical_name": "5 wentworth pty ltd",
+    "member_statuses": {
+      "5 wentworth pty ltd": "confirmed"
+    }
+  },
+  "1-30": {
+    "iteration": 1,
+    "group_index": 30,
+    "canonical_name": "amp limited",
+    "member_statuses": {
+      "amp limited": "pending_review",
+      "amp limited shares": "pending_review",
+      "amp super": "pending_review",
+      "ampol limited": "pending_review"
+    }
+  },
+  "1-31": {
+    "iteration": 1,
+    "group_index": 31,
+    "canonical_name": "500 club",
+    "member_statuses": {
+      "500 club": "pending_review",
+      "500 club liberal party": "pending_review",
+      "500 club liberal party rpgc mfc": "pending_review",
+      "500 club member": "pending_review"
+    }
+  },
+  "1-32": {
+    "iteration": 1,
+    "group_index": 32,
+    "canonical_name": "55 pyrmont bridge rd pty ltd",
+    "member_statuses": {
+      "55 pyrmont bridge rd pty ltd": "confirmed"
+    }
+  },
+  "1-33": {
+    "iteration": 1,
+    "group_index": 33,
+    "canonical_name": "5g network limited",
+    "member_statuses": {
+      "5g network limited": "confirmed"
+    }
+  },
+  "1-34": {
+    "iteration": 1,
+    "group_index": 34,
+    "canonical_name": "7 network",
+    "member_statuses": {
+      "7 network": "confirmed"
+    }
+  },
+  "1-35": {
+    "iteration": 1,
+    "group_index": 35,
+    "canonical_name": "9 virgin blue",
+    "member_statuses": {
+      "9 virgin blue": "confirmed"
+    }
+  },
+  "1-36": {
+    "iteration": 1,
+    "group_index": 36,
+    "canonical_name": "a",
+    "member_statuses": {
+      "a": "confirmed"
+    }
+  },
+  "1-37": {
+    "iteration": 1,
+    "group_index": 37,
+    "canonical_name": "a & r land pty ltd",
+    "member_statuses": {
+      "a & r land pty ltd": "pending_review",
+      "a & r property development pty ltd": "pending_review",
+      "a & r willcox pty ltd": "pending_review",
+      "a corporation pty ltd": "pending_review",
+      "acgee pty ltd": "pending_review",
+      "acline pty ltd": "pending_review",
+      "adju pty ltd": "pending_review",
+      "advantage enterprises pty ltd": "pending_review",
+      "akas pty ltd": "pending_review",
+      "akas pty ltd trustee company for corriesmith family trust": "pending_review",
+      "alanja pty ltd": "pending_review",
+      "alc global enterprises pty ltd": "pending_review",
+      "alc global holdings pty ltd": "pending_review",
+      "alp holdings pty ltd": "pending_review"
+    }
+  },
+  "1-38": {
+    "iteration": 1,
+    "group_index": 38,
+    "canonical_name": "a class imports pty ltd",
+    "member_statuses": {
+      "a class imports pty ltd": "confirmed"
+    }
+  },
+  "1-39": {
+    "iteration": 1,
+    "group_index": 39,
+    "canonical_name": "a constituent",
+    "member_statuses": {
+      "a constituent": "confirmed"
+    }
+  },
+  "1-40": {
+    "iteration": 1,
+    "group_index": 40,
+    "canonical_name": "amp & media",
+    "member_statuses": {
+      "amp & media": "pending_review",
+      "amp society": "pending_review"
+    }
+  },
+  "1-41": {
+    "iteration": 1,
+    "group_index": 41,
+    "canonical_name": "a day for wendy",
+    "member_statuses": {
+      "a day for wendy": "confirmed"
+    }
+  },
+  "1-42": {
+    "iteration": 1,
+    "group_index": 42,
+    "canonical_name": "a h beard",
+    "member_statuses": {
+      "a h beard": "confirmed"
+    }
+  },
+  "1-43": {
+    "iteration": 1,
+    "group_index": 43,
+    "canonical_name": "a league",
+    "member_statuses": {
+      "a league": "confirmed"
+    }
+  },
+  "1-44": {
+    "iteration": 1,
+    "group_index": 44,
+    "canonical_name": "a mcveigh superannuation fund",
+    "member_statuses": {
+      "a mcveigh superannuation fund": "pending_review",
+      "a superannuation fund": "pending_review",
+      "ab & lj wallace superannuation fund": "pending_review",
+      "ab lj wallace superannuation fund": "pending_review",
+      "acg superannuation fund": "pending_review",
+      "amp capital superannuation account": "pending_review",
+      "amp growth fund": "pending_review",
+      "amp super fund": "pending_review",
+      "amp superannuation": "pending_review",
+      "amp superannuation fund": "pending_review",
+      "amp wholesale property fund": "pending_review"
+    }
+  },
+  "1-45": {
+    "iteration": 1,
+    "group_index": 45,
+    "canonical_name": "a pitt super pty ltd",
+    "member_statuses": {
+      "a pitt super pty ltd": "confirmed"
+    }
+  },
+  "1-46": {
+    "iteration": 1,
+    "group_index": 46,
+    "canonical_name": "a plus approach",
+    "member_statuses": {
+      "a plus approach": "confirmed"
+    }
+  },
+  "1-47": {
+    "iteration": 1,
+    "group_index": 47,
+    "canonical_name": "a research institute",
+    "member_statuses": {
+      "a research institute": "confirmed"
+    }
+  },
+  "1-48": {
+    "iteration": 1,
+    "group_index": 48,
+    "canonical_name": "a&e investments trust",
+    "member_statuses": {
+      "a&e investments trust": "confirmed"
+    }
+  },
+  "1-49": {
+    "iteration": 1,
+    "group_index": 49,
+    "canonical_name": "a&e thompson investments pty ltd",
+    "member_statuses": {
+      "a&e thompson investments pty ltd": "confirmed"
+    }
+  },
+  "1-50": {
+    "iteration": 1,
+    "group_index": 50,
+    "canonical_name": "a2 milk",
+    "member_statuses": {
+      "a2 milk": "pending_review",
+      "a2 milk company ltd": "pending_review"
+    }
+  },
+  "1-51": {
+    "iteration": 1,
+    "group_index": 51,
+    "canonical_name": "aami insurance",
+    "member_statuses": {
+      "aami insurance": "confirmed"
+    }
+  },
+  "1-52": {
+    "iteration": 1,
+    "group_index": 52,
+    "canonical_name": "aami stadium",
+    "member_statuses": {
+      "aami stadium": "confirmed"
+    }
+  },
+  "1-53": {
+    "iteration": 1,
+    "group_index": 53,
+    "canonical_name": "aaron parnell",
+    "member_statuses": {
+      "aaron parnell": "confirmed"
+    }
+  },
+  "1-54": {
+    "iteration": 1,
+    "group_index": 54,
+    "canonical_name": "amp capital core infrastructure class a managed fund",
+    "member_statuses": {
+      "amp capital core infrastructure class a managed fund": "pending_review",
+      "amp capital core infrastructure fund": "pending_review",
+      "amp capital corporate bond fund class a": "pending_review",
+      "amp capital enhanced yield fund class a": "pending_review",
+      "amp capital structured high yield fund": "pending_review"
+    }
+  },
+  "1-55": {
+    "iteration": 1,
+    "group_index": 55,
+    "canonical_name": "abbey museum friends",
+    "member_statuses": {
+      "abbey museum friends": "confirmed"
+    }
+  },
+  "1-56": {
+    "iteration": 1,
+    "group_index": 56,
+    "canonical_name": "abbotsford",
+    "member_statuses": {
+      "abbotsford": "confirmed"
+    }
+  },
+  "1-57": {
+    "iteration": 1,
+    "group_index": 57,
+    "canonical_name": "abbotsleigh foundation",
+    "member_statuses": {
+      "abbotsleigh foundation": "pending_review",
+      "abbotsleigh school foundation": "pending_review"
+    }
+  },
+  "1-58": {
+    "iteration": 1,
+    "group_index": 58,
+    "canonical_name": "abc bullion",
+    "member_statuses": {
+      "abc bullion": "confirmed"
+    }
+  },
+  "1-59": {
+    "iteration": 1,
+    "group_index": 59,
+    "canonical_name": "abc friends sa",
+    "member_statuses": {
+      "abc friends sa": "confirmed"
+    }
+  },
+  "1-60": {
+    "iteration": 1,
+    "group_index": 60,
+    "canonical_name": "abell point marina",
+    "member_statuses": {
+      "abell point marina": "confirmed"
+    }
+  },
+  "1-61": {
+    "iteration": 1,
+    "group_index": 61,
+    "canonical_name": "aberdeen asian opportunities fund",
+    "member_statuses": {
+      "aberdeen asian opportunities fund": "pending_review",
+      "aberdeen emerging opportunities fund": "pending_review"
+    }
+  },
+  "1-62": {
+    "iteration": 1,
+    "group_index": 62,
+    "canonical_name": "aberdeen inflation linked bond fund",
+    "member_statuses": {
+      "aberdeen inflation linked bond fund": "confirmed"
+    }
+  },
+  "1-63": {
+    "iteration": 1,
+    "group_index": 63,
+    "canonical_name": "aberdeen standard physical palladium shares etf",
+    "member_statuses": {
+      "aberdeen standard physical palladium shares etf": "confirmed"
+    }
+  },
+  "1-64": {
+    "iteration": 1,
+    "group_index": 64,
+    "canonical_name": "abermain eisteddfod",
+    "member_statuses": {
+      "abermain eisteddfod": "confirmed"
+    }
+  },
+  "1-65": {
+    "iteration": 1,
+    "group_index": 65,
+    "canonical_name": "ability capital",
+    "member_statuses": {
+      "ability capital": "confirmed"
+    }
+  },
+  "1-66": {
+    "iteration": 1,
+    "group_index": 66,
+    "canonical_name": "ablas",
+    "member_statuses": {
+      "ablas": "confirmed"
+    }
+  },
+  "1-67": {
+    "iteration": 1,
+    "group_index": 67,
+    "canonical_name": "aboriginal benefits foundation",
+    "member_statuses": {
+      "aboriginal benefits foundation": "pending_review",
+      "aboriginal benefits foundation patron": "pending_review"
+    }
+  },
+  "1-68": {
+    "iteration": 1,
+    "group_index": 68,
+    "canonical_name": "aboriginal employment strategy limited",
+    "member_statuses": {
+      "aboriginal employment strategy limited": "confirmed"
+    }
+  },
+  "1-69": {
+    "iteration": 1,
+    "group_index": 69,
+    "canonical_name": "aboriginal health council of wa",
+    "member_statuses": {
+      "aboriginal health council of wa": "confirmed"
+    }
+  },
+  "1-70": {
+    "iteration": 1,
+    "group_index": 70,
+    "canonical_name": "abu dhabi",
+    "member_statuses": {
+      "abu dhabi": "confirmed"
+    }
+  },
+  "1-71": {
+    "iteration": 1,
+    "group_index": 71,
+    "canonical_name": "academy of the social sciences in australia",
+    "member_statuses": {
+      "academy of the social sciences in australia": "confirmed"
+    }
+  },
+  "1-72": {
+    "iteration": 1,
+    "group_index": 72,
+    "canonical_name": "acchemia ltd",
+    "member_statuses": {
+      "acchemia ltd": "confirmed"
+    }
+  },
+  "1-73": {
+    "iteration": 1,
+    "group_index": 73,
+    "canonical_name": "acciona",
+    "member_statuses": {
+      "acciona": "confirmed"
+    }
+  },
+  "1-74": {
+    "iteration": 1,
+    "group_index": 74,
+    "canonical_name": "accolade wines in sydney",
+    "member_statuses": {
+      "accolade wines in sydney": "confirmed"
+    }
+  },
+  "1-75": {
+    "iteration": 1,
+    "group_index": 75,
+    "canonical_name": "accommodation provider",
+    "member_statuses": {
+      "accommodation provider": "confirmed"
+    }
+  },
+  "1-76": {
+    "iteration": 1,
+    "group_index": 76,
+    "canonical_name": "accor hotels",
+    "member_statuses": {
+      "accor hotels": "confirmed"
+    }
+  },
+  "1-77": {
+    "iteration": 1,
+    "group_index": 77,
+    "canonical_name": "accor membership",
+    "member_statuses": {
+      "accor membership": "pending_review",
+      "accor plus": "pending_review"
+    }
+  },
+  "1-78": {
+    "iteration": 1,
+    "group_index": 78,
+    "canonical_name": "accorhotels",
+    "member_statuses": {
+      "accorhotels": "confirmed"
+    }
+  },
+  "1-79": {
+    "iteration": 1,
+    "group_index": 79,
+    "canonical_name": "account with australian super including insurance",
+    "member_statuses": {
+      "account with australian super including insurance": "confirmed"
+    }
+  },
+  "1-80": {
+    "iteration": 1,
+    "group_index": 80,
+    "canonical_name": "account with sportingbet",
+    "member_statuses": {
+      "account with sportingbet": "pending_review",
+      "account with sportsbet": "pending_review"
+    }
+  },
+  "1-81": {
+    "iteration": 1,
+    "group_index": 81,
+    "canonical_name": "ace",
+    "member_statuses": {
+      "ace": "confirmed"
+    }
+  },
+  "1-82": {
+    "iteration": 1,
+    "group_index": 82,
+    "canonical_name": "ace gutters",
+    "member_statuses": {
+      "ace gutters": "confirmed"
+    }
+  },
+  "1-83": {
+    "iteration": 1,
+    "group_index": 83,
+    "canonical_name": "ach group",
+    "member_statuses": {
+      "ach group": "confirmed"
+    }
+  },
+  "1-84": {
+    "iteration": 1,
+    "group_index": 84,
+    "canonical_name": "aco soloists concert",
+    "member_statuses": {
+      "aco soloists concert": "confirmed"
+    }
+  },
+  "1-85": {
+    "iteration": 1,
+    "group_index": 85,
+    "canonical_name": "aconex",
+    "member_statuses": {
+      "aconex": "confirmed"
+    }
+  },
+  "1-86": {
+    "iteration": 1,
+    "group_index": 86,
+    "canonical_name": "acorn",
+    "member_statuses": {
+      "acorn": "confirmed"
+    }
+  },
+  "1-87": {
+    "iteration": 1,
+    "group_index": 87,
+    "canonical_name": "act for kids",
+    "member_statuses": {
+      "act for kids": "confirmed"
+    }
+  },
+  "1-88": {
+    "iteration": 1,
+    "group_index": 88,
+    "canonical_name": "acting medical superintendent",
+    "member_statuses": {
+      "acting medical superintendent": "confirmed"
+    }
+  },
+  "1-89": {
+    "iteration": 1,
+    "group_index": 89,
+    "canonical_name": "action global health advocacy partnership",
+    "member_statuses": {
+      "action global health advocacy partnership": "confirmed"
+    }
+  },
+  "1-90": {
+    "iteration": 1,
+    "group_index": 90,
+    "canonical_name": "action natural resource management",
+    "member_statuses": {
+      "action natural resource management": "confirmed"
+    }
+  },
+  "1-91": {
+    "iteration": 1,
+    "group_index": 91,
+    "canonical_name": "action sweetwater creek inc",
+    "member_statuses": {
+      "action sweetwater creek inc": "confirmed"
+    }
+  },
+  "1-92": {
+    "iteration": 1,
+    "group_index": 92,
+    "canonical_name": "activ foundation",
+    "member_statuses": {
+      "activ foundation": "confirmed"
+    }
+  },
+  "1-93": {
+    "iteration": 1,
+    "group_index": 93,
+    "canonical_name": "activ life physiotherapy and rehabilitation",
+    "member_statuses": {
+      "activ life physiotherapy and rehabilitation": "confirmed"
+    }
+  },
+  "1-94": {
+    "iteration": 1,
+    "group_index": 94,
+    "canonical_name": "adani mining",
+    "member_statuses": {
+      "adani mining": "confirmed"
+    }
+  },
+  "1-95": {
+    "iteration": 1,
+    "group_index": 95,
+    "canonical_name": "adc australian leadership forum",
+    "member_statuses": {
+      "adc australian leadership forum": "confirmed"
+    }
+  },
+  "1-96": {
+    "iteration": 1,
+    "group_index": 96,
+    "canonical_name": "adc forum",
+    "member_statuses": {
+      "adc forum": "confirmed"
+    }
+  },
+  "1-97": {
+    "iteration": 1,
+    "group_index": 97,
+    "canonical_name": "amputee nsw",
+    "member_statuses": {
+      "amputee nsw": "confirmed"
+    }
+  },
+  "1-98": {
+    "iteration": 1,
+    "group_index": 98,
+    "canonical_name": "amvz",
+    "member_statuses": {
+      "amvz": "confirmed"
+    }
+  },
+  "1-99": {
+    "iteration": 1,
+    "group_index": 99,
+    "canonical_name": "adelaide bank and rismark through permanent custodians",
+    "member_statuses": {
+      "adelaide bank and rismark through permanent custodians": "confirmed"
+    }
+  },
+  "1-100": {
+    "iteration": 1,
+    "group_index": 100,
+    "canonical_name": "adelaide edge rotary club",
+    "member_statuses": {
+      "adelaide edge rotary club": "confirmed"
+    }
+  },
+  "1-101": {
+    "iteration": 1,
+    "group_index": 101,
+    "canonical_name": "adelaide",
+    "member_statuses": {
+      "adelaide": "pending_review",
+      "adelaide bank": "pending_review",
+      "adelaide bank anz": "pending_review",
+      "adelaide bank ltd": "pending_review",
+      "adelaide bendigo": "pending_review",
+      "adelaide bendigo bank": "pending_review",
+      "adelaide brighton": "pending_review",
+      "adelaide brighton ltd": "pending_review",
+      "adelaide club": "pending_review",
+      "adelaide crows football club": "pending_review",
+      "adelaide crows football club board": "pending_review",
+      "adelaide entertainment centre": "pending_review",
+      "adelaide festival board": "pending_review",
+      "adelaide festival centre": "pending_review",
+      "adelaide football club": "pending_review",
+      "adelaide fringe": "pending_review",
+      "adelaide fringe office": "pending_review",
+      "adelaide sa": "pending_review",
+      "adelaide showground": "pending_review",
+      "adelaide university boat club": "pending_review",
+      "all national australia bank": "pending_review"
+    }
+  },
+  "1-102": {
+    "iteration": 1,
+    "group_index": 102,
+    "canonical_name": "adelaide training and employment centre",
+    "member_statuses": {
+      "adelaide training and employment centre": "confirmed"
+    }
+  },
+  "1-103": {
+    "iteration": 1,
+    "group_index": 103,
+    "canonical_name": "adf navy reserve",
+    "member_statuses": {
+      "adf navy reserve": "confirmed"
+    }
+  },
+  "1-104": {
+    "iteration": 1,
+    "group_index": 104,
+    "canonical_name": "adf parliamentary program",
+    "member_statuses": {
+      "adf parliamentary program": "confirmed"
+    }
+  },
+  "1-105": {
+    "iteration": 1,
+    "group_index": 105,
+    "canonical_name": "adina apartment hotel in sydney",
+    "member_statuses": {
+      "adina apartment hotel in sydney": "pending_review",
+      "adina apartments surry hills": "pending_review"
+    }
+  },
+  "1-106": {
+    "iteration": 1,
+    "group_index": 106,
+    "canonical_name": "aditya birla minerals ltd",
+    "member_statuses": {
+      "aditya birla minerals ltd": "pending_review",
+      "aditya birla minerals pty ltd": "pending_review"
+    }
+  },
+  "1-107": {
+    "iteration": 1,
+    "group_index": 107,
+    "canonical_name": "admerex ltd",
+    "member_statuses": {
+      "admerex ltd": "confirmed"
+    }
+  },
+  "1-108": {
+    "iteration": 1,
+    "group_index": 108,
+    "canonical_name": "adopt change",
+    "member_statuses": {
+      "adopt change": "confirmed"
+    }
+  },
+  "1-109": {
+    "iteration": 1,
+    "group_index": 109,
+    "canonical_name": "adrian carson ceo institute for urban indigenous health brisbane",
+    "member_statuses": {
+      "adrian carson ceo institute for urban indigenous health brisbane": "confirmed"
+    }
+  },
+  "1-110": {
+    "iteration": 1,
+    "group_index": 110,
+    "canonical_name": "advance",
+    "member_statuses": {
+      "advance": "confirmed"
+    }
+  },
+  "1-111": {
+    "iteration": 1,
+    "group_index": 111,
+    "canonical_name": "advance defensive multiblend fund",
+    "member_statuses": {
+      "advance defensive multiblend fund": "pending_review",
+      "advance properties securities multiblend fund": "pending_review"
+    }
+  },
+  "1-112": {
+    "iteration": 1,
+    "group_index": 112,
+    "canonical_name": "advance property securities m blend",
+    "member_statuses": {
+      "advance property securities m blend": "pending_review",
+      "advance property securities mblend": "pending_review"
+    }
+  },
+  "1-113": {
+    "iteration": 1,
+    "group_index": 113,
+    "canonical_name": "advanced cairns",
+    "member_statuses": {
+      "advanced cairns": "confirmed"
+    }
+  },
+  "1-114": {
+    "iteration": 1,
+    "group_index": 114,
+    "canonical_name": "advanced micro devices",
+    "member_statuses": {
+      "advanced micro devices": "confirmed"
+    }
+  },
+  "1-115": {
+    "iteration": 1,
+    "group_index": 115,
+    "canonical_name": "advisory committee to unsw bright alliance",
+    "member_statuses": {
+      "advisory committee to unsw bright alliance": "confirmed"
+    }
+  },
+  "1-116": {
+    "iteration": 1,
+    "group_index": 116,
+    "canonical_name": "advisory group for the asia pacific centre for work health and safety",
+    "member_statuses": {
+      "advisory group for the asia pacific centre for work health and safety": "confirmed"
+    }
+  },
+  "1-117": {
+    "iteration": 1,
+    "group_index": 117,
+    "canonical_name": "advisory panel on capital city infrastructure",
+    "member_statuses": {
+      "advisory panel on capital city infrastructure": "confirmed"
+    }
+  },
+  "1-118": {
+    "iteration": 1,
+    "group_index": 118,
+    "canonical_name": "aecom acm",
+    "member_statuses": {
+      "aecom acm": "confirmed"
+    }
+  },
+  "1-119": {
+    "iteration": 1,
+    "group_index": 119,
+    "canonical_name": "aeg ogden",
+    "member_statuses": {
+      "aeg ogden": "confirmed"
+    }
+  },
+  "1-120": {
+    "iteration": 1,
+    "group_index": 120,
+    "canonical_name": "aegis media pacific",
+    "member_statuses": {
+      "aegis media pacific": "confirmed"
+    }
+  },
+  "1-121": {
+    "iteration": 1,
+    "group_index": 121,
+    "canonical_name": "aemnsi wilcrow",
+    "member_statuses": {
+      "aemnsi wilcrow": "confirmed"
+    }
+  },
+  "1-122": {
+    "iteration": 1,
+    "group_index": 122,
+    "canonical_name": "aeromil pacific pty ltd",
+    "member_statuses": {
+      "aeromil pacific pty ltd": "confirmed"
+    }
+  },
+  "1-123": {
+    "iteration": 1,
+    "group_index": 123,
+    "canonical_name": "afc asian cup",
+    "member_statuses": {
+      "afc asian cup": "confirmed"
+    }
+  },
+  "1-124": {
+    "iteration": 1,
+    "group_index": 124,
+    "canonical_name": "afe",
+    "member_statuses": {
+      "afe": "pending_review",
+      "afg": "pending_review",
+      "afg homeloans": "pending_review"
+    }
+  },
+  "1-125": {
+    "iteration": 1,
+    "group_index": 125,
+    "canonical_name": "affiliates inc gosford city sub branch",
+    "member_statuses": {
+      "affiliates inc gosford city sub branch": "confirmed"
+    }
+  },
+  "1-126": {
+    "iteration": 1,
+    "group_index": 126,
+    "canonical_name": "affinity intercultural foundation",
+    "member_statuses": {
+      "affinity intercultural foundation": "confirmed"
+    }
+  },
+  "1-127": {
+    "iteration": 1,
+    "group_index": 127,
+    "canonical_name": "afgedge",
+    "member_statuses": {
+      "afgedge": "confirmed"
+    }
+  },
+  "1-128": {
+    "iteration": 1,
+    "group_index": 128,
+    "canonical_name": "afi farm policy journal",
+    "member_statuses": {
+      "afi farm policy journal": "confirmed"
+    }
+  },
+  "1-129": {
+    "iteration": 1,
+    "group_index": 129,
+    "canonical_name": "afl commission",
+    "member_statuses": {
+      "afl commission": "pending_review",
+      "afl events": "pending_review",
+      "aflgame": "pending_review"
+    }
+  },
+  "1-130": {
+    "iteration": 1,
+    "group_index": 130,
+    "canonical_name": "afl western bulldogs",
+    "member_statuses": {
+      "afl western bulldogs": "confirmed"
+    }
+  },
+  "1-131": {
+    "iteration": 1,
+    "group_index": 131,
+    "canonical_name": "afl womens",
+    "member_statuses": {
+      "afl womens": "confirmed"
+    }
+  },
+  "1-132": {
+    "iteration": 1,
+    "group_index": 132,
+    "canonical_name": "afsh nominees",
+    "member_statuses": {
+      "afsh nominees": "pending_review",
+      "afsh nominees pl": "pending_review"
+    }
+  },
+  "1-133": {
+    "iteration": 1,
+    "group_index": 133,
+    "canonical_name": "after pay touch",
+    "member_statuses": {
+      "after pay touch": "confirmed"
+    }
+  },
+  "1-134": {
+    "iteration": 1,
+    "group_index": 134,
+    "canonical_name": "afterpay limited",
+    "member_statuses": {
+      "afterpay limited": "pending_review",
+      "afterpay touch": "pending_review",
+      "afterpay touch apt": "pending_review"
+    }
+  },
+  "1-135": {
+    "iteration": 1,
+    "group_index": 135,
+    "canonical_name": "agc",
+    "member_statuses": {
+      "agc": "pending_review",
+      "agi": "pending_review",
+      "agr": "pending_review",
+      "agu": "pending_review"
+    }
+  },
+  "1-136": {
+    "iteration": 1,
+    "group_index": 136,
+    "canonical_name": "agest super pl",
+    "member_statuses": {
+      "agest super pl": "confirmed"
+    }
+  },
+  "1-137": {
+    "iteration": 1,
+    "group_index": 137,
+    "canonical_name": "agest super pty ltd",
+    "member_statuses": {
+      "agest super pty ltd": "confirmed"
+    }
+  },
+  "1-138": {
+    "iteration": 1,
+    "group_index": 138,
+    "canonical_name": "agi perth",
+    "member_statuses": {
+      "agi perth": "confirmed"
+    }
+  },
+  "1-139": {
+    "iteration": 1,
+    "group_index": 139,
+    "canonical_name": "agile advisory pty ltd",
+    "member_statuses": {
+      "agile advisory pty ltd": "confirmed"
+    }
+  },
+  "1-140": {
+    "iteration": 1,
+    "group_index": 140,
+    "canonical_name": "agl energy",
+    "member_statuses": {
+      "agl energy": "pending_review",
+      "agl energy limited": "pending_review",
+      "agl energy limited fpo": "pending_review",
+      "agl energy ltd": "pending_review",
+      "agl ltd": "pending_review"
+    }
+  },
+  "1-141": {
+    "iteration": 1,
+    "group_index": 141,
+    "canonical_name": "ago shares",
+    "member_statuses": {
+      "ago shares": "confirmed"
+    }
+  },
+  "1-142": {
+    "iteration": 1,
+    "group_index": 142,
+    "canonical_name": "agricultural land buckleboo",
+    "member_statuses": {
+      "agricultural land buckleboo": "confirmed"
+    }
+  },
+  "1-143": {
+    "iteration": 1,
+    "group_index": 143,
+    "canonical_name": "agrifinance anz",
+    "member_statuses": {
+      "agrifinance anz": "confirmed"
+    }
+  },
+  "1-144": {
+    "iteration": 1,
+    "group_index": 144,
+    "canonical_name": "aha nsw",
+    "member_statuses": {
+      "aha nsw": "confirmed"
+    }
+  },
+  "1-145": {
+    "iteration": 1,
+    "group_index": 145,
+    "canonical_name": "aha nt",
+    "member_statuses": {
+      "aha nt": "confirmed"
+    }
+  },
+  "1-146": {
+    "iteration": 1,
+    "group_index": 146,
+    "canonical_name": "aha wa",
+    "member_statuses": {
+      "aha wa": "confirmed"
+    }
+  },
+  "1-147": {
+    "iteration": 1,
+    "group_index": 147,
+    "canonical_name": "ahl",
+    "member_statuses": {
+      "ahl": "confirmed"
+    }
+  },
+  "1-148": {
+    "iteration": 1,
+    "group_index": 148,
+    "canonical_name": "ahl hotel management pty ltd as trustee for the laundy family trust no 3",
+    "member_statuses": {
+      "ahl hotel management pty ltd as trustee for the laundy family trust no 3": "confirmed"
+    }
+  },
+  "1-149": {
+    "iteration": 1,
+    "group_index": 149,
+    "canonical_name": "ahmadiyya association",
+    "member_statuses": {
+      "ahmadiyya association": "pending_review",
+      "ahmadiyya muslim community": "pending_review"
+    }
+  },
+  "1-150": {
+    "iteration": 1,
+    "group_index": 150,
+    "canonical_name": "ai group",
+    "member_statuses": {
+      "ai group": "confirmed"
+    }
+  },
+  "1-151": {
+    "iteration": 1,
+    "group_index": 151,
+    "canonical_name": "aia australia",
+    "member_statuses": {
+      "aia australia": "confirmed"
+    }
+  },
+  "1-152": {
+    "iteration": 1,
+    "group_index": 152,
+    "canonical_name": "aia super select",
+    "member_statuses": {
+      "aia super select": "confirmed"
+    }
+  },
+  "1-153": {
+    "iteration": 1,
+    "group_index": 153,
+    "canonical_name": "aijac australia israel jewish affairs council",
+    "member_statuses": {
+      "aijac australia israel jewish affairs council": "pending_review",
+      "aijac australiaisrael and jewish affairs council": "pending_review"
+    }
+  },
+  "1-154": {
+    "iteration": 1,
+    "group_index": 154,
+    "canonical_name": "aijacs ramban program",
+    "member_statuses": {
+      "aijacs ramban program": "confirmed"
+    }
+  },
+  "1-155": {
+    "iteration": 1,
+    "group_index": 155,
+    "canonical_name": "aikya emerging markets opportunities fund a class",
+    "member_statuses": {
+      "aikya emerging markets opportunities fund a class": "confirmed"
+    }
+  },
+  "1-156": {
+    "iteration": 1,
+    "group_index": 156,
+    "canonical_name": "aims immigration specialist pte ltd",
+    "member_statuses": {
+      "aims immigration specialist pte ltd": "confirmed"
+    }
+  },
+  "1-157": {
+    "iteration": 1,
+    "group_index": 157,
+    "canonical_name": "air canada",
+    "member_statuses": {
+      "air canada": "confirmed"
+    }
+  },
+  "1-158": {
+    "iteration": 1,
+    "group_index": 158,
+    "canonical_name": "air china",
+    "member_statuses": {
+      "air china": "confirmed"
+    }
+  },
+  "1-159": {
+    "iteration": 1,
+    "group_index": 159,
+    "canonical_name": "air ep",
+    "member_statuses": {
+      "air ep": "confirmed"
+    }
+  },
+  "1-160": {
+    "iteration": 1,
+    "group_index": 160,
+    "canonical_name": "air france",
+    "member_statuses": {
+      "air france": "confirmed"
+    }
+  },
+  "1-161": {
+    "iteration": 1,
+    "group_index": 161,
+    "canonical_name": "air new zealand",
+    "member_statuses": {
+      "air new zealand": "confirmed"
+    }
+  },
+  "1-162": {
+    "iteration": 1,
+    "group_index": 162,
+    "canonical_name": "air services australia",
+    "member_statuses": {
+      "air services australia": "confirmed"
+    }
+  },
+  "1-163": {
+    "iteration": 1,
+    "group_index": 163,
+    "canonical_name": "airbnb",
+    "member_statuses": {
+      "airbnb": "confirmed"
+    }
+  },
+  "1-164": {
+    "iteration": 1,
+    "group_index": 164,
+    "canonical_name": "airbus military",
+    "member_statuses": {
+      "airbus military": "confirmed"
+    }
+  },
+  "1-165": {
+    "iteration": 1,
+    "group_index": 165,
+    "canonical_name": "airdale terrier club of victoria inc",
+    "member_statuses": {
+      "airdale terrier club of victoria inc": "confirmed"
+    }
+  },
+  "1-166": {
+    "iteration": 1,
+    "group_index": 166,
+    "canonical_name": "aireys inlet victoria",
+    "member_statuses": {
+      "aireys inlet victoria": "confirmed"
+    }
+  },
+  "1-167": {
+    "iteration": 1,
+    "group_index": 167,
+    "canonical_name": "airlie beach qld",
+    "member_statuses": {
+      "airlie beach qld": "confirmed"
+    }
+  },
+  "1-168": {
+    "iteration": 1,
+    "group_index": 168,
+    "canonical_name": "airways hotel limited",
+    "member_statuses": {
+      "airways hotel limited": "confirmed"
+    }
+  },
+  "1-169": {
+    "iteration": 1,
+    "group_index": 169,
+    "canonical_name": "aita pty ltd",
+    "member_statuses": {
+      "aita pty ltd": "confirmed"
+    }
+  },
+  "1-170": {
+    "iteration": 1,
+    "group_index": 170,
+    "canonical_name": "aj & gb pearce",
+    "member_statuses": {
+      "aj & gb pearce": "confirmed"
+    }
+  },
+  "1-171": {
+    "iteration": 1,
+    "group_index": 171,
+    "canonical_name": "aj & l taylor family trust",
+    "member_statuses": {
+      "aj & l taylor family trust": "confirmed"
+    }
+  },
+  "1-172": {
+    "iteration": 1,
+    "group_index": 172,
+    "canonical_name": "ajit doval",
+    "member_statuses": {
+      "ajit doval": "confirmed"
+    }
+  },
+  "1-173": {
+    "iteration": 1,
+    "group_index": 173,
+    "canonical_name": "ajm",
+    "member_statuses": {
+      "ajm": "confirmed"
+    }
+  },
+  "1-174": {
+    "iteration": 1,
+    "group_index": 174,
+    "canonical_name": "ajrw investments pty ltd",
+    "member_statuses": {
+      "ajrw investments pty ltd": "confirmed"
+    }
+  },
+  "1-175": {
+    "iteration": 1,
+    "group_index": 175,
+    "canonical_name": "amp bank",
+    "member_statuses": {
+      "amp bank": "pending_review",
+      "amp bank ltd": "pending_review",
+      "amp life ltd": "pending_review",
+      "amp ltd": "pending_review"
+    }
+  },
+  "1-176": {
+    "iteration": 1,
+    "group_index": 176,
+    "canonical_name": "akc exploration ltd",
+    "member_statuses": {
+      "akc exploration ltd": "confirmed"
+    }
+  },
+  "1-177": {
+    "iteration": 1,
+    "group_index": 177,
+    "canonical_name": "akira amari japanese minister of state for economic and fiscal policy",
+    "member_statuses": {
+      "akira amari japanese minister of state for economic and fiscal policy": "confirmed"
+    }
+  },
+  "1-178": {
+    "iteration": 1,
+    "group_index": 178,
+    "canonical_name": "akitio pl",
+    "member_statuses": {
+      "akitio pl": "confirmed"
+    }
+  },
+  "1-179": {
+    "iteration": 1,
+    "group_index": 179,
+    "canonical_name": "akshardham temple",
+    "member_statuses": {
+      "akshardham temple": "pending_review",
+      "akshardham temple delhi": "pending_review"
+    }
+  },
+  "1-180": {
+    "iteration": 1,
+    "group_index": 180,
+    "canonical_name": "akubra factory",
+    "member_statuses": {
+      "akubra factory": "confirmed"
+    }
+  },
+  "1-181": {
+    "iteration": 1,
+    "group_index": 181,
+    "canonical_name": "akuna capital",
+    "member_statuses": {
+      "akuna capital": "confirmed"
+    }
+  },
+  "1-182": {
+    "iteration": 1,
+    "group_index": 182,
+    "canonical_name": "al group",
+    "member_statuses": {
+      "al group": "confirmed"
+    }
+  },
+  "1-183": {
+    "iteration": 1,
+    "group_index": 183,
+    "canonical_name": "alacer gold corp",
+    "member_statuses": {
+      "alacer gold corp": "confirmed"
+    }
+  },
+  "1-184": {
+    "iteration": 1,
+    "group_index": 184,
+    "canonical_name": "alannah & madeline foundation",
+    "member_statuses": {
+      "alannah & madeline foundation": "pending_review",
+      "alannah and madeline foundation": "pending_review"
+    }
+  },
+  "1-185": {
+    "iteration": 1,
+    "group_index": 185,
+    "canonical_name": "albany",
+    "member_statuses": {
+      "albany": "pending_review",
+      "albany wa": "pending_review"
+    }
+  },
+  "1-186": {
+    "iteration": 1,
+    "group_index": 186,
+    "canonical_name": "albury",
+    "member_statuses": {
+      "albury": "confirmed"
+    }
+  },
+  "1-187": {
+    "iteration": 1,
+    "group_index": 187,
+    "canonical_name": "albury cwa evening branch member",
+    "member_statuses": {
+      "albury cwa evening branch member": "confirmed"
+    }
+  },
+  "1-188": {
+    "iteration": 1,
+    "group_index": 188,
+    "canonical_name": "albury ski club",
+    "member_statuses": {
+      "albury ski club": "confirmed"
+    }
+  },
+  "1-189": {
+    "iteration": 1,
+    "group_index": 189,
+    "canonical_name": "albury southport",
+    "member_statuses": {
+      "albury southport": "confirmed"
+    }
+  },
+  "1-190": {
+    "iteration": 1,
+    "group_index": 190,
+    "canonical_name": "albury wodonga community college",
+    "member_statuses": {
+      "albury wodonga community college": "confirmed"
+    }
+  },
+  "1-191": {
+    "iteration": 1,
+    "group_index": 191,
+    "canonical_name": "alc global enterprise trust",
+    "member_statuses": {
+      "alc global enterprise trust": "confirmed"
+    }
+  },
+  "1-192": {
+    "iteration": 1,
+    "group_index": 192,
+    "canonical_name": "ampella",
+    "member_statuses": {
+      "ampella": "confirmed"
+    }
+  },
+  "1-193": {
+    "iteration": 1,
+    "group_index": 193,
+    "canonical_name": "alchemy",
+    "member_statuses": {
+      "alchemy": "confirmed"
+    }
+  },
+  "1-194": {
+    "iteration": 1,
+    "group_index": 194,
+    "canonical_name": "alcidion group ltd alc",
+    "member_statuses": {
+      "alcidion group ltd alc": "confirmed"
+    }
+  },
+  "1-195": {
+    "iteration": 1,
+    "group_index": 195,
+    "canonical_name": "alcohol and other drugs council of australia adca",
+    "member_statuses": {
+      "alcohol and other drugs council of australia adca": "confirmed"
+    }
+  },
+  "1-196": {
+    "iteration": 1,
+    "group_index": 196,
+    "canonical_name": "alcolizer",
+    "member_statuses": {
+      "alcolizer": "confirmed"
+    }
+  },
+  "1-197": {
+    "iteration": 1,
+    "group_index": 197,
+    "canonical_name": "ald",
+    "member_statuses": {
+      "ald": "confirmed"
+    }
+  },
+  "1-198": {
+    "iteration": 1,
+    "group_index": 198,
+    "canonical_name": "alex epstein",
+    "member_statuses": {
+      "alex epstein": "confirmed"
+    }
+  },
+  "1-199": {
+    "iteration": 1,
+    "group_index": 199,
+    "canonical_name": "alex ryvchin",
+    "member_statuses": {
+      "alex ryvchin": "confirmed"
+    }
+  },
+  "1-200": {
+    "iteration": 1,
+    "group_index": 200,
+    "canonical_name": "alexanders tennis professionals",
+    "member_statuses": {
+      "alexanders tennis professionals": "confirmed"
+    }
+  },
+  "1-201": {
+    "iteration": 1,
+    "group_index": 201,
+    "canonical_name": "alexandra headland",
+    "member_statuses": {
+      "alexandra headland": "pending_review",
+      "alexandra headland qld": "pending_review",
+      "alexandra headland scsc": "pending_review"
+    }
+  },
+  "1-202": {
+    "iteration": 1,
+    "group_index": 202,
+    "canonical_name": "alexandra headland surf life saving club",
+    "member_statuses": {
+      "alexandra headland surf life saving club": "pending_review",
+      "alkimos surf life saving club": "pending_review"
+    }
+  },
+  "1-203": {
+    "iteration": 1,
+    "group_index": 203,
+    "canonical_name": "alfred deakin lecture trust",
+    "member_statuses": {
+      "alfred deakin lecture trust": "confirmed"
+    }
+  },
+  "1-204": {
+    "iteration": 1,
+    "group_index": 204,
+    "canonical_name": "alfred herrhausen society",
+    "member_statuses": {
+      "alfred herrhausen society": "confirmed"
+    }
+  },
+  "1-205": {
+    "iteration": 1,
+    "group_index": 205,
+    "canonical_name": "alfred hospital",
+    "member_statuses": {
+      "alfred hospital": "confirmed"
+    }
+  },
+  "1-206": {
+    "iteration": 1,
+    "group_index": 206,
+    "canonical_name": "ali group",
+    "member_statuses": {
+      "ali group": "confirmed"
+    }
+  },
+  "1-207": {
+    "iteration": 1,
+    "group_index": 207,
+    "canonical_name": "alinta",
+    "member_statuses": {
+      "alinta": "confirmed"
+    }
+  },
+  "1-208": {
+    "iteration": 1,
+    "group_index": 208,
+    "canonical_name": "alinta energy",
+    "member_statuses": {
+      "alinta energy": "pending_review",
+      "alinta energy limited": "pending_review",
+      "alinta energy ltd": "pending_review"
+    }
+  },
+  "1-209": {
+    "iteration": 1,
+    "group_index": 209,
+    "canonical_name": "alkimos college",
+    "member_statuses": {
+      "alkimos college": "confirmed"
+    }
+  },
+  "1-210": {
+    "iteration": 1,
+    "group_index": 210,
+    "canonical_name": "all energy group",
+    "member_statuses": {
+      "all energy group": "confirmed"
+    }
+  },
+  "1-211": {
+    "iteration": 1,
+    "group_index": 211,
+    "canonical_name": "all england club",
+    "member_statuses": {
+      "all england club": "confirmed"
+    }
+  },
+  "1-212": {
+    "iteration": 1,
+    "group_index": 212,
+    "canonical_name": "all mens sheds in the electorate",
+    "member_statuses": {
+      "all mens sheds in the electorate": "confirmed"
+    }
+  },
+  "1-213": {
+    "iteration": 1,
+    "group_index": 213,
+    "canonical_name": "allan gray australia equity fund",
+    "member_statuses": {
+      "allan gray australia equity fund": "pending_review",
+      "allan gray australia equity fund class a": "pending_review"
+    }
+  },
+  "1-214": {
+    "iteration": 1,
+    "group_index": 214,
+    "canonical_name": "allan somerville",
+    "member_statuses": {
+      "allan somerville": "confirmed"
+    }
+  },
+  "1-215": {
+    "iteration": 1,
+    "group_index": 215,
+    "canonical_name": "allegra for wentworth pty ltd",
+    "member_statuses": {
+      "allegra for wentworth pty ltd": "confirmed"
+    }
+  },
+  "1-216": {
+    "iteration": 1,
+    "group_index": 216,
+    "canonical_name": "allen & unwin",
+    "member_statuses": {
+      "allen & unwin": "pending_review",
+      "allen & unwin pty ltd": "pending_review"
+    }
+  },
+  "1-217": {
+    "iteration": 1,
+    "group_index": 217,
+    "canonical_name": "allens lawyers",
+    "member_statuses": {
+      "allens lawyers": "confirmed"
+    }
+  },
+  "1-218": {
+    "iteration": 1,
+    "group_index": 218,
+    "canonical_name": "allens melbourne",
+    "member_statuses": {
+      "allens melbourne": "confirmed"
+    }
+  },
+  "1-219": {
+    "iteration": 1,
+    "group_index": 219,
+    "canonical_name": "alliance defending freedom adf",
+    "member_statuses": {
+      "alliance defending freedom adf": "confirmed"
+    }
+  },
+  "1-220": {
+    "iteration": 1,
+    "group_index": 220,
+    "canonical_name": "alliance for conservatives and reformists in europe",
+    "member_statuses": {
+      "alliance for conservatives and reformists in europe": "pending_review",
+      "alliance of european conservatives and reformists": "pending_review"
+    }
+  },
+  "1-221": {
+    "iteration": 1,
+    "group_index": 221,
+    "canonical_name": "alliance for responsible citizenship",
+    "member_statuses": {
+      "alliance for responsible citizenship": "pending_review",
+      "alliance for responsible citizenship arc": "pending_review",
+      "alliance for responsible citizenship conference": "pending_review",
+      "alliance for responsible citizenship ltd arc": "pending_review"
+    }
+  },
+  "1-222": {
+    "iteration": 1,
+    "group_index": 222,
+    "canonical_name": "allied unions superannuation trustee company",
+    "member_statuses": {
+      "allied unions superannuation trustee company": "confirmed"
+    }
+  },
+  "1-223": {
+    "iteration": 1,
+    "group_index": 223,
+    "canonical_name": "allmero pil",
+    "member_statuses": {
+      "allmero pil": "confirmed"
+    }
+  },
+  "1-224": {
+    "iteration": 1,
+    "group_index": 224,
+    "canonical_name": "allure epm",
+    "member_statuses": {
+      "allure epm": "confirmed"
+    }
+  },
+  "1-225": {
+    "iteration": 1,
+    "group_index": 225,
+    "canonical_name": "alo",
+    "member_statuses": {
+      "alo": "confirmed"
+    }
+  },
+  "1-226": {
+    "iteration": 1,
+    "group_index": 226,
+    "canonical_name": "alp australian labor party",
+    "member_statuses": {
+      "alp australian labor party": "confirmed"
+    }
+  },
+  "1-227": {
+    "iteration": 1,
+    "group_index": 227,
+    "canonical_name": "alp membership",
+    "member_statuses": {
+      "alp membership": "confirmed"
+    }
+  },
+  "1-228": {
+    "iteration": 1,
+    "group_index": 228,
+    "canonical_name": "alp national secretariat",
+    "member_statuses": {
+      "alp national secretariat": "confirmed"
+    }
+  },
+  "1-229": {
+    "iteration": 1,
+    "group_index": 229,
+    "canonical_name": "alp nsw branch",
+    "member_statuses": {
+      "alp nsw branch": "confirmed"
+    }
+  },
+  "1-230": {
+    "iteration": 1,
+    "group_index": 230,
+    "canonical_name": "alp wendouree branch",
+    "member_statuses": {
+      "alp wendouree branch": "confirmed"
+    }
+  },
+  "1-231": {
+    "iteration": 1,
+    "group_index": 231,
+    "canonical_name": "alpha h",
+    "member_statuses": {
+      "alpha h": "confirmed"
+    }
+  },
+  "1-232": {
+    "iteration": 1,
+    "group_index": 232,
+    "canonical_name": "alphabet",
+    "member_statuses": {
+      "alphabet": "confirmed"
+    }
+  },
+  "1-233": {
+    "iteration": 1,
+    "group_index": 233,
+    "canonical_name": "alphera",
+    "member_statuses": {
+      "alphera": "confirmed"
+    }
+  },
+  "1-234": {
+    "iteration": 1,
+    "group_index": 234,
+    "canonical_name": "alphera finance",
+    "member_statuses": {
+      "alphera finance": "confirmed"
+    }
+  },
+  "1-235": {
+    "iteration": 1,
+    "group_index": 235,
+    "canonical_name": "alpin investment fund",
+    "member_statuses": {
+      "alpin investment fund": "confirmed"
+    }
+  },
+  "1-236": {
+    "iteration": 1,
+    "group_index": 236,
+    "canonical_name": "alpine club of victoria",
+    "member_statuses": {
+      "alpine club of victoria": "confirmed"
+    }
+  },
+  "1-237": {
+    "iteration": 1,
+    "group_index": 237,
+    "canonical_name": "alpnnwu",
+    "member_statuses": {
+      "alpnnwu": "confirmed"
+    }
+  },
+  "1-238": {
+    "iteration": 1,
+    "group_index": 238,
+    "canonical_name": "alstom transport division",
+    "member_statuses": {
+      "alstom transport division": "confirmed"
+    }
+  },
+  "1-239": {
+    "iteration": 1,
+    "group_index": 239,
+    "canonical_name": "altona north bowls club",
+    "member_statuses": {
+      "altona north bowls club": "confirmed"
+    }
+  },
+  "1-240": {
+    "iteration": 1,
+    "group_index": 240,
+    "canonical_name": "alumina",
+    "member_statuses": {
+      "alumina": "pending_review",
+      "alumina ltd": "pending_review",
+      "alumuina": "pending_review"
+    }
+  },
+  "1-241": {
+    "iteration": 1,
+    "group_index": 241,
+    "canonical_name": "alumni",
+    "member_statuses": {
+      "alumni": "pending_review",
+      "alumnus": "pending_review"
+    }
+  },
+  "1-242": {
+    "iteration": 1,
+    "group_index": 242,
+    "canonical_name": "alwyndor aged care",
+    "member_statuses": {
+      "alwyndor aged care": "confirmed"
+    }
+  },
+  "1-243": {
+    "iteration": 1,
+    "group_index": 243,
+    "canonical_name": "alwyndor management committee",
+    "member_statuses": {
+      "alwyndor management committee": "confirmed"
+    }
+  },
+  "1-244": {
+    "iteration": 1,
+    "group_index": 244,
+    "canonical_name": "alzheimers australia darling downs sw inc",
+    "member_statuses": {
+      "alzheimers australia darling downs sw inc": "confirmed"
+    }
+  },
+  "1-245": {
+    "iteration": 1,
+    "group_index": 245,
+    "canonical_name": "am2",
+    "member_statuses": {
+      "am2": "confirmed"
+    }
+  },
+  "1-246": {
+    "iteration": 1,
+    "group_index": 246,
+    "canonical_name": "ama honorary mship",
+    "member_statuses": {
+      "ama honorary mship": "confirmed"
+    }
+  },
+  "1-247": {
+    "iteration": 1,
+    "group_index": 247,
+    "canonical_name": "amadeus energy limited",
+    "member_statuses": {
+      "amadeus energy limited": "pending_review",
+      "amadeus energy ltd": "pending_review"
+    }
+  },
+  "1-248": {
+    "iteration": 1,
+    "group_index": 248,
+    "canonical_name": "amalgamated holdings limited",
+    "member_statuses": {
+      "amalgamated holdings limited": "confirmed"
+    }
+  },
+  "1-249": {
+    "iteration": 1,
+    "group_index": 249,
+    "canonical_name": "amalia oil",
+    "member_statuses": {
+      "amalia oil": "confirmed"
+    }
+  },
+  "1-250": {
+    "iteration": 1,
+    "group_index": 250,
+    "canonical_name": "amanda hutchinson family trust",
+    "member_statuses": {
+      "amanda hutchinson family trust": "confirmed"
+    }
+  },
+  "1-251": {
+    "iteration": 1,
+    "group_index": 251,
+    "canonical_name": "amanda rishworth mp",
+    "member_statuses": {
+      "amanda rishworth mp": "confirmed"
+    }
+  },
+  "1-252": {
+    "iteration": 1,
+    "group_index": 252,
+    "canonical_name": "amansw",
+    "member_statuses": {
+      "amansw": "confirmed"
+    }
+  },
+  "1-253": {
+    "iteration": 1,
+    "group_index": 253,
+    "canonical_name": "amazon",
+    "member_statuses": {
+      "amazon": "confirmed"
+    }
+  },
+  "1-254": {
+    "iteration": 1,
+    "group_index": 254,
+    "canonical_name": "ambassador club melbourne",
+    "member_statuses": {
+      "ambassador club melbourne": "confirmed"
+    }
+  },
+  "1-255": {
+    "iteration": 1,
+    "group_index": 255,
+    "canonical_name": "ambassador for recognition",
+    "member_statuses": {
+      "ambassador for recognition": "confirmed"
+    }
+  },
+  "1-256": {
+    "iteration": 1,
+    "group_index": 256,
+    "canonical_name": "ambassador he mr no\u00ebl white",
+    "member_statuses": {
+      "ambassador he mr no\u00ebl white": "confirmed"
+    }
+  },
+  "1-257": {
+    "iteration": 1,
+    "group_index": 257,
+    "canonical_name": "ambassador katharine chang",
+    "member_statuses": {
+      "ambassador katharine chang": "confirmed"
+    }
+  },
+  "1-258": {
+    "iteration": 1,
+    "group_index": 258,
+    "canonical_name": "ambassador little blue dinasour foundation",
+    "member_statuses": {
+      "ambassador little blue dinasour foundation": "pending_review",
+      "ambassador of little blue dinosaur": "pending_review"
+    }
+  },
+  "1-259": {
+    "iteration": 1,
+    "group_index": 259,
+    "canonical_name": "ambassador melbourne vixens",
+    "member_statuses": {
+      "ambassador melbourne vixens": "confirmed"
+    }
+  },
+  "1-260": {
+    "iteration": 1,
+    "group_index": 260,
+    "canonical_name": "ambassador of cuba",
+    "member_statuses": {
+      "ambassador of cuba": "pending_review",
+      "ambassador of guatemala": "pending_review",
+      "ambassador of the republic of cuba": "pending_review"
+    }
+  },
+  "1-261": {
+    "iteration": 1,
+    "group_index": 261,
+    "canonical_name": "ambassador of egypt",
+    "member_statuses": {
+      "ambassador of egypt": "pending_review",
+      "ambassador of the islamic republic of iran": "pending_review",
+      "ambassador of the islamic republic of iran abdolhossein vahajiac": "pending_review",
+      "ambassador of the republic of kazakhstan": "pending_review"
+    }
+  },
+  "1-262": {
+    "iteration": 1,
+    "group_index": 262,
+    "canonical_name": "ambassador of japan",
+    "member_statuses": {
+      "ambassador of japan": "pending_review",
+      "ambassador of japan he mr kazuhiro suzuki": "pending_review",
+      "ambassador of taipei": "pending_review",
+      "ambassador or japan": "pending_review",
+      "ambassador to japan reiichiro takahashi": "pending_review"
+    }
+  },
+  "1-263": {
+    "iteration": 1,
+    "group_index": 263,
+    "canonical_name": "ambassador of life education",
+    "member_statuses": {
+      "ambassador of life education": "confirmed"
+    }
+  },
+  "1-264": {
+    "iteration": 1,
+    "group_index": 264,
+    "canonical_name": "ambulance employees association",
+    "member_statuses": {
+      "ambulance employees association": "confirmed"
+    }
+  },
+  "1-265": {
+    "iteration": 1,
+    "group_index": 265,
+    "canonical_name": "ambulance victoria",
+    "member_statuses": {
+      "ambulance victoria": "confirmed"
+    }
+  },
+  "1-266": {
+    "iteration": 1,
+    "group_index": 266,
+    "canonical_name": "amcal chemist rouse hill",
+    "member_statuses": {
+      "amcal chemist rouse hill": "confirmed"
+    }
+  },
+  "1-267": {
+    "iteration": 1,
+    "group_index": 267,
+    "canonical_name": "amcil ltd",
+    "member_statuses": {
+      "amcil ltd": "pending_review",
+      "amcor limited": "pending_review",
+      "amcor ltd": "pending_review"
+    }
+  },
+  "1-268": {
+    "iteration": 1,
+    "group_index": 268,
+    "canonical_name": "ame systems",
+    "member_statuses": {
+      "ame systems": "confirmed"
+    }
+  },
+  "1-269": {
+    "iteration": 1,
+    "group_index": 269,
+    "canonical_name": "american airlines",
+    "member_statuses": {
+      "american airlines": "confirmed"
+    }
+  },
+  "1-270": {
+    "iteration": 1,
+    "group_index": 270,
+    "canonical_name": "american chamber of commerce in australia amcham",
+    "member_statuses": {
+      "american chamber of commerce in australia amcham": "confirmed"
+    }
+  },
+  "1-271": {
+    "iteration": 1,
+    "group_index": 271,
+    "canonical_name": "american delegation",
+    "member_statuses": {
+      "american delegation": "confirmed"
+    }
+  },
+  "1-272": {
+    "iteration": 1,
+    "group_index": 272,
+    "canonical_name": "american express",
+    "member_statuses": {
+      "american express": "pending_review",
+      "american express banking group": "pending_review"
+    }
+  },
+  "1-273": {
+    "iteration": 1,
+    "group_index": 273,
+    "canonical_name": "american leadership dialogue",
+    "member_statuses": {
+      "american leadership dialogue": "confirmed"
+    }
+  },
+  "1-274": {
+    "iteration": 1,
+    "group_index": 274,
+    "canonical_name": "american society",
+    "member_statuses": {
+      "american society": "confirmed"
+    }
+  },
+  "1-275": {
+    "iteration": 1,
+    "group_index": 275,
+    "canonical_name": "american society of landscape architects",
+    "member_statuses": {
+      "american society of landscape architects": "confirmed"
+    }
+  },
+  "1-276": {
+    "iteration": 1,
+    "group_index": 276,
+    "canonical_name": "amex & mastercard",
+    "member_statuses": {
+      "amex & mastercard": "pending_review",
+      "amex & visa": "pending_review"
+    }
+  },
+  "1-277": {
+    "iteration": 1,
+    "group_index": 277,
+    "canonical_name": "amitabh kant",
+    "member_statuses": {
+      "amitabh kant": "confirmed"
+    }
+  },
+  "1-278": {
+    "iteration": 1,
+    "group_index": 278,
+    "canonical_name": "aml home loans wizards",
+    "member_statuses": {
+      "aml home loans wizards": "confirmed"
+    }
+  },
+  "1-279": {
+    "iteration": 1,
+    "group_index": 279,
+    "canonical_name": "ammipark board",
+    "member_statuses": {
+      "ammipark board": "confirmed"
+    }
+  },
+  "1-280": {
+    "iteration": 1,
+    "group_index": 280,
+    "canonical_name": "amnesty international",
+    "member_statuses": {
+      "amnesty international": "confirmed"
+    }
+  },
+  "1-281": {
+    "iteration": 1,
+    "group_index": 281,
+    "canonical_name": "amor ltd",
+    "member_statuses": {
+      "amor ltd": "confirmed"
+    }
+  }
+}
