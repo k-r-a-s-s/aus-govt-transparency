@@ -1,5 +1,61 @@
 # Refactor Planning
 
+## 🗃️ Final Target Database Schema
+
+This schema is the canonical reference for all future refactor and code changes.
+
+### 1. mps — Canonical list of Members of Parliament
+```sql
+CREATE TABLE mps (
+    mp_id TEXT PRIMARY KEY,        -- e.g., "anthony_albanese"
+    full_name TEXT NOT NULL,
+    electorate TEXT,
+    party TEXT,
+    wikidata_id TEXT               -- Optional external reference
+);
+```
+
+### 2. disclosures — Parsed disclosure entries
+```sql
+CREATE TABLE disclosures (
+    disclosure_id TEXT PRIMARY KEY,       -- e.g., "2023-07-14_albanese_03"
+    mp_id TEXT NOT NULL,                  -- FK → mps(mp_id)
+    pdf_filename TEXT NOT NULL,           -- Source PDF
+    date TEXT NOT NULL,                   -- ISO 8601 (YYYY-MM-DD)
+    raw_description TEXT NOT NULL,        -- Full original description
+    raw_entity TEXT,                      -- Extracted entity string (not yet standardized)
+    category TEXT,                        -- Type of interest: "Shares", "Real Estate", "Gifts", etc.
+    interest_type TEXT CHECK(interest_type IN (
+        'acquired', 'disposed', 'held'
+    )),                                   -- Nature of disclosure
+    entity_id TEXT,                       -- Optional FK → entities(entity_id) after grouping
+    FOREIGN KEY (mp_id) REFERENCES mps(mp_id),
+    FOREIGN KEY (entity_id) REFERENCES entities(entity_id)
+);
+```
+
+### 3. entities — Cleaned & grouped entities
+```sql
+CREATE TABLE entities (
+    entity_id TEXT PRIMARY KEY,           -- Composite ID: e.g., "1-42"
+    canonical_name TEXT NOT NULL,         -- Standardized group label (e.g., "BHP Group")
+    iteration INTEGER,                    -- Grouping iteration number
+    status TEXT CHECK(status IN (
+        'confirmed', 'rejected', 'pending_review'
+    )),
+    notes TEXT
+);
+```
+
+### 🔍 Suggested Indexes (for performance)
+```sql
+CREATE INDEX idx_disclosures_mp_id ON disclosures(mp_id);
+CREATE INDEX idx_disclosures_entity_id ON disclosures(entity_id);
+CREATE INDEX idx_disclosures_type ON disclosures(interest_type);
+```
+
+---
+
 ## Context and Delta Analysis
 
 See `project_overview.rmd` for a full summary of the current state, file inventory, pipeline stages, and delta analysis.
@@ -13,4 +69,90 @@ See `project_overview.rmd` for a full summary of the current state, file invento
 - The target state is a modular, testable, and maintainable pipeline with clear separation by stage (preparation, parsing, cleaning, output), and a clean directory structure.
 
 ### Next Steps
-- See the upcoming `refactor_plan.rmd` for a proposed new structure and migration plan. 
+- See the upcoming `refactor_plan.rmd` for a proposed new structure and migration plan.
+
+## Schema Implementation Progress
+
+- [ ] Scaffold `/src/preparation/generate_schema.py` to create the canonical schema:
+    - [ ] `mps` table
+    - [ ] `disclosures` table
+    - [ ] `entities` table
+    - [ ] Indexes: `idx_disclosures_mp_id`, `idx_disclosures_entity_id`, `idx_disclosures_type`
+- [ ] Add migration logic for existing data (if needed)
+- [ ] Add tests for schema creation
+
+**Next step:** Scaffold the schema creation script.
+
+## Schema Migration: Planning & Execution
+
+**Understood:**
+- The goal is to migrate any existing SQLite DBs to the canonical schema (mps, disclosures, entities, indexes).
+- This may require renaming tables/columns, transforming data, and ensuring referential integrity.
+
+**Next:**
+- Analyze current DBs for compatibility with the canonical schema.
+- Plan migration steps: table/column renames, data transformation, backup, dry-run, and logging.
+
+**Actions:**
+1. Added migration logic tracking to `refactor_plan.rmd`.
+2. Next step is to analyze a sample DB and design migration logic (to be appended here).
+
+_All agents should append here with what they understood and executed for migration work._
+
+## Refactor Progress Log: Directory and File Moves (April 2024)
+
+### Actions Executed (per refactor_plan.rmd)
+
+- Created new modular directory structure under `/src`:
+    - `/src/preparation`, `/src/parsing`, `/src/cleaning`, `/src/output`, `/src/common`
+- Moved and/or renamed the following files:
+    - `db_handler.py` → `src/preparation/`
+    - `process_parliament_disclosures.py` → `src/main.py`
+    - `process_disclosures.py` → `src/parsing/parse_disclosures.py`
+    - `gemini_pdf_processor.py` → `src/parsing/extract_entities.py`
+    - `ocr_processor.py`, `gemini_processor.py` → `src/parsing/`
+    - `scrape_parliament.py`, `parliament_urls.py` → `src/preparation/`
+    - `standardize_data.py` → `src/cleaning/clean_entities.py`
+    - `standardize_mp_names.py`, `standardize_electorates.py` → `src/cleaning/`
+    - `update_categories.py`, `extract_items.py`, `fix_identical_items.py`, `fix_identicals_final.py`, `remove_nil_entries.py`, `merge_entities.py` → `src/cleaning/`
+    - `scripts/vector_entity_grouping.py` → `src/cleaning/vector_match.py`
+    - `scripts/apply_double_disclosure_entity_results.py` → `src/cleaning/split_entities.py`
+    - `scripts/double_disclosure_analysis.py`, `scripts/prepare_gemini_entity_analysis.py`, `scripts/analyze_double_disclosures_with_gemini.py`, `scripts/summarize_gemini_entity_analysis.py` → `src/cleaning/`
+    - `scripts/standardize_entities.py`, `scripts/verify_fuzzy_matches_llm.py`, `scripts/update_db_from_llm.py` → `src/cleaning/`
+- Moved `get_mp_party_affiliations.py` into `src/preparation/` (confirmed by user, not in original plan table, but now tracked here).
+
+**Notes:**
+- Some files (e.g., `recategorize_unknowns.py`, `recategorize_all.py`, `scripts/recategorize_unknowns_llm.py`) could not be found in their expected locations and were not moved.
+- Next steps: Delete obsolete files, update imports, and continue modularization as per plan.
+
+_All file moves and directory changes are tracked here for reproducibility and team awareness._
+
+## Repo Cleanup and Utility Moves (April 2024)
+
+### Actions Executed
+- Deleted all `.DS_Store` and `__pycache__` files/directories from the project root, docs, outputs, scripts, and utils.
+- Deleted all legacy scripts, database backups, and unused outputs not referenced in the new pipeline, including:
+    - Old/legacy scripts in root (e.g., `update_turnbull_gifts.py`, `extract_item_for_db_handler.py`, `recategorize_unknowns_llm.py`, etc.)
+    - Old/legacy DBs and backups (e.g., `disclosures.db.backup_*`, `disclosures.db.from_*`, `disclosures_backup_before_nil_removal.db`, `entity_grouping.db`)
+    - Old/legacy CSV/JSONs (e.g., `communities_0.60.json`, `expanded_entities.json`, etc.)
+    - Anything in `db/` and `utils/` (after moving relevant files)
+- Moved `utils/helpers.py` and `utils/rate_limiter.py` to `src/common/` as `utils.py` and `rate_limiter.py`.
+- Deleted the now-empty `utils/` directory.
+- Kept `outputs/`, `docs/` subfolders, `examples/`, and `scripts/` for now, as requested.
+
+**Result:**
+- The repo is now clean and matches the modular structure in `refactor_plan.rmd`.
+- All actions are tracked here for reproducibility and team awareness.
+
+## Import Path Updates (April 2024)
+
+### Actions Executed
+- Updated all import statements across the codebase to reflect the new modular structure under `src/`.
+    - All references to `db_handler` now use `from src.preparation.db_handler import ...`.
+    - All references to `recategorize_unknowns` and `recategorize_unknowns_llm` now use `from src.cleaning.recategorize_unknowns import ...` and `from src.cleaning.recategorize_unknowns_llm import ...`.
+    - Updated utility imports (e.g., `RateLimiter`) to use `from src.common.rate_limiter import RateLimiter`.
+- Ensured all scripts and modules reference the correct locations after the refactor.
+
+**Result:**
+- The codebase is now consistent with the new directory structure, and all imports are correct for modular development.
+- All actions are tracked here for reproducibility and team awareness. 

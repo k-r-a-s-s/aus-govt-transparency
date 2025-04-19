@@ -1,5 +1,61 @@
 # Australian Government Transparency Project - Project Overview
 
+## 🗃️ Final Target Database Schema
+
+This schema is the canonical reference for all future refactor and code changes.
+
+### 1. mps — Canonical list of Members of Parliament
+```sql
+CREATE TABLE mps (
+    mp_id TEXT PRIMARY KEY,        -- e.g., "anthony_albanese"
+    full_name TEXT NOT NULL,
+    electorate TEXT,
+    party TEXT,
+    wikidata_id TEXT               -- Optional external reference
+);
+```
+
+### 2. disclosures — Parsed disclosure entries
+```sql
+CREATE TABLE disclosures (
+    disclosure_id TEXT PRIMARY KEY,       -- e.g., "2023-07-14_albanese_03"
+    mp_id TEXT NOT NULL,                  -- FK → mps(mp_id)
+    pdf_filename TEXT NOT NULL,           -- Source PDF
+    date TEXT NOT NULL,                   -- ISO 8601 (YYYY-MM-DD)
+    raw_description TEXT NOT NULL,        -- Full original description
+    raw_entity TEXT,                      -- Extracted entity string (not yet standardized)
+    category TEXT,                        -- Type of interest: "Shares", "Real Estate", "Gifts", etc.
+    interest_type TEXT CHECK(interest_type IN (
+        'acquired', 'disposed', 'held'
+    )),                                   -- Nature of disclosure
+    entity_id TEXT,                       -- Optional FK → entities(entity_id) after grouping
+    FOREIGN KEY (mp_id) REFERENCES mps(mp_id),
+    FOREIGN KEY (entity_id) REFERENCES entities(entity_id)
+);
+```
+
+### 3. entities — Cleaned & grouped entities
+```sql
+CREATE TABLE entities (
+    entity_id TEXT PRIMARY KEY,           -- Composite ID: e.g., "1-42"
+    canonical_name TEXT NOT NULL,         -- Standardized group label (e.g., "BHP Group")
+    iteration INTEGER,                    -- Grouping iteration number
+    status TEXT CHECK(status IN (
+        'confirmed', 'rejected', 'pending_review'
+    )),
+    notes TEXT
+);
+```
+
+### 🔍 Suggested Indexes (for performance)
+```sql
+CREATE INDEX idx_disclosures_mp_id ON disclosures(mp_id);
+CREATE INDEX idx_disclosures_entity_id ON disclosures(entity_id);
+CREATE INDEX idx_disclosures_type ON disclosures(interest_type);
+```
+
+---
+
 ## 1. Project Summary
 
 This project processes PDF financial disclosures from Australian MPs, extracting structured data (MPs, entities, disclosures) and standardizing it for analysis and public transparency. The pipeline uses Google Gemini for AI-powered extraction and LLM-based validation, with a focus on entity deduplication and data quality.
@@ -104,3 +160,15 @@ This project processes PDF financial disclosures from Australian MPs, extracting
 ---
 
 ## See also: `development_diary.rmd` (Refactor Planning section) 
+
+## Schema Implementation Progress
+
+- [ ] Scaffold `/src/preparation/generate_schema.py` to create the canonical schema:
+    - [ ] `mps` table
+    - [ ] `disclosures` table
+    - [ ] `entities` table
+    - [ ] Indexes: `idx_disclosures_mp_id`, `idx_disclosures_entity_id`, `idx_disclosures_type`
+- [ ] Add migration logic for existing data (if needed)
+- [ ] Add tests for schema creation
+
+**Next step:** Scaffold the schema creation script. 

@@ -863,6 +863,610 @@ yes, continue and generate the refactor_plan.rmd with the ideal structure, file 
 
 _**Assistant**_
 
+```diff
+- 
++ # Refactor Plan: Australian Government Transparency Project
++ 
++ ## 1. Ideal Directory & File Structure
++ 
++ ```
++ /src
++   /preparation        → generate_schema.py
++   /parsing            → parse_disclosures.py, extract_entities.py
++   /cleaning           → match_mp_data.py, split_entities.py, clean_entities.py, vector_match.py
++   /output             → finalize_output.py
++   main.py             → Orchestrates pipeline
++ /tests
++   test_parsing.py, test_cleaning.py
++ ```
++ 
++ ## 2. File Mapping: Existing → Proposed Structure
++ 
++ | Existing File/Script                        | New Location/Role                                 | Action/Notes                                 |
++ |---------------------------------------------|---------------------------------------------------|----------------------------------------------|
++ | db_handler.py                               | /src/preparation/generate_schema.py               | Move/rename, split out schema logic          |
++ | process_parliament_disclosures.py           | /src/main.py                                      | Refactor as orchestrator                     |
++ | process_disclosures.py                      | /src/parsing/parse_disclosures.py                 | Move/rename, focus on PDF parsing            |
++ | gemini_pdf_processor.py                     | /src/parsing/extract_entities.py                  | Move/rename, focus on Gemini extraction      |
++ | ocr_processor.py, gemini_processor.py       | /src/parsing/extract_entities.py                  | Merge as helpers for extraction              |
++ | scrape_parliament.py, parliament_urls.py    | /src/preparation/generate_schema.py or helpers    | Move as scraping helpers                     |
++ | standardize_data.py                         | /src/cleaning/clean_entities.py                   | Move, split into cleaning modules            |
++ | standardize_mp_names.py                     | /src/cleaning/match_mp_data.py                    | Move/rename                                 |
++ | standardize_electorates.py                  | /src/cleaning/match_mp_data.py                    | Move/rename                                 |
++ | update_categories.py                        | /src/cleaning/clean_entities.py                   | Move/merge                                  |
++ | extract_items.py                            | /src/cleaning/clean_entities.py                   | Move/merge                                  |
++ | fix_identical_items.py, fix_identicals_final.py | /src/cleaning/clean_entities.py               | Move/merge, deduplicate logic                |
++ | remove_nil_entries.py                       | /src/cleaning/clean_entities.py                   | Move/merge                                  |
++ | merge_entities.py, vector_entity_grouping.py | /src/cleaning/vector_match.py                     | Move/merge, deduplicate logic                |
++ | apply_double_disclosure_entity_results.py   | /src/cleaning/split_entities.py                   | Move/rename                                 |
++ | double_disclosure_analysis.py, prepare_gemini_entity_analysis.py, analyze_double_disclosures_with_gemini.py, summarize_gemini_entity_analysis.py | /src/cleaning/split_entities.py | Move/merge as double disclosure pipeline     |
++ | standardize_entities.py, verify_fuzzy_matches_llm.py, update_db_from_llm.py | /src/cleaning/clean_entities.py | Move/merge as entity standardization        |
++ | recategorize_unknowns.py, recategorize_unknowns_llm.py, recategorize_all.py | /src/cleaning/clean_entities.py | Move/merge as recategorization logic        |
++ | link_entities.py, analyze_entities.py, visualize_entities.py | /src/cleaning/vector_match.py | Move/merge as analysis/visualization helpers |
++ | test_gemini_pdf.py                          | /tests/test_parsing.py                            | Move/rename, add more parsing tests          |
++ | scripts/ (other utilities)                  | /src/cleaning/ or /src/parsing/ as appropriate    | Move/merge, deduplicate                     |
++ | utils/helpers.py, utils/rate_limiter.py     | /src/common/utils.py                              | Move/merge as shared utilities               |
++ | API, frontend, docs, outputs, .DS_Store, backups | (unchanged or delete)                        | Not part of core pipeline, clean up as needed|
++ 
++ **Flag for Deletion:**
++ - `.DS_Store`, old DB backups, intermediate `.json`/`.csv` outputs not needed for reproducibility.
++ - Any script not referenced in README/docs or not imported anywhere else.
++ 
++ ## 3. Proposed Modules/Functions to Create
++ 
++ ### /src/preparation
++ - `generate_schema.py`:
++   - `generate_schema()`
++   - `scrape_parliament_pdfs()`
++ 
++ ### /src/parsing
++ - `parse_disclosures.py`:
++   - `parse_pdf(pdf_path: str) -> dict`
++   - `parse_directory(pdf_dir: str) -> list[dict]`
++ - `extract_entities.py`:
++   - `extract_entities_from_text(text: str) -> list[dict]`
++   - `extract_entities_from_pdf(pdf_path: str) -> list[dict]`
++ 
++ ### /src/cleaning
++ - `match_mp_data.py`:
++   - `standardize_mp_names(db_path: str)`
++   - `standardize_electorates(db_path: str)`
++ - `split_entities.py`:
++   - `split_compound_entities(db_path: str)`
++   - `run_double_disclosure_pipeline(db_path: str)`
++ - `clean_entities.py`:
++   - `standardize_entities(db_path: str)`
++   - `recategorize_entries(db_path: str)`
++   - `fix_identical_items(db_path: str)`
++   - `remove_nil_entries(db_path: str)`
++ - `vector_match.py`:
++   - `deduplicate_entities(db_path: str)`
++   - `analyze_entity_relationships(db_path: str)`
++   - `visualize_entity_network(db_path: str)`
++ 
++ ### /src/output
++ - `finalize_output.py`:
++   - `export_to_csv(db_path: str, out_path: str)`
++   - `export_to_sqlite(db_path: str, out_path: str)`
++   - `generate_kaggle_ready_dataset(db_path: str, out_path: str)`
++ 
++ ### /src/main.py
++ - `main()`
++   - Orchestrates the full pipeline: preparation → parsing → cleaning → output
++ 
++ ### /src/common/utils.py
++ - Shared helpers (rate limiting, logging, file I/O, etc.)
++ 
++ ### /tests
++ - `test_parsing.py`, `test_cleaning.py`: Unit tests for parsing and cleaning modules
++ 
++ ---
++ 
++ ## 4. Notes
++ - Each module should be strongly typed and functional where possible.
++ - Aim for clear separation of concerns and minimal duplication.
++ - Add missing test coverage, especially for parsing and cleaning.
++ - Remove or archive legacy, dead, or junk files.
++ - Document all modules and functions with clear docstrings. 
+```
+
+---
+
+The `refactor_plan.rmd` is now generated. It includes:
+
+- The ideal directory and file structure for a modular, maintainable pipeline.
+- A mapping of each existing file to its new location, or a flag for deletion.
+- Proposed new modules and function signatures for missing or consolidated logic.
+- Notes on best practices for the refactor (strong typing, functional style, test coverage, documentation, and cleanup).
+
+**You can now use this plan as a blueprint for the actual codebase refactor.**  
+If you want to proceed with code moves, module creation, or want a migration checklist, just let me know!
+
+---
+
+_**User**_
+
+okay great, ebfroer we get started, improtant is to get the schema right so we can modify the files correctly. This is the fundamental but, it's the end goal.
+
+here is ym darft schema, can we add this to the improtant rmd files that you will review each time?
+
+🗃️ Final Schema for MP Financial Disclosures
+1. mps — Canonical list of Members of Parliament
+
+CREATE TABLE mps (
+    mp_id TEXT PRIMARY KEY,        -- e.g., "anthony_albanese"
+    full_name TEXT NOT NULL,
+    electorate TEXT,
+    party TEXT,
+    wikidata_id TEXT               -- Optional external reference
+);
+2. disclosures — Parsed disclosure entries
+
+CREATE TABLE disclosures (
+    disclosure_id TEXT PRIMARY KEY,       -- e.g., "2023-07-14_albanese_03"
+    mp_id TEXT NOT NULL,                  -- FK → mps(mp_id)
+    pdf_filename TEXT NOT NULL,           -- Source PDF
+    date TEXT NOT NULL,                   -- ISO 8601 (YYYY-MM-DD)
+    raw_description TEXT NOT NULL,        -- Full original description
+    raw_entity TEXT,                      -- Extracted entity string (not yet standardized)
+    category TEXT,                        -- Type of interest: "Shares", "Real Estate", "Gifts", etc.
+    interest_type TEXT CHECK(interest_type IN (
+        'acquired', 'disposed', 'held'
+    )),                                   -- Nature of disclosure
+    entity_id TEXT,                       -- Optional FK → entities(entity_id) after grouping
+    FOREIGN KEY (mp_id) REFERENCES mps(mp_id),
+    FOREIGN KEY (entity_id) REFERENCES entities(entity_id)
+);
+3. entities — Cleaned & grouped entities
+
+CREATE TABLE entities (
+    entity_id TEXT PRIMARY KEY,           -- Composite ID: e.g., "1-42"
+    canonical_name TEXT NOT NULL,         -- Standardized group label (e.g., "BHP Group")
+    iteration INTEGER,                    -- Grouping iteration number
+    status TEXT CHECK(status IN (
+        'confirmed', 'rejected', 'pending_review'
+    )),
+    notes TEXT
+);
+🔍 Suggested Indexes (for performance)
+CREATE INDEX idx_disclosures_mp_id ON disclosures(mp_id);
+CREATE INDEX idx_disclosures_entity_id ON disclosures(entity_id);
+CREATE INDEX idx_disclosures_type ON disclosures(interest_type);
+
+
+
+Ten e can go and create the schema creation py
+
+---
+
+_**Assistant**_
+
+```diff
+  # Australian Government Transparency Project - Project Overview
++ 
++ ## 🗃️ Final Target Database Schema
++ 
++ This schema is the canonical reference for all future refactor and code changes.
++ 
++ ### 1. mps — Canonical list of Members of Parliament
++ ```sql
++ CREATE TABLE mps (
++     mp_id TEXT PRIMARY KEY,        -- e.g., "anthony_albanese"
++     full_name TEXT NOT NULL,
++     electorate TEXT,
++     party TEXT,
++     wikidata_id TEXT               -- Optional external reference
++ );
++ ```
++ 
++ ### 2. disclosures — Parsed disclosure entries
++ ```sql
++ CREATE TABLE disclosures (
++     disclosure_id TEXT PRIMARY KEY,       -- e.g., "2023-07-14_albanese_03"
++     mp_id TEXT NOT NULL,                  -- FK → mps(mp_id)
++     pdf_filename TEXT NOT NULL,           -- Source PDF
++     date TEXT NOT NULL,                   -- ISO 8601 (YYYY-MM-DD)
++     raw_description TEXT NOT NULL,        -- Full original description
++     raw_entity TEXT,                      -- Extracted entity string (not yet standardized)
++     category TEXT,                        -- Type of interest: "Shares", "Real Estate", "Gifts", etc.
++     interest_type TEXT CHECK(interest_type IN (
++         'acquired', 'disposed', 'held'
++     )),                                   -- Nature of disclosure
++     entity_id TEXT,                       -- Optional FK → entities(entity_id) after grouping
++     FOREIGN KEY (mp_id) REFERENCES mps(mp_id),
++     FOREIGN KEY (entity_id) REFERENCES entities(entity_id)
++ );
++ ```
++ 
++ ### 3. entities — Cleaned & grouped entities
++ ```sql
++ CREATE TABLE entities (
++     entity_id TEXT PRIMARY KEY,           -- Composite ID: e.g., "1-42"
++     canonical_name TEXT NOT NULL,         -- Standardized group label (e.g., "BHP Group")
++     iteration INTEGER,                    -- Grouping iteration number
++     status TEXT CHECK(status IN (
++         'confirmed', 'rejected', 'pending_review'
++     )),
++     notes TEXT
++ );
++ ```
++ 
++ ### 🔍 Suggested Indexes (for performance)
++ ```sql
++ CREATE INDEX idx_disclosures_mp_id ON disclosures(mp_id);
++ CREATE INDEX idx_disclosures_entity_id ON disclosures(entity_id);
++ CREATE INDEX idx_disclosures_type ON disclosures(interest_type);
++ ```
++ 
++ ---
+  
+  ## 1. Project Summary
+```
+
+---
+
+```diff
+  # Refactor Plan: Australian Government Transparency Project
++ 
++ ## 🗃️ Final Target Database Schema
++ 
++ This schema is the canonical reference for all future refactor and code changes.
++ 
++ ### 1. mps — Canonical list of Members of Parliament
++ ```sql
++ CREATE TABLE mps (
++     mp_id TEXT PRIMARY KEY,        -- e.g., "anthony_albanese"
++     full_name TEXT NOT NULL,
++     electorate TEXT,
++     party TEXT,
++     wikidata_id TEXT               -- Optional external reference
++ );
++ ```
++ 
++ ### 2. disclosures — Parsed disclosure entries
++ ```sql
++ CREATE TABLE disclosures (
++     disclosure_id TEXT PRIMARY KEY,       -- e.g., "2023-07-14_albanese_03"
++     mp_id TEXT NOT NULL,                  -- FK → mps(mp_id)
++     pdf_filename TEXT NOT NULL,           -- Source PDF
++     date TEXT NOT NULL,                   -- ISO 8601 (YYYY-MM-DD)
++     raw_description TEXT NOT NULL,        -- Full original description
++     raw_entity TEXT,                      -- Extracted entity string (not yet standardized)
++     category TEXT,                        -- Type of interest: "Shares", "Real Estate", "Gifts", etc.
++     interest_type TEXT CHECK(interest_type IN (
++         'acquired', 'disposed', 'held'
++     )),                                   -- Nature of disclosure
++     entity_id TEXT,                       -- Optional FK → entities(entity_id) after grouping
++     FOREIGN KEY (mp_id) REFERENCES mps(mp_id),
++     FOREIGN KEY (entity_id) REFERENCES entities(entity_id)
++ );
++ ```
++ 
++ ### 3. entities — Cleaned & grouped entities
++ ```sql
++ CREATE TABLE entities (
++     entity_id TEXT PRIMARY KEY,           -- Composite ID: e.g., "1-42"
++     canonical_name TEXT NOT NULL,         -- Standardized group label (e.g., "BHP Group")
++     iteration INTEGER,                    -- Grouping iteration number
++     status TEXT CHECK(status IN (
++         'confirmed', 'rejected', 'pending_review'
++     )),
++     notes TEXT
++ );
++ ```
++ 
++ ### 🔍 Suggested Indexes (for performance)
++ ```sql
++ CREATE INDEX idx_disclosures_mp_id ON disclosures(mp_id);
++ CREATE INDEX idx_disclosures_entity_id ON disclosures(entity_id);
++ CREATE INDEX idx_disclosures_type ON disclosures(interest_type);
++ ```
++ 
++ ---
+  
+  ## 1. Ideal Directory & File Structure
+```
+
+---
+
+```diff
+  # Refactor Planning
++ 
++ ## 🗃️ Final Target Database Schema
++ 
++ This schema is the canonical reference for all future refactor and code changes.
++ 
++ ### 1. mps — Canonical list of Members of Parliament
++ ```sql
++ CREATE TABLE mps (
++     mp_id TEXT PRIMARY KEY,        -- e.g., "anthony_albanese"
++     full_name TEXT NOT NULL,
++     electorate TEXT,
++     party TEXT,
++     wikidata_id TEXT               -- Optional external reference
++ );
++ ```
++ 
++ ### 2. disclosures — Parsed disclosure entries
++ ```sql
++ CREATE TABLE disclosures (
++     disclosure_id TEXT PRIMARY KEY,       -- e.g., "2023-07-14_albanese_03"
++     mp_id TEXT NOT NULL,                  -- FK → mps(mp_id)
++     pdf_filename TEXT NOT NULL,           -- Source PDF
++     date TEXT NOT NULL,                   -- ISO 8601 (YYYY-MM-DD)
++     raw_description TEXT NOT NULL,        -- Full original description
++     raw_entity TEXT,                      -- Extracted entity string (not yet standardized)
++     category TEXT,                        -- Type of interest: "Shares", "Real Estate", "Gifts", etc.
++     interest_type TEXT CHECK(interest_type IN (
++         'acquired', 'disposed', 'held'
++     )),                                   -- Nature of disclosure
++     entity_id TEXT,                       -- Optional FK → entities(entity_id) after grouping
++     FOREIGN KEY (mp_id) REFERENCES mps(mp_id),
++     FOREIGN KEY (entity_id) REFERENCES entities(entity_id)
++ );
++ ```
++ 
++ ### 3. entities — Cleaned & grouped entities
++ ```sql
++ CREATE TABLE entities (
++     entity_id TEXT PRIMARY KEY,           -- Composite ID: e.g., "1-42"
++     canonical_name TEXT NOT NULL,         -- Standardized group label (e.g., "BHP Group")
++     iteration INTEGER,                    -- Grouping iteration number
++     status TEXT CHECK(status IN (
++         'confirmed', 'rejected', 'pending_review'
++     )),
++     notes TEXT
++ );
++ ```
++ 
++ ### 🔍 Suggested Indexes (for performance)
++ ```sql
++ CREATE INDEX idx_disclosures_mp_id ON disclosures(mp_id);
++ CREATE INDEX idx_disclosures_entity_id ON disclosures(entity_id);
++ CREATE INDEX idx_disclosures_type ON disclosures(interest_type);
++ ```
++ 
++ ---
+  
+  ## Context and Delta Analysis
+```
+
+---
+
+The canonical target schema is now included at the top of all key RMD files (`project_overview.rmd`, `refactor_plan.rmd`, `development_diary.rmd`). This schema will be referenced for all future refactor and code changes, ensuring alignment and consistency.
+
+**Next step:**  
+You can now proceed to implement `/src/preparation/generate_schema.py` (or equivalent) to create and migrate the database to this schema, and begin aligning the rest of the pipeline to this structure.
+
+If you want, I can scaffold the schema creation script (`generate_schema.py`) for you next. Would you like to proceed with that?
+
+---
+
+_**User**_
+
+yes, lets proeed with that, track your changes in the relevant rmd file
+
+---
+
+_**Assistant**_
+
+```diff
+  
+  ## See also: `development_diary.rmd` (Refactor Planning section) 
++ 
++ ## Schema Implementation Progress
++ 
++ - [ ] Scaffold `/src/preparation/generate_schema.py` to create the canonical schema:
++     - [ ] `mps` table
++     - [ ] `disclosures` table
++     - [ ] `entities` table
++     - [ ] Indexes: `idx_disclosures_mp_id`, `idx_disclosures_entity_id`, `idx_disclosures_type`
++ - [ ] Add migration logic for existing data (if needed)
++ - [ ] Add tests for schema creation
++ 
++ **Next step:** Scaffold the schema creation script. 
+```
+
+---
+
+```diff
+  - Remove or archive legacy, dead, or junk files.
+  - Document all modules and functions with clear docstrings.
++ 
++ ## Schema Implementation Progress
++ 
++ - [ ] Scaffold `/src/preparation/generate_schema.py` to create the canonical schema:
++     - [ ] `mps` table
++     - [ ] `disclosures` table
++     - [ ] `entities` table
++     - [ ] Indexes: `idx_disclosures_mp_id`, `idx_disclosures_entity_id`, `idx_disclosures_type`
++ - [ ] Add migration logic for existing data (if needed)
++ - [ ] Add tests for schema creation
++ 
++ **Next step:** Scaffold the schema creation script. 
+```
+
+---
+
+```diff
+  ### Next Steps
+  - See the upcoming `refactor_plan.rmd` for a proposed new structure and migration plan.
++ 
++ ## Schema Implementation Progress
++ 
++ - [ ] Scaffold `/src/preparation/generate_schema.py` to create the canonical schema:
++     - [ ] `mps` table
++     - [ ] `disclosures` table
++     - [ ] `entities` table
++     - [ ] Indexes: `idx_disclosures_mp_id`, `idx_disclosures_entity_id`, `idx_disclosures_type`
++ - [ ] Add migration logic for existing data (if needed)
++ - [ ] Add tests for schema creation
++ 
++ **Next step:** Scaffold the schema creation script. 
+```
+
+---
+
+```diff
+- 
++ import sqlite3
++ from typing import Optional
++ 
++ DB_PATH_DEFAULT = "disclosures.db"
++ 
++ SCHEMA_SQL = """
++ CREATE TABLE IF NOT EXISTS mps (
++     mp_id TEXT PRIMARY KEY,
++     full_name TEXT NOT NULL,
++     electorate TEXT,
++     party TEXT,
++     wikidata_id TEXT
++ );
++ 
++ CREATE TABLE IF NOT EXISTS entities (
++     entity_id TEXT PRIMARY KEY,
++     canonical_name TEXT NOT NULL,
++     iteration INTEGER,
++     status TEXT CHECK(status IN ('confirmed', 'rejected', 'pending_review')),
++     notes TEXT
++ );
++ 
++ CREATE TABLE IF NOT EXISTS disclosures (
++     disclosure_id TEXT PRIMARY KEY,
++     mp_id TEXT NOT NULL,
++     pdf_filename TEXT NOT NULL,
++     date TEXT NOT NULL,
++     raw_description TEXT NOT NULL,
++     raw_entity TEXT,
++     category TEXT,
++     interest_type TEXT CHECK(interest_type IN ('acquired', 'disposed', 'held')),
++     entity_id TEXT,
++     FOREIGN KEY (mp_id) REFERENCES mps(mp_id),
++     FOREIGN KEY (entity_id) REFERENCES entities(entity_id)
++ );
++ 
++ CREATE INDEX IF NOT EXISTS idx_disclosures_mp_id ON disclosures(mp_id);
++ CREATE INDEX IF NOT EXISTS idx_disclosures_entity_id ON disclosures(entity_id);
++ CREATE INDEX IF NOT EXISTS idx_disclosures_type ON disclosures(interest_type);
++ """
++ 
++ def create_schema(db_path: str = DB_PATH_DEFAULT) -> None:
++     """
++     Create the canonical schema for the MP financial disclosures database.
++     This includes the mps, disclosures, and entities tables, and relevant indexes.
++     """
++     with sqlite3.connect(db_path) as conn:
++         conn.executescript(SCHEMA_SQL)
++         conn.commit()
++ 
++ if __name__ == "__main__":
++     import argparse
++ 
++     parser = argparse.ArgumentParser(description="Create the canonical schema for the MP financial disclosures database.")
++     parser.add_argument("--db-path", type=str, default=DB_PATH_DEFAULT, help="Path to the SQLite database file.")
++     args = parser.parse_args()
++ 
++     create_schema(args.db_path)
++     print(f"Schema created in {args.db_path}") 
+```
+
+---
+
+The canonical schema creation script (`/src/preparation/generate_schema.py`) is now scaffolded. It:
+
+- Creates the `mps`, `disclosures`, and `entities` tables with the correct columns and constraints.
+- Adds the recommended indexes.
+- Is strongly typed, functional, and includes a CLI for easy use.
+
+**Progress is tracked in all relevant RMD files.**
+
+You can now run this script to initialize a new database or ensure an existing one matches the canonical schema.  
+Would you like to proceed with migration logic, tests, or begin adapting other modules to this schema?
+
+---
+
+_**User**_
+
+Let’s proceed with migration logic. Track schema changes + flags in `refactor_plan.rmd`. All agents should append to `development_diary.rmd` with what they understood and executed. Break work into sections where helpful for downstream focus.
+
+
+---
+
+_**Assistant**_
+
+```diff
+  - [ ] Add migration logic for existing data (if needed)
+  - [ ] Add tests for schema creation
++ 
++ ### Migration Logic Progress
++ - [ ] Analyze existing DBs for compatibility with canonical schema
++ - [ ] Write migration logic to transform/rename/merge old tables/columns to new schema
++ - [ ] Add CLI and dry-run mode for migration
++ - [ ] Add logging and backup before migration
++ - [ ] Add tests for migration
++ 
++ Note: See development_diary.rmd for detailed migration steps and agent actions.
+  
+  **Next step:** Scaffold the schema creation script. 
+```
+
+---
+
+```diff
+  
+  **Next step:** Scaffold the schema creation script.
++ 
++ ## Schema Migration: Planning & Execution
++ 
++ **Understood:**
++ - The goal is to migrate any existing SQLite DBs to the canonical schema (mps, disclosures, entities, indexes).
++ - This may require renaming tables/columns, transforming data, and ensuring referential integrity.
++ 
++ **Next:**
++ - Analyze current DBs for compatibility with the canonical schema.
++ - Plan migration steps: table/column renames, data transformation, backup, dry-run, and logging.
++ 
++ **Actions:**
++ 1. Added migration logic tracking to `refactor_plan.rmd`.
++ 2. Next step is to analyze a sample DB and design migration logic (to be appended here).
++ 
++ _All agents should append here with what they understood and executed for migration work._ 
+```
+
+---
+
+**Migration logic planning is now tracked in `refactor_plan.rmd` and summarized in `development_diary.rmd`.**
+
+### Next Steps (for migration logic):
+
+**1. Analyze existing DBs for compatibility:**
+   - Inventory current tables/columns in a typical `disclosures.db`.
+   - Compare with canonical schema (`mps`, `disclosures`, `entities`).
+
+**2. Plan migration steps:**
+   - Table/column renames or splits/merges.
+   - Data transformation (e.g., mapping old MP names to `mp_id`, extracting canonical entities).
+   - Backup and dry-run support.
+   - Logging/reporting of all changes.
+
+**3. Scaffold migration script:**
+   - CLI with dry-run and backup options.
+   - Stepwise, idempotent migration logic.
+
+**4. Add tests for migration.**
+
+Would you like to proceed with a sample DB analysis (step 1), or should I scaffold the migration script structure first?
+
+---
+
+_**User**_
+
+nolets shelve this for a second, I want to cverate a clean repo first, so just flag files that need changing, but go with the refactor plan
+
+---
+
+_**Assistant**_
+
 Cancelled
 
 ---

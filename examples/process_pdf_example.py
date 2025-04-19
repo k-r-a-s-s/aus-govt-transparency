@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from gemini_pdf_processor import GeminiPDFProcessor
-from db_handler import DatabaseHandler
+from src.preparation.db_handler import DatabaseHandler
 
 # Configure logging
 logging.basicConfig(

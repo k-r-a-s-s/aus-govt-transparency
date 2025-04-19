@@ -41,11 +41,11 @@ except ImportError:
 
 # Try to import the RateLimiter, fallback to a simple timer if not found
 try:
-    from utils.rate_limiter import RateLimiter
+    from src.common.rate_limiter import RateLimiter
     RATE_LIMITER_AVAILABLE = True
-    logging.info("Successfully imported RateLimiter from utils.") # Added success log
+    logging.info("Successfully imported RateLimiter from src.common.") # Added success log
 except ImportError as e: # Add exception details to log
-    logging.warning(f"ImportError trying to import RateLimiter: {e}. Check utils/rate_limiter.py.") # Updated message
+    logging.warning(f"ImportError trying to import RateLimiter: {e}. Check src/common/rate_limiter.py.") # Updated message
     RATE_LIMITER_AVAILABLE = False # Ensure fallback is triggered
     # Define a placeholder class if the import fails - THIS SHOULD NO LONGER BE NEEDED
     class RateLimiter:

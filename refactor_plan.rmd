@@ -1,5 +1,61 @@
 # Refactor Plan: Australian Government Transparency Project
 
+## 🗃️ Final Target Database Schema
+
+This schema is the canonical reference for all future refactor and code changes.
+
+### 1. mps — Canonical list of Members of Parliament
+```sql
+CREATE TABLE mps (
+    mp_id TEXT PRIMARY KEY,        -- e.g., "anthony_albanese"
+    full_name TEXT NOT NULL,
+    electorate TEXT,
+    party TEXT,
+    wikidata_id TEXT               -- Optional external reference
+);
+```
+
+### 2. disclosures — Parsed disclosure entries
+```sql
+CREATE TABLE disclosures (
+    disclosure_id TEXT PRIMARY KEY,       -- e.g., "2023-07-14_albanese_03"
+    mp_id TEXT NOT NULL,                  -- FK → mps(mp_id)
+    pdf_filename TEXT NOT NULL,           -- Source PDF
+    date TEXT NOT NULL,                   -- ISO 8601 (YYYY-MM-DD)
+    raw_description TEXT NOT NULL,        -- Full original description
+    raw_entity TEXT,                      -- Extracted entity string (not yet standardized)
+    category TEXT,                        -- Type of interest: "Shares", "Real Estate", "Gifts", etc.
+    interest_type TEXT CHECK(interest_type IN (
+        'acquired', 'disposed', 'held'
+    )),                                   -- Nature of disclosure
+    entity_id TEXT,                       -- Optional FK → entities(entity_id) after grouping
+    FOREIGN KEY (mp_id) REFERENCES mps(mp_id),
+    FOREIGN KEY (entity_id) REFERENCES entities(entity_id)
+);
+```
+
+### 3. entities — Cleaned & grouped entities
+```sql
+CREATE TABLE entities (
+    entity_id TEXT PRIMARY KEY,           -- Composite ID: e.g., "1-42"
+    canonical_name TEXT NOT NULL,         -- Standardized group label (e.g., "BHP Group")
+    iteration INTEGER,                    -- Grouping iteration number
+    status TEXT CHECK(status IN (
+        'confirmed', 'rejected', 'pending_review'
+    )),
+    notes TEXT
+);
+```
+
+### 🔍 Suggested Indexes (for performance)
+```sql
+CREATE INDEX idx_disclosures_mp_id ON disclosures(mp_id);
+CREATE INDEX idx_disclosures_entity_id ON disclosures(entity_id);
+CREATE INDEX idx_disclosures_type ON disclosures(interest_type);
+```
+
+---
+
 ## 1. Ideal Directory & File Structure
 
 ```
@@ -100,4 +156,64 @@
 - Aim for clear separation of concerns and minimal duplication.
 - Add missing test coverage, especially for parsing and cleaning.
 - Remove or archive legacy, dead, or junk files.
-- Document all modules and functions with clear docstrings. 
+- Document all modules and functions with clear docstrings.
+
+## Schema Implementation Progress
+
+- [ ] Scaffold `/src/preparation/generate_schema.py` to create the canonical schema:
+    - [ ] `mps` table
+    - [ ] `disclosures` table
+    - [ ] `entities` table
+    - [ ] Indexes: `idx_disclosures_mp_id`, `idx_disclosures_entity_id`, `idx_disclosures_type`
+- [ ] Add migration logic for existing data (if needed)
+- [ ] Add tests for schema creation
+
+### Migration Logic Progress
+- [ ] Analyze existing DBs for compatibility with canonical schema
+- [ ] Write migration logic to transform/rename/merge old tables/columns to new schema
+- [ ] Add CLI and dry-run mode for migration
+- [ ] Add logging and backup before migration
+- [ ] Add tests for migration
+
+Note: See development_diary.rmd for detailed migration steps and agent actions.
+
+**Next step:** Scaffold the schema creation script.
+
+## File Change Flags for Clean Repo
+
+### Move/Rename (to new structure)
+- [ ] Move `db_handler.py` → `/src/preparation/generate_schema.py`
+- [ ] Move `process_parliament_disclosures.py` → `/src/main.py`
+- [ ] Move `process_disclosures.py` → `/src/parsing/parse_disclosures.py`
+- [ ] Move `gemini_pdf_processor.py` → `/src/parsing/extract_entities.py`
+- [ ] Move `ocr_processor.py`, `gemini_processor.py` → `/src/parsing/extract_entities.py` (merge as helpers)
+- [ ] Move `scrape_parliament.py`, `parliament_urls.py` → `/src/preparation/generate_schema.py` or helpers
+- [ ] Move `standardize_data.py` → `/src/cleaning/clean_entities.py`
+- [ ] Move `standardize_mp_names.py` → `/src/cleaning/match_mp_data.py`
+- [ ] Move `standardize_electorates.py` → `/src/cleaning/match_mp_data.py`
+- [ ] Move `update_categories.py` → `/src/cleaning/clean_entities.py`
+- [ ] Move `extract_items.py` → `/src/cleaning/clean_entities.py`
+- [ ] Move `fix_identical_items.py`, `fix_identicals_final.py` → `/src/cleaning/clean_entities.py` (merge/deduplicate)
+- [ ] Move `remove_nil_entries.py` → `/src/cleaning/clean_entities.py`
+- [ ] Move `merge_entities.py`, `vector_entity_grouping.py` → `/src/cleaning/vector_match.py` (merge/deduplicate)
+- [ ] Move `apply_double_disclosure_entity_results.py` → `/src/cleaning/split_entities.py`
+- [ ] Move `double_disclosure_analysis.py`, `prepare_gemini_entity_analysis.py`, `analyze_double_disclosures_with_gemini.py`, `summarize_gemini_entity_analysis.py` → `/src/cleaning/split_entities.py` (merge as pipeline)
+- [ ] Move `standardize_entities.py`, `verify_fuzzy_matches_llm.py`, `update_db_from_llm.py` → `/src/cleaning/clean_entities.py` (merge as entity standardization)
+- [ ] Move `recategorize_unknowns.py`, `recategorize_unknowns_llm.py`, `recategorize_all.py` → `/src/cleaning/clean_entities.py` (merge as recategorization logic)
+- [ ] Move `link_entities.py`, `analyze_entities.py`, `visualize_entities.py` → `/src/cleaning/vector_match.py` (merge as analysis/visualization helpers)
+- [ ] Move `test_gemini_pdf.py` → `/tests/test_parsing.py`
+- [ ] Move scripts/ (other utilities) → `/src/cleaning/` or `/src/parsing/` as appropriate (merge/deduplicate)
+- [ ] Move `utils/helpers.py`, `utils/rate_limiter.py` → `/src/common/utils.py` (merge as shared utilities)
+
+### Delete (junk/legacy)
+- [ ] Delete `.DS_Store`
+- [ ] Delete old DB backups
+- [ ] Delete intermediate `.json`/`.csv` outputs not needed for reproducibility
+- [ ] Delete any script not referenced in README/docs or not imported anywhere else
+
+### Unchanged (for now)
+- [ ] API, frontend, docs, outputs, etc. (not part of core pipeline)
+
+---
+
+_This checklist should be used to create a clean repo in line with the refactor plan. Mark each item as completed during migration._ 
