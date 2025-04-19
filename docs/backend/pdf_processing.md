@@ -64,4 +64,13 @@ python src/main.py --parliament 47th --store-in-db --standardize
 
 ## Notes
 - All pipeline steps are modularized in `/src` for maintainability and testing.
-- For full pipeline details, see the [README](../../README.md) and [docs/index.md](../index.md). 
+- For full pipeline details, see the [README](../../README.md) and [docs/index.md](../index.md).
+
+## Pipeline Module Structure: Orchestrator vs. Processor
+
+- `parse_disclosures.py`: This is the main entry point and CLI orchestrator for batch or single PDF processing. Users should run this script to process PDFs, save results, and (optionally) insert into the database. It handles CLI arguments, file I/O, and database integration.
+- `pdf_gemini_pipeline.py`: This is the core Gemini PDF processor module. It provides the `GeminiPDFProcessor` class, which handles all Gemini API calls, prompt loading, rate limiting, and post-processing. This module is not meant to be run directly; it is imported and used by `parse_disclosures.py` (and potentially other scripts) to perform the actual extraction.
+
+**Summary:**
+- Use `parse_disclosures.py` to run the pipeline.
+- `pdf_gemini_pipeline.py` is the engine/library for Gemini PDF extraction. 

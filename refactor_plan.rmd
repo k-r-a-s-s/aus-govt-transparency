@@ -217,3 +217,12 @@ Note: See development_diary.rmd for detailed migration steps and agent actions.
 ---
 
 _This checklist should be used to create a clean repo in line with the refactor plan. Mark each item as completed during migration._ 
+
+## Parsing Pipeline Refactor Note
+
+- Parsing now uses only direct Gemini PDF processing (no OCR).
+- Prompt is loaded from src/parsing/gemini_pdf_prompt.txt and matches the canonical schema.
+- Only the following fields are extracted: full_name, electorate, and for each disclosure: date, category, interest_type, raw_description, raw_entity, pdf_filename.
+- All code and prompt changes are modular, strongly typed, and functional.
+- Legacy OCR and Gemini processor code has been removed from the pipeline.
+- Next: update parse_disclosures.py to use only the new pipeline and schema. 

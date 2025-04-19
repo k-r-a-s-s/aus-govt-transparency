@@ -84,299 +84,116 @@ class TemporalTypes:
     # List of all valid temporal types
     ALL = [ONE_TIME, RECURRING, ONGOING]
 
-# Import our new item extraction function
-from src.cleaning.extract_item_for_db_handler import extract_item_from_details
-
 class DatabaseHandler:
     """
-    A class to handle database operations for storing structured data.
+    A class to handle database operations for storing structured data using the canonical schema (2025 refactor).
     """
     
     def __init__(self, db_path: str = "disclosures.db"):
-        """
-        Initialize the database handler.
-        
-        Args:
-            db_path: Path to the SQLite database file.
-        """
         self.db_path = db_path
         self._initialize_db()
-    
+
     def _initialize_db(self):
-        """
-        Initialize the database schema if it doesn't exist.
-        """
         logger.info(f"Initializing database at {self.db_path}")
-        
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
-        
+        # Create mps table
+        cursor.execute('''
+        CREATE TABLE IF NOT EXISTS mps (
+            mp_id TEXT PRIMARY KEY,
+            full_name TEXT NOT NULL,
+            electorate TEXT,
+            party TEXT,
+            wikidata_id TEXT
+        )
+        ''')
         # Create disclosures table
         cursor.execute('''
         CREATE TABLE IF NOT EXISTS disclosures (
-            id TEXT PRIMARY KEY,
-            mp_name TEXT,
-            party TEXT,
-            electorate TEXT,
-            declaration_date TEXT,
-            category TEXT CHECK(category IN (
-                'Asset', 'Income', 'Gift', 'Travel', 'Liability', 'Membership', 'Unknown'
-            )),
-            sub_category TEXT,
-            item TEXT,
-            temporal_type TEXT CHECK(temporal_type IN ('one-time', 'recurring', 'ongoing')),
-            start_date TEXT,
-            end_date TEXT,
-            details TEXT,
-            pdf_url TEXT,
+            disclosure_id TEXT PRIMARY KEY,
+            mp_id TEXT NOT NULL,
+            pdf_filename TEXT NOT NULL,
+            date TEXT NOT NULL,
+            raw_description TEXT NOT NULL,
+            raw_entity TEXT,
+            category TEXT,
+            interest_type TEXT CHECK(interest_type IN ('acquired', 'disposed', 'held')),
             entity_id TEXT,
-            entity TEXT,
-            FOREIGN KEY (entity_id) REFERENCES entities(id)
+            FOREIGN KEY (mp_id) REFERENCES mps(mp_id),
+            FOREIGN KEY (entity_id) REFERENCES entities(entity_id)
         )
         ''')
-        
         # Create entities table
         cursor.execute('''
         CREATE TABLE IF NOT EXISTS entities (
-            id TEXT PRIMARY KEY,
-            entity_type TEXT,
-            canonical_name TEXT,
-            normalized_name TEXT,
-            mp_id TEXT,
-            UNIQUE (normalized_name, entity_type, mp_id)
+            entity_id TEXT PRIMARY KEY,
+            canonical_name TEXT NOT NULL,
+            iteration INTEGER,
+            status TEXT CHECK(status IN ('confirmed', 'rejected', 'pending_review')),
+            notes TEXT
         )
         ''')
-        
-        # Create relationships table
-        cursor.execute('''
-        CREATE TABLE IF NOT EXISTS relationships (
-            relationship_id TEXT PRIMARY KEY,
-            mp_name TEXT,
-            entity TEXT,
-            relationship_type TEXT,
-            value TEXT,
-            date_logged TEXT
-        )
-        ''')
-        
-        # Check if entity_id column exists in disclosures, add it if not
-        cursor.execute("PRAGMA table_info(disclosures)")
-        columns = [column[1] for column in cursor.fetchall()]
-        
-        if "entity_id" not in columns:
-            logger.info("Adding entity_id column to disclosures table")
-            cursor.execute("ALTER TABLE disclosures ADD COLUMN entity_id TEXT REFERENCES entities(id)")
-        
-        # Check if sub_category column exists, add it if not
-        if "sub_category" not in columns:
-            logger.info("Adding sub_category column to disclosures table")
-            cursor.execute("ALTER TABLE disclosures ADD COLUMN sub_category TEXT")
-        
-        # Check if temporal_type column exists, add it if not
-        if "temporal_type" not in columns:
-            logger.info("Adding temporal_type column to disclosures table")
-            cursor.execute("ALTER TABLE disclosures ADD COLUMN temporal_type TEXT")
-        
-        # Check if start_date column exists, add it if not
-        if "start_date" not in columns:
-            logger.info("Adding start_date column to disclosures table")
-            cursor.execute("ALTER TABLE disclosures ADD COLUMN start_date TEXT")
-        
-        # Check if end_date column exists, add it if not
-        if "end_date" not in columns:
-            logger.info("Adding end_date column to disclosures table")
-            cursor.execute("ALTER TABLE disclosures ADD COLUMN end_date TEXT")
-        
+        # Create indexes
+        cursor.execute('CREATE INDEX IF NOT EXISTS idx_disclosures_mp_id ON disclosures(mp_id)')
+        cursor.execute('CREATE INDEX IF NOT EXISTS idx_disclosures_entity_id ON disclosures(entity_id)')
+        cursor.execute('CREATE INDEX IF NOT EXISTS idx_disclosures_type ON disclosures(interest_type)')
         conn.commit()
         conn.close()
-    
-    def store_structured_data(self, structured_data: Dict[str, Any]) -> List[str]:
+
+    def _canonical_mp_id(self, full_name: str) -> str:
+        """Generate a canonical mp_id from full_name (e.g., 'Anthony Albanese' -> 'anthony_albanese')."""
+        return full_name.strip().lower().replace(' ', '_')
+
+    def store_structured_data(self, structured_data: Dict[str, Any]) -> list[str]:
         """
-        Store structured data in the database.
-        
+        Store structured data in the database using the canonical schema.
         Args:
-            structured_data: Dictionary containing structured data extracted from OCR text.
-            
+            structured_data: Dictionary containing structured data extracted from Gemini.
         Returns:
-            A list of IDs for the inserted disclosure records.
+            A list of disclosure_ids for the inserted disclosure records.
         """
-        logger.info(f"Storing structured data for MP: {structured_data.get('mp_name', 'Unknown')}")
-        
+        full_name = structured_data.get('full_name', 'Unknown')
+        electorate = structured_data.get('electorate', 'Unknown')
+        mp_id = self._canonical_mp_id(full_name)
+        # Optionally, party and wikidata_id can be added if present
+        party = structured_data.get('party', None)
+        wikidata_id = structured_data.get('wikidata_id', None)
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
-        
         try:
-            # Begin transaction
             conn.execute("BEGIN TRANSACTION")
-            
-            # Get MP information
-            mp_name = structured_data.get("mp_name", "Unknown")
-            party = structured_data.get("party", "Unknown")
-            electorate = structured_data.get("electorate", "Unknown")
-            
-            # Store disclosures
+            # Upsert MP
+            cursor.execute('''
+                INSERT INTO mps (mp_id, full_name, electorate, party, wikidata_id)
+                VALUES (?, ?, ?, ?, ?)
+                ON CONFLICT(mp_id) DO UPDATE SET full_name=excluded.full_name, electorate=excluded.electorate
+            ''', (mp_id, full_name, electorate, party, wikidata_id))
             disclosure_ids = []
-            disclosures = structured_data.get("disclosures", [])
-            
+            disclosures = structured_data.get('disclosures', [])
             for disclosure in disclosures:
                 disclosure_id = str(uuid.uuid4())
-                declaration_date = disclosure.get("declaration_date", "Unknown")
-                
-                # Get category info
-                category = disclosure.get("category", "Unknown")
-                
-                # Enforce category standards
-                if category not in Categories.ALL:
-                    logger.warning(f"Invalid category '{category}' detected. Converting to appropriate category if possible.")
-                    # Try to determine the most appropriate category
-                    matched = False
-                    
-                    # Special case mapping for common legacy categories
-                    special_mapping = {
-                        "Liabilities": Categories.LIABILITY,
-                        "Savings/Investments": Categories.ASSET,
-                        "Partnerships": Categories.MEMBERSHIP,
-                        "Directorships": Categories.MEMBERSHIP,
-                        "Other Interests": Categories.UNKNOWN
-                    }
-                    
-                    if category in special_mapping:
-                        category = special_mapping[category]
-                        matched = True
-                    else:
-                        # Try general matching
-                        for cat_name, cat_value in vars(Categories).items():
-                            if cat_name.isupper() and isinstance(cat_value, str):
-                                if category.lower() in cat_value.lower():
-                                    category = cat_value
-                                    matched = True
-                                    break
-                    
-                    if not matched:
-                        logger.warning(f"Could not match to standard category. Using 'Unknown'.")
-                        category = Categories.UNKNOWN
-                
-                # Handle subcategory
-                sub_category = disclosure.get("sub_category", "")
-                
-                # If no subcategory provided but we can infer it
-                if not sub_category and category in Categories.ALL:
-                    category_mapping = {
-                        "Shares": Subcategories.ASSET_SHARES,
-                        "Real Estate": Subcategories.ASSET_REAL_ESTATE,
-                        "Trust": Subcategories.ASSET_TRUST,
-                        "Directorships": Subcategories.MEMBERSHIP_PROFESSIONAL,
-                        "Hospitality": Subcategories.GIFT_HOSPITALITY
-                    }
-                    
-                    # Check if the disclosure details help determine subcategory
-                    details = disclosure.get("details", "").lower()
-                    if "mortgage" in details:
-                        sub_category = Subcategories.LIABILITY_MORTGAGE
-                    elif "loan" in details:
-                        sub_category = Subcategories.LIABILITY_LOAN
-                    elif "credit" in details:
-                        sub_category = Subcategories.LIABILITY_CREDIT
-                    elif "ticket" in details and "sport" in details:
-                        sub_category = Subcategories.GIFT_ENTERTAINMENT
-                    
-                    # Default to generic subcategory if needed
-                    if not sub_category:
-                        if category == Categories.ASSET:
-                            sub_category = Subcategories.ASSET_OTHER
-                        elif category == Categories.LIABILITY:
-                            sub_category = Subcategories.LIABILITY_OTHER
-                        elif category == Categories.INCOME:
-                            sub_category = Subcategories.INCOME_OTHER
-                        elif category == Categories.MEMBERSHIP:
-                            sub_category = Subcategories.MEMBERSHIP_OTHER
-                        elif category == Categories.GIFT:
-                            sub_category = Subcategories.GIFT_OTHER
-                        elif category == Categories.TRAVEL:
-                            sub_category = Subcategories.TRAVEL_OTHER
-                
-                # Item and entity information
-                entity = disclosure.get("entity", "Unknown")
-                details = disclosure.get("details", "")
-                pdf_url = disclosure.get("pdf_url", "")
-                item = extract_item_from_details(category, sub_category, entity, details)
-                
-                # Determine temporal type based on category
-                temporal_type = disclosure.get("temporal_type", "")
-                if not temporal_type:
-                    if category == Categories.ASSET:
-                        temporal_type = TemporalTypes.ONGOING
-                    elif category == Categories.LIABILITY:
-                        temporal_type = TemporalTypes.ONGOING
-                    elif category == Categories.INCOME:
-                        if sub_category and isinstance(sub_category, str) and ("dividend" in sub_category.lower() or "salary" in sub_category.lower()):
-                            temporal_type = TemporalTypes.RECURRING
-                        else:
-                            temporal_type = TemporalTypes.ONE_TIME
-                    elif category == Categories.MEMBERSHIP:
-                        temporal_type = TemporalTypes.RECURRING
-                    elif category == Categories.GIFT or category == Categories.TRAVEL:
-                        temporal_type = TemporalTypes.ONE_TIME
-                    else:
-                        temporal_type = TemporalTypes.ONE_TIME  # Default
-                
-                # Start and end dates (if available)
-                start_date = disclosure.get("start_date", declaration_date)
-                end_date = disclosure.get("end_date", "")
-                
-                # Find or create entity
-                entity_id = self._find_or_create_entity(
-                    cursor, 
-                    mp_name, 
-                    category, 
-                    entity,
-                    declaration_date
-                )
-                
+                date = disclosure.get('date', 'Unknown')
+                category = disclosure.get('category', 'Unknown')
+                interest_type = disclosure.get('interest_type', 'Unknown')
+                raw_description = disclosure.get('raw_description', 'Unknown')
+                raw_entity = disclosure.get('raw_entity', 'Unknown')
+                pdf_filename = disclosure.get('pdf_filename', 'Unknown')
+                # entity_id is optional and can be set in later cleaning steps
+                entity_id = None
                 cursor.execute(
-                    """
-                    INSERT INTO disclosures 
-                    (id, mp_name, party, electorate, declaration_date, category, sub_category, 
-                    item, temporal_type, start_date, end_date, details, pdf_url, entity_id, entity) 
-                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-                    """,
-                    (disclosure_id, mp_name, party, electorate, declaration_date, category, sub_category, 
-                    item, temporal_type, start_date, end_date, details, pdf_url, entity_id, entity)
+                    '''INSERT INTO disclosures 
+                    (disclosure_id, mp_id, pdf_filename, date, raw_description, raw_entity, category, interest_type, entity_id)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)''',
+                    (disclosure_id, mp_id, pdf_filename, date, raw_description, raw_entity, category, interest_type, entity_id)
                 )
-                
                 disclosure_ids.append(disclosure_id)
-            
-            # Store relationships
-            relationships = structured_data.get("relationships", [])
-            
-            for relationship in relationships:
-                relationship_id = str(uuid.uuid4())
-                entity = relationship.get("entity", "Unknown")
-                relationship_type = relationship.get("relationship_type", "Unknown")
-                value = relationship.get("value", "Undisclosed")
-                date_logged = relationship.get("date_logged", "Unknown")
-                
-                cursor.execute(
-                    """
-                    INSERT INTO relationships 
-                    (relationship_id, mp_name, entity, relationship_type, value, date_logged) 
-                    VALUES (?, ?, ?, ?, ?, ?)
-                    """,
-                    (relationship_id, mp_name, entity, relationship_type, value, date_logged)
-                )
-            
-            # Commit transaction
             conn.commit()
-            
-            logger.info(f"Successfully stored structured data for MP: {mp_name}")
+            logger.info(f"Successfully stored {len(disclosure_ids)} disclosures for MP: {full_name}")
             return disclosure_ids
-            
         except Exception as e:
-            # Rollback transaction on error
             conn.rollback()
             logger.error(f"Error storing structured data: {str(e)}")
             raise
-            
         finally:
             conn.close()
     
@@ -564,79 +381,46 @@ class DatabaseHandler:
     
     def export_to_json(self, output_path: str) -> None:
         """
-        Export the database contents to a JSON file.
-        
+        Export the database contents to a JSON file using the canonical schema.
         Args:
             output_path: Path to save the JSON file.
         """
         logger.info(f"Exporting database to JSON: {output_path}")
-        
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
-        
         # Get all MPs
-        cursor.execute("SELECT DISTINCT mp_name FROM disclosures")
-        mp_names = [row[0] for row in cursor.fetchall()]
-        
+        cursor.execute("SELECT mp_id, full_name, electorate, party, wikidata_id FROM mps")
+        mps = cursor.fetchall()
         data = {}
-        for mp_name in mp_names:
+        for mp in mps:
+            mp_id, full_name, electorate, party, wikidata_id = mp
             # Get all disclosures for this MP
-            cursor.execute("""
-                SELECT id, mp_name, party, electorate, declaration_date, category, sub_category, 
-                item, temporal_type, start_date, end_date, details, pdf_url, entity
-                FROM disclosures 
-                WHERE mp_name = ?
-            """, (mp_name,))
-            
+            cursor.execute('''
+                SELECT disclosure_id, pdf_filename, date, raw_description, raw_entity, category, interest_type, entity_id
+                FROM disclosures WHERE mp_id = ?
+            ''', (mp_id,))
             disclosures = []
             for row in cursor.fetchall():
                 disclosures.append({
-                    "id": row[0],
-                    "mp_name": row[1],
-                    "party": row[2],
-                    "electorate": row[3],
-                    "declaration_date": row[4],
+                    "disclosure_id": row[0],
+                    "pdf_filename": row[1],
+                    "date": row[2],
+                    "raw_description": row[3],
+                    "raw_entity": row[4],
                     "category": row[5],
-                    "sub_category": row[6],
-                    "item": row[7],
-                    "temporal_type": row[8],
-                    "start_date": row[9],
-                    "end_date": row[10],
-                    "details": row[11],
-                    "pdf_url": row[12],
-                    "entity": row[13]
+                    "interest_type": row[6],
+                    "entity_id": row[7]
                 })
-            
-            # Get all relationships for this MP
-            cursor.execute("""
-                SELECT relationship_id, mp_name, entity, relationship_type, value, date_logged
-                FROM relationships 
-                WHERE mp_name = ?
-            """, (mp_name,))
-            
-            relationships = []
-            for row in cursor.fetchall():
-                relationships.append({
-                    "relationship_id": row[0],
-                    "mp_name": row[1],
-                    "entity": row[2],
-                    "relationship_type": row[3],
-                    "value": row[4],
-                    "date_logged": row[5]
-                })
-            
-            # Add to data
-            data[mp_name] = {
-                "disclosures": disclosures,
-                "relationships": relationships
+            data[mp_id] = {
+                "full_name": full_name,
+                "electorate": electorate,
+                "party": party,
+                "wikidata_id": wikidata_id,
+                "disclosures": disclosures
             }
-        
         conn.close()
-        
-        # Write to file
         with open(output_path, "w") as f:
             json.dump(data, f, indent=2)
-        
         logger.info(f"Successfully exported database to: {output_path}")
     
     def create_backup(self, backup_path: str) -> None:
