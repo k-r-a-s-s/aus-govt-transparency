@@ -1,0 +1,103 @@
+# Refactor Plan: Australian Government Transparency Project
+
+## 1. Ideal Directory & File Structure
+
+```
+/src
+  /preparation        → generate_schema.py
+  /parsing            → parse_disclosures.py, extract_entities.py
+  /cleaning           → match_mp_data.py, split_entities.py, clean_entities.py, vector_match.py
+  /output             → finalize_output.py
+  main.py             → Orchestrates pipeline
+/tests
+  test_parsing.py, test_cleaning.py
+```
+
+## 2. File Mapping: Existing → Proposed Structure
+
+| Existing File/Script                        | New Location/Role                                 | Action/Notes                                 |
+|---------------------------------------------|---------------------------------------------------|----------------------------------------------|
+| db_handler.py                               | /src/preparation/generate_schema.py               | Move/rename, split out schema logic          |
+| process_parliament_disclosures.py           | /src/main.py                                      | Refactor as orchestrator                     |
+| process_disclosures.py                      | /src/parsing/parse_disclosures.py                 | Move/rename, focus on PDF parsing            |
+| gemini_pdf_processor.py                     | /src/parsing/extract_entities.py                  | Move/rename, focus on Gemini extraction      |
+| ocr_processor.py, gemini_processor.py       | /src/parsing/extract_entities.py                  | Merge as helpers for extraction              |
+| scrape_parliament.py, parliament_urls.py    | /src/preparation/generate_schema.py or helpers    | Move as scraping helpers                     |
+| standardize_data.py                         | /src/cleaning/clean_entities.py                   | Move, split into cleaning modules            |
+| standardize_mp_names.py                     | /src/cleaning/match_mp_data.py                    | Move/rename                                 |
+| standardize_electorates.py                  | /src/cleaning/match_mp_data.py                    | Move/rename                                 |
+| update_categories.py                        | /src/cleaning/clean_entities.py                   | Move/merge                                  |
+| extract_items.py                            | /src/cleaning/clean_entities.py                   | Move/merge                                  |
+| fix_identical_items.py, fix_identicals_final.py | /src/cleaning/clean_entities.py               | Move/merge, deduplicate logic                |
+| remove_nil_entries.py                       | /src/cleaning/clean_entities.py                   | Move/merge                                  |
+| merge_entities.py, vector_entity_grouping.py | /src/cleaning/vector_match.py                     | Move/merge, deduplicate logic                |
+| apply_double_disclosure_entity_results.py   | /src/cleaning/split_entities.py                   | Move/rename                                 |
+| double_disclosure_analysis.py, prepare_gemini_entity_analysis.py, analyze_double_disclosures_with_gemini.py, summarize_gemini_entity_analysis.py | /src/cleaning/split_entities.py | Move/merge as double disclosure pipeline     |
+| standardize_entities.py, verify_fuzzy_matches_llm.py, update_db_from_llm.py | /src/cleaning/clean_entities.py | Move/merge as entity standardization        |
+| recategorize_unknowns.py, recategorize_unknowns_llm.py, recategorize_all.py | /src/cleaning/clean_entities.py | Move/merge as recategorization logic        |
+| link_entities.py, analyze_entities.py, visualize_entities.py | /src/cleaning/vector_match.py | Move/merge as analysis/visualization helpers |
+| test_gemini_pdf.py                          | /tests/test_parsing.py                            | Move/rename, add more parsing tests          |
+| scripts/ (other utilities)                  | /src/cleaning/ or /src/parsing/ as appropriate    | Move/merge, deduplicate                     |
+| utils/helpers.py, utils/rate_limiter.py     | /src/common/utils.py                              | Move/merge as shared utilities               |
+| API, frontend, docs, outputs, .DS_Store, backups | (unchanged or delete)                        | Not part of core pipeline, clean up as needed|
+
+**Flag for Deletion:**
+- `.DS_Store`, old DB backups, intermediate `.json`/`.csv` outputs not needed for reproducibility.
+- Any script not referenced in README/docs or not imported anywhere else.
+
+## 3. Proposed Modules/Functions to Create
+
+### /src/preparation
+- `generate_schema.py`:
+  - `generate_schema()`
+  - `scrape_parliament_pdfs()`
+
+### /src/parsing
+- `parse_disclosures.py`:
+  - `parse_pdf(pdf_path: str) -> dict`
+  - `parse_directory(pdf_dir: str) -> list[dict]`
+- `extract_entities.py`:
+  - `extract_entities_from_text(text: str) -> list[dict]`
+  - `extract_entities_from_pdf(pdf_path: str) -> list[dict]`
+
+### /src/cleaning
+- `match_mp_data.py`:
+  - `standardize_mp_names(db_path: str)`
+  - `standardize_electorates(db_path: str)`
+- `split_entities.py`:
+  - `split_compound_entities(db_path: str)`
+  - `run_double_disclosure_pipeline(db_path: str)`
+- `clean_entities.py`:
+  - `standardize_entities(db_path: str)`
+  - `recategorize_entries(db_path: str)`
+  - `fix_identical_items(db_path: str)`
+  - `remove_nil_entries(db_path: str)`
+- `vector_match.py`:
+  - `deduplicate_entities(db_path: str)`
+  - `analyze_entity_relationships(db_path: str)`
+  - `visualize_entity_network(db_path: str)`
+
+### /src/output
+- `finalize_output.py`:
+  - `export_to_csv(db_path: str, out_path: str)`
+  - `export_to_sqlite(db_path: str, out_path: str)`
+  - `generate_kaggle_ready_dataset(db_path: str, out_path: str)`
+
+### /src/main.py
+- `main()`
+  - Orchestrates the full pipeline: preparation → parsing → cleaning → output
+
+### /src/common/utils.py
+- Shared helpers (rate limiting, logging, file I/O, etc.)
+
+### /tests
+- `test_parsing.py`, `test_cleaning.py`: Unit tests for parsing and cleaning modules
+
+---
+
+## 4. Notes
+- Each module should be strongly typed and functional where possible.
+- Aim for clear separation of concerns and minimal duplication.
+- Add missing test coverage, especially for parsing and cleaning.
+- Remove or archive legacy, dead, or junk files.
+- Document all modules and functions with clear docstrings. 

@@ -1,0 +1,16 @@
+# Refactor Planning
+
+## Context and Delta Analysis
+
+See `project_overview.rmd` for a full summary of the current state, file inventory, pipeline stages, and delta analysis.
+
+### Key Points
+- The pipeline is functional for scraping, PDF extraction, entity standardization, and database storage, but is fragmented across many scripts.
+- Some referenced scripts (parsing, entity processing, output/export for Kaggle) are missing or stubs.
+- There is no single orchestrator for the *entire* pipeline (e.g., a `main.py`), and some steps require manual intervention.
+- Output/export steps for a Kaggle-ready dataset are not fully automated.
+- There is duplication (e.g., rate limiter logic, item/entity fixers) and some dead/legacy code.
+- The target state is a modular, testable, and maintainable pipeline with clear separation by stage (preparation, parsing, cleaning, output), and a clean directory structure.
+
+### Next Steps
+- See the upcoming `refactor_plan.rmd` for a proposed new structure and migration plan. 

@@ -1,0 +1,106 @@
+# Australian Government Transparency Project - Project Overview
+
+## 1. Project Summary
+
+This project processes PDF financial disclosures from Australian MPs, extracting structured data (MPs, entities, disclosures) and standardizing it for analysis and public transparency. The pipeline uses Google Gemini for AI-powered extraction and LLM-based validation, with a focus on entity deduplication and data quality.
+
+## 2. File Inventory and Descriptions
+
+### Top-Level Files
+- `README.md`: Main documentation, workflow, and script usage.
+- `requirements.txt`: Python dependencies.
+- `disclosures.db` (+backups): Main SQLite database for disclosures.
+- `db_handler.py`: Core database schema and operations.
+- `process_parliament_disclosures.py`: Orchestrates the end-to-end pipeline (scraping, processing, storing, standardizing).
+- `process_disclosures.py`: Processes PDFs (OCR + Gemini) and exports to JSON.
+- `test_gemini_pdf.py`: Tests Gemini PDF extraction on single/multiple files.
+- `extract_items.py`: Extracts item values from disclosure details using Gemini.
+- `fix_identical_items.py`, `fix_identicals_final.py`: Fixes for cases where item/entity are identical.
+- `update_categories.py`: Validates and standardizes disclosure categories.
+- `merge_entities.py`: Deduplicates/merges entities in the database.
+- `standardize_data.py`: Runs the full standardization pipeline (MP names, electorates, categories, entities).
+- `standardize_mp_names.py`, `standardize_electorates.py`: Standardize MP and electorate names.
+- `remove_nil_entries.py`: Cleans out nil/empty entries.
+- `recategorize_unknowns.py`, `recategorize_unknowns_llm.py`, `recategorize_all.py`: Regex and LLM-based recategorization of unknowns.
+- `link_entities.py`, `analyze_entities.py`, `visualize_entities.py`: Entity relationship analysis and visualization.
+- `scrape_parliament.py`, `parliament_urls.py`: Downloads PDFs from parliament sites.
+- `gemini_pdf_processor.py`: Core Gemini PDF extraction logic.
+- `ocr_processor.py`, `gemini_processor.py`: Lower-level PDF/OCR/Gemini utilities.
+
+### `scripts/` Directory
+- `standardize_entities.py`: Expands abbreviations, normalizes, and fuzzy-matches entities.
+- `verify_fuzzy_matches_llm.py`: LLM verification of fuzzy-matched entities.
+- `update_db_from_llm.py`: Applies LLM corrections to the database.
+- `apply_double_disclosure_entity_results.py`: Splits compound entities into separate rows.
+- `double_disclosure_analysis.py`, `prepare_gemini_entity_analysis.py`, `analyze_double_disclosures_with_gemini.py`, `summarize_gemini_entity_analysis.py`: Full double-disclosure detection and analysis pipeline.
+- `vector_entity_grouping.py`: Iterative entity grouping and LLM validation.
+- `reset_original_entities.py`: Resets entity values for reprocessing.
+- `add_political_bloc_column.py`, `check_sensitive_info.py`, `generate_context_csv.py`, etc.: Utility/analysis scripts.
+
+### `utils/` Directory
+- `helpers.py`, `rate_limiter.py`: Utility functions and rate limiting.
+
+### `api/`, `aus-govt-transparency-viz/`, `docs/`, etc.
+- API server, frontend React app, and documentation (not the focus of the core pipeline).
+
+### Data/Output Files
+- Various `.json`, `.csv`, `.db` files: Intermediate and final outputs, entity groupings, analysis results, etc.
+
+## 3. Partially Implemented, Duplicated, or Dead Files
+- **Partially Implemented:**
+  - `scripts/process_entities.py`, `scripts/apply_entity_results.py`, `scripts/process_pdfs.py`, `scripts/parse_disclosures.py`, `scripts/apply_parsing_results.py`, `scripts/export_data.py`, `scripts/generate_reports.py`, `scripts/analyze_disclosures.py` are referenced in docs/README but do not exist (stubs or planned).
+- **Duplicated/Junk:**
+  - `.DS_Store`, backup DBs, and some `.json`/`.csv` files are outputs or junk.
+  - Some scripts (e.g., entity normalization, item fixing) have both initial and final/fixup versions; some could be consolidated.
+- **Dead:**
+  - Any script not referenced in README or docs and not imported anywhere else (needs further review).
+
+## 4. Target State of the Pipeline (by Stage)
+
+### Preparation: Schema Definition
+- Define and migrate the database schema for disclosures, entities, relationships.
+- Scripts: `db_handler.py`, schema logic in `process_parliament_disclosures.py`.
+
+### Parsing: Extract Data from PDFs
+- Scrape PDFs: `scrape_parliament.py`, `parliament_urls.py`.
+- Extract with Gemini: `gemini_pdf_processor.py`, `process_parliament_disclosures.py`, `test_gemini_pdf.py`.
+- Store structured data: `db_handler.py`.
+
+### Cleaning: Standardize, Split, Deduplicate
+- Split compound entities: `apply_double_disclosure_entity_results.py` (+ full double disclosure pipeline).
+- Standardize entities: `standardize_entities.py`, `verify_fuzzy_matches_llm.py`, `update_db_from_llm.py`.
+- Standardize MP/electorate names: `standardize_mp_names.py`, `standardize_electorates.py`, `standardize_data.py`.
+- Deduplicate entities: `merge_entities.py`, `vector_entity_grouping.py`.
+- Fix item/entity issues: `extract_items.py`, `fix_identical_items.py`, `fix_identicals_final.py`.
+- Recategorize: `recategorize_unknowns.py`, `recategorize_unknowns_llm.py`, `recategorize_all.py`.
+
+### Output: Export Final Dataset
+- Export to CSV/JSON: `process_disclosures.py`, `db_handler.py` (export), `output/`, `outputs/`.
+- Prepare for Kaggle: (not fully implemented, but would be a script to export final cleaned data).
+
+## 5. Delta: Implemented vs. Missing vs. Messy
+
+### Implemented
+- End-to-end pipeline for scraping, PDF extraction, entity standardization, and database storage.
+- Double disclosure detection and splitting (with LLM validation).
+- Entity deduplication (vector grouping + LLM, merge scripts).
+- MP/electorate standardization.
+- Category recategorization (regex + LLM).
+- Item/entity fixups.
+
+### Missing
+- Some scripts referenced in docs/README are not present (parsing, entity processing, output/export for Kaggle, etc.).
+- No single orchestrator for the *entire* pipeline in a modular, testable way (e.g., a `main.py`).
+- Some output/export steps (Kaggle-ready CSV, SQLite export) are not fully automated.
+- Some test coverage (unit tests for parsing/cleaning) is missing.
+
+### Messy
+- Some scripts are monolithic or have overlapping responsibilities (e.g., multiple item/entity fixers).
+- Output files and backups are scattered and not always cleaned up.
+- Some scripts are tightly coupled to specific file paths or require manual steps.
+- Duplicated rate limiter logic across scripts.
+- Some dead or legacy scripts may remain.
+
+---
+
+## See also: `development_diary.rmd` (Refactor Planning section) 
