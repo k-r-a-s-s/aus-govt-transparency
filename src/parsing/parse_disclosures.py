@@ -141,9 +141,10 @@ def main():
     parser.add_argument("--limit", type=int, help="Maximum number of PDFs to process")
     parser.add_argument("--skip-db", action="store_true", help="Skip storing data in database")
     parser.add_argument("--export-json", help="Export all database data to a JSON file")
+    parser.add_argument("--save-raw-responses", action="store_true", help="Save raw Gemini responses for debugging")
     args = parser.parse_args()
 
-    gemini_processor = GeminiPDFProcessor()
+    gemini_processor = GeminiPDFProcessor(save_raw_response=args.save_raw_responses)
     db_handler = None if args.skip_db else DatabaseHandler(db_path=args.db_path)
 
     # Export database to JSON if requested

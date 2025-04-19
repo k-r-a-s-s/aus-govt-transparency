@@ -218,6 +218,16 @@ Note: See development_diary.rmd for detailed migration steps and agent actions.
 
 _This checklist should be used to create a clean repo in line with the refactor plan. Mark each item as completed during migration._ 
 
+## Parsing Pipeline Refactor Note (2025-04-20)
+
+- The parsing pipeline now uses Gemini's `response_schema` and `response_mime_type` configuration for structured JSON output, rather than relying on prompt-based JSON enforcement.
+- Pydantic models are used to define the expected output structure, which is passed as the schema to Gemini.
+- This guarantees valid, parseable JSON output (no markdown, no stray text), and makes downstream processing more robust and maintainable.
+- All prompt-based JSON enforcement and related parsing hacks have been removed.
+- Downstream code now directly consumes the parsed JSON object.
+
+(See development_diary.rmd for implementation details and motivation.)
+
 ## Parsing Pipeline Refactor Note
 
 - Parsing now uses only direct Gemini PDF processing (no OCR).

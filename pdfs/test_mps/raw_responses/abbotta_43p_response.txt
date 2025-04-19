@@ -1,0 +1,499 @@
+{
+  "mp_name": "Tony Abbott",
+  "party": "N/A",
+  "electorate": "Warringah",
+  "disclosures": [
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Shares",
+      "entity": "HANBORD COMMUNITY BANK",
+      "details": "Shares in public and private companies"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Real Estate",
+      "entity": "N/A",
+      "details": "FORESTVILLE, NSW - RESIDENCE"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Liabilities",
+      "entity": "ADELAIDE BANK AND RISMARK (THROUGH PERMANENT CUSTODIANS)",
+      "details": "RESIDENTIAL MORTGAGE"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Savings/Investments",
+      "entity": "PRUDENTIAL",
+      "details": "MOPS SUPERANNUATION"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Income Sources",
+      "entity": "MELBOURNE UNIVERSITY PRESS (MUP)",
+      "details": "ROYALTIES AS AN AUTHOR"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Gifts",
+      "entity": "MR MAX LIONDOS, LIONDOS TAILORS, SYDNEY",
+      "details": "SUITS"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Gifts",
+      "entity": "PORT MACQUARIE IRONMAN",
+      "details": "ENTRY TO THE PORT MACQUARIE IRONMAN 2010"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Gifts",
+      "entity": "MR BOB WILMOT",
+      "details": "CASE OF WINE (12) FROM THE LATE"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Memberships",
+      "entity": "N/A",
+      "details": "NIL KNOWN"
+    },
+    {
+      "declaration_date": "2010-10-21",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "NIL KNOWN"
+    },
+    {
+      "declaration_date": "2010-10-20",
+      "category": "Gifts",
+      "entity": "MR MAX LIONDOS, LIONDOS TAILORS, SYDNEY",
+      "details": "SUITS"
+    },
+    {
+      "declaration_date": "2010-11-08",
+      "category": "Gifts",
+      "entity": "St Henri Shiraz",
+      "details": "bottle of St Henri Shiraz as a gift – value unknown."
+    },
+    {
+      "declaration_date": "2010-11-08",
+      "category": "Hospitality",
+      "entity": "Victoria Racing Club",
+      "details": "hospitality of the Victoria Racing Club in the Committee Room at the Melbourne Cup."
+    },
+    {
+      "declaration_date": "2011-02-11",
+      "category": "Gifts",
+      "entity": "Cycling Australia",
+      "details": "cycling jersey and shorts from Cycling Australia. The value is not known."
+    },
+    {
+      "declaration_date": "2011-02-11",
+      "category": "Gifts",
+      "entity": "Great Australian Swim Series",
+      "details": "complimentary entrance to the race and a gift bag from the event sponsors which included protein shakes, sportswear and a sports-bag."
+    },
+    {
+      "declaration_date": "2011-02-11",
+      "category": "Travel",
+      "entity": "Government of Japan",
+      "details": "Between 15 December - 18 December 2010 (inclusive), I travelled to Japan as an official guest of government. My business class flight, accommodation and internal travel were met by the Government of Japan."
+    },
+    {
+      "declaration_date": "2011-02-11",
+      "category": "Hospitality",
+      "entity": "Melbourne Cricket Club (MCC) and Cricket Australia",
+      "details": "I recently accepted the hospitality of the Melbourne Cricket Club (MCC) and Cricket Australia to attend the fourth Ashes Test Match on 26 December 2010."
+    },
+    {
+      "declaration_date": "2011-03-28",
+      "category": "Gifts",
+      "entity": "Hillbrick",
+      "details": "loaned a Hillbrick racing bicycle for use in the upcoming Pollie Pedal ride."
+    },
+    {
+      "declaration_date": "2011-05-13",
+      "category": "Gifts",
+      "entity": "Commercial Radio Australia",
+      "details": "digital radio from Commercial Radio Australia, the industry body which represents Australia's commercial radio broadcasters. The estimated cost of the radio is $450"
+    },
+    {
+      "declaration_date": "2011-05-13",
+      "category": "Gifts",
+      "entity": "Village Roadshow",
+      "details": "pack of various film DVD titles from Village Roadshow. Value of the DVDs is unknown."
+    },
+    {
+      "declaration_date": "2011-05-13",
+      "category": "Hospitality",
+      "entity": "FMG",
+      "details": "During a recent overnight visit to the Pilbara region, my staff and I were provided with onsite accommodation at the 'Cloudbreak' mine owned by FMG."
+    },
+    {
+      "declaration_date": "2011-05-25",
+      "category": "Hospitality",
+      "entity": "Richmond Football Club",
+      "details": "accepted an invitation from the Richmond Football Club to attend the AFL Dreamtime at the G game between Richmond and Essendon."
+    },
+    {
+      "declaration_date": "2011-08-17",
+      "category": "Gifts",
+      "entity": "Mr Tony Rule",
+      "details": "Items of cycling clothing were given to me as a gift from Mr Tony Rule."
+    },
+    {
+      "declaration_date": "2011-08-17",
+      "category": "Travel",
+      "entity": "QANTAS",
+      "details": "business class upgrade on a recent flight to the UK was provided to my wife and me by QANTAS."
+    },
+    {
+      "declaration_date": "2011-08-17",
+      "category": "Travel",
+      "entity": "Liberal Party of Australia",
+      "details": "private aircraft to enable me to travel to Nauru for official meetings with the President of Nauru and Foreign Minister for Nauru regarding offshore processing centre issues was organised by the Liberal Party of Australia."
+    },
+    {
+      "declaration_date": "2011-10-19",
+      "category": "Gifts",
+      "entity": "McGrath Foundation",
+      "details": "Items of sports clothing were given to me by the McGrath Foundation to wear as a participant in the Blackmores Sydney Running Festival."
+    },
+    {
+      "declaration_date": "2011-10-19",
+      "category": "Hospitality",
+      "entity": "AFL",
+      "details": "attended the AFL Grand Final in Melbourne with my wife, Margie, as a guest of the AFL."
+    },
+    {
+      "declaration_date": "2011-10-19",
+      "category": "Hospitality",
+      "entity": "NFL",
+      "details": "attended the NRL Grand Final in Sydney with my daughter, Frances, as a guest of the NFL."
+    },
+    {
+      "declaration_date": "2011-10-19",
+      "category": "Hospitality",
+      "entity": "V8 Supercars",
+      "details": "attended the V8 Supercars race at Bathurst as a guest of V8 Supercars who provided me with hospitality and helicopter access to the racetrack."
+    },
+    {
+      "declaration_date": "2011-11-01",
+      "category": "Gifts",
+      "entity": "Mr John Drayton",
+      "details": "gift of wine from Mr John Drayton for use when hosting guests in my Parliament House office in order to showcase his Hunter Valley winemaking business, Drayton Family Wines."
+    },
+    {
+      "declaration_date": "2011-11-01",
+      "category": "Hospitality",
+      "entity": "Victoria Racing Club",
+      "details": "attended the AAMI Victoria Derby as a guest of the Victoria Racing Club and was hosted on the day by the Chairman, Mr Michael Burn."
+    },
+    {
+      "declaration_date": "2012-02-16",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "A painting that will hang in my Sydney office"
+    },
+    {
+      "declaration_date": "2012-02-16",
+      "category": "Gifts",
+      "entity": "Lorne Surf Lifesaving Club",
+      "details": "A book on the history of the Lorne Surf Lifesaving Club which is in the reception area of my Parliament House office"
+    },
+    {
+      "declaration_date": "2012-02-16",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "Cycling clothing for the Tour Down Under charity race"
+    },
+    {
+      "declaration_date": "2012-02-16",
+      "category": "Gifts",
+      "entity": "Mr Les Taylor",
+      "details": "Clothing from Mr Les Taylor"
+    },
+    {
+      "declaration_date": "2012-02-16",
+      "category": "Gifts",
+      "entity": "Mr Max Liondos",
+      "details": "Suits from Mr Max Liondos"
+    },
+    {
+      "declaration_date": "2012-02-16",
+      "category": "Hospitality",
+      "entity": "Cricket Australia",
+      "details": "attended the Australia v India match at the Sydney Cricket Ground as a guest of Cricket Australia with my wife."
+    },
+    {
+      "declaration_date": "2012-02-16",
+      "category": "Hospitality",
+      "entity": "CircusOz",
+      "details": "attended the opening night performance of 'Steampowered' by CircusOz as a guest of CircusOz with my daughter Frances."
+    },
+    {
+      "declaration_date": "2012-02-16",
+      "category": "Hospitality",
+      "entity": "Lorne Surf Lifesaving Club",
+      "details": "participated in the Lorne Pier to Pub charity swim as a guest of the Lorne Surf Lifesaving Club."
+    },
+    {
+      "declaration_date": "2012-02-16",
+      "category": "Hospitality",
+      "entity": "GreenEDGE cycling team",
+      "details": "rode in a charity cycling race during the Tour Down Under race week in Adelaide raising $13,600 for the Cancer Council of South Australia. During this time, I accepted hospitality from the GreenEDGE cycling team."
+    },
+    {
+      "declaration_date": "2012-02-16",
+      "category": "Hospitality",
+      "entity": "Theiss",
+      "details": "attended the Men's Final at the Australian Open as a guest of Theiss with my daughter Louise and her guest."
+    },
+    {
+      "declaration_date": "2012-03-21",
+      "category": "Other Interests",
+      "entity": "N/A",
+      "details": "I recently hosted a dinner in Sydney for Pollie Pedal which raised $119,000. These funds have been provided to Carer's Australia for use in supporting and connecting carers across Australia."
+    },
+    {
+      "declaration_date": "2012-05-16",
+      "category": "Gifts",
+      "entity": "Arnold Bloch Leibler",
+      "details": "being provided with pro bono legal advice from Arnold Bloch Leibler in a defamation action being brought against me by Mr John Setka."
+    },
+    {
+      "declaration_date": "2012-05-16",
+      "category": "Gifts",
+      "entity": "Mr Simon Martin of Simon Martin Whips",
+      "details": "received a handmade stockwhip from Mr Simon Martin of Simon Martin Whips at the recent AgFest event in Launceston, Tasmania."
+    },
+    {
+      "declaration_date": "2012-05-16",
+      "category": "Travel",
+      "entity": "QANTAS",
+      "details": "daughter, Ms Louise Abbott, was provided with an upgrade to business class on a recent QANTAS flight from Singapore to London."
+    },
+    {
+      "declaration_date": "2012-05-21",
+      "category": "Income Sources",
+      "entity": "N/A",
+      "details": "daughter Bridget received a modest one-off sum for her part-time work as an Ambassador for the Sydney Autumn Racing Carnival."
+    },
+    {
+      "declaration_date": "2012-05-21",
+      "category": "Travel",
+      "entity": "QANTAS",
+      "details": "business class upgrade was provided to my wife on a recent QANTAS flight from Sydney to Auckland."
+    },
+    {
+      "declaration_date": "2012-05-21",
+      "category": "Hospitality",
+      "entity": "Australian Turf Club",
+      "details": "attended the Golden Slipper race meeting on Saturday 7 April 2012 as a guest of the Australian Turf Club with my daughters Frances and Bridget."
+    },
+    {
+      "declaration_date": "2012-05-21",
+      "category": "Hospitality",
+      "entity": "Essendon Football Club",
+      "details": "attended the AFL Dreamtime at the G game between Richmond and Essendon on Saturday 19 May 2012 as a guest of the Essendon Football Club and was hosted at dinner by the President, Mr David Evans."
+    },
+    {
+      "declaration_date": "2012-07-10",
+      "category": "Gifts",
+      "entity": "Netball Australia",
+      "details": "received a signed netball from Netball Australia to commemorate the recent World Championship win of the Australian Diamonds netball team."
+    },
+    {
+      "declaration_date": "2012-07-10",
+      "category": "Memberships",
+      "entity": "Greater Western Sydney (GWS) AFL team",
+      "details": "accepted a club membership for the Greater Western Sydney (GWS) AFL team."
+    },
+    {
+      "declaration_date": "2012-08-15",
+      "category": "Gifts",
+      "entity": "Virgin Australia",
+      "details": "received an invitation from Virgin Australia to join their new membership lounge, The Club, as well as a Samsung tablet."
+    },
+    {
+      "declaration_date": "2012-08-15",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "At the recent Prime Minister's Olympic Dinner, I received a commemorative plate, glass and bottle of wine with an unknown value."
+    },
+    {
+      "declaration_date": "2012-08-15",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "As a participant in the 2012 Coffs Harbour cycling challenge I was given a cycling jersey."
+    },
+    {
+      "declaration_date": "2012-08-15",
+      "category": "Travel",
+      "entity": "QANTAS",
+      "details": "wife and daughters, Frances and Bridget, were recently upgraded from economy to premium economy on a QANTAS flight from LA to Sydney."
+    },
+    {
+      "declaration_date": "2012-10-30",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "attended the Wah Bui Pole Hoi Gong (Feng Shui Posts Inauguration) in Sydney on 21 October 2012 and received a bottle of Penfolds wine as thanks from the organisers."
+    },
+    {
+      "declaration_date": "2012-10-30",
+      "category": "Gifts",
+      "entity": "Bicycle NSW",
+      "details": "rode in the Bicycle NSW Spring Cycle event and received a riding kit."
+    },
+    {
+      "declaration_date": "2012-10-30",
+      "category": "Travel",
+      "entity": "QANTAS",
+      "details": "received an upgrade on a recent QANTAS flight from Jakarta to Sydney on 15 October 2012."
+    },
+    {
+      "declaration_date": "2012-10-30",
+      "category": "Travel",
+      "entity": "Virgin",
+      "details": "upgrade was also provided to my wife on a recent Virgin flight from Sydney to Melbourne on 2 October 2012."
+    },
+    {
+      "declaration_date": "2012-10-30",
+      "category": "Hospitality",
+      "entity": "North Melbourne Football Club",
+      "details": "attended the AFL Grand Final breakfast on Saturday 29 September as a guest of the North Melbourne Football Club."
+    },
+    {
+      "declaration_date": "2012-10-30",
+      "category": "Hospitality",
+      "entity": "AFL",
+      "details": "attended the AFL Grand Final as a guest of the AFL accompanied by my wife."
+    },
+    {
+      "declaration_date": "2012-10-30",
+      "category": "Hospitality",
+      "entity": "NRL",
+      "details": "attended the NRL Grand Final as a guest of the NRL accompanied by my daughter, Frances."
+    },
+    {
+      "declaration_date": "2012-11-26",
+      "category": "Gifts",
+      "entity": "President of the Philippines",
+      "details": "received a gift of stationery from the President of the Philippines."
+    },
+    {
+      "declaration_date": "2012-11-26",
+      "category": "Gifts",
+      "entity": "Paceline",
+      "details": "participated in a charity bike ride for Paceline (heart arrhythmia awareness and research) and received a rider's jersey as a gift."
+    },
+    {
+      "declaration_date": "2012-11-26",
+      "category": "Hospitality",
+      "entity": "Victoria Racing Club",
+      "details": "attended the Victoria Racing Club's Derby Day race meeting on Saturday 3 November 2012, as a guest of the Victoria Racing Club with my wife and daughters Frances and Bridget."
+    },
+    {
+      "declaration_date": "2012-12-21",
+      "category": "Gifts",
+      "entity": "Victorian Institute of Technology",
+      "details": "received a Christmas hamper from the Victorian Institute of Technology with an estimated value of $350.00"
+    },
+    {
+      "declaration_date": "2012-12-21",
+      "category": "Travel",
+      "entity": "Emirates Airlines",
+      "details": "received an upgrade on recent Emirates Airlines flights from Sydney-London (via Dubai) return."
+    },
+    {
+      "declaration_date": "2013-03-18",
+      "category": "Gifts",
+      "entity": "Northern Territory Cattlemen's Association",
+      "details": "received a handmade stockwhip from the the Northern Territory Cattlemen's Association."
+    },
+    {
+      "declaration_date": "2013-03-18",
+      "category": "Gifts",
+      "entity": "Panther's Club",
+      "details": "recent visit to the Panther's Club in Penrith for lunch, I was given three copies of \"The Panthers, Men in Black' books for accompanying daughters, Frances and Bridget, and me."
+    },
+    {
+      "declaration_date": "2013-03-18",
+      "category": "Travel",
+      "entity": "Myer",
+      "details": "daughters, Frances and Bridget, accepted the hospitality of Myer to attend their Autumn/Winter Fashion Launch in Melbourne. Travel and accommodation costs were paid personally by the girls."
+    },
+    {
+      "declaration_date": "2013-04-23",
+      "category": "Gifts",
+      "entity": "Surfing Australia",
+      "details": "copy of the book, 'Surfing Australia: A Complete History of Surfboard Riding in Australia' from Surfing Australia which I will proudly display on the coffee table of my Parliament House office"
+    },
+    {
+      "declaration_date": "2013-04-23",
+      "category": "Gifts",
+      "entity": "Cairns Surf Lifesaving Club Inc",
+      "details": "award of 'Number 1 Ticket Holder' from the Cairns Surf Lifesaving Club Inc"
+    },
+    {
+      "declaration_date": "2013-04-23",
+      "category": "Gifts",
+      "entity": "Mr Les Taylor",
+      "details": "Suits from Mr Les Taylor"
+    },
+    {
+      "declaration_date": "2013-05-09",
+      "category": "Other Interests",
+      "entity": "RG Bain QC",
+      "details": "RG Bain QC is providing pro bono services as counsel in a legal matter and will be assisted by Mr N Ferrett also on a pro bono basis. McCullogh Robertson lawyers will act for me on a pro basis in the same matter."
+    },
+    {
+      "declaration_date": "2013-06-05",
+      "category": "Gifts",
+      "entity": "Adani Mining",
+      "details": "received an Indian silver vase and pashmina wrap from Adani Mining."
+    },
+    {
+      "declaration_date": "2013-06-05",
+      "category": "Gifts",
+      "entity": "N/A",
+      "details": "received a bottle of Clonakilla wine as a thank you gift following a speech to the Property Council of Australia's Capital Markets Leaders event in Canberra."
+    },
+    {
+      "declaration_date": "2013-06-05",
+      "category": "Hospitality",
+      "entity": "Village Roadshow",
+      "details": "wife and daughters, Frances and Bridget, attended the Australian premiere of 'The Great Gatsby' in Sydney on Wednesday 22 May 2013 as guests of Village Roadshow."
+    },
+    {
+      "declaration_date": "2013-06-05",
+      "category": "Hospitality",
+      "entity": "Richmond Football Club",
+      "details": "attended the AFL 'Dreamtime at G' match between Essendon and Richmond on Saturday 25 May 2013 as a guest of the Richmond Football Club."
+    },
+    {
+      "declaration_date": "2013-06-05",
+      "category": "Memberships",
+      "entity": "Northern Sydney Cycling Club",
+      "details": "pleased to accept the offer of honorary membership to the Northern Sydney Cycling Club."
+    },
+    {
+      "declaration_date": "2013-06-18",
+      "category": "Gifts",
+      "entity": "Singleton Rugby Club",
+      "details": "recently the guest speaker at the annual lunch for the Singleton Rugby Club and was presented with sporting clothes and a cycling jersey. The value is not known."
+    },
+    {
+      "declaration_date": "2013-06-18",
+      "category": "Memberships",
+      "entity": "Manly Women's Shelter",
+      "details": "wife has recently accepted an invitation from the Manly Women's Shelter to be a patron."
+    },
+    {
+      "declaration_date": "2013-06-25",
+      "category": "Income Sources",
+      "entity": "Melbourne University Press",
+      "details": "royalties as an author"
+    }
+  ]
+}

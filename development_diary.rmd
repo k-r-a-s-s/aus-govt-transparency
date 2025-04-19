@@ -223,4 +223,15 @@ _All file moves and directory changes are tracked here for reproducibility and t
 
 **Result:**
 - The data standardization documentation now accurately describes the current pipeline and usage patterns.
-- All actions are tracked here for reproducibility and team awareness. 
+- All actions are tracked here for reproducibility and team awareness.
+
+## [2025-04-20] Refactor: Use Gemini response_schema for Structured JSON Output
+
+- Refactored the Gemini PDF parsing pipeline to use Gemini's `response_schema` and `response_mime_type` configuration for guaranteed structured JSON output.
+- Motivation: Prompt-based JSON enforcement was brittle and sometimes resulted in markdown or truncated output. Using a schema ensures valid, parseable JSON every time, with no markdown or stray text.
+- Code changes:
+    - Defined Pydantic models for the expected output structure (MPDisclosures and Disclosure).
+    - Updated Gemini API calls to pass `response_schema` and `response_mime_type='application/json'`.
+    - Removed all prompt-based JSON enforcement and related parsing hacks.
+    - Downstream code now directly consumes the parsed JSON object.
+- Impact: Parsing is now robust, output is always valid JSON, and the pipeline is easier to maintain and extend. 

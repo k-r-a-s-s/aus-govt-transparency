@@ -1,5 +1,5 @@
 .qodo
-
+.specstory
 # Environment files
 .env
 .env.local

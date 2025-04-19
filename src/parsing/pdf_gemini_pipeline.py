@@ -17,8 +17,21 @@ from collections import deque
 from dotenv import load_dotenv
 import google.generativeai as genai
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
-import time
 from tqdm import tqdm
+from pydantic import BaseModel, ValidationError
+
+# Strongly typed output models
+class Disclosure(BaseModel):
+    date: str
+    category: str
+    interest_type: str
+    raw_description: str
+    raw_entity: str
+
+class MPDisclosures(BaseModel):
+    full_name: str
+    electorate: str
+    disclosures: List[Disclosure]
 
 # Configure logging
 logging.basicConfig(
@@ -153,13 +166,14 @@ class GeminiPDFProcessor:
     A class to interact with Google Gemini API for direct PDF processing and extracting structured data.
     """
     
-    def __init__(self, api_key: Optional[str] = None, apply_post_processing: bool = True):
+    def __init__(self, api_key: Optional[str] = None, apply_post_processing: bool = True, save_raw_response: bool = False):
         """
         Initialize the Gemini PDF processor.
         
         Args:
             api_key: Google API key for Gemini. If None, will use the GOOGLE_API_KEY environment variable.
             apply_post_processing: Whether to apply post-processing to the extracted data.
+            save_raw_response: Whether to save raw Gemini responses for debugging.
         """
         # Use provided API key or get from environment
         self.api_key = api_key or os.getenv('GOOGLE_API_KEY')
@@ -175,6 +189,9 @@ class GeminiPDFProcessor:
         
         # Post-processing flag
         self.apply_post_processing = apply_post_processing
+        
+        # Raw response saving flag
+        self.save_raw_response = save_raw_response
         
         # Initialize rate limiter (using default values for Gemini 2.0 Flash free tier)
         self.rate_limiter = RateLimiter(requests_per_minute=15, requests_per_day=1500)
@@ -232,56 +249,96 @@ class GeminiPDFProcessor:
         mp_id = name_parts[0] if len(name_parts) > 0 else "Unknown"
         parliament = name_parts[1].replace('p', '') if len(name_parts) > 1 else "Unknown"
         
-        # Create prompt for Gemini
-        prompt = self._create_extraction_prompt(filename, mp_id, parliament)
-        
         try:
             # Read file as bytes
             pdf_bytes = pathlib.Path(pdf_path).read_bytes()
+            logger.debug(f"Successfully read PDF bytes, size: {len(pdf_bytes)} bytes")
             
             # For large PDFs, we might need to handle them differently
-            # but for now, we'll use the standard approach
             if file_size_mb > 20:
                 logger.warning(f"PDF file is large ({file_size_mb:.2f} MB). This might exceed API limits.")
             
+            # Create prompt for Gemini
+            prompt = self._create_extraction_prompt(filename, mp_id, parliament)
+            logger.debug(f"Created prompt: {prompt[:500]}...")  # Log first 500 chars of prompt
+            
             # Create multipart content with PDF and prompt
-            response = self.model.generate_content([
+            content = [
                 {
                     "mime_type": "application/pdf",
                     "data": pdf_bytes
                 },
                 prompt
-            ])
+            ]
+            logger.debug(f"Created content array with {len(content)} parts: PDF ({len(pdf_bytes)} bytes) and prompt")
+            
+            # Set generation config
+            generation_config = {
+                "temperature": 0.1,  # Lower temperature for more consistent output
+                "top_p": 0.8,
+                "top_k": 40,
+                "candidate_count": 1
+            }
+            logger.debug(f"Using generation config: {generation_config}")
+            
+            # Make the API call
+            logger.info("Making Gemini API call with response_schema...")
+            response = self.model.generate_content(
+                content,
+                generation_config=generation_config,
+                response_mime_type='application/json',
+                response_schema=MPDisclosures
+            )
+            logger.info(f"Gemini API response length: {len(response.text)} characters")
+            logger.debug(f"Gemini API response (first 500 chars): {response.text[:500]}")
+            logger.debug(f"Gemini API response (last 500 chars): {response.text[-500:]}")
+            if len(response.text) < 1000:
+                logger.warning(f"Gemini API response is very short: {len(response.text)} characters. Possible truncation or error.")
+            
+            # Save raw response if enabled
+            if self.save_raw_response:
+                raw_response_dir = os.path.join(os.path.dirname(pdf_path), "raw_responses")
+                os.makedirs(raw_response_dir, exist_ok=True)
+                raw_response_path = os.path.join(raw_response_dir, f"{os.path.splitext(filename)[0]}_response.txt")
+                
+                # Save the complete response
+                with open(raw_response_path, "w", encoding="utf-8") as f:
+                    f.write(response.text)
+                logger.info(f"Saved raw response to: {raw_response_path}")
             
             # Record successful request
             self.rate_limiter.record_request()
             
-            # Extract JSON from response
-            structured_data = self._extract_json_from_response(response.text)
+            # Use the parsed response directly
+            try:
+                parsed: MPDisclosures = response.parsed
+                data = parsed.dict()
+            except (ValidationError, AttributeError) as e:
+                logger.error(f"Failed to parse Gemini response as MPDisclosures: {e}")
+                return {}
             
-            # Add PDF reference to each disclosure
-            for disclosure in structured_data.get("disclosures", []):
-                disclosure["pdf_url"] = filename
-            
-            # Ensure the structure includes an empty relationships array for backward compatibility
-            if "relationships" not in structured_data:
-                structured_data["relationships"] = []
+            # Remove adding PDF reference to each disclosure
+            # Instead, add pdf_filename as a top-level field
+            data["pdf_filename"] = filename
             
             # Apply post-processing if enabled
             if self.apply_post_processing:
-                structured_data = self.post_process_disclosures(structured_data)
+                data = self.post_process_disclosures(data)
             
-            return structured_data
+            return data
             
         except Exception as e:
             error_message = str(e)
-            logger.error(f"Error processing PDF with Gemini API: {error_message}")
+            logger.error(f"Error processing PDF with Gemini API: {error_message}", exc_info=True)
+            logger.error(f"Exception occurred after Gemini API call. If response.text is available, length: {len(response.text) if 'response' in locals() else 'N/A'}")
+            if 'response' in locals():
+                logger.error(f"Response (first 500 chars): {response.text[:500]}")
+                logger.error(f"Response (last 500 chars): {response.text[-500:]}")
             
             # Check if this is a rate limit error
             if self.is_rate_limit_error(e):
                 self.rate_limiter.record_rate_limit_error()
                 logger.warning("Rate limit exceeded. Retrying with exponential backoff...")
-                # Add current timestamp to track when the error occurred
                 raise RateLimitError(f"Rate limit exceeded at {datetime.datetime.now().isoformat()}: {error_message}")
             else:
                 # For other errors, re-raise
@@ -420,31 +477,6 @@ class GeminiPDFProcessor:
         # Add PDF-specific information at the end of the prompt
         prompt_template += f"\nProcess this PDF: {filename}"
         return prompt_template
-    
-    def _extract_json_from_response(self, response_text: str) -> Dict[str, Any]:
-        """
-        Extract JSON from the Gemini API response text.
-        
-        Args:
-            response_text: The text response from Gemini API
-            
-        Returns:
-            A dictionary containing the structured data
-        """
-        try:
-            # Find JSON in the response
-            json_start = response_text.find('{')
-            json_end = response_text.rfind('}') + 1
-            
-            if json_start >= 0 and json_end > json_start:
-                json_str = response_text[json_start:json_end]
-                return json.loads(json_str)
-            else:
-                logger.error("No JSON found in the response")
-                return {}
-        except Exception as e:
-            logger.error(f"Error extracting JSON from response: {str(e)}")
-            return {}
     
     def batch_process_pdfs(self, pdf_dir: str, use_file_api: bool = False, limit: Optional[int] = None) -> List[Dict[str, Any]]:
         """

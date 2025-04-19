@@ -14,6 +14,7 @@ For each disclosure in the document, extract:
 - interest_type: Must be one of: "acquired", "disposed", or "held". Use context to determine. If unclear, default to "held". (REQUIRED)
 - raw_description: The full, original text of the disclosure as written. (REQUIRED)
 - raw_entity: The primary entity involved (e.g., company or person). Use "N/A" if not applicable. (REQUIRED)
+- pdf_filename: The name of the source PDF file. (REQUIRED)
 
 Output Format
 You MUST respond with a single valid JSON object like the following:
@@ -27,7 +28,8 @@ You MUST respond with a single valid JSON object like the following:
       "category": "Asset",
       "interest_type": "acquired",
       "raw_description": "Purchased 100 shares in BHP Group.",
-      "raw_entity": "BHP Group"
+      "raw_entity": "BHP Group",
+      "pdf_filename": "albanese_47p.pdf"
     }
   ]
 }
@@ -48,5 +50,4 @@ Remember:
 - The output MUST be a single, valid JSON object.
 - All fields marked as (REQUIRED) must be present.
 - Use only the specified values for category and interest_type.
-- Do not add any text before or after the JSON.
-
+- Do not add any text before or after the JSON. 
