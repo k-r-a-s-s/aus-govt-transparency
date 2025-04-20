@@ -8,7 +8,8 @@ load_dotenv(dotenv_path='.env.local', override=True)
 import argparse
 import time
 import pandas as pd
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 from google.api_core import exceptions as google_exceptions
 
 # --- Configuration ---
@@ -38,7 +39,7 @@ def configure_gemini(api_key_env: str) -> bool:
         print("Please set the environment variable before running the script.")
         return False
     try:
-        genai.configure(api_key=api_key)
+        client = genai.Client(api_key=api_key)
         print("Gemini API configured successfully.")
         return True
     except Exception as e:
@@ -52,11 +53,11 @@ def call_gemini_with_retry(
     delay: int = RETRY_DELAY_SECONDS
 ) -> str | None:
     """Calls the Gemini API with retry logic for transient errors."""
-    model = genai.GenerativeModel(model_name)
+    client = genai.Client(api_key=os.getenv(DEFAULT_API_KEY_ENV))
     retries = 0
     while retries <= max_retries:
         try:
-            response = model.generate_content(prompt)
+            response = client.models.generate_content(model=model_name, prompt=prompt)
             # Check for empty or blocked response
             if not response.parts:
                  if response.prompt_feedback.block_reason:

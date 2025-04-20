@@ -11,9 +11,47 @@ Disclosures
 For each disclosure in the document, extract:
 - date: The date of declaration (format: YYYY-MM-DD). Default is usually at the top, but addendums may introduce new dates later in the document. Link each disclosure to the correct date. (REQUIRED)
 - category: Must be one of: "Asset", "Liability", "Income", "Membership", "Gift", "Travel", "Unknown". (REQUIRED)
+- subcategory: See valid subcategories for each category below. (REQUIRED)
 - interest_type: Must be one of: "acquired", "disposed", or "held". Use context to determine. If unclear, default to "held". (REQUIRED)
 - raw_description: The full, original text of the disclosure as written. (REQUIRED)
 - raw_entity: The primary entity involved (e.g., company or person). Use "N/A" if not applicable. (REQUIRED)
+
+Valid subcategories:
+For Asset:
+- Real Estate: Properties, homes, apartments
+- Shares: Company shares, stocks, investments
+- Trust: Trust funds or beneficiary positions
+- Other Asset: Other assets not in the above categories
+
+For Income:
+- Salary: Primary employment income
+- Dividend: Income from investments
+- Other Income: Other income sources
+
+For Membership:
+- Professional: Professional associations, airline lounges
+- Other Membership: Other types of membership
+
+For Gift:
+- Hospitality: Food, drink, entertainment events
+- Entertainment: Tickets to events, performances
+- Travel Gift: Travel benefits given as gifts
+- Decorative: Artwork, ornaments, commemorative items
+- Electronics: Electronic devices
+- Other Gift: Other types of gifts
+
+For Travel:
+- Air Travel: Flights, air travel
+- Other Travel: Other travel benefits
+
+For Liability:
+- Mortgage: Home loans
+- Loan: Other loans
+- Credit: Credit cards, lines of credit
+- Other Liability: Other liabilities
+
+For Unknown:
+- Use "Unknown" if you cannot determine a subcategory.
 
 Output Format
 You MUST respond with a single valid JSON object like the following:
@@ -25,6 +63,7 @@ You MUST respond with a single valid JSON object like the following:
     {
       "date": "2023-07-14",
       "category": "Asset",
+      "subcategory": "Shares",
       "interest_type": "acquired",
       "raw_description": "Purchased 100 shares in BHP Group.",
       "raw_entity": "BHP Group"
@@ -34,7 +73,7 @@ You MUST respond with a single valid JSON object like the following:
 
 Instructions
 1. ALWAYS use the EXACT field names specified above.
-2. ALWAYS use one of the specified values for category and interest_type.
+2. ALWAYS use one of the specified values for category, subcategory, and interest_type.
 3. NEVER add extra fields not in the schema.
 4. NEVER omit required fields - use "Unknown" or "N/A" if data is missing.
 5. If a single disclosure includes multiple entities (e.g., multiple companies), duplicate the disclosure for each entity.
@@ -47,6 +86,6 @@ Instructions
 Remember:
 - The output MUST be a single, valid JSON object.
 - All fields marked as (REQUIRED) must be present.
-- Use only the specified values for category and interest_type.
+- Use only the specified values for category, subcategory, and interest_type.
 - Do not add any text before or after the JSON.
 

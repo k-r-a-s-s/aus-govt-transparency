@@ -236,3 +236,21 @@ _This checklist should be used to create a clean repo in line with the refactor 
 - All code and prompt changes are modular, strongly typed, and functional.
 - Legacy OCR and Gemini processor code has been removed from the pipeline.
 - Next: update parse_disclosures.py to use only the new pipeline and schema. 
+
+# Refactor Plan Update (2025-04-20)
+
+## Migration to google-genai SDK
+- All code has been migrated from google-generativeai to google-genai v1.11.0.
+- All LLM and PDF processing modules now use genai.Client, config with response_schema, and Pydantic models for structured output.
+- The pipeline is fully compatible with Gemini 2.0+ and future models.
+
+## Planned Features
+- Add subcategories to the prompt and schema for disclosures, with a new field in the output JSON.
+- Implement chunked PDF processing: output will include total_disclosures, start_index, end_index, and only a subset of disclosures per chunk.
+- This enables deterministic chunking, checkpointing, and avoids Gemini's 8192 token output limit.
+- Controller logic will use these fields to request and assemble all disclosures in multiple passes if needed.
+
+## Next Steps
+- Update prompt and schema for subcategories and chunked output.
+- Implement controller logic for chunked processing.
+- Test and document the new features. 

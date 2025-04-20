@@ -15,7 +15,9 @@ import random
 from typing import Dict, Any, List, Optional, Union, Deque
 from collections import deque
 from dotenv import load_dotenv
-import google.generativeai as genai
+import google.genai as genai  # OLD
+from google import genai  # NEW SDK
+from google.genai import types
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 from tqdm import tqdm
 from pydantic import BaseModel, ValidationError
@@ -24,6 +26,7 @@ from pydantic import BaseModel, ValidationError
 class Disclosure(BaseModel):
     date: str
     category: str
+    subcategory: str
     interest_type: str
     raw_description: str
     raw_entity: str
@@ -182,10 +185,10 @@ class GeminiPDFProcessor:
             raise ValueError("Google API key is required. Set GOOGLE_API_KEY environment variable or provide it directly.")
         
         # Configure the Gemini API
-        genai.configure(api_key=self.api_key)
+        self.client = genai.Client(api_key=self.api_key)
         
-        # Get the Gemini model
-        self.model = genai.GenerativeModel('gemini-2.0-flash')
+        # Model name
+        self.model_name = 'gemini-2.0-flash'
         
         # Post-processing flag
         self.apply_post_processing = apply_post_processing
@@ -262,32 +265,36 @@ class GeminiPDFProcessor:
             prompt = self._create_extraction_prompt(filename, mp_id, parliament)
             logger.debug(f"Created prompt: {prompt[:500]}...")  # Log first 500 chars of prompt
             
-            # Create multipart content with PDF and prompt
+            # --- NEW SDK: Upload file and use file object ---
+            uploaded_file = self.client.files.upload(file=pdf_path)
             content = [
-                {
-                    "mime_type": "application/pdf",
-                    "data": pdf_bytes
-                },
-                prompt
+                prompt,
+                uploaded_file
             ]
-            logger.debug(f"Created content array with {len(content)} parts: PDF ({len(pdf_bytes)} bytes) and prompt")
+            logger.debug(f"Created content array with {len(content)} parts: prompt and uploaded PDF")
             
-            # Set generation config
-            generation_config = {
-                "temperature": 0.1,  # Lower temperature for more consistent output
-                "top_p": 0.8,
-                "top_k": 40,
-                "candidate_count": 1
-            }
-            logger.debug(f"Using generation config: {generation_config}")
-            
-            # Make the API call
-            logger.info("Making Gemini API call with response_schema...")
-            response = self.model.generate_content(
-                content,
-                generation_config=generation_config,
-                response_mime_type='application/json',
-                response_schema=MPDisclosures
+            # --- NEW SDK: Use config for structured output ---
+            # Add propertyOrdering to the schema dict
+            schema_dict = MPDisclosures.schema()
+            schema_dict['propertyOrdering'] = [
+                'full_name', 'electorate', 'disclosures'
+            ]
+            disclosure_schema = schema_dict['properties']['disclosures']['items']
+            disclosure_schema['propertyOrdering'] = [
+                'date', 'category', 'subcategory', 'interest_type', 'raw_description', 'raw_entity'
+            ]
+            logger.info("Making Gemini API call with response_schema via new SDK...")
+            response = self.client.models.generate_content(
+                model=self.model_name,
+                contents=content,
+                config={
+                    'response_mime_type': 'application/json',
+                    'response_schema': schema_dict,
+                    'temperature': 0.1,
+                    'top_p': 0.8,
+                    'top_k': 40,
+                    'candidate_count': 1
+                }
             )
             logger.info(f"Gemini API response length: {len(response.text)} characters")
             logger.debug(f"Gemini API response (first 500 chars): {response.text[:500]}")
@@ -311,8 +318,10 @@ class GeminiPDFProcessor:
             
             # Use the parsed response directly
             try:
-                parsed: MPDisclosures = response.parsed
-                data = parsed.dict()
+                # If you use a Pydantic model as the schema, response.parsed is a Pydantic model.
+                # If you use a dict (to set propertyOrdering), response.parsed is a plain dict.
+                # So, do NOT call .dict() here—just use the dict directly.
+                data = response.parsed
             except (ValidationError, AttributeError) as e:
                 logger.error(f"Failed to parse Gemini response as MPDisclosures: {e}")
                 return {}

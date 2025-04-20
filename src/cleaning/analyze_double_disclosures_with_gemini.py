@@ -27,7 +27,8 @@ import argparse
 import logging
 import time
 from typing import List, Dict, Any
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 
 # Set up logging
 logging.basicConfig(
@@ -96,7 +97,7 @@ class GeminiDoubleDisclosureAnalyzer:
         if not self.api_key:
             raise ValueError("API key must be provided via --api-key parameter, --api-key-file, or GOOGLE_API_KEY environment variable")
         
-        genai.configure(api_key=self.api_key)
+        self.client = genai.Client(api_key=self.api_key)
         
         # Load prompt template
         self.prompt_template_file = os.path.join(input_dir, "prompt_template.json")
@@ -107,28 +108,7 @@ class GeminiDoubleDisclosureAnalyzer:
             self.prompt_template = json.load(f)
         
         # Set up Gemini model
-        self.model = genai.GenerativeModel(
-            model_name=self.model_name,
-            system_instruction=self.prompt_template["system_prompt"],
-            safety_settings=[
-                {
-                    "category": "HARM_CATEGORY_HARASSMENT",
-                    "threshold": "BLOCK_MEDIUM_AND_ABOVE"
-                },
-                {
-                    "category": "HARM_CATEGORY_HATE_SPEECH",
-                    "threshold": "BLOCK_MEDIUM_AND_ABOVE"
-                },
-                {
-                    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
-                    "threshold": "BLOCK_MEDIUM_AND_ABOVE"
-                },
-                {
-                    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
-                    "threshold": "BLOCK_MEDIUM_AND_ABOVE"
-                }
-            ]
-        )
+        self.model_name = 'gemini-2.0-flash'
     
     def format_entity_prompt(self, batch: Dict[str, Any]) -> str:
         """
@@ -253,7 +233,7 @@ class GeminiDoubleDisclosureAnalyzer:
             response = None
             for retry in range(self.max_retries):
                 try:
-                    response = self.model.generate_content(prompt)
+                    response = self.client.generate_content(self.model_name, prompt)
                     break
                 except Exception as e:
                     logger.error(f"Gemini API error: {e}")

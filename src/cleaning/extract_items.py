@@ -16,7 +16,8 @@ import time
 from typing import List, Dict, Any, Optional
 import argparse
 from dotenv import load_dotenv
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 from tqdm import tqdm
 import copy
 import re
@@ -151,10 +152,8 @@ class ItemExtractor:
             raise ValueError("Google API key is required. Set GOOGLE_API_KEY environment variable in .env or .env.local file.")
         
         # Configure Gemini API
-        genai.configure(api_key=self.api_key)
-        
-        # Get Gemini model
-        self.model = genai.GenerativeModel('gemini-2.0-flash')
+        self.client = genai.Client(api_key=self.api_key)
+        self.model_name = 'gemini-2.0-flash'
         
         # Initialize rate limiter
         self.rate_limiter = RateLimiter(requests_per_minute=15, requests_per_day=1500)
@@ -305,7 +304,7 @@ class ItemExtractor:
         
         try:
             # Call Gemini API
-            response = self.model.generate_content(prompt)
+            response = self.client.generate_content(self.model_name, prompt)
             
             # Record successful request
             self.rate_limiter.record_request()

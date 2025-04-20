@@ -79,7 +79,8 @@ import time
 import torch
 import logging
 from typing import Dict, List, Tuple, Any, Optional
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 from dotenv import load_dotenv # Added for .env loading
 
 # Load environment variables from .env.local BEFORE accessing them
@@ -98,12 +99,12 @@ try:
     GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
     if not GOOGLE_API_KEY:
         raise ValueError("GOOGLE_API_KEY environment variable not set or not loaded from .env.local.")
-    genai.configure(api_key=GOOGLE_API_KEY)
-    llm_model = genai.GenerativeModel('gemini-1.5-flash') # Or your preferred model
+    client = genai.Client(api_key=GOOGLE_API_KEY)
+    model_name = 'gemini-1.5-flash'
     logger.info("Gemini AI client configured successfully.")
 except Exception as e:
     logger.error(f"Error configuring Gemini AI client: {e}")
-    llm_model = None
+    client = None
     logger.warning("Proceeding without LLM review capabilities.")
 
 def generate_llm_prompt(entity_names: List[str]) -> str:
@@ -138,7 +139,7 @@ def get_llm_review(entity_names: List[str]) -> Optional[Dict[str, str]]:
         A dictionary mapping each input entity name to 'confirmed' or 'rejected',
         or None if the review failed.
     """
-    if not llm_model:
+    if not client:
         logger.warning("LLM client not available. Skipping review.")
         return None
 
@@ -151,7 +152,7 @@ def get_llm_review(entity_names: List[str]) -> Optional[Dict[str, str]]:
     for attempt in range(max_retries):
         try:
             logger.debug(f"Sending prompt to LLM (Attempt {attempt+1}/{max_retries}): {prompt[:300]}...")
-            response = llm_model.generate_content(prompt)
+            response = client.generate_content(model_name, prompt)
 
             # Extract JSON block (handle potential markdown fences)
             raw_response_text = response.text.strip()

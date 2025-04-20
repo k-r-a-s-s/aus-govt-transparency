@@ -234,4 +234,50 @@ _All file moves and directory changes are tracked here for reproducibility and t
     - Updated Gemini API calls to pass `response_schema` and `response_mime_type='application/json'`.
     - Removed all prompt-based JSON enforcement and related parsing hacks.
     - Downstream code now directly consumes the parsed JSON object.
-- Impact: Parsing is now robust, output is always valid JSON, and the pipeline is easier to maintain and extend. 
+- Impact: Parsing is now robust, output is always valid JSON, and the pipeline is easier to maintain and extend.
+
+# Development Diary Update (2025-04-20)
+
+## Migration to google-genai SDK
+- Migrated all code from google-generativeai to google-genai v1.11.0.
+- All LLM calls now use genai.Client, config with response_schema, and Pydantic models for structured output.
+- PDF processing, entity extraction, and all LLM calls are now fully migrated and tested with the new SDK.
+
+## Planned Features
+- Add subcategories to the prompt and schema for disclosures, with a new field in the output JSON.
+- Implement chunked PDF processing: output will include total_disclosures, start_index, end_index, and only a subset of disclosures per chunk.
+- This enables deterministic chunking, checkpointing, and avoids Gemini's 8192 token output limit.
+- Controller logic will use these fields to request and assemble all disclosures in multiple passes if needed.
+
+## Next Steps
+- Update prompt and schema for subcategories and chunked output.
+- Implement controller logic for chunked processing.
+- Test and document the new features.
+
+# [2025-04-20] Update: Enforce Field Order and Subcategory Extraction
+
+- Added propertyOrdering to the response_schema dict for both the top-level object and each disclosure, ensuring output field order matches the prompt and schema.
+- Updated the pipeline to handle response.parsed as a dict (not a Pydantic model) when using a schema dict for propertyOrdering.
+- The subcategory field is now required and extracted for each disclosure, with valid values enforced in the prompt and schema.
+- All code and prompt changes are modular, strongly typed, and functional.
+- Output is now robust, valid JSON with consistent field order, and includes subcategories.
+
+## Next Step
+- Implement chunked PDF processing: update the prompt and schema to include total_disclosures, start_index, end_index, and only a subset of disclosures per chunk.
+- Update controller logic to request and assemble all disclosures in multiple passes if needed, supporting deterministic chunking and checkpointing.
+- Test and document the new chunking features.
+
+# [2025-04-20] Plan: Chunked PDF Extraction with Context Passing
+
+- To handle Gemini's output token limits and maximize extraction consistency, the pipeline will process PDFs in chunks.
+- For each chunked request, the PDF will be re-uploaded and the prompt will specify the desired disclosure range (e.g., 1–20, 21–40, etc.).
+- To avoid duplicate or missed disclosures (especially when the model splits or merges disclosures differently across runs), each prompt will also include a summary of all previously extracted disclosures (e.g., their raw_description and raw_entity fields).
+- The prompt will instruct the model: "Do not repeat any disclosures already listed below. Only extract new disclosures not already included."
+- This approach will be used for every chunked request, including the first (with an empty previous context for the first chunk). This ensures a consistent, robust, and checkpointable process.
+- The prompt and output handling will be updated to support this chunked, context-aware extraction.
+- The controller logic will assemble the full set of disclosures by iteratively requesting chunks until all disclosures are extracted (as indicated by total_disclosures/end_index in the output).
+
+## Next Steps
+- Update the prompt and schema to include previous context and chunking fields (total_disclosures, start_index, end_index).
+- Update output handling and controller logic to manage chunked extraction and context passing.
+- Test and document the new chunking and context-passing features. 
