@@ -95,50 +95,59 @@ class DatabaseHandler:
 
     def _initialize_db(self):
         logger.info(f"Initializing database at {self.db_path}")
-        conn = sqlite3.connect(self.db_path)
-        cursor = conn.cursor()
-        # Create mps table
-        cursor.execute('''
-        CREATE TABLE IF NOT EXISTS mps (
-            mp_id TEXT PRIMARY KEY,
-            full_name TEXT NOT NULL,
-            electorate TEXT,
-            party TEXT,
-            wikidata_id TEXT
-        )
-        ''')
-        # Create disclosures table
-        cursor.execute('''
-        CREATE TABLE IF NOT EXISTS disclosures (
-            disclosure_id TEXT PRIMARY KEY,
-            mp_id TEXT NOT NULL,
-            pdf_filename TEXT NOT NULL,
-            date TEXT NOT NULL,
-            raw_description TEXT NOT NULL,
-            raw_entity TEXT,
-            category TEXT,
-            interest_type TEXT CHECK(interest_type IN ('acquired', 'disposed', 'held')),
-            entity_id TEXT,
-            FOREIGN KEY (mp_id) REFERENCES mps(mp_id),
-            FOREIGN KEY (entity_id) REFERENCES entities(entity_id)
-        )
-        ''')
-        # Create entities table
-        cursor.execute('''
-        CREATE TABLE IF NOT EXISTS entities (
-            entity_id TEXT PRIMARY KEY,
-            canonical_name TEXT NOT NULL,
-            iteration INTEGER,
-            status TEXT CHECK(status IN ('confirmed', 'rejected', 'pending_review')),
-            notes TEXT
-        )
-        ''')
-        # Create indexes
-        cursor.execute('CREATE INDEX IF NOT EXISTS idx_disclosures_mp_id ON disclosures(mp_id)')
-        cursor.execute('CREATE INDEX IF NOT EXISTS idx_disclosures_entity_id ON disclosures(entity_id)')
-        cursor.execute('CREATE INDEX IF NOT EXISTS idx_disclosures_type ON disclosures(interest_type)')
-        conn.commit()
-        conn.close()
+        try:
+            conn = sqlite3.connect(self.db_path)
+            cursor = conn.cursor()
+            # Create mps table
+            cursor.execute('''
+            CREATE TABLE IF NOT EXISTS mps (
+                mp_id TEXT PRIMARY KEY,
+                full_name TEXT NOT NULL,
+                electorate TEXT,
+                party TEXT,
+                wikidata_id TEXT
+            )
+            ''')
+            # Create disclosures table
+            cursor.execute('''
+            CREATE TABLE IF NOT EXISTS disclosures (
+                disclosure_id TEXT PRIMARY KEY,
+                mp_id TEXT NOT NULL,
+                pdf_filename TEXT NOT NULL,
+                date TEXT NOT NULL,
+                raw_description TEXT NOT NULL,
+                raw_entity TEXT,
+                category TEXT,
+                interest_type TEXT CHECK(interest_type IN ('acquired', 'disposed', 'held')),
+                sub_category TEXT,
+                entity_id TEXT,
+                FOREIGN KEY (mp_id) REFERENCES mps(mp_id),
+                FOREIGN KEY (entity_id) REFERENCES entities(entity_id)
+            )
+            ''')
+            # Create entities table
+            cursor.execute('''
+            CREATE TABLE IF NOT EXISTS entities (
+                entity_id TEXT PRIMARY KEY,
+                canonical_name TEXT NOT NULL,
+                iteration INTEGER,
+                status TEXT CHECK(status IN ('confirmed', 'rejected', 'pending_review')),
+                notes TEXT
+            )
+            ''')
+            # Create indexes
+            cursor.execute('CREATE INDEX IF NOT EXISTS idx_disclosures_mp_id ON disclosures(mp_id)')
+            cursor.execute('CREATE INDEX IF NOT EXISTS idx_disclosures_entity_id ON disclosures(entity_id)')
+            cursor.execute('CREATE INDEX IF NOT EXISTS idx_disclosures_type ON disclosures(interest_type)')
+            conn.commit()
+            # Log tables present
+            cursor.execute("SELECT name FROM sqlite_master WHERE type='table'")
+            tables = [row[0] for row in cursor.fetchall()]
+            logger.info(f"Tables present after initialization: {tables}")
+            conn.close()
+        except Exception as e:
+            logger.error(f"Error initializing database schema: {e}", exc_info=True)
+            raise
 
     def _canonical_mp_id(self, full_name: str) -> str:
         """Generate a canonical mp_id from full_name (e.g., 'Anthony Albanese' -> 'anthony_albanese')."""
@@ -177,14 +186,25 @@ class DatabaseHandler:
                 interest_type = disclosure.get('interest_type', 'Unknown')
                 raw_description = disclosure.get('raw_description', 'Unknown')
                 raw_entity = disclosure.get('raw_entity', 'Unknown')
-                pdf_filename = disclosure.get('pdf_filename', 'Unknown')
+                # Fix: get pdf_filename from disclosure, or fallback to top-level structured_data, or 'Unknown'
+                pdf_filename = disclosure.get('pdf_filename')
+                if not pdf_filename:
+                    pdf_filename = structured_data.get('pdf_filename', 'Unknown')
+                if not pdf_filename:
+                    pdf_filename = 'Unknown'
+                # Map both 'sub_category' and 'subcategory' to sub_category
+                sub_category = (
+                    disclosure.get('sub_category') or
+                    disclosure.get('subcategory') or
+                    'Unknown'
+                )
                 # entity_id is optional and can be set in later cleaning steps
                 entity_id = None
                 cursor.execute(
                     '''INSERT INTO disclosures 
-                    (disclosure_id, mp_id, pdf_filename, date, raw_description, raw_entity, category, interest_type, entity_id)
-                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)''',
-                    (disclosure_id, mp_id, pdf_filename, date, raw_description, raw_entity, category, interest_type, entity_id)
+                    (disclosure_id, mp_id, pdf_filename, date, raw_description, raw_entity, category, interest_type, sub_category, entity_id)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)''',
+                    (disclosure_id, mp_id, pdf_filename, date, raw_description, raw_entity, category, interest_type, sub_category, entity_id)
                 )
                 disclosure_ids.append(disclosure_id)
             conn.commit()

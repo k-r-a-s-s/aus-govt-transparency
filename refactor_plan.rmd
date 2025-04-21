@@ -254,3 +254,9 @@ _This checklist should be used to create a clean repo in line with the refactor 
 - Update prompt and schema for subcategories and chunked output.
 - Implement controller logic for chunked processing.
 - Test and document the new features. 
+
+## CLI Update: Chunked Extraction Flag (2025-04-21)
+- Added --chunked and --chunk-size CLI flags to src/parsing/parse_disclosures.py.
+- If --chunked is set, PDFs are processed in chunked mode (recommended for large PDFs); otherwise, legacy non-chunked logic is used.
+- --chunk-size (default: 20) controls the number of disclosures per chunk (only used with --chunked).
+- This preserves backward compatibility and gives users explicit control over chunked vs. non-chunked extraction. 

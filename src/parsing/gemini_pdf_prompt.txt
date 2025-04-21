@@ -7,9 +7,8 @@ Extract or infer the following:
 - full_name: The MP's full name (REQUIRED).
 - electorate: The MP's electorate (REQUIRED).
 
-Disclosures
-For each disclosure in the document, extract:
-- date: The date of declaration (format: YYYY-MM-DD). Default is usually at the top, but addendums may introduce new dates later in the document. Link each disclosure to the correct date. (REQUIRED)
+disclosures: A list of all disclosures in the document. For each disclosure, extract:
+- date: The date of declaration (format: YYYY-MM-DD). (REQUIRED)
 - category: Must be one of: "Asset", "Liability", "Income", "Membership", "Gift", "Travel", "Unknown". (REQUIRED)
 - subcategory: See valid subcategories for each category below. (REQUIRED)
 - interest_type: Must be one of: "acquired", "disposed", or "held". Use context to determine. If unclear, default to "held". (REQUIRED)
@@ -65,9 +64,10 @@ You MUST respond with a single valid JSON object like the following:
       "category": "Asset",
       "subcategory": "Shares",
       "interest_type": "acquired",
-      "raw_description": "Purchased 100 shares in BHP Group.",
-      "raw_entity": "BHP Group"
+      "raw_description": "Purchased 100 shares in Rio Tinto.",
+      "raw_entity": "Rio Tinto"
     }
+    // ... more disclosures ...
   ]
 }
 

@@ -280,4 +280,180 @@ _All file moves and directory changes are tracked here for reproducibility and t
 ## Next Steps
 - Update the prompt and schema to include previous context and chunking fields (total_disclosures, start_index, end_index).
 - Update output handling and controller logic to manage chunked extraction and context passing.
-- Test and document the new chunking and context-passing features. 
+- Test and document the new chunking and context-passing features.
+
+# [2025-04-21] Implemented Chunked, Context-Aware PDF Extraction
+
+- Refactored the Gemini prompt (src/parsing/gemini_pdf_prompt.txt) to support chunked extraction and context passing, including fields for total_disclosures, start_index, end_index, and previous_disclosures.
+- Updated the strongly typed schema in src/parsing/pdf_gemini_pipeline.py to include these new fields, and enforced property ordering for robust JSON output.
+- Modified the GeminiPDFProcessor to accept chunking parameters and to assemble chunked results using assemble_chunked_results, deduplicating disclosures.
+- Implemented process_single_pdf_chunked and updated process_batch_pdfs in src/parsing/parse_disclosures.py to orchestrate chunked extraction:
+    - For each PDF, process in chunks, passing previous_disclosures and chunk indices.
+    - Merge all chunks into a single result, ensuring no duplicates.
+    - Added robust error handling and checkpointing (max_chunks, logging, and graceful failure).
+- All changes are modular, strongly typed, and functional, in line with project standards.
+- These changes enable reliable processing of large PDFs that exceed Gemini's output token limits, and ensure deterministic, resumable extraction.
+
+# [2025-04-21] CLI Update: Chunked Extraction Flag
+
+- Added --chunked and --chunk-size CLI flags to src/parsing/parse_disclosures.py.
+- If --chunked is set, PDFs are processed in chunked mode (recommended for large PDFs); otherwise, legacy non-chunked logic is used.
+- --chunk-size (default: 20) controls the number of disclosures per chunk (only used with --chunked).
+- This preserves backward compatibility and gives users explicit control over chunked vs. non-chunked extraction.
+
+# [2025-04-21] Code Review: Chunked Raw Response File Saving Logic
+
+## Review Scope
+- Filename uniqueness for each chunked Gemini API response
+- Parameter passing of start_index and end_index
+- Prevention of file overwriting
+- Handling of edge cases (first/last chunk, small PDFs)
+- Documentation of findings
+
+## Findings
+- **Filename Uniqueness:**
+  - The raw response filename is constructed as `<pdf_basename>_response_<start_index>-<end_index>.txt` (or `<start_index>` if `end_index` is None).
+  - Both `start_index` and `end_index` are always included in the filename for each chunk, ensuring uniqueness.
+- **Parameter Passing:**
+  - `process_single_pdf_chunked` sets and increments `start_index` and `end_index` for each chunk, passing them to `process_pdf`.
+  - These values are always integers and reflect the actual chunk being processed.
+- **No Overwriting:**
+  - No two chunks can write to the same file; filenames are always unique per chunk.
+  - There is no logic that would cause files to be overwritten or skipped, unless the same chunk is processed multiple times (not the case in normal operation).
+- **Edge Cases:**
+  - First chunk, last chunk, and PDFs with fewer disclosures than the chunk size are all handled correctly.
+  - The fallback for `end_index` being None is robust but should not be triggered in normal operation.
+- **Documentation:**
+  - The implementation matches the intended design and is robust for chunked processing.
+  - No bugs found in the reviewed logic.
+
+## Conclusion
+The chunked raw response file saving logic in `pdf_gemini_pipeline.py` and its controller in `parse_disclosures.py` is correct and robust. Each chunk's response is saved to a unique file, with no risk of overwriting or skipping. Edge cases are handled as expected. No changes required at this time.
+
+# [2025-04-21] Plan: Move to PDF Splitting Approach for Gemini Extraction
+
+## Motivation
+- LLM-based chunking (using start_index/end_index and previous_disclosures) has proven unreliable: inconsistent chunk boundaries, duplicate/missing disclosures, and non-deterministic results.
+- To improve determinism, reliability, and debuggability, we will move to a PDF splitting approach, using a PDF library to split documents into logical sections (by page or range of pages) before sending to Gemini.
+
+## Requirements & Adaptive Splitting Logic
+- **If PDF < 20 pages:**
+  - Try a single-shot Gemini extraction (one API call for the whole PDF).
+  - If Gemini output is truncated (hits 8192 token limit, or returns an error/message indicating truncation or out-of-tokens):
+    - Split the PDF in half (by page count) and retry each half separately.
+    - Recursively split any chunk that fails or is truncated, until all chunks succeed or reach a minimum page size (e.g., 1 page).
+- **If PDF > 20 pages:**
+  - Split the PDF into 20-page sections (e.g., pages 1-20, 21-40, ...).
+  - For each section, send to Gemini for extraction.
+  - If any section's Gemini output is truncated or returns an error:
+    - Split that section in half and retry each half.
+    - Continue recursively splitting as needed.
+- **General logic:**
+  - Always check Gemini's response for signs of truncation (e.g., max token error, incomplete JSON, explicit error message).
+  - If a chunk is successfully processed, keep the result.
+  - If a chunk fails or is truncated, split and retry.
+  - Merge and deduplicate results from all successful chunks.
+- **Advantages:**
+  - Deterministic chunking (by page), easier to debug and parallelize.
+  - No reliance on LLM to track chunk indices or previous context.
+  - Robust to Gemini output limits and errors.
+
+## Implementation Steps
+1. **Remove/clean up the current LLM-based chunking logic** (start_index, end_index, previous_disclosures) from the pipeline.
+2. **Implement PDF splitting utility** (using PyPDF2, pdfplumber, or pdfminer.six):
+    - Function to split a PDF into N-page chunks or by custom page ranges.
+    - Save or process each chunk in-memory (no need to write to disk unless debugging).
+3. **Controller logic:**
+    - For each PDF, determine page count.
+    - If <20 pages, try one-shot extraction; if truncated, split and retry recursively.
+    - If >20 pages, split into 20-page chunks and process each; recursively split any chunk that fails/truncates.
+    - Track and merge results, deduplicating disclosures.
+4. **Update Gemini extraction logic:**
+    - Remove chunk index/context logic from prompt and schema.
+    - Each chunk is processed independently.
+    - Add robust error/truncation detection and retry logic.
+5. **Testing:**
+    - Test on a variety of PDFs (short, long, edge cases).
+    - Validate that all disclosures are extracted, with no duplicates or omissions.
+6. **Documentation:**
+    - Update README and docs to describe the new approach and usage.
+    - Document any limitations or edge cases.
+
+## Next Steps
+- Begin implementation of PDF splitting utility and adaptive controller logic.
+- Remove legacy LLM chunking code and update all references.
+- Test and iterate on the new pipeline.
+
+# [2025-04-22] Robust Detection and Handling of Truncated Gemini Output
+
+- Updated `GeminiPDFProcessor.process_pdf` in `src/parsing/pdf_gemini_pipeline.py` to robustly detect and handle silent truncation or invalid output from Gemini.
+- The pipeline now:
+    - Checks if the Gemini response text ends with a closing `}` or `]`. If not, it is flagged as likely truncated.
+    - If JSON parsing fails (either via `.parsed` or raw `json.loads`), the error and the end of the response are logged, and an empty result is returned.
+    - All such cases are logged with warnings and error details for debugging.
+    - When truncation or parse errors are detected, the function returns an empty result, allowing the adaptive splitting logic in the controller to retry with smaller chunks/pages.
+- This prevents silent data loss, ensures all truncation is caught, and improves the reliability and debuggability of the extraction pipeline.
+
+# Development Diary Update (2025-04-22)
+
+## Pipeline Refactor and Validation Complete
+- Refactored the PDF splitting and page counting logic to use PyMuPDF (fitz) instead of PyPDF2 for improved robustness, especially with scanned/image-based and malformed PDFs.
+- Updated the database schema and storage logic to ensure the `sub_category` field is correctly mapped from both `sub_category` and `subcategory` keys in the Gemini/JSON output, and stored in the database as `sub_category`.
+- Validated the pipeline end-to-end: Gemini output, JSON, and database now all contain correct subcategory values.
+- Adaptive splitting, error handling, and logging are all working as intended.
+- Test runs on sample PDFs (e.g., abbotta_43p.pdf) show correct extraction, chunking, and storage of all disclosures.
+
+## Next Steps
+- Run the full batch of PDFs overnight using the updated pipeline.
+- Monitor `process_disclosures.log` and output directories for any errors or issues.
+- Use the `--save-raw-responses` flag for debugging if needed.
+- Review results and database after batch completion to confirm all disclosures and subcategories are present.
+
+# [2025-04-22] Set Gemini API Temperature to 0.0 for Determinism
+
+- Updated the Gemini API call in `GeminiPDFProcessor.process_pdf` to use `'temperature': 0.0`.
+- This ensures maximum determinism and reproducibility in all PDF extraction runs, minimizing random variation in Gemini output.
+- This change is in line with project standards and best practices for structured data extraction.
+
+# Development Diary Update (2025-04-22)
+
+## New Features
+- Added subcategories to the prompt and schema for disclosures, with a new field in the output JSON.
+- Implemented chunked PDF processing: output now includes total_disclosures, start_index, end_index, and only a subset of disclosures per chunk.
+- This enables deterministic chunking, checkpointing, and avoids Gemini's 8192 token output limit.
+- Controller logic will use these fields to request and assemble all disclosures in multiple passes if needed.
+
+## Next Steps
+- Update prompt and schema for subcategories and chunked output.
+- Implement controller logic for chunked processing.
+- Test and document the new features.
+
+## New Implementation
+- Refactored the Gemini prompt to support chunked extraction and context passing, including fields for total_disclosures, start_index, end_index, and previous_disclosures.
+- Updated the strongly typed schema in src/parsing/pdf_gemini_pipeline.py to include these new fields, and enforced property ordering for robust JSON output.
+- Modified the GeminiPDFProcessor to accept chunking parameters and to assemble chunked results using assemble_chunked_results, deduplicating disclosures.
+- Implemented process_single_pdf_chunked and updated process_batch_pdfs in src/parsing/parse_disclosures.py to orchestrate chunked extraction:
+    - For each PDF, process in chunks, passing previous_disclosures and chunk indices.
+    - Merge all chunks into a single result, ensuring no duplicates.
+    - Added robust error handling and checkpointing (max_chunks, logging, and graceful failure).
+- All changes are modular, strongly typed, and functional, in line with project standards.
+- These changes enable reliable processing of large PDFs that exceed Gemini's output token limits, and ensure deterministic, resumable extraction.
+
+## CLI Update
+- Added --chunked and --chunk-size CLI flags to src/parsing/parse_disclosures.py.
+- If --chunked is set, PDFs are processed in chunked mode (recommended for large PDFs); otherwise, legacy non-chunked logic is used.
+- --chunk-size (default: 20) controls the number of disclosures per chunk (only used with --chunked).
+- This preserves backward compatibility and gives users explicit control over chunked vs. non-chunked extraction.
+
+## Code Review
+- Reviewed and confirmed the chunked raw response file saving logic in `pdf_gemini_pipeline.py` and its controller in `parse_disclosures.py`.
+- Filename uniqueness, parameter passing, and edge case handling were all correct and robust.
+
+## New Plan
+- Move to a PDF splitting approach for Gemini extraction, using a PDF library to split documents into logical sections (by page or range of pages) before sending to Gemini.
+- This approach will be more reliable and deterministic than the current LLM-based chunking.
+
+## Next Steps
+- Begin implementation of PDF splitting utility and adaptive controller logic.
+- Remove legacy LLM chunking code and update all references.
+- Test and iterate on the new pipeline. 

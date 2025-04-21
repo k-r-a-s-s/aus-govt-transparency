@@ -21,6 +21,8 @@ from google.genai import types
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 from tqdm import tqdm
 from pydantic import BaseModel, ValidationError
+import io
+import fitz  # PyMuPDF
 
 # Strongly typed output models
 class Disclosure(BaseModel):
@@ -164,6 +166,10 @@ class RateLimitError(Exception):
     """Exception raised when a rate limit is hit"""
     pass
 
+class PDFSplitError(Exception):
+    """Raised when PDF splitting fails."""
+    pass
+
 class GeminiPDFProcessor:
     """
     A class to interact with Google Gemini API for direct PDF processing and extracting structured data.
@@ -187,8 +193,9 @@ class GeminiPDFProcessor:
         # Configure the Gemini API
         self.client = genai.Client(api_key=self.api_key)
         
-        # Model name
-        self.model_name = 'gemini-2.0-flash'
+        # Model name (allow override via env)
+        self.model_name = os.environ.get('GEMINI_MODEL', 'gemini-2.0-flash')
+        logger.info(f"Using Gemini model: {self.model_name}")
         
         # Post-processing flag
         self.apply_post_processing = apply_post_processing
@@ -198,6 +205,13 @@ class GeminiPDFProcessor:
         
         # Initialize rate limiter (using default values for Gemini 2.0 Flash free tier)
         self.rate_limiter = RateLimiter(requests_per_minute=15, requests_per_day=1500)
+        
+        self.last_response = None
+        self.last_finish_reason = None
+        self.last_usage_metadata = None
+        
+        # Track current chunk range for adaptive split
+        self.current_chunk_range = None
         
     def is_rate_limit_error(self, error: Exception) -> bool:
         """
@@ -226,116 +240,108 @@ class GeminiPDFProcessor:
     def process_pdf(self, pdf_path: str, use_file_api: bool = False) -> Dict[str, Any]:
         """
         Process a PDF file directly with Gemini API and extract structured data.
-        
         Args:
             pdf_path: Path to the PDF file.
             use_file_api: Whether to use the File API for uploading. 
-                          If True, always uses File API. 
-                          If False, uses File API only for files > 20MB.
-            
         Returns:
             A dictionary containing the structured data extracted from the PDF.
         """
         logger.info(f"Processing PDF directly with Gemini API: {pdf_path}")
-        
-        # Check and wait for rate limits if needed
         self.rate_limiter.wait_if_needed()
-        
-        # Get file size
         file_size = os.path.getsize(pdf_path)
         file_size_mb = file_size / (1024 * 1024)
         logger.info(f"PDF file size: {file_size_mb:.2f} MB")
-        
-        # Extract filename for metadata
         filename = os.path.basename(pdf_path)
         name_parts = os.path.splitext(filename)[0].split('_')
         mp_id = name_parts[0] if len(name_parts) > 0 else "Unknown"
         parliament = name_parts[1].replace('p', '') if len(name_parts) > 1 else "Unknown"
-        
         try:
-            # Read file as bytes
             pdf_bytes = pathlib.Path(pdf_path).read_bytes()
             logger.debug(f"Successfully read PDF bytes, size: {len(pdf_bytes)} bytes")
-            
-            # For large PDFs, we might need to handle them differently
             if file_size_mb > 20:
                 logger.warning(f"PDF file is large ({file_size_mb:.2f} MB). This might exceed API limits.")
-            
-            # Create prompt for Gemini
             prompt = self._create_extraction_prompt(filename, mp_id, parliament)
-            logger.debug(f"Created prompt: {prompt[:500]}...")  # Log first 500 chars of prompt
-            
-            # --- NEW SDK: Upload file and use file object ---
+            logger.debug(f"Created prompt: {prompt[:500]}...")
             uploaded_file = self.client.files.upload(file=pdf_path)
             content = [
                 prompt,
                 uploaded_file
             ]
             logger.debug(f"Created content array with {len(content)} parts: prompt and uploaded PDF")
-            
-            # --- NEW SDK: Use config for structured output ---
-            # Add propertyOrdering to the schema dict
-            schema_dict = MPDisclosures.schema()
-            schema_dict['propertyOrdering'] = [
-                'full_name', 'electorate', 'disclosures'
-            ]
-            disclosure_schema = schema_dict['properties']['disclosures']['items']
-            disclosure_schema['propertyOrdering'] = [
-                'date', 'category', 'subcategory', 'interest_type', 'raw_description', 'raw_entity'
-            ]
-            logger.info("Making Gemini API call with response_schema via new SDK...")
             response = self.client.models.generate_content(
                 model=self.model_name,
                 contents=content,
                 config={
                     'response_mime_type': 'application/json',
-                    'response_schema': schema_dict,
-                    'temperature': 0.1,
+                    'temperature': 0.0,
                     'top_p': 0.8,
                     'top_k': 40,
                     'candidate_count': 1
                 }
             )
+            self.last_response = response
+            # Extract finish_reason and usage metadata
+            finish_reason = None
+            usage_metadata = None
+            if hasattr(response, 'candidates') and response.candidates:
+                finish_reason = getattr(response.candidates[0], 'finish_reason', None)
+                usage_metadata = getattr(response.candidates[0], 'usage_metadata', None)
+            self.last_finish_reason = finish_reason
+            self.last_usage_metadata = usage_metadata
+            logger.info(f"\n{'='*40}\nGemini API finish_reason: {finish_reason}\nGemini API usage_metadata: {usage_metadata}\n{'='*40}")
             logger.info(f"Gemini API response length: {len(response.text)} characters")
             logger.debug(f"Gemini API response (first 500 chars): {response.text[:500]}")
             logger.debug(f"Gemini API response (last 500 chars): {response.text[-500:]}")
             if len(response.text) < 1000:
                 logger.warning(f"Gemini API response is very short: {len(response.text)} characters. Possible truncation or error.")
-            
-            # Save raw response if enabled
             if self.save_raw_response:
-                raw_response_dir = os.path.join(os.path.dirname(pdf_path), "raw_responses")
+                # Use persistent output dir or env override
+                raw_response_dir = os.environ.get("RAW_RESPONSE_DIR", os.path.join("outputs", "raw_responses"))
                 os.makedirs(raw_response_dir, exist_ok=True)
-                raw_response_path = os.path.join(raw_response_dir, f"{os.path.splitext(filename)[0]}_response.txt")
-                
-                # Save the complete response
+                # If processing a chunk, include page range in filename
+                chunk_suffix = ""
+                if getattr(self, "current_chunk_range", None) is not None:
+                    chunk = self.current_chunk_range
+                    chunk_suffix = f"_pages_{chunk.start+1}-{chunk.stop}"
+                raw_response_path = os.path.join(
+                    raw_response_dir,
+                    f"{os.path.splitext(filename)[0]}{chunk_suffix}_response.txt"
+                )
                 with open(raw_response_path, "w", encoding="utf-8") as f:
                     f.write(response.text)
-                logger.info(f"Saved raw response to: {raw_response_path}")
-            
-            # Record successful request
+                logger.info(f"Saved raw response to: {os.path.abspath(raw_response_path)}")
             self.rate_limiter.record_request()
-            
-            # Use the parsed response directly
+            # --- BEGIN robust truncation/parse error handling ---
+            def is_likely_truncated(text: str) -> bool:
+                trimmed = text.rstrip()
+                return not (trimmed.endswith('}') or trimmed.endswith(']'))
+            data = None
             try:
-                # If you use a Pydantic model as the schema, response.parsed is a Pydantic model.
-                # If you use a dict (to set propertyOrdering), response.parsed is a plain dict.
-                # So, do NOT call .dict() here—just use the dict directly.
                 data = response.parsed
+                if data is None:
+                    logger.warning(f"Gemini response.parsed is None for {filename}. Trying raw JSON parse.")
+                    try:
+                        data = json.loads(response.text)
+                    except json.JSONDecodeError as je:
+                        logger.error(f"Failed to parse Gemini response as raw JSON: {je}")
+                        logger.error(f"Response ends with: {response.text[-500:]}")
+                        logger.warning(f"Gemini output for {filename} is likely truncated or invalid (parse error). Returning empty result.")
+                        return {}
             except (ValidationError, AttributeError) as e:
                 logger.error(f"Failed to parse Gemini response as MPDisclosures: {e}")
+                logger.error(f"Response ends with: {response.text[-500:]}")
+                logger.warning(f"Gemini output for {filename} is likely truncated or invalid (validation error). Returning empty result.")
                 return {}
-            
-            # Remove adding PDF reference to each disclosure
-            # Instead, add pdf_filename as a top-level field
+            # Check for truncation by output ending
+            if is_likely_truncated(response.text):
+                logger.warning(f"Gemini output for {filename} does not end with '}}' or ']'. Likely truncated. Returning empty result.")
+                logger.error(f"Response ends with: {response.text[-500:]}")
+                return {}
+            # --- END robust truncation/parse error handling ---
             data["pdf_filename"] = filename
-            
-            # Apply post-processing if enabled
             if self.apply_post_processing:
                 data = self.post_process_disclosures(data)
-            
             return data
-            
         except Exception as e:
             error_message = str(e)
             logger.error(f"Error processing PDF with Gemini API: {error_message}", exc_info=True)
@@ -343,16 +349,13 @@ class GeminiPDFProcessor:
             if 'response' in locals():
                 logger.error(f"Response (first 500 chars): {response.text[:500]}")
                 logger.error(f"Response (last 500 chars): {response.text[-500:]}")
-            
-            # Check if this is a rate limit error
             if self.is_rate_limit_error(e):
                 self.rate_limiter.record_rate_limit_error()
                 logger.warning("Rate limit exceeded. Retrying with exponential backoff...")
                 raise RateLimitError(f"Rate limit exceeded at {datetime.datetime.now().isoformat()}: {error_message}")
             else:
-                # For other errors, re-raise
                 raise
-    
+
     def post_process_disclosures(self, structured_data: Dict[str, Any]) -> Dict[str, Any]:
         """
         Post-process the structured data to:
@@ -576,4 +579,44 @@ class GeminiPDFProcessor:
         
         # Log final statistics
         logger.info(f"Batch processing complete. Total: {total_pdfs}, Success: {successful}, Failed: {failed}, Rate Limited: {rate_limited}")
-        return results 
+        return results
+
+def split_pdf_by_page_ranges(
+    pdf_path: str,
+    page_ranges: List[range]
+) -> List[bytes]:
+    """
+    Split a PDF into chunks by page ranges. Each chunk is returned as PDF bytes.
+    Args:
+        pdf_path: Path to the PDF file.
+        page_ranges: List of range objects, each specifying the pages for a chunk (0-indexed, end-exclusive).
+    Returns:
+        List of PDF byte objects, one per chunk.
+    Raises:
+        PDFSplitError: If splitting fails for any reason.
+    """
+    try:
+        doc = fitz.open(pdf_path)
+        chunks: List[bytes] = []
+        for page_range in page_ranges:
+            new_doc = fitz.open()
+            for page_num in page_range:
+                if 0 <= page_num < len(doc):
+                    new_doc.insert_pdf(doc, from_page=page_num, to_page=page_num)
+            buf = io.BytesIO()
+            new_doc.save(buf)
+            chunks.append(buf.getvalue())
+        return chunks
+    except Exception as e:
+        raise PDFSplitError(f"PDF splitting failed for {pdf_path} on page ranges {page_ranges}: {e}")
+
+def get_pdf_page_count(pdf_path: str) -> int:
+    """
+    Get the number of pages in a PDF.
+    Args:
+        pdf_path: Path to the PDF file.
+    Returns:
+        Number of pages in the PDF.
+    """
+    doc = fitz.open(pdf_path)
+    return len(doc) 
