@@ -260,3 +260,48 @@ _This checklist should be used to create a clean repo in line with the refactor 
 - If --chunked is set, PDFs are processed in chunked mode (recommended for large PDFs); otherwise, legacy non-chunked logic is used.
 - --chunk-size (default: 20) controls the number of disclosures per chunk (only used with --chunked).
 - This preserves backward compatibility and gives users explicit control over chunked vs. non-chunked extraction. 
+
+## 5. Entity Cleaning and Linking Pipeline (2025-04-24)
+
+### Overview
+- The entity section is being refactored to fully separate entity logic from the disclosures table, in line with the canonical schema.
+- The following steps will be implemented as part of the entity cleaning and linking pipeline:
+
+### Entities
+1. Link entities across tables (ensure each disclosure's `raw_entity` is linked to a canonical entity in the `entities` table via `entity_id`).
+2. Run vector-based entity matching (`vector_match.py`) with LLM supervision to merge similar entities to canonical names.
+3. Update and merge entity IDs to ensure consistency for database queries and analysis.
+
+### Disclosures
+1. Perform a final check for duplicate disclosures (e.g., same MP, date, entity, and description).
+2. Run final quality checks to ensure data integrity and completeness.
+
+### Next Steps
+- Implement and test each step above, updating the development diary and codebase as progress is made.
+- Ensure all changes are strongly typed, functional, and well-documented. 
+
+## Iterative LLM-Supervised Entity Grouping and Canonicalization (2025-04-24)
+
+### Workflow
+- After initial entity extraction, run iterative grouping using vector embeddings and community detection (e.g., Louvain algorithm).
+- For each detected community (group of similar entities):
+    - If the group has more than one member, send the list to Gemini LLM for supervision.
+    - The LLM is prompted to:
+        1. Select a single canonical entity name for the group.
+        2. Identify which entities should be merged (as the same entity).
+        3. Identify which entities should be rejected (do not belong in the group).
+- Rejected entities are returned to the pool for future iterations, allowing them to be grouped with other entities in subsequent passes.
+- Canonical entities (already merged groups) can also be returned to the pool if new merges are possible, supporting dynamic, evidence-driven grouping.
+
+### Canonical Name Change Handling
+- If a canonical entity is merged again and the LLM selects a new canonical name for the expanded group, a warning is logged (e.g., "WARNING: Canonical name for entity_id X changed from 'Old Name' to 'New Name' in iteration Y").
+- The merge and name change are allowed to proceed, but all changes are logged for auditability.
+
+### Iteration and Finalization
+- The process is repeated for a fixed number of iterations (e.g., 4).
+- Singletons (entities not grouped with others) are kept in the pool for up to 4 iterations, after which they are finalized as their own canonical entity.
+- After all iterations, a mapping of `{old_entity_id, new_entity_id, canonical_name, status}` is exported for migration to the main database.
+
+### Rationale
+- This approach allows for robust, evidence-driven merging of entities, supports correction of earlier grouping errors, and provides a clear audit trail for all canonicalization decisions.
+- See also: development_diary.rmd and README.md for implementation details and user instructions. 

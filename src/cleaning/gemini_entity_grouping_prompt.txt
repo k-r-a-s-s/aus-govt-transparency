@@ -1,0 +1,35 @@
+Please analyze the following list of potential Australian corporate entity names provided in the JSON structure below.
+
+Your task is to group only those names that refer to the **exact same legal entity** or are clear abbreviations, alternate spellings, or minor variants of the same entity.
+
+**Important rules:**
+- Do NOT merge clubs, associations, or teams that differ by location, city, or qualifier (e.g., "Melbourne Cricket Club" and "Melbourne Bowling Club" are different entities).
+- Do NOT merge sports clubs, surf life saving clubs, or football clubs from different locations, even if they share similar words.
+- Do NOT merge people (individuals) with organizations, or different people together.
+- Do NOT merge generic group names (e.g., "AFL club") with specific club names.
+- Only merge if the names are clear abbreviations, alternate spellings, or minor variants of the **same** entity (e.g., "CSR Ltd" and "CSR", "Woolworths" and "Woolworths Group").
+- For bar associations, only merge if all qualifiers (state, region) match.
+
+**Return ONLY a single JSON object for the entire input list, with the keys: 'canonical_name', 'merged_names', and 'rejected_names'. Do NOT return a list or array.**
+
+In your output JSON, include:
+- 'canonical_name': The single best canonical name for the group, chosen from the input list (do not invent a new name).
+- 'merged_names': List of all names from the input that should be merged into the canonical entity (including the canonical itself).
+- 'rejected_names': List of all names from the input that should NOT be merged with the canonical entity.
+
+Return ONLY the JSON object, with no other text before or after it.
+
+Example Input JSON:
+{
+  "entities_to_review": ["amp super fund", "amp growth fund", "ampol energy", "australian mutual provident society"]
+}
+
+Example Output JSON (Assuming primary parent is AMP):
+{
+  "canonical_name": "AMP",
+  "merged_names": ["AMP", "amp super fund", "amp growth fund"],
+  "rejected_names": ["ampol energy"]
+}
+
+Input JSON to analyze:
+{input_json} 

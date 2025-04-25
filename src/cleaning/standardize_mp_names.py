@@ -20,193 +20,128 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-def identify_mp_variations(db_path: str) -> Dict[str, List[str]]:
+def identify_mp_variations_in_mps(db_path: str) -> Dict[Tuple[str, str], List[str]]:
     """
-    Identify MPs with multiple name variations in the database.
-    
+    Identify MPs with multiple name variations in the mps table, grouped by electorate.
     Args:
         db_path: Path to the SQLite database
-        
     Returns:
-        Dictionary mapping standardized names to lists of variations
+        Dictionary mapping (electorate, standardized_name) to lists of variations
     """
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
-    
-    # Get all unique MP names
-    cursor.execute("SELECT DISTINCT mp_name FROM disclosures ORDER BY mp_name")
-    all_names = [row[0] for row in cursor.fetchall()]
-    
-    # Process names to identify variations
-    name_variations = {}
-    processed_names = set()
-    
-    for full_name in all_names:
-        if full_name in processed_names:
+    cursor.execute("SELECT full_name, electorate FROM mps WHERE electorate IS NOT NULL")
+    all_rows = cursor.fetchall()
+    name_variations: Dict[Tuple[str, str], List[str]] = {}
+    processed: Set[Tuple[str, str]] = set()
+    prefixes = ["van", "von", "de", "del", "della", "di", "da", "dos", "du", "le", "la", "st.", "saint"]
+    for full_name, electorate in all_rows:
+        if (electorate, full_name) in processed:
             continue
-        
-        # Skip if name is None or empty
-        if not full_name:
+        if not full_name or not electorate:
             continue
-            
-        # Split the name into parts
         name_parts = full_name.split()
-        
-        # Handle special cases or non-standard formats
         if len(name_parts) <= 1:
-            # Single word name or unusual format, keep as is
             standardized = full_name
-            name_variations[standardized] = [full_name]
-            processed_names.add(full_name)
-            continue
-            
-        # Extract first and last name
-        first_name = name_parts[0]
-        last_name = name_parts[-1]
-        
-        # Handle special cases with prefixes like "Van", "De", etc.
-        prefixes = ["van", "von", "de", "del", "della", "di", "da", "dos", "du", "le", "la", "st.", "saint"]
-        if len(name_parts) > 2 and name_parts[-2].lower() in prefixes:
-            last_name = f"{name_parts[-2]} {last_name}"
-            if len(name_parts) > 3 and name_parts[-3].lower() in prefixes:
-                last_name = f"{name_parts[-3]} {last_name}"
-        
-        # Create standardized name (first + last)
-        standardized = f"{first_name} {last_name}"
-        
-        # Find all variations of this name
+        else:
+            first_name = name_parts[0]
+            last_name = name_parts[-1]
+            if len(name_parts) > 2 and name_parts[-2].lower() in prefixes:
+                last_name = f"{name_parts[-2]} {last_name}"
+                if len(name_parts) > 3 and name_parts[-3].lower() in prefixes:
+                    last_name = f"{name_parts[-3]} {last_name}"
+            standardized = f"{first_name} {last_name}"
         variations = []
-        for name in all_names:
-            if not name:
+        for name2, elec2 in all_rows:
+            if elec2 != electorate or not name2:
                 continue
-                
-            name_parts_compare = name.split()
-            if len(name_parts_compare) <= 1:
+            name2_parts = name2.split()
+            if len(name2_parts) <= 1:
                 continue
-                
-            first_name_compare = name_parts_compare[0]
-            last_name_compare = name_parts_compare[-1]
-            
-            # Check for prefixes in last name
-            if len(name_parts_compare) > 2 and name_parts_compare[-2].lower() in prefixes:
-                last_name_compare = f"{name_parts_compare[-2]} {last_name_compare}"
-                if len(name_parts_compare) > 3 and name_parts_compare[-3].lower() in prefixes:
-                    last_name_compare = f"{name_parts_compare[-3]} {last_name_compare}"
-            
-            # Check if this is a variation of the current name
-            if first_name_compare == first_name and last_name_compare == last_name:
-                variations.append(name)
-                processed_names.add(name)
-        
+            first2 = name2_parts[0]
+            last2 = name2_parts[-1]
+            if len(name2_parts) > 2 and name2_parts[-2].lower() in prefixes:
+                last2 = f"{name2_parts[-2]} {last2}"
+                if len(name2_parts) > 3 and name2_parts[-3].lower() in prefixes:
+                    last2 = f"{name2_parts[-3]} {last2}"
+            if first2 == standardized.split()[0] and last2 == standardized.split()[-1]:
+                variations.append(name2)
+                processed.add((electorate, name2))
         if variations:
-            name_variations[standardized] = variations
-    
+            name_variations[(electorate, standardized)] = variations
     conn.close()
     return name_variations
 
-def update_mp_names(db_path: str, name_variations: Dict[str, List[str]], dry_run: bool = False) -> Dict[str, int]:
+
+def update_mp_names_in_mps(db_path: str, name_variations: Dict[Tuple[str, str], List[str]], dry_run: bool = False) -> Dict[str, int]:
     """
-    Update MP names in the database to the standardized format.
-    
+    Update MP names in the mps table to the standardized format, grouped by electorate.
     Args:
         db_path: Path to the SQLite database
-        name_variations: Dictionary mapping standardized names to lists of variations
+        name_variations: Dictionary mapping (electorate, standardized_name) to lists of variations
         dry_run: If True, only print changes without applying them
-        
     Returns:
         Dictionary with statistics about the updates
     """
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
-    
     stats = {
         "total_variations": 0,
         "mps_with_variations": 0,
         "records_updated": 0
     }
-    
-    # Start a transaction
     if not dry_run:
         cursor.execute("BEGIN TRANSACTION")
-    
-    logger.info(f"{'Simulating' if dry_run else 'Performing'} MP name standardization")
-    
-    # Process each MP name standardization
-    for standardized, variations in name_variations.items():
+    logger.info(f"{'Simulating' if dry_run else 'Performing'} MP name standardization in mps table")
+    for (electorate, standardized), variations in name_variations.items():
         if len(variations) <= 1:
-            continue  # No variations to standardize
-            
+            continue
         stats["mps_with_variations"] += 1
         stats["total_variations"] += len(variations) - 1
-        
-        logger.info(f"Standardizing {len(variations)} variations to '{standardized}':")
+        # Choose the shortest name as canonical
+        canonical = min(variations, key=lambda n: len(n))
+        logger.info(f"Standardizing {len(variations)} variations in '{electorate}' to '{canonical}':")
         for variation in variations:
-            if variation != standardized:
-                logger.info(f"  - '{variation}' → '{standardized}'")
-                
-                # Count affected records
-                cursor.execute("SELECT COUNT(*) FROM disclosures WHERE mp_name = ?", (variation,))
+            if variation != canonical:
+                logger.info(f"  - '{variation}' → '{canonical}' (electorate: {electorate})")
+                cursor.execute("SELECT COUNT(*) FROM mps WHERE full_name = ? AND electorate = ?", (variation, electorate))
                 record_count = cursor.fetchone()[0]
                 stats["records_updated"] += record_count
-                
-                # Update records if not a dry run
                 if not dry_run:
-                    cursor.execute("UPDATE disclosures SET mp_name = ? WHERE mp_name = ?", 
-                                  (standardized, variation))
-                    
-                    # Also update relationships table if it exists
-                    cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='relationships'")
-                    if cursor.fetchone():
-                        cursor.execute("UPDATE relationships SET mp_name = ? WHERE mp_name = ?", 
-                                      (standardized, variation))
-    
-    # Commit the transaction if not a dry run
+                    cursor.execute("UPDATE mps SET full_name = ? WHERE full_name = ? AND electorate = ?", (canonical, variation, electorate))
     if not dry_run:
         conn.commit()
         logger.info(f"Successfully updated {stats['records_updated']} records")
     else:
         logger.info(f"Dry run: would update {stats['records_updated']} records")
-    
     conn.close()
     return stats
 
-def report_stats(stats: Dict[str, int], name_variations: Dict[str, List[str]]) -> None:
-    """Print a summary report of the standardization process."""
-    logger.info("\nStandardization Summary:")
+
+def report_stats_in_mps(stats: Dict[str, int], name_variations: Dict[Tuple[str, str], List[str]]) -> None:
+    logger.info("\nStandardization Summary (mps table):")
     logger.info(f"Total MPs with name variations: {stats['mps_with_variations']}")
     logger.info(f"Total name variations standardized: {stats['total_variations']}")
     logger.info(f"Total records updated: {stats['records_updated']}")
-    
-    # Report MPs with the most variations
-    mp_variation_counts = {name: len(vars) for name, vars in name_variations.items() if len(vars) > 1}
+    mp_variation_counts = {k: len(v) for k, v in name_variations.items() if len(v) > 1}
     if mp_variation_counts:
         max_variations = max(mp_variation_counts.values())
-        most_variations = [name for name, count in mp_variation_counts.items() if count == max_variations]
-        
+        most_variations = [k for k, count in mp_variation_counts.items() if count == max_variations]
         logger.info(f"\nMPs with the most name variations ({max_variations}):")
-        for name in most_variations:
-            variations = name_variations[name]
-            logger.info(f"  - {name}: {', '.join(variations)}")
+        for (electorate, name) in most_variations:
+            variations = name_variations[(electorate, name)]
+            logger.info(f"  - {name} ({electorate}): {', '.join(variations)}")
+
 
 def main():
-    """Main function to parse arguments and run the standardization."""
-    parser = argparse.ArgumentParser(description="Standardize MP names by removing middle names")
+    parser = argparse.ArgumentParser(description="Standardize MP names by removing middle names, grouped by electorate (mps table only)")
     parser.add_argument("--db-path", default="disclosures.db", help="Path to the SQLite database file")
     parser.add_argument("--dry-run", action="store_true", help="Print changes without applying them")
-    
     args = parser.parse_args()
-    
-    logger.info(f"Analyzing MP names in database: {args.db_path}")
-    
-    # Identify name variations
-    name_variations = identify_mp_variations(args.db_path)
-    
-    # Update names in the database
-    stats = update_mp_names(args.db_path, name_variations, args.dry_run)
-    
-    # Generate report
-    report_stats(stats, name_variations)
-    
+    logger.info(f"Analyzing MP names in mps table: {args.db_path}")
+    name_variations = identify_mp_variations_in_mps(args.db_path)
+    stats = update_mp_names_in_mps(args.db_path, name_variations, args.dry_run)
+    report_stats_in_mps(stats, name_variations)
     logger.info("Done!")
 
 if __name__ == "__main__":

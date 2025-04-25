@@ -217,50 +217,42 @@ class DatabaseHandler:
         finally:
             conn.close()
     
-    def _find_or_create_entity(self, cursor, mp_name, entity_type, canonical_name, first_appearance_date=None):
+    def _find_or_create_entity(self, cursor, mp_id, category, entity, first_appearance_date=None):
         """
         Find an existing entity or create a new one.
-        
         Args:
             cursor: Database cursor
-            mp_name: Name of the MP
-            entity_type: Type of entity (e.g., 'Shares', 'Trust', etc.)
-            canonical_name: Canonical name of the entity
-            first_appearance_date: First date this entity appeared in a disclosure
-            
+            mp_id: ID of the MP (unused, kept for signature compatibility)
+            category: Category of the entity (unused for matching)
+            entity: Entity name
+            first_appearance_date: First date this entity appeared in a disclosure (unused)
         Returns:
             Entity ID
         """
-        if not canonical_name or canonical_name == "Unknown":
+        if not entity or entity == "Unknown":
             return None
-        
         # Normalize the entity name for matching
-        normalized_name = self._normalize_entity_name(canonical_name)
-        
-        # Look for existing entity
+        normalized_name = self._normalize_entity_name(entity)
+        # Look for existing entity by canonical_name
         cursor.execute(
-            "SELECT id FROM entities WHERE normalized_name = ? AND entity_type = ? AND mp_id = ?",
-            (normalized_name, entity_type, mp_name)
+            "SELECT entity_id FROM entities WHERE canonical_name = ?",
+            (normalized_name,)
         )
-        
         result = cursor.fetchone()
-        
         if result:
             # Found existing entity
             return result[0]
         else:
             # Create new entity
             entity_id = str(uuid.uuid4())
-            
             cursor.execute(
                 """
                 INSERT INTO entities 
-                (id, entity_type, canonical_name, normalized_name, mp_id) 
+                (entity_id, canonical_name, iteration, status, notes) 
                 VALUES (?, ?, ?, ?, ?)
                 """,
-                (entity_id, entity_type, canonical_name, normalized_name, mp_name)
+                (entity_id, normalized_name, 1, 'pending_review', None)
             )
-            
             return entity_id
     
     def _normalize_entity_name(self, entity_name: str) -> str:
@@ -495,7 +487,7 @@ class DatabaseHandler:
         
         try:
             # Get entity information
-            cursor.execute("SELECT * FROM entities WHERE id = ?", (entity_id,))
+            cursor.execute("SELECT * FROM entities WHERE entity_id = ?", (entity_id,))
             entity_row = cursor.fetchone()
             
             if not entity_row:
@@ -509,7 +501,7 @@ class DatabaseHandler:
                 """
                 SELECT * FROM disclosures 
                 WHERE entity_id = ? 
-                ORDER BY declaration_date
+                ORDER BY date
                 """, 
                 (entity_id,)
             )
@@ -547,7 +539,7 @@ class DatabaseHandler:
             cursor.execute(
                 """
                 SELECT * FROM entities 
-                WHERE mp_id = ? 
+                WHERE mp_name = ? 
                 ORDER BY entity_type, canonical_name
                 """, 
                 (mp_name,)
@@ -584,8 +576,8 @@ class DatabaseHandler:
                 "error": "Entity or timeline not found"
             }
         
-        # Sort timeline by declaration date
-        timeline = sorted(timeline, key=lambda x: x["declaration_date"])
+        # Sort timeline by date
+        timeline = sorted(timeline, key=lambda x: x["date"])
         
         # Analyze changes
         changes = []
@@ -597,7 +589,7 @@ class DatabaseHandler:
             if prev["details"] != curr["details"]:
                 changes.append({
                     "type": "details_change",
-                    "date": curr["declaration_date"],
+                    "date": curr["date"],
                     "from": prev["details"],
                     "to": curr["details"]
                 })
@@ -606,7 +598,7 @@ class DatabaseHandler:
             if prev["category"] != curr["category"]:
                 changes.append({
                     "type": "category_change",
-                    "date": curr["declaration_date"],
+                    "date": curr["date"],
                     "from": prev["category"],
                     "to": curr["category"]
                 })
@@ -615,15 +607,15 @@ class DatabaseHandler:
             if prev.get("sub_category") != curr.get("sub_category"):
                 changes.append({
                     "type": "sub_category_change",
-                    "date": curr["declaration_date"],
+                    "date": curr["date"],
                     "from": prev.get("sub_category"),
                     "to": curr.get("sub_category")
                 })
         
         return {
             "entity": entity,
-            "first_appearance": timeline[0]["declaration_date"] if timeline else None,
-            "last_appearance": timeline[-1]["declaration_date"] if timeline else None,
+            "first_appearance": timeline[0]["date"] if timeline else None,
+            "last_appearance": timeline[-1]["date"] if timeline else None,
             "num_appearances": len(timeline),
             "changes": changes
         }
@@ -779,7 +771,7 @@ class DatabaseHandler:
             # Get all disclosures without entity_id
             cursor.execute(
                 """
-                SELECT id, mp_name, category, entity, item, declaration_date
+                SELECT disclosure_id, mp_id, category, raw_entity, date
                 FROM disclosures
                 WHERE entity_id IS NULL
                 """
@@ -788,25 +780,24 @@ class DatabaseHandler:
             unlinked_disclosures = cursor.fetchall()
             logger.info(f"Found {len(unlinked_disclosures)} unlinked disclosures")
             
+            # Check if 'entity' column exists
+            cursor.execute("PRAGMA table_info(disclosures)")
+            columns = [row[1] for row in cursor.fetchall()]
+            has_entity_col = 'entity' in columns
+            
             # Link each disclosure to an entity
             linked_count = 0
             for disclosure in unlinked_disclosures:
-                disclosure_id, mp_name, category, entity, item, declaration_date = disclosure
-                
-                # If entity is empty but item has a value, use item
-                if not entity or entity.lower() in ['n/a', 'unknown', 'nil', '']:
-                    entity = item
-                
-                # Skip if entity is still N/A or Unknown
+                disclosure_id, mp_id, category, raw_entity, date = disclosure
+                entity = raw_entity
+                # Skip if entity is empty or nil-like
                 if not entity or entity.lower() in ['n/a', 'unknown', 'nil', '']:
                     continue
-                
                 # Ensure category is valid
                 original_category = category
                 if category not in Categories.ALL:
                     # Try to determine the most appropriate category
                     matched = False
-                    
                     # Special case mapping for common legacy categories
                     special_mapping = {
                         "Liabilities": Categories.LIABILITY,
@@ -815,7 +806,6 @@ class DatabaseHandler:
                         "Directorships": Categories.MEMBERSHIP,
                         "Other Interests": Categories.UNKNOWN
                     }
-                    
                     if category in special_mapping:
                         category = special_mapping[category]
                         matched = True
@@ -827,30 +817,37 @@ class DatabaseHandler:
                                     category = cat_value
                                     matched = True
                                     break
-                    
                     if not matched:
                         logger.warning(f"Could not match '{category}' to standard category. Using 'Unknown'.")
                         category = Categories.UNKNOWN
-                
                 # Find or create entity
                 entity_id = self._find_or_create_entity(
                     cursor, 
-                    mp_name, 
+                    mp_id, 
                     category, 
                     entity, 
-                    declaration_date
+                    date
                 )
-                
-                # Update disclosure with entity_id
+                # Update disclosure with entity_id and set 'entity' column if it exists
                 if entity_id:
-                    cursor.execute(
-                        """
-                        UPDATE disclosures
-                        SET entity_id = ?
-                        WHERE id = ?
-                        """,
-                        (entity_id, disclosure_id)
-                    )
+                    if has_entity_col:
+                        cursor.execute(
+                            """
+                            UPDATE disclosures
+                            SET entity_id = ?, entity = ?
+                            WHERE disclosure_id = ?
+                            """,
+                            (entity_id, entity, disclosure_id)
+                        )
+                    else:
+                        cursor.execute(
+                            """
+                            UPDATE disclosures
+                            SET entity_id = ?
+                            WHERE disclosure_id = ?
+                            """,
+                            (entity_id, disclosure_id)
+                        )
                     linked_count += 1
             
             logger.info(f"Linked {linked_count} disclosures to entities")
@@ -858,7 +855,7 @@ class DatabaseHandler:
             # Update categories for all disclosures to ensure standardization
             cursor.execute(
                 """
-                SELECT id, category, sub_category, details
+                SELECT disclosure_id, category, sub_category, details
                 FROM disclosures
                 """
             )
@@ -868,13 +865,11 @@ class DatabaseHandler:
             
             for disclosure in all_disclosures:
                 disclosure_id, category, sub_category, details = disclosure
-                
                 # Ensure category is valid
                 original_category = category
                 if category not in Categories.ALL:
                     # Try to determine the most appropriate category
                     matched = False
-                    
                     # Special case mapping for common legacy categories
                     special_mapping = {
                         "Liabilities": Categories.LIABILITY,
@@ -883,7 +878,6 @@ class DatabaseHandler:
                         "Directorships": Categories.MEMBERSHIP,
                         "Other Interests": Categories.UNKNOWN
                     }
-                    
                     if category in special_mapping:
                         category = special_mapping[category]
                         matched = True
@@ -895,16 +889,13 @@ class DatabaseHandler:
                                     category = cat_value
                                     matched = True
                                     break
-                    
                     if not matched:
                         logger.warning(f"Could not match '{category}' to standard category. Using 'Unknown'.")
                         category = Categories.UNKNOWN
-                
                 # Ensure subcategory is appropriate
                 if not sub_category or (category in Categories.ALL and sub_category not in Subcategories.MAPPING.get(category, [])):
                     # Check if details help determine subcategory
                     details_text = details.lower() if details else ""
-                    
                     if category == Categories.ASSET:
                         if "shares" in details_text or "stock" in details_text:
                             sub_category = Subcategories.ASSET_SHARES
@@ -949,14 +940,12 @@ class DatabaseHandler:
                             sub_category = Subcategories.TRAVEL_OTHER
                     else:
                         sub_category = "Other"
-                
                 # Set temporal type based on category
                 temporal_type = None
-                cursor.execute("SELECT temporal_type FROM disclosures WHERE id = ?", (disclosure_id,))
+                cursor.execute("SELECT temporal_type FROM disclosures WHERE disclosure_id = ?", (disclosure_id,))
                 result = cursor.fetchone()
                 if result and result[0]:
                     temporal_type = result[0]
-                
                 if not temporal_type:
                     if category == Categories.ASSET:
                         temporal_type = TemporalTypes.ONGOING
@@ -971,14 +960,13 @@ class DatabaseHandler:
                         temporal_type = TemporalTypes.RECURRING
                     else:  # Gift, Travel, or Unknown
                         temporal_type = TemporalTypes.ONE_TIME
-                
                 # Update the disclosure with corrected category, subcategory, and temporal_type
                 if category != original_category or sub_category != disclosure[2] or not temporal_type:
                     cursor.execute(
                         """
                         UPDATE disclosures
                         SET category = ?, sub_category = ?, temporal_type = ?
-                        WHERE id = ?
+                        WHERE disclosure_id = ?
                         """,
                         (category, sub_category, temporal_type, disclosure_id)
                     )
@@ -1017,7 +1005,7 @@ class DatabaseHandler:
                     category, 
                     sub_category, 
                     temporal_type, 
-                    strftime('%Y', declaration_date) as year,
+                    strftime('%Y', date) as year,
                     COUNT(*) as count
                 FROM disclosures
                 WHERE category IS NOT NULL
@@ -1090,7 +1078,7 @@ class DatabaseHandler:
                 SELECT
                     category,
                     entity_id,
-                    COUNT(DISTINCT strftime('%Y', declaration_date)) as years_present
+                    COUNT(DISTINCT strftime('%Y', date)) as years_present
                 FROM disclosures
                 WHERE entity_id IS NOT NULL
             """
@@ -1123,7 +1111,7 @@ class DatabaseHandler:
                     """
                     SELECT canonical_name, entity_type
                     FROM entities
-                    WHERE id = ?
+                    WHERE entity_id = ?
                     """,
                     (entity_id,)
                 )
@@ -1221,5 +1209,42 @@ class DatabaseHandler:
             conn.rollback()
             return False
             
+        finally:
+            conn.close()
+    
+    def update_mps_party(self, full_name: str, party: str, electorate: Optional[str] = None) -> bool:
+        """
+        Update the party affiliation of an MP in the mps table.
+        Args:
+            full_name: The full standardized name of the MP
+            party: The party affiliation to set
+            electorate: Optionally restrict to a specific electorate
+        Returns:
+            True if any records were updated, False otherwise
+        """
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        try:
+            if electorate:
+                cursor.execute(
+                    "UPDATE mps SET party = ? WHERE full_name = ? AND electorate = ?",
+                    (party, full_name, electorate)
+                )
+            else:
+                cursor.execute(
+                    "UPDATE mps SET party = ? WHERE full_name = ?",
+                    (party, full_name)
+                )
+            rows_updated = cursor.rowcount
+            conn.commit()
+            if rows_updated > 0:
+                logger.info(f"Updated party for '{full_name}' (electorate: {electorate}) to '{party}' ({rows_updated} records)")
+            else:
+                logger.warning(f"No records found for MP '{full_name}' (electorate: {electorate})")
+            return rows_updated > 0
+        except Exception as e:
+            logger.error(f"Error updating party for MP '{full_name}' (electorate: {electorate}): {e}")
+            conn.rollback()
+            return False
         finally:
             conn.close() 

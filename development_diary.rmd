@@ -56,6 +56,32 @@ CREATE INDEX idx_disclosures_type ON disclosures(interest_type);
 
 ---
 
+## Entity Canonicalization Plan (June 2025)
+
+**New Plan:**
+- The entity grouping/canonicalization process will use a single table in a separate database (`entity_grouping.db`).
+- This table will have one row per entity UUID, recording the original name and the canonical name assigned after grouping.
+- UUIDs are never changed or merged during grouping; only the `canonical_name` is updated.
+- All detailed merge/grouping logs will be kept in JSON files if needed for auditability.
+- After grouping, the canonical names can be joined back to the main database to update the `entities` table.
+- Final deduplication (merging entities with the same canonical name into a single UUID) can be performed as a separate, explicit step if desired.
+
+**Schema for `entity_grouping.db`:**
+```sql
+CREATE TABLE IF NOT EXISTS entity_canonicalization (
+    entity_id TEXT PRIMARY KEY,         -- The original UUID from the main entities table
+    original_name TEXT NOT NULL,        -- The original canonical_name before grouping
+    canonical_name TEXT NOT NULL,       -- The canonical name assigned after grouping
+    status TEXT,                        -- e.g., 'finalized', 'singleton', 'merged'
+    iteration_finalized INTEGER,        -- Which iteration this entity was finalized in
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+```
+
+**All previous plans or notes about multi-table grouping DB schemas, tracking merges via UUID changes, or complex merge logs in the DB are now obsolete and should be disregarded.**
+
+---
+
 ## Context and Delta Analysis
 
 See `project_overview.rmd` for a full summary of the current state, file inventory, pipeline stages, and delta analysis.
@@ -456,4 +482,184 @@ The chunked raw response file saving logic in `pdf_gemini_pipeline.py` and its c
 ## Next Steps
 - Begin implementation of PDF splitting utility and adaptive controller logic.
 - Remove legacy LLM chunking code and update all references.
-- Test and iterate on the new pipeline. 
+- Test and iterate on the new pipeline.
+
+# [2025-04-23] Refactor: Standardize MP Names
+
+- Refactored the `standardize_mp_names.py` script to use the new `response_schema` and `response_mime_type` configuration for guaranteed structured JSON output.
+- Motivation: Prompt-based JSON enforcement was brittle and sometimes resulted in markdown or truncated output. Using a schema ensures valid, parseable JSON every time, with no markdown or stray text.
+- Code changes:
+    - Defined Pydantic models for the expected output structure (MPDisclosures and Disclosure).
+    - Updated Gemini API calls to pass `response_schema` and `response_mime_type='application/json'`.
+    - Removed all prompt-based JSON enforcement and related parsing hacks.
+    - Downstream code now directly consumes the parsed JSON object.
+- Impact: Parsing is now robust, output is always valid JSON, and the pipeline is easier to maintain and extend.
+
+# [2025-04-23] CLI Update: Dry Run Flag
+
+- Added `--dry-run` CLI flag to src/cleaning/standardize_mp_names.py.
+- If `--dry-run` is set, the script will log all the changes that would be made without actually modifying the database.
+- This allows users to preview changes before applying them.
+
+# [2025-04-23] CLI Update: DB Path Argument
+
+- Added `--db-path` CLI argument to src/cleaning/standardize_mp_names.py.
+- If `--db-path` is provided, the script will standardize MP names in the specified database, grouped by electorate, and apply the changes.
+- This allows users to specify a different database than the default `disclosures.db`.
+
+# [2025-04-23] CLI Update: Summary Flag
+
+- Added `--summary` CLI flag to src/cleaning/standardize_mp_names.py.
+- If `--summary` is set, the script will print a summary of the changes made to the database.
+- This allows users to see the results of the standardization process.
+
+# [2025-04-23] CLI Update: Verbose Flag
+
+- Added `--verbose` CLI flag to src/cleaning/standardize_mp_names.py.
+- If `--verbose` is set, the script will print more detailed information about the standardization process.
+- This allows users to see the progress and details of the standardization process.
+
+# [2025-04-23] CLI Update: Dry Run and DB Path Arguments
+
+- Added `--dry-run` and `--db-path` CLI arguments to src/cleaning/standardize_mp_names.py.
+- If `--dry-run` is set, the script will log all the changes that would be made without actually modifying the database.
+- If `--db-path` is provided, the script will standardize MP names in the specified database, grouped by electorate, and apply the changes.
+- This allows users to preview changes before applying them and to specify a different database than the default `disclosures.db`.
+
+# [2025-04-23] CLI Update: Summary and Verbose Flags
+
+- Added `--summary` and `--verbose` CLI flags to src/cleaning/standardize_mp_names.py.
+- If `--summary` is set, the script will print a summary of the changes made to the database.
+- If `--verbose` is set, the script will print more detailed information about the standardization process.
+- This allows users to see the results and progress of the standardization process.
+
+# [2025-04-23] CLI Update: Dry Run, DB Path, and Summary Flags
+
+- Added `--dry-run`, `--db-path`, and `--summary` CLI arguments to src/cleaning/standardize_mp_names.py.
+- If `--dry-run` is set, the script will log all the changes that would be made without actually modifying the database.
+- If `--db-path` is provided, the script will standardize MP names in the specified database, grouped by electorate, and apply the changes.
+- If `--summary` is set, the script will print a summary of the changes made to the database.
+- This allows users to preview changes before applying them, to specify a different database than the default `disclosures.db`, and to see the results of the standardization process.
+
+# [2025-04-23] CLI Update: Dry Run, DB Path, Summary, and Verbose Flags
+
+- Added `--dry-run`, `--db-path`, `--summary`, and `--verbose` CLI arguments to src/cleaning/standardize_mp_names.py.
+- If `--dry-run` is set, the script will log all the changes that would be made without actually modifying the database.
+- If `--db-path` is provided, the script will standardize MP names in the specified database, grouped by electorate, and apply the changes.
+- If `--summary` is set, the script will print a summary of the changes made to the database.
+- If `--verbose` is set, the script will print more detailed information about the standardization process.
+- This allows users to preview changes before applying them, to specify a different database than the default `disclosures.db`, to see the results of the standardization process, and to see the progress and details of the standardization process.
+
+# [2025-04-24] Plan: Entity Cleaning and Linking Pipeline Refactor
+
+- The entity section is being refactored to fully separate entity logic from the disclosures table, in line with the canonical schema and modular pipeline goals.
+- The following steps are planned and will be implemented as part of the entity cleaning and linking pipeline:
+
+    ### Entities
+    1. Link entities across tables (ensure each disclosure's `raw_entity` is linked to a canonical entity in the `entities` table via `entity_id`).
+    2. Run vector-based entity matching (`vector_match.py`) with LLM supervision to merge similar entities to canonical names.
+    3. Update and merge entity IDs to ensure consistency for database queries and analysis.
+
+    ### Disclosures
+    1. Perform a final check for duplicate disclosures (e.g., same MP, date, entity, and description).
+    2. Run final quality checks to ensure data integrity and completeness.
+
+- All changes will be implemented in a strongly typed, functional, and well-documented manner.
+- Progress and implementation details will be tracked in this development diary and the refactor plan.
+
+# [2025-06-XX] Completed: Simple Disclosure-to-Entity Linker Script
+
+- Implemented and tested a CLI script (`src/cleaning/link_disclosures_to_entities.py`) that:
+    - Scans all unique, non-nil `raw_entity` values in the `disclosures` table.
+    - Ensures each is present in the `entities` table (inserting if missing).
+    - Updates all disclosures to point to the correct `entity_id` in `entities`.
+    - Prints a summary of entities linked, new entities inserted, and disclosures updated.
+- The script is idempotent, uses only the canonical schema, and is safe to run multiple times.
+- This completes the first pass of entity linkage, establishing a 1:1 mapping from raw_entity to canonical_name.
+
+## Next Steps
+- Begin entity deduplication and merging:
+    - Implement vector-based entity grouping (see `vector_match.py` in `/src/cleaning/`).
+    - Use LLM or embedding-based similarity to merge similar canonical_names into a single canonical entity.
+    - Update all linked disclosures to point to the merged entity_id.
+    - Add logging and tests for the merging process.
+- Document the deduplication/merging process and update the pipeline documentation accordingly.
+
+## [2025-04-24] Iterative LLM-Supervised Entity Grouping and Canonicalization
+
+### Overview
+- Implements an iterative, LLM-supervised process for grouping, merging, and canonicalizing entities in the `entities` table.
+- Uses vector embeddings and community detection to propose groups of similar entities.
+- For each group, the LLM (Gemini) is prompted to:
+    1. Select a single canonical entity name for the group.
+    2. Identify which entities should be merged (as the same entity).
+    3. Identify which entities should be rejected (do not belong in the group).
+- **After each iteration, all merged entities (including canonical entities) have their names updated to the new canonical name chosen by the LLM for their group.**
+- **Canonical entities (already merged groups) are returned to the pool for future iterations, so they can be merged with new or previously rejected entities.**
+- Rejected entities are returned to the pool for future iterations, allowing them to be grouped with other entities in subsequent passes.
+- This process ensures dynamic, evidence-driven grouping and robust traceability.
+
+### Canonical Name Change Handling
+- If a canonical entity is merged again and the LLM selects a new canonical name for the expanded group, **all merged entities (including the previous canonical entity) are updated to the new canonical name**.
+- **A warning is logged if a previously designated canonical entity's name changes in a subsequent iteration, but the change is allowed and fully auditable.**
+- The merge and name change are allowed to proceed, but all changes are logged for auditability.
+- This approach ensures flexibility and traceability, while minimizing the risk of losing group context.
+
+### Iteration and Finalization
+- The process is repeated for a fixed number of iterations (e.g., 4).
+- Singletons (entities not grouped with others) are kept in the pool for up to 4 iterations, after which they are finalized as their own canonical entity.
+- After all iterations, a mapping of `{old_entity_id, new_entity_id, canonical_name, status}` is exported for migration to the main database.
+
+### Rationale
+- This approach allows for robust, evidence-driven merging of entities, supports correction of earlier grouping errors, and provides a clear audit trail for all canonicalization decisions.
+- See also: refactor_plan.rmd and README.md for workflow summary and user instructions.
+
+# [2025-06-XX] Implementation: Iterative Pool Management and Singleton Finalization Scaffolding
+
+- Implemented the iterative loop and pool management scaffolding in `src/cleaning/vector_match.py` as part of the LLM-supervised entity grouping pipeline refactor.
+- The script now:
+    - Iterates up to 4 times (or until the pool is empty).
+    - Tracks and finalizes singletons after 4 iterations.
+    - Prints the pool and community assignments per iteration.
+- This sets up the foundation for the next step: integrating LLM review and merging logic for multi-member communities, as described in the project plan and documentation.
+- All changes are modular, strongly typed, and functional, in line with project standards.
+- Next: Implement LLM review and merging logic for each community, update pool and persistence, and handle canonical name changes and merge logs.
+
+# [2025-06-XX] Integration: Robust LLM Review and Debug Logging in Entity Grouping Pipeline
+
+- Integrated the new robust LLM review (using response_schema and enforced JSON output) into the main iterative loop of `src/cleaning/vector_match.py`.
+- For each multi-member community:
+    - The LLM is called with a schema-enforced prompt, guaranteeing structured JSON output (`canonical_name` and `review_results`).
+    - The canonical name from the LLM is used for all merged entities in the group.
+    - Canonical name changes are tracked and logged with debug statements for auditability.
+    - Debug print/log statements are added at each key step (LLM call, pool update, canonical name change, etc.) to aid in development and troubleshooting.
+    - Structures for persistence (communities, members, merge log) are prepared for each iteration, ready for later DB writing.
+- This brings the entity grouping pipeline in line with the robust, strongly typed, and auditable architecture used in the PDF extraction pipeline.
+- Next: Implement actual persistence to the database and export logic after all iterations.
+
+# [2025-04-25] Review: Iterative Entity Grouping Implementation — Skepticism and Requirements
+
+## Current State
+- The current implementation of the iterative entity grouping and canonicalization pipeline (as of April 2025) uses a JSON-based approach to log each iteration's pool, communities, and LLM reviews.
+- While this is useful for debugging and transparency, it does **not robustly track the mapping from original entity UUIDs to their final canonical UUID and name**.
+- The current pool structure loses the connection to original UUIDs after merges, and does not guarantee that all merges and canonicalizations are fully auditable or reproducible.
+- There is no explicit mapping or log that allows for direct updating of the main database to ensure all merged entities are treated as one canonical entity.
+
+## Skepticism
+- **Skepticism is warranted** regarding the robustness and production-readiness of the current approach:
+    - The JSON logs are not transactional or relational, and may be prone to errors or inconsistencies if the process is interrupted or rerun.
+    - The lack of a UUID-to-canonical mapping means the results cannot be safely or automatically migrated to the main database.
+    - The merge log is insufficient for full auditability or for downstream analysis that requires tracing every original entity to its canonical group.
+
+## Requirements for a Production-Ready Solution
+- **Track all original entity UUIDs through all merges and iterations.**
+- **Build and export a mapping from every original UUID to its final canonical UUID and canonical name.**
+- **Log all merges, canonicalizations, and name changes for full auditability.**
+- **Ensure the final output (mapping and log) can be used to update the main database so that all merged entities are treated as one canonical entity.**
+- **Persist the mapping and log in the database, not just as JSON, for transactional integrity and downstream queries.**
+- **Retain the ability to trace any disclosure or entity in the database back to its original and canonical form.**
+
+## Recommendation
+- The current JSON-based approach is valuable for development and debugging, but is **not sufficient for robust, auditable, or production-grade entity canonicalization and migration**.
+- **A refactor is required** to guarantee the above requirements are met before using the results for database migration or downstream analysis.
+- The next agent or developer should prioritize implementing a UUID-traceable, auditable, and database-backed solution for entity grouping and canonicalization.

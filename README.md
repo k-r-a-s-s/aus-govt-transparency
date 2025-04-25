@@ -34,12 +34,36 @@ This repository contains a modular, maintainable pipeline for processing, standa
     - Extract text and entities from PDFs using Gemini or OCR
     - Parse and structure disclosure data
 3. **Cleaning** (`/src/cleaning`)
-    - Standardize MP names, electorates, and categories
-    - Recategorize unknowns (regex + LLM)
-    - Deduplicate and merge entities
-    - Validate and update database
+    - Standardize MP names, electorates, and categories, link across tables
+    - **MP Party & Canonicalization:**
+        - Update and patch MP party affiliations using `python src/cleaning/get_mp_party_affiliations.py --db-path disclosures.db` (includes robust scraping, fuzzy matching, and manual party fixes for stubborn or missing cases).
+        - Canonicalize and merge duplicate MPs using `python src/cleaning/merge_duplicate_mps.py --db-path disclosures.db` (handles normalization, case/whitespace, and explicit manual merge overrides for edge cases).
+        - Result: The `mps` table is now deduplicated, all MPs have correct party affiliations, and all disclosures point to the canonical `mp_id`.
+    - **Entities:**
+        1. Link entities across the tables (ensure each disclosure's `raw_entity` is linked to a canonical entity in the `entities` table via `entity_id`).
+        2. Run vector-based entity matching (`vector_match.py`) with LLM supervision to merge similar entities to canonical names.
+        3. Update and merge entity IDs to ensure consistency for database queries and analysis.
+    - **Disclosures:**
+        1. Perform a final check for duplicate disclosures (e.g., same MP, date, entity, and description).
+        2. Run final quality checks to ensure data integrity and completeness.
+
 4. **Output** (`/src/output`)
     - Export cleaned data for analysis or external use (to be expanded)
+
+## Iterative LLM-Supervised Entity Grouping and Canonicalization
+
+The pipeline includes an iterative, LLM-supervised process for grouping, merging, and canonicalizing entities:
+- After initial entity extraction, entities are grouped using vector embeddings and community detection.
+- For each group of similar entities (community):
+    - If the group has more than one member, the list is sent to Gemini LLM for supervision.
+    - The LLM selects a single canonical entity name, identifies which entities should be merged, and which should be rejected.
+- Rejected entities are returned to the pool for future iterations, allowing them to be grouped with other entities in subsequent passes.
+- Canonical entities (already merged groups) can also be returned to the pool if new merges are possible, supporting dynamic, evidence-driven grouping.
+- If a canonical entity is merged again and the LLM selects a new canonical name for the expanded group, a warning is logged, but the merge and name change are allowed to proceed.
+- The process is repeated for a fixed number of iterations (e.g., 4). Singletons are finalized after 4 iterations.
+- After all iterations, a mapping of `{old_entity_id, new_entity_id, canonical_name, status}` is exported for migration to the main database.
+
+This approach allows for robust, evidence-driven merging of entities, supports correction of earlier grouping errors, and provides a clear audit trail for all canonicalization decisions. See `refactor_plan.rmd` and `development_diary.rmd` for implementation details and user instructions.
 
 ## Setup
 

@@ -12,6 +12,8 @@ import sqlite3
 import traceback
 from typing import Dict, List, Optional, Tuple, Any
 from pathlib import Path
+import argparse
+from rapidfuzz import fuzz, process
 
 # Add project root to path to allow importing from other modules
 project_root = Path(__file__).parent.parent
@@ -128,7 +130,56 @@ FALLBACK_MP_PARTIES = {
     "Elizabeth Watson-Brown": "Australian Greens",
     
     # Special case for literal "Unknown" entries
-    "Unknown": "N/A"  # These are not actual MPs but entries that couldn't be linked to a specific person
+    "Unknown": "N/A",  # These are not actual MPs but entries that couldn't be linked to a specific person
+    # Manual fixes for MPs with NULL party (from screenshot)
+    "Robert Charles Baldwin": "Liberal Party of Australia",
+    "Christopher Bowen": "Australian Labor Party",
+    "Mark Christopher Butler": "Australian Labor Party",
+    "Nicholas David Champion": "Australian Labor Party",
+    "George Christensen": "Liberal National Party",
+    "Anthony John Crook": "National Party of Australia",
+    "John Alexander Forrest": "Liberal Party of Australia",
+    "Bruce Griffin": "Liberal Party of Australia",
+    "Alexander Hawke": "Liberal Party of Australia",
+    "Stephen James Irons": "Liberal Party of Australia",
+    "Ewan Thomas Jones": "Liberal National Party",
+    "Stephen Patrick Jones": "Australian Labor Party",
+    "Robert Carl Katter": "Katter's Australian Party",
+    "MARKUS": "Liberal Party of Australia",
+    "Judith Eleanor Moylan": "Liberal Party of Australia",
+    "Bernard Ripoll": "Australian Labor Party",
+    "Anthony David Hawthorn Smith": "Liberal Party of Australia",
+    "Alexander Somlay": "Liberal Party of Australia",
+    "Albertus Johannes Van Manen": "Liberal National Party",
+    "Malcolm James Washer": "Liberal Party of Australia",
+    "Andrew Damien Wilkie": "Independent",
+    "Antony Harold Curties Windsor": "Independent",
+    "Russell Evan Broadbent": "Liberal Party of Australia",
+    "Malcolm Thomas Brough": "Liberal Party of Australia",
+    "James Edward Chalmers": "Australian Labor Party",
+    "Joseph Benedict Hockey": "Liberal Party of Australia",
+    "Edham (Ed) Nurredin Husic": "Australian Labor Party",
+    "Catherine McGowan": "Independent",
+    "William Shorten": "Australian Labor Party",
+    "Matthew Philip Williams": "Liberal Party of Australia",
+    "Richard James Wilson": "Liberal Party of Australia",
+    "Christopher Eyles Bowen": "Australian Labor Party",
+    "DICK DUGALD MILTON": "Australian Labor Party",
+    "Damian Kevin Drum": "National Party of Australia",
+    "Katherine Margaret Ellis": "Australian Labor Party",
+    "Timothy Jerome Hammond": "Australian Labor Party",
+    "Gerardine (Ged) Mary Kearney": "Australian Labor Party",
+    "JUSTINE TERRI KEAY": "Australian Labor Party",
+    "Michael Kelly": "Australian Labor Party",
+    "Charles Porter": "Liberal Party of Australia",
+    "Robert Stuart Rowland": "Liberal Party of Australia",
+    "Bridget Archer": "Liberal Party of Australia",
+    "Jim Chalmers": "Australian Labor Party",
+    "Warren Entsch": "Liberal National Party",
+    "Andrew Hastie": "Liberal Party of Australia",
+    "Clare O' Neil": "Australian Labor Party",
+    "Alexander Somlyay": "Liberal Party of Australia",
+    "Fiona Martin": "Liberal Party of Australia",
 }
 
 def clean_name(name: str) -> str:
@@ -356,7 +407,13 @@ def get_mp_data() -> pd.DataFrame:
             df.columns = [str(c).strip() for c in df.columns]
             
             # Find the name column
-            name_col = next((c for c in df.columns if any(term in c.lower() for term in ["member", "name", "mp"])), None)
+            name_candidates = [c for c in df.columns if any(term in c.lower() for term in ["member", "name", "mp"])]
+            name_col = None
+            # Try each candidate until we find one with non-empty values
+            for candidate in name_candidates:
+                if df[candidate].dropna().astype(str).str.strip().replace('', pd.NA).dropna().shape[0] > 0:
+                    name_col = candidate
+                    break
             
             # For party, try different approaches - there might be multiple party columns
             party_cols = [c for c in df.columns if "party" in c.lower()]
@@ -448,8 +505,7 @@ def get_mp_data() -> pd.DataFrame:
 
 def update_database(mp_data: pd.DataFrame, db_path: str) -> None:
     """
-    Update the database with MP party information.
-    
+    Update the database with MP party information (mps table only).
     Args:
         mp_data: DataFrame with MP data
         db_path: Path to the SQLite database
@@ -465,17 +521,17 @@ def update_database(mp_data: pd.DataFrame, db_path: str) -> None:
         if norm_name:
             normalized_lookup[norm_name] = {
                 'original_name': row['Name'],
-                'party': row['Party']
+                'party': row['Party'],
+                'electorate': row.get('Electorate')
             }
-        
         # Store name parts for similarity matching
         name_parts = get_name_parts(row['Name'])
         if name_parts[0] and name_parts[2]:  # Has first and last name
             similarity_lookups[row['Name']] = {
                 'parts': name_parts,
-                'party': row['Party']
+                'party': row['Party'],
+                'electorate': row.get('Electorate')
             }
-            
         # Create electorate lookup if available
         if 'Electorate' in row and row['Electorate'] and isinstance(row['Electorate'], str):
             electorate = row['Electorate'].strip()
@@ -486,373 +542,155 @@ def update_database(mp_data: pd.DataFrame, db_path: str) -> None:
                     'name': row['Name'],
                     'party': row['Party']
                 })
-    
     if HAS_DB_HANDLER:
         try:
             db = DatabaseHandler(db_path)
-            
-            # Get existing MPs with electorates if possible
-            existing_mps = db.get_all_mps()
-            
-            # First pass: Exact matches
+            # Get existing MPs from mps table
+            conn = sqlite3.connect(db_path)
+            conn.row_factory = sqlite3.Row
+            cursor = conn.cursor()
+            cursor.execute("SELECT full_name, electorate FROM mps")
+            existing_mps = [dict(row) for row in cursor.fetchall()]
+            conn.close()
+            # First pass: Exact matches (full_name + electorate)
             exact_match_count = 0
-            matched_names = set()
-            
+            matched_keys = set()
             for mp in existing_mps:
-                if mp['name'] in mp_data['Name'].values:
-                    party = mp_data[mp_data['Name'] == mp['name']].iloc[0]['Party']
-                    db.update_mp_party(mp['name'], party)
-                    matched_names.add(mp['name'])
+                key = (mp['full_name'], mp['electorate'])
+                match = mp_data[(mp_data['Name'] == mp['full_name']) & (mp_data['Electorate'] == mp['electorate'])]
+                if not match.empty:
+                    party = match.iloc[0]['Party']
+                    db.update_mps_party(mp['full_name'], party, mp['electorate'])
+                    matched_keys.add(key)
                     exact_match_count += 1
-            
-            print(f"Updated party information for {exact_match_count} MPs with exact name matches")
-            
-            # Second pass: Normalized name matching
+            print(f"Updated party information for {exact_match_count} MPs with exact name+electorate matches in mps table")
+            # Second pass: Normalized name matching (for unmatched)
             normalized_match_count = 0
-            
             for mp in existing_mps:
-                # Skip MPs already matched
-                if mp['name'] in matched_names:
+                key = (mp['full_name'], mp['electorate'])
+                if key in matched_keys:
                     continue
-                
-                # Check special cases first
-                if mp['name'] in MP_NAME_SPECIAL_CASES:
-                    wiki_name = MP_NAME_SPECIAL_CASES[mp['name']]
-                    if wiki_name in mp_data['Name'].values:
-                        party = mp_data[mp_data['Name'] == wiki_name].iloc[0]['Party']
-                        db.update_mp_party(mp['name'], party)
-                        matched_names.add(mp['name'])
-                        print(f"Special case match: '{mp['name']}' -> '{wiki_name}' (Party: {party})")
+                # Special cases
+                if mp['full_name'] in MP_NAME_SPECIAL_CASES:
+                    wiki_name = MP_NAME_SPECIAL_CASES[mp['full_name']]
+                    match = mp_data[(mp_data['Name'] == wiki_name) & (mp_data['Electorate'] == mp['electorate'])]
+                    if not match.empty:
+                        party = match.iloc[0]['Party']
+                        db.update_mps_party(mp['full_name'], party, mp['electorate'])
+                        matched_keys.add(key)
+                        print(f"Special case match: '{mp['full_name']}' -> '{wiki_name}' (Party: {party})")
                         normalized_match_count += 1
                         continue
-                
-                # Try normalized matching
-                norm_name = normalize_mp_name(mp['name'])
+                # Normalized name
+                norm_name = normalize_mp_name(mp['full_name'])
                 if norm_name in normalized_lookup:
-                    matched_info = normalized_lookup[norm_name]
-                    db.update_mp_party(mp['name'], matched_info['party'])
-                    matched_names.add(mp['name'])
-                    print(f"Normalized match: '{mp['name']}' -> '{matched_info['original_name']}' (Party: {matched_info['party']})")
+                    info = normalized_lookup[norm_name]
+                    if info['electorate'] == mp['electorate']:
+                        db.update_mps_party(mp['full_name'], info['party'], mp['electorate'])
+                        matched_keys.add(key)
+                        print(f"Normalized match: '{mp['full_name']}' -> '{info['original_name']}' (Party: {info['party']})")
                     normalized_match_count += 1
-            
-            print(f"Updated party information for {normalized_match_count} additional MPs with normalized name matching")
-            
+            print(f"Updated party information for {normalized_match_count} additional MPs with normalized name matching in mps table")
             # Third pass: Similarity-based matching for remaining MPs
             similarity_match_count = 0
-            
             for mp in existing_mps:
-                # Skip MPs already matched
-                if mp['name'] in matched_names:
+                key = (mp['full_name'], mp['electorate'])
+                if key in matched_keys:
                     continue
-                
                 best_match = None
-                best_score = 0.7  # Threshold score to consider a match
+                best_score = 0.7
                 best_name = None
-                
                 for wiki_name, info in similarity_lookups.items():
-                    score = name_similarity_score(mp['name'], wiki_name)
+                    if info['electorate'] != mp['electorate']:
+                        continue
+                    score = name_similarity_score(mp['full_name'], wiki_name)
                     if score > best_score:
                         best_score = score
                         best_match = info['party']
                         best_name = wiki_name
-                
                 if best_match:
-                    db.update_mp_party(mp['name'], best_match)
-                    matched_names.add(mp['name'])
-                    print(f"Similarity match ({best_score:.2f}): '{mp['name']}' -> '{best_name}' (Party: {best_match})")
+                    db.update_mps_party(mp['full_name'], best_match, mp['electorate'])
+                    matched_keys.add(key)
+                    print(f"Similarity match ({best_score:.2f}): '{mp['full_name']}' -> '{best_name}' (Party: {best_match})")
                     similarity_match_count += 1
-            
-            print(f"Updated party information for {similarity_match_count} additional MPs with similarity matching")
-            
-            # Fourth pass: Electorate-based matching for remaining MPs
-            electorate_match_count = 0
-            
-            # Get electorates from the database for unmatched MPs
-            try:
-                for mp in existing_mps:
-                    # Skip MPs already matched
-                    if mp['name'] in matched_names:
-                        continue
-                    
-                    # Get the MP's electorate
-                    mp_electorate = None
-                    if 'electorate' in mp and mp['electorate']:
-                        mp_electorate = mp['electorate']
-                    else:
-                        # Try to get electorate from disclosures
-                        results = db.query_db(
-                            "SELECT DISTINCT electorate FROM disclosures WHERE mp_name = ? AND electorate IS NOT NULL AND electorate != ''",
-                            (mp['name'],)
-                        )
-                        if results:
-                            mp_electorate = results[0]['electorate']
-                    
-                    # If we have an electorate and it's in our lookup, try to match
-                    if mp_electorate and mp_electorate in electorate_lookup:
-                        # If only one MP in this electorate in our dataset, it's likely the same person
-                        if len(electorate_lookup[mp_electorate]) == 1:
-                            mp_info = electorate_lookup[mp_electorate][0]
-                            db.update_mp_party(mp['name'], mp_info['party'])
-                            matched_names.add(mp['name'])
-                            print(f"Electorate match: '{mp['name']}' -> '{mp_info['name']}' (Electorate: {mp_electorate}, Party: {mp_info['party']})")
-                            electorate_match_count += 1
-                        else:
-                            # Multiple MPs from the same electorate, try to find the closest name match
-                            best_match = None
-                            best_score = 0.5  # Lower threshold because we already have electorate match
-                            best_name = None
-                            
-                            for mp_info in electorate_lookup[mp_electorate]:
-                                score = name_similarity_score(mp['name'], mp_info['name'])
-                                if score > best_score:
-                                    best_score = score
-                                    best_match = mp_info['party']
-                                    best_name = mp_info['name']
-                            
-                            if best_match:
-                                db.update_mp_party(mp['name'], best_match)
-                                matched_names.add(mp['name'])
-                                print(f"Electorate+name match ({best_score:.2f}): '{mp['name']}' -> '{best_name}' (Electorate: {mp_electorate}, Party: {best_match})")
-                                electorate_match_count += 1
-            except Exception as e:
-                print(f"Error during electorate matching: {e}")
-            
-            print(f"Updated party information for {electorate_match_count} additional MPs with electorate matching")
-            
-            # Fifth pass: Fallback to manually curated MP data for remaining MPs
+            print(f"Updated party information for {similarity_match_count} additional MPs with similarity matching in mps table")
+            # Fourth pass: Fallback to manually curated MP data for remaining MPs
             fallback_match_count = 0
-            
             for mp in existing_mps:
-                # Skip MPs already matched
-                if mp['name'] in matched_names:
+                key = (mp['full_name'], mp['electorate'])
+                if key in matched_keys:
                     continue
-                
-                # Check if we have a fallback entry for this MP
-                if mp['name'] in FALLBACK_MP_PARTIES:
-                    party = FALLBACK_MP_PARTIES[mp['name']]
-                    if party != "Unknown":  # Only update if we have actual party information
-                        db.update_mp_party(mp['name'], party)
-                        matched_names.add(mp['name'])
-                        print(f"Fallback match: '{mp['name']}' (Party: {party})")
+                if mp['full_name'] in FALLBACK_MP_PARTIES:
+                    party = FALLBACK_MP_PARTIES[mp['full_name']]
+                    if party != "Unknown":
+                        db.update_mps_party(mp['full_name'], party, mp['electorate'])
+                        matched_keys.add(key)
+                        print(f"Fallback match: '{mp['full_name']}' (Party: {party})")
                         fallback_match_count += 1
-            
-            print(f"Updated party information for {fallback_match_count} additional MPs with fallback data")
-            print(f"Total MPs updated: {exact_match_count + normalized_match_count + similarity_match_count + electorate_match_count + fallback_match_count}")
-            
+            print(f"Updated party information for {fallback_match_count} additional MPs with fallback data in mps table")
+            print(f"Total MPs updated in mps table: {exact_match_count + normalized_match_count + similarity_match_count + fallback_match_count}")
+            # --- Second fuzzy pass for NULL party MPs ---
+            print("Starting fuzzy matching for MPs with NULL party...")
+            conn = sqlite3.connect(db_path)
+            conn.row_factory = sqlite3.Row
+            cursor = conn.cursor()
+            cursor.execute("SELECT full_name, electorate FROM mps WHERE party IS NULL OR party = ''")
+            null_party_mps = [dict(row) for row in cursor.fetchall()]
+            for mp in null_party_mps:
+                mp_name = mp['full_name']
+                mp_electorate = mp['electorate']
+                # Find all Wikipedia MPs in the same electorate
+                wiki_rows = mp_data[mp_data['Electorate'] == mp_electorate]
+                if wiki_rows.empty:
+                    continue
+                # Fuzzy match on name within this electorate
+                candidates = wiki_rows['Name'].tolist()
+                if not candidates:
+                    continue
+                # Use rapidfuzz to get best match
+                best_match, score, _ = process.extractOne(mp_name, candidates, scorer=fuzz.token_sort_ratio)
+                if score >= 85:
+                    party = wiki_rows[wiki_rows['Name'] == best_match]['Party'].iloc[0]
+                    db.update_mps_party(mp_name, party, mp_electorate)
+                    print(f"Fuzzy match ({score}): '{mp_name}' ~ '{best_match}' (Electorate: {mp_electorate}) -> {party}")
+            conn.close()
         except Exception as e:
             print(f"Error updating database: {e}")
             traceback.print_exc()
     else:
-        # Fallback if db_handler is not available
-        try:
-            conn = sqlite3.connect(db_path)
-            cursor = conn.cursor()
-            
-            # Get all unique MP names from the database
-            cursor.execute("SELECT DISTINCT mp_name FROM disclosures")
-            db_mp_names = [row[0] for row in cursor.fetchall()]
-            
-            # First pass: Exact matches
-            exact_match_count = 0
-            matched_names = set()
-            
-            for db_mp_name in db_mp_names:
-                if db_mp_name in mp_data['Name'].values:
-                    party = mp_data[mp_data['Name'] == db_mp_name].iloc[0]['Party']
-                    cursor.execute(
-                        "UPDATE disclosures SET party = ? WHERE mp_name = ?",
-                        (party, db_mp_name)
-                    )
-                    exact_match_count += cursor.rowcount
-                    matched_names.add(db_mp_name)
-            
-            print(f"Updated party information for {exact_match_count} MPs with exact name matches")
-            
-            # Second pass: Normalized name matching and special cases
-            normalized_match_count = 0
-            
-            for db_mp_name in db_mp_names:
-                # Skip MPs already matched
-                if db_mp_name in matched_names:
-                    continue
-                
-                # Check special cases first
-                if db_mp_name in MP_NAME_SPECIAL_CASES:
-                    wiki_name = MP_NAME_SPECIAL_CASES[db_mp_name]
-                    if wiki_name in mp_data['Name'].values:
-                        party = mp_data[mp_data['Name'] == wiki_name].iloc[0]['Party']
-                        cursor.execute(
-                            "UPDATE disclosures SET party = ? WHERE mp_name = ?",
-                            (party, db_mp_name)
-                        )
-                        updated_rows = cursor.rowcount
-                        if updated_rows > 0:
-                            print(f"Special case match: '{db_mp_name}' -> '{wiki_name}' (Party: {party}, Records: {updated_rows})")
-                            normalized_match_count += updated_rows
-                            matched_names.add(db_mp_name)
-                        continue
-                
-                # Try normalized matching
-                norm_name = normalize_mp_name(db_mp_name)
-                if norm_name in normalized_lookup:
-                    matched_info = normalized_lookup[norm_name]
-                    cursor.execute(
-                        "UPDATE disclosures SET party = ? WHERE mp_name = ?",
-                        (matched_info['party'], db_mp_name)
-                    )
-                    updated_rows = cursor.rowcount
-                    if updated_rows > 0:
-                        print(f"Normalized match: '{db_mp_name}' -> '{matched_info['original_name']}' (Party: {matched_info['party']}, Records: {updated_rows})")
-                        normalized_match_count += updated_rows
-                        matched_names.add(db_mp_name)
-            
-            print(f"Updated party information for {normalized_match_count} additional records with normalized name matching")
-            
-            # Third pass: Similarity-based matching for remaining MPs
-            similarity_match_count = 0
-            
-            for db_mp_name in db_mp_names:
-                # Skip MPs already matched
-                if db_mp_name in matched_names:
-                    continue
-                
-                best_match = None
-                best_score = 0.7  # Threshold score to consider a match
-                best_name = None
-                
-                for wiki_name, info in similarity_lookups.items():
-                    score = name_similarity_score(db_mp_name, wiki_name)
-                    if score > best_score:
-                        best_score = score
-                        best_match = info['party']
-                        best_name = wiki_name
-                
-                if best_match:
-                    cursor.execute(
-                        "UPDATE disclosures SET party = ? WHERE mp_name = ?",
-                        (best_match, db_mp_name)
-                    )
-                    updated_rows = cursor.rowcount
-                    if updated_rows > 0:
-                        print(f"Similarity match ({best_score:.2f}): '{db_mp_name}' -> '{best_name}' (Party: {best_match}, Records: {updated_rows})")
-                        similarity_match_count += updated_rows
-                        matched_names.add(db_mp_name)
-            
-            # Fourth pass: Electorate-based matching for remaining MPs
-            electorate_match_count = 0
-            
-            # Get unique mp_name to electorate mappings for unmatched MPs
-            cursor.execute(
-                "SELECT DISTINCT mp_name, electorate FROM disclosures WHERE mp_name IN ({}) AND electorate IS NOT NULL AND electorate != ''".format(
-                    ','.join(['?'] * len([n for n in db_mp_names if n not in matched_names]))
-                ),
-                [n for n in db_mp_names if n not in matched_names]
-            )
-            mp_electorates = {}
-            for row in cursor.fetchall():
-                if row[0] not in mp_electorates and row[1]:  # mp_name -> electorate
-                    mp_electorates[row[0]] = row[1]
-            
-            # Use electorates to match remaining MPs
-            for db_mp_name, electorate in mp_electorates.items():
-                if electorate in electorate_lookup:
-                    # If only one MP in this electorate in our dataset, it's likely the same person
-                    if len(electorate_lookup[electorate]) == 1:
-                        mp_info = electorate_lookup[electorate][0]
-                        cursor.execute(
-                            "UPDATE disclosures SET party = ? WHERE mp_name = ?",
-                            (mp_info['party'], db_mp_name)
-                        )
-                        updated_rows = cursor.rowcount
-                        if updated_rows > 0:
-                            print(f"Electorate match: '{db_mp_name}' -> '{mp_info['name']}' (Electorate: {electorate}, Party: {mp_info['party']}, Records: {updated_rows})")
-                            electorate_match_count += updated_rows
-                            matched_names.add(db_mp_name)
-                    else:
-                        # Multiple MPs from the same electorate, try to find the closest name match
-                        best_match = None
-                        best_score = 0.5  # Lower threshold because we already have electorate match
-                        best_name = None
-                        
-                        for mp_info in electorate_lookup[electorate]:
-                            score = name_similarity_score(db_mp_name, mp_info['name'])
-                            if score > best_score:
-                                best_score = score
-                                best_match = mp_info['party']
-                                best_name = mp_info['name']
-                        
-                        if best_match:
-                            cursor.execute(
-                                "UPDATE disclosures SET party = ? WHERE mp_name = ?",
-                                (best_match, db_mp_name)
-                            )
-                            updated_rows = cursor.rowcount
-                            if updated_rows > 0:
-                                print(f"Electorate+name match ({best_score:.2f}): '{db_mp_name}' -> '{best_name}' (Electorate: {electorate}, Party: {best_match}, Records: {updated_rows})")
-                                electorate_match_count += updated_rows
-                                matched_names.add(db_mp_name)
-            
-            # Fifth pass: Fallback to manually curated MP data for remaining MPs
-            fallback_match_count = 0
-            
-            for db_mp_name in db_mp_names:
-                # Skip MPs already matched
-                if db_mp_name in matched_names:
-                    continue
-                
-                # Check if we have a fallback entry for this MP
-                if db_mp_name in FALLBACK_MP_PARTIES:
-                    party = FALLBACK_MP_PARTIES[db_mp_name]
-                    if party != "Unknown":  # Only update if we have actual party information
-                        cursor.execute(
-                            "UPDATE disclosures SET party = ? WHERE mp_name = ?",
-                            (party, db_mp_name)
-                        )
-                        updated_rows = cursor.rowcount
-                        if updated_rows > 0:
-                            print(f"Fallback match: '{db_mp_name}' (Party: {party}, Records: {updated_rows})")
-                            fallback_match_count += updated_rows
-                            matched_names.add(db_mp_name)
-            
-            conn.commit()
-            print(f"Updated party information for {fallback_match_count} additional records with fallback data")
-            print(f"Total records updated: {exact_match_count + normalized_match_count + similarity_match_count + electorate_match_count + fallback_match_count}")
-            
-        except Exception as e:
-            print(f"Error updating database: {e}")
-            traceback.print_exc()
-        finally:
-            if 'conn' in locals():
-                conn.close()
+        print("DatabaseHandler not available. Cannot update mps table.")
 
 def main() -> None:
     """
     Main function to scrape MP data, save to CSV, and update database.
     """
+    parser = argparse.ArgumentParser(description="Scrape MP party affiliations and update the mps table.")
+    parser.add_argument('--db-path', default=None, help='Path to the SQLite database (default: disclosures.db in project root)')
+    parser.add_argument('--output-path', default=None, help='Path to output CSV (default: output/all_mps_most_recent_party.csv)')
+    args = parser.parse_args()
+
+    # Determine project root (repo root, not src/cleaning)
+    project_root = Path(__file__).resolve().parent.parent.parent
     output_dir = "output"
     output_file = "all_mps_most_recent_party.csv"
-    output_path = os.path.join(output_dir, output_file)
-    db_path = os.path.join(project_root, "disclosures.db")
+    default_output_path = os.path.join(output_dir, output_file)
+    default_db_path = os.path.join(project_root, "disclosures.db")
+    output_path = args.output_path if args.output_path else default_output_path
+    db_path = args.db_path if args.db_path else default_db_path
     
     # Create output directory if it doesn't exist
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
-    
     print("Starting MP data scraping...")
     mp_data = get_mp_data()
-    
     # Add timestamp column
     mp_data['scraped_date'] = pd.Timestamp.now().strftime('%Y-%m-%d')
-    
     # Clean party names by removing footnote annotations
     mp_data['Party'] = mp_data['Party'].apply(clean_party_footnotes)
-    
     # Save to CSV
     mp_data.to_csv(output_path, index=False)
-    
     print(f"✅ Done! Saved {len(mp_data)} MP records to '{output_path}'")
     print(f"Party distribution: \n{mp_data['Party'].value_counts()}")
-    
     # Update database if it exists
     if os.path.exists(db_path):
         print(f"Updating database at {db_path}")
