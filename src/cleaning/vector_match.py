@@ -51,6 +51,13 @@ load_dotenv(dotenv_path=".env.local")
 
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
+# Suppress noisy loggers from external libraries
+import logging
+for noisy_logger in [
+    "httpx", "google", "google.auth", "googleapiclient", "google.cloud", "google.protobuf", "AFC"
+]:
+    logging.getLogger(noisy_logger).setLevel(logging.ERROR)
+
 # --- LLM Configuration and Helpers ---
 
 # Setup logging (ensure it's configured early)
@@ -103,7 +110,7 @@ def extract_json_from_code_block(text: str) -> str:
         return match.group(1)
     return text  # fallback: return as is
 
-def get_llm_review(entity_names: List[str]) -> Optional[Dict[str, Any]]:
+def get_llm_review(entity_names: List[str], comm_id: int = None, iteration: int = None) -> Optional[Dict[str, Any]]:
     """Gets the LLM's review results for a group, enforcing canonical_name from input, merged_names, and rejected_names."""
     if not client:
         logger.warning("LLM client not available. Skipping review.")
@@ -118,7 +125,6 @@ def get_llm_review(entity_names: List[str]) -> Optional[Dict[str, Any]]:
     max_retries = 2
     for attempt in range(max_retries):
         try:
-            logger.debug(f"Sending prompt to LLM (Attempt {attempt+1}/{max_retries}): {prompt[:300]}...")
             response = client.models.generate_content(
                 model=model_name,
                 contents=[prompt],
@@ -131,48 +137,48 @@ def get_llm_review(entity_names: List[str]) -> Optional[Dict[str, Any]]:
                 }
             )
             raw_response_text = response.text.strip()
-            logger.info(f"LLM raw response: {raw_response_text}")
             # Try direct JSON parse first
             try:
                 data = json.loads(raw_response_text)
-                logger.debug("Successfully parsed Gemini response as JSON directly.")
             except json.JSONDecodeError:
-                logger.info("Direct JSON parse failed, attempting extraction from code block.")
                 json_str = extract_json_from_code_block(raw_response_text)
                 try:
                     data = json.loads(json_str)
-                    logger.debug("Successfully parsed Gemini response after extraction from code block.")
                 except json.JSONDecodeError as e:
-                    logger.error(f"Failed to parse Gemini response as JSON after extraction: {e}")
-                    logger.error(f"Response ends with: {raw_response_text[-500:]}")
-                    logger.warning("Gemini output is likely truncated or invalid (parse error). Returning None.")
+                    context = f"Community {comm_id}: " if comm_id is not None else ""
+                    logger.error(f"{context}Failed to parse Gemini response as JSON after extraction: {e}")
+                    logger.error(f"{context}Response ends with: {raw_response_text[-500:]}")
+                    logger.warning(f"{context}Gemini output is likely truncated or invalid (parse error). Returning None.")
                     continue
             # Validate required fields
             if not (isinstance(data, dict) and 'canonical_name' in data and 'merged_names' in data and 'rejected_names' in data):
-                logger.warning(f"LLM response missing required keys. Response: {data}")
+                context = f"Community {comm_id}: " if comm_id is not None else ""
+                logger.warning(f"{context}LLM response missing required keys. Response: {data}")
                 continue
             canonical_name = data['canonical_name']
             merged_names = data['merged_names']
             rejected_names = data['rejected_names']
             # Validate canonical_name is in input
             if canonical_name not in entity_names:
-                logger.warning(f"LLM selected canonical_name '{canonical_name}' not in input list. Defaulting to first input.")
+                context = f"Community {comm_id}: " if comm_id is not None else ""
+                logger.warning(f"{context}LLM selected canonical_name '{canonical_name}' not in input list. Defaulting to first input.")
                 canonical_name = entity_names[0]
             # Validate merged/rejected names
             merged_names = [n for n in merged_names if n in entity_names]
             rejected_names = [n for n in rejected_names if n in entity_names]
-            logger.info(f"LLM review successful. Canonical: {canonical_name}. Merged: {merged_names}. Rejected: {rejected_names}")
             return {
                 'canonical_name': canonical_name,
                 'merged_names': merged_names,
                 'rejected_names': rejected_names
             }
         except Exception as e:
-            logger.error(f"Error calling LLM API or processing response (Attempt {attempt+1}) for group {entity_names[:3]}...: {e}")
+            context = f"Community {comm_id}: " if comm_id is not None else ""
+            logger.error(f"{context}Error calling LLM API or processing response (Attempt {attempt+1}) for group {entity_names[:3]}...: {e}")
         if attempt < max_retries - 1:
             logger.info("Retrying LLM call...")
             time.sleep(2)
-    logger.error(f"LLM review failed after {max_retries} attempts for group {entity_names[:3]}...")
+    context = f"Community {comm_id}: " if comm_id is not None else ""
+    logger.error(f"{context}LLM review failed after {max_retries} attempts for group {entity_names[:3]}...")
     return None
 
 # --- Database Functions for Grouping DB ---
@@ -362,14 +368,14 @@ def step_extract(disclosures_db_path: str, limit: Optional[int], output_path: st
         json.dump(entities, f)
     print(f"[STEP: extract] Extracted {len(entities)} entities and saved to {output_path}")
 
-def step_vectorize(input_path: str = None, output_prefix: str = None, threshold: float = 0.75) -> None:
+def step_vectorize(input_path: str = None, output_prefix: str = None) -> None:
     if input_path is None:
         input_path = os.path.join(OUTPUT_DIR, "entities_extracted.json")
     if output_prefix is None:
         output_prefix = os.path.join(OUTPUT_DIR, "entity_graph.json")
     with open(input_path) as f:
         entities = json.load(f)
-    G, node_map = build_similarity_graph(entities, threshold=threshold)
+    G, node_map = build_similarity_graph(entities)
     # Save as edge list and node map
     nx.write_edgelist(G, output_prefix + ".edgelist")
     with open(output_prefix + ".nodemap", "w") as f:
@@ -408,14 +414,21 @@ def step_llm_review(communities_path: str = None, node_map_path: str = None, out
         member_names = [node_map[idx][1] for idx in members]
         if len(members) == 1:
             continue
-        llm_result = get_llm_review(member_names)
+        llm_result = get_llm_review(member_names, comm_id=comm_id)
         results[comm_id] = llm_result
-        print(f"[STEP: llm_review] Community {comm_id}: {llm_result}")
+        if llm_result:
+            canonical_name = llm_result['canonical_name']
+            merged_names = llm_result['merged_names']
+            rejected_names = llm_result['rejected_names']
+            print(f"Community {comm_id}: Success: Canonical={canonical_name}, Merged={len(merged_names)}, Rejected={len(rejected_names)}")
+        else:
+            print(f"Community {comm_id}: ERROR: LLM review failed or returned invalid response.")
     with open(output_path, "w") as f:
         json.dump(results, f)
     print(f"[STEP: llm_review] Saved LLM review results to {output_path}")
 
 MAX_ITERATIONS = 4
+THRESHOLDS = [0.8, 0.75, 0.7, 0.65]  # Per-iteration cosine similarity thresholds for entity grouping
 
 def save_json(obj, path):
     os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -427,7 +440,7 @@ def load_json(path):
         return json.load(f)
 
 def step_iterative_grouping(initial_entities_path: str = None, grouping_db_path: str = 'entity_grouping.db'):
-    """Run iterative entity grouping and canonicalization for up to MAX_ITERATIONS rounds."""
+    """Run iterative entity grouping and canonicalization for up to MAX_ITERATIONS rounds, with variable similarity thresholds per iteration."""
     if initial_entities_path is None:
         initial_entities_path = os.path.join(OUTPUT_DIR, "entities_extracted.json")
     pool = load_json(initial_entities_path)
@@ -442,9 +455,12 @@ def step_iterative_grouping(initial_entities_path: str = None, grouping_db_path:
         iter_dir = os.path.join(OUTPUT_DIR, f'iteration_{iteration}')
         os.makedirs(iter_dir, exist_ok=True)
 
+        # Use the threshold for this iteration (or last if more iterations than thresholds)
+        threshold = THRESHOLDS[iteration - 1] if iteration - 1 < len(THRESHOLDS) else THRESHOLDS[-1]
+
         # 1. Vectorize and build graph for current pool
         entities = [(e['entity_id'], e['canonical_name']) for e in pool]
-        G, node_map = build_similarity_graph(entities)
+        G, node_map = build_similarity_graph(entities, threshold=threshold)
         save_json(node_map, os.path.join(iter_dir, 'node_map.json'))
         nx.write_edgelist(G, os.path.join(iter_dir, 'graph.edgelist'))
 
@@ -461,50 +477,99 @@ def step_iterative_grouping(initial_entities_path: str = None, grouping_db_path:
                 singletons.setdefault(member_names[0], 0)
                 singletons[member_names[0]] += 1
                 continue
-            llm_result = get_llm_review(member_names)
+            llm_result = get_llm_review(member_names, comm_id=comm_id)
             llm_reviews[comm_id] = llm_result
         save_json(llm_reviews, os.path.join(iter_dir, 'llm_reviews.json'))
 
         # 4. Update pool for next iteration and update canonicalization table
         new_pool = []
+        used_entity_ids = set()
+        # Build a reverse lookup: name -> entity_id from node_map
+        name_to_entity_id = {original_name: entity_id for idx, (entity_id, original_name) in node_map.items()}
+        status_map = {}  # entity_id -> status for this iteration
         for comm_id, review in llm_reviews.items():
             if not review:
                 continue
             canonical_name = review['canonical_name']
             merged_names = review['merged_names']
-            # Only canonical and rejected entities go back to the pool
-            new_pool.append({'entity_id': None, 'canonical_name': canonical_name})
+            # Mark canonical entity as 'canonical', others as 'merged'
+            if canonical_name in name_to_entity_id:
+                eid = name_to_entity_id[canonical_name]
+                status_map[eid] = 'canonical'
+            for name in merged_names:
+                if name != canonical_name and name in name_to_entity_id:
+                    eid = name_to_entity_id[name]
+                    status_map[eid] = 'merged'
             for name in review['rejected_names']:
-                new_pool.append({'entity_id': None, 'canonical_name': name})
+                if name in name_to_entity_id:
+                    eid = name_to_entity_id[name]
+                    # Rejected names are not merged, so will be handled as singleton if alone in their group
+                    # We'll update their status below if needed
+                    pass
             # Log merges, canonicalizations, etc.
             iteration_logs.append({'iteration': iteration, 'community': comm_id, 'review': review})
+            # Print detailed log for this community
+            print(f"[Iteration {iteration}] Community {comm_id}:\n  Canonical: {canonical_name}\n  Merged: {merged_names}\n  Rejected: {review['rejected_names']}")
             # Update canonicalization table for all merged entities
             for idx, (entity_id, original_name) in node_map.items():
-                if original_name in merged_names:
+                if original_name == canonical_name:
                     upsert_entity_canonicalization(
                         conn=conn,
                         entity_id=entity_id,
                         original_name=original_name,
                         canonical_name=canonical_name,
-                        status='merged' if len(merged_names) > 1 else 'singleton',
+                        status='canonical',
                         iteration_finalized=iteration
                     )
-        # Add singletons that haven't reached MAX_ITERATIONS
-        for name, count in singletons.items():
-            if count < MAX_ITERATIONS:
-                new_pool.append({'entity_id': None, 'canonical_name': name})
-            # else: finalize as singleton
-            # Find entity_id for singleton
-            for idx, (entity_id, original_name) in node_map.items():
-                if original_name == name:
+                elif original_name in merged_names:
                     upsert_entity_canonicalization(
                         conn=conn,
                         entity_id=entity_id,
                         original_name=original_name,
-                        canonical_name=original_name,
+                        canonical_name=canonical_name,
+                        status='merged',
+                        iteration_finalized=iteration
+                    )
+        # Add singletons that haven't reached MAX_ITERATIONS
+        for name, count in singletons.items():
+            if name in name_to_entity_id:
+                eid = name_to_entity_id[name]
+                # Check previous status in DB
+                cursor = conn.cursor()
+                cursor.execute("SELECT status FROM entity_canonicalization WHERE entity_id = ?", (eid,))
+                row = cursor.fetchone()
+                previous_status = row[0] if row else None
+                if previous_status == 'canonical':
+                    status_map[eid] = 'canonical'
+                    upsert_entity_canonicalization(
+                        conn=conn,
+                        entity_id=eid,
+                        original_name=name,
+                        canonical_name=name,
+                        status='canonical',
+                        iteration_finalized=iteration
+                    )
+                else:
+                    status_map[eid] = 'singleton'
+                    upsert_entity_canonicalization(
+                        conn=conn,
+                        entity_id=eid,
+                        original_name=name,
+                        canonical_name=name,
                         status='singleton',
                         iteration_finalized=iteration
                     )
+        # Only pool canonical and singleton entities for next iteration
+        for eid, status in status_map.items():
+            if status in ('singleton', 'canonical') and eid not in used_entity_ids:
+                # Fetch the latest canonical name for this eid from the DB
+                cursor = conn.cursor()
+                cursor.execute("SELECT canonical_name FROM entity_canonicalization WHERE entity_id = ?", (eid,))
+                row = cursor.fetchone()
+                canonical_name = row[0] if row else None
+                if canonical_name:
+                    new_pool.append({'entity_id': eid, 'canonical_name': canonical_name})
+                    used_entity_ids.add(eid)
         pool = new_pool
         save_json(pool, os.path.join(iter_dir, 'pool.json'))
 
@@ -526,24 +591,18 @@ def main():
     parser.add_argument('--disclosures_db_path', type=str, default='disclosures.db', help='Path to the source disclosures SQLite database file.')
     parser.add_argument('--grouping_db_path', type=str, default=os.path.join(OUTPUT_DIR, 'entity_grouping.db'), help='Path to the entity grouping results SQLite database file.')
     parser.add_argument('--limit', type=int, default=None, help='Limit the number of entities fetched for testing.')
-    parser.add_argument('--threshold', type=float, default=0.75, help='Cosine similarity threshold for building the graph.')
     args = parser.parse_args()
 
     if args.step == 'extract':
         step_extract(args.disclosures_db_path, args.limit)
     elif args.step == 'vectorize':
-        step_vectorize(threshold=args.threshold)
+        step_vectorize()
     elif args.step == 'detect_communities':
         step_detect_communities()
-    elif args.step == 'llm_review':
-        step_llm_review()
     elif args.step == 'iterative_grouping':
         step_iterative_grouping(grouping_db_path=args.grouping_db_path)
     elif args.step == 'all':
         step_extract(args.disclosures_db_path, args.limit)
-        step_vectorize(threshold=args.threshold)
-        step_detect_communities()
-        step_llm_review()
         step_iterative_grouping(grouping_db_path=args.grouping_db_path)
     else:
         print(f"[ERROR] Step '{args.step}' not implemented yet.")
