@@ -450,6 +450,16 @@ def step_iterative_grouping(initial_entities_path: str = None, grouping_db_path:
     iteration_logs = []
     conn = sqlite3.connect(grouping_db_path)
     create_grouping_db_tables(conn)
+    # Ensure every entity is present in the canonicalization table from the start
+    cursor = conn.cursor()
+    for entity in pool:
+        cursor.execute(
+            """INSERT INTO entity_canonicalization (entity_id, original_name, canonical_name, status, iteration_finalized)
+            VALUES (?, ?, ?, ?, ?)
+            ON CONFLICT(entity_id) DO NOTHING""",
+            (entity['entity_id'], entity['canonical_name'], entity['canonical_name'], 'pending', 0)
+        )
+    conn.commit()
     iteration_stats = []  # Collect stats for each iteration
     for iteration in range(1, MAX_ITERATIONS + 1):
         print(f'--- Iteration {iteration} ---')
@@ -541,6 +551,9 @@ def step_iterative_grouping(initial_entities_path: str = None, grouping_db_path:
         for name, count in singletons.items():
             if name in name_to_entity_id:
                 eid = name_to_entity_id[name]
+                if eid in status_map:
+                    # Already handled as merged or canonical, skip
+                    continue
                 # Check previous status in DB
                 cursor = conn.cursor()
                 cursor.execute("SELECT status FROM entity_canonicalization WHERE entity_id = ?", (eid,))
