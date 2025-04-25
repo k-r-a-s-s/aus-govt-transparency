@@ -450,6 +450,7 @@ def step_iterative_grouping(initial_entities_path: str = None, grouping_db_path:
     iteration_logs = []
     conn = sqlite3.connect(grouping_db_path)
     create_grouping_db_tables(conn)
+    iteration_stats = []  # Collect stats for each iteration
     for iteration in range(1, MAX_ITERATIONS + 1):
         print(f'--- Iteration {iteration} ---')
         iter_dir = os.path.join(OUTPUT_DIR, f'iteration_{iteration}')
@@ -470,6 +471,8 @@ def step_iterative_grouping(initial_entities_path: str = None, grouping_db_path:
 
         # 3. LLM review for each community
         llm_reviews = {}
+        merges_this_iter = 0
+        rejections_this_iter = 0
         for comm_id, members in communities.items():
             member_names = [node_map[idx][1] for idx in members]
             if len(members) == 1:
@@ -479,6 +482,10 @@ def step_iterative_grouping(initial_entities_path: str = None, grouping_db_path:
                 continue
             llm_result = get_llm_review(member_names, comm_id=comm_id)
             llm_reviews[comm_id] = llm_result
+            if llm_result:
+                # Count merges (exclude the canonical itself)
+                merges_this_iter += max(0, len(llm_result['merged_names']) - 1)
+                rejections_this_iter += len(llm_result['rejected_names'])
         save_json(llm_reviews, os.path.join(iter_dir, 'llm_reviews.json'))
 
         # 4. Update pool for next iteration and update canonicalization table
@@ -573,6 +580,15 @@ def step_iterative_grouping(initial_entities_path: str = None, grouping_db_path:
         pool = new_pool
         save_json(pool, os.path.join(iter_dir, 'pool.json'))
 
+        # Save stats for this iteration
+        iteration_stats.append({
+            'iteration': iteration,
+            'nodes': G.number_of_nodes(),
+            'edges': G.number_of_edges(),
+            'merges': merges_this_iter,
+            'rejections': rejections_this_iter
+        })
+
         if not pool:
             print('No more entities to group. Stopping early.')
             break
@@ -583,6 +599,13 @@ def step_iterative_grouping(initial_entities_path: str = None, grouping_db_path:
     save_json(pool, os.path.join(OUTPUT_DIR, 'final_pool.json'))
     conn.close()
     print(f"[STEP: iterative_grouping] Completed {iteration} iterations. Logs and final pool saved.")
+
+    # Print summary statistics for all iterations
+    print("\n=== Iteration Summary ===")
+    print(f"{'Iter':>4} | {'Nodes':>5} | {'Edges':>5} | {'Merges':>6} | {'Rejects':>7}")
+    print("-" * 38)
+    for stats in iteration_stats:
+        print(f"{stats['iteration']:>4} | {stats['nodes']:>5} | {stats['edges']:>5} | {stats['merges']:>6} | {stats['rejections']:>7}")
 
 # --- CLI Entrypoint ---
 def main():
