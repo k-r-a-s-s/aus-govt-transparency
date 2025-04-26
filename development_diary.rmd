@@ -693,3 +693,42 @@ The chunked raw response file saving logic in `pdf_gemini_pipeline.py` and its c
     - 2,521 entities merged (marked as obsolete)
     - 9,197 canonical entities remain
 - The entity deduplication and canonicalization process is now complete. All disclosures are linked to a single canonical entity per group, and the database is ready for downstream analysis or export.
+
+## [2025-06-XX] Plan: Final Data Export for Publication (CSV & Kaggle)
+
+**Goal:**  
+Export the fully cleaned, canonicalized dataset from `disclosures.db` in formats suitable for:
+- General public use (CSV, easy to open in Excel, pandas, etc.)
+- Kaggle competition/dataset submission (CSV with metadata, README, and schema)
+
+**Requirements:**
+- Output should be a single, flat CSV (one row per disclosure, with all relevant fields, including MP and entity info).
+- All fields should use canonical, human-readable values (no internal-only IDs unless also joined with names).
+- Output must be reproducible from the canonical database at any time.
+- Kaggle version should include a `README.md` and `schema.json` describing the dataset and fields.
+- All code should be modular, strongly typed, and functional, following project standards.
+
+**Steps:**
+1. **Scaffold a new script:**  
+   `src/output/export_for_publication.py`
+   - CLI options: `--db-path`, `--csv-path`, `--kaggle-dir`, `--verbose`
+2. **Join all relevant tables:**  
+   - For each disclosure, join with `mps` and `entities` to include:
+     - MP: `mp_id`, `full_name`, `electorate`, `party`, `wikidata_id`
+     - Disclosure: all fields
+     - Entity: `canonical_name`, `status` (if available)
+3. **Export to CSV:**  
+   - Write a single CSV with all fields, using pandas for robust CSV handling.
+   - Ensure proper quoting, UTF-8 encoding, and no index column.
+4. **Kaggle packaging:**  
+   - Write the CSV to a subdirectory (e.g., `outputs/kaggle/`)
+   - Generate a `README.md` (dataset description, field explanations, license, citation)
+   - Generate a `schema.json` (field names, types, descriptions)
+5. **Document the process:**  
+   - Add instructions to `README.md` and `development_diary.rmd`
+   - Ensure the script is idempotent and can be rerun as data is updated.
+
+**Next Steps:**  
+- Implement and test the export script.
+- Review output for completeness and usability.
+- Prepare for Kaggle submission.
