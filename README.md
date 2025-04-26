@@ -42,7 +42,8 @@ This repository contains a modular, maintainable pipeline for processing, standa
     - **Entities:**
         1. Link entities across the tables (ensure each disclosure's `raw_entity` is linked to a canonical entity in the `entities` table via `entity_id`).
         2. Run vector-based entity matching (`vector_match.py`) with LLM supervision to merge similar entities to canonical names.
-        3. Update and merge entity IDs to ensure consistency for database queries and analysis.
+        3. Import canonicalized entities from the grouping database (`import_canonical_entities.py`).
+        4. **Merge entities by canonical name and update disclosures** (`merge_entities_on_canonical_name.py`): For each canonical_name, select a single canonical entity_id, update all disclosures to reference it, and mark obsolete entities as merged. This completes the entity deduplication and canonicalization process.
     - **Disclosures:**
         1. Perform a final check for duplicate disclosures (e.g., same MP, date, entity, and description).
         2. Run final quality checks to ensure data integrity and completeness.
@@ -62,6 +63,9 @@ The pipeline includes an iterative, LLM-supervised process for grouping, merging
 - If a canonical entity is merged again and the LLM selects a new canonical name for the expanded group, a warning is logged, but the merge and name change are allowed to proceed.
 - The process is repeated for a fixed number of iterations (e.g., 4). Singletons are finalized after 4 iterations.
 - After all iterations, a mapping of `{old_entity_id, new_entity_id, canonical_name, status}` is exported for migration to the main database.
+
+**Final Entity Deduplication Step:**
+- After importing canonicalized entities, run `python src/cleaning/merge_entities_on_canonical_name.py --db-path disclosures.db` to deduplicate entities by canonical_name, update all disclosures to point to the canonical entity_id, and mark obsolete entities as merged. This completes the entity deduplication and canonicalization process.
 
 This approach allows for robust, evidence-driven merging of entities, supports correction of earlier grouping errors, and provides a clear audit trail for all canonicalization decisions. See `refactor_plan.rmd` and `development_diary.rmd` for implementation details and user instructions.
 
@@ -355,95 +359,4 @@ python process_disclosures.py --export-json export.json
 
 The system includes a comprehensive recategorization pipeline to improve entry categorization:
 
-```bash
-# Regular regex-based recategorization (fastest, no external API calls)
-python recategorize_unknowns.py --db-path=disclosures.db
-
-# LLM-based recategorization for remaining unknowns
-# Requires Google API key set as GOOGLE_API_KEY environment variable
-python recategorize_unknowns_llm.py --db-path=disclosures.db --max-entries=100
-
-# Run the complete pipeline
-python recategorize_all.py --db-path=disclosures.db
 ```
-
-## Rate Limiting and Error Handling
-
-The system includes sophisticated rate limiting to ensure you don't exceed Gemini API limits:
-
-- **Adaptive Waiting**: Automatically waits when approaching rate limits
-- **Retry Logic**: Implements exponential backoff for rate limit errors
-- **Progress Tracking**: Shows real-time statistics on successful/failed/rate-limited requests
-- **Resumable Processing**: Can continue from where it left off if interrupted
-
-When processing all parliaments, use the `--continue-on-error` flag to ensure processing continues even if individual PDFs fail:
-
-```bash
-python process_parliament_disclosures.py --all --store-in-db --rpm 10 --continue-on-error
-```
-
-## Data Structure
-
-The AI extracts structured data from PDFs into the following JSON format:
-
-## Entity Deduplication and Double Disclosure Detection
-
-The system includes specialized tools for identifying and handling "double disclosure" scenarios where a single disclosure entry contains multiple entities that should be treated separately:
-
-### Double Disclosure Detection Workflow
-
-```bash
-# Step 1: Analyze potential double disclosures in the database
-python scripts/double_disclosure_analysis.py
-
-# Step 2: Prepare data for Gemini analysis
-python scripts/prepare_gemini_entity_analysis.py
-
-# Step 3: Analyze entities with Gemini AI to distinguish between true multiple entities and single entities with compound names
-python scripts/analyze_double_disclosures_with_gemini.py --api-key-file .gemini_api_key
-
-# Step 4: Summarize and generate reports from Gemini analysis results
-python scripts/summarize_gemini_entity_analysis.py --input-file scripts/gemini_results/compiled_results.json --output-dir scripts/gemini_summary
-
-# Step 5: Apply high-confidence results to update the database (dry run)
-python scripts/apply_double_disclosure_entity_results.py --db disclosures.db --input-file scripts/gemini_results/compiled_results.json
-
-# Step 6: Apply changes to the database (after reviewing dry run)
-python scripts/apply_double_disclosure_entity_results.py --db disclosures.db --input-file scripts/gemini_results/compiled_results.json --no-dry-run
-```
-
-### Double Disclosure Documentation
-
-For a comprehensive understanding of the double disclosure detection workflow, see:
-
-- [Double Disclosure Analysis Guide](docs/workflows/double_disclosure_detection.md)
-- [Gemini API Setup](docs/guides/gemini_api_setup.md)
-
-This feature significantly improves data accuracy by properly handling cases where multiple entities are incorrectly grouped together in a single disclosure entry.
-
-### Data Processing Pipeline
-
-1. **PDF Processing**:
-   - `scripts/process_pdfs.py`: Extracts text from PDFs
-   - `scripts/parse_disclosures.py`: Parses disclosure text into structured data
-   - `scripts/apply_parsing_results.py`: Applies parsing results to database
-
-2. **Entity Processing**:
-   - `scripts/process_entities.py`: Processes and standardizes entity names
-   - `scripts/apply_entity_results.py`: Applies entity standardization results to database
-   - `scripts/apply_double_disclosure_entity_results.py`: Processes and splits combined entity names (copies all original data for new rows).
-   - `scripts/reset_original_entities.py`: Resets entity values for reprocessing
-
-3. **Double Disclosure Processing**:
-   - `scripts/double_disclosure_analysis.py`: Identifies potential double disclosures
-   - `scripts/prepare_gemini_entity_analysis.py`: Prepares data for Gemini AI analysis
-   - `scripts/analyze_double_disclosures_with_gemini.py`: Uses Gemini AI to analyze entities
-   - `scripts/summarize_gemini_entity_analysis.py`: Generates analysis reports
-   - `scripts/apply_double_disclosure_entity_results.py`: Applies split results to database by updating the first split entity row and creating new rows (copying original data) for subsequent splits.
-
-4. **Data Analysis**:
-   - `scripts/analyze_disclosures.py`: Performs statistical analysis
-   - `scripts/generate_reports.py`: Creates summary reports
-   - `scripts/export_data.py`: Exports data in various formats
-
-### Data Quality Checks

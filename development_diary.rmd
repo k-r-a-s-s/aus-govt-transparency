@@ -663,3 +663,33 @@ The chunked raw response file saving logic in `pdf_gemini_pipeline.py` and its c
 - The current JSON-based approach is valuable for development and debugging, but is **not sufficient for robust, auditable, or production-grade entity canonicalization and migration**.
 - **A refactor is required** to guarantee the above requirements are met before using the results for database migration or downstream analysis.
 - The next agent or developer should prioritize implementing a UUID-traceable, auditable, and database-backed solution for entity grouping and canonicalization.
+
+# [2025-06-XX] Planned: Two-Step Canonical Entity Migration and Merging
+
+- The canonical entity migration will be performed in two CLI steps:
+
+## Step 1: Import All Canonicalized Entities
+- Implement a script (`src/cleaning/import_canonical_entities.py`) that pulls all entities (including `entity_id`, `original_name`, `canonical_name`, `status`, etc.) from `outputs/entity_grouping/entity_grouping.db` (`entity_canonicalization` table) into the main database's `entities` table.
+- This step ensures the main database has a complete, up-to-date list of all canonicalized entities, including their status and audit fields.
+- The script is idempotent and can be run multiple times safely.
+- CLI options: `--db-path`, `--entity-grouping-db`, `--dry-run`, `--verbose`.
+
+## Step 2: Merge on Canonical Name and Update Disclosures
+- Implement a script (`src/cleaning/merge_entities_on_canonical_name.py`) that merges entities in the main database based on `canonical_name`.
+- For each set of entities with the same `canonical_name`, select a single canonical `entity_id` (e.g., the lowest UUID or first inserted).
+- Update all disclosures in the `disclosures` table to reference the canonical `entity_id` for their entity's `canonical_name`.
+- Mark or remove obsolete/merged entities in the `entities` table for auditability.
+- The script is idempotent and logs all changes.
+- CLI options: `--db-path`, `--dry-run`, `--verbose`.
+
+- This two-step process ensures all canonicalized entities are present in the main database, and all disclosures are linked to a single canonical entity per group.
+
+# [2025-06-XX] Completed: Entity Merging and Canonicalization Finalization
+
+- Successfully executed `src/cleaning/merge_entities_on_canonical_name.py`.
+- For each canonical_name, a single canonical entity_id was selected (lowest UUID), all disclosures were updated to reference it, and obsolete entities were marked as merged (notes='merged').
+- Results:
+    - 8,825 disclosures updated
+    - 2,521 entities merged (marked as obsolete)
+    - 9,197 canonical entities remain
+- The entity deduplication and canonicalization process is now complete. All disclosures are linked to a single canonical entity per group, and the database is ready for downstream analysis or export.
