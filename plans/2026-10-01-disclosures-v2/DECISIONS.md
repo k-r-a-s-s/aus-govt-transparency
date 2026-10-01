@@ -65,9 +65,15 @@ mapping is needed.
 ## Human gates
 
 ### G1 — gold review: PENDING (2026-10-01)
-Kevin reviews `eval/gold/review.csv` (790 rows; how-to in `eval/gold/README.md`), then runs
-`python -m disclosures.gold apply-review`. Until every gold file has `reviewed_by: "kevin"`,
-AC-1.3 is not met and Phase 2's bake-off must not start.
+Phase 1 passed independent verification on 2026-10-01 (air-gapped verifier: every AC-0/AC-1
+criterion met except AC-1.3; gold spot-check 418/418 items agree with the PDF pages across all
+12 files, four scanned PDFs read in full). Kevin reviews `eval/gold/review.csv` (790 rows;
+how-to in `eval/gold/README.md`; the five judgement calls are listed in `HANDOFF.md`), then
+runs `python -m disclosures.gold apply-review`. Until every gold file has
+`reviewed_by: "kevin"`, AC-1.3 is not met and Phase 2's bake-off must not start.
+- Date reviewed:
+- Rows changed via `kevin_fix`:
+- Convention decisions (C4 statement_date, plibersekt p10 date, non-splits, C3 confidence):
 
 ### G2 — extractor choice: _pending_
 - Date:
