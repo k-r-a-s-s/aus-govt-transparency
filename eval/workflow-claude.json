@@ -1,0 +1,287 @@
+{
+  "mode": "pred",
+  "threshold": 85.0,
+  "n_pdfs": 12,
+  "n_pdfs_without_pred": 0,
+  "counts": {
+    "n_gold": 790,
+    "n_pred": 791,
+    "matched": 770,
+    "matched_section_ignored": 773
+  },
+  "precision": 0.9734513274336283,
+  "recall": 0.9746835443037974,
+  "f1": 0.974067046173308,
+  "section_ignored": {
+    "precision": 0.97724399494311,
+    "recall": 0.9784810126582278,
+    "f1": 0.9778621125869702
+  },
+  "accuracy": {
+    "owner": 0.9948051948051948,
+    "change_type": 0.9805194805194806,
+    "is_alteration": 0.990909090909091,
+    "page": 0.990909090909091,
+    "lodged_date": 0.9883116883116884
+  },
+  "accuracy_counts": {
+    "owner": {
+      "correct": 766,
+      "total": 770
+    },
+    "change_type": {
+      "correct": 755,
+      "total": 770
+    },
+    "is_alteration": {
+      "correct": 763,
+      "total": 770
+    },
+    "page": {
+      "correct": 763,
+      "total": 770
+    },
+    "lodged_date": {
+      "correct": 761,
+      "total": 770
+    }
+  },
+  "per_pdf": [
+    {
+      "stem": "butlerm_44p",
+      "pdf_path": "pdfs/44/butlerm_44p.pdf",
+      "has_pred": true,
+      "n_gold": 32,
+      "n_pred": 32,
+      "matched": 30,
+      "matched_section_ignored": 31,
+      "recall": 0.9375,
+      "recall_section_ignored": 0.96875
+    },
+    {
+      "stem": "gosling_47p",
+      "pdf_path": "pdfs/47/gosling_47p.pdf",
+      "has_pred": true,
+      "n_gold": 39,
+      "n_pred": 39,
+      "matched": 38,
+      "matched_section_ignored": 38,
+      "recall": 0.9743589743589743,
+      "recall_section_ignored": 0.9743589743589743
+    },
+    {
+      "stem": "husice_45p",
+      "pdf_path": "pdfs/45/husice_45p.pdf",
+      "has_pred": true,
+      "n_gold": 26,
+      "n_pred": 32,
+      "matched": 25,
+      "matched_section_ignored": 25,
+      "recall": 0.9615384615384616,
+      "recall_section_ignored": 0.9615384615384616
+    },
+    {
+      "stem": "kingm_47p",
+      "pdf_path": "pdfs/47/kingm_47p.pdf",
+      "has_pred": true,
+      "n_gold": 207,
+      "n_pred": 202,
+      "matched": 197,
+      "matched_section_ignored": 197,
+      "recall": 0.9516908212560387,
+      "recall_section_ignored": 0.9516908212560387
+    },
+    {
+      "stem": "morrison_47p",
+      "pdf_path": "pdfs/47/morrison_47p.pdf",
+      "has_pred": true,
+      "n_gold": 97,
+      "n_pred": 97,
+      "matched": 95,
+      "matched_section_ignored": 95,
+      "recall": 0.979381443298969,
+      "recall_section_ignored": 0.979381443298969
+    },
+    {
+      "stem": "morton_46p",
+      "pdf_path": "pdfs/46/morton_46p.pdf",
+      "has_pred": true,
+      "n_gold": 62,
+      "n_pred": 62,
+      "matched": 62,
+      "matched_section_ignored": 62,
+      "recall": 1.0,
+      "recall_section_ignored": 1.0
+    },
+    {
+      "stem": "plibersekt_43p",
+      "pdf_path": "pdfs/43/plibersekt_43p.pdf",
+      "has_pred": true,
+      "n_gold": 46,
+      "n_pred": 46,
+      "matched": 45,
+      "matched_section_ignored": 46,
+      "recall": 0.9782608695652174,
+      "recall_section_ignored": 1.0
+    },
+    {
+      "stem": "prenticej_45p",
+      "pdf_path": "pdfs/45/prenticej_45p.pdf",
+      "has_pred": true,
+      "n_gold": 72,
+      "n_pred": 72,
+      "matched": 72,
+      "matched_section_ignored": 72,
+      "recall": 1.0,
+      "recall_section_ignored": 1.0
+    },
+    {
+      "stem": "royw_43p",
+      "pdf_path": "pdfs/43/royw_43p.pdf",
+      "has_pred": true,
+      "n_gold": 13,
+      "n_pred": 13,
+      "matched": 10,
+      "matched_section_ignored": 11,
+      "recall": 0.7692307692307693,
+      "recall_section_ignored": 0.8461538461538461
+    },
+    {
+      "stem": "thistlethwaitem_44p",
+      "pdf_path": "pdfs/44/thistlethwaitem_44p.pdf",
+      "has_pred": true,
+      "n_gold": 71,
+      "n_pred": 71,
+      "matched": 71,
+      "matched_section_ignored": 71,
+      "recall": 1.0,
+      "recall_section_ignored": 1.0
+    },
+    {
+      "stem": "tink_47p",
+      "pdf_path": "pdfs/47/tink_47p.pdf",
+      "has_pred": true,
+      "n_gold": 77,
+      "n_pred": 77,
+      "matched": 77,
+      "matched_section_ignored": 77,
+      "recall": 1.0,
+      "recall_section_ignored": 1.0
+    },
+    {
+      "stem": "wilkie_46p",
+      "pdf_path": "pdfs/46/wilkie_46p.pdf",
+      "has_pred": true,
+      "n_gold": 48,
+      "n_pred": 48,
+      "matched": 48,
+      "matched_section_ignored": 48,
+      "recall": 1.0,
+      "recall_section_ignored": 1.0
+    }
+  ],
+  "worst_misses": [
+    {
+      "stem": "husice_45p",
+      "page": 4,
+      "section": 6,
+      "owner": "self",
+      "entity_name": "AMEX",
+      "description": "Credit Cards - American Express, AMEX/Visa, Mastercard (AMEX)",
+      "best_ratio": 40.0,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "gosling_47p",
+      "page": 8,
+      "section": 12,
+      "owner": "self",
+      "entity_name": "Chief Ministers Marquee",
+      "description": "Family tickets to Chief Ministers Marquee at the Darwin Supercars.",
+      "best_ratio": 49.056603773584904,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "royw_43p",
+      "page": 12,
+      "section": 8,
+      "owner": "self",
+      "entity_name": "BOQ Bribie Island",
+      "description": "MR WYATT ROY - PERSONAL BANK A/C",
+      "best_ratio": 51.42857142857143,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "royw_43p",
+      "page": 12,
+      "section": 8,
+      "owner": "self",
+      "entity_name": "BOQ Bribie Island",
+      "description": "MR WYATT ROY - Elect Allow BANK A/C",
+      "best_ratio": 51.42857142857143,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "kingm_47p",
+      "page": 50,
+      "section": 3,
+      "owner": "self",
+      "entity_name": null,
+      "description": "Osmington WA - Investment (Self and partner)",
+      "best_ratio": 73.01587301587301,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "kingm_47p",
+      "page": 50,
+      "section": 3,
+      "owner": "spouse",
+      "entity_name": null,
+      "description": "Osmington WA - Investment (Self and partner)",
+      "best_ratio": 73.01587301587301,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "kingm_47p",
+      "page": 49,
+      "section": 3,
+      "owner": "self",
+      "entity_name": null,
+      "description": "Shoalwater WA - Residential (Self and partner)",
+      "best_ratio": 74.6268656716418,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "kingm_47p",
+      "page": 49,
+      "section": 3,
+      "owner": "spouse",
+      "entity_name": null,
+      "description": "Shoalwater WA - Residential (Self and partner)",
+      "best_ratio": 74.6268656716418,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "kingm_47p",
+      "page": 49,
+      "section": 3,
+      "owner": "self",
+      "entity_name": null,
+      "description": "Beaconsfield WA - Investment (Self and partner)",
+      "best_ratio": 75.36231884057972,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "kingm_47p",
+      "page": 49,
+      "section": 3,
+      "owner": "spouse",
+      "entity_name": null,
+      "description": "Beaconsfield WA - Investment (Self and partner)",
+      "best_ratio": 75.36231884057972,
+      "matched_if_section_ignored": false
+    }
+  ],
+  "pred": "extractions/workflow-claude",
+  "gold": "eval/gold"
+}

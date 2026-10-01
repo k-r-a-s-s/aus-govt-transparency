@@ -131,11 +131,13 @@ roughly 286 pages ≈ 75k input + ~100k output tokens ≈ US$0.50; the full back
 - **`requirements.txt`** also pins `cryptography`, `cffi` and `pycparser`. google-auth needs
   them, and they were missing from the Phase 2 dependency list.
 
-### G2 — extractor choice: _pending_
+### G2 — extractor choice: _pending_ (workflow arm scored 2026-10-02; Gemini arm blocked on credits)
 - Date:
-- Bake-off F1 (workflow-claude vs gemini-api), cost:
+- Bake-off F1 (workflow-claude vs gemini-api), cost: workflow-claude F1 0.974 (P 0.973 / R 0.975,
+  owner 0.995, page 0.991, section-ignored recall 0.978 vs v1 0.625) — clears the ADR-4 bar; within
+  subscription. gemini-api: not run (402, credits depleted). See `eval/bakeoff.md`.
 - Choice:
-- Gemini model id (verified GA, not `gemini-[0-2].*`): `<TBD>`
+- Gemini model id (verified GA, not `gemini-[0-2].*`): `gemini-3.8-flash`
 
 ### G3 — entity spot-check: _pending_
 - Date:

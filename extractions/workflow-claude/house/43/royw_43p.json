@@ -1,0 +1,32 @@
+{
+  "schema_version": "2.0",
+  "source_id": "workflow-claude",
+  "model": "claude-code-sonnet",
+  "extracted_at": "2026-10-02T00:00:00+00:00",
+  "pdf_path": "pdfs/43/royw_43p.pdf",
+  "pdf_sha256": "aa4196f2d4ec3ab6e76509184841fd3f94e042400ce4647b6284c7feb76efe90",
+  "page_count": 14,
+  "pages_covered": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+  "chamber": "house",
+  "parliament": 43,
+  "member_name_as_printed": "Wyatt Beau Roy",
+  "electorate_or_state": "Longman",
+  "statement_date": "2010-10-06",
+  "usage": null,
+  "extraction_notes": "Section 6 self entry 'NO SIGNIFICANT - RENT RESIDENTIAL PROPERTY' treated as quasi-nil (C9) - no item. Section 13/14 self entries 'None of which I am aware ...' treated as quasi-nil (C9) - no item, despite the added free text about community-group involvement (no specific organisation named). Page 7 (alterations-since-dissolution page bound into the initial statement, C5) has both ADDITION and DELETION boxes blank - no items; its signature date (6/10/10) is used as statement_date, consistent with the covering letter on page 8 which references lodgement on 6 October 2010. Page 8 is a covering letter notifying a Qantas Chairman's Lounge addition - treated as the sole record of that change (no corresponding form page), so one item recorded on page 8. Page 11 is a covering letter that only restates the bank-account/residence changes detailed on the page 12 alteration form; per C2 it produces no items (items recorded once, on page 12). All later alteration-notice pages (9, 10, 12, 13, 14) carry no section-number column; section assigned by meaning per C3, confidence medium throughout those items.",
+  "items": [
+    {"section": 8, "subsection": null, "owner": "self", "entity_name": "NAB", "description": "MR WYATT ROY - Personal - NAB Caboolture", "location": null, "purpose": null, "is_alteration": false, "change_type": "initial", "lodged_date": "2010-10-06", "date_precision": "day", "page": 4, "confidence": "high"},
+    {"section": 8, "subsection": null, "owner": "self", "entity_name": "NAB", "description": "MR WYATT ROY - Elect Allow A/c - NAB Caboolture", "location": null, "purpose": null, "is_alteration": false, "change_type": "initial", "lodged_date": "2010-10-06", "date_precision": "day", "page": 4, "confidence": "high"},
+    {"section": 11, "subsection": null, "owner": "self", "entity_name": "Qantas Airways", "description": "Since the lodgement of my Statement of Registrable Interests on 6 October 2010 I have accepted an invitation from Qantas Airways to join the Chairman's Lounge.", "location": null, "purpose": null, "is_alteration": true, "change_type": "added", "lodged_date": "2010-10-25", "date_precision": "day", "page": 8, "confidence": "medium"},
+    {"section": 12, "subsection": null, "owner": "self", "entity_name": "Australian Defence Force Parliamentary Program", "description": "Round trip to Afghanistan transiting through Dubai, funded by the Australian Defence Force Parliamentary Program (nine days)", "location": null, "purpose": null, "is_alteration": true, "change_type": "added", "lodged_date": "2011-08-09", "date_precision": "day", "page": 9, "confidence": "medium"},
+    {"section": 12, "subsection": null, "owner": "self", "entity_name": null, "description": "Splendour in the Grass Festival tickets (member of Climate Change Panel)", "location": null, "purpose": null, "is_alteration": true, "change_type": "added", "lodged_date": "2011-08-09", "date_precision": "day", "page": 9, "confidence": "medium"},
+    {"section": 12, "subsection": null, "owner": "self", "entity_name": null, "description": "Tickets - Woodford Folk Festival 2012/12", "location": null, "purpose": null, "is_alteration": true, "change_type": "added", "lodged_date": "2012-02-10", "date_precision": "day", "page": 10, "confidence": "medium"},
+    {"section": 3, "subsection": null, "owner": "self", "entity_name": null, "description": "Purchase of Place of Residence - Woorin QLD", "location": "Woorin, QLD", "purpose": "residential", "is_alteration": true, "change_type": "added", "lodged_date": "2012-06-27", "date_precision": "day", "page": 12, "confidence": "medium"},
+    {"section": 8, "subsection": null, "owner": "self", "entity_name": "Bank of Queensland", "description": "MR WYATT ROY - Personal Bank A/c - BOQ Bribie Island", "location": null, "purpose": null, "is_alteration": true, "change_type": "added", "lodged_date": "2012-06-27", "date_precision": "day", "page": 12, "confidence": "medium"},
+    {"section": 8, "subsection": null, "owner": "self", "entity_name": "Bank of Queensland", "description": "MR WYATT ROY - Elect Allow Bank A/c - BOQ Bribie Island", "location": null, "purpose": null, "is_alteration": true, "change_type": "added", "lodged_date": "2012-06-27", "date_precision": "day", "page": 12, "confidence": "medium"},
+    {"section": 8, "subsection": null, "owner": "self", "entity_name": "NAB", "description": "MR WYATT ROY - Personal - NAB Caboolture (deleted)", "location": null, "purpose": null, "is_alteration": true, "change_type": "removed", "lodged_date": "2012-06-27", "date_precision": "day", "page": 12, "confidence": "medium"},
+    {"section": 8, "subsection": null, "owner": "self", "entity_name": "NAB", "description": "MR WYATT ROY - Elect Allow A/c - NAB Caboolture (deleted)", "location": null, "purpose": null, "is_alteration": true, "change_type": "removed", "lodged_date": "2012-06-27", "date_precision": "day", "page": 12, "confidence": "medium"},
+    {"section": 12, "subsection": null, "owner": "self", "entity_name": null, "description": "Tickets - Woodford Folk Festival 2012-13", "location": null, "purpose": null, "is_alteration": true, "change_type": "added", "lodged_date": "2012-12-07", "date_precision": "day", "page": 13, "confidence": "medium"},
+    {"section": 11, "subsection": null, "owner": "self", "entity_name": "Fresh Advertising", "description": "Assist with the development of an IPHONE application - Fresh Advertising", "location": null, "purpose": null, "is_alteration": true, "change_type": "added", "lodged_date": "2013-03-04", "date_precision": "day", "page": 14, "confidence": "medium"}
+  ]
+}
