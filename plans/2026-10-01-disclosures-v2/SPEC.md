@@ -1,6 +1,7 @@
 # Disclosures v2 — SPEC
 
 Status: DRAFT, awaiting sign-off · Author: Fable planner · Date: 2026-10-01
+Progress (2026-10-01): Phase 1 built, paused at G1 — see `HANDOFF.md` and `DECISIONS.md`.
 Repo: `aus-govt-transparency` (public, `github.com/k-r-a-s-s/aus-govt-transparency`) · Branch: `v2-upgrade`
 Owner / human-in-the-loop: Kevin
 
