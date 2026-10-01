@@ -62,10 +62,10 @@ the weakest file at 0.769.
   saved workflow as described in `docs/v2/extraction.md`.
 - All 12 files validated on the first attempt (0 fix rounds).
 - Cost line ("within subscription"): agent output+tool tokens per bundle as reported by the
-  harness: bundle 1 (5 PDFs, 91 pp) see note; bundle 2 (4 PDFs, 72 pp) 210,869; bundle 3
-  (2 PDFs, 110 pp) 281,587; bundle 4 (1 PDF, 16 pp) 108,898. Wall-clock per bundle: 23 min /
-  24 min / 9 min (bundle 1 see note); bundles ran in parallel, so the run took ≈ 25 min end to end.
-  Extrapolated to the 13,205-page House backfill (43rd–47th): ≈ 110 bundles ≈ 25–30 M agent
+  harness: bundle 1 (5 PDFs, 91 pp) 261,233; bundle 2 (4 PDFs, 72 pp) 210,869; bundle 3
+  (2 PDFs, 110 pp) 281,587; bundle 4 (1 PDF, 16 pp) 108,898. Total ≈ 863k agent tokens for 289 pages (≈ 3.0k per page). Wall-clock per bundle:
+  31 / 23 / 24 / 9 min; bundles ran in parallel, so the run took ≈ 31 min end to end.
+  Extrapolated to the 13,205-page House backfill (43rd–47th): ≈ 110 bundles ≈ 40 M agent
   tokens, several hours of wall-clock in waves of ≤ 22 agents, all on the subscription.
 
 ### gemini-api run details
