@@ -750,6 +750,6 @@
     }
   ],
   "extraction_notes": "Typed form, text layer present except p.13 (handwritten alteration form, older 'SURNAME/OTHER NAMES' layout). Initial statement pp.1-5, processed 26 Jul 2019; statement_date from the p.6 'since dissolution or date of election' notice dated 4/07/2019 (only signed date in the statement). Section numbering 1-14 matches standard list. p.8-9 is one notice (p.9 = signature page only, dated 29/06/2020, no items). Multi-entity cells split: s12 'Qantas and Virgin Australia' (initial and p.8 spouse), p.8 s6 'Home loan/My State, credit card/CBA', p.8 s9 four spouse assets, p.8/initial s14 two relationships each. p.10 and p.11 both dated 03/12/2020: p.11 re-states the Southport holiday home as joint tenancy (added + removed). Joint items on p.11/p.12 ('joint ... with spouse/partner') recorded as owner=self, medium - could also warrant a spouse row. p.8 s14 items are labelled 'Self -' so owner=self. consolidation 2026-10-01: split 3 joint items p11/p12 into self+spouse (C1); 3 items added, 48 items.",
-  "reviewed_by": null,
-  "reviewed_at": null
+  "reviewed_by": "kevin",
+  "reviewed_at": "2026-10-01"
 }

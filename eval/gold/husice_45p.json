@@ -424,6 +424,6 @@
     }
   ],
   "extraction_notes": "Typed statement; spouse/dependent rows are '---' (nil). statement_date = 27/9/16 on the p7 alteration page bound into the statement; Registry stamp p1 reads 30 SEP 2016. 45th-Parliament form uses the same 14 section numbers/headings as extract.md. p8 is a second 'since dissolution or date of election' page (also numbered 7) dated 13/10/16 (stamp 13 OCT 2016). Most alteration notices have no section number (only p9 '12.' and p10 '11'); others assigned by meaning, medium where judgement. p14 is a covering letter (18 Dec 2017) for the p15 form of the same date (home loan refinance); recorded once on p15. s6 credit-card creditors 'American Express, AMEX/Visa, Mastercard (AMEX, ANZ, Westpac)' split into one item per creditor (AMEX, ANZ, Westpac). p18 Qantas Chairman's Lounge 'for Ed Husic MP and partner Georgia Waters' recorded as one self item. p12 seven DVDs from Screen Australia recorded as one gift item. consolidation 2026-10-01: split 1 joint item p18 Qantas lounge member+partner (C1); 8 items on unnumbered notices set medium (C3); 1 item added, 26 items.",
-  "reviewed_by": null,
-  "reviewed_at": null
+  "reviewed_by": "kevin",
+  "reviewed_at": "2026-10-01"
 }

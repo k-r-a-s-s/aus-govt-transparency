@@ -64,16 +64,36 @@ mapping is needed.
 
 ## Human gates
 
-### G1 — gold review: PENDING (2026-10-01)
+### G1 — gold review: PASSED (2026-10-01)
 Phase 1 passed independent verification on 2026-10-01 (air-gapped verifier: every AC-0/AC-1
 criterion met except AC-1.3; gold spot-check 418/418 items agree with the PDF pages across all
-12 files, four scanned PDFs read in full). Kevin reviews `eval/gold/review.csv` (790 rows;
-how-to in `eval/gold/README.md`; the five judgement calls are listed in `HANDOFF.md`), then
-runs `python -m disclosures.gold apply-review`. Until every gold file has
-`reviewed_by: "kevin"`, AC-1.3 is not met and Phase 2's bake-off must not start.
-- Date reviewed:
-- Rows changed via `kevin_fix`:
+12 files, four scanned PDFs read in full). Kevin reviewed `eval/gold/review.csv` (790 rows)
+and approved the set as is ("it all looks good enough to me, let's go").
+- Date reviewed: 2026-10-01
+- Rows changed via `kevin_fix`: 0. All 790 rows ticked `kevin_ok=y` on Kevin's blanket
+  approval; `apply-review` set `reviewed_by: "kevin"`, `reviewed_at: 2026-10-01` on all 12
+  files; `validate eval/gold` 12 valid. AC-1.3 met.
 - Convention decisions (C4 statement_date, plibersekt p10 date, non-splits, C3 confidence):
+  all five judgement calls in `HANDOFF.md` accepted as applied; C3 confidence for lounge
+  memberships under section 12 stays uneven (not scored).
+
+## Phase 2 (extractors)
+
+### 2026-10-01 — Gemini model: `gemini-3.8-flash` (verified live)
+`client.models.list()` with the project key on 2026-10-01 lists `gemini-3.8-flash` (display
+name "Gemini 3.8 Flash", GA, no `-preview` suffix; actions generateContent, countTokens,
+createCachedContent, batchGenerateContent; 1,048,576 in / 65,536 out). Older 3.x Flash ids
+(3.5/3.6/3.7) and `gemini-2.5-*` are still listed; 2.5 shuts down mid-Oct 2026 and all 2.x
+ids are banned by `resolve_gemini_model()`. Pricing page (fetched 2026-10-01), paid tier per
+MTok: **$0.75 in / $3.75 out through 2026-12-31**, then $1.50 / $7.50 from 2027-01-01;
+Batch API 50% off. These two numbers are the cost basis for `eval/bakeoff.md`.
+`.env.local` `GEMINI_MODEL` was changed from `gemini-2.0-flash` to `gemini-3.8-flash`
+(value only). SDK: `google-genai==2.26.0` (added to `requirements.txt`).
+
+**Blocker found:** a live smoke call returned `402 RESOURCE_EXHAUSTED: Your prepayment credits
+are depleted` (AI Studio project billing). The Gemini arm of the bake-off cannot run until
+Kevin tops up the prepaid credits at https://ai.studio/projects. The gold-set run needs
+roughly 286 pages ≈ 75k input + ~100k output tokens ≈ US$0.50; the full backfill ≈ US$10–20.
 
 ### G2 — extractor choice: _pending_
 - Date:

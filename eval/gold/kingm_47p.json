@@ -3202,6 +3202,6 @@
     }
   ],
   "extraction_notes": "Typed 47th-Parliament form with text layer; all 81 pages rendered and checked. Section numbering/wording matches the 14-section list exactly. Initial statement (pp1-5) carries no signed date; statement_date and initial lodged_date use the 'PROCESSED 23 Aug 2022' stamp on p1. p6 is an attached 'Notification of alteration(s) of interests since dissolution or date of election' dated 22/08/2022 (items treated as alterations). Alteration lodged_date = the 'Date:' next to the signature (often on the notice's last page); PROCESSED stamps differ by 0-3 days. Multi-bank liability cells split one item per creditor; '(Self and partner)' entries recorded once for self and once for spouse. Items spanning a page break recorded on the page where they start (pp26, 27, 56). Re-declarations/clarifications of earlier gifts (pp15, 24, 35) recorded as change_type=varied. pp18 gifts were declared for a staff member (owner=unknown). Printed-date oddities kept verbatim: p21 'Date: 04/02/2022' (likely 2023), p61 'Received: 01/05/2025' (likely 2024), p26 Saudi gift 'Provided by: 03/11/2022' (date in provider field); several gifts are dated after the notice's signed date (pp12, 14, 16). consolidation 2026-10-01: split 2 joint upgrade items p81 'for Mrs King and husband' (C1); statement_date and initial lodged_date 2022-08-23 stamp -> 2022-08-22 signed date on the bound-in p6 page (C4); 23 tickets/flights/accommodation/upgrade items printed under 11 and 1 lounge membership printed under 12 set medium (C3); 2 items added, 207 items.",
-  "reviewed_by": null,
-  "reviewed_at": null
+  "reviewed_by": "kevin",
+  "reviewed_at": "2026-10-01"
 }

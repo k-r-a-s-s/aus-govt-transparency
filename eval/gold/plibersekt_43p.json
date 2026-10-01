@@ -721,6 +721,6 @@
     }
   ],
   "extraction_notes": "Handwritten statement. statement_date = 18.10.2010 signed date on p7 (alteration page bound into the statement); Registry stamp on p1 reads 22 OCT 2010. 43rd-Parliament form uses the same 14 section numbers/headings as extract.md (2(i)/2(ii) sub-tables; rows labelled 'Spouse' not 'Spouse/partner'). Section 13 self says 'see attached list' -> p8 typed attachment, recorded as initial items on p8. Alteration notices (p7, p9-p15) have a free-text Item column with no section number; sections assigned by meaning (gifts/tickets/upgrades/hospitality) and marked medium where the gift-vs-hospitality choice was judgement. p10 notice is dated '7.5.11' but discloses a 15 June ball and is stamped 6 JUL 2011; lodged_date uses the stamp. Section 12 spouse '(as above)' recorded as a copy of the self item. consolidation 2026-10-01: 6 unnumbered-notice items set medium and p12 National Press Club membership 11->13 (C3); p9 hamper to electorate staff owner->unknown (C8); p10 lodged_date = legible signed date 7.5.11 (2011-05-07) instead of the 6 JUL 2011 stamp (C4); 0 items added, 46 items. Not split (C1 not explicit): spouse-row '(jointly)' Rosebery property and mortgage.",
-  "reviewed_by": null,
-  "reviewed_at": null
+  "reviewed_by": "kevin",
+  "reviewed_at": "2026-10-01"
 }

@@ -960,6 +960,6 @@
     }
   ],
   "extraction_notes": "Typed form, text layer present. Initial statement pp.1-5, processed 30 Jul 2019; statement_date from the p.6 'since dissolution or date of election' notice dated 30/07/2019 (same lodgement). p.6 items treated as alterations (is_alteration=true) lodged 2019-07-30. Section numbering 1-14 matches the standard list. Multi-entity cells split one item per entity: s6 'Westpac / Amex' (creditor-to-liability mapping ambiguous, medium), s9 super 'Australian Super/ PSS' and 'Australian Super / GESB', s11 lounge 'Qantas and Virgin' for self and spouse. p.6 s9 deletion 'Self and Spouse' recorded as two removed items (self + spouse). s9 time share entity recorded as 'HOLIDAY CLUB' (medium; may be a generic description). p.10 Griffith ACT recorded as added (full) + removed (50% share) per the form's Addition/Deletion layout, i.e. effectively a variation to sole ownership. p.11 corrects the p.8 'return flight' to 'one way flight' (deletion + re-addition). p.13 dated 04/10/2021, processed 05 Oct 2021 - lodged_date uses the signed date. consolidation 2026-10-01: p14 soft toys printed under 12 (fit 11) set medium (C3); 0 items added, 62 items.",
-  "reviewed_by": null,
-  "reviewed_at": null
+  "reviewed_by": "kevin",
+  "reviewed_at": "2026-10-01"
 }

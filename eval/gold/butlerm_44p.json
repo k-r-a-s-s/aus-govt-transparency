@@ -509,6 +509,6 @@
     }
   ],
   "extraction_notes": "Fully scanned, handwritten initial statement (pp.1-7), stamped 9 Dec 2013; statement_date taken from the handwritten date on the p.7 alteration/signature page, read as 4/12/13 (month digits cramped). Section headings 1-14 match the standard list. Sections 11, 12, 14 blank (no diagonal strike) = no items. p.7 'since dissolution' alterations: Addition Nil, Deletion Nil. p.3/p.4 spouse rows say 'As above - joint ownership' / 'As above' - recorded as spouse items duplicating self properties/mortgage (medium). p.8 letter (gifts) handwritten date unclear ('2?/3/2014', probably 21) - lodged_date uses registry stamp 24 Mar 2014. p.11 letter handwritten date '1?/12/2014' unclear - lodged_date uses stamp 15 Dec 2014. p.13 addition names no section number - mapped to 11 (gift) by meaning; could arguably be 12 (hospitality). p.6 'Patron, Eliz & Districts Tennis Assoc.' read as patronage of Elizabeth & Districts Tennis Assoc. consolidation 2026-10-01: set p8 letter ('Declaration of Gifts') festival passes medium as printed-11-looks-like-12, moved p13 unnumbered festival passes 11->12 medium (C3); 0 items added, 32 items.",
-  "reviewed_by": null,
-  "reviewed_at": null
+  "reviewed_by": "kevin",
+  "reviewed_at": "2026-10-01"
 }
