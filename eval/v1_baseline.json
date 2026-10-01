@@ -1,0 +1,272 @@
+{
+  "mode": "v1",
+  "threshold": 85.0,
+  "n_pdfs": 12,
+  "n_pdfs_without_pred": 0,
+  "counts": {
+    "n_gold": 790,
+    "n_pred": 577,
+    "matched": null,
+    "matched_section_ignored": 494
+  },
+  "precision": null,
+  "recall": null,
+  "f1": null,
+  "section_ignored": {
+    "precision": 0.8561525129982669,
+    "recall": 0.6253164556962025,
+    "f1": 0.7227505486466715
+  },
+  "accuracy": {
+    "owner": null,
+    "change_type": null,
+    "is_alteration": null,
+    "page": null,
+    "lodged_date": null
+  },
+  "accuracy_counts": {
+    "owner": null,
+    "change_type": null,
+    "is_alteration": null,
+    "page": null,
+    "lodged_date": null
+  },
+  "per_pdf": [
+    {
+      "stem": "butlerm_44p",
+      "pdf_path": "pdfs/44/butlerm_44p.pdf",
+      "has_pred": true,
+      "n_gold": 32,
+      "n_pred": 13,
+      "matched": null,
+      "matched_section_ignored": 12,
+      "recall": null,
+      "recall_section_ignored": 0.375
+    },
+    {
+      "stem": "gosling_47p",
+      "pdf_path": "pdfs/47/gosling_47p.pdf",
+      "has_pred": true,
+      "n_gold": 39,
+      "n_pred": 31,
+      "matched": null,
+      "matched_section_ignored": 8,
+      "recall": null,
+      "recall_section_ignored": 0.20512820512820512
+    },
+    {
+      "stem": "husice_45p",
+      "pdf_path": "pdfs/45/husice_45p.pdf",
+      "has_pred": true,
+      "n_gold": 26,
+      "n_pred": 26,
+      "matched": null,
+      "matched_section_ignored": 17,
+      "recall": null,
+      "recall_section_ignored": 0.6538461538461539
+    },
+    {
+      "stem": "kingm_47p",
+      "pdf_path": "pdfs/47/kingm_47p.pdf",
+      "has_pred": true,
+      "n_gold": 207,
+      "n_pred": 173,
+      "matched": null,
+      "matched_section_ignored": 156,
+      "recall": null,
+      "recall_section_ignored": 0.7536231884057971
+    },
+    {
+      "stem": "morrison_47p",
+      "pdf_path": "pdfs/47/morrison_47p.pdf",
+      "has_pred": true,
+      "n_gold": 97,
+      "n_pred": 74,
+      "matched": null,
+      "matched_section_ignored": 66,
+      "recall": null,
+      "recall_section_ignored": 0.6804123711340206
+    },
+    {
+      "stem": "morton_46p",
+      "pdf_path": "pdfs/46/morton_46p.pdf",
+      "has_pred": true,
+      "n_gold": 62,
+      "n_pred": 44,
+      "matched": null,
+      "matched_section_ignored": 35,
+      "recall": null,
+      "recall_section_ignored": 0.5645161290322581
+    },
+    {
+      "stem": "plibersekt_43p",
+      "pdf_path": "pdfs/43/plibersekt_43p.pdf",
+      "has_pred": true,
+      "n_gold": 46,
+      "n_pred": 31,
+      "matched": null,
+      "matched_section_ignored": 26,
+      "recall": null,
+      "recall_section_ignored": 0.5652173913043478
+    },
+    {
+      "stem": "prenticej_45p",
+      "pdf_path": "pdfs/45/prenticej_45p.pdf",
+      "has_pred": true,
+      "n_gold": 72,
+      "n_pred": 50,
+      "matched": null,
+      "matched_section_ignored": 44,
+      "recall": null,
+      "recall_section_ignored": 0.6111111111111112
+    },
+    {
+      "stem": "royw_43p",
+      "pdf_path": "pdfs/43/royw_43p.pdf",
+      "has_pred": true,
+      "n_gold": 13,
+      "n_pred": 12,
+      "matched": null,
+      "matched_section_ignored": 10,
+      "recall": null,
+      "recall_section_ignored": 0.7692307692307693
+    },
+    {
+      "stem": "thistlethwaitem_44p",
+      "pdf_path": "pdfs/44/thistlethwaitem_44p.pdf",
+      "has_pred": true,
+      "n_gold": 71,
+      "n_pred": 59,
+      "matched": null,
+      "matched_section_ignored": 56,
+      "recall": null,
+      "recall_section_ignored": 0.7887323943661971
+    },
+    {
+      "stem": "tink_47p",
+      "pdf_path": "pdfs/47/tink_47p.pdf",
+      "has_pred": true,
+      "n_gold": 77,
+      "n_pred": 45,
+      "matched": null,
+      "matched_section_ignored": 45,
+      "recall": null,
+      "recall_section_ignored": 0.5844155844155844
+    },
+    {
+      "stem": "wilkie_46p",
+      "pdf_path": "pdfs/46/wilkie_46p.pdf",
+      "has_pred": true,
+      "n_gold": 48,
+      "n_pred": 19,
+      "matched": null,
+      "matched_section_ignored": 19,
+      "recall": null,
+      "recall_section_ignored": 0.3958333333333333
+    }
+  ],
+  "worst_misses": [
+    {
+      "stem": "gosling_47p",
+      "page": 6,
+      "section": 13,
+      "owner": "self",
+      "entity_name": "CPSU",
+      "description": "Deletion: 13. Memberships - CPSU",
+      "best_ratio": 20.0,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "wilkie_46p",
+      "page": 4,
+      "section": 9,
+      "owner": "self",
+      "entity_name": "PSS",
+      "description": "PSS superannuation account",
+      "best_ratio": 25.0,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "gosling_47p",
+      "page": 5,
+      "section": 13,
+      "owner": "self",
+      "entity_name": "Buffalo Club",
+      "description": "Buffalo Club",
+      "best_ratio": 26.66666666666667,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "gosling_47p",
+      "page": 7,
+      "section": 12,
+      "owner": "self",
+      "entity_name": "US IVLP program",
+      "description": "Participated in the US IVLP program travelling at US expense to DC and NY including accomodation in January '23",
+      "best_ratio": 29.411764705882348,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "wilkie_46p",
+      "page": 4,
+      "section": 10,
+      "owner": "self",
+      "entity_name": null,
+      "description": "Book royalties",
+      "best_ratio": 30.434782608695656,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "butlerm_44p",
+      "page": 4,
+      "section": 8,
+      "owner": "spouse",
+      "entity_name": "Westpac",
+      "description": "Savings account",
+      "best_ratio": 30.769230769230774,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "wilkie_46p",
+      "page": 4,
+      "section": 9,
+      "owner": "self",
+      "entity_name": "DFRDB",
+      "description": "DFRDB death benefits",
+      "best_ratio": 31.578947368421055,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "wilkie_46p",
+      "page": 4,
+      "section": 10,
+      "owner": "self",
+      "entity_name": "DFRDB",
+      "description": "DFRDB pension",
+      "best_ratio": 31.578947368421055,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "gosling_47p",
+      "page": 5,
+      "section": 13,
+      "owner": "self",
+      "entity_name": "SDA",
+      "description": "SDA",
+      "best_ratio": 33.33333333333333,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "wilkie_46p",
+      "page": 4,
+      "section": 10,
+      "owner": "self",
+      "entity_name": "DVA",
+      "description": "DVA pension",
+      "best_ratio": 33.33333333333333,
+      "matched_if_section_ignored": false
+    }
+  ],
+  "v1_db": "disclosures.db",
+  "gold": "eval/gold"
+}

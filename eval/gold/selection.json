@@ -1,0 +1,163 @@
+{
+  "seed": 20261001,
+  "generated_at": "2026-10-01T11:17:32+00:00",
+  "method": "Greedy stratified selection over eval/pdf_stats.csv (House statements only; the resolution-text and explanatory-notes PDFs are excluded), seeded shuffle for tie-breaks. Quotas: the largest PDF; >=3 with >30 pages; >=3 with >70% no-text-layer pages (<20 chars); >=2 heuristic spouse/dependent (text-layer row label followed by non-nil text); >=2 heuristic alteration-heavy (>=20 pages or >=3 text pages mentioning 'alteration'); >=2 per parliament 43-47; topped up at random. Regenerate with `python -m disclosures.gold select --seed <seed> --n <n>`.",
+  "n": 12,
+  "pdfs": [
+    {
+      "pdf_path": "pdfs/43/plibersekt_43p.pdf",
+      "parliament": 43,
+      "page_count": 15,
+      "no_text_fraction": 0.9333,
+      "strata": [
+        "parliament_43",
+        "no_text_gt70"
+      ],
+      "heuristic_spouse": false,
+      "heuristic_alteration": false
+    },
+    {
+      "pdf_path": "pdfs/43/royw_43p.pdf",
+      "parliament": 43,
+      "page_count": 14,
+      "no_text_fraction": 1.0,
+      "strata": [
+        "parliament_43",
+        "no_text_gt70"
+      ],
+      "heuristic_spouse": false,
+      "heuristic_alteration": false
+    },
+    {
+      "pdf_path": "pdfs/44/butlerm_44p.pdf",
+      "parliament": 44,
+      "page_count": 13,
+      "no_text_fraction": 1.0,
+      "strata": [
+        "parliament_44",
+        "no_text_gt70"
+      ],
+      "heuristic_spouse": false,
+      "heuristic_alteration": false
+    },
+    {
+      "pdf_path": "pdfs/44/thistlethwaitem_44p.pdf",
+      "parliament": 44,
+      "page_count": 31,
+      "no_text_fraction": 1.0,
+      "strata": [
+        "parliament_44",
+        "gt30pages",
+        "no_text_gt70",
+        "heuristic_alteration"
+      ],
+      "heuristic_spouse": false,
+      "heuristic_alteration": true
+    },
+    {
+      "pdf_path": "pdfs/45/husice_45p.pdf",
+      "parliament": 45,
+      "page_count": 18,
+      "no_text_fraction": 1.0,
+      "strata": [
+        "parliament_45",
+        "no_text_gt70"
+      ],
+      "heuristic_spouse": false,
+      "heuristic_alteration": false
+    },
+    {
+      "pdf_path": "pdfs/45/prenticej_45p.pdf",
+      "parliament": 45,
+      "page_count": 34,
+      "no_text_fraction": 0.9118,
+      "strata": [
+        "parliament_45",
+        "gt30pages",
+        "no_text_gt70",
+        "heuristic_spouse",
+        "heuristic_alteration"
+      ],
+      "heuristic_spouse": true,
+      "heuristic_alteration": true
+    },
+    {
+      "pdf_path": "pdfs/46/morton_46p.pdf",
+      "parliament": 46,
+      "page_count": 14,
+      "no_text_fraction": 0.0,
+      "strata": [
+        "parliament_46",
+        "heuristic_spouse",
+        "heuristic_alteration"
+      ],
+      "heuristic_spouse": true,
+      "heuristic_alteration": true
+    },
+    {
+      "pdf_path": "pdfs/46/wilkie_46p.pdf",
+      "parliament": 46,
+      "page_count": 14,
+      "no_text_fraction": 0.0,
+      "strata": [
+        "parliament_46",
+        "heuristic_alteration"
+      ],
+      "heuristic_spouse": false,
+      "heuristic_alteration": true
+    },
+    {
+      "pdf_path": "pdfs/47/gosling_47p.pdf",
+      "parliament": 47,
+      "page_count": 10,
+      "no_text_fraction": 0.0,
+      "strata": [
+        "parliament_47",
+        "heuristic_spouse",
+        "heuristic_alteration"
+      ],
+      "heuristic_spouse": true,
+      "heuristic_alteration": true
+    },
+    {
+      "pdf_path": "pdfs/47/kingm_47p.pdf",
+      "parliament": 47,
+      "page_count": 81,
+      "no_text_fraction": 0.0,
+      "strata": [
+        "parliament_47",
+        "gt30pages",
+        "max_pages",
+        "heuristic_spouse",
+        "heuristic_alteration"
+      ],
+      "heuristic_spouse": true,
+      "heuristic_alteration": true
+    },
+    {
+      "pdf_path": "pdfs/47/morrison_47p.pdf",
+      "parliament": 47,
+      "page_count": 29,
+      "no_text_fraction": 0.2414,
+      "strata": [
+        "parliament_47",
+        "heuristic_alteration"
+      ],
+      "heuristic_spouse": false,
+      "heuristic_alteration": true
+    },
+    {
+      "pdf_path": "pdfs/47/tink_47p.pdf",
+      "parliament": 47,
+      "page_count": 16,
+      "no_text_fraction": 0.0,
+      "strata": [
+        "parliament_47",
+        "heuristic_spouse",
+        "heuristic_alteration"
+      ],
+      "heuristic_spouse": true,
+      "heuristic_alteration": true
+    }
+  ]
+}
