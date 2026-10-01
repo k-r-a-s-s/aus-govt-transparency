@@ -8,7 +8,6 @@ from typing import List, Optional
 # command -> phase in which it lands (stubs until then)
 STUBS = {
     "scrape": 4,
-    "extract": 2,
     "load": 2,
     "entities": 3,
     "export": 5,
@@ -41,6 +40,10 @@ def build_parser() -> argparse.ArgumentParser:
             p.add_argument("paths", nargs="+", help="extraction JSON files and/or directories")
         elif name == "score":
             score.add_arguments(p)
+        elif name == "extract":
+            from . import extract_gemini
+
+            extract_gemini.add_arguments(p)
         else:
             p.add_argument("rest", nargs=argparse.REMAINDER, help=argparse.SUPPRESS)
     return parser
@@ -58,6 +61,10 @@ def main(argv: Optional[List[str]] = None) -> int:
         return run(args.paths)
     if args.command == "score":
         from .score import run
+
+        return run(args)
+    if args.command == "extract":
+        from .extract_gemini import run
 
         return run(args)
     print(f"{args.command}: not implemented yet (Phase {STUBS[args.command]})", file=sys.stderr)

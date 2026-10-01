@@ -117,6 +117,19 @@ def validate_file(path: str | Path, root: str | Path | None = None) -> List[str]
             errors.append(f"items[{i}]: lodged_date null but date_precision {item.date_precision!r}")
         elif item.lodged_date is not None and item.date_precision == "unknown":
             errors.append(f"items[{i}]: lodged_date {item.lodged_date} but date_precision 'unknown'")
+        # date_precision month => day 01; year => month 01 and day 01.
+        if item.lodged_date is not None:
+            _, mm, dd = item.lodged_date.split("-")
+            if item.date_precision == "month" and dd != "01":
+                errors.append(f"items[{i}]: date_precision 'month' requires day 01, got {item.lodged_date}")
+            elif item.date_precision == "year" and (mm, dd) != ("01", "01"):
+                errors.append(f"items[{i}]: date_precision 'year' requires MM-DD 01-01, got {item.lodged_date}")
+        # is_alteration=false <=> change_type == "initial".
+        if not item.is_alteration and item.change_type != "initial":
+            errors.append(f"items[{i}]: is_alteration false requires change_type 'initial', "
+                          f"got {item.change_type!r}")
+        elif item.is_alteration and item.change_type == "initial":
+            errors.append(f"items[{i}]: is_alteration true but change_type 'initial'")
 
     pdf = root / doc.pdf_path
     path_error = _pdf_path_error(doc.pdf_path, root)

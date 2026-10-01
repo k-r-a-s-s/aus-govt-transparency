@@ -145,3 +145,56 @@ def test_consistent_dates_accepted(fake_repo):
     doc["items"][0]["date_precision"] = "month"
     f = write_json(root / "ex/d4.json", doc)
     assert validate_file(f) == []
+
+
+# --- is_alteration <=> change_type != "initial" ------------------------------------------
+
+def test_non_alteration_requires_initial(fake_repo):
+    root, doc = fake_repo
+    doc["items"][0]["change_type"] = "added"  # is_alteration stays false
+    f = write_json(root / "ex/a1.json", doc)
+    errs = validate_file(f)
+    assert "items[0]: is_alteration false requires change_type 'initial', got 'added'" in errs
+
+
+def test_alteration_rejects_initial(fake_repo):
+    root, doc = fake_repo
+    doc["items"][1]["change_type"] = "initial"  # is_alteration stays true
+    f = write_json(root / "ex/a2.json", doc)
+    assert "items[1]: is_alteration true but change_type 'initial'" in validate_file(f)
+
+
+def test_alteration_change_type_pairs_accepted(fake_repo):
+    root, doc = fake_repo
+    for ct in ("added", "removed", "varied", "unknown"):
+        doc["items"][1]["change_type"] = ct
+        f = write_json(root / f"ex/a_{ct}.json", doc)
+        assert validate_file(f) == [], ct
+
+
+# --- date_precision consistency ------------------------------------------------------------
+
+def test_month_precision_requires_day_01(fake_repo):
+    root, doc = fake_repo
+    doc["items"][1]["lodged_date"] = "2017-03-15"  # precision "month"
+    f = write_json(root / "ex/m.json", doc)
+    assert "items[1]: date_precision 'month' requires day 01, got 2017-03-15" in validate_file(f)
+
+
+def test_year_precision_requires_jan_01(fake_repo):
+    root, doc = fake_repo
+    doc["items"][0]["date_precision"] = "year"
+    for bad in ("2016-08-01", "2016-01-30"):
+        doc["items"][0]["lodged_date"] = bad
+        f = write_json(root / "ex/y.json", doc)
+        assert f"items[0]: date_precision 'year' requires MM-DD 01-01, got {bad}" in validate_file(f)
+    doc["items"][0]["lodged_date"] = "2016-01-01"
+    f = write_json(root / "ex/y_ok.json", doc)
+    assert validate_file(f) == []
+
+
+def test_day_precision_any_day(fake_repo):
+    root, doc = fake_repo
+    doc["items"][0]["lodged_date"] = "2016-01-01"
+    f = write_json(root / "ex/dd.json", doc)
+    assert validate_file(f) == []

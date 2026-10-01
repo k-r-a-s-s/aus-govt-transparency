@@ -95,6 +95,42 @@ are depleted` (AI Studio project billing). The Gemini arm of the bake-off cannot
 Kevin tops up the prepaid credits at https://ai.studio/projects. The gold-set run needs
 roughly 286 pages ≈ 75k input + ~100k output tokens ≈ US$0.50; the full backfill ≈ US$10–20.
 
+### 2026-10-02 — Phase 2a extractor decisions (choices the spec left open)
+- **De-dup key extended.** ADR-5 de-duplicates on (section, owner, normalised
+  entity/description, page). Chunks don't overlap, and an item outside its chunk's range is an
+  error, so a key that contains `page` can only match items from the same chunk. On the gold
+  set that bare key matches 52 of 790 genuine distinct items: two Westpac loans on one page,
+  several gifts from one body, and similar. Merging would delete them all, costing about 6.6
+  points of recall. The key is therefore extended with the normalised description,
+  subsection, change_type and lodged_date (0 gold matches). It still removes exact repeats.
+  See `extract_gemini.dedup_key`.
+  Known edge (Phase 2a verifier): the key still ignores `location`, `purpose`, `confidence`
+  and `date_precision`, so two same-page items with an identical bare description that differ
+  only in location/purpose would collapse. Zero such cases in gold (section-3 descriptions
+  embed the location); watch for it in the backfill validate/score reports.
+- **Inline bytes, not the Files API**, for chunks of 15 MB or less (inline limit 20 MB).
+  Larger chunks are uploaded and deleted after the call.
+- **Chunk-relative page rule.** The model is told to give absolute pages. If a chunk starts
+  after page 1 and every returned page is within 1..chunk_len, the pages are shifted by
+  start-1; otherwise they are trusted. When halving, the first half gets the extra page, so
+  every chunk that starts after page 1 starts after its own length, and the rule can't misfire
+  (tested). A page outside the chunk fails the PDF; pages are never clamped.
+- **Re-split triggers:** `MAX_TOKENS`, or unparseable or wrong-shaped JSON. Other non-STOP
+  finish reasons fail the PDF straight away.
+- **`--max-retries` default 4** (at most 5 tries per call; 429 and 5xx only). `usage.output_tokens`
+  includes thinking tokens, which are billed as output.
+- **Writes are atomic:** temp file, then `validate_file`, then rename. An earlier valid output
+  survives a failed `--force` re-run.
+- **`statement_date`:** an unparseable value from the model is set to null, with a note.
+  It isn't scored, and it shouldn't sink a whole file. Bad item dates still fail the file.
+- **`--batch` skipped.** It exits 2 (`NotImplementedError` in `extract_pdfs`). Re-split rounds
+  would need a multi-round batch driver, and at about US$0.50 for the gold run the 50%
+  discount isn't worth it yet.
+- **Validator guards added** (Phase 1 verifier gaps): `is_alteration` ⇔ `change_type != "initial"`;
+  `date_precision` `month` ⇒ day 01, `year` ⇒ `-01-01`. All 12 gold files still pass.
+- **`requirements.txt`** also pins `cryptography`, `cffi` and `pycparser`. google-auth needs
+  them, and they were missing from the Phase 2 dependency list.
+
 ### G2 — extractor choice: _pending_
 - Date:
 - Bake-off F1 (workflow-claude vs gemini-api), cost:
