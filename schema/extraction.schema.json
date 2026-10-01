@@ -1,0 +1,327 @@
+{
+  "$defs": {
+    "Item": {
+      "additionalProperties": false,
+      "description": "One disclosed interest (one row / one company in a cell).",
+      "properties": {
+        "change_type": {
+          "enum": [
+            "initial",
+            "added",
+            "removed",
+            "varied",
+            "unknown"
+          ],
+          "title": "Change Type",
+          "type": "string"
+        },
+        "confidence": {
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ],
+          "title": "Confidence",
+          "type": "string"
+        },
+        "date_precision": {
+          "enum": [
+            "day",
+            "month",
+            "year",
+            "unknown"
+          ],
+          "title": "Date Precision",
+          "type": "string"
+        },
+        "description": {
+          "description": "Verbatim-ish text of this item only.",
+          "title": "Description",
+          "type": "string"
+        },
+        "entity_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Company/bank/organisation/person/trust named, as printed.",
+          "title": "Entity Name"
+        },
+        "is_alteration": {
+          "title": "Is Alteration",
+          "type": "boolean"
+        },
+        "location": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Section 3 (real estate) location.",
+          "title": "Location"
+        },
+        "lodged_date": {
+          "anyOf": [
+            {
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Lodged Date"
+        },
+        "owner": {
+          "enum": [
+            "self",
+            "spouse",
+            "dependent_child",
+            "unknown"
+          ],
+          "title": "Owner",
+          "type": "string"
+        },
+        "page": {
+          "description": "1-based page of the source PDF.",
+          "minimum": 1,
+          "title": "Page",
+          "type": "integer"
+        },
+        "purpose": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Section 3 (real estate) purpose.",
+          "title": "Purpose"
+        },
+        "section": {
+          "description": "Official section number 1-14.",
+          "maximum": 14,
+          "minimum": 1,
+          "title": "Section",
+          "type": "integer"
+        },
+        "subsection": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "e.g. \"2(i)\", \"2(ii)\"; null if none.",
+          "title": "Subsection"
+        }
+      },
+      "required": [
+        "section",
+        "subsection",
+        "owner",
+        "entity_name",
+        "description",
+        "location",
+        "purpose",
+        "is_alteration",
+        "change_type",
+        "lodged_date",
+        "date_precision",
+        "page",
+        "confidence"
+      ],
+      "title": "Item",
+      "type": "object"
+    },
+    "Usage": {
+      "additionalProperties": false,
+      "properties": {
+        "input_tokens": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Input Tokens"
+        },
+        "output_tokens": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Output Tokens"
+        }
+      },
+      "title": "Usage",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "description": "One extraction file = one source PDF.",
+  "properties": {
+    "chamber": {
+      "enum": [
+        "house",
+        "senate"
+      ],
+      "title": "Chamber",
+      "type": "string"
+    },
+    "electorate_or_state": {
+      "title": "Electorate Or State",
+      "type": "string"
+    },
+    "extracted_at": {
+      "title": "Extracted At",
+      "type": "string"
+    },
+    "extraction_notes": {
+      "title": "Extraction Notes",
+      "type": "string"
+    },
+    "items": {
+      "items": {
+        "$ref": "#/$defs/Item"
+      },
+      "title": "Items",
+      "type": "array"
+    },
+    "member_name_as_printed": {
+      "title": "Member Name As Printed",
+      "type": "string"
+    },
+    "model": {
+      "title": "Model",
+      "type": "string"
+    },
+    "page_count": {
+      "minimum": 1,
+      "title": "Page Count",
+      "type": "integer"
+    },
+    "pages_covered": {
+      "items": {
+        "minimum": 1,
+        "type": "integer"
+      },
+      "title": "Pages Covered",
+      "type": "array"
+    },
+    "parliament": {
+      "maximum": 48,
+      "minimum": 43,
+      "title": "Parliament",
+      "type": "integer"
+    },
+    "pdf_path": {
+      "description": "Repo-relative path to the PDF.",
+      "minLength": 1,
+      "title": "Pdf Path",
+      "type": "string"
+    },
+    "pdf_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Pdf Sha256",
+      "type": "string"
+    },
+    "reviewed_at": {
+      "anyOf": [
+        {
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Reviewed At"
+    },
+    "reviewed_by": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Reviewed By"
+    },
+    "schema_version": {
+      "const": "2.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "source_id": {
+      "description": "e.g. workflow-claude, gemini-api, gold.",
+      "minLength": 1,
+      "title": "Source Id",
+      "type": "string"
+    },
+    "statement_date": {
+      "anyOf": [
+        {
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Statement Date"
+    },
+    "usage": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/Usage"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    }
+  },
+  "required": [
+    "schema_version",
+    "source_id",
+    "model",
+    "extracted_at",
+    "pdf_path",
+    "pdf_sha256",
+    "page_count",
+    "pages_covered",
+    "chamber",
+    "parliament",
+    "member_name_as_printed",
+    "electorate_or_state",
+    "statement_date",
+    "items",
+    "extraction_notes"
+  ],
+  "title": "Extraction",
+  "type": "object"
+}

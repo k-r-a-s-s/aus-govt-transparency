@@ -1,33 +1,16 @@
-# Core dependencies
-requests>=2.31.0
-beautifulsoup4>=4.12.2
-python-dotenv>=1.0.0
-pandas>=2.0.0  # For data manipulation and analysis
-lxml>=4.9.2  # Required for pandas read_html function
-
-# Google Cloud dependencies
-google-cloud-vision>=3.4.5
-google-cloud-storage>=2.13.0
-google-generativeai>=0.7.0  # Updated for Gemini 2.0 support
-
-# PDF processing
-PyMuPDF>=1.23.7  # For PDF processing (fitz)
-PyPDF2>=3.0.0
-
-# HTTP client for URL fetching
-httpx>=0.25.0  # For fetching PDFs from URLs
-
-# Database
-# SQLite is built-in to Python
-
-# Utilities
-tqdm>=4.66.1  # For progress bars
-tenacity>=8.2.3  # For retries
-uuid>=1.30  # For generating unique IDs
-
-# Base requirements
-fuzzywuzzy
-python-Levenshtein # Often improves fuzzywuzzy speed
-
-# LLM Verification Script Requirements
-pandas 
+# Disclosures v2 runtime dependencies (pinned; regenerate with `.venv/bin/pip freeze`).
+# v1 code under src/ is frozen and its dependencies are intentionally not listed here.
+annotated-types==0.8.0
+attrs==26.1.0
+jsonschema==4.26.0
+jsonschema-specifications==2025.9.1
+numpy==2.4.6
+pydantic==2.13.5
+pydantic_core==2.46.5
+PyMuPDF==1.28.2
+RapidFuzz==3.14.6
+referencing==0.37.0
+rpds-py==2026.6.3
+scipy==1.17.1
+typing-inspection==0.4.4
+typing_extensions==4.16.0

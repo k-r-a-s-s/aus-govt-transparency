@@ -1,0 +1,48 @@
+{
+  "schema_version": "2.0",
+  "source_id": "gold",
+  "model": "fixture",
+  "extracted_at": "2026-10-01T00:00:00+00:00",
+  "pdf_path": "pdfs/45/fixture_45p.pdf",
+  "pdf_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "page_count": 3,
+  "pages_covered": [1, 2, 3],
+  "chamber": "house",
+  "parliament": 45,
+  "member_name_as_printed": "Jane Fixture",
+  "electorate_or_state": "Testville",
+  "statement_date": "2016-08-30",
+  "items": [
+    {
+      "section": 1,
+      "subsection": null,
+      "owner": "self",
+      "entity_name": "BHP Group Limited",
+      "description": "BHP Group Limited",
+      "location": null,
+      "purpose": null,
+      "is_alteration": false,
+      "change_type": "initial",
+      "lodged_date": "2016-08-30",
+      "date_precision": "day",
+      "page": 1,
+      "confidence": "high"
+    },
+    {
+      "section": 8,
+      "subsection": null,
+      "owner": "spouse",
+      "entity_name": "Commonwealth Bank of Australia",
+      "description": "Savings account",
+      "location": null,
+      "purpose": null,
+      "is_alteration": true,
+      "change_type": "added",
+      "lodged_date": "2017-03-01",
+      "date_precision": "month",
+      "page": 3,
+      "confidence": "medium"
+    }
+  ],
+  "extraction_notes": ""
+}
