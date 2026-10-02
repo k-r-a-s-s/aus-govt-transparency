@@ -7,3 +7,4 @@
 2026-10-02T12:38Z | T0.2 | done | spent US$0.00 | Baseline: 198 tests pass; load 768 docs / 303 members / 763 terms / 42,042 items, exit 0, hard AC-2.7 all 0, AC-2.9 0 null party; AC-2.8 hash f69d40da…; credit US$18.87
 2026-10-02T12:39Z | T1.1 | done | spent US$0.00 | scripts/find_attachment_gaps.py -> eval/attachment_gaps.csv, 29 candidates incl. all 12 D1 files; 2 tests; 200 pass
 2026-10-02T12:42Z | T1.2a | done | spent US$0.00 | Split T1.2 by parliament (29>25). 43rd: 2 confirmed gaps (coultonm_43p, nevillep_43p), 6 ok, 1 not in PDF; eval/attachment_gaps.md started
+2026-10-02T12:44Z | T1.2b | done | spent US$0.00 | 44th: 3 confirmed gaps (coultonm_44p, huntg_44p, pynec_44p), 3 ok, 2 not in PDF; eval/attachment_gaps.md ## 44th

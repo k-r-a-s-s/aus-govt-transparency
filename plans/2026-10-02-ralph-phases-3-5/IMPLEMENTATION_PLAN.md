@@ -94,9 +94,9 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
 - notes: T1.2 split 2026-10-02 (29 candidates > 25) by parliament, per its own instruction. 43rd: 2 attachment_not_itemised (coultonm_43p, nevillep_43p), 6 itemised_ok, 1 attachment_not_in_pdf (somlyaya). Added `expected` column to CSV + FIELDS.
 
 ### T1.2b — Confirm the 44th candidates by looking at the pages
-- status: todo
+- status: done 2026-10-02
 - deps: T1.2a
-- attempts: 0
+- attempts: 1
 - budget: US$0 (you read the PDFs yourself with the Read tool, ≤ 20 pages per call) · network: none
 - do: For each candidate in the 44th (8 rows), open the referencing page and the attachment pages. Set `verdict`
   to `attachment_not_itemised` (attachment bound in, items missing), `itemised_ok`,
@@ -106,6 +106,7 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   re-extract, and anything odd.
 - done when: every in the 44th (8 rows) row in `eval/attachment_gaps.csv` has a verdict; `eval/attachment_gaps.md`
   has its section.
+- notes: 44th: 3 attachment_not_itemised (coultonm_44p, huntg_44p, pynec_44p, a CV as the s13 list), 3 itemised_ok, 2 attachment_not_in_pdf (grayg, turnbullm gift details).
 
 ### T1.2c — Confirm the 45th/47th candidates and summarise
 - status: todo

@@ -27,3 +27,24 @@ Re-extract (43rd): `pdfs/43/coultonm_43p.pdf`, `pdfs/43/nevillep_43p.pdf`.
 Odd: both confirmed gaps are super-fund portfolios on a separate page headed only by the fund's
 name (Coulton) or as an adviser's letter (Neville), with no "Attachment" label or section number. The ones that were itemised (broadbentr, slipperp) have an explicit
 "ATTACHMENT"/"ANNEXURE" heading or a covering line naming the item.
+
+## 44th
+
+| file | verdict | evidence |
+|---|---|---|
+| broadbentr_44p | itemised_ok | p8 "ATTACHMENT" (super fund holds CBA, Telstra) has its 2 items on p8; same layout as the 43rd. |
+| coultonm_44p | **attachment_not_itemised** | p2 s1 self+spouse "MM & RA Coulton Self-Managed Super Fund (see attached list)"; p8 is the fund's portfolio (2 cash, 5 managed funds, 9 listed shares, 1 REIT). 0 items on p8, though the notes name the page. |
+| fletcher_44p | itemised_ok | p20 alteration "See Attachment 1/2" for s12/s13; Attachment 1 (p21, 16 Qantas/Virgin upgrades) and Attachment 2 (p22, 10 memberships) are itemised. The p20 placeholder items are left over; C12 would drop them. |
+| grayg_44p | attachment_not_in_pdf | p32/p33 s11 wine gifts "details attached": the next pages are further alteration forms, so the details sheets aren't in the PDF. Each gift is recorded. |
+| huntg_44p | **attachment_not_itemised** | p10 alteration (19 Mar 2014) "Revised membership list – see attached"; p11 is the list (4 memberships, 8 community groups, 3 sponsorships). 0 items on p11. The "membership resignations – see attached" list isn't in the PDF. |
+| perrettg_44p | itemised_ok | p11 gift "see attached ticket stubs"; p10 is a photo of the two State of Origin tickets. The gift is recorded, and the stubs add no interest. |
+| pynec_44p | **attachment_not_itemised** | p6 s13 self "LIST ATTACHED"; p8–10 is a Sept 2013 CV whose "Community and other activities" list (≈ 50 entries) gives the memberships. 0 items on p8–10. |
+| turnbullm_44p | attachment_not_in_pdf | p33/p37 s11 gifts "surrendered … as per the attached Declaration": the following pages (p34, p38) are other alteration forms. Gifts are recorded. |
+
+Re-extract (44th): `pdfs/44/coultonm_44p.pdf`, `pdfs/44/huntg_44p.pdf`, `pdfs/44/pynec_44p.pdf`.
+
+Odd: `pynec_44p`'s "attachment" is a full CV. Most entries are past roles with end dates
+(e.g. "Royal Adelaide Golf Club, 1988–2012"). Under C12 it should yield one s13 item per
+organisation listed, but T1.5 should only expect the open-ended ones (the `expected` names are
+all current). `coultonm` misses the same super-fund page in both the 43rd and 44th, so the
+45th copy probably has the same gap. `huntg_45p` is a candidate too (T1.2c).
