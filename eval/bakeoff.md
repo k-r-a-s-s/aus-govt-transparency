@@ -90,6 +90,12 @@ Worst misses (from the scorer):
   - **claude-sonnet-5.5:** 557k input tokens (≈ 1,900 per page); US$2.304 + 0.074 (smoke). The
     most precise section-ignored arm (0.999) and the best lodged_date (0.999); every miss is a
     mis-sectioning or a split/merge difference, none a misread.
+- **`--reasoning-effort low` variant (gemini-api, same fallback; scratch run, not committed):**
+  F1 0.977 (P 0.980, R 0.975), section-ignored recall 0.984, owner 1.000, page 1.000,
+  lodged_date 0.997; 215k input / 118k output tokens, US$0.356 for all 12 PDFs (≈ US$16 for
+  the backfill, vs ≈ US$22 at the default effort). It clears the bar and reads dates slightly
+  better, but loses 1 F1 point (morton 0.935, plibersek 0.913 section-strict, tink 74/77
+  items). Not recommended unless the budget forces it: the saving is ≈ US$6.
 - Early-dated items check (AC-2.7, informational): 2 on the 23 workflow-claude files loaded so far
   (both gashj_43p, section 11, lodged 2009-04-29, medium confidence). Re-list after the full backfill.
 

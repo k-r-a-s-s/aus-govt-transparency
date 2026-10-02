@@ -20,7 +20,7 @@ file only holds what those don't.
   the recommendation; Kevin has not yet confirmed it.
 - **Backfill: still 23 of 768** (the committed workflow-claude files). Nothing has been run on
   the non-gold PDFs.
-- **OpenRouter credit ≈ US$17.5 of 30 remains** (check: `curl -H "Authorization: Bearer
+- **OpenRouter credit ≈ US$17.3 of 30 remains** (check: `curl -H "Authorization: Bearer
   $OPENROUTER_KEY" https://openrouter.ai/api/v1/credits`). The backfill at the recommended
   configuration is ≈ US$22 (scaled from US$0.48 for the 289 gold pages), so it needs a top-up
   of ≈ US$10 or will stop part-way (idempotent: just re-run after topping up).
@@ -50,10 +50,9 @@ file only holds what those don't.
 
 ## In-flight / deliberately out of scope
 - `extractions/workflow-claude/` (23 files) stays committed as bake-off evidence and fallback.
-- A `--reasoning-effort low` Gemini variant was being scored for cost at handover time
-  (scratch output, not committed); if it lands, its numbers go in `eval/bakeoff.md` as a note.
-  If its F1 holds within a point of 0.987, use it for the backfill to cut the thinking-token
-  cost (Gemini's output tokens were 155k vs 186k input on the gold set).
+- A `--reasoning-effort low` Gemini variant was scored (scratch output, not committed):
+  F1 0.977 for ≈ 25% less (≈ US$16 backfill vs 22). Recorded in `eval/bakeoff.md`; not
+  recommended unless budget forces it (the saving is ≈ US$6 for 1 F1 point).
 - Gemini `--batch` is still not implemented (exit 2). OpenRouter's `:batch` is a separate async
   API; `provider.order google-ai-studio/flex` already gives the 50% price synchronously.
 - `scrape, entities, export, refresh` are stubs (exit 2). Phase 4a is independent.

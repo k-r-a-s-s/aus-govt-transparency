@@ -276,4 +276,5 @@ turned the first three gold runs into a single "PDF not found" argument (no cost
 `google-ai-studio/flex` with `--fallback-model anthropic/claude-sonnet-5.5`.** Kevin to
 confirm. Budget note: OpenRouter credit is ≈ US$17.5 of 30 after this session's ≈ US$3.6 of
 gold runs and probes; the backfill at this configuration is ≈ US$22, so a top-up of ≈ US$10 is
-needed before (or during) it. A `--reasoning-effort low` variant is being scored for cost.
+needed before (or during) it. A `--reasoning-effort low` variant scored F1 0.977 at ≈ 25%
+less (≈ US$16 backfill); kept as the budget option only (`eval/bakeoff.md`).
