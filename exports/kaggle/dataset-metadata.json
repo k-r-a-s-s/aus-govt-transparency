@@ -1,0 +1,192 @@
+{
+  "title": "Australian Parliament Registers of Interests",
+  "id": "KAGGLE_USERNAME/australian-parliament-registers-of-interests",
+  "subtitle": "Every interest disclosed by federal MPs and senators, 2010 to now",
+  "description": "See README.md: one row per disclosed item, with member, party and standardised entity.",
+  "isPrivate": true,
+  "licenses": [
+    {
+      "name": "unknown"
+    }
+  ],
+  "keywords": [
+    "politics",
+    "government",
+    "australia"
+  ],
+  "resources": [
+    {
+      "path": "disclosures_v2.csv",
+      "description": "One row per disclosed item.",
+      "schema": {
+        "fields": [
+          {
+            "name": "item_id",
+            "type": "string",
+            "description": "Stable id of the disclosed item (sha1 of the document hash and the item's content; see docs/v2/loading.md)."
+          },
+          {
+            "name": "chamber",
+            "type": "string",
+            "description": "`house` (House of Representatives) or `senate`."
+          },
+          {
+            "name": "parliament",
+            "type": "integer",
+            "description": "Parliament number (43 = 2010-2013 \u2026 48 = 2025-)."
+          },
+          {
+            "name": "member_id",
+            "type": "string",
+            "description": "Stable member id (slug of the member's name, e.g. `tony_abbott`); the same person keeps one id across parliaments and chambers."
+          },
+          {
+            "name": "member_name",
+            "type": "string",
+            "description": "Member's full name."
+          },
+          {
+            "name": "party",
+            "type": "string",
+            "description": "Member's party for this parliament (start of term)."
+          },
+          {
+            "name": "political_bloc",
+            "type": "string",
+            "description": "`Labor`, `Coalition` or `Crossbench`, derived from party."
+          },
+          {
+            "name": "electorate_or_state",
+            "type": "string",
+            "description": "House: electorate. Senate: state or territory."
+          },
+          {
+            "name": "statement_date",
+            "type": "string",
+            "description": "Date of the member's initial statement (YYYY-MM-DD), where printed."
+          },
+          {
+            "name": "section",
+            "type": "integer",
+            "description": "Register section number (1-14, the House form's numbering; Senate categories are mapped onto it)."
+          },
+          {
+            "name": "subsection",
+            "type": "string",
+            "description": "Sub-part of the section where the form has one (`2(i)` family trusts, `2(ii)` other trusts), else empty."
+          },
+          {
+            "name": "category",
+            "type": "string",
+            "description": "Section name: Shareholding, Trust, Real estate, Directorship, Partnership, Liability, Bond/debenture, Account, Other asset, Income, Gift, Sponsored travel/hospitality, Membership, Other interest."
+          },
+          {
+            "name": "owner",
+            "type": "string",
+            "description": "Whose interest it is: `self`, `spouse`, `dependent_child` or `unknown`."
+          },
+          {
+            "name": "entity_name_as_printed",
+            "type": "string",
+            "description": "The company, organisation, trust or person the item names, as printed. Empty when the item names no entity (e.g. a house address)."
+          },
+          {
+            "name": "entity_id",
+            "type": "string",
+            "description": "Standardised entity id; items naming the same organisation in different spellings share it. Empty for no entity or a generic term (e.g. `family trust`)."
+          },
+          {
+            "name": "entity_name",
+            "type": "string",
+            "description": "Canonical name of the standardised entity."
+          },
+          {
+            "name": "entity_type",
+            "type": "string",
+            "description": "Entity type (listed_company, private_company, bank_or_financial, trust_or_fund, association_or_ngo, sporting_body, government_body, political_party, union, airline, media_or_entertainment, education, person, other). Empty for one-off (singleton) entities."
+          },
+          {
+            "name": "entity_asx_code",
+            "type": "string",
+            "description": "ASX ticker when the entity is a listed company we matched."
+          },
+          {
+            "name": "entity_match_method",
+            "type": "string",
+            "description": "How the name was standardised: `curated` (hand table), `asx` (ASX listed-companies snapshot), `llm` (LLM grouping of variants), `singleton` (one-off name, its own entity) or `generic` (generic term, no entity)."
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "description": "The item as printed on the form (the full cell text)."
+          },
+          {
+            "name": "location",
+            "type": "string",
+            "description": "Location, where the form gives one (real estate, travel)."
+          },
+          {
+            "name": "purpose",
+            "type": "string",
+            "description": "Purpose, where the form gives one (real estate, liabilities)."
+          },
+          {
+            "name": "is_alteration",
+            "type": "integer",
+            "description": "1 if the item comes from a later Notification of Alteration, 0 if from the initial statement."
+          },
+          {
+            "name": "change_type",
+            "type": "string",
+            "description": "`initial`, `added`, `removed`, `varied` or `unknown`."
+          },
+          {
+            "name": "lodged_date",
+            "type": "string",
+            "description": "Date the statement or alteration was lodged (YYYY-MM-DD; see date_precision)."
+          },
+          {
+            "name": "date_precision",
+            "type": "string",
+            "description": "`day`, `month` (day set to 01) or `unknown` (no date printed; lodged_date empty)."
+          },
+          {
+            "name": "page",
+            "type": "integer",
+            "description": "Page of the source PDF the item is on (1-based). Senate items: 1."
+          },
+          {
+            "name": "extraction_confidence",
+            "type": "string",
+            "description": "Extractor's confidence in the item: `high`, `medium` or `low` (low/medium = hard-to-read scan or ambiguous layout)."
+          },
+          {
+            "name": "source_file",
+            "type": "string",
+            "description": "Source document path in the repository (House PDF, or the Senate API JSON payload)."
+          },
+          {
+            "name": "source_sha256",
+            "type": "string",
+            "description": "sha256 of the source document."
+          },
+          {
+            "name": "source_url",
+            "type": "string",
+            "description": "Where the source document was downloaded from (APH)."
+          },
+          {
+            "name": "extraction_source",
+            "type": "string",
+            "description": "`gemini-api` (LLM transcription of the PDF) or `senate-json` (Senate interests API, no LLM)."
+          },
+          {
+            "name": "extraction_model",
+            "type": "string",
+            "description": "Model(s) that transcribed the PDF; `a+b` means model b handled pages model a refused."
+          }
+        ]
+      }
+    }
+  ]
+}

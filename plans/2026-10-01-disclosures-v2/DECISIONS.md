@@ -639,3 +639,21 @@ V1's cold check found two places where C12 output could be read two ways.
   `entities` commands; it doesn't load, since the House extractions aren't there yet.
 - The gemini run ends with online `entities`, so a refresh that adds new long-tail entity names
   makes paid LLM calls (≈ US$0.01 per request) through the existing cache.
+
+## 2026-10-03 — `export`: columns, source_url, licence placeholder (T5.1)
+
+- 33 snake_case columns from one `COLUMNS` list (`disclosures/export.py`); the Kaggle README field
+  dictionary and `dataset-metadata.json` schema are generated from it, so they can't drift.
+  Rows sort by chamber, parliament, member, file, page, section, item_id (deterministic).
+- `entity_match_method` is looked up per item (`entity_aliases` by `normalise_entity(raw)`), so
+  readers can tell curated from LLM-grouped and singleton entities.
+- `load` never fills `documents.source_url`/`fetched_at` (all NULL). Export falls back to
+  `pdfs/manifest.csv` by sha256 (all 50,936 rows get a URL) instead of changing `load` here.
+- Export refuses to write if the joined row count differs from `select count(*) from items`.
+- Licence and Kaggle owner are Kevin's call (G4): metadata defaults to `licenses: unknown`,
+  `id: KAGGLE_USERNAME/australian-parliament-registers-of-interests`, `isPrivate: true`;
+  `--license`/`--kaggle-id` set them. APH site content is published under a Creative Commons
+  licence that Kevin should check before choosing one for the derived dataset.
+- `exports/*.csv` (30 MB each) are gitignored; README + metadata are committed for review.
+- Prompt v0/v1 split is described in the README (7 re-extracted files + House 48th on v1), not
+  a column: the DB doesn't record prompt versions.

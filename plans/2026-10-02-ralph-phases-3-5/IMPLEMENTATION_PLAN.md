@@ -586,9 +586,9 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
 ## M5 — Phase 5: prepare publication (SPEC ADR-10, AC-5). Kevin publishes (G4).
 
 ### T5.1 — `export`
-- status: todo
+- status: done 2026-10-03
 - deps: V3
-- attempts: 0
+- attempts: 1
 - budget: US$0 · network: none
 - do: Implement `export` per ADR-10/AC-5.1: `exports/disclosures_v2.csv` (one row per item,
   joined with member, term and entity; readable column names) and `exports/kaggle/`
@@ -596,6 +596,7 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   known limitations, including D2's untyped singletons and D1's prompt-v0/v1 split, and
   `dataset-metadata.json`). Tests on a small fixture DB.
 - done when: the AC-5.1 checks pass on the real DB (CSV rows = `select count(*) from items`).
+- notes: real DB 50,936 rows = items (both CSVs), 33 cols, dictionary covers all, 0 rows w/o source_url (manifest fallback: load leaves documents.source_url NULL); CSVs gitignored, README+metadata committed; 7 tests.
 
 ### T5.2 — `site/` and the Pages workflow
 - status: todo
@@ -671,4 +672,4 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
 - status: todo
 - owner: kevin
 - deps: V5
-- notes: Kevin: merge to main, enable Pages, upload to Kaggle, announce (SPEC G4).
+- notes: Kevin: merge to main, enable Pages, upload to Kaggle, announce (SPEC G4). Before upload: choose the licence and Kaggle id (`export --license NAME --kaggle-id USER/SLUG`; defaults are placeholders, DECISIONS 2026-10-03 T5.1).

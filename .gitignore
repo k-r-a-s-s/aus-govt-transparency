@@ -135,3 +135,7 @@ Thumbs.db
 
 # Ralph loop logs and scratch (plans/2026-10-02-ralph-phases-3-5)
 .ralph/
+
+# export CSVs (30 MB each; regenerate with python -m disclosures export). README + metadata are committed.
+/exports/*.csv
+/exports/kaggle/*.csv

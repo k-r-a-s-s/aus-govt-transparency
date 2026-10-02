@@ -34,3 +34,4 @@
 2026-10-02T15:30Z | T3.9 | done | spent US$0.00 | Senate archives: API current-only (no parliament param); 44th/45th per-senator scans 62+75; tabled volumes 43rd–47th 40 PDFs/6,456 pp; follow-up splitter + ≈US$18–25; docs only (ADR-9)
 2026-10-02T15:34Z | T3.10 | done | spent US$0.27 | entities full DB: 26 requests, 11,544 entities, AC-3.3 0, AC-3.4 PASS; top 50 all curated; G3 pack regenerated 114 rows; 313 pass
 2026-10-02T15:42Z | V3 | done | spent US$0.00 | cold verify Phase 4: PASS, no findings; rebuild deterministic, manifest/refresh/senate mapping/validate all hold; 313 pass
+2026-10-02T15:47Z | T5.1 | done | spent US$0.00 | export: 50,936 rows = items, 33 cols, Kaggle README (dictionary/method/limitations) + dataset-metadata.json; source_url via manifest; 319 pass

@@ -22,6 +22,7 @@ Spec: `plans/2026-10-01-disclosures-v2/SPEC.md`.
 | `disclosures/sources.py` | House register URLs (43rd–48th), browser-UA HTTP with retries, listing parser (fixtures in `tests/fixtures/aph/`) |
 | `disclosures/manifest.py` | `pdfs/manifest.csv` (ADR-8): one row per tracked PDF; `python -m disclosures.manifest --backfill [--html-dir DIR]` rebuilds it, matching source_url/listed_date from the 43rd–47th archive listings |
 | `disclosures/members.py` | `python -m disclosures.members --parliament 48 [--dry-run]`: `pdf_members.csv`/`member_aliases.csv` rows for newly scraped PDFs (D3); prints NEW members with same-surname earlier members to eyeball. `--party-terms --wiki-revision ID …` writes `party_terms.csv` rows (`source=wikipedia_48`) from pinned Wikipedia revisions |
+| `disclosures/export.py` | `export`: published CSV + Kaggle package (ADR-10); columns and field dictionary in `COLUMNS` |
 | `disclosures/entities.py` | entity standardisation (ADR-6); see `docs/v2/entities.md` |
 | `data/entities/` | committed entity inputs: generic terms, curated aliases, ASX exclusions, LLM cache |
 | `data/reference/` | ASX listed-companies snapshots (`entities --fetch-asx`) |
@@ -67,6 +68,7 @@ python -m disclosures entities --offline --report [MD]   # also refresh eval/ent
 python -m disclosures entities --g3-review [CSV]   # G3 review pack -> eval/entities_g3_review.csv, then stop
 python -m disclosures entities --llm-dry-run   # long-tail blocks / uncached / requests, then stop
 python -m disclosures entities [--llm-limit N] [--workers 8]   # online: LLM for uncached blocks (paid, OpenRouter)
+python -m disclosures export [--db disclosures_v2.db] [--out exports] [--kaggle-id USER/SLUG] [--license NAME]   # CSV + Kaggle package
 python -m disclosures.schema --write | --check              # regenerate / check the JSON Schema
 python -m disclosures.gold stats [--force]                  # eval/pdf_stats.csv
 python -m disclosures.gold select --seed 20261001 --n 12    # eval/gold/selection.json
@@ -75,7 +77,7 @@ python -m disclosures.gold apply-review                     # mark fully-ticked 
 ```
 
 `python -m disclosures scrape --chamber house --parliament 48 [--verify]` downloads 48th statements to `pdfs/48/` and updates `pdfs/manifest.csv` (`docs/v2/scrape.md`).
-`export` is a registered stub (exit 2) until Phase 5.
+`export` writes `exports/disclosures_v2.csv` (one row per item, 33 columns) and `exports/kaggle/` (the same CSV, `README.md` with the field dictionary, method and known limitations, `dataset-metadata.json`). It reads the DB read-only and fills `source_url` from `pdfs/manifest.csv`. The CSVs are gitignored; README and metadata are committed. Set `--kaggle-id`/`--license` before uploading (G4).
 The workflow arm (`extract-disclosures`) runs through the Claude Code Workflow tool, not the CLI; see `docs/v2/extraction.md`.
 
 Extraction files live at `extractions/<source_id>/<chamber>/<parliament>/<pdf_stem>.json`.
