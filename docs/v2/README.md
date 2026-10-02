@@ -16,8 +16,12 @@ Spec: `plans/2026-10-01-disclosures-v2/SPEC.md`.
 | `disclosures/gold.py` | PDF stats, gold selection, review sheet |
 | `disclosures/extract_gemini.py` | Extractor B `gemini-api`: chunked, schema-constrained Gemini extraction (ADR-5) |
 | `disclosures/gemini_model.py` | `resolve_gemini_model()`: the one Gemini model-id resolver (bans 0.x-2.x ids) |
+| `disclosures/load.py` | loader: validated extractions -> `disclosures_v2.db` (ADR-7); see `docs/v2/loading.md` |
+| `data/overrides/` | member identity + party-per-term CSVs carried forward from v1 (see its `README.md`) |
+| `scripts/seed_v2_overrides.py` | one-off: regenerate / `--check` `data/overrides/` from v1 assets (read-only) |
 | `.claude/workflows/extract-disclosures.js` | Extractor A `workflow-claude`: Claude Code Workflow script (ADR-5) |
 | `docs/v2/extraction.md` | how to run both extractors |
+| `docs/v2/loading.md` | what `load` does: member resolution, item ids, AC-2.7 queries |
 | `disclosures/prompts/extract.md` | shared extraction instructions (gold drafters and extractors) |
 | `eval/` | gold set, PDF stats, baselines (see `eval/README.md`) |
 | `plans/2026-10-01-disclosures-v2/` | `SPEC.md` (plan), `DECISIONS.md` (decision log), `HANDOFF.md` (current state, next action) |
@@ -31,7 +35,7 @@ python3 -m venv .venv
 .venv/bin/python -m pytest -q
 ```
 
-## Commands implemented so far (Phases 1 and 2a)
+## Commands implemented so far (Phases 1, 2a and 2c)
 
 ```sh
 python -m disclosures --help
@@ -40,6 +44,8 @@ python -m disclosures extract --source gemini [--model ID] [--out-root extractio
     [--chunk-pages 20] [--max-retries 4] [--force] <pdfs...>   # see docs/v2/extraction.md
 python -m disclosures score --pred <dir> --gold eval/gold [--json out.json]
 python -m disclosures score --v1 disclosures.db --gold eval/gold [--json eval/v1_baseline.json]
+python -m disclosures load --source workflow-claude [--db disclosures_v2.db] \
+    [--extractions extractions] [--overrides data/overrides]   # see docs/v2/loading.md
 python -m disclosures.schema --write | --check              # regenerate / check the JSON Schema
 python -m disclosures.gold stats [--force]                  # eval/pdf_stats.csv
 python -m disclosures.gold select --seed 20261001 --n 12    # eval/gold/selection.json
@@ -47,7 +53,7 @@ python -m disclosures.gold review-sheet                     # eval/gold/review.c
 python -m disclosures.gold apply-review                     # mark fully-ticked gold files reviewed
 ```
 
-`scrape, load, entities, export, refresh` are registered stubs (exit 2) until their phase.
+`scrape, entities, export, refresh` are registered stubs (exit 2) until their phase.
 The workflow arm (`extract-disclosures`) runs through the Claude Code Workflow tool, not the CLI; see `docs/v2/extraction.md`.
 
 Extraction files live at `extractions/<source_id>/<chamber>/<parliament>/<pdf_stem>.json`.
