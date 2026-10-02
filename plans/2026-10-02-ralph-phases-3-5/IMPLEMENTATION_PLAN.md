@@ -29,15 +29,16 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
 ## M0 — Baseline
 
 ### T0.1 — Skip the root-only test when running as root
-- status: todo
+- status: done 2026-10-02
 - deps: none
-- attempts: 0
+- attempts: 1
 - budget: US$0 · network: none
 - do: `tests/test_load.py::test_unwritable_target_exits_2` relies on chmod, which root ignores
   (cloud containers run as root). Add `@pytest.mark.skipif(hasattr(os, "geteuid") and
   os.geteuid() == 0, reason="root ignores chmod")`. `tests/test_ralph_status.py` already exists:
   just run it.
 - done when: the full suite passes with zero failures, including as root in the cloud.
+- notes: skipif added; 198 passed as uid 1000 (Proxmox, not root), test_ralph_status 14 passed. Root skip path not exercised locally.
 
 ### T0.2 — Verify the baseline in this environment
 - status: todo

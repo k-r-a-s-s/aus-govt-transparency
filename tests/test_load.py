@@ -1,6 +1,7 @@
 import copy
 import csv
 import hashlib
+import os
 import sqlite3
 from pathlib import Path
 
@@ -363,6 +364,7 @@ def test_refuses_v1_db_case_variants(load_repo, tmp_path):
     assert (root / "disclosures.db").read_bytes() == b"v1 stand-in"
 
 
+@pytest.mark.skipif(hasattr(os, "geteuid") and os.geteuid() == 0, reason="root ignores chmod")
 def test_unwritable_target_exits_2(load_repo, capsys):
     root, _ = load_repo
     ro = root / "readonly"
