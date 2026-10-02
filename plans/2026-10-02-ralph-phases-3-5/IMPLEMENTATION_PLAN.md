@@ -567,14 +567,19 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   HANDOFF updated). 313 tests pass, 0 skipped.
 
 ### V3 — Cold verification of Phase 4
-- status: todo
+- status: done 2026-10-03
 - deps: T3.5, T3.7, T3.8, T3.9, T3.10
-- attempts: 0
+- attempts: 1
 - budget: US$0 · network: none (offline checks only)
 - do: As V1, with a fresh subagent and only AC-4.1–4.7, AC-2.6 for the 48th, and D3. Rebuild
   from scratch, run every check, try to break the manifest (sha mismatch), validate, the
   Senate mapping (spot-check 5 senators' JSON against their payloads) and refresh's selection.
 - done when: no unresolved finding.
+- notes: Round 1 "VERDICT: PASS — no unresolved findings". Rebuild deterministic (995 files,
+  50,936 items, 11,544 entities, hash 88fb48c0…); manifest 1,001 rows, all sha match, tamper
+  test caught 3/3; refresh mocked scenario selected exactly 3; Senate 1,997 raw → 1,980 items
+  (17 nil rows), 5 spot-checks match; validate house 919/0, senate 76/0; AC-4.6 76, AC-4.7 151.
+  AC-4.2 literal `grep ',house,48,'` is 0 (chamber is col 1); `^house,48,` = 151.
 
 ---
 

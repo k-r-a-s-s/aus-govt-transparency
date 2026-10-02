@@ -33,3 +33,4 @@
 2026-10-02T15:20Z | T3.8 | done | spent US$0.00 | refresh --dry-run/gemini/workflow; AC-4.5 test (1 sha differs -> only that file); live dry-run: house 151 unchanged, senate 76 unchanged, 0 new/changed; 308 pass
 2026-10-02T15:30Z | T3.9 | done | spent US$0.00 | Senate archives: API current-only (no parliament param); 44th/45th per-senator scans 62+75; tabled volumes 43rd–47th 40 PDFs/6,456 pp; follow-up splitter + ≈US$18–25; docs only (ADR-9)
 2026-10-02T15:34Z | T3.10 | done | spent US$0.27 | entities full DB: 26 requests, 11,544 entities, AC-3.3 0, AC-3.4 PASS; top 50 all curated; G3 pack regenerated 114 rows; 313 pass
+2026-10-02T15:42Z | V3 | done | spent US$0.00 | cold verify Phase 4: PASS, no findings; rebuild deterministic, manifest/refresh/senate mapping/validate all hold; 313 pass
