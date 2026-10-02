@@ -29,6 +29,30 @@ OpenRouter credit left: **US$12.40 of 70** (US$57.60 used). Nothing left in the 
 4. Upload `exports/kaggle/` (`kaggle datasets create -p exports/kaggle`), then announce.
 5. Record G4 in DECISIONS.md and sign off SPEC.md (`Status:` line), see open questions.
 
+### Next session: suggested route through G4 (written 2026-10-03)
+State checked 2026-10-03: PR #2 (`claude/ralph-proxmox` → `v2-upgrade`) is open and mergeable, and
+both merges fast-forward (`v2-upgrade` is 0 behind the PR, `main` is 0 ahead of `v2-upgrade`).
+Pages is not enabled yet (API 404). The Kaggle CLI and `~/.kaggle/` don't exist on Kevin's Mac.
+The Ralph loop is finished: work locally on the Mac and don't restart it.
+1. **Licence: check the source terms before choosing.** The registers are APH publications.
+   Read the copyright/licence terms on aph.gov.au (don't rely on memory). If they carry a
+   restriction such as NonCommercial or NoDerivatives, the dataset can't be relicensed more
+   loosely than that. Propose the licence to Kevin with the source quoted. CC BY 4.0 is the
+   default if APH is CC BY. Ask Kevin for his Kaggle username; the slug can stay
+   `australian-parliament-registers-of-interests`.
+2. **Optional polish first (cheap, ~15 min):** fix the four cosmetic V5 notes below in one commit,
+   then rerun `pytest`.
+3. **Regenerate with the real values** (step 1 of G4 above), commit, push the branch, and rename PR
+   #2 (its title still says "stopped at G3"). Merge PR #2, then fast-forward `main` to `v2-upgrade`.
+   Confirm with Kevin before merging to `main`: it's public.
+4. **Pages:** confirm with Kevin, then enable it with source = GitHub Actions
+   (`gh api -X POST repos/k-r-a-s-s/aus-govt-transparency/pages -f build_type=workflow`). Watch the
+   `pages.yml` run, then open the site and the Datasette Lite link.
+5. **Kaggle:** Kevin installs the CLI and an API token (`pip install kaggle`; kaggle.com → Settings →
+   API → `~/.kaggle/kaggle.json`). He runs the upload himself or approves it explicitly.
+6. Record G4 in DECISIONS.md, set G4 done in the IMPLEMENTATION_PLAN, and decide with Kevin on
+   SPEC sign-off and the three open questions below (accepting them as-is is a fine answer).
+
 ## Optional polish V5 noted (cosmetic, not fixed; fix before G4 if you like)
 - Kaggle README / metadata say `entity_type` is empty for singletons, but 87 singleton-matched rows
   carry a type (entity also reachable via a typed alias). Wording only.
