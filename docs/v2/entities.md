@@ -45,7 +45,7 @@ won't fuzzy-match their full names; those pairs come from curation. Output is de
 | `data/entities/aliases.csv` | Curated aliases (T2.4/T2.5): `alias, canonical_name, entity_type, asx_code, review_flag, note`. |
 | `data/entities/asx_exclusions.csv` | `alias, note`. Aliases that never ASX-match because a ticker is also another organisation's usual name (`ing`: Inghams versus ING Bank). |
 | `data/reference/asx_listed_companies_<date>.csv` | ASX snapshot from `--fetch-asx` (title line, blank line, then `Company name,ASX code,GICS industry group`). The newest by date wins. The reference dir defaults to `<data>/../reference`. |
-| `data/entities/llm_decisions.jsonl` | Long-tail LLM cache (later task). |
+| `data/entities/llm_decisions.jsonl` | Long-tail LLM cache (T2.6): one JSON object per block, `key, prompt_version, model, members, groups` (each group `members, canonical_name, entity_type, confidence`), sorted by key. It holds the LLM's answer as given; the AC-3.4 rule below is applied when it's read. |
 
 ## Method
 
@@ -77,10 +77,30 @@ won't fuzzy-match their full names; those pairs come from curation. Output is de
      `aliases.csv` already uses takes that row's canonical name and type instead, so it stays
      one entity. 2026-10-02 snapshot: 309 aliases / 4,370 items before curation; 279 / 1,067
      after T2.4 claimed the big names.
-   - `llm`: long-tail grouping for aliases with ≥ 2 items (later task, not yet active).
-   - `singleton`: everything left becomes its own entity. It's named after the alias's
-     commonest raw spelling (ties go to the alphabetically first), with `entity_type = NULL`.
-     Until the LLM stage lands, this also catches aliases with ≥ 2 items.
+   - `llm`: long-tail grouping (ADR-6 step 5) for every alias still unresolved with ≥ 2
+     items. **Blocks:** aliases are grouped by first token. Within a group, names joined by a
+     chain of rapidfuzz `token_set_ratio` ≥ 85 form one block. A name with no such neighbour is
+     a 1-name block, which the LLM only names and types. **Cache:** the key is sha1 of the
+     sorted block members plus the prompt version (`entities-llm-v1`, prompt in
+     `disclosures/prompts/entities_llm.md`). Online mode (no `--offline`) sends only uncached
+     blocks to `google/gemini-3.8-flash` via OpenRouter (`google-ai-studio/flex`, azure
+     ignored, strict `json_schema`, model id through `resolve_gemini_model`). It packs about 40
+     names per request (a block is never split) and appends each reply to the cache as it
+     arrives. A reply whose groups don't exactly partition its block is retried alone once,
+     then left uncached. `--offline` reads the cache only. In either mode, any uncached block
+     makes the command exit 1 and list the blocks, with the DB left unchanged; online, re-run
+     to continue. `--llm-dry-run` prints blocks, uncached count and requests, then stops.
+     `--llm-limit N` caps requests per run (to chunk a long run). **AC-3.4 rule:** a group the
+     LLM types `listed_company` takes the ASX code that its canonical name, or failing that one
+     of its members, matches exactly in the snapshot (names two companies share and
+     `asx_exclusions.csv` don't count). With no match it's typed `other` (foreign-listed or
+     delisted). **One entity per ASX code:** a later stage's alias with a code an entity
+     already has joins that entity. 2026-10-02 run: 4,090 aliases / 14,128 items in 3,322
+     blocks (417 with > 1 name), 104 requests, US$1.16. The result is 3,822 groups (232
+     merges), 3,567 of them `high` confidence.
+   - `singleton`: everything left, i.e. the aliases with 1 item, becomes its own entity. It's
+     named after the alias's commonest raw spelling (ties go to the alphabetically first), with
+     `entity_type = NULL`.
 4. **Ids.** `entity_id` is the `member_slug` of `canonical_name` (the same slug rule as
    `member_id`). A name with no ASCII letters or digits falls back to `entity_` plus a sha1
    prefix. When two aliases map to the same id, they're treated as one organisation: the alias
@@ -90,5 +110,11 @@ won't fuzzy-match their full names; those pairs come from curation. Output is de
 
 ## Known limitations
 
-- Singletons are untyped (`entity_type` NULL). Typing about 10k one-item names through the LLM
+- Singletons are untyped (`entity_type` NULL). Typing about 6k one-item names through the LLM
   isn't worth the credit (SPEC-DELTA D2). Kevin can revisit this.
+- The `listed_company` ASX lookup for LLM groups is exact-name only, so a listed company the
+  snapshot names differently (`Abacus Property Group` vs `ABACUS GROUP`) is typed `other`.
+  On the 2026-10-02 run, 45 of the 348 groups the LLM typed `listed_company` got a code (49
+  aliases); the other 303 groups (324 aliases) became `other`. Curating the big ones into `aliases.csv` fixes them.
+- Changing the prompt means bumping `LLM_PROMPT_VERSION`, which invalidates every cached block
+  (about US$1.20 to redo).

@@ -463,3 +463,21 @@ V1's cold check found two places where C12 output could be read two ways.
 - **Coverage** (AC-3.2) is computed over the same top 200 the worksheet uses: non-generic
   normalised names by item count, ties alphabetical. `entities` prints it on every run.
 
+
+### 2026-10-02 — Long-tail LLM stage (T2.6)
+- **Every ≥ 2-item alias goes to the LLM.** Fuzzy blocks (first token, then chains of
+  `token_set_ratio` ≥ 85) with more than one name get merge/keep/type decisions. A name with no
+  fuzzy neighbour is a 1-name block, which is only named and typed. So `singleton` means
+  1-item aliases, as ADR-6 says.
+- **Packing is transport only.** About 40 names per request, blocks never split, but the cache
+  is per block (D2 key), so a later run's packing doesn't matter. 104 requests, US$1.16.
+- **The cache stores the LLM's answer as given.** Code applies the post-rules when it reads the
+  cache, so the rules can change without paid re-runs:
+  (1) AC-3.4: a `listed_company` group takes the ASX code that its canonical name, or failing
+  that a member, matches exactly in the snapshot; with no match it's typed `other`, as with
+  delisted curated rows (T2.5). 303 of 348 such groups became `other` (mostly foreign-listed,
+  or named differently from the snapshot). G3 or later curation can fix the big ones.
+  (2) One entity per ASX code: a later stage's alias with a code an entity already has joins it.
+- **Bad replies don't poison the cache.** Groups must partition their block exactly, with
+  enum-valid type and confidence. A failing block is retried alone once, then left uncached:
+  exit 1 and no DB write, so a re-run continues. No failures on the real run.

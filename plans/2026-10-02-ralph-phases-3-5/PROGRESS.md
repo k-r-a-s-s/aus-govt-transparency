@@ -19,3 +19,4 @@
 2026-10-02T13:22Z | T2.3 | done | spent US$0.00 | entities --draft-candidates -> data/entities/alias_candidates.csv: 200 heads + token_set>=90 variants + ASX code; all AC-3.1 groups present; 225 tests pass
 2026-10-02T13:28Z | T2.4 | done | spent US$0.00 | aliases.csv heads 1-100: 330 aliases -> 72 entities, 12,597 items curated, 15 flagged; AC-3.1 groups one entity each; ASX stage defers to curated codes; 229 tests pass
 2026-10-02T13:33Z | T2.5 | done | spent US$0.00 | aliases.csv heads 101-200: 522 aliases -> 153 entities, 24 flagged; AC-3.2 coverage 100% printed + tested; 232 tests pass
+2026-10-02T13:47Z | T2.6 | done | spent US$1.16 | long-tail LLM: 3,322 blocks cached (104 requests), offline llm 4,090 aliases / 14,128 items, AC-3.3 0; listed_company→ASX code rule; 245 tests pass

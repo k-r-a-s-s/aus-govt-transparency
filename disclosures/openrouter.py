@@ -29,7 +29,7 @@ import copy
 import json
 import os
 import re
-from typing import Any, Callable, Dict, List, Mapping, Optional, Sequence
+from typing import Any, Callable, Dict, List, Mapping, NamedTuple, Optional, Sequence
 
 import httpx
 
@@ -151,25 +151,23 @@ class OpenRouterBackend:
         self.url = url
 
     # -- request ---------------------------------------------------------------------------
-    def build_request(self, chunk: bytes, text: str, filename: str) -> Dict[str, Any]:
-        data_url = "data:application/pdf;base64," + base64.b64encode(chunk).decode("ascii")
+    def _provider(self) -> Dict[str, Any]:
         provider: Dict[str, Any] = {"require_parameters": True}
         if self.provider_order:
             provider["order"] = self.provider_order
             provider["allow_fallbacks"] = False
         if self.ignore_providers:
             provider["ignore"] = self.ignore_providers
+        return provider
+
+    def _body(self, content: list, name: str, schema: dict) -> Dict[str, Any]:
         body: Dict[str, Any] = {
             "model": self.model,
-            "messages": [{"role": "user", "content": [
-                {"type": "file", "file": {"filename": filename, "file_data": data_url}},
-                {"type": "text", "text": text},
-            ]}],
-            "plugins": [{"id": "file-parser", "pdf": {"engine": "native"}}],
+            "messages": [{"role": "user", "content": content}],
             "response_format": {"type": "json_schema", "json_schema": {
-                "name": "extraction", "strict": True, "schema": self.schema}},
+                "name": name, "strict": True, "schema": schema}},
             "max_tokens": self.max_tokens,
-            "provider": provider,
+            "provider": self._provider(),
             "usage": {"include": True},
         }
         if self.temperature is not None and not self.model.startswith(NO_TEMPERATURE_PREFIXES):
@@ -177,6 +175,19 @@ class OpenRouterBackend:
         if self.reasoning_effort:
             body["reasoning"] = {"effort": self.reasoning_effort}
         return body
+
+    def build_request(self, chunk: bytes, text: str, filename: str) -> Dict[str, Any]:
+        data_url = "data:application/pdf;base64," + base64.b64encode(chunk).decode("ascii")
+        body = self._body([
+            {"type": "file", "file": {"filename": filename, "file_data": data_url}},
+            {"type": "text", "text": text},
+        ], "extraction", self.schema)
+        body["plugins"] = [{"id": "file-parser", "pdf": {"engine": "native"}}]
+        return body
+
+    def build_text_request(self, text: str, schema: dict, name: str) -> Dict[str, Any]:
+        """Text-only prompt with a strict ``json_schema`` response (ADR-6 long-tail LLM)."""
+        return self._body([{"type": "text", "text": text}], name, strict_schema(schema))
 
     def _headers(self) -> Dict[str, str]:
         return {"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json",
@@ -241,3 +252,40 @@ class OpenRouterBackend:
                           output_tokens=int(u.get("completion_tokens") or 0),
                           cost_usd=float(cost) if isinstance(cost, (int, float)) else None,
                           provider=data.get("provider"), native_finish_reason=choice.get("native_finish_reason"))
+
+    def complete_json(self, text: str, schema: dict, name: str,
+                      retry: Callable[[Callable[[], Any]], Any] = lambda fn: fn()) -> "JsonResult":
+        """One text-mode call; returns the parsed JSON object plus usage. Raises
+        :class:`OpenRouterError` (HTTP/body errors, after ``retry``), or ``ValueError`` if the
+        reply was cut off (``length``) or isn't a JSON object."""
+        data = retry(lambda: self._post(self.build_text_request(text, schema, name)))
+        choices = data.get("choices") or []
+        if not choices:
+            raise ValueError(f"no choices in response: {json.dumps(data)[:300]}")
+        choice = choices[0]
+        if isinstance(choice.get("error"), dict):
+            e = choice["error"]
+            raise OpenRouterError(e.get("code"), str(e.get("message")), e.get("metadata"))
+        fr = str(choice.get("finish_reason") or "").lower()
+        if fr == "length":
+            raise ValueError("reply cut off at max_tokens (finish_reason=length)")
+        content = (choice.get("message") or {}).get("content")
+        if isinstance(content, list):
+            content = "".join(p.get("text", "") for p in content if isinstance(p, dict))
+        parsed = json.loads(content or "")
+        if not isinstance(parsed, dict):
+            raise ValueError("reply is not a JSON object")
+        u = data.get("usage") or {}
+        cost = u.get("cost")
+        return JsonResult(parsed, int(u.get("prompt_tokens") or 0),
+                          int(u.get("completion_tokens") or 0),
+                          float(cost) if isinstance(cost, (int, float)) else None,
+                          data.get("provider"))
+
+
+class JsonResult(NamedTuple):
+    data: dict
+    input_tokens: int
+    output_tokens: int
+    cost_usd: Optional[float]
+    provider: Optional[str]

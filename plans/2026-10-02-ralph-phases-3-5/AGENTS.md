@@ -48,3 +48,4 @@ Repo root is the working directory. Python is `.venv/bin/python` (`bash scripts/
 - `tests/test_load.py::test_unwritable_target_exits_2` fails as root (cloud) until T0.1 skips it.
 - `load` exits 1 (but still installs the DB) if a hard AC-2.7 query isn't 0. Treat exit 1 as a failure.
 - Docs to keep current when behaviour changes: `docs/v2/README.md` (commands), `docs/v2/<topic>.md`, `data/overrides/README.md`.
+- Entities long tail (paid): `entities --llm-dry-run` first, then `entities --llm-limit 40 --workers 8` (≈ 2 min, ≈ US$0.45 per 40 requests); exit 1 = blocks still uncached, re-run.

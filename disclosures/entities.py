@@ -18,6 +18,8 @@ from __future__ import annotations
 import csv
 import datetime as dt
 import hashlib
+import json
+import os
 import string
 import sqlite3
 import sys
@@ -61,6 +63,7 @@ class Context:
     offline: bool
     sections: Dict[str, set] = None
     reference_dir: Optional[Path] = None
+    llm: Optional["LLMRunner"] = None  # online long-tail runner; None = cache only
 
 
 Stage = Callable[[List[str], Context], Dict[str, Resolution]]
@@ -143,6 +146,20 @@ def asx_display_name(name: str) -> str:
     return string.capwords(name.lower())
 
 
+def asx_index(reference_dir: Optional[Path]) -> Tuple[Dict[str, str], Dict[str, str]]:
+    """From the newest snapshot: ({normalised name: code} for names only one company has,
+    {code: ASX name}); both empty with no snapshot."""
+    snap = newest_asx_snapshot(reference_dir)
+    if snap is None:
+        return {}, {}
+    by_name: Dict[str, set] = defaultdict(set)
+    asx_names: Dict[str, str] = {}
+    for name, code in read_asx_snapshot(snap):
+        by_name[normalise_entity(name)].add(code)
+        asx_names.setdefault(code, name)
+    return {n: next(iter(c)) for n, c in by_name.items() if n and len(c) == 1}, asx_names
+
+
 def stage_asx(aliases: List[str], ctx: Context) -> Dict[str, Resolution]:
     """ADR-6 step 4: exact normalised company name, else exact ticker, against the newest
     ASX snapshot. Only aliases seen on a section-1 item are eligible (D2); the match then
@@ -155,15 +172,9 @@ def stage_asx(aliases: List[str], ctx: Context) -> Dict[str, Resolution]:
     the name-matched aliases (ties: alphabetically first), else the ASX name in capwords.
     A code that ``aliases.csv`` already uses takes that row's canonical name and type.
     """
-    snap = newest_asx_snapshot(ctx.reference_dir)
-    if snap is None:
+    by_name, asx_names = asx_index(ctx.reference_dir)
+    if not asx_names:
         return {}
-    by_name: Dict[str, set] = defaultdict(set)
-    asx_names: Dict[str, str] = {}
-    for name, code in read_asx_snapshot(snap):
-        by_name[normalise_entity(name)].add(code)
-        asx_names.setdefault(code, name)
-    by_name = {n: next(iter(c)) for n, c in by_name.items() if n and len(c) == 1}
     sections = ctx.sections or {}
     excluded = load_asx_exclusions(ctx.data_dir)
 
@@ -227,16 +238,286 @@ def fetch_asx(reference_dir: Path, http=None, today: Optional[dt.date] = None) -
     return path, n
 
 
+LLM_CACHE_FILE = "llm_decisions.jsonl"
+LLM_PROMPT_FILE = Path(__file__).parent / "prompts" / "entities_llm.md"
+LLM_PROMPT_VERSION = "entities-llm-v1"
+LLM_MODEL = "google/gemini-3.8-flash"
+LLM_PROVIDER_ORDER = "google-ai-studio/flex"
+LLM_IGNORE_PROVIDERS = "azure"
+LLM_MIN_ITEMS = 2
+LLM_FUZZ = 85
+LLM_PACK_ALIASES = 40  # aliases per request; a block is never split across requests
+CONFIDENCES = ("high", "medium", "low")
+
+
+class LLMCacheMiss(Exception):
+    """Long-tail blocks with no cached decision (offline, a request limit, or bad replies)."""
+
+    def __init__(self, blocks: List[List[str]], reason: str):
+        super().__init__(f"{len(blocks)} long-tail block(s) uncached: {reason}")
+        self.blocks = blocks
+        self.reason = reason
+
+
+def llm_blocks(aliases: List[str], counts: Counter, min_items: int = LLM_MIN_ITEMS,
+               threshold: int = LLM_FUZZ) -> List[List[str]]:
+    """D2: aliases with >= ``min_items`` items, blocked by first token; within a block, names
+    joined by a chain of rapidfuzz ``token_set_ratio`` >= ``threshold`` form one candidate
+    block. Names with no such neighbour are 1-name blocks (typed, never merged). Sorted."""
+    from rapidfuzz import fuzz
+
+    by_token: Dict[str, List[str]] = defaultdict(list)
+    for a in sorted(aliases):
+        if counts[a] >= min_items:
+            by_token[a.split()[0]].append(a)
+    blocks = []
+    for names in by_token.values():
+        parent = {a: a for a in names}
+
+        def find(x):
+            while parent[x] != x:
+                parent[x] = parent[parent[x]]
+                x = parent[x]
+            return x
+
+        for i, a in enumerate(names):
+            for b in names[i + 1:]:
+                if fuzz.token_set_ratio(a, b) >= threshold:
+                    ra, rb = find(a), find(b)
+                    if ra != rb:
+                        parent[max(ra, rb)] = min(ra, rb)
+        comps: Dict[str, List[str]] = defaultdict(list)
+        for a in names:
+            comps[find(a)].append(a)
+        blocks.extend(sorted(c) for c in comps.values())
+    return sorted(blocks)
+
+
+def block_key(members: List[str], prompt_version: str = LLM_PROMPT_VERSION) -> str:
+    """D2: sha1 of the sorted block members plus the prompt version."""
+    return hashlib.sha1(json.dumps([sorted(members), prompt_version]).encode()).hexdigest()
+
+
+def read_llm_cache(data_dir: Path) -> Dict[str, dict]:
+    """``llm_decisions.jsonl`` as {key: record}; the last line for a key wins."""
+    path = Path(data_dir) / LLM_CACHE_FILE
+    out: Dict[str, dict] = {}
+    if path.exists():
+        for line in path.read_text(encoding="utf-8").splitlines():
+            if line.strip():
+                rec = json.loads(line)
+                out[rec["key"]] = rec
+    return out
+
+
+def write_llm_cache(data_dir: Path, records: Dict[str, dict]) -> None:
+    """Rewrite the cache sorted by key (deterministic diffs), atomically."""
+    path = Path(data_dir) / LLM_CACHE_FILE
+    tmp = path.with_suffix(".jsonl.tmp")
+    with tmp.open("w", encoding="utf-8") as f:
+        for k in sorted(records):
+            f.write(json.dumps(records[k], ensure_ascii=False, sort_keys=True) + "\n")
+    tmp.replace(path)
+
+
+def llm_response_schema() -> dict:
+    group = {"type": "object", "properties": {
+        "members": {"type": "array", "items": {"type": "string"}},
+        "canonical_name": {"type": "string"},
+        "entity_type": {"type": "string", "enum": list(ENTITY_TYPES)},
+        "confidence": {"type": "string", "enum": list(CONFIDENCES)},
+    }, "required": ["members", "canonical_name", "entity_type", "confidence"]}
+    block = {"type": "object", "properties": {
+        "block_id": {"type": "string"},
+        "groups": {"type": "array", "items": group},
+    }, "required": ["block_id", "groups"]}
+    return {"type": "object", "properties": {"blocks": {"type": "array", "items": block}},
+            "required": ["blocks"]}
+
+
+def llm_prompt(blocks: List[List[str]], ctx: Context) -> str:
+    lines = [LLM_PROMPT_FILE.read_text(encoding="utf-8").rstrip(), ""]
+    for i, members in enumerate(blocks, 1):
+        lines.append(f"BLOCK b{i}")
+        for a in members:
+            secs = ",".join(str(x) for x in sorted((ctx.sections or {}).get(a, ())))
+            sp = "; ".join(f'"{s}" ({n})' for s, n in sorted(
+                ctx.spellings[a].items(), key=lambda kv: (-kv[1], kv[0]))[:3])
+            lines.append(f'- "{a}": {ctx.counts[a]} items; sections {secs or "?"}; printed {sp}')
+        lines.append("")
+    return "\n".join(lines)
+
+
+def check_groups(members: List[str], groups) -> List[dict]:
+    """The groups must partition ``members`` exactly, with valid fields; else ValueError."""
+    if not isinstance(groups, list) or not groups:
+        raise ValueError("no groups")
+    seen: List[str] = []
+    out = []
+    for g in groups:
+        ms = g.get("members") if isinstance(g, dict) else None
+        name = (g.get("canonical_name") or "").strip() if isinstance(g, dict) else ""
+        if not ms or not name:
+            raise ValueError(f"group without members or canonical_name: {g!r}"[:200])
+        if g.get("entity_type") not in ENTITY_TYPES or g.get("confidence") not in CONFIDENCES:
+            raise ValueError(f"bad entity_type/confidence: {g!r}"[:200])
+        seen.extend(ms)
+        out.append({"members": sorted(ms), "canonical_name": name,
+                    "entity_type": g["entity_type"], "confidence": g["confidence"]})
+    if sorted(seen) != sorted(members):
+        raise ValueError(f"groups don't partition the block {members[:3]}...")
+    return sorted(out, key=lambda g: g["members"])
+
+
+def pack_blocks(blocks: List[List[str]], size: int = LLM_PACK_ALIASES) -> List[List[List[str]]]:
+    packs: List[List[List[str]]] = []
+    cur: List[List[str]] = []
+    n = 0
+    for b in blocks:
+        if cur and n + len(b) > size:
+            packs.append(cur)
+            cur, n = [], 0
+        cur.append(b)
+        n += len(b)
+    if cur:
+        packs.append(cur)
+    return packs
+
+
+@dataclass
+class LLMRunner:
+    """Online long-tail calls. ``backend`` has ``complete_json(text, schema, name, retry)``
+    (:class:`disclosures.openrouter.OpenRouterBackend`). ``limit`` caps requests per run."""
+    backend: object
+    model: str
+    workers: int = 8
+    limit: Optional[int] = None
+    pack_size: int = LLM_PACK_ALIASES
+    max_retries: int = 4
+    sleep: Callable[[float], None] = None
+    log: object = None
+    spent: float = 0.0
+    requests: int = 0
+
+    def _retry(self, fn):
+        import random
+        import time
+
+        attempt = 0
+        while True:
+            try:
+                return fn()
+            except Exception as exc:
+                if attempt >= self.max_retries or not self.backend.is_retryable(exc):
+                    raise
+                (self.sleep or time.sleep)(2.0 * (2 ** attempt) + random.uniform(0, 1))
+                attempt += 1
+
+    def _call(self, pack: List[List[str]], ctx: Context):
+        """-> ({key: record} for the blocks that came back valid, [failed blocks], cost)."""
+        try:
+            r = self.backend.complete_json(llm_prompt(pack, ctx), llm_response_schema(),
+                                           "entity_groups", self._retry)
+        except Exception as exc:  # transport, HTTP, cut-off or non-JSON reply
+            self._print(f"  llm: request failed ({type(exc).__name__}: {str(exc)[:200]})")
+            return {}, pack, 0.0
+        by_id = {b.get("block_id"): b for b in r.data.get("blocks", []) if isinstance(b, dict)}
+        got, failed = {}, []
+        for i, members in enumerate(pack, 1):
+            try:
+                groups = check_groups(members, (by_id.get(f"b{i}") or {}).get("groups"))
+            except ValueError as exc:
+                self._print(f"  llm: block {members[0]!r}: {exc}")
+                failed.append(members)
+                continue
+            key = block_key(members)
+            got[key] = {"key": key, "prompt_version": LLM_PROMPT_VERSION, "model": self.model,
+                        "members": members, "groups": groups}
+        return got, failed, r.cost_usd or 0.0
+
+    def _print(self, msg: str) -> None:
+        print(msg, file=self.log or sys.stderr, flush=True)
+
+    def run(self, blocks: List[List[str]], ctx: Context, cache: Dict[str, dict]) -> List[List[str]]:
+        """Resolve ``blocks`` (all uncached), appending each request's results to the cache
+        file as they arrive. A pack with bad blocks retries those blocks alone, once.
+        Returns the blocks still uncached."""
+        from concurrent.futures import ThreadPoolExecutor, as_completed
+
+        path = Path(ctx.data_dir) / LLM_CACHE_FILE
+        packs = pack_blocks(blocks, self.pack_size)
+        if self.limit is not None:
+            packs = packs[:max(self.limit, 0)]
+        left = {block_key(b): b for b in blocks}
+        retried = set()
+        with path.open("a", encoding="utf-8") as f, ThreadPoolExecutor(self.workers) as pool:
+            futs = {pool.submit(self._call, p, ctx): p for p in packs}
+            while futs:
+                for fut in as_completed(list(futs)):
+                    futs.pop(fut)
+                    got, failed, cost = fut.result()
+                    self.requests += 1
+                    self.spent += cost
+                    for k, rec in got.items():
+                        cache[k] = rec
+                        left.pop(k, None)
+                        f.write(json.dumps(rec, ensure_ascii=False, sort_keys=True) + "\n")
+                    f.flush()
+                    for b in failed:
+                        k = block_key(b)
+                        if k not in retried:
+                            retried.add(k)
+                            futs[pool.submit(self._call, [b], ctx)] = [b]
+                    self._print(f"  llm: {self.requests} requests, {len(cache)} cached blocks, "
+                                f"US${self.spent:.4f} so far")
+                    break
+        return sorted(left.values())
+
+
 def stage_llm(aliases: List[str], ctx: Context) -> Dict[str, Resolution]:
-    """ADR-6 step 5: long-tail LLM grouping for aliases with >= 2 items (lands in T2.6+)."""
-    return {}
+    """ADR-6 step 5: long-tail grouping of aliases with >= 2 items, from the committed cache
+    ``llm_decisions.jsonl``. Uncached blocks are sent to the LLM when ``ctx.llm`` is set
+    (online), else (``--offline``) they raise :class:`LLMCacheMiss`, as do blocks still
+    uncached after the online run (request limit, bad replies). ``confidence`` is the LLM's.
+    """
+    blocks = llm_blocks(aliases, ctx.counts)
+    if not blocks:
+        return {}
+    cache = read_llm_cache(ctx.data_dir)
+    missing = [b for b in blocks if block_key(b) not in cache]
+    if missing:
+        if ctx.offline or ctx.llm is None:
+            raise LLMCacheMiss(missing, "--offline uses the cache only" if ctx.offline
+                               else "no LLM configured")
+        missing = ctx.llm.run(missing, ctx, cache)
+        write_llm_cache(ctx.data_dir, read_llm_cache(ctx.data_dir))
+        if missing:
+            raise LLMCacheMiss(missing, "still uncached after this run; re-run to continue")
+    by_name, _ = asx_index(ctx.reference_dir)
+    excluded = load_asx_exclusions(ctx.data_dir)
+    out = {}
+    for b in blocks:
+        for g in cache[block_key(b)]["groups"]:
+            etype, code = g["entity_type"], None
+            if etype == "listed_company":
+                # AC-3.4: listed_company needs a code from the snapshot. Take the one the
+                # canonical name (else a member) matches exactly; none (foreign-listed,
+                # delisted) -> other, as for delisted curated rows (DECISIONS T2.5).
+                names = [normalise_entity(g["canonical_name"])] + [
+                    a for a in g["members"] if a not in excluded]
+                code = next((by_name[n] for n in names if n in by_name), None)
+                etype = "listed_company" if code else "other"
+            res = Resolution(g["canonical_name"], etype, code, g["confidence"])
+            for a in g["members"]:
+                out[a] = res
+    return out
 
 
 def stage_singleton(aliases: List[str], ctx: Context) -> Dict[str, Resolution]:
     """Whatever is left becomes its own untyped entity, named by its commonest raw spelling.
 
-    ADR-6 means this for 1-item aliases; until the LLM stage exists it also catches the
-    >= 2-item ones, so every named, non-generic item has an entity (AC-3.3).
+    ADR-6 means 1-item aliases (the LLM stage takes every >= 2-item one), so every named,
+    non-generic item has an entity (AC-3.3).
     """
     out = {}
     for a in aliases:
@@ -257,7 +538,8 @@ STAGES: List[Tuple[str, Stage]] = [
 # --- pipeline -----------------------------------------------------------------------------
 
 def resolve(items: List[Tuple], data_dir: Path, offline: bool = True,
-            stages: List[Tuple[str, Stage]] = STAGES, reference_dir: Optional[Path] = None):
+            stages: Optional[List[Tuple[str, Stage]]] = None,
+            reference_dir: Optional[Path] = None, llm: Optional[LLMRunner] = None):
     """items: (item_id, entity_name_raw[, section]) with raw non-null.
 
     Returns (entities, aliases, item_entity): entities = {entity_id: (canonical, type, asx)},
@@ -274,7 +556,8 @@ def resolve(items: List[Tuple], data_dir: Path, offline: bool = True,
         spellings[alias][" ".join(raw.split())] += 1
         if rest:
             sections[alias].add(rest[0])
-    ctx = Context(counts, spellings, data_dir, offline, sections, reference_dir)
+    ctx = Context(counts, spellings, data_dir, offline, sections, reference_dir, llm)
+    stages = STAGES if stages is None else stages
 
     generic = load_generic_terms(data_dir)
     aliases: Dict[str, Tuple[Optional[str], str, Optional[str]]] = {}
@@ -283,6 +566,7 @@ def resolve(items: List[Tuple], data_dir: Path, offline: bool = True,
             aliases[a] = (None, "generic", None)
 
     entities: Dict[str, Tuple[str, Optional[str], Optional[str]]] = {}
+    code_entity: Dict[str, str] = {}
     unresolved = sorted(a for a in counts if a not in aliases)
     for method, stage in stages:
         if not unresolved:
@@ -291,14 +575,54 @@ def resolve(items: List[Tuple], data_dir: Path, offline: bool = True,
         for a in sorted(found):
             res = found[a]
             eid = entity_id_for(res.canonical_name)
+            # One entity per ASX code: a later stage's alias with a code an entity already
+            # has joins that entity (curated > asx > llm).
+            if res.asx_code and res.asx_code in code_entity:
+                eid = code_entity[res.asx_code]
             # An id that already exists (same canonical slug from an earlier stage or alias)
             # is the same organisation: the alias joins it and the first definition stands.
             if eid not in entities:
                 entities[eid] = (res.canonical_name, res.entity_type, res.asx_code)
+            if entities[eid][2]:
+                code_entity.setdefault(entities[eid][2], eid)
             aliases[a] = (eid, method, res.confidence)
         unresolved = [a for a in unresolved if a not in found]
     item_entity = {iid: aliases[a][0] for iid, a in item_alias.items()}
     return entities, aliases, item_entity
+
+
+def llm_plan(db_path: str | Path, data_dir: str | Path,
+             reference_dir: str | Path | None = None) -> dict:
+    """``--llm-dry-run``: the long-tail blocks the real DB would produce, how many are
+    uncached, and the requests and prompt size that would take. No calls, no writes."""
+    db_path, data_dir = Path(db_path), Path(data_dir)
+    reference_dir = Path(reference_dir) if reference_dir else default_reference_dir(data_dir)
+    if not db_path.exists():
+        raise FileNotFoundError(f"{db_path} not found: run `python -m disclosures load` first")
+    con = sqlite3.connect(f"file:{db_path}?mode=ro", uri=True)
+    try:
+        items = con.execute("select item_id, entity_name_raw, section from items "
+                            "where entity_name_raw is not null order by item_id").fetchall()
+    finally:
+        con.close()
+    seen: dict = {}
+
+    def spy(aliases, ctx):
+        seen["blocks"] = llm_blocks(aliases, ctx.counts)
+        seen["ctx"] = ctx
+        return {}
+
+    stages = [(m, spy if m == "llm" else st) for m, st in STAGES]
+    resolve(items, data_dir, True, stages, reference_dir)
+    blocks, ctx = seen.get("blocks", []), seen.get("ctx")
+    cache = read_llm_cache(data_dir)
+    missing = [b for b in blocks if block_key(b) not in cache]
+    packs = pack_blocks(missing)
+    return {"blocks": len(blocks), "multi": sum(len(b) > 1 for b in blocks),
+            "aliases": sum(len(b) for b in blocks),
+            "items": sum(ctx.counts[a] for b in blocks for a in b) if ctx else 0,
+            "uncached": len(missing), "requests": len(packs),
+            "prompt_chars": sum(len(llm_prompt(p, ctx)) for p in packs)}
 
 
 COVERAGE_TOP = 200
@@ -322,7 +646,8 @@ def default_reference_dir(data_dir: Path) -> Path:
 
 
 def run_entities(db_path: str | Path = DEFAULT_DB, data_dir: str | Path = DEFAULT_DATA,
-                 offline: bool = True, reference_dir: str | Path | None = None) -> dict:
+                 offline: bool = True, reference_dir: str | Path | None = None,
+                 llm: Optional[LLMRunner] = None) -> dict:
     db_path = Path(db_path)
     reference_dir = Path(reference_dir) if reference_dir else default_reference_dir(data_dir)
     _guard_v1(db_path)
@@ -333,7 +658,7 @@ def run_entities(db_path: str | Path = DEFAULT_DB, data_dir: str | Path = DEFAUL
         items = con.execute("select item_id, entity_name_raw, section from items "
                             "where entity_name_raw is not null order by item_id").fetchall()
         entities, aliases, item_entity = resolve(items, Path(data_dir), offline,
-                                                 reference_dir=reference_dir)
+                                                 reference_dir=reference_dir, llm=llm)
         with con:
             con.execute("update items set entity_id = NULL")
             con.execute("delete from entity_aliases")
@@ -478,6 +803,17 @@ def add_arguments(p) -> None:
                         "variants, default <data>/alias_candidates.csv), then stop")
     p.add_argument("--top", type=int, default=200,
                    help="heads in the --draft-candidates worksheet (default 200)")
+    g = p.add_argument_group("long-tail LLM (online mode only; paid, OpenRouter)")
+    g.add_argument("--llm-dry-run", action="store_true",
+                   help="print the long-tail blocks, uncached count and requests, then stop")
+    g.add_argument("--llm-limit", type=int, default=None, metavar="N",
+                   help="send at most N requests this run (the rest stay uncached; exit 1)")
+    g.add_argument("--model", default=LLM_MODEL, help=f"OpenRouter model (default {LLM_MODEL})")
+    g.add_argument("--provider-order", default=LLM_PROVIDER_ORDER,
+                   help=f"OpenRouter endpoints, comma-separated (default {LLM_PROVIDER_ORDER})")
+    g.add_argument("--ignore-providers", default=LLM_IGNORE_PROVIDERS,
+                   help=f"OpenRouter providers to skip (default {LLM_IGNORE_PROVIDERS})")
+    g.add_argument("--workers", type=int, default=8, help="parallel requests (default 8)")
 
 
 def run(args) -> int:
@@ -499,10 +835,61 @@ def run(args) -> int:
             return 2
         print(f"entities: wrote {path} ({n} heads)")
         return 0
+    if args.llm_dry_run:
+        try:
+            plan = llm_plan(args.db, args.data, args.reference)
+        except (FileNotFoundError, ValueError, sqlite3.OperationalError, OSError) as exc:
+            print(f"entities --llm-dry-run: {exc}", file=sys.stderr)
+            return 2
+        print(f"entities: long tail {plan['aliases']} aliases / {plan['items']} items in "
+              f"{plan['blocks']} blocks ({plan['multi']} with > 1 name); {plan['uncached']} "
+              f"uncached -> {plan['requests']} requests, ~{plan['prompt_chars'] // 4} prompt "
+              f"tokens")
+        return 0
+    llm = None
+    if not args.offline:
+        try:
+            llm = make_llm_runner(args)
+        except ValueError as exc:
+            print(f"entities: {exc}", file=sys.stderr)
+            return 2
     try:
-        s = run_entities(args.db, args.data, args.offline, args.reference)
+        s = run_entities(args.db, args.data, args.offline, args.reference, llm=llm)
+    except LLMCacheMiss as exc:
+        print(f"entities: {exc}", file=sys.stderr)
+        for b in exc.blocks[:20]:
+            print(f"  {' | '.join(b)}", file=sys.stderr)
+        if len(exc.blocks) > 20:
+            print(f"  ... and {len(exc.blocks) - 20} more", file=sys.stderr)
+        if llm is not None:
+            print(f"entities: llm {llm.requests} requests, US${llm.spent:.4f}", file=sys.stderr)
+        return 1
     except (FileNotFoundError, ValueError, sqlite3.OperationalError, OSError) as exc:
         print(f"entities: {exc}", file=sys.stderr)
         return 2
     print_summary(s)
+    if llm is not None:
+        print(f"  llm: {llm.requests} requests this run, US${llm.spent:.4f}")
     return 0 if s["unresolved"] == 0 else 1
+
+
+def make_llm_runner(args, http=None, env=None) -> LLMRunner:
+    """The online long-tail runner from CLI args; the key comes from the environment or
+    ``.env.local`` (never printed). ValueError if there's no key or the model is banned."""
+    from .openrouter import OpenRouterBackend, resolve_openrouter_key, resolve_openrouter_model
+
+    if env is None:
+        from dotenv import load_dotenv
+
+        load_dotenv(".env.local", override=False)
+        env = os.environ
+    key = resolve_openrouter_key(env)
+    if not key:
+        raise ValueError("no OpenRouter key: set OPENROUTER_KEY (environment or .env.local), "
+                         "or run with --offline")
+    model = resolve_openrouter_model(args.model, env=env)
+    split = lambda v: [x.strip() for x in (v or "").split(",") if x.strip()] or None
+    backend = OpenRouterBackend(key, model, http=http, provider_order=split(args.provider_order),
+                                ignore_providers=split(args.ignore_providers),
+                                max_tokens=32768, response_schema=llm_response_schema())
+    return LLMRunner(backend, model, workers=max(args.workers, 1), limit=args.llm_limit)

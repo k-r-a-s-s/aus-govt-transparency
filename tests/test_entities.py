@@ -5,6 +5,7 @@ from pathlib import Path
 import httpx
 import pytest
 
+from disclosures import entities as E
 from disclosures.cli import main
 from disclosures.entities import (ASX_URL, Resolution, curated_coverage, entity_id_for,
                                   fetch_asx, load_generic_terms, newest_asx_snapshot, read_asx_snapshot,
@@ -51,6 +52,13 @@ def make_data(root: Path, generic=("family trust", "n/a"), aliases_csv=None) -> 
     return d
 
 
+@pytest.fixture
+def no_llm(monkeypatch):
+    """Tests written for the other stages: drop the long-tail LLM stage (it would need a
+    cache for their 2-item aliases), so those aliases fall through to singleton as before."""
+    monkeypatch.setattr(E, "STAGES", [st for st in E.STAGES if st[0] != "llm"])
+
+
 def dump(db: Path):
     con = sqlite3.connect(db)
     out = {t: con.execute(f"select * from {t} order by 1").fetchall()
@@ -64,6 +72,7 @@ def item_entities(db: Path) -> dict:
     return dict(dump(db)["items"])
 
 
+@pytest.mark.usefixtures("no_llm")
 def test_normalisation_is_the_shared_one(tmp_path):
     db = make_db(tmp_path / "v2.db")
     run_entities(db, make_data(tmp_path))
@@ -73,6 +82,7 @@ def test_normalisation_is_the_shared_one(tmp_path):
     assert "qantas airways" in aliases
 
 
+@pytest.mark.usefixtures("no_llm")
 def test_generic_alias_gets_null_entity(tmp_path):
     db = make_db(tmp_path / "v2.db")
     s = run_entities(db, make_data(tmp_path))
@@ -84,12 +94,14 @@ def test_generic_alias_gets_null_entity(tmp_path):
     assert s["items"]["generic"] == 2 and s["unresolved"] == 0
 
 
+@pytest.mark.usefixtures("no_llm")
 def test_null_entity_name_gets_no_entity(tmp_path):
     db = make_db(tmp_path / "v2.db")
     run_entities(db, make_data(tmp_path))
     assert item_entities(db)["i07"] is None
 
 
+@pytest.mark.usefixtures("no_llm")
 def test_singletons_one_entity_per_alias(tmp_path):
     db = make_db(tmp_path / "v2.db")
     s = run_entities(db, make_data(tmp_path))
@@ -106,6 +118,7 @@ def test_singletons_one_entity_per_alias(tmp_path):
     assert s["unresolved"] == 0
 
 
+@pytest.mark.usefixtures("no_llm")
 def test_same_slug_aliases_share_an_entity(tmp_path):
     db = make_db(tmp_path / "v2.db")
     run_entities(db, make_data(tmp_path))
@@ -148,6 +161,7 @@ def test_stages_are_pluggable_and_ordered():
     assert ents["foo_corp"] == ("Foo Corp", "other", None)
 
 
+@pytest.mark.usefixtures("no_llm")
 def test_two_runs_identical(tmp_path):
     db = make_db(tmp_path / "v2.db")
     data = make_data(tmp_path)
@@ -173,6 +187,7 @@ def test_real_generic_terms_file_normalises():
     assert "" not in terms
 
 
+@pytest.mark.usefixtures("no_llm")
 def test_cli_offline(tmp_path, capsys):
     db = make_db(tmp_path / "v2.db")
     rc = main(["entities", "--offline", "--db", str(db), "--data", str(make_data(tmp_path))])
@@ -250,6 +265,7 @@ def test_read_asx_snapshot_skips_title(tmp_path):
     assert rows[0] == ("BHP GROUP LIMITED", "BHP") and len(rows) == 6
 
 
+@pytest.mark.usefixtures("no_llm")
 def test_asx_stage_name_ticker_scope_exclusions(tmp_path):
     db = make_sectioned_db(tmp_path / "v2.db")
     data = make_data(tmp_path)  # tmp/entities -> reference dir defaults to tmp/reference

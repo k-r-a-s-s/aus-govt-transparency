@@ -290,11 +290,11 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
 - notes: +192 rows → 522 aliases / 153 entities, 24 flagged; curated 14,641 items; coverage 13,576/13,576 = 100% (printed by `entities`; `curated_coverage()`); 232 tests pass. Rules in DECISIONS 2026-10-02 (T2.5).
 
 ### T2.6 — Long-tail LLM step with a committed cache (paid)
-- status: todo
+- status: done 2026-10-02
 - deps: T2.5
-- attempts: 0
+- attempts: 1
 - budget: cap US$3.00 (est. 1–2) · network: openrouter.ai
-- spent: US$0.00
+- spent: US$1.16 (104 requests; credit 17.86 → 16.86)
 - do: Implement ADR-6 step 5 per D2. Blocking first, then dry-run to count blocks and estimate
   cost before any call; if the estimate exceeds the cap, tighten blocking or raise the item
   threshold, and note it. Add a text-mode JSON call to `disclosures/openrouter.py` (strict
@@ -304,6 +304,10 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   run, then run it in chunks so a crash loses little.
 - done when: the online run completes within budget; `entities --offline` then succeeds with
   `llm` > 0; tests pass; spend recorded.
+- notes: dry run: 4,090 aliases / 14,128 items, 3,322 blocks (417 with > 1 name), 104 requests.
+  Result: 3,822 groups (232 merges, 3,567 high), 0 bad replies; offline llm 4,090 aliases,
+  singleton 6,305 (1-item only), AC-3.3 0, two offline runs identical. AC-3.4 rule: LLM
+  listed_company without an exact snapshot match → other (303 groups); one entity per ASX code.
 
 ### T2.7 — Entities report and AC-3.3/3.4/3.6
 - status: todo

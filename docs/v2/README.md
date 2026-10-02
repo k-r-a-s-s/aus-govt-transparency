@@ -54,6 +54,8 @@ python -m disclosures load --source workflow-claude [--db disclosures_v2.db] \
 python -m disclosures entities [--offline] [--db disclosures_v2.db] [--data data/entities]   # after load; docs/v2/entities.md
 python -m disclosures entities --fetch-asx    # new ASX snapshot into data/reference/, then stop
 python -m disclosures entities --draft-candidates [CSV] [--top 200]   # curation worksheet, then stop
+python -m disclosures entities --llm-dry-run   # long-tail blocks / uncached / requests, then stop
+python -m disclosures entities [--llm-limit N] [--workers 8]   # online: LLM for uncached blocks (paid, OpenRouter)
 python -m disclosures.schema --write | --check              # regenerate / check the JSON Schema
 python -m disclosures.gold stats [--force]                  # eval/pdf_stats.csv
 python -m disclosures.gold select --seed 20261001 --n 12    # eval/gold/selection.json
