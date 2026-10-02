@@ -132,3 +132,6 @@ yarn-error.log*
 .DS_Store
 Thumbs.db
 *~
+
+# Ralph loop logs and scratch (plans/2026-10-02-ralph-phases-3-5)
+.ralph/

@@ -313,3 +313,42 @@ Two findings, both recorded in `docs/v2/extraction.md` and `eval/bakeoff.md`:
 
 **Phase 2 done.** Next: Phase 3 (entities) or Phase 4a (scraper), per `SPEC.md`.
 
+### 2026-10-02 — PR #1 reviewed and merged; Phases 3–5 planned as a Ralph loop (interactive session)
+Kevin asked to review the cloud session's work, get it into `v2-upgrade`, and suggest next steps.
+PR #1 was fast-forwarded into `v2-upgrade` (`91a30fd`) after a local re-check: tests, validate,
+load and AC-2.7–2.10 all reproduce. An extra coverage check against v1 found one real gap:
+**attachments bound into a statement are not itemised consistently** (`odowdk45p`: 22 SMSF
+holdings missing). The prompt has no rule for them. The gold precedent (`plibersekt_43p`:
+attachment items recorded on the attachment page, no item for the "see attached" line) becomes
+rule C12, applied to the confirmed files only. Kevin: "yep" to fixing it, then "draft all of
+this … I'll try to run it in a ralph loop … I will also run it on the cloud again".
+
+Plan: `plans/2026-10-02-ralph-phases-3-5/`. The prompt, plan and operating guide follow the
+canonical Ralph layout (Huntley / Farr playbook). Decisions on top of SPEC.md are in
+`SPEC-DELTA.md` D1–D7: entity-pipeline details, Senate source, budget caps, branch and gate
+rules. Two facts re-verified live the same day changed Phase 4's shape:
+- The House 48th register now links mostly `interests-register-api-public` statement PDFs, which
+  are typed with a text layer.
+- **The Senate register is open JSON** (`queryStatements` / `getSenatorStatement`, 76 senators,
+  sections pre-split), so the Senate 48th needs a direct adapter and no LLM (ADR-9's
+  structured-source branch).
+
+Loop drivers:
+- Locally: `scripts/ralph/loop.sh`, a fresh `claude -p` per iteration.
+- In the cloud: the built-in `/goal`, because the `ralph-wiggum` plugin is not loaded in cloud
+  sessions.
+
+Both stop on `scripts/ralph/status.py` printing `RALPH-STATUS: STOP`. Phase 5 prep is included
+(publication stays Kevin's, G4).
+
+**Narrowing of a SPEC non-goal.** SPEC says Kevin performs every `git push`. Cloud runs push
+their own `claude/*` branch and open a PR against `v2-upgrade`, because that's the only way
+work leaves the container (the Phase 2 backfill did the same, and Kevin merged it). Pushing to
+`v2-upgrade`/`main`, merging, Pages and Kaggle stay Kevin's. Local runs never push.
+
+The plan pack was cold-reviewed by a separate verifier agent before commit. It found 3 blockers,
+all fixed: the secrets grep choked on 2 GB of PDFs; one expected block in M1 would have halted
+M2/M3; and the pack was uncommitted while the prompt told iterations to discard stray changes.
+It also found 15 smaller issues (branch-keyed push rule, stall guard in `loop.sh`, malformed-header
+detection in `status.py`, a `/goal` condition that could not re-satisfy, T3.3 split).
+

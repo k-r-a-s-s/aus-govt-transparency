@@ -1,4 +1,4 @@
-# Handover — Disclosures v2 (updated 2026-10-02 night: Phase 2 complete; backfill + load done; next is Phase 3 or 4a)
+# Handover — Disclosures v2 (updated 2026-10-02: Phase 2 merged and re-verified locally; next is the Ralph loop in `plans/2026-10-02-ralph-phases-3-5/`)
 
 Read first: `SPEC.md` (plan, ADRs, ACs, gates), `DECISIONS.md` (dated decisions, incl. G1/G2),
 `docs/v2/README.md` (layout, commands), `docs/v2/extraction.md` (both extractor arms, both
@@ -25,28 +25,33 @@ transports), `docs/v2/loading.md` (loader), `data/overrides/README.md`, `eval/ba
   5.5's Azure endpoints, so `require_parameters` pinned every fallback to Azure, which returned
   intermittent HTTP 400 `no_content_length_header`; ignoring Azure alone then left no endpoint
   (404). Use `--ignore-providers azure` on any future Sonnet-fallback run.
-- **Branching note:** this work was pushed from a cloud session to `claude/festive-hypatia-qf43x5`
-  with draft PR #1 against `v2-upgrade` (k-r-a-s-s/aus-govt-transparency). Merge it (or
-  fast-forward `v2-upgrade`) before continuing on `v2-upgrade` locally.
+- **Merged and re-verified locally (2026-10-02).** PR #1 (`claude/festive-hypatia-qf43x5`) was
+  fast-forwarded into `v2-upgrade` (`91a30fd`). Locally: 184 tests pass (including the root-only
+  one), `validate` 768/768, load reproduces 768/303/763/42,042, AC-2.7 hard queries 0, and the
+  AC-2.8 hash is `f69d40da…` (the cloud computed it as sha1 of the newline-joined ids with no
+  trailing newline; `| shasum` adds one and gives `ba764fdc…` for the same ids).
+- **Review finding: attachments aren't itemised consistently.** Example: `odowdk45p` notes an
+  "Attachment 'A'" of SMSF holdings and records none of its 22 holdings. Rule C12 and a targeted
+  re-extraction are M1 of the new plan (`plans/2026-10-02-ralph-phases-3-5/SPEC-DELTA.md` D1).
+  Coverage otherwise checks out against v1: v2 has 44% more items, no empty documents, no empty
+  20-page chunks, and only 1.7% of v1's named entities lack a v2 match (mostly v1 OCR noise).
+- **Minor:** Sonnet fallback chunks (108 files) ran at the provider's default temperature, since
+  `temperature` is omitted for `anthropic/*` (see the transport fixes above). They're less
+  reproducible than the temperature-0 bake-off. Not acted on.
 
 ## Single next action
-Phase 2 is closed. Pick up `SPEC.md` step 5 (**Phase 3 — Entities**: normalise, generic list,
-curated alias draft → **G3**, ASX snapshot + match, LLM long tail, `entities_report.md`) or step 6
-(**Phase 4a — Scraper**, independent). Both are separate specs in `SPEC.md`; nothing in Phase 2
-blocks them. Before starting, rebuild the DB:
-```sh
-.venv/bin/python -m disclosures load --source gemini-api
-```
-If any PDF ever needs re-extracting, the backfill command is idempotent (skips valid output;
-`--force` to redo); add `--ignore-providers azure` to the HANDOFF-step-1 command:
-```sh
-.venv/bin/python -m disclosures extract --source gemini --provider openrouter \
-    --model google/gemini-3.8-flash --provider-order google-ai-studio/flex \
-    --fallback-model anthropic/claude-sonnet-5.5 --ignore-providers azure --workers 8 \
-    $(.venv/bin/python -c "import csv;print(' '.join(r['pdf_path'] for r in csv.DictReader(open('eval/pdf_stats.csv')) if r['is_statement']=='1'))") \
-    2>&1 | tee -a eval/backfill-gemini.log
-```
-(zsh: inline the `$(...)` as above or use `${=VAR}`; bash word-splits fine.)
+**Run the Ralph loop:** `plans/2026-10-02-ralph-phases-3-5/RUNNING.md`. Locally that's
+`scripts/ralph/loop.sh 60`; in a cloud session it's the `/goal` line in RUNNING.md. It works
+`IMPLEMENTATION_PLAN.md` one task per iteration:
+- M1: the attachment fix.
+- M2: Phase 3 entities, up to G3.
+- M3: Phase 4 (manifest, House 48th, Senate 48th via its JSON API, refresh).
+- M5: Phase 5 publish prep.
+
+It stops at G3/G4 or on a block, and rewrites this section when it does. Rebuild the DB first
+if it's missing: `.venv/bin/python -m disclosures load --source gemini-api`. The G2 extract
+command (with `--ignore-providers azure`) and its batch rules are in
+`plans/2026-10-02-ralph-phases-3-5/AGENTS.md`.
 
 ## In-flight / deliberately out of scope
 - `extractions/workflow-claude/` (23 files), `extractions/openrouter-gpt-6-luna/` and
@@ -87,6 +92,10 @@ If any PDF ever needs re-extracting, the backfill command is idempotent (skips v
 - **The AI Studio key is not usable** (prepaid credits depleted). Don't retry it.
 
 ## Open questions (who holds the ball)
+- **Sandakan-trek sponsors (Kevin).** In `morrisons_43p` / `oakeshottr_43p`, v2 reads the trek's
+  sponsor list (BHP Billiton, Interlink Roads, …) as a covering letter with no items, because the
+  member paid their own way (C2). v1 logged the sponsors as travel gifts. Itemise them or not?
+  (SPEC-DELTA D1.)
 - **Fallback cost (Kevin, optional).** 14% of files needed the Sonnet fallback and it took
   ~58% of the spend. If re-extraction is ever needed at scale, a cheaper fallback model for
   blocked chunks only is the lever; not pursued (G2 says Sonnet).
