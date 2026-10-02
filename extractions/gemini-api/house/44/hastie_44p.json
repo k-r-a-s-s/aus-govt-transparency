@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.0",
+  "source_id": "gemini-api",
+  "model": "google/gemini-3.8-flash",
+  "extracted_at": "2026-10-02T06:43:38+00:00",
+  "pdf_path": "pdfs/44/hastie_44p.pdf",
+  "pdf_sha256": "f94e08124d523f8ff4cac22006426adf11168f5e9c06cfa7a7ad379f4058311b",
+  "page_count": 7,
+  "pages_covered": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "chamber": "house",
+  "parliament": 44,
+  "member_name_as_printed": "ANDREW WILLIAM HASTIE",
+  "electorate_or_state": "CANNING",
+  "statement_date": "2015-11-09",
+  "items": [
+    {
+      "section": 8,
+      "subsection": null,
+      "owner": "self",
+      "entity_name": "DEFENCE BANK",
+      "description": "SAVINGS",
+      "location": null,
+      "purpose": null,
+      "is_alteration": false,
+      "change_type": "initial",
+      "lodged_date": "2015-11-09",
+      "date_precision": "day",
+      "page": 4,
+      "confidence": "high"
+    },
+    {
+      "section": 8,
+      "subsection": null,
+      "owner": "self",
+      "entity_name": "NAB",
+      "description": "SAVINGS",
+      "location": null,
+      "purpose": null,
+      "is_alteration": false,
+      "change_type": "initial",
+      "lodged_date": "2015-11-09",
+      "date_precision": "day",
+      "page": 4,
+      "confidence": "high"
+    },
+    {
+      "section": 8,
+      "subsection": null,
+      "owner": "spouse",
+      "entity_name": "DEFENCE BANK",
+      "description": "SAVINGS",
+      "location": null,
+      "purpose": null,
+      "is_alteration": false,
+      "change_type": "initial",
+      "lodged_date": "2015-11-09",
+      "date_precision": "day",
+      "page": 4,
+      "confidence": "high"
+    },
+    {
+      "section": 9,
+      "subsection": null,
+      "owner": "self",
+      "entity_name": null,
+      "description": "2013 MITSUBISHI TRITON",
+      "location": null,
+      "purpose": null,
+      "is_alteration": false,
+      "change_type": "initial",
+      "lodged_date": "2015-11-09",
+      "date_precision": "day",
+      "page": 5,
+      "confidence": "high"
+    }
+  ],
+  "extraction_notes": "",
+  "usage": {
+    "input_tokens": 6342,
+    "output_tokens": 1559
+  }
+}
