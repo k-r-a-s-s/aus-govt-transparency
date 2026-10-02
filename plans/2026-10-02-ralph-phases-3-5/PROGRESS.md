@@ -38,3 +38,4 @@
 2026-10-02T15:50Z | T5.2 | done | spent US$0.00 | export --site: site/index.html (coverage, cite, Datasette Lite link) + site/disclosures_v2.db (31.9 MB copy); pages.yml valid; local http.server check ok; 322 pass
 2026-10-02T15:52Z | T5.3 | done | spent US$0.00 | README.md rewritten for v2 (what/coverage/commands/refresh/dictionary/limitations/v1 snapshot); AC-5.3 grep ok; 322 pass
 2026-10-02T15:54Z | T5.4 | done | spent US$0.00 | removed src/, examples/, test_output.json, setup_pipeline.sh, seed script, v1 docs; overrides README = CSVs source of truth; 'from src.' grep empty; 322 pass
+2026-10-02T15:56Z | T5.5 | done | spent US$0.00 | fresh venv: install + pip check ok, freeze == pins, 322 pass/1 skip, all modules import; no requirement changes

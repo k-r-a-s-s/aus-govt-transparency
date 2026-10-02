@@ -641,13 +641,14 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
 - notes: removed src/ (21 files), examples/, test_output.json, setup_pipeline.sh, scripts/seed_v2_overrides.py and the v1-only docs (docs/index.md, docs/backend|guides|workflows); data/overrides/README.md now says CSVs are source of truth; `from src.` grep empty; .specstory/.cursor/*.rmd left as history; 322 pass.
 
 ### T5.5 — Requirements: fresh-venv install
-- status: todo
+- status: done 2026-10-03
 - deps: T5.4
-- attempts: 0
+- attempts: 1
 - budget: US$0 · network: pypi
 - do: Per AC-5.5: make sure `requirements.txt` / `requirements-dev.txt` list everything v2
   imports (pinned). In a scratch venv (`.ralph/scratch/venv`), install both and run the suite.
 - done when: the fresh-venv install and the suite pass.
+- notes: no changes needed: fresh venv (.ralph/scratch/venv) pip install ok, pip check clean, freeze == pins; 322 passed 1 skipped; all 19 disclosures modules + CLI import. Third-party imports: dotenv google httpx jsonschema numpy pydantic pymupdf rapidfuzz scipy yaml(dev).
 
 ### T5.6 — Final rebuild, full AC sweep, handover
 - status: todo
