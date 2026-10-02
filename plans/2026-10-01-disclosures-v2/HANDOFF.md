@@ -1,4 +1,4 @@
-# Handover — Disclosures v2 (updated 2026-10-03: T5.6 final rebuild and AC sweep done; V5 then G4 remain)
+# Handover — Disclosures v2 (updated 2026-10-03: V5 final cold verification PASS; only G4 (Kevin) remains; loop STOPPED)
 
 Read first: `SPEC.md` (plan, ADRs, ACs, gates), `DECISIONS.md` (dated decisions, incl. G1/G2/G3),
 `README.md` (v2 overview, every command), `docs/v2/README.md` (layout), `docs/v2/extraction.md`,
@@ -9,12 +9,17 @@ This file only holds what those don't.
 
 ## Loop state (2026-10-03, branch `claude/ralph-proxmox`, PR #2 → `v2-upgrade`)
 G3 approved (0 fixes), T1.6 dropped (accept self-only), T2.9 and V2 done. T5.6 rebuilt everything
-from committed inputs and ran every SPEC §3 AC: **all pass** (`eval/final_acceptance.md`). Left:
-V5 (cold verification of the export and site, US$0), then G4 (Kevin).
+from committed inputs and ran every SPEC §3 AC: **all pass** (`eval/final_acceptance.md`).
+V5 (fresh verifier, SPEC §3 + final_acceptance only): **PASS, no findings**. Every offline AC
+reproduced; export 50,936 rows = items, 33 cols = metadata = README dictionary; `site/` DB
+identical to the live DB; Datasette Lite URL matches the remote owner/repo; 10/10 sampled items
+(House 43/45/47/48, Senate 48) traced to their PDF page / Senate JSON. Not checkable offline:
+AC-4.4 live re-scrape, AC-5.5 fresh install (done in T5.5), AC-5.6 Pages/Kaggle state.
+The loop is **stopped**: only G4 (Kevin) is left.
 OpenRouter credit left: **US$12.40 of 70** (US$57.60 used). Nothing left in the plan is paid.
 
 ## Waiting on Kevin
-### 1. G4: publish (after V5)
+### 1. G4: publish
 1. Choose the licence and Kaggle id, then regenerate: `.venv/bin/python -m disclosures export
    --site site --license NAME --kaggle-id USER/SLUG` (current values are placeholders; DECISIONS
    2026-10-03 T5.1). Commit `site/` and `exports/kaggle/README.md` + `dataset-metadata.json`.
@@ -23,6 +28,13 @@ OpenRouter credit left: **US$12.40 of 70** (US$57.60 used). Nothing left in the 
    check the Datasette Lite link on the page loads the DB.
 4. Upload `exports/kaggle/` (`kaggle datasets create -p exports/kaggle`), then announce.
 5. Record G4 in DECISIONS.md and sign off SPEC.md (`Status:` line), see open questions.
+
+## Optional polish V5 noted (cosmetic, not fixed; fix before G4 if you like)
+- Kaggle README / metadata say `entity_type` is empty for singletons, but 87 singleton-matched rows
+  carry a type (entity also reachable via a typed alias). Wording only.
+- `README.md` "v1 snapshot" says v1 scripts "are being removed"; they're gone (AC-5.4).
+- `tests/test_cli.py::test_stubs_exit_2_with_message` is permanently skipped (no stubs left): dead test.
+- `entity_asx_code` is also set for banks/airlines/media (CBA, QAN…); dictionary wording says "listed company".
 
 ## Open questions for Kevin (none blocks an AC)
 - **Sandakan-trek sponsors (SPEC-DELTA D1).** In `morrisons_43p` / `oakeshottr_43p`, v2 reads the
