@@ -31,3 +31,4 @@
 2026-10-02T15:05Z | T3.6 | done | spent US$0.00 | Senate 48th adapter: 76 payloads saved + manifest rows, 76/76 valid senate-json extractions (1,980 items); validate accepts .json sources; 297 tests pass
 2026-10-02T15:13Z | T3.7 | done | spent US$0.00 | Senate pdf_members/party_terms 76 each (4 cross-chamber); load --source repeatable, members.chamber = latest term; AC-4.6 76, AC-2.9 0; senate_source.md; 301 pass
 2026-10-02T15:20Z | T3.8 | done | spent US$0.00 | refresh --dry-run/gemini/workflow; AC-4.5 test (1 sha differs -> only that file); live dry-run: house 151 unchanged, senate 76 unchanged, 0 new/changed; 308 pass
+2026-10-02T15:30Z | T3.9 | done | spent US$0.00 | Senate archives: API current-only (no parliament param); 44th/45th per-senator scans 62+75; tabled volumes 43rd–47th 40 PDFs/6,456 pp; follow-up splitter + ≈US$18–25; docs only (ADR-9)

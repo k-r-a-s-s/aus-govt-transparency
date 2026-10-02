@@ -537,9 +537,9 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   manifest untouched. tests/test_refresh.py (8 tests); 308 pass.
 
 ### T3.9 — Senate archives 43rd–47th: discovery only
-- status: todo
+- status: done 2026-10-03
 - deps: T3.7
-- attempts: 0
+- attempts: 1
 - budget: US$0 · network: www.aph.gov.au, the senators API host
 - do: Per D3: find out whether `queryStatements` filters by parliament, and what the archive
   pages contain. Document the findings in `docs/v2/senate_source.md` with a follow-up estimate
@@ -547,6 +547,7 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   them through the adapter (free) and reload. Otherwise stop at documentation (ADR-9 accepted
   outcome).
 - done when: senate_source.md has an "Archives" section with the evidence.
+- notes: API has no parliament filter (params ignored, former senators absent). Archives = PDFs only: 44th/45th per-senator scans (62+75), and 40 tabled volumes for 43rd–47th (6,456 pp, 2,119 typed). Follow-up needs a volume splitter (≈ US$18–25); stopped at docs per ADR-9.
 
 ### T3.10 — Entities over the full dataset (paid, small)
 - status: todo
