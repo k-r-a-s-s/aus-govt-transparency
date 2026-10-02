@@ -61,9 +61,9 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
 ## M1 — Attachment fix (prompt v1, rule C12) — SPEC-DELTA D1
 
 ### T1.1 — Attachment-gap detector and candidate list
-- status: todo
+- status: done 2026-10-02
 - deps: T0.2
-- attempts: 0
+- attempts: 1
 - budget: US$0 · network: none
 - do: Write `scripts/find_attachment_gaps.py` (reads `extractions/gemini-api/house/**`, and
   v1's `disclosures.db` read-only). A file is a candidate if (a) a v2 item's description points
@@ -76,6 +76,7 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   D1 lists the files it must find; `odowdk45p` has to be in the output.
 - done when: the script runs in < 2 min; the CSV exists with every D1-listed file plus whatever
   else the rules catch (expect ≈ 10–30 rows); the test passes.
+- notes: 29 rows (<1 s): 23 rule (a), 10 rule (b), all 12 D1 files incl. odowdk45p (21 v1 unmatched). Extra rule-(a) hits like turnbullm_44p/grayg_44p are likely 'schedule' false positives for T1.2 to rule out.
 
 ### T1.2 — Confirm each candidate by looking at the pages
 - status: todo
