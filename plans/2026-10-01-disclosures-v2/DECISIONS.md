@@ -229,3 +229,51 @@ input modalities text/image/video/file/audio. The extractor needs an OpenRouter 
 (OpenAI-compatible chat completions with a `file` part and `json_schema` response format) next
 to the existing `google-genai` path; `resolve_gemini_model()` must still ban 2.x after stripping
 `google/`. The 23 workflow-claude files stay as bake-off evidence.
+
+### 2026-10-02 — Bake-off re-run on OpenRouter: four arms, Gemini 3.8 Flash (+ Sonnet fallback) wins; G2 revisited
+Kevin asked for a short multi-provider comparison before committing ("check a few different
+providers before committing"). The live OpenRouter catalogue (464 models, 181 with native
+`file` input) was filtered to native-PDF + structured-output models and probed on one 2-page
+scanned chunk for tokens/page. Shortlist: `google/gemini-3.8-flash` (favourite, ~520 input
+tokens/page), `openai/gpt-6-luna` (cheap challenger, ~3,000 tokens/page but $0.10/MTok) and
+`anthropic/claude-sonnet-5.5` (quality anchor). Haiku 4.5, Grok 4.3, GPT-5.4 Mini and Gemini
+3.5 Flash Lite were dropped as dominated on cost or capability. An OpenRouter transport was
+added to the extractor (`disclosures/openrouter.py`; ADR-11 mock tests; request shape verified
+against openrouter.ai/docs and live).
+
+Gold-set results (12 PDFs, 790 items; `eval/bakeoff.md` has the full table):
+
+| arm | P | R | F1 | sec-ignored R | owner | page | lodged_date | gold cost | backfill est. |
+|---|---|---|---|---|---|---|---|---|---|
+| workflow-claude (Sonnet, Claude Code) | 0.973 | 0.975 | 0.974 | 0.978 | 0.995 | 0.991 | 0.988 | subscription | subscription-capped |
+| gemini-api: `google/gemini-3.8-flash` flex + Sonnet 5.5 fallback | 0.986 | 0.987 | **0.987** | 0.990 | 1.000 | 1.000 | 0.968 | US$0.48 | ≈ US$22 |
+| `openai/gpt-6-luna` | 0.967 | 0.958 | 0.962 | 0.977 | 0.995 | 0.992 | **0.765** | US$0.17 | ≈ US$7.5 |
+| `anthropic/claude-sonnet-5.5` | 0.981 | 0.973 | 0.977 | 0.991 | 0.997 | 1.000 | 0.999 | US$2.38 | ≈ US$108 |
+
+All four clear the ADR-4 bar. ADR-5 rule: highest F1 wins → **gemini-api** (0.987), no
+tie-break needed. Two findings behind that result:
+- **Gemini RECITATION block.** Gemini refused morrison_47p pages 21–29 (`finish_reason ERROR`,
+  native `RECITATION`), and still refused page 23 alone (a typed travel-alteration notice:
+  Taipei/Bangkok, Galle Dialogue). Re-splitting cannot clear it, so a **per-chunk
+  `--fallback-model`** was added: only the blocked chunk goes to the fallback (Sonnet 5.5), the
+  file's `model` becomes `primary+fallback` and `extraction_notes` says which pages. Without the
+  fallback Gemini scored recall 0.865 (one whole PDF missing) and failed the bar. Expect a few
+  per cent of backfill PDFs to need it; cost impact is small (one Sonnet chunk ≈ US$0.10).
+- **GPT-6 Luna breaks convention C4 on dates.** On typed 47th-Parliament files it takes the
+  "received" stamp date rather than the signed date (tink 25→26 Aug, gosling 22→23 Aug,
+  plibersek 18→22 Oct 2010), giving lodged_date accuracy 0.765. It also loses items in dense
+  pages (thistlethwaite s13 clubs, kingm s6 banks). It is the cheapest arm by far but is not
+  chosen. (The butlerm "4/12/13" handwritten date, read as November by Gemini and Luna, is
+  genuinely cramped; the gold reading is supported by the 9 Dec 2013 stamp.)
+
+Transport facts recorded in `docs/v2/extraction.md`: `openai/*` models reject `temperature`;
+the half-price Gemini tier is pinned with `provider.order: ["google-ai-studio/flex"]`
+(`:batch` is a separate async API); OpenRouter reports `usage.cost`, which the extractor now
+prints instead of the price-table estimate. zsh does not word-split `$GOLD`, which silently
+turned the first three gold runs into a single "PDF not found" argument (no cost incurred).
+
+**G2 revisited (2026-10-02): recommendation is gemini-api = `google/gemini-3.8-flash` on
+`google-ai-studio/flex` with `--fallback-model anthropic/claude-sonnet-5.5`.** Kevin to
+confirm. Budget note: OpenRouter credit is ≈ US$17.5 of 30 after this session's ≈ US$3.6 of
+gold runs and probes; the backfill at this configuration is ≈ US$22, so a top-up of ≈ US$10 is
+needed before (or during) it. A `--reasoning-effort low` variant is being scored for cost.

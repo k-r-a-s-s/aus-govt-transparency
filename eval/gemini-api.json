@@ -1,0 +1,287 @@
+{
+  "mode": "pred",
+  "threshold": 85.0,
+  "n_pdfs": 12,
+  "n_pdfs_without_pred": 0,
+  "counts": {
+    "n_gold": 790,
+    "n_pred": 791,
+    "matched": 780,
+    "matched_section_ignored": 782
+  },
+  "precision": 0.9860935524652339,
+  "recall": 0.9873417721518988,
+  "f1": 0.9867172675521823,
+  "section_ignored": {
+    "precision": 0.988621997471555,
+    "recall": 0.9898734177215189,
+    "f1": 0.989247311827957
+  },
+  "accuracy": {
+    "owner": 1.0,
+    "change_type": 0.9974358974358974,
+    "is_alteration": 1.0,
+    "page": 1.0,
+    "lodged_date": 0.967948717948718
+  },
+  "accuracy_counts": {
+    "owner": {
+      "correct": 780,
+      "total": 780
+    },
+    "change_type": {
+      "correct": 778,
+      "total": 780
+    },
+    "is_alteration": {
+      "correct": 780,
+      "total": 780
+    },
+    "page": {
+      "correct": 780,
+      "total": 780
+    },
+    "lodged_date": {
+      "correct": 755,
+      "total": 780
+    }
+  },
+  "per_pdf": [
+    {
+      "stem": "butlerm_44p",
+      "pdf_path": "pdfs/44/butlerm_44p.pdf",
+      "has_pred": true,
+      "n_gold": 32,
+      "n_pred": 32,
+      "matched": 31,
+      "matched_section_ignored": 32,
+      "recall": 0.96875,
+      "recall_section_ignored": 1.0
+    },
+    {
+      "stem": "gosling_47p",
+      "pdf_path": "pdfs/47/gosling_47p.pdf",
+      "has_pred": true,
+      "n_gold": 39,
+      "n_pred": 39,
+      "matched": 37,
+      "matched_section_ignored": 37,
+      "recall": 0.9487179487179487,
+      "recall_section_ignored": 0.9487179487179487
+    },
+    {
+      "stem": "husice_45p",
+      "pdf_path": "pdfs/45/husice_45p.pdf",
+      "has_pred": true,
+      "n_gold": 26,
+      "n_pred": 26,
+      "matched": 25,
+      "matched_section_ignored": 25,
+      "recall": 0.9615384615384616,
+      "recall_section_ignored": 0.9615384615384616
+    },
+    {
+      "stem": "kingm_47p",
+      "pdf_path": "pdfs/47/kingm_47p.pdf",
+      "has_pred": true,
+      "n_gold": 207,
+      "n_pred": 207,
+      "matched": 207,
+      "matched_section_ignored": 207,
+      "recall": 1.0,
+      "recall_section_ignored": 1.0
+    },
+    {
+      "stem": "morrison_47p",
+      "pdf_path": "pdfs/47/morrison_47p.pdf",
+      "has_pred": true,
+      "n_gold": 97,
+      "n_pred": 97,
+      "matched": 97,
+      "matched_section_ignored": 97,
+      "recall": 1.0,
+      "recall_section_ignored": 1.0
+    },
+    {
+      "stem": "morton_46p",
+      "pdf_path": "pdfs/46/morton_46p.pdf",
+      "has_pred": true,
+      "n_gold": 62,
+      "n_pred": 62,
+      "matched": 62,
+      "matched_section_ignored": 62,
+      "recall": 1.0,
+      "recall_section_ignored": 1.0
+    },
+    {
+      "stem": "plibersekt_43p",
+      "pdf_path": "pdfs/43/plibersekt_43p.pdf",
+      "has_pred": true,
+      "n_gold": 46,
+      "n_pred": 47,
+      "matched": 46,
+      "matched_section_ignored": 46,
+      "recall": 1.0,
+      "recall_section_ignored": 1.0
+    },
+    {
+      "stem": "prenticej_45p",
+      "pdf_path": "pdfs/45/prenticej_45p.pdf",
+      "has_pred": true,
+      "n_gold": 72,
+      "n_pred": 72,
+      "matched": 67,
+      "matched_section_ignored": 67,
+      "recall": 0.9305555555555556,
+      "recall_section_ignored": 0.9305555555555556
+    },
+    {
+      "stem": "royw_43p",
+      "pdf_path": "pdfs/43/royw_43p.pdf",
+      "has_pred": true,
+      "n_gold": 13,
+      "n_pred": 13,
+      "matched": 12,
+      "matched_section_ignored": 13,
+      "recall": 0.9230769230769231,
+      "recall_section_ignored": 1.0
+    },
+    {
+      "stem": "thistlethwaitem_44p",
+      "pdf_path": "pdfs/44/thistlethwaitem_44p.pdf",
+      "has_pred": true,
+      "n_gold": 71,
+      "n_pred": 71,
+      "matched": 71,
+      "matched_section_ignored": 71,
+      "recall": 1.0,
+      "recall_section_ignored": 1.0
+    },
+    {
+      "stem": "tink_47p",
+      "pdf_path": "pdfs/47/tink_47p.pdf",
+      "has_pred": true,
+      "n_gold": 77,
+      "n_pred": 77,
+      "matched": 77,
+      "matched_section_ignored": 77,
+      "recall": 1.0,
+      "recall_section_ignored": 1.0
+    },
+    {
+      "stem": "wilkie_46p",
+      "pdf_path": "pdfs/46/wilkie_46p.pdf",
+      "has_pred": true,
+      "n_gold": 48,
+      "n_pred": 48,
+      "matched": 48,
+      "matched_section_ignored": 48,
+      "recall": 1.0,
+      "recall_section_ignored": 1.0
+    }
+  ],
+  "worst_misses": [
+    {
+      "stem": "husice_45p",
+      "page": 4,
+      "section": 6,
+      "owner": "self",
+      "entity_name": "AMEX",
+      "description": "Credit Cards - American Express, AMEX/Visa, Mastercard (AMEX)",
+      "best_ratio": 40.0,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "gosling_47p",
+      "page": 9,
+      "section": 12,
+      "owner": "self",
+      "entity_name": "AALD",
+      "description": "Return Economy flights from Sydney to Hawaii with Hawaii Airlines organised by AALD for participation in the Honolulu Leadership Dialogue.",
+      "best_ratio": 44.44444444444444,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "prenticej_45p",
+      "page": 25,
+      "section": 11,
+      "owner": "self",
+      "entity_name": "Parliamentary hosts (delegation to Taiwan)",
+      "description": "Official gifts from Parliamentary hosts as part of a delegation to Taiwan: 2 'Sty-art' porcelain tea dishes",
+      "best_ratio": 57.142857142857146,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "prenticej_45p",
+      "page": 25,
+      "section": 11,
+      "owner": "self",
+      "entity_name": "Parliamentary hosts (delegation to Taiwan)",
+      "description": "Official gifts from Parliamentary hosts as part of a delegation to Taiwan: 2 'Taiwan Ceramics' porcelain Taiwan-style cups",
+      "best_ratio": 57.142857142857146,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "prenticej_45p",
+      "page": 25,
+      "section": 11,
+      "owner": "self",
+      "entity_name": "Parliamentary hosts (delegation to Taiwan)",
+      "description": "Official gifts from Parliamentary hosts as part of a delegation to Taiwan: Wang De Chuan tea packets",
+      "best_ratio": 57.142857142857146,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "prenticej_45p",
+      "page": 25,
+      "section": 11,
+      "owner": "self",
+      "entity_name": "Parliamentary hosts (delegation to Taiwan)",
+      "description": "Official gifts from Parliamentary hosts as part of a delegation to Taiwan: Yuan Chu Min ceramic puzzle salt and pepper set",
+      "best_ratio": 57.142857142857146,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "prenticej_45p",
+      "page": 25,
+      "section": 11,
+      "owner": "self",
+      "entity_name": "Parliamentary hosts (delegation to Taiwan)",
+      "description": "Official gifts from Parliamentary hosts as part of a delegation to Taiwan: 'Chintang Pottery' crystalline porcelain tea set",
+      "best_ratio": 57.142857142857146,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "gosling_47p",
+      "page": 8,
+      "section": 12,
+      "owner": "self",
+      "entity_name": "Chief Ministers Marquee",
+      "description": "Family tickets to Chief Ministers Marquee at the Darwin Supercars.",
+      "best_ratio": 75.67567567567568,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "butlerm_44p",
+      "page": 13,
+      "section": 12,
+      "owner": "self",
+      "entity_name": "South Australian Tourism Commission",
+      "description": "4 day passes to Womadelaide Music Festival 11-14 March 2016 - valued at $356.00 per person (x 2)",
+      "best_ratio": 100.0,
+      "matched_if_section_ignored": true
+    },
+    {
+      "stem": "royw_43p",
+      "page": 14,
+      "section": 14,
+      "owner": "self",
+      "entity_name": "Fresh Advertising",
+      "description": "Assist with the development of an IPHONE application - Fresh Advertising",
+      "best_ratio": 100.0,
+      "matched_if_section_ignored": true
+    }
+  ],
+  "pred": "extractions/gemini-api",
+  "gold": "eval/gold"
+}

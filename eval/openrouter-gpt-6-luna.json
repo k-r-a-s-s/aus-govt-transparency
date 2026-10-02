@@ -1,0 +1,287 @@
+{
+  "mode": "pred",
+  "threshold": 85.0,
+  "n_pdfs": 12,
+  "n_pdfs_without_pred": 0,
+  "counts": {
+    "n_gold": 790,
+    "n_pred": 783,
+    "matched": 757,
+    "matched_section_ignored": 772
+  },
+  "precision": 0.966794380587484,
+  "recall": 0.9582278481012658,
+  "f1": 0.9624920534011443,
+  "section_ignored": {
+    "precision": 0.9859514687100894,
+    "recall": 0.9772151898734177,
+    "f1": 0.9815638906547998
+  },
+  "accuracy": {
+    "owner": 0.9947159841479525,
+    "change_type": 0.9920739762219286,
+    "is_alteration": 0.9973579920739762,
+    "page": 0.9920739762219286,
+    "lodged_date": 0.7648612945838837
+  },
+  "accuracy_counts": {
+    "owner": {
+      "correct": 753,
+      "total": 757
+    },
+    "change_type": {
+      "correct": 751,
+      "total": 757
+    },
+    "is_alteration": {
+      "correct": 755,
+      "total": 757
+    },
+    "page": {
+      "correct": 751,
+      "total": 757
+    },
+    "lodged_date": {
+      "correct": 579,
+      "total": 757
+    }
+  },
+  "per_pdf": [
+    {
+      "stem": "butlerm_44p",
+      "pdf_path": "pdfs/44/butlerm_44p.pdf",
+      "has_pred": true,
+      "n_gold": 32,
+      "n_pred": 32,
+      "matched": 31,
+      "matched_section_ignored": 32,
+      "recall": 0.96875,
+      "recall_section_ignored": 1.0
+    },
+    {
+      "stem": "gosling_47p",
+      "pdf_path": "pdfs/47/gosling_47p.pdf",
+      "has_pred": true,
+      "n_gold": 39,
+      "n_pred": 39,
+      "matched": 37,
+      "matched_section_ignored": 37,
+      "recall": 0.9487179487179487,
+      "recall_section_ignored": 0.9487179487179487
+    },
+    {
+      "stem": "husice_45p",
+      "pdf_path": "pdfs/45/husice_45p.pdf",
+      "has_pred": true,
+      "n_gold": 26,
+      "n_pred": 27,
+      "matched": 26,
+      "matched_section_ignored": 26,
+      "recall": 1.0,
+      "recall_section_ignored": 1.0
+    },
+    {
+      "stem": "kingm_47p",
+      "pdf_path": "pdfs/47/kingm_47p.pdf",
+      "has_pred": true,
+      "n_gold": 207,
+      "n_pred": 199,
+      "matched": 194,
+      "matched_section_ignored": 194,
+      "recall": 0.9371980676328503,
+      "recall_section_ignored": 0.9371980676328503
+    },
+    {
+      "stem": "morrison_47p",
+      "pdf_path": "pdfs/47/morrison_47p.pdf",
+      "has_pred": true,
+      "n_gold": 97,
+      "n_pred": 97,
+      "matched": 97,
+      "matched_section_ignored": 97,
+      "recall": 1.0,
+      "recall_section_ignored": 1.0
+    },
+    {
+      "stem": "morton_46p",
+      "pdf_path": "pdfs/46/morton_46p.pdf",
+      "has_pred": true,
+      "n_gold": 62,
+      "n_pred": 62,
+      "matched": 62,
+      "matched_section_ignored": 62,
+      "recall": 1.0,
+      "recall_section_ignored": 1.0
+    },
+    {
+      "stem": "plibersekt_43p",
+      "pdf_path": "pdfs/43/plibersekt_43p.pdf",
+      "has_pred": true,
+      "n_gold": 46,
+      "n_pred": 47,
+      "matched": 46,
+      "matched_section_ignored": 46,
+      "recall": 1.0,
+      "recall_section_ignored": 1.0
+    },
+    {
+      "stem": "prenticej_45p",
+      "pdf_path": "pdfs/45/prenticej_45p.pdf",
+      "has_pred": true,
+      "n_gold": 72,
+      "n_pred": 72,
+      "matched": 72,
+      "matched_section_ignored": 72,
+      "recall": 1.0,
+      "recall_section_ignored": 1.0
+    },
+    {
+      "stem": "royw_43p",
+      "pdf_path": "pdfs/43/royw_43p.pdf",
+      "has_pred": true,
+      "n_gold": 13,
+      "n_pred": 13,
+      "matched": 12,
+      "matched_section_ignored": 13,
+      "recall": 0.9230769230769231,
+      "recall_section_ignored": 1.0
+    },
+    {
+      "stem": "thistlethwaitem_44p",
+      "pdf_path": "pdfs/44/thistlethwaitem_44p.pdf",
+      "has_pred": true,
+      "n_gold": 71,
+      "n_pred": 71,
+      "matched": 56,
+      "matched_section_ignored": 69,
+      "recall": 0.7887323943661971,
+      "recall_section_ignored": 0.971830985915493
+    },
+    {
+      "stem": "tink_47p",
+      "pdf_path": "pdfs/47/tink_47p.pdf",
+      "has_pred": true,
+      "n_gold": 77,
+      "n_pred": 77,
+      "matched": 77,
+      "matched_section_ignored": 77,
+      "recall": 1.0,
+      "recall_section_ignored": 1.0
+    },
+    {
+      "stem": "wilkie_46p",
+      "pdf_path": "pdfs/46/wilkie_46p.pdf",
+      "has_pred": true,
+      "n_gold": 48,
+      "n_pred": 47,
+      "matched": 47,
+      "matched_section_ignored": 47,
+      "recall": 0.9791666666666666,
+      "recall_section_ignored": 0.9791666666666666
+    }
+  ],
+  "worst_misses": [
+    {
+      "stem": "gosling_47p",
+      "page": 9,
+      "section": 12,
+      "owner": "self",
+      "entity_name": "AALD",
+      "description": "Return Economy flights from Sydney to Hawaii with Hawaii Airlines organised by AALD for participation in the Honolulu Leadership Dialogue.",
+      "best_ratio": 44.44444444444444,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "gosling_47p",
+      "page": 8,
+      "section": 12,
+      "owner": "self",
+      "entity_name": "Chief Ministers Marquee",
+      "description": "Family tickets to Chief Ministers Marquee at the Darwin Supercars.",
+      "best_ratio": 70.58823529411765,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "thistlethwaitem_44p",
+      "page": 6,
+      "section": 13,
+      "owner": "self",
+      "entity_name": "Coogee Legion Club",
+      "description": "Coogee Legion Club",
+      "best_ratio": 81.08108108108108,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "thistlethwaitem_44p",
+      "page": 6,
+      "section": 13,
+      "owner": "self",
+      "entity_name": "Souths Juniors Club",
+      "description": "Souths Juniors Club",
+      "best_ratio": 84.21052631578948,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "kingm_47p",
+      "page": 44,
+      "section": 6,
+      "owner": "self",
+      "entity_name": "Commonwealth Bank",
+      "description": "Self: Commonwealth Bank, Westpac and St George",
+      "best_ratio": 100.0,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "kingm_47p",
+      "page": 44,
+      "section": 6,
+      "owner": "self",
+      "entity_name": "Westpac",
+      "description": "Self: Commonwealth Bank, Westpac and St George",
+      "best_ratio": 100.0,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "kingm_47p",
+      "page": 44,
+      "section": 6,
+      "owner": "self",
+      "entity_name": "St George",
+      "description": "Self: Commonwealth Bank, Westpac and St George",
+      "best_ratio": 100.0,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "kingm_47p",
+      "page": 44,
+      "section": 6,
+      "owner": "spouse",
+      "entity_name": "Westpac",
+      "description": "Spouse/Partner: Commonwealth Bank, Westpac and St George",
+      "best_ratio": 100.0,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "kingm_47p",
+      "page": 44,
+      "section": 6,
+      "owner": "spouse",
+      "entity_name": "St George",
+      "description": "Spouse/Partner: Commonwealth Bank, Westpac and St George",
+      "best_ratio": 100.0,
+      "matched_if_section_ignored": false
+    },
+    {
+      "stem": "kingm_47p",
+      "page": 50,
+      "section": 3,
+      "owner": "self",
+      "entity_name": null,
+      "description": "Osmington WA - Investment (Self and partner)",
+      "best_ratio": 100.0,
+      "matched_if_section_ignored": false
+    }
+  ],
+  "pred": "extractions/openrouter-gpt-6-luna",
+  "gold": "eval/gold"
+}

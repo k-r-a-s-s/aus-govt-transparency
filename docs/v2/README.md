@@ -14,7 +14,8 @@ Spec: `plans/2026-10-01-disclosures-v2/SPEC.md`.
 | `disclosures/normalise.py` | entity-name normalisation (ADR-6 step 1) |
 | `disclosures/score.py` | scoring harness (ADR-4) |
 | `disclosures/gold.py` | PDF stats, gold selection, review sheet |
-| `disclosures/extract_gemini.py` | Extractor B `gemini-api`: chunked, schema-constrained Gemini extraction (ADR-5) |
+| `disclosures/extract_gemini.py` | Extractor B `gemini-api`: chunked, schema-constrained extraction (ADR-5); `GenaiBackend` transport |
+| `disclosures/openrouter.py` | OpenRouter transport for extractor B (native PDF + strict json_schema; any vendor's model for the bake-off) |
 | `disclosures/gemini_model.py` | `resolve_gemini_model()`: the one Gemini model-id resolver (bans 0.x-2.x ids) |
 | `disclosures/load.py` | loader: validated extractions -> `disclosures_v2.db` (ADR-7); see `docs/v2/loading.md` |
 | `data/overrides/` | member identity + party-per-term CSVs carried forward from v1 (see its `README.md`) |
@@ -40,7 +41,8 @@ python3 -m venv .venv
 ```sh
 python -m disclosures --help
 python -m disclosures validate <file-or-dir> [...]          # exit 1 if any file invalid
-python -m disclosures extract --source gemini [--model ID] [--out-root extractions/gemini-api] \
+python -m disclosures extract --source gemini [--provider auto|gemini|openrouter] [--model ID] \
+    [--provider-order google-ai-studio/flex] [--fallback-model ID] [--workers 4] [--out-root extractions/<source-id>] \
     [--chunk-pages 20] [--max-retries 4] [--force] <pdfs...>   # see docs/v2/extraction.md
 python -m disclosures score --pred <dir> --gold eval/gold [--json out.json]
 python -m disclosures score --v1 disclosures.db --gold eval/gold [--json eval/v1_baseline.json]

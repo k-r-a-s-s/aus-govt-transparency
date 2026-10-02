@@ -9,40 +9,106 @@ instructions, `disclosures/prompts/extract.md`. Check any output with
 | Arm | `source_id` | Runs as | Who can run it |
 |---|---|---|---|
 | A | `workflow-claude` | Claude Code Workflow `.claude/workflows/extract-disclosures.js` | the orchestrating Claude Code session or Kevin (implementer subagents cannot invoke Workflow) |
-| B | `gemini-api` | `python -m disclosures extract --source gemini ...` | anyone with a funded Gemini API key |
+| B | `gemini-api` | `python -m disclosures extract --source gemini ...` | anyone with an OpenRouter key (`--provider openrouter`, default when `OPENROUTER_KEY` is set) or a funded Gemini API key (`--provider gemini`) |
+| B′ | `openrouter-<model>` | the same command with a non-Gemini `--model` (bake-off arms only, e.g. `openai/gpt-6-luna`, `anthropic/claude-sonnet-5.5`) | anyone with an OpenRouter key |
 
 ## Arm B: Gemini API (`gemini-api`)
 
+The extractor has two transports, chosen with `--provider`. Everything above the transport
+(chunking, re-split, page offsets, merge, validation) is shared and lives in
+`disclosures/extract_gemini.py`; the transports are `GenaiBackend` (same file) and
+`disclosures/openrouter.py`.
+
+| `--provider` | Talks to | Key (`.env.local`) | Models |
+|---|---|---|---|
+| `openrouter` | `POST https://openrouter.ai/api/v1/chat/completions` (OpenAI-compatible) | `OPENROUTER_KEY` | any OpenRouter id with native `file` input: `google/gemini-3.8-flash` (default), `openai/gpt-6-luna`, `anthropic/claude-sonnet-5.5`, ... |
+| `gemini` | AI Studio through the `google-genai` SDK | `GOOGLE_API_KEY` (or `GEMINI_API_KEY`) | Gemini ids only |
+| `auto` (default) | `openrouter` if `OPENROUTER_KEY` is set, else `gemini` | | |
+
 ### Setup
 - `.env.local` at the repo root (gitignored; never commit or print it):
-  - `GOOGLE_API_KEY` (or `GEMINI_API_KEY` as a fallback): required.
+  - `OPENROUTER_KEY`: the OpenRouter key (added 2026-10-02). Check the balance with
+    `curl -H "Authorization: Bearer $OPENROUTER_KEY" https://openrouter.ai/api/v1/credits`.
+  - `GOOGLE_API_KEY` (or `GEMINI_API_KEY`): only for `--provider gemini`. **The project's AI
+    Studio credits are depleted (402 since 2026-10-01); use OpenRouter.**
   - `GEMINI_MODEL`: optional. Defaults to `gemini-3.8-flash`.
 - The CLI loads `.env.local` with `override=False`, so real environment variables win.
-  Model precedence: `--model` > `GEMINI_MODEL` > default. Every id goes through
-  `disclosures.gemini_model.resolve_gemini_model()`, which strips a `models/` prefix and
-  **rejects any Gemini 0.x/1.x/2.x id** (regex `^gemini-[0-2]\.`), whatever its source.
-- Missing key, banned model or `--batch`: the command exits 2 with a one-line message.
-
-> **Credits (2026-10-01):** the project key's prepaid AI Studio credits are depleted. Any live
-> call currently fails with `402 RESOURCE_EXHAUSTED`, which is not retried, so every PDF is
-> reported failed. Kevin must top up at https://ai.studio/projects before running the
-> bake-off. Rough cost: gold set (289 pages) about US$0.50; full House 43rd-47th backfill about US$10-20.
+  Model precedence: `--model` > `GEMINI_MODEL` > default. Every Gemini id, bare or
+  `google/`-prefixed, goes through `disclosures.gemini_model.resolve_gemini_model()`, which
+  strips a `models/` prefix and **rejects any Gemini 0.x/1.x/2.x id** (regex
+  `^gemini-[0-2]\.`), whatever its source. Non-Gemini OpenRouter ids pass through unchanged
+  (they must be `<vendor>/<model>`).
+- Missing key, banned model, bad `--workers` or `--batch`: the command exits 2 with a one-line
+  message.
 
 ### Usage
 ```sh
-python -m disclosures extract --source gemini [--model gemini-3.8-flash] \
-    [--out-root extractions/gemini-api] [--chunk-pages 20] [--max-retries 4] [--force] \
-    pdfs/45/husice_45p.pdf pdfs/47/kingm_47p.pdf ...
+python -m disclosures extract --source gemini [--provider auto|gemini|openrouter] [--model ID] \
+    [--provider-order google-ai-studio/flex] [--fallback-model ID] [--reasoning-effort low|medium|high] \
+    [--source-id gemini-api] [--out-root extractions/<source-id>] [--chunk-pages 20] \
+    [--max-retries 4] [--workers 1] [--force] pdfs/45/husice_45p.pdf pdfs/47/kingm_47p.pdf ...
 
-# the 12 gold PDFs:
-python -m disclosures extract --source gemini \
+# the 12 gold PDFs, Gemini 3.8 Flash on OpenRouter's half-price flex endpoints, Sonnet 5.5 as the
+# fallback for chunks Gemini refuses, 4 PDFs at a time. NB zsh does not word-split $GOLD: use ${=GOLD}
+# in zsh, or inline the $(...) as below.
+python -m disclosures extract --source gemini --provider openrouter --model google/gemini-3.8-flash \
+    --provider-order google-ai-studio/flex --fallback-model anthropic/claude-sonnet-5.5 --workers 4 \
     $(.venv/bin/python -c "import json;print(' '.join(p['pdf_path'] for p in json.load(open('eval/gold/selection.json'))['pdfs']))")
 python -m disclosures validate extractions/gemini-api
+
+# a bake-off arm on another vendor's model (lands in extractions/openrouter-gpt-6-luna/):
+python -m disclosures extract --source gemini --provider openrouter --model openai/gpt-6-luna --workers 4 $GOLD
+python -m disclosures score --pred extractions/openrouter-gpt-6-luna --gold eval/gold
 ```
-Each PDF prints one line (`ok`, `skip` or `FAILED`). The run ends with
-`N ok, M failed, K skipped`, token totals, an estimated cost and a `Failed PDFs:` list.
-The exit code is 1 if any PDF failed and 0 otherwise. A PDF whose output already exists and
-validates is skipped unless `--force` is given.
+Each PDF prints one line (`ok`, `skip` or `FAILED`), with its cost when the provider reports
+one. The run ends with `N ok, M failed, K skipped`, token totals, the cost (reported by
+OpenRouter, or estimated from the Gemini price table on the `gemini` transport) and a
+`Failed PDFs:` list. The exit code is 1 if any PDF failed and 0 otherwise. A PDF whose output
+already exists and validates is skipped unless `--force` is given, so a backfill can be
+re-run until clean. `--workers N` extracts N PDFs at once (threads); the summary is the same.
+
+- **`--fallback-model ID` (OpenRouter only):** a second model used for a *chunk* that the
+  primary model refuses with a content block (Gemini `RECITATION`/`SAFETY`, OpenRouter
+  `content_filter`/`error`). Re-splitting does not clear these (morrison_47p page 23, a typed
+  travel notice, is blocked even as a 1-page chunk), so without a fallback the PDF fails. With
+  one, only that chunk goes to the fallback model; the file's `model` becomes
+  `primary+fallback` (e.g. `google/gemini-3.8-flash+anthropic/claude-sonnet-5.5`) and
+  `extraction_notes` records `pages S-E: fallback <model> after primary <model> returned
+  finish_reason ERROR (RECITATION)`. A `MAX_TOKENS` on the fallback is not re-split (the PDF
+  fails). The blocked call's tokens and cost are still counted. On the gold set 1 of 12 PDFs
+  (1 of 18 chunks) needed it.
+- **`source_id` / output root:** `gemini-api` and `extractions/gemini-api/` for any Gemini
+  model on either transport; `openrouter-<model>` (e.g. `openrouter-gpt-6-luna`,
+  `openrouter-claude-sonnet-5.5`) for other vendors, so each bake-off arm has its own tree and
+  `load --source` never mixes them. `--source-id` / `--out-root` override both. The `model`
+  field in each file is the id as sent (`google/gemini-3.8-flash` on OpenRouter).
+
+### OpenRouter transport (`disclosures/openrouter.py`)
+Request shape (verified against openrouter.ai/docs and live on 2026-10-02):
+- The chunk is a `file` content part, `{"type":"file","file":{"filename":"chunk.pdf",
+  "file_data":"data:application/pdf;base64,…"}}`, followed by a `text` part (prompt +
+  preamble). `plugins: [{"id":"file-parser","pdf":{"engine":"native"}}]` pins the model's own
+  PDF reading: 64% of the corpus pages have no text layer, so a text-extraction engine would
+  return nothing. Only models whose OpenRouter listing has `file` in `input_modalities` work.
+- `response_format: {"type":"json_schema","json_schema":{"name":"extraction","strict":true,
+  "schema":…}}` with the same per-chunk schema as the Gemini path plus
+  `additionalProperties: false` on every object (OpenAI/Anthropic strict modes require it).
+  `provider.require_parameters: true` keeps the request off endpoints that would ignore the
+  schema (e.g. Claude on Bedrock).
+- `--provider-order a,b` becomes `provider.order` with `allow_fallbacks: false`. Use
+  `google-ai-studio/flex` for Gemini at half price ($0.38 / $1.88 per MTok) with higher
+  latency: right for an unattended backfill. (`:batch` is a separate asynchronous API; not used.)
+- `temperature: 0` except for `openai/*` models, which reject the parameter.
+  `--reasoning-effort` sends `reasoning: {"effort": …}`. `max_tokens` 65,536.
+- `usage: {"include": true}` makes OpenRouter return `usage.cost` (USD); the extractor sums it
+  per PDF and per run. `completion_tokens` already includes reasoning tokens.
+- OpenRouter normalises `finish_reason`: `length` → the `MAX_TOKENS` re-split rule;
+  `content_filter`/`error` fail the PDF (the raw `native_finish_reason` is in the message).
+- Retries: HTTP 408/429/5xx and transport errors (timeouts, resets) use the same backoff as
+  the Gemini path; 400/402/404 fail the PDF at once. An HTTP 200 whose body carries `error`
+  (OpenRouter does this for some provider errors) is treated as that error's code.
+- Headers: `Authorization: Bearer $OPENROUTER_KEY` and `X-OpenRouter-Title`. The key is never
+  logged. Per-call timeout 600 s.
 
 ### How it works
 - **Caller fields** are set by the program, never by the model: `sha256` and page count come
@@ -65,9 +131,10 @@ validates is skipped unless `--force` is given.
   wrong-shaped JSON, is split in half (the first half gets the extra page). Each half is
   retried, recursively, down to 1 page. If a 1-page chunk still fails, the PDF fails: **no
   output file is written**, the PDF is listed under `Failed PDFs:` and the command exits 1
-  after processing the other PDFs. Any other non-STOP finish reason (SAFETY, RECITATION)
-  fails the PDF straight away.
-- **Retries:** HTTP 429 and 5xx are retried with exponential backoff
+  after processing the other PDFs. Any other non-STOP finish reason (SAFETY, RECITATION,
+  content_filter) is a content block: the chunk goes to `--fallback-model` if one is set,
+  otherwise the PDF fails straight away.
+- **Retries (both transports):** HTTP 429 and 5xx are retried with exponential backoff
   (2 s × 2^n + jitter, `--max-retries` retries, default 4 → at most 5 tries per call).
   400/401/402/403/404 are not retried.
 - **Merge:** items are concatenated in page order, then de-duplicated keeping the first. The
@@ -83,7 +150,8 @@ validates is skipped unless `--force` is given.
   An invalid extraction is never left on disk.
 - **Cost constants** (`extract_gemini.PRICE_USD_PER_MTOK_*_THROUGH_2026_12_31`): $0.75 in /
   $3.75 out per MTok for `gemini-3.8-flash`, valid **through 2026-12-31** ($1.50 / $7.50 from
-  2027-01-01). Batch API pricing is 50% lower but is not used.
+  2027-01-01). Used only for the estimate on the `gemini` transport; the OpenRouter transport
+  reports the provider's actual cost. Batch API pricing is 50% lower but is not used.
 - **`--batch` is not implemented.** It exits 2 with a message. Synchronous calls give the same
   output. A batch path would need its own polling, and its own handling of re-split rounds.
 

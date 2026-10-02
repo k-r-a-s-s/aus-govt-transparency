@@ -39,6 +39,14 @@ Pipeline per PDF
 Retries: API errors 429 and 5xx are retried with exponential backoff (``sleep`` injectable);
 everything else (400, 402 credits depleted, 403, ...) fails the PDF immediately.
 ``--batch`` (Gemini Batch API) is not implemented; it raises NotImplementedError.
+
+Transports (``--provider``): ``gemini`` is the ``google-genai`` SDK against AI Studio
+(:class:`GenaiBackend`); ``openrouter`` is OpenRouter's OpenAI-compatible chat completions
+(:class:`disclosures.openrouter.OpenRouterBackend`), which can also run non-Gemini models
+(``openai/gpt-6-luna``, ``anthropic/claude-sonnet-5.5``) for the bake-off. Everything above
+the transport (chunking, re-split, page offsets, merge, validation) is shared. ``auto`` picks
+``openrouter`` when ``OPENROUTER_KEY`` is set, else ``gemini``. ``--workers N`` extracts N
+PDFs concurrently (one thread each; the summary and exit code are unchanged).
 """
 from __future__ import annotations
 
@@ -47,10 +55,12 @@ import datetime as _dt
 import hashlib
 import io
 import json
+import os
 import random
 import re
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Callable, Dict, List, Optional, Sequence, Tuple, get_args
@@ -207,6 +217,8 @@ class ChunkResult:
     start: int
     end: int
     data: dict  # model output with absolute pages
+    model: Optional[str] = None  # which model produced it (None = the primary)
+    note: Optional[str] = None  # e.g. "fallback <model> after RECITATION"
 
 
 def merge_chunks(chunks: Sequence[ChunkResult]) -> dict:
@@ -228,8 +240,13 @@ def merge_chunks(chunks: Sequence[ChunkResult]) -> dict:
         out[f] = next((c.data.get(f) for c in ordered if c.data.get(f)), None)
     out["member_name_as_printed"] = out["member_name_as_printed"] or ""
     out["electorate_or_state"] = out["electorate_or_state"] or ""
-    notes = [f"pages {c.start}-{c.end}: {c.data['extraction_notes'].strip()}"
-             for c in ordered if (c.data.get("extraction_notes") or "").strip()]
+    notes = []
+    for c in ordered:
+        parts = [c.note] if c.note else []
+        if (c.data.get("extraction_notes") or "").strip():
+            parts.append(c.data["extraction_notes"].strip())
+        if parts:
+            notes.append(f"pages {c.start}-{c.end}: " + " | ".join(parts))
     out["extraction_notes"] = " | ".join(notes)
     out["items"] = merged_items
     return out
@@ -255,18 +272,49 @@ class _Resplit(Exception):
     """This chunk's output was truncated or unparseable; split it and retry."""
 
 
+class _Blocked(PdfError):
+    """The provider refused to return this chunk (RECITATION, SAFETY, content_filter, ...).
+    Re-splitting does not help (seen on 1-page chunks); only another model can."""
+
+
+class BackendError(Exception):
+    """An API error from either transport, after retries. ``code`` is the HTTP status (or None)."""
+
+    def __init__(self, code: Optional[int], message: str):
+        super().__init__(message)
+        self.code = code
+
+
+@dataclass
+class CallResult:
+    """What one model call returns, independent of the transport."""
+
+    text: str
+    finish_reason: Optional[str]  # "STOP" | "MAX_TOKENS" | another provider reason | None
+    input_tokens: int = 0
+    output_tokens: int = 0  # includes reasoning/thinking tokens (billed as output)
+    cost_usd: Optional[float] = None  # provider-reported, when available (OpenRouter)
+    provider: Optional[str] = None
+    native_finish_reason: Optional[str] = None
+
+
 @dataclass
 class Usage:
     input_tokens: int = 0
     output_tokens: int = 0
     calls: int = 0
+    actual_cost_usd: Optional[float] = None  # sum of provider-reported costs, when reported
 
     def add(self, other: "Usage") -> None:
         self.input_tokens += other.input_tokens
         self.output_tokens += other.output_tokens
         self.calls += other.calls
+        if other.actual_cost_usd is not None:
+            self.actual_cost_usd = (self.actual_cost_usd or 0.0) + other.actual_cost_usd
 
     def cost_usd(self) -> float:
+        """Estimate from the gemini-3.8-flash price table (``actual_cost_usd`` is what the
+        provider reported, when it did)."""
         return estimate_cost_usd(self.input_tokens, self.output_tokens)
 
 
@@ -281,30 +329,24 @@ def _reason_name(fr: Any) -> Optional[str]:
     return getattr(fr, "name", None) or str(fr).split(".")[-1]
 
 
-def _is_retryable(exc: Exception) -> bool:
-    from google.genai import errors
+class GenaiBackend:
+    """Transport 1: the ``google-genai`` SDK against AI Studio. Inline PDF bytes, or the Files
+    API above ``files_threshold`` (the uploaded file is deleted after the call)."""
 
-    if not isinstance(exc, errors.APIError):
-        return False
-    code = getattr(exc, "code", None)
-    return isinstance(code, int) and (code in RETRYABLE_STATUS or 500 <= code < 600)
+    name = "gemini"
 
+    def __init__(self, client: Any, model: str, files_threshold: int = FILES_API_THRESHOLD_BYTES):
+        self.client, self.model, self.files_threshold = client, model, files_threshold
 
-@dataclass
-class GeminiExtractor:
-    """Runs one PDF at a time. ``client`` is anything with ``.models.generate_content``
-    (and ``.files.upload/delete`` if a chunk exceeds ``files_threshold``)."""
+    @staticmethod
+    def is_retryable(exc: Exception) -> bool:
+        from google.genai import errors
 
-    client: Any
-    model: str
-    chunk_pages: int = DEFAULT_CHUNK_PAGES
-    max_retries: int = DEFAULT_MAX_RETRIES
-    sleep: Callable[[float], None] = time.sleep
-    backoff_base: float = 2.0
-    files_threshold: int = FILES_API_THRESHOLD_BYTES
-    prompt: str = field(default_factory=load_prompt)
+        if not isinstance(exc, errors.APIError):
+            return False
+        code = getattr(exc, "code", None)
+        return isinstance(code, int) and (code in RETRYABLE_STATUS or 500 <= code < 600)
 
-    # -- API call -------------------------------------------------------------------------
     def _config(self):
         from google.genai import types
 
@@ -315,62 +357,105 @@ class GeminiExtractor:
             max_output_tokens=MAX_OUTPUT_TOKENS,
         )
 
-    def _with_retry(self, fn: Callable[[], Any]) -> Any:
-        attempt = 0
-        while True:
-            try:
-                return fn()
-            except Exception as exc:
-                if attempt >= self.max_retries or not _is_retryable(exc):
-                    raise
-                delay = self.backoff_base * (2 ** attempt) + random.uniform(0, 1)
-                attempt += 1
-                self.sleep(delay)
-
-    def _generate(self, chunk: bytes, text: str, label: str):
-        from google.genai import types
+    def generate(self, chunk: bytes, text: str, label: str,
+                 retry: Callable[[Callable[[], Any]], Any]) -> CallResult:
+        from google.genai import errors, types
 
         uploaded = None
         try:
             if len(chunk) > self.files_threshold:
-                uploaded = self._with_retry(lambda: self.client.files.upload(
+                uploaded = retry(lambda: self.client.files.upload(
                     file=io.BytesIO(chunk),
                     config=types.UploadFileConfig(mime_type="application/pdf", display_name=label)))
                 part = types.Part.from_uri(file_uri=uploaded.uri, mime_type="application/pdf")
             else:
                 part = types.Part.from_bytes(data=chunk, mime_type="application/pdf")
-            return self._with_retry(lambda: self.client.models.generate_content(
+            resp = retry(lambda: self.client.models.generate_content(
                 model=self.model, contents=[part, text], config=self._config()))
+        except errors.APIError as exc:
+            raise BackendError(getattr(exc, "code", None), str(exc)) from exc
         finally:
             if uploaded is not None:
                 try:
                     self.client.files.delete(name=uploaded.name)
                 except Exception as exc:  # never mask the real result
                     print(f"warning: could not delete uploaded file {uploaded.name}: {exc}", file=sys.stderr)
-
-    # -- one chunk ------------------------------------------------------------------------
-    def _call_chunk(self, src, start: int, end: int, page_count: int, label: str, usage: Usage) -> dict:
-        from google.genai import errors
-
-        text = self.prompt.rstrip() + "\n\n" + chunk_preamble(start, end, page_count)
-        try:
-            resp = self._generate(pdf_chunk_bytes(src, start, end), text, f"{label} p{start}-{end}")
-        except errors.APIError as exc:
-            raise PdfError(f"pages {start}-{end}: API error {exc.code}: {exc}") from exc
-        usage.calls += 1
+        tin = tout = 0
         um = getattr(resp, "usage_metadata", None)
         if um is not None:
-            usage.input_tokens += getattr(um, "prompt_token_count", None) or 0
-            usage.output_tokens += ((getattr(um, "candidates_token_count", None) or 0)
-                                    + (getattr(um, "thoughts_token_count", None) or 0))
+            tin = getattr(um, "prompt_token_count", None) or 0
+            tout = ((getattr(um, "candidates_token_count", None) or 0)
+                    + (getattr(um, "thoughts_token_count", None) or 0))
         cands = getattr(resp, "candidates", None) or []
         reason = _reason_name(getattr(cands[0], "finish_reason", None)) if cands else None
-        if reason == "MAX_TOKENS":
-            raise _Resplit("finish_reason MAX_TOKENS")
-        if reason not in (None, "STOP", "FINISH_REASON_UNSPECIFIED"):
-            raise PdfError(f"pages {start}-{end}: finish_reason {reason}")
+        return CallResult(text=resp.text or "", finish_reason=reason, input_tokens=tin, output_tokens=tout)
+
+
+_is_retryable = GenaiBackend.is_retryable  # kept under the old name
+
+
+@dataclass
+class GeminiExtractor:
+    """Runs one PDF at a time over a transport ``backend`` (``generate``/``is_retryable``;
+    :class:`GenaiBackend` or :class:`disclosures.openrouter.OpenRouterBackend`). With no
+    ``backend``, ``client`` (anything with ``.models.generate_content``, plus
+    ``.files.upload/delete`` if a chunk exceeds ``files_threshold``) is wrapped in
+    :class:`GenaiBackend`."""
+
+    client: Any = None
+    model: str = ""
+    chunk_pages: int = DEFAULT_CHUNK_PAGES
+    max_retries: int = DEFAULT_MAX_RETRIES
+    sleep: Callable[[float], None] = time.sleep
+    backoff_base: float = 2.0
+    files_threshold: int = FILES_API_THRESHOLD_BYTES
+    prompt: str = field(default_factory=load_prompt)
+    backend: Any = None
+    source_id: str = SOURCE_ID
+    fallback: Any = None  # second backend used for a chunk the primary refuses (content block)
+
+    def __post_init__(self) -> None:
+        if self.backend is None:
+            if self.client is None:
+                raise ValueError("GeminiExtractor needs a backend or a google-genai client")
+            self.backend = GenaiBackend(self.client, self.model, self.files_threshold)
+
+    # -- API call -------------------------------------------------------------------------
+    def _with_retry(self, fn: Callable[[], Any], backend: Any = None) -> Any:
+        backend = backend or self.backend
+        attempt = 0
+        while True:
+            try:
+                return fn()
+            except Exception as exc:
+                if attempt >= self.max_retries or not backend.is_retryable(exc):
+                    raise
+                delay = self.backoff_base * (2 ** attempt) + random.uniform(0, 1)
+                attempt += 1
+                self.sleep(delay)
+
+    # -- one chunk ------------------------------------------------------------------------
+    def _call_chunk(self, src, start: int, end: int, page_count: int, label: str, usage: Usage,
+                    backend: Any = None) -> dict:
+        backend = backend or self.backend
+        text = self.prompt.rstrip() + "\n\n" + chunk_preamble(start, end, page_count)
         try:
-            data = json.loads(resp.text or "")
+            r = backend.generate(pdf_chunk_bytes(src, start, end), text, f"{label} p{start}-{end}",
+                                 lambda fn: self._with_retry(fn, backend))
+        except BackendError as exc:
+            raise PdfError(f"pages {start}-{end}: API error {exc.code}: {exc}") from exc
+        usage.calls += 1
+        usage.input_tokens += r.input_tokens
+        usage.output_tokens += r.output_tokens
+        if r.cost_usd is not None:
+            usage.actual_cost_usd = (usage.actual_cost_usd or 0.0) + r.cost_usd
+        if r.finish_reason == "MAX_TOKENS":
+            raise _Resplit("finish_reason MAX_TOKENS")
+        if r.finish_reason not in (None, "STOP", "FINISH_REASON_UNSPECIFIED"):
+            native = f" ({r.native_finish_reason})" if r.native_finish_reason else ""
+            raise _Blocked(f"pages {start}-{end}: finish_reason {r.finish_reason}{native}")
+        try:
+            data = json.loads(r.text or "")
         except (ValueError, TypeError) as exc:
             raise _Resplit(f"response is not valid JSON ({exc})") from exc
         if not isinstance(data, dict) or not isinstance(data.get("items"), list) or not all(
@@ -394,6 +479,7 @@ class GeminiExtractor:
 
     def extract_range(self, src, start: int, end: int, page_count: int, label: str,
                       usage: Usage) -> List[ChunkResult]:
+        model = note = None
         try:
             data = self._call_chunk(src, start, end, page_count, label, usage)
         except _Resplit as why:
@@ -402,8 +488,21 @@ class GeminiExtractor:
             mid = (start + end) // 2
             return (self.extract_range(src, start, mid, page_count, label, usage)
                     + self.extract_range(src, mid + 1, end, page_count, label, usage))
+        except _Blocked as blocked:
+            if self.fallback is None:
+                raise
+            reason = str(blocked).split(": ", 1)[-1]
+            model = self.fallback.model
+            note = f"fallback {model} after primary {self.model} returned {reason}"
+            print(f"note    {label} p{start}-{end}: {note}", file=sys.stderr, flush=True)
+            try:
+                data = self._call_chunk(src, start, end, page_count, label, usage, backend=self.fallback)
+            except _Resplit as why:  # the fallback's truncation is not re-split: keep it simple
+                raise PdfError(f"pages {start}-{end}: fallback {model}: {why}") from None
+            except PdfError as exc:
+                raise PdfError(f"pages {start}-{end}: fallback {model} also failed: {exc}") from exc
         data["items"] = [{k: it[k] for k in ITEM_FIELDS} for it in data["items"]]  # drop extra keys
-        return [ChunkResult(start, end, self._offset_pages(data, start, end))]
+        return [ChunkResult(start, end, self._offset_pages(data, start, end), model=model, note=note)]
 
     # -- one PDF --------------------------------------------------------------------------
     def extract_pdf(self, pdf_rel: str, root: Path, usage: Usage,
@@ -420,13 +519,15 @@ class GeminiExtractor:
                 chunks.extend(self.extract_range(src, start, end, page_count, Path(pdf_rel).stem, usage))
         merged = merge_chunks(chunks)
         notes = merged["extraction_notes"]
+        others = sorted({c.model for c in chunks if c.model and c.model != self.model})
+        model = self.model if not others else self.model + "+" + "+".join(others)
         if merged["statement_date"] is not None and not _valid_iso_date(merged["statement_date"]):
             notes = (notes + " | " if notes else "") + f"statement_date {merged['statement_date']!r} unparseable, set null"
             merged["statement_date"] = None
         return {
             "schema_version": SCHEMA_VERSION,
-            "source_id": SOURCE_ID,
-            "model": self.model,
+            "source_id": self.source_id,
+            "model": model,
             "extracted_at": now() if now else utc_now(),
             "pdf_path": pdf_rel,
             "pdf_sha256": sha,
@@ -463,12 +564,15 @@ class RunResult:
         return 1 if self.failed else 0
 
 
-def extract_pdfs(paths: Sequence[str | Path], *, client: Any, model: str,
+def extract_pdfs(paths: Sequence[str | Path], *, client: Any = None, model: str = "",
                  out_root: str | Path = DEFAULT_OUT_ROOT, chunk_pages: int = DEFAULT_CHUNK_PAGES,
                  max_retries: int = DEFAULT_MAX_RETRIES, force: bool = False, batch: bool = False,
                  sleep: Callable[[float], None] = time.sleep, root: str | Path | None = None,
-                 now: Optional[Callable[[], str]] = None, out=None, **extractor_kw) -> RunResult:
-    """Extract each PDF; print a status line per PDF and an end summary to ``out``."""
+                 now: Optional[Callable[[], str]] = None, out=None, backend: Any = None,
+                 source_id: str = SOURCE_ID, workers: int = 1, fallback: Any = None,
+                 **extractor_kw) -> RunResult:
+    """Extract each PDF; print a status line per PDF and an end summary to ``out``.
+    ``workers`` > 1 runs that many PDFs at once (threads; the backend must be thread-safe)."""
     if batch:
         raise NotImplementedError("--batch (Gemini Batch API) is not implemented yet; "
                                   "run without --batch (synchronous calls, same output).")
@@ -477,11 +581,13 @@ def extract_pdfs(paths: Sequence[str | Path], *, client: Any, model: str,
     out_root = Path(out_root)
     if not out_root.is_absolute():
         out_root = root / out_root
-    ex = GeminiExtractor(client=client, model=model, chunk_pages=chunk_pages,
-                         max_retries=max_retries, sleep=sleep, **extractor_kw)
+    ex = GeminiExtractor(client=client, model=model, chunk_pages=chunk_pages, max_retries=max_retries,
+                         sleep=sleep, backend=backend, source_id=source_id, fallback=fallback, **extractor_kw)
     res = RunResult()
-    for p in paths:
-        label = str(p)
+
+    def one(p) -> Tuple[str, str, str, Usage]:
+        """-> (status, label, message, usage). Never raises: one bad PDF must not stop the run."""
+        label, usage = str(p), Usage()
         try:
             rel = repo_relative(p, root)
             label = rel
@@ -490,15 +596,9 @@ def extract_pdfs(paths: Sequence[str | Path], *, client: Any, model: str,
             chamber, parliament = infer_chamber_parliament(rel)
             dest = output_path(out_root, rel, chamber, parliament)
             if dest.exists() and not force and not validate_file(dest, root=root):
-                res.skipped.append(rel)
-                print(f"skip    {rel}: {dest.relative_to(root) if dest.is_relative_to(root) else dest} "
-                      "exists and is valid (use --force)", file=out)
-                continue
-            usage = Usage()
-            try:
-                doc = ex.extract_pdf(rel, root, usage, now=now)
-            finally:
-                res.usage.add(usage)
+                shown = dest.relative_to(root) if dest.is_relative_to(root) else dest
+                return "skip", rel, f"{shown} exists and is valid (use --force)", usage
+            doc = ex.extract_pdf(rel, root, usage, now=now)
             dest.parent.mkdir(parents=True, exist_ok=True)
             tmp = dest.with_name(dest.name + ".tmp")
             tmp.write_text(json.dumps(doc, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
@@ -507,18 +607,39 @@ def extract_pdfs(paths: Sequence[str | Path], *, client: Any, model: str,
                 tmp.unlink()
                 raise PdfError("output failed validation (not written): " + "; ".join(errs))
             tmp.replace(dest)
-            res.ok.append(rel)
-            print(f"ok      {rel}: {len(doc['items'])} items, {usage.calls} calls, "
-                  f"{usage.input_tokens} in / {usage.output_tokens} out tokens", file=out)
-        except Exception as exc:  # one bad PDF (corrupt file, network error) must not stop the run
-            res.failed[label] = str(exc) if isinstance(exc, PdfError) else f"{type(exc).__name__}: {exc}"
-            print(f"FAILED  {label}: {exc}", file=out)
+            cost = f", US${usage.actual_cost_usd:.4f}" if usage.actual_cost_usd is not None else ""
+            return ("ok", rel, f"{len(doc['items'])} items, {usage.calls} calls, "
+                    f"{usage.input_tokens} in / {usage.output_tokens} out tokens{cost}", usage)
+        except Exception as exc:  # corrupt file, network error, ...
+            why = str(exc) if isinstance(exc, PdfError) else f"{type(exc).__name__}: {exc}"
+            return "FAILED", label, why, usage
+
+    def record(status: str, label: str, msg: str, usage: Usage) -> None:
+        res.usage.add(usage)
+        if status == "ok":
+            res.ok.append(label)
+        elif status == "skip":
+            res.skipped.append(label)
+        else:
+            res.failed[label] = msg
+        print(f"{status:<7} {label}: {msg}", file=out, flush=True)
+
+    if workers <= 1:
+        for p in paths:
+            record(*one(p))
+    else:
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            for fut in as_completed([pool.submit(one, p) for p in paths]):
+                record(*fut.result())
     u = res.usage
+    if u.actual_cost_usd is not None:
+        cost = f"cost US${u.actual_cost_usd:.4f} (as reported by the provider)"
+    else:
+        cost = (f"est. cost US${u.cost_usd():.4f} (at ${PRICE_USD_PER_MTOK_INPUT_THROUGH_2026_12_31}/"
+                f"${PRICE_USD_PER_MTOK_OUTPUT_THROUGH_2026_12_31} per MTok in/out, prices valid through "
+                "2026-12-31)")
     print(f"{len(res.ok)} ok, {len(res.failed)} failed, {len(res.skipped)} skipped; "
-          f"tokens {u.input_tokens} in / {u.output_tokens} out over {u.calls} calls; "
-          f"est. cost US${u.cost_usd():.4f} (at ${PRICE_USD_PER_MTOK_INPUT_THROUGH_2026_12_31}/"
-          f"${PRICE_USD_PER_MTOK_OUTPUT_THROUGH_2026_12_31} per MTok in/out, prices valid through "
-          "2026-12-31)", file=out)
+          f"tokens {u.input_tokens} in / {u.output_tokens} out over {u.calls} calls; {cost}", file=out)
     if res.failed:
         print("Failed PDFs:", file=out)
         for f, why in res.failed.items():
@@ -529,48 +650,114 @@ def extract_pdfs(paths: Sequence[str | Path], *, client: Any, model: str,
 # --------------------------------------------------------------------------- CLI
 
 SOURCES = ("gemini",)
+PROVIDERS = ("auto", "gemini", "openrouter")
 
 
 def add_arguments(p: argparse.ArgumentParser) -> None:
     p.add_argument("--source", required=True, choices=SOURCES,
                    help="extractor (the workflow-claude arm runs as a Claude Code Workflow, not here)")
-    p.add_argument("--model", default=None, help="Gemini model id (default: $GEMINI_MODEL, else built-in)")
-    p.add_argument("--out-root", default=DEFAULT_OUT_ROOT)
+    p.add_argument("--provider", default="auto", choices=PROVIDERS,
+                   help="transport: gemini = google-genai SDK (AI Studio key); openrouter = OpenRouter "
+                        "(OPENROUTER_KEY). auto (default) = openrouter if OPENROUTER_KEY is set, else gemini")
+    p.add_argument("--model", default=None,
+                   help="model id. gemini: a Gemini id (default $GEMINI_MODEL, else built-in). openrouter: an "
+                        "OpenRouter id such as google/gemini-3.8-flash (default), openai/gpt-6-luna, "
+                        "anthropic/claude-sonnet-5.5; Gemini ids still go through the 0.x-2.x ban")
+    p.add_argument("--provider-order", default=None, metavar="SLUGS",
+                   help="openrouter only: comma-separated endpoint slugs to pin, fallbacks off "
+                        "(e.g. google-ai-studio/flex = Gemini at half price, slower)")
+    p.add_argument("--reasoning-effort", default=None, choices=("none", "minimal", "low", "medium", "high"),
+                   help="openrouter only: pass reasoning.effort to the model (default: provider default)")
+    p.add_argument("--fallback-model", default=None, metavar="ID",
+                   help="openrouter only: model used for a chunk the primary model refuses (RECITATION, "
+                        "SAFETY, content_filter), e.g. anthropic/claude-sonnet-5.5. Recorded in the file's "
+                        "model field (primary+fallback) and extraction_notes")
+    p.add_argument("--source-id", default=None,
+                   help="source_id written into each file; default gemini-api for Gemini models, "
+                        "openrouter-<model> for others")
+    p.add_argument("--out-root", default=None, help="default extractions/<source-id>")
     p.add_argument("--chunk-pages", type=int, default=DEFAULT_CHUNK_PAGES)
     p.add_argument("--max-retries", type=int, default=DEFAULT_MAX_RETRIES,
                    help="retries per API call on 429/5xx (exponential backoff)")
+    p.add_argument("--workers", type=int, default=1, help="PDFs extracted concurrently (default 1)")
     p.add_argument("--force", action="store_true", help="re-extract even if a valid output exists")
     p.add_argument("--batch", action="store_true", help="use the Gemini Batch API (not implemented)")
     p.add_argument("pdfs", nargs="+", help="PDF paths (repo-relative, e.g. pdfs/45/x.pdf)")
 
 
-def run(args: argparse.Namespace, client: Any = None, env=None) -> int:
-    if args.chunk_pages < 1 or args.max_retries < 0:
-        print("extract: --chunk-pages must be >= 1 and --max-retries >= 0", file=sys.stderr)
+def run(args: argparse.Namespace, client: Any = None, env=None, http: Any = None) -> int:
+    """``client`` injects a google-genai client (tests); ``http`` injects an httpx.Client for
+    the OpenRouter transport (tests); ``env`` replaces os.environ (and skips .env.local)."""
+    from .openrouter import (OpenRouterBackend, default_source_id, resolve_openrouter_key,
+                             resolve_openrouter_model)
+
+    workers = getattr(args, "workers", None)
+    workers = 1 if workers is None else workers
+    if args.chunk_pages < 1 or args.max_retries < 0 or workers < 1:
+        print("extract: --chunk-pages and --workers must be >= 1 and --max-retries >= 0", file=sys.stderr)
         return 2
     if args.batch:
         print("extract: --batch (Gemini Batch API) is not implemented yet; run without --batch.",
               file=sys.stderr)
         return 2
-    if client is None and env is None:
+    if client is None and env is None and http is None:
         from dotenv import load_dotenv
 
         load_dotenv(".env.local", override=False)
+    env_map = os.environ if env is None else env
+    provider = getattr(args, "provider", "auto") or "auto"
+    if client is not None:
+        provider = "gemini"
+    elif provider == "auto":
+        provider = "openrouter" if resolve_openrouter_key(env_map) else "gemini"
+    backend = None
     try:
-        model = resolve_gemini_model(args.model, env=env)
+        if provider == "gemini":
+            model = resolve_gemini_model(args.model, env=env_map)
+        else:
+            model = resolve_openrouter_model(args.model, env=env_map)
     except ValueError as exc:
         print(f"extract: {exc}", file=sys.stderr)
         return 2
-    if client is None:
-        key = resolve_api_key(env)
-        if not key:
-            print("extract: no API key: set GOOGLE_API_KEY (or GEMINI_API_KEY) in the environment "
-                  "or .env.local", file=sys.stderr)
-            return 2
-        from google import genai
+    if provider == "gemini":
+        if client is None:
+            key = resolve_api_key(env_map)
+            if not key:
+                print("extract: no API key: set GOOGLE_API_KEY (or GEMINI_API_KEY) in the environment "
+                      "or .env.local (or OPENROUTER_KEY for --provider openrouter)", file=sys.stderr)
+                return 2
+            from google import genai
 
-        client = genai.Client(api_key=key)
-    print(f"extract: source=gemini model={model} chunk_pages={args.chunk_pages} pdfs={len(args.pdfs)}")
-    res = extract_pdfs(args.pdfs, client=client, model=model, out_root=args.out_root,
-                       chunk_pages=args.chunk_pages, max_retries=args.max_retries, force=args.force)
+            client = genai.Client(api_key=key)
+    else:
+        key = resolve_openrouter_key(env_map)
+        if not key:
+            print("extract: no API key: set OPENROUTER_KEY in the environment or .env.local", file=sys.stderr)
+            return 2
+        order = getattr(args, "provider_order", None)
+        backend = OpenRouterBackend(
+            key, model, http=http,
+            provider_order=[o.strip() for o in order.split(",") if o.strip()] if order else None,
+            reasoning_effort=getattr(args, "reasoning_effort", None))
+    fallback = None
+    fb = getattr(args, "fallback_model", None)
+    if fb:
+        if provider != "openrouter":
+            print("extract: --fallback-model needs --provider openrouter", file=sys.stderr)
+            return 2
+        try:
+            fb_model = resolve_openrouter_model(fb, env=env_map)
+        except ValueError as exc:
+            print(f"extract: {exc}", file=sys.stderr)
+            return 2
+        fallback = OpenRouterBackend(key, fb_model, http=http)
+    source_id = getattr(args, "source_id", None) or default_source_id(provider, model)
+    out_root = getattr(args, "out_root", None) or f"extractions/{source_id}"
+    print(f"extract: source={source_id} provider={provider} model={model} "
+          f"{'endpoints=' + ','.join(backend.provider_order) + ' ' if backend and backend.provider_order else ''}"
+          f"{'fallback=' + fallback.model + ' ' if fallback else ''}"
+          f"chunk_pages={args.chunk_pages} workers={workers} pdfs={len(args.pdfs)}", flush=True)
+    res = extract_pdfs(args.pdfs, client=client, model=model, backend=backend, source_id=source_id,
+                       out_root=out_root, chunk_pages=args.chunk_pages, max_retries=args.max_retries,
+                       force=args.force, workers=workers, fallback=fallback)
     return res.exit_code
