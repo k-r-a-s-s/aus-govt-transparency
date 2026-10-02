@@ -49,3 +49,14 @@ least one chunk was refused by Gemini (`finish_reason ERROR`, native `RECITATION
 transcribed by Sonnet 5.5 instead. By parliament: 43rd 37/150, 44th 29/152, 45th 35/158, 46th
 3/153, 47th 4/155. The scanned early parliaments trip the block far more often than the gold
 set suggested (1 of 12 PDFs). `extraction_notes` names the pages in each affected file.
+
+## Re-extracted with prompt v1 (C12)
+
+On 2026-10-02 (T1.5, SPEC-DELTA D1) 7 House files were re-extracted with prompt v1, which adds
+rule C12 (itemise attachments bound into the PDF). These are the files T1.2 confirmed as
+`attachment_not_itemised`: `coultonm_43p`, `nevillep_43p`, `coultonm_44p`, `huntg_44p`,
+`pynec_44p`, `coultonm_45p`, `odowdk45p`. The other 761 files stay on prompt v0. All 7 came
+back valid (odowdk45p with a Sonnet fallback chunk). Items went from 315 to 525 (+210), and
+every expected attachment name is now present (`eval/attachment_gaps.md`). Cost US$0.48. After
+the reload: 42,252 items, the hard AC-2.7 queries are 0, AC-2.9 has 0 null party, and the
+AC-2.8 id hash is now `465f1071…` (was `f69d40da…`; only these files' item ids changed).

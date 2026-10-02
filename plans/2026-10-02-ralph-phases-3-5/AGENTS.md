@@ -9,7 +9,7 @@ Repo root is the working directory. Python is `.venv/bin/python` (`bash scripts/
 
 ## Rebuild the DB (gitignored; rebuild whenever it's missing or extractions changed)
 - `.venv/bin/python -m disclosures load --source gemini-api` (once the Senate lands: `--source gemini-api --source senate-json`), then `.venv/bin/python -m disclosures entities --offline` once that exists.
-- AC-2.8 id hash, same method as the baseline: `.venv/bin/python -c "import sqlite3,hashlib;print(hashlib.sha1('\n'.join(r[0] for r in sqlite3.connect('disclosures_v2.db').execute('select item_id from items order by 1')).encode()).hexdigest())"`; baseline `f69d40da…`.
+- AC-2.8 id hash, same method as the baseline: `.venv/bin/python -c "import sqlite3,hashlib;print(hashlib.sha1('\n'.join(r[0] for r in sqlite3.connect('disclosures_v2.db').execute('select item_id from items order by 1')).encode()).hexdigest())"`; baseline `f69d40da…` (T0.2); `465f1071…` after T1.5's 7 prompt-v1 re-extractions.
 - AC-2.7/2.9 queries: `docs/v2/loading.md`. `validate`: `.venv/bin/python -m disclosures validate extractions/gemini-api/house`.
 
 ## G2 extract command (the only allowed extraction config; paid)

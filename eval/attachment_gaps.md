@@ -95,3 +95,23 @@ financial adviser's recommendation table, cut off on the right in the scan. For 
 C12 should itemise the holdings named, not the "Total" rows. `smitht_45p` shows the model will
 sometimes treat the next form as the attachment. C12's wording should say an attachment is
 content that continues the referencing item, not the next notification form.
+
+## Re-extracted with prompt v1 (T1.5, 2026-10-02)
+
+The 7 files above re-run with `--force` on the G2 config, prompt v1 (C12). US$0.48 in total.
+odowdk45p needed the Sonnet 5.5 fallback for p1–18 (RECITATION).
+
+| file | items before (v0) | items after (v1) | expected names found | where they land |
+|---|---|---|---|---|
+| coultonm_43p | 29 | 63 | 5/5 | p8, s1, self + spouse |
+| nevillep_43p | 66 | 85 | 5/5 | p8, s9, self |
+| coultonm_44p | 25 | 59 | 5/5 | p8, s1, self + spouse |
+| huntg_44p | 94 | 108 | 5/5 | p8 and p11, s13, self |
+| pynec_44p | 47 | 82 | 5/5 | p9, s13, self |
+| coultonm_45p | 24 | 60 | 5/5 | p8, s1, self + spouse |
+| odowdk45p | 30 | 68 | 5/5 | p9 (Attachment A, s7 initial) and p11 (s7/s8 added) |
+
+pynec_44p: the `expected` column says "Centro Diddatico", a typo made when I wrote the column. The
+PDF and the new extraction both say "Centro Didattico". odowdk45p puts "BT Wrap Cash Account" under
+s8 (bank accounts), not s7 as the referencing line does. That's a sensible reading of a cash
+account, so I left it.

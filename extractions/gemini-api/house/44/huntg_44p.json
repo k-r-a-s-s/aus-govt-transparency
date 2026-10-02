@@ -2,7 +2,7 @@
   "schema_version": "2.0",
   "source_id": "gemini-api",
   "model": "google/gemini-3.8-flash",
-  "extracted_at": "2026-10-02T06:45:46+00:00",
+  "extracted_at": "2026-10-02T13:01:05+00:00",
   "pdf_path": "pdfs/44/huntg_44p.pdf",
   "pdf_sha256": "285391b1ef6d003eb8b5b35fcc26c884aa7e301f770a8b93a9fe244c9cf9d904",
   "page_count": 26,
@@ -45,37 +45,37 @@
       "subsection": null,
       "owner": "self",
       "entity_name": null,
-      "description": "FAMILY RESIDENCE JOINTLY OWNED WITH MY WIFE - Mt Martha",
+      "description": "Family residence jointly owned with my wife - Mt Martha",
       "location": "Mt Martha",
-      "purpose": "PRIMARY RESIDENCE",
+      "purpose": "Primary residence",
       "is_alteration": false,
       "change_type": "initial",
       "lodged_date": "2013-12-09",
       "date_precision": "day",
       "page": 3,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "section": 3,
       "subsection": null,
       "owner": "spouse",
       "entity_name": null,
-      "description": "FAMILY RESIDENCE JOINTLY OWNED WITH MY WIFE - Mt Martha",
+      "description": "Family residence jointly owned with my wife - Mt Martha",
       "location": "Mt Martha",
-      "purpose": "PRIMARY RESIDENCE",
+      "purpose": "Primary residence",
       "is_alteration": false,
       "change_type": "initial",
       "lodged_date": "2013-12-09",
       "date_precision": "day",
       "page": 3,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "section": 6,
       "subsection": null,
       "owner": "self",
-      "entity_name": "WESTPAC",
-      "description": "MORTGAGE ON FAMILY HOME JOINTLY HELD WITH MY WIFE",
+      "entity_name": "Westpac",
+      "description": "Mortgage on family home jointly held with my wife",
       "location": null,
       "purpose": null,
       "is_alteration": false,
@@ -83,14 +83,14 @@
       "lodged_date": "2013-12-09",
       "date_precision": "day",
       "page": 4,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "section": 6,
       "subsection": null,
       "owner": "spouse",
-      "entity_name": "WESTPAC",
-      "description": "MORTGAGE ON FAMILY HOME JOINTLY HELD WITH MY WIFE",
+      "entity_name": "Westpac",
+      "description": "Mortgage on family home jointly held with my wife",
       "location": null,
       "purpose": null,
       "is_alteration": false,
@@ -98,14 +98,14 @@
       "lodged_date": "2013-12-09",
       "date_precision": "day",
       "page": 4,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "section": 6,
       "subsection": null,
       "owner": "self",
       "entity_name": "Mastercard",
-      "description": "MASTERCARD - PAID MONTHLY TO ZERO",
+      "description": "Mastercard - paid monthly to zero",
       "location": null,
       "purpose": null,
       "is_alteration": false,
@@ -120,7 +120,7 @@
       "subsection": null,
       "owner": "self",
       "entity_name": "American Express",
-      "description": "AMERICAN EXPRESS CARD - PAID monthly to zero",
+      "description": "American Express Card - paid monthly to zero",
       "location": null,
       "purpose": null,
       "is_alteration": false,
@@ -135,7 +135,7 @@
       "subsection": null,
       "owner": "spouse",
       "entity_name": "Visa",
-      "description": "VISA CARD - PAID monthly to zero",
+      "description": "Visa Card - paid monthly to zero",
       "location": null,
       "purpose": null,
       "is_alteration": false,
@@ -149,8 +149,8 @@
       "section": 7,
       "subsection": null,
       "owner": "self",
-      "entity_name": "OnePath Australian Equity Fund",
-      "description": "LEGACY superannuation - OnePath Australian Equity Fund",
+      "entity_name": "OnePath Australia Equity Fund",
+      "description": "Legacy superannuation - OnePath Australia Equity Fund",
       "location": null,
       "purpose": null,
       "is_alteration": false,
@@ -180,7 +180,7 @@
       "subsection": null,
       "owner": "self",
       "entity_name": "Westpac",
-      "description": "CHOICE (Personal)",
+      "description": "Choice (Personal)",
       "location": null,
       "purpose": null,
       "is_alteration": false,
@@ -195,7 +195,7 @@
       "subsection": null,
       "owner": "self",
       "entity_name": "Westpac",
-      "description": "CHOICE (Electorate Account)",
+      "description": "Choice (Electorate Account)",
       "location": null,
       "purpose": null,
       "is_alteration": false,
@@ -210,7 +210,7 @@
       "subsection": null,
       "owner": "spouse",
       "entity_name": "Commonwealth",
-      "description": "SAVINGS",
+      "description": "Savings",
       "location": null,
       "purpose": null,
       "is_alteration": false,
@@ -404,7 +404,7 @@
       "section": 13,
       "subsection": null,
       "owner": "self",
-      "entity_name": "You Are My Sunshine Foundation (Phillip Island)",
+      "entity_name": "You Are My Sunshine Foundation",
       "description": "You Are My Sunshine Foundation (Phillip Island)",
       "location": null,
       "purpose": null,
@@ -419,7 +419,7 @@
       "section": 13,
       "subsection": null,
       "owner": "self",
-      "entity_name": "Friends of the Koalas (Phillip Island)",
+      "entity_name": "Friends of the Koalas",
       "description": "Friends of the Koalas (Phillip Island)",
       "location": null,
       "purpose": null,
@@ -539,7 +539,7 @@
       "section": 13,
       "subsection": null,
       "owner": "self",
-      "entity_name": "Dolphin Research Institute (Hastings)",
+      "entity_name": "Dolphin Research Institute",
       "description": "Dolphin Research Institute (Hastings)",
       "location": null,
       "purpose": null,
@@ -584,7 +584,7 @@
       "section": 13,
       "subsection": null,
       "owner": "self",
-      "entity_name": "Sunshine Reserve Fireguard Action Group (Mt Martha)",
+      "entity_name": "Sunshine Reserve Fireguard Action Group",
       "description": "Sunshine Reserve Fireguard Action Group (Mt Martha)",
       "location": null,
       "purpose": null,
@@ -653,29 +653,14 @@
       "lodged_date": "2014-01-30",
       "date_precision": "day",
       "page": 9,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "section": 13,
       "subsection": null,
       "owner": "self",
       "entity_name": null,
-      "description": "Revised membership list (see attached)",
-      "location": null,
-      "purpose": null,
-      "is_alteration": true,
-      "change_type": "varied",
-      "lodged_date": "2014-03-19",
-      "date_precision": "day",
-      "page": 10,
-      "confidence": "high"
-    },
-    {
-      "section": 13,
-      "subsection": null,
-      "owner": "self",
-      "entity_name": null,
-      "description": "Membership resignations (see attached)",
+      "description": "Membership resignations",
       "location": null,
       "purpose": null,
       "is_alteration": true,
@@ -683,14 +668,254 @@
       "lodged_date": "2014-03-19",
       "date_precision": "day",
       "page": 10,
-      "confidence": "high"
+      "confidence": "medium"
+    },
+    {
+      "section": 13,
+      "subsection": null,
+      "owner": "self",
+      "entity_name": "Liberal Party of Australia",
+      "description": "Liberal Party of Australia",
+      "location": null,
+      "purpose": null,
+      "is_alteration": true,
+      "change_type": "varied",
+      "lodged_date": "2014-03-19",
+      "date_precision": "day",
+      "page": 11,
+      "confidence": "medium"
+    },
+    {
+      "section": 13,
+      "subsection": null,
+      "owner": "self",
+      "entity_name": "WWF",
+      "description": "Orangutan Sponsorship $15 per month via WWF",
+      "location": null,
+      "purpose": null,
+      "is_alteration": true,
+      "change_type": "varied",
+      "lodged_date": "2014-03-19",
+      "date_precision": "day",
+      "page": 11,
+      "confidence": "medium"
+    },
+    {
+      "section": 13,
+      "subsection": null,
+      "owner": "self",
+      "entity_name": "Surf Lifesaving Australia",
+      "description": "Surf Lifesaving Australia $220.00",
+      "location": null,
+      "purpose": null,
+      "is_alteration": true,
+      "change_type": "varied",
+      "lodged_date": "2014-03-19",
+      "date_precision": "day",
+      "page": 11,
+      "confidence": "medium"
+    },
+    {
+      "section": 13,
+      "subsection": null,
+      "owner": "self",
+      "entity_name": "World Vision",
+      "description": "World Vision - Child Sponsorship $516.00 per annum",
+      "location": null,
+      "purpose": null,
+      "is_alteration": true,
+      "change_type": "varied",
+      "lodged_date": "2014-03-19",
+      "date_precision": "day",
+      "page": 11,
+      "confidence": "medium"
+    },
+    {
+      "section": 13,
+      "subsection": null,
+      "owner": "self",
+      "entity_name": "World Vision",
+      "description": "Child Rescue $120.00 per annum",
+      "location": null,
+      "purpose": null,
+      "is_alteration": true,
+      "change_type": "varied",
+      "lodged_date": "2014-03-19",
+      "date_precision": "day",
+      "page": 11,
+      "confidence": "medium"
+    },
+    {
+      "section": 13,
+      "subsection": null,
+      "owner": "self",
+      "entity_name": "National Vietnam Veterans Museum",
+      "description": "National Vietnam Veterans Museum",
+      "location": null,
+      "purpose": null,
+      "is_alteration": true,
+      "change_type": "varied",
+      "lodged_date": "2014-03-19",
+      "date_precision": "day",
+      "page": 11,
+      "confidence": "medium"
+    },
+    {
+      "section": 13,
+      "subsection": null,
+      "owner": "self",
+      "entity_name": "You Are My Sunshine Foundation",
+      "description": "You are my Sunshine Foundation (Phillip Island)",
+      "location": null,
+      "purpose": null,
+      "is_alteration": true,
+      "change_type": "varied",
+      "lodged_date": "2014-03-19",
+      "date_precision": "day",
+      "page": 11,
+      "confidence": "medium"
+    },
+    {
+      "section": 13,
+      "subsection": null,
+      "owner": "self",
+      "entity_name": "Mt Martha Surf Life Saving Club",
+      "description": "Mt Martha Surf Life Saving Club",
+      "location": null,
+      "purpose": null,
+      "is_alteration": true,
+      "change_type": "varied",
+      "lodged_date": "2014-03-19",
+      "date_precision": "day",
+      "page": 11,
+      "confidence": "medium"
+    },
+    {
+      "section": 13,
+      "subsection": null,
+      "owner": "self",
+      "entity_name": "Lions Club of Mt Martha",
+      "description": "Lions Club of Mt Martha",
+      "location": null,
+      "purpose": null,
+      "is_alteration": true,
+      "change_type": "varied",
+      "lodged_date": "2014-03-19",
+      "date_precision": "day",
+      "page": 11,
+      "confidence": "medium"
+    },
+    {
+      "section": 13,
+      "subsection": null,
+      "owner": "self",
+      "entity_name": "Western Port Rotary",
+      "description": "Western Port Rotary",
+      "location": null,
+      "purpose": null,
+      "is_alteration": true,
+      "change_type": "varied",
+      "lodged_date": "2014-03-19",
+      "date_precision": "day",
+      "page": 11,
+      "confidence": "medium"
+    },
+    {
+      "section": 13,
+      "subsection": null,
+      "owner": "self",
+      "entity_name": "Rye RSL",
+      "description": "Rye RSL",
+      "location": null,
+      "purpose": null,
+      "is_alteration": true,
+      "change_type": "varied",
+      "lodged_date": "2014-03-19",
+      "date_precision": "day",
+      "page": 11,
+      "confidence": "medium"
+    },
+    {
+      "section": 13,
+      "subsection": null,
+      "owner": "self",
+      "entity_name": "Tyabb & District Ratepayers Association",
+      "description": "Tyabb & Distract Ratepayers Association",
+      "location": null,
+      "purpose": null,
+      "is_alteration": true,
+      "change_type": "varied",
+      "lodged_date": "2014-03-19",
+      "date_precision": "day",
+      "page": 11,
+      "confidence": "medium"
+    },
+    {
+      "section": 13,
+      "subsection": null,
+      "owner": "self",
+      "entity_name": "Dromana Football Club",
+      "description": "Dromana Football Club",
+      "location": null,
+      "purpose": null,
+      "is_alteration": true,
+      "change_type": "varied",
+      "lodged_date": "2014-03-19",
+      "date_precision": "day",
+      "page": 11,
+      "confidence": "medium"
+    },
+    {
+      "section": 13,
+      "subsection": null,
+      "owner": "self",
+      "entity_name": "French Island Community Magazine 'The Pinnacle'",
+      "description": "French Island Community Magazine 'The Pinnicale'",
+      "location": null,
+      "purpose": null,
+      "is_alteration": true,
+      "change_type": "varied",
+      "lodged_date": "2014-03-19",
+      "date_precision": "day",
+      "page": 11,
+      "confidence": "medium"
+    },
+    {
+      "section": 13,
+      "subsection": null,
+      "owner": "self",
+      "entity_name": "Community Radio Station - Radio Port Phillip",
+      "description": "Community Radio Station - Radio Port Phillip",
+      "location": null,
+      "purpose": null,
+      "is_alteration": true,
+      "change_type": "varied",
+      "lodged_date": "2014-03-19",
+      "date_precision": "day",
+      "page": 11,
+      "confidence": "medium"
+    },
+    {
+      "section": 13,
+      "subsection": null,
+      "owner": "self",
+      "entity_name": "Western Port Festival",
+      "description": "Western Port Festival",
+      "location": null,
+      "purpose": null,
+      "is_alteration": true,
+      "change_type": "varied",
+      "lodged_date": "2014-03-19",
+      "date_precision": "day",
+      "page": 11,
+      "confidence": "medium"
     },
     {
       "section": 12,
       "subsection": null,
       "owner": "self",
       "entity_name": "New Zealand National Party",
-      "description": "2 Nights Accommodation at Kaikoura Top 10 Holiday Park paid for by New Zealand National Party Value not known (less than $150 per night) - Guest speaker at Bluegreens national policy conference",
+      "description": "2 Nights Accommodation at Kaikoura Top 10 Holiday Park paid for by New Zealand National Party, Value not known (less than $150 per night) - Guest speaker at Bluegreens national policy conference",
       "location": null,
       "purpose": null,
       "is_alteration": true,
@@ -698,14 +923,14 @@
       "lodged_date": "2014-04-04",
       "date_precision": "day",
       "page": 12,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "section": 12,
       "subsection": null,
       "owner": "self",
       "entity_name": "Duxton Hotel",
-      "description": "Complimentary Upgrade to club room - Duxton Hotel Value not known, 2 nights 31/3 & 1/4/14",
+      "description": "Complimentary Upgrade to club room - Duxton Hotel, Value not known, 2 Nights 31/3 & 1/4/14",
       "location": null,
       "purpose": null,
       "is_alteration": true,
@@ -713,7 +938,7 @@
       "lodged_date": "2014-04-04",
       "date_precision": "day",
       "page": 13,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "section": 11,
@@ -728,7 +953,7 @@
       "lodged_date": "2014-06-26",
       "date_precision": "day",
       "page": 14,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "section": 12,
@@ -743,10 +968,10 @@
       "lodged_date": "2014-06-26",
       "date_precision": "day",
       "page": 14,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
-      "section": 10,
+      "section": 1,
       "subsection": null,
       "owner": "self",
       "entity_name": null,
@@ -773,7 +998,7 @@
       "lodged_date": "2014-06-26",
       "date_precision": "day",
       "page": 14,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "section": 11,
@@ -788,7 +1013,7 @@
       "lodged_date": "2014-06-26",
       "date_precision": "day",
       "page": 14,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "section": 13,
@@ -803,7 +1028,7 @@
       "lodged_date": "2014-10-09",
       "date_precision": "day",
       "page": 15,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "section": 12,
@@ -818,10 +1043,10 @@
       "lodged_date": "2014-10-09",
       "date_precision": "day",
       "page": 15,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
-      "section": 10,
+      "section": 1,
       "subsection": null,
       "owner": "self",
       "entity_name": null,
@@ -848,7 +1073,7 @@
       "lodged_date": "2014-10-09",
       "date_precision": "day",
       "page": 15,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "section": 8,
@@ -863,7 +1088,7 @@
       "lodged_date": "2014-10-09",
       "date_precision": "day",
       "page": 15,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "section": 12,
@@ -878,14 +1103,14 @@
       "lodged_date": "2014-10-09",
       "date_precision": "day",
       "page": 15,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "section": 12,
       "subsection": null,
       "owner": "self",
-      "entity_name": "Emirates Airlines",
-      "description": "2 Tickets to the Emirates Derby Day Function, Value: Not Known, Emirates Airlines",
+      "entity_name": "Emirates Airline",
+      "description": "2 Tickets to the Emirates Derby Day Function, Details: Emirates Airline, Value: Not Known",
       "location": null,
       "purpose": null,
       "is_alteration": true,
@@ -893,14 +1118,14 @@
       "lodged_date": "2014-11-26",
       "date_precision": "day",
       "page": 16,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "section": 11,
       "subsection": null,
       "owner": "self",
       "entity_name": "Qantas",
-      "description": "Collection of 7 Paperback Novels - Value unknown, Qantas",
+      "description": "Collection of 7 Paperback Novels - Value unknown, Details: Qantas",
       "location": null,
       "purpose": null,
       "is_alteration": true,
@@ -908,10 +1133,10 @@
       "lodged_date": "2014-12-16",
       "date_precision": "day",
       "page": 17,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
-      "section": 10,
+      "section": 1,
       "subsection": null,
       "owner": "self",
       "entity_name": null,
@@ -938,14 +1163,14 @@
       "lodged_date": "2014-12-16",
       "date_precision": "day",
       "page": 17,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
-      "section": 14,
+      "section": 10,
       "subsection": null,
       "owner": "dependent_child",
-      "entity_name": "Tudor Executive / Holt Legal",
-      "description": "Disbursement to children (daughter & son) as part of their grandfather's will by Tudor Executive / Holt Legal",
+      "entity_name": "Hill Legal",
+      "description": "Disbursement to children (daughter & son) as part of their grandfather's will by Trust Executor Hill Legal",
       "location": null,
       "purpose": null,
       "is_alteration": true,
@@ -960,7 +1185,7 @@
       "subsection": null,
       "owner": "self",
       "entity_name": "Allens Lawyers",
-      "description": "2 Tickets to Australian Open men's Final - courtesy of Allens Lawyers",
+      "description": "2 Tickets to Australian Open Men's Final - courtesy of Allens Lawyers",
       "location": null,
       "purpose": null,
       "is_alteration": true,
@@ -968,7 +1193,7 @@
       "lodged_date": "2015-03-03",
       "date_precision": "day",
       "page": 18,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "section": 12,
@@ -983,7 +1208,7 @@
       "lodged_date": "2015-03-03",
       "date_precision": "day",
       "page": 18,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "section": 12,
@@ -998,7 +1223,7 @@
       "lodged_date": "2015-03-03",
       "date_precision": "day",
       "page": 18,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "section": 12,
@@ -1013,7 +1238,7 @@
       "lodged_date": "2015-06-10",
       "date_precision": "day",
       "page": 19,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "section": 12,
@@ -1028,14 +1253,14 @@
       "lodged_date": "2015-06-10",
       "date_precision": "day",
       "page": 19,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "section": 12,
       "subsection": null,
       "owner": "self",
-      "entity_name": "Australian Embassy Residence France",
-      "description": "Overnight accommodation @ Australian Embassy Residence France",
+      "entity_name": null,
+      "description": "Overnight accomodation @ Australian Embassy Residence France & H.C. Residence UK",
       "location": null,
       "purpose": null,
       "is_alteration": true,
@@ -1043,14 +1268,14 @@
       "lodged_date": "2015-06-10",
       "date_precision": "day",
       "page": 19,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "section": 12,
       "subsection": null,
       "owner": "self",
-      "entity_name": "H.C. Residence UK",
-      "description": "Overnight accommodation @ H.C. Residence UK",
+      "entity_name": "Australian Power Co.",
+      "description": "Helicopter transfer to attend & return from Australian Power Conversion Conference as keynote speaker (from Hamilton Is Airport to Hayman & back) Australian Power Co. and to inspect potential renewable energy site by Offshore Energy Ltd",
       "location": null,
       "purpose": null,
       "is_alteration": true,
@@ -1058,29 +1283,14 @@
       "lodged_date": "2015-06-10",
       "date_precision": "day",
       "page": 19,
-      "confidence": "high"
-    },
-    {
-      "section": 12,
-      "subsection": null,
-      "owner": "self",
-      "entity_name": "Australasian Power Con / Offshore Energy Ltd",
-      "description": "Helicopter transfer to attend & return from Australian Power connection Conference as keynote speaker (from Hamilton Is Airport to Hayman & back) Australasian Power Con and to inspect potential renewable energy site by Offshore Energy Ltd",
-      "location": null,
-      "purpose": null,
-      "is_alteration": true,
-      "change_type": "added",
-      "lodged_date": "2015-06-10",
-      "date_precision": "day",
-      "page": 19,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "section": 11,
       "subsection": null,
       "owner": "self",
-      "entity_name": "Daylesford Water",
-      "description": "Approximately 450 litres of bottled water for walkers during the 500 km Walk for Autism - courtesy Daylesford Water",
+      "entity_name": "Victorian Tucker",
+      "description": "Approximately 450 litres of bottled water for walkers during the 500 km walk for Autism - Victorian Tucker",
       "location": null,
       "purpose": null,
       "is_alteration": true,
@@ -1088,14 +1298,14 @@
       "lodged_date": "2015-08-27",
       "date_precision": "day",
       "page": 20,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
-      "section": 11,
+      "section": 12,
       "subsection": null,
       "owner": "self",
-      "entity_name": "Toyota Port Melbourne",
-      "description": "Loan of Toyota Hybrid for carry for 3 weeks for Walk for Autism from Toyota Port Melbourne, as support vehicle",
+      "entity_name": "Toyota Melbourne",
+      "description": "Loan of Toyota Hybrid for carrying for 3 weeks for walk for Autism from Toyota Melbourne, as support vehicle",
       "location": null,
       "purpose": null,
       "is_alteration": true,
@@ -1103,7 +1313,7 @@
       "lodged_date": "2015-08-27",
       "date_precision": "day",
       "page": 20,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "section": 12,
@@ -1118,14 +1328,14 @@
       "lodged_date": "2015-08-27",
       "date_precision": "day",
       "page": 20,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
-      "section": 14,
+      "section": 10,
       "subsection": null,
       "owner": "dependent_child",
       "entity_name": "Estate of Alan Hunt",
-      "description": "Final distribution to my 2 children from the Estate of my father Alan Hunt",
+      "description": "Final distribution to my 2 children from the estate of my father Alan Hunt",
       "location": null,
       "purpose": null,
       "is_alteration": true,
@@ -1133,14 +1343,14 @@
       "lodged_date": "2015-08-27",
       "date_precision": "day",
       "page": 20,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "section": 11,
       "subsection": null,
       "owner": "self",
       "entity_name": "PNG Governor of Milne Bay Province",
-      "description": "Wooden carving received from PNG Governor of Milne Bay Province (H.C. advised approx value <$300)",
+      "description": "wooden carving received from PNG Governor of Milne Bay Province (H.C. adviser approx value < $300)",
       "location": null,
       "purpose": null,
       "is_alteration": true,
@@ -1148,14 +1358,14 @@
       "lodged_date": "2015-08-27",
       "date_precision": "day",
       "page": 20,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "section": 11,
       "subsection": null,
       "owner": "self",
       "entity_name": "PNG Minister for the Environment",
-      "description": "Wooden carving received from PNG Minister for the Environment (High Commission advised <$300)",
+      "description": "wooden carving received from PNG Minister for the Environment (High Commission adviser < $300)",
       "location": null,
       "purpose": null,
       "is_alteration": true,
@@ -1163,14 +1373,14 @@
       "lodged_date": "2015-08-27",
       "date_precision": "day",
       "page": 20,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "section": 13,
       "subsection": null,
       "owner": "self",
       "entity_name": "MORNINGTON GOLF CLUB",
-      "description": "Hon Membership MORNINGTON GOLF CLUB - Renewed for 2015/2016 Season",
+      "description": "Hon Membership MORNINGTON GOLF CLUB Renewed for 2015/2016 Season",
       "location": null,
       "purpose": null,
       "is_alteration": true,
@@ -1185,7 +1395,7 @@
       "subsection": null,
       "owner": "self",
       "entity_name": "For the Love of Wildlife",
-      "description": "Gift of \"White Lions\" Print Value: Maximum $250.00 From: For the Love of Wildlife",
+      "description": "Gift of \"White Lions\" Print - Value: Maximum $250.00 From: For the Love of Wildlife",
       "location": null,
       "purpose": null,
       "is_alteration": true,
@@ -1200,7 +1410,7 @@
       "subsection": null,
       "owner": "self",
       "entity_name": "Asian Business Association of Whitehorse Inc.",
-      "description": "Chinese Print & small Horse Sculpture Value: Under $100 From: Asian Business Association of Whitehorse Inc.",
+      "description": "Chinese Print & small Horse Sculpture - Value: Under $100 From: Asian Business Association of Whitehorse Inc.",
       "location": null,
       "purpose": null,
       "is_alteration": true,
@@ -1215,7 +1425,7 @@
       "subsection": null,
       "owner": "self",
       "entity_name": "Australian Super",
-      "description": "Australian Super - General Equities Broad Based Super Fund Administered by Australia Super & managed by hew super",
+      "description": "Australian Super - General Equities broad based Super Fund Administered by Australian Super & managed by her super",
       "location": null,
       "purpose": null,
       "is_alteration": true,
@@ -1260,7 +1470,7 @@
       "subsection": null,
       "owner": "self",
       "entity_name": "Relais Spa Roissy Hotel",
-      "description": "Upgrade of room @ Relais Spa Roissy Hotel @ Roissy (Charles De Gaulle Airport precinct)",
+      "description": "Upgrade of room @ Relais Spa Roissy Hotel @ Roissy (Charles De Gaulle airport precinct)",
       "location": null,
       "purpose": null,
       "is_alteration": true,
@@ -1268,7 +1478,7 @@
       "lodged_date": "2015-12-21",
       "date_precision": "day",
       "page": 24,
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "section": 11,
@@ -1283,7 +1493,7 @@
       "lodged_date": "2015-12-21",
       "date_precision": "day",
       "page": 24,
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "section": 12,
@@ -1305,7 +1515,7 @@
       "subsection": null,
       "owner": "self",
       "entity_name": "Australian Ballet",
-      "description": "Two tickets to the Australian Ballet summer festival, Australian Ballet;",
+      "description": "Two tickets to the Australian Ballet summer festival, Australian Ballet",
       "location": null,
       "purpose": null,
       "is_alteration": true,
@@ -1319,8 +1529,8 @@
       "section": 12,
       "subsection": null,
       "owner": "self",
-      "entity_name": "Merril Martin Gray",
-      "description": "Australian Open Tennis - 2 tickets to the rounds - Merril Martin Gray",
+      "entity_name": "Merrill Martin Gray",
+      "description": "Australian Open Tennis - 2 tickets to the rounds - Merrill Martin Gray",
       "location": null,
       "purpose": null,
       "is_alteration": true,
@@ -1334,8 +1544,8 @@
       "section": 12,
       "subsection": null,
       "owner": "self",
-      "entity_name": "Allen & Lawyers",
-      "description": "Australian Open Tennis - 2 tickets to the men's Final - Allen & Lawyers",
+      "entity_name": "Allens Lawyers",
+      "description": "Australian Open Tennis - 2 tickets to the mens Final - Allens Lawyers",
       "location": null,
       "purpose": null,
       "is_alteration": true,
@@ -1364,8 +1574,8 @@
       "section": 12,
       "subsection": null,
       "owner": "self",
-      "entity_name": "Corinna @ Home in the Wilderness",
-      "description": "Upgrade of accommodation, Corinna @ Home in the wilderness;",
+      "entity_name": "Corinna - Home in the Wilderness",
+      "description": "Upgrade of accommodation, Corinna @ Home in the Wilderness",
       "location": null,
       "purpose": null,
       "is_alteration": true,
@@ -1380,7 +1590,7 @@
       "subsection": null,
       "owner": "self",
       "entity_name": "Gordon River Cruises",
-      "description": "Upgrade Gordon River Cruises;",
+      "description": "Upgrade Gordon River Cruises",
       "location": null,
       "purpose": null,
       "is_alteration": true,
@@ -1395,7 +1605,7 @@
       "subsection": null,
       "owner": "self",
       "entity_name": null,
-      "description": "Receipt of final deferred payment for sale of all shares in 2013 as notified to the register in 2013;",
+      "description": "Receipt of final deferred payment for sale of all shares in 2013 as notified to the register in 2013",
       "location": null,
       "purpose": null,
       "is_alteration": true,
@@ -1410,7 +1620,7 @@
       "subsection": null,
       "owner": "self",
       "entity_name": "CSL",
-      "description": "Gift of All Saints Vintage Port (1965) by CSL as guest speaker @ 100th Anniversary dinner. Approx value $100;",
+      "description": "Gift of All Saints Vintage Port (1965) by CSL as guest speaker @ 100th Anniversary Dinner. Approx value $100",
       "location": null,
       "purpose": null,
       "is_alteration": true,
@@ -1451,9 +1661,9 @@
       "confidence": "high"
     }
   ],
-  "extraction_notes": "pages 1-20: Page 10/11 notification of alterations includes an updated list of memberships and references community group resignations (as Minister for the Environment). | pages 21-26: Pages 21-26 are notification of alteration forms spanning September 2015 to April 2016.",
+  "extraction_notes": "pages 1-20: Section 13 on page 6 incorporates attached membership schedule on page 8. Alteration on page 10 provides a revised membership schedule on page 11 (itemised as variations) and notes membership resignations. | pages 21-26: Pages 21-26 are notification of alteration forms. The donors for the Australian Open tickets on page 25 are difficult to decipher with full certainty due to cursive handwriting.",
   "usage": {
-    "input_tokens": 19078,
-    "output_tokens": 23137
+    "input_tokens": 19830,
+    "output_tokens": 42881
   }
 }

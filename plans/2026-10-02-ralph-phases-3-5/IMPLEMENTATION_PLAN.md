@@ -158,11 +158,11 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
 - notes: v1 F1 0.984 (v0 0.987), P 0.984 R 0.985, owner/page 1.000; ADR-4 PASS, no revision needed. Only diff prenticej_45p p29 entity naming (variance). plibersekt p8 13 items identical.
 
 ### T1.5 — Re-extract the confirmed files with prompt v1 (paid)
-- status: todo
+- status: done 2026-10-02
 - deps: T1.4
-- attempts: 0
+- attempts: 1
 - budget: cap US$3.00 (est. 1.50) · network: openrouter.ai
-- spent: US$0.00
+- spent: US$0.48
 - do: `credit.py --min 3`. Run the G2 extract command with `--force` on the
   `attachment_not_itemised` files, in batches of ≤ 10 per Bash call. `validate` the directory.
   For each file, check that T1.2's `expected` names are now present, and record before/after
@@ -173,6 +173,7 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
 - done when: `validate extractions/gemini-api/house` reports 0 invalid; every re-extracted file
   contains its expected names (or the file is listed with a reason); the load hard queries
   are 0.
+- notes: 7 files, 315 → 525 items (+210), 35/35 expected names found (pynec's "Diddatico" was a typo in the CSV). validate 768/0; load 42,252 items, hard AC-2.7 0, AC-2.9 0; new AC-2.8 hash 465f1071…. Extraction JSON has no prompt-version field: the v1 file list in eval/extraction_failures.md is the record (T5.1 README needs it).
 
 ### V1 — Cold verification of M1
 - status: todo
