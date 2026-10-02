@@ -464,7 +464,7 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
 ### T3.5 — Extract the House 48th (paid)
 - status: todo
 - deps: T1.5, T3.4
-- attempts: 0
+- attempts: 1
 - budget: cap US$8.00 (est. 5–6) · network: openrouter.ai
 - spent: US$0.00
 - do: `credit.py --min 3` before each batch. Run the G2 extract command (AGENTS.md; prompt v1)
