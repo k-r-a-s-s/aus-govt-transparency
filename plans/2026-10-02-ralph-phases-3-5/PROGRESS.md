@@ -36,3 +36,4 @@
 2026-10-02T15:42Z | V3 | done | spent US$0.00 | cold verify Phase 4: PASS, no findings; rebuild deterministic, manifest/refresh/senate mapping/validate all hold; 313 pass
 2026-10-02T15:47Z | T5.1 | done | spent US$0.00 | export: 50,936 rows = items, 33 cols, Kaggle README (dictionary/method/limitations) + dataset-metadata.json; source_url via manifest; 319 pass
 2026-10-02T15:50Z | T5.2 | done | spent US$0.00 | export --site: site/index.html (coverage, cite, Datasette Lite link) + site/disclosures_v2.db (31.9 MB copy); pages.yml valid; local http.server check ok; 322 pass
+2026-10-02T15:52Z | T5.3 | done | spent US$0.00 | README.md rewritten for v2 (what/coverage/commands/refresh/dictionary/limitations/v1 snapshot); AC-5.3 grep ok; 322 pass

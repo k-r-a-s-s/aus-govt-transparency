@@ -1,362 +1,152 @@
-# Australian Government Transparency Project - Disclosure Data Pipeline
+# Australian Parliament Registers of Interests (Disclosures v2)
 
-This repository contains a modular, maintainable pipeline for processing, standardizing, and analyzing Australian parliamentary financial disclosure data. The project is focused on extracting structured data from PDFs, cleaning and standardizing it, and enabling robust analysis of MPs' financial interests.
+A pipeline and dataset covering every interest Australian federal MPs and senators disclosed in
+the Registers of Members' and Senators' Interests. Each disclosed item (a shareholding, a gift, a
+trip, a directorship, …) becomes one row, tagged with its register section (1–14), its owner
+(self, spouse, dependent child), the source page, the member's party for that parliament, and a
+standardised entity (company, organisation, trust).
 
-## Key Features
-- **End-to-end pipeline** for PDF scraping, parsing, cleaning, and output
-- **Strongly-typed, functional Python code** (see `/src`)
-- **Canonical database schema** for disclosures, MPs, and entities
-- **Modular structure** for easy extension and testing
-- **LLM (Gemini) integration** for entity extraction and validation
+Output: `disclosures_v2.db` (SQLite) and `exports/disclosures_v2.csv` (one row per item, plus a
+Kaggle package in `exports/kaggle/`). Design and acceptance criteria:
+`plans/2026-10-01-disclosures-v2/SPEC.md`.
 
-## What's in this Repo
-- `/src/preparation`: Data preparation, schema generation, and scraping helpers
-- `/src/parsing`: PDF parsing and entity extraction (Gemini, OCR, etc.)
-- `/src/cleaning`: Data cleaning, standardization, recategorization, and deduplication
-- `/src/output`: Output/export logic (to be expanded)
-- `/src/common`: Shared utilities (rate limiter, helpers)
-- `disclosures.db`: Main SQLite database (see schema below)
-- `docs/`: Project documentation (pipeline, schema, workflows)
-- `outputs/`, `pdfs/`: Data and results (not tracked in version control)
+## Coverage
 
-## What's Not (anymore)
-- No backend API or frontend code (moved to a separate repository)
-- No legacy scripts or monolithic processing logic
-- No direct API endpoints or web server in this repo
+| chamber | parliament | members | statements | items |
+|---|---|---|---|---|
+| house | 43 (2010–2013) | 150 | 150 | 7,784 |
+| house | 44 (2013–2016) | 152 | 152 | 8,511 |
+| house | 45 (2016–2019) | 153 | 158 | 9,426 |
+| house | 46 (2019–2022) | 153 | 153 | 7,461 |
+| house | 47 (2022–2025) | 155 | 155 | 9,070 |
+| house | 48 (2025–) | 151 | 151 | 6,704 |
+| senate | 48 (2025–) | 76 | 76 | 1,980 |
 
-## Pipeline Workflow
+50,936 items and 11,544 standardised entities (as of 2026-10-02). House statements are the APH
+PDFs (archived registers for the 43rd–47th, the live register for the 48th), tracked in `pdfs/`
+with `pdfs/manifest.csv` recording each file's source URL and sha256. Senate 48th statements come
+from the senators' interests API (JSON, `pdfs/senate/48/`).
 
-1. **Preparation** (`/src/preparation`)
-    - Generate canonical database schema (`generate_schema.py`)
-    - Scrape PDFs from parliament websites (`scrape_parliament.py`)
-    - Get MP party affiliations (`get_mp_party_affiliations.py`)
-2. **Parsing** (`/src/parsing`)
-    - Extract text and entities from PDFs using Gemini or OCR
-    - Parse and structure disclosure data
-3. **Cleaning** (`/src/cleaning`)
-    - Standardize MP names, electorates, and categories, link across tables
-    - **MP Party & Canonicalization:**
-        - Update and patch MP party affiliations using `python src/cleaning/get_mp_party_affiliations.py --db-path disclosures.db` (includes robust scraping, fuzzy matching, and manual party fixes for stubborn or missing cases).
-        - Canonicalize and merge duplicate MPs using `python src/cleaning/merge_duplicate_mps.py --db-path disclosures.db` (handles normalization, case/whitespace, and explicit manual merge overrides for edge cases).
-        - Result: The `mps` table is now deduplicated, all MPs have correct party affiliations, and all disclosures point to the canonical `mp_id`.
-    - **Entities:**
-        1. Link entities across the tables (ensure each disclosure's `raw_entity` is linked to a canonical entity in the `entities` table via `entity_id`).
-        2. Run vector-based entity matching (`vector_match.py`) with LLM supervision to merge similar entities to canonical names.
-        3. Import canonicalized entities from the grouping database (`import_canonical_entities.py`).
-        4. **Merge entities by canonical name and update disclosures** (`merge_entities_on_canonical_name.py`): For each canonical_name, select a single canonical entity_id, update all disclosures to reference it, and mark obsolete entities as merged. This completes the entity deduplication and canonicalization process.
-    - **Disclosures:**
-        1. Perform a final check for duplicate disclosures (e.g., same MP, date, entity, and description).
-        2. Run final quality checks to ensure data integrity and completeness.
+## How it works
 
-4. **Output** (`/src/output`)
-    - Export cleaned data for analysis or external use (to be expanded)
-
-## Iterative LLM-Supervised Entity Grouping and Canonicalization
-
-The pipeline includes an iterative, LLM-supervised process for grouping, merging, and canonicalizing entities:
-- After initial entity extraction, entities are grouped using vector embeddings and community detection.
-- For each group of similar entities (community):
-    - If the group has more than one member, the list is sent to Gemini LLM for supervision.
-    - The LLM selects a single canonical entity name, identifies which entities should be merged, and which should be rejected.
-- Rejected entities are returned to the pool for future iterations, allowing them to be grouped with other entities in subsequent passes.
-- Canonical entities (already merged groups) can also be returned to the pool if new merges are possible, supporting dynamic, evidence-driven grouping.
-- If a canonical entity is merged again and the LLM selects a new canonical name for the expanded group, a warning is logged, but the merge and name change are allowed to proceed.
-- The process is repeated for a fixed number of iterations (e.g., 4). Singletons are finalized after 4 iterations.
-- After all iterations, a mapping of `{old_entity_id, new_entity_id, canonical_name, status}` is exported for migration to the main database.
-
-**Final Entity Deduplication Step:**
-- After importing canonicalized entities, run `python src/cleaning/merge_entities_on_canonical_name.py --db-path disclosures.db` to deduplicate entities by canonical_name, update all disclosures to point to the canonical entity_id, and mark obsolete entities as merged. This completes the entity deduplication and canonicalization process.
-
-This approach allows for robust, evidence-driven merging of entities, supports correction of earlier grouping errors, and provides a clear audit trail for all canonicalization decisions. See `refactor_plan.rmd` and `development_diary.rmd` for implementation details and user instructions.
+1. **Scrape** (`scrape`): download statements and update the manifest.
+2. **Extract** (`extract`): House PDFs are transcribed by `google/gemini-3.8-flash` (via
+   OpenRouter) into a strict JSON schema, with `anthropic/claude-sonnet-5.5` taking any pages
+   Gemini refuses. On a 12-PDF hand-checked gold set this scored F1 0.987. Senate JSON is mapped
+   directly, no LLM.
+3. **Validate** (`validate`): schema plus completeness (every page covered, every item on a real
+   page).
+4. **Load** (`load`): validated extractions into `disclosures_v2.db`; members matched across
+   parliaments and chambers to one `member_id`; party per term from `data/overrides/`.
+5. **Entities** (`entities`): normalise names, then resolve via a curated alias table, the ASX
+   listed-companies snapshot, a cached LLM grouping of variants, and finally one entity per
+   one-off name.
+6. **Export** (`export`): CSV, Kaggle package and the GitHub Pages site (`site/`).
 
 ## Setup
 
-1. **Clone the repository:**
-    ```bash
-    git clone <repository_url>
-    cd <repository_directory>
-    ```
-2. **Create a virtual environment:**
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate
-    ```
-3. **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-4. **Set up environment variables:**
-    - Copy `.env.example` to `.env.local` and fill in required values (e.g., `GOOGLE_API_KEY` for Gemini)
-5. **Prepare the database:**
-    - Run the schema generator:
-    ```bash
-    python src/preparation/generate_schema.py
-    ```
-
-## Running the Pipeline
-
-- **Orchestrate the full pipeline:**
-    ```bash
-    python src/main.py --parliament 47th --store-in-db --standardize
-    ```
-    - See `python src/main.py --help` for all options (batch processing, skipping steps, etc.)
-
-- **Run individual steps:**
-    - Scrape PDFs: `python src/preparation/scrape_parliament.py`
-    - Parse PDFs: `python src/parsing/parse_disclosures.py --pdf-dir pdfs/47th --db-path disclosures.db`
-    - Clean/standardize: `python src/cleaning/standardize_mp_names.py --db-path disclosures.db`
-    - Recategorize: `python src/cleaning/recategorize_all.py --db-path disclosures.db`
-    - Merge entities: `python src/cleaning/merge_entities.py --db-path disclosures.db`
-
-## Database Schema (Canonical)
-
-See `refactor_plan.rmd` and `/docs/backend/database.md` for full details. Key tables:
-
-```sql
-CREATE TABLE mps (
-    mp_id TEXT PRIMARY KEY,
-    full_name TEXT NOT NULL,
-    electorate TEXT,
-    party TEXT,
-    wikidata_id TEXT
-);
-
-CREATE TABLE disclosures (
-    disclosure_id TEXT PRIMARY KEY,
-    mp_id TEXT NOT NULL,
-    pdf_filename TEXT NOT NULL,
-    date TEXT NOT NULL,
-    raw_description TEXT NOT NULL,
-    raw_entity TEXT,
-    category TEXT,
-    interest_type TEXT,
-    entity_id TEXT,
-    FOREIGN KEY (mp_id) REFERENCES mps(mp_id),
-    FOREIGN KEY (entity_id) REFERENCES entities(entity_id)
-);
-
-CREATE TABLE entities (
-    entity_id TEXT PRIMARY KEY,
-    canonical_name TEXT NOT NULL,
-    iteration INTEGER,
-    status TEXT,
-    notes TEXT
-);
+```sh
+python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt -r requirements-dev.txt
+.venv/bin/python -m pytest -q          # no network, no API calls
 ```
 
-## Contributing
-- Please see `development_diary.rmd` for workflow and change tracking
-- All code should be modular, strongly typed, and functional
-- Document all changes and update docs as you go
+Paid steps (extraction, online entity grouping) need `OPENROUTER_KEY` in the environment or in
+`.env.local` (copy `.env.example`; never commit it). Everything else runs offline.
 
-## License
-(Add license information if applicable)
+## Commands
 
-## System Workflow
+All commands run from the repository root (`python` = `.venv/bin/python`).
 
-The system workflow is straightforward:
+```sh
+python -m disclosures --help
 
-### Direct PDF Processing Workflow
-1. **PDF Collection**: PDFs are downloaded from parliamentary websites using the `scrape_parliament.py` script.
-2. **Direct PDF Processing**: Google Gemini 2.0 Flash directly processes PDFs and extracts structured data.
-3. **Database Storage**: AI-generated JSON is inserted into SQLite database.
-4. **Query & Analysis**: Structured data enables trend detection and analysis.
+# Scrape: House 48th or Senate 48th; --verify re-downloads and checks every sha
+python -m disclosures scrape --chamber house --parliament 48 [--verify]
+python -m disclosures scrape --chamber senate --parliament 48
 
-### Complete Batch Processing Pipeline
-1. **PDF Collection**: PDFs from multiple parliaments are downloaded and organized by parliament.
-2. **Direct PDF Processing**: All PDFs are processed with Gemini 2.0 Flash with post-processing for enhanced data quality.
-3. **Database Storage**: Structured data is stored in SQLite database.
-4. **Output Organization**: JSON outputs are organized by parliament for easy access.
+# Extract: House PDFs (paid; the configuration used for the published data)
+python -m disclosures extract --source gemini --provider openrouter \
+    --model google/gemini-3.8-flash --provider-order google-ai-studio/flex \
+    --fallback-model anthropic/claude-sonnet-5.5 --ignore-providers azure --workers 8 <pdfs...>
+# Extract: Senate API payloads (free)
+python -m disclosures extract --source senate-json pdfs/senate/48/*.json
 
-### 3. Entity Processing
-- `scripts/process_entities.py`: Processes and standardizes entity names
-- `scripts/apply_entity_results.py`: Applies entity standardization results to the database
-- `scripts/apply_double_disclosure_entity_results.py`: Processes and splits combined entity names (e.g., "Qantas and Virgin") identified by prior analysis (like `analyze_double_disclosures_with_gemini.py`). It updates the original row for the first split entity and creates *new* rows for subsequent splits. **Crucially, when creating new rows, it copies all data from the original row, preserving fields (including NULLs) and only changing the `id`, `entity`, `original_entity`, and `split_entity` columns.** This ensures data integrity across the split entries.
-- `scripts/reset_original_entities.py`: Resets entity values to match original_entity values, useful for reprocessing double disclosures
-- `scripts/standardize_entities.py`: Standardizes entity names using a multi-stage process:
-  1. Checks for populated `split_entity` column (requires running `apply_double_disclosure_entity_results.py` first)
-  2. Applies acronym standardization
-  3. Applies regex-based standardization
-  4. Applies fuzzy matching for similar entities
-  5. Applies case standardization
+# Validate extraction JSON (exit 1 if any file is invalid)
+python -m disclosures validate extractions/gemini-api/house
 
-### 4. Data Analysis
-- `scripts/double_disclosure_analysis.py`: Analyzes potential double disclosures in the database
-- `scripts/prepare_gemini_entity_analysis.py`: Prepares data for Gemini analysis
-- `scripts/analyze_double_disclosures_with_gemini.py`: Analyzes entities with Gemini AI to distinguish between true multiple entities and single entities with compound names
-- `scripts/summarize_gemini_entity_analysis.py`: Summarizes and generates reports from Gemini analysis results
+# Score predictions (or the v1 DB) against the gold set
+python -m disclosures score --pred <dir> --gold eval/gold [--json out.json]
 
-### 5. Iterative Entity Grouping and LLM Validation
-- `scripts/vector_entity_grouping.py`: This is the core script for identifying and validating groups of similar entity names.
-    - **Purpose:** To iteratively cluster normalized entity names based on semantic similarity (vector embeddings) and then use an LLM (Gemini) to perform granular validation of the members within each proposed cluster.
-    - **Workflow:**
-        1.  Calculates sentence embeddings for entities not yet confirmed.
-        2.  Builds a graph based on cosine similarity above a threshold.
-        3.  Detects communities using the Louvain algorithm.
-        4.  Sends multi-member communities to Gemini for member-by-member confirmation/rejection (unless `--no-llm-review` is used).
-        5.  Treats single-member communities (isolated entities) as confirmed.
-        6.  Saves all processed groups and member statuses (`confirmed`, `rejected`, `pending_review`) to a dedicated `entity_grouping.db` SQLite database, using a unique `community_ID` (e.g., "iteration-group_index").
-        7.  Outputs an intermediate JSON file (`iteration_<N>_reviewed_communities.json`) for debugging each iteration.
-    - **Iteration:** Designed to be run multiple times with increasing `--iteration` numbers. Each run excludes previously confirmed entities, allowing focus on the remaining ungrouped/rejected ones.
-    - **Setup & Usage:** See the detailed docstring within the script itself for environment setup (requires specific libraries like `python-louvain`, `google-generativeai`), API key configuration (`.env.local`), and command-line arguments (`--iteration`, `--threshold`, `--limit`, `--no-llm-review`).
+# Load validated extractions into disclosures_v2.db
+python -m disclosures load --source gemini-api --source senate-json
 
-### Entity Processing Workflow
+# Entity standardisation (offline uses the committed LLM cache)
+python -m disclosures entities --offline [--report eval/entities_report.md]
+python -m disclosures entities --llm-dry-run      # how many uncached blocks / requests
+python -m disclosures entities [--llm-limit 40] [--workers 8]   # online, paid
 
-1. **Double Disclosure Processing**:
-   ```bash
-   # First, analyze and split combined entity names
-   python scripts/apply_double_disclosure_entity_results.py --db disclosures.db --input-file scripts/gemini_results/compiled_results.json
-   ```
-
-2. **Entity Standardization**:
-   ```bash
-   # Then standardize the split entities
-   python scripts/standardize_entities.py --db disclosures.db
-   
-   # Optional flags:
-   --no-fuzzy           # Skip fuzzy matching
-   --skip-regex         # Skip regex standardization
-   --skip-acronyms      # Skip acronym standardization
-   --auto              # Run without confirmation prompts
-   ```
-
-3. **Verification and Reset**:
-   ```bash
-   # If needed, reset entities to original values
-   python scripts/reset_original_entities.py
-   ```
-
-This workflow ensures that:
-1. Multi-entity strings are properly split before standardization
-2. The relationship between original and split entities is preserved
-3. Standardization is applied to individual entities rather than combined strings
-4. The process is clear and enforced through checks
-
-## Project Structure
-
-- `scrape_parliament.py`: Script to download PDFs from parliamentary websites
-- `parliament_urls.py`: Configuration file with URLs for different parliaments
-- `gemini_pdf_processor.py`: Module for direct PDF processing with Google Gemini 2.0 API
-- `db_handler.py`: Module for handling database operations
-- `process_parliament_disclosures.py`: Main script that orchestrates the complete batch processing pipeline
-- `test_gemini_pdf.py`: Script to test direct PDF processing with Gemini API
-- `requirements.txt`: List of dependencies
-
-## Usage
-
-### Downloading PDFs
-
-```bash
-# Download PDFs from the latest parliament (47th)
-python scrape_parliament.py
-
-# Download PDFs from a specific parliament
-python scrape_parliament.py --parliament 46th
-
-# Download PDFs from all parliaments
-python scrape_parliament.py --all
+# Export: CSV + Kaggle package (+ Pages site)
+python -m disclosures export [--site site] [--kaggle-id USER/SLUG] [--license NAME]
 ```
 
-### Testing Direct PDF Processing with Gemini
+Extractions are idempotent: files that already validate are skipped (`--force` redoes them).
+Full option lists are in `docs/v2/README.md`; topic docs: `docs/v2/scrape.md`,
+`docs/v2/extraction.md`, `docs/v2/loading.md`, `docs/v2/entities.md`,
+`docs/v2/senate_source.md`.
 
-```bash
-python test_gemini_pdf.py --pdf path/to/pdf
+## Refreshing
+
+```sh
+python -m disclosures refresh --dry-run      # list new/changed House 48th + Senate statements; writes nothing
+python -m disclosures refresh                # scrape, extract only those, load, entities
+python -m disclosures export --site site     # regenerate the CSV, Kaggle package and site
 ```
 
-### Processing a Single PDF (Direct PDF Processing)
+`refresh` compares downloaded files with the sha256s in `pdfs/manifest.csv` and extracts only
+new or changed statements. New House members also need override rows
+(`python -m disclosures.members --chamber house --parliament 48`, see `data/overrides/README.md`).
 
-```bash
-python test_gemini_pdf.py --pdf path/to/pdf --output-dir gemini_output
-```
+## Data dictionary
 
-### Processing Multiple PDFs (Direct PDF Processing)
+The field dictionary for the published CSV (33 columns), the method and the limitations are in
+`exports/kaggle/README.md` (generated from `disclosures/export.py`, `COLUMNS`). The database
+schema and item-id scheme are in `docs/v2/loading.md`.
 
-```bash
-python test_gemini_pdf.py --pdf-dir pdfs --output-dir gemini_output --limit 5
-```
+## Known limitations
 
-### Complete Batch Processing Pipeline
+- **Senate before the 48th parliament is missing.** The senators' interests API serves current
+  senators only; earlier registers exist only as tabled volumes (`docs/v2/senate_source.md`).
+- **Transcription is not perfect.** Expect roughly 1–2% of items missed or misread, more on the
+  scanned 43rd–45th registers; `extraction_confidence` flags doubtful items. Check anything
+  important against the source (`source_url`, `page`).
+- **Two prompt versions.** Most 43rd–47th House statements used prompt v0; only the 7 found
+  with un-itemised attachments were re-run on v1. A few v0 statements may still describe an
+  attachment in a single item.
+- **One-off entities are untyped**, and ASX matching is name-based.
+- **Party** is the party at the start of each term; mid-term defections are not tracked.
 
-```bash
-# Process the latest parliament (47th)
-python process_parliament_disclosures.py
+## Layout
 
-# Process a specific parliament
-python process_parliament_disclosures.py --parliament 46th
+| Path | What |
+|---|---|
+| `disclosures/` | the v2 package and CLI |
+| `pdfs/` | source statements + `manifest.csv` |
+| `extractions/` | validated extraction JSON, `<source>/<chamber>/<parliament>/<stem>.json` |
+| `data/overrides/` | member identity and party-per-term tables |
+| `data/entities/`, `data/reference/` | curated aliases, generic terms, LLM cache, ASX snapshots |
+| `eval/` | gold set, baselines, entity report |
+| `exports/`, `site/` | published CSV, Kaggle package, Pages site |
+| `docs/v2/` | how each stage works |
+| `tests/` | pytest suite |
 
-# Process all parliaments
-python process_parliament_disclosures.py --all
+## v1 snapshot
 
-# Skip the scraping step (if PDFs are already downloaded)
-python process_parliament_disclosures.py --skip-scraping
+`disclosures.db` is the frozen v1 database, kept read-only as a snapshot for comparison (the
+`score --v1` baseline). v1's pipeline scripts are superseded by v2 and are being removed; don't
+build on them.
 
-# Store results in database
-python process_parliament_disclosures.py --store-in-db
+## Source
 
-# Skip post-processing
-python process_parliament_disclosures.py --skip-post-processing
-
-# Limit the number of PDFs processed per parliament
-python process_parliament_disclosures.py --limit 10
-
-# Process all parliaments with rate limiting and store in database
-python process_parliament_disclosures.py --all --store-in-db --rpm 10 --continue-on-error
-```
-
-### Complete Batch Processing Pipeline with Data Standardization
-
-```bash
-# Process all parliaments with standardization (ensures consistent MP names and electorates)
-python process_parliament_disclosures.py --all --store-in-db --rpm 10 --continue-on-error --standardize
-
-# Skip scraping if PDFs are already downloaded
-python process_parliament_disclosures.py --all --store-in-db --skip-scraping --rpm 10 --continue-on-error --standardize
-```
-
-The `--standardize` flag ensures:
-1. MP names are standardized (removing middle names and handling inconsistencies)
-2. Electorate names are standardized (fixing case issues and updating renamed electorates)
-3. Category validation and statistics are generated
-
-This ensures data consistency and improves analysis quality by correctly tracking MPs across parliaments, even when their names appear with different formats.
-
-### Running Standardization Separately
-
-If you need to run standardization separately after processing:
-
-```bash
-# Run the complete standardization pipeline
-python standardize_data.py
-
-# Run just MP name standardization
-python standardize_mp_names.py
-
-# Run just electorate standardization
-python standardize_electorates.py
-```
-
-### Processing Large PDFs (>20MB)
-
-For large PDFs, the system automatically uses the Gemini File API:
-
-```bash
-python test_gemini_pdf.py --pdf path/to/large.pdf
-```
-
-Or force using the File API even for small PDFs:
-
-```bash
-python test_gemini_pdf.py --pdf path/to/pdf --use-file-api
-```
-
-### Exporting Database to JSON
-
-```bash
-python process_disclosures.py --export-json export.json
-```
-
-### Running Recategorization
-
-The system includes a comprehensive recategorization pipeline to improve entry categorization:
-
-```
+Parliament of Australia, Register of Members' Interests and Register of Senators' Interests
+(aph.gov.au).

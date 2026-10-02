@@ -616,15 +616,16 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   added to requirements-dev for the AC yaml check. http.server curl: lite link found, DB 200.
 
 ### T5.3 — Rewrite README.md for v2
-- status: todo
+- status: done 2026-10-03
 - deps: T5.2
-- attempts: 0
+- attempts: 1
 - budget: US$0 · network: none
 - do: Per AC-5.3: v2 only (what it is, coverage incl. 48th and Senate, every command, how to
   refresh, a data-dictionary pointer, known limitations, a v1 snapshot note). Remove v1's dead
   instructions.
 - done when: the AC-5.3 grep check passes (every `python -m disclosures <cmd>` in README is a
   real subcommand).
+- notes: README rewritten v2-only (coverage table, all 8 subcommands, refresh, dictionary -> exports/kaggle/README.md, limitations, v1 snapshot note); AC-5.3 grep: 8 cmds all in AC-0.3 list.
 
 ### T5.4 — Remove dead v1 code
 - status: todo
