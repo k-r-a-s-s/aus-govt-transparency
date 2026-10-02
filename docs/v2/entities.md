@@ -12,6 +12,7 @@ Always run `load` first, then `entities`, on the same DB (`refresh` does both):
 python -m disclosures load --source gemini-api            # rebuilds the DB, entity tables empty
 python -m disclosures entities --offline                  # [--db disclosures_v2.db] [--data data/entities] [--reference data/reference]
 python -m disclosures entities --fetch-asx                # download a new ASX snapshot, then stop
+python -m disclosures entities --draft-candidates          # curation worksheet (below), then stop
 ```
 
 `entities` rewrites the three outputs in place, in one transaction, so re-running it is safe.
@@ -20,6 +21,20 @@ method, how many aliases and items resolved that way. It also prints the AC-3.3 
 non-generic items that have no entity. That count must be 0, and the command exits 1 if it
 isn't. Exit 2 means a missing DB or bad input. The command refuses to touch v1's
 `disclosures.db`.
+
+## Curation worksheet (`--draft-candidates`)
+
+`entities --draft-candidates [CSV] [--top 200]` reads the DB (read-only) and writes
+`data/entities/alias_candidates.csv` (or `CSV`), the starting point for `aliases.csv` (ADR-6
+step 3). It has one row per head: the top 200 normalised names by item count, generic terms
+removed, ties broken alphabetically. Columns: `rank, alias, item_count, sections` (the
+sections the alias occurs in), `sample_spellings` (the 3 commonest raw spellings with counts),
+`asx_code, asx_name` (what the ASX stage would give the head), `variant_count` and `variants`.
+`variants` lists every other non-generic normalised name with rapidfuzz `token_set_ratio` >= 90
+to the head, as `name (items)` sorted by item count, plus `[CODE]` if that variant would
+ASX-match. Token-set ratio scores a subset as 100, so `qantas` pulls in `qantas club` and
+`qantas and virgin`: variants are candidates to judge, not merges. Short tickers such as `cba`
+won't fuzzy-match their full names; those pairs come from curation. Output is deterministic.
 
 ## Inputs (all committed)
 

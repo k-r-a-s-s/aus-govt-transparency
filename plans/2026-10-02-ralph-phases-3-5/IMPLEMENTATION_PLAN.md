@@ -248,9 +248,9 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   For T2.4: curate ANZ/NAB/CBA canonicals; ASX canonical = commonest raw spelling (DECISIONS).
 
 ### T2.3 — Candidate list for the curated aliases (top 200 plus variants)
-- status: todo
+- status: done 2026-10-02
 - deps: T2.2
-- attempts: 0
+- attempts: 1
 - budget: US$0 · network: none
 - do: `entities --draft-candidates` writes `data/entities/alias_candidates.csv`: the top 200
   normalised names by item count (after generic removal), each with its item count, sections,
@@ -259,6 +259,10 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
 - done when: the CSV exists and covers 200 heads; the AC-3.1 names all appear (CBA,
   Commonwealth Bank, NAB, ANZ, Qantas, Virgin Australia, Westpac, Telstra variants present in
   the data).
+- notes: `entities --draft-candidates [CSV] [--top N]` (read-only on the DB). 200 heads from 11,181
+  non-generic names; variants median 3, max 53 (vanguard); all 7 AC-3.1 groups present (test
+  `test_real_candidates_cover_ac31`). Heads 1-6: qantas 1,362, westpac 772, nab 607, commonwealth
+  bank 595, anz 577, cba 540. 225 tests pass.
 
 ### T2.4 — Curate aliases.csv: heads 1–100
 - status: todo

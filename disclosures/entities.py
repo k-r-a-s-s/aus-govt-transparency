@@ -2,6 +2,7 @@
 
     python -m disclosures entities [--db disclosures_v2.db] [--data data/entities] [--offline]
     python -m disclosures entities --fetch-asx    # download a new ASX snapshot, then stop
+    python -m disclosures entities --draft-candidates [--top 200]   # curation worksheet, then stop
 
 Runs on a DB that ``load`` has just built (entity tables empty) and rewrites ``entities``,
 ``entity_aliases`` and ``items.entity_id`` in place, in one transaction. Inputs are committed
@@ -330,6 +331,85 @@ def run_entities(db_path: str | Path = DEFAULT_DB, data_dir: str | Path = DEFAUL
     return summary
 
 
+CANDIDATE_FIELDS = ("rank", "alias", "item_count", "sections", "sample_spellings", "asx_code",
+                    "asx_name", "variant_count", "variants")
+CANDIDATES_FILE = "alias_candidates.csv"
+
+
+def draft_candidates(items: List[Tuple], data_dir: Path, reference_dir: Optional[Path] = None,
+                     top: int = 200, threshold: int = 90) -> List[dict]:
+    """ADR-6 step 3 worksheet: the ``top`` normalised names by item count (generic removed),
+    each with every other non-generic normalised name whose ``token_set_ratio`` to it is
+    >= ``threshold``. items as for ``resolve``. ``asx_code`` is what the ASX stage would give
+    the head; a variant that would ASX-match shows its code in brackets.
+    """
+    from rapidfuzz import fuzz, process
+
+    counts: Counter = Counter()
+    spellings: Dict[str, Counter] = defaultdict(Counter)
+    sections: Dict[str, set] = defaultdict(set)
+    for _, raw, *rest in items:
+        alias = normalise_entity(raw)
+        counts[alias] += 1
+        spellings[alias][" ".join(raw.split())] += 1
+        if rest:
+            sections[alias].add(rest[0])
+    generic = load_generic_terms(data_dir)
+    names = sorted(a for a in counts if a and a not in generic)
+    ctx = Context(counts, spellings, data_dir, True, sections, reference_dir)
+    asx = stage_asx(names, ctx)
+    snap = newest_asx_snapshot(reference_dir)
+    asx_names = {code: name for name, code in read_asx_snapshot(snap)} if snap else {}
+
+    def by_count(a):
+        return (-counts[a], a)
+
+    rows = []
+    for rank, head in enumerate(sorted(names, key=by_count)[:top], 1):
+        hits = process.extract(head, names, scorer=fuzz.token_set_ratio,
+                               score_cutoff=threshold, limit=None)
+        variants = sorted((h[0] for h in hits if h[0] != head), key=by_count)
+        code = asx[head].asx_code if head in asx else ""
+        rows.append({
+            "rank": rank,
+            "alias": head,
+            "item_count": counts[head],
+            "sections": " ".join(str(x) for x in sorted(sections.get(head, ()))),
+            "sample_spellings": " | ".join(
+                f"{s} ({n})" for s, n in sorted(spellings[head].items(),
+                                                key=lambda kv: (-kv[1], kv[0]))[:3]),
+            "asx_code": code,
+            "asx_name": asx_names.get(code, "") if code else "",
+            "variant_count": len(variants),
+            "variants": " | ".join(
+                f"{v} ({counts[v]})" + (f" [{asx[v].asx_code}]" if v in asx else "")
+                for v in variants),
+        })
+    return rows
+
+
+def write_candidates(db_path: str | Path, data_dir: str | Path, out: Optional[Path] = None,
+                     reference_dir: str | Path | None = None, top: int = 200) -> Tuple[Path, int]:
+    db_path, data_dir = Path(db_path), Path(data_dir)
+    reference_dir = Path(reference_dir) if reference_dir else default_reference_dir(data_dir)
+    if not db_path.exists():
+        raise FileNotFoundError(f"{db_path} not found: run `python -m disclosures load` first")
+    con = sqlite3.connect(f"file:{db_path}?mode=ro", uri=True)
+    try:
+        items = con.execute("select item_id, entity_name_raw, section from items "
+                            "where entity_name_raw is not null order by item_id").fetchall()
+    finally:
+        con.close()
+    rows = draft_candidates(items, data_dir, reference_dir, top)
+    out = Path(out) if out else data_dir / CANDIDATES_FILE
+    out.parent.mkdir(parents=True, exist_ok=True)
+    with out.open("w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=CANDIDATE_FIELDS, lineterminator="\n")
+        w.writeheader()
+        w.writerows(rows)
+    return out, len(rows)
+
+
 def print_summary(s: dict, out=None) -> None:
     out = out or sys.stdout
     print(f"entities: {s['named_items']} named items -> {s['entities']} entities", file=out)
@@ -353,6 +433,11 @@ def add_arguments(p) -> None:
     p.add_argument("--fetch-asx", action="store_true",
                    help="download a new ASX listed-companies snapshot into the reference "
                         "directory, then stop (the pipeline isn't run)")
+    p.add_argument("--draft-candidates", nargs="?", const="", default=None, metavar="CSV",
+                   help="write the curation worksheet (top names by item count plus fuzzy "
+                        "variants, default <data>/alias_candidates.csv), then stop")
+    p.add_argument("--top", type=int, default=200,
+                   help="heads in the --draft-candidates worksheet (default 200)")
 
 
 def run(args) -> int:
@@ -364,6 +449,15 @@ def run(args) -> int:
             print(f"entities --fetch-asx: {exc}", file=sys.stderr)
             return 2
         print(f"entities: wrote {path} ({n} companies)")
+        return 0
+    if args.draft_candidates is not None:
+        try:
+            path, n = write_candidates(args.db, args.data, args.draft_candidates or None,
+                                       args.reference, args.top)
+        except (FileNotFoundError, ValueError, sqlite3.OperationalError, OSError) as exc:
+            print(f"entities --draft-candidates: {exc}", file=sys.stderr)
+            return 2
+        print(f"entities: wrote {path} ({n} heads)")
         return 0
     try:
         s = run_entities(args.db, args.data, args.offline, args.reference)

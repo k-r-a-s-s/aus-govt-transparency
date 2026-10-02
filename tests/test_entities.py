@@ -365,3 +365,81 @@ def test_real_asx_snapshot():
     assert 1500 < len(rows) < 3000
     codes = {c for _, c in rows}
     assert {"BHP", "CBA", "QAN", "NAB"} <= codes
+
+
+# --- T2.3: --draft-candidates worksheet -----------------------------------------------------
+
+CANDIDATE_ITEMS = [  # (item_id, raw, section)
+    ("c1", "Qantas", 8), ("c2", "QANTAS", 8), ("c3", "Qantas", 12),
+    ("c4", "Qantas Airways Limited", 1), ("c5", "Qantas Club", 8),
+    ("c6", "Westpac", 1), ("c7", "Westpac Bank", 1),
+    ("c8", "Family Trust", 1), ("c9", "Family Trust", 1), ("c10", "Family Trust", 1),
+    ("c11", "Telstra", 8), ("c12", "WESTPAC", 8),
+]
+
+
+def read_candidates(path: Path):
+    import csv
+    with path.open(newline="", encoding="utf-8") as f:
+        return list(csv.DictReader(f))
+
+
+def test_draft_candidates_heads_variants_asx(tmp_path, capsys):
+    from disclosures.entities import CANDIDATE_FIELDS
+    db = make_sectioned_db(tmp_path / "v2.db", CANDIDATE_ITEMS)
+    data = make_data(tmp_path)
+    make_reference(tmp_path)
+    assert main(["entities", "--db", str(db), "--data", str(data),
+                 "--draft-candidates", "--top", "3"]) == 0
+    out = data / "alias_candidates.csv"
+    assert "3 heads" in capsys.readouterr().out
+    rows = read_candidates(out)
+    assert tuple(rows[0]) == CANDIDATE_FIELDS
+    # generic "family trust" (3 items) is skipped; ties break alphabetically
+    assert [r["alias"] for r in rows] == ["qantas", "westpac", "qantas airways"]
+    q = rows[0]
+    assert q["rank"] == "1" and q["item_count"] == "3" and q["sections"] == "8 12"
+    assert q["sample_spellings"] == "Qantas (2) | QANTAS (1)"
+    assert q["asx_code"] == ""  # "qantas" is neither an ASX name nor a ticker
+    assert q["variants"] == "qantas airways (1) [QAN] | qantas club (1)"
+    assert q["variant_count"] == "2"
+    qa = rows[2]
+    assert qa["asx_code"] == "QAN" and qa["asx_name"] == "QANTAS AIRWAYS LIMITED"
+    assert rows[1]["variants"] == "westpac bank (1)"
+    # the entity tables are untouched: drafting reads the DB only
+    assert dump(db)["entities"] == []
+
+
+def test_draft_candidates_custom_path_and_missing_db(tmp_path, capsys):
+    db = make_sectioned_db(tmp_path / "v2.db", CANDIDATE_ITEMS)
+    data = make_data(tmp_path)
+    out = tmp_path / "x" / "c.csv"
+    assert main(["entities", "--db", str(db), "--data", str(data),
+                 "--draft-candidates", str(out)]) == 0
+    assert len(read_candidates(out)) == 6  # fewer names than --top: all of them
+    assert main(["entities", "--db", str(tmp_path / "nope.db"), "--data", str(data),
+                 "--draft-candidates"]) == 2
+
+
+AC31_GROUPS = [
+    {"cba", "commonwealth bank", "commonwealth bank of australia"},
+    {"nab", "national australia bank"},
+    {"anz", "australia and new zealand banking group"},
+    {"qantas", "qantas airways"},
+    {"virgin australia", "virgin australia airlines"},
+    {"westpac", "westpac banking"},
+    {"telstra", "telstra corporation"},
+]
+
+
+def test_real_candidates_cover_ac31():
+    """The committed worksheet covers 200 heads and every AC-3.1 group (head or variant)."""
+    path = REPO / "data" / "entities" / "alias_candidates.csv"
+    rows = read_candidates(path)
+    assert len(rows) == 200
+    seen = set()
+    for r in rows:
+        seen.add(r["alias"])
+        seen.update(v.rsplit(" (", 1)[0] for v in r["variants"].split(" | ") if v)
+    for group in AC31_GROUPS:
+        assert seen & {normalise_entity(n) for n in group}, group
