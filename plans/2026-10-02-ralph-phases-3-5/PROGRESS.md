@@ -9,3 +9,4 @@
 2026-10-02T12:42Z | T1.2a | done | spent US$0.00 | Split T1.2 by parliament (29>25). 43rd: 2 confirmed gaps (coultonm_43p, nevillep_43p), 6 ok, 1 not in PDF; eval/attachment_gaps.md started
 2026-10-02T12:44Z | T1.2b | done | spent US$0.00 | 44th: 3 confirmed gaps (coultonm_44p, huntg_44p, pynec_44p), 3 ok, 2 not in PDF; eval/attachment_gaps.md ## 44th
 2026-10-02T12:47Z | T1.2c | done | spent US$0.00 | 45th/47th: 2 confirmed gaps (coultonm_45p, odowdk45p); summary 7 not_itemised / 14 ok / 5 not in PDF / 3 false positives; re-extract list in eval/attachment_gaps.md
+2026-10-02T12:49Z | T1.3 | done | spent US$0.00 | Prompt v1: C12 (attachments) + checklist 7; wording widened for fund-only refs, CV/adviser letters, totals; DECISIONS + docs updated; 200 pass

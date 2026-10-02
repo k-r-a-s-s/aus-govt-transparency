@@ -124,9 +124,9 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
 - notes: 45th/47th: 2 attachment_not_itemised (coultonm_45p, odowdk45p ×2 attachments), 5 itemised_ok, 2 not in PDF (pynec_45p, smitht_45p), 3 false positives. Total: 7 to re-extract (listed in eval/attachment_gaps.md summary). For T1.3: say an attachment continues the referencing item, not the next alteration form (smitht_45p).
 
 ### T1.3 — Add rule C12 to the extraction prompt (prompt v1)
-- status: todo
+- status: done 2026-10-02
 - deps: T1.2c
-- attempts: 0
+- attempts: 1
 - budget: US$0 · network: none
 - do: Add C12 and checklist item 7 to `disclosures/prompts/extract.md`, worded as in
   SPEC-DELTA D1, and change the header from v0 to v1. If T1.2 found an attachment pattern
@@ -136,6 +136,7 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   it describes the prompt.
 - done when: the prompt has C12; tests pass (some may pin prompt text: update them only if
   they test wording, never behaviour).
+- notes: C12 + checklist 7 added, header v1. Wording widened beyond D1 (fund-only reference, adviser letter/CV/membership list, not the next form, no totals/ended entries); see DECISIONS 2026-10-02. No test pins prompt text; 200 pass. Workflow JS now says C1-C12.
 
 ### T1.4 — Gold regression with prompt v1 (paid)
 - status: todo

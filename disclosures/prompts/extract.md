@@ -1,4 +1,4 @@
-# Extraction instructions — Register of Members' Interests (v0, schema 2.0)
+# Extraction instructions — Register of Members' Interests (v1, schema 2.0)
 
 You are transcribing ONE Australian parliamentary "Statement of Registrable Interests" PDF
 (including any later "Notification of Alteration of Interests" pages bound into it) into a
@@ -124,6 +124,22 @@ Use `"unknown"` only when the row genuinely cannot be determined.
   above") → no item. The member's own parliamentary salary under section 10 is kept.
 - **C10** An item spanning a page break takes the page where it starts.
 - **C11** A second statement cover page (no interests) produces no items.
+- **C12 Attachments.** When a section's cell says "see attached", "see Attachment A", "as per
+  attached list/schedule", "list attached", or similar, and the attachment is bound into this
+  PDF (a typed list, a schedule, a broker or portfolio statement, a share-registry printout, a
+  financial adviser's letter or table, a membership list, a CV): record ONE item per
+  holding/account/entity listed on the attachment. The same applies when the cell only names a
+  fund or portfolio and a bound-in page lists that fund's holdings. Each item takes the
+  referencing section, subsection and owner, `page` = the attachment page where that line
+  appears, and the dates and change type of the page that references it (an initial
+  statement → `initial`; an alteration notice → that notice's change type and date). The
+  "see attached" line itself produces no item, unless it also names an interest of its own
+  (e.g. "XYZ Self-Managed Super Fund – see attached" → keep the fund as an item as well).
+  An attachment is content that continues the referencing item; the next statement or
+  notification form is not an attachment. Totals and subtotal rows produce no item, and nor do
+  entries the attachment shows as already ended (e.g. a CV role "1988–2012"). If the
+  attachment is not in this PDF, keep the referencing line as one item (description as
+  printed, `confidence="medium"`) and say so in `extraction_notes`.
 
 ## Checklist before you answer
 1. `pages_covered` == every page 1..page_count.
@@ -132,3 +148,4 @@ Use `"unknown"` only when the row genuinely cannot be determined.
 4. Every item has the correct `page`, `section`, `owner`.
 5. Alteration-notice items have `is_alteration=true` and a `change_type` other than `"initial"`.
 6. Only schema fields; valid JSON.
+7. Every 'see attached' reference whose attachment is in the PDF has been itemised from the attachment.

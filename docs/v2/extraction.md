@@ -6,6 +6,12 @@ instructions, `disclosures/prompts/extract.md`. Check any output with
 `python -m disclosures validate extractions/<source_id>` and score it with
 `python -m disclosures score --pred extractions/<source_id> --gold eval/gold`.
 
+**Prompt versions.** The header line of `extract.md` carries the version. v0 (conventions
+C1–C11) produced the Phase 2 backfill. v1 (2026-10-02) adds C12, which itemises "see attached"
+lists bound into the PDF, and checklist item 7. Only the files confirmed in
+`eval/attachment_gaps.md` are re-extracted on v1; the rest of the corpus stays on v0, since C12
+changes nothing but attachment handling.
+
 | Arm | `source_id` | Runs as | Who can run it |
 |---|---|---|---|
 | A | `workflow-claude` | Claude Code Workflow `.claude/workflows/extract-disclosures.js` | the orchestrating Claude Code session or Kevin (implementer subagents cannot invoke Workflow) |

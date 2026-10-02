@@ -352,3 +352,33 @@ M2/M3; and the pack was uncommitted while the prompt told iterations to discard 
 It also found 15 smaller issues (branch-keyed push rule, stall guard in `loop.sh`, malformed-header
 detection in `status.py`, a `/goal` condition that could not re-satisfy, T3.3 split).
 
+
+## Attachment fix (prompt v1)
+
+### 2026-10-02 — Rule C12: itemise bound-in attachments (prompt v0 → v1)
+**Finding** (SPEC-DELTA D1, confirmed page by page in T1.1–T1.2, `eval/attachment_gaps.md`):
+of 29 candidate files, 7 have an attachment bound into the PDF that was never itemised:
+`coultonm_43p/44p/45p`, `nevillep_43p`, `odowdk45p` (super-fund/broker portfolios), `huntg_44p`
+(membership list) and `pynec_44p` (a CV). 14 handle attachments correctly, 5 refer to an
+attachment that isn't in the PDF, and 3 are wording-only false positives. Prompt v0 had no rule,
+so behaviour was inconsistent.
+
+**Rule.** C12 in `disclosures/prompts/extract.md` plus checklist item 7: one item per holding on
+the attachment, with the referencing section/subsection/owner, the attachment's page, and the
+referencing page's dates and change type. The "see attached" line itself is not an item unless
+it names an interest of its own. Gold precedent: `eval/gold/plibersekt_43p.json` (s13 "see
+attached list" → items on the p8 attachment, no item for the reference line).
+
+**Wording beyond D1**, from what T1.2 found:
+- More attachment kinds named: an adviser's letter or table (nevillep_43p, odowdk45p p11), a
+  membership list (huntg_44p), a CV (pynec_44p), plus "list attached".
+- A cell that only names a fund, with a bound-in page listing that fund's holdings, counts too.
+  nevillep_43p p5 just says "Neville Superannuation Fund" and has no "see attached".
+- An attachment continues the referencing item. The next statement or notification form isn't
+  one (smitht_45p: the model has treated the next form as the attachment).
+- Totals/subtotal rows are not items (odowdk45p p11). Entries the attachment shows as already
+  ended, like CV roles "1988–2012" in pynec_44p, are not current interests, so they get no item.
+
+**Re-extraction scope.** Only the 7 confirmed files (T1.5). The other ≈ 760 files stay on v0,
+because C12 changes nothing but attachment handling. A full re-run (≈ US$38) is out of scope.
+T1.4 checks the gold set doesn't regress under v1.

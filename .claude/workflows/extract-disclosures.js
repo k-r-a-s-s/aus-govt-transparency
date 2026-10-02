@@ -69,7 +69,7 @@ function prompt(bundle) {
 Work from the repo root. Use .venv/bin/python for every python command.
 
 1. Read \`disclosures/prompts/extract.md\` in full first. It is your instruction set; follow it exactly,
-   including the conventions C1-C11 and the checklist.
+   including the conventions C1-C12 and the checklist.
 2. For EACH PDF below, one at a time:
    a. Compute the caller fields: \`.venv/bin/python -c "import sys,hashlib,pymupdf;p=sys.argv[1];print(hashlib.sha256(open(p,'rb').read()).hexdigest(), pymupdf.open(p).page_count)" <pdf>\`.
    b. Read the PDF with the Read tool in page ranges of at most 20 pages (pages: "1-20", "21-40", ...)
