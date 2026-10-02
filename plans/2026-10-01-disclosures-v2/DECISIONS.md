@@ -422,3 +422,27 @@ V1's cold check found two places where C12 output could be read two ways.
 - **`--fetch-asx` only downloads.** It writes `data/reference/asx_listed_companies_<today>.csv`
   (local date; the file's own title line has the ASX timestamp), checks that it parses, and
   stops. Then you run `entities` as usual.
+
+### 2026-10-02 — Curation rules for aliases.csv (T2.4)
+- **Brand as disclosed, not ultimate parent.** St.George, Bank of Melbourne, BankSA (Westpac),
+  Bankwest (CBA) and ME Bank (BOQ) stay separate entities: members disclosed the brand, and
+  ownership changed over the 43rd–47th. Exception: Macquarie Bank and Macquarie Group share a
+  name, and bare `macquarie` can't tell them apart, so they're one entity (`MQG`). Kevin can
+  merge brands into parents at G3.
+- **Programmes resolve to the provider.** Qantas Club / Chairman's Lounge / frequent flyer →
+  Qantas Airways; Virgin club / Velocity / Beyond → Virgin Australia (Virgin Blue was renamed
+  in 2011). AMP Bank/Life/Super → AMP. Community Bank branches → Bendigo and Adelaide Bank.
+- **Not merged:** party and union state branches (separately registered); combined names
+  (`qantas and virgin`, `anz and nab`); look-alikes that are different organisations (Qantas
+  Staff Credit Union, Virgin Money, ANZ Stadium, Lion Selection Group, Bank Australia ≠ NAB/CBA,
+  Telstra Super, Astra Enterprises). Individual Vanguard/AMP Capital funds stay apart from the
+  manager.
+- **Types.** The enum has no insurer or bank-vs-listed split, so banks, insurers and fund
+  managers are `bank_or_financial` (with `asx_code` when listed), airlines `airline`, media
+  `media_or_entertainment`; `listed_company` is for other listed companies and always has a
+  code (AC-3.4). Canonical names drop legal suffixes (Ltd/Limited), matching the normaliser.
+- **ASX stage defers to curated codes.** An ASX-matched alias whose code a curated row uses
+  takes that row's canonical name and type, so `QAN` and `qantas` can't become two entities.
+- **Flagged for G3** (`review_flag=1`): bare `commonwealth`, `national bank`, `st george`,
+  `bendigo`, `macquarie`, `ing` (~5 section-1 rows may be Inghams), `lion`, `rio`, `velocity`,
+  `chairmans lounge`, `bank australia`, `suncorp bank`, ASTRA's later name, two AALD programmes.

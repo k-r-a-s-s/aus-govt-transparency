@@ -17,3 +17,4 @@
 2026-10-02T13:15Z | T2.1 | done | spent US$0.00 | entities command: normalise+generic+pluggable stages (curated live, asx/llm no-op)+singleton; real DB 11,165 entities, AC-3.3 0, deterministic; 212 tests pass
 2026-10-02T13:19Z | T2.2 | done | spent US$0.00 | ASX snapshot 2,048 cos committed; asx stage (name, then ticker; section-1 scope; exclusions): 309 aliases / 4,370 items; 222 tests pass
 2026-10-02T13:22Z | T2.3 | done | spent US$0.00 | entities --draft-candidates -> data/entities/alias_candidates.csv: 200 heads + token_set>=90 variants + ASX code; all AC-3.1 groups present; 225 tests pass
+2026-10-02T13:28Z | T2.4 | done | spent US$0.00 | aliases.csv heads 1-100: 330 aliases -> 72 entities, 12,597 items curated, 15 flagged; AC-3.1 groups one entity each; ASX stage defers to curated codes; 229 tests pass

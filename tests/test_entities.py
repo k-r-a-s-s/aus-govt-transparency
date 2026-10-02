@@ -443,3 +443,103 @@ def test_real_candidates_cover_ac31():
         seen.update(v.rsplit(" (", 1)[0] for v in r["variants"].split(" | ") if v)
     for group in AC31_GROUPS:
         assert seen & {normalise_entity(n) for n in group}, group
+
+
+# --- T2.4: curated aliases.csv --------------------------------------------------------------
+
+AC31_RAW = [  # SPEC AC-3.1, as written
+    ["CBA", "Commonwealth Bank", "Commonwealth Bank of Australia"],
+    ["NAB", "National Australia Bank"],
+    ["ANZ", "Australia and New Zealand Banking Group"],
+    ["Qantas", "Qantas Airways"],
+    ["Virgin Australia", "Virgin Australia Airlines"],
+    ["Westpac", "Westpac Banking Corporation"],
+    ["Telstra", "Telstra Corporation"],
+]
+REAL_DATA = REPO / "data" / "entities"
+REAL_REF = REPO / "data" / "reference"
+REAL_DB = REPO / "disclosures_v2.db"
+
+
+def read_aliases():
+    import csv
+    with (REAL_DATA / "aliases.csv").open(newline="", encoding="utf-8") as f:
+        return list(csv.DictReader(f))
+
+
+def test_curated_code_joins_asx_matches(tmp_path):
+    """An ASX-matched alias whose code aliases.csv already uses joins the curated entity."""
+    db = make_sectioned_db(tmp_path / "v2.db", items=[("q1", "Qantas", 8), ("q2", "QAN", 1),
+                                                      ("q3", "Qantas Airways Ltd", 1)])
+    make_reference(tmp_path)
+    csv_text = ("alias,canonical_name,entity_type,asx_code\n"
+                "qantas,Qantas Airways,airline,qan\n")
+    run_entities(db, make_data(tmp_path, aliases_csv=csv_text))
+    con = sqlite3.connect(db)
+    assert con.execute("select * from entities").fetchall() == [
+        ("qantas_airways", "Qantas Airways", "airline", "QAN")]
+    assert con.execute("select alias_normalised, method from entity_aliases order by 1").fetchall() == [
+        ("qan", "asx"), ("qantas", "curated"), ("qantas airways", "asx")]
+    con.close()
+
+
+def test_real_aliases_file_is_well_formed():
+    """Enum types, one row per normalised alias, ASX codes from the snapshot, every
+    listed_company has a code (AC-3.4), and heads 1-100 of the worksheet are covered."""
+    from disclosures.entities import ENTITY_TYPES
+    rows = read_aliases()
+    codes = {c for _, c in read_asx_snapshot(newest_asx_snapshot(REAL_REF))}
+    seen = set()
+    for r in rows:
+        a = normalise_entity(r["alias"])
+        assert a == r["alias"] and a not in seen, r["alias"]
+        seen.add(a)
+        assert r["canonical_name"].strip(), r
+        assert r["entity_type"] in ENTITY_TYPES, r
+        assert r["review_flag"] in ("", "1"), r
+        if r["review_flag"]:
+            assert r["note"].strip(), r
+        if r["asx_code"]:
+            assert r["asx_code"] in codes, r
+        elif r["entity_type"] == "listed_company":
+            pytest.fail(f"listed_company without asx_code: {r}")
+    # one canonical name -> one type and one code
+    by_canon = {}
+    for r in rows:
+        by_canon.setdefault(r["canonical_name"], set()).add((r["entity_type"], r["asx_code"]))
+    assert all(len(v) == 1 for v in by_canon.values()), by_canon
+    heads = [r["alias"] for r in read_candidates(REAL_DATA / "alias_candidates.csv")
+             if int(r["rank"]) <= 100]
+    assert len(heads) == 100 and set(heads) <= seen
+
+
+def test_ac31_groups_resolve_to_one_entity_with_real_tables():
+    """AC-3.1 against the committed aliases.csv + ASX snapshot (no DB needed)."""
+    items = [(f"g{i}_{j}", raw, sec) for i, group in enumerate(AC31_RAW)
+             for j, raw in enumerate(group) for sec in (1, 8)]
+    _, aliases, item_entity = resolve(items, REAL_DATA, reference_dir=REAL_REF)
+    for i, group in enumerate(AC31_RAW):
+        ids = {item_entity[iid] for iid, _, _ in items if iid.startswith(f"g{i}_")}
+        assert len(ids) == 1 and None not in ids, (group, ids)
+        assert {aliases[normalise_entity(r)][1] for r in group} == {"curated"}, group
+
+
+@pytest.mark.skipif(not REAL_DB.exists(), reason="disclosures_v2.db not built")
+def test_ac31_groups_in_real_db():
+    """AC-3.1 on the built DB: every group occurs; the variants that occur share one entity.
+    Run `python -m disclosures entities --offline` after `load` first."""
+    con = sqlite3.connect(f"file:{REAL_DB}?mode=ro", uri=True)
+    if not con.execute("select count(*) from entity_aliases").fetchone()[0]:
+        con.close()
+        pytest.skip("entities not run on disclosures_v2.db")
+    for group in AC31_RAW:
+        names = sorted({normalise_entity(r) for r in group})
+        q = ",".join("?" * len(names))
+        present = [a for (a,) in con.execute(
+            f"select alias_normalised from entity_aliases where alias_normalised in ({q})", names)]
+        assert present, group
+        n = con.execute(f"select count(distinct i.entity_id) from items i join entity_aliases a "
+                        f"on a.entity_id = i.entity_id where a.alias_normalised in ({q})",
+                        names).fetchone()[0]
+        assert n == 1, (group, n)
+    con.close()

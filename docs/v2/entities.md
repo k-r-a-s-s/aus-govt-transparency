@@ -55,14 +55,23 @@ won't fuzzy-match their full names; those pairs come from curation. Output is de
 3. **Stages, in precedence order** `curated > asx > llm > singleton`. Each stage gets the
    still-unresolved aliases and returns the ones it can name. The first stage to claim an
    alias wins. `entity_aliases.method` records which stage it was.
-   - `curated`: exact match of the normalised `aliases.csv` alias.
+   - `curated`: exact match of the normalised `aliases.csv` alias. Heads 1–100 (T2.4): 330
+     aliases → 72 entities, 12,597 items. Curation rules (DECISIONS 2026-10-02, T2.4): one
+     entity per brand as disclosed (St.George, Bankwest, BankSA, ME Bank stay apart from their
+     parents); lounges, clubs and frequent-flyer programmes resolve to the airline; party and
+     union state branches stay separate; combined names (`qantas and virgin`) aren't curated.
+     Types: banks and insurers `bank_or_financial`, airlines `airline`, media
+     `media_or_entertainment`, other listed companies `listed_company` (always with
+     `asx_code`). Rows with `review_flag=1` carry a `note` for G3.
    - `asx`: only aliases that occur on at least one section-1 item are eligible. The match is
      the exact normalised company name (normalised the same way), or failing that the exact
      ticker (`bhp`, `cba`). Then every item with that alias gets the entity, whatever its
      section. `entity_type = 'listed_company'`, `asx_code` set. A name two listed companies
      share matches nothing. All aliases of one code share a canonical name: the commonest raw
-     spelling among the name-matched aliases, else the ASX name in capwords. 2026-10-02
-     snapshot: 309 aliases / 4,370 items (117 of them ticker matches).
+     spelling among the name-matched aliases, else the ASX name in capwords; a code that
+     `aliases.csv` already uses takes that row's canonical name and type instead, so it stays
+     one entity. 2026-10-02 snapshot: 309 aliases / 4,370 items before curation; 279 / 1,067
+     after T2.4 claimed the big names.
    - `llm`: long-tail grouping for aliases with ≥ 2 items (later task, not yet active).
    - `singleton`: everything left becomes its own entity. It's named after the alias's
      commonest raw spelling (ties go to the alphabetically first), with `entity_type = NULL`.

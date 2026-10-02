@@ -1,0 +1,331 @@
+alias,canonical_name,entity_type,asx_code,review_flag,note
+qantas,Qantas Airways,airline,QAN,,Lounge/club/frequent-flyer memberships resolve to the airline that provides them
+qantas airways,Qantas Airways,airline,QAN,,Lounge/club/frequent-flyer memberships resolve to the airline that provides them
+qantas airlines,Qantas Airways,airline,QAN,,Lounge/club/frequent-flyer memberships resolve to the airline that provides them
+qantas australia,Qantas Airways,airline,QAN,,Lounge/club/frequent-flyer memberships resolve to the airline that provides them
+qantas australia airlines,Qantas Airways,airline,QAN,,Lounge/club/frequent-flyer memberships resolve to the airline that provides them
+quantas,Qantas Airways,airline,QAN,,Lounge/club/frequent-flyer memberships resolve to the airline that provides them
+qantas group,Qantas Airways,airline,QAN,,Lounge/club/frequent-flyer memberships resolve to the airline that provides them
+qantas chairmans lounge,Qantas Airways,airline,QAN,,Lounge/club/frequent-flyer memberships resolve to the airline that provides them
+qantas chairmans club,Qantas Airways,airline,QAN,,Lounge/club/frequent-flyer memberships resolve to the airline that provides them
+qantas club chairmans lounge,Qantas Airways,airline,QAN,,Lounge/club/frequent-flyer memberships resolve to the airline that provides them
+qantas chairmans club lounge,Qantas Airways,airline,QAN,,Lounge/club/frequent-flyer memberships resolve to the airline that provides them
+qantas chiarmans lounge,Qantas Airways,airline,QAN,,Lounge/club/frequent-flyer memberships resolve to the airline that provides them
+chairmans lounge qantas,Qantas Airways,airline,QAN,,Lounge/club/frequent-flyer memberships resolve to the airline that provides them
+qantas club,Qantas Airways,airline,QAN,,Lounge/club/frequent-flyer memberships resolve to the airline that provides them
+qantas vip club,Qantas Airways,airline,QAN,,Lounge/club/frequent-flyer memberships resolve to the airline that provides them
+qantas platinum one club,Qantas Airways,airline,QAN,,Lounge/club/frequent-flyer memberships resolve to the airline that provides them
+qantas frequent flyer,Qantas Airways,airline,QAN,,Lounge/club/frequent-flyer memberships resolve to the airline that provides them
+qantas frequent flyers,Qantas Airways,airline,QAN,,Lounge/club/frequent-flyer memberships resolve to the airline that provides them
+qantas frequent flyer service,Qantas Airways,airline,QAN,,Lounge/club/frequent-flyer memberships resolve to the airline that provides them
+qantas money,Qantas Airways,airline,QAN,,Lounge/club/frequent-flyer memberships resolve to the airline that provides them
+chairmans lounge,Qantas Airways,airline,QAN,1,Unbranded; the Chairman's Lounge is Qantas's invitation-only lounge
+westpac,Westpac Banking Corporation,bank_or_financial,WBC,,
+westpac bank,Westpac Banking Corporation,bank_or_financial,WBC,,
+westpac banking,Westpac Banking Corporation,bank_or_financial,WBC,,
+westpac banking group,Westpac Banking Corporation,bank_or_financial,WBC,,
+westpac group,Westpac Banking Corporation,bank_or_financial,WBC,,
+wespac,Westpac Banking Corporation,bank_or_financial,WBC,,
+westpace,Westpac Banking Corporation,bank_or_financial,WBC,,
+westpack,Westpac Banking Corporation,bank_or_financial,WBC,,
+westpac mastercard,Westpac Banking Corporation,bank_or_financial,WBC,,
+westpac visa,Westpac Banking Corporation,bank_or_financial,WBC,,
+westpac term deposit,Westpac Banking Corporation,bank_or_financial,WBC,,
+westpac business one account,Westpac Banking Corporation,bank_or_financial,WBC,,
+westpac bundaberg,Westpac Banking Corporation,bank_or_financial,WBC,,
+nab,National Australia Bank,bank_or_financial,NAB,,
+national australia bank,National Australia Bank,bank_or_financial,NAB,,
+nab bank,National Australia Bank,bank_or_financial,NAB,,
+national bank nab,National Australia Bank,bank_or_financial,NAB,,
+national bank australia,National Australia Bank,bank_or_financial,NAB,,
+national australian bank,National Australia Bank,bank_or_financial,NAB,,
+national australia bank homeside,National Australia Bank,bank_or_financial,NAB,,
+nab homeside,National Australia Bank,bank_or_financial,NAB,,
+homeside nab,National Australia Bank,bank_or_financial,NAB,,
+nab equity lending,National Australia Bank,bank_or_financial,NAB,,
+nab caboolture,National Australia Bank,bank_or_financial,NAB,,
+ubank nab,National Australia Bank,bank_or_financial,NAB,,
+national bank,National Australia Bank,bank_or_financial,NAB,1,Probably NAB (Australian register); could be Bank of New Zealand's former 'National Bank'
+commonwealth bank,Commonwealth Bank of Australia,bank_or_financial,CBA,,
+commonwealth bank of australia,Commonwealth Bank of Australia,bank_or_financial,CBA,,
+cba,Commonwealth Bank of Australia,bank_or_financial,CBA,,
+commbank,Commonwealth Bank of Australia,bank_or_financial,CBA,,
+combank,Commonwealth Bank of Australia,bank_or_financial,CBA,,
+comonwealth bank,Commonwealth Bank of Australia,bank_or_financial,CBA,,
+commonwealth bank aust,Commonwealth Bank of Australia,bank_or_financial,CBA,,
+commonwealth bank australia,Commonwealth Bank of Australia,bank_or_financial,CBA,,
+commonwealth bank of austral,Commonwealth Bank of Australia,bank_or_financial,CBA,,
+commonwealth banking of australia,Commonwealth Bank of Australia,bank_or_financial,CBA,,
+commonwealth bank of australia cba,Commonwealth Bank of Australia,bank_or_financial,CBA,,
+commonwealth bank panania,Commonwealth Bank of Australia,bank_or_financial,CBA,,
+commonwealth private bank,Commonwealth Bank of Australia,bank_or_financial,CBA,,
+commonwealth savings bank,Commonwealth Bank of Australia,bank_or_financial,CBA,,
+commsec commonwealth bank,Commonwealth Bank of Australia,bank_or_financial,CBA,,
+commonwealth,Commonwealth Bank of Australia,bank_or_financial,CBA,1,Bare 'Commonwealth' on accounts/liabilities (sections 6/8) is the bank; a few section 10/14 rows may be the Commonwealth government
+anz,Australia and New Zealand Banking Group,bank_or_financial,ANZ,,ASX lists the parent ANZ Group Holdings Limited; accounts are with the bank
+anz bank,Australia and New Zealand Banking Group,bank_or_financial,ANZ,,ASX lists the parent ANZ Group Holdings Limited; accounts are with the bank
+anz banking group,Australia and New Zealand Banking Group,bank_or_financial,ANZ,,ASX lists the parent ANZ Group Holdings Limited; accounts are with the bank
+anz banking grp,Australia and New Zealand Banking Group,bank_or_financial,ANZ,,ASX lists the parent ANZ Group Holdings Limited; accounts are with the bank
+anz banking,Australia and New Zealand Banking Group,bank_or_financial,ANZ,,ASX lists the parent ANZ Group Holdings Limited; accounts are with the bank
+australia and new zealand banking group,Australia and New Zealand Banking Group,bank_or_financial,ANZ,,ASX lists the parent ANZ Group Holdings Limited; accounts are with the bank
+australian and new zealand banking group,Australia and New Zealand Banking Group,bank_or_financial,ANZ,,ASX lists the parent ANZ Group Holdings Limited; accounts are with the bank
+australia and new zealand banking group anz,Australia and New Zealand Banking Group,bank_or_financial,ANZ,,ASX lists the parent ANZ Group Holdings Limited; accounts are with the bank
+australian and new zealand banking group limited anz,Australia and New Zealand Banking Group,bank_or_financial,ANZ,,ASX lists the parent ANZ Group Holdings Limited; accounts are with the bank
+australia and new zealand banking group limited anz,Australia and New Zealand Banking Group,bank_or_financial,ANZ,,ASX lists the parent ANZ Group Holdings Limited; accounts are with the bank
+aust and nz banking group anz,Australia and New Zealand Banking Group,bank_or_financial,ANZ,,ASX lists the parent ANZ Group Holdings Limited; accounts are with the bank
+anz visa,Australia and New Zealand Banking Group,bank_or_financial,ANZ,,ASX lists the parent ANZ Group Holdings Limited; accounts are with the bank
+virgin,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin australia,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin airlines,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin airline,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin airways,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin australia airlines,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin australia airline,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin australia airways,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin australia airlines ptyltd,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin aust,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin australia holdings,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin aust holdings,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin blue,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin blue holdings,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin blue airlines,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin blue club,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin international,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin club,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin australia club,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin australia the club,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin the club,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin club lounge,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin club longe,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+club virgin,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+club virgin australia,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin australias the club,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin lounge,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin velocity,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin velocity club,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+velocity virgin australia,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin australia velocity frequent flyer,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin velocity frequent flyer,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin captains club,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin captains lounge,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin vip club,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin beyond,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin beyond lounge,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+virgin australia beyond program,Virgin Australia,airline,VGN,,Virgin Blue was renamed Virgin Australia in 2011; Virgin Money and Virgin Money UK are different organisations
+velocity,Virgin Australia,airline,VGN,1,Unbranded 'Velocity' is Virgin Australia's frequent-flyer programme
+telstra,Telstra,listed_company,TLS,,ASX: Telstra Group Limited
+telstra australia,Telstra,listed_company,TLS,,ASX: Telstra Group Limited
+telstra country wide,Telstra,listed_company,TLS,,ASX: Telstra Group Limited
+telstra consumer country wide,Telstra,listed_company,TLS,,ASX: Telstra Group Limited
+foxtel,Foxtel,media_or_entertainment,,,
+foxtell,Foxtel,media_or_entertainment,,,
+foxtel australia,Foxtel,media_or_entertainment,,,
+foxtel cable television,Foxtel,media_or_entertainment,,,
+st george bank,St.George Bank,bank_or_financial,,,"A Westpac brand since 2008; kept as its own entity (brand as disclosed, not ultimate parent)"
+st george,St.George Bank,bank_or_financial,,1,Bare 'St George' occurs only on accounts/liabilities (sections 6/8)
+ing direct,ING Bank Australia,bank_or_financial,,,ING Direct was renamed ING in 2017
+ing bank,ING Bank Australia,bank_or_financial,,,ING Direct was renamed ING in 2017
+ing,ING Bank Australia,bank_or_financial,,1,Mostly ING accounts/loans; ~5 section-1 rows may be Inghams Group shares (ticker ING)
+australian super,AustralianSuper,trust_or_fund,,,
+australiansuper,AustralianSuper,trust_or_fund,,,
+australian super fund,AustralianSuper,trust_or_fund,,,
+australian super account,AustralianSuper,trust_or_fund,,,
+australia super,AustralianSuper,trust_or_fund,,,
+australian super superannuation fund,AustralianSuper,trust_or_fund,,,
+afl,Australian Football League,sporting_body,,,
+afl commission,Australian Football League,sporting_body,,,
+australian football league afl,Australian Football League,sporting_body,,,
+australian football league,Australian Football League,sporting_body,,,
+amp,AMP,bank_or_financial,AMP,,
+amp bank,AMP,bank_or_financial,AMP,,
+amp life,AMP,bank_or_financial,AMP,,
+amp society,AMP,bank_or_financial,AMP,,
+amp services,AMP,bank_or_financial,AMP,,
+amp super,AMP,bank_or_financial,AMP,,
+amp superannuation,AMP,bank_or_financial,AMP,,
+amp super fund,AMP,bank_or_financial,AMP,,
+amp superannuation fund,AMP,bank_or_financial,AMP,,
+macquarie group,Macquarie Group,bank_or_financial,MQG,,"Macquarie Bank (ASX MBL, hybrids) is Macquarie Group's bank; one Macquarie entity"
+macquarie bank,Macquarie Group,bank_or_financial,MQG,,"Macquarie Bank (ASX MBL, hybrids) is Macquarie Group's bank; one Macquarie entity"
+maquarie bank,Macquarie Group,bank_or_financial,MQG,,"Macquarie Bank (ASX MBL, hybrids) is Macquarie Group's bank; one Macquarie entity"
+mquarie bank,Macquarie Group,bank_or_financial,MQG,,"Macquarie Bank (ASX MBL, hybrids) is Macquarie Group's bank; one Macquarie entity"
+macquarie private bank,Macquarie Group,bank_or_financial,MQG,,"Macquarie Bank (ASX MBL, hybrids) is Macquarie Group's bank; one Macquarie entity"
+macquarie bank finance,Macquarie Group,bank_or_financial,MQG,,"Macquarie Bank (ASX MBL, hybrids) is Macquarie Group's bank; one Macquarie entity"
+macquarie group capital notes,Macquarie Group,bank_or_financial,MQG,,"Macquarie Bank (ASX MBL, hybrids) is Macquarie Group's bank; one Macquarie entity"
+macquarie cash management account,Macquarie Group,bank_or_financial,MQG,,"Macquarie Bank (ASX MBL, hybrids) is Macquarie Group's bank; one Macquarie entity"
+macquarie cma,Macquarie Group,bank_or_financial,MQG,,"Macquarie Bank (ASX MBL, hybrids) is Macquarie Group's bank; one Macquarie entity"
+macquarie leasing,Macquarie Group,bank_or_financial,MQG,,"Macquarie Bank (ASX MBL, hybrids) is Macquarie Group's bank; one Macquarie entity"
+macquarie mortgages,Macquarie Group,bank_or_financial,MQG,,"Macquarie Bank (ASX MBL, hybrids) is Macquarie Group's bank; one Macquarie entity"
+macquarie,Macquarie Group,bank_or_financial,MQG,1,"Bare 'Macquarie' in sections 1/6-9: shares, accounts, loans with Macquarie Group / Macquarie Bank"
+astra,Australian Subscription Television and Radio Association,association_or_ngo,,,ASTRA; Astra Enterprises Qld is a different organisation
+australian subscription television and radio association astra,Australian Subscription Television and Radio Association,association_or_ngo,,,ASTRA; Astra Enterprises Qld is a different organisation
+astra australian subscription television and radio association,Australian Subscription Television and Radio Association,association_or_ngo,,,ASTRA; Astra Enterprises Qld is a different organisation
+astra subscription television and radio association,Australian Subscription Television and Radio Association,association_or_ngo,,,ASTRA; Astra Enterprises Qld is a different organisation
+astra subscription television australia,Australian Subscription Television and Radio Association,association_or_ngo,,,ASTRA; Astra Enterprises Qld is a different organisation
+astra subscriptions,Australian Subscription Television and Radio Association,association_or_ngo,,,ASTRA; Astra Enterprises Qld is a different organisation
+astra television,Australian Subscription Television and Radio Association,association_or_ngo,,,ASTRA; Astra Enterprises Qld is a different organisation
+australian subscription television assoc foxtel,Australian Subscription Television and Radio Association,association_or_ngo,,,ASTRA; Astra Enterprises Qld is a different organisation
+astra subscription media australia,Australian Subscription Television and Radio Association,association_or_ngo,,1,ASTRA later traded as Subscription Media Australia
+bendigo bank,Bendigo and Adelaide Bank,bank_or_financial,BEN,,Community Bank branches are locally owned franchises of Bendigo Bank; the account is with Bendigo Bank
+bendigo adelaide bank,Bendigo and Adelaide Bank,bank_or_financial,BEN,,Community Bank branches are locally owned franchises of Bendigo Bank; the account is with Bendigo Bank
+bendigo and adelaide bank,Bendigo and Adelaide Bank,bank_or_financial,BEN,,Community Bank branches are locally owned franchises of Bendigo Bank; the account is with Bendigo Bank
+adelaide bendigo bank,Bendigo and Adelaide Bank,bank_or_financial,BEN,,Community Bank branches are locally owned franchises of Bendigo Bank; the account is with Bendigo Bank
+adelaide bendigo,Bendigo and Adelaide Bank,bank_or_financial,BEN,,Community Bank branches are locally owned franchises of Bendigo Bank; the account is with Bendigo Bank
+benigo bank,Bendigo and Adelaide Bank,bank_or_financial,BEN,,Community Bank branches are locally owned franchises of Bendigo Bank; the account is with Bendigo Bank
+bendigo bank nowra,Bendigo and Adelaide Bank,bank_or_financial,BEN,,Community Bank branches are locally owned franchises of Bendigo Bank; the account is with Bendigo Bank
+bendigo bayswater community bank,Bendigo and Adelaide Bank,bank_or_financial,BEN,,Community Bank branches are locally owned franchises of Bendigo Bank; the account is with Bendigo Bank
+bendigo bank bayswater community bank,Bendigo and Adelaide Bank,bank_or_financial,BEN,,Community Bank branches are locally owned franchises of Bendigo Bank; the account is with Bendigo Bank
+canungra bendigo community bank,Bendigo and Adelaide Bank,bank_or_financial,BEN,,Community Bank branches are locally owned franchises of Bendigo Bank; the account is with Bendigo Bank
+cunungra bendigo community bank,Bendigo and Adelaide Bank,bank_or_financial,BEN,,Community Bank branches are locally owned franchises of Bendigo Bank; the account is with Bendigo Bank
+bendigo,Bendigo and Adelaide Bank,bank_or_financial,BEN,1,Bare 'Bendigo' occurs only on accounts/liabilities (sections 6/8)
+suncorp,Suncorp Group,bank_or_financial,SUN,,
+suncorp group,Suncorp Group,bank_or_financial,SUN,,
+suncorp grp,Suncorp Group,bank_or_financial,SUN,,
+suncorp metway,Suncorp Group,bank_or_financial,SUN,,
+suncorp insurance,Suncorp Group,bank_or_financial,SUN,,
+suncorp bank,Suncorp Group,bank_or_financial,SUN,1,Suncorp Bank was sold to ANZ in 2024; disclosures predating that are Suncorp Group
+nrl,National Rugby League,sporting_body,,,
+national rugby league,National Rugby League,sporting_body,,,
+national rugby league nrl,National Rugby League,sporting_body,,,
+nrl commission,National Rugby League,sporting_body,,,
+tennis australia,Tennis Australia,sporting_body,,,
+bhp,BHP Group,listed_company,BHP,,BHP Billiton renamed BHP Group in 2018
+bhp group,BHP Group,listed_company,BHP,,BHP Billiton renamed BHP Group in 2018
+bhp billiton,BHP Group,listed_company,BHP,,BHP Billiton renamed BHP Group in 2018
+bhp biliton,BHP Group,listed_company,BHP,,BHP Billiton renamed BHP Group in 2018
+bhp billion,BHP Group,listed_company,BHP,,BHP Billiton renamed BHP Group in 2018
+bankwest,Bankwest,bank_or_financial,,,A Commonwealth Bank division since 2008; kept as its own entity (brand as disclosed)
+bank west,Bankwest,bank_or_financial,,,A Commonwealth Bank division since 2008; kept as its own entity (brand as disclosed)
+cricket australia,Cricket Australia,sporting_body,,,
+australian labor party,Australian Labor Party,political_party,,,State/territory branches are separate registered entities and are not merged here
+alp,Australian Labor Party,political_party,,,State/territory branches are separate registered entities and are not merged here
+australian labor party alp,Australian Labor Party,political_party,,,State/territory branches are separate registered entities and are not merged here
+alp australian labor party,Australian Labor Party,political_party,,,State/territory branches are separate registered entities and are not merged here
+australian labor party national secretariat,Australian Labor Party,political_party,,,State/territory branches are separate registered entities and are not merged here
+alp national secretariat,Australian Labor Party,political_party,,,State/territory branches are separate registered entities and are not merged here
+me bank,ME Bank,bank_or_financial,,,"Members Equity Bank; part of Bank of Queensland since 2021, kept as its own entity"
+members equity,ME Bank,bank_or_financial,,,"Members Equity Bank; part of Bank of Queensland since 2021, kept as its own entity"
+members equity bank,ME Bank,bank_or_financial,,,"Members Equity Bank; part of Bank of Queensland since 2021, kept as its own entity"
+members equity me,ME Bank,bank_or_financial,,,"Members Equity Bank; part of Bank of Queensland since 2021, kept as its own entity"
+member equity,ME Bank,bank_or_financial,,,"Members Equity Bank; part of Bank of Queensland since 2021, kept as its own entity"
+mlc,MLC,bank_or_financial,,,
+mlc master key,MLC,bank_or_financial,,,
+national press club,National Press Club of Australia,association_or_ngo,,,
+national press club of australia,National Press Club of Australia,association_or_ngo,,,
+national press club canberra,National Press Club of Australia,association_or_ngo,,,
+national press club canberra act,National Press Club of Australia,association_or_ngo,,,
+national press club parliamentary membership,National Press Club of Australia,association_or_ngo,,,
+bank of queensland,Bank of Queensland,bank_or_financial,BOQ,,
+bank of queensland visa,Bank of Queensland,bank_or_financial,BOQ,,
+bank of queenslnd,Bank of Queensland,bank_or_financial,BOQ,,
+tabcorp,Tabcorp Holdings,listed_company,TAH,,
+tabcorp holdings,Tabcorp Holdings,listed_company,TAH,,
+emirates,Emirates,airline,,,The airline; United Arab Emirates government bodies are different organisations
+emirates airlines,Emirates,airline,,,The airline; United Arab Emirates government bodies are different organisations
+emirates airline,Emirates,airline,,,The airline; United Arab Emirates government bodies are different organisations
+emirates airways,Emirates,airline,,,The airline; United Arab Emirates government bodies are different organisations
+emirates airline group,Emirates,airline,,,The airline; United Arab Emirates government bodies are different organisations
+santos,Santos,listed_company,STO,,
+optus,Optus,private_company,,,"Singtel Optus Pty Ltd, owned by Singtel"
+geelong football club,Geelong Football Club,sporting_body,,,
+geelong cats football club,Geelong Football Club,sporting_body,,,
+opera australia,Opera Australia,media_or_entertainment,,,
+wesfarmers,Wesfarmers,listed_company,WES,,
+westfarmers,Wesfarmers,listed_company,WES,,
+wesfarmer,Wesfarmers,listed_company,WES,,
+wesframers,Wesfarmers,listed_company,WES,,
+bank sa,BankSA,bank_or_financial,,,A Westpac brand; kept as its own entity (brand as disclosed)
+banksa,BankSA,bank_or_financial,,,A Westpac brand; kept as its own entity (brand as disclosed)
+woolworths,Woolworths Group,listed_company,WOW,,
+woolworths group,Woolworths Group,listed_company,WOW,,
+woolworths grp,Woolworths Group,listed_company,WOW,,
+woolworths limited wow,Woolworths Group,listed_company,WOW,,
+netball australia,Netball Australia,sporting_body,,,
+bank of melbourne,Bank of Melbourne,bank_or_financial,,,A Westpac brand; kept as its own entity (brand as disclosed)
+lion nathan,Lion,private_company,,,"Lion Selection Group, Coeur de Lion and Liontown are different organisations"
+lion australia,Lion,private_company,,,"Lion Selection Group, Coeur de Lion and Liontown are different organisations"
+lion brewing,Lion,private_company,,,"Lion Selection Group, Coeur de Lion and Liontown are different organisations"
+lion beer,Lion,private_company,,,"Lion Selection Group, Coeur de Lion and Liontown are different organisations"
+lion beer australia,Lion,private_company,,,"Lion Selection Group, Coeur de Lion and Liontown are different organisations"
+lion corporate,Lion,private_company,,,"Lion Selection Group, Coeur de Lion and Liontown are different organisations"
+lion nathan national foods,Lion,private_company,,,"Lion Selection Group, Coeur de Lion and Liontown are different organisations"
+lion,Lion,private_company,,1,Bare 'Lion' (gifts/hospitality) read as the brewer Lion (formerly Lion Nathan)
+rio tinto,Rio Tinto,listed_company,RIO,,
+rio,Rio Tinto,listed_company,RIO,1,Ticker RIO; all rows are Rio Tinto share trades
+andrews and andrews consulting,Andrews and Andrews Consulting,private_company,,,
+bank australia,Bank Australia,bank_or_financial,,1,"A customer-owned bank (formerly bankmecu), not NAB/CBA; check a sample"
+richmond football club,Richmond Football Club,sporting_body,,,
+iag,Insurance Australia Group,bank_or_financial,IAG,,
+insurance australia group,Insurance Australia Group,bank_or_financial,IAG,,
+insurance australia group iag,Insurance Australia Group,bank_or_financial,IAG,,
+iag formerly nrma,Insurance Australia Group,bank_or_financial,IAG,,
+woodside,Woodside Energy Group,listed_company,WDS,,Woodside Petroleum renamed Woodside Energy Group in 2022
+woodside petroleum,Woodside Energy Group,listed_company,WDS,,Woodside Petroleum renamed Woodside Energy Group in 2022
+woodside energy,Woodside Energy Group,listed_company,WDS,,Woodside Petroleum renamed Woodside Energy Group in 2022
+woodside energy group,Woodside Energy Group,listed_company,WDS,,Woodside Petroleum renamed Woodside Energy Group in 2022
+woodside petroleum limited wpl,Woodside Energy Group,listed_company,WDS,,Woodside Petroleum renamed Woodside Energy Group in 2022
+woodside petroleum wpl,Woodside Energy Group,listed_company,WDS,,Woodside Petroleum renamed Woodside Energy Group in 2022
+australian services union,Australian Services Union,union,,,State branches are not merged here
+australian services union asu,Australian Services Union,union,,,State branches are not merged here
+australian service union,Australian Services Union,union,,,State branches are not merged here
+csl,CSL,listed_company,CSL,,
+screen australia,Screen Australia,government_body,,,
+melbourne cricket club,Melbourne Cricket Club,sporting_body,,,
+melbourne cricket club committee,Melbourne Cricket Club,sporting_body,,,
+australian ballet,The Australian Ballet,media_or_entertainment,,,
+australian ballet company,The Australian Ballet,media_or_entertainment,,,
+citibank,Citibank,bank_or_financial,,,
+unisuper,UniSuper,trust_or_fund,,,
+australian workers union,Australian Workers' Union,union,,,State branches are not merged here; the AMWU is a different union
+australian workers union awu,Australian Workers' Union,union,,,State branches are not merged here; the AMWU is a different union
+fifa,FIFA,sporting_body,,,
+liberal party of australia,Liberal Party of Australia,political_party,,,State divisions are separate registered entities and are not merged here
+liberal party,Liberal Party of Australia,political_party,,,State divisions are separate registered entities and are not merged here
+liberal party of australia nsw division,Liberal Party of Australia (NSW Division),political_party,,,
+liberal party of australia new south wales division,Liberal Party of Australia (NSW Division),political_party,,,
+medibank private,Medibank Private,bank_or_financial,MPL,,
+medibank,Medibank Private,bank_or_financial,MPL,,
+pss,Public Sector Superannuation Scheme,trust_or_fund,,,
+pss fund,Public Sector Superannuation Scheme,trust_or_fund,,,
+pss superannuation,Public Sector Superannuation Scheme,trust_or_fund,,,
+pss superanuation,Public Sector Superannuation Scheme,trust_or_fund,,,
+american express,American Express,bank_or_financial,,,
+amex,American Express,bank_or_financial,,,
+perth airport,Perth Airport,private_company,,,
+vanguard,Vanguard Investments Australia,bank_or_financial,,,Individual Vanguard funds/ETFs are not merged into the manager
+vanguard investments,Vanguard Investments Australia,bank_or_financial,,,Individual Vanguard funds/ETFs are not merged into the manager
+vanguard investments australia,Vanguard Investments Australia,bank_or_financial,,,Individual Vanguard funds/ETFs are not merged into the manager
+colonial first state,Colonial First State,bank_or_financial,,,
+colonial first state investments,Colonial First State,bank_or_financial,,,
+colonial first state managed funds,Colonial First State,bank_or_financial,,,
+colonial first state superannuation,Colonial First State,bank_or_financial,,,
+colonial first,Colonial First State,bank_or_financial,,,
+emilys list,EMILY's List Australia,association_or_ngo,,,
+emilys list australia,EMILY's List Australia,association_or_ngo,,,
+seven west media,Seven West Media,media_or_entertainment,,,"Not in the 2026-10-02 ASX snapshot, so no asx_code"
+sevenwest media,Seven West Media,media_or_entertainment,,,"Not in the 2026-10-02 ASX snapshot, so no asx_code"
+city of swan,City of Swan,government_body,,,
+city of swan wa,City of Swan,government_body,,,
+taipei economic and cultural office in australia,Taipei Economic and Cultural Office in Australia,government_body,,,
+taipei economic and cultural office,Taipei Economic and Cultural Office in Australia,government_body,,,
+taipei economic and cultural office of australia,Taipei Economic and Cultural Office in Australia,government_body,,,
+taipei economic cultural office,Taipei Economic and Cultural Office in Australia,government_body,,,
+australian american leadership dialogue,Australian American Leadership Dialogue,association_or_ngo,,,
+australian american leadership dialogue aald,Australian American Leadership Dialogue,association_or_ngo,,,
+aald australian american leadership dialogue,Australian American Leadership Dialogue,association_or_ngo,,,
+australia america leadership dialogue,Australian American Leadership Dialogue,association_or_ngo,,,
+australian americal leadership dialouge,Australian American Leadership Dialogue,association_or_ngo,,,
+australian leadership dialogue aald,Australian American Leadership Dialogue,association_or_ngo,,,
+australian american young leadership dialogue,Australian American Leadership Dialogue,association_or_ngo,,1,A programme run by the AALD
+australian american leadership youth dialogue,Australian American Leadership Dialogue,association_or_ngo,,1,A programme run by the AALD
+carlton football club,Carlton Football Club,sporting_body,,,
+credit union sa,Credit Union SA,bank_or_financial,,,
+minerals council of australia,Minerals Council of Australia,association_or_ngo,,,
+minterals council of australia,Minerals Council of Australia,association_or_ngo,,,
+australian minerals council,Minerals Council of Australia,association_or_ngo,,,
+minerals council,Minerals Council of Australia,association_or_ngo,,,
+qbe,QBE Insurance Group,bank_or_financial,QBE,,
+qbe insurance group,QBE Insurance Group,bank_or_financial,QBE,,
+qbe insurance,QBE Insurance Group,bank_or_financial,QBE,,
+qbe insurance gro,QBE Insurance Group,bank_or_financial,QBE,,
+toyota finance,Toyota Finance,bank_or_financial,,,

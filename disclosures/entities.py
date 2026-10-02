@@ -86,10 +86,16 @@ def load_generic_terms(data_dir: Path) -> set:
 
 def stage_curated(aliases: List[str], ctx: Context) -> Dict[str, Resolution]:
     """ADR-6 step 3: ``aliases.csv`` (alias, canonical_name, entity_type, asx_code, ...)."""
-    path = ctx.data_dir / "aliases.csv"
-    if not path.exists():
-        return {}
+    table = load_curated(ctx.data_dir)
+    return {a: table[a] for a in aliases if a in table}
+
+
+def load_curated(data_dir: Path) -> Dict[str, Resolution]:
+    """``aliases.csv`` as {normalised alias: Resolution}; empty if the file is missing."""
+    path = data_dir / "aliases.csv"
     table: Dict[str, Resolution] = {}
+    if not path.exists():
+        return table
     with path.open(newline="", encoding="utf-8") as f:
         for r in csv.DictReader(f):
             alias = normalise_entity(r["alias"])
@@ -97,8 +103,8 @@ def stage_curated(aliases: List[str], ctx: Context) -> Dict[str, Resolution]:
                 continue
             table[alias] = Resolution(r["canonical_name"].strip(),
                                       (r.get("entity_type") or "").strip() or None,
-                                      (r.get("asx_code") or "").strip() or None)
-    return {a: table[a] for a in aliases if a in table}
+                                      (r.get("asx_code") or "").strip().upper() or None)
+    return table
 
 
 def load_asx_exclusions(data_dir: Path) -> set:
@@ -147,6 +153,7 @@ def stage_asx(aliases: List[str], ctx: Context) -> Dict[str, Resolution]:
     companies are ambiguous and match nothing. All
     aliases matched to one code share a canonical name: the commonest raw spelling among
     the name-matched aliases (ties: alphabetically first), else the ASX name in capwords.
+    A code that ``aliases.csv`` already uses takes that row's canonical name and type.
     """
     snap = newest_asx_snapshot(ctx.reference_dir)
     if snap is None:
@@ -173,9 +180,19 @@ def stage_asx(aliases: List[str], ctx: Context) -> Dict[str, Resolution]:
     for a, (code, by_name_match) in matched.items():
         if by_name_match:
             spellings[code].update(ctx.spellings[a])
+    # A code the curated table already names joins that entity rather than starting a
+    # second one under a different spelling (first curated row per code wins).
+    curated_by_code: Dict[str, Resolution] = {}
+    for res in load_curated(ctx.data_dir).values():
+        if res.asx_code:
+            curated_by_code.setdefault(res.asx_code, res)
     out = {}
     for a, (code, _) in matched.items():
         sp = spellings.get(code)
+        if code in curated_by_code:
+            cur = curated_by_code[code]
+            out[a] = Resolution(cur.canonical_name, cur.entity_type, code)
+            continue
         if sp:
             top = max(sp.values())
             canonical = min(s for s, n in sp.items() if n == top)

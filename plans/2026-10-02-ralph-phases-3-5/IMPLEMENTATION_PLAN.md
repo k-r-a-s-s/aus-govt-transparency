@@ -265,9 +265,9 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   bank 595, anz 577, cba 540. 225 tests pass.
 
 ### T2.4 — Curate aliases.csv: heads 1–100
-- status: todo
+- status: done 2026-10-02
 - deps: T2.3
-- attempts: 0
+- attempts: 1
 - budget: US$0 (your own judgment, no API) · network: none
 - do: Write `data/entities/aliases.csv` (columns per D2) for heads 1–100 and their true
   variants. Reject fuzzy variants that are different organisations (e.g. "Westpac" vs "Westfield").
@@ -276,6 +276,7 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   wherever you're unsure. AC-3.1 groups must collapse to one canonical each.
 - done when: rows for heads 1–100 exist; `entities --offline` uses them (`curated` > 0); an
   AC-3.1 test passes for every group that occurs.
+- notes: 330 aliases → 72 entities (all 100 heads); curated 12,597 items, asx 279/1,067 left; 15 rows review_flag=1. ASX stage now reuses a curated row's canonical for the same code (no splits). Rules in DECISIONS 2026-10-02 (T2.4).
 
 ### T2.5 — Curate aliases.csv: heads 101–200, coverage test
 - status: todo
