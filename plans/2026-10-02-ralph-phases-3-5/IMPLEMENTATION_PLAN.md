@@ -109,9 +109,9 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
 - notes: 44th: 3 attachment_not_itemised (coultonm_44p, huntg_44p, pynec_44p, a CV as the s13 list), 3 itemised_ok, 2 attachment_not_in_pdf (grayg, turnbullm gift details).
 
 ### T1.2c — Confirm the 45th/47th candidates and summarise
-- status: todo
+- status: done 2026-10-02
 - deps: T1.2b
-- attempts: 0
+- attempts: 1
 - budget: US$0 (you read the PDFs yourself with the Read tool, ≤ 20 pages per call) · network: none
 - do: For each candidate in the 45th and 47th (12 rows), open the referencing page and the attachment pages. Set `verdict`
   to `attachment_not_itemised` (attachment bound in, items missing), `itemised_ok`,
@@ -121,6 +121,7 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   re-extract, and anything odd. Then write the summary at the top: counts per verdict across all 29 and the full re-extract list.
 - done when: every in the 45th and 47th (12 rows) row in `eval/attachment_gaps.csv` has a verdict; `eval/attachment_gaps.md`
   has its section. The summary lists the confirmed files (expect ≤ 15).
+- notes: 45th/47th: 2 attachment_not_itemised (coultonm_45p, odowdk45p ×2 attachments), 5 itemised_ok, 2 not in PDF (pynec_45p, smitht_45p), 3 false positives. Total: 7 to re-extract (listed in eval/attachment_gaps.md summary). For T1.3: say an attachment continues the referencing item, not the next alteration form (smitht_45p).
 
 ### T1.3 — Add rule C12 to the extraction prompt (prompt v1)
 - status: todo

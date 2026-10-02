@@ -44,6 +44,7 @@ Repo root is the working directory. Python is `.venv/bin/python` (`bash scripts/
 - Never push to `v2-upgrade`/`main`, force-push, rewrite history, or `git reset --hard` over uncommitted work you didn't make.
 
 ## Known quirks
+- No poppler, so the Read tool can't render PDF pages. Render with PyMuPDF instead: `pymupdf.open(pdf)[n-1].get_pixmap(dpi=90).save(".ralph/scratch/x.png")`, then Read the PNG.
 - `tests/test_load.py::test_unwritable_target_exits_2` fails as root (cloud) until T0.1 skips it.
 - `load` exits 1 (but still installs the DB) if a hard AC-2.7 query isn't 0. Treat exit 1 as a failure.
 - Docs to keep current when behaviour changes: `docs/v2/README.md` (commands), `docs/v2/<topic>.md`, `data/overrides/README.md`.

@@ -6,7 +6,29 @@ pages. Verdicts: `attachment_not_itemised` (attachment bound in, holdings missin
 `itemised_ok`, `attachment_not_in_pdf`, `other: <what>`. The `expected` column lists names that
 T1.5 checks for after the re-extraction.
 
-<!-- Summary (counts across all 29 + full re-extract list) is written by T1.2c. -->
+## Summary (all 29 candidates)
+
+| verdict | count |
+|---|---|
+| attachment_not_itemised | 7 |
+| itemised_ok | 14 |
+| attachment_not_in_pdf | 5 |
+| other: false positive (wording only, no attachment) | 3 |
+
+Re-extract (7 files, for T1.5):
+
+- `pdfs/43/coultonm_43p.pdf`
+- `pdfs/43/nevillep_43p.pdf`
+- `pdfs/44/coultonm_44p.pdf`
+- `pdfs/44/huntg_44p.pdf`
+- `pdfs/44/pynec_44p.pdf`
+- `pdfs/45/coultonm_45p.pdf`
+- `pdfs/45/odowdk45p.pdf`
+
+Every confirmed gap is a list on its own page: a super-fund or broker portfolio (coultonm ×3,
+nevillep, odowdk), a membership list (huntg_44p) or a CV (pynec_44p). The page that refers to it
+says "see attached list", "Attachment 'A'" or just names the fund. In every case the
+extraction notes mention the attachment page, yet 0 items come from it.
 
 ## 43rd
 
@@ -48,3 +70,28 @@ Odd: `pynec_44p`'s "attachment" is a full CV. Most entries are past roles with e
 organisation listed, but T1.5 should only expect the open-ended ones (the `expected` names are
 all current). `coultonm` misses the same super-fund page in both the 43rd and 44th, so the
 45th copy probably has the same gap. `huntg_45p` is a candidate too (T1.2c).
+
+## 45th and 47th
+
+| file | verdict | evidence |
+|---|---|---|
+| broadbentr_45p | itemised_ok | p8 "ATTACHMENT" (super fund holds CBA, Telstra) has its 3 items on p8; same layout as the 43rd/44th. |
+| coultonm_45p | **attachment_not_itemised** | p2 s1 "(see attached list)"; p8 is the "MM & RA Coulton Super Fund Investment Summary Report" (2 cash, 4 managed funds, 13 listed shares, 1 listed trust). 0 items on p8, though the notes name the page. This is the third parliament with the same gap. |
+| freelanderm_45p | itemised_ok | p8–9 Morgan Stanley printouts for the Pebema super fund and the spouse: 22 + 16 items. The p14 alteration's "updated list (see attached)" is the last page, so that list isn't in the PDF. v1 unmatched names are OCR noise. |
+| huntg_45p | itemised_ok | p8 s13 attachment (memberships and community groups) has 15 items. v1 unmatched names are OCR noise. |
+| odowdk45p | **attachment_not_itemised** | p5 s7 "SEE ATTACHMENT 'A'": p9 lists the BT portfolio (10 Australian shares, 4 international funds, 3 property trusts), 0 items. p10 alteration "Please see Attachment": p11 is a BT "My Investment Recommendation" table (≈ 23 holdings), 0 items. |
+| pynec_45p | attachment_not_in_pdf | p6 and p21 s13 "LIST ATTACHED": the pages with no items (p7, p8, p23, p25, p27) are a blank alteration form and covering letters. The CV-style list from the 44th isn't bound in. |
+| roberts_45p | itemised_ok | Attachment 1 on p8 (36 items), updated Attachment 1 on p19–20 and the later attachments (p30–31, p39–41) are itemised. v1 unmatched names are Greek-letter OCR noise. |
+| smitht_45p | attachment_not_in_pdf | p6 s12 self+spouse "SEE ATTACHMENT": p7 is blank and p8 is a post-election alteration form (AFL tickets), so there's no attachment. The model filed the p8 item as the attachment's content. That's harmless, but it isn't one. |
+| thistlethwaitem_45p | itemised_ok | p7 "See attached": p8–12 are one-gift alteration forms, one item each. v1 unmatched names are OCR variants of the s13 clubs on p6 (Malabar RSL, Souths Juniors, Coogee Legion). |
+| wallacea_45p | other: false positive | The detector matched "daily schedule facilitation" in a p8 s12 sponsored-travel item. v1 unmatched names are OCR noise of the SMSF name. |
+| bowen_47p | other: false positive | p3 s6 "Visa Card attached to bank account": no attachment. |
+| gorman_47p | other: false positive | p9 s10 "performance rights attached to her name": no attachment. |
+
+Re-extract (45th/47th): `pdfs/45/coultonm_45p.pdf`, `pdfs/45/odowdk45p.pdf`.
+
+Odd: odowdk45p has two attachments, both missed. One is a plain holdings page and the other a
+financial adviser's recommendation table, cut off on the right in the scan. For the p11 table,
+C12 should itemise the holdings named, not the "Total" rows. `smitht_45p` shows the model will
+sometimes treat the next form as the attachment. C12's wording should say an attachment is
+content that continues the referencing item, not the next notification form.
