@@ -10,7 +10,8 @@ Always run `load` first, then `entities`, on the same DB (`refresh` does both):
 
 ```sh
 python -m disclosures load --source gemini-api            # rebuilds the DB, entity tables empty
-python -m disclosures entities --offline                  # [--db disclosures_v2.db] [--data data/entities]
+python -m disclosures entities --offline                  # [--db disclosures_v2.db] [--data data/entities] [--reference data/reference]
+python -m disclosures entities --fetch-asx                # download a new ASX snapshot, then stop
 ```
 
 `entities` rewrites the three outputs in place, in one transaction, so re-running it is safe.
@@ -26,7 +27,8 @@ isn't. Exit 2 means a missing DB or bad input. The command refuses to touch v1's
 |---|---|
 | `data/entities/generic_terms.csv` | `term, note`. Descriptors that name no organisation (`family trust`, `smsf`, `n/a`, `various`, ...). Terms are normalised like aliases before matching. |
 | `data/entities/aliases.csv` | Curated aliases (T2.4/T2.5): `alias, canonical_name, entity_type, asx_code, review_flag, note`. |
-| `data/reference/asx_listed_companies_<date>.csv` | ASX snapshot. The newest by date wins (T2.2). |
+| `data/entities/asx_exclusions.csv` | `alias, note`. Aliases that never ASX-match because a ticker is also another organisation's usual name (`ing`: Inghams versus ING Bank). |
+| `data/reference/asx_listed_companies_<date>.csv` | ASX snapshot from `--fetch-asx` (title line, blank line, then `Company name,ASX code,GICS industry group`). The newest by date wins. The reference dir defaults to `<data>/../reference`. |
 | `data/entities/llm_decisions.jsonl` | Long-tail LLM cache (later task). |
 
 ## Method
@@ -39,8 +41,13 @@ isn't. Exit 2 means a missing DB or bad input. The command refuses to touch v1's
    still-unresolved aliases and returns the ones it can name. The first stage to claim an
    alias wins. `entity_aliases.method` records which stage it was.
    - `curated`: exact match of the normalised `aliases.csv` alias.
-   - `asx`: exact normalised company name or ticker match against the snapshot (T2.2, not yet
-     active).
+   - `asx`: only aliases that occur on at least one section-1 item are eligible. The match is
+     the exact normalised company name (normalised the same way), or failing that the exact
+     ticker (`bhp`, `cba`). Then every item with that alias gets the entity, whatever its
+     section. `entity_type = 'listed_company'`, `asx_code` set. A name two listed companies
+     share matches nothing. All aliases of one code share a canonical name: the commonest raw
+     spelling among the name-matched aliases, else the ASX name in capwords. 2026-10-02
+     snapshot: 309 aliases / 4,370 items (117 of them ticker matches).
    - `llm`: long-tail grouping for aliases with ≥ 2 items (later task, not yet active).
    - `singleton`: everything left becomes its own entity. It's named after the alias's
      commonest raw spelling (ties go to the alphabetically first), with `entity_type = NULL`.

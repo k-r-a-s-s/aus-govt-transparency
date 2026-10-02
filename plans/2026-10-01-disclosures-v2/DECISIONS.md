@@ -405,3 +405,20 @@ V1's cold check found two places where C12 output could be read two ways.
   the alphabetically first. That keeps it deterministic and close to what was printed.
 - **Interim.** Until the LLM stage exists, aliases with ≥ 2 items also fall through to
   `singleton`, so AC-3.3 holds at every step.
+
+### 2026-10-02 — ASX matching details (T2.2)
+- **Canonical name.** All aliases matched to one ASX code share one canonical name, so they
+  become one entity: the commonest raw spelling among the aliases that matched by *name* (ties
+  alphabetical). If only a ticker matched (`CBA`), we use the ASX name in capwords
+  (`Commonwealth Bank Of Australia.`). Curated rows (T2.4) override either.
+- **Name before ticker.** An alias that is both a company's normalised name and another
+  company's ticker matches the name. A normalised name shared by two listed companies is
+  ambiguous and matches nothing.
+- **Exclusions.** `data/entities/asx_exclusions.csv` lists aliases that never ASX-match. It's
+  seeded with `ing`: three section-1 items are Inghams (ticker ING) shares, but about 168 items
+  in sections 6 and 8 are ING Bank accounts and loans. D2 applies a match to every item with
+  the alias, so matching `ing` would mislabel the bank. Of the 118 ticker matches on the real
+  data, the rest checked out as shareholdings. `news` (News Corporation ↔ News Limited) was kept.
+- **`--fetch-asx` only downloads.** It writes `data/reference/asx_listed_companies_<today>.csv`
+  (local date; the file's own title line has the ASX timestamp), checks that it parses, and
+  stops. Then you run `entities` as usual.

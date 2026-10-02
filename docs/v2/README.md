@@ -19,7 +19,8 @@ Spec: `plans/2026-10-01-disclosures-v2/SPEC.md`.
 | `disclosures/gemini_model.py` | `resolve_gemini_model()`: the one Gemini model-id resolver (bans 0.x-2.x ids) |
 | `disclosures/load.py` | loader: validated extractions -> `disclosures_v2.db` (ADR-7); see `docs/v2/loading.md` |
 | `disclosures/entities.py` | entity standardisation (ADR-6); see `docs/v2/entities.md` |
-| `data/entities/` | committed entity inputs: generic terms, curated aliases, LLM cache |
+| `data/entities/` | committed entity inputs: generic terms, curated aliases, ASX exclusions, LLM cache |
+| `data/reference/` | ASX listed-companies snapshots (`entities --fetch-asx`) |
 | `data/overrides/` | member identity + party-per-term CSVs carried forward from v1 (see its `README.md`) |
 | `scripts/seed_v2_overrides.py` | one-off: regenerate / `--check` `data/overrides/` from v1 assets (read-only) |
 | `.claude/workflows/extract-disclosures.js` | Extractor A `workflow-claude`: Claude Code Workflow script (ADR-5) |
@@ -51,6 +52,7 @@ python -m disclosures score --v1 disclosures.db --gold eval/gold [--json eval/v1
 python -m disclosures load --source workflow-claude [--db disclosures_v2.db] \
     [--extractions extractions] [--overrides data/overrides]   # see docs/v2/loading.md
 python -m disclosures entities [--offline] [--db disclosures_v2.db] [--data data/entities]   # after load; docs/v2/entities.md
+python -m disclosures entities --fetch-asx    # new ASX snapshot into data/reference/, then stop
 python -m disclosures.schema --write | --check              # regenerate / check the JSON Schema
 python -m disclosures.gold stats [--force]                  # eval/pdf_stats.csv
 python -m disclosures.gold select --seed 20261001 --n 12    # eval/gold/selection.json

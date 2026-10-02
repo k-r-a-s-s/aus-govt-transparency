@@ -231,9 +231,9 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
 - notes: real DB: 35,880 named items -> 11,165 entities; generic 6 aliases/16 items, singleton 11,181 aliases/35,864 items; AC-3.3 0; 16 same-slug merges (all true). Curated stage already reads aliases.csv; asx/llm are no-op stages (T2.2, LLM task). Until LLM lands, singleton also catches >=2-item aliases. Full .dump sha identical over 2 runs. 13 tests, 212 pass.
 
 ### T2.2 — ASX snapshot and ASX matching
-- status: todo
+- status: done 2026-10-02
 - deps: T2.1
-- attempts: 0
+- attempts: 1
 - budget: US$0 · network: www.asx.com.au
 - do: `entities --fetch-asx` downloads `https://www.asx.com.au/asx/research/ASXListedCompanies.csv`
   with the browser User-Agent (AGENTS.md) to `data/reference/asx_listed_companies_<date>.csv`
@@ -243,6 +243,9 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
 - done when: the snapshot is committed (≈ 2,000 rows); `entities --offline` reports `asx` > 0;
   tests pass. If the host is blocked: `blocked (network): run 'python -m disclosures entities
   --fetch-asx' locally and commit the CSV`.
+- notes: snapshot 2026-10-02, 2,048 companies. Real DB: asx 309 aliases / 4,370 items (117 ticker
+  matches), 11,101 entities, AC-3.3 0. `ing` excluded (Inghams vs ING Bank, asx_exclusions.csv).
+  For T2.4: curate ANZ/NAB/CBA canonicals; ASX canonical = commonest raw spelling (DECISIONS).
 
 ### T2.3 — Candidate list for the curated aliases (top 200 plus variants)
 - status: todo

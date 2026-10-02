@@ -1,11 +1,14 @@
+import datetime as dt
 import sqlite3
 from pathlib import Path
 
+import httpx
 import pytest
 
 from disclosures.cli import main
-from disclosures.entities import (Resolution, entity_id_for, load_generic_terms, resolve,
-                                  run_entities)
+from disclosures.entities import (ASX_URL, Resolution, entity_id_for, fetch_asx,
+                                  load_generic_terms, newest_asx_snapshot, read_asx_snapshot,
+                                  resolve, run_entities)
 from disclosures.load import DDL, member_slug
 from disclosures.normalise import normalise_entity
 
@@ -188,3 +191,177 @@ def test_refuses_v1_db(tmp_path, monkeypatch):
     make_db(tmp_path / "disclosures.db")
     with pytest.raises(ValueError, match="frozen v1"):
         run_entities(tmp_path / "disclosures.db", make_data(tmp_path))
+
+
+# --- ASX stage (T2.2) ---------------------------------------------------------------------
+
+ASX_CSV = (
+    "ASX listed companies as at Fri Oct 02 23:02:35 AEST 2026\n"
+    "\n"
+    "Company name,ASX code,GICS industry group\n"
+    '"BHP GROUP LIMITED","BHP","Materials"\n'
+    '"COMMONWEALTH BANK OF AUSTRALIA.","CBA","Banks"\n'
+    '"QANTAS AIRWAYS LIMITED","QAN","Transportation"\n'
+    '"INGHAMS GROUP LIMITED","ING","Food, Beverage & Tobacco"\n'
+    '"TWIN CO LTD","TW1","Other"\n'
+    '"TWIN CO LIMITED","TW2","Other"\n'
+)
+
+ASX_ITEMS = [  # (item_id, raw, section)
+    ("a1", "BHP Group Ltd", 1),
+    ("a2", "BHP Group Limited", 1),
+    ("a3", "BHP", 1),
+    ("a4", "CBA", 8),                 # ticker, but never on a section-1 item: not eligible
+    ("a5", "Qantas Airways Limited", 1),
+    ("a6", "Qantas Airways Ltd", 12),  # same alias, other section: gets the entity too
+    ("a7", "ING", 1),                  # excluded alias
+    ("a8", "ING", 8),
+    ("a9", "Twin Co", 1),              # two listed companies normalise to "twin": ambiguous
+    ("a10", "QAN", 1),                 # ticker-only alias joins the name-matched entity
+]
+
+
+def make_sectioned_db(path: Path, items=ASX_ITEMS) -> Path:
+    con = sqlite3.connect(path)
+    con.executescript(DDL)
+    con.executemany(
+        "insert into items (item_id, pdf_sha256, member_id, chamber, parliament, section, "
+        "category, owner, entity_name_raw, description, is_alteration, change_type, "
+        "date_precision, page, confidence) values (?, 'sha', 'm', 'house', 47, ?, "
+        "'x', 'self', ?, 'd', 0, 'initial', 'unknown', 1, 'high')",
+        [(iid, sec, raw) for iid, raw, sec in items])
+    con.commit()
+    con.close()
+    return path
+
+
+def make_reference(root: Path, files=None) -> Path:
+    ref = root / "reference"
+    ref.mkdir(parents=True, exist_ok=True)
+    for name, text in (files or {"asx_listed_companies_2026-10-02.csv": ASX_CSV}).items():
+        (ref / name).write_text(text)
+    return ref
+
+
+def test_read_asx_snapshot_skips_title(tmp_path):
+    ref = make_reference(tmp_path)
+    rows = read_asx_snapshot(ref / "asx_listed_companies_2026-10-02.csv")
+    assert rows[0] == ("BHP GROUP LIMITED", "BHP") and len(rows) == 6
+
+
+def test_asx_stage_name_ticker_scope_exclusions(tmp_path):
+    db = make_sectioned_db(tmp_path / "v2.db")
+    data = make_data(tmp_path)  # tmp/entities -> reference dir defaults to tmp/reference
+    (data / "asx_exclusions.csv").write_text("alias,note\nING,ambiguous\n")
+    make_reference(tmp_path)
+    s = run_entities(db, data)
+    ie = item_entities(db)
+    con = sqlite3.connect(db)
+    ents = {r[0]: r[1:] for r in con.execute("select * from entities")}
+    methods = dict(con.execute("select alias_normalised, method from entity_aliases"))
+    con.close()
+    # name match: both spellings normalise to "bhp group"; the ticker alias joins them
+    assert ie["a1"] == ie["a2"] == ie["a3"]
+    # canonical: commonest raw spelling of the name-matched aliases, ties alphabetical
+    assert ents[ie["a1"]] == ("BHP Group Limited", "listed_company", "BHP")
+    assert methods["bhp group"] == methods["bhp"] == "asx"
+    # every item with a matched alias gets it, whatever its section
+    assert ie["a5"] == ie["a6"] == ie["a10"]
+    assert ents[ie["a5"]][1:] == ("listed_company", "QAN")
+    assert methods["qan"] == "asx"
+    # no section-1 item -> not eligible; excluded; ambiguous name
+    assert methods["cba"] == methods["ing"] == methods["twin"] == "singleton"
+    assert s["aliases"]["asx"] == 4 and s["items"]["asx"] == 6
+    assert s["unresolved"] == 0
+
+
+def test_asx_ticker_only_uses_asx_name(tmp_path):
+    db = make_sectioned_db(tmp_path / "v2.db", items=[("t1", "CBA", 1)])
+    make_reference(tmp_path)
+    run_entities(db, make_data(tmp_path))
+    con = sqlite3.connect(db)
+    assert con.execute("select * from entities").fetchall() == [
+        ("commonwealth_bank_of_australia", "Commonwealth Bank Of Australia.",
+         "listed_company", "CBA")]
+    con.close()
+
+
+def test_curated_beats_asx(tmp_path):
+    db = make_sectioned_db(tmp_path / "v2.db", items=[("c1", "BHP", 1)])
+    make_reference(tmp_path)
+    csv_text = "alias,canonical_name,entity_type,asx_code\nBHP,BHP,listed_company,BHP\n"
+    run_entities(db, make_data(tmp_path, aliases_csv=csv_text))
+    con = sqlite3.connect(db)
+    assert con.execute("select method from entity_aliases").fetchall() == [("curated",)]
+    con.close()
+
+
+def test_newest_snapshot_wins(tmp_path):
+    old = ASX_CSV.replace('"QANTAS AIRWAYS LIMITED","QAN"', '"QANTAS AIRWAYS LIMITED","OLD"')
+    ref = make_reference(tmp_path, {"asx_listed_companies_2025-01-01.csv": old,
+                                    "asx_listed_companies_2026-10-02.csv": ASX_CSV,
+                                    "notes.csv": "x\n"})
+    assert newest_asx_snapshot(ref).name == "asx_listed_companies_2026-10-02.csv"
+    assert newest_asx_snapshot(tmp_path / "missing") is None
+    db = make_sectioned_db(tmp_path / "v2.db", items=[("q1", "Qantas Airways", 1)])
+    run_entities(db, make_data(tmp_path), reference_dir=ref)
+    con = sqlite3.connect(db)
+    assert con.execute("select asx_code from entities").fetchone() == ("QAN",)
+    con.close()
+
+
+def test_asx_runs_are_deterministic(tmp_path):
+    data = make_data(tmp_path)
+    make_reference(tmp_path)
+    db = make_sectioned_db(tmp_path / "v2.db")
+    run_entities(db, data)
+    first = dump(db)
+    db2 = make_sectioned_db(tmp_path / "v2b.db", items=list(reversed(ASX_ITEMS)))
+    run_entities(db2, data)
+    assert dump(db2) == first
+
+
+def test_fetch_asx_sends_ua_and_writes_dated_file(tmp_path):
+    seen = {}
+
+    def handler(request):
+        seen["ua"] = request.headers.get("user-agent")
+        seen["url"] = str(request.url)
+        return httpx.Response(200, content=ASX_CSV.encode())
+
+    http = httpx.Client(transport=httpx.MockTransport(handler))
+    path, n = fetch_asx(tmp_path / "ref", http=http, today=dt.date(2026, 10, 2))
+    assert seen["url"] == ASX_URL and "Mozilla/5.0" in seen["ua"]
+    assert path == tmp_path / "ref" / "asx_listed_companies_2026-10-02.csv" and n == 6
+    assert path.read_text() == ASX_CSV
+
+
+def test_fetch_asx_rejects_bad_responses(tmp_path):
+    ref = tmp_path / "ref"
+    blocked = httpx.Client(transport=httpx.MockTransport(lambda r: httpx.Response(403)))
+    with pytest.raises(httpx.HTTPStatusError):
+        fetch_asx(ref, http=blocked)
+    html = httpx.Client(transport=httpx.MockTransport(
+        lambda r: httpx.Response(200, content=b"<html>blocked</html>")))
+    with pytest.raises(ValueError):
+        fetch_asx(ref, http=html)
+    assert not ref.exists() or list(ref.iterdir()) == []
+
+
+def test_cli_fetch_asx(tmp_path, monkeypatch, capsys):
+    from disclosures import entities as ent
+
+    calls = []
+    monkeypatch.setattr(ent, "fetch_asx", lambda ref: calls.append(ref) or (ref / "f.csv", 6))
+    rc = main(["entities", "--fetch-asx", "--data", str(tmp_path / "entities")])
+    assert rc == 0 and calls == [tmp_path / "reference"]
+    assert "(6 companies)" in capsys.readouterr().out
+
+
+def test_real_asx_snapshot():
+    snap = newest_asx_snapshot(REPO / "data" / "reference")
+    assert snap is not None
+    rows = read_asx_snapshot(snap)
+    assert 1500 < len(rows) < 3000
+    codes = {c for _, c in rows}
+    assert {"BHP", "CBA", "QAN", "NAB"} <= codes
