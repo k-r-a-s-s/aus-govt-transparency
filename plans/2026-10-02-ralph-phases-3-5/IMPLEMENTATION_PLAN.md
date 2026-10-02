@@ -375,9 +375,9 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
 ## M3 — Phase 4: scraper, House 48th, Senate 48th, refresh (SPEC ADR-8/9, AC-4; SPEC-DELTA D3)
 
 ### T3.1 — `disclosures/sources.py`: URLs, User-Agent, register parser, recorded fixtures
-- status: todo
+- status: done 2026-10-02
 - deps: T0.2
-- attempts: 0
+- attempts: 1
 - budget: US$0 · network: www.aph.gov.au (record fixtures once)
 - do: URL map for House 43rd–48th (SPEC §0 and D3; the 47th has its own slug), a browser UA on
   every request, polite retries and backoff. Record fixtures once:
@@ -385,6 +385,9 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   into (listed_date, member name, electorate, statement URL). Tests run offline on the fixtures.
 - done when: the AC-4.1 test passes (the 48th fixture yields 150–155 rows, each with a statement
   URL of either kind).
+- notes: 48th fixture 151 rows (147 api + 4 static). 43rd §0 URL 404s, so it maps to the committee page
+  the 48th links (`?url=pmi/declarations.htm`, 150 links = v1 stems); fixture recorded for T3.2.
+  Archive counts: 44th 151, 45th 158, 46th 152, 47th 155. DECISIONS 2026-10-02 (T3.1).
 
 ### T3.2 — `pdfs/manifest.csv` for the 774 tracked PDFs
 - status: todo

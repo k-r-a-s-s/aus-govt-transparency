@@ -30,12 +30,10 @@ from typing import Callable, Dict, List, Optional, Tuple
 
 from .load import DEFAULT_DB, _guard_v1, member_slug
 from .normalise import normalise_entity
+from .sources import BROWSER_UA  # APH and ASX answer 403 without a browser User-Agent
 
 DEFAULT_DATA = "data/entities"
 ASX_URL = "https://www.asx.com.au/asx/research/ASXListedCompanies.csv"
-# APH and ASX answer 403 to requests without a browser User-Agent (AGENTS.md).
-BROWSER_UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
-              "(KHTML, like Gecko) Chrome/140.0 Safari/537.36")
 
 ENTITY_TYPES = (
     "listed_company", "private_company", "bank_or_financial", "airline", "sporting_body",

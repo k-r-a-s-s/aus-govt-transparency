@@ -510,3 +510,22 @@ V1's cold check found two places where C12 output could be read two ways.
   `asx_code`, or `own` / `generic`. Free text is accepted too, so Kevin isn't forced into a
   syntax; T2.9 maps it to curated rows.
 - **Regenerating keeps Kevin's columns** (keyed by alias), so a rebuild mid-review is safe.
+
+
+### 2026-10-02 — House register URLs and listing parser (T3.1)
+
+- **43rd URL.** SPEC §0's `.../Previous_Parliaments/43P_Members_Interest_Statements` now
+  redirects to a 404. The 48th register page links "43rd Parliament" to
+  `.../House_of_Representatives_Committees?url=pmi/declarations.htm`, which lists 150 links
+  (`?url=pmi/declarations/{stem}_43p.pdf`, no dates) whose stems are exactly v1's `pdfs/43`
+  filenames. `sources.HOUSE_REGISTER_URLS[43]` uses that page. The 44th–47th match §0 (47th
+  with its own slug). All six pages were checked live on 2026-10-02.
+- **Parser.** stdlib `html.parser` (no new dependency). Table pages: a row counts when it has a
+  `td.date` cell and a statement link (`api/members/{id}/statement/{n}`, where the id can be
+  alphanumeric, e.g. `DZS`, or any `.pdf` link). Otherwise it falls back to bare "Member for"
+  links (the 43rd layout). Counts per page: 43rd 150, 44th 151, 45th 158, 46th 152,
+  47th 155, 48th 151 (147 API links + 4 static PDFs).
+- **Names.** "Surname, Titles Given, Member for Seat[,] STATE". Titles and post-nominals are
+  stripped from the given names. One 47th row has no comma ("Doyle Ms Mary"), so the surname is
+  the words before the first title. Seven 48th rows have no state, so `state` is None.
+- **`BROWSER_UA`** now lives in `sources.py`; `entities.py` imports it.

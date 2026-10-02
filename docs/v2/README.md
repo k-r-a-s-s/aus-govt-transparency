@@ -18,6 +18,7 @@ Spec: `plans/2026-10-01-disclosures-v2/SPEC.md`.
 | `disclosures/openrouter.py` | OpenRouter transport for extractor B (native PDF + strict json_schema; any vendor's model for the bake-off) |
 | `disclosures/gemini_model.py` | `resolve_gemini_model()`: the one Gemini model-id resolver (bans 0.x-2.x ids) |
 | `disclosures/load.py` | loader: validated extractions -> `disclosures_v2.db` (ADR-7); see `docs/v2/loading.md` |
+| `disclosures/sources.py` | House register URLs (43rd–48th), browser-UA HTTP with retries, listing parser (fixtures in `tests/fixtures/aph/`) |
 | `disclosures/entities.py` | entity standardisation (ADR-6); see `docs/v2/entities.md` |
 | `data/entities/` | committed entity inputs: generic terms, curated aliases, ASX exclusions, LLM cache |
 | `data/reference/` | ASX listed-companies snapshots (`entities --fetch-asx`) |
