@@ -665,3 +665,14 @@ the committed `site/disclosures_v2.db`. The Datasette Lite link needs an absolut
 defaults to `https://k-r-a-s-s.github.io/aus-govt-transparency` (from `origin`) and
 `--pages-url` overrides it if Pages is served elsewhere. PyYAML is a dev dependency so the
 AC-5.2 YAML check runs in the venv.
+
+## 2026-10-03 — T5.4: what counts as dead v1 code
+
+Removed the whole `src/` tree (AC-5.4's "or the whole tree" option), `examples/`,
+`test_output.json`, `setup_pipeline.sh`, and `scripts/seed_v2_overrides.py` (deleted rather than
+kept with a warning header: it can't run without `src/cleaning/*.py`, and git history keeps it).
+Also deleted the v1-only docs (`docs/index.md`, `docs/backend/`, `docs/guides/`,
+`docs/workflows/`): every page described the removed `src/` pipeline or a frontend that isn't in
+this repo, and `docs/v2/` + `README.md` replace them. Kept as history: `.specstory/`, `.cursor/`
+rules, `*.rmd` diaries, root `__init__.py`, `disclosures.db` and `output/` (the CSVs the
+overrides were seeded from).

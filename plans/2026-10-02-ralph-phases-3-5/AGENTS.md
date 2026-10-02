@@ -33,7 +33,7 @@ Repo root is the working directory. Python is `.venv/bin/python` (`bash scripts/
 
 ## Secrets and files never to touch
 - Never print, cat or commit `.env.local` or any key. `credit.py` reads the key without printing it.
-- Never write `disclosures.db` (v1), `eval/gold/*.json`, or `pdfs/{43..47}/*.pdf`. `src/` stays until T5.4.
+- Never write `disclosures.db` (v1), `eval/gold/*.json`, or `pdfs/{43..47}/*.pdf`. v1 `src/` is gone (T5.4); read it via `git show 66377df:src/...`.
 - Read v1 read-only: `sqlite3.connect('file:disclosures.db?mode=ro', uri=True)`.
 - Secrets check without choking on PDFs: `git grep -I -nE 'AIza[0-9A-Za-z_-]{30,}|sk-or-v1-[0-9a-f]{20,}' -- ':!pdfs' ':!*.db'`.
 - `.gitignore` ignores `*.db`, `*.log`, and names containing token/secret/credential/apikey. Don't name files that way.

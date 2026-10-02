@@ -138,7 +138,7 @@ SANITY_QUERIES: List[Tuple[str, str, bool]] = [
 ]
 
 
-# --- name / slug helpers (shared with scripts/seed_v2_overrides.py) -----------------------
+# --- name / slug helpers (shared with disclosures.members) ---------------------------------
 
 _TITLES_RE = re.compile(r"\b(the hon|hon|dr|mr|mrs|ms|miss|sir|dame|mp|am|ao|qc|sc|oam)\b\.?")
 

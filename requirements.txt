@@ -1,5 +1,5 @@
 # Disclosures v2 runtime dependencies (pinned; regenerate with `.venv/bin/pip freeze`).
-# v1 code under src/ is frozen and its dependencies are intentionally not listed here.
+# v1 code (src/) was removed in Phase 5 (T5.4); see git history before that commit.
 annotated-types==0.8.0
 anyio==4.15.1
 attrs==26.1.0

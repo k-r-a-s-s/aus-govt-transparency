@@ -84,7 +84,7 @@ Work from the repo root. Use .venv/bin/python for every python command.
       file (re-reading pages as needed) and validate again, at most 2 fix rounds. If it is still
       invalid, leave it and report status "invalid" with the validator's messages.
    e. If a PDF cannot be read at all, report status "failed" with the reason and write no file.
-3. Never modify anything in eval/gold, pdfs/, src/ or disclosures.db, and touch no files other than
+3. Never modify anything in eval/gold, pdfs/ or disclosures.db, and touch no files other than
    the output files listed below. Do not git commit.
 
 PDFs in this bundle:

@@ -628,9 +628,9 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
 - notes: README rewritten v2-only (coverage table, all 8 subcommands, refresh, dictionary -> exports/kaggle/README.md, limitations, v1 snapshot note); AC-5.3 grep: 8 cmds all in AC-0.3 list.
 
 ### T5.4 — Remove dead v1 code
-- status: todo
+- status: done 2026-10-03
 - deps: T5.3
-- attempts: 0
+- attempts: 1
 - budget: US$0 · network: none
 - do: Per AC-5.4: delete `src/` (or the listed parts), `examples/`, `test_output.json` and
   `setup_pipeline.sh`. Keep `disclosures.db` and `output/`. Retire `scripts/seed_v2_overrides.py`
@@ -638,6 +638,7 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   `data/overrides/README.md` to say the CSVs are now the source of truth. Make sure no test
   or doc still references removed paths.
 - done when: `git grep -n "from src\." -- '*.py'` is empty; the suite is green.
+- notes: removed src/ (21 files), examples/, test_output.json, setup_pipeline.sh, scripts/seed_v2_overrides.py and the v1-only docs (docs/index.md, docs/backend|guides|workflows); data/overrides/README.md now says CSVs are source of truth; `from src.` grep empty; .specstory/.cursor/*.rmd left as history; 322 pass.
 
 ### T5.5 — Requirements: fresh-venv install
 - status: todo

@@ -1,17 +1,20 @@
 # data/overrides — member identity and party tables (ADR-7)
 
 Hand-curated tables the loader (`python -m disclosures load`, see `docs/v2/loading.md`) joins
-against. They carry v1's curated assets forward so v1 code can be deleted in Phase 5.
+against. They carry v1's curated assets forward (v1 code was deleted in Phase 5).
 
-They were seeded on 2026-10-02 by `scripts/seed_v2_overrides.py`, which reads v1 read-only:
-`disclosures.db` (`mps`, and `disclosures.pdf_filename` -> `mp_id`), the dict literals in
-`src/cleaning/*.py` (parsed, not imported) and `output/all_mps_*.csv` (v1's Wikipedia
-scrapes). The script's `MANUAL_*` tables hold the hand fixes. `--check` exits 1 if a CSV here
-differs from what the script would write. It only derives v1's parliaments (43rd–47th): rows for
-the 48th on (`pdf_members`/`party_terms`/`unknown_party` rows of parliament ≥ 48 and
-`member_aliases` rows with `source=aph_*`) are written by `python -m disclosures.members`,
-are hand-maintained after that, and the script keeps them verbatim. After Phase 5 removes v1 the script stops working.
-From then on these CSVs are the source of truth and are edited by hand.
+**These CSVs are the source of truth and are edited by hand** (or appended by
+`python -m disclosures.members` for new parliaments/chambers). v1's code was removed in Phase 5
+(T5.4), so they can no longer be regenerated from v1.
+
+They were seeded on 2026-10-02 by `scripts/seed_v2_overrides.py` (removed in T5.4; it is in git
+history before that commit and needs v1's `src/cleaning/*.py` checked out to run), which read v1
+read-only: `disclosures.db` (`mps`, and `disclosures.pdf_filename` -> `mp_id`), the dict
+literals in `src/cleaning/*.py` (parsed, not imported) and `output/all_mps_*.csv` (v1's
+Wikipedia scrapes). Its `MANUAL_*` tables held the hand fixes. It only derived v1's parliaments
+(43rd–47th): rows for the 48th on (`pdf_members`/`party_terms`/`unknown_party` rows of
+parliament ≥ 48 and `member_aliases` rows with `source=aph_*`) were written by
+`python -m disclosures.members`.
 
 `member_id` is the slug of the canonical full name: lower case, ASCII-folded, each run of
 non-alphanumerics becomes `_` (`Clare O'Neil` -> `clare_o_neil`). The canonical full name is
@@ -24,7 +27,7 @@ people who own a tracked PDF have one.
 | `member_aliases.csv` | `name_variant, electorate_or_state, member_id, canonical_full_name, source` | Name variants -> member. It holds every v1 `mps.full_name` and `mps.mp_id`, the v1 manual merge overrides (`merge_duplicate_mps.py:29-50`), both sides of `MP_NAME_SPECIAL_CASES`, and each canonical name. `source=aph_48`: one row per new 48th member (listing name), plus hand rows for printed names no variant matched (`Robert Katter` -> bob_katter, `Joshua Wilson` -> josh_wilson, `Thomas French` -> Tom French, Wikipedia's form). `source=aph_senate_48`: one row per new senator (listing name, state). Matching uses a normalised name (see `norm_person_name`), with the electorate first and then without it. An empty electorate means the row applies anywhere. |
 | `party_terms.csv` | `member_id, chamber, parliament, party, political_bloc, source` | Party per (member, parliament) for every member term that has a PDF. `source` says where the party came from (see below). |
 | `unknown_party.csv` | `member_id, chamber, parliament, note` | (member, parliament) pairs with no known party. Empty for House 43rd–48th and Senate 48th. |
-| `party_mapping.csv` | `variant, canonical_party` | v1 `PARTY_MAPPING`, plus four variants from v1's Wikipedia CSVs that it lacked (`Palmer United`, `Xenophon/Centre Alliance`, `Nationals WA`, `Liberal / Independent`), and `Country Liberal Party` from the Senate API. The extras live in the seed script's `EXTRA_PARTY_MAPPING`. |
+| `party_mapping.csv` | `variant, canonical_party` | v1 `PARTY_MAPPING`, plus four variants from v1's Wikipedia CSVs that it lacked (`Palmer United`, `Xenophon/Centre Alliance`, `Nationals WA`, `Liberal / Independent`), and `Country Liberal Party` from the Senate API. The extras came from the seed script's `EXTRA_PARTY_MAPPING`. |
 | `political_blocs.csv` | `party, bloc` | v1 `COALITION_PARTIES` -> `Coalition` and `LABOR_PARTIES` -> `Labor`. Any party not listed is `Crossbench`. This includes the Greens: v1 had a separate `Greens` bloc, but v2 uses three blocs. |
 
 ## How party per term was derived (`party_terms.source`)

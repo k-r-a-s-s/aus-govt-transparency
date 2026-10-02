@@ -1,6 +1,6 @@
 # Disclosures v2
 
-v2 is built alongside v1 (`src/`, `disclosures.db`), which is frozen until Phase 5.
+v1's code (`src/`) was removed in Phase 5 (T5.4); its `disclosures.db` stays as a read-only snapshot.
 Spec: `plans/2026-10-01-disclosures-v2/SPEC.md`.
 
 ## Layout
@@ -27,7 +27,6 @@ Spec: `plans/2026-10-01-disclosures-v2/SPEC.md`.
 | `data/entities/` | committed entity inputs: generic terms, curated aliases, ASX exclusions, LLM cache |
 | `data/reference/` | ASX listed-companies snapshots (`entities --fetch-asx`) |
 | `data/overrides/` | member identity + party-per-term CSVs carried forward from v1 (see its `README.md`) |
-| `scripts/seed_v2_overrides.py` | one-off: regenerate / `--check` `data/overrides/` from v1 assets (read-only) |
 | `.claude/workflows/extract-disclosures.js` | Extractor A `workflow-claude`: Claude Code Workflow script (ADR-5) |
 | `docs/v2/extraction.md` | how to run both extractors |
 | `docs/v2/loading.md` | what `load` does: member resolution, item ids, AC-2.7 queries |
