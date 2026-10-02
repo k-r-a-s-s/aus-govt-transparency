@@ -15,6 +15,7 @@ alan_tudge,house,46,Liberal Party of Australia,Coalition,wikipedia_46
 alan_tudge,house,47,Liberal Party of Australia,Coalition,wikipedia_47
 alannah_mactiernan,house,44,Australian Labor Party,Labor,wikipedia_44
 alby_schultz,house,43,Liberal Party of Australia,Coalition,wikipedia_43
+alex_antic,senate,48,Liberal Party of Australia,Coalition,aph_senate_api
 alex_hawke,house,43,Liberal Party of Australia,Coalition,wikipedia_47_carried_back
 alex_hawke,house,44,Liberal Party of Australia,Coalition,wikipedia_47_carried_back
 alex_hawke,house,45,Liberal Party of Australia,Coalition,wikipedia_47_carried_back
@@ -38,6 +39,7 @@ amanda_rishworth,house,45,Australian Labor Party,Labor,wikipedia_47_carried_back
 amanda_rishworth,house,46,Australian Labor Party,Labor,wikipedia_46
 amanda_rishworth,house,47,Australian Labor Party,Labor,wikipedia_47
 amanda_rishworth,house,48,Australian Labor Party,Labor,wikipedia_48
+andrew_bragg,senate,48,Liberal Party of Australia,Coalition,aph_senate_api
 andrew_broad,house,44,National Party of Australia,Coalition,wikipedia_45_carried_back
 andrew_broad,house,45,National Party of Australia,Coalition,wikipedia_45
 andrew_charlton,house,47,Australian Labor Party,Labor,wikipedia_47
@@ -66,6 +68,7 @@ andrew_leigh,house,45,Australian Labor Party,Labor,wikipedia_47_carried_back
 andrew_leigh,house,46,Australian Labor Party,Labor,wikipedia_46
 andrew_leigh,house,47,Australian Labor Party,Labor,wikipedia_47
 andrew_leigh,house,48,Australian Labor Party,Labor,wikipedia_48
+andrew_mclachlan,senate,48,Liberal Party of Australia,Coalition,aph_senate_api
 andrew_nikolic,house,44,Liberal Party of Australia,Coalition,wikipedia_44
 andrew_robb,house,43,Liberal Party of Australia,Coalition,wikipedia_44_carried_back
 andrew_robb,house,44,Liberal Party of Australia,Coalition,wikipedia_44
@@ -102,6 +105,7 @@ anne_aly,house,45,Australian Labor Party,Labor,wikipedia_47_carried_back
 anne_aly,house,46,Australian Labor Party,Labor,wikipedia_46
 anne_aly,house,47,Australian Labor Party,Labor,wikipedia_47
 anne_aly,house,48,Australian Labor Party,Labor,wikipedia_48
+anne_ruston,senate,48,Liberal Party of Australia,Coalition,aph_senate_api
 anne_stanley,house,45,Australian Labor Party,Labor,wikipedia_47_carried_back
 anne_stanley,house,46,Australian Labor Party,Labor,wikipedia_46
 anne_stanley,house,47,Australian Labor Party,Labor,wikipedia_47
@@ -120,7 +124,9 @@ anthony_byrne,house,43,Australian Labor Party,Labor,wikipedia_46_carried_back
 anthony_byrne,house,44,Australian Labor Party,Labor,wikipedia_46_carried_back
 anthony_byrne,house,45,Australian Labor Party,Labor,wikipedia_46_carried_back
 anthony_byrne,house,46,Australian Labor Party,Labor,wikipedia_46
+anthony_chisholm,senate,48,Australian Labor Party,Labor,aph_senate_api
 ash_ambihaipahar,house,48,Australian Labor Party,Labor,wikipedia_48
+barbara_pocock,senate,48,Australian Greens,Crossbench,aph_senate_api
 barnaby_joyce,house,44,National Party of Australia,Coalition,wikipedia_47_carried_back
 barnaby_joyce,house,45,National Party of Australia,Coalition,wikipedia_45
 barnaby_joyce,house,46,National Party of Australia,Coalition,wikipedia_46
@@ -162,6 +168,7 @@ brian_mitchell,house,46,Australian Labor Party,Labor,wikipedia_46
 brian_mitchell,house,47,Australian Labor Party,Labor,wikipedia_47
 bridget_archer,house,46,Liberal Party of Australia,Coalition,wikipedia_46
 bridget_archer,house,47,Liberal Party of Australia,Coalition,wikipedia_47
+bridget_mckenzie,senate,48,National Party of Australia,Coalition,aph_senate_api
 bronwyn_bishop,house,43,Liberal Party of Australia,Coalition,wikipedia_44_carried_back
 bronwyn_bishop,house,44,Liberal Party of Australia,Coalition,wikipedia_44
 bruce_billson,house,43,Liberal Party of Australia,Coalition,wikipedia_44_carried_back
@@ -173,6 +180,7 @@ cameron_caldwell,house,48,Liberal National Party,Coalition,wikipedia_48
 carina_garland,house,47,Australian Labor Party,Labor,wikipedia_47
 carina_garland,house,48,Australian Labor Party,Labor,wikipedia_48
 carol_berry,house,48,Australian Labor Party,Labor,wikipedia_48
+carol_brown,senate,48,Australian Labor Party,Labor,aph_senate_api
 cassandra_fernando,house,47,Australian Labor Party,Labor,wikipedia_47
 cassandra_fernando,house,48,Australian Labor Party,Labor,wikipedia_48
 catherine_king,house,43,Australian Labor Party,Labor,wikipedia_47_carried_back
@@ -185,6 +193,7 @@ cathy_mcgowan,house,44,Independent,Crossbench,wikipedia_45_carried_back
 cathy_mcgowan,house,45,Independent,Crossbench,wikipedia_45
 cathy_o_toole,house,45,Australian Labor Party,Labor,wikipedia_45
 celia_hammond,house,46,Liberal Party of Australia,Coalition,wikipedia_46
+charlotte_walker,senate,48,Australian Labor Party,Labor,aph_senate_api
 chris_bowen,house,43,Australian Labor Party,Labor,wikipedia_47_carried_back
 chris_bowen,house,44,Australian Labor Party,Labor,wikipedia_47_carried_back
 chris_bowen,house,45,Australian Labor Party,Labor,wikipedia_47_carried_back
@@ -192,6 +201,7 @@ chris_bowen,house,46,Australian Labor Party,Labor,wikipedia_46
 chris_bowen,house,47,Australian Labor Party,Labor,wikipedia_47
 chris_bowen,house,48,Australian Labor Party,Labor,wikipedia_48
 chris_crewther,house,45,Liberal Party of Australia,Coalition,wikipedia_45
+chris_gatenby,senate,48,Liberal Party of Australia,Coalition,aph_senate_api
 chris_hayes,house,43,Australian Labor Party,Labor,wikipedia_46_carried_back
 chris_hayes,house,44,Australian Labor Party,Labor,wikipedia_46_carried_back
 chris_hayes,house,45,Australian Labor Party,Labor,wikipedia_46_carried_back
@@ -202,6 +212,7 @@ christian_porter,house,46,Liberal Party of Australia,Coalition,wikipedia_46
 christopher_pyne,house,43,Liberal Party of Australia,Coalition,wikipedia_45_carried_back
 christopher_pyne,house,44,Liberal Party of Australia,Coalition,wikipedia_45_carried_back
 christopher_pyne,house,45,Liberal Party of Australia,Coalition,wikipedia_45
+claire_chandler,senate,48,Liberal Party of Australia,Coalition,aph_senate_api
 claire_clutterham,house,48,Australian Labor Party,Labor,wikipedia_48
 clare_o_neil,house,44,Australian Labor Party,Labor,wikipedia_47_carried_back
 clare_o_neil,house,45,Australian Labor Party,Labor,wikipedia_47_carried_back
@@ -211,6 +222,7 @@ clare_o_neil,house,48,Australian Labor Party,Labor,wikipedia_48
 clive_palmer,house,44,United Australia Party,Crossbench,wikipedia_44
 colin_boyce,house,47,Liberal National Party,Coalition,wikipedia_47
 colin_boyce,house,48,Liberal National Party,Coalition,wikipedia_48
+corinne_mulholland,senate,48,Australian Labor Party,Labor,aph_senate_api
 craig_emerson,house,43,Australian Labor Party,Labor,wikipedia_43
 craig_kelly,house,43,Liberal Party of Australia,Coalition,wikipedia_46_carried_back
 craig_kelly,house,44,Liberal Party of Australia,Coalition,wikipedia_46_carried_back
@@ -243,6 +255,7 @@ darren_chester,house,47,National Party of Australia,Coalition,wikipedia_47
 darren_chester,house,48,National Party of Australia,Coalition,wikipedia_48
 daryl_melham,house,43,Australian Labor Party,Labor,wikipedia_43
 dave_sharma,house,46,Liberal Party of Australia,Coalition,wikipedia_46
+dave_sharma,senate,48,Liberal Party of Australia,Coalition,aph_senate_api
 david_batt,house,48,Liberal National Party,Coalition,wikipedia_48
 david_bradbury,house,43,Australian Labor Party,Labor,wikipedia_43
 david_coleman,house,44,Liberal Party of Australia,Coalition,wikipedia_47_carried_back
@@ -261,15 +274,21 @@ david_littleproud,house,46,Liberal National Party,Coalition,wikipedia_46
 david_littleproud,house,47,Liberal National Party,Coalition,wikipedia_47
 david_littleproud,house,48,Liberal National Party,Coalition,wikipedia_48
 david_moncrieff,house,48,Australian Labor Party,Labor,wikipedia_48
+david_pocock,senate,48,Independent,Crossbench,aph_senate_api
+david_shoebridge,senate,48,Australian Greens,Crossbench,aph_senate_api
 david_smith,house,46,Australian Labor Party,Labor,wikipedia_46
 david_smith,house,47,Australian Labor Party,Labor,wikipedia_47
 david_smith,house,48,Australian Labor Party,Labor,wikipedia_48
+dean_smith,senate,48,Liberal Party of Australia,Coalition,aph_senate_api
 deborah_o_neill,house,43,Australian Labor Party,Labor,wikipedia_43
+deborah_o_neill,senate,48,Australian Labor Party,Labor,aph_senate_api
 dennis_jensen,house,43,Liberal Party of Australia,Coalition,wikipedia_44_carried_back
 dennis_jensen,house,44,Liberal/Independent,Coalition,wikipedia_44
 dick_adams,house,43,Australian Labor Party,Labor,wikipedia_43
+don_farrell,senate,48,Australian Labor Party,Labor,aph_senate_api
 don_randall,house,43,Liberal Party of Australia,Coalition,wikipedia_43
 don_randall,house,44,Liberal Party of Australia,Coalition,wikipedia_44
+dorinda_cox,senate,48,Australian Labor Party,Labor,aph_senate_api
 ed_husic,house,43,Australian Labor Party,Labor,wikipedia_47_carried_back
 ed_husic,house,44,Australian Labor Party,Labor,wikipedia_47_carried_back
 ed_husic,house,45,Australian Labor Party,Labor,wikipedia_47_carried_back
@@ -278,6 +297,7 @@ ed_husic,house,47,Australian Labor Party,Labor,wikipedia_47
 ed_husic,house,48,Australian Labor Party,Labor,wikipedia_48
 elizabeth_watson_brown,house,47,Australian Greens,Crossbench,wikipedia_47
 elizabeth_watson_brown,house,48,Australian Greens,Crossbench,wikipedia_48
+ellie_whiteaker,senate,48,Australian Labor Party,Labor,aph_senate_api
 emma_comer,house,48,Australian Labor Party,Labor,wikipedia_48
 emma_husar,house,45,Australian Labor Party,Labor,wikipedia_45
 emma_mcbride,house,45,Australian Labor Party,Labor,wikipedia_47_carried_back
@@ -287,6 +307,7 @@ emma_mcbride,house,48,Australian Labor Party,Labor,wikipedia_48
 eric_hutchinson,house,44,Liberal Party of Australia,Coalition,wikipedia_44
 ewen_jones,house,43,Liberal National Party,Coalition,wikipedia_44_carried_back
 ewen_jones,house,44,Liberal National Party,Coalition,wikipedia_44
+fatima_payman,senate,48,Australia's Voice,Crossbench,aph_senate_api
 fiona_martin,house,46,Liberal Party of Australia,Coalition,wikipedia_46
 fiona_phillips,house,46,Australian Labor Party,Labor,wikipedia_46
 fiona_phillips,house,47,Australian Labor Party,Labor,wikipedia_47
@@ -313,6 +334,7 @@ george_christensen,house,44,Liberal National Party,Coalition,wikipedia_46_carrie
 george_christensen,house,45,Liberal National Party,Coalition,wikipedia_45
 george_christensen,house,46,Liberal National Party,Coalition,wikipedia_46
 gladys_liu,house,46,Liberal Party of Australia,Coalition,wikipedia_46
+glenn_sterle,senate,48,Australian Labor Party,Labor,aph_senate_api
 gordon_reid,house,47,Australian Labor Party,Labor,wikipedia_47
 gordon_reid,house,48,Australian Labor Party,Labor,wikipedia_48
 graham_perrett,house,43,Australian Labor Party,Labor,wikipedia_47_carried_back
@@ -329,6 +351,7 @@ harry_jenkins,house,43,Australian Labor Party,Labor,wikipedia_43
 helen_haines,house,46,Independent,Crossbench,wikipedia_46
 helen_haines,house,47,Independent,Crossbench,wikipedia_47
 helen_haines,house,48,Independent,Crossbench,wikipedia_48
+helen_polley,senate,48,Australian Labor Party,Labor,aph_senate_api
 henry_pike,house,47,Liberal National Party,Coalition,wikipedia_47
 henry_pike,house,48,Liberal National Party,Coalition,wikipedia_48
 ian_goodenough,house,44,Liberal Party of Australia,Coalition,wikipedia_47_carried_back
@@ -337,11 +360,17 @@ ian_goodenough,house,46,Liberal Party of Australia,Coalition,wikipedia_46
 ian_goodenough,house,47,Liberal Party of Australia,Coalition,wikipedia_47
 ian_macfarlane,house,43,Liberal National Party,Coalition,wikipedia_44_carried_back
 ian_macfarlane,house,44,Liberal National Party,Coalition,wikipedia_44
+jacinta_nampijinpa_price,senate,48,Country Liberal,Coalition,aph_senate_api
+jacqui_lambie,senate,48,Jacqui Lambie Network,Crossbench,aph_senate_api
+james_mcgrath,senate,48,Liberal National Party,Coalition,aph_senate_api
+james_paterson,senate,48,Liberal Party of Australia,Coalition,aph_senate_api
 james_stevens,house,46,Liberal Party of Australia,Coalition,wikipedia_46
 james_stevens,house,47,Liberal Party of Australia,Coalition,wikipedia_47
 jamie_briggs,house,43,Liberal Party of Australia,Coalition,wikipedia_44_carried_back
 jamie_briggs,house,44,Liberal Party of Australia,Coalition,wikipedia_44
 jamie_chaffey,house,48,National Party of Australia,Coalition,wikipedia_48
+jana_stewart,senate,48,Australian Labor Party,Labor,aph_senate_api
+jane_hume,senate,48,Liberal Party of Australia,Coalition,aph_senate_api
 jane_prentice,house,43,Liberal National Party,Coalition,wikipedia_45_carried_back
 jane_prentice,house,44,Liberal National Party,Coalition,wikipedia_45_carried_back
 jane_prentice,house,45,Liberal National Party,Coalition,wikipedia_45
@@ -362,10 +391,13 @@ jason_wood,house,48,Liberal Party of Australia,Coalition,wikipedia_48
 jenny_macklin,house,43,Australian Labor Party,Labor,wikipedia_45_carried_back
 jenny_macklin,house,44,Australian Labor Party,Labor,wikipedia_45_carried_back
 jenny_macklin,house,45,Australian Labor Party,Labor,wikipedia_45
+jenny_mcallister,senate,48,Australian Labor Party,Labor,aph_senate_api
 jenny_ware,house,47,Liberal Party of Australia,Coalition,wikipedia_47
 jerome_laxale,house,47,Australian Labor Party,Labor,wikipedia_47
 jerome_laxale,house,48,Australian Labor Party,Labor,wikipedia_48
 jess_teesdale,house,48,Australian Labor Party,Labor,wikipedia_48
+jess_walsh,senate,48,Australian Labor Party,Labor,aph_senate_api
+jessica_collins,senate,48,Liberal Party of Australia,Coalition,aph_senate_api
 jill_hall,house,43,Australian Labor Party,Labor,wikipedia_44_carried_back
 jill_hall,house,44,Australian Labor Party,Labor,wikipedia_44
 jim_chalmers,house,44,Australian Labor Party,Labor,wikipedia_47_carried_back
@@ -398,9 +430,12 @@ john_forrest,house,43,National Party of Australia,Coalition,wikipedia_43
 john_mcveigh,house,45,Liberal National Party,Coalition,wikipedia_45
 john_mcveigh,house,46,Liberal National Party,Coalition,wikipedia_46
 john_murphy,house,43,Australian Labor Party,Labor,wikipedia_43
+jonathon_duniam,senate,48,Liberal Party of Australia,Coalition,aph_senate_api
+jordon_steele_john,senate,48,Australian Greens,Crossbench,aph_senate_api
 josh_burns,house,46,Australian Labor Party,Labor,wikipedia_46
 josh_burns,house,47,Australian Labor Party,Labor,wikipedia_47
 josh_burns,house,48,Australian Labor Party,Labor,wikipedia_48
+josh_dolega,senate,48,Australian Labor Party,Labor,aph_senate_api
 josh_frydenberg,house,43,Liberal Party of Australia,Coalition,wikipedia_46_carried_back
 josh_frydenberg,house,44,Liberal Party of Australia,Coalition,wikipedia_46_carried_back
 josh_frydenberg,house,45,Liberal Party of Australia,Coalition,wikipedia_46_carried_back
@@ -448,6 +483,7 @@ karen_andrews,house,44,Liberal National Party,Coalition,wikipedia_47_carried_bac
 karen_andrews,house,45,Liberal National Party,Coalition,wikipedia_47_carried_back
 karen_andrews,house,46,Liberal National Party,Coalition,wikipedia_46
 karen_andrews,house,47,Liberal National Party,Coalition,wikipedia_47
+karen_grogan,senate,48,Australian Labor Party,Labor,aph_senate_api
 karen_mcnamara,house,44,Liberal Party of Australia,Coalition,wikipedia_44
 kate_chaney,house,47,Independent,Crossbench,wikipedia_47
 kate_chaney,house,48,Independent,Crossbench,wikipedia_48
@@ -458,6 +494,7 @@ kate_thwaites,house,46,Australian Labor Party,Labor,wikipedia_46
 kate_thwaites,house,47,Australian Labor Party,Labor,wikipedia_47
 kate_thwaites,house,48,Australian Labor Party,Labor,wikipedia_48
 katie_allen,house,46,Liberal Party of Australia,Coalition,wikipedia_46
+katy_gallagher,senate,48,Australian Labor Party,Labor,aph_senate_api
 keith_pitt,house,44,Liberal National Party,Coalition,wikipedia_47_carried_back
 keith_pitt,house,45,Liberal National Party,Coalition,wikipedia_47_carried_back
 keith_pitt,house,46,Liberal National Party,Coalition,wikipedia_46
@@ -477,6 +514,7 @@ ken_wyatt,house,44,Liberal Party of Australia,Coalition,wikipedia_46_carried_bac
 ken_wyatt,house,45,Liberal Party of Australia,Coalition,wikipedia_46_carried_back
 ken_wyatt,house,46,Liberal Party of Australia,Coalition,wikipedia_46
 kerryn_phelps,house,45,Independent,Crossbench,wikipedia_45
+kerrynne_liddle,senate,48,Liberal Party of Australia,Coalition,aph_senate_api
 kevin_andrews,house,43,Liberal Party of Australia,Coalition,wikipedia_46_carried_back
 kevin_andrews,house,44,Liberal Party of Australia,Coalition,wikipedia_46_carried_back
 kevin_andrews,house,45,Liberal Party of Australia,Coalition,wikipedia_46_carried_back
@@ -492,13 +530,16 @@ kristy_mcbain,house,46,Australian Labor Party,Labor,wikipedia_46
 kristy_mcbain,house,47,Australian Labor Party,Labor,wikipedia_47
 kristy_mcbain,house,48,Australian Labor Party,Labor,wikipedia_48
 kylea_tink,house,47,Independent,Crossbench,wikipedia_47
+larissa_waters,senate,48,Australian Greens,Crossbench,aph_senate_api
 laura_smyth,house,43,Australian Labor Party,Labor,wikipedia_43
 laurie_ferguson,house,43,Australian Labor Party,Labor,wikipedia_44_carried_back
 laurie_ferguson,house,44,Australian Labor Party,Labor,wikipedia_44
+leah_blyth,senate,48,Liberal Party of Australia,Coalition,aph_senate_api
 leon_rebello,house,48,Liberal National Party,Coalition,wikipedia_48
 libby_coker,house,46,Australian Labor Party,Labor,wikipedia_46
 libby_coker,house,47,Australian Labor Party,Labor,wikipedia_47
 libby_coker,house,48,Australian Labor Party,Labor,wikipedia_48
+lidia_thorpe,senate,48,Independent,Crossbench,aph_senate_api
 linda_burney,house,45,Australian Labor Party,Labor,wikipedia_47_carried_back
 linda_burney,house,46,Australian Labor Party,Labor,wikipedia_46
 linda_burney,house,47,Australian Labor Party,Labor,wikipedia_47
@@ -507,6 +548,7 @@ lisa_chesters,house,45,Australian Labor Party,Labor,wikipedia_47_carried_back
 lisa_chesters,house,46,Australian Labor Party,Labor,wikipedia_46
 lisa_chesters,house,47,Australian Labor Party,Labor,wikipedia_47
 lisa_chesters,house,48,Australian Labor Party,Labor,wikipedia_48
+lisa_darmanin,senate,48,Australian Labor Party,Labor,aph_senate_api
 llew_o_brien,house,45,Liberal National Party,Coalition,wikipedia_47_carried_back
 llew_o_brien,house,46,Liberal National Party,Coalition,wikipedia_46
 llew_o_brien,house,47,Liberal National Party,Coalition,wikipedia_47
@@ -538,14 +580,18 @@ madeleine_king,house,48,Australian Labor Party,Labor,wikipedia_48
 madonna_jarrett,house,48,Australian Labor Party,Labor,wikipedia_48
 mal_brough,house,44,Liberal National Party,Coalition,wikipedia_44
 mal_washer,house,43,Liberal Party of Australia,Coalition,wikipedia_43
+malarndirri_mccarthy,senate,48,Australian Labor Party,Labor,aph_senate_api
+malcolm_roberts,senate,48,Pauline Hanson's One Nation,Crossbench,aph_senate_api
 malcolm_turnbull,house,43,Liberal Party of Australia,Coalition,wikipedia_45_carried_back
 malcolm_turnbull,house,44,Liberal Party of Australia,Coalition,wikipedia_44
 malcolm_turnbull,house,45,Liberal Party of Australia,Coalition,wikipedia_45
+maria_kovacic,senate,48,Liberal Party of Australia,Coalition,aph_senate_api
 maria_vamvakinou,house,43,Australian Labor Party,Labor,wikipedia_47_carried_back
 maria_vamvakinou,house,44,Australian Labor Party,Labor,wikipedia_47_carried_back
 maria_vamvakinou,house,45,Australian Labor Party,Labor,wikipedia_47_carried_back
 maria_vamvakinou,house,46,Australian Labor Party,Labor,wikipedia_46
 maria_vamvakinou,house,47,Australian Labor Party,Labor,wikipedia_47
+marielle_smith,senate,48,Australian Labor Party,Labor,aph_senate_api
 marion_scrymgour,house,47,Australian Labor Party,Labor,wikipedia_47
 marion_scrymgour,house,48,Australian Labor Party,Labor,wikipedia_48
 mark_butler,house,43,Australian Labor Party,Labor,wikipedia_47_carried_back
@@ -576,6 +622,7 @@ matt_keogh,house,45,Australian Labor Party,Labor,wikipedia_47_carried_back
 matt_keogh,house,46,Australian Labor Party,Labor,wikipedia_46
 matt_keogh,house,47,Australian Labor Party,Labor,wikipedia_47
 matt_keogh,house,48,Australian Labor Party,Labor,wikipedia_48
+matt_o_sullivan,senate,48,Liberal Party of Australia,Coalition,aph_senate_api
 matt_smith,house,48,Australian Labor Party,Labor,wikipedia_48
 matt_thistlethwaite,house,44,Australian Labor Party,Labor,wikipedia_47_carried_back
 matt_thistlethwaite,house,45,Australian Labor Party,Labor,wikipedia_47_carried_back
@@ -583,7 +630,9 @@ matt_thistlethwaite,house,46,Australian Labor Party,Labor,wikipedia_46
 matt_thistlethwaite,house,47,Australian Labor Party,Labor,wikipedia_47
 matt_thistlethwaite,house,48,Australian Labor Party,Labor,wikipedia_48
 matt_williams,house,44,Liberal Party of Australia,Coalition,wikipedia_44
+matthew_canavan,senate,48,Liberal National Party,Coalition,aph_senate_api
 max_chandler_mather,house,47,Australian Greens,Crossbench,wikipedia_47
+mehreen_faruqi,senate,48,Australian Greens,Crossbench,aph_senate_api
 melissa_mcintosh,house,46,Liberal Party of Australia,Coalition,wikipedia_46
 melissa_mcintosh,house,47,Liberal Party of Australia,Coalition,wikipedia_47
 melissa_mcintosh,house,48,Liberal Party of Australia,Coalition,wikipedia_48
@@ -614,7 +663,9 @@ michael_sukkar,house,44,Liberal Party of Australia,Coalition,wikipedia_47_carrie
 michael_sukkar,house,45,Liberal Party of Australia,Coalition,wikipedia_47_carried_back
 michael_sukkar,house,46,Liberal Party of Australia,Coalition,wikipedia_46
 michael_sukkar,house,47,Liberal Party of Australia,Coalition,wikipedia_47
+michaelia_cash,senate,48,Liberal Party of Australia,Coalition,aph_senate_api
 michelle_ananda_rajah,house,47,Australian Labor Party,Labor,wikipedia_47
+michelle_ananda_rajah,senate,48,Australian Labor Party,Labor,aph_senate_api
 michelle_landry,house,44,Liberal National Party,Coalition,wikipedia_47_carried_back
 michelle_landry,house,45,Liberal National Party,Coalition,wikipedia_47_carried_back
 michelle_landry,house,46,Liberal National Party,Coalition,wikipedia_46
@@ -640,17 +691,20 @@ milton_dick,house,47,Australian Labor Party,Labor,wikipedia_47
 milton_dick,house,48,Australian Labor Party,Labor,wikipedia_48
 monique_ryan,house,47,Independent,Crossbench,wikipedia_47
 monique_ryan,house,48,Independent,Crossbench,wikipedia_48
+murray_watt,senate,48,Australian Labor Party,Labor,aph_senate_api
 natasha_griggs,house,43,Country Liberal,Coalition,wikipedia_44_carried_back
 natasha_griggs,house,44,Country Liberal,Coalition,wikipedia_44
 nick_champion,house,43,Australian Labor Party,Labor,wikipedia_46_carried_back
 nick_champion,house,44,Australian Labor Party,Labor,wikipedia_46_carried_back
 nick_champion,house,45,Australian Labor Party,Labor,wikipedia_46_carried_back
 nick_champion,house,46,Australian Labor Party,Labor,wikipedia_46
+nick_mckim,senate,48,Australian Greens,Crossbench,aph_senate_api
 nickolas_varvaris,house,44,Liberal Party of Australia,Coalition,wikipedia_44
 nicola_roxon,house,43,Australian Labor Party,Labor,wikipedia_43
 nicolette_boele,house,48,Independent,Crossbench,wikipedia_48
 nicolle_flint,house,45,Liberal Party of Australia,Coalition,wikipedia_46_carried_back
 nicolle_flint,house,46,Liberal Party of Australia,Coalition,wikipedia_46
+nita_green,senate,48,Australian Labor Party,Labor,aph_senate_api
 nola_marino,house,43,Liberal Party of Australia,Coalition,wikipedia_47_carried_back
 nola_marino,house,44,Liberal Party of Australia,Coalition,wikipedia_47_carried_back
 nola_marino,house,45,Liberal Party of Australia,Coalition,wikipedia_47_carried_back
@@ -675,6 +729,10 @@ paul_fletcher,house,45,Liberal Party of Australia,Coalition,wikipedia_47_carried
 paul_fletcher,house,46,Liberal Party of Australia,Coalition,wikipedia_46
 paul_fletcher,house,47,Liberal Party of Australia,Coalition,wikipedia_47
 paul_neville,house,43,Liberal National Party,Coalition,wikipedia_43
+paul_scarr,senate,48,Liberal National Party,Coalition,aph_senate_api
+pauline_hanson,senate,48,Pauline Hanson's One Nation,Crossbench,aph_senate_api
+penny_allman_payne,senate,48,Australian Greens,Crossbench,aph_senate_api
+penny_wong,senate,48,Australian Labor Party,Labor,aph_senate_api
 peta_murphy,house,46,Australian Labor Party,Labor,wikipedia_46
 peta_murphy,house,47,Australian Labor Party,Labor,wikipedia_47
 peter_dutton,house,43,Liberal National Party,Coalition,wikipedia_47_carried_back
@@ -694,12 +752,16 @@ philip_ruddock,house,44,Liberal Party of Australia,Coalition,wikipedia_44
 phillip_thompson,house,46,Liberal National Party,Coalition,wikipedia_46
 phillip_thompson,house,47,Liberal National Party,Coalition,wikipedia_47
 phillip_thompson,house,48,Liberal National Party,Coalition,wikipedia_48
+raff_ciccone,senate,48,Australian Labor Party,Labor,aph_senate_api
+ralph_babet,senate,48,United Australia Party,Crossbench,aph_senate_api
 rebecca_white,house,48,Australian Labor Party,Labor,wikipedia_48
 rebekha_sharkie,house,45,Centre Alliance,Crossbench,wikipedia_45
 rebekha_sharkie,house,46,Centre Alliance,Crossbench,wikipedia_46
 rebekha_sharkie,house,47,Centre Alliance,Crossbench,wikipedia_47
 rebekha_sharkie,house,48,Centre Alliance,Crossbench,wikipedia_48
 renee_coffey,house,48,Australian Labor Party,Labor,wikipedia_48
+richard_colbeck,senate,48,Liberal Party of Australia,Coalition,aph_senate_api
+richard_dowling,senate,48,Australian Labor Party,Labor,aph_senate_api
 richard_marles,house,43,Australian Labor Party,Labor,wikipedia_47_carried_back
 richard_marles,house,44,Australian Labor Party,Labor,wikipedia_47_carried_back
 richard_marles,house,45,Australian Labor Party,Labor,wikipedia_47_carried_back
@@ -719,6 +781,7 @@ rob_mitchell,house,47,Australian Labor Party,Labor,wikipedia_47
 rob_mitchell,house,48,Australian Labor Party,Labor,wikipedia_48
 rob_oakeshott,house,43,Independent,Crossbench,wikipedia_43
 robert_mcclelland,house,43,Australian Labor Party,Labor,wikipedia_43
+ross_cadell,senate,48,National Party of Australia,Coalition,aph_senate_api
 ross_hart,house,45,Australian Labor Party,Labor,wikipedia_45
 ross_vasta,house,43,Liberal National Party,Coalition,wikipedia_47_carried_back
 ross_vasta,house,44,Liberal National Party,Coalition,wikipedia_47_carried_back
@@ -746,8 +809,10 @@ sam_lim,house,47,Australian Labor Party,Labor,wikipedia_47
 sam_lim,house,48,Australian Labor Party,Labor,wikipedia_48
 sam_rae,house,47,Australian Labor Party,Labor,wikipedia_47
 sam_rae,house,48,Australian Labor Party,Labor,wikipedia_48
+sarah_hanson_young,senate,48,Australian Greens,Crossbench,aph_senate_api
 sarah_henderson,house,44,Liberal Party of Australia,Coalition,wikipedia_45_carried_back
 sarah_henderson,house,45,Liberal Party of Australia,Coalition,wikipedia_45
+sarah_henderson,senate,48,Liberal Party of Australia,Coalition,aph_senate_api
 sarah_witty,house,48,Australian Labor Party,Labor,wikipedia_48
 scott_buchholz,house,43,Liberal National Party,Coalition,wikipedia_47_carried_back
 scott_buchholz,house,44,Liberal National Party,Coalition,wikipedia_47_carried_back
@@ -760,6 +825,7 @@ scott_morrison,house,44,Liberal Party of Australia,Coalition,wikipedia_47_carrie
 scott_morrison,house,45,Liberal Party of Australia,Coalition,wikipedia_47_carried_back
 scott_morrison,house,46,Liberal Party of Australia,Coalition,wikipedia_46
 scott_morrison,house,47,Liberal Party of Australia,Coalition,wikipedia_47
+sean_bell,senate,48,Pauline Hanson's One Nation,Crossbench,aph_senate_api
 sharman_stone,house,43,Liberal Party of Australia,Coalition,wikipedia_44_carried_back
 sharman_stone,house,44,Liberal Party of Australia,Coalition,wikipedia_44
 sharon_bird,house,43,Australian Labor Party,Labor,wikipedia_46_carried_back
@@ -782,9 +848,11 @@ sid_sidebottom,house,43,Australian Labor Party,Labor,wikipedia_43
 simon_crean,house,43,Australian Labor Party,Labor,wikipedia_43
 simon_kennedy,house,47,Liberal Party of Australia,Coalition,wikipedia_47
 simon_kennedy,house,48,Liberal Party of Australia,Coalition,wikipedia_48
+slade_brockman,senate,48,Liberal Party of Australia,Coalition,aph_senate_api
 sophie_mirabella,house,43,Liberal Party of Australia,Coalition,wikipedia_43
 sophie_scamps,house,47,Independent,Crossbench,wikipedia_47
 sophie_scamps,house,48,Independent,Crossbench,wikipedia_48
+steph_hodgins_may,senate,48,Australian Greens,Crossbench,aph_senate_api
 stephen_bates,house,47,Australian Greens,Crossbench,wikipedia_47
 stephen_jones,house,43,Australian Labor Party,Labor,wikipedia_47_carried_back
 stephen_jones,house,44,Australian Labor Party,Labor,wikipedia_47_carried_back
@@ -810,7 +878,9 @@ stuart_robert,house,44,Liberal National Party,Coalition,wikipedia_47_carried_bac
 stuart_robert,house,45,Liberal National Party,Coalition,wikipedia_47_carried_back
 stuart_robert,house,46,Liberal National Party,Coalition,wikipedia_46
 stuart_robert,house,47,Liberal National Party,Coalition,wikipedia_47
+sue_lines,senate,48,Australian Labor Party,Labor,aph_senate_api
 susan_lamb,house,45,Australian Labor Party,Labor,wikipedia_45
+susan_mcdonald,senate,48,Liberal National Party,Coalition,aph_senate_api
 susan_templeman,house,45,Australian Labor Party,Labor,wikipedia_47_carried_back
 susan_templeman,house,46,Australian Labor Party,Labor,wikipedia_46
 susan_templeman,house,47,Australian Labor Party,Labor,wikipedia_47
@@ -821,6 +891,7 @@ sussan_ley,house,45,Liberal Party of Australia,Coalition,wikipedia_47_carried_ba
 sussan_ley,house,46,Liberal Party of Australia,Coalition,wikipedia_46
 sussan_ley,house,47,Liberal Party of Australia,Coalition,wikipedia_47
 sussan_ley,house,48,Liberal Party of Australia,Coalition,wikipedia_48
+tammy_tyrrell,senate,48,Australian Labor Party,Labor,aph_senate_api
 tania_lawrence,house,47,Australian Labor Party,Labor,wikipedia_47
 tania_lawrence,house,48,Australian Labor Party,Labor,wikipedia_48
 tanya_plibersek,house,43,Australian Labor Party,Labor,wikipedia_47_carried_back
@@ -841,6 +912,7 @@ terri_butler,house,46,Australian Labor Party,Labor,wikipedia_46
 terry_young,house,46,Liberal National Party,Coalition,wikipedia_46
 terry_young,house,47,Liberal National Party,Coalition,wikipedia_47
 terry_young,house,48,Liberal National Party,Coalition,wikipedia_48
+tim_ayres,senate,48,Australian Labor Party,Labor,aph_senate_api
 tim_hammond,house,45,Australian Labor Party,Labor,wikipedia_45
 tim_watts,house,44,Australian Labor Party,Labor,wikipedia_47_carried_back
 tim_watts,house,45,Australian Labor Party,Labor,wikipedia_47_carried_back
@@ -867,6 +939,7 @@ tony_pasin,house,45,Liberal Party of Australia,Coalition,wikipedia_47_carried_ba
 tony_pasin,house,46,Liberal Party of Australia,Coalition,wikipedia_46
 tony_pasin,house,47,Liberal Party of Australia,Coalition,wikipedia_47
 tony_pasin,house,48,Liberal Party of Australia,Coalition,wikipedia_48
+tony_sheldon,senate,48,Australian Labor Party,Labor,aph_senate_api
 tony_smith,house,43,Liberal Party of Australia,Coalition,wikipedia_46_carried_back
 tony_smith,house,44,Liberal Party of Australia,Coalition,wikipedia_46_carried_back
 tony_smith,house,45,Liberal Party of Australia,Coalition,wikipedia_46_carried_back
@@ -886,6 +959,9 @@ trent_zimmerman,house,46,Liberal Party of Australia,Coalition,wikipedia_46
 trevor_evans,house,45,Liberal National Party,Coalition,wikipedia_46_carried_back
 trevor_evans,house,46,Liberal National Party,Coalition,wikipedia_46
 trish_cook,house,48,Australian Labor Party,Labor,wikipedia_48
+tyron_whitten,senate,48,Pauline Hanson's One Nation,Crossbench,aph_senate_api
+vanessa_bleyer,senate,48,Australian Greens,Crossbench,aph_senate_api
+varun_ghosh,senate,48,Australian Labor Party,Labor,aph_senate_api
 vince_connelly,house,46,Liberal Party of Australia,Coalition,wikipedia_46
 warren_entsch,house,43,Liberal National Party,Coalition,wikipedia_47_carried_back
 warren_entsch,house,44,Liberal National Party,Coalition,wikipedia_47_carried_back

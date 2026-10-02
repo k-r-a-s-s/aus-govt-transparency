@@ -1,21 +1,27 @@
 # Loading: `python -m disclosures load`
 
 ```sh
-.venv/bin/python -m disclosures load --source workflow-claude \
+.venv/bin/python -m disclosures load --source gemini-api --source senate-json \
     [--db disclosures_v2.db] [--extractions extractions] [--overrides data/overrides]
 ```
+
+`--source` is repeatable: each one is a directory `extractions/<source>/`, and all of them go
+into the one DB. The current build is `gemini-api` (House 43rd–48th) plus `senate-json`
+(Senate 48th, `docs/v2/senate_source.md`). A source named twice, or one with no directory, is
+exit 2.
 
 Run it from the repo root, because `pdf_path` in the extraction files is relative to the repo.
 
 ## What it does
 
-1. Takes every `*.json` under `extractions/<source>/` and runs `validate_file` on it (the
+1. Takes every `*.json` under each `extractions/<source>/` and runs `validate_file` on it (the
    same check as `python -m disclosures validate`). Invalid files are skipped. Each one is
    printed as `SKIPPED <file>: <error>`, and the number skipped is printed too. If two files
    have the same `pdf_sha256`, the second is skipped as a duplicate.
 2. Builds a new SQLite DB from scratch with the ADR-7 tables (`documents`, `members`,
    `member_terms`, `items`, `entities`, `entity_aliases`) plus `meta` (`schema_version`,
-   `source_id`, `loaded_at`, `n_files`). It writes the DB to `<db>.tmp-<pid>` and then
+   `source_id` (the source ids joined by commas), `loaded_at`, `n_files`).
+   `documents.extraction_source` is the source each file came from. It writes the DB to `<db>.tmp-<pid>` and then
    renames that over `<db>`. A load that fails leaves the previous DB as it was.
    `entities` and `entity_aliases` start empty; Phase 3 (`entities`) fills them.
    `documents.source_url` and `fetched_at` are NULL for now; `pdfs/manifest.csv` (T3.2) holds
@@ -34,7 +40,8 @@ It refuses to write a file named `disclosures.db`, so v1 is never touched.
 non-alphanumerics becomes `_`, no leading or trailing `_` (`Clare O'Neil` -> `clare_o_neil`).
 The loader tries these in order and uses the first that matches:
 
-1. **`data/overrides/pdf_members.csv`** by `pdf_path`. It covers all 774 tracked PDFs. A row
+1. **`data/overrides/pdf_members.csv`** by `pdf_path`. It covers every tracked PDF (House
+   43rd–48th) and every Senate source document (`pdfs/senate/48/*_48s.json`). A row
    with an empty `member_id` is a non-member document: `documents.member_id` is NULL and no
    member or term row is made.
 2. **`data/overrides/member_aliases.csv`** by the normalised `member_name_as_printed`. The
@@ -45,7 +52,10 @@ The loader tries these in order and uses the first that matches:
 3. **Slug of `member_name_as_printed`**, with a `WARNING` line. Add the PDF to
    `pdf_members.csv` when you see one.
 
-`member_terms` gets one row per (member, chamber, parliament) that has a document.
+`member_terms` gets one row per (member, chamber, parliament) that has a document, so a
+member who moved chambers has rows in both (`dave_sharma`: house/46, senate/48).
+`members.chamber` is the chamber of the member's most recent term (latest parliament, then
+latest statement date), D3.
 `electorate_or_state` comes from the extraction as printed. If that is empty, it comes from
 the PDF's `pdf_members.csv` row. `party` and `political_bloc` come from `party_terms.csv`, and
 are NULL when no row exists. See `data/overrides/README.md` for how that table was derived.

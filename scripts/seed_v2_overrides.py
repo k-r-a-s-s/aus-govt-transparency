@@ -59,12 +59,14 @@ MERGE_OVERRIDES = _literal(CLEAN / "merge_duplicate_mps.py", "get_manual_merge_o
 COALITION_PARTIES = _literal(CLEAN / "add_political_bloc.py", "COALITION_PARTIES")
 LABOR_PARTIES = _literal(CLEAN / "add_political_bloc.py", "LABOR_PARTIES")
 
-# Party-name variants seen in v1's Wikipedia CSVs that PARTY_MAPPING does not cover.
+# Party-name variants seen in v1's Wikipedia CSVs (and, last, the APH senators' interests API,
+# T3.7) that PARTY_MAPPING does not cover.
 EXTRA_PARTY_MAPPING = {
     "Palmer United": "United Australia Party",
     "Xenophon/Centre Alliance": "Centre Alliance",
     "Nationals WA": "National Party of Australia",
     "Liberal / Independent": "Liberal/Independent",
+    "Country Liberal Party": "Country Liberal",
 }
 
 # --- manual identity fixes ----------------------------------------------------------------
@@ -143,7 +145,9 @@ def surname_tokens(name: str) -> list[str]:
 
 
 def parl_of(path: str) -> int:
-    return int(path.split("/")[1])
+    """pdfs/{NN}/x.pdf (House) or pdfs/senate/{NN}/x.json (Senate) -> NN."""
+    parts = path.split("/")
+    return int(parts[2] if parts[1] == "senate" else parts[1])
 
 
 V1_LAST_PARLIAMENT = 47

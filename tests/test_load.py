@@ -2,6 +2,7 @@ import copy
 import csv
 import hashlib
 import os
+import re
 import sqlite3
 from pathlib import Path
 
@@ -337,7 +338,9 @@ def test_real_overrides_cover_all_tracked_pdfs():
 
     tracked = subprocess.run(["git", "ls-files", "pdfs"], cwd=REPO, capture_output=True, text=True,
                              check=True).stdout.split()
-    tracked = sorted(p for p in tracked if p.lower().endswith(".pdf"))
+    # House PDFs plus the Senate source documents (pdfs/senate/NN/*_NNs.json, not the listing)
+    tracked = sorted(p for p in tracked if p.lower().endswith(".pdf")
+                     or re.fullmatch(r"pdfs/senate/\d+/[a-z]+_\d+s\.json", p))
     ov = Overrides(REAL_OVERRIDES)
     assert sorted(ov.pdf_members) == tracked
     with open(REAL_OVERRIDES / "pdf_members.csv", newline="") as fh:
@@ -346,7 +349,9 @@ def test_real_overrides_cover_all_tracked_pdfs():
     # every (member, parliament) with a PDF has a party, or is listed as unknown
     for path, r in ov.pdf_members.items():
         if r["member_id"]:
-            key = (r["member_id"], "house", int(path.split("/")[1]))
+            parts = path.split("/")
+            key = ((r["member_id"], "senate", int(parts[2])) if parts[1] == "senate"
+                   else (r["member_id"], "house", int(parts[1])))
             assert key in ov.party_terms or key in ov.unknown_party, key
             pt = ov.party_terms.get(key)
             if pt:
@@ -378,3 +383,65 @@ def test_unwritable_target_exits_2(load_repo, capsys):
         ro.chmod(0o700)
     assert rc == 2
     assert "load:" in capsys.readouterr().err
+
+
+def _add_senate_source(root, ov, doc, member_id="jane_fixture"):
+    """A senate-json extraction (T3.7): the source document is a .json payload, 1 page."""
+    src = root / "pdfs" / "senate" / "48" / "fixturej_48s.json"
+    write_json(src, {"senatorInterestStatement": {"senatorName": "Fixture, Jane"}})
+    s = copy.deepcopy(doc)
+    s.update(source_id="senate-json", pdf_path="pdfs/senate/48/fixturej_48s.json",
+             pdf_sha256=hashlib.sha256(src.read_bytes()).hexdigest(), page_count=1,
+             pages_covered=[1], chamber="senate", parliament=48,
+             member_name_as_printed="Fixture, Jane", electorate_or_state="Tasmania",
+             statement_date="2025-08-01")
+    s["items"] = [dict(copy.deepcopy(it), page=1) for it in s["items"]]
+    write_json(root / "extractions" / "senate-json" / "senate" / "48" / "fixturej_48s.json", s)
+    with open(ov / "pdf_members.csv", "a", newline="") as fh:
+        csv.writer(fh).writerow([s["pdf_path"], member_id, "Jane Fixture", "Tasmania",
+                                 "aph_senate_48"])
+    with open(ov / "party_terms.csv", "a", newline="") as fh:
+        csv.writer(fh).writerow([member_id, "senate", 48, "Australian Greens", "Crossbench",
+                                 "aph_senate_api"])
+    return s
+
+
+def test_multi_source_load(load_repo, capsys):
+    """--source is repeatable: House (workflow-claude here) + senate-json in one DB. A member who
+    moved chambers keeps one member_id, gets one member_terms row per chamber and parliament, and
+    members.chamber is the chamber of the most recent term (D3)."""
+    root, ov = load_repo
+    import json
+
+    base = json.loads((root / "extractions" / "workflow-claude" / "house" / "45" /
+                       "fixture_45p.json").read_text())
+    s = _add_senate_source(root, ov, base)
+    summ = load_db(["workflow-claude", "senate-json"], root / "v2.db", root / "extractions", ov)
+    db = root / "v2.db"
+    assert summ["files_loaded"] == 4 and summ["source_id"] == "workflow-claude,senate-json"
+    assert _q(db, "select * from members order by 1") == [
+        ("jane_fixture", "Jane Fixture", "senate"), ("newbie_o_member", "Néwbie O'Member", "house")]
+    assert _q(db, "select chamber, parliament, electorate_or_state, party from member_terms "
+                  "where member_id='jane_fixture' order by 2") == [
+        ("house", 45, "Testville", "Australian Labor Party"),
+        ("house", 46, "Testville", "Independent"),
+        ("senate", 48, "Tasmania", "Australian Greens")]
+    assert _q(db, "select extraction_source, count(*) from documents group by 1 order by 1") == [
+        ("senate-json", 1), ("workflow-claude", 3)]
+    assert _q(db, "select count(*) from items where chamber='senate' and parliament=48") == [
+        (len(s["items"]),)]
+    assert _q(db, "select value from meta where key='source_id'") == [("workflow-claude,senate-json",)]
+    # House item ids don't depend on which other sources are loaded alongside
+    house_only = load_db("workflow-claude", root / "h.db", root / "extractions", ov)
+    assert house_only["files_loaded"] == 3
+    assert _q(root / "h.db", "select item_id from items order by 1") == _q(
+        db, "select item_id from items where chamber='house' order by 1")
+    assert _q(root / "h.db", "select chamber from members where member_id='jane_fixture'") == [
+        ("house",)]
+    # the CLI takes --source more than once; a repeated id is an error
+    args = ["--db", str(root / "cli.db"), "--extractions", str(root / "extractions"),
+            "--overrides", str(ov)]
+    assert main(["load", "--source", "workflow-claude", "--source", "senate-json"] + args) == 0
+    assert "loaded 4 files, skipped 1 (source workflow-claude,senate-json)" in capsys.readouterr().out
+    assert main(["load", "--source", "senate-json", "--source", "senate-json"] + args) == 2
+    assert main(["load", "--source", "workflow-claude", "--source", "nope"] + args) == 2

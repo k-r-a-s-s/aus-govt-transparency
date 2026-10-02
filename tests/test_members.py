@@ -181,3 +181,83 @@ def test_party_terms_from_wiki(tmp_path):
     counts = MB.party_terms("house", 48, [LATER], root=tmp_path, out=out)
     assert counts["unknown"] == 1 and "UNKNOWN matt_smith" in out.getvalue()
     assert _read(ov / "unknown_party.csv")[0]["member_id"] == "matt_smith"
+
+
+def test_paths_parliament_and_chamber():
+    assert MB._parliament("pdfs/48/dickm_48p.pdf") == 48
+    assert MB._parliament("pdfs/senate/48/cashm_48s.json") == 48
+    assert MB._chamber("pdfs/48/dickm_48p.pdf") == "house"
+    assert MB._chamber("pdfs/senate/48/cashm_48s.json") == "senate"
+
+
+def _senate_repo(tmp_path):
+    """fake_repo + two Senate payloads: an ex-MP (Tony Smith, by name alone, since his alias
+    carries a House seat) and a new Queensland Liberal senator."""
+    import json
+
+    ov = fake_repo(tmp_path)
+    man = _read(tmp_path / "pdfs" / "manifest.csv")
+    payloads = {"smitht_48s.json": ("Tony Smith", "Victoria", "Liberal Party of Australia"),
+                "nobodyn_48s.json": ("Nancy Nobody", "Queensland", "The Nationals")}
+    for fn, (name, state, party) in payloads.items():
+        path = tmp_path / "pdfs" / "senate" / "48" / fn
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps({"senatorInterestStatement": {
+            "senatorName": name, "electorateState": state, "senatorParty": party}}))
+        man.append({"chamber": "senate", "parliament": "48", "member_name": name,
+                    "electorate_or_state": state, "source_url": "", "listed_date": "",
+                    "pdf_path": f"pdfs/senate/48/{fn}", "pdf_sha256": "x", "page_count": "1",
+                    "fetched_at": ""})
+    _write(tmp_path / "pdfs" / "manifest.csv", MAN_HEADER, [list(r.values()) for r in man])
+    _write(ov / "party_mapping.csv", ["variant", "canonical_party"],
+           [["The Nationals", "National Party of Australia"]])
+    _write(ov / "political_blocs.csv", ["party", "bloc"],
+           [["Liberal Party of Australia", "Coalition"], ["Liberal National Party", "Coalition"]])
+    _write(ov / "party_terms.csv", MB.PARTY_HEADER,
+           [["tony_smith", "house", "47", "Liberal Party of Australia", "Coalition", "wikipedia_47"]])
+    _write(ov / "unknown_party.csv", MB.UNKNOWN_HEADER, [])
+    return ov
+
+
+def test_senate_members_and_party_terms(tmp_path):
+    ov = _senate_repo(tmp_path)
+    out = io.StringIO()
+    counts = MB.resolve("senate", 48, root=tmp_path, out=out)
+    assert counts == {"returning": 1, "new": 1, "already": 0, "collisions": 0}
+    assert "CROSS-CHAMBER Tony Smith (Victoria) -> tony_smith (House 47)" in out.getvalue()
+    rows = {r["pdf_path"]: r for r in _read(ov / "pdf_members.csv")}
+    assert rows["pdfs/senate/48/smitht_48s.json"]["member_id"] == "tony_smith"
+    assert rows["pdfs/senate/48/nobodyn_48s.json"]["member_id"] == "nancy_nobody"
+    assert {r["source"] for p, r in rows.items() if "/senate/" in p} == {"aph_senate_48"}
+    assert ["Nancy Nobody", "Queensland", "nancy_nobody", "Nancy Nobody", "aph_senate_48"] in [
+        list(r.values()) for r in _read(ov / "member_aliases.csv")]
+    counts = MB.senate_party_terms(48, root=tmp_path, out=io.StringIO())
+    assert counts == {"added": 2, "unknown": 0, "already": 0}
+    senate = [list(r.values()) for r in _read(ov / "party_terms.csv") if r["chamber"] == "senate"]
+    assert senate == [
+        # a Queensland National is LNP (v1's convention, as for the House)
+        ["nancy_nobody", "senate", "48", "Liberal National Party", "Coalition", "aph_senate_api"],
+        ["tony_smith", "senate", "48", "Liberal Party of Australia", "Coalition", "aph_senate_api"]]
+    assert MB.senate_party_terms(48, root=tmp_path, out=io.StringIO())["already"] == 2
+    # House party terms ignore the Senate rows of the same parliament
+    assert MB.party_terms("house", 48, [WIKI], root=tmp_path, out=io.StringIO())["added"] == 0
+
+
+def test_real_48th_senate_members():
+    """Every Senate 48th source document has a pdf_members row and a senate party term; the four
+    ex-MPs keep their House member_id (eyeballed in T3.7)."""
+    rows = _read(REPO / "data" / "overrides" / "pdf_members.csv")
+    man = sorted(r["pdf_path"] for r in _read(REPO / "pdfs" / "manifest.csv")
+                 if r["chamber"] == "senate" and r["parliament"] == "48")
+    sen = {r["pdf_path"]: r["member_id"] for r in rows if r["pdf_path"].startswith("pdfs/senate/48/")}
+    assert sorted(sen) == man and len(man) == 76 and len(set(sen.values())) == 76
+    for path, mid in [("anandarajahm_48s.json", "michelle_ananda_rajah"),
+                      ("hendersons_48s.json", "sarah_henderson"),
+                      ("oneilld_48s.json", "deborah_o_neill"),
+                      ("sharmad_48s.json", "dave_sharma")]:
+        assert sen[f"pdfs/senate/48/{path}"] == mid
+    ov = Overrides(REPO / "data" / "overrides")
+    for mid in sen.values():
+        pt = ov.party_terms[(mid, "senate", 48)]
+        assert pt["source"] == "aph_senate_api" and pt["political_bloc"] in {
+            "Coalition", "Labor", "Crossbench"}

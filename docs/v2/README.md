@@ -18,7 +18,7 @@ Spec: `plans/2026-10-01-disclosures-v2/SPEC.md`.
 | `disclosures/openrouter.py` | OpenRouter transport for extractor B (native PDF + strict json_schema; any vendor's model for the bake-off) |
 | `disclosures/gemini_model.py` | `resolve_gemini_model()`: the one Gemini model-id resolver (bans 0.x-2.x ids) |
 | `disclosures/load.py` | loader: validated extractions -> `disclosures_v2.db` (ADR-7); see `docs/v2/loading.md` |
-| `disclosures/senate.py` | Senate 48th (ADR-9, D3): `scrape --chamber senate` saves the senators' interests API payloads to `pdfs/senate/48/`; `extract --source senate-json` adapts them to ADR-2 (no LLM) |
+| `disclosures/senate.py` | Senate 48th (ADR-9, D3): `scrape --chamber senate` saves the senators' interests API payloads to `pdfs/senate/48/`; `extract --source senate-json` adapts them to ADR-2 (no LLM). See `docs/v2/senate_source.md` |
 | `disclosures/sources.py` | House register URLs (43rd–48th), browser-UA HTTP with retries, listing parser (fixtures in `tests/fixtures/aph/`) |
 | `disclosures/manifest.py` | `pdfs/manifest.csv` (ADR-8): one row per tracked PDF; `python -m disclosures.manifest --backfill [--html-dir DIR]` rebuilds it, matching source_url/listed_date from the 43rd–47th archive listings |
 | `disclosures/members.py` | `python -m disclosures.members --parliament 48 [--dry-run]`: `pdf_members.csv`/`member_aliases.csv` rows for newly scraped PDFs (D3); prints NEW members with same-surname earlier members to eyeball. `--party-terms --wiki-revision ID …` writes `party_terms.csv` rows (`source=wikipedia_48`) from pinned Wikipedia revisions |
@@ -55,8 +55,9 @@ python -m disclosures scrape --chamber house|senate --parliament 48 [--verify]  
 python -m disclosures extract --source senate-json pdfs/senate/48/*.json   # Senate adapter, no LLM
 python -m disclosures score --pred <dir> --gold eval/gold [--json out.json]
 python -m disclosures score --v1 disclosures.db --gold eval/gold [--json eval/v1_baseline.json]
-python -m disclosures load --source workflow-claude [--db disclosures_v2.db] \
+python -m disclosures load --source gemini-api [--source senate-json] [--db disclosures_v2.db] \
     [--extractions extractions] [--overrides data/overrides]   # see docs/v2/loading.md
+python -m disclosures.members --chamber house|senate --parliament 48 [--party-terms ...]   # new members' override rows
 python -m disclosures entities [--offline] [--db disclosures_v2.db] [--data data/entities]   # after load; docs/v2/entities.md
 python -m disclosures entities --fetch-asx    # new ASX snapshot into data/reference/, then stop
 python -m disclosures entities --draft-candidates [CSV] [--top 200]   # curation worksheet, then stop

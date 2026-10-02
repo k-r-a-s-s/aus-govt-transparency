@@ -605,3 +605,21 @@ V1's cold check found two places where C12 output could be read two ways.
 - `extracted_at` is the manifest's `fetched_at`, so re-running the adapter is byte-identical.
 - All 76 payloads use the same 14 section keys and only `Addition`/`Deletion` alterations
   (2026-10-02): 1,980 items (1,328 interests, 597 added, 55 removed).
+
+## 2026-10-03 — Senate members, parties and the multi-source load (T3.7)
+- New senators get `member_id` = slug of the API listing's "Given Surname" (`Matthew Canavan`,
+  not Wikipedia's `Matt Canavan`). D3's "prefer the Wikipedia form" is for House MPs, where v1
+  already used it; the Senate has no v1 history, and an extra Wikipedia lookup for 72 names
+  buys nothing the alias table can't add later. Ex-MPs match `member_aliases.csv` by name alone
+  (their alias rows carry a House seat, not a state). All four matches (Ananda-Rajah, Henderson,
+  Deborah O'Neill, Sharma) were checked by hand, and so were the surname lookalikes the command
+  prints (Payne, Bell, Brown, Collins, Young, McKenzie, Price, Roberts, Smith): all different people.
+- Senate parties follow the House convention: a Queensland Liberal or National is
+  `Liberal National Party` (Canavan's `The Nationals` and Scarr's `Liberal Party of Australia`
+  become LNP). `Country Liberal Party` -> `Country Liberal` joins the seed script's
+  `EXTRA_PARTY_MAPPING`, so `seed_v2_overrides.py --check` still passes.
+- `members.chamber` = the chamber of the latest (parliament, statement_date). A tie on both is
+  broken by chamber name, so the result is deterministic; no 48th member has one.
+- `meta.source_id` joins the loaded source ids with commas; `documents.extraction_source` is
+  per file. House item ids are the same with or without `senate-json` loaded (they hash only
+  the file's own content): House hash `c4888789…` is unchanged, full DB `88fb48c0…`.

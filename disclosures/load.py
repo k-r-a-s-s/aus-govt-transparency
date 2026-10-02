@@ -1,7 +1,7 @@
 """Loader (ADR-7): validated extraction files -> ``disclosures_v2.db``.
 
-    python -m disclosures load --source <source_id> [--db disclosures_v2.db] \
-        [--extractions extractions] [--overrides data/overrides]
+    python -m disclosures load --source <source_id> [--source <source_id> ...] \
+        [--db disclosures_v2.db] [--extractions extractions] [--overrides data/overrides]
 
 Rebuilds the DB from scratch (written to a temp file, then renamed over the target, so a
 failed load leaves the previous DB intact). Never touches v1's ``disclosures.db``.
@@ -282,38 +282,47 @@ def _guard_v1(db_path: Path) -> None:
         raise ValueError(f"refusing to write {db_path}: that is the frozen v1 database")
 
 
-def load_db(source_id: str, db_path: str | Path = DEFAULT_DB,
+def load_db(source_ids: str | List[str], db_path: str | Path = DEFAULT_DB,
             extractions_root: str | Path = DEFAULT_EXTRACTIONS,
             overrides_dir: str | Path = DEFAULT_OVERRIDES,
             root: str | Path | None = None) -> dict:
-    """Build ``db_path`` from scratch from ``extractions_root/source_id``. Returns a summary
-    dict (files loaded/skipped, counts, sanity query results, unresolved members)."""
+    """Build ``db_path`` from scratch from ``extractions_root/<source_id>`` for each source id
+    (one string, or a list: ``gemini-api`` for the House plus ``senate-json`` for the Senate).
+    Returns a summary dict (files loaded/skipped, counts, sanity query results, unresolved
+    members)."""
+    if isinstance(source_ids, str):
+        source_ids = [source_ids]
+    if not source_ids or len(set(source_ids)) != len(source_ids):
+        raise ValueError(f"need one or more distinct --source ids, got {source_ids}")
     db_path = Path(db_path)
     _guard_v1(db_path)
-    src_dir = Path(extractions_root) / source_id
-    if not src_dir.is_dir():
-        raise FileNotFoundError(f"no extraction directory {src_dir}")
+    src_dirs = [Path(extractions_root) / s for s in source_ids]
+    for src_dir in src_dirs:
+        if not src_dir.is_dir():
+            raise FileNotFoundError(f"no extraction directory {src_dir}")
     if not Path(overrides_dir).is_dir():
         raise FileNotFoundError(f"no overrides directory {overrides_dir}")
     ov = Overrides(Path(overrides_dir))
 
-    valid: List[Tuple[Path, dict]] = []
+    valid: List[Tuple[Path, dict, str]] = []
     skipped: Dict[str, List[str]] = {}
-    for f in iter_json_files([src_dir]):
-        errs = validate_file(f, root=root)
-        if errs:
-            skipped[str(f)] = errs
-            continue
-        valid.append((f, json.loads(f.read_text(encoding="utf-8"))))
+    for source_id, src_dir in zip(source_ids, src_dirs):
+        for f in iter_json_files([src_dir]):
+            errs = validate_file(f, root=root)
+            if errs:
+                skipped[str(f)] = errs
+                continue
+            valid.append((f, json.loads(f.read_text(encoding="utf-8")), source_id))
 
     documents, items = [], []
-    members: Dict[str, Tuple[str, str]] = {}
+    # member_id -> (full_name, {chamber: latest (parliament, statement_date)})
+    members: Dict[str, Tuple[str, Dict[str, Tuple[int, str]]]] = {}
     terms: Dict[Tuple[str, str, int], dict] = {}
     resolution = defaultdict(int)
     slug_members: List[Tuple[str, str]] = []
     seen_sha: Dict[str, str] = {}
     duplicates: Dict[str, List[str]] = {}
-    for f, doc in valid:
+    for f, doc, source_id in valid:
         sha = doc["pdf_sha256"]
         if sha in seen_sha:
             duplicates[str(f)] = [f"duplicate pdf_sha256 (already loaded from {seen_sha[sha]})"]
@@ -326,7 +335,8 @@ def load_db(source_id: str, db_path: str | Path = DEFAULT_DB,
         if how == "slug":
             slug_members.append((doc["pdf_path"], mid))
         if mid is not None:
-            members.setdefault(mid, (full_name, chamber))
+            latest = members.setdefault(mid, (full_name, {}))[1]
+            latest[chamber] = max(latest.get(chamber, (0, "")), (parl, doc["statement_date"] or ""))
             tkey = (mid, chamber, parl)
             elec = (doc["electorate_or_state"].strip()
                     or ov.pdf_members.get(doc["pdf_path"], {}).get("electorate_or_state")
@@ -361,8 +371,11 @@ def load_db(source_id: str, db_path: str | Path = DEFAULT_DB,
         try:
             conn.executescript(DDL)
             with conn:
-                conn.executemany("insert into members values (?,?,?)",
-                                 sorted((m, n, c) for m, (n, c) in members.items()))
+                # D3: members.chamber is the chamber of the member's most recent term
+                # (latest parliament, then latest statement date); member_terms keeps one
+                # row per chamber and parliament.
+                conn.executemany("insert into members values (?,?,?)", sorted(
+                    (m, n, max(lat, key=lambda c: (lat[c], c))) for m, (n, lat) in members.items()))
                 conn.executemany(
                     "insert into member_terms values (?,?,?,?,?,?)",
                     [(m, c, p, t["electorate_or_state"], t["party"], t["political_bloc"])
@@ -373,7 +386,7 @@ def load_db(source_id: str, db_path: str | Path = DEFAULT_DB,
                     "insert into items values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", items)
                 loaded_at = _dt.datetime.now(_dt.timezone.utc).replace(microsecond=0).isoformat()
                 conn.executemany("insert into meta values (?,?)", [
-                    ("schema_version", SCHEMA_VERSION), ("source_id", source_id),
+                    ("schema_version", SCHEMA_VERSION), ("source_id", ",".join(source_ids)),
                     ("loaded_at", loaded_at), ("n_files", str(len(documents)))])
             sanity = [(label, conn.execute(sql).fetchone()[0], hard)
                       for label, sql, hard in SANITY_QUERIES]
@@ -390,7 +403,7 @@ def load_db(source_id: str, db_path: str | Path = DEFAULT_DB,
 
     return {
         "db": str(db_path),
-        "source_id": source_id,
+        "source_id": ",".join(source_ids),
         "files_loaded": len(documents),
         "files_skipped": skipped,
         "members": len(members),
@@ -428,7 +441,9 @@ def print_summary(s: dict, out=None) -> None:
 
 
 def add_arguments(p) -> None:
-    p.add_argument("--source", required=True, help="source_id, e.g. workflow-claude")
+    p.add_argument("--source", required=True, action="append",
+                   help="source_id, e.g. gemini-api; repeat to load several "
+                        "(--source gemini-api --source senate-json)")
     p.add_argument("--db", default=DEFAULT_DB, help=f"output DB (default {DEFAULT_DB})")
     p.add_argument("--extractions", default=DEFAULT_EXTRACTIONS,
                    help=f"extractions root (default {DEFAULT_EXTRACTIONS})")

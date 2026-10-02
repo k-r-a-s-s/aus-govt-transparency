@@ -24,6 +24,15 @@ ones only add members the earlier ones lack, i.e. by-elections) and writes a
 that has none, or an ``unknown_party.csv`` row when no table row matches. Party names go
 through ``party_mapping.csv``; a Queensland Liberal or National is ``Liberal National Party``
 (v1's convention); blocs come from ``political_blocs.csv``, else Crossbench.
+
+    python -m disclosures.members --chamber senate --parliament 48 [--dry-run]
+    python -m disclosures.members --chamber senate --parliament 48 --party-terms
+
+The Senate (T3.7) works the same way on the ``pdfs/senate/NN/*.json`` manifest rows
+(``source=aph_senate_{NN}``); a senator who was an MP resolves to the House member_id by name and
+is printed as ``CROSS-CHAMBER``. Senate ``--party-terms`` needs no Wikipedia: it reads
+``senatorParty`` from each saved API payload (``source=aph_senate_api``), the party at scrape
+time.
 """
 from __future__ import annotations
 
@@ -66,8 +75,16 @@ def _write(path: Path, header: List[str], rows: List[dict]) -> None:
 
 
 def _parliament(pdf_path: str) -> Optional[int]:
-    part = pdf_path.split("/")[1] if pdf_path.count("/") >= 2 else ""
+    """pdfs/{NN}/x.pdf (House) or pdfs/senate/{NN}/x.json (Senate) -> NN."""
+    parts = pdf_path.split("/")
+    part = parts[2] if len(parts) >= 4 and parts[1] == "senate" else (
+        parts[1] if len(parts) >= 3 else "")
     return int(part) if part.isdigit() else None
+
+
+def _chamber(pdf_path: str) -> str:
+    parts = pdf_path.split("/")
+    return "senate" if len(parts) >= 4 and parts[1] == "senate" else "house"
 
 
 def _surname(name: str) -> str:
@@ -94,7 +111,8 @@ def resolve(chamber: str, parliament: int, *, root: Path = Path("."), write: boo
             if r["chamber"] == chamber and int(r["parliament"]) == parliament]
     counts = {"returning": 0, "new": 0, "already": 0, "collisions": 0}
     new_pdf, new_alias, new_ids = [], [], {}
-    src = f"aph_{parliament}"
+    src = f"aph_{parliament}" if chamber == "house" else f"aph_senate_{parliament}"
+    house_ids = {r["member_id"] for r in pdf_rows if r["member_id"] and _chamber(r["pdf_path"]) == "house"}
     for m in sorted(todo, key=lambda r: r["pdf_path"]):
         if m["pdf_path"] in ov.pdf_members:
             counts["already"] += 1
@@ -128,6 +146,9 @@ def resolve(chamber: str, parliament: int, *, root: Path = Path("."), write: boo
                   file=out)
         elif norm_person_name(name) != norm_person_name(canonical):
             print(f"RETURNING via alias {name} ({elec}) -> {mid}", file=out)
+        if chamber == "senate" and mid in house_ids:
+            print(f"CROSS-CHAMBER {name} ({elec}) -> {mid} (House "
+                  f"{','.join(str(p) for p in sorted(earlier.get(mid, ())))})", file=out)
 
     print(f"members {chamber} {parliament}: {counts['returning']} returning, {counts['new']} new, "
           f"{counts['already']} already in pdf_members, {counts['collisions']} slug collisions",
@@ -196,7 +217,7 @@ def party_terms(chamber: str, parliament: int, wikitexts: List[str], *, root: Pa
             mid = next(iter(hits)) if len(hits) == 1 else member_slug(w["name"])
             by_mid.setdefault(mid, w)
     mids = sorted({r["member_id"] for p, r in ov.pdf_members.items()
-                   if r["member_id"] and _parliament(p) == parliament})
+                   if r["member_id"] and _parliament(p) == parliament and _chamber(p) == chamber})
     counts = {"added": 0, "unknown": 0, "already": 0}
     new_party, new_unknown = [], []
     src = f"wikipedia_{parliament}"
@@ -229,6 +250,52 @@ def party_terms(chamber: str, parliament: int, wikitexts: List[str], *, root: Pa
     return counts
 
 
+def senate_party_terms(parliament: int, *, root: Path = Path("."), write: bool = True,
+                       out=sys.stdout) -> Dict[str, int]:
+    """D3: the party of each Senate member term is the API's ``senatorParty`` in the saved
+    payload (``source=aph_senate_api``). That is the current party, not the start-of-term one.
+    -> counts {added, unknown, already}."""
+    ov_dir = root / OVERRIDES
+    ov = Overrides(ov_dir)
+    mapping = {r["variant"].casefold(): r["canonical_party"] for r in _read(ov_dir / "party_mapping.csv")}
+    blocs = {r["party"]: r["bloc"] for r in _read(ov_dir / "political_blocs.csv")}
+    counts = {"added": 0, "unknown": 0, "already": 0}
+    new_party, new_unknown = [], []
+    for path, r in sorted(ov.pdf_members.items()):
+        mid = r["member_id"]
+        if not mid or _chamber(path) != "senate" or _parliament(path) != parliament:
+            continue
+        key = (mid, "senate", parliament)
+        if key in ov.party_terms or key in ov.unknown_party:
+            counts["already"] += 1
+            continue
+        st = json.loads((root / path).read_text(encoding="utf-8"))["senatorInterestStatement"]
+        raw = (st.get("senatorParty") or "").strip()
+        party = mapping.get(raw.casefold(), raw)
+        if party in ("Liberal Party of Australia", "National Party of Australia") and \
+                (st.get("electorateState") or "").strip().lower() == "queensland":
+            party = "Liberal National Party"
+        if not party:
+            counts["unknown"] += 1
+            new_unknown.append({"member_id": mid, "chamber": "senate", "parliament": parliament,
+                                "note": "no senatorParty in the APH senators' interests API"})
+            print(f"UNKNOWN {mid}", file=out)
+            continue
+        counts["added"] += 1
+        new_party.append({"member_id": mid, "chamber": "senate", "parliament": parliament,
+                          "party": party, "political_bloc": blocs.get(party, "Crossbench"),
+                          "source": "aph_senate_api"})
+    print(f"party terms senate {parliament}: {counts['added']} added, {counts['unknown']} unknown, "
+          f"{counts['already']} already present", file=out)
+    if write and (new_party or new_unknown):
+        order = lambda r: (r["member_id"], r["chamber"], int(r["parliament"]))
+        _write(ov_dir / "party_terms.csv", PARTY_HEADER,
+               sorted(_read(ov_dir / "party_terms.csv") + new_party, key=order))
+        _write(ov_dir / "unknown_party.csv", UNKNOWN_HEADER,
+               sorted(_read(ov_dir / "unknown_party.csv") + new_unknown, key=order))
+    return counts
+
+
 def _lookalikes(mid: str, canonical: str, ov: Overrides, earlier: Dict[str, set]) -> str:
     """Earlier members who share this new member's surname: the eyeball list for a returning
     MP misread as new (a nickname, a full given name, a changed seat)."""
@@ -240,13 +307,16 @@ def _lookalikes(mid: str, canonical: str, ov: Overrides, earlier: Dict[str, set]
 
 def main(argv: Optional[List[str]] = None) -> int:
     p = argparse.ArgumentParser(prog="python -m disclosures.members", description=__doc__.split("\n")[0])
-    p.add_argument("--chamber", choices=["house"], default="house")
+    p.add_argument("--chamber", choices=["house", "senate"], default="house")
     p.add_argument("--parliament", type=int, required=True)
     p.add_argument("--dry-run", action="store_true", help="report only, write nothing")
     p.add_argument("--party-terms", action="store_true", help="write party_terms rows from Wikipedia")
     p.add_argument("--wiki-revision", type=int, action="append", default=[],
                    help="pinned revision id of the members list (repeatable; start of term first)")
     args = p.parse_args(argv)
+    if args.party_terms and args.chamber == "senate":
+        senate_party_terms(args.parliament, write=not args.dry_run)
+        return 0
     if args.party_terms:
         if not args.wiki_revision:
             p.error("--party-terms needs at least one --wiki-revision")

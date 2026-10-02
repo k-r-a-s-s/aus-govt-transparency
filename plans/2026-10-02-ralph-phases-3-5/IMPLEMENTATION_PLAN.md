@@ -500,9 +500,9 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   Small (now House) left the Senate list.
 
 ### T3.7 — Senate members, parties, multi-source load, source doc
-- status: todo
+- status: done 2026-10-03
 - deps: T3.6, T3.5
-- attempts: 0
+- attempts: 1
 - budget: US$0 · network: none
 - do: `pdf_members.csv` rows for the Senate source docs. Senators who were MPs resolve to their
   existing member_id via `member_aliases.csv`; check the 43rd–47th House names. Add
@@ -513,6 +513,10 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
 - done when: `load --source gemini-api --source senate-json` exits 0; AC-4.6
   (`select count(distinct member_id) from items where chamber='senate' and parliament=48`
   between 70 and 80) and AC-2.9 pass.
+- notes: 76 senate pdf_members rows (4 ex-MPs keep House ids: ananda_rajah, henderson,
+  deborah_o_neill, dave_sharma; 72 new) + 76 party_terms (aph_senate_api, 0 unknown). load
+  gemini-api+senate-json exit 0: 995 files, 408 members (76 senate), 50,936 items; AC-4.6 76,
+  AC-2.9 0; House hash c4888789 unchanged, full 88fb48c0 stable. 301 tests pass.
 
 ### T3.8 — `refresh` (dry-run and real)
 - status: todo
