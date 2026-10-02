@@ -194,7 +194,7 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   unresolved findings".
 
 ### T1.6 — nevillep_43p: joint-fund attachment holdings for the spouse too
-- status: blocked (kevin): G2 re-extraction (--force, US$0.05) again gave the 19 p8 s9 holdings to self only (85 items, same as before), so the earlier file was restored from git. Decide: accept self-only for nevillep_43p, or allow a hand correction/override (e.g. a data/overrides owner rule) that duplicates the 19 p8 items for spouse?
+- status: dropped: accepted self-only (Kevin, 2026-10-03). G2 re-extraction (--force, US$0.05) again gave the 19 p8 s9 holdings to self only (85 items, same as before), so the earlier file was restored from git; no hand override.
 - deps: V1
 - attempts: 1
 - budget: US$0.25 · network: openrouter
@@ -342,12 +342,16 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   llm-medium), 10,381 items; keeps kevin_* on regenerate; kevin_fix format in the report.
 
 ### G3 — Kevin reviews the top-50 aliases and flagged rows
-- status: todo
+- status: done 2026-10-03
 - owner: kevin
 - deps: T2.8
 - notes: Kevin: fill `kevin_ok`/`kevin_fix` in `eval/entities_g3_review.csv`, then change this
   status line to `done <date>` (or tell the cloud session "G3 approved" and it records your
   message here).
+  2026-10-03: Kevin read all 114 rows and approved them as is ("looking pretty good"; then
+  "Approve all 114"). He queried rows 111 (`qual`) and 115 (`tef`); both were confirmed against
+  the source registers (QUAL = the VanEck ETF's ASX code in phelpsk 45p; TEF = Telefónica's
+  ticker among turnbullm 43p's overseas holdings). Blanket `kevin_ok=y` on all 114 rows, 0 `kevin_fix`.
 
 ### T2.9 — Apply G3 fixes; final entity load
 - status: todo
