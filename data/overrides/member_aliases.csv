@@ -29,12 +29,15 @@ alexander_george_hawke,Mitchell,alex_hawke,Alex Hawke,v1_mps.mp_id
 Alex Somlyay,Fairfax,alex_somlyay,Alex Somlyay,canonical
 Alexander Somlyay,Fairfax,alex_somlyay,Alex Somlyay,v1_mps.full_name
 alexander_somlyay,Fairfax,alex_somlyay,Alex Somlyay,v1_mps.mp_id
+Ali France,Dickson,ali_france,Ali France,aph_48
+Alice Jordan-Baird,Gorton,alice_jordan_baird,Alice Jordan-Baird,aph_48
 Alicia Payne,Canberra,alicia_payne,Alicia Payne,canonical
 Alicia Payne,Canberra,alicia_payne,Alicia Payne,v1_mps.full_name
 alicia_payne,Canberra,alicia_payne,Alicia Payne,v1_mps.mp_id
 Alison Byrnes,Cunningham,alison_byrnes,Alison Byrnes,canonical
 Alison Byrnes,Cunningham,alison_byrnes,Alison Byrnes,v1_mps.full_name
 alison_byrnes,Cunningham,alison_byrnes,Alison Byrnes,v1_mps.mp_id
+Alison Penfold,Lyne,alison_penfold,Alison Penfold,aph_48
 Allegra Spender,Wentworth,allegra_spender,Allegra Spender,canonical
 Allegra Spender,Wentworth,allegra_spender,Allegra Spender,v1_mps.full_name
 allegra_spender,Wentworth,allegra_spender,Allegra Spender,v1_mps.mp_id
@@ -105,6 +108,7 @@ anne_aly,Cowan,anne_aly,Anne Aly,v1_mps.mp_id
 Anne Stanley,Werriwa,anne_stanley,Anne Stanley,canonical
 Anne Stanley,Werriwa,anne_stanley,Anne Stanley,v1_mps.full_name
 anne_stanley,Werriwa,anne_stanley,Anne Stanley,v1_mps.mp_id
+Anne Urquhart,Braddon,anne_urquhart,Anne Urquhart,aph_48
 Anne Webster,Mallee,anne_webster,Anne Webster,canonical
 Anne Webster,Mallee,anne_webster,Anne Webster,v1_mps.full_name
 anne_webster,Mallee,anne_webster,Anne Webster,v1_mps.mp_id
@@ -114,15 +118,18 @@ anthony_albanese,Grayndler,anthony_albanese,Anthony Albanese,v1_mps.mp_id
 Anthony Byrne,Holt,anthony_byrne,Anthony Byrne,canonical
 Anthony Byrne,Holt,anthony_byrne,Anthony Byrne,v1_mps.full_name
 anthony_michael_byrne,Holt,anthony_byrne,Anthony Byrne,v1_mps.mp_id
+Ash Ambihaipahar,Barton,ash_ambihaipahar,Ash Ambihaipahar,aph_48
 Barnaby Joyce,New England,barnaby_joyce,Barnaby Joyce,canonical
 Barnaby Joyce,New England,barnaby_joyce,Barnaby Joyce,v1_mps.full_name
 barnaby_joyce,New England,barnaby_joyce,Barnaby Joyce,v1_mps.mp_id
 Barry Haase,Durack,barry_haase,Barry Haase,canonical
 Barry Wayne Haase,Durack,barry_haase,Barry Haase,v1_mps.full_name
 barry_wayne_haase,Durack,barry_haase,Barry Haase,v1_mps.mp_id
+Basem Abdo,Calwell,basem_abdo,Basem Abdo,aph_48
 Ben Morton,Tangney,ben_morton,Ben Morton,canonical
 Ben Morton,Tangney,ben_morton,Ben Morton,v1_mps.full_name
 ben_morton,Tangney,ben_morton,Ben Morton,v1_mps.mp_id
+Ben Small,Forrest,ben_small,Ben Small,aph_48
 Bernard Ripoll,Oxley,bernie_ripoll,Bernie Ripoll,v1_mps.full_name
 bernard_ripoll,Oxley,bernie_ripoll,Bernie Ripoll,v1_mps.mp_id
 Bernie Ripoll,Oxley,bernie_ripoll,Bernie Ripoll,canonical
@@ -149,6 +156,7 @@ Bob Katter,Kennedy,bob_katter,Bob Katter,canonical
 Bob Katter,Kennedy,bob_katter,Bob Katter,v1_mps.full_name
 bob_katter,Kennedy,bob_katter,Bob Katter,v1_mps.mp_id
 Robert Carl Katter,Kennedy,bob_katter,Bob Katter,v1_mps.full_name
+Robert Katter,Kennedy,bob_katter,Bob Katter,aph_48
 robert_carl_katter,Kennedy,bob_katter,Bob Katter,v1_mps.mp_id
 Brendan O'Connor,Gorton,brendan_o_connor,Brendan O'Connor,canonical
 Brendan O'Connor,Gorton,brendan_o_connor,Brendan O'Connor,v1_mps.full_name
@@ -177,6 +185,7 @@ cameron_caldwell,Fadden,cameron_caldwell,Cameron Caldwell,v1_mps.mp_id
 Carina Garland,Chisholm,carina_garland,Carina Garland,canonical
 Carina Garland,Chisholm,carina_garland,Carina Garland,v1_mps.full_name
 carina_garland,Chisholm,carina_garland,Carina Garland,v1_mps.mp_id
+Carol Berry,Whitlam,carol_berry,Carol Berry,aph_48
 Cassandra Fernando,Holt,cassandra_fernando,Cassandra Fernando,canonical
 Cassandra Fernando,Holt,cassandra_fernando,Cassandra Fernando,v1_mps.full_name
 cassandra_fernando,Holt,cassandra_fernando,Cassandra Fernando,v1_mps.mp_id
@@ -224,6 +233,7 @@ christian_porter,Pearce,christian_porter,Christian Porter,v1_mps.mp_id
 Christopher Pyne,Sturt,christopher_pyne,Christopher Pyne,canonical
 Christopher Pyne,Sturt,christopher_pyne,Christopher Pyne,v1_mps.full_name
 christopher_maurice_pyne,Sturt,christopher_pyne,Christopher Pyne,v1_mps.mp_id
+Claire Clutterham,Sturt,claire_clutterham,Claire Clutterham,aph_48
 Clare Ellen O'Neil,HOTHAM,clare_o_neil,Clare O'Neil,v1_merge_overrides
 Clare Ellen O'Neil,Hotham,clare_o_neil,Clare O'Neil,v1_merge_overrides
 Clare Ellen O'Neil,Hotham,clare_o_neil,Clare O'Neil,v1_mps.full_name
@@ -280,12 +290,14 @@ daryl_melham,Banks,daryl_melham,Daryl Melham,v1_mps.mp_id
 Dave Sharma,Wentworth,dave_sharma,Dave Sharma,canonical
 Dave Sharma,Wentworth,dave_sharma,Dave Sharma,v1_mps.full_name
 dave_sharma,Wentworth,dave_sharma,Dave Sharma,v1_mps.mp_id
+David Batt,Hinkler,david_batt,David Batt,aph_48
 David Bradbury,Lindsay,david_bradbury,David Bradbury,canonical
 David Bradbury,Lindsay,david_bradbury,David Bradbury,v1_mps.full_name
 david_bradbury,Lindsay,david_bradbury,David Bradbury,v1_mps.mp_id
 David Coleman,Banks,david_coleman,David Coleman,canonical
 David Coleman,Banks,david_coleman,David Coleman,v1_mps.full_name
 david_coleman,Banks,david_coleman,David Coleman,v1_mps.mp_id
+David Farley,Farrer,david_farley,David Farley,aph_48
 David Feeney,Batman,david_feeney,David Feeney,canonical
 David Ian Feeney,Batman,david_feeney,David Feeney,v1_mps.full_name
 david_ian_feeney,Batman,david_feeney,David Feeney,v1_mps.mp_id
@@ -295,6 +307,7 @@ david_gillespie,Lyne,david_gillespie,David Gillespie,v1_mps.mp_id
 David Littleproud,Maranoa,david_littleproud,David Littleproud,canonical
 David Littleproud,Maranoa,david_littleproud,David Littleproud,v1_mps.full_name
 david_littleproud,Maranoa,david_littleproud,David Littleproud,v1_mps.mp_id
+David Moncrieff,Hughes,david_moncrieff,David Moncrieff,aph_48
 David Smith,Bean,david_smith,David Smith,canonical
 David Smith,Bean,david_smith,David Smith,v1_mps.full_name
 david_smith,Bean,david_smith,David Smith,v1_mps.mp_id
@@ -320,6 +333,7 @@ edham_(ed)_nurredin_husic,Chifley,ed_husic,Ed Husic,v1_mps.mp_id
 Elizabeth Watson-Brown,Ryan,elizabeth_watson_brown,Elizabeth Watson-Brown,canonical
 Elizabeth Watson-Brown,Ryan,elizabeth_watson_brown,Elizabeth Watson-Brown,v1_mps.full_name
 elizabeth_watson-brown,Ryan,elizabeth_watson_brown,Elizabeth Watson-Brown,v1_mps.mp_id
+Emma Comer,Petrie,emma_comer,Emma Comer,aph_48
 Emma Husar,Lindsay,emma_husar,Emma Husar,canonical
 Emma Husar,Lindsay,emma_husar,Emma Husar,v1_mps.full_name
 emma_husar,Lindsay,emma_husar,Emma Husar,v1_mps.mp_id
@@ -345,6 +359,7 @@ fiona_phillips,Gilmore,fiona_phillips,Fiona Phillips,v1_mps.mp_id
 Fiona Scott,Lindsay,fiona_scott,Fiona Scott,canonical
 Fiona Scott,Lindsay,fiona_scott,Fiona Scott,v1_mps.full_name
 fiona_scott,Lindsay,fiona_scott,Fiona Scott,v1_mps.mp_id
+Gabriel Ng,Menzies,gabriel_ng,Gabriel Ng,aph_48
 Gai Brodtmann,Canberra,gai_brodtmann,Gai Brodtmann,canonical
 Gai Brodtmann,Canberra,gai_brodtmann,Gai Brodtmann,v1_mps.full_name
 gai_marie_brodtmann,Canberra,gai_brodtmann,Gai Brodtmann,v1_mps.mp_id
@@ -412,6 +427,7 @@ james_stevens,Sturt,james_stevens,James Stevens,v1_mps.mp_id
 Jamie Briggs,Mayo,jamie_briggs,Jamie Briggs,canonical
 Jamie Edward Briggs,Mayo,jamie_briggs,Jamie Briggs,v1_mps.full_name
 jamie_edward_briggs,Mayo,jamie_briggs,Jamie Briggs,v1_mps.mp_id
+Jamie Chaffey,Parkes,jamie_chaffey,Jamie Chaffey,aph_48
 Jane Prentice,Ryan,jane_prentice,Jane Prentice,canonical
 Jane Prentice,Ryan,jane_prentice,Jane Prentice,v1_mps.full_name
 jane_prentice,Ryan,jane_prentice,Jane Prentice,v1_mps.mp_id
@@ -438,6 +454,7 @@ jenny_ware,Hughes,jenny_ware,Jenny Ware,v1_mps.mp_id
 Jerome Laxale,Bennelong,jerome_laxale,Jerome Laxale,canonical
 Jerome Laxale,Bennelong,jerome_laxale,Jerome Laxale,v1_mps.full_name
 jerome_laxale,Bennelong,jerome_laxale,Jerome Laxale,v1_mps.mp_id
+Jess Teesdale,Bass,jess_teesdale,Jess Teesdale,aph_48
 Jill Hall,Shortland,jill_hall,Jill Hall,canonical
 Jill Hall,Shortland,jill_hall,Jill Hall,v1_mps.full_name
 jill_hall,Shortland,jill_hall,Jill Hall,v1_mps.mp_id
@@ -446,6 +463,7 @@ james_edward_chalmers,Rankin,jim_chalmers,Jim Chalmers,v1_mps.mp_id
 Jim Chalmers,RANKIN,jim_chalmers,Jim Chalmers,v1_mps.full_name
 Jim Chalmers,Rankin,jim_chalmers,Jim Chalmers,canonical
 jim_chalmers,RANKIN,jim_chalmers,Jim Chalmers,v1_mps.mp_id
+Jo Briskey,Maribyrnong,jo_briskey,Jo Briskey,aph_48
 Joanna Gash,Gilmore,joanna_gash,Joanna Gash,canonical
 Joanna Gash,Gilmore,joanna_gash,Joanna Gash,v1_mps.full_name
 joanna_gash,Gilmore,joanna_gash,Joanna Gash,v1_mps.mp_id
@@ -493,6 +511,7 @@ Josh Wilson,Fremantle,josh_wilson,Josh Wilson,canonical
 Josh Wilson,Fremantle,josh_wilson,Josh Wilson,v1_mps.full_name
 josh_wilson,Fremantle,josh_wilson,Josh Wilson,v1_mps.mp_id
 Joshna Hamilton Wilson,,josh_wilson,Josh Wilson,v1_name_special_cases
+Joshua Wilson,Fremantle,josh_wilson,Josh Wilson,aph_48
 Judi Moylan,Pearce,judi_moylan,Judi Moylan,canonical
 Judith Eleanor Moylan,Pearce,judi_moylan,Judi Moylan,v1_mps.full_name
 judith_eleanor_moylan,Pearce,judi_moylan,Judi Moylan,v1_mps.mp_id
@@ -511,6 +530,7 @@ julian_leeser,Berowra,julian_leeser,Julian Leeser,v1_mps.mp_id
 Julian Simmonds,Ryan,julian_simmonds,Julian Simmonds,canonical
 Julian Simmonds,Ryan,julian_simmonds,Julian Simmonds,v1_mps.full_name
 julian_simmonds,Ryan,julian_simmonds,Julian Simmonds,v1_mps.mp_id
+Julie-Ann Campbell,Moreton,julie_ann_campbell,Julie-Ann Campbell,aph_48
 Julie Bishop,Curtin,julie_bishop,Julie Bishop,canonical
 Julie Bishop,Curtin,julie_bishop,Julie Bishop,v1_mps.full_name
 julie_isabel_bishop,Curtin,julie_bishop,Julie Bishop,v1_mps.mp_id
@@ -528,6 +548,7 @@ Justine Keay,Braddon,justine_keay,Justine Keay,v1_mps.full_name
 JUSTINE TERRI KEAY,BRADDON,justine_keay,Justine Keay,v1_mps.full_name
 justine_keay,Braddon,justine_keay,Justine Keay,v1_mps.mp_id
 justine_terri_keay,BRADDON,justine_keay,Justine Keay,v1_mps.mp_id
+Kara Cook,Bonner,kara_cook,Kara Cook,aph_48
 Karen Andrews,McPherson,karen_andrews,Karen Andrews,canonical
 Karen Andrews,McPherson,karen_andrews,Karen Andrews,v1_mps.full_name
 karen_lesley_andrews,McPherson,karen_andrews,Karen Andrews,v1_mps.mp_id
@@ -597,6 +618,7 @@ laura_smyth,La Trobe,laura_smyth,Laura Smyth,v1_mps.mp_id
 Laurie Donald Thomas Ferguson,Werriwa,laurie_ferguson,Laurie Ferguson,v1_mps.full_name
 Laurie Ferguson,Werriwa,laurie_ferguson,Laurie Ferguson,canonical
 laurie_donald_thomas_ferguson,Werriwa,laurie_ferguson,Laurie Ferguson,v1_mps.mp_id
+Leon Rebello,McPherson,leon_rebello,Leon Rebello,aph_48
 Libby Coker,Corangamite,libby_coker,Libby Coker,canonical
 Libby Coker,Corangamite,libby_coker,Libby Coker,v1_mps.full_name
 libby_coker,Corangamite,libby_coker,Libby Coker,v1_mps.mp_id
@@ -641,6 +663,7 @@ luke_simpkins,Cowan,luke_simpkins,Luke Simpkins,v1_mps.mp_id
 Madeleine King,Brand,madeleine_king,Madeleine King,canonical
 Madeleine King,Brand,madeleine_king,Madeleine King,v1_mps.full_name
 madeleine_king,Brand,madeleine_king,Madeleine King,v1_mps.mp_id
+Madonna Jarrett,Brisbane,madonna_jarrett,Madonna Jarrett,aph_48
 Mal Brough,Fisher,mal_brough,Mal Brough,canonical
 Malcolm Thomas Brough,Fisher,mal_brough,Mal Brough,v1_mps.full_name
 malcolm_thomas_brough,Fisher,mal_brough,Mal Brough,v1_mps.mp_id
@@ -670,15 +693,18 @@ mark_dreyfus,Isaacs,mark_dreyfus,Mark Dreyfus,v1_mps.mp_id
 Martin Ferguson,Batman,martin_ferguson,Martin Ferguson,canonical
 Martin Ferguson,Batman,martin_ferguson,Martin Ferguson,v1_mps.full_name
 martin_ferguson,Batman,martin_ferguson,Martin Ferguson,v1_mps.mp_id
+Mary Aldred,Monash,mary_aldred,Mary Aldred,aph_48
 Mary Doyle,Aston,mary_doyle,Mary Doyle,canonical
 Mary Doyle,Aston,mary_doyle,Mary Doyle,v1_mps.full_name
 mary_doyle,Aston,mary_doyle,Mary Doyle,v1_mps.mp_id
 Matt Burnell,Spence,matt_burnell,Matt Burnell,canonical
 Matt Burnell,Spence,matt_burnell,Matt Burnell,v1_mps.full_name
 matt_burnell,Spence,matt_burnell,Matt Burnell,v1_mps.mp_id
+Matt Gregg,Deakin,matt_gregg,Matt Gregg,aph_48
 Matt Keogh,Burt,matt_keogh,Matt Keogh,canonical
 Matthew Keogh,Burt,matt_keogh,Matt Keogh,v1_mps.full_name
 matthew_keogh,Burt,matt_keogh,Matt Keogh,v1_mps.mp_id
+Matt Smith,Leichhardt,matt_smith,Matt Smith,aph_48
 Matt Thistlethwaite,,matt_thistlethwaite,Matt Thistlethwaite,v1_name_special_cases
 Matt Thistlethwaite,Kingsford Smith,matt_thistlethwaite,Matt Thistlethwaite,canonical
 Matthew Thistlethwaite,,matt_thistlethwaite,Matt Thistlethwaite,v1_name_special_cases
@@ -765,6 +791,7 @@ nickolas_varvaris,Barton,nickolas_varvaris,Nickolas Varvaris,v1_mps.mp_id
 Nicola Roxon,Gellibrand,nicola_roxon,Nicola Roxon,canonical
 Nicola Roxon,Gellibrand,nicola_roxon,Nicola Roxon,v1_mps.full_name
 nicola_roxon,Gellibrand,nicola_roxon,Nicola Roxon,v1_mps.mp_id
+Nicolette Boele,Bradfield,nicolette_boele,Nicolette Boele,aph_48
 Nicolle Flint,Boothby,nicolle_flint,Nicolle Flint,canonical
 Nicolle Flint,Boothby,nicolle_flint,Nicolle Flint,v1_mps.full_name
 nicolle_jane_flint,Boothby,nicolle_flint,Nicolle Flint,v1_mps.mp_id
@@ -817,9 +844,11 @@ philip_maxwell_ruddock,Berowra,philip_ruddock,Philip Ruddock,v1_mps.mp_id
 Phillip Thompson,Herbert,phillip_thompson,Phillip Thompson,canonical
 Phillip Thompson,Herbert,phillip_thompson,Phillip Thompson,v1_mps.full_name
 phillip_thompson,Herbert,phillip_thompson,Phillip Thompson,v1_mps.mp_id
+Rebecca White,Lyons,rebecca_white,Rebecca White,aph_48
 Rebekha Sharkie,Mayo,rebekha_sharkie,Rebekha Sharkie,canonical
 Rebekha Sharkie,Mayo,rebekha_sharkie,Rebekha Sharkie,v1_mps.full_name
 rebekha_sharkie,Mayo,rebekha_sharkie,Rebekha Sharkie,v1_mps.mp_id
+Renee Coffey,Griffith,renee_coffey,Renee Coffey,aph_48
 Richard Marles,Corio,richard_marles,Richard Marles,canonical
 Richard Marles,Corio,richard_marles,Richard Marles,v1_mps.full_name
 richard_donald_marles,Corio,richard_marles,Richard Marles,v1_mps.mp_id
@@ -845,6 +874,7 @@ ross_hart,Bass,ross_hart,Ross Hart,v1_mps.mp_id
 Ross Vasta,Bonner,ross_vasta,Ross Vasta,canonical
 Ross Vasta,Bonner,ross_vasta,Ross Vasta,v1_mps.full_name
 ross_vasta,Bonner,ross_vasta,Ross Vasta,v1_mps.mp_id
+Rowan Holzberger,Forde,rowan_holzberger,Rowan Holzberger,aph_48
 Rowan Ramsey,Grey,rowan_ramsey,Rowan Ramsey,canonical
 Rowan Ramsey,Grey,rowan_ramsey,Rowan Ramsey,v1_mps.full_name
 rowan_ramsey,Grey,rowan_ramsey,Rowan Ramsey,v1_mps.mp_id
@@ -871,6 +901,7 @@ sam_rae,Hawke,sam_rae,Sam Rae,v1_mps.mp_id
 Sarah Henderson,Corangamite,sarah_henderson,Sarah Henderson,canonical
 Sarah Moya Henderson,Corangamite,sarah_henderson,Sarah Henderson,v1_mps.full_name
 sarah_moya_henderson,Corangamite,sarah_henderson,Sarah Henderson,v1_mps.mp_id
+Sarah Witty,Melbourne,sarah_witty,Sarah Witty,aph_48
 Scott Buchholz,Wright,scott_buchholz,Scott Buchholz,canonical
 Scott Buchholz,Wright,scott_buchholz,Scott Buchholz,v1_mps.full_name
 scott_andrew_buchholz,Wright,scott_buchholz,Scott Buchholz,v1_mps.mp_id
@@ -983,6 +1014,9 @@ Tim Wilson,Goldstein,tim_wilson,Tim Wilson,canonical
 Timothy Wilson,,tim_wilson,Tim Wilson,v1_name_special_cases
 Timothy Wilson,Goldstein,tim_wilson,Tim Wilson,v1_mps.full_name
 timothy_wilson,Goldstein,tim_wilson,Tim Wilson,v1_mps.mp_id
+Thomas French,Moore,tom_french,Tom French,aph_48
+Tom French,Moore,tom_french,Tom French,aph_48
+Tom Venning,Grey,tom_venning,Tom Venning,aph_48
 Tony Abbott,Warringah,tony_abbott,Tony Abbott,canonical
 Tony Abbott,Warringah,tony_abbott,Tony Abbott,v1_mps.full_name
 tony_abbott,Warringah,tony_abbott,Tony Abbott,v1_mps.mp_id
@@ -1023,6 +1057,7 @@ trent_moir_zimmerman,North Sydney,trent_zimmerman,Trent Zimmerman,v1_mps.mp_id
 Trevor Evans,Brisbane,trevor_evans,Trevor Evans,canonical
 Trevor Evans,Brisbane,trevor_evans,Trevor Evans,v1_mps.full_name
 trevor_mark_evans,Brisbane,trevor_evans,Trevor Evans,v1_mps.mp_id
+Trish Cook,Bullwinkel,trish_cook,Trish Cook,aph_48
 Vince Connelly,Stirling,vince_connelly,Vince Connelly,canonical
 Vince Connelly,Stirling,vince_connelly,Vince Connelly,v1_mps.full_name
 vince_connelly,Stirling,vince_connelly,Vince Connelly,v1_mps.mp_id
@@ -1052,6 +1087,7 @@ zali_steggall,Warringah,zali_steggall,Zali Steggall,v1_mps.mp_id
 Zaneta Mascarenhas,Swan,zaneta_mascarenhas,Zaneta Mascarenhas,canonical
 Zaneta Mascarenhas,Swan,zaneta_mascarenhas,Zaneta Mascarenhas,v1_mps.full_name
 zaneta_mascarenhas,Swan,zaneta_mascarenhas,Zaneta Mascarenhas,v1_mps.mp_id
+Zhi Soon,Banks,zhi_soon,Zhi Soon,aph_48
 Zoe Daniel,Goldstein,zoe_daniel,Zoe Daniel,canonical
 Zoe Daniel,Goldstein,zoe_daniel,Zoe Daniel,v1_mps.full_name
 zoe_daniel,Goldstein,zoe_daniel,Zoe Daniel,v1_mps.mp_id

@@ -559,3 +559,18 @@ V1's cold check found two places where C12 output could be read two ways.
 - The 48th PDFs are committed before their `pdf_members.csv` rows (T3.3b), so
   `test_real_overrides_cover_all_tracked_pdfs` temporarily excludes `pdfs/48/`. T3.3b removes
   the exclusion.
+
+## 2026-10-03 — 48th member identity: resolve, then eyeball same-surname "new" members (T3.3b)
+- `python -m disclosures.members` resolves each listing name through `member_aliases.csv`
+  exactly as the loader does (name + electorate, then name). An unresolved name becomes a new
+  member (`member_id` = slug); a slug that's already someone's id is a collision and nothing
+  is written.
+- The listing prints formal given names for two returning MPs: `Robert Katter` (Kennedy)
+  and `Joshua Wilson` (Fremantle). Both were flagged by the same-surname check and fixed with
+  hand `aph_48` alias rows rather than a nickname table: a table would also merge genuinely
+  different people. `Thomas French` (Moore, new) takes Wikipedia's `Tom French` (D3: prefer
+  the Wikipedia form); the other 32 new names already match Wikipedia's 2025–2028 list.
+- Result: 151 PDFs, 118 returning, 33 new. Anne Urquhart and Ben Small move from the Senate.
+  They get House ids now; their Senate names resolve onto these ids by name alone (check in the Senate task).
+- `test_real_overrides_cover_all_tracked_pdfs` covers `pdfs/48/` again. Its party check skips
+  the 48th until T3.4 writes those party terms.

@@ -426,9 +426,9 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   eval/pdf_stats.csv now has 925 rows. pdf_members coverage test excludes 48 until T3.3b.
 
 ### T3.3b — Member identity for the 48th PDFs
-- status: todo
+- status: done 2026-10-03
 - deps: T3.3a
-- attempts: 0
+- attempts: 1
 - budget: US$0 · network: en.wikipedia.org (canonical names for new members)
 - do: Per D3's new-members rule: a `pdf_members.csv` row for every 48th PDF, returning MPs
   matched through `member_aliases.csv` (normalised name plus electorate), new MPs given a
@@ -439,6 +439,9 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   Also remove the `pdfs/48/` exclusion that T3.3a put in
   `tests/test_load.py::test_real_overrides_cover_all_tracked_pdfs`; it must pass over every
   tracked PDF again.
+- notes: `python -m disclosures.members --parliament 48`: 151 rows, 118 returning, 33 new, 0
+  collisions. Hand aliases: Robert Katter→bob_katter, Joshua Wilson→josh_wilson, Thomas
+  French→tom_french (Wikipedia). tests/test_members.py; party check in the cover test skips 48 until T3.4.
 
 ### T3.4 — 48th House party terms
 - status: todo
@@ -450,7 +453,8 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   document in `data/overrides/README.md` that 48th rows are hand-maintained, since the seed
   script only knows v1).
 - done when: every 48th member_id has a party row or an unknown_party row, and AC-2.9's ≤ 5
-  holds across all terms.
+  holds across all terms. Remove the `< 48` filter T3.3b put in the party loop of
+  `tests/test_load.py::test_real_overrides_cover_all_tracked_pdfs`; it must pass for the 48th.
 
 ### T3.5 — Extract the House 48th (paid)
 - status: todo

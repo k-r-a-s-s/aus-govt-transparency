@@ -312,14 +312,15 @@ def test_v1_merge_cases_unify(member_id):
 
 V1_MERGE_CASE_PDFS = {
     "chris_bowen": ["pdfs/43/bowenc_43p.pdf", "pdfs/44/bowenc_44p.pdf", "pdfs/45/bowenc_45p.pdf",
-                    "pdfs/46/bowen_46p.pdf", "pdfs/47/bowen_47p.pdf"],
+                    "pdfs/46/bowen_46p.pdf", "pdfs/47/bowen_47p.pdf", "pdfs/48/bowenc_48p.pdf"],
     "louise_markus": ["pdfs/43/markusl_43p.pdf", "pdfs/44/markusl_44p.pdf"],
     "bert_van_manen": ["pdfs/43/vanmanenb_43p.pdf", "pdfs/44/vanmanenb_44p.pdf",
                        "pdfs/45/vanmanena_45p.pdf", "pdfs/46/van_manen_46p.pdf",
                        "pdfs/47/van_manen_47p.pdf"],
-    "milton_dick": ["pdfs/45/dickm_45p.pdf", "pdfs/46/dick_46p.pdf", "pdfs/47/dick_47p.pdf"],
+    "milton_dick": ["pdfs/45/dickm_45p.pdf", "pdfs/46/dick_46p.pdf", "pdfs/47/dick_47p.pdf",
+                    "pdfs/48/dickm_48p.pdf"],
     "clare_o_neil": ["pdfs/44/oneilc44p.pdf", "pdfs/45/oneilc45p.pdf", "pdfs/46/oneil_46p.pdf",
-                     "pdfs/47/oneil_47p.pdf"],
+                     "pdfs/47/oneil_47p.pdf", "pdfs/48/oneilc_48p.pdf"],
 }
 
 
@@ -337,9 +338,6 @@ def test_real_overrides_cover_all_tracked_pdfs():
     tracked = subprocess.run(["git", "ls-files", "pdfs"], cwd=REPO, capture_output=True, text=True,
                              check=True).stdout.split()
     tracked = sorted(p for p in tracked if p.lower().endswith(".pdf"))
-    # T3.3a committed pdfs/48/ before its member identity exists; T3.3b adds the 48th
-    # pdf_members rows and removes this exclusion.
-    tracked = [p for p in tracked if not p.startswith("pdfs/48/")]
     ov = Overrides(REAL_OVERRIDES)
     assert sorted(ov.pdf_members) == tracked
     with open(REAL_OVERRIDES / "pdf_members.csv", newline="") as fh:
@@ -347,7 +345,8 @@ def test_real_overrides_cover_all_tracked_pdfs():
     assert paths == sorted(paths)  # reviewable: sorted by path
     # every (member, parliament) with a PDF has a party, or is listed as unknown
     for path, r in ov.pdf_members.items():
-        if r["member_id"]:
+        # T3.4 adds the 48th party terms and removes this parliament filter.
+        if r["member_id"] and int(path.split("/")[1]) < 48:
             key = (r["member_id"], "house", int(path.split("/")[1]))
             assert key in ov.party_terms or key in ov.unknown_party, key
             pt = ov.party_terms.get(key)
