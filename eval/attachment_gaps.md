@@ -79,7 +79,7 @@ all current). `coultonm` misses the same super-fund page in both the 43rd and 44
 | coultonm_45p | **attachment_not_itemised** | p2 s1 "(see attached list)"; p8 is the "MM & RA Coulton Super Fund Investment Summary Report" (2 cash, 4 managed funds, 13 listed shares, 1 listed trust). 0 items on p8, though the notes name the page. This is the third parliament with the same gap. |
 | freelanderm_45p | itemised_ok | p8–9 Morgan Stanley printouts for the Pebema super fund and the spouse: 22 + 16 items. The p14 alteration's "updated list (see attached)" is the last page, so that list isn't in the PDF. v1 unmatched names are OCR noise. |
 | huntg_45p | itemised_ok | p8 s13 attachment (memberships and community groups) has 15 items. v1 unmatched names are OCR noise. |
-| odowdk45p | **attachment_not_itemised** | p5 s7 "SEE ATTACHMENT 'A'": p9 lists the BT portfolio (10 Australian shares, 4 international funds, 3 property trusts), 0 items. p10 alteration "Please see Attachment": p11 is a BT "My Investment Recommendation" table (≈ 23 holdings), 0 items. |
+| odowdk45p | **attachment_not_itemised** | p5 s7 "SEE ATTACHMENT 'A'": p9 lists the BT portfolio (10 Australian shares, 4 international funds, 3 property trusts), 0 items. p10 alteration "Please see Attachment": p11 is a BT "My Investment Recommendation" table (22 holdings, plus Total/Combined Total rows), 0 items. |
 | pynec_45p | attachment_not_in_pdf | p6 and p21 s13 "LIST ATTACHED": the pages with no items (p7, p8, p23, p25, p27) are a blank alteration form and covering letters. The CV-style list from the 44th isn't bound in. |
 | roberts_45p | itemised_ok | Attachment 1 on p8 (36 items), updated Attachment 1 on p19–20 and the later attachments (p30–31, p39–41) are itemised. v1 unmatched names are Greek-letter OCR noise. |
 | smitht_45p | attachment_not_in_pdf | p6 s12 self+spouse "SEE ATTACHMENT": p7 is blank and p8 is a post-election alteration form (AFL tickets), so there's no attachment. The model filed the p8 item as the attachment's content. That's harmless, but it isn't one. |
@@ -104,14 +104,29 @@ odowdk45p needed the Sonnet 5.5 fallback for p1–18 (RECITATION).
 | file | items before (v0) | items after (v1) | expected names found | where they land |
 |---|---|---|---|---|
 | coultonm_43p | 29 | 63 | 5/5 | p8, s1, self + spouse |
-| nevillep_43p | 66 | 85 | 5/5 | p8, s9, self |
+| nevillep_43p | 66 | 85 | 5/5 | p8, s9, self (should be self + spouse: see V1 below) |
 | coultonm_44p | 25 | 59 | 5/5 | p8, s1, self + spouse |
-| huntg_44p | 94 | 108 | 5/5 | p8 and p11, s13, self |
+| huntg_44p | 94 | 108 | 5/5* | p11 (16 new, s13, self, `varied` 2014-03-19); p8 was already itemised |
 | pynec_44p | 47 | 82 | 5/5 | p9, s13, self |
 | coultonm_45p | 24 | 60 | 5/5 | p8, s1, self + spouse |
 | odowdk45p | 30 | 68 | 5/5 | p9 (Attachment A, s7 initial) and p11 (s7/s8 added) |
 
 pynec_44p: the `expected` column says "Centro Diddatico", a typo made when I wrote the column. The
-PDF and the new extraction both say "Centro Didattico". odowdk45p puts "BT Wrap Cash Account" under
-s8 (bank accounts), not s7 as the referencing line does. That's a sensible reading of a cash
-account, so I left it.
+PDF and the new extraction both say "Centro Didattico". odowdk45p puts "BT Wrap Cash Account" (and two
+other cash accounts on p11) under s8 (bank accounts). The p10 referencing line names no section,
+so s8 is a sensible reading of a cash account, and I left it.
+
+\* huntg_44p: all 5 expected names are on p8, which v0 had already itemised, so this check would
+have passed before the re-run too. The real gain is the 16 p11 items.
+
+### V1 cold verification (2026-10-02)
+
+An independent subagent re-checked M1 and confirmed it page by page (coultonm_43p/45p, nevillep_43p,
+pynec_44p, odowdk45p, huntg_44p). Its findings:
+- nevillep_43p: the fund is joint (p5 spouse row: "as above with same riders"), but the 19 p8
+  holdings are filed under self only. coultonm files its joint fund under self and spouse. Open:
+  task T1.6.
+- huntg_44p p11: the 16 items are `varied`, though the p10 notice ticks ADDITION. Kept: the notice
+  replaces the whole list ("revised membership list"), so `varied` is the closer reading
+  (DECISIONS 2026-10-02, "C12 change type for a replacement list").
+- The huntg_44p name check and odowdk45p wording above were corrected.

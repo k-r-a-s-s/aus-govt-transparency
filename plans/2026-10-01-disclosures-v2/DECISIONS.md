@@ -382,3 +382,14 @@ attached list" → items on the p8 attachment, no item for the reference line).
 **Re-extraction scope.** Only the 7 confirmed files (T1.5). The other ≈ 760 files stay on v0,
 because C12 changes nothing but attachment handling. A full re-run (≈ US$38) is out of scope.
 T1.4 checks the gold set doesn't regress under v1.
+
+### 2026-10-02 — C12 change type for a replacement list; joint-fund owners (V1)
+V1's cold check found two places where C12 output could be read two ways.
+- **huntg_44p p11.** The p10 notice ticks ADDITION but says "Revised membership list – see
+  attached". The model gave the 16 attachment items `varied`. We keep it: the attachment replaces
+  the whole earlier list rather than adding one interest, and `varied` says that. C12 reads "use
+  that notice's change type" literally, so a re-extraction could give `added`. Both are accepted,
+  and the prompt wasn't changed for one file.
+- **Joint fund (nevillep_43p).** When the self and spouse rows both refer to the same attachment
+  ("as above"), each holding belongs to both owners, as coultonm_43p/44p/45p already have it.
+  nevillep_43p files them under self only. T1.6 fixes that one file and doesn't change the prompt.

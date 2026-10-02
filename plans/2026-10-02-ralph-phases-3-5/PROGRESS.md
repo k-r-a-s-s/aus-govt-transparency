@@ -12,3 +12,4 @@
 2026-10-02T12:49Z | T1.3 | done | spent US$0.00 | Prompt v1: C12 (attachments) + checklist 7; wording widened for fund-only refs, CV/adviser letters, totals; DECISIONS + docs updated; 200 pass
 2026-10-02T12:56Z | T1.4 | done | spent US$0.47 | prompt v1 gold F1 0.984 (v0 0.987), ADR-4 PASS; plibersekt p8 unchanged; eval/bakeoff.md section added
 2026-10-02T13:05Z | T1.5 | done | spent US$0.48 | 7 attachment files re-extracted with prompt v1: 315→525 items, all expected names present; validate 768/0; load 42,252 items, hard AC-2.7 0; AC-2.8 hash 465f1071…
+2026-10-02T13:07Z | V1 | done | spent US$0.00 | Cold verifier: all hard checks pass; 4 small findings → md wording fixed, huntg change_type decided, nevillep spouse owners → T1.6; round 2 PASS

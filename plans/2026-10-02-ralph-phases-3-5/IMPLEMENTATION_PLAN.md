@@ -176,9 +176,9 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
 - notes: 7 files, 315 → 525 items (+210), 35/35 expected names found (pynec's "Diddatico" was a typo in the CSV). validate 768/0; load 42,252 items, hard AC-2.7 0, AC-2.9 0; new AC-2.8 hash 465f1071…. Extraction JSON has no prompt-version field: the v1 file list in eval/extraction_failures.md is the record (T5.1 README needs it).
 
 ### V1 — Cold verification of M1
-- status: todo
+- status: done 2026-10-02
 - deps: T1.5
-- attempts: 0
+- attempts: 1
 - budget: US$0 · network: none
 - do: Spawn ONE fresh subagent (general-purpose). Give it only this block's checklist plus file
   paths, not your reasoning. Ask it to reproduce and try to break: C12 is in the prompt;
@@ -187,6 +187,25 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   queries 0; the suite is green; v1 sha unchanged. Fix small findings now. Add a task for any
   large finding.
 - done when: the subagent reports no unresolved finding (paste its verdict line into notes).
+- notes: Round 1 verdict "FAIL — 4 findings", all small: F1 nevillep_43p joint-fund holdings filed
+  under self only (→ T1.6); F2 huntg_44p p11 `varied` vs ADDITION (kept, DECISIONS 2026-10-02);
+  F3/F4 wording in eval/attachment_gaps.md (fixed). All hard checks passed: validate 768/0, load
+  42,252 items, hard AC-2.7 0, hash 465f1071…, 200 tests. Round 2: "VERDICT: PASS — no
+  unresolved findings".
+
+### T1.6 — nevillep_43p: joint-fund attachment holdings for the spouse too
+- status: todo
+- deps: V1
+- attempts: 0
+- budget: US$0.25 · network: openrouter
+- do: V1 F1. In `extractions/gemini-api/house/43/nevillep_43p.json` the p5 s9 fund is joint (the
+  spouse row says "as above with same riders"), but the 19 p8 holdings are filed under self only.
+  coultonm_43p/44p/45p have both owners (DECISIONS 2026-10-02, "joint-fund owners"). Re-extract
+  this one file with `--force` on the G2 config (one paid call, ≈ US$0.03–0.16). If the result
+  still lacks the spouse rows, don't hand-edit the model output. Restore the earlier file from git
+  and set `blocked (kevin): accept self-only, or allow a hand correction/override for owner?`.
+- done when: 19 p8 s9 items for self and 19 for spouse; the other ≈ 66 non-p8 items still there; validate 768/0; load exit 0, hard AC-2.7
+  0; AC-2.8 hash recorded in AGENTS.md; the T1.5 table in `eval/attachment_gaps.md` updated.
 
 ---
 
