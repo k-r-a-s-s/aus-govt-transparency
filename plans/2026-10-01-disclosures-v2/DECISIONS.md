@@ -481,3 +481,19 @@ V1's cold check found two places where C12 output could be read two ways.
 - **Bad replies don't poison the cache.** Groups must partition their block exactly, with
   enum-valid type and confidence. A failing block is retried alone once, then left uncached:
   exit 1 and no DB write, so a re-run continues. No failures on the real run.
+
+
+### 2026-10-02 — Join by name after the stages (T2.7)
+- **Why.** The top-20 review found the LLM naming long-tail blocks after organisations that
+  curated rows already own: `qf` -> "Qantas", `west pac` -> "Westpac", `anz 50` -> "ANZ". The
+  slugs differed from the curated canonical names, so each became a second entity. 35 entities
+  had a canonical name that was another entity's alias.
+- **Rule.** After every stage: (a) an entity made only by `llm` whose normalised canonical name
+  is an alias of a non-singleton entity joins that entity; (b) a singleton alias equal to a
+  non-singleton entity's normalised canonical name joins it. Curated and asx entities never
+  move, which keeps Tower Limited (asx) apart from Tower Australia (llm): they're different
+  companies. Aliases keep their method, so the method counts don't change. 34 merges, 10,219
+  -> 10,185 entities. Kevin can override any of these at G3 with a curated row.
+- **Report.** `entities --report` regenerates only the block between markers in
+  `eval/entities_report.md`, so the hand-written review and T2.8's G3 notes survive refreshes.
+

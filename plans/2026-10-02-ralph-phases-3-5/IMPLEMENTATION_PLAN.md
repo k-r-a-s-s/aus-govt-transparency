@@ -310,9 +310,9 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   listed_company without an exact snapshot match → other (303 groups); one entity per ASX code.
 
 ### T2.7 — Entities report and AC-3.3/3.4/3.6
-- status: todo
+- status: done 2026-10-02
 - deps: T2.6
-- attempts: 0
+- attempts: 1
 - budget: US$0 · network: none
 - do: Write `eval/entities_report.md`: method counts, entity-type counts, and the top 20 entities
   by item count next to v1's top 20 (`disclosures.db`, read-only), plus the AC-3.3 and AC-3.4
@@ -321,6 +321,11 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   snapshot). Look at the top 20 yourself: no two rows should be the same organisation. If
   they are, fix the aliases.
 - done when: the report exists; the AC-3.3/3.4 tests pass; the top 20 has no duplicates.
+- notes: `entities --report` regenerates the marked block of eval/entities_report.md (method/type
+  counts, AC-3.3 0, AC-3.4 PASS: 243 listed_company all coded, v2 vs v1 top 20); hand review below it.
+  Review found LLM-minted dups of curated names (qf->"Qantas", west pac->"Westpac") -> join-by-name
+  post-pass (DECISIONS): 34 merges, 10,219 -> 10,185 entities; Tower Ltd/Tower Australia kept apart.
+  tests/test_entities_report.py (7); 252 pass.
 
 ### T2.8 — G3 review pack for Kevin
 - status: todo

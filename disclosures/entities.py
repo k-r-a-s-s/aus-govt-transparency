@@ -587,8 +587,43 @@ def resolve(items: List[Tuple], data_dir: Path, offline: bool = True,
                 code_entity.setdefault(entities[eid][2], eid)
             aliases[a] = (eid, method, res.confidence)
         unresolved = [a for a in unresolved if a not in found]
-    item_entity = {iid: aliases[a][0] for iid, a in item_alias.items()}
+    join_by_name(entities, aliases)
+    item_entity ={iid: aliases[a][0] for iid, a in item_alias.items()}
     return entities, aliases, item_entity
+
+
+def join_by_name(entities: Dict[str, tuple], aliases: Dict[str, tuple]) -> None:
+    """Merge entities that differ only because a name was resolved twice (T2.7, DECISIONS).
+
+    (a) An entity made only by the llm stage whose canonical name normalises to an alias that
+        a non-singleton entity owns joins that owner ("Qantas" from ``qf`` -> Qantas Airways).
+    (b) A singleton alias equal to another entity's normalised canonical name joins it
+        (``agest super`` -> AGEST Super). Curated and asx entities are never moved.
+    Both edit ``entities`` and ``aliases`` in place; aliases keep their own method."""
+    methods: Dict[str, set] = defaultdict(set)
+    for eid, method, _ in aliases.values():
+        if eid is not None:
+            methods[eid].add(method)
+    moved: Dict[str, str] = {}
+    for eid in sorted(entities):
+        if methods[eid] != {"llm"}:
+            continue
+        owner = aliases.get(normalise_entity(entities[eid][0]), (None,))[0]
+        while owner in moved:
+            owner = moved[owner]
+        if owner and owner != eid and methods[owner] - {"singleton"}:
+            moved[eid] = owner
+    by_name = {normalise_entity(entities[e][0]): e for e in sorted(entities)
+               if e not in moved and methods[e] - {"singleton"}}
+    for a in sorted(aliases):
+        eid, method, _ = aliases[a]
+        if method == "singleton" and methods[eid] == {"singleton"} and a in by_name:
+            moved[eid] = by_name[a]
+    for a, (eid, method, conf) in sorted(aliases.items()):
+        if eid in moved:
+            aliases[a] = (moved[eid], method, conf)
+    for eid in moved:
+        entities.pop(eid, None)
 
 
 def llm_plan(db_path: str | Path, data_dir: str | Path,
@@ -801,6 +836,9 @@ def add_arguments(p) -> None:
     p.add_argument("--draft-candidates", nargs="?", const="", default=None, metavar="CSV",
                    help="write the curation worksheet (top names by item count plus fuzzy "
                         "variants, default <data>/alias_candidates.csv), then stop")
+    p.add_argument("--report", nargs="?", const="eval/entities_report.md", default=None,
+                   metavar="MD", help="after resolving, refresh the generated part of the "
+                                      "entities report (default eval/entities_report.md)")
     p.add_argument("--top", type=int, default=200,
                    help="heads in the --draft-candidates worksheet (default 200)")
     g = p.add_argument_group("long-tail LLM (online mode only; paid, OpenRouter)")
@@ -870,6 +908,10 @@ def run(args) -> int:
     print_summary(s)
     if llm is not None:
         print(f"  llm: {llm.requests} requests this run, US${llm.spent:.4f}")
+    if args.report is not None:
+        from .entities_report import write_report
+        ref = Path(args.reference) if args.reference else default_reference_dir(args.data)
+        print(f"entities: wrote {write_report(args.db, ref, Path(args.report))}")
     return 0 if s["unresolved"] == 0 else 1
 
 

@@ -13,6 +13,7 @@ python -m disclosures load --source gemini-api            # rebuilds the DB, ent
 python -m disclosures entities --offline                  # [--db disclosures_v2.db] [--data data/entities] [--reference data/reference]
 python -m disclosures entities --fetch-asx                # download a new ASX snapshot, then stop
 python -m disclosures entities --draft-candidates          # curation worksheet (below), then stop
+python -m disclosures entities --offline --report         # also refresh eval/entities_report.md
 ```
 
 `entities` rewrites the three outputs in place, in one transaction, so re-running it is safe.
@@ -107,6 +108,18 @@ won't fuzzy-match their full names; those pairs come from curation. Output is de
    joins the existing entity and the first definition stands. Precedence order decides which
    comes first, then alias order. Example: `loreal australia` / `loréal australia`. On the
    real data, the singleton stage alone made 16 merges like this, all correct.
+5. **Join by name** (after all stages). An entity made only by the `llm` stage whose
+   canonical name normalises to an alias a non-singleton entity owns joins that owner (`qf`
+   was named "Qantas", and `qantas` is curated to Qantas Airways). A singleton alias equal to
+   another entity's normalised canonical name joins it (`agest super` -> AGEST Super). Curated
+   and asx entities never move, so Tower Limited (asx) stays apart from Tower Australia (llm).
+   Aliases keep their own method. 2026-10-02: 34 merges, 10,219 -> 10,185 entities.
+
+## Report (`--report`)
+
+`entities --report [MD]` (after resolving) rewrites the generated block of
+`eval/entities_report.md`: method and type counts, AC-3.3 and AC-3.4 results, and the top 20
+next to v1's top 20 (AC-3.6, v1 read-only). Text outside the BEGIN/END markers is kept.
 
 ## Known limitations
 
