@@ -187,8 +187,9 @@ def backfill(listings: Dict[int, str], existing: Optional[List[dict]] = None,
             url, listed = matched.get(path, (old.get("source_url", ""), old.get("listed_date", "")))
             rows.append({
                 "chamber": chamber, "parliament": str(parl),
-                "member_name": m.get("canonical_full_name", ""),
-                "electorate_or_state": m.get("electorate_or_state", ""),
+                "member_name": m.get("canonical_full_name") or old.get("member_name", ""),
+                "electorate_or_state": (m.get("electorate_or_state")
+                                        or old.get("electorate_or_state", "")),
                 "source_url": url, "listed_date": listed, "pdf_path": path,
                 "pdf_sha256": sha256_file(path), "page_count": _page_count(path, pages),
                 "fetched_at": old.get("fetched_at", ""),

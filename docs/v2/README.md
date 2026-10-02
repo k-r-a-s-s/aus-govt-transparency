@@ -67,7 +67,8 @@ python -m disclosures.gold review-sheet                     # eval/gold/review.c
 python -m disclosures.gold apply-review                     # mark fully-ticked gold files reviewed
 ```
 
-`scrape, export, refresh` are registered stubs (exit 2) until their phase.
+`python -m disclosures scrape --chamber house --parliament 48 [--verify]` downloads 48th statements to `pdfs/48/` and updates `pdfs/manifest.csv` (`docs/v2/scrape.md`).
+`export, refresh` are registered stubs (exit 2) until their phase.
 The workflow arm (`extract-disclosures`) runs through the Claude Code Workflow tool, not the CLI; see `docs/v2/extraction.md`.
 
 Extraction files live at `extractions/<source_id>/<chamber>/<parliament>/<pdf_stem>.json`.

@@ -544,3 +544,18 @@ V1's cold check found two places where C12 output could be read two ways.
 - **`fetched_at`** is empty for v1's PDFs (unknown); the scraper fills it for new downloads.
 - **`page_count`** comes from `eval/pdf_stats.csv` (PyMuPDF if missing); sha256 from the file.
 
+
+## 2026-10-03 — Scrape change detection: listing gate, then sha256 (T3.3a)
+- D3 asked for a byte-stability check first. Two downloads of the same register-API statement,
+  and of the same static PDF, were identical, and a `--verify` re-download of all 151 a few
+  minutes later found 0 changed. So sha256 is the change signal (no listing-date fallback is
+  needed).
+- To keep runs cheap and AC-4.4 exact, `scrape` downloads a statement only when its listing
+  link (with `?rev=`) or "Last updated" date differs from the manifest row, or its file is
+  missing. Same bytes → unchanged (the row's date/link are refreshed). Different bytes →
+  changed, overwritten in place. `--verify` forces a full byte comparison.
+- A statement's file name is fixed the first time it's seen. Rows are matched by link without
+  query, then by surname plus electorate, so a rename never forks a member's git history.
+- The 48th PDFs are committed before their `pdf_members.csv` rows (T3.3b), so
+  `test_real_overrides_cover_all_tracked_pdfs` temporarily excludes `pdfs/48/`. T3.3b removes
+  the exclusion.

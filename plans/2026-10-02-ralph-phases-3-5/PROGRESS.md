@@ -24,3 +24,4 @@
 2026-10-02T13:56Z | T2.8 | done | spent US$0.00 | entities --g3-review -> eval/entities_g3_review.csv 101 rows (top 50 + 24 flagged + 31 llm-medium); How to review G3 in report; HANDOFF: G3 waiting on Kevin; 253 tests pass
 2026-10-02T14:00Z | T3.1 | done | spent US$0.00 | sources.py: URLs 43–48 (43rd → committee page, §0 URL 404s), UA+retry fetch, parser; fixtures 48th 151 rows / 46th 152 / 43rd 150; 266 tests pass
 2026-10-02T14:04Z | T3.2 | done | spent US$0.00 | pdfs/manifest.csv 774 rows (= git ls-files); source_url matched 770/774 (99.5%), all member statements; AC-4.3 sha test; 273 tests pass
+2026-10-02T14:13Z | T3.3a | done | spent US$0.00 | scrape house 48: 151 PDFs (147 api/4 static, 85 MB) + manifest rows; bytes stable (sha), 2nd run 0 new, 0 changed; docs/v2/scrape.md; 282 tests pass

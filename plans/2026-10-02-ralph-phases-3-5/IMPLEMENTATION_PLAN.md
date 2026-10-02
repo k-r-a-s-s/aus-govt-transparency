@@ -408,9 +408,9 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   ("Bennelong, NSW¹", 45th) so `state` is None.
 
 ### T3.3a — `scrape --chamber house --parliament 48`: download, manifest, idempotency
-- status: todo
+- status: done 2026-10-03
 - deps: T3.2
-- attempts: 0
+- attempts: 1
 - budget: US$0 · network: www.aph.gov.au, interests-register-api-public.aph.gov.au, static.aph.gov.au
 - do: Implement `scrape` per ADR-8 and D3. **First** download one API statement twice and
   compare sha256 (D3), then design change detection to match. Download both link kinds to
@@ -419,6 +419,11 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   the PDFs in one commit with the manifest.
 - done when: AC-4.2 (150–155 house/48 manifest rows) and AC-4.4 (a second run logs
   `0 new, 0 changed`) pass.
+- notes: D3 sha check: the same API statement (316915) and the same static PDF downloaded twice
+  gave identical bytes; `--verify` over all 151 found 0 changed → sha256 is the signal, and
+  the listing link+date gate the download. 151 PDFs (147 api, 4 static), 85 MB, 0 refused;
+  `grep -c '^house,48,' pdfs/manifest.csv` = 151; second run `0 new, 0 changed, 151 unchanged`.
+  eval/pdf_stats.csv now has 925 rows. pdf_members coverage test excludes 48 until T3.3b.
 
 ### T3.3b — Member identity for the 48th PDFs
 - status: todo
@@ -431,6 +436,9 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   new, and eyeball every "new" one: a returning MP misread as new would split their history.
 - done when: every `pdfs/48/*.pdf` has exactly one pdf_members row; no 48th member_id
   duplicates a 43rd–47th person (check by normalised name).
+  Also remove the `pdfs/48/` exclusion that T3.3a put in
+  `tests/test_load.py::test_real_overrides_cover_all_tracked_pdfs`; it must pass over every
+  tracked PDF again.
 
 ### T3.4 — 48th House party terms
 - status: todo
