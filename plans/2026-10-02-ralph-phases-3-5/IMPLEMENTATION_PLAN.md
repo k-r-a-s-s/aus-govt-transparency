@@ -78,23 +78,52 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   else the rules catch (expect ≈ 10–30 rows); the test passes.
 - notes: 29 rows (<1 s): 23 rule (a), 10 rule (b), all 12 D1 files incl. odowdk45p (21 v1 unmatched). Extra rule-(a) hits like turnbullm_44p/grayg_44p are likely 'schedule' false positives for T1.2 to rule out.
 
-### T1.2 — Confirm each candidate by looking at the pages
-- status: todo
+### T1.2a — Confirm the 43rd candidates by looking at the pages
+- status: done 2026-10-02
 - deps: T1.1
+- attempts: 1
+- budget: US$0 (you read the PDFs yourself with the Read tool, ≤ 20 pages per call) · network: none
+- do: For each candidate in the 43rd (9 rows), open the referencing page and the attachment pages. Set `verdict`
+  to `attachment_not_itemised` (attachment bound in, items missing), `itemised_ok`,
+  `attachment_not_in_pdf`, or `other: <what>`. For `attachment_not_itemised`, note in an
+  `expected` column 3–5 entity names from the attachment, which T1.5 will check for.
+  Add a `## 43rd` section to `eval/attachment_gaps.md`: verdict per file, the list to
+  re-extract, and anything odd.
+- done when: every in the 43rd (9 rows) row in `eval/attachment_gaps.csv` has a verdict; `eval/attachment_gaps.md`
+  has its section.
+- notes: T1.2 split 2026-10-02 (29 candidates > 25) by parliament, per its own instruction. 43rd: 2 attachment_not_itemised (coultonm_43p, nevillep_43p), 6 itemised_ok, 1 attachment_not_in_pdf (somlyaya). Added `expected` column to CSV + FIELDS.
+
+### T1.2b — Confirm the 44th candidates by looking at the pages
+- status: todo
+- deps: T1.2a
 - attempts: 0
 - budget: US$0 (you read the PDFs yourself with the Read tool, ≤ 20 pages per call) · network: none
-- do: For each candidate, open the referencing page and the attachment pages. Set `verdict`
+- do: For each candidate in the 44th (8 rows), open the referencing page and the attachment pages. Set `verdict`
   to `attachment_not_itemised` (attachment bound in, items missing), `itemised_ok`,
-  `attachment_not_in_pdf`, or `other: <what>`. For `attachment_not_itemised`, note in a
+  `attachment_not_in_pdf`, or `other: <what>`. For `attachment_not_itemised`, note in an
   `expected` column 3–5 entity names from the attachment, which T1.5 will check for.
-  Summarise in `eval/attachment_gaps.md`: counts per verdict, the list to re-extract, and
-  anything odd. If there are > 25 candidates, split this task (T1.2a/T1.2b) by parliament.
-- done when: every row has a verdict; `eval/attachment_gaps.md` lists the confirmed files
-  (expect ≤ 15).
+  Add a `## 44th` section to `eval/attachment_gaps.md`: verdict per file, the list to
+  re-extract, and anything odd.
+- done when: every in the 44th (8 rows) row in `eval/attachment_gaps.csv` has a verdict; `eval/attachment_gaps.md`
+  has its section.
+
+### T1.2c — Confirm the 45th/47th candidates and summarise
+- status: todo
+- deps: T1.2b
+- attempts: 0
+- budget: US$0 (you read the PDFs yourself with the Read tool, ≤ 20 pages per call) · network: none
+- do: For each candidate in the 45th and 47th (12 rows), open the referencing page and the attachment pages. Set `verdict`
+  to `attachment_not_itemised` (attachment bound in, items missing), `itemised_ok`,
+  `attachment_not_in_pdf`, or `other: <what>`. For `attachment_not_itemised`, note in an
+  `expected` column 3–5 entity names from the attachment, which T1.5 will check for.
+  Add a `## 45th and 47th` section to `eval/attachment_gaps.md`: verdict per file, the list to
+  re-extract, and anything odd. Then write the summary at the top: counts per verdict across all 29 and the full re-extract list.
+- done when: every in the 45th and 47th (12 rows) row in `eval/attachment_gaps.csv` has a verdict; `eval/attachment_gaps.md`
+  has its section. The summary lists the confirmed files (expect ≤ 15).
 
 ### T1.3 — Add rule C12 to the extraction prompt (prompt v1)
 - status: todo
-- deps: T1.2
+- deps: T1.2c
 - attempts: 0
 - budget: US$0 · network: none
 - do: Add C12 and checklist item 7 to `disclosures/prompts/extract.md`, worded as in

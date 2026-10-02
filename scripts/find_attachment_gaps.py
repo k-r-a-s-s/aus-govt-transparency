@@ -9,7 +9,7 @@ A file is a candidate when either rule fires:
     distinct v1 named entities for the same PDF have no v2 match
     (rapidfuzz partial_ratio < 85 against every v2 entity_name + description).
 
-Writes eval/attachment_gaps.csv with a blank `verdict` column for T1.2 to fill in.
+Writes eval/attachment_gaps.csv with blank `verdict` and `expected` columns for T1.2 to fill in.
 v1's disclosures.db is opened read-only.
 
     .venv/bin/python scripts/find_attachment_gaps.py [--extractions DIR] [--v1 DB] [--out CSV]
@@ -47,7 +47,7 @@ SAMPLE_SIZE = 5
 
 FIELDS = [
     "stem", "pdf_path", "reason", "ref_page", "ref_section", "ref_owner",
-    "v2_item_count", "v1_unmatched_count", "v1_unmatched_sample", "verdict",
+    "v2_item_count", "v1_unmatched_count", "v1_unmatched_sample", "verdict", "expected",
 ]
 
 
@@ -129,6 +129,7 @@ def scan(extractions: Path, v1_db: Path | None) -> list[dict]:
             "v1_unmatched_count": len(missing),
             "v1_unmatched_sample": " | ".join(missing[:SAMPLE_SIZE]),
             "verdict": "",
+            "expected": "",
         })
     return rows
 
