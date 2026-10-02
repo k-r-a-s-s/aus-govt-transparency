@@ -60,3 +60,21 @@ back valid (odowdk45p with a Sonnet fallback chunk). Items went from 315 to 525 
 every expected attachment name is now present (`eval/attachment_gaps.md`). Cost US$0.48. After
 the reload: 42,252 items, the hard AC-2.7 queries are 0, AC-2.9 has 0 null party, and the
 AC-2.8 id hash is now `465f1071…` (was `f69d40da…`; only these files' item ids changed).
+
+## 48th Parliament
+
+House 48th register (T3.5, 2026-10-03): the 151 PDFs scraped into `pdfs/48/` (T3.3a,
+`pdfs/manifest.csv`) were extracted with the same G2 configuration and prompt v1 (C12), 8
+batches of ≤ 20. Every batch came back 20/20 (last 11/11) on the first pass; no re-runs needed.
+
+| Outcome | PDFs |
+|---|---|
+| valid extraction in `extractions/gemini-api/house/48/` | 151 |
+| excluded: not a statement | 0 |
+| failed | 0 |
+| **PDFs in the manifest for the 48th** | **151** |
+
+No Sonnet fallback: all 151 files have `model = google/gemini-3.8-flash` (typed PDFs, 6–73
+pages, 2,684 pages total). Cost US$4.03 (extractor summaries). After the reload: `validate`
+919 valid / 0 invalid, 48,956 items (6,704 from the 48th), hard AC-2.7 queries 0, AC-2.9 0 null
+party, AC-2.8 id hash `c4888789…` (stable across two loads), AC-4.7 151 distinct 48th members.

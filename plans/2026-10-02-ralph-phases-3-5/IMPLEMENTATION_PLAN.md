@@ -462,11 +462,11 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   T3.3a). 48th member_terms reach the DB only after T3.5 extracts; the overrides test covers AC-2.9 now.
 
 ### T3.5 — Extract the House 48th (paid)
-- status: todo
+- status: done 2026-10-03
 - deps: T1.5, T3.4
 - attempts: 1
 - budget: cap US$8.00 (est. 5–6) · network: openrouter.ai
-- spent: US$0.00
+- spent: US$4.03
 - do: `credit.py --min 3` before each batch. Run the G2 extract command (AGENTS.md; prompt v1)
   on `pdfs/48/*.pdf` in batches of ≤ 20 per Bash call (each call < 10 min), and re-run until
   valid (idempotent). Validate. Add a "48th Parliament" section to `eval/extraction_failures.md`
@@ -474,6 +474,10 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   AC-2.7–2.9, and AC-4.7 (`select count(distinct member_id) from items where chamber='house'
   and parliament=48` between 145 and 155). Commit the extractions in waves.
 - done when: those checks pass and spend is recorded.
+- notes: 151/151 valid first pass, 0 failures, 0 Sonnet fallback; validate 919/0; 48,956 items
+  (6,704 48th); AC-2.7 hard 0, AC-2.9 0, AC-2.8 hash c4888789… stable; AC-4.7 151.
+  `entities --offline` now exits 1 (554 uncached long-tail blocks from new names) until T3.10
+  runs online, so 5 DB-state entity tests skip meanwhile.
 
 ### T3.6 — Senate 48th adapter (`senate-json`)
 - status: todo

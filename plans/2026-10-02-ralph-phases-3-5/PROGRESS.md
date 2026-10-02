@@ -27,3 +27,4 @@
 2026-10-02T14:13Z | T3.3a | done | spent US$0.00 | scrape house 48: 151 PDFs (147 api/4 static, 85 MB) + manifest rows; bytes stable (sha), 2nd run 0 new, 0 changed; docs/v2/scrape.md; 282 tests pass
 2026-10-02T14:18Z | T3.3b | done | spent US$0.00 | disclosures.members: 151 48th pdf_members rows (118 returning, 33 new, 0 collisions); Katter/Wilson/French hand aliases; 286 tests pass
 2026-10-02T14:24Z | T3.4 | done | spent US$0.00 | 48th party_terms 151 rows (wikipedia_48, pinned start-of-term rev), 0 unknown; seed --check fixed for 48th; cover test includes 48th parties; 288 tests pass
+2026-10-02T14:52Z | T3.5 | done | spent US$4.03 | House 48th: 151/151 valid, 0 failed, 0 fallback; 48,956 items; AC-2.7/2.8/2.9 ok, AC-4.7 151; entities offline waits on T3.10

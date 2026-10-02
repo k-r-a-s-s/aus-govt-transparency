@@ -51,3 +51,4 @@ Repo root is the working directory. Python is `.venv/bin/python` (`bash scripts/
 - `load` exits 1 (but still installs the DB) if a hard AC-2.7 query isn't 0. Treat exit 1 as a failure.
 - Docs to keep current when behaviour changes: `docs/v2/README.md` (commands), `docs/v2/<topic>.md`, `data/overrides/README.md`.
 - Entities long tail (paid): `entities --llm-dry-run` first, then `entities --llm-limit 40 --workers 8` (≈ 2 min, ≈ US$0.45 per 40 requests); exit 1 = blocks still uncached, re-run.
+- After new extractions, `entities --offline` exits 1 (uncached long-tail blocks) and DB-state entity tests skip until an online `entities` run (T3.10).
