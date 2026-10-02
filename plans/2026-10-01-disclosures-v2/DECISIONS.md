@@ -574,3 +574,17 @@ V1's cold check found two places where C12 output could be read two ways.
   They get House ids now; their Senate names resolve onto these ids by name alone (check in the Senate task).
 - `test_real_overrides_cover_all_tracked_pdfs` covers `pdfs/48/` again. Its party check skips
   the 48th until T3.4 writes those party terms.
+
+## 2026-10-03 — 48th House parties: pinned start-of-term Wikipedia revision (T3.4)
+- The live Wikipedia list shows current parties: Barnaby Joyce as One Nation (he left the
+  Nationals mid-term) and Allegra Spender and Zali Steggall as Community Strong. D3 wants the
+  party at the start of the term, so `members --party-terms` reads pinned revisions: 1303424746
+  (2025-07-30, just after the parliament opened) first, and 1377733140 (2026-09-30) only for
+  members the first lacks (David Farley, Farrer by-election 2026, One Nation). Pinned ids keep
+  the rows reproducible.
+- Wikipedia lists Queensland LNP members as Liberal or National (with a "sits with" note). v1's
+  rows for the 43rd–47th call them `Liberal National Party`, so a QLD Liberal/National becomes
+  `Liberal National Party` (16 rows, matching the LNP's 16 seats in 2025).
+- Result: 151 rows, 0 unknown. `scripts/seed_v2_overrides.py --check` derives only v1's
+  parliaments and keeps 48th+ rows (and `aph_*` aliases) verbatim; it had been failing since
+  T3.3a added `pdfs/48/`.

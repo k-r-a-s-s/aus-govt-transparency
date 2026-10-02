@@ -116,3 +116,67 @@ def test_real_48th_members():
     assert by_path["pdfs/48/wilsonj_48p.pdf"] == "josh_wilson"
     assert by_path["pdfs/48/frencht_48p.pdf"] == "tom_french"
     assert ov.resolve_member("pdfs/48/katterr_48p.pdf", "x", "")[0] == "bob_katter"
+
+
+WIKI = """== Leadership ==
+| {{sortname|Milton|Dick}} || [[Division of Oxley|Oxley]] || QLD
+== Members ==
+{| class="sortable wikitable"
+! Member
+|-
+|[[File:x.jpg]]
+|| '''{{sortname|Bob|Katter}}'''
+| {{Australian party style|Katter's Australian Party}} |&nbsp; || colspan=2 | {{Australian politics/name|Katter's Australian Party}}|| [[Division of Kennedy|Kennedy]] || Qld || 1993–current ||
+|-
+|| '''{{sortname|Tony|Smith|dab=politician}}'''
+| {{Australian party style|Liberal}} |&nbsp;
+| colspan="2" |{{Australian politics/name|Liberal}}
+|[[Division of Casey|Casey]]
+|VIC
+|2001–current
+|-
+|| '''{{sortname|Matt|Smith}}'''
+| {{Australian party style|Liberal}}|&nbsp; || colspan=2 | {{Australian politics/name|Liberal}}{{efn|name=LIB}}|| [[Division of Leichhardt|Leichhardt]] || QLD || 2025–current ||
+|}
+==Current party standings==
+"""
+LATER = WIKI.replace("{{sortname|Matt|Smith}}", "{{sortname|Ann|Byelection}}").replace(
+    "{{Australian politics/name|Katter's Australian Party}}", "[[Pauline Hanson's One Nation|One Nation]]")
+
+
+def test_parse_wiki_members():
+    rows = MB.parse_wiki_members(WIKI)
+    assert rows == [
+        {"name": "Bob Katter", "party": "Katter's Australian Party", "electorate": "Kennedy", "state": "QLD"},
+        {"name": "Tony Smith", "party": "Liberal", "electorate": "Casey", "state": "VIC"},
+        {"name": "Matt Smith", "party": "Liberal", "electorate": "Leichhardt", "state": "QLD"}]
+    assert MB.parse_wiki_members(LATER)[0]["party"] == "One Nation"  # [[...|X]] party link
+
+
+def test_party_terms_from_wiki(tmp_path):
+    ov = fake_repo(tmp_path, [["Robert Katter", "Kennedy", "bob_katter", "Bob Katter", "aph_48"]])
+    _write(ov / "party_mapping.csv", ["variant", "canonical_party"],
+           [["Liberal", "Liberal Party of Australia"], ["One Nation", "Pauline Hanson's One Nation"]])
+    _write(ov / "political_blocs.csv", ["party", "bloc"],
+           [["Liberal Party of Australia", "Coalition"], ["Liberal National Party", "Coalition"]])
+    _write(ov / "party_terms.csv", MB.PARTY_HEADER,
+           [["tony_smith", "house", "47", "Liberal Party of Australia", "Coalition", "wikipedia_47"]])
+    _write(ov / "unknown_party.csv", MB.UNKNOWN_HEADER, [])
+    MB.resolve("house", 48, root=tmp_path, out=io.StringIO())
+    _write(tmp_path / "pdfs" / "manifest.csv", MAN_HEADER, [])
+    out = io.StringIO()
+    # the start-of-term revision wins over the later one (Katter keeps KAP, not One Nation)
+    counts = MB.party_terms("house", 48, [WIKI, LATER], root=tmp_path, out=out)
+    assert counts == {"added": 3, "unknown": 0, "already": 0}
+    rows = [list(r.values()) for r in _read(ov / "party_terms.csv")]
+    assert rows == [
+        ["bob_katter", "house", "48", "Katter's Australian Party", "Crossbench", "wikipedia_48"],
+        ["matt_smith", "house", "48", "Liberal National Party", "Coalition", "wikipedia_48"],  # QLD
+        ["tony_smith", "house", "47", "Liberal Party of Australia", "Coalition", "wikipedia_47"],
+        ["tony_smith", "house", "48", "Liberal Party of Australia", "Coalition", "wikipedia_48"]]
+    assert MB.party_terms("house", 48, [WIKI], root=tmp_path, out=io.StringIO())["already"] == 3
+    # a member no revision lists goes to unknown_party.csv
+    (ov / "party_terms.csv").write_text(",".join(MB.PARTY_HEADER) + "\n")
+    counts = MB.party_terms("house", 48, [LATER], root=tmp_path, out=out)
+    assert counts["unknown"] == 1 and "UNKNOWN matt_smith" in out.getvalue()
+    assert _read(ov / "unknown_party.csv")[0]["member_id"] == "matt_smith"

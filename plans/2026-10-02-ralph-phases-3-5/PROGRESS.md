@@ -26,3 +26,4 @@
 2026-10-02T14:04Z | T3.2 | done | spent US$0.00 | pdfs/manifest.csv 774 rows (= git ls-files); source_url matched 770/774 (99.5%), all member statements; AC-4.3 sha test; 273 tests pass
 2026-10-02T14:13Z | T3.3a | done | spent US$0.00 | scrape house 48: 151 PDFs (147 api/4 static, 85 MB) + manifest rows; bytes stable (sha), 2nd run 0 new, 0 changed; docs/v2/scrape.md; 282 tests pass
 2026-10-02T14:18Z | T3.3b | done | spent US$0.00 | disclosures.members: 151 48th pdf_members rows (118 returning, 33 new, 0 collisions); Katter/Wilson/French hand aliases; 286 tests pass
+2026-10-02T14:24Z | T3.4 | done | spent US$0.00 | 48th party_terms 151 rows (wikipedia_48, pinned start-of-term rev), 0 unknown; seed --check fixed for 48th; cover test includes 48th parties; 288 tests pass

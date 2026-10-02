@@ -13,13 +13,28 @@ every known variant ("Robert Katter" for Bob Katter) and new MPs whose Wikipedia
 from the listing ("Thomas French" -> Tom French) are handled by hand-added alias rows, which
 this command then resolves. Every new member is printed with any earlier member who shares
 its surname, so a misread returning MP can't silently split a history.
+
+    python -m disclosures.members --parliament 48 --party-terms --wiki-revision 1303424746 \
+        --wiki-revision 1377733140
+
+``--party-terms`` (D3 48th parties) reads the Wikipedia "Members of the Australian House of
+Representatives" table at each pinned revision (the first one at the start of the term; later
+ones only add members the earlier ones lack, i.e. by-elections) and writes a
+``party_terms.csv`` row (``source=wikipedia_{NN}``) for every member of that parliament's PDFs
+that has none, or an ``unknown_party.csv`` row when no table row matches. Party names go
+through ``party_mapping.csv``; a Queensland Liberal or National is ``Liberal National Party``
+(v1's convention); blocs come from ``political_blocs.csv``, else Crossbench.
 """
 from __future__ import annotations
 
 import argparse
 import csv
 import io
+import json
+import re
 import sys
+import urllib.parse
+import urllib.request
 from collections import defaultdict
 from pathlib import Path
 from typing import Dict, List, Optional
@@ -30,6 +45,11 @@ MANIFEST = Path("pdfs/manifest.csv")
 OVERRIDES = Path("data/overrides")
 PDF_MEMBERS_HEADER = ["pdf_path", "member_id", "canonical_full_name", "electorate_or_state", "source"]
 ALIASES_HEADER = ["name_variant", "electorate_or_state", "member_id", "canonical_full_name", "source"]
+PARTY_HEADER = ["member_id", "chamber", "parliament", "party", "political_bloc", "source"]
+UNKNOWN_HEADER = ["member_id", "chamber", "parliament", "note"]
+WIKI_TITLE = {48: "Members of the Australian House of Representatives, 2025\u20132028"}
+UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) "
+      "Chrome/140.0 Safari/537.36")
 
 
 def _read(path: Path) -> List[dict]:
@@ -124,6 +144,91 @@ def resolve(chamber: str, parliament: int, *, root: Path = Path("."), write: boo
     return counts
 
 
+def parse_wiki_members(wikitext: str) -> List[dict]:
+    """Rows of the "== Members ==" table: {name, party, electorate, state}. The party is the
+    first ``{{Australian politics/name|X}}`` (or ``[[...|X]]`` link) after the name."""
+    start = wikitext.index("== Members ==")
+    end = wikitext.find("\n==", start + 13)
+    out = []
+    for row in wikitext[start:end if end > 0 else None].split("\n|-")[1:]:
+        m = re.search(r"\{\{sortname\|([^|}]+)\|([^|}]+)", row)
+        if not m:
+            continue
+        rest = row[m.end():]
+        party = re.search(r"\{\{Australian politics/name\|([^}|]+)", rest)
+        if party is None:
+            party = re.search(r"colspan=\"?2\"?\s*\|\s*\[\[[^|\]]+\|([^\]]+)\]\]", rest)
+        elec = re.search(r"\[\[Division of [^|\]]+\|([^\]]+)\]\]", rest)
+        state = re.search(r"Division of [^\]]+\]\][\s|]*(NSW|VIC|QLD|WA|SA|TAS|ACT|NT)\b", rest, re.I)
+        out.append({"name": f"{m.group(1).strip()} {m.group(2).strip()}",
+                    "party": party.group(1).strip() if party else "",
+                    "electorate": elec.group(1).strip() if elec else "",
+                    "state": state.group(1).upper() if state else ""})
+    return out
+
+
+def fetch_wiki_revision(parliament: int, revid: int) -> str:
+    q = urllib.parse.urlencode({"action": "query", "prop": "revisions", "revids": revid,
+                                "rvprop": "content", "rvslots": "main", "format": "json",
+                                "formatversion": 2})
+    req = urllib.request.Request(f"https://en.wikipedia.org/w/api.php?{q}", headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=60) as resp:
+        page = json.load(resp)["query"]["pages"][0]
+    if page.get("title") != WIKI_TITLE[parliament]:
+        raise SystemExit(f"members: revision {revid} is of {page.get('title')!r}, not {WIKI_TITLE[parliament]!r}")
+    return page["revisions"][0]["slots"]["main"]["content"]
+
+
+def party_terms(chamber: str, parliament: int, wikitexts: List[str], *, root: Path = Path("."),
+                write: bool = True, out=sys.stdout) -> Dict[str, int]:
+    """-> counts {added, unknown, already}. ``wikitexts`` in priority order (start of term first)."""
+    ov_dir = root / OVERRIDES
+    ov = Overrides(ov_dir)
+    mapping = {r["variant"].casefold(): r["canonical_party"] for r in _read(ov_dir / "party_mapping.csv")}
+    blocs = {r["party"]: r["bloc"] for r in _read(ov_dir / "political_blocs.csv")}
+    by_mid: Dict[str, dict] = {}
+    for text in wikitexts:
+        for w in parse_wiki_members(text):
+            key = norm_person_name(w["name"])
+            hits = ov.alias_by_name_elec.get((key, norm_electorate(w["electorate"])), set())
+            if len(hits) != 1:
+                hits = ov.alias_by_name.get(key, set())
+            mid = next(iter(hits)) if len(hits) == 1 else member_slug(w["name"])
+            by_mid.setdefault(mid, w)
+    mids = sorted({r["member_id"] for p, r in ov.pdf_members.items()
+                   if r["member_id"] and _parliament(p) == parliament})
+    counts = {"added": 0, "unknown": 0, "already": 0}
+    new_party, new_unknown = [], []
+    src = f"wikipedia_{parliament}"
+    for mid in mids:
+        key = (mid, chamber, parliament)
+        if key in ov.party_terms or key in ov.unknown_party:
+            counts["already"] += 1
+            continue
+        w = by_mid.get(mid)
+        party = mapping.get(w["party"].casefold(), w["party"]) if w and w["party"] else ""
+        if party in ("Liberal Party of Australia", "National Party of Australia") and w["state"] == "QLD":
+            party = "Liberal National Party"
+        if not party:
+            counts["unknown"] += 1
+            new_unknown.append({"member_id": mid, "chamber": chamber, "parliament": parliament,
+                                "note": f"no row in Wikipedia {WIKI_TITLE.get(parliament, '')}"})
+            print(f"UNKNOWN {mid}", file=out)
+            continue
+        counts["added"] += 1
+        new_party.append({"member_id": mid, "chamber": chamber, "parliament": parliament, "party": party,
+                          "political_bloc": blocs.get(party, "Crossbench"), "source": src})
+    print(f"party terms {chamber} {parliament}: {counts['added']} added, {counts['unknown']} unknown, "
+          f"{counts['already']} already present", file=out)
+    if write and (new_party or new_unknown):
+        order = lambda r: (r["member_id"], r["chamber"], int(r["parliament"]))
+        _write(ov_dir / "party_terms.csv", PARTY_HEADER,
+               sorted(_read(ov_dir / "party_terms.csv") + new_party, key=order))
+        _write(ov_dir / "unknown_party.csv", UNKNOWN_HEADER,
+               sorted(_read(ov_dir / "unknown_party.csv") + new_unknown, key=order))
+    return counts
+
+
 def _lookalikes(mid: str, canonical: str, ov: Overrides, earlier: Dict[str, set]) -> str:
     """Earlier members who share this new member's surname: the eyeball list for a returning
     MP misread as new (a nickname, a full given name, a changed seat)."""
@@ -138,7 +243,16 @@ def main(argv: Optional[List[str]] = None) -> int:
     p.add_argument("--chamber", choices=["house"], default="house")
     p.add_argument("--parliament", type=int, required=True)
     p.add_argument("--dry-run", action="store_true", help="report only, write nothing")
+    p.add_argument("--party-terms", action="store_true", help="write party_terms rows from Wikipedia")
+    p.add_argument("--wiki-revision", type=int, action="append", default=[],
+                   help="pinned revision id of the members list (repeatable; start of term first)")
     args = p.parse_args(argv)
+    if args.party_terms:
+        if not args.wiki_revision:
+            p.error("--party-terms needs at least one --wiki-revision")
+        texts = [fetch_wiki_revision(args.parliament, r) for r in args.wiki_revision]
+        counts = party_terms(args.chamber, args.parliament, texts, write=not args.dry_run)
+        return 0
     counts = resolve(args.chamber, args.parliament, write=not args.dry_run)
     return 1 if counts["collisions"] else 0
 

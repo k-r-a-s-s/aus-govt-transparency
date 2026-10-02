@@ -7,7 +7,10 @@ They were seeded on 2026-10-02 by `scripts/seed_v2_overrides.py`, which reads v1
 `disclosures.db` (`mps`, and `disclosures.pdf_filename` -> `mp_id`), the dict literals in
 `src/cleaning/*.py` (parsed, not imported) and `output/all_mps_*.csv` (v1's Wikipedia
 scrapes). The script's `MANUAL_*` tables hold the hand fixes. `--check` exits 1 if a CSV here
-differs from what the script would write. After Phase 5 removes v1 the script stops working.
+differs from what the script would write. It only derives v1's parliaments (43rd–47th): rows for
+the 48th on (`pdf_members`/`party_terms`/`unknown_party` rows of parliament ≥ 48 and
+`member_aliases` rows with `source=aph_*`) are written by `python -m disclosures.members`,
+are hand-maintained after that, and the script keeps them verbatim. After Phase 5 removes v1 the script stops working.
 From then on these CSVs are the source of truth and are edited by hand.
 
 `member_id` is the slug of the canonical full name: lower case, ASCII-folded, each run of
@@ -20,7 +23,7 @@ people who own a tracked PDF have one.
 | `pdf_members.csv` | `pdf_path, member_id, canonical_full_name, electorate_or_state, source` | One row per tracked PDF (925), sorted by path. This is the main way a document gets its member. `source=v1`: from v1 `disclosures.pdf_filename` -> `mps` (759). `source=stem`: v1 loaded no rows for the PDF, so the member comes from the filename stem and the first page (9). `source=non_member`: not a member's statement, `member_id` is empty (6: `interestsr_4Np.pdf` is the House resolution text, `explanatory_notes___booklet_1.pdf` is the form's notes). `source=aph_48`: 48th PDFs from `python -m disclosures.members --parliament 48` (151: 118 returning, 33 new); the electorate is the listing's. `electorate_or_state` is v1's electorate for that record. It is v1's most-recent seat name for the member, so renamed seats carry the later name even on older PDFs (Wilkie's 43rd–45th PDFs print Denison, the column says Clark). The loader prefers the extraction's printed electorate and only falls back to this column. |
 | `member_aliases.csv` | `name_variant, electorate_or_state, member_id, canonical_full_name, source` | Name variants -> member. It holds every v1 `mps.full_name` and `mps.mp_id`, the v1 manual merge overrides (`merge_duplicate_mps.py:29-50`), both sides of `MP_NAME_SPECIAL_CASES`, and each canonical name. `source=aph_48`: one row per new 48th member (listing name), plus hand rows for printed names no variant matched (`Robert Katter` -> bob_katter, `Joshua Wilson` -> josh_wilson, `Thomas French` -> Tom French, Wikipedia's form). Matching uses a normalised name (see `norm_person_name`), with the electorate first and then without it. An empty electorate means the row applies anywhere. |
 | `party_terms.csv` | `member_id, chamber, parliament, party, political_bloc, source` | Party per (member, parliament) for every member term that has a PDF. `source` says where the party came from (see below). |
-| `unknown_party.csv` | `member_id, chamber, parliament, note` | (member, parliament) pairs with no known party. Empty for House 43rd–47th. Phase 4 adds the 48th. |
+| `unknown_party.csv` | `member_id, chamber, parliament, note` | (member, parliament) pairs with no known party. Empty for House 43rd–48th. |
 | `party_mapping.csv` | `variant, canonical_party` | v1 `PARTY_MAPPING`, plus four variants from v1's Wikipedia CSVs that it lacked (`Palmer United`, `Xenophon/Centre Alliance`, `Nationals WA`, `Liberal / Independent`). |
 | `political_blocs.csv` | `party, bloc` | v1 `COALITION_PARTIES` -> `Coalition` and `LABOR_PARTIES` -> `Labor`. Any party not listed is `Crossbench`. This includes the Greens: v1 had a separate `Greens` bloc, but v2 uses three blocs. |
 
@@ -32,6 +35,13 @@ footnote markers (`[a]`) produce a few extra per-term rows. Party names go throu
 `party_mapping.csv`.
 
 - `wikipedia_NN`: v1's Wikipedia scrape has a row for that very parliament.
+- `wikipedia_48`: the 48th House (151 rows), written by
+  `python -m disclosures.members --parliament 48 --party-terms --wiki-revision 1303424746 --wiki-revision 1377733140`.
+  Revision 1303424746 (2025-07-30) of "Members of the Australian House of Representatives,
+  2025–2028" gives the start-of-term party; 1377733140 (2026-09-30) only adds David Farley
+  (Farrer by-election 2026, One Nation). A Queensland Liberal or National is `Liberal National
+  Party`, as in v1. So Barnaby Joyce is National (he joined One Nation mid-term), and Allegra
+  Spender and Zali Steggall are Independent (they later formed Community Strong).
 - `wikipedia_NN_carried_back`: an earlier term takes the party from the person's latest
   Wikipedia row. A latest party of `Liberal/Independent`, `Liberal / Independent`,
   `National / Independent` or `Labor/Independent` means the person defected during that last

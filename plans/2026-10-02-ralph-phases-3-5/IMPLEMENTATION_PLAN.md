@@ -444,9 +444,9 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   French→tom_french (Wikipedia). tests/test_members.py; party check in the cover test skips 48 until T3.4.
 
 ### T3.4 — 48th House party terms
-- status: todo
+- status: done 2026-10-03
 - deps: T3.3b
-- attempts: 0
+- attempts: 1
 - budget: US$0 · network: en.wikipedia.org
 - do: Per D3, add `party_terms.csv` rows (`source=wikipedia_48`) for every 48th House member;
   put misses in `unknown_party.csv`. Also extend `scripts/seed_v2_overrides.py --check` (or
@@ -455,6 +455,11 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
 - done when: every 48th member_id has a party row or an unknown_party row, and AC-2.9's ≤ 5
   holds across all terms. Remove the `< 48` filter T3.3b put in the party loop of
   `tests/test_load.py::test_real_overrides_cover_all_tracked_pdfs`; it must pass for the 48th.
+- notes: `members --party-terms` from pinned Wikipedia revs 1303424746 (start of term) +
+  1377733140 (Farley by-election only): 151 rows, 0 unknown (94 ALP, 16 LNP, 18 LIB, 9 NAT,
+  14 crossbench). Joyce = National, Spender/Steggall = Independent (start of term). seed
+  `--check` now derives 43rd-47th only and keeps 48th+/aph_* rows verbatim (it had failed since
+  T3.3a). 48th member_terms reach the DB only after T3.5 extracts; the overrides test covers AC-2.9 now.
 
 ### T3.5 — Extract the House 48th (paid)
 - status: todo

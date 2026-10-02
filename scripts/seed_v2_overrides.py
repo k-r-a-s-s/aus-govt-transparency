@@ -9,7 +9,11 @@ never loaded) are the `MANUAL_*` tables below, so the output is reproducible:
 
     .venv/bin/python scripts/seed_v2_overrides.py [--check]
 
-`--check` rebuilds in memory and exits 1 if any committed CSV differs. Once v1 is deleted in
+`--check` rebuilds in memory and exits 1 if any committed CSV differs. The script only knows
+v1's parliaments (43rd-47th). Rows added later by `python -m disclosures.members` (48th and on:
+`pdf_members`/`party_terms`/`unknown_party` rows of parliament >= 48, `member_aliases` rows with
+`source=aph_*`) are hand-maintained: the script keeps them as they are and checks the rest.
+Once v1 is deleted in
 Phase 5 this script stops working; the committed CSVs are then the source of truth and are
 edited by hand.
 """
@@ -142,6 +146,27 @@ def parl_of(path: str) -> int:
     return int(path.split("/")[1])
 
 
+V1_LAST_PARLIAMENT = 47
+
+
+def hand_rows(name: str) -> list[list[str]]:
+    """Committed rows this script doesn't derive (see the module docstring); kept verbatim."""
+    path = OUT / name
+    if not path.exists():
+        return []
+    with open(path, newline="", encoding="utf-8") as fh:
+        rows = list(csv.DictReader(fh))
+    if name == "pdf_members.csv":
+        keep = [r for r in rows if parl_of(r["pdf_path"]) > V1_LAST_PARLIAMENT]
+    elif name == "member_aliases.csv":
+        keep = [r for r in rows if r["source"].startswith("aph_")]
+    elif name in ("party_terms.csv", "unknown_party.csv"):
+        keep = [r for r in rows if int(r["parliament"]) > V1_LAST_PARLIAMENT]
+    else:
+        keep = []
+    return [list(r.values()) for r in keep]
+
+
 # --- build --------------------------------------------------------------------------------
 
 def load_wiki():
@@ -209,7 +234,7 @@ def main(argv=None) -> int:
     pdf_to_mp = dict(conn.execute("select pdf_filename, min(mp_id) from disclosures group by 1"))
     files = subprocess.run(["git", "ls-files", "pdfs"], cwd=REPO, capture_output=True, text=True,
                            check=True).stdout.split()
-    files = sorted(f for f in files if f.lower().endswith(".pdf"))
+    files = sorted(f for f in files if f.lower().endswith(".pdf") and parl_of(f) <= V1_LAST_PARLIAMENT)
     wiki = load_wiki()
     v1_to_wiki, unresolved = match_v1_to_wiki(v1_rows, wiki)
 
@@ -338,6 +363,15 @@ def main(argv=None) -> int:
         "party_mapping.csv": (["variant", "canonical_party"], mapping_rows),
         "political_blocs.csv": (["party", "bloc"], bloc_rows),
     }
+    sort_keys = {
+        "pdf_members.csv": lambda r: r[0],
+        "member_aliases.csv": lambda r: (r[2], r[0].casefold(), r[0], r[1], r[4]),
+        "party_terms.csv": lambda r: (r[0], r[1], int(r[2])),
+        "unknown_party.csv": lambda r: (r[0], r[1], int(r[2])),
+    }
+    for name, key in sort_keys.items():
+        header, rows = outputs[name]
+        outputs[name] = (header, sorted([list(r) for r in rows] + hand_rows(name), key=key))
     stale = []
     for name, (header, rows) in outputs.items():
         buf = io.StringIO()

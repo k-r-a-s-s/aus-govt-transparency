@@ -345,8 +345,7 @@ def test_real_overrides_cover_all_tracked_pdfs():
     assert paths == sorted(paths)  # reviewable: sorted by path
     # every (member, parliament) with a PDF has a party, or is listed as unknown
     for path, r in ov.pdf_members.items():
-        # T3.4 adds the 48th party terms and removes this parliament filter.
-        if r["member_id"] and int(path.split("/")[1]) < 48:
+        if r["member_id"]:
             key = (r["member_id"], "house", int(path.split("/")[1]))
             assert key in ov.party_terms or key in ov.unknown_party, key
             pt = ov.party_terms.get(key)

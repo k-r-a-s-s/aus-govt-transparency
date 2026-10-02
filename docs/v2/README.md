@@ -20,7 +20,7 @@ Spec: `plans/2026-10-01-disclosures-v2/SPEC.md`.
 | `disclosures/load.py` | loader: validated extractions -> `disclosures_v2.db` (ADR-7); see `docs/v2/loading.md` |
 | `disclosures/sources.py` | House register URLs (43rd–48th), browser-UA HTTP with retries, listing parser (fixtures in `tests/fixtures/aph/`) |
 | `disclosures/manifest.py` | `pdfs/manifest.csv` (ADR-8): one row per tracked PDF; `python -m disclosures.manifest --backfill [--html-dir DIR]` rebuilds it, matching source_url/listed_date from the 43rd–47th archive listings |
-| `disclosures/members.py` | `python -m disclosures.members --parliament 48 [--dry-run]`: `pdf_members.csv`/`member_aliases.csv` rows for newly scraped PDFs (D3); prints NEW members with same-surname earlier members to eyeball |
+| `disclosures/members.py` | `python -m disclosures.members --parliament 48 [--dry-run]`: `pdf_members.csv`/`member_aliases.csv` rows for newly scraped PDFs (D3); prints NEW members with same-surname earlier members to eyeball. `--party-terms --wiki-revision ID …` writes `party_terms.csv` rows (`source=wikipedia_48`) from pinned Wikipedia revisions |
 | `disclosures/entities.py` | entity standardisation (ADR-6); see `docs/v2/entities.md` |
 | `data/entities/` | committed entity inputs: generic terms, curated aliases, ASX exclusions, LLM cache |
 | `data/reference/` | ASX listed-companies snapshots (`entities --fetch-asx`) |
