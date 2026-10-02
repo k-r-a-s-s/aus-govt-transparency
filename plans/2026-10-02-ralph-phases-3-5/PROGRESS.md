@@ -42,3 +42,4 @@
 2026-10-02T22:30Z | T2.9 | done | spent US$0.00 | G3: 0 fixes to apply; load+entities --offline 11,544 entities, AC-3.3 0, coverage 97.7%, report unchanged; G3 in DECISIONS; 322 pass
 2026-10-02T22:41Z | V2 | done | spent US$0.00 | cold verify Phase 3: ACs pass, deterministic; fixed reused tickers (ore/map/cim/agi/apt) + comm bank via 9 curated rows, G3 header, known limitations; 11,542 entities; 322 pass
 2026-10-02T22:46Z | T5.6 | done | spent US$0.00 | final rebuild (995 files, 50,936 items, 11,542 entities) + export/site; every AC-0..AC-5 passes -> eval/final_acceptance.md; HANDOFF/DECISIONS/SPEC progress updated
+2026-10-02T22:55Z | V5 | done | spent US$0.00 | final cold verify: PASS, no findings; 10/10 sampled items traced to source; export/site/dictionary consistent; 322 pass

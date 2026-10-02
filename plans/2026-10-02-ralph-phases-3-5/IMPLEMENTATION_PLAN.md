@@ -680,14 +680,20 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
 - notes: all SPEC §3 ACs pass (eval/final_acceptance.md); rebuild deterministic (item hash 88fb48c0…); site/exports re-generated (11,542 entities); HANDOFF/DECISIONS/SPEC Progress updated.
 
 ### V5 — Final cold verification
-- status: todo
+- status: done 2026-10-03
 - deps: T5.6
-- attempts: 0
+- attempts: 1
 - budget: US$0 · network: none
 - do: A fresh subagent gets only SPEC §3 and `eval/final_acceptance.md`, re-runs every check,
   and tries to break the export and site (row counts, column dictionary, the Datasette link,
   a sample of 10 items traced back to their PDF page).
 - done when: no unresolved finding.
+- notes: Round 1 "VERDICT: PASS — no unresolved findings". All offline ACs reproduce (322 pass/1 skip,
+  rebuild hash 88fb48c0…, export 50,936 rows = items, 33 cols = metadata = README dictionary,
+  site DB identical, Datasette Lite URL matches remote owner/repo); 10/10 sampled items traced to
+  PDF page / Senate JSON. Not checkable offline: AC-4.4 live re-scrape, AC-5.5 fresh install, AC-5.6
+  Pages/Kaggle. Cosmetic (not fixed): singleton `entity_type` wording (87 rows typed); dead skipped
+  stub test; README "v1 being removed" wording; Kaggle id/licence placeholders (G4).
 
 ### G4 — Kevin publishes
 - status: todo
