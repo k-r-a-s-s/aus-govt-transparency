@@ -278,3 +278,9 @@ confirm. Budget note: OpenRouter credit is ≈ US$17.5 of 30 after this session'
 gold runs and probes; the backfill at this configuration is ≈ US$22, so a top-up of ≈ US$10 is
 needed before (or during) it. A `--reasoning-effort low` variant scored F1 0.977 at ≈ 25%
 less (≈ US$16 backfill); kept as the budget option only (`eval/bakeoff.md`).
+
+**G2 CONFIRMED (Kevin, 2026-10-02): gemini-api = `google/gemini-3.8-flash` on
+`google-ai-studio/flex` with `--fallback-model anthropic/claude-sonnet-5.5`, default reasoning
+effort.** ("yes lets use gemini with claude fallback.") OpenRouter topped up by US$10 the same
+day: US$27.3 available against the ≈ US$22 estimate. The backfill is the next agent's first
+action (`HANDOFF.md`).

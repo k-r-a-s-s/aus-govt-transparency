@@ -1,6 +1,6 @@
 # Extractor bake-off — gold set (12 PDFs, 790 gold items, 289 pages)
 
-Status: **four arms scored 2026-10-02; recommendation gemini-api (Gemini 3.8 Flash on OpenRouter flex + Claude Sonnet 5.5 fallback), awaiting Kevin's G2 confirmation.**
+Status: **G2 confirmed 2026-10-02 (Kevin): gemini-api = Gemini 3.8 Flash on OpenRouter flex + Claude Sonnet 5.5 fallback.** Four arms scored the same day; backfill not yet run.
 Date: 2026-10-02 · Scorer: `python -m disclosures score` (ADR-4; token_set_ratio ≥ 85, section-strict
 matching, micro-averaged). Gold reviewed by Kevin at G1 (2026-10-01).
 
@@ -112,7 +112,7 @@ choose `gemini-api` (unattended, reproducible, cheap re-runs).
 - Luna is 3× cheaper but breaks the C4 date convention and loses items on dense pages; Sonnet
   5.5 is the best on dates and sections but ≈ 5× the cost of Gemini for 1 F1 point less.
 
-**Recommended arm: gemini-api** = `google/gemini-3.8-flash` on `google-ai-studio/flex` with
-`--fallback-model anthropic/claude-sonnet-5.5` (G2 revisited 2026-10-02; **awaiting Kevin's
-confirmation** in `plans/2026-10-01-disclosures-v2/DECISIONS.md`). Budget: ≈ US$22 for the
-backfill against ≈ US$17.5 of OpenRouter credit remaining, so top up ≈ US$10 first.
+**Chosen arm: gemini-api** = `google/gemini-3.8-flash` on `google-ai-studio/flex` with
+`--fallback-model anthropic/claude-sonnet-5.5`, default reasoning effort (G2 confirmed by Kevin
+2026-10-02, recorded in `plans/2026-10-01-disclosures-v2/DECISIONS.md`). Budget: ≈ US$22 for
+the backfill; OpenRouter credit topped up to ≈ US$27.3 the same day.

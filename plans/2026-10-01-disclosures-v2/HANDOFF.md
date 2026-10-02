@@ -1,4 +1,4 @@
-# Handover — Disclosures v2 (updated 2026-10-02 evening: OpenRouter bake-off done, G2 recommendation ready, backfill not started)
+# Handover — Disclosures v2 (updated 2026-10-02 evening: G2 confirmed = Gemini 3.8 Flash + Sonnet fallback; backfill is the next action)
 
 Read first: `SPEC.md` (plan, ADRs, ACs, gates), `DECISIONS.md` (dated decisions, incl. G1/G2),
 `docs/v2/README.md` (layout, commands), `docs/v2/extraction.md` (both extractor arms, both
@@ -16,21 +16,21 @@ file only holds what those don't.
   outright. Gold outputs are committed under `extractions/gemini-api/`,
   `extractions/openrouter-gpt-6-luna/`, `extractions/openrouter-claude-sonnet-5.5/` (12 files
   each) with reports `eval/<source_id>.json`.
-- **G2 is revisited but not confirmed.** `DECISIONS.md` has the dated "G2 revisited" entry with
-  the recommendation; Kevin has not yet confirmed it.
+- **G2 confirmed by Kevin (2026-10-02):** gemini-api = `google/gemini-3.8-flash` on
+  `google-ai-studio/flex` + `--fallback-model anthropic/claude-sonnet-5.5`, default reasoning.
+  Recorded in `DECISIONS.md`. Don't re-open the model choice.
 - **Backfill: still 23 of 768** (the committed workflow-claude files). Nothing has been run on
   the non-gold PDFs.
-- **OpenRouter credit ≈ US$17.3 of 30 remains** (check: `curl -H "Authorization: Bearer
-  $OPENROUTER_KEY" https://openrouter.ai/api/v1/credits`). The backfill at the recommended
-  configuration is ≈ US$22 (scaled from US$0.48 for the 289 gold pages), so it needs a top-up
-  of ≈ US$10 or will stop part-way (idempotent: just re-run after topping up).
+- **OpenRouter credit ≈ US$27.3 of 40 remains** after Kevin's US$10 top-up (check: `curl -H
+  "Authorization: Bearer $OPENROUTER_KEY" https://openrouter.ai/api/v1/credits`; the key is in
+  `.env.local`, never print it). The backfill is ≈ US$22 (scaled from US$0.48 for the 289 gold
+  pages). If it runs out, the command is idempotent: re-run after a top-up.
 
 ## Single next action
-1. **Kevin confirms G2** (or overrules) in `DECISIONS.md`: a dated line under the "G2 revisited"
-   entry. Also decide the spend: top up OpenRouter by ≈ US$10, or accept a part-way stop.
-2. **Backfill** (only after 1). The statement list is `eval/pdf_stats.csv` rows with
-   `is_statement=1` (768). In zsh use `${=VAR}` or inline the `$(...)` (zsh does not
-   word-split `$VAR`; this silently broke three runs this session):
+**Run the backfill**, then validate, list failures, and load. Kevin's words: "lets go."
+1. **Backfill.** The statement list is `eval/pdf_stats.csv` rows with `is_statement=1` (768).
+   In zsh use `${=VAR}` or inline the `$(...)` (zsh does not word-split `$VAR`; this silently
+   broke three runs this session). Run it in the background (it takes hours) and tail the log:
    ```sh
    .venv/bin/python -m disclosures extract --source gemini --provider openrouter \
        --model google/gemini-3.8-flash --provider-order google-ai-studio/flex \
@@ -41,12 +41,17 @@ file only holds what those don't.
    It skips valid existing output (the 12 gold files), so re-run until
    `python -m disclosures validate extractions/gemini-api/house` is 0 invalid. Expect
    ≈ 660 chunks; at 4 workers the gold set (18 chunks) took ≈ 4 min, so budget a few hours at 8.
-   Watch the log for `note … fallback` lines (RECITATION blocks) and `FAILED` lines.
-3. Write `eval/extraction_failures.md` (AC-2.6): failed PDFs with reasons, plus the 6
+   Watch the log for `note … fallback` lines (RECITATION blocks) and `FAILED` lines. A PDF that
+   fails for a transient reason (timeout, 5xx after retries) is fixed by re-running; one that
+   fails on both models is a genuine failure for step 2. Commit `extractions/gemini-api/` in
+   waves (per parliament is fine) so partial progress is never lost.
+2. Write `eval/extraction_failures.md` (AC-2.6): failed PDFs with reasons, plus the 6
    non-statements under "excluded: not a statement" (`interestsr_44..47p.pdf`,
    `explanatory_notes___booklet_1.pdf` ×2); 774 = valid + excluded + failed, ≤ 5 failures.
-4. `python -m disclosures load --source gemini-api` and check AC-2.7–2.10; list the AC-2.7
-   early-dated count in `eval/bakeoff.md`. Do not mix sources in one load.
+3. `python -m disclosures load --source gemini-api` and check AC-2.7–2.10 (`docs/v2/loading.md`);
+   list the AC-2.7 early-dated count in `eval/bakeoff.md`. Do not mix sources in one load.
+4. Update this file and `DECISIONS.md` (Phase 2 done), then stop: Phase 3 (entities) and Phase
+   4a (scraper) are separate specs in `SPEC.md`.
 
 ## In-flight / deliberately out of scope
 - `extractions/workflow-claude/` (23 files) stays committed as bake-off evidence and fallback.
@@ -84,7 +89,7 @@ file only holds what those don't.
 - **The AI Studio key is not usable** (prepaid credits depleted). Don't retry it.
 
 ## Open questions (who holds the ball)
-- **G2 confirmation and the ≈ US$10 top-up: Kevin.**
+- **None block the backfill.** G2 is confirmed and the credit is topped up.
 - **SPEC.md "DRAFT, awaiting sign-off": Kevin.** ADR-4 bar still "proposed defaults"; ADR-5's
   "any other finish reason fails" wording should get the fallback caveat when SPEC is signed.
 - **Luna's date bug**: not pursued. If cost ever matters more than dates, a one-line prompt
