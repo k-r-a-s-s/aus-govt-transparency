@@ -19,7 +19,8 @@ python -m disclosures entities --draft-candidates          # curation worksheet 
 It reads only committed files, so two runs give identical tables (tested). It prints, per
 method, how many aliases and items resolved that way. It also prints the AC-3.3 count: named,
 non-generic items that have no entity. That count must be 0, and the command exits 1 if it
-isn't. Exit 2 means a missing DB or bad input. The command refuses to touch v1's
+isn't. It also prints the AC-3.2 coverage: the share of the items of the top 200 non-generic
+names that have an `aliases.csv` row (must be ≥ 95%; printed, and asserted by the tests). Exit 2 means a missing DB or bad input. The command refuses to touch v1's
 `disclosures.db`.
 
 ## Curation worksheet (`--draft-candidates`)
@@ -56,7 +57,11 @@ won't fuzzy-match their full names; those pairs come from curation. Output is de
    still-unresolved aliases and returns the ones it can name. The first stage to claim an
    alias wins. `entity_aliases.method` records which stage it was.
    - `curated`: exact match of the normalised `aliases.csv` alias. Heads 1–100 (T2.4): 330
-     aliases → 72 entities, 12,597 items. Curation rules (DECISIONS 2026-10-02, T2.4): one
+     aliases → 72 entities, 12,597 items. Heads 101–200 (T2.5) bring it to 522 aliases and
+     14,641 items, and 100% of the top 200's items. A trust and its trustee company stay
+     separate (Kimlie Trust and Kimlie Pty Ltd); a renamed organisation takes its current name
+     (Football Australia, Rugby Australia); delisted companies (Newcrest, Atlas Iron) are typed
+     `other` and flagged. Curation rules (DECISIONS 2026-10-02, T2.4): one
      entity per brand as disclosed (St.George, Bankwest, BankSA, ME Bank stay apart from their
      parents); lounges, clubs and frequent-flyer programmes resolve to the airline; party and
      union state branches stay separate; combined names (`qantas and virgin`) aren't curated.

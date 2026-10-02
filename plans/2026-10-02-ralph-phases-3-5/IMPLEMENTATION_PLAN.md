@@ -279,14 +279,15 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
 - notes: 330 aliases → 72 entities (all 100 heads); curated 12,597 items, asx 279/1,067 left; 15 rows review_flag=1. ASX stage now reuses a curated row's canonical for the same code (no splits). Rules in DECISIONS 2026-10-02 (T2.4).
 
 ### T2.5 — Curate aliases.csv: heads 101–200, coverage test
-- status: todo
+- status: done 2026-10-02
 - deps: T2.4
-- attempts: 0
+- attempts: 1
 - budget: US$0 · network: none
 - do: Same as T2.4 for heads 101–200. Add the AC-3.2 test: every row has an enum
   `entity_type`, and coverage is ≥ 95% of the item count of the top 200. The script prints
   coverage.
 - done when: the AC-3.2 test passes; coverage is printed and ≥ 95%.
+- notes: +192 rows → 522 aliases / 153 entities, 24 flagged; curated 14,641 items; coverage 13,576/13,576 = 100% (printed by `entities`; `curated_coverage()`); 232 tests pass. Rules in DECISIONS 2026-10-02 (T2.5).
 
 ### T2.6 — Long-tail LLM step with a committed cache (paid)
 - status: todo

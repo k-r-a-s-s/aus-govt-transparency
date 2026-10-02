@@ -446,3 +446,20 @@ V1's cold check found two places where C12 output could be read two ways.
 - **Flagged for G3** (`review_flag=1`): bare `commonwealth`, `national bank`, `st george`,
   `bendigo`, `macquarie`, `ing` (~5 section-1 rows may be Inghams), `lion`, `rio`, `velocity`,
   `chairmans lounge`, `bank australia`, `suncorp bank`, ASTRA's later name, two AALD programmes.
+
+### 2026-10-02 — Curation rules for heads 101–200 (T2.5)
+- **Trust vs trustee company.** A trust (`Kimlie Pty Ltd ATF The Kimlie Trust`, `Pericles Unit
+  Trust/Elysium`, mostly section 2) and its trustee company (`Kimlie Pty Ltd`, `Elysium Pty Ltd`,
+  sections 1 and 4) are separate entities: they are separate disclosures of different holdings.
+  Long "X Pty Ltd as trustee for Y" names are left to the long tail.
+- **Renames take the current name** when the body is the same organisation: FFA → Football
+  Australia, ARU → Rugby Australia, First State Super keeps its name but takes `aware super`.
+  Mergers of two brands don't (Greater Bank / Newcastle Permanent stay apart, as in T2.4).
+- **Delisted companies** (Newcrest Mining 2023, Atlas Iron 2018) are typed `other` with
+  `review_flag=1`. They were listed during the 43rd–47th, but AC-3.4 needs every
+  `listed_company` to carry a code from the current snapshot. CYBG (left the ASX in 2024) is
+  `bank_or_financial` without a code. Kevin can retype at G3.
+- **Public broadcasters** (ABC, SBS) are `media_or_entertainment`, not `government_body`.
+- **Coverage** (AC-3.2) is computed over the same top 200 the worksheet uses: non-generic
+  normalised names by item count, ties alphabetical. `entities` prints it on every run.
+

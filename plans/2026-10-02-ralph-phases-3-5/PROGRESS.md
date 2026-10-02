@@ -18,3 +18,4 @@
 2026-10-02T13:19Z | T2.2 | done | spent US$0.00 | ASX snapshot 2,048 cos committed; asx stage (name, then ticker; section-1 scope; exclusions): 309 aliases / 4,370 items; 222 tests pass
 2026-10-02T13:22Z | T2.3 | done | spent US$0.00 | entities --draft-candidates -> data/entities/alias_candidates.csv: 200 heads + token_set>=90 variants + ASX code; all AC-3.1 groups present; 225 tests pass
 2026-10-02T13:28Z | T2.4 | done | spent US$0.00 | aliases.csv heads 1-100: 330 aliases -> 72 entities, 12,597 items curated, 15 flagged; AC-3.1 groups one entity each; ASX stage defers to curated codes; 229 tests pass
+2026-10-02T13:33Z | T2.5 | done | spent US$0.00 | aliases.csv heads 101-200: 522 aliases -> 153 entities, 24 flagged; AC-3.2 coverage 100% printed + tested; 232 tests pass

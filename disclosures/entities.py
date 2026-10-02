@@ -301,6 +301,21 @@ def resolve(items: List[Tuple], data_dir: Path, offline: bool = True,
     return entities, aliases, item_entity
 
 
+COVERAGE_TOP = 200
+COVERAGE_MIN = 0.95
+
+
+def curated_coverage(counts: Counter, data_dir: Path, top: int = COVERAGE_TOP) -> Tuple[int, int]:
+    """AC-3.2: items of the ``top`` non-generic normalised names (by item count, ties
+    alphabetical, as in ``--draft-candidates``) whose name has a row in ``aliases.csv``.
+    Returns (covered items, total items)."""
+    generic = load_generic_terms(data_dir)
+    curated = load_curated(data_dir)
+    heads = sorted((a for a in counts if a and a not in generic),
+                   key=lambda a: (-counts[a], a))[:top]
+    return sum(counts[a] for a in heads if a in curated), sum(counts[a] for a in heads)
+
+
 def default_reference_dir(data_dir: Path) -> Path:
     """``data/entities`` -> ``data/reference``."""
     return Path(data_dir).parent / "reference"
@@ -337,6 +352,8 @@ def run_entities(db_path: str | Path = DEFAULT_DB, data_dir: str | Path = DEFAUL
             "items": dict(Counter(aliases[normalise_entity(raw)][1] for _, raw, _ in items)),
             "asx_snapshot": str(newest_asx_snapshot(reference_dir) or "none"),
             "named_items": len(items),
+            "coverage": curated_coverage(Counter(normalise_entity(raw) for _, raw, _ in items),
+                                         Path(data_dir)),
             # AC-3.3: named items whose alias isn't generic but got no entity
             "unresolved": con.execute(
                 "select count(*) from items where entity_name_raw is not null and "
@@ -434,6 +451,12 @@ def print_summary(s: dict, out=None) -> None:
     print(f"  {'method':10s} {'aliases':>8s} {'items':>8s}", file=out)
     for m in METHODS:
         print(f"  {m:10s} {s['aliases'].get(m, 0):8d} {s['items'].get(m, 0):8d}", file=out)
+    if "coverage" in s:
+        covered, total = s["coverage"]
+        pct = covered / total if total else 0.0
+        print(f"  aliases.csv coverage of the top {COVERAGE_TOP} names (AC-3.2): "
+              f"{covered}/{total} items = {pct:.1%} {'OK' if pct >= COVERAGE_MIN else 'FAIL'}",
+              file=out)
     flag = "OK" if s["unresolved"] == 0 else "FAIL"
     print(f"  non-generic named items without an entity (AC-3.3): {s['unresolved']} {flag}",
           file=out)

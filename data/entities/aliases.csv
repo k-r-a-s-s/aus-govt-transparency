@@ -329,3 +329,195 @@ qbe insurance group,QBE Insurance Group,bank_or_financial,QBE,,
 qbe insurance,QBE Insurance Group,bank_or_financial,QBE,,
 qbe insurance gro,QBE Insurance Group,bank_or_financial,QBE,,
 toyota finance,Toyota Finance,bank_or_financial,,,
+treasury wine estates,Treasury Wine Estates,listed_company,TWE,,
+treasury wine estate,Treasury Wine Estates,listed_company,TWE,,
+treasury wines estate,Treasury Wine Estates,listed_company,TWE,,
+twe treasury wine estates,Treasury Wine Estates,listed_company,TWE,,
+twe,Treasury Wine Estates,listed_company,TWE,,
+amnesty international,Amnesty International,association_or_ngo,,,Amnesty International Australia/Townsville left to the long tail
+australian property trust,Australian Property Trust,trust_or_fund,,1,"A named private trust (sections 1-3, 10), not an index fund; unrelated listed property trusts not merged"
+chifley research centre,Chifley Research Centre,association_or_ngo,,,ALP think tank; 'anu chifley research centre' not merged
+emirate airlines,Emirates,airline,,,
+platinum international fund,Platinum International Fund,trust_or_fund,,,"A fund, kept apart from Platinum Asset Management (PTM); Platinum International Brands Fund is a different fund"
+platinum international,Platinum International Fund,trust_or_fund,,1,Bare 'Platinum International' read as the fund
+australian institute of company directors,Australian Institute of Company Directors,association_or_ngo,,,
+australian institute of company directors aicd,Australian Institute of Company Directors,association_or_ngo,,,
+aicd,Australian Institute of Company Directors,association_or_ngo,,,
+australian company of institute directors,Australian Institute of Company Directors,association_or_ngo,,,
+australian institute of company directors nsw division,Australian Institute of Company Directors,association_or_ngo,,,
+sydney credit union,Sydney Credit Union,bank_or_financial,,,
+taipai economic and cultural office,Taipei Economic and Cultural Office in Australia,government_body,,,
+taiwanese economic and cultural office,Taipei Economic and Cultural Office in Australia,government_body,,,
+uni super,UniSuper,trust_or_fund,,,
+uni super superannuation fund,UniSuper,trust_or_fund,,,
+uni super fund,UniSuper,trust_or_fund,,,
+zenas,Zenas Pty Ltd,private_company,,,Trustee company; the trust names ('as trustee for ...') are left to the long tail
+asgard,Asgard,bank_or_financial,,,"BT/Westpac wrap platform, kept as disclosed (brand rule)"
+asgard superannuation,Asgard,bank_or_financial,,,"BT/Westpac wrap platform, kept as disclosed (brand rule)"
+asgard superannuation account,Asgard,bank_or_financial,,,"BT/Westpac wrap platform, kept as disclosed (brand rule)"
+asgard investment account,Asgard,bank_or_financial,,,"BT/Westpac wrap platform, kept as disclosed (brand rule)"
+asguard,Asgard,bank_or_financial,,,"BT/Westpac wrap platform, kept as disclosed (brand rule)"
+australian subscription television and radio association,Australian Subscription Television and Radio Association,association_or_ngo,,,ASTRA; Astra Enterprises Qld is a different organisation
+australian subscription television association,Australian Subscription Television and Radio Association,association_or_ngo,,,ASTRA; Astra Enterprises Qld is a different organisation
+australian subscription tv and radio association,Australian Subscription Television and Radio Association,association_or_ngo,,,ASTRA; Astra Enterprises Qld is a different organisation
+bank of qld,Bank of Queensland,bank_or_financial,BOQ,,BOQ Specialist is a BOQ division
+bank qld,Bank of Queensland,bank_or_financial,BOQ,,BOQ Specialist is a BOQ division
+boq,Bank of Queensland,bank_or_financial,BOQ,,BOQ Specialist is a BOQ division
+boq specialist,Bank of Queensland,bank_or_financial,BOQ,,BOQ Specialist is a BOQ division
+boq bribie island,Bank of Queensland,bank_or_financial,BOQ,,BOQ Specialist is a BOQ division
+brisbane broncos,Brisbane Broncos,sporting_body,,,Broncos Leagues Club (licensed club) not merged
+brisbane broncos rugby league club,Brisbane Broncos,sporting_body,,,Broncos Leagues Club (licensed club) not merged
+brisbane broncos nrl,Brisbane Broncos,sporting_body,,,Broncos Leagues Club (licensed club) not merged
+broncos,Brisbane Broncos,sporting_body,,,Broncos Leagues Club (licensed club) not merged
+gold coast turf club,Gold Coast Turf Club,sporting_body,,,
+kimlie pty ltd atf the kimlie trust,Kimlie Trust,trust_or_fund,,,Trust kept apart from its trustee company Kimlie Pty Ltd
+kimlie trust,Kimlie Trust,trust_or_fund,,,Trust kept apart from its trustee company Kimlie Pty Ltd
+kimlie,Kimlie Pty Ltd,private_company,,,"Trustee company, kept apart from the Kimlie Trust"
+kimlie pty ltd trustee,Kimlie Pty Ltd,private_company,,,"Trustee company, kept apart from the Kimlie Trust"
+save the children australia,Save the Children Australia,association_or_ngo,,,Bare 'Save the Children' (gifts/travel to Australian members) read as Save the Children Australia
+save the children,Save the Children Australia,association_or_ngo,,,Bare 'Save the Children' (gifts/travel to Australian members) read as Save the Children Australia
+tennis queensland,Tennis Queensland,sporting_body,,,Tenants Queensland is a different organisation
+queensland tennis,Tennis Queensland,sporting_body,,,Tenants Queensland is a different organisation
+wbc,Westpac Banking Corporation,bank_or_financial,WBC,,Ticker; all in sections 1/7/8
+institute of public affairs,Institute of Public Affairs,association_or_ngo,,,
+mystate financial,MyState,bank_or_financial,MYS,,
+mystate,MyState,bank_or_financial,MYS,,
+mystate bank,MyState,bank_or_financial,MYS,,
+mystate credit union,MyState,bank_or_financial,MYS,,
+my state,MyState,bank_or_financial,MYS,1,'My State' read as MyState (Tasmanian bank)
+news,News Corp,media_or_entertainment,NWS,,"News Limited (renamed News Corp Australia) and News Corporation normalise to 'news'; Sky News, NT News etc. not merged"
+news corp australia,News Corp,media_or_entertainment,NWS,,"News Limited (renamed News Corp Australia) and News Corporation normalise to 'news'; Sky News, NT News etc. not merged"
+news corporation inc preferred,News Corp,media_or_entertainment,NWS,,"News Limited (renamed News Corp Australia) and News Corporation normalise to 'news'; Sky News, NT News etc. not merged"
+pericles unit trust elysium,Pericles Unit Trust,trust_or_fund,,,Trust kept apart from its trustee company Elysium Pty Ltd
+elysium,Elysium Pty Ltd,private_company,,,"Trustee company, kept apart from the Pericles Unit Trust"
+south32,South32,listed_company,S32,,
+south 32,South32,listed_company,S32,,
+victoria racing club,Victoria Racing Club,sporting_body,,,Racing Victoria is a different body; combined sponsor names not merged
+victorian racing club,Victoria Racing Club,sporting_body,,,Racing Victoria is a different body; combined sponsor names not merged
+amcor,Amcor,listed_company,AMC,,
+australia israel and jewish affairs council,Australia/Israel & Jewish Affairs Council,association_or_ngo,,,AIJAC; the Rambam fellowship is its programme
+australia israel and jewish affairs council aijac,Australia/Israel & Jewish Affairs Council,association_or_ngo,,,AIJAC; the Rambam fellowship is its programme
+australia israel jewish affairs council aijac,Australia/Israel & Jewish Affairs Council,association_or_ngo,,,AIJAC; the Rambam fellowship is its programme
+australian israel and jewish affairs council aijac,Australia/Israel & Jewish Affairs Council,association_or_ngo,,,AIJAC; the Rambam fellowship is its programme
+australia israel jewish affairs council,Australia/Israel & Jewish Affairs Council,association_or_ngo,,,AIJAC; the Rambam fellowship is its programme
+australian israel and jewish affairs council,Australia/Israel & Jewish Affairs Council,association_or_ngo,,,AIJAC; the Rambam fellowship is its programme
+aijac australia israel and jewish affairs council,Australia/Israel & Jewish Affairs Council,association_or_ngo,,,AIJAC; the Rambam fellowship is its programme
+aijac australian israel and jewish affairs council,Australia/Israel & Jewish Affairs Council,association_or_ngo,,,AIJAC; the Rambam fellowship is its programme
+australia israel and jewish affairs council rambam israel fellowship program,Australia/Israel & Jewish Affairs Council,association_or_ngo,,,AIJAC; the Rambam fellowship is its programme
+australian israel jewish affairs council,Australia/Israel & Jewish Affairs Council,association_or_ngo,,,AIJAC; the Rambam fellowship is its programme
+australian israel jewish affairs council aijac,Australia/Israel & Jewish Affairs Council,association_or_ngo,,,AIJAC; the Rambam fellowship is its programme
+aijac,Australia/Israel & Jewish Affairs Council,association_or_ngo,,,AIJAC; the Rambam fellowship is its programme
+australian republican movement,Australian Republican Movement,association_or_ngo,,,
+australian republic movement,Australian Republican Movement,association_or_ngo,,,
+arm australian republican movement,Australian Republican Movement,association_or_ngo,,,
+cpsu,Community and Public Sector Union,union,,,
+community and public sector union,Community and Public Sector Union,union,,,
+community and public sector union cpsu,Community and Public Sector Union,union,,,
+cpsu union,Community and Public Sector Union,union,,,
+community public sector union,Community and Public Sector Union,union,,,
+devizes investments,Devizes Investments Pty Ltd,private_company,,,
+first state super,First State Super,trust_or_fund,,,Renamed Aware Super in 2020; bare 'first state' (maybe Colonial First State) not merged
+first state personal super,First State Super,trust_or_fund,,,Renamed Aware Super in 2020; bare 'first state' (maybe Colonial First State) not merged
+nsw first state super,First State Super,trust_or_fund,,,Renamed Aware Super in 2020; bare 'first state' (maybe Colonial First State) not merged
+aware super,First State Super,trust_or_fund,,,Renamed Aware Super in 2020; bare 'first state' (maybe Colonial First State) not merged
+greater bank,Greater Bank,bank_or_financial,,,Formerly Greater Building Society; kept apart from Newcastle Permanent (merged 2023) by the brand rule
+greater building society,Greater Bank,bank_or_financial,,,Formerly Greater Building Society; kept apart from Newcastle Permanent (merged 2023) by the brand rule
+intercontinental hotel sydney,InterContinental Sydney,private_company,,,Bare 'Intercontinental Hotel' (city unknown) not merged
+kenley dale,Kenley Dale Pty Ltd,private_company,,,
+mineral resources,Mineral Resources,listed_company,MIN,,
+sbs,Special Broadcasting Service,media_or_entertainment,,,"Public broadcaster typed as media, like the ABC"
+sbs television,Special Broadcasting Service,media_or_entertainment,,,"Public broadcaster typed as media, like the ABC"
+sbs television australia,Special Broadcasting Service,media_or_entertainment,,,"Public broadcaster typed as media, like the ABC"
+sbs tv,Special Broadcasting Service,media_or_entertainment,,,"Public broadcaster typed as media, like the ABC"
+special broadcasting service,Special Broadcasting Service,media_or_entertainment,,,"Public broadcaster typed as media, like the ABC"
+zappacosta jewels,Zappacosta Jewels Pty Ltd,private_company,,,
+arnold bloch leibler,Arnold Bloch Leibler,private_company,,,Law firm (partnership)
+arnold bloch leibler lawyers,Arnold Bloch Leibler,private_company,,,Law firm (partnership)
+arnold bloch liebler,Arnold Bloch Leibler,private_company,,,Law firm (partnership)
+beef australia,Beef Australia,association_or_ngo,,,Runs the Beef Australia expo
+adelaide bank,Bendigo and Adelaide Bank,bank_or_financial,BEN,,Adelaide Bank merged with Bendigo Bank in 2007
+david and charlotte gillespie family trust,David and Charlotte Gillespie Family Trust,trust_or_fund,,,
+david charlotte gillespie family trust,David and Charlotte Gillespie Family Trust,trust_or_fund,,,
+nrma,NRMA,association_or_ngo,,1,Motoring club; section-1 'NRMA' rows may be IAG shares from the NRMA demutualisation; 'nrma insurance' (an IAG brand) not merged
+nrma motoring and services,NRMA,association_or_ngo,,1,Motoring club; section-1 'NRMA' rows may be IAG shares from the NRMA demutualisation; 'nrma insurance' (an IAG brand) not merged
+sonic healthcare,Sonic Healthcare,listed_company,SHL,,
+taiwanese government,Government of Taiwan,government_body,,,Kept apart from the Taipei Economic and Cultural Office
+taiwan government,Government of Taiwan,government_body,,,Kept apart from the Taipei Economic and Cultural Office
+templemore investments,Templemore Investments Pty Ltd,private_company,,,
+templemore investments ptyltd,Templemore Investments Pty Ltd,private_company,,,
+wallace family trust,Wallace Family Trust,trust_or_fund,,,
+abc,Australian Broadcasting Corporation,media_or_entertainment,,,Friends of the ABC and ABC Bullion are different organisations
+australian broadcasting commission abc,Australian Broadcasting Corporation,media_or_entertainment,,,Friends of the ABC and ABC Bullion are different organisations
+australian broadcasting,Australian Broadcasting Corporation,media_or_entertainment,,,Friends of the ABC and ABC Bullion are different organisations
+agl,AGL Energy,listed_company,AGL,,
+agl energy,AGL Energy,listed_company,AGL,,
+bathurst regional council,Bathurst Regional Council,government_body,,,
+croplife australia,CropLife Australia,association_or_ngo,,,
+croplife,CropLife Australia,association_or_ngo,,,
+crop life australia,CropLife Australia,association_or_ngo,,,
+cua,Credit Union Australia,bank_or_financial,,,Renamed Great Southern Bank in 2021; Australian National Credit Union not merged
+cua credit union and financial services,Credit Union Australia,bank_or_financial,,,Renamed Great Southern Bank in 2021; Australian National Credit Union not merged
+great southern bank cua,Credit Union Australia,bank_or_financial,,,Renamed Great Southern Bank in 2021; Australian National Credit Union not merged
+cybg,CYBG,bank_or_financial,,,"CYBG plc (now Virgin Money UK); left the ASX in 2024, so not in the snapshot"
+football australia,Football Australia,sporting_body,,,FFA renamed Football Australia in 2020; Touch Football Australia is different
+football federation australia,Football Australia,sporting_body,,,FFA renamed Football Australia in 2020; Touch Football Australia is different
+football federation of australia,Football Australia,sporting_body,,,FFA renamed Football Australia in 2020; Touch Football Australia is different
+ffa,Football Australia,sporting_body,,,FFA renamed Football Australia in 2020; Touch Football Australia is different
+gloucester park harness racing,Gloucester Park Harness Racing,sporting_body,,,
+gloucester park,Gloucester Park Harness Racing,sporting_body,,,
+gloucester park harness racing club,Gloucester Park Harness Racing,sporting_body,,,
+gloucester park harness racing association,Gloucester Park Harness Racing,sporting_body,,,
+gloucester park wa,Gloucester Park Harness Racing,sporting_body,,,
+goldenboot,Goldenboot Pty Ltd,private_company,,,
+newcastle permanent,Newcastle Permanent Building Society,bank_or_financial,,,Kept apart from Greater Bank (merged 2023) by the brand rule
+newcastle permanent building society,Newcastle Permanent Building Society,bank_or_financial,,,Kept apart from Greater Bank (merged 2023) by the brand rule
+newcrest mining,Newcrest Mining,other,,1,"Listed during the 43rd-47th but delisted in 2023 (Newmont); no code in the 2026 snapshot, so not listed_company (AC-3.4)"
+newcrest,Newcrest Mining,other,,1,"Listed during the 43rd-47th but delisted in 2023 (Newmont); no code in the 2026 snapshot, so not listed_company (AC-3.4)"
+pokana,Pokana Pty Limited,private_company,,,
+queensland ballet,Queensland Ballet,media_or_entertainment,,,
+sydney theatre company,Sydney Theatre Company,media_or_entertainment,,,
+wilcrow,Wilcrow Pty Limited,private_company,,,
+william harvey unit trust,William Harvey Unit Trust,trust_or_fund,,,
+wilam harvey unit trust,William Harvey Unit Trust,trust_or_fund,,,
+australian foundation investment company,Australian Foundation Investment Company,listed_company,AFI,,Listed investment company
+australian foundation investment,Australian Foundation Investment Company,listed_company,AFI,,Listed investment company
+australia foundation investment company,Australian Foundation Investment Company,listed_company,AFI,,Listed investment company
+bluescope steel,BlueScope Steel,listed_company,BSL,,
+bolger wilson investments,Bolger-Wilson Investments Pty Ltd,private_company,,,
+maurice blackburn,Maurice Blackburn,private_company,,,Law firm
+maurice blackburn lawyers,Maurice Blackburn,private_company,,,Law firm
+maurice blackburn solicitors,Maurice Blackburn,private_company,,,Law firm
+penrith panthers,Penrith Panthers,sporting_body,,,Leagues club and bare 'panthers' not merged
+penrith panthers football club,Penrith Panthers,sporting_body,,,Leagues club and bare 'panthers' not merged
+penrith panthers club,Penrith Panthers,sporting_body,,,Leagues club and bare 'panthers' not merged
+perpetual,Perpetual,bank_or_financial,PPT,,Individual Perpetual funds stay apart from the manager
+perpetual investments,Perpetual,bank_or_financial,PPT,,Individual Perpetual funds stay apart from the manager
+rabobank,Rabobank,bank_or_financial,,,
+australian rugby union,Rugby Australia,sporting_body,,,ARU renamed Rugby Australia in 2017
+australia rugby union,Rugby Australia,sporting_body,,,ARU renamed Rugby Australia in 2017
+australian rugby union aru,Rugby Australia,sporting_body,,,ARU renamed Rugby Australia in 2017
+rugby australia,Rugby Australia,sporting_body,,,ARU renamed Rugby Australia in 2017
+buchholz family trust,Buchholz Family Trust,trust_or_fund,,,
+gufee,Gufee Pty Ltd,private_company,,,'gufee pastoral' left to the long tail
+hesta,HESTA,trust_or_fund,,,Eco Pool is a HESTA investment option
+hesta superannuation,HESTA,trust_or_fund,,,Eco Pool is a HESTA investment option
+hesta superannuation fund,HESTA,trust_or_fund,,,Eco Pool is a HESTA investment option
+hesta eco pool,HESTA,trust_or_fund,,,Eco Pool is a HESTA investment option
+hesta ecopool,HESTA,trust_or_fund,,,Eco Pool is a HESTA investment option
+leander holdings,Leander Holdings Pty Ltd,private_company,,,
+liberal party of australia victorian division,Liberal Party of Australia (Victorian Division),political_party,,,State divisions are separately registered
+liberal party victorian division,Liberal Party of Australia (Victorian Division),political_party,,,State divisions are separately registered
+liberal party of australia sa division,Liberal Party of Australia (SA Division),political_party,,,State divisions are separately registered
+liberal party of australia wa division,Liberal Party of Australia (WA Division),political_party,,,State divisions are separately registered
+liberal party of wa,Liberal Party of Australia (WA Division),political_party,,,State divisions are separately registered
+liberal party of australia wa,Liberal Party of Australia (WA Division),political_party,,,State divisions are separately registered
+mastercard,Mastercard,bank_or_financial,,,Card-specific names (Coles Myer Mastercard) not merged
+north melbourne football club,North Melbourne Football Club,sporting_body,,,Melbourne Football Club is a different club
+north melbourne,North Melbourne Football Club,sporting_body,,1,Bare 'North Melbourne' read as the AFL club
+queensland courier services family trust,Queensland Courier Services Family Trust,trust_or_fund,,,
+swanridge investments,Swanridge Investments Pty Ltd,private_company,,,
+sydney festival,Sydney Festival,media_or_entertainment,,,Sydney Writers'/Film Festival are different
+venice ice,Venice Ice Pty Limited,private_company,,,
+world vision,World Vision Australia,association_or_ngo,,,
+atlas iron,Atlas Iron,other,,1,"Listed in the 43rd-45th, delisted 2018 (Hancock); no code in the 2026 snapshot, so not listed_company (AC-3.4); bare 'atlas' not merged"
+metway,Suncorp Group,bank_or_financial,SUN,,Metway Bank merged into Suncorp-Metway in 1996

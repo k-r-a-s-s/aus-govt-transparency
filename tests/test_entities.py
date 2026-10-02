@@ -6,8 +6,8 @@ import httpx
 import pytest
 
 from disclosures.cli import main
-from disclosures.entities import (ASX_URL, Resolution, entity_id_for, fetch_asx,
-                                  load_generic_terms, newest_asx_snapshot, read_asx_snapshot,
+from disclosures.entities import (ASX_URL, Resolution, curated_coverage, entity_id_for,
+                                  fetch_asx, load_generic_terms, newest_asx_snapshot, read_asx_snapshot,
                                   resolve, run_entities)
 from disclosures.load import DDL, member_slug
 from disclosures.normalise import normalise_entity
@@ -179,6 +179,7 @@ def test_cli_offline(tmp_path, capsys):
     out = capsys.readouterr().out
     assert rc == 0
     assert "singleton" in out and "(AC-3.3): 0 OK" in out
+    assert "coverage of the top 200 names (AC-3.2): 0/" in out
 
 
 def test_cli_missing_db(tmp_path, capsys):
@@ -508,9 +509,8 @@ def test_real_aliases_file_is_well_formed():
     for r in rows:
         by_canon.setdefault(r["canonical_name"], set()).add((r["entity_type"], r["asx_code"]))
     assert all(len(v) == 1 for v in by_canon.values()), by_canon
-    heads = [r["alias"] for r in read_candidates(REAL_DATA / "alias_candidates.csv")
-             if int(r["rank"]) <= 100]
-    assert len(heads) == 100 and set(heads) <= seen
+    heads = [r["alias"] for r in read_candidates(REAL_DATA / "alias_candidates.csv")]
+    assert len(heads) == 200 and set(heads) <= seen
 
 
 def test_ac31_groups_resolve_to_one_entity_with_real_tables():
@@ -543,3 +543,40 @@ def test_ac31_groups_in_real_db():
                         names).fetchone()[0]
         assert n == 1, (group, n)
     con.close()
+
+
+# --- T2.5: AC-3.2 coverage ------------------------------------------------------------------
+
+def test_curated_coverage_counts_top_non_generic_names(tmp_path):
+    from collections import Counter
+    data = make_data(tmp_path, aliases_csv="alias,canonical_name,entity_type,asx_code\n"
+                                           "qantas,Qantas Airways,airline,QAN\n")
+    counts = Counter({"qantas": 5, "family trust": 9, "westpac": 3, "zed": 3, "": 4})
+    assert curated_coverage(counts, data) == (5, 11)
+    assert curated_coverage(counts, data, top=2) == (5, 8)  # ties go alphabetically
+    assert curated_coverage(Counter(), data) == (0, 0)
+
+
+def test_ac32_real_aliases_cover_top_200():
+    """AC-3.2: every row has an ADR-6 entity_type, and aliases.csv covers >= 95% of the item
+    count of the top 200 normalised names (the committed worksheet's heads)."""
+    from collections import Counter
+    from disclosures.entities import ENTITY_TYPES
+    assert all(r["entity_type"] in ENTITY_TYPES for r in read_aliases())
+    heads = read_candidates(REAL_DATA / "alias_candidates.csv")
+    counts = Counter({r["alias"]: int(r["item_count"]) for r in heads})
+    covered, total = curated_coverage(counts, REAL_DATA)
+    print(f"AC-3.2 coverage: {covered}/{total} = {covered / total:.1%}")
+    assert len(heads) == 200 and covered / total >= 0.95
+
+
+@pytest.mark.skipif(not REAL_DB.exists(), reason="disclosures_v2.db not built")
+def test_ac32_coverage_in_real_db():
+    """AC-3.2 on the built DB's items (independent of the worksheet snapshot)."""
+    from collections import Counter
+    con = sqlite3.connect(f"file:{REAL_DB}?mode=ro", uri=True)
+    counts = Counter(normalise_entity(r) for (r,) in con.execute(
+        "select entity_name_raw from items where entity_name_raw is not null"))
+    con.close()
+    covered, total = curated_coverage(counts, REAL_DATA)
+    assert total and covered / total >= 0.95, (covered, total)
