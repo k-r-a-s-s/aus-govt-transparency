@@ -194,9 +194,9 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   unresolved findings".
 
 ### T1.6 — nevillep_43p: joint-fund attachment holdings for the spouse too
-- status: todo
+- status: blocked (kevin): G2 re-extraction (--force, US$0.05) again gave the 19 p8 s9 holdings to self only (85 items, same as before), so the earlier file was restored from git. Decide: accept self-only for nevillep_43p, or allow a hand correction/override (e.g. a data/overrides owner rule) that duplicates the 19 p8 items for spouse?
 - deps: V1
-- attempts: 0
+- attempts: 1
 - budget: US$0.25 · network: openrouter
 - do: V1 F1. In `extractions/gemini-api/house/43/nevillep_43p.json` the p5 s9 fund is joint (the
   spouse row says "as above with same riders"), but the 19 p8 holdings are filed under self only.
@@ -204,6 +204,8 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   this one file with `--force` on the G2 config (one paid call, ≈ US$0.03–0.16). If the result
   still lacks the spouse rows, don't hand-edit the model output. Restore the earlier file from git
   and set `blocked (kevin): accept self-only, or allow a hand correction/override for owner?`.
+- spent: US$0.05
+- notes: 2026-10-02 attempt 1: re-extract 85 items, p8 (8,9,self)=19, no spouse rows; file restored.
 - done when: 19 p8 s9 items for self and 19 for spouse; the other ≈ 66 non-p8 items still there; validate 768/0; load exit 0, hard AC-2.7
   0; AC-2.8 hash recorded in AGENTS.md; the T1.5 table in `eval/attachment_gaps.md` updated.
 
