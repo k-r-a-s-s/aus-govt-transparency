@@ -140,3 +140,31 @@ the backfill; OpenRouter credit topped up to ≈ US$27.3 the same day.
 - AC-2.7–2.10 on the load: documents 768 = valid files; the three hard queries 0; AC-2.8 item-id
   hash identical across two loads (`f69d40da…`, 42,042 ids); AC-2.9 0 terms without party;
   AC-2.10 duplicate-MP cases resolve to one `member_id` each (`tests/test_load.py`).
+
+## Prompt v1 (C12) regression (2026-10-02)
+
+Gold set re-extracted with prompt v1 (rule C12 + checklist item 7, attachments) using the G2
+config, `--source-id gemini-api-promptv1` into `.ralph/scratch/gold-promptv1` (scratch, not
+committed). Scores: `eval/gemini-api-promptv1.json`.
+
+| Metric | ADR-4 bar | gemini-api, prompt v0 | gemini-api, prompt v1 |
+|---|---|---|---|
+| Items predicted (gold 790) | | 791 | 791 |
+| Matched (section-strict) | | 780 | 778 |
+| Precision | ≥ 0.90 | 0.986 | **0.984** ✅ |
+| Recall | ≥ 0.90 | 0.987 | **0.985** ✅ |
+| F1 | (T1.4: ≥ 0.980) | 0.987 | **0.984** ✅ |
+| Section-ignored recall | > v1 (0.625) | 0.990 | **0.987** ✅ |
+| Owner accuracy | ≥ 0.95 | 1.000 | **1.000** ✅ |
+| Page accuracy | ≥ 0.90 | 1.000 | **1.000** ✅ |
+| change_type / is_alteration / lodged_date | | 0.997 / 1.000 / 0.968 | 0.997 / 1.000 / 0.968 |
+| **ADR-4 bar** | | PASS | **PASS** |
+| Gold-run cost | | US$0.48 | US$0.47 (1 Sonnet fallback chunk: morrison_47p p21–29) |
+
+- Only prenticej_45p changed (recall 0.931 → 0.903). On p29 (section 11, gifts), v1 named
+  the gift brands ("H.jin", "Chunmarc") as `entity_name` instead of the giver, "Minister
+  for Health and Welfare, South Korea". That's run-to-run variance in naming, not C12. The
+  other 11 PDFs have the same per-PDF counts and matches as v0.
+- plibersekt_43p p8 (the gold attachment precedent: section 13 "see attached"): all three
+  have the same 13 section-13 self items, ALP NSW Branch through Women's International League
+  for Peace and Freedom. C12 doesn't break a list that was already itemised.

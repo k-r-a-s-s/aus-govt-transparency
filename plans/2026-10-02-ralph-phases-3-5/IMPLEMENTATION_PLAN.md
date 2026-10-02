@@ -139,11 +139,11 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
 - notes: C12 + checklist 7 added, header v1. Wording widened beyond D1 (fund-only reference, adviser letter/CV/membership list, not the next form, no totals/ended entries); see DECISIONS 2026-10-02. No test pins prompt text; 200 pass. Workflow JS now says C1-C12.
 
 ### T1.4 — Gold regression with prompt v1 (paid)
-- status: todo
+- status: done 2026-10-02
 - deps: T1.3
-- attempts: 0
+- attempts: 1
 - budget: cap US$1.20 including one wording revision (est. 0.50 per run) · network: openrouter.ai
-- spent: US$0.00
+- spent: US$0.47
 - do: `credit.py --min 3` first. Run the G2 extract command (AGENTS.md) on the 12 gold PDFs
   (`eval/gold/selection.json`) with `--source-id gemini-api-promptv1 --out-root
   .ralph/scratch/gold-promptv1` (gitignored; scratch, not committed). Score:
@@ -155,6 +155,7 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   once and re-run (within the US$1.20 cap). If it fails twice: `blocked (kevin): prompt v1 regresses
   gold (numbers…); keep v0 or accept?` and revert the prompt to v0 so later tasks aren't built
   on it.
+- notes: v1 F1 0.984 (v0 0.987), P 0.984 R 0.985, owner/page 1.000; ADR-4 PASS, no revision needed. Only diff prenticej_45p p29 entity naming (variance). plibersekt p8 13 items identical.
 
 ### T1.5 — Re-extract the confirmed files with prompt v1 (paid)
 - status: todo
