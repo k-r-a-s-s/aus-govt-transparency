@@ -80,6 +80,8 @@ yarn-error.log*
 *.db.tmp-*
 *.sqlite
 *.sqlite3
+# the published Pages copy (ADR-10, AC-5.2); regenerate with python -m disclosures export --site site
+!site/disclosures_v2.db
 
 # Compiled code
 *.so

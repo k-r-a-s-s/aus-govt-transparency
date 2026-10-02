@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Australian Parliament Registers of Interests (v2)</title>
+<style>
+body { font: 16px/1.5 system-ui, sans-serif; max-width: 46rem; margin: 2rem auto; padding: 0 1rem; color: #222; }
+table { border-collapse: collapse; }
+th, td { padding: .2rem .7rem; border-bottom: 1px solid #ddd; text-align: right; }
+th:first-child, td:first-child { text-align: left; }
+code, pre { background: #f4f4f4; }
+pre { padding: .6rem; overflow-x: auto; white-space: pre-wrap; }
+.button { display: inline-block; padding: .5rem 1rem; background: #1a5fb4; color: #fff; border-radius: 4px; text-decoration: none; }
+</style>
+</head>
+<body>
+<h1>Australian Parliament Registers of Interests</h1>
+<p>Every interest Australian federal MPs and senators disclosed in the Registers of Members' and
+Senators' Interests, transcribed item by item from the official statements: 50,936 items
+(shareholdings, trusts, property, directorships, gifts, sponsored travel, memberships, &hellip;),
+each joined with the member's party and a standardised entity (11,544 entities).</p>
+
+<p><a class="button" href="https://lite.datasette.io/?url=https://k-r-a-s-s.github.io/aus-govt-transparency/disclosures_v2.db">Explore the data in Datasette Lite</a></p>
+<p>Datasette Lite runs in your browser: write SQL against the <code>items</code>,
+<code>members</code>, <code>member_terms</code>, <code>documents</code> and <code>entities</code>
+tables, filter and facet, and download results as CSV. Or download the SQLite database:
+<a href="disclosures_v2.db">disclosures_v2.db</a>.</p>
+
+<h2>Coverage</h2>
+<table>
+<tr><th>chamber</th><th>parliament</th><th>members</th><th>statements</th><th>items</th></tr>
+<tr><td>house</td><td>43</td><td>150</td><td>150</td><td>7,784</td></tr>
+<tr><td>house</td><td>44</td><td>152</td><td>152</td><td>8,511</td></tr>
+<tr><td>house</td><td>45</td><td>153</td><td>158</td><td>9,426</td></tr>
+<tr><td>house</td><td>46</td><td>153</td><td>153</td><td>7,461</td></tr>
+<tr><td>house</td><td>47</td><td>155</td><td>155</td><td>9,070</td></tr>
+<tr><td>house</td><td>48</td><td>151</td><td>151</td><td>6,704</td></tr>
+<tr><td>senate</td><td>48</td><td>76</td><td>76</td><td>1,980</td></tr>
+</table>
+<p>House: the 43rd&ndash;47th parliaments (2010&ndash;2025) from the archived registers, and the
+current 48th register. Senate: the 48th parliament only. Data loaded 2026-10-02T15:36:15+00:00.</p>
+
+<h2>Caveats</h2>
+<p>The House statements were transcribed from PDFs by an LLM (precision and recall about 0.99 on
+a hand-checked sample). Expect a small share of items to be missed or misread, more on the
+scanned 43rd&ndash;45th parliament statements. Each item records its source document and page:
+check anything important against the original on aph.gov.au. The full field dictionary, method
+and known limitations are in the <a href="https://github.com/k-r-a-s-s/aus-govt-transparency">project repository</a>.</p>
+
+<h2>How to cite</h2>
+<pre>Rassool, K. (2026). Australian Parliament Registers of Interests (v2) [Data set].
+Transcribed from the Parliament of Australia Register of Members' Interests and Register of
+Senators' Interests. https://k-r-a-s-s.github.io/aus-govt-transparency/</pre>
+<p>Please also credit the source: Parliament of Australia, Registers of Members' and Senators'
+Interests (aph.gov.au).</p>
+
+<h2>Links</h2>
+<ul>
+<li><a href="https://lite.datasette.io/?url=https://k-r-a-s-s.github.io/aus-govt-transparency/disclosures_v2.db">Datasette Lite</a> (<code>https://k-r-a-s-s.github.io/aus-govt-transparency/disclosures_v2.db</code>)</li>
+<li><a href="https://github.com/k-r-a-s-s/aus-govt-transparency">Source code, documentation and the CSV export</a></li>
+<li><a href="https://www.aph.gov.au/Senators_and_Members/Members/Register">House Register of Members' Interests</a> (aph.gov.au)</li>
+<li><a href="https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Senators_Interests/Senators_Interests_Register">Senate Register of Senators' Interests</a> (aph.gov.au)</li>
+</ul>
+</body>
+</html>

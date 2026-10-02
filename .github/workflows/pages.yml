@@ -1,0 +1,33 @@
+# Deploys site/ (index.html + disclosures_v2.db for Datasette Lite) to GitHub Pages (ADR-10).
+# Pages must be enabled with source "GitHub Actions" in the repo settings (G4, Kevin).
+name: pages
+
+on:
+  push:
+    branches: [main]
+    paths: ["site/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4

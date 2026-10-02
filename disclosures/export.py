@@ -3,11 +3,14 @@
 One CSV row per ``items`` row, joined with its member, the member's term (party, bloc,
 electorate), its document and its entity. The same file goes to ``exports/disclosures_v2.csv``
 and ``exports/kaggle/disclosures_v2.csv``, next to a README (field dictionary, method, known
-limitations) and Kaggle's ``dataset-metadata.json``. Reads the DB read-only; writes nothing else.
+limitations) and Kaggle's ``dataset-metadata.json``. With ``--site DIR`` it also writes the
+static GitHub Pages site (``index.html`` + a copy of the DB for Datasette Lite). Reads the DB
+read-only; writes nothing else.
 """
 from __future__ import annotations
 
 import csv
+import html
 import json
 import shutil
 import sqlite3
@@ -22,6 +25,9 @@ DEFAULT_OUT = "exports"
 DEFAULT_MANIFEST = "pdfs/manifest.csv"
 CSV_NAME = "disclosures_v2.csv"
 DEFAULT_KAGGLE_ID = "KAGGLE_USERNAME/australian-parliament-registers-of-interests"
+DB_NAME = "disclosures_v2.db"
+REPO_URL = "https://github.com/k-r-a-s-s/aus-govt-transparency"
+DEFAULT_PAGES_URL = "https://k-r-a-s-s.github.io/aus-govt-transparency"
 
 # (column, kaggle type, description). Order = CSV column order. The README field dictionary
 # and dataset-metadata.json are generated from this list, so they always cover every column.
@@ -239,9 +245,88 @@ def kaggle_metadata(kaggle_id: str, license_name: str) -> dict:
     }
 
 
+def datasette_lite_url(pages_url: str) -> str:
+    return f"https://lite.datasette.io/?url={pages_url.rstrip('/')}/{DB_NAME}"
+
+
+def render_index(con: sqlite3.Connection, pages_url: str) -> str:
+    meta = dict(con.execute("select key, value from meta"))
+    cov = coverage(con)
+    n_items = sum(r[4] for r in cov)
+    n_ent = con.execute("select count(*) from entities").fetchone()[0]
+    loaded = html.escape(meta.get("loaded_at", "?"))
+    year = meta.get("loaded_at", "????")[:4]
+    rows = "\n".join(f"<tr><td>{ch}</td><td>{p}</td><td>{m:,}</td><td>{d:,}</td><td>{n:,}</td></tr>"
+                     for ch, p, m, d, n in cov)
+    lite = html.escape(datasette_lite_url(pages_url))
+    db_href = html.escape(f"{pages_url.rstrip('/')}/{DB_NAME}")
+    return f"""<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Australian Parliament Registers of Interests (v2)</title>
+<style>
+body {{ font: 16px/1.5 system-ui, sans-serif; max-width: 46rem; margin: 2rem auto; padding: 0 1rem; color: #222; }}
+table {{ border-collapse: collapse; }}
+th, td {{ padding: .2rem .7rem; border-bottom: 1px solid #ddd; text-align: right; }}
+th:first-child, td:first-child {{ text-align: left; }}
+code, pre {{ background: #f4f4f4; }}
+pre {{ padding: .6rem; overflow-x: auto; white-space: pre-wrap; }}
+.button {{ display: inline-block; padding: .5rem 1rem; background: #1a5fb4; color: #fff; border-radius: 4px; text-decoration: none; }}
+</style>
+</head>
+<body>
+<h1>Australian Parliament Registers of Interests</h1>
+<p>Every interest Australian federal MPs and senators disclosed in the Registers of Members' and
+Senators' Interests, transcribed item by item from the official statements: {n_items:,} items
+(shareholdings, trusts, property, directorships, gifts, sponsored travel, memberships, &hellip;),
+each joined with the member's party and a standardised entity ({n_ent:,} entities).</p>
+
+<p><a class="button" href="{lite}">Explore the data in Datasette Lite</a></p>
+<p>Datasette Lite runs in your browser: write SQL against the <code>items</code>,
+<code>members</code>, <code>member_terms</code>, <code>documents</code> and <code>entities</code>
+tables, filter and facet, and download results as CSV. Or download the SQLite database:
+<a href="{DB_NAME}">{DB_NAME}</a>.</p>
+
+<h2>Coverage</h2>
+<table>
+<tr><th>chamber</th><th>parliament</th><th>members</th><th>statements</th><th>items</th></tr>
+{rows}
+</table>
+<p>House: the 43rd&ndash;47th parliaments (2010&ndash;2025) from the archived registers, and the
+current 48th register. Senate: the 48th parliament only. Data loaded {loaded}.</p>
+
+<h2>Caveats</h2>
+<p>The House statements were transcribed from PDFs by an LLM (precision and recall about 0.99 on
+a hand-checked sample). Expect a small share of items to be missed or misread, more on the
+scanned 43rd&ndash;45th parliament statements. Each item records its source document and page:
+check anything important against the original on aph.gov.au. The full field dictionary, method
+and known limitations are in the <a href="{REPO_URL}">project repository</a>.</p>
+
+<h2>How to cite</h2>
+<pre>Rassool, K. ({year}). Australian Parliament Registers of Interests (v2) [Data set].
+Transcribed from the Parliament of Australia Register of Members' Interests and Register of
+Senators' Interests. {html.escape(pages_url.rstrip('/'))}/</pre>
+<p>Please also credit the source: Parliament of Australia, Registers of Members' and Senators'
+Interests (aph.gov.au).</p>
+
+<h2>Links</h2>
+<ul>
+<li><a href="{lite}">Datasette Lite</a> (<code>{db_href}</code>)</li>
+<li><a href="{REPO_URL}">Source code, documentation and the CSV export</a></li>
+<li><a href="https://www.aph.gov.au/Senators_and_Members/Members/Register">House Register of Members' Interests</a> (aph.gov.au)</li>
+<li><a href="https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Senators_Interests/Senators_Interests_Register">Senate Register of Senators' Interests</a> (aph.gov.au)</li>
+</ul>
+</body>
+</html>
+"""
+
+
 def export(db_path: str | Path = DEFAULT_DB, out_dir: str | Path = DEFAULT_OUT,
            manifest: str | Path = DEFAULT_MANIFEST, kaggle_id: str = DEFAULT_KAGGLE_ID,
-           license_name: str = "unknown") -> dict:
+           license_name: str = "unknown", site_dir: str | Path | None = None,
+           pages_url: str = DEFAULT_PAGES_URL) -> dict:
     db_path, out_dir = Path(db_path), Path(out_dir)
     _guard_v1(db_path)
     if not db_path.exists():
@@ -251,6 +336,7 @@ def export(db_path: str | Path = DEFAULT_DB, out_dir: str | Path = DEFAULT_OUT,
         rows = fetch_rows(con, manifest_urls(Path(manifest)))
         n_items = con.execute("select count(*) from items").fetchone()[0]
         readme = render_readme(con, len(rows))
+        index = render_index(con, pages_url) if site_dir is not None else None
     finally:
         con.close()
     if len(rows) != n_items:  # a join dropped or duplicated items: never publish that
@@ -263,7 +349,15 @@ def export(db_path: str | Path = DEFAULT_DB, out_dir: str | Path = DEFAULT_OUT,
     (kaggle / "README.md").write_text(readme, encoding="utf-8")
     (kaggle / "dataset-metadata.json").write_text(
         json.dumps(kaggle_metadata(kaggle_id, license_name), indent=2) + "\n", encoding="utf-8")
+    if site_dir is not None:
+        site = Path(site_dir)
+        site.mkdir(parents=True, exist_ok=True)
+        (site / "index.html").write_text(index, encoding="utf-8")
+        tmp = site / (DB_NAME + ".tmp")
+        shutil.copyfile(db_path, tmp)
+        tmp.replace(site / DB_NAME)
     return {"rows": len(rows), "csv": str(csv_path), "kaggle": str(kaggle),
+            "site": None if site_dir is None else str(site_dir),
             "no_source_url": sum(1 for r in rows if not r[HEADER.index("source_url")])}
 
 
@@ -276,14 +370,22 @@ def add_arguments(p) -> None:
                    help="Kaggle dataset id <user>/<slug> (default: %(default)s)")
     p.add_argument("--license", dest="license_name", default="unknown",
                    help="Kaggle licence name, e.g. CC-BY-4.0 (default: %(default)s)")
+    p.add_argument("--site", dest="site_dir", default=None, metavar="DIR",
+                   help="also write the Pages site (index.html + DB copy) to DIR, e.g. site")
+    p.add_argument("--pages-url", default=DEFAULT_PAGES_URL,
+                   help="public URL of the Pages site, for the Datasette Lite link "
+                        "(default: %(default)s)")
 
 
 def run(args) -> int:
     try:
-        s = export(args.db, args.out, args.manifest, args.kaggle_id, args.license_name)
+        s = export(args.db, args.out, args.manifest, args.kaggle_id, args.license_name,
+                   args.site_dir, args.pages_url)
     except (FileNotFoundError, RuntimeError, ValueError) as e:
         print(f"export: {e}", file=sys.stderr)
         return 2
     print(f"export: {s['rows']:,} rows -> {s['csv']} and {s['kaggle']}/ "
           f"({s['no_source_url']:,} rows without source_url)")
+    if s["site"]:
+        print(f"export: site -> {s['site']}/index.html and {s['site']}/{DB_NAME}")
     return 0

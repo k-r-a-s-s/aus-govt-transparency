@@ -6,7 +6,7 @@ from pathlib import Path
 import pytest
 
 from disclosures.cli import main
-from disclosures.export import COLUMNS, CSV_NAME, HEADER, export
+from disclosures.export import COLUMNS, CSV_NAME, DB_NAME, HEADER, datasette_lite_url, export
 from disclosures.load import DDL
 
 ITEM = ("insert into items (item_id, pdf_sha256, member_id, chamber, parliament, section, "
@@ -160,3 +160,34 @@ def test_cli(tmp_path, capsys):
     meta = json.loads((tmp_path / "x/kaggle/dataset-metadata.json").read_text())
     assert meta["id"] == "kev/test-ds" and meta["licenses"] == [{"name": "CC-BY-4.0"}]
     assert main(["export", "--db", str(tmp_path / "missing.db")]) == 2
+
+
+def test_site(tmp_path):
+    """AC-5.2: index.html links Datasette Lite at the Pages DB; the DB is a byte copy."""
+    db = make_db(tmp_path / "v2.db")
+    site = tmp_path / "site"
+    s = export(db, tmp_path / "out", tmp_path / "m.csv", site_dir=site,
+               pages_url="https://kev.github.io/repo/")
+    assert s["site"] == str(site)
+    assert (site / DB_NAME).read_bytes() == db.read_bytes()
+    index = (site / "index.html").read_text()
+    assert 'href="https://lite.datasette.io/?url=https://kev.github.io/repo/disclosures_v2.db"' in index
+    assert "<td>house</td><td>47</td><td>1</td><td>1</td><td>2</td>" in index
+    assert "How to cite" in index and "aph.gov.au" in index
+    assert not list(site.glob("*.tmp"))
+
+
+def test_site_is_opt_in(exported, tmp_path):
+    _, out, s = exported
+    assert s["site"] is None and not (out / "index.html").exists()
+    assert datasette_lite_url("https://a.b/c/") == "https://lite.datasette.io/?url=https://a.b/c/disclosures_v2.db"
+
+
+def test_pages_workflow():
+    import yaml
+    wf = yaml.safe_load(Path(".github/workflows/pages.yml").read_text())
+    on = wf[True] if True in wf else wf["on"]  # YAML 1.1 reads the `on` key as True
+    assert on["push"]["branches"] == ["main"] and on["push"]["paths"] == ["site/**"]
+    steps = [s.get("uses", "") for j in wf["jobs"].values() for s in j["steps"]]
+    assert any(u.startswith("actions/upload-pages-artifact") for u in steps)
+    assert any(u.startswith("actions/deploy-pages") for u in steps)

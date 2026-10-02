@@ -35,3 +35,4 @@
 2026-10-02T15:34Z | T3.10 | done | spent US$0.27 | entities full DB: 26 requests, 11,544 entities, AC-3.3 0, AC-3.4 PASS; top 50 all curated; G3 pack regenerated 114 rows; 313 pass
 2026-10-02T15:42Z | V3 | done | spent US$0.00 | cold verify Phase 4: PASS, no findings; rebuild deterministic, manifest/refresh/senate mapping/validate all hold; 313 pass
 2026-10-02T15:47Z | T5.1 | done | spent US$0.00 | export: 50,936 rows = items, 33 cols, Kaggle README (dictionary/method/limitations) + dataset-metadata.json; source_url via manifest; 319 pass
+2026-10-02T15:50Z | T5.2 | done | spent US$0.00 | export --site: site/index.html (coverage, cite, Datasette Lite link) + site/disclosures_v2.db (31.9 MB copy); pages.yml valid; local http.server check ok; 322 pass

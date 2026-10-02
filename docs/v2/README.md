@@ -68,7 +68,7 @@ python -m disclosures entities --offline --report [MD]   # also refresh eval/ent
 python -m disclosures entities --g3-review [CSV]   # G3 review pack -> eval/entities_g3_review.csv, then stop
 python -m disclosures entities --llm-dry-run   # long-tail blocks / uncached / requests, then stop
 python -m disclosures entities [--llm-limit N] [--workers 8]   # online: LLM for uncached blocks (paid, OpenRouter)
-python -m disclosures export [--db disclosures_v2.db] [--out exports] [--kaggle-id USER/SLUG] [--license NAME]   # CSV + Kaggle package
+python -m disclosures export [--db disclosures_v2.db] [--out exports] [--kaggle-id USER/SLUG] [--license NAME] [--site site] [--pages-url URL]   # CSV + Kaggle package (+ Pages site)
 python -m disclosures.schema --write | --check              # regenerate / check the JSON Schema
 python -m disclosures.gold stats [--force]                  # eval/pdf_stats.csv
 python -m disclosures.gold select --seed 20261001 --n 12    # eval/gold/selection.json
@@ -77,7 +77,7 @@ python -m disclosures.gold apply-review                     # mark fully-ticked 
 ```
 
 `python -m disclosures scrape --chamber house --parliament 48 [--verify]` downloads 48th statements to `pdfs/48/` and updates `pdfs/manifest.csv` (`docs/v2/scrape.md`).
-`export` writes `exports/disclosures_v2.csv` (one row per item, 33 columns) and `exports/kaggle/` (the same CSV, `README.md` with the field dictionary, method and known limitations, `dataset-metadata.json`). It reads the DB read-only and fills `source_url` from `pdfs/manifest.csv`. The CSVs are gitignored; README and metadata are committed. Set `--kaggle-id`/`--license` before uploading (G4).
+`export` writes `exports/disclosures_v2.csv` (one row per item, 33 columns) and `exports/kaggle/` (the same CSV, `README.md` with the field dictionary, method and known limitations, `dataset-metadata.json`). It reads the DB read-only and fills `source_url` from `pdfs/manifest.csv`. The CSVs are gitignored; README and metadata are committed. Set `--kaggle-id`/`--license` before uploading (G4). `--site site` also writes `site/index.html` (what it is, coverage, how to cite, the Datasette Lite link built from `--pages-url`) and `site/disclosures_v2.db` (a byte copy of the DB, committed despite the `*.db` ignore rule). `.github/workflows/pages.yml` deploys `site/` on a push to `main` that touches it; Pages itself is enabled by Kevin (G4, source "GitHub Actions").
 The workflow arm (`extract-disclosures`) runs through the Claude Code Workflow tool, not the CLI; see `docs/v2/extraction.md`.
 
 Extraction files live at `extractions/<source_id>/<chamber>/<parliament>/<pdf_stem>.json`.

@@ -599,9 +599,9 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
 - notes: real DB 50,936 rows = items (both CSVs), 33 cols, dictionary covers all, 0 rows w/o source_url (manifest fallback: load leaves documents.source_url NULL); CSVs gitignored, README+metadata committed; 7 tests.
 
 ### T5.2 — `site/` and the Pages workflow
-- status: todo
+- status: done 2026-10-03
 - deps: T5.1
-- attempts: 0
+- attempts: 1
 - budget: US$0 · network: none
 - do: Per ADR-10/AC-5.2: `site/index.html` (what it is, coverage, how to cite, Datasette Lite
   link), `site/disclosures_v2.db`, and `.github/workflows/pages.yml` (on push to `main`
@@ -610,6 +610,10 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   Pages. If a cloud push is refused because the token lacks `workflow` scope, keep the commit
   and block `(kevin): push .github/workflows/pages.yml from a local clone`.
 - done when: the AC-5.2 checks pass.
+- notes: `export --site site [--pages-url]` writes index.html (coverage from DB, cite, Datasette
+  Lite → https://k-r-a-s-s.github.io/aus-govt-transparency/disclosures_v2.db) + byte copy of DB
+  (31.9 MB, cmp-identical); pages.yml (push main paths site/**, + workflow_dispatch); PyYAML
+  added to requirements-dev for the AC yaml check. http.server curl: lite link found, DB 200.
 
 ### T5.3 — Rewrite README.md for v2
 - status: todo
