@@ -41,9 +41,9 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
 - notes: skipif added; 198 passed as uid 1000 (Proxmox, not root), test_ralph_status 14 passed. Root skip path not exercised locally.
 
 ### T0.2 — Verify the baseline in this environment
-- status: todo
+- status: done 2026-10-02
 - deps: T0.1
-- attempts: 0
+- attempts: 1
 - budget: US$0 · network: pypi (venv), openrouter.ai (credit check only, free)
 - do: Run `bash scripts/ralph/bootstrap.sh`, the full test suite, and a DB rebuild
   (`.venv/bin/python -m disclosures load --source gemini-api`). Then the AC-2.7 and AC-2.9
@@ -54,6 +54,7 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
 - done when: load prints `loaded 768 files, skipped 0 (source gemini-api) -> disclosures_v2.db`
   then `members 303, member_terms 763, items 42042`, and exits 0 with all three hard AC-2.7
   queries at 0. PROGRESS.md has the baseline line.
+- notes: 198 tests pass; load exit 0, hard AC-2.7 = 0/0/0 (informational 4); AC-2.9 null party 0; hash f69d40da; credit US$18.87.
 
 ---
 
