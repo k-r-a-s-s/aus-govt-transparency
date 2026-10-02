@@ -9,7 +9,8 @@ saves each senator's ``getSenatorStatement`` payload, pretty-printed with sorted
 ``pdfs/senate/48/_query_statements.json``) and upserts its ``pdfs/manifest.csv`` row. That JSON
 file is the "source document": ``pdf_path`` points at it, ``pdf_sha256`` is its sha256 and
 ``page_count`` is 1. Two downloads of the same statement gave identical bytes (2026-10-02),
-so the sha256 is the change signal.
+so the sha256 is the change signal. ``dry_run`` (``refresh --dry-run``) fetches and compares
+but writes nothing; ``changes`` collects ``(kind, path)`` for every new/changed statement.
 
 The adapter maps each section key to its official number (an unmapped key, or an unknown field
 inside a section, is an error, never a silent drop). Interests are ``initial`` items lodged on
@@ -265,7 +266,8 @@ def adapt_paths(paths: List[str], *, root: Path = Path("."), out_root: Optional[
 
 def scrape(parliament: int, *, root: Path = Path("."), client=None, limit: Optional[int] = None,
            delay: float = 0.3, out=sys.stdout, now: Callable[[], str] = None,
-           sleep: Callable[[float], None] = time.sleep) -> Dict[str, int]:
+           sleep: Callable[[float], None] = time.sleep, dry_run: bool = False,
+           changes: Optional[List[tuple]] = None) -> Dict[str, int]:
     """Fetch the listing and every statement, save new/changed payloads, upsert manifest rows."""
     if parliament != sources.CURRENT_SENATE_PARLIAMENT:
         raise ValueError(f"scrape: the senators' interests API only serves the "
@@ -275,7 +277,8 @@ def scrape(parliament: int, *, root: Path = Path("."), client=None, limit: Optio
     client = client or sources.http_client()
     mpath = root / manifest.MANIFEST_PATH
     rel_dir = Path("pdfs") / "senate" / str(parliament)
-    (root / rel_dir).mkdir(parents=True, exist_ok=True)
+    if not dry_run:
+        (root / rel_dir).mkdir(parents=True, exist_ok=True)
     counts = dict(listed=0, new=0, changed=0, unchanged=0, failed=0)
     try:
         listing = sources.fetch(list_url(), client=client, headers=ORIGIN).json()
@@ -283,7 +286,8 @@ def scrape(parliament: int, *, root: Path = Path("."), client=None, limit: Optio
         if not listing.get("wasSuccessful", True) or len(rows) != listing.get("rowCount", len(rows)):
             raise ValueError(f"scrape: bad listing ({len(rows)} rows, rowCount "
                              f"{listing.get('rowCount')}, errors {listing.get('errors')})")
-        _write_atomic(root / rel_dir / LIST_NAME, dump(listing))
+        if not dry_run:
+            _write_atomic(root / rel_dir / LIST_NAME, dump(listing))
         if limit is not None:
             rows = rows[:limit]
         counts["listed"] = len(rows)
@@ -316,7 +320,10 @@ def scrape(parliament: int, *, root: Path = Path("."), client=None, limit: Optio
                 rel = str(rel_dir / name)
                 kind = "new"
             if kind != "unchanged":
-                _write_atomic(root / rel, data)
+                if not dry_run:
+                    _write_atomic(root / rel, data)
+                if changes is not None:
+                    changes.append((kind, rel))
                 print(f"  {kind} {rel} {row['name']}", file=out)
             counts[kind] += 1
             sur, given = display_name(row["name"])
@@ -327,11 +334,12 @@ def scrape(parliament: int, *, root: Path = Path("."), client=None, limit: Optio
                 "pdf_path": rel, "pdf_sha256": sha, "page_count": "1",
                 "fetched_at": old["fetched_at"] if old and kind == "unchanged" else now(),
             }
-            manifest.write_manifest(by_path.values(), mpath)  # after every file: resumable
+            if not dry_run:
+                manifest.write_manifest(by_path.values(), mpath)  # after every file: resumable
     finally:
         if own:
             client.close()
-    print(f"scrape senate {parliament}: {counts['listed']} listed, {counts['new']} new, "
+    print(f"{'dry run: ' if dry_run else ''}scrape senate {parliament}: {counts['listed']} listed, {counts['new']} new, "
           f"{counts['changed']} changed, {counts['unchanged']} unchanged, "
           f"{counts['failed']} failed", file=out)
     return counts

@@ -59,6 +59,22 @@ each run (76 small requests); a changed sha256 is **changed**. Two fetches gave 
 (2026-10-02). Then `python -m disclosures extract --source senate-json pdfs/senate/48/*.json`
 writes `extractions/senate-json/senate/48/`.
 
+## Refresh
+
+`python -m disclosures refresh --dry-run` downloads every House 48th statement and every Senate
+payload (`scrape --verify` semantics, ~2 min) and lists each one whose sha256 differs from
+`pdfs/manifest.csv` (`changed`) or that has no row (`new`). It writes nothing. A download
+failure exits 1 rather than print a partial list.
+
+`python -m disclosures refresh` (gemini source) saves those files and their manifest rows,
+extracts only the new/changed House PDFs with the G2 config (`refresh.G2_EXTRACT`, batches of
+20), runs the Senate adapter on the changed senators, then runs
+`load --source gemini-api --source senate-json` and `entities` (online, so uncached long-tail
+blocks are paid). It stops at the first sub-command that fails; every step is idempotent, so
+re-run it. `--source workflow` saves the files and runs the Senate adapter, then prints the
+`extract-disclosures` Workflow args (`pdfs`, `page_counts`, `extracted_at`) and the load and
+entities commands to run after the Workflow.
+
 ## Committing
 
 Commit the PDFs and `pdfs/manifest.csv` in the same commit. `tests/test_manifest.py` (AC-4.3)

@@ -14,7 +14,9 @@ its manifest row, and whose file is on disk, is ``unchanged`` and not downloaded
 statement is downloaded: no manifest row -> ``new``; a different sha256 -> ``changed`` (the
 file is overwritten in place, so git history versions it); the same sha256 -> ``unchanged``
 (the row's link/date are refreshed). ``--verify`` downloads every statement and compares bytes.
-Files over 95 MB are refused and reported, never written.
+Files over 95 MB are refused and reported, never written. ``dry_run`` (``refresh --dry-run``)
+downloads and compares the same way but writes nothing; ``changes`` collects ``(kind, path)``
+for every new/changed statement.
 """
 from __future__ import annotations
 
@@ -92,7 +94,8 @@ def _write_atomic(path: Path, data: bytes) -> None:
 def scrape(chamber: str, parliament: int, *, root: Path = Path("."), client=None,
            verify: bool = False, limit: Optional[int] = None, delay: float = 0.3,
            out=sys.stdout, now: Callable[[], str] = None,
-           sleep: Callable[[float], None] = time.sleep) -> Dict[str, int]:
+           sleep: Callable[[float], None] = time.sleep, dry_run: bool = False,
+           changes: Optional[List[tuple]] = None) -> Dict[str, int]:
     """Download new/changed statements and upsert their manifest rows. Returns counts."""
     if (chamber, parliament) not in SCRAPABLE:
         raise ValueError(f"scrape: only {sorted(SCRAPABLE)} (archives are back-filled by "
@@ -102,7 +105,8 @@ def scrape(chamber: str, parliament: int, *, root: Path = Path("."), client=None
     client = client or sources.http_client()
     mpath = root / manifest.MANIFEST_PATH
     rel_dir = Path("pdfs") / str(parliament)
-    (root / rel_dir).mkdir(parents=True, exist_ok=True)
+    if not dry_run:
+        (root / rel_dir).mkdir(parents=True, exist_ok=True)
     counts = dict(listed=0, new=0, changed=0, unchanged=0, refused=0, failed=0)
     try:
         listing = sources.fetch_register(parliament, client=client)
@@ -155,7 +159,10 @@ def scrape(chamber: str, parliament: int, *, root: Path = Path("."), client=None
                 rel = str(rel_dir / name)
                 kind = "new"
             if kind != "unchanged":
-                _write_atomic(root / rel, data)
+                if not dry_run:
+                    _write_atomic(root / rel, data)
+                if changes is not None:
+                    changes.append((kind, rel))
                 print(f"  {kind} {rel} ({len(data) / 2**20:.1f} MB) {row.name_raw}", file=out)
             counts[kind] += 1
             by_path[rel] = {
@@ -166,11 +173,12 @@ def scrape(chamber: str, parliament: int, *, root: Path = Path("."), client=None
                 "page_count": str(_page_count(data)),
                 "fetched_at": now() if kind != "unchanged" or not old else old["fetched_at"],
             }
-            manifest.write_manifest(by_path.values(), mpath)  # after every file: resumable
+            if not dry_run:
+                manifest.write_manifest(by_path.values(), mpath)  # after every file: resumable
     finally:
         if own:
             client.close()
-    print(f"scrape {chamber} {parliament}: {counts['listed']} listed, {counts['new']} new, "
+    print(f"{'dry run: ' if dry_run else ''}scrape {chamber} {parliament}: {counts['listed']} listed, {counts['new']} new, "
           f"{counts['changed']} changed, {counts['unchanged']} unchanged, "
           f"{counts['refused']} refused, {counts['failed']} failed", file=out)
     return counts

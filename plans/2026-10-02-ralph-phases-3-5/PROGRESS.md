@@ -30,3 +30,4 @@
 2026-10-02T14:52Z | T3.5 | done | spent US$4.03 | House 48th: 151/151 valid, 0 failed, 0 fallback; 48,956 items; AC-2.7/2.8/2.9 ok, AC-4.7 151; entities offline waits on T3.10
 2026-10-02T15:05Z | T3.6 | done | spent US$0.00 | Senate 48th adapter: 76 payloads saved + manifest rows, 76/76 valid senate-json extractions (1,980 items); validate accepts .json sources; 297 tests pass
 2026-10-02T15:13Z | T3.7 | done | spent US$0.00 | Senate pdf_members/party_terms 76 each (4 cross-chamber); load --source repeatable, members.chamber = latest term; AC-4.6 76, AC-2.9 0; senate_source.md; 301 pass
+2026-10-02T15:20Z | T3.8 | done | spent US$0.00 | refresh --dry-run/gemini/workflow; AC-4.5 test (1 sha differs -> only that file); live dry-run: house 151 unchanged, senate 76 unchanged, 0 new/changed; 308 pass

@@ -519,9 +519,9 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   AC-2.9 0; House hash c4888789 unchanged, full 88fb48c0 stable. 301 tests pass.
 
 ### T3.8 — `refresh` (dry-run and real)
-- status: todo
+- status: done 2026-10-03
 - deps: T3.7
-- attempts: 0
+- attempts: 1
 - budget: US$0 to build (the live dry-run is free) · network: aph hosts for the dry-run
 - do: Implement `refresh` per SPEC AC-4.5 and D3: `--dry-run` lists new/changed House 48th
   statements and Senate statements against the manifest. A non-dry run with the gemini source
@@ -531,6 +531,10 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   exactly that file is selected. Run `refresh --dry-run` live once and record its output in
   PROGRESS.md. Don't run a non-dry refresh here.
 - done when: the AC-4.5 test passes; the live dry-run output is recorded.
+- spent: US$0.00
+- notes: `disclosures/refresh.py`; scrape/senate.scrape gained `dry_run` + `changes`. Live
+  dry-run 2026-10-03: house 151 listed/0 new/0 changed, senate 76/0/0, "refresh: 0 new/changed";
+  manifest untouched. tests/test_refresh.py (8 tests); 308 pass.
 
 ### T3.9 — Senate archives 43rd–47th: discovery only
 - status: todo

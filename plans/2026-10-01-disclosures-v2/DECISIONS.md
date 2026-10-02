@@ -623,3 +623,19 @@ V1's cold check found two places where C12 output could be read two ways.
 - `meta.source_id` joins the loaded source ids with commas; `documents.extraction_source` is
   per file. House item ids are the same with or without `senate-json` loaded (they hash only
   the file's own content): House hash `c4888789…` is unchanged, full DB `88fb48c0…`.
+
+## 2026-10-03 — `refresh`: download-and-compare, workflow prints, entities online (T3.8)
+
+- `refresh` always downloads every House 48th statement (`scrape --verify` semantics) rather than
+  trusting the listing's "Last updated" date, so a file APH replaces without a new date is still
+  caught (AC-4.5 says "downloaded sha256"). Cost: ~85 MB, ~2 min per run. `scrape` keeps the
+  cheaper date check (AC-4.4).
+- `--dry-run` writes nothing at all (no PDFs, no Senate listing file, no manifest). Any failed
+  download exits 1 instead of listing a partial selection.
+- Changed PDFs aren't passed `--force`: their old extraction's `pdf_sha256` no longer matches,
+  so it's invalid and the extractor redoes it; new PDFs have none.
+- `--source workflow` still runs the free Senate adapter, then prints the Workflow args and the
+  follow-up `load --source workflow-claude --source gemini-api --source senate-json` and
+  `entities` commands; it doesn't load, since the House extractions aren't there yet.
+- The gemini run ends with online `entities`, so a refresh that adds new long-tail entity names
+  makes paid LLM calls (≈ US$0.01 per request) through the existing cache.

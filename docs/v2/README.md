@@ -53,6 +53,8 @@ python -m disclosures extract --source gemini [--provider auto|gemini|openrouter
     [--chunk-pages 20] [--max-retries 4] [--force] <pdfs...>   # see docs/v2/extraction.md
 python -m disclosures scrape --chamber house|senate --parliament 48 [--verify]   # docs/v2/scrape.md
 python -m disclosures extract --source senate-json pdfs/senate/48/*.json   # Senate adapter, no LLM
+python -m disclosures refresh --dry-run                     # new/changed House 48th + Senate statements, writes nothing
+python -m disclosures refresh [--source gemini|workflow]    # scrape, extract only those (G2), load, entities; docs/v2/scrape.md
 python -m disclosures score --pred <dir> --gold eval/gold [--json out.json]
 python -m disclosures score --v1 disclosures.db --gold eval/gold [--json eval/v1_baseline.json]
 python -m disclosures load --source gemini-api [--source senate-json] [--db disclosures_v2.db] \
@@ -73,7 +75,7 @@ python -m disclosures.gold apply-review                     # mark fully-ticked 
 ```
 
 `python -m disclosures scrape --chamber house --parliament 48 [--verify]` downloads 48th statements to `pdfs/48/` and updates `pdfs/manifest.csv` (`docs/v2/scrape.md`).
-`export, refresh` are registered stubs (exit 2) until their phase.
+`export` is a registered stub (exit 2) until Phase 5.
 The workflow arm (`extract-disclosures`) runs through the Claude Code Workflow tool, not the CLI; see `docs/v2/extraction.md`.
 
 Extraction files live at `extractions/<source_id>/<chamber>/<parliament>/<pdf_stem>.json`.
