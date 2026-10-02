@@ -37,7 +37,7 @@ from .gemini_model import resolve_gemini_model
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 API_KEY_ENV_VARS = ("OPENROUTER_KEY", "OPENROUTER_API_KEY")
-NO_TEMPERATURE_PREFIXES = ("openai/",)
+NO_TEMPERATURE_PREFIXES = ("openai/", "anthropic/")  # anthropic/*: only Azure endpoints list temperature; require_parameters would pin to Azure
 RETRYABLE_STATUS = {408, 429}  # plus every 5xx
 DEFAULT_TIMEOUT_S = 600.0
 APP_TITLE = "aus-govt-transparency disclosures v2"

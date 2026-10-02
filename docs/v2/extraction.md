@@ -104,7 +104,12 @@ Request shape (verified against openrouter.ai/docs and live on 2026-10-02):
   `--provider-order`. Added 2026-10-02 because `anthropic/claude-sonnet-5.5` fallbacks routed to
   Azure failed with HTTP 400 `no_content_length_header` ("Content-Length header is required");
   other providers served the same requests. Use `--ignore-providers azure`.
-- `temperature: 0` except for `openai/*` models, which reject the parameter.
+- `temperature: 0` except for `openai/*` models, which reject the parameter, and `anthropic/*`
+  models: on OpenRouter only the Azure endpoints of `anthropic/claude-sonnet-5.5` list
+  `temperature`, so with `require_parameters` every Sonnet fallback was pinned to Azure (whose
+  intermittent `no_content_length_header` 400s failed 5 PDFs) and `--ignore-providers azure`
+  alone left no endpoint at all (404 "Filter by Parameters"). Found 2026-10-02 during the
+  backfill; the fallback now goes to Anthropic's own endpoint.
   `--reasoning-effort` sends `reasoning: {"effort": …}`. `max_tokens` 65,536.
 - `usage: {"include": true}` makes OpenRouter return `usage.cost` (USD); the extractor sums it
   per PDF and per run. `completion_tokens` already includes reasoning tokens.

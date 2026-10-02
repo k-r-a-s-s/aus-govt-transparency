@@ -106,13 +106,15 @@ def test_request_shape_matches_openrouter_docs():
     assert "key" not in json.dumps(body)
 
 
-def test_no_provider_order_means_no_pin_and_openai_gets_no_temperature():
+def test_no_provider_order_means_no_pin_and_openai_anthropic_get_no_temperature():
     b, _ = backend(lambda s, e, n: None, model="openai/gpt-6-luna")
     body = b.build_request(b"x", "t", "chunk.pdf")
     assert body["provider"] == {"require_parameters": True}
     assert "temperature" not in body and "reasoning" not in body
     b2, _ = backend(lambda s, e, n: None, model="anthropic/claude-sonnet-5.5")
-    assert b2.build_request(b"x", "t", "chunk.pdf")["temperature"] == 0.0
+    assert "temperature" not in b2.build_request(b"x", "t", "chunk.pdf")
+    b3, _ = backend(lambda s, e, n: None, model="google/gemini-3.8-flash")
+    assert b3.build_request(b"x", "t", "chunk.pdf")["temperature"] == 0.0
 
 
 def test_ignore_providers_becomes_provider_ignore():
