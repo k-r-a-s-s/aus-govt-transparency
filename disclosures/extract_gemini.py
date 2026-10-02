@@ -666,6 +666,9 @@ def add_arguments(p: argparse.ArgumentParser) -> None:
     p.add_argument("--provider-order", default=None, metavar="SLUGS",
                    help="openrouter only: comma-separated endpoint slugs to pin, fallbacks off "
                         "(e.g. google-ai-studio/flex = Gemini at half price, slower)")
+    p.add_argument("--ignore-providers", default=None, metavar="SLUGS",
+                   help="openrouter only: comma-separated provider slugs OpenRouter must skip (provider.ignore), "
+                        "applied to the primary and the --fallback-model backend (e.g. azure)")
     p.add_argument("--reasoning-effort", default=None, choices=("none", "minimal", "low", "medium", "high"),
                    help="openrouter only: pass reasoning.effort to the model (default: provider default)")
     p.add_argument("--fallback-model", default=None, metavar="ID",
@@ -711,6 +714,8 @@ def run(args: argparse.Namespace, client: Any = None, env=None, http: Any = None
     elif provider == "auto":
         provider = "openrouter" if resolve_openrouter_key(env_map) else "gemini"
     backend = None
+    ign = getattr(args, "ignore_providers", None)
+    ignore = [o.strip() for o in ign.split(",") if o.strip()] if ign else None
     try:
         if provider == "gemini":
             model = resolve_gemini_model(args.model, env=env_map)
@@ -738,6 +743,7 @@ def run(args: argparse.Namespace, client: Any = None, env=None, http: Any = None
         backend = OpenRouterBackend(
             key, model, http=http,
             provider_order=[o.strip() for o in order.split(",") if o.strip()] if order else None,
+            ignore_providers=ignore,
             reasoning_effort=getattr(args, "reasoning_effort", None))
     fallback = None
     fb = getattr(args, "fallback_model", None)
@@ -750,11 +756,12 @@ def run(args: argparse.Namespace, client: Any = None, env=None, http: Any = None
         except ValueError as exc:
             print(f"extract: {exc}", file=sys.stderr)
             return 2
-        fallback = OpenRouterBackend(key, fb_model, http=http)
+        fallback = OpenRouterBackend(key, fb_model, http=http, ignore_providers=ignore)
     source_id = getattr(args, "source_id", None) or default_source_id(provider, model)
     out_root = getattr(args, "out_root", None) or f"extractions/{source_id}"
     print(f"extract: source={source_id} provider={provider} model={model} "
           f"{'endpoints=' + ','.join(backend.provider_order) + ' ' if backend and backend.provider_order else ''}"
+          f"{'ignore=' + ','.join(backend.ignore_providers) + ' ' if backend and backend.ignore_providers else ''}"
           f"{'fallback=' + fallback.model + ' ' if fallback else ''}"
           f"chunk_pages={args.chunk_pages} workers={workers} pdfs={len(args.pdfs)}", flush=True)
     res = extract_pdfs(args.pdfs, client=client, model=model, backend=backend, source_id=source_id,

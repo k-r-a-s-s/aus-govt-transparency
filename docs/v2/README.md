@@ -42,7 +42,7 @@ python3 -m venv .venv
 python -m disclosures --help
 python -m disclosures validate <file-or-dir> [...]          # exit 1 if any file invalid
 python -m disclosures extract --source gemini [--provider auto|gemini|openrouter] [--model ID] \
-    [--provider-order google-ai-studio/flex] [--fallback-model ID] [--workers 4] [--out-root extractions/<source-id>] \
+    [--provider-order google-ai-studio/flex] [--ignore-providers azure] [--fallback-model ID] [--workers 4] [--out-root extractions/<source-id>] \
     [--chunk-pages 20] [--max-retries 4] [--force] <pdfs...>   # see docs/v2/extraction.md
 python -m disclosures score --pred <dir> --gold eval/gold [--json out.json]
 python -m disclosures score --v1 disclosures.db --gold eval/gold [--json eval/v1_baseline.json]

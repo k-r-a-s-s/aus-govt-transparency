@@ -124,12 +124,14 @@ class OpenRouterBackend:
 
     ``http`` is an ``httpx.Client`` (tests inject one with ``httpx.MockTransport``).
     ``provider_order`` pins endpoints (``["google-ai-studio/flex"]``) with fallbacks disabled.
+    ``ignore_providers`` becomes ``provider.ignore`` (slugs OpenRouter must skip, e.g. ``["azure"]``).
     """
 
     name = "openrouter"
 
     def __init__(self, api_key: str, model: str, *, http: Optional[httpx.Client] = None,
                  provider_order: Optional[Sequence[str]] = None,
+                 ignore_providers: Optional[Sequence[str]] = None,
                  reasoning_effort: Optional[str] = None, temperature: Optional[float] = 0.0,
                  max_tokens: int = 65536, response_schema: Optional[dict] = None,
                  timeout_s: float = DEFAULT_TIMEOUT_S, url: str = OPENROUTER_URL):
@@ -141,6 +143,7 @@ class OpenRouterBackend:
         self.model = model
         self.http = http or httpx.Client(timeout=httpx.Timeout(timeout_s, connect=30.0))
         self.provider_order = list(provider_order) if provider_order else None
+        self.ignore_providers = list(ignore_providers) if ignore_providers else None
         self.reasoning_effort = reasoning_effort
         self.temperature = temperature
         self.max_tokens = max_tokens
@@ -154,6 +157,8 @@ class OpenRouterBackend:
         if self.provider_order:
             provider["order"] = self.provider_order
             provider["allow_fallbacks"] = False
+        if self.ignore_providers:
+            provider["ignore"] = self.ignore_providers
         body: Dict[str, Any] = {
             "model": self.model,
             "messages": [{"role": "user", "content": [

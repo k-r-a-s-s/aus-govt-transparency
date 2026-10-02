@@ -115,6 +115,13 @@ def test_no_provider_order_means_no_pin_and_openai_gets_no_temperature():
     assert b2.build_request(b"x", "t", "chunk.pdf")["temperature"] == 0.0
 
 
+def test_ignore_providers_becomes_provider_ignore():
+    b, _ = backend(lambda s, e, n: None, model="anthropic/claude-sonnet-5.5", ignore_providers=["azure"])
+    assert b.build_request(b"x", "t", "chunk.pdf")["provider"] == {"require_parameters": True, "ignore": ["azure"]}
+    b2, _ = backend(lambda s, e, n: None, provider_order=["google-ai-studio/flex"], ignore_providers=[])
+    assert "ignore" not in b2.build_request(b"x", "t", "chunk.pdf")["provider"]
+
+
 def test_strict_schema_closes_every_object_and_keeps_required():
     s = orr.strict_schema(eg.response_schema())
     assert s["additionalProperties"] is False
@@ -399,3 +406,21 @@ def test_cli_fallback_model(repo, capsys):
     assert "--fallback-model needs --provider openrouter" in capsys.readouterr().err
     assert eg.run(ns(provider="openrouter", fallback_model="google/gemini-2.5-flash"), env={"OPENROUTER_KEY": "k"}, http=http) == 2
     assert "banned" in capsys.readouterr().err
+
+
+def test_cli_ignore_providers_reaches_primary_and_fallback(repo, capsys):
+    rel = make_pdf(repo, "pdfs/47/m_47p.pdf", 2)
+    server = FakeServer(lambda s, e, n: completion(chunk_doc([]), finish="error", native="RECITATION")
+                        if n == 1 else completion(one_item_per_page(s, e)))
+    http = httpx.Client(transport=httpx.MockTransport(server))
+    args = ns(provider="openrouter", fallback_model="anthropic/claude-sonnet-5.5", ignore_providers="azure, ,deepinfra",
+              pdfs=[rel])
+    assert eg.run(args, env={"OPENROUTER_KEY": "k"}, http=http) == 0
+    assert "ignore=azure,deepinfra " in capsys.readouterr().out
+    (_, primary), (_, fallback) = server.requests
+    assert primary["model"] == "google/gemini-3.8-flash" and fallback["model"] == "anthropic/claude-sonnet-5.5"
+    assert primary["provider"]["ignore"] == fallback["provider"]["ignore"] == ["azure", "deepinfra"]
+    from disclosures.cli import build_parser
+
+    a = build_parser().parse_args(["extract", "--source", "gemini", "--ignore-providers", "azure", "pdfs/45/a.pdf"])
+    assert a.ignore_providers == "azure"

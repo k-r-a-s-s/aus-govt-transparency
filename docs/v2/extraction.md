@@ -45,6 +45,7 @@ The extractor has two transports, chosen with `--provider`. Everything above the
 ```sh
 python -m disclosures extract --source gemini [--provider auto|gemini|openrouter] [--model ID] \
     [--provider-order google-ai-studio/flex] [--fallback-model ID] [--reasoning-effort low|medium|high] \
+    [--ignore-providers azure] \
     [--source-id gemini-api] [--out-root extractions/<source-id>] [--chunk-pages 20] \
     [--max-retries 4] [--workers 1] [--force] pdfs/45/husice_45p.pdf pdfs/47/kingm_47p.pdf ...
 
@@ -98,6 +99,11 @@ Request shape (verified against openrouter.ai/docs and live on 2026-10-02):
 - `--provider-order a,b` becomes `provider.order` with `allow_fallbacks: false`. Use
   `google-ai-studio/flex` for Gemini at half price ($0.38 / $1.88 per MTok) with higher
   latency: right for an unattended backfill. (`:batch` is a separate asynchronous API; not used.)
+- `--ignore-providers a,b` becomes `provider.ignore` (provider slugs OpenRouter must skip) on
+  both the primary and the `--fallback-model` backend; ignored on the `gemini` transport, like
+  `--provider-order`. Added 2026-10-02 because `anthropic/claude-sonnet-5.5` fallbacks routed to
+  Azure failed with HTTP 400 `no_content_length_header` ("Content-Length header is required");
+  other providers served the same requests. Use `--ignore-providers azure`.
 - `temperature: 0` except for `openai/*` models, which reject the parameter.
   `--reasoning-effort` sends `reasoning: {"effort": …}`. `max_tokens` 65,536.
 - `usage: {"include": true}` makes OpenRouter return `usage.cost` (USD); the extractor sums it
