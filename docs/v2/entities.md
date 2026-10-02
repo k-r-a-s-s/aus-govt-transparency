@@ -140,5 +140,12 @@ alias) when it's regenerated. How to review: `eval/entities_report.md`, "How to 
   snapshot names differently (`Abacus Property Group` vs `ABACUS GROUP`) is typed `other`.
   On the 2026-10-02 run, 45 of the 348 groups the LLM typed `listed_company` got a code (49
   aliases); the other 303 groups (324 aliases) became `other`. Curating the big ones into `aliases.csv` fixes them.
+- ASX matching uses today's snapshot only, so an old ticker that has since been reused
+  resolves to today's holder (`ore` was Orocobre, now Orezone). V2 curated the cases it
+  found (`ore`, `map`, `cim`, `apt`, `agi`). A ticker alias also stays eligible for every
+  section once it occurs on one section-1 item. Curate or exclude new cases as you find them.
+- About 30 one-item names that add a bracketed ticker or remark to a known alias (`Telstra
+  (TLS)`, `ANZ (joint with spouse)`) stay as singletons; stripping brackets before the
+  singleton stage would fold them in.
 - Changing the prompt means bumping `LLM_PROMPT_VERSION`, which invalidates every cached block
   (about US$1.20 to redo).

@@ -521,3 +521,12 @@ venice ice,Venice Ice Pty Limited,private_company,,,
 world vision,World Vision Australia,association_or_ngo,,,
 atlas iron,Atlas Iron,other,,1,"Listed in the 43rd-45th, delisted 2018 (Hancock); no code in the 2026 snapshot, so not listed_company (AC-3.4); bare 'atlas' not merged"
 metway,Suncorp Group,bank_or_financial,SUN,,Metway Bank merged into Suncorp-Metway in 1996
+apt,Afterpay,other,,,"Afterpay's ticker 2017-2022 (now Block, SQ2), not APA Group (APA); delisted, so not listed_company (AC-3.4). V2 finding"
+afterpay,Afterpay,other,,,"Delisted 2022 (Block, SQ2); no code in the 2026 snapshot, so not listed_company (AC-3.4)"
+afterpay touch,Afterpay,other,,,"Afterpay Touch Group, Afterpay's earlier name; delisted 2022, so not listed_company (AC-3.4)"
+ore,Orocobre,other,,,"Orocobre's ticker until 2021 (Turnbull 43rd/44th), not Orezone (the 2026 ORE); delisted, so not listed_company (AC-3.4). V2 finding"
+map,MAp Group,other,,,"MAp Group / Macquarie Airports' ticker until 2011 (Neville 43rd), not Microba (listed 2022). V2 finding"
+cim,CIMIC Group,other,,,"CIMIC's ticker until its 2022 delisting (Perrett 45th/46th), not Challenger IM (the 2026 CIM). V2 finding"
+cimic group,CIMIC Group,other,,,"Delisted 2022; no code in the 2026 snapshot, so not listed_company (AC-3.4)"
+agi,AGI,other,,,"Neutral label, merges nothing. Ambiguous: 9 Morton gift items (tickets) are likely Australian Gas Infrastructure Group, 1 Owens section-1 share is likely Ainsworth (AGI); alias-level can't split, so kept apart from Ainsworth. V2 finding"
+comm bank,Commonwealth Bank of Australia,bank_or_financial,CBA,,

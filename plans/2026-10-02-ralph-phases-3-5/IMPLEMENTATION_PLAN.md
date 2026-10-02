@@ -367,14 +367,21 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   entities, AC-3.3 0, coverage 97.7%, report unchanged; DECISIONS 2026-10-03 G3 entry.
 
 ### V2 — Cold verification of Phase 3
-- status: todo
+- status: done 2026-10-03
 - deps: T2.9
-- attempts: 0
+- attempts: 1
 - budget: US$0 · network: none
 - do: As V1, with a fresh subagent and only AC-3.1–3.6 plus D2: reproduce each check, rebuild
   from scratch (`load` → `entities --offline`) twice and compare the entity tables, and look
   for duplicate organisations in the top 50.
 - done when: no unresolved finding.
+- notes: Round 1 "FAIL — 4 findings": all AC-3.1–3.6 checks passed and rebuilds were identical;
+  F1 reused tickers (`ore`/`map`/`cim` → today's holder, `agi` gifts → Ainsworth), F2 LLM put
+  `apt` (Afterpay) in APA Group, F3 G3 header still pending, F4 ~30 `Name (TICKER)` singletons.
+  Fixed with 9 curated rows, the DECISIONS header, and Known limitations (F4 + ticker reuse). Round 2
+  "FAIL — 1 findings": N1, new flagged rows not covered by G3. I unflagged them (map is certain,
+  agi is a neutral label); recorded in DECISIONS 2026-10-03 (V2). 11,542 entities, AC-3.3 0,
+  coverage 97.7%, 322 pass.
 
 ---
 

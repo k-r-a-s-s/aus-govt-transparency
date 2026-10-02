@@ -40,3 +40,4 @@
 2026-10-02T15:54Z | T5.4 | done | spent US$0.00 | removed src/, examples/, test_output.json, setup_pipeline.sh, seed script, v1 docs; overrides README = CSVs source of truth; 'from src.' grep empty; 322 pass
 2026-10-02T15:56Z | T5.5 | done | spent US$0.00 | fresh venv: install + pip check ok, freeze == pins, 322 pass/1 skip, all modules import; no requirement changes
 2026-10-02T22:30Z | T2.9 | done | spent US$0.00 | G3: 0 fixes to apply; load+entities --offline 11,544 entities, AC-3.3 0, coverage 97.7%, report unchanged; G3 in DECISIONS; 322 pass
+2026-10-02T22:41Z | V2 | done | spent US$0.00 | cold verify Phase 3: ACs pass, deterministic; fixed reused tickers (ore/map/cim/agi/apt) + comm bank via 9 curated rows, G3 header, known limitations; 11,542 entities; 322 pass

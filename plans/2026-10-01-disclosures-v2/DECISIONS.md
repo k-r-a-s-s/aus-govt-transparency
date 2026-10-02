@@ -148,9 +148,9 @@ roughly 286 pages ≈ 75k input + ~100k output tokens ≈ US$0.50; the full back
   prompts (identical bundling and instructions), in per-parliament waves.
 - Gemini model id (verified GA, not `gemini-[0-2].*`): `gemini-3.8-flash`
 
-### G3 — entity spot-check: _pending_
-- Date:
-- Notes:
+### G3 — entity spot-check: **approved** (2026-10-03)
+- Date: 2026-10-03
+- Notes: Kevin approved all 114 rows of `eval/entities_g3_review.csv`, 0 fixes. See "2026-10-03 — Gate G3" below.
 
 ### G4 — publish (Pages + push): _pending_
 - Date:
@@ -687,3 +687,19 @@ they stay. Kevin changed nothing: `kevin_ok=y` on all 114 rows, 0 `kevin_fix`, s
 rows or LLM-cache overrides were added. Final load (`load` House+Senate → `entities --offline`):
 42,272 named items → 11,544 entities; AC-3.3 0; aliases.csv covers 97.7% of the top-200 names;
 `eval/entities_report.md` regenerated with no change.
+
+## 2026-10-03 — V2 cold verification: ticker-reuse fixes (after G3)
+
+The Phase 3 verifier passed every AC-3 check (rebuild deterministic) but found reused ASX tickers
+going to today's holder. The ASX stage matches against the 2026 snapshot only, so an old
+section-1 ticker resolves to whoever holds the code now: `ore` (Orocobre in Turnbull 43rd/44th) →
+Orezone, `map` (MAp Group, Neville 43rd) → Microba, `cim` (CIMIC, Perrett 45th/46th) →
+Challenger IM. The LLM also merged `apt` (Afterpay's ticker 2017–22) into APA Group. And one
+section-1 `agi` share made Ben Morton's 9 `AGI` ticket gifts (probably Australian Gas
+Infrastructure Group) resolve to Ainsworth. Fix: 9 curated rows in `aliases.csv` (`apt`,
+`afterpay`, `afterpay touch` → Afterpay; `ore` → Orocobre; `map` → MAp Group; `cim`, `cimic group`
+→ CIMIC Group; `agi` → AGI, flagged; `comm bank` → CBA). The delisted ones are typed `other`, as
+Newcrest is (AC-3.4). These come after G3 and only move ~30 items, all outside the top 50, so G3
+stands. No new row is flagged: `map` is certain (MAP was MAp Group's code until Nov 2011), and `agi` is a neutral label that merges nothing, so neither needs G3. `eval/entities_g3_review.csv` is left as the record of what Kevin reviewed; regenerating it now would only drop `apt` (now curated). The general risk (and the
+one-item `Name (TICKER)` singletons the verifier also found) is listed under Known limitations
+in `docs/v2/entities.md`. 11,542 entities; AC-3.3 0; coverage 97.7%.
