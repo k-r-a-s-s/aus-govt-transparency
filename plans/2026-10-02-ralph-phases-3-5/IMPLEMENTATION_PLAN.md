@@ -214,9 +214,9 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
 ## M2 — Phase 3: entities (SPEC ADR-6, AC-3; SPEC-DELTA D2)
 
 ### T2.1 — `entities` command skeleton: normalise, generic terms, DB writes, determinism
-- status: todo
+- status: done 2026-10-02
 - deps: T0.2
-- attempts: 0
+- attempts: 1
 - budget: US$0 · network: none
 - do: Create `disclosures/entities.py` and wire it into `disclosures/cli.py` (replacing the
   stub). Implement steps 1 and 2 of ADR-6: `normalise_entity`, and
@@ -228,6 +228,7 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   determinism (two runs → identical tables), NULL entity_name → no entity.
 - done when: `.venv/bin/python -m disclosures entities --offline` runs on the real DB and prints
   method counts; tests pass.
+- notes: real DB: 35,880 named items -> 11,165 entities; generic 6 aliases/16 items, singleton 11,181 aliases/35,864 items; AC-3.3 0; 16 same-slug merges (all true). Curated stage already reads aliases.csv; asx/llm are no-op stages (T2.2, LLM task). Until LLM lands, singleton also catches >=2-item aliases. Full .dump sha identical over 2 runs. 13 tests, 212 pass.
 
 ### T2.2 — ASX snapshot and ASX matching
 - status: todo

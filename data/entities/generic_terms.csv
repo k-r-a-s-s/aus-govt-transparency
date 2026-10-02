@@ -1,0 +1,23 @@
+term,note
+family trust,ADR-6 example
+self managed super fund,ADR-6 example
+self managed superannuation fund,variant of ADR-6 example
+smsf,ADR-6 example
+n/a,ADR-6 example
+not applicable,form wording for nil rows
+nil,ADR-6 example
+none,nil row
+various,ADR-6 example
+superannuation,ADR-6 example
+superannuation fund,generic descriptor
+super fund,generic descriptor
+super,generic descriptor
+trust,generic descriptor
+unit trust,generic descriptor
+family company,generic descriptor
+private company,generic descriptor
+bank,generic descriptor (2 items in data)
+bank account,generic descriptor
+unknown,generic descriptor
+self,owner word extracted as a name (1 item in data)
+spouse,owner word extracted as a name

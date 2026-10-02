@@ -8,7 +8,6 @@ from typing import List, Optional
 # command -> phase in which it lands (stubs until then)
 STUBS = {
     "scrape": 4,
-    "entities": 3,
     "export": 5,
     "refresh": 4,
 }
@@ -47,6 +46,10 @@ def build_parser() -> argparse.ArgumentParser:
             from . import load
 
             load.add_arguments(p)
+        elif name == "entities":
+            from . import entities
+
+            entities.add_arguments(p)
         else:
             p.add_argument("rest", nargs=argparse.REMAINDER, help=argparse.SUPPRESS)
     return parser
@@ -72,6 +75,10 @@ def main(argv: Optional[List[str]] = None) -> int:
         return run(args)
     if args.command == "load":
         from .load import run
+
+        return run(args)
+    if args.command == "entities":
+        from .entities import run
 
         return run(args)
     print(f"{args.command}: not implemented yet (Phase {STUBS[args.command]})", file=sys.stderr)

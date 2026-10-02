@@ -14,3 +14,4 @@
 2026-10-02T13:05Z | T1.5 | done | spent US$0.48 | 7 attachment files re-extracted with prompt v1: 315→525 items, all expected names present; validate 768/0; load 42,252 items, hard AC-2.7 0; AC-2.8 hash 465f1071…
 2026-10-02T13:07Z | V1 | done | spent US$0.00 | Cold verifier: all hard checks pass; 4 small findings → md wording fixed, huntg change_type decided, nevillep spouse owners → T1.6; round 2 PASS
 2026-10-02T13:09Z | T1.6 | blocked | spent US$0.05 | re-extract still self-only for 19 p8 holdings; file restored; Kevin: accept self-only or allow owner override?
+2026-10-02T13:15Z | T2.1 | done | spent US$0.00 | entities command: normalise+generic+pluggable stages (curated live, asx/llm no-op)+singleton; real DB 11,165 entities, AC-3.3 0, deterministic; 212 tests pass

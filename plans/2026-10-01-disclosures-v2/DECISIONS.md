@@ -393,3 +393,15 @@ V1's cold check found two places where C12 output could be read two ways.
 - **Joint fund (nevillep_43p).** When the self and spouse rows both refer to the same attachment
   ("as above"), each holding belongs to both owners, as coultonm_43p/44p/45p already have it.
   nevillep_43p files them under self only. T1.6 fixes that one file and doesn't change the prompt.
+
+### 2026-10-02 — Entity id collisions and singleton names (T2.1)
+- **Same slug = same entity.** `entity_id` is the slug of `canonical_name`. When a second alias
+  produces an id that already exists, it joins that entity rather than getting a suffixed id. On
+  the real data, all 16 such cases were true duplicates that the normaliser kept apart:
+  `&`→`and` versus `&` dropped (`samson oil and gas` / `samson oil gas`) and accents
+  (`loreal` / `loréal`). The first definition, in precedence order and then alias order, keeps
+  the name.
+- **Singleton name** = the alias's commonest whitespace-collapsed raw spelling, with ties going to
+  the alphabetically first. That keeps it deterministic and close to what was printed.
+- **Interim.** Until the LLM stage exists, aliases with ≥ 2 items also fall through to
+  `singleton`, so AC-3.3 holds at every step.
