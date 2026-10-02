@@ -284,3 +284,32 @@ less (≈ US$16 backfill); kept as the budget option only (`eval/bakeoff.md`).
 effort.** ("yes lets use gemini with claude fallback.") OpenRouter topped up by US$10 the same
 day: US$27.3 available against the ≈ US$22 estimate. The backfill is the next agent's first
 action (`HANDOFF.md`).
+
+### 2026-10-02 — Backfill run and Phase 2 closed (cloud session)
+Kevin moved the run to a Claude Code cloud session ("can you run it in the cloud for me"). The
+HANDOFF step-1 command ran as given (bash, so no zsh word-splitting issue) in three passes:
+pass 1 stopped on OpenRouter 402 after 458 PDFs when the US$27 credit ran out (US$27.42
+billed); Kevin topped up US$30; pass 2 was aborted after 86 PDFs (see below); pass 3 finished
+the remaining 212 with 0 failures (US$8.71). Result: 768/768 valid, 42,042 items,
+`eval/extraction_failures.md` lists 0 failures + 6 non-statements (AC-2.6). Load: AC-2.7
+hard queries 0, AC-2.8 identical ids, AC-2.9 0 missing parties, AC-2.10 passes; the
+informational early-dated count is 4 (all `grayg_43p`, listed in `eval/bakeoff.md`).
+
+Two findings, both recorded in `docs/v2/extraction.md` and `eval/bakeoff.md`:
+- **The Sonnet fallback was silently pinned to Azure.** OpenRouter lists `temperature` only on
+  Sonnet 5.5's Azure endpoints, and the transport sent `temperature: 0` with
+  `require_parameters`, so every fallback chunk went to Azure; Azure intermittently returned
+  HTTP 400 `no_content_length_header` (5 PDFs). First fix, `--ignore-providers azure`, left
+  no endpoint at all (404 "Filter by Parameters", 10 PDFs in pass 2, run aborted). Second
+  fix: no `temperature` for `anthropic/*` (as already for `openai/*`); verified live that the
+  fallback then routes to Anthropic's own endpoint. Both flags kept; 183 tests.
+- **RECITATION blocks 14% of files, not a few per cent**: 108/768 files carry
+  `model = google/gemini-3.8-flash+anthropic/claude-sonnet-5.5` (43rd 37, 44th 29, 45th 35,
+  46th 3, 47th 4). Gemini flex alone cost US$10.96 for 365 files (on estimate); the fallback
+  files averaged US$0.163, so the backfill came to ≈ US$38 billed against the US$22 estimate.
+  Kevin asked whether flex was in use (it was, confirmed from the per-token cost); the model
+  choice was not re-opened (G2 stands). A cheaper fallback model is noted in `HANDOFF.md` as
+  an optional lever only.
+
+**Phase 2 done.** Next: Phase 3 (entities) or Phase 4a (scraper), per `SPEC.md`.
+

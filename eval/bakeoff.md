@@ -1,6 +1,6 @@
 # Extractor bake-off — gold set (12 PDFs, 790 gold items, 289 pages)
 
-Status: **G2 confirmed 2026-10-02 (Kevin): gemini-api = Gemini 3.8 Flash on OpenRouter flex + Claude Sonnet 5.5 fallback.** Four arms scored the same day; backfill not yet run.
+Status: **G2 confirmed 2026-10-02 (Kevin): gemini-api = Gemini 3.8 Flash on OpenRouter flex + Claude Sonnet 5.5 fallback.** Four arms scored the same day; **backfill complete 2026-10-02 (768/768 valid, see "Backfill actuals" below and `eval/extraction_failures.md`).**
 Date: 2026-10-02 · Scorer: `python -m disclosures score` (ADR-4; token_set_ratio ≥ 85, section-strict
 matching, micro-averaged). Gold reviewed by Kevin at G1 (2026-10-01).
 
@@ -96,8 +96,11 @@ Worst misses (from the scorer):
   the backfill, vs ≈ US$22 at the default effort). It clears the bar and reads dates slightly
   better, but loses 1 F1 point (morton 0.935, plibersek 0.913 section-strict, tink 74/77
   items). Not recommended unless the budget forces it: the saving is ≈ US$6.
-- Early-dated items check (AC-2.7, informational): 2 on the 23 workflow-claude files loaded so far
-  (both gashj_43p, section 11, lodged 2009-04-29, medium confidence). Re-list after the full backfill.
+- Early-dated items check (AC-2.7, informational), full gemini-api load (768 files, 42,042 items):
+  **4**, all in `grayg_43p` (Gary Gray, 43rd), all plausibly genuine dates on a first statement:
+  p8 s11 "Sustainable World Technologies" 2008-12-04 (high); p9 s12 "Competitive Foods Ltd"
+  2009-05-25 (high); p10 s12 "Australian Capital Equity" 2009-10-13 (high); p11 s14 "The West
+  Australian" 2009-10-13 (medium). (The earlier count of 2 was on 23 workflow-claude files.)
 
 ## Decision (ADR-5 rule)
 
@@ -107,8 +110,9 @@ choose `gemini-api` (unattended, reproducible, cheap re-runs).
 - All four arms clear the bar. Highest F1 is **gemini-api at 0.987** (Sonnet 5.5 0.977,
   workflow-claude 0.974, Luna 0.962), so gemini-api wins outright; the tie-break is not needed.
 - The gemini-api figure includes the Sonnet 5.5 fallback on 1 of its 18 chunks. The fallback is
-  part of the configuration being chosen: Gemini's RECITATION filter will block a few per cent
-  of backfill PDFs and the fallback is the only way to keep them (≈ US$0.10 per blocked chunk).
+  part of the configuration being chosen: Gemini's RECITATION filter will block some backfill
+  PDFs and the fallback is the only way to keep them (≈ US$0.10–0.20 per blocked chunk). In the
+  backfill it blocked 14% of files (see "Backfill actuals"), not the few per cent expected.
 - Luna is 3× cheaper but breaks the C4 date convention and loses items on dense pages; Sonnet
   5.5 is the best on dates and sections but ≈ 5× the cost of Gemini for 1 F1 point less.
 
@@ -116,3 +120,23 @@ choose `gemini-api` (unattended, reproducible, cheap re-runs).
 `--fallback-model anthropic/claude-sonnet-5.5`, default reasoning effort (G2 confirmed by Kevin
 2026-10-02, recorded in `plans/2026-10-01-disclosures-v2/DECISIONS.md`). Budget: ≈ US$22 for
 the backfill; OpenRouter credit topped up to ≈ US$27.3 the same day.
+
+## Backfill actuals (2026-10-02, cloud session)
+
+- 768 of 768 statement PDFs extracted and valid; 0 failures (`eval/extraction_failures.md`).
+  42,042 items; 1,035 OpenRouter calls; 11.1M input / 9.2M output tokens (output includes
+  Gemini thinking and the Sonnet fallback).
+- **Cost: ≈ US$38 as billed by OpenRouter** (completed passes reported US$27.42 + US$8.71; an
+  aborted pass and probes ≈ US$2), against the ≈ US$22 estimate. The 365 PDFs that stayed on
+  Gemini flex cost US$10.96 (US$0.030 each, exactly the flex price for their tokens), so the
+  overrun is entirely the fallback: 108 files (14%) had at least one chunk refused by Gemini
+  (`RECITATION`), and a Sonnet chunk costs ≈ 5× a Gemini chunk (fallback files averaged
+  US$0.163). The block rate is 20–25% on the scanned 43rd–45th parliaments and ≈ 2% on the
+  typed 46th–47th; the gold set (1 of 12 PDFs) under-sampled it.
+- Transport fixes found during the run (`docs/v2/extraction.md`): `--ignore-providers`, and no
+  `temperature` for `anthropic/*` (OpenRouter lists `temperature` only on Sonnet's Azure
+  endpoints, so `require_parameters` had pinned every fallback to Azure, which intermittently
+  returned HTTP 400 `no_content_length_header`).
+- AC-2.7–2.10 on the load: documents 768 = valid files; the three hard queries 0; AC-2.8 item-id
+  hash identical across two loads (`f69d40da…`, 42,042 ids); AC-2.9 0 terms without party;
+  AC-2.10 duplicate-MP cases resolve to one `member_id` each (`tests/test_load.py`).

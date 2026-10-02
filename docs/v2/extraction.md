@@ -77,7 +77,8 @@ re-run until clean. `--workers N` extracts N PDFs at once (threads); the summary
   `extraction_notes` records `pages S-E: fallback <model> after primary <model> returned
   finish_reason ERROR (RECITATION)`. A `MAX_TOKENS` on the fallback is not re-split (the PDF
   fails). The blocked call's tokens and cost are still counted. On the gold set 1 of 12 PDFs
-  (1 of 18 chunks) needed it.
+  (1 of 18 chunks) needed it; in the full backfill 108 of 768 files (14%) did, mostly scanned
+  43rd–45th-Parliament PDFs (`eval/bakeoff.md`, "Backfill actuals").
 - **`source_id` / output root:** `gemini-api` and `extractions/gemini-api/` for any Gemini
   model on either transport; `openrouter-<model>` (e.g. `openrouter-gpt-6-luna`,
   `openrouter-claude-sonnet-5.5`) for other vendors, so each bake-off arm has its own tree and
