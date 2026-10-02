@@ -1,6 +1,6 @@
 # Extractor bake-off — gold set (12 PDFs, 790 gold items, 289 pages)
 
-Status: **workflow-claude arm complete; gemini-api arm BLOCKED (API credits depleted); G2 pending.**
+Status: **G2 decided 2026-10-02: workflow-claude** (Gemini arm not run: API credits depleted; Kevin chose to proceed without it).
 Date: 2026-10-02 · Scorer: `python -m disclosures score` (ADR-4; token_set_ratio ≥ 85, section-strict
 matching, micro-averaged). Gold reviewed by Kevin at G1 (2026-10-01).
 
@@ -79,7 +79,8 @@ the weakest file at 0.769.
   ```
   then fill the column above from `eval/gemini-api.json` and the `usage` totals the command prints
   (price basis: $0.75 in / $3.75 out per MTok through 2026-12-31, `DECISIONS.md`).
-- Early-dated items check (AC-2.7, informational): to be listed after the backfill load.
+- Early-dated items check (AC-2.7, informational): 2 on the 23 workflow-claude files loaded so far
+  (both gashj_43p, section 11, lodged 2009-04-29, medium confidence). Re-list after the full backfill.
 
 ## Decision (ADR-5 rule)
 
@@ -95,4 +96,4 @@ choose `gemini-api` (unattended, reproducible, cheap re-runs).
 - If Kevin prefers not to top up Gemini credits, workflow-claude is a valid choice on its own
   (it clears the bar with margin); record that as the G2 decision in `DECISIONS.md`.
 
-**Chosen arm: _pending G2_.** Kevin confirms in `plans/2026-10-01-disclosures-v2/DECISIONS.md` (G2).
+**Chosen arm: workflow-claude** (G2, Kevin, 2026-10-02; recorded in `plans/2026-10-01-disclosures-v2/DECISIONS.md`). Rule applied: the only arm scored clears the ADR-4 bar; Kevin declined to run the Gemini arm for now.

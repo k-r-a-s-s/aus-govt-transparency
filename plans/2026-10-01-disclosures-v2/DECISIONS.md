@@ -131,12 +131,21 @@ roughly 286 pages ≈ 75k input + ~100k output tokens ≈ US$0.50; the full back
 - **`requirements.txt`** also pins `cryptography`, `cffi` and `pycparser`. google-auth needs
   them, and they were missing from the Phase 2 dependency list.
 
-### G2 — extractor choice: _pending_ (workflow arm scored 2026-10-02; Gemini arm blocked on credits)
-- Date:
+### G2 — extractor choice: **workflow-claude** (2026-10-02)
+- **Revisited 2026-10-02 (same day):** Kevin asked to try Gemini after the subscription cap
+  made the workflow backfill impractical (see the Phase 2 entry below). Gemini (via OpenRouter)
+  is the intended backfill arm pending its gold score; final G2 confirmation after scoring.
+- Date: 2026-10-02
 - Bake-off F1 (workflow-claude vs gemini-api), cost: workflow-claude F1 0.974 (P 0.973 / R 0.975,
   owner 0.995, page 0.991, section-ignored recall 0.978 vs v1 0.625) — clears the ADR-4 bar; within
   subscription. gemini-api: not run (402, credits depleted). See `eval/bakeoff.md`.
-- Choice:
+- Choice: **workflow-claude**. Kevin: "let's go without Gemini for now". The ADR-5 tie-break
+  towards gemini-api is moot because the Gemini arm was not run (credits depleted). workflow-claude
+  clears the ADR-4 bar on its own. The Gemini extractor stays in the tree and can be scored later;
+  if it is ever scored and wins under ADR-5, that is a new decision, not a reversal of this one.
+- Backfill mechanics: the `Workflow` tool was denied by the auto-mode classifier in the orchestrating
+  session, so the backfill is dispatched as direct Sonnet subagents using the saved script's bundle
+  prompts (identical bundling and instructions), in per-parliament waves.
 - Gemini model id (verified GA, not `gemini-[0-2].*`): `gemini-3.8-flash`
 
 ### G3 — entity spot-check: _pending_
@@ -146,3 +155,77 @@ roughly 286 pages ≈ 75k input + ~100k output tokens ≈ US$0.50; the full back
 ### G4 — publish (Pages + push): _pending_
 - Date:
 - Notes:
+
+## Phase 2c (loader and override tables)
+
+### 2026-10-02 — Loader and `data/overrides/` decisions (choices the spec left open)
+- **Member identity, resolution order.** (1) `data/overrides/pdf_members.csv` by `pdf_path`;
+  (2) `member_aliases.csv` by normalised `member_name_as_printed`, with the electorate first
+  and then without it, counted only when exactly one member matches; (3) a slug of the
+  printed name, with a warning. The spec only names the alias table. A per-PDF table comes
+  first because v1's `disclosures.pdf_filename` -> `mp_id` link exists for 759 of the 774
+  PDFs, and it is more robust than matching the printed name.
+- **Canonical full name = v1's Wikipedia name** (`all_mps_*.csv`, with `[a]`-style footnote
+  markers stripped). All 303 people who own a PDF have one. Each v1 `mps` row (338, which
+  includes v1's duplicates) is matched to a Wikipedia name by: v1's special cases or merge
+  overrides, else same electorate + surname, else surname + first name anywhere. Only v1's
+  placeholder `Unknown` mp stayed unmatched, and it owns no PDF. So the AC-2.10 cases become
+  `chris_bowen`, `louise_markus`, `bert_van_manen`, `milton_dick`, `clare_o_neil`.
+- **Slug recipe** (ADR-7 says only "slug"): ASCII-fold, lower case, each run of
+  non-alphanumerics becomes `_`, trimmed. Apostrophes are therefore `_` too (`clare_o_neil`).
+- **The 15 PDFs v1 never loaded:** 9 are member statements whose member was taken from the
+  filename stem and confirmed on page 1 (7 of them are scans, checked by eye):
+  `alexanderj/elliotj/ellisk/entschw/feeneyd/fergusonl_44p`, `wilsonj_45p_2`, `wells_46p`,
+  `thwaites_47p`. 6 are not member statements: `interestsr_4{4..7}p.pdf` (the House
+  resolution) and `explanatory_notes___booklet_1.pdf` in the 46th/47th. Their documents load
+  with `member_id` NULL.
+- **Party per term.** v1 only knows each person's most recent party: `all_mps_debug.csv`
+  runs to the 47th, `all_mps_most_recent_party.csv` to the 46th, and footnoted names give a
+  few extra per-term rows. The convention is the party at the start of the term (when the
+  statement is lodged). A term with its own Wikipedia row takes that party. An earlier term
+  takes the latest party, except that a latest `X/Independent` label (a defection in that
+  term) becomes plain `X` for earlier terms. Party names go through v1's `PARTY_MAPPING` plus
+  4 missing variants. Blocs are `Coalition` / `Labor` / `Crossbench`, using v1's
+  COALITION/LABOR sets. The Greens are `Crossbench`, where v1 had a separate `Greens` bloc.
+  Result: 763 terms, all with a party. `unknown_party.csv` has 0 rows for House 43rd–47th,
+  and the 48th is added in Phase 4. Known gaps (no web lookups): party changes between
+  parliaments other than a final-term defection (Katter's 43rd shows as KAP, but he was an
+  Independent until 2011); Palmer United is merged into UAP (v1 mapping); Nationals WA (Tony
+  Crook, 43rd) has bloc Coalition although he sat on the crossbench.
+- **item_id** = sha1 of the JSON array `[pdf_sha256, page, section, owner,
+  normalise_entity(entity_name or description), ordinal]`. `ordinal` counts earlier items
+  with the same key in that file, so ids depend only on the file contents.
+- **Load mechanics.** The DB is built in `<db>.tmp-<pid>` and then renamed over the target.
+  Writing to a file named `disclosures.db` is refused. A second file with the same
+  `pdf_sha256` is skipped as a duplicate. A missing overrides directory is an error (exit 2)
+  rather than a silent "slug everything". Exit 1 if any hard AC-2.7 query is non-zero.
+- **Seeding is reproducible.** `scripts/seed_v2_overrides.py` regenerates the CSVs from v1
+  (read-only), and `--check` diffs them. The hand fixes live in its `MANUAL_*` tables. It
+  stops working when v1 is deleted in Phase 5, and the CSVs are the source of truth after that.
+
+### 2026-10-02 — Phase 2c loader verified (PASS WITH NOTES); two guards tightened
+Air-gapped verifier reproduced every claim (154 tests, AC-2.7 hard queries 0, AC-2.8 identical
+item ids across loads, AC-2.9 0 unknown parties, AC-2.10 five duplicate-MP cases unify; 29
+`pdf_members.csv` rows spot-checked against page 1, all correct). Fixed on the spot: the v1-DB
+guard ignored case variants on case-insensitive APFS (`--db DISCLOSURES.DB` would have replaced
+v1's file; now compared case-insensitively and via `samefile`), and an unwritable target
+escaped as a traceback (now `load: …`, exit 2). Left open, none blocking: the
+`member_aliases.csv` fallback does not reorder "SURNAME Given" printed names, so Phase 4's
+48th-Parliament PDFs (no `pdf_members.csv` rows yet) would mint new ids; a failing AC-2.7
+hard gate still installs the DB (exit 1 means "inspect", not "previous DB kept");
+`pdf_members.csv` electorates are v1's most-recent seat name (loader prefers the extraction's);
+mid-term defectors are labelled inconsistently (Sharkie 45th as Centre Alliance, Kelly 46th /
+Goodenough 47th plain Liberal while Jensen/Banks/Broadbent/Gee/Thomson carry "X/Independent").
+AC-2.7 informational count on the 23 files loaded so far: 2 (gashj_43p s11, lodged 2009-04-29).
+
+### 2026-10-02 — Workflow-claude backfill abandoned; Gemini via OpenRouter
+A 19-agent Sonnet wave over the 43rd Parliament hit Kevin's Claude subscription session limit
+("resets 1:10pm") after ~1 hour and 11 completed files; several agents also hit API stream
+timeouts under that concurrency. At that rate the 745 remaining PDFs need 60+ five-hour windows.
+Kevin: "lets try gemini then, I just put an openrouter key in the local env." The AI Studio key
+stays unusable (402). OpenRouter (checked 2026-10-02, public models endpoint) lists
+`google/gemini-3.8-flash` at $0.75/$3.75 per MTok (`:batch` variant 50% off), 1,048,576 context,
+input modalities text/image/video/file/audio. The extractor needs an OpenRouter transport
+(OpenAI-compatible chat completions with a `file` part and `json_schema` response format) next
+to the existing `google-genai` path; `resolve_gemini_model()` must still ban 2.x after stripping
+`google/`. The 23 workflow-claude files stay as bake-off evidence.

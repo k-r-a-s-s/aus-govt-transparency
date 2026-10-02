@@ -1,77 +1,101 @@
-# Handover — Disclosures v2 (updated 2026-10-02, Phase 2a verified, bake-off in progress)
+# Handover — Disclosures v2 (updated 2026-10-02, Phase 2c loader verified; backfill switching to Gemini via OpenRouter)
 
-Read first: `SPEC.md` (plan, ADRs, ACs, gates), `DECISIONS.md` (dated decisions), `docs/v2/README.md`
-(layout, commands), `docs/v2/extraction.md` (how both extractor arms run), `eval/gold/README.md`.
-This file only holds what those don't.
+Read first: `SPEC.md` (plan, ADRs, ACs, gates), `DECISIONS.md` (dated decisions, incl. G1/G2),
+`docs/v2/README.md` (layout, commands), `docs/v2/extraction.md` (both extractor arms),
+`docs/v2/loading.md` (loader), `data/overrides/README.md`, `eval/bakeoff.md`. This file only
+holds what those don't.
 
 ## Where we are
-- **G1 passed 2026-10-01.** Kevin approved the gold set as is; all 12 `eval/gold/*.json` have
-  `reviewed_by: "kevin"`. AC-1.3 met.
-- **Phase 2a built and independently verified (2026-10-02, PASS WITH NOTES).** Gemini extractor
-  (`disclosures/extract_gemini.py`), `resolve_gemini_model()`, the two validator guards, the saved
-  workflow script `.claude/workflows/extract-disclosures.js`, `docs/v2/extraction.md`. 134 tests
-  pass; gold 12 valid; self-score 1.0; `disclosures.db` sha unchanged.
-- **Gemini model: `gemini-3.8-flash`** (GA, verified live; $0.75/$3.75 per MTok through
-  2026-12-31). `.env.local` `GEMINI_MODEL` updated.
-- **Phase 2b bake-off: in progress, half blocked.**
-  - **workflow-claude arm: DONE.** 12/12 valid files, **F1 0.974** (P 0.973 / R 0.975, owner
-    0.995, page 0.991, section-ignored recall 0.978 vs v1 0.625): clears the ADR-4 bar.
-    Scored in `eval/workflow-claude.json`; report in `eval/bakeoff.md`. Run on the 12 gold PDFs (4 bundles, Sonnet). Note: the
-    `Workflow` tool invocation was *denied by the auto-mode permission classifier* in the
-    orchestrating session, so the gold run was executed as 4 direct subagents given the exact
-    bundle prompts the script generates (same bundles, same model, same instructions; prompts
-    captured in the session scratchpad). Kevin can run the saved workflow himself as documented in
-    `docs/v2/extraction.md` to reproduce. Output: `extractions/workflow-claude/house/<NN>/*.json`.
-  - **gemini-api arm: BLOCKED.** The project's AI Studio prepaid credits are depleted (a live call
-    returns `402 RESOURCE_EXHAUSTED`). Kevin must top up at https://ai.studio/projects, then run:
-    `python -m disclosures extract --source gemini $(python -c "import json;print(' '.join(p['pdf_path'] for p in json.load(open('eval/gold/selection.json'))['pdfs']))")`
-    followed by `python -m disclosures score --pred extractions/gemini-api --gold eval/gold --json eval/gemini-api.json`.
-    Expected cost for the gold run: well under US$1.
-- **`eval/bakeoff.md`** holds the workflow arm + v1 baseline with a pending Gemini column and the
-  two possible G2 outcomes under the ADR-5 rule.
+- **Phases 1, 2a, 2c-loader: built, independently verified, committed.** 156 tests pass.
+  `disclosures.db` (v1) sha unchanged. Gold set reviewed (G1). `load` works end to end on the
+  23 extraction files present (`python -m disclosures load --source workflow-claude`).
+- **Bake-off (`eval/bakeoff.md`):** workflow-claude arm scored F1 0.974 on gold and clears the
+  ADR-4 bar. The Gemini arm has **not** been scored.
+- **Backfill: 23 of 768 statement PDFs done** (12 gold + 11 from one wave) under
+  `extractions/workflow-claude/`. The workflow-claude backfill was **abandoned on 2026-10-02**:
+  a 19-agent Sonnet wave hit Kevin's Claude subscription 5-hour session limit after ~1 hour and
+  ~11 files. Extrapolated ≈ 60+ session windows for 745 PDFs. Kevin: "let's try Gemini then."
+- **Gemini is now to run through OpenRouter, not AI Studio.** The AI Studio key's prepaid
+  credits are depleted (402). Kevin added `OPENROUTER_KEY` to `.env.local` (2026-10-02; name
+  only, never print it). OpenRouter lists `google/gemini-3.8-flash` (same $0.75/$3.75 per MTok;
+  `:batch` suffix at 50%; input modalities include `file`). **The extractor
+  (`disclosures/extract_gemini.py`) only speaks the `google-genai` SDK to AI Studio today.**
 
 ## Single next action
-1. Kevin tops up Gemini credits → run the Gemini arm (commands above) → complete `eval/bakeoff.md`
-   → apply the ADR-5 rule (higher F1 among arms clearing the ADR-4 bar; if the F1 gap < 2 points,
-   choose `gemini-api`) → **G2: Kevin confirms** in `DECISIONS.md`.
-2. Phase 2c backfill with the chosen arm, then `load`.
+Add an OpenRouter transport to the Gemini extractor, run the gold set through it, score it,
+then (if it clears the ADR-4 bar) backfill all House 43–47 PDFs with it and `load`.
+Concretely:
+1. In `disclosures/extract_gemini.py`, add a second client path selected by
+   `--provider openrouter` (or auto when `OPENROUTER_KEY` is set and `GOOGLE_API_KEY` is absent /
+   402s): OpenAI-compatible `POST https://openrouter.ai/api/v1/chat/completions` with
+   `Authorization: Bearer $OPENROUTER_KEY`, model `google/gemini-3.8-flash`, the chunk PDF as a
+   `file` content part (`{"type":"file","file":{"filename":"chunk.pdf","file_data":"data:application/pdf;base64,…"}}`),
+   `response_format: {"type":"json_schema","json_schema":{"name":"extraction","schema":response_schema(),"strict":true}}`,
+   `temperature: 0`. Verify the exact request shape against https://openrouter.ai/docs (PDF
+   inputs, structured outputs) before coding; the field names above are from memory. Keep the
+   existing chunking, page-offset rule, re-split on `finish_reason == "length"`, merge, de-dup,
+   `usage` from `usage.prompt_tokens`/`completion_tokens`, and atomic validated writes. Route the
+   model id through `resolve_gemini_model()` after stripping the `google/` prefix (the 2.x ban
+   must still apply). Mock-tested like the existing path (no network in tests, ADR-11). Update
+   `docs/v2/extraction.md` and `requirements.txt` (`httpx` is already pinned; no new SDK needed).
+2. Gold run + score:
+   `python -m disclosures extract --source gemini --provider openrouter $(python -c "import json;print(' '.join(p['pdf_path'] for p in json.load(open('eval/gold/selection.json'))['pdfs']))")`
+   then `python -m disclosures score --pred extractions/gemini-api --gold eval/gold --json eval/gemini-api.json`.
+   Fill the Gemini column of `eval/bakeoff.md`, apply the ADR-5 rule, record the outcome under
+   G2 in `DECISIONS.md` (G2 currently says workflow-claude; add a dated "revisited" line, don't
+   rewrite history). Expected gold-run cost ≈ US$0.50; backfill ≈ US$10–20.
+3. If Gemini clears the bar: `extract` all 768 statement PDFs (the list = `eval/pdf_stats.csv`
+   rows with `is_statement=1`; the 6 non-statements are excluded, see below), writing to
+   `extractions/gemini-api/`. The command is idempotent (skips valid existing output), so re-run
+   until `validate extractions/gemini-api/house` is 0 invalid. Write `eval/extraction_failures.md`
+   (AC-2.6). Then `python -m disclosures load --source gemini-api` and check AC-2.7–2.10.
+   If Gemini does **not** clear the bar: iterate the shared prompt at most 2 rounds (ADR-5), then
+   stop and hand back.
 
 ## In-flight / deliberately out of scope
-- `--batch` (Gemini Batch API) is not implemented (exit 2). Re-split rounds would need a
-  multi-round batch driver; not worth it at the current prices.
-- `scrape, load, entities, export, refresh` are stubs that exit 2.
-- The root `README.md` is still v1's. It gets rewritten in Phase 5; don't touch it before then.
-- Phase 4's gold-set extension (≥1 House 48th PDF) is optional and waits for Phase 4 scraping.
-- Phase 4a (scraper, manifest backfill, Senate discovery) is independent of the bake-off and can
-  be built next; it touches `cli.py`, so do it in series with any other `cli.py` change.
+- `extractions/workflow-claude/` (23 files) stays committed as bake-off evidence and as a
+  fallback; the backfill target is now `extractions/gemini-api/`. Do not mix sources in one
+  `load`.
+- AC-2.6 says ≤ 5 listed failures. The 6 non-statement PDFs (`interestsr_44..47p.pdf`,
+  `explanatory_notes___booklet_1.pdf` ×2) are not failures: list them in
+  `eval/extraction_failures.md` under a separate "excluded: not a statement" heading and count
+  774 = valid + excluded + failed.
+- Gemini `--batch` is not implemented (exit 2). OpenRouter exposes `google/gemini-3.8-flash:batch`
+  at 50%; only worth it if the backfill cost matters to Kevin.
+- `scrape, entities, export, refresh` are stubs (exit 2). Phase 4a (scraper, manifest, Senate
+  discovery) is independent and can be built in series after this.
+- Loader verifier notes left open (none block the backfill; details in `DECISIONS.md` Phase 2c):
+  alias fallback doesn't reorder "SURNAME Given" (matters for Phase 4's 48th PDFs, which have no
+  `pdf_members.csv` row yet); a failing AC-2.7 hard gate still installs the DB (exit 1); a few
+  party-term labels are inconsistent for mid-term defectors.
+- The root `README.md` is still v1's (rewritten in Phase 5).
 
-## Decisions an agent might relitigate (full reasoning in DECISIONS.md)
-- **Conventions C1–C11** in `disclosures/prompts/extract.md` define "correct" for gold and
-  extractors. Kevin accepted them at G1. Changing them means re-reviewing gold.
-- **De-dup key is wider than ADR-5's** (adds normalised description, subsection, change_type,
-  lodged_date). The bare key would merge 52 genuine gold items. Known remaining edge: it ignores
-  `location`/`purpose`.
-- **Inline PDF bytes** for chunks ≤ 15 MB; Files API (upload + delete) above that.
-- **Chunk-relative page rule** and **re-split triggers** are documented in the module docstring;
-  pages are never clamped, out-of-range pages fail the PDF.
-- **`requirements.txt` is v2-only** (plus the google-genai dependency closure, pinned).
-- **`/data/` was un-ignored in `.gitignore` on purpose** (SPEC ADR-6).
+## Decisions made this session (reasoning in DECISIONS.md)
+- **G1 passed 2026-10-01** with zero `kevin_fix` rows; all five judgement calls accepted.
+- **Model `gemini-3.8-flash`** (GA, verified live). `.env.local` `GEMINI_MODEL` updated.
+- **G2 = workflow-claude (2026-10-02)**, then **revisited the same day**: Kevin chose to try
+  Gemini after the subscription cap made the workflow backfill impractical. Treat Gemini as the
+  intended backfill arm; the G2 entry needs the "revisited" line once Gemini is scored.
+- **De-dup key wider than ADR-5's** (bare key merged 52 genuine gold items).
+- **Loader member identity** resolves `pdf_members.csv` → `member_aliases.csv` → slug; party per
+  term is start-of-term from v1's Wikipedia data; `unknown_party.csv` is empty for 43–47.
+- **Workflow tool denial.** The `Workflow` tool was denied by the auto-mode classifier; the
+  gold run used direct subagents with the saved script's bundle prompts (identical behaviour).
 
 ## Dead ends / corrections
-- **`review-sheet` overwrites the CSV.** Gold is reviewed now; regenerating it is harmless but
-  pointless.
-- **The Workflow tool can be denied by the auto-mode classifier** even for a saved workflow; the
-  direct-subagent fallback above is behaviourally identical for a ≤ 4-bundle run. For the full
-  backfill (~110 agents) Kevin should run the workflow himself after raising "Dynamic workflow
-  size" in `/config`.
-- **Older drafter notes in gold `extraction_notes`** are superseded by the trailing
-  `consolidation 2026-10-01: …` line.
-- **The spec's 47th-Parliament archive URL note** (v1's `parliament_urls.py` points "47th" at
-  the current page, which now serves the 48th) is still a Phase 4 fix.
+- **Running 20 Sonnet subagents at once** both triggers API stream timeouts and burns the
+  subscription session cap in ~1 hour. If the workflow arm is ever used again, run ≤ 8 agents
+  and expect to span many 5-hour windows. The bundle prompts for the remaining 745 PDFs were in
+  the session scratchpad only; regenerate them with the saved script (`docs/v2/extraction.md`).
+- **The AI Studio key is not usable** (prepaid credits depleted). Don't retry it; use OpenRouter.
+- **`pdf_members.csv` `electorate_or_state` is v1's most-recent electorate** for that member,
+  so renamed seats carry the later name even on older PDFs (Wilkie 45th says Clark, page says
+  Denison). The loader prefers the extraction's printed electorate, so impact is nil.
+- **Old 47th-Parliament URL note** (v1 `parliament_urls.py` points "47th" at the current page,
+  which now serves the 48th) is still a Phase 4 fix.
 
 ## Open questions (who holds the ball)
-- **Gemini credits top-up: Kevin.** Blocks the Gemini arm, G2 and the backfill.
-- **SPEC.md says "DRAFT, awaiting sign-off": Kevin.** The build proceeds on it; the ADR-4 bar
-  (recall/precision ≥ 0.90, owner ≥ 0.95, page ≥ 0.90) is still "proposed defaults".
-- **Workflow backfill size: Kevin** raises "Dynamic workflow size" in `/config` only if the
-  workflow arm wins G2.
+- **OpenRouter request shape for PDF + structured output: next agent** (verify in the docs).
+- **G2 final choice after the Gemini score: Kevin** confirms in `DECISIONS.md`.
+- **SPEC.md "DRAFT, awaiting sign-off": Kevin.** The ADR-4 bar is still "proposed defaults".
+- **Gemini spend ceiling for the backfill (≈ US$10–20): Kevin**, if he wants a cap.

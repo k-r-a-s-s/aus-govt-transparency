@@ -1,0 +1,44 @@
+{
+  "schema_version": "2.0",
+  "source_id": "workflow-claude",
+  "model": "claude-code-sonnet",
+  "extracted_at": "2026-10-02T00:00:00+00:00",
+  "pdf_path": "pdfs/43/collinsj_43p.pdf",
+  "pdf_sha256": "5762acab87734c4209127a69a07426ccbb485777fac747cc9e7f6e8079ec62d0",
+  "page_count": 8,
+  "pages_covered": [1, 2, 3, 4, 5, 6, 7, 8],
+  "chamber": "house",
+  "parliament": 43,
+  "member_name_as_printed": "Julie Maree Collins",
+  "electorate_or_state": "Franklin",
+  "statement_date": "2010-10-18",
+  "usage": null,
+  "extraction_notes": "Page 7 is the alterations-since-dissolution page bound into the initial statement (C5); ADDITION and DELETION boxes are both blank (no items), its signature date 18.10.10 used as statement_date. Page 8 is a separate alteration notice (signed 16.11.10, stamped received 17 Nov 2010) whose Item column uses numbers 1 and 3 that correspond to the printed section numbers (1=shareholdings, 3=real estate) per C3, confidence medium. Diagonal strike-through lines across several blank tables (sections 2(ii), 4, 5, 8) treated as Nil - no items.",
+  "items": [
+    {"section": 1, "subsection": null, "owner": "self", "entity_name": "Myer Limited", "description": "Myer Limited", "location": null, "purpose": null, "is_alteration": false, "change_type": "initial", "lodged_date": "2010-10-18", "date_precision": "day", "page": 2, "confidence": "high"},
+    {"section": 1, "subsection": null, "owner": "spouse", "entity_name": "Commonwealth Bank", "description": "Commonwealth Bank", "location": null, "purpose": null, "is_alteration": false, "change_type": "initial", "lodged_date": "2010-10-18", "date_precision": "day", "page": 2, "confidence": "high"},
+
+    {"section": 2, "subsection": "2(i)", "owner": "dependent_child", "entity_name": "Georgina Moody Trust", "description": "Georgina Moody Trust - purchase property for child to reside; beneficial interest: Georgina Moody", "location": null, "purpose": null, "is_alteration": false, "change_type": "initial", "lodged_date": "2010-10-18", "date_precision": "day", "page": 2, "confidence": "high"},
+
+    {"section": 3, "subsection": null, "owner": "self", "entity_name": null, "description": "Residence (90/157 share) (preparing for sale)", "location": "South Hobart", "purpose": "Residence (90/157 share) (preparing for sale)", "is_alteration": false, "change_type": "initial", "lodged_date": "2010-10-18", "date_precision": "day", "page": 3, "confidence": "high"},
+    {"section": 3, "subsection": null, "owner": "self", "entity_name": null, "description": "Residence", "location": "Rose Bay, Tas", "purpose": "Residence", "is_alteration": false, "change_type": "initial", "lodged_date": "2010-10-18", "date_precision": "day", "page": 3, "confidence": "high"},
+    {"section": 3, "subsection": null, "owner": "spouse", "entity_name": null, "description": "Residence", "location": "Rose Bay, Tas", "purpose": "Residence", "is_alteration": false, "change_type": "initial", "lodged_date": "2010-10-18", "date_precision": "day", "page": 3, "confidence": "high"},
+    {"section": 3, "subsection": null, "owner": "spouse", "entity_name": null, "description": "Investment", "location": "Toowoomba, Qld", "purpose": "Investment", "is_alteration": false, "change_type": "initial", "lodged_date": "2010-10-18", "date_precision": "day", "page": 3, "confidence": "high"},
+
+    {"section": 6, "subsection": null, "owner": "self", "entity_name": "Westpac Banking Corp.", "description": "Mortgage", "location": null, "purpose": null, "is_alteration": false, "change_type": "initial", "lodged_date": "2010-10-18", "date_precision": "day", "page": 4, "confidence": "high"},
+    {"section": 6, "subsection": null, "owner": "spouse", "entity_name": "Westpac Banking Corp.", "description": "Mortgage", "location": null, "purpose": null, "is_alteration": false, "change_type": "initial", "lodged_date": "2010-10-18", "date_precision": "day", "page": 4, "confidence": "high"},
+
+    {"section": 7, "subsection": null, "owner": "self", "entity_name": "AMP", "description": "Managed Fund", "location": null, "purpose": null, "is_alteration": false, "change_type": "initial", "lodged_date": "2010-10-18", "date_precision": "day", "page": 4, "confidence": "high"},
+
+    {"section": 9, "subsection": null, "owner": "self", "entity_name": "AMP", "description": "Superannuation", "location": null, "purpose": null, "is_alteration": false, "change_type": "initial", "lodged_date": "2010-10-18", "date_precision": "day", "page": 5, "confidence": "high"},
+    {"section": 9, "subsection": null, "owner": "self", "entity_name": "RBF Tas.", "description": "Superannuation", "location": null, "purpose": null, "is_alteration": false, "change_type": "initial", "lodged_date": "2010-10-18", "date_precision": "day", "page": 5, "confidence": "high"},
+    {"section": 9, "subsection": null, "owner": "spouse", "entity_name": "RBF Tas.", "description": "Superannuation", "location": null, "purpose": null, "is_alteration": false, "change_type": "initial", "lodged_date": "2010-10-18", "date_precision": "day", "page": 5, "confidence": "high"},
+
+    {"section": 10, "subsection": null, "owner": "spouse", "entity_name": "Transend Networks", "description": "Employment with Transend Networks", "location": null, "purpose": null, "is_alteration": false, "change_type": "initial", "lodged_date": "2010-10-18", "date_precision": "day", "page": 5, "confidence": "high"},
+    {"section": 10, "subsection": null, "owner": "spouse", "entity_name": null, "description": "Income from rental property.", "location": null, "purpose": null, "is_alteration": false, "change_type": "initial", "lodged_date": "2010-10-18", "date_precision": "day", "page": 5, "confidence": "high"},
+
+    {"section": 1, "subsection": null, "owner": "spouse", "entity_name": "Myer Limited", "description": "Myer Limited", "location": null, "purpose": null, "is_alteration": true, "change_type": "added", "lodged_date": "2010-11-16", "date_precision": "day", "page": 8, "confidence": "medium"},
+    {"section": 1, "subsection": null, "owner": "self", "entity_name": "Myer Limited", "description": "Myer Limited", "location": null, "purpose": null, "is_alteration": true, "change_type": "removed", "lodged_date": "2010-11-16", "date_precision": "day", "page": 8, "confidence": "medium"},
+    {"section": 3, "subsection": null, "owner": "self", "entity_name": null, "description": "South Hobart property sold.", "location": "South Hobart", "purpose": null, "is_alteration": true, "change_type": "removed", "lodged_date": "2010-11-16", "date_precision": "day", "page": 8, "confidence": "medium"}
+  ]
+}

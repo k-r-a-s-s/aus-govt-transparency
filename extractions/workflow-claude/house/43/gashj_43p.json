@@ -1,0 +1,152 @@
+{
+  "schema_version": "2.0",
+  "source_id": "workflow-claude",
+  "model": "claude-code-sonnet",
+  "extracted_at": "2026-10-02T00:00:00+00:00",
+  "pdf_path": "pdfs/43/gashj_43p.pdf",
+  "pdf_sha256": "e7e8f484fa1033a50e224c4dad085be4c661b32b03f548b0141b0773e7e55e1c",
+  "page_count": 11,
+  "pages_covered": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+  "chamber": "house",
+  "parliament": 43,
+  "member_name_as_printed": "Joanna Gash",
+  "electorate_or_state": "Gilmore",
+  "statement_date": "2010-09-30",
+  "usage": null,
+  "items": [
+    {
+      "section": 1, "subsection": null, "owner": "self", "entity_name": "Telstra",
+      "description": "Telstra", "location": null, "purpose": null,
+      "is_alteration": false, "change_type": "initial", "lodged_date": "2010-09-30",
+      "date_precision": "day", "page": 2, "confidence": "high"
+    },
+    {
+      "section": 1, "subsection": null, "owner": "self", "entity_name": "Commonwealth Bank",
+      "description": "Commonwealth Bank", "location": null, "purpose": null,
+      "is_alteration": false, "change_type": "initial", "lodged_date": "2010-09-30",
+      "date_precision": "day", "page": 2, "confidence": "high"
+    },
+    {
+      "section": 3, "subsection": null, "owner": "self", "entity_name": null,
+      "description": "Nowra - Own Residence", "location": "Nowra", "purpose": "Own Residence",
+      "is_alteration": false, "change_type": "initial", "lodged_date": "2010-09-30",
+      "date_precision": "day", "page": 3, "confidence": "high"
+    },
+    {
+      "section": 3, "subsection": null, "owner": "self", "entity_name": null,
+      "description": "Queanbeyan - Rental", "location": "Queanbeyan", "purpose": "Rental",
+      "is_alteration": false, "change_type": "initial", "lodged_date": "2010-09-30",
+      "date_precision": "day", "page": 3, "confidence": "high"
+    },
+    {
+      "section": 3, "subsection": null, "owner": "self", "entity_name": null,
+      "description": "Nowra (co-owner) - Holiday Rental", "location": "Nowra - Co-owner", "purpose": "Holiday Rental",
+      "is_alteration": false, "change_type": "initial", "lodged_date": "2010-09-30",
+      "date_precision": "day", "page": 3, "confidence": "medium"
+    },
+    {
+      "section": 3, "subsection": null, "owner": "spouse", "entity_name": null,
+      "description": "Ballina (co-owner) - Daughter's home", "location": "Ballina", "purpose": "Co-owner - Daughter's Home",
+      "is_alteration": false, "change_type": "initial", "lodged_date": "2010-09-30",
+      "date_precision": "day", "page": 3, "confidence": "medium"
+    },
+    {
+      "section": 6, "subsection": null, "owner": "self", "entity_name": "Commonwealth Bank",
+      "description": "Mortgage - Queanbeyan property", "location": null, "purpose": null,
+      "is_alteration": false, "change_type": "initial", "lodged_date": "2010-09-30",
+      "date_precision": "day", "page": 4, "confidence": "medium"
+    },
+    {
+      "section": 6, "subsection": null, "owner": "self", "entity_name": "Commonwealth Bank",
+      "description": "Mortgage - Ballina property", "location": null, "purpose": null,
+      "is_alteration": false, "change_type": "initial", "lodged_date": "2010-09-30",
+      "date_precision": "day", "page": 4, "confidence": "medium"
+    },
+    {
+      "section": 6, "subsection": null, "owner": "self", "entity_name": "Commonwealth Bank",
+      "description": "Mortgage - Nowra property", "location": null, "purpose": null,
+      "is_alteration": false, "change_type": "initial", "lodged_date": "2010-09-30",
+      "date_precision": "day", "page": 4, "confidence": "medium"
+    },
+    {
+      "section": 8, "subsection": null, "owner": "self", "entity_name": "Commonwealth Bank of Australia (CBA)",
+      "description": "Investment account - C.B.A.", "location": null, "purpose": null,
+      "is_alteration": false, "change_type": "initial", "lodged_date": "2010-09-30",
+      "date_precision": "day", "page": 4, "confidence": "high"
+    },
+    {
+      "section": 11, "subsection": null, "owner": "self", "entity_name": "Australian Paper",
+      "description": "Sample stationery set to celebrate the launch of Australian Paper's 'Green - Carbon Neutral' range, valued at $120",
+      "location": null, "purpose": null,
+      "is_alteration": true, "change_type": "added", "lodged_date": "2009-04-29",
+      "date_precision": "day", "page": 8, "confidence": "medium"
+    },
+    {
+      "section": 11, "subsection": null, "owner": "self", "entity_name": "Shoalnet",
+      "description": "Shoalnet donated 12 months of internet connection (from 1 January 2009) at $30 per month, total value $360",
+      "location": null, "purpose": null,
+      "is_alteration": true, "change_type": "added", "lodged_date": "2009-04-29",
+      "date_precision": "day", "page": 8, "confidence": "medium"
+    },
+    {
+      "section": 3, "subsection": null, "owner": "self", "entity_name": null,
+      "description": "Real estate - Nowra (co-owner)", "location": "Nowra", "purpose": "Co-owner",
+      "is_alteration": true, "change_type": "added", "lodged_date": "2011-06-16",
+      "date_precision": "day", "page": 9, "confidence": "medium"
+    },
+    {
+      "section": 8, "subsection": null, "owner": "self", "entity_name": "Commonwealth Bank of Australia (CBA)",
+      "description": "Investment account - C.B.A. (removed)", "location": null, "purpose": null,
+      "is_alteration": true, "change_type": "removed", "lodged_date": "2011-06-16",
+      "date_precision": "day", "page": 9, "confidence": "medium"
+    },
+    {
+      "section": 1, "subsection": null, "owner": "self", "entity_name": "Bendigo Bank (Nowra)",
+      "description": "Shares - Bendigo Bank (Nowra)", "location": null, "purpose": null,
+      "is_alteration": true, "change_type": "added", "lodged_date": "2012-09-11",
+      "date_precision": "day", "page": 10, "confidence": "high"
+    },
+    {
+      "section": 11, "subsection": null, "owner": "self", "entity_name": "Austar",
+      "description": "AUSTAR - 12 months subscription in Nowra office, donated by Austar",
+      "location": null, "purpose": null,
+      "is_alteration": true, "change_type": "added", "lodged_date": "2012-09-11",
+      "date_precision": "day", "page": 10, "confidence": "high"
+    },
+    {
+      "section": 3, "subsection": null, "owner": "spouse", "entity_name": null,
+      "description": "Real estate - Ballina property (daughter's home) (removed)",
+      "location": "Ballina", "purpose": "Daughter's home",
+      "is_alteration": true, "change_type": "removed", "lodged_date": "2012-09-11",
+      "date_precision": "day", "page": 10, "confidence": "high"
+    },
+    {
+      "section": 6, "subsection": null, "owner": "self", "entity_name": "Commonwealth Bank",
+      "description": "Mortgage on Ballina property (removed)", "location": null, "purpose": null,
+      "is_alteration": true, "change_type": "removed", "lodged_date": "2012-09-11",
+      "date_precision": "day", "page": 10, "confidence": "high"
+    },
+    {
+      "section": 9, "subsection": null, "owner": "self", "entity_name": null,
+      "description": "2007 Toyota Tarago - purchased for private and Mayoral use, privately funded.",
+      "location": null, "purpose": null,
+      "is_alteration": true, "change_type": "added", "lodged_date": "2012-10-26",
+      "date_precision": "day", "page": 11, "confidence": "high"
+    },
+    {
+      "section": 10, "subsection": null, "owner": "self", "entity_name": "Shoalhaven City Council",
+      "description": "Mayoral/Councillor allowance from Shoalhaven City Council (all Mayoral allowances received are immediately donated to a community grants account).",
+      "location": null, "purpose": null,
+      "is_alteration": true, "change_type": "added", "lodged_date": "2012-10-26",
+      "date_precision": "day", "page": 11, "confidence": "high"
+    },
+    {
+      "section": 13, "subsection": null, "owner": "self", "entity_name": "Shoalhaven City Council",
+      "description": "Elected Mayor of Shoalhaven City Council; possibility of Council-sponsored travel for Council business only, beginning 8 September 2012.",
+      "location": null, "purpose": null,
+      "is_alteration": true, "change_type": "added", "lodged_date": "2012-10-26",
+      "date_precision": "day", "page": 11, "confidence": "high"
+    }
+  ],
+  "extraction_notes": "Sections 2, 4, 5, 7, 9-14 on pp.2-6 are blank with a diagonal strike-through line drawn across the cell (the form's convention for 'nothing to declare') and produce no items. Page 4 section 6 lists three mortgaged properties (Queanbeyan, Ballina, Nowra) under one creditor cell ('C'wlth Bank'); split one item per property per convention C6, all sharing entity_name Commonwealth Bank. Page 8 is a 2009 letter (signed 29 Apr 2009, Registry stamp 4 May 2009) bound into this file and annotated by hand 'Still current today' with the date 30.9.10, i.e. carried forward as still-current at the time of the 43rd Parliament statement; treated as an alteration notice using its own 2009 date, not the annotation date. Page 9's addition 'Real Estate - Nowra / Co-owner' is not explicitly attributed to self/spouse on the alteration form; owner inferred as self by analogy with the identical initial-statement entry. Several alteration-notice signature boxes (pp.7, 9, 10) appear blank; lodged_date in each case is taken from the adjacent handwritten date field per convention C4."
+}

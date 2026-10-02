@@ -1,0 +1,188 @@
+{
+  "schema_version": "2.0",
+  "source_id": "workflow-claude",
+  "model": "claude-code-sonnet",
+  "extracted_at": "2026-10-02T00:00:00+00:00",
+  "pdf_path": "pdfs/43/livermorek_43p.pdf",
+  "pdf_sha256": "78c6f94e84d72b3066bb903141fa96c45f8771605c9c975b85281160669ca807",
+  "page_count": 10,
+  "pages_covered": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "chamber": "house",
+  "parliament": 43,
+  "member_name_as_printed": "Kirsten Fiona Livermore",
+  "electorate_or_state": "Capricornia",
+  "statement_date": "2010-10-13",
+  "usage": null,
+  "extraction_notes": "Initial statement handwritten, pages 2-6; p.7 'alterations since dissolution or date of election' bound into the initial statement (C5), dated 13/10/10, used as statement_date per C4. Its single hospitality item has no owner row printed, so owner='self' is an inference (medium confidence). Later standalone alteration notices: pp.8-9 dated 23/5/2012 (real estate addition jointly owned by self+spouse per C1; shareholding, bank account and liability changes); p.10 is a covering letter dated 30/1/2013 that itself reports two flight upgrades (not a restatement of a form page, so it is not covered by C2's letter exclusion) assigned to section 12 by meaning (C3). 'Children have 2 bank a/cs with The Rock' (p.9) split into two section-8 items per C6 (multi-account entry).",
+  "items": [
+    {
+      "section": 1, "subsection": null, "owner": "spouse", "entity_name": "M2Telecom",
+      "description": "M2Telecom", "location": null, "purpose": null,
+      "is_alteration": false, "change_type": "initial", "lodged_date": "2010-10-13",
+      "date_precision": "day", "page": 2, "confidence": "high"
+    },
+    {
+      "section": 6, "subsection": null, "owner": "self", "entity_name": "Members Equity",
+      "description": "Mortgage", "location": null, "purpose": null,
+      "is_alteration": false, "change_type": "initial", "lodged_date": "2010-10-13",
+      "date_precision": "day", "page": 4, "confidence": "high"
+    },
+    {
+      "section": 6, "subsection": null, "owner": "self", "entity_name": "Members Equity",
+      "description": "Personal loan", "location": null, "purpose": null,
+      "is_alteration": false, "change_type": "initial", "lodged_date": "2010-10-13",
+      "date_precision": "day", "page": 4, "confidence": "high"
+    },
+    {
+      "section": 6, "subsection": null, "owner": "self", "entity_name": "Members Equity",
+      "description": "Credit card", "location": null, "purpose": null,
+      "is_alteration": false, "change_type": "initial", "lodged_date": "2010-10-13",
+      "date_precision": "day", "page": 4, "confidence": "high"
+    },
+    {
+      "section": 6, "subsection": null, "owner": "spouse", "entity_name": "Members Equity",
+      "description": "Mortgage", "location": null, "purpose": null,
+      "is_alteration": false, "change_type": "initial", "lodged_date": "2010-10-13",
+      "date_precision": "day", "page": 4, "confidence": "high"
+    },
+    {
+      "section": 6, "subsection": null, "owner": "spouse", "entity_name": "Members Equity",
+      "description": "Personal loan", "location": null, "purpose": null,
+      "is_alteration": false, "change_type": "initial", "lodged_date": "2010-10-13",
+      "date_precision": "day", "page": 4, "confidence": "high"
+    },
+    {
+      "section": 6, "subsection": null, "owner": "spouse", "entity_name": "Members Equity",
+      "description": "Credit card", "location": null, "purpose": null,
+      "is_alteration": false, "change_type": "initial", "lodged_date": "2010-10-13",
+      "date_precision": "day", "page": 4, "confidence": "high"
+    },
+    {
+      "section": 8, "subsection": null, "owner": "self", "entity_name": "Members Equity",
+      "description": "Savings a/c", "location": null, "purpose": null,
+      "is_alteration": false, "change_type": "initial", "lodged_date": "2010-10-13",
+      "date_precision": "day", "page": 4, "confidence": "high"
+    },
+    {
+      "section": 8, "subsection": null, "owner": "spouse", "entity_name": "Members Equity",
+      "description": "Savings a/c", "location": null, "purpose": null,
+      "is_alteration": false, "change_type": "initial", "lodged_date": "2010-10-13",
+      "date_precision": "day", "page": 4, "confidence": "high"
+    },
+    {
+      "section": 8, "subsection": null, "owner": "dependent_child", "entity_name": "NAB",
+      "description": "Savings a/c (held in name of Kirsten Livermore as trustee)", "location": null, "purpose": null,
+      "is_alteration": false, "change_type": "initial", "lodged_date": "2010-10-13",
+      "date_precision": "day", "page": 4, "confidence": "high"
+    },
+    {
+      "section": 9, "subsection": null, "owner": "spouse", "entity_name": null,
+      "description": "Boat", "location": null, "purpose": null,
+      "is_alteration": false, "change_type": "initial", "lodged_date": "2010-10-13",
+      "date_precision": "day", "page": 5, "confidence": "high"
+    },
+    {
+      "section": 9, "subsection": null, "owner": "spouse", "entity_name": null,
+      "description": "Vehicle", "location": null, "purpose": null,
+      "is_alteration": false, "change_type": "initial", "lodged_date": "2010-10-13",
+      "date_precision": "day", "page": 5, "confidence": "high"
+    },
+    {
+      "section": 10, "subsection": null, "owner": "spouse", "entity_name": "Central Queensland University",
+      "description": "Employed by Central Queensland University", "location": null, "purpose": null,
+      "is_alteration": false, "change_type": "initial", "lodged_date": "2010-10-13",
+      "date_precision": "day", "page": 5, "confidence": "high"
+    },
+    {
+      "section": 12, "subsection": null, "owner": "self", "entity_name": "Western Heritage motel",
+      "description": "2 nights of accommodation and dinner at Western Heritage motel in Moranbah",
+      "location": null, "purpose": null,
+      "is_alteration": true, "change_type": "added", "lodged_date": "2010-10-13",
+      "date_precision": "day", "page": 7, "confidence": "medium"
+    },
+    {
+      "section": 3, "subsection": null, "owner": "self", "entity_name": null,
+      "description": "House in Rockhampton owned by husband and me (since 1998)",
+      "location": "Rockhampton", "purpose": "Residential",
+      "is_alteration": true, "change_type": "added", "lodged_date": "2012-05-23",
+      "date_precision": "day", "page": 8, "confidence": "medium"
+    },
+    {
+      "section": 3, "subsection": null, "owner": "spouse", "entity_name": null,
+      "description": "House in Rockhampton owned by husband and me (since 1998)",
+      "location": "Rockhampton", "purpose": "Residential",
+      "is_alteration": true, "change_type": "added", "lodged_date": "2012-05-23",
+      "date_precision": "day", "page": 8, "confidence": "medium"
+    },
+    {
+      "section": 3, "subsection": null, "owner": "self", "entity_name": null,
+      "description": "Unit in Griffith owned by husband and me (since 2005)",
+      "location": "Griffith", "purpose": "Investment",
+      "is_alteration": true, "change_type": "added", "lodged_date": "2012-05-23",
+      "date_precision": "day", "page": 8, "confidence": "medium"
+    },
+    {
+      "section": 3, "subsection": null, "owner": "spouse", "entity_name": null,
+      "description": "Unit in Griffith owned by husband and me (since 2005)",
+      "location": "Griffith", "purpose": "Investment",
+      "is_alteration": true, "change_type": "added", "lodged_date": "2012-05-23",
+      "date_precision": "day", "page": 8, "confidence": "medium"
+    },
+    {
+      "section": 1, "subsection": null, "owner": "spouse", "entity_name": "M2Telecom",
+      "description": "Husband has purchased additional M2Telecom shares (May 2012)",
+      "location": null, "purpose": null,
+      "is_alteration": true, "change_type": "added", "lodged_date": "2012-05-23",
+      "date_precision": "day", "page": 9, "confidence": "medium"
+    },
+    {
+      "section": 8, "subsection": null, "owner": "dependent_child", "entity_name": "The Rock",
+      "description": "Children have 2 bank a/cs with The Rock, opened May 2012",
+      "location": null, "purpose": null,
+      "is_alteration": true, "change_type": "added", "lodged_date": "2012-05-23",
+      "date_precision": "day", "page": 9, "confidence": "medium"
+    },
+    {
+      "section": 8, "subsection": null, "owner": "dependent_child", "entity_name": "The Rock",
+      "description": "Children have 2 bank a/cs with The Rock, opened May 2012",
+      "location": null, "purpose": null,
+      "is_alteration": true, "change_type": "added", "lodged_date": "2012-05-23",
+      "date_precision": "day", "page": 9, "confidence": "medium"
+    },
+    {
+      "section": 6, "subsection": null, "owner": "self", "entity_name": "Members Equity",
+      "description": "The personal loan with Members Equity has been paid out for both my husband and me (April 2012)",
+      "location": null, "purpose": null,
+      "is_alteration": true, "change_type": "removed", "lodged_date": "2012-05-23",
+      "date_precision": "day", "page": 9, "confidence": "medium"
+    },
+    {
+      "section": 6, "subsection": null, "owner": "spouse", "entity_name": "Members Equity",
+      "description": "The personal loan with Members Equity has been paid out for both my husband and me (April 2012)",
+      "location": null, "purpose": null,
+      "is_alteration": true, "change_type": "removed", "lodged_date": "2012-05-23",
+      "date_precision": "day", "page": 9, "confidence": "medium"
+    },
+    {
+      "section": 8, "subsection": null, "owner": "dependent_child", "entity_name": "NAB",
+      "description": "Savings a/c for children with NAB has been closed",
+      "location": null, "purpose": null,
+      "is_alteration": true, "change_type": "removed", "lodged_date": "2012-05-23",
+      "date_precision": "day", "page": 9, "confidence": "medium"
+    },
+    {
+      "section": 12, "subsection": null, "owner": "self", "entity_name": "Qantas",
+      "description": "Upgrade from economy to business class on QF957, Brisbane to Canberra, 9 January 2013",
+      "location": null, "purpose": null,
+      "is_alteration": true, "change_type": "added", "lodged_date": "2013-01-30",
+      "date_precision": "day", "page": 10, "confidence": "high"
+    },
+    {
+      "section": 12, "subsection": null, "owner": "self", "entity_name": "Qantas",
+      "description": "Upgrade from economy to business class on QF952, Canberra to Brisbane, 25 January 2013",
+      "location": null, "purpose": null,
+      "is_alteration": true, "change_type": "added", "lodged_date": "2013-01-30",
+      "date_precision": "day", "page": 10, "confidence": "high"
+    }
+  ]
+}
