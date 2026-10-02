@@ -1,0 +1,267 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfGifts": "Beyond Lounge Membership",
+        "id": "74b4d3a1-ca7c-f011-b4cc-7c1e5262c1f2"
+      },
+      {
+        "detailOfGifts": "Chairmans Lounge Membership",
+        "id": "0ea267aa-ca7c-f011-b4cc-7c1e5262c1f2"
+      },
+      {
+        "detailOfGifts": "Foxtel connection in electorate office provided by the Australian Subscription Television and Radio Association",
+        "id": "13a267aa-ca7c-f011-b4cc-7c1e5262c1f2"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "ANZ",
+        "id": "c8843e58-ca7c-f011-b4cc-7c1e5262c1f2",
+        "natureOfLiability": "Residential Mortgage"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "fe31afc0-ca7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "WEST COAST YOUTH & COMMUNITY - Via the Smith Feuerherdt Foundation"
+      },
+      {
+        "id": "0732afc0-ca7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "YALARI - Via the Smith Feuerherdt Foundation"
+      },
+      {
+        "id": "09bdd7e7-cd7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "HUTT STREET CENTRE - Via the Smith Feuerherdt Foundation"
+      },
+      {
+        "id": "be935df0-cd7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "IMMERSIVE LIGHT AND ART - Via the Smith Feuerherdt Foundation"
+      },
+      {
+        "id": "cc935df0-cd7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "JUNCTION AUSTRALIA - Via the Smith Feuerherdt Foundation"
+      },
+      {
+        "id": "1b3e49f7-cd7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Australian Labor Party – Junior Vice President, State Executive Member and Member"
+      },
+      {
+        "id": "1f3e49f7-cd7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Rare Find Foundation – Patron"
+      },
+      {
+        "id": "8b8696fe-cd7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Labor Unity SA – Deputy Convenor and Member"
+      },
+      {
+        "id": "948696fe-cd7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Member SDA Union (SA and NT)"
+      },
+      {
+        "id": "9a8696fe-cd7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Member Transport Workers Union (SA and NT)"
+      },
+      {
+        "id": "90880805-ce7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Zoos SA Life Member"
+      },
+      {
+        "id": "94880805-ce7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Member of the Inter Parliamentary Union"
+      },
+      {
+        "id": "030f1913-ce7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Member of the Australian Republican Movement"
+      },
+      {
+        "id": "070f1913-ce7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Responsible Person for the Smith Feuerherdt Foundation"
+      },
+      {
+        "id": "a7092e19-ce7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Member of the Monaro Car Club of South Australia"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "500c987d-ca7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOtherAsset": "Superannuation (Super SA)"
+      },
+      {
+        "id": "f9393784-ca7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOtherAsset": "Personal loan issued to family member"
+      },
+      {
+        "id": "3150d48a-ca7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOtherAsset": "Superannuation (Public Sector Superannuation Accumulation Scheme)"
+      },
+      {
+        "id": "3550d48a-ca7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOtherAsset": "Superannuation (MLC Masterkey Personal Super)"
+      },
+      {
+        "id": "b16ec291-ca7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOtherAsset": "MLC Life & TPD Insurance"
+      },
+      {
+        "id": "b56ec291-ca7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOtherAsset": "AIA Life, TPD & Income Protection"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "960e2762-ce7c-f011-b4cc-7c1e5262c1f2",
+        "natureOfInterest": "Potentially fall into a class of beneficiary of family members' trusts - not a listed or named beneficiary, director or trustee"
+      }
+    ]
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": [
+      {
+        "activitiesOfPartnership": "Property - Kingston",
+        "id": "963c3a52-ca7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfPartnership": "Shared property ownership with spouse",
+        "natureOfInterest": "Financial"
+      }
+    ]
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "5a43840e-ca7c-f011-b4cc-7c1e5262c1f2",
+        "location": "Eastern Adelaide, SA",
+        "purposeForWhichOwned": "Residential"
+      },
+      {
+        "id": "c92fca2a-ca7c-f011-b4cc-7c1e5262c1f2",
+        "location": "Walkerville, SA",
+        "purposeForWhichOwned": "Residential - Residence of mother in law"
+      },
+      {
+        "id": "2a6ad132-ca7c-f011-b4cc-7c1e5262c1f2",
+        "location": "Kingston, ACT",
+        "purposeForWhichOwned": "Residential"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": [
+      {
+        "activitiesOfCompany": "Trustee",
+        "id": "b9b57c3f-ca7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfCompany": "Smith Feuerherdt Foundation Pty Ltd"
+      },
+      {
+        "activitiesOfCompany": "Trustee",
+        "id": "3ccac845-ca7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfCompany": "LGT Walkerville Pty Ltd"
+      }
+    ]
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "9bf0365e-ca7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfBankInstitution": "NAB",
+        "natureOfAccount": "Savings Account"
+      },
+      {
+        "id": "a8d23164-ca7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfBankInstitution": "ANZ",
+        "natureOfAccount": "Savings Account"
+      },
+      {
+        "id": "ec08a472-ca7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfBankInstitution": "ANZ",
+        "natureOfAccount": "Offset Account"
+      },
+      {
+        "id": "ef08a472-ca7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfBankInstitution": "ANZ",
+        "natureOfAccount": "Joint Savings Account"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "South Australia",
+    "id": "b3ad8f55-c97c-f011-b4cc-7c1e5262c1f2",
+    "lastDateUpdated": "3/11/2026 5:06:29 PM",
+    "lodgementDate": "8/15/2025 12:00:00 AM",
+    "publishNotes": false,
+    "senatorName": "Smith, Marielle",
+    "senatorParty": "Australian Labor Party",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "e6683e69-c97c-f011-b4cc-7c1e5262c1f2",
+        "nameOfCompany": "LGT Walkerville Pty Ltd"
+      },
+      {
+        "id": "2c9d5a6f-c97c-f011-b4cc-7c1e5262c1f2",
+        "nameOfCompany": "Smith Feuerherdt Foundation Pty Ltd"
+      }
+    ]
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-11T04:30:00Z",
+        "details": "Attended Formula 1 (entry and hospitality) with BP on 8 March 2026 ",
+        "id": "28b26899-031d-f111-8342-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-09T02:00:00Z",
+        "details": "Adelaide GF - attended South Australia suite (Hosted by SA Government) and race on 29 November",
+        "id": "d4ff813c-b7d4-f011-8544-6045bde589eb"
+      }
+    ],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "584849f7-c97c-f011-b4cc-7c1e5262c1f2",
+        "interest": "Family members",
+        "nameOfCompany": "The Walkerville Property Trust",
+        "nature": "Property",
+        "type": "trustee"
+      }
+    ]
+  },
+  "wasSuccessful": true
+}

@@ -588,3 +588,20 @@ V1's cold check found two places where C12 output could be read two ways.
 - Result: 151 rows, 0 unknown. `scripts/seed_v2_overrides.py --check` derives only v1's
   parliaments and keeps 48th+ rows (and `aph_*` aliases) verbatim; it had been failing since
   T3.3a added `pdfs/48/`.
+
+## 2026-10-03 — Senate 48th: JSON source documents, Sydney dates, nil rows (T3.6)
+- `validate` accepts a `.json` source document (D3): it checks the sha256 and requires
+  `page_count == 1` (with `pages_covered == [1]` from the usual rule) and skips PyMuPDF. The
+  ADR-2 schema is unchanged. `pdfs/manifest.csv` and its AC-4.3 test now cover the Senate
+  statements (`manifest.is_source_document`); the saved listing `_query_statements.json` is
+  not a source document.
+- API timestamps are UTC (the listing's `lodgmentDate` carries `Z`; the header's US-format
+  `lodgementDate` equals it). Alteration `createdOn` clusters at 21:00Z/22:00Z (08:00/09:00
+  in Canberra) and 08:00Z, so dates are the Australia/Sydney calendar date, not the UTC date.
+- Rows whose every field is nil (`NIL`, `-`, `N/A`, null) give no item, as in ADR-2. Trust
+  `type` maps to the House form's subsections: `beneficiary` -> `2(i)`, `trustee` -> `2(ii)`.
+  Descriptions join the row's non-nil fields with `; ` (the entity first where the form puts
+  it first); `entity_name` is the company/creditor/bank/body/organisation field.
+- `extracted_at` is the manifest's `fetched_at`, so re-running the adapter is byte-identical.
+- All 76 payloads use the same 14 section keys and only `Addition`/`Deletion` alterations
+  (2026-10-02): 1,980 items (1,328 interests, 597 added, 55 removed).

@@ -47,6 +47,18 @@ is the change signal:
 - `--verify` downloads everything regardless of the listing. Use it if APH ever re-uploads a
   statement without changing its date.
 
+## Senate 48th
+
+`python -m disclosures scrape --chamber senate --parliament 48` reads the senators' interests
+API (`disclosures/senate.py`, `sources.SENATE_API_BASE`; send `Origin: https://www.aph.gov.au`).
+It saves each `getSenatorStatement` payload, pretty-printed with sorted keys, to
+`pdfs/senate/48/{surname}{first-initial}_48s.json` and the listing to
+`pdfs/senate/48/_query_statements.json`, and upserts a manifest row (chamber `senate`,
+`listed_date` = `lastDateUpdated` as a Sydney date, `page_count` 1). Every statement is fetched
+each run (76 small requests); a changed sha256 is **changed**. Two fetches gave identical bytes
+(2026-10-02). Then `python -m disclosures extract --source senate-json pdfs/senate/48/*.json`
+writes `extractions/senate-json/senate/48/`.
+
 ## Committing
 
 Commit the PDFs and `pdfs/manifest.csv` in the same commit. `tests/test_manifest.py` (AC-4.3)

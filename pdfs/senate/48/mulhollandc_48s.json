@@ -1,0 +1,175 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-05-26T08:00:00Z",
+        "details": "Mckinnon Institute for Political Leadership. Scholarship for Advanced Political Leadership Program 2026, commencing in June until September. The total cost of the program is $32,000 (plus GST). Successful applicants are selected across various political parties, levels of government, and states and territories. Applicants receive a scholarship from the McKinnon Institute to participate in the program which covers costs of tuition, accommodation, meals.",
+        "id": "9322ac38-9259-f111-bec7-7ced8da1c86f"
+      }
+    ],
+    "interests": []
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-22T10:00:00Z",
+        "details": "Mortgage on residence - Westpac",
+        "id": "ff71ac5c-6b97-f011-b41c-6045bde49b50"
+      },
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2025-09-22T10:00:00Z",
+        "details": "Mortgage on residence - Bank of Queensland",
+        "id": "0972ac5c-6b97-f011-b41c-6045bde49b50"
+      },
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2025-09-22T10:00:00Z",
+        "details": "Mortgage on residence - Westpac (refinance)",
+        "id": "7ea6c429-6d97-f011-b41c-6045bde63b9a"
+      }
+    ],
+    "interests": [
+      {
+        "creditor": "Bank of Queensland",
+        "id": "dc5153b2-bd7c-f011-b4cb-000d3ad253b4",
+        "natureOfLiability": "Mortgage on residence"
+      },
+      {
+        "creditor": "Westpac (refinance)",
+        "id": "de5153b2-bd7c-f011-b4cb-000d3ad253b4",
+        "natureOfLiability": "Mortgage on residence "
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "e05153b2-bd7c-f011-b4cb-000d3ad253b4",
+        "nameOfOrganisation": "Member of the Australian Labor Party (Queensland Branch)"
+      },
+      {
+        "id": "ef5153b2-bd7c-f011-b4cb-000d3ad253b4",
+        "nameOfOrganisation": "Member of the Shop, Distributive and Allied Employees' Association (SDA) (Queensland Branch)"
+      },
+      {
+        "id": "f55153b2-bd7c-f011-b4cb-000d3ad253b4",
+        "nameOfOrganisation": "Member of the Australian Workers' Union (AWU) (Queensland Branch)"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "f75153b2-bd7c-f011-b4cb-000d3ad253b4",
+        "nameOfOtherAsset": "Superannuation - Q Super (Australian Retirement Trust) "
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-22T10:00:00Z",
+        "details": "NIB - Private health insurance ",
+        "id": "0472ac5c-6b97-f011-b41c-6045bde49b50"
+      }
+    ],
+    "interests": [
+      {
+        "id": "fa5153b2-bd7c-f011-b4cb-000d3ad253b4",
+        "natureOfInterest": "Community Ambassador - The Common Good (Prince Charles Hospital Foundation)"
+      }
+    ]
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "fb5153b2-bd7c-f011-b4cb-000d3ad253b4",
+        "location": "Woody Point, Queensland",
+        "purposeForWhichOwned": "Residential"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "fd5153b2-bd7c-f011-b4cb-000d3ad253b4",
+        "nameOfBankInstitution": "Commonwealth Bank",
+        "natureOfAccount": "Savings Accounts "
+      },
+      {
+        "id": "ff5153b2-bd7c-f011-b4cb-000d3ad253b4",
+        "nameOfBankInstitution": "Bank of Queensland",
+        "natureOfAccount": "Savings Account"
+      },
+      {
+        "id": "005253b2-bd7c-f011-b4cb-000d3ad253b4",
+        "nameOfBankInstitution": "UBank",
+        "natureOfAccount": "Savings Account "
+      },
+      {
+        "id": "015253b2-bd7c-f011-b4cb-000d3ad253b4",
+        "nameOfBankInstitution": "Westpac ",
+        "natureOfAccount": "Savings and Offest Account"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Queensland",
+    "id": "d35153b2-bd7c-f011-b4cb-000d3ad253b4",
+    "lastDateUpdated": "5/26/2026 4:16:46 PM",
+    "lodgementDate": "8/17/2025 2:00:00 PM",
+    "publishNotes": false,
+    "senatorName": "Mulholland, Corinne",
+    "senatorParty": "Australian Labor Party",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfTravelHospitality": "Qantas Chairman's Lounge",
+        "id": "025253b2-bd7c-f011-b4cb-000d3ad253b4"
+      },
+      {
+        "detailOfTravelHospitality": "Virgin Beyond Lounge",
+        "id": "065253b2-bd7c-f011-b4cb-000d3ad253b4"
+      }
+    ]
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

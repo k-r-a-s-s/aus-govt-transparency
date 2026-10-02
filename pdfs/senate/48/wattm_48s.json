@@ -1,0 +1,270 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-05-18T08:00:00Z",
+        "details": "Gifted Socceroos Jersey by Football Australia",
+        "id": "9de0d17a-4553-f111-bec7-00224810b694"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-01T07:30:00Z",
+        "details": "2 x Socceroos Jerseys supplied by Football Australia at Parliament House Event, 26 November 2025",
+        "id": "42cbac7d-41cf-f011-8544-6045bde763f0"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-07-02T07:00:00Z",
+        "details": "Gifted a signed book 'Antarctica: The Complete Story. David McGonigal, Lynn Woodworth Hardback - 2003', by David McGonigal at the National Museum opening of Antarctica Exhibit.  Museum provided additional gift bag and t-shirt.",
+        "id": "5d44fc05-6b76-f111-ab0f-7ced8da1c86f"
+      }
+    ],
+    "interests": [
+      {
+        "detailOfGifts": "Qantas Chairman's Lounge Membership",
+        "id": "cc91262e-be7c-f011-b4cc-7c1e5262c1f2"
+      },
+      {
+        "detailOfGifts": "Virgin Beyond Lounge Membership",
+        "id": "ce91262e-be7c-f011-b4cc-7c1e5262c1f2"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-03T02:30:00Z",
+        "details": "Credit Card | Bank of Queensland",
+        "id": "5f898529-7701-f111-8407-6045bdc25de2"
+      },
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2026-02-03T02:00:00Z",
+        "details": "Credit Card | ME Bank",
+        "id": "6c898529-7701-f111-8407-6045bdc25de2"
+      }
+    ],
+    "interests": [
+      {
+        "creditor": "ME Bank",
+        "id": "d091262e-be7c-f011-b4cc-7c1e5262c1f2",
+        "natureOfLiability": "Mortgage on residential property"
+      },
+      {
+        "creditor": "ME Bank",
+        "id": "d291262e-be7c-f011-b4cc-7c1e5262c1f2",
+        "natureOfLiability": "Credit Card"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "d491262e-be7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Australian Labor Party (Qld Branch)"
+      },
+      {
+        "id": "d691262e-be7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Queensland Left (Labor Party)"
+      },
+      {
+        "id": "d891262e-be7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Australian Lawyers for Human Rights"
+      },
+      {
+        "id": "da91262e-be7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "United Workers Union"
+      },
+      {
+        "id": "dc91262e-be7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Together Union"
+      },
+      {
+        "id": "de91262e-be7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "BUPA Health Insurance"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "e091262e-be7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOtherAsset": "Superannuation"
+      },
+      {
+        "id": "e291262e-be7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOtherAsset": "Life Insurance"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-20T21:00:00Z",
+        "details": "Supporter Annual Membership to Emily's List (no voting rights)",
+        "id": "88ef945f-9dc6-f011-bbd3-00224898b4a7"
+      },
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2025-11-05T21:00:00Z",
+        "details": "Patron of Friends of the ABC Queensland",
+        "id": "6bc0403e-e8bd-f011-bbd3-6045bdc2987e"
+      }
+    ],
+    "interests": [
+      {
+        "id": "e491262e-be7c-f011-b4cc-7c1e5262c1f2",
+        "natureOfInterest": "Australian Lawyers for Human Rights"
+      },
+      {
+        "id": "e591262e-be7c-f011-b4cc-7c1e5262c1f2",
+        "natureOfInterest": "Patron of Friends of the ABC Queensland"
+      }
+    ]
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "e691262e-be7c-f011-b4cc-7c1e5262c1f2",
+        "location": "Ashgrove, Queensland",
+        "purposeForWhichOwned": "Residential"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "e891262e-be7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfBankInstitution": "ME Bank",
+        "natureOfAccount": "Savings x 4"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Queensland",
+    "id": "c791262e-be7c-f011-b4cc-7c1e5262c1f2",
+    "lastDateUpdated": "9/28/2026 2:57:25 PM",
+    "lodgementDate": "8/17/2025 2:00:00 PM",
+    "publishNotes": false,
+    "senatorName": "Watt, Murray",
+    "senatorParty": "Australian Labor Party",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator the Hon.",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-30T10:00:00Z",
+        "details": "2 x corporate tickets to Brisbane Lions v Geelong AFL Grand Final in Melbourne on 27 September 2025, gifted by Asahi.",
+        "id": "c294c787-4f9e-f011-bbd2-000d3ad25fe1"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-14T22:00:00Z",
+        "details": "Gifted 2 x tickets to the 2025 Mid-Winter Ball on 27 August by The Guardian",
+        "id": "548f7d1c-f191-f011-b4cc-00224898d530"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-01-12T02:00:00Z",
+        "details": "4 x General Admission tickets to the Brisbane Roar FC v Auckland FC on Friday 9 January 2026 at Suncorp Stadium, gifted by Suncorp.",
+        "id": "a6d16740-2bf0-f011-8407-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-09-16T22:00:00Z",
+        "details": "AFL provided 2 x corporate tickets to Brisbane Lions v Adelaide Crows at the Gabba on 12 September 2026",
+        "id": "41d068d5-f5b2-f111-aaac-6045bdc2f293"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-05-26T08:00:00Z",
+        "details": "Great Barrier Reef Foundation hosted a one day visit, including return flights, to the Reef at Lady Elliot Island on 20 May 2026 ahead of UNESCO decision.",
+        "id": "0250ec43-9259-f111-bec7-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-12T06:00:00Z",
+        "details": "4 x corporate hospitality tickets to Melbourne F1 Grand Prix on Sunday 8 March 2026 - guest of Victorian Government.",
+        "id": "76155d51-651e-f111-8341-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-16T07:00:00Z",
+        "details": "1 x ticket to the World Surfing Conservation Conference in February 2026 held at the Gold Coast for staff member of Electorate Office who attended on my behalf. Ticket provided by the conference organisers.",
+        "id": "265083c5-aa0b-f111-8406-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-14T08:00:00Z",
+        "details": "2 x Corporate tickets from Cricket Australia to Day 2 Session of Australia v England Test Cricket at the Gabba - Friday 5 December 2025.",
+        "id": "6a242e5e-10da-f011-8544-6045bdc49d4e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-14T08:00:00Z",
+        "details": "2 x Corporate tickets from Anacta Strategies to Day 4 Session of Australia v England Test Cricket at the Gabba - Sunday 7 December 2025.",
+        "id": "70242e5e-10da-f011-8544-6045bdc49d4e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-08-07T05:30:00Z",
+        "details": "One night’s accommodation at Government House on Norfolk Island, as a guest of the Norfolk Island Administrator, during official visit in August 2026.",
+        "id": "ad5c0972-2292-f111-8076-70a8a553d3a2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-09-28T04:30:00Z",
+        "details": "2 x corporate tickets gifted by Asahi to 2026 AFL Grand Final in Melbourne",
+        "id": "8919f8be-f7ba-f111-aaae-70a8a553fe6c"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-07-02T07:00:00Z",
+        "details": "Ticket for Minister and staff member to 2026 Mid-Winter Ball, gifted by Sky News.",
+        "id": "6544fc05-6b76-f111-ab0f-7ced8da1c86f"
+      }
+    ],
+    "interests": [
+      {
+        "detailOfTravelHospitality": "2 x Corporate Tickets to Dolphins v Cowboys NRL Game at Suncorp Stadium 17/7/25 gifted by City of Moreton Bay.",
+        "id": "e991262e-be7c-f011-b4cc-7c1e5262c1f2"
+      }
+    ]
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

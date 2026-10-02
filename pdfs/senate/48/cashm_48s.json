@@ -1,0 +1,191 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfGifts": "Foxtel EO Subscription",
+        "id": "20291768-4889-f011-b4cc-000d3ad253b4"
+      },
+      {
+        "detailOfGifts": "See previous statements of interests as per notes",
+        "id": "cf27492b-8872-f011-b4cc-002248929e07"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "Bankwest",
+        "id": "4cb8efd1-4789-f011-b4cc-000d3ad253b4",
+        "natureOfLiability": "Mortgage on Primary Residence"
+      },
+      {
+        "creditor": "Bankwest",
+        "id": "72b8efd1-4789-f011-b4cc-000d3ad253b4",
+        "natureOfLiability": "Mortgage on Investment Property"
+      },
+      {
+        "creditor": "Bankwest",
+        "id": "e827492b-8872-f011-b4cc-002248929e07",
+        "natureOfLiability": "Mortgage on Second Residence"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "3a660a74-4889-f011-b4cc-000d3ad253b4",
+        "nameOfOrganisation": "Cat Haven WA"
+      },
+      {
+        "id": "f527492b-8872-f011-b4cc-002248929e07",
+        "nameOfOrganisation": "Liberal Party WA"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "0934185c-4889-f011-b4cc-000d3ad253b4",
+        "nameOfOtherAsset": "Spouse - Life Insurance"
+      },
+      {
+        "id": "6834185c-4889-f011-b4cc-000d3ad253b4",
+        "nameOfOtherAsset": "Superannuation"
+      },
+      {
+        "id": "0928492b-8872-f011-b4cc-002248929e07",
+        "nameOfOtherAsset": "Life Insurance"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "1328492b-8872-f011-b4cc-002248929e07",
+        "nameOfIncome": "Rent from Investment Property"
+      }
+    ]
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "1928492b-8872-f011-b4cc-002248929e07",
+        "location": "Floreat",
+        "purposeForWhichOwned": "Primary Residence"
+      },
+      {
+        "id": "f50dbbb5-8f72-f011-b4cc-002248929e07",
+        "location": "Floreat",
+        "purposeForWhichOwned": "Investment with Husband"
+      },
+      {
+        "id": "78ba12bc-8f72-f011-b4cc-002248929e07",
+        "location": "Turner ACT",
+        "purposeForWhichOwned": "Second Residence"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "b9ccf4ff-4789-f011-b4cc-000d3ad253b4",
+        "nameOfBankInstitution": "Bankwest",
+        "natureOfAccount": "Mortgage Saver Account"
+      },
+      {
+        "id": "feb44706-4889-f011-b4cc-000d3ad253b4",
+        "nameOfBankInstitution": "Bankwest",
+        "natureOfAccount": "Mortgage Saver Account"
+      },
+      {
+        "id": "e640e90c-4889-f011-b4cc-000d3ad253b4",
+        "nameOfBankInstitution": "ANZ",
+        "natureOfAccount": "Savings Account"
+      },
+      {
+        "id": "b17be612-4889-f011-b4cc-000d3ad253b4",
+        "nameOfBankInstitution": "Bankwest",
+        "natureOfAccount": "Interest Account"
+      },
+      {
+        "id": "d859e118-4889-f011-b4cc-000d3ad253b4",
+        "nameOfBankInstitution": "Bankwest",
+        "natureOfAccount": "Cheque Account"
+      },
+      {
+        "id": "e73c0e1f-4889-f011-b4cc-000d3ad253b4",
+        "nameOfBankInstitution": "ING Direct",
+        "natureOfAccount": "Cheque Account"
+      },
+      {
+        "id": "62400e1f-4889-f011-b4cc-000d3ad253b4",
+        "nameOfBankInstitution": "ANZ",
+        "natureOfAccount": "Interest Account"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Western Australia",
+    "id": "7927492b-8872-f011-b4cc-002248929e07",
+    "lastDateUpdated": "8/6/2025 2:35:19 PM",
+    "lodgementDate": "8/5/2025 2:00:00 PM",
+    "publishNotes": false,
+    "senatorName": "Cash, Michaelia",
+    "senatorParty": "Liberal Party of Australia",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator the Hon.",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "7e2ef548-8e72-f011-b4cc-002248929e07",
+        "interest": "Discretionary Family Trust",
+        "nameOfCompany": "The Control Trust (Discretionary)",
+        "nature": "Discretionary Shares",
+        "type": "trustee"
+      },
+      {
+        "id": "0834c638-2073-f011-b4cd-000d3ad2a284",
+        "interest": "NIL",
+        "nameOfCompany": "NIL",
+        "nature": "NIL",
+        "type": "beneficiary"
+      }
+    ]
+  },
+  "wasSuccessful": true
+}

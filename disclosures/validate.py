@@ -141,6 +141,11 @@ def validate_file(path: str | Path, root: str | Path | None = None) -> List[str]
         actual_sha = sha256_file(pdf)
         if actual_sha != doc.pdf_sha256:
             errors.append(f"pdf_sha256 mismatch: file has {actual_sha}, json says {doc.pdf_sha256}")
+        if pdf.suffix.lower() == ".json":
+            # A structured source document (Senate API payload, D3): one "page", no PyMuPDF.
+            if doc.page_count != 1:
+                errors.append(f"page_count {doc.page_count} != 1 for a JSON source document")
+            return errors
         try:
             actual_pages = pdf_page_count(pdf)
         except Exception as exc:  # corrupt PDF

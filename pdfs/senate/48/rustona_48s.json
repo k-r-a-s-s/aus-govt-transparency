@@ -1,0 +1,224 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfGifts": "Signed 2025 Sydney Swans Guernsey from the Sydney Swans Football Club",
+        "id": "44a414b5-967d-f011-b4cc-6045bdc323b4"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": []
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "48a414b5-967d-f011-b4cc-6045bdc323b4",
+        "nameOfOtherAsset": "Superannuation - Super SA"
+      },
+      {
+        "id": "4da414b5-967d-f011-b4cc-6045bdc323b4",
+        "nameOfOtherAsset": "Superannuation - AustSuper"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "52a414b5-967d-f011-b4cc-6045bdc323b4",
+        "location": "Norwood, SA",
+        "purposeForWhichOwned": "Residential"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "56a414b5-967d-f011-b4cc-6045bdc323b4",
+        "nameOfBankInstitution": "BankSA",
+        "natureOfAccount": "Savings"
+      },
+      {
+        "id": "57a414b5-967d-f011-b4cc-6045bdc323b4",
+        "nameOfBankInstitution": "MacQuarie Bank",
+        "natureOfAccount": "Savings"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "South Australia",
+    "id": "38a414b5-967d-f011-b4cc-6045bdc323b4",
+    "lastDateUpdated": "7/13/2026 9:17:00 AM",
+    "lodgementDate": "8/18/2025 12:00:00 AM",
+    "publishNotes": false,
+    "senatorName": "Ruston, Anne",
+    "senatorParty": "Liberal Party of Australia",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator the Hon.",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-11T06:00:00Z",
+        "details": "Attended the 2025 AFL First Semi Final, Adelaide Crows v Hawthorn on Friday 12 September 2025, guest of the Australian Football League.",
+        "id": "ebe5f663-efd6-f011-8544-000d3ad2551a"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-25T09:00:00Z",
+        "details": "Attended the Jane McGrath High Tea on Tuesday 6 January 2026, guest of the McGrath Foundation.",
+        "id": "f6a9ae71-9612-f111-8407-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-25T10:00:00Z",
+        "details": "Attended Day 1 of the NRMA Insurance Men's Ashes Pink Test. Australia v England on Sunday 4 January 2026, guest of Cricket Australia.",
+        "id": "610aa148-9812-f111-8407-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-25T11:00:00Z",
+        "details": "Attended the Australian Open 2026 Men's Semi Final on Friday 30 January 2026, guest of Tennis Australia.",
+        "id": "db3ea35e-9912-f111-8407-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-11T05:00:00Z",
+        "details": "Attended the CommBank Socceroos v New Zealand on Friday 5 September 2025, guest of Football Australia.",
+        "id": "45601e5d-efd6-f011-8544-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-11T06:00:00Z",
+        "details": "Attended the Diamonds v South Africa Netball match on Sunday 12 October 2025, guest of Netball Australia.",
+        "id": "78892769-efd6-f011-8544-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-02T22:00:00Z",
+        "details": "Chairman's Lounge Membership - Qantas",
+        "id": "af52ec88-7188-f011-b4cc-6045bdc323b4"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-19T04:30:00Z",
+        "details": "Attended the Women's T20 International, Australia v India on Saturday 21 February 2026. Guest of the South Australian Cricket Association.",
+        "id": "341449c1-e723-f111-8342-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-25T08:00:00Z",
+        "details": "Attended the Santos Tour Down Under final stage on 25 January 2026, guest of Santos.",
+        "id": "f56f6069-9512-f111-8407-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-25T08:30:00Z",
+        "details": "Attended Day 3 of the NRMA Insurance Men's Ashes Christmas Test. Australia v England on Friday 19 December 2025, guest of Cricket Australia.",
+        "id": "35b3a316-9612-f111-8407-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-25T10:30:00Z",
+        "details": "Attended Day 1 of the NRMA Insurance Men's Ashes Boxing Day Test. Australia v England on Friday 26 December 2025, guest of Cricket Australia.",
+        "id": "d8b5ab1e-9912-f111-8407-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-25T11:30:00Z",
+        "details": "Attended the Adelaide International day of Tennis on Friday 16 January 2026, guest of Tennis SA.",
+        "id": "9c5f67fb-9912-f111-8407-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-07-09T22:30:00Z",
+        "details": "Part of an Australian Parliamentary delegation to Taiwan between 26 April and 2 May 2026 including sponsored international travel, accommodation and meals organised by the Taipei Economic and Cultural Office in Australia.",
+        "id": "ba9c04b5-457e-f111-ab0f-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-19T04:00:00Z",
+        "details": "Attended the Glenelg leg of the Australian Beach Volleyball Tour on Sunday 22 February 2026. Guest of Volleyball Australia.",
+        "id": "af5c46c2-e723-f111-8341-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-25T09:30:00Z",
+        "details": "Attended the Parliamentary Friends of Tennis event on Saturday 31 January 2026, guest of Tennis Australia.",
+        "id": "8e936204-9712-f111-8406-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-11T06:30:00Z",
+        "details": "Attended the 2025 Mazda North Melbourne Breakfast on Saturday 27 September 2025, guest of the AFL Commission and the North Melbourne Football Club.",
+        "id": "98444f6b-efd6-f011-8544-6045bde589eb"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-02T22:00:00Z",
+        "details": "The Club Membership - Virgin",
+        "id": "88378ff2-7188-f011-b4cc-7c1e5262c1f2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-11T04:30:00Z",
+        "details": "Attended the 2025 Suncorp Super Netball Grand Final Lunch and Suncorp Super Netball Grand Final match on Saturday 2 August 2025, guest of Netball Australia.",
+        "id": "a98b185c-efd6-f011-8544-7ced8d34843b"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-11T05:30:00Z",
+        "details": "Attended Victoria Derby Day on 1 November 2025, guest of Lion.",
+        "id": "5afa486c-efd6-f011-8544-7ced8d34843b"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-07-09T22:00:00Z",
+        "details": "Attended the 2026 Women's Australian Open on Sunday 15 March 2026, hosted by Golf Australia.",
+        "id": "145869b9-457e-f111-ab0f-7ced8da1c86f"
+      }
+    ],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

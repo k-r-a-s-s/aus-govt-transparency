@@ -1,0 +1,172 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-12T08:00:00Z",
+        "details": "Qantas Chairmans Lounge membership",
+        "id": "ea2d37d1-a378-f011-b4cb-6045bdc323b4"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-04-14T08:00:00Z",
+        "details": "Registration for Women Deliver 2026 from Australian Parliamentary Friends of Population and Development (APGPD) Family Planning Australia, value $950 USD\n",
+        "id": "41659d84-9a37-f111-88b4-6045bdc3fcd7"
+      }
+    ],
+    "interests": []
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": []
+  },
+  "officeHolderDonating": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-18T22:00:00Z",
+        "details": "VTHC Choir\n",
+        "id": "a7dede37-9dc6-f011-bbd3-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-18T22:00:00Z",
+        "details": "Bakehouse Studios",
+        "id": "acdede37-9dc6-f011-bbd3-6045bdc2987e"
+      }
+    ],
+    "interests": [
+      {
+        "id": "da3dc18c-6376-f011-b4cb-000d3ad253b4",
+        "nameOfOrganisation": "Australian Services Union - Vic/Tas Authorities & Services Branch Member"
+      },
+      {
+        "id": "dd5c26bf-4a89-f011-b4cc-000d3ad253b4",
+        "nameOfOrganisation": "EMILY's List Australia - Angel Member"
+      },
+      {
+        "id": "f8938cc5-4a89-f011-b4cc-000d3ad253b4",
+        "nameOfOrganisation": "APHEDA - Union Aid Abroad Donor"
+      },
+      {
+        "id": "b0b389cb-4a89-f011-b4cc-000d3ad253b4",
+        "nameOfOrganisation": "Australian Labor Party - Donor"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "dc3dc18c-6376-f011-b4cb-000d3ad253b4",
+        "nameOfIncome": "Rental from investment property"
+      }
+    ]
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-18T21:30:00Z",
+        "details": "Kingston, ACT - purpose investment",
+        "id": "184d3f32-9dc6-f011-bbd3-00224898b4a7"
+      },
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2025-11-18T21:00:00Z",
+        "details": "Kingston, ACT - purpose residential",
+        "id": "204d3f32-9dc6-f011-bbd3-00224898b4a7"
+      }
+    ],
+    "interests": [
+      {
+        "id": "de3dc18c-6376-f011-b4cb-000d3ad253b4",
+        "location": "Geelong, VIC",
+        "purposeForWhichOwned": "Investment"
+      },
+      {
+        "id": "11743472-4a89-f011-b4cc-000d3ad253b4",
+        "location": "Glenroy, VIC",
+        "purposeForWhichOwned": "Residential"
+      },
+      {
+        "id": "8ce6b17e-4a89-f011-b4cc-000d3ad253b4",
+        "location": "Kingston, ACT",
+        "purposeForWhichOwned": "Residential"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "e03dc18c-6376-f011-b4cb-000d3ad253b4",
+        "nameOfBankInstitution": "Bendigo Bank",
+        "natureOfAccount": "Mortgage offset account"
+      },
+      {
+        "id": "3c2da4b2-4a89-f011-b4cc-000d3ad253b4",
+        "nameOfBankInstitution": "Vision Super",
+        "natureOfAccount": "Superannuation"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Victoria",
+    "id": "d13dc18c-6376-f011-b4cb-000d3ad253b4",
+    "lastDateUpdated": "4/14/2026 10:46:40 AM",
+    "lodgementDate": "8/11/2025 10:07:33 AM",
+    "publishNotes": false,
+    "senatorName": "Darmanin, Lisa",
+    "senatorParty": "Australian Labor Party",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-01T08:00:00Z",
+        "details": "On 31 August 2025, I boarded Qantas flight QF1278 Canberra to Melbourne, booked as an economy fare. Prior to boarding, my seat was upgraded to business fare. The upgrade was unsolicited.",
+        "id": "9c361e5c-1d87-f011-b4cc-7c1e5262c1f2"
+      }
+    ],
+    "interests": [
+      {
+        "detailOfTravelHospitality": "Return flights, accommodation and some hospitality to participate in the Fourth Berlin Forum on Political Communication, 29 June to 1 July 2025 in Berlin, Germany, courtesy of Friedrich Ebert Stiftung (foundation).",
+        "id": "e13dc18c-6376-f011-b4cb-000d3ad253b4"
+      }
+    ]
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

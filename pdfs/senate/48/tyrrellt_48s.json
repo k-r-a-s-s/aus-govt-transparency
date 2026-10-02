@@ -1,0 +1,157 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfGifts": "Complimentary annual Foxtel subscription from Australian Subscription Television and Radio Association (ASTRA). For access to news services in Electorate Office.",
+        "id": "dd619abc-ca7b-f011-b4cc-7c1e5262c1f2"
+      },
+      {
+        "detailOfGifts": "Australian Distillers Association Lark Distillery 2022 Australian Blended Malt Whisky 100ml (limited).",
+        "id": "df619abc-ca7b-f011-b4cc-7c1e5262c1f2"
+      },
+      {
+        "detailOfGifts": "Huon Salmon Hampers (Easter and Christmas).",
+        "id": "e3619abc-ca7b-f011-b4cc-7c1e5262c1f2"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": [
+      {
+        "bodyOfWhichInvestmentIsHeld": "PSSAP",
+        "id": "e5619abc-ca7b-f011-b4cc-7c1e5262c1f2",
+        "typeOfInvestment": "Superannuation"
+      }
+    ]
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "Commonwealth Bank",
+        "id": "ea619abc-ca7b-f011-b4cc-7c1e5262c1f2",
+        "natureOfLiability": "Mortgage on residential property"
+      },
+      {
+        "creditor": "Commonwealth Bank",
+        "id": "ef619abc-ca7b-f011-b4cc-7c1e5262c1f2",
+        "natureOfLiability": "Personal loan on vehicle"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "f1619abc-ca7b-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Monthly donations to National Breast Cancer Foundation (NBCF)"
+      },
+      {
+        "id": "f3619abc-ca7b-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Financial donations to City Mission Launceston to support local events"
+      },
+      {
+        "id": "f5619abc-ca7b-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Financial donations to Shekinah House Launceston to support local events"
+      },
+      {
+        "id": "41a497c2-ca7b-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Financial donations to RFDS Tasmania to support local events"
+      },
+      {
+        "id": "43a497c2-ca7b-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Financial donations to various Tasmanian schools through Department of Education for end of year awards"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "45a497c2-ca7b-f011-b4cc-7c1e5262c1f2",
+        "location": "Legana, TAS",
+        "purposeForWhichOwned": "Residential"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "48a497c2-ca7b-f011-b4cc-7c1e5262c1f2",
+        "nameOfBankInstitution": "Commonwealth Bank",
+        "natureOfAccount": "Savings"
+      },
+      {
+        "id": "4da497c2-ca7b-f011-b4cc-7c1e5262c1f2",
+        "nameOfBankInstitution": "Commonwealth Bank",
+        "natureOfAccount": "Mortgage Offset"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Tasmania",
+    "id": "56f133a3-ca7b-f011-b4cc-7c1e5262c1f2",
+    "lastDateUpdated": "8/14/2025 10:39:14 AM",
+    "lodgementDate": "8/13/2025 2:00:00 PM",
+    "publishNotes": false,
+    "senatorName": "Tyrrell, Tammy",
+    "senatorParty": "Australian Labor Party",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfTravelHospitality": "Virgin Beyond Lounge Guest",
+        "id": "4ea497c2-ca7b-f011-b4cc-7c1e5262c1f2"
+      },
+      {
+        "detailOfTravelHospitality": "Qantas Chairman's Lounge Guest",
+        "id": "50a497c2-ca7b-f011-b4cc-7c1e5262c1f2"
+      },
+      {
+        "detailOfTravelHospitality": "Save the Children Study Tour in Honiara, Solomon Islands",
+        "id": "53a497c2-ca7b-f011-b4cc-7c1e5262c1f2"
+      },
+      {
+        "detailOfTravelHospitality": "WA accommodation on trip with Minerals Council of Australia.",
+        "id": "57a497c2-ca7b-f011-b4cc-7c1e5262c1f2"
+      }
+    ]
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

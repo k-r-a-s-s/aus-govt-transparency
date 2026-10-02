@@ -1,0 +1,162 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-05-13T09:00:00Z",
+        "details": "Shirt from Football Australia offered to all MPs and Senators to commemorate the Socceroos at the 2026 World Cup",
+        "id": "45a9f190-b44e-f111-bec6-6045bdc3f4ad"
+      }
+    ],
+    "interests": []
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2025-11-11T21:00:00Z",
+        "details": "Two mortgages with Auswide Bank (cleared)",
+        "id": "d198811c-4ec0-f011-bbd3-6045bdc2987e"
+      }
+    ],
+    "interests": [
+      {
+        "creditor": "Auswide Bank",
+        "id": "f6ded6d5-ca7b-f011-b4cb-000d3ad253b4",
+        "natureOfLiability": "Mortgage on residential property"
+      },
+      {
+        "creditor": "Auswide Bank",
+        "id": "f8ded6d5-ca7b-f011-b4cb-000d3ad253b4",
+        "natureOfLiability": "Mortgage on investment property (former home)"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "faded6d5-ca7b-f011-b4cb-000d3ad253b4",
+        "nameOfOrganisation": "Queensland Greens"
+      },
+      {
+        "id": "11dfd6d5-ca7b-f011-b4cb-000d3ad253b4",
+        "nameOfOrganisation": "Australian Greens"
+      },
+      {
+        "id": "40dfd6d5-ca7b-f011-b4cb-000d3ad253b4",
+        "nameOfOrganisation": "Asia Pacific Greens Federation"
+      },
+      {
+        "id": "55dfd6d5-ca7b-f011-b4cb-000d3ad253b4",
+        "nameOfOrganisation": "Global Greens"
+      },
+      {
+        "id": "58dfd6d5-ca7b-f011-b4cb-000d3ad253b4",
+        "nameOfOrganisation": "MND Queensland - regular donor"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "5edfd6d5-ca7b-f011-b4cb-000d3ad253b4",
+        "nameOfOtherAsset": "Superannuation Q Super"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "2fe0d6d5-ca7b-f011-b4cb-000d3ad253b4",
+        "natureOfInterest": "Associate member Queensland Teachers Union"
+      }
+    ]
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2025-11-11T21:00:00Z",
+        "details": "Investment property at Cleveland QLD (sold)",
+        "id": "c198811c-4ec0-f011-bbd3-6045bdc2987e"
+      }
+    ],
+    "interests": [
+      {
+        "id": "30e0d6d5-ca7b-f011-b4cb-000d3ad253b4",
+        "location": "South Gladstone, Queensland",
+        "purposeForWhichOwned": "Residential"
+      },
+      {
+        "id": "32e0d6d5-ca7b-f011-b4cb-000d3ad253b4",
+        "location": "Cleveland, Queensland",
+        "purposeForWhichOwned": "Investment (former home)"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "34e0d6d5-ca7b-f011-b4cb-000d3ad253b4",
+        "nameOfBankInstitution": "Auswide Bank",
+        "natureOfAccount": "Savings account"
+      },
+      {
+        "id": "fa4ad6db-ca7b-f011-b4cb-000d3ad253b4",
+        "nameOfBankInstitution": "Suncorp Bank",
+        "natureOfAccount": "Savings account"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Queensland",
+    "id": "c4ded6d5-ca7b-f011-b4cb-000d3ad253b4",
+    "lastDateUpdated": "5/13/2026 9:06:50 AM",
+    "lodgementDate": "8/14/2025 1:31:50 PM",
+    "publishNotes": false,
+    "senatorName": "Allman-Payne, Penny",
+    "senatorParty": "Australian Greens",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfTravelHospitality": "Lounge memberships for Qantas and Virgin Australia",
+        "id": "fb4ad6db-ca7b-f011-b4cb-000d3ad253b4"
+      }
+    ]
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

@@ -18,6 +18,7 @@ Spec: `plans/2026-10-01-disclosures-v2/SPEC.md`.
 | `disclosures/openrouter.py` | OpenRouter transport for extractor B (native PDF + strict json_schema; any vendor's model for the bake-off) |
 | `disclosures/gemini_model.py` | `resolve_gemini_model()`: the one Gemini model-id resolver (bans 0.x-2.x ids) |
 | `disclosures/load.py` | loader: validated extractions -> `disclosures_v2.db` (ADR-7); see `docs/v2/loading.md` |
+| `disclosures/senate.py` | Senate 48th (ADR-9, D3): `scrape --chamber senate` saves the senators' interests API payloads to `pdfs/senate/48/`; `extract --source senate-json` adapts them to ADR-2 (no LLM) |
 | `disclosures/sources.py` | House register URLs (43rd–48th), browser-UA HTTP with retries, listing parser (fixtures in `tests/fixtures/aph/`) |
 | `disclosures/manifest.py` | `pdfs/manifest.csv` (ADR-8): one row per tracked PDF; `python -m disclosures.manifest --backfill [--html-dir DIR]` rebuilds it, matching source_url/listed_date from the 43rd–47th archive listings |
 | `disclosures/members.py` | `python -m disclosures.members --parliament 48 [--dry-run]`: `pdf_members.csv`/`member_aliases.csv` rows for newly scraped PDFs (D3); prints NEW members with same-surname earlier members to eyeball. `--party-terms --wiki-revision ID …` writes `party_terms.csv` rows (`source=wikipedia_48`) from pinned Wikipedia revisions |
@@ -50,6 +51,8 @@ python -m disclosures validate <file-or-dir> [...]          # exit 1 if any file
 python -m disclosures extract --source gemini [--provider auto|gemini|openrouter] [--model ID] \
     [--provider-order google-ai-studio/flex] [--ignore-providers azure] [--fallback-model ID] [--workers 4] [--out-root extractions/<source-id>] \
     [--chunk-pages 20] [--max-retries 4] [--force] <pdfs...>   # see docs/v2/extraction.md
+python -m disclosures scrape --chamber house|senate --parliament 48 [--verify]   # docs/v2/scrape.md
+python -m disclosures extract --source senate-json pdfs/senate/48/*.json   # Senate adapter, no LLM
 python -m disclosures score --pred <dir> --gold eval/gold [--json out.json]
 python -m disclosures score --v1 disclosures.db --gold eval/gold [--json eval/v1_baseline.json]
 python -m disclosures load --source workflow-claude [--db disclosures_v2.db] \

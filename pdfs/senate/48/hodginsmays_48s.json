@@ -1,0 +1,182 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfGifts": "Membership Qantas Chairman's Lounge",
+        "id": "6e751e33-ce7b-f011-b4cc-6045bdc29378"
+      },
+      {
+        "detailOfGifts": "Membership Virgin Lounge",
+        "id": "71751e33-ce7b-f011-b4cc-6045bdc29378"
+      },
+      {
+        "detailOfGifts": "August 2025: Australasian Emissions Reductions Summit Ticket for Policy Adviser",
+        "id": "73751e33-ce7b-f011-b4cc-6045bdc29378"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "Commonwealth Bank",
+        "id": "77751e33-ce7b-f011-b4cc-6045bdc29378",
+        "natureOfLiability": "Mortgage on residence"
+      },
+      {
+        "creditor": "Commonwealth Bank",
+        "id": "7c751e33-ce7b-f011-b4cc-6045bdc29378",
+        "natureOfLiability": "Mortgage on family farm"
+      },
+      {
+        "creditor": "Australian Taxation Office",
+        "id": "7e751e33-ce7b-f011-b4cc-6045bdc29378",
+        "natureOfLiability": "Higher education loan program"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-05-20T08:00:00Z",
+        "details": "Harcourt Bushfire Relief Fund",
+        "id": "228a14a2-c654-f111-bec6-6045bdc3fcd7"
+      }
+    ],
+    "interests": [
+      {
+        "id": "55245e45-d58e-f011-b4cc-000d3ad253b4",
+        "nameOfOrganisation": "Victorian Greens"
+      },
+      {
+        "id": "2a1fa751-d58e-f011-b4cc-000d3ad253b4",
+        "nameOfOrganisation": "First Step"
+      },
+      {
+        "id": "391fa751-d58e-f011-b4cc-000d3ad253b4",
+        "nameOfOrganisation": "Southside Justice"
+      },
+      {
+        "id": "80751e33-ce7b-f011-b4cc-6045bdc29378",
+        "nameOfOrganisation": "Australian Greens"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "82751e33-ce7b-f011-b4cc-6045bdc29378",
+        "nameOfOtherAsset": "Superannuation - Future Super"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "84751e33-ce7b-f011-b4cc-6045bdc29378",
+        "nameOfIncome": "Family farm income"
+      }
+    ]
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "8a751e33-ce7b-f011-b4cc-6045bdc29378",
+        "location": "St Kilda, VIC",
+        "purposeForWhichOwned": "Residential"
+      },
+      {
+        "id": "8f751e33-ce7b-f011-b4cc-6045bdc29378",
+        "location": "Blampied",
+        "purposeForWhichOwned": "Family farm - jointly held with sibling"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "91751e33-ce7b-f011-b4cc-6045bdc29378",
+        "nameOfBankInstitution": "Bendigo Bank",
+        "natureOfAccount": "Joint Farm Business Account"
+      },
+      {
+        "id": "94751e33-ce7b-f011-b4cc-6045bdc29378",
+        "nameOfBankInstitution": "Bank of Australia",
+        "natureOfAccount": "Everyday Account"
+      },
+      {
+        "id": "98751e33-ce7b-f011-b4cc-6045bdc29378",
+        "nameOfBankInstitution": "Commonwealth Bank",
+        "natureOfAccount": "Mortgage Offset Account"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Victoria",
+    "id": "68751e33-ce7b-f011-b4cc-6045bdc29378",
+    "lastDateUpdated": "5/20/2026 4:31:03 PM",
+    "lodgementDate": "8/13/2025 2:00:00 PM",
+    "publishNotes": false,
+    "senatorName": "Hodgins-May, Steph",
+    "senatorParty": "Australian Greens",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfTravelHospitality": "2024: Parliamentary climate delegation to Vanuatu, sponsored by Save the Children Australia. Includes flights, accommodation, ground transport and most meals",
+        "id": "99751e33-ce7b-f011-b4cc-6045bdc29378"
+      }
+    ]
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "562f8b4f-ce7b-f011-b4cb-000d3ad253b4",
+        "interest": "N/A",
+        "nameOfCompany": "N/A",
+        "nature": "N/A",
+        "type": "trustee"
+      },
+      {
+        "id": "d7882348-ce7b-f011-b4cb-000d3ad253b4",
+        "interest": "Joint Beneficiary",
+        "nameOfCompany": "The Rodney May Family Trust",
+        "nature": "Family Trust",
+        "type": "beneficiary"
+      }
+    ]
+  },
+  "wasSuccessful": true
+}

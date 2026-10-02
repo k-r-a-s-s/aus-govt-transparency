@@ -1,0 +1,127 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfGifts": "VIRGIN BEYOND LOUNGE",
+        "id": "6f9df799-4589-f011-b4cc-000d3ad253b4"
+      },
+      {
+        "detailOfGifts": "QANTAS CHAIRMANS LOUNGE",
+        "id": "985d9aca-6272-f011-b4cd-000d3ad2a284"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-30T06:00:00Z",
+        "details": "Mortgage, Commonwealth Bank.",
+        "id": "df2ad372-b72b-f111-88b3-7ced8da1c86f"
+      }
+    ],
+    "interests": []
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-27T05:30:00Z",
+        "details": "Melbourne, VIC. ",
+        "id": "bbd22771-b72b-f111-88b4-6045bdc25de2"
+      }
+    ],
+    "interests": []
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-27T05:30:00Z",
+        "details": "BUILDVEST (AUST) PTY LTD",
+        "id": "b5d22771-b72b-f111-88b4-6045bdc25de2"
+      }
+    ],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "9e5d9aca-6272-f011-b4cd-000d3ad2a284",
+        "nameOfBankInstitution": "WESTPAC",
+        "natureOfAccount": "SAVINGS"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Victoria",
+    "id": "3b048fc4-6272-f011-b4cd-000d3ad2a284",
+    "lastDateUpdated": "3/30/2026 5:39:05 PM",
+    "lodgementDate": "8/1/2025 11:43:17 AM",
+    "publishNotes": false,
+    "senatorName": "Babet, Ralph",
+    "senatorParty": "United Australia Party",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-27T09:30:00Z",
+        "details": "BUILDVEST (AUST) PTY LTD",
+        "id": "25b2687a-b72b-f111-88b3-6045bdc3fcd7"
+      }
+    ],
+    "interests": [
+      {
+        "id": "9f5d9aca-6272-f011-b4cd-000d3ad2a284",
+        "nameOfCompany": "BABET BROTHERS PTY LTD"
+      }
+    ]
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-27T06:30:00Z",
+        "details": "Melbourne Group, discretionary trust, joint beneficiary",
+        "id": "798b2279-b72b-f111-88b3-7ced8da1c86f"
+      }
+    ],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

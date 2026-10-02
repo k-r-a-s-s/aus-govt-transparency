@@ -1,0 +1,258 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-07-23T22:00:00Z",
+        "details": "4x pairs of FOM shoes from Freedom of Movement South Africa (RRP value of $800)",
+        "id": "92d3fc08-4489-f111-ab0f-000d3a6a8f58"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-11T22:00:00Z",
+        "details": "Helicopter flight over Upper Murrumbidgee River to see revegetation projects. Paid by Darren Roso. $780",
+        "id": "38f669a2-1e69-f111-a826-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-11T22:00:00Z",
+        "details": "Socceroos jersey sent to me by Football Australia. $130",
+        "id": "f1db99c9-1e69-f111-a826-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-11T22:00:00Z",
+        "details": "Various books. All less than $300.",
+        "id": "92043bf0-1e69-f111-a826-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-11T22:00:00Z",
+        "details": "Framed AI artwork of Parliament House sent to me. $179.",
+        "id": "c069420e-1f69-f111-a826-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-11T22:00:00Z",
+        "details": "Dinners/lunches: Norfolk Island Council of Elders, Property Council of Australia. Provided by Canberra Region Tourism Leaders Forum. All less than $300..",
+        "id": "ddb2d3b8-1f69-f111-a826-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-10T08:00:00Z",
+        "details": "Various books (less than $300) – provided by Penguin Books Australia, constituents and people from other states",
+        "id": "4b3290c2-e6c0-f011-bbd3-6045bde5f32c"
+      }
+    ],
+    "interests": []
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "Commonwealth Bank",
+        "id": "072334ef-897d-f011-b4cc-6045bdc29378",
+        "natureOfLiability": "Mortgage on family home"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "f588bb4b-8a7d-f011-b4cc-6045bdc29378",
+        "nameOfOrganisation": "Australian Wildlife Conservancy"
+      },
+      {
+        "id": "164f3252-8a7d-f011-b4cc-6045bdc29378",
+        "nameOfOrganisation": "Difficult Bird Research Group, Australian National University"
+      },
+      {
+        "id": "264f3252-8a7d-f011-b4cc-6045bdc29378",
+        "nameOfOrganisation": "Médecins Sans Frontière"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-01-22T23:30:00Z",
+        "details": "Superannuation - Australian Ethical (adding detail of the fund)",
+        "id": "147e88bd-f7f7-f011-8406-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-01-23T00:00:00Z",
+        "details": "Life insurance - Acenda (formerly MLC) (adding details of the insurer)",
+        "id": "f1a222cb-f7f7-f011-8406-6045bdc3f4ad"
+      }
+    ],
+    "interests": [
+      {
+        "id": "48fa4a09-8a7d-f011-b4cc-6045bdc29378",
+        "nameOfOtherAsset": "Superannuation"
+      },
+      {
+        "id": "5ccfe00f-8a7d-f011-b4cc-6045bdc29378",
+        "nameOfOtherAsset": "Life insurance"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-07-23T22:00:00Z",
+        "details": "Advance from Penguin Random House Australia for book contract",
+        "id": "8caa7340-4489-f111-ab0f-000d3a6a8f58"
+      }
+    ],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2026-07-23T22:00:00Z",
+        "details": "Sold house in Canberra, ACT",
+        "id": "805d1253-4489-f111-ab0f-000d3a6a8f58"
+      }
+    ],
+    "interests": [
+      {
+        "id": "4748a7cf-897d-f011-b4cc-6045bdc29378",
+        "location": "Canberra, ACT",
+        "purposeForWhichOwned": "Residential"
+      },
+      {
+        "id": "09d276d6-897d-f011-b4cc-6045bdc29378",
+        "location": "Marmion, WA",
+        "purposeForWhichOwned": "Lent a friend money to buy so I am a joint owner on the title but derive no rental income or benefit until they sell"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-10T08:00:00Z",
+        "details": "Name of company: DP Independent Pty Ltd. Activities of company: Political party.",
+        "id": "5eba4916-ecc0-f011-bbd3-6045bdc2987e"
+      }
+    ],
+    "interests": [
+      {
+        "activitiesOfCompany": "Share investment & Agriculture",
+        "id": "9c48c2e2-897d-f011-b4cc-6045bdc29378",
+        "nameOfCompany": "David Pocock Pty Ltd"
+      },
+      {
+        "activitiesOfCompany": "Agriculture",
+        "id": "b8f2dbe8-897d-f011-b4cc-6045bdc29378",
+        "nameOfCompany": "Chamkoto Farming Private Limited"
+      }
+    ]
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "2e90bcfc-897d-f011-b4cc-6045bdc29378",
+        "nameOfBankInstitution": "Bank Australia",
+        "natureOfAccount": "Savings"
+      },
+      {
+        "id": "4890bcfc-897d-f011-b4cc-6045bdc29378",
+        "nameOfBankInstitution": "Commonwealth Bank",
+        "natureOfAccount": "Savings"
+      },
+      {
+        "id": "cc3f0d03-8a7d-f011-b4cc-6045bdc29378",
+        "nameOfBankInstitution": "Netwealth",
+        "natureOfAccount": "Investment"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Australian Capital Territory",
+    "id": "959c978f-897d-f011-b4cc-6045bdc29378",
+    "lastDateUpdated": "7/24/2026 10:13:05 AM",
+    "lodgementDate": "8/19/2025 12:00:00 AM",
+    "publishNotes": true,
+    "senatorName": "Pocock, David",
+    "senatorParty": "Independent",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\"><span data-teams=\"true\">Note: The trusts in which Senator Pocock holds a beneficial interest (under item (2)(i)) were included in his full statement of interests, lodged on 19 August 2025. Due to an administrative error on the part of the Registrar, the trusts were not published on the statement and were included as additions, dated 10 November 2025 to rectify the issue.</span></p></div>"
+  },
+  "shareHoldings": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-01-22T23:00:00Z",
+        "details": "Shares held in David Pocock Pty Ltd: Beta shares Australia Sustainability Leaders ETF; Coolabah Short Term Income Fund; Janus Henderson Tactical Income fund; Lazard Global Listed Infrastructure; BetaShares Global Sustainability Leaders ETF; Candriam Global Sustainability Fund; Janus Henderson Global Sustainable Equity Fund; Vanguard Ethically Conscious Int Shares Index Fund; Janus Henderson Sustainable Credit Fund; Vanguard Ethically Conscious Global Aggragated Bond Index Fund; Vanguard Growth Index Fund; Barbell Biltong Pty Ltd; Gather By Group Pty Ltd",
+        "id": "aaf7b0aa-f7f7-f011-8406-6045bdc3f4ad"
+      }
+    ],
+    "interests": [
+      {
+        "id": "31c278a3-897d-f011-b4cc-6045bdc29378",
+        "nameOfCompany": "David Pocock Pty Ltd"
+      },
+      {
+        "id": "f43171a9-897d-f011-b4cc-6045bdc29378",
+        "nameOfCompany": "Chamkoto Farming Pvt Ltd"
+      }
+    ]
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-10T07:30:00Z",
+        "details": "Item 2(i): Name of trust/nominee company: Pocock Family Trust. Nature of operation: Inactive. Beneficial interest: Joint beneficiary.",
+        "id": "799a21d4-ebc0-f011-bbd3-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-10T08:00:00Z",
+        "details": "Item 2(ii): Name of trust/nominee company: Pocock family trust. Nature of its operation: Inactive. Beneficiary of trust: Spouse.",
+        "id": "1c4544f8-ebc0-f011-bbd3-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-10T07:00:00Z",
+        "details": "Item 2(i): Name of trust: David Pocock Pty Ltd. Nature of operation: Share investment and conservation property. Beneficial interest: Joint beneficiary.",
+        "id": "e82b4fe5-f4c0-f011-bbd3-6045bdc2987e"
+      }
+    ],
+    "interests": [
+      {
+        "id": "19780ebc-897d-f011-b4cc-6045bdc29378",
+        "interest": "Spouse",
+        "nameOfCompany": "David Pocock Pty Ltd",
+        "nature": "Share investment",
+        "type": "trustee"
+      }
+    ]
+  },
+  "wasSuccessful": true
+}

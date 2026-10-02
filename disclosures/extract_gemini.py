@@ -649,13 +649,14 @@ def extract_pdfs(paths: Sequence[str | Path], *, client: Any = None, model: str 
 
 # --------------------------------------------------------------------------- CLI
 
-SOURCES = ("gemini",)
+SOURCES = ("gemini", "senate-json")
 PROVIDERS = ("auto", "gemini", "openrouter")
 
 
 def add_arguments(p: argparse.ArgumentParser) -> None:
     p.add_argument("--source", required=True, choices=SOURCES,
-                   help="extractor (the workflow-claude arm runs as a Claude Code Workflow, not here)")
+                   help="extractor: gemini (LLM) or senate-json (the Senate API adapter, no LLM; takes "
+                        "pdfs/senate/<p>/*.json); the workflow-claude arm runs as a Workflow")
     p.add_argument("--provider", default="auto", choices=PROVIDERS,
                    help="transport: gemini = google-genai SDK (AI Studio key); openrouter = OpenRouter "
                         "(OPENROUTER_KEY). auto (default) = openrouter if OPENROUTER_KEY is set, else gemini")
@@ -691,6 +692,14 @@ def add_arguments(p: argparse.ArgumentParser) -> None:
 def run(args: argparse.Namespace, client: Any = None, env=None, http: Any = None) -> int:
     """``client`` injects a google-genai client (tests); ``http`` injects an httpx.Client for
     the OpenRouter transport (tests); ``env`` replaces os.environ (and skips .env.local)."""
+    if args.source == "senate-json":
+        from pathlib import Path as _Path
+
+        from .senate import adapt_paths
+
+        out_root = getattr(args, "out_root", None)
+        return adapt_paths(args.pdfs, out_root=_Path(out_root) if out_root else None,
+                           force=args.force)
     from .openrouter import (OpenRouterBackend, default_source_id, resolve_openrouter_key,
                              resolve_openrouter_model)
 

@@ -1,0 +1,170 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfGifts": "Foxtel Subscription - Electorate Office",
+        "id": "ee4eb25b-e870-f011-b4cd-0022489727de"
+      },
+      {
+        "detailOfGifts": "Complimentary Membership - Qantas Chairman's Lounge",
+        "id": "fe4eb25b-e870-f011-b4cd-0022489727de"
+      },
+      {
+        "detailOfGifts": "Complimentary Membership - The Club Virgin Australia",
+        "id": "004fb25b-e870-f011-b4cd-0022489727de"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "Bankwest",
+        "id": "044fb25b-e870-f011-b4cd-0022489727de",
+        "natureOfLiability": "Mortgage on Investment/Residential Property"
+      },
+      {
+        "creditor": "Bankwest",
+        "id": "0b4fb25b-e870-f011-b4cd-0022489727de",
+        "natureOfLiability": "Mortgage on Investment Property"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "0e4fb25b-e870-f011-b4cd-0022489727de",
+        "nameOfOrganisation": "Australian Labor Party - Donor"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "104fb25b-e870-f011-b4cd-0022489727de",
+        "nameOfOtherAsset": "TWU Superannuation Account"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "1a4fb25b-e870-f011-b4cd-0022489727de",
+        "natureOfInterest": "Member TWU WA Branch"
+      },
+      {
+        "id": "204fb25b-e870-f011-b4cd-0022489727de",
+        "natureOfInterest": "Medibank Private"
+      }
+    ]
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "234fb25b-e870-f011-b4cd-0022489727de",
+        "location": "Kardinya WA",
+        "purposeForWhichOwned": "Residential"
+      },
+      {
+        "id": "254fb25b-e870-f011-b4cd-0022489727de",
+        "location": "Kingston ACT",
+        "purposeForWhichOwned": "Residential/Investment"
+      },
+      {
+        "id": "274fb25b-e870-f011-b4cd-0022489727de",
+        "location": "Kingston ACT",
+        "purposeForWhichOwned": "Investment"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "294fb25b-e870-f011-b4cd-0022489727de",
+        "nameOfBankInstitution": "Westpac",
+        "natureOfAccount": "2 X Joint Savings Accounts"
+      },
+      {
+        "id": "2a4fb25b-e870-f011-b4cd-0022489727de",
+        "nameOfBankInstitution": "Bankwest",
+        "natureOfAccount": "Joint Savings Account"
+      },
+      {
+        "id": "2b4fb25b-e870-f011-b4cd-0022489727de",
+        "nameOfBankInstitution": "Bankwest",
+        "natureOfAccount": "Savings Account"
+      },
+      {
+        "id": "2c4fb25b-e870-f011-b4cd-0022489727de",
+        "nameOfBankInstitution": "Westpac",
+        "natureOfAccount": "Credit Card"
+      },
+      {
+        "id": "2f4fb25b-e870-f011-b4cd-0022489727de",
+        "nameOfBankInstitution": "American Express",
+        "natureOfAccount": "Credit Card"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Western Australia",
+    "id": "dd4eb25b-e870-f011-b4cd-0022489727de",
+    "lastDateUpdated": "3/30/2026 4:30:36 PM",
+    "lodgementDate": "7/28/2025 11:05:52 AM",
+    "publishNotes": false,
+    "senatorName": "Sterle, Glenn",
+    "senatorParty": "Australian Labor Party",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-26T21:00:00Z",
+        "details": "Travel to Bangkok (18/11/25 - 21/11/25) which included airfares, accommodation and hospitality to open 4 Season Co’s latest supplement warehouse provided by 4 Season Company Pty Ltd.",
+        "id": "d4fdd04d-06cf-f011-8544-00224898b4a7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-30T05:30:00Z",
+        "details": "Accommodation and Hospitality supplied by Victorian Transport Association to attend their state conference on Sunday 22 March at Silverwater Resort San Remo",
+        "id": "e7d1171e-fb2b-f111-88b3-6045bdc3fcd7"
+      }
+    ],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

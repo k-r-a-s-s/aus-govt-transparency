@@ -1,0 +1,191 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfGifts": "Virgin Membership joined before being elected",
+        "id": "3d802295-be7c-f011-b4cc-6045bdc29378"
+      },
+      {
+        "detailOfGifts": "Qantas Membership joined before being elected",
+        "id": "1e070f8f-1487-f011-b4cc-6045bdc29378"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": [
+      {
+        "bodyOfWhichInvestmentIsHeld": "Australian Super\nCSC",
+        "id": "3f802295-be7c-f011-b4cc-6045bdc29378",
+        "typeOfInvestment": "Superannuation"
+      }
+    ]
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "Westpac",
+        "id": "41802295-be7c-f011-b4cc-6045bdc29378",
+        "natureOfLiability": "2 mortgages"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "06c8e70c-1512-f111-8406-00224810b694",
+        "nameOfOrganisation": "Tasmanian Labor Party"
+      },
+      {
+        "id": "43802295-be7c-f011-b4cc-6045bdc29378",
+        "nameOfOrganisation": "Australian Labor Party"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "45802295-be7c-f011-b4cc-6045bdc29378",
+        "nameOfOtherAsset": "Boat"
+      },
+      {
+        "id": "80c1f3b6-1487-f011-b4cc-6045bdc29378",
+        "nameOfOtherAsset": "Caravan"
+      },
+      {
+        "id": "f2365bbe-1487-f011-b4cc-6045bdc29378",
+        "nameOfOtherAsset": "Jewellery"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "47802295-be7c-f011-b4cc-6045bdc29378",
+        "nameOfIncome": "Rental income"
+      }
+    ]
+  },
+  "otherInterest": {
+    "alterations": [
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2025-11-16T21:00:00Z",
+        "details": "I no longer have a share in a horse.",
+        "id": "c0ec031c-ccc4-f011-bbd3-6045bdc2987e"
+      }
+    ],
+    "interests": [
+      {
+        "id": "49802295-be7c-f011-b4cc-6045bdc29378",
+        "natureOfInterest": "I have shares in a race horse"
+      }
+    ]
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "4a802295-be7c-f011-b4cc-6045bdc29378",
+        "location": "Launceston\nCanberra\nLaunceston",
+        "purposeForWhichOwned": "residence"
+      },
+      {
+        "id": "07b57eb4-6a8f-f011-b4cb-6045bde4956c",
+        "location": "Canberra",
+        "purposeForWhichOwned": "investment"
+      },
+      {
+        "id": "2f226dc0-6a8f-f011-b4cb-6045bde4956c",
+        "location": "Launceston",
+        "purposeForWhichOwned": "investment"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "4c802295-be7c-f011-b4cc-6045bdc29378",
+        "nameOfBankInstitution": "Westpac",
+        "natureOfAccount": "Mortgage\ncredit card\n3 work accounts\njoint account \n"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Tasmania",
+    "id": "38802295-be7c-f011-b4cc-6045bdc29378",
+    "lastDateUpdated": "5/7/2026 9:45:27 AM",
+    "lodgementDate": "8/15/2025 2:00:00 PM",
+    "publishNotes": false,
+    "senatorName": "Polley, Helen",
+    "senatorParty": "Australian Labor Party",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "4d802295-be7c-f011-b4cc-6045bdc29378",
+        "nameOfCompany": "Mystate"
+      }
+    ]
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-16T21:00:00Z",
+        "details": "29/9/25 - 1/10/25 Accommodation, meals & hospitality -  Caravanning Industry of Australia - Kununurra",
+        "id": "39600b16-ccc4-f011-bbd3-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-16T08:00:00Z",
+        "details": "airfares Melbourne to Dubai 16 September 2023\nReturn Dubai to Melbourne 22 September 2023\nAccommodation 16 September 2023 - 22 September 2023\nMeals 16 September 2023 - 22 September 2023\nEmbassy of the UAE",
+        "id": "63dd3e37-c07c-f011-b4cc-6045bdc323b4"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-05-07T08:00:00Z",
+        "details": "26 April 2026 - 3 May 2026\nFlights, accommodation and hospitality in Taiwan\nTaipei Economic & Cultural Office in Australia",
+        "id": "fa95e0af-6b4a-f111-bec6-6045bdc3f4ad"
+      }
+    ],
+    "interests": [
+      {
+        "detailOfTravelHospitality": "Foxtel EO",
+        "id": "4f802295-be7c-f011-b4cc-6045bdc29378"
+      },
+      {
+        "detailOfTravelHospitality": "upgrade to Qantas Membership to Chairman Lounge & Virgin upgraded to Platinum",
+        "id": "51802295-be7c-f011-b4cc-6045bdc29378"
+      },
+      {
+        "detailOfTravelHospitality": "15-18 May 2025 Accommodation, meals and hospitality - Caravanning Industry National Conference, Benowa QLd- Guest Speaker",
+        "id": "d9f8175f-1487-f011-b4cc-6045bdc29378"
+      }
+    ]
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

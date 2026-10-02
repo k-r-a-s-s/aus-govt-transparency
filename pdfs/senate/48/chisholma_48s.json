@@ -1,0 +1,270 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfGifts": "Foxtel subscription - Electorate Office",
+        "id": "d5839ced-bc7c-f011-b4cc-6045bdc323b4"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "NAB",
+        "id": "da839ced-bc7c-f011-b4cc-6045bdc323b4",
+        "natureOfLiability": "Mortgage on residential property joint with spouse "
+      },
+      {
+        "creditor": "Commonwealth Bank",
+        "id": "dc839ced-bc7c-f011-b4cc-6045bdc323b4",
+        "natureOfLiability": "Credit cards x 2 joint with spouse"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "de839ced-bc7c-f011-b4cc-6045bdc323b4",
+        "nameOfOrganisation": "Membership Australian Workers Union"
+      },
+      {
+        "id": "e0839ced-bc7c-f011-b4cc-6045bdc323b4",
+        "nameOfOrganisation": "Membership Australian Labor Party"
+      },
+      {
+        "id": "e5839ced-bc7c-f011-b4cc-6045bdc323b4",
+        "nameOfOrganisation": "Member & doner - NIRAN"
+      },
+      {
+        "id": "e8839ced-bc7c-f011-b4cc-6045bdc323b4",
+        "nameOfOrganisation": "Member & Doner - St Vincent de Paul"
+      },
+      {
+        "id": "ea839ced-bc7c-f011-b4cc-6045bdc323b4",
+        "nameOfOrganisation": "Member - Brisbane Broncos"
+      },
+      {
+        "id": "ec839ced-bc7c-f011-b4cc-6045bdc323b4",
+        "nameOfOrganisation": "Member - Carlton Football Club"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "ee839ced-bc7c-f011-b4cc-6045bdc323b4",
+        "nameOfOtherAsset": "Aust Retirement Trust Superannuation account"
+      },
+      {
+        "id": "f0839ced-bc7c-f011-b4cc-6045bdc323b4",
+        "nameOfOtherAsset": "Mortgage Insurance joint with spouse - Australian Life"
+      },
+      {
+        "id": "f2839ced-bc7c-f011-b4cc-6045bdc323b4",
+        "nameOfOtherAsset": "2022 Toyota Rav 4 joint with spouse"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "f4839ced-bc7c-f011-b4cc-6045bdc323b4",
+        "natureOfInterest": "Medibank Policy Holder"
+      }
+    ]
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "f5839ced-bc7c-f011-b4cc-6045bdc323b4",
+        "location": "Wavell Heights",
+        "purposeForWhichOwned": "Residential joint with spouse"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "f7839ced-bc7c-f011-b4cc-6045bdc323b4",
+        "nameOfBankInstitution": "Commonwealth Bank",
+        "natureOfAccount": "Savings account joint with spouse"
+      },
+      {
+        "id": "f8839ced-bc7c-f011-b4cc-6045bdc323b4",
+        "nameOfBankInstitution": "Commonwealth Bank",
+        "natureOfAccount": "Savings account joint with spouse"
+      },
+      {
+        "id": "f9839ced-bc7c-f011-b4cc-6045bdc323b4",
+        "nameOfBankInstitution": "NAB",
+        "natureOfAccount": "Savings account joint with spouse"
+      },
+      {
+        "id": "fa839ced-bc7c-f011-b4cc-6045bdc323b4",
+        "nameOfBankInstitution": "Macquarie Bank",
+        "natureOfAccount": "Savings account joint with spouse"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Queensland",
+    "id": "ca839ced-bc7c-f011-b4cc-6045bdc323b4",
+    "lastDateUpdated": "8/30/2026 2:22:14 PM",
+    "lodgementDate": "8/18/2025 11:57:47 AM",
+    "publishNotes": false,
+    "senatorName": "Chisholm, Anthony",
+    "senatorParty": "Australian Labor Party",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator the Hon.",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-03T08:00:00Z",
+        "details": "4 x tickets and hospitality to NRL Magic Round Day 2 on Saturday 16 May 2026, Suncorp Stadium, Brisbane, Queensland courtesy of NRL\n",
+        "id": "71c785c7-df5f-f111-a826-00224810b694"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-01T02:30:00Z",
+        "details": "4 x tickets and hospitality at Victoria Derby Day on Saturday 1 November 2025 at Flemington Racecourse, Melbourne, guest of Tabcorp",
+        "id": "7aa32050-42cf-f011-8544-00224892514c"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-23T21:00:00Z",
+        "details": "2 x tickets and hospitality to the AFL Second Semi Final Brisbane Lions vs Gold Coast Suns on Saturday 13 September 2025 at The Gabba, Brisbane, QLD, guest of AFL",
+        "id": "f644e1a7-8db0-f011-bbd2-00224898b4a7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-23T21:00:00Z",
+        "details": "2 x tickets and hospitality to the NRL Final Series - NRLW Brisbane Broncos vs Newcastle Knights and NRL Brisbane Broncos vs Penrith Panthers on Sunday 28 September 2025 at Suncorp Stadium, Brisbane, QLD, guest of NRL",
+        "id": "0445e1a7-8db0-f011-bbd2-00224898b4a7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-08-29T22:00:00Z",
+        "details": "6 x Tickets and Hospitality to AFL Round 20, Adelaide Crows vs Collingwood on Thursday 23 July 2026 at The Adelaide Oval, Adelaide - Courtesy of the Adelaide Crows. ",
+        "id": "9867c58d-f1a4-f111-b8de-6045bdc2f293"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-08-29T22:30:00Z",
+        "details": "2 x Tickets and Hospitality to NRL Round 26, Broncos vs Storm on Thursday 27 August 2026 at Suncorp Stadium Brisbane - Courtesy of The Brisbane Broncos.",
+        "id": "9e67c58d-f1a4-f111-b8de-6045bdc2f293"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-05-29T08:00:00Z",
+        "details": "2 x tickets and hospitality at AFL Round 9, Brisbane Lions vs Carlton on Saturday 8 May 2026 at the Gabba, Brisbane, courtesy of Brisbane Lions",
+        "id": "ea1852f6-275b-f111-bec7-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-03T01:00:00Z",
+        "details": "4 x tickets and hospitality to TAB Magic Millions Race Day on 17 January 2026, Gold Coast, Queensland, guest of Tabcorp",
+        "id": "123d8744-a200-f111-8406-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-27T07:00:00Z",
+        "details": "2 x tickets and hospitality to AFL March, Brisbane Lions vs Western Bulldogs, on Saturday 7 March 2026 at The Gabba, Brisbane, courtesy of Brisbane Lions",
+        "id": "f3798767-b72b-f111-88b3-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-22T08:00:00Z",
+        "details": "1 x ticket and hospitality to Federal Press Gallery Mid-Winter Ball, APH Canberra on Wednesday 27 August 2025, guest of Lion",
+        "id": "9609d591-1299-f011-b41b-6045bde4956c"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-19T01:00:00Z",
+        "details": "2 x ticket and hospitality at Day 3 of the NRMA Insurance Ashes Day-Night Test between Australia and England at The Gabba, Brisbane, Queensland on Saturday 6 December 2025, guest of Cricket Australia",
+        "id": "8def67ae-e0e9-f011-8544-6045bde589eb"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-01-13T02:30:00Z",
+        "details": "1 x ticket and hospitality to AC/DC Concert on 14 December 2025 at Suncorp Stadium, Brisbane, Queensland, guest of Anacta",
+        "id": "76683570-e5f0-f011-8407-6045bde5f32c"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-19T08:00:00Z",
+        "details": "2 x tickets and hospitality at Queensland Cricket Foundation Race Day, Eagle Farm, Brisbane on Saturday 19 July 2025, guest of Queensland Cricket",
+        "id": "ca12b5d3-ce7c-f011-b4cb-7c1e522a62fa"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-19T08:00:00Z",
+        "details": "2 x tickets and hospitality for Brisbane Broncos vs Parramatta Eels at Suncorp Stadium, Brisbane on Friday 25 July 2025, guest of Brisbane Broncos",
+        "id": "e112b5d3-ce7c-f011-b4cb-7c1e522a62fa"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-19T08:00:00Z",
+        "details": "2 x tickets and hospitality for British & Irish Lions tour match against the Wallabies at Suncorp Stadium, Brisbane on 19 July 2025, guest of Diageo Australia",
+        "id": "ea12b5d3-ce7c-f011-b4cb-7c1e522a62fa"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-04-20T08:00:00Z",
+        "details": "2 x tickets and hospitality for Round 5 of the 2026 Telstra NRL Premiership Season, Gold Coast Titans vs Brisbane Broncos, on Saturday 4 April 2026 at Robina, QLD, guest of Gold Coast Titans",
+        "id": "2c36d726-723c-f111-88b4-7ced8da1c86f"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-07-03T04:00:00Z",
+        "details": "2 x tickets and hospitality to Ladbrokes Stradbroke Day Committee Function on Saturday 13 June 2026 at Eagle Farm Racecourse, Brisbane, QLD, guest of Brisbane Racing Club",
+        "id": "a81a36bb-9476-f111-ab0f-7ced8da1c86f"
+      }
+    ],
+    "interests": [
+      {
+        "detailOfTravelHospitality": "Virgin Australia Beyond Membership",
+        "id": "fb839ced-bc7c-f011-b4cc-6045bdc323b4"
+      },
+      {
+        "detailOfTravelHospitality": "Qantas Chairmans Lounge membership",
+        "id": "fd839ced-bc7c-f011-b4cc-6045bdc323b4"
+      }
+    ]
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

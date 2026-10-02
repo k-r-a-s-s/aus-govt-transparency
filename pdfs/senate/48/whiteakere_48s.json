@@ -1,0 +1,134 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": []
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-04-24T08:00:00Z",
+        "details": "Mortgage on Canberra residence, Beyond Bank ",
+        "id": "d8a10631-9042-f111-88b4-6045bdc3f4ad"
+      }
+    ],
+    "interests": [
+      {
+        "creditor": "Beyond Bank Australia",
+        "id": "b1bbd2e6-ca7b-f011-b4cc-6045bdc323b4",
+        "natureOfLiability": "Mortgage on residential property "
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "b4bbd2e6-ca7b-f011-b4cc-6045bdc323b4",
+        "nameOfOrganisation": "Member and Donor - Australian Labor Party (Western Australian Branch)"
+      },
+      {
+        "id": "b9bbd2e6-ca7b-f011-b4cc-6045bdc323b4",
+        "nameOfOrganisation": "Member - Australian Manufacturing Workers Union"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "bdbbd2e6-ca7b-f011-b4cc-6045bdc323b4",
+        "nameOfOtherAsset": "Arrowstreet Global Equity Fund - Macquarie Investment Management Australia Limited"
+      },
+      {
+        "id": "c1bbd2e6-ca7b-f011-b4cc-6045bdc323b4",
+        "nameOfOtherAsset": "Superannuation, life insurance and TPD insurance - Australian Super "
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "c3bbd2e6-ca7b-f011-b4cc-6045bdc323b4",
+        "natureOfInterest": "Qantas Chairman's Lounge Membership"
+      }
+    ]
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-04-24T08:00:00Z",
+        "details": "Canberra residence, Griffith ACT",
+        "id": "b71bb82a-9042-f111-88b4-6045bdc3f4ad"
+      }
+    ],
+    "interests": [
+      {
+        "id": "c4bbd2e6-ca7b-f011-b4cc-6045bdc323b4",
+        "location": "Beeliar, Western Australia",
+        "purposeForWhichOwned": "Residential"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "c8bbd2e6-ca7b-f011-b4cc-6045bdc323b4",
+        "nameOfBankInstitution": "Beyond Bank Australia",
+        "natureOfAccount": "Transaction and Savings Accounts x 5"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Western Australia",
+    "id": "98bbd2e6-ca7b-f011-b4cc-6045bdc323b4",
+    "lastDateUpdated": "4/28/2026 9:25:09 AM",
+    "lodgementDate": "8/14/2025 12:48:27 PM",
+    "publishNotes": false,
+    "senatorName": "Whiteaker, Ellie",
+    "senatorParty": "Australian Labor Party",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-04-24T08:00:00Z",
+        "details": "Pilbara Familiarisation Tour, accomodation, flights and meals - Chamber of Minerals and Energy WA. ",
+        "id": "dda10631-9042-f111-88b4-6045bdc3f4ad"
+      }
+    ],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

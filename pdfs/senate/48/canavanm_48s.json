@@ -1,0 +1,188 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-22T07:00:00Z",
+        "details": "10 x mounted pieces of coal provided by Bravus Mining and Resources ",
+        "id": "e90dd9fe-e0e9-f011-8544-7ced8d34843b"
+      }
+    ],
+    "interests": []
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "Commonwealth Bank ",
+        "id": "cf15dfcb-ce7c-f011-b4cc-6045bdc2966c",
+        "natureOfLiability": "Mortgage on principal residence"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "d115dfcb-ce7c-f011-b4cc-6045bdc2966c",
+        "nameOfOrganisation": "Private donation - Capricorn Coast Football Club "
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "d315dfcb-ce7c-f011-b4cc-6045bdc2966c",
+        "nameOfOtherAsset": "Superannuation - Australian Super; SmartMonday PRIME TESF"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "d515dfcb-ce7c-f011-b4cc-6045bdc2966c",
+        "natureOfInterest": "Member - Liberal National Party (LNP) Queensland "
+      },
+      {
+        "id": "d615dfcb-ce7c-f011-b4cc-6045bdc2966c",
+        "natureOfInterest": "Member - Institute of Public Affairs (IPA) "
+      },
+      {
+        "id": "d715dfcb-ce7c-f011-b4cc-6045bdc2966c",
+        "natureOfInterest": "Member - Cherish Life QLD"
+      },
+      {
+        "id": "d815dfcb-ce7c-f011-b4cc-6045bdc2966c",
+        "natureOfInterest": "Member - Australian Parliament Sports Club "
+      },
+      {
+        "id": "d915dfcb-ce7c-f011-b4cc-6045bdc2966c",
+        "natureOfInterest": "Member - Parliamentary Branch, Commonwealth Parliamentary Association"
+      },
+      {
+        "id": "da15dfcb-ce7c-f011-b4cc-6045bdc2966c",
+        "natureOfInterest": "Chairman's Lounge membership provided by Qantas "
+      },
+      {
+        "id": "db15dfcb-ce7c-f011-b4cc-6045bdc2966c",
+        "natureOfInterest": "Beyond Lounge membership provided by Virgin Australia "
+      },
+      {
+        "id": "dc15dfcb-ce7c-f011-b4cc-6045bdc2966c",
+        "natureOfInterest": "Complimentary annual subscription provided by Foxtel for Electorate Office"
+      }
+    ]
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "dd15dfcb-ce7c-f011-b4cc-6045bdc2966c",
+        "location": "Yeppoon, QLD",
+        "purposeForWhichOwned": "Principal residence"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "e015dfcb-ce7c-f011-b4cc-6045bdc2966c",
+        "nameOfBankInstitution": "Commonwealth Bank ",
+        "natureOfAccount": "Savings"
+      },
+      {
+        "id": "e115dfcb-ce7c-f011-b4cc-6045bdc2966c",
+        "nameOfBankInstitution": "Coin Spot",
+        "natureOfAccount": "Savings "
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Queensland",
+    "id": "ca15dfcb-ce7c-f011-b4cc-6045bdc2966c",
+    "lastDateUpdated": "9/7/2026 3:55:12 PM",
+    "lodgementDate": "8/19/2025 3:16:31 PM",
+    "publishNotes": false,
+    "senatorName": "Canavan, Matthew",
+    "senatorParty": "The Nationals",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator the Hon.",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-22T05:30:00Z",
+        "details": "One night's accommodation in Dubbo on 29 November 2025 was provided by Jamie Chaffey MP",
+        "id": "457f77fa-e0e9-f011-8544-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-22T06:00:00Z",
+        "details": "One night's accommodation in Wauchope on 6 December 2025 was provided by Alison Penfold MP",
+        "id": "4a7f77fa-e0e9-f011-8544-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-22T06:30:00Z",
+        "details": "Two night's accommodation in Adelaide on 15 and 16 December 2025 was provided by the South Australian Liberal Party ",
+        "id": "507f77fa-e0e9-f011-8544-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-09-06T22:00:00Z",
+        "details": "Two tickets provided by Brisbane Broncos to attend Broncos v Dolphins at Suncorp Stadium, Brisbane 8th August 2026",
+        "id": "1644fe37-74aa-f111-aaac-6045bdc2f293"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-01-16T05:00:00Z",
+        "details": "Cricket Australia provided two (2) B Reserve tickets to Day 1 (Sunday 4 January 2026) of the Fifth Ashes Test between Australia and England in Sydney ",
+        "id": "9045ee91-d3f4-f011-8406-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-10T10:00:00Z",
+        "details": "Two corporate and two general admission tickets were provided by the Brisbane Broncos to attend the 2025 NRLW and NRL preliminary final at Suncorp Stadium on 28 September 2025 ",
+        "id": "f515ce58-a4a8-f011-bbd3-6045bde49b50"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-08-04T22:00:00Z",
+        "details": "Two tickets provided by FIFA to attend a Quarter Finals Game in Los Angeles on 10th July 2026",
+        "id": "8ef5677c-8f90-f111-8076-70a8a553fe6c"
+      }
+    ],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

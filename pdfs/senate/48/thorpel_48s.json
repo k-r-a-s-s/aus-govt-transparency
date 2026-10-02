@@ -1,0 +1,125 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-23T13:00:00Z",
+        "details": "Artwork (Blueprint Methodology) — Bradley Webb",
+        "id": "a683adf8-5b6f-f111-ab0d-6045bdc3fcd7"
+      }
+    ],
+    "interests": [
+      {
+        "detailOfGifts": "Qantas Chairman's Club membership",
+        "id": "6a2c2407-cf7c-f011-b4cc-7c1e5262c1f2"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "Bank Australia",
+        "id": "6c2c2407-cf7c-f011-b4cc-7c1e5262c1f2",
+        "natureOfLiability": "Mortgage on Residential Property"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "6e2c2407-cf7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOtherAsset": "Superannuation account"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "702c2407-cf7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfIncome": "Fellowship for Indigenous Leadership Legacy Grant for international travel to the UN in Geneva"
+      }
+    ]
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "722c2407-cf7c-f011-b4cc-7c1e5262c1f2",
+        "natureOfInterest": "Membership - GLaWAC"
+      },
+      {
+        "id": "732c2407-cf7c-f011-b4cc-7c1e5262c1f2",
+        "natureOfInterest": "Membership - Eastern Maar Aboriginal Corporation"
+      },
+      {
+        "id": "742c2407-cf7c-f011-b4cc-7c1e5262c1f2",
+        "natureOfInterest": "Membership - Victorian Aboriginal Health Service"
+      }
+    ]
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "752c2407-cf7c-f011-b4cc-7c1e5262c1f2",
+        "location": "Preston, VIC",
+        "purposeForWhichOwned": "Residential"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "772c2407-cf7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfBankInstitution": "Bank Australia",
+        "natureOfAccount": "Savings account"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Victoria",
+    "id": "652c2407-cf7c-f011-b4cc-7c1e5262c1f2",
+    "lastDateUpdated": "6/23/2026 9:41:05 AM",
+    "lodgementDate": "8/19/2025 11:11:37 AM",
+    "publishNotes": false,
+    "senatorName": "Thorpe, Lidia",
+    "senatorParty": "Independent",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

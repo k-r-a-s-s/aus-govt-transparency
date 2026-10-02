@@ -1,0 +1,228 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-24T14:30:00Z",
+        "details": "Following cancellation of my Qantas economy class Canberra to Melbourne flight on 29 May 2026, I was moved to the next flight in the same class rather than to business. Upon discovering the error immediately prior to departure when there wasn't time to fix the booking, Qantas provided a complimentary upgrade to business.  ",
+        "id": "6097c013-1c70-f111-ab0d-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-07-02T04:30:00Z",
+        "details": "One ticket to the Mid Winter Ball event provided by Commercial Radio and Audio Limited, held at Parliament House Canberra on 1 July 2026.",
+        "id": "79911563-d075-f111-ab0f-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-05-16T08:00:00Z",
+        "details": "2 tickets to The Pivots function and match, Geelong Cats v North Melbourne, GMHBA Stadium, 2 May 2026 provided by Geelong Football Club.",
+        "id": "50304b4d-4553-f111-bec7-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-05-11T08:00:00Z",
+        "details": "1 ticket to President's Dinner and match, GMHBA Stadium, Geelong Cats v Western Bulldogs, 17 April 2026 provided by Geelong Football Club.",
+        "id": "395d5641-4553-f111-bec6-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-21T10:00:00Z",
+        "details": "Two tickets to the AFL Qualifying Final and Olympic Room function, Geelong v Brisbane, 5 September 2025, provided by the Geelong Football Club. ",
+        "id": "ff036222-6b97-f011-b41b-6045bde4956c"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-21T10:00:00Z",
+        "details": "Two tickets to the AFL Preliminary Final, Geelong v Hawthorn, 19 October 2025, provided by the AFL.",
+        "id": "11046222-6b97-f011-b41b-6045bde4956c"
+      }
+    ],
+    "interests": []
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "Mastercard, American Express",
+        "id": "78d77141-bd7c-f011-b4cc-6045bdc29378",
+        "natureOfLiability": "Credit cards"
+      },
+      {
+        "creditor": "Westpac",
+        "id": "5f536a47-bd7c-f011-b4cc-6045bdc29378",
+        "natureOfLiability": "Home loans (residential, investment)"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "61536a47-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfOrganisation": "Liberal Party of Australia (Victorian Division)"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "63536a47-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfOtherAsset": "Superannuation (SMH Superannuation Fund and Australian Super)"
+      },
+      {
+        "id": "65536a47-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfOtherAsset": "401(k) (Fidelity Investments)"
+      },
+      {
+        "id": "67536a47-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfOtherAsset": "Patscherkofel Lodge Mt Buller, membership"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "69536a47-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfIncome": "Investment property rental income"
+      }
+    ]
+  },
+  "otherInterest": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-01T06:30:00Z",
+        "details": "Victoria Racing Club, member",
+        "id": "fbbb752e-41cf-f011-8544-7ced8d34843b"
+      }
+    ],
+    "interests": [
+      {
+        "id": "6b536a47-bd7c-f011-b4cc-6045bdc29378",
+        "natureOfInterest": "Barwon Heads Golf Club, member"
+      },
+      {
+        "id": "6c536a47-bd7c-f011-b4cc-6045bdc29378",
+        "natureOfInterest": "Geelong Football Club, member"
+      },
+      {
+        "id": "6d536a47-bd7c-f011-b4cc-6045bdc29378",
+        "natureOfInterest": "Melbourne Cricket Club, member"
+      },
+      {
+        "id": "6e536a47-bd7c-f011-b4cc-6045bdc29378",
+        "natureOfInterest": "RACV Club, member"
+      },
+      {
+        "id": "6f536a47-bd7c-f011-b4cc-6045bdc29378",
+        "natureOfInterest": "Qantas Chairman's Lounge, member"
+      },
+      {
+        "id": "70536a47-bd7c-f011-b4cc-6045bdc29378",
+        "natureOfInterest": "The Club Virgin Australia, member"
+      }
+    ]
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "71536a47-bd7c-f011-b4cc-6045bdc29378",
+        "location": "Barwon Heads, Victoria",
+        "purposeForWhichOwned": "Residential"
+      },
+      {
+        "id": "73536a47-bd7c-f011-b4cc-6045bdc29378",
+        "location": "Canberra, ACT",
+        "purposeForWhichOwned": "Residential"
+      },
+      {
+        "id": "75536a47-bd7c-f011-b4cc-6045bdc29378",
+        "location": "Point Lonsdale, Victoria",
+        "purposeForWhichOwned": "Investment"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": [
+      {
+        "activitiesOfCompany": "Corporate trustee",
+        "id": "77536a47-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfCompany": "Kudos Management Group Pty Ltd"
+      }
+    ]
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "79536a47-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfBankInstitution": "Westpac",
+        "natureOfAccount": "Saving x 3, joint saving"
+      },
+      {
+        "id": "7a536a47-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfBankInstitution": "ING",
+        "natureOfAccount": "Saving"
+      },
+      {
+        "id": "7b536a47-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfBankInstitution": "Westpac",
+        "natureOfAccount": "Investment"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Victoria",
+    "id": "73d77141-bd7c-f011-b4cc-6045bdc29378",
+    "lastDateUpdated": "7/2/2026 3:00:17 PM",
+    "lodgementDate": "8/17/2025 2:00:00 PM",
+    "publishNotes": false,
+    "senatorName": "Henderson, Sarah",
+    "senatorParty": "Liberal Party of Australia",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator the Hon.",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "7c536a47-bd7c-f011-b4cc-6045bdc29378",
+        "interest": "Nil",
+        "nameOfCompany": "Kudos Management Group Trust",
+        "nature": "Dormant",
+        "type": "beneficiary"
+      },
+      {
+        "id": "7e536a47-bd7c-f011-b4cc-6045bdc29378",
+        "interest": "Self",
+        "nameOfCompany": "SMH Superannuation Fund Trust",
+        "nature": "Self-managed super fund",
+        "type": "beneficiary"
+      }
+    ]
+  },
+  "wasSuccessful": true
+}

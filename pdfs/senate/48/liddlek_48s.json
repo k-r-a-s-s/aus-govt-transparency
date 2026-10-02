@@ -1,0 +1,148 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": []
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": []
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "8e7fb697-e57b-f011-b4cc-6045bdc29378",
+        "nameOfOrganisation": "Donation Young Liberals South Australia "
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-28T15:00:00Z",
+        "details": "The Senator has a number of superannuation funds - none of which are are self-managed superannuation funds. ",
+        "id": "a2ca182f-c015-f111-8342-6045bdc25de2"
+      }
+    ],
+    "interests": []
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "967fb697-e57b-f011-b4cc-6045bdc29378",
+        "location": "Adelaide ",
+        "purposeForWhichOwned": "Residential "
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": [
+      {
+        "activitiesOfCompany": "Non trading ",
+        "id": "9a7fb697-e57b-f011-b4cc-6045bdc29378",
+        "nameOfCompany": "Penangke Pty Ltd "
+      }
+    ]
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "9c7fb697-e57b-f011-b4cc-6045bdc29378",
+        "nameOfBankInstitution": "Westpac",
+        "natureOfAccount": "Savings "
+      },
+      {
+        "id": "a47fb697-e57b-f011-b4cc-6045bdc29378",
+        "nameOfBankInstitution": "Westpac",
+        "natureOfAccount": "Savings "
+      },
+      {
+        "id": "a87fb697-e57b-f011-b4cc-6045bdc29378",
+        "nameOfBankInstitution": "Cash Management ",
+        "natureOfAccount": "Macquarie Bank "
+      },
+      {
+        "id": "a97fb697-e57b-f011-b4cc-6045bdc29378",
+        "nameOfBankInstitution": "Savings ",
+        "natureOfAccount": "Macquarie Bank "
+      },
+      {
+        "id": "aa7fb697-e57b-f011-b4cc-6045bdc29378",
+        "nameOfBankInstitution": "Savings ",
+        "natureOfAccount": "Peoples Choice "
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "South Australia",
+    "id": "887fb697-e57b-f011-b4cc-6045bdc29378",
+    "lastDateUpdated": "3/1/2026 10:29:58 AM",
+    "lodgementDate": "8/15/2025 11:47:25 AM",
+    "publishNotes": false,
+    "senatorName": "Liddle, Kerrynne",
+    "senatorParty": "Liberal Party of Australia",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "af7fb697-e57b-f011-b4cc-6045bdc29378",
+        "nameOfCompany": "Penangke Pty Ltd"
+      }
+    ]
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-31T22:00:00Z",
+        "details": "Qantas Chairman's Lounge Membership",
+        "id": "2ff632e6-1e87-f011-b4cc-002248962181"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-31T22:00:00Z",
+        "details": "Virgin Beyond Lounge Membership",
+        "id": "41f632e6-1e87-f011-b4cc-002248962181"
+      }
+    ],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "b77fb697-e57b-f011-b4cc-6045bdc29378",
+        "interest": "Family beneficiary ",
+        "nameOfCompany": "Liddle Sapio Family Trust ",
+        "nature": "Family Trust ",
+        "type": "beneficiary"
+      }
+    ]
+  },
+  "wasSuccessful": true
+}

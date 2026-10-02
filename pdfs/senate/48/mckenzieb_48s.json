@@ -1,0 +1,731 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-28T08:00:00Z",
+        "details": "Book the Dementia Guide & Lapel Pin - Gifted by Dementia Australia",
+        "id": "c1bf988c-9984-f011-b4cb-000d3ad253b4"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-28T08:00:00Z",
+        "details": "Recipe Book, Bookmark, Car Deodorant and  Swing Tag - Gifted by Heart Foundation",
+        "id": "cbbf988c-9984-f011-b4cb-000d3ad253b4"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-28T08:00:00Z",
+        "details": "Tennis Australia Magazine & Bottle of Piper-Heidsiek Bubbles - Gifted by Tennis Australia",
+        "id": "d0bf988c-9984-f011-b4cb-000d3ad253b4"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-28T08:00:00Z",
+        "details": "Catenary of CWA Tea Towel - Gifted by CWA NSW",
+        "id": "d5bf988c-9984-f011-b4cb-000d3ad253b4"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-28T08:00:00Z",
+        "details": "Cap - Gifted by Winchester",
+        "id": "dabf988c-9984-f011-b4cb-000d3ad253b4"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-28T08:00:00Z",
+        "details": "Personalised Bottle of VB Beer - Gifted by Australian Hotels Association (Victoria)",
+        "id": "dfbf988c-9984-f011-b4cb-000d3ad253b4"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-28T08:00:00Z",
+        "details": "Shortbread Biscuits, Jelly Beans & Gummy Bears - Gifted by Pharmacy Guild",
+        "id": "f0bf988c-9984-f011-b4cb-000d3ad253b4"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-28T08:00:00Z",
+        "details": "Bottle Salad Dressing, Pen, Water Tight Pouch and Pizza Jerky - Gifted by Amazon",
+        "id": "fbbf988c-9984-f011-b4cb-000d3ad253b4"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-01-14T01:30:00Z",
+        "details": "Bottle Veuve Clicquote Champagne - Gifted by Infrastructure Partnerships",
+        "id": "c9bddf1e-a2f1-f011-8407-00224898b4a7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-01-14T02:00:00Z",
+        "details": "2025 Desk Diary - Gifted by Australasian Institute of Policing",
+        "id": "b1fd1325-a2f1-f011-8407-00224898b4a7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-01-14T02:30:00Z",
+        "details": "Half Leg Ham - Gifted by Australian Pork",
+        "id": "b6fd1325-a2f1-f011-8407-00224898b4a7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-01-14T03:00:00Z",
+        "details": "Bottle of Muscat - Gifted by Campbell's Wines Rutherglen",
+        "id": "bbfd1325-a2f1-f011-8407-00224898b4a7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-01-14T03:30:00Z",
+        "details": "Menorah - Gifted by Rachel Jones",
+        "id": "c0fd1325-a2f1-f011-8407-00224898b4a7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-27T21:00:00Z",
+        "details": "Notebook, Pen and Book Man-Made Wonders of the World - Gifted by Engineers Australia",
+        "id": "804bd9c2-17b6-f011-bbd2-00224898b4a7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-28T02:00:00Z",
+        "details": "Book Voice for the Voiceless - His Holiness the Dalai Lama & Silk Scarf - Gifted by Young Tibetans - Australian Tibet Council",
+        "id": "864bd9c2-17b6-f011-bbd2-00224898b4a7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-27T21:00:00Z",
+        "details": "2 x Drink Bottles & 2 x Bottles of Lollies - Gifted by Drink Wise",
+        "id": "8b4bd9c2-17b6-f011-bbd2-00224898b4a7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-27T21:00:00Z",
+        "details": "Notepad and Pen - Gifted by Australasian Railway Association",
+        "id": "944bd9c2-17b6-f011-bbd2-00224898b4a7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-27T21:00:00Z",
+        "details": "Pen - Celebrating 70 years - Gifted by Bell Bay Aluminium (Rio Tinto)",
+        "id": "9a4bd9c2-17b6-f011-bbd2-00224898b4a7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-27T21:00:00Z",
+        "details": "Lanyard, Badge & Copper Samples - Gifted by Bob Katter MP",
+        "id": "a14bd9c2-17b6-f011-bbd2-00224898b4a7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-27T21:00:00Z",
+        "details": "2 x Bottles Single Malt Whisky and 2 x Bottles Red Wine - Gifted by Casella Wines",
+        "id": "aa4bd9c2-17b6-f011-bbd2-00224898b4a7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-24T22:30:00Z",
+        "details": "Lapel Pin Ribbon - Gifted by Epilepsy Action Australia",
+        "id": "deefcf30-d427-f111-8342-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-24T22:30:00Z",
+        "details": "Noble One Wine - Gifted by Australian Minerals Industry",
+        "id": "8ad8ce36-d427-f111-8342-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-24T22:30:00Z",
+        "details": "Box of Assorted Chocolates - Gifted by Christian Schools Australia ",
+        "id": "8fd8ce36-d427-f111-8342-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-24T22:30:00Z",
+        "details": "F1 T-shirt & Hat - Gifted by Engineers Australia",
+        "id": "94d8ce36-d427-f111-8342-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-19T07:30:00Z",
+        "details": "Gift Bag - Cupcakes, Nuts, Can Beer - Gifted by Business Council of Co-operatives & Mutuals",
+        "id": "fc74398d-d06d-f111-ab0d-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-19T07:30:00Z",
+        "details": "Bluetooth Mini Speaker - Gifted by Minerals Council",
+        "id": "0175398d-d06d-f111-ab0d-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-19T07:30:00Z",
+        "details": "Book - Strong Enough by Jane Rowan - Gifted by Eating Disorders Families Australia",
+        "id": "0675398d-d06d-f111-ab0d-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-19T07:30:00Z",
+        "details": "Toy Truck - Gifted by Minerals Council Australia",
+        "id": "0b75398d-d06d-f111-ab0d-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-19T07:30:00Z",
+        "details": "Cap - Gifted by Yenda Producers Co-Operative",
+        "id": "1075398d-d06d-f111-ab0d-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-19T07:30:00Z",
+        "details": "Bamboo Socks - Gifted by Mates",
+        "id": "1575398d-d06d-f111-ab0d-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-13T08:00:00Z",
+        "details": "Lapel Pin - Gifted by Rate Cancers",
+        "id": "f8643346-a478-f011-b4cb-6045bdc29378"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-13T08:00:00Z",
+        "details": "Pen, Tea Bag, Container of Lollies - Gifted by Monash University DNA Screen",
+        "id": "08653346-a478-f011-b4cb-6045bdc29378"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-13T08:00:00Z",
+        "details": "Tissues, Hand Sanitiser, Diary, Pens, Lip Balm, Coffee Cup with Lid & Medical Kit - Gifted by Pharmacy Guild",
+        "id": "0d653346-a478-f011-b4cb-6045bdc29378"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-13T08:00:00Z",
+        "details": "Coffee Cup and Tea Bag - Gifted by Embassy of Israel",
+        "id": "12653346-a478-f011-b4cb-6045bdc29378"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-13T08:00:00Z",
+        "details": "Biscuit - Gifted by Legacy",
+        "id": "19653346-a478-f011-b4cb-6045bdc29378"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-13T08:00:00Z",
+        "details": "Book Climate Change Truths by Dr Robert Ian Holmes & Brendan Godwin - Gifted by Climate Truths",
+        "id": "1e653346-a478-f011-b4cb-6045bdc29378"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-13T08:00:00Z",
+        "details": "Map of 48th Parliament - Gifted by Pharmacy Guild Australia",
+        "id": "2d653346-a478-f011-b4cb-6045bdc29378"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-13T08:00:00Z",
+        "details": "Brochure Holder, Brochures, Pens x 2, Stress Ball x 2, Bouncy Ball x 2 - Gifted by National Autism Helpline",
+        "id": "38653346-a478-f011-b4cb-6045bdc29378"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-13T08:00:00Z",
+        "details": "Book the Way to Happiness by Ron R Hubbard - Gifted by Harry Crawford",
+        "id": "3d653346-a478-f011-b4cb-6045bdc29378"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-13T08:00:00Z",
+        "details": "Lapel Pin x 2 - Gifted by Track Safe Foundation Australia",
+        "id": "42653346-a478-f011-b4cb-6045bdc29378"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-13T08:00:00Z",
+        "details": "Lapel Pin x 2 - Gifted by Bullying No Way - Department of Education",
+        "id": "47653346-a478-f011-b4cb-6045bdc29378"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-13T08:00:00Z",
+        "details": "Lapel Pin x 1 - Gifted by Women for Election",
+        "id": "59653346-a478-f011-b4cb-6045bdc29378"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-13T08:00:00Z",
+        "details": "Teddy Bear - Gifted by End Child Poverty",
+        "id": "5e653346-a478-f011-b4cb-6045bdc29378"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-30T21:00:00Z",
+        "details": "2025/26 Calendar - Gifted by Boeing",
+        "id": "052f0cf7-3fcf-f011-8544-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-30T21:30:00Z",
+        "details": "Bible - Gifted by Mission Australia",
+        "id": "0bed93fd-3fcf-f011-8544-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-30T22:00:00Z",
+        "details": "Laminated $2 Paper Note - Gifted by David Jochinke",
+        "id": "13ed93fd-3fcf-f011-8544-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-30T22:30:00Z",
+        "details": "Desk Calendar & Jelly Beans - Gifted by Pharmacy Guild",
+        "id": "1ded93fd-3fcf-f011-8544-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-30T22:30:00Z",
+        "details": "T-Shirt Zero Suicide Community Awareness Program - Gifted by Paul Withall",
+        "id": "27ed93fd-3fcf-f011-8544-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-30T23:30:00Z",
+        "details": "Book - Ghost Cities - Gifted by Copyright Agency",
+        "id": "31ed93fd-3fcf-f011-8544-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-01T00:00:00Z",
+        "details": "Plum Pudding - Gifted by CropLife",
+        "id": "3ded93fd-3fcf-f011-8544-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-01T00:30:00Z",
+        "details": "Lapel Pin - Gifted by Health Equity Matters",
+        "id": "46ed93fd-3fcf-f011-8544-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-01T01:00:00Z",
+        "details": "2026 Calendar - Gifted by So Brave",
+        "id": "4fed93fd-3fcf-f011-8544-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-01T01:30:00Z",
+        "details": "2026 Calendar - Gifted by He Mr Suzuki Kazuhiro Ambassador of Japan",
+        "id": "57ed93fd-3fcf-f011-8544-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-01T01:30:00Z",
+        "details": "First Aid Kit - Gifted by National Road Transport Authority",
+        "id": "63ed93fd-3fcf-f011-8544-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-01T02:00:00Z",
+        "details": "Notepad, Socks & Hot Chocolate - Gifted by Infrastructure Australia",
+        "id": "6ded93fd-3fcf-f011-8544-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-01T02:30:00Z",
+        "details": "Christmas Chocolate Cake - Gifted by Woolworths Group",
+        "id": "76ed93fd-3fcf-f011-8544-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-09T04:30:00Z",
+        "details": "Book The relentless War on Masculinity - Author David Maywald - Gifted by David Maywald",
+        "id": "b93e1533-151c-f111-8341-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-09T04:30:00Z",
+        "details": "Drink Bottle - Gifted by Australian Restaurant & Catering Association",
+        "id": "ce3e1533-151c-f111-8341-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-09T04:30:00Z",
+        "details": "Candle x 3 - Gifted by Women in Government Relations Australia",
+        "id": "d33e1533-151c-f111-8341-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-09T04:30:00Z",
+        "details": "Notepad, Pens, Chop Sticks, Food & Drink Items, Bag Tag - Gifted by Embassy of Japan",
+        "id": "d83e1533-151c-f111-8341-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-02T01:00:00Z",
+        "details": "5 x Water Safety Booklets - Gifted by Kids Alive",
+        "id": "10c7dcb9-8700-f111-8406-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-19T08:00:00Z",
+        "details": "Book - What we owe the Water - Gifted by the Australia Institute",
+        "id": "10717fa8-d06d-f111-ab0d-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-19T08:00:00Z",
+        "details": "Set of Playing Cards - Gifted by Infrastructure Partnership",
+        "id": "1b717fa8-d06d-f111-ab0d-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-19T08:00:00Z",
+        "details": "Scarf - Australia Made - Gifted by Australian Made Committee",
+        "id": "26717fa8-d06d-f111-ab0d-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-19T08:00:00Z",
+        "details": "Book - Thinking Globally - Charles Peter Hunt Kiefel AM - Gifted by Dr Stella M Barber",
+        "id": "3e717fa8-d06d-f111-ab0d-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-01-14T00:00:00Z",
+        "details": "Book - Pearlers, Book - Becoming - Gifted by Paula Collins",
+        "id": "4715814f-a2f1-f011-8407-6045bde5f32c"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-01-14T00:30:00Z",
+        "details": "2026 Calendar & Biscuits - Gifted by Australian Tibet Council",
+        "id": "5015814f-a2f1-f011-8407-6045bde5f32c"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-09-30T01:00:00Z",
+        "details": "Lolly Dispenser - Gifted by The Pharmacy Guild of Australia",
+        "id": "f5b2258c-28bd-f111-aaae-70a8a553fd4a"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-09-30T01:30:00Z",
+        "details": "T-Shirt and Cap - Gifted by Cricket ACT",
+        "id": "05b3258c-28bd-f111-aaae-70a8a553fd4a"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-09-30T02:00:00Z",
+        "details": "Box of Fresh Fruit - Gifted by Australian Fresh Produce Alliance",
+        "id": "0ab3258c-28bd-f111-aaae-70a8a553fd4a"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-09-30T03:00:00Z",
+        "details": "Tie, Flag and Earrings - Gifted by Mates",
+        "id": "14b3258c-28bd-f111-aaae-70a8a553fd4a"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-09-30T03:30:00Z",
+        "details": "Books - New Game New Rules - by Allan Behm - More Fool Me - Richard Denniss - Gifted by the Australia Institute",
+        "id": "19b3258c-28bd-f111-aaae-70a8a553fd4a"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-09-29T22:00:00Z",
+        "details": "Lapel Pin - Gifted by Australian Railway Association",
+        "id": "abaab387-28bd-f111-aaae-7c1e5262eaeb"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-09-29T22:30:00Z",
+        "details": "Tote Bag, Coffee Cup and Thomas & Friends Mini - Gifted by Parliamentary Friends of Rail",
+        "id": "b0aab387-28bd-f111-aaae-7c1e5262eaeb"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-09-29T23:00:00Z",
+        "details": "Lapel Pin - Gifted by Children's Cancer Institute",
+        "id": "b5aab387-28bd-f111-aaae-7c1e5262eaeb"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-09-29T23:30:00Z",
+        "details": "Scarf - Gifted by Netball Australia",
+        "id": "baaab387-28bd-f111-aaae-7c1e5262eaeb"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-09-30T00:00:00Z",
+        "details": "Book - 100 of the Best Books for Men - Author David Maywald - Gifted by David Maywald",
+        "id": "bfaab387-28bd-f111-aaae-7c1e5262eaeb"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-27T21:00:00Z",
+        "details": "Day for Daniel Badge - Gifted by Daniel Morecombe Foundation",
+        "id": "e3be34cb-17b6-f011-bbd2-7ced8d34843b"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-27T21:00:00Z",
+        "details": "Chaplaincy Crunch Breakfast Cereal - Gifted by International School Chaplaincy",
+        "id": "ecbe34cb-17b6-f011-bbd2-7ced8d34843b"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-27T21:00:00Z",
+        "details": "4 x Digital Travel Bags - Gifted by Parliamentary Friends of Aviation",
+        "id": "f2be34cb-17b6-f011-bbd2-7ced8d34843b"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-30T07:00:00Z",
+        "details": "Book - Magnifica Humanitas - The Grandeur of Humanity - Gifted by Australian Catholic Bishops Conference",
+        "id": "d7f5ed4e-5674-f111-ab0f-7ced8da1c86f"
+      }
+    ],
+    "interests": [
+      {
+        "detailOfGifts": "Foxtel Subscription - Foxtel",
+        "id": "fc3dc18c-6376-f011-b4cb-000d3ad253b4"
+      },
+      {
+        "detailOfGifts": "Chairman's Club Membership - Qantas",
+        "id": "023ec18c-6376-f011-b4cb-000d3ad253b4"
+      },
+      {
+        "detailOfGifts": "Beyond Membership - Virgin Australia",
+        "id": "043ec18c-6376-f011-b4cb-000d3ad253b4"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "ANZ",
+        "id": "063ec18c-6376-f011-b4cb-000d3ad253b4",
+        "natureOfLiability": "Mortgages on property"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "083ec18c-6376-f011-b4cb-000d3ad253b4",
+        "nameOfOtherAsset": "Australian Super Fund"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "0a3ec18c-6376-f011-b4cb-000d3ad253b4",
+        "nameOfIncome": "Income from rental properties"
+      }
+    ]
+  },
+  "otherInterest": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-13T08:00:00Z",
+        "details": "Member - Sporting Shooters Association of Australia",
+        "id": "79d71cdf-ce78-f011-b4cb-000d3ad253b4"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-13T08:00:00Z",
+        "details": "Member - Field & Game Australia",
+        "id": "7ed71cdf-ce78-f011-b4cb-000d3ad253b4"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-13T08:00:00Z",
+        "details": "Member - Transport Women Australia ",
+        "id": "83d71cdf-ce78-f011-b4cb-000d3ad253b4"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-13T08:00:00Z",
+        "details": "Member - Deer Stalkers Club",
+        "id": "8ad71cdf-ce78-f011-b4cb-000d3ad253b4"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-13T08:00:00Z",
+        "details": "Member - Sporting Shooters Association of Australia",
+        "id": "91d71cdf-ce78-f011-b4cb-000d3ad253b4"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-13T08:00:00Z",
+        "details": "Member - Australian Deer Association",
+        "id": "96d71cdf-ce78-f011-b4cb-000d3ad253b4"
+      }
+    ],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "0c3ec18c-6376-f011-b4cb-000d3ad253b4",
+        "location": "Elwood, Victoria",
+        "purposeForWhichOwned": "Investment"
+      },
+      {
+        "id": "0e3ec18c-6376-f011-b4cb-000d3ad253b4",
+        "location": "Middle Park, Victoria",
+        "purposeForWhichOwned": "Investment"
+      },
+      {
+        "id": "103ec18c-6376-f011-b4cb-000d3ad253b4",
+        "location": "Wodonga, Victoria",
+        "purposeForWhichOwned": "Residential"
+      },
+      {
+        "id": "123ec18c-6376-f011-b4cb-000d3ad253b4",
+        "location": "Griffith, Australian Capital Territory",
+        "purposeForWhichOwned": "Investment / Residential"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": []
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Victoria",
+    "id": "f43dc18c-6376-f011-b4cb-000d3ad253b4",
+    "lastDateUpdated": "9/30/2026 10:59:44 AM",
+    "lodgementDate": "8/11/2025 11:59:35 AM",
+    "publishNotes": false,
+    "senatorName": "McKenzie, Bridget",
+    "senatorParty": "The Nationals",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator the Hon.",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-28T08:00:00Z",
+        "details": "1 x Ticket to Mid Winter Ball - Gifted by Sydney Airport",
+        "id": "00c0988c-9984-f011-b4cb-000d3ad253b4"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-27T21:00:00Z",
+        "details": "2 x Tickets 2025 MCAV Get Together Molyullah - Gifted by the Mountains Cattleman's Association of Victoria Inc",
+        "id": "5eefd1c8-17b6-f011-bbd2-00224898b4a7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-13T08:00:00Z",
+        "details": "Tickets to Netball Grand Final and VIP Lunch x 2 - Gifted by Netball Australia",
+        "id": "64653346-a478-f011-b4cb-6045bdc29378"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-09T04:30:00Z",
+        "details": "Ticket to Formula 1 Qatar Airways Australian Grand Prix 2026 - Saturday 07/03/2026 - Gifted by Engineers Australia",
+        "id": "dd3e1533-151c-f111-8341-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-02T01:30:00Z",
+        "details": "2 x Tickets to Australian Open Tennis - Gifted by Tennis Australia",
+        "id": "b6976bc0-8700-f111-8406-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-07-26T22:00:00Z",
+        "details": "Complimentary 3 Day Ticket to CPAC Conference and Events - Gifted by CPAC Great Britain",
+        "id": "e8064373-8489-f111-ab0f-70a8a553d3a2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-07-26T22:00:00Z",
+        "details": "Accommodation - London 15th, 16th & 17th July 2026 - Gifted by CPAC Great Britain",
+        "id": "ed064373-8489-f111-ab0f-70a8a553d3a2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-09-30T02:30:00Z",
+        "details": "1 x Ticket AFL Grand Final Breakfast - Gifted by North Melbourne Football Club",
+        "id": "0fb3258c-28bd-f111-aaae-70a8a553fd4a"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-01-14T01:00:00Z",
+        "details": "1 x Ticket to Test Cricket - Australia v England (MCG - 2 days) - Gifted by Cricket Australia",
+        "id": "0196c929-a2f1-f011-8407-7ced8d34843b"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-27T21:00:00Z",
+        "details": "2 x Tickets to Constellation Cup - Diamonds v NZ - Gifted by Netball Australia",
+        "id": "d8be34cb-17b6-f011-bbd2-7ced8d34843b"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-27T21:00:00Z",
+        "details": "2 x Tickets to Royal Melbourne Presidents Lunch - Gifted by Royal Melbourne Show",
+        "id": "ddbe34cb-17b6-f011-bbd2-7ced8d34843b"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-30T07:00:00Z",
+        "details": "Return Airfares - Melbourne to London - Gifted by Alliance for Responsible Citizenship Ltd (ARC)",
+        "id": "892b6a55-5674-f111-ab0f-7ced8da1c86f"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-30T07:00:00Z",
+        "details": "Accommodation - London 22nd to 26th June - Gifted by Alliance for Responsible Citizenship Ltd (ARC)",
+        "id": "8e2b6a55-5674-f111-ab0f-7ced8da1c86f"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-30T07:00:00Z",
+        "details": "Complimentary 3 Day Speakers Ticket to ARC Conference and Events - Gifted by Alliance for Responsible Citizenship Ltd (ARC)",
+        "id": "932b6a55-5674-f111-ab0f-7ced8da1c86f"
+      }
+    ],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

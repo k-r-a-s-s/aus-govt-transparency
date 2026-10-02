@@ -1,0 +1,438 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-02T01:00:00Z",
+        "details": "small jewellery box x 3 - Republic of Korea National Assembly - approx value $200",
+        "id": "e8b3df29-d415-f111-8342-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-02T01:00:00Z",
+        "details": "Tea Pottery set - Republic of Korea Democratic Party - approx value $150.00",
+        "id": "efb3df29-d415-f111-8342-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-02T01:00:00Z",
+        "details": "Large Jewellery Box with colour inlay -Speaker of the Republic of Korea National Assembly - approx value $300.00",
+        "id": "f4b3df29-d415-f111-8342-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-02T01:00:00Z",
+        "details": "2 silver coloured mother of pearl inlay long boxes with silver bird on lid -  Republic of Korea National Assembly Health & Welfare Committee - approx value $200.00",
+        "id": "f9b3df29-d415-f111-8342-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-02T01:00:00Z",
+        "details": "Assortment of Sulwhasoo cosmetics in blue string bag - Speaker  Republic of Korea National Assembly - approx value $500",
+        "id": "00b4df29-d415-f111-8342-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-04-10T08:00:00Z",
+        "details": "Print by Burndud Ground artist Alice Guiness - Gifted by Yindjibarndi Nation - Wanthiwa - March 2026",
+        "id": "f0ef2e02-473d-f111-88b4-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-12T02:00:00Z",
+        "details": "Green & Red Tea Chest with Tea and two patterned ginger jars - Chairman Zhao Leji - National People's Congress of the Republic of China - February 2026",
+        "id": "b8b756a5-c11d-f111-8342-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-12T02:00:00Z",
+        "details": "Woven Coconut Leaves (Kili Bag) - Marshall Islands Delegates - Feb 2026 ",
+        "id": "bdb756a5-c11d-f111-8342-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-12T02:00:00Z",
+        "details": "Jade Sculpted Flower Arrangement Basket - Feb 2026 - Chairman Zhao Leji - National People's Congress of the Peoples Republic of China - Value $2,075",
+        "id": "c3b756a5-c11d-f111-8342-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-12T02:30:00Z",
+        "details": "Blue & White Porcelain Vase - Chairman Zhao Leji - National People's Congress of the Republic of China - February 2026 ",
+        "id": "545f4da2-c11d-f111-8341-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-01-30T11:00:00Z",
+        "details": "12.11.2025 - Skincare and Makeup Speaker of the National Assembly of the Republic of Korea - approx value $300.00",
+        "id": "73dc962b-d5ff-f011-8406-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-09-29T04:00:00Z",
+        "details": "Japanese Art Frame - 7th September 2026 - Gifted by President Sekiguchi ",
+        "id": "99892cd9-c6bb-f111-aaae-70a8a553d3a2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-08-18T22:00:00Z",
+        "details": "Tais (purple,orange and red) - April - 2026 - gifted by FOKUPERS Womens & Children Shelter - East Timor ",
+        "id": "6edfd757-a69b-f111-b8db-70a8a553d3a2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-08-18T22:30:00Z",
+        "details": "Blue Tais with orange stripes, coffee - April 2026 - gifted by H.E. Kay Rala Xanana Gsmao - East Timor",
+        "id": "73dfd757-a69b-f111-b8db-70a8a553d3a2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-08-18T23:00:00Z",
+        "details": "Baucau Tais (heavy tais, hot pink, black red stripes) - April 2026 - gifted by President of the Baucau Municipal Authority, East Timor  ",
+        "id": "78dfd757-a69b-f111-b8db-70a8a553d3a2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-08-18T23:30:00Z",
+        "details": "Tais (magenta,sky blue,yellow/orange,lime,green,red stars, then repeating) - April 2026 - gifted by Catholic Institute for Teaching and Training, East Timor",
+        "id": "7ddfd757-a69b-f111-b8db-70a8a553d3a2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-08-19T00:00:00Z",
+        "details": "Tais (thick light blue stripe either side, with thin yellow stripe, then orange down the centre) - April 2026 - gifted by Vera Cruz Health Clinic, East Timor",
+        "id": "82dfd757-a69b-f111-b8db-70a8a553d3a2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-08-19T00:30:00Z",
+        "details": "Tais (roughly thick, with pink and red, and yellow trim) - April 2026 - gifted by Pacific Australia Labour Scheme Women on Wheels Launch, East Timor ",
+        "id": "87dfd757-a69b-f111-b8db-70a8a553d3a2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-08-19T01:00:00Z",
+        "details": "Tais (red,yellow and black) - April 2026 - gifted by Australian Embassy Staff, East Timor",
+        "id": "8cdfd757-a69b-f111-b8db-70a8a553d3a2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-08-19T01:30:00Z",
+        "details": "Tais (yellow neutral colour) - April 2026 - gifted by University of Timor-Leste students ",
+        "id": "91dfd757-a69b-f111-b8db-70a8a553d3a2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-08-19T02:00:00Z",
+        "details": "Tais (pink stripes on the outside, reddy purple pattern in the middle) - April 2026 - Xanana Gusmao Reading Room, East Timor ",
+        "id": "96dfd757-a69b-f111-b8db-70a8a553d3a2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-08-19T02:30:00Z",
+        "details": "Cherry Blossom Pen - June 2026 - gifted President of the House of Councillors Japan ",
+        "id": "9bdfd757-a69b-f111-b8db-70a8a553d3a2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-08-19T03:00:00Z",
+        "details": "Ornate Red Plate - June 2026 - gifted by Speaker of the House of Representatives - Japan ",
+        "id": "a0dfd757-a69b-f111-b8db-70a8a553d3a2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-08-19T03:30:00Z",
+        "details": "Odara Cotton Pants and Top, Navy Blue with circles, August 2026 - gifted by Dara Falade ",
+        "id": "a5dfd757-a69b-f111-b8db-70a8a553d3a2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-09-29T04:30:00Z",
+        "details": "Silk Scarf and Lacquer Box - 14th August 2026 - From His Excellency, Mr. To Lam, General Secretary of the Central Committee of the Communist Party of Viet Nam, President of the Socialist Republic of Viet Nam (GOG)",
+        "id": "a60d55d9-c6bb-f111-aaae-70a8a553fe6c"
+      }
+    ],
+    "interests": [
+      {
+        "detailOfGifts": "Perth Airport Parking Pass - provider: Perth Airport Pty Ltd",
+        "id": "28514b14-a478-f011-b4cb-7c1e5262c1f2"
+      },
+      {
+        "detailOfGifts": "Silk scarf - provider: Kirrikan",
+        "id": "2b514b14-a478-f011-b4cb-7c1e5262c1f2"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "Bendigo Bank ",
+        "id": "2d514b14-a478-f011-b4cb-7c1e5262c1f2",
+        "natureOfLiability": "Mortgage on Residential Property"
+      },
+      {
+        "creditor": "Liberty Finance ",
+        "id": "2f514b14-a478-f011-b4cb-7c1e5262c1f2",
+        "natureOfLiability": "Car Loan "
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "32514b14-a478-f011-b4cb-7c1e5262c1f2",
+        "nameOfOrganisation": "Reconciliation WA - Membership "
+      },
+      {
+        "id": "35514b14-a478-f011-b4cb-7c1e5262c1f2",
+        "nameOfOrganisation": "Union Aid Abroad - APHEDA - Donation "
+      },
+      {
+        "id": "37514b14-a478-f011-b4cb-7c1e5262c1f2",
+        "nameOfOrganisation": "Refugee Council Australia - Donation "
+      },
+      {
+        "id": "39514b14-a478-f011-b4cb-7c1e5262c1f2",
+        "nameOfOrganisation": "Emilys List - Donation "
+      },
+      {
+        "id": "3b514b14-a478-f011-b4cb-7c1e5262c1f2",
+        "nameOfOrganisation": "Australian Labor Party - Donation "
+      },
+      {
+        "id": "3d514b14-a478-f011-b4cb-7c1e5262c1f2",
+        "nameOfOrganisation": "Medecins Sans Frontieres - Donation "
+      },
+      {
+        "id": "3f514b14-a478-f011-b4cb-7c1e5262c1f2",
+        "nameOfOrganisation": "WACOSS - Membership "
+      },
+      {
+        "id": "42514b14-a478-f011-b4cb-7c1e5262c1f2",
+        "nameOfOrganisation": "United Workers Union - Membership "
+      },
+      {
+        "id": "45514b14-a478-f011-b4cb-7c1e5262c1f2",
+        "nameOfOrganisation": "WA Labor - Donation "
+      },
+      {
+        "id": "4b514b14-a478-f011-b4cb-7c1e5262c1f2",
+        "nameOfOrganisation": "Perth Football Club - Membership "
+      },
+      {
+        "id": "4d514b14-a478-f011-b4cb-7c1e5262c1f2",
+        "nameOfOrganisation": "Yokai - Membership "
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-01-30T10:30:00Z",
+        "details": "Superannuation - Hub24",
+        "id": "6edc962b-d5ff-f011-8406-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2026-01-30T10:00:00Z",
+        "details": "Delete \nSuperannuation - Hub Super ",
+        "id": "78dc962b-d5ff-f011-8406-6045bdc3fcd7"
+      }
+    ],
+    "interests": [
+      {
+        "id": "4f514b14-a478-f011-b4cb-7c1e5262c1f2",
+        "nameOfOtherAsset": "Motor Vehicle Hyundai Kona "
+      },
+      {
+        "id": "51514b14-a478-f011-b4cb-7c1e5262c1f2",
+        "nameOfOtherAsset": "Superannuation - Hub Super "
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "53514b14-a478-f011-b4cb-7c1e5262c1f2",
+        "location": "Lathlain, WA",
+        "purposeForWhichOwned": "Residential"
+      },
+      {
+        "id": "58514b14-a478-f011-b4cb-7c1e5262c1f2",
+        "location": "Griffith, ACT ",
+        "purposeForWhichOwned": "Residential "
+      },
+      {
+        "id": "5d514b14-a478-f011-b4cb-7c1e5262c1f2",
+        "location": "Busselton, WA ",
+        "purposeForWhichOwned": "Private Use "
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "5f514b14-a478-f011-b4cb-7c1e5262c1f2",
+        "nameOfBankInstitution": "Bendigo Bank ",
+        "natureOfAccount": "Savings Account's \nElectorate Allowance Account\nTravel Allowance Account \nCredit Account "
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Western Australia",
+    "id": "1a514b14-a478-f011-b4cb-7c1e5262c1f2",
+    "lastDateUpdated": "10/2/2026 3:28:49 PM",
+    "lodgementDate": "8/12/2025 1:05:10 PM",
+    "publishNotes": false,
+    "senatorName": "Lines, Sue",
+    "senatorParty": "Australian Labor Party",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator the Hon.",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-29T07:00:00Z",
+        "details": "Yindjibarndi Nation - Juluwarlu Camp hospitality to President Lines and three staff to attend overnight on-site camping and meals in Mill Stream May 2025.",
+        "id": "d47ee8a7-8773-f111-ab0f-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-07-09T08:00:00Z",
+        "details": "Two tickets to the Parliament Mid-Winter Ball from Canberra Press Gallery July 2026 ",
+        "id": "165ae008-eb7b-f111-ab0f-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-07-09T07:30:00Z",
+        "details": "Four Tickets to Dockers v Sydney AFL game at Optus Stadium 9th July 2026 received from IContracting ",
+        "id": "1c5ae008-eb7b-f111-ab0f-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-29T07:30:00Z",
+        "details": "Post Budget Lunch with Hon Dr Jim Chalmers MP sponsored by CME - Rydges Hotel Perth",
+        "id": "d66f4979-8a73-f111-ab0f-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-12T02:30:00Z",
+        "details": "Two Tickets to Red Violin @ Hackett Hal- 18th March 2025 - ACO  ",
+        "id": "5e5f4da2-c11d-f111-8341-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-01-30T09:30:00Z",
+        "details": "9.11.2025 - Upgrade to First Class on Cathay Pacific flight from Perth to Hong Kong CX0140 ",
+        "id": "63dc962b-d5ff-f011-8406-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-05-07T08:00:00Z",
+        "details": "Two tickets for the Leeuwin Sail Ship - 4th April 2026 - Given by Leeuwin Ocean Adventure Foundation",
+        "id": "bab71313-954a-f111-bec5-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-19T08:00:00Z",
+        "details": "2 x tickets to Corporate Box at Optus Stadium 6th September 2025 sponsored by Spartan First/NIT/i Contracting",
+        "id": "34f79463-3c97-f011-b41b-6045bde4956c"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-04-16T08:00:00Z",
+        "details": "Official travel to the United Kingdom 22nd - 27 February 2026. Flights from Perth to London and accommodation sponsored by Commonwealth Parliamentary Association.",
+        "id": "4ec826d9-ed39-f111-88b4-7c1e52636514"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-26T21:00:00Z",
+        "details": "1 x ticket - Subiaco Arts Centre - \"Heart is a Wasteland Show\" - approx value $40.00",
+        "id": "ebdbf750-06cf-f011-8544-7ced8d34843b"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-26T21:00:00Z",
+        "details": "2 x tickets from National Gallery of Australia - to attend Gala Event - $1500.00 ",
+        "id": "f0dbf750-06cf-f011-8544-7ced8d34843b"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-10-02T03:00:00Z",
+        "details": "Three entry tickets to WA Royal Show Claremont - Gifted Royal Agriculture Society - September 2026",
+        "id": "be2fb5f8-18be-f111-aaae-7ced8da176db"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-30T05:00:00Z",
+        "details": "7th April 2026 - Reception on Board \"Shirase\" Ship - Invitation issued by The Consulate General of Japan - value unknown ",
+        "id": "d9985620-f82b-f111-88b3-7ced8da1c86f"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-05-07T08:00:00Z",
+        "details": "Ticket to attend the Women Deliver Conference in Melbourne - 27th April - 30th April - provided by Women Deliver Sydney.",
+        "id": "a392c3bc-6b4a-f111-bec6-6045bdc25de2"
+      }
+    ],
+    "interests": [
+      {
+        "detailOfTravelHospitality": "Qantas Chairmans Lounge Membership - provider: Qantas",
+        "id": "66514b14-a478-f011-b4cb-7c1e5262c1f2"
+      },
+      {
+        "detailOfTravelHospitality": "Virgin Club Membership - provider: Virgin Australia",
+        "id": "68514b14-a478-f011-b4cb-7c1e5262c1f2"
+      },
+      {
+        "detailOfTravelHospitality": "Triple J One Night Stand concert Busselton plus backstage tour - provider: Triple J radio station",
+        "id": "6a514b14-a478-f011-b4cb-7c1e5262c1f2"
+      },
+      {
+        "detailOfTravelHospitality": "NAIDOC Ball Tickets x 2 - 5th July 2025 - provider: Minister McCarthy ",
+        "id": "6c514b14-a478-f011-b4cb-7c1e5262c1f2"
+      },
+      {
+        "detailOfTravelHospitality": "Bangarra Dance Theatre Illume Tickets - 10th July 2025 - provider: Arts & Culture Trust WA",
+        "id": "b771481a-a478-f011-b4cb-7c1e5262c1f2"
+      }
+    ]
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

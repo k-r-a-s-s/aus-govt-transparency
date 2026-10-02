@@ -1,0 +1,153 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfGifts": "Foxtel subscription at Electorate Office",
+        "id": "a6b4b9b8-ce7c-f011-b4cc-7c1e5262c1f2"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-04T06:30:00Z",
+        "details": "Mortgage on Applecross Property - P&N Bank",
+        "id": "426ba19d-6008-f111-8407-6045bdc25de2"
+      }
+    ],
+    "interests": [
+      {
+        "creditor": "P&N Bank",
+        "id": "a8b4b9b8-ce7c-f011-b4cc-7c1e5262c1f2",
+        "natureOfLiability": "Mortgage on Griffiths property"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "aab4b9b8-ce7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Liberal Party of WA"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "acb4b9b8-ce7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOtherAsset": "Life Insurance"
+      },
+      {
+        "id": "aeb4b9b8-ce7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOtherAsset": "Superannuation"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-04T06:30:00Z",
+        "details": "Applecross - primary residence",
+        "id": "0c07b2a3-6008-f111-8407-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-04T07:30:00Z",
+        "details": "North Lake - investment",
+        "id": "5ad61f1b-6c08-f111-8407-6045bdc25de2"
+      },
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2026-02-04T07:00:00Z",
+        "details": "North Lake - residential",
+        "id": "d9a471f6-6008-f111-8406-6045bdc3fcd7"
+      }
+    ],
+    "interests": [
+      {
+        "id": "b0b4b9b8-ce7c-f011-b4cc-7c1e5262c1f2",
+        "location": "North Lake",
+        "purposeForWhichOwned": "Residential"
+      },
+      {
+        "id": "b2b4b9b8-ce7c-f011-b4cc-7c1e5262c1f2",
+        "location": "Griffith",
+        "purposeForWhichOwned": "Residential"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "b4b4b9b8-ce7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfBankInstitution": "P&N Bank",
+        "natureOfAccount": "Savings / Offset"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Western Australia",
+    "id": "a1b4b9b8-ce7c-f011-b4cc-7c1e5262c1f2",
+    "lastDateUpdated": "2/4/2026 5:30:55 PM",
+    "lodgementDate": "8/19/2025 12:33:16 PM",
+    "publishNotes": false,
+    "senatorName": "Brockman, Slade",
+    "senatorParty": "Liberal Party of Australia",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfTravelHospitality": "Perth Airport Parking Permit",
+        "id": "b5b4b9b8-ce7c-f011-b4cc-7c1e5262c1f2"
+      },
+      {
+        "detailOfTravelHospitality": "Qantas Chairman's Lounge Membership",
+        "id": "b7b4b9b8-ce7c-f011-b4cc-7c1e5262c1f2"
+      },
+      {
+        "detailOfTravelHospitality": "Virgin Australia Club Membership",
+        "id": "b9b4b9b8-ce7c-f011-b4cc-7c1e5262c1f2"
+      }
+    ]
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

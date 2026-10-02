@@ -1,0 +1,239 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-21T21:00:00Z",
+        "details": "6th October, 2025 - Boots - S. Kidman Australia",
+        "id": "9752b487-8db0-f011-bbd2-00224898b4a7"
+      }
+    ],
+    "interests": [
+      {
+        "detailOfGifts": "30 June, 2025 – Farm Her Hands Gloves - Farm Her Hands",
+        "id": "42a72161-bd7c-f011-b4cc-6045bdc29378"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "Westpac",
+        "id": "44a72161-bd7c-f011-b4cc-6045bdc29378",
+        "natureOfLiability": "Home Loan"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "46a72161-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfOrganisation": "Liberal National Party of Queensland"
+      },
+      {
+        "id": "48a72161-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfOrganisation": "Queensland Showgirls"
+      },
+      {
+        "id": "4aa72161-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfOrganisation": "Queensland Rural Ambassadors"
+      },
+      {
+        "id": "4ca72161-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfOrganisation": "National Council of Woman - Queensland"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "4ea72161-bd7c-f011-b4cc-6045bdc29378",
+        "natureOfInterest": "The Royal National Agricultural and Industrial Association of Queensland (RNA) membership"
+      },
+      {
+        "id": "4fa72161-bd7c-f011-b4cc-6045bdc29378",
+        "natureOfInterest": "Beef Australia membership"
+      },
+      {
+        "id": "50a72161-bd7c-f011-b4cc-6045bdc29378",
+        "natureOfInterest": "RSL (Returned & Services League) membership"
+      }
+    ]
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "51a72161-bd7c-f011-b4cc-6045bdc29378",
+        "location": "Townsville, Qld",
+        "purposeForWhichOwned": "Residential"
+      },
+      {
+        "id": "54a72161-bd7c-f011-b4cc-6045bdc29378",
+        "location": "Brisbane, Qld",
+        "purposeForWhichOwned": "Residential"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": [
+      {
+        "activitiesOfCompany": "Trustee",
+        "id": "57a72161-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfCompany": "O'Hara's Gap Pty Ltd"
+      }
+    ]
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "5aa72161-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfBankInstitution": "Westpac",
+        "natureOfAccount": "Savings"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Queensland",
+    "id": "3da72161-bd7c-f011-b4cc-6045bdc29378",
+    "lastDateUpdated": "9/3/2026 2:52:37 PM",
+    "lodgementDate": "8/18/2025 11:17:38 AM",
+    "publishNotes": false,
+    "senatorName": "McDonald, Susan",
+    "senatorParty": "Liberal National Party of Queensland",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "5ba72161-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfCompany": "Iperionx Ltd"
+      },
+      {
+        "id": "5ea72161-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfCompany": "Metallium Ltd"
+      }
+    ]
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-09-02T22:00:00Z",
+        "details": "25th July, 2026 - tickets and hospitality to 2026 NRL Telstra Premiership - North Qld Cowboys v Brisbane Broncos game - courtesy of Bravus Australia.",
+        "id": "35dadb37-4ca7-f111-b8de-000d3a6a8f58"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-04-17T08:00:00Z",
+        "details": "14th March, 2026 – ticket and hospitality to QLD Reds vs NSW Waratahs, Suncorp Stadium, courtesy of Initiative Capital.",
+        "id": "ae62ff11-463c-f111-88b4-6045bdc25c5b"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-05-15T08:00:00Z",
+        "details": "8th May, 2026 - tickets and hospitality to 2026 NRL Telstra Premiership - North Qld Cowboys v Parramatta Eels game - courtesy of Cowboys.",
+        "id": "09150227-2550-f111-bec6-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-14T12:00:00Z",
+        "details": "6th September, 2025 – ticket and hospitality to Wallabies vs Argentina Rugby Test Match, Townsville courtesy of Santos.",
+        "id": "aaeb375d-f191-f011-b4cc-6045bde49b50"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-10T22:30:00Z",
+        "details": "5th December, 2025 – ticket and hospitality to NRMA Insurance Men's Ashes Day-Night Test, Australia v England, The Gabba, Brisbane, courtesy of Cricket Australia and Queensland Cricket.",
+        "id": "1f728b63-edd6-f011-8544-6045bde589eb"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-18T08:00:00Z",
+        "details": "17th August, 2025 - tickets and hospitality to 2025 NRL Premiership - North Qld Cowboys v Newcastle Knights game - courtesy of Townsville Bulletin",
+        "id": "36004801-c17c-f011-b4cc-7c1e5262c1f2"
+      }
+    ],
+    "interests": [
+      {
+        "detailOfTravelHospitality": "Qantas Chairmans Club Membership",
+        "id": "61a72161-bd7c-f011-b4cc-6045bdc29378"
+      },
+      {
+        "detailOfTravelHospitality": "Virgin Beyond Club Membership",
+        "id": "63a72161-bd7c-f011-b4cc-6045bdc29378"
+      },
+      {
+        "detailOfTravelHospitality": "5th July, 2025 – tickets and hospitality to 2025 NRL Premiership North Qld Cowboys v Melbourne Storm game - courtesy of Townsville Bulletin.",
+        "id": "65a72161-bd7c-f011-b4cc-6045bdc29378"
+      },
+      {
+        "detailOfTravelHospitality": "19th July, 2025 – tickets and hospitality to Wallabies vs British Lions Rugby Test Match - courtesy of Clermont Group",
+        "id": "67a72161-bd7c-f011-b4cc-6045bdc29378"
+      },
+      {
+        "detailOfTravelHospitality": "25th July, 2025 – tickets and hospitality to 2025 NRL Premiership - North Qld Cowboys v St George Illawarra Dragons game - courtesy of Townsville Bulletin.",
+        "id": "69a72161-bd7c-f011-b4cc-6045bdc29378"
+      }
+    ]
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "6ba72161-bd7c-f011-b4cc-6045bdc29378",
+        "interest": "Discretionary Beneficiary",
+        "nameOfCompany": "OHG",
+        "nature": "Previously Consultancy - not currently active",
+        "type": "beneficiary"
+      },
+      {
+        "id": "6ca72161-bd7c-f011-b4cc-6045bdc29378",
+        "interest": "Discretionary beneficiary",
+        "nameOfCompany": "Devonshire",
+        "nature": "Grazing operation",
+        "type": "beneficiary"
+      },
+      {
+        "id": "6da72161-bd7c-f011-b4cc-6045bdc29378",
+        "interest": "Discretionary beneficiary",
+        "nameOfCompany": "Glencoe Indicus",
+        "nature": "Property Management",
+        "type": "beneficiary"
+      },
+      {
+        "id": "6fa72161-bd7c-f011-b4cc-6045bdc29378",
+        "interest": "Discretionary beneficiary",
+        "nameOfCompany": "Donald Francis McDonald TTE & Christine Ann McDonald TTE\n",
+        "nature": "Real Estate - Brisbane ",
+        "type": "beneficiary"
+      }
+    ]
+  },
+  "wasSuccessful": true
+}

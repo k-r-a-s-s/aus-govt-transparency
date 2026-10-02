@@ -1,0 +1,287 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfGifts": "four bottles of Penfold Cabernet Sauvignon 2019 and four bath towel gift boxed gifted by Mr Zhigiang Lu (to be regifted for community raffles)",
+        "id": "84577de3-947d-f011-b4cc-6045bdc323b4"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "Bendigo and Adelaide Bank (subsidiary trading as Leveraged).",
+        "id": "86577de3-947d-f011-b4cc-6045bdc323b4",
+        "natureOfLiability": "Investment loan (leveraged margin loan) which from time to time may be drawn upon."
+      },
+      {
+        "creditor": "Suncorp",
+        "id": "88577de3-947d-f011-b4cc-6045bdc323b4",
+        "natureOfLiability": "Credit card"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-26T08:00:00Z",
+        "details": "Sponsor: Merciful Servants Ltd, \"Hope in the Heat Project\"",
+        "id": "f846d273-9984-f011-b4cb-000d3ad253b4"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-21T08:00:00Z",
+        "details": "Sponsor: Congolese Community of Queensland ",
+        "id": "83e8af66-9984-f011-b4cc-6045bdc29378"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-21T08:00:00Z",
+        "details": "Sponsor: Cook Islands Rugby League Queensland",
+        "id": "0118006d-9984-f011-b4cc-6045bdc323b4"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-29T08:00:00Z",
+        "details": "Sponsor: Marist Ryze Rugby Logan",
+        "id": "d0420b91-9984-f011-b4cc-6045bdc323b4"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-29T08:00:00Z",
+        "details": "Sponsor: Mandalay Progress Association Inc. (Jacaranda Festival)",
+        "id": "d5420b91-9984-f011-b4cc-6045bdc323b4"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-14T10:00:00Z",
+        "details": "Rugby League Samoa Queensland (sponsor); African Professionals of Australia (sponsor)",
+        "id": "3f99d092-54a9-f011-bbd2-6045bde4956c"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-29T10:00:00Z",
+        "details": "Federation of Indian Communities of Queensland (sponsor Unity Cup)",
+        "id": "bd177e70-4f9e-f011-bbd3-6045bde63b9a"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-29T10:00:00Z",
+        "details": "Ugandans in Queensland Association (sponsor)",
+        "id": "c4177e70-4f9e-f011-bbd3-6045bde63b9a"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-29T10:00:00Z",
+        "details": "Menzies Gala Ball (sponsor)",
+        "id": "ce177e70-4f9e-f011-bbd3-6045bde63b9a"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-29T10:00:00Z",
+        "details": "Multicultural Community Centre (sponsor)",
+        "id": "d7177e70-4f9e-f011-bbd3-6045bde63b9a"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-29T10:00:00Z",
+        "details": "Queensland Rohingya United Inc (sponsor)",
+        "id": "e2177e70-4f9e-f011-bbd3-6045bde63b9a"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-29T10:30:00Z",
+        "details": "Greater Springfield Chamber of Commerce (sponsor)",
+        "id": "e9177e70-4f9e-f011-bbd3-6045bde63b9a"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-29T10:00:00Z",
+        "details": "Brisbane Tongan Community Inc (sponsor Pasifika TV & Radio for royal visit)",
+        "id": "ee177e70-4f9e-f011-bbd3-6045bde63b9a"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-29T10:00:00Z",
+        "details": "Wounded Heroes Association (sponsor)",
+        "id": "f3177e70-4f9e-f011-bbd3-6045bde63b9a"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-29T10:00:00Z",
+        "details": "Wanag Women (sponsor)",
+        "id": "f8177e70-4f9e-f011-bbd3-6045bde63b9a"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-29T10:00:00Z",
+        "details": "Vietnam Museum Holding Ltd (donation)",
+        "id": "fd177e70-4f9e-f011-bbd3-6045bde63b9a"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-17T08:00:00Z",
+        "details": "Australian Indian War Memorial Organisation (donation); Village Support Limited (sponsorship of event), Tanzanian Association of Queensland (sponsorship of event); Enuamanu Atiu Nui Maruarua Association - O- Qld Inc (sponsorship of event); Rwandan Association of Queensland (sponsorship of event); Matu Community of Queensland (sponsorship of event); Qld Indigenous & Pasifika Rugby (sponsorship of event); Australian Pakistani National Association (sponsorship of event); Goodna Special School P&C (sponsorship of raffle); Ipswich Assist (sponsorship of Christmas hampers); Women's Power of Inspiration (sponsorship of event); Qld Department of Families, Seniors, Disability Services and Child Safety (Springfield Child Safety Office) (sponsorship of event)",
+        "id": "6a8ed48b-74dc-f011-8544-7ced8d34843b"
+      }
+    ],
+    "interests": [
+      {
+        "id": "c6f85a09-1587-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Donor- Salvation Army; Sponsor: South Sudanese Community Assocation Inc.; Sponsor: Zimbabwe Queensland Community Council Inc.; Sponsor: Queensland Kannadigas Cultural & Sports Society Inc.; Sponsor: Eritrean Community Association in Queensland Inc.; Sponsor: Philippines Australia Multicultural Association Inc.; Sponsor: NGA KAPA TAUMATA TEITEI ; Sponsor: Logan City Rugby Union Club; Sponsor: Guinean Association of Queensland; Sponsor: Burundian Community Association of Queensland;"
+      },
+      {
+        "id": "85ed8930-1587-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Sponsor: Athiei Foundation; Sponsor: GOPIO Queensland; Sponsor: Nigerian Community Association of Queensland; Sponsor: National Leadership Forum; Sponsor: St George Chinese Community Memorial; Sponsor: Sudanese Community Association; Sponsor: Rotary Club of Sunnybank; Sponsor: Young LNP; Sponsor: Vietnamese Community in Australia Qld Chapter; Sponsor: Multicultural Community Connect; Sponsor: Smile Back Sports and Wellness Day;  Sponsorship: UQ PNG Students Association;"
+      },
+      {
+        "id": "4b75223f-1587-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Sponsor: Liberian Society of Queensland; Sponsor: Ascendant Church Youth Activities; Sponsor: Kenyans in Queensland; Sponsor: Archerfield Rotary Club; Sponsor: PNQ Pearls U18's Rugby; Sponsor: Wanders' 9's Rugby League Team; Sponsor: FB9 Academy Pty Ltd; Sponsor: Congolese Community in Queensland; Sponsor: Tapori Squad Dance Studio; Sponsor: Nwannedinamaba Qld Inc;"
+      },
+      {
+        "id": "c86d3952-1587-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Sponsor: Fiji Community Association of Qld; sponsor: Sponsor: PNG Federation of Queensland; Sponsor: Queensland African Communities Council; Sponsor: Sunnybank RSL (bursaries in relation to monument to Australians of Chinese Heritage who served Australia); Sponsor: Logan Catholic Church youth programme. Declared on original statement lodged by Senator Scarr on 18 August 2025. This was not published due to technical issues in the APH Register system."
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "7bbc941a-1d87-f011-b4cc-7c1e522a6625",
+        "nameOfOtherAsset": "Superannuation Account with Australian Super. Declared on original statement lodged by Senator Scarr on 18 August 2025. This was not published due to technical issues in the APH Register system."
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "d97e5f27-1987-f011-b4cc-7c1e5262c1f2",
+        "nameOfIncome": "Refer to disclosed shareholdings. Declared on original statement lodged by Senator Scarr on 18 August 2025. This was not published due to technical issues in the APH Register system."
+      }
+    ]
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "d2a93a1a-1987-f011-b4cc-7c1e5262c1f2",
+        "location": "Apartment, Griffith, ACT - Declared on original statement lodged by Senator Scarr on 18 August 2025. This was not published due to technical issues in the APH Register system.",
+        "purposeForWhichOwned": "Residential"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "81bd490a-1987-f011-b4cc-7c1e5262c1f2",
+        "nameOfBankInstitution": "Westpac",
+        "natureOfAccount": "Savings - Declared on original statement lodged by Senator Scarr on 18 August 2025. This was not published due to technical issues in the APH Register system."
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Queensland",
+    "id": "7f577de3-947d-f011-b4cc-6045bdc323b4",
+    "lastDateUpdated": "6/29/2026 9:49:37 AM",
+    "lodgementDate": "8/17/2025 2:00:00 PM",
+    "publishNotes": false,
+    "senatorName": "Scarr, Paul",
+    "senatorParty": "Liberal Party of Australia",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2026-06-29T10:00:00Z",
+        "details": "ALS Limited, Unibail-Rodamco-Westfield",
+        "id": "8009f771-0b74-f111-ab0f-7ced8da1c86f"
+      }
+    ],
+    "interests": [
+      {
+        "id": "e59f8a2b-1887-f011-b4cc-7c1e5262c1f2",
+        "nameOfCompany": "ALS Limited, ANZ Group Holdings Limited, Commonwealth Bank Limited, Coles Group Limited, Downer EDI Limited, GPT Group Limited, National Australia Bank Limited, Origin Energy Limited, Orica Ltd, QBE Insurance Ltd, Rio Tino Ltd, Scentre Group Limited, Santos Ltd, Suncorp Group Ltd, Telstra Corp Ltd, Westpac Banking Corporation Limited, Woodside Energy Group Ltd, Wesfarmers Ltd."
+      },
+      {
+        "id": "38450fae-1987-f011-b4cc-7c1e5262c1f2",
+        "nameOfCompany": "Declared on original statement lodged by Senator Scarr on 18 August 2025. This was not published due to technical issues in the APH Register system."
+      }
+    ]
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfTravelHospitality": "Membership of the QANTAS Chairman's Lounge - Declared on original statement lodged by Senator Scarr on 18 August 2025. This was not published due to technical issues in the APH Register system.",
+        "id": "ed5565ca-0887-f011-b4cc-7c1e5262c1f2"
+      }
+    ]
+  },
+  "trusts": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-29T10:00:00Z",
+        "details": "Note in relation to the David Scarr Family Trust, the Senator's father (David Scarr) has passed away and the estate is currently in probate phase with Senator Scarr stated to be a beneficiary. ",
+        "id": "7809f771-0b74-f111-ab0f-7ced8da1c86f"
+      }
+    ],
+    "interests": [
+      {
+        "id": "f5bd1857-1887-f011-b4cc-7c1e5262c1f2",
+        "interest": "Senator Paul Scarr's spouse and her siblings.",
+        "nameOfCompany": "Trust arising from the estate of Senator Paul Scarr's late Father - in - Law.",
+        "nature": "Trust established upon the passing of Senator Paul Scarr's father-in-law for the benefit of Senator Scarr's brother-in-law.  Spouse of Senator Scarr is a trustee.",
+        "type": "trustee"
+      },
+      {
+        "id": "66ddc985-1887-f011-b4cc-7c1e5262c1f2",
+        "interest": "David Scarr who is the father of Senator Paul Scarr.",
+        "nameOfCompany": "Self Managed Superannuation Fund of David Scarr.",
+        "nature": "Senator Paul Scarr is a trustee of Self Managed Superannuation Fund of David Scarr.  Senator Scarr is the son of David Scarr.  The fund holds shares in: Westpac, NAB, BHP, Woolworths, Wesfarmers, Coles, Scentre Group, Telstra, AFIC, Endeavour, Aurizon, Perpetual, Mirvac, Treasury Wine Estates, Woodside and Medibank Private.",
+        "type": "trustee"
+      },
+      {
+        "id": "226aa3d2-1887-f011-b4cc-7c1e5262c1f2",
+        "interest": "Potential discretionary beneficiary: Senator Scarr may be a future controller of the trustee company.  The David Scarr Family Trust holds shares in: Westpac, ANZ, NAB, Suncorp, BHP, South32, Woolworths, Wesfarmers, Coles, Scentre Group, The Lottery Corporation, Telstra, AFIC, Endeavour, Aurizon, Woodside.",
+        "nameOfCompany": "The David Scarr Family Trust (trustee is Pambank Pty Ltd)",
+        "nature": "Discretionary Trust holding investments for family beneficiaries (David Scarr is the father of Senator Paul Scarr).  Senator Scarr does not presently have the ability to exercise control of the trust or the trustee company.",
+        "type": "beneficiary"
+      },
+      {
+        "id": "fbeed1eb-1887-f011-b4cc-7c1e5262c1f2",
+        "interest": "Joint beneficiary.",
+        "nameOfCompany": "Testamentary trust of the Estate of Diane Berry.",
+        "nature": "Senator Paul Scarr is the executor/trustee of the estate of Diane Berry.  (Diane Berry was the mother of Senator Paul Scarr).  The sole asset of the trust is a residence at Kenmore, Queensland.",
+        "type": "beneficiary"
+      }
+    ]
+  },
+  "wasSuccessful": true
+}

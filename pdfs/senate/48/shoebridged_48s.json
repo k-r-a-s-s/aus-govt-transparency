@@ -1,0 +1,140 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-18T10:00:00Z",
+        "details": "Chess board given by the Australian Syrian Business Network",
+        "id": "cdcfa36d-3c97-f011-b41c-000d3ad253b4"
+      }
+    ],
+    "interests": [
+      {
+        "detailOfGifts": "Two tickets to the Oz Arab Gala dinner 23 May 2025 total value$550 inc GST, gifted by Oz Arab Media",
+        "id": "a7efb872-077f-f011-b4cc-6045bdc323b4"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "Commonwealth bank",
+        "id": "3af3c81b-077f-f011-b4cc-6045bdc323b4",
+        "natureOfLiability": "Credit Card"
+      },
+      {
+        "creditor": "Macquarie bank",
+        "id": "e66ba328-077f-f011-b4cc-6045bdc323b4",
+        "natureOfLiability": "Car loan"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "0e964785-077f-f011-b4cc-6045bdc323b4",
+        "nameOfOrganisation": "Member of Australian Greens - Tithe of 15% of gross income"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "6af46b4a-077f-f011-b4cc-6045bdc323b4",
+        "nameOfOtherAsset": "BT Panorama Investment Account"
+      },
+      {
+        "id": "1d31ec50-077f-f011-b4cc-6045bdc323b4",
+        "nameOfOtherAsset": "Australian Ethical Managed Funds"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-01T22:00:00Z",
+        "details": "Virgin Australia Beyond Lounge Membership",
+        "id": "8001c297-b587-f011-b4cc-6045bdc2966c"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-01T22:00:00Z",
+        "details": "Chairman's Lounge Membership with Qantas",
+        "id": "1c751d3f-b587-f011-b4cc-7c1e5262c1f2"
+      }
+    ],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": []
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "11d3573b-077f-f011-b4cc-6045bdc323b4",
+        "nameOfBankInstitution": "Commonwealth Bank",
+        "natureOfAccount": "Savings accounts personal"
+      },
+      {
+        "id": "f284f043-077f-f011-b4cc-6045bdc323b4",
+        "nameOfBankInstitution": "Commonwealth Bank",
+        "natureOfAccount": "Savings accounts with spouse"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "New South Wales",
+    "id": "0623594e-067f-f011-b4cc-6045bdc323b4",
+    "lastDateUpdated": "10/22/2025 4:55:16 PM",
+    "lodgementDate": "8/22/2025 12:00:00 AM",
+    "publishNotes": false,
+    "senatorName": "Shoebridge, David",
+    "senatorParty": "Australian Greens",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-21T21:00:00Z",
+        "details": "Accommodation, food and transport for me and one staff member for three nights provided by the Democratic Autonomous Administration of North East Syria ",
+        "id": "ae210b82-8db0-f011-bbd2-002248990cce"
+      }
+    ],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

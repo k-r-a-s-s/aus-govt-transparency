@@ -1,0 +1,219 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-22T10:00:00Z",
+        "details": "Platinum experience ticket for me and standard ticket for a staff member to CPAC 2025 from Conservative Political Action Network Ltd",
+        "id": "dc1bba5f-6a97-f011-b41c-000d3ad253b4"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-23T02:00:00Z",
+        "details": "Variation to earlier flight from Sydney to Adelaide on 21 February 2026 from QANTAS - cost unknown",
+        "id": "45ed606d-6310-f111-8407-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-05-20T08:00:00Z",
+        "details": "Complimentary ticket to Lawyers Weekly Corporate Counsel Awards Dinner on 14 May 2026 from BAE Systems Australia Ltd.",
+        "id": "d1c49c44-a554-f111-bec6-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-23T02:30:00Z",
+        "details": "Lunch at Sydney restaurant on 19 February 2026 paid by 2GB - cost unknown",
+        "id": "2a69865e-6410-f111-8406-7ced8da19888"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-05-13T04:30:00Z",
+        "details": "Socceroos 2026 World Cup Jersey from Football Australia",
+        "id": "205d48dc-954e-f111-bec6-7ced8da1c86f"
+      }
+    ],
+    "interests": [
+      {
+        "detailOfGifts": "Office Foxtel Subscription",
+        "id": "5a40cd61-7c72-f011-b4cd-000d3ad2a284"
+      },
+      {
+        "detailOfGifts": "QANTAS Chairman's Club Membership",
+        "id": "6040cd61-7c72-f011-b4cd-000d3ad2a284"
+      },
+      {
+        "detailOfGifts": "Virgin Australia Beyond Lounge Membership",
+        "id": "6340cd61-7c72-f011-b4cd-000d3ad2a284"
+      },
+      {
+        "detailOfGifts": "Copies of SA Life Magazine from Toop and Toop Real Estate",
+        "id": "6740cd61-7c72-f011-b4cd-000d3ad2a284"
+      },
+      {
+        "detailOfGifts": "Subscription to www.public.news website from Michael Schellenberger",
+        "id": "6b40cd61-7c72-f011-b4cd-000d3ad2a284"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": []
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "6d40cd61-7c72-f011-b4cd-000d3ad2a284",
+        "nameOfOrganisation": "Liberal Party of Australia (SA Division)"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "6f40cd61-7c72-f011-b4cd-000d3ad2a284",
+        "nameOfOtherAsset": "Superannuation"
+      },
+      {
+        "id": "7240cd61-7c72-f011-b4cd-000d3ad2a284",
+        "nameOfOtherAsset": "Life, Income and TPD Insurances"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-15T02:00:00Z",
+        "details": "Sum received in October 2025 in settlement of defamation action.",
+        "id": "267ee69c-0bab-f011-bbd3-00224892bc27"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-07-29T03:00:00Z",
+        "details": "Sum received in July 2026 in settlement of defamation action.",
+        "id": "d48a86cc-a28b-f111-ab0f-7c1e5262eaeb"
+      }
+    ],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-21T23:00:00Z",
+        "details": "Membership of the Inter-Parliamentary Union (IPU) for the 48th Parliament",
+        "id": "4a88e17d-8db0-f011-bbd2-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-21T21:00:00Z",
+        "details": "Membership of the Serbia Parliamentary Country Group for the 48th Parliament",
+        "id": "5688e17d-8db0-f011-bbd2-6045bdc2987e"
+      }
+    ],
+    "interests": [
+      {
+        "id": "7640cd61-7c72-f011-b4cd-000d3ad2a284",
+        "natureOfInterest": "Adelaide Oval Membership"
+      },
+      {
+        "id": "7a40cd61-7c72-f011-b4cd-000d3ad2a284",
+        "natureOfInterest": "Adelaide Football Club Memberships"
+      },
+      {
+        "id": "7b40cd61-7c72-f011-b4cd-000d3ad2a284",
+        "natureOfInterest": "BUPA Health Insurance"
+      }
+    ]
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "7d40cd61-7c72-f011-b4cd-000d3ad2a284",
+        "location": "Island Beach (SA)",
+        "purposeForWhichOwned": "Vacant Land"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-04-01T21:00:00Z",
+        "details": "Classic Banking Account - NAB",
+        "id": "4e634d9b-312e-f111-88b3-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-04-01T21:00:00Z",
+        "details": "Reward Savings Account - NAB",
+        "id": "55634d9b-312e-f111-88b3-6045bdc3fcd7"
+      }
+    ],
+    "interests": [
+      {
+        "id": "8240cd61-7c72-f011-b4cd-000d3ad2a284",
+        "nameOfBankInstitution": "NAB",
+        "natureOfAccount": "Savings Account"
+      },
+      {
+        "id": "8640cd61-7c72-f011-b4cd-000d3ad2a284",
+        "nameOfBankInstitution": "CBA",
+        "natureOfAccount": "Savings Account"
+      },
+      {
+        "id": "8840cd61-7c72-f011-b4cd-000d3ad2a284",
+        "nameOfBankInstitution": "CBA",
+        "natureOfAccount": "Smart Access Account "
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "South Australia",
+    "id": "4440cd61-7c72-f011-b4cd-000d3ad2a284",
+    "lastDateUpdated": "7/29/2026 1:33:37 PM",
+    "lodgementDate": "8/6/2025 1:05:09 PM",
+    "publishNotes": false,
+    "senatorName": "Antic, Alex",
+    "senatorParty": "Liberal Party of Australia",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-23T01:00:00Z",
+        "details": "Return business class flights from Adelaide to Sydney, travel to and from airport, accommodation, entry tickets, 2 x dinners and hospitality associated with my speaking role at Advance Australia Conference between 19 February 2026 and 21 February 2026 from Advance Australia.",
+        "id": "aff225e7-6410-f111-8407-6045bdc25de2"
+      }
+    ],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

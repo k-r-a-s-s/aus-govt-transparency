@@ -480,9 +480,9 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   runs online, so 5 DB-state entity tests skip meanwhile.
 
 ### T3.6 — Senate 48th adapter (`senate-json`)
-- status: todo
+- status: done 2026-10-03
 - deps: T3.1
-- attempts: 0
+- attempts: 1
 - budget: US$0 · network: www.aph.gov.au, pbs-apim-aqcdgxhvaug7f8em.z01.azurefd.net
 - do: Per D3: fetch the list and all 76 statements and save the raw payloads to
   `pdfs/senate/48/`. Map keys to sections (an unmapped key is an error). Write
@@ -492,6 +492,12 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   types and dates. Add Senate rows to `pdfs/manifest.csv` (chamber senate, listed_date =
   lastDateUpdated).
 - done when: `validate extractions/senate-json` reports 76 valid, 0 invalid; tests pass.
+- spent: US$0.00
+- notes: `disclosures/senate.py`; `scrape --chamber senate` -> 76 payloads + manifest rows
+  (2nd run 0 new, 0 changed); `extract --source senate-json` -> 76 valid, 1,980 items (1,328
+  initial, 597 added, 55 removed). Keys: the 14 D3 ones only. Dates = Sydney date of UTC stamps.
+  AC-4.3 test now covers `pdfs/senate/**.json`. For T3.7: no pdf_members rows yet; Urquhart and
+  Small (now House) left the Senate list.
 
 ### T3.7 — Senate members, parties, multi-source load, source doc
 - status: todo

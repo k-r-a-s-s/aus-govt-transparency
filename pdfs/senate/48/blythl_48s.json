@@ -1,0 +1,197 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-06T21:00:00Z",
+        "details": "Virgin Australia  Beyond Lounge Membership ",
+        "id": "6c556845-e8bd-f011-bbd3-6045bde5f32c"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-08T08:00:00Z",
+        "details": "Chairman's Club membership - Qantas",
+        "id": "a35bec83-6376-f011-b4cb-7c1e5262c1f2"
+      }
+    ],
+    "interests": []
+  },
+  "investments": {
+    "alterations": [],
+    "interests": [
+      {
+        "bodyOfWhichInvestmentIsHeld": "Colonial First State",
+        "id": "960bea56-fe70-f011-b4cd-000d3ad2a284",
+        "typeOfInvestment": "Managed investment"
+      },
+      {
+        "bodyOfWhichInvestmentIsHeld": "Colonial first state",
+        "id": "2239ee62-fe70-f011-b4cd-000d3ad2a284",
+        "typeOfInvestment": "Superannuation"
+      },
+      {
+        "bodyOfWhichInvestmentIsHeld": "Military Super",
+        "id": "e6c6dc6e-fe70-f011-b4cd-000d3ad2a284",
+        "typeOfInvestment": "Superannuation"
+      }
+    ]
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "CBA",
+        "id": "f426a93e-fe70-f011-b4cd-000d3ad2a284",
+        "natureOfLiability": "Mortgage"
+      },
+      {
+        "creditor": "CBA, ANZ, AMEX",
+        "id": "7402a444-fe70-f011-b4cd-000d3ad2a284",
+        "natureOfLiability": "Credit Cards"
+      },
+      {
+        "creditor": "Toyota finance",
+        "id": "1770e14a-fe70-f011-b4cd-000d3ad2a284",
+        "natureOfLiability": "Car Lease"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "579a4cab-fe70-f011-b4cd-000d3ad2a284",
+        "nameOfOrganisation": "Liberal Party of Australia (SA Division)"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "55d1218d-fe70-f011-b4cd-000d3ad2a284",
+        "nameOfOtherAsset": "Life insurance policies"
+      },
+      {
+        "id": "63092693-fe70-f011-b4cd-000d3ad2a284",
+        "nameOfOtherAsset": "Cars"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "2c9f2599-fe70-f011-b4cd-000d3ad2a284",
+        "nameOfIncome": "Managed investments"
+      }
+    ]
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "34395614-fe70-f011-b4cd-000d3ad2a284",
+        "location": "Adelaide",
+        "purposeForWhichOwned": "Primary place of residence"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": [
+      {
+        "activitiesOfCompany": "Political Party",
+        "id": "a8497220-fe70-f011-b4cd-000d3ad2a284",
+        "nameOfCompany": "Liberal Party of Australia (SA Division)"
+      },
+      {
+        "activitiesOfCompany": "Affiliate of the Liberal Party of Australia (SA Division)",
+        "id": "6cac7626-fe70-f011-b4cd-000d3ad2a284",
+        "nameOfCompany": "Liberal Club"
+      }
+    ]
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "a5140081-fe70-f011-b4cd-000d3ad2a284",
+        "nameOfBankInstitution": "CBA",
+        "natureOfAccount": "Savings"
+      },
+      {
+        "id": "ec30fc86-fe70-f011-b4cd-000d3ad2a284",
+        "nameOfBankInstitution": "Legal Practice",
+        "natureOfAccount": "WIP"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "South Australia",
+    "id": "d2601b5e-fd70-f011-b4cd-000d3ad2a284",
+    "lastDateUpdated": "12/11/2025 4:30:02 PM",
+    "lodgementDate": "7/25/2025 12:00:00 AM",
+    "publishNotes": false,
+    "senatorName": "Blyth, Leah",
+    "senatorParty": "Liberal Party of Australia",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "ed62907c-fd70-f011-b4cd-000d3ad2a284",
+        "nameOfCompany": "Liberal Club"
+      }
+    ]
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-11T05:30:00Z",
+        "details": "Accomodation, hospitality, flights and ground transport on Australian Political Exchange Council delegation to Japan hosted by Ministry of Foreign Affairs.",
+        "id": "b80f9759-f0d6-f011-8544-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-23T08:00:00Z",
+        "details": "Save the Children - Delegation Laos ",
+        "id": "94620c89-1299-f011-b41c-6045bde49b50"
+      }
+    ],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "65f8d3ac-fd70-f011-b4cd-000d3ad2a284",
+        "interest": "Trustee",
+        "nameOfCompany": "Liberal Party of Australia (SA Division)",
+        "nature": "Political Party",
+        "type": "trustee"
+      },
+      {
+        "id": "8b2917c1-c68e-f011-b4cc-6045bde63b9a",
+        "interest": "Trustee",
+        "nameOfCompany": "Liberal Party of Australia (SA Division)",
+        "nature": "Political Party",
+        "type": "beneficiary"
+      }
+    ]
+  },
+  "wasSuccessful": true
+}

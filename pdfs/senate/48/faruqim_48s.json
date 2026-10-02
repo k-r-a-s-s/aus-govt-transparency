@@ -1,0 +1,173 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfGifts": "Chairman's Lounge Membership - QANTAS",
+        "id": "e8b4abd7-ce7c-f011-b4cb-000d3ad253b4"
+      },
+      {
+        "detailOfGifts": "Beyond Lounge Membership - Virgin",
+        "id": "eab4abd7-ce7c-f011-b4cb-000d3ad253b4"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "Commonwealth Bank (joint with spouse)",
+        "id": "ecb4abd7-ce7c-f011-b4cb-000d3ad253b4",
+        "natureOfLiability": "Mortgage on investment property, Beaconsfield"
+      },
+      {
+        "creditor": "Commonwealth Bank (joint with spouse)",
+        "id": "f6b4abd7-ce7c-f011-b4cb-000d3ad253b4",
+        "natureOfLiability": "Co-guarantor of overdraft facility for partner's business"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "01b5abd7-ce7c-f011-b4cb-000d3ad253b4",
+        "nameOfOrganisation": "Deputy Leader of the Australian Greens"
+      },
+      {
+        "id": "0ab5abd7-ce7c-f011-b4cb-000d3ad253b4",
+        "nameOfOrganisation": "Monthly tithe from Salary to the NSW Greens"
+      },
+      {
+        "id": "0cb5abd7-ce7c-f011-b4cb-000d3ad253b4",
+        "nameOfOrganisation": "Monthly tithe from Salary to Australian Greens"
+      },
+      {
+        "id": "0eb5abd7-ce7c-f011-b4cb-000d3ad253b4",
+        "nameOfOrganisation": "Monthly tithe from Salary to Global Greens"
+      },
+      {
+        "id": "10b5abd7-ce7c-f011-b4cb-000d3ad253b4",
+        "nameOfOrganisation": "Donation to Greyhound Rescue"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "12b5abd7-ce7c-f011-b4cb-000d3ad253b4",
+        "nameOfOtherAsset": "UniSuper (includes life insurance)"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "14b5abd7-ce7c-f011-b4cb-000d3ad253b4",
+        "nameOfIncome": "Income from rental property - Beaconsfield NSW\n"
+      }
+    ]
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "16b5abd7-ce7c-f011-b4cb-000d3ad253b4",
+        "natureOfInterest": "Membership, NSW Greens"
+      },
+      {
+        "id": "17b5abd7-ce7c-f011-b4cb-000d3ad253b4",
+        "natureOfInterest": "Membership, Australian Greens"
+      },
+      {
+        "id": "18b5abd7-ce7c-f011-b4cb-000d3ad253b4",
+        "natureOfInterest": "Membership, NTEU"
+      },
+      {
+        "id": "19b5abd7-ce7c-f011-b4cb-000d3ad253b4",
+        "natureOfInterest": "Member (Fellow), Institution of Engineers Australia"
+      }
+    ]
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "1ab5abd7-ce7c-f011-b4cb-000d3ad253b4",
+        "location": "Beaconsfield, NSW",
+        "purposeForWhichOwned": "Place of residence - joint owned with spouse"
+      },
+      {
+        "id": "1cb5abd7-ce7c-f011-b4cb-000d3ad253b4",
+        "location": "Beaconsfield, NSW",
+        "purposeForWhichOwned": "Investment - joint owned with spouse"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": [
+      {
+        "activitiesOfCompany": "Sole Trader (not currently trading)",
+        "id": "2eb5abd7-ce7c-f011-b4cb-000d3ad253b4",
+        "nameOfCompany": "Mehreen Faruqi Consulting"
+      }
+    ]
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "37b5abd7-ce7c-f011-b4cb-000d3ad253b4",
+        "nameOfBankInstitution": "Commonwealth Bank (joint with spouse)",
+        "natureOfAccount": "Savings Account"
+      },
+      {
+        "id": "39b5abd7-ce7c-f011-b4cb-000d3ad253b4",
+        "nameOfBankInstitution": "ANZ (joint with spouse)",
+        "natureOfAccount": "Savings Account"
+      },
+      {
+        "id": "3ab5abd7-ce7c-f011-b4cb-000d3ad253b4",
+        "nameOfBankInstitution": "Commonwealth Bank (joint with spouse)",
+        "natureOfAccount": "Offset Account"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "New South Wales",
+    "id": "e2b4abd7-ce7c-f011-b4cb-000d3ad253b4",
+    "lastDateUpdated": "8/19/2025 5:36:07 PM",
+    "lodgementDate": "8/19/2025 3:05:12 PM",
+    "publishNotes": false,
+    "senatorName": "Faruqi, Mehreen",
+    "senatorParty": "Australian Greens",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

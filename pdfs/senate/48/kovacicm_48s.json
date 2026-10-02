@@ -1,0 +1,352 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-04-16T08:00:00Z",
+        "details": "Foxtel Subscription and 2 x Set Top Boxes for Electorate Office",
+        "id": "55dfe6f3-ed39-f111-88b3-6045bdc3f566"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-09-28T06:30:00Z",
+        "details": "Advanced Political Leadership 2026 Scholarship provided by McKinnon Institute for Political Leadership (MKI)\nInduction, 12 – 13 June 2026, Victoria \nResidential Intensive, 12 – 17 July 2026, South Australia \nWorkshop & Graduation, 11 – 12 September 2026, Australian Capital Territory \nValue - $32,000.00 (excluding GST) ",
+        "id": "8f1e10f9-90bb-f111-aaae-7c1e5262eaeb"
+      },
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2025-11-17T21:00:00Z",
+        "details": "Tickets (x2) to Mid Winter Ball, Canberra, June 2023. Hosted by Australian Investment Council. ",
+        "id": "dc13a3a7-ccc4-f011-bbd3-6045bdc2987e"
+      },
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2025-11-17T21:00:00Z",
+        "details": "Gift Bag containing L'Oréal products, given to all attendees at L'Oréal UNESCO for Women in Science. Nov 2023.",
+        "id": "e113a3a7-ccc4-f011-bbd3-6045bdc2987e"
+      }
+    ],
+    "interests": [
+      {
+        "detailOfGifts": "Tickets (x2) to Mid Winter Ball, Canberra, June 2023. Hosted by Australian Investment Council.",
+        "id": "cc881655-bd7c-f011-b4cc-6045bdc29378"
+      },
+      {
+        "detailOfGifts": "Gift Bag containing L’Oréal products, given to all attendees at L’Oreal UNESCO for Women in Science Lunch, Sydney, Nov 2023.",
+        "id": "ce881655-bd7c-f011-b4cc-6045bdc29378"
+      },
+      {
+        "detailOfGifts": "Qantas Chairman’s Lounge Access, commenced March 2024.",
+        "id": "d0881655-bd7c-f011-b4cc-6045bdc29378"
+      },
+      {
+        "detailOfGifts": "Virgin Beyond Membership, commenced May 2024.",
+        "id": "d2881655-bd7c-f011-b4cc-6045bdc29378"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-04-16T08:00:00Z",
+        "details": "Credit Card AMEX",
+        "id": "96c0fbee-ed39-f111-88b4-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-09-28T06:00:00Z",
+        "details": "Mortgage on residential property - CBA",
+        "id": "26ec89ef-90bb-f111-aaae-7ced8da2d8e0"
+      },
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2026-09-28T06:00:00Z",
+        "details": "Mortgage on residential property - Ubank",
+        "id": "35ec89ef-90bb-f111-aaae-7ced8da2d8e0"
+      }
+    ],
+    "interests": [
+      {
+        "creditor": "UBank",
+        "id": "d4881655-bd7c-f011-b4cc-6045bdc29378",
+        "natureOfLiability": "Mortgage on residential property"
+      },
+      {
+        "creditor": "ANZ",
+        "id": "d6881655-bd7c-f011-b4cc-6045bdc29378",
+        "natureOfLiability": "Commercial Facilities"
+      },
+      {
+        "creditor": "ANZ",
+        "id": "d8881655-bd7c-f011-b4cc-6045bdc29378",
+        "natureOfLiability": "Credit Card"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "da881655-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfOrganisation": "Liberal Party of Australia"
+      },
+      {
+        "id": "dd881655-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfOrganisation": "Liberal Party (NSW Division)"
+      },
+      {
+        "id": "df881655-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfOrganisation": "Young Liberals"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "e1881655-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfOtherAsset": "Superannuation"
+      },
+      {
+        "id": "e4881655-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfOtherAsset": "Life Insurance, Trauma & TPD"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "e6881655-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfIncome": "Mobile Home & Investment Services Pty Ltd; business income & distribution of any profit."
+      },
+      {
+        "id": "e8881655-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfIncome": "BorrowRight Pty Ltd; business income & distribution of any profit."
+      }
+    ]
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "ea881655-bd7c-f011-b4cc-6045bdc29378",
+        "location": "Beecroft, NSW",
+        "purposeForWhichOwned": "Residence"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": [
+      {
+        "activitiesOfCompany": "Financial Services & Consulting",
+        "id": "3c6b115b-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfCompany": "Mobile Home & Investment Services Pty Ltd"
+      },
+      {
+        "activitiesOfCompany": "Financial Services & Consulting",
+        "id": "3e6b115b-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfCompany": "BorrowRight Pty Ltd"
+      },
+      {
+        "activitiesOfCompany": "Holding Company",
+        "id": "406b115b-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfCompany": "Kovacic Holdings Pty Ltd"
+      }
+    ]
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-09-29T00:00:00Z",
+        "details": "Mortgage Offset - CBA",
+        "id": "b1485ee1-99bb-f111-aaae-70a8a553fe6c"
+      },
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2026-09-29T00:30:00Z",
+        "details": "Mortgage Offset - Ubank",
+        "id": "cf895be7-99bb-f111-aaae-70a8a553fe6c"
+      }
+    ],
+    "interests": [
+      {
+        "id": "426b115b-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfBankInstitution": "UBank",
+        "natureOfAccount": "Savings "
+      },
+      {
+        "id": "436b115b-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfBankInstitution": "UBank",
+        "natureOfAccount": "Mortgage Offset"
+      },
+      {
+        "id": "446b115b-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfBankInstitution": "ANZ",
+        "natureOfAccount": "Savings"
+      },
+      {
+        "id": "456b115b-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfBankInstitution": "ING",
+        "natureOfAccount": "Savings"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "New South Wales",
+    "id": "c7881655-bd7c-f011-b4cc-6045bdc29378",
+    "lastDateUpdated": "9/29/2026 4:01:51 PM",
+    "lodgementDate": "8/17/2025 2:00:00 PM",
+    "publishNotes": false,
+    "senatorName": "Kovacic, Maria",
+    "senatorParty": "Liberal Party of Australia",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "466b115b-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfCompany": "Mobile Home & Investment Services Pty Ltd and Mobile Home & Investment Services Trust"
+      },
+      {
+        "id": "486b115b-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfCompany": "Borrowright Pty Ltd"
+      },
+      {
+        "id": "4a6b115b-bd7c-f011-b4cc-6045bdc29378",
+        "nameOfCompany": "Kovacic Holdings Pty Ltd"
+      }
+    ]
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-04-16T08:00:00Z",
+        "details": "On 26 March 2026, I was booked on QANTAS flight QF1456 Canberra to Sydney, economy fare. Due to a delay to my flight, QANTAS changed my flight to QF1524. There were no economy seats left on this flight and QANTAS upgraded me to Business Class in order for me to make this flight. The upgrade was unsolicited. ",
+        "id": "3e90aff3-ed39-f111-88b4-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-17T21:00:00Z",
+        "details": "Ticket to the Mid-Winter Ball, Canberra, August 2025. Hosted by Qantas Airways Limited",
+        "id": "d513a3a7-ccc4-f011-bbd3-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-04-16T08:00:00Z",
+        "details": "Tickets (x2) The Australian Ballet to opening night of Flora, 7 April 2026. Hosted by Telstra",
+        "id": "e6b2efe8-ed39-f111-88b4-7ced8da1c86f"
+      },
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2025-11-17T21:00:00Z",
+        "details": "Whale watching, Sydney Harbour, July 2023. Hosted by Environmental Leadership Australia.",
+        "id": "e613a3a7-ccc4-f011-bbd3-6045bdc2987e"
+      },
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2025-11-17T21:00:00Z",
+        "details": "Travel and Accommodation, COP28 Dubai, Dec 2023; hosted by Environmental Leadership Australia. ",
+        "id": "ec13a3a7-ccc4-f011-bbd3-6045bdc2987e"
+      },
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2025-11-17T21:00:00Z",
+        "details": "Dinner at Good Luck Restaurant, Sydney, Sept 2024; Hosted by Association of Superannuation Funds of Australia. Estimated value $150",
+        "id": "f113a3a7-ccc4-f011-bbd3-6045bdc2987e"
+      },
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2025-11-17T21:00:00Z",
+        "details": "Dinner at Toppi Restaurant, Sydney, Sept 2024; hosted by Tattarang. Estimated value $150",
+        "id": "f613a3a7-ccc4-f011-bbd3-6045bdc2987e"
+      },
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2025-11-17T21:00:00Z",
+        "details": "Ticket to Sydney Institute Annual Dinner, Sydney. Nov 2024; hosted by Woolworths Group",
+        "id": "fb13a3a7-ccc4-f011-bbd3-6045bdc2987e"
+      }
+    ],
+    "interests": [
+      {
+        "detailOfTravelHospitality": "Whale Watching, Sydney Harbour, July 2023; hosted by Environmental Leadership Australia. ",
+        "id": "4c6b115b-bd7c-f011-b4cc-6045bdc29378"
+      },
+      {
+        "detailOfTravelHospitality": "Travel & Accomodation, COP28 Dubai, Dec 2023; hosted by Environmental Leadership Australia. ",
+        "id": "4e6b115b-bd7c-f011-b4cc-6045bdc29378"
+      },
+      {
+        "detailOfTravelHospitality": "Dinner at Good Luck Restaurant, Sydney, Sept 2024; hosted by Association of Superannuation Funds of Australia. Estimated value $150.",
+        "id": "506b115b-bd7c-f011-b4cc-6045bdc29378"
+      },
+      {
+        "detailOfTravelHospitality": "Dinner at Toppi Restaurant, Sydney, Sept 2024; hosted by Tattarang. Estimated value $150.",
+        "id": "526b115b-bd7c-f011-b4cc-6045bdc29378"
+      },
+      {
+        "detailOfTravelHospitality": "Ticket to Sydney Institute Annual Dinner, Sydney, Nov 2024; hosted by Woolworths Group.",
+        "id": "546b115b-bd7c-f011-b4cc-6045bdc29378"
+      },
+      {
+        "detailOfTravelHospitality": "Tickets (x2) to National Press Club address by The Leader of the Opposition, The Hon Sussan Ley, Canberra, June 2025; hosted by Woolworths Group.",
+        "id": "566b115b-bd7c-f011-b4cc-6045bdc29378"
+      }
+    ]
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "586b115b-bd7c-f011-b4cc-6045bdc29378",
+        "interest": "Beneficiary",
+        "nameOfCompany": "Mobile Home & Investment Services Trust",
+        "nature": "Trustee",
+        "type": "beneficiary"
+      },
+      {
+        "id": "596b115b-bd7c-f011-b4cc-6045bdc29378",
+        "interest": "Shareholder",
+        "nameOfCompany": "Mobile Home & Investment Services Pty Ltd",
+        "nature": "Financial Services & Consulting",
+        "type": "beneficiary"
+      },
+      {
+        "id": "5a6b115b-bd7c-f011-b4cc-6045bdc29378",
+        "interest": "Shareholder",
+        "nameOfCompany": "BorrowRight Pty Ltd",
+        "nature": "Financial Services & Consulting",
+        "type": "beneficiary"
+      },
+      {
+        "id": "5b6b115b-bd7c-f011-b4cc-6045bdc29378",
+        "interest": "Shareholder",
+        "nameOfCompany": "Kovacic Holdings Pty Ltd",
+        "nature": "Holding Company",
+        "type": "beneficiary"
+      }
+    ]
+  },
+  "wasSuccessful": true
+}

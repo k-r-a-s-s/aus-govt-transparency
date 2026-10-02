@@ -1,0 +1,126 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": []
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "Westpac",
+        "id": "c2479720-be7c-f011-b4cc-6045bdc29378",
+        "natureOfLiability": "Mortgage on residential property"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "c4479720-be7c-f011-b4cc-6045bdc29378",
+        "nameOfOrganisation": "Membership - Australian Labor Party\nMembership - Transport Workers' Union of Australia"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "c6479720-be7c-f011-b4cc-6045bdc29378",
+        "nameOfOtherAsset": "Superannuation - TWUSUPER"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "c8479720-be7c-f011-b4cc-6045bdc29378",
+        "location": "Surry Hills, NSW",
+        "purposeForWhichOwned": "Residential"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "ca479720-be7c-f011-b4cc-6045bdc29378",
+        "nameOfBankInstitution": "Westpac",
+        "natureOfAccount": "Savings account"
+      },
+      {
+        "id": "cb479720-be7c-f011-b4cc-6045bdc29378",
+        "nameOfBankInstitution": "ANZ",
+        "natureOfAccount": "Savings account"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "New South Wales",
+    "id": "bb479720-be7c-f011-b4cc-6045bdc29378",
+    "lastDateUpdated": "9/16/2025 3:55:26 PM",
+    "lodgementDate": "8/18/2025 10:10:10 AM",
+    "publishNotes": false,
+    "senatorName": "Sheldon, Tony",
+    "senatorParty": "Australian Labor Party",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2025-09-16T12:00:00Z",
+        "details": "Haventec",
+        "id": "873fc834-c192-f011-b4cc-6045bde49b50"
+      }
+    ],
+    "interests": [
+      {
+        "id": "cc479720-be7c-f011-b4cc-6045bdc29378",
+        "nameOfCompany": "Qantas Airways"
+      },
+      {
+        "id": "cf479720-be7c-f011-b4cc-6045bdc29378",
+        "nameOfCompany": "Haventec"
+      }
+    ]
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfTravelHospitality": "Complimentary Foxtel subscription at Electorate Office",
+        "id": "d1479720-be7c-f011-b4cc-6045bdc29378"
+      }
+    ]
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

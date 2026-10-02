@@ -1,0 +1,199 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfGifts": "Foxtel subscription for Electorate Office",
+        "id": "2b888ae3-e57b-f011-b4cc-7c1e522adcf3"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-08-02T22:00:00Z",
+        "details": "Mortgage and Credit Card with Commonwealth Bank",
+        "id": "42d14726-988f-f111-8076-70a8a553fe6c"
+      },
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2026-08-02T22:00:00Z",
+        "details": "Mortgage and Credit Card closed with ANZ",
+        "id": "8fd14726-988f-f111-8076-70a8a553fe6c"
+      }
+    ],
+    "interests": [
+      {
+        "creditor": "ANZ",
+        "id": "2d888ae3-e57b-f011-b4cc-7c1e522adcf3",
+        "natureOfLiability": "Mortgage - jointly held with spouse"
+      },
+      {
+        "creditor": "NAB",
+        "id": "2f888ae3-e57b-f011-b4cc-7c1e522adcf3",
+        "natureOfLiability": "Credit Card"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-08T06:00:00Z",
+        "details": "Sponsored the Byford Christmas Carols",
+        "id": "fd281142-8bd4-f011-8544-6045bdc49d4e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-08T06:30:00Z",
+        "details": "Salvation Army",
+        "id": "35291142-8bd4-f011-8544-6045bdc49d4e"
+      }
+    ],
+    "interests": [
+      {
+        "id": "31888ae3-e57b-f011-b4cc-7c1e522adcf3",
+        "nameOfOrganisation": "Liberal Party of Western Australia"
+      },
+      {
+        "id": "33888ae3-e57b-f011-b4cc-7c1e522adcf3",
+        "nameOfOrganisation": "Donation to Nations Church"
+      },
+      {
+        "id": "35888ae3-e57b-f011-b4cc-7c1e522adcf3",
+        "nameOfOrganisation": "Donation to Transform Cambodia"
+      },
+      {
+        "id": "37888ae3-e57b-f011-b4cc-7c1e522adcf3",
+        "nameOfOrganisation": "Donation to Compassion Australia"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "39888ae3-e57b-f011-b4cc-7c1e522adcf3",
+        "nameOfOtherAsset": "Superannuation Account held with Australian Super"
+      },
+      {
+        "id": "3b888ae3-e57b-f011-b4cc-7c1e522adcf3",
+        "nameOfOtherAsset": "Life insurance and TPD with Australian Super"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "3d888ae3-e57b-f011-b4cc-7c1e522adcf3",
+        "natureOfInterest": "Perth airport parking pass"
+      }
+    ]
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-08-02T22:00:00Z",
+        "details": "Purchased PPR in Oakford WA",
+        "id": "80d14726-988f-f111-8076-70a8a553fe6c"
+      },
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2026-08-02T22:00:00Z",
+        "details": "Sold PPR in Aubin Grove WA",
+        "id": "8ad14726-988f-f111-8076-70a8a553fe6c"
+      }
+    ],
+    "interests": [
+      {
+        "id": "3e888ae3-e57b-f011-b4cc-7c1e522adcf3",
+        "location": "Aubin Grove WA",
+        "purposeForWhichOwned": "Residential - jointly owned with spouse"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-08-02T22:00:00Z",
+        "details": "Savings with Commonwealth Bank",
+        "id": "85d14726-988f-f111-8076-70a8a553fe6c"
+      },
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2026-08-02T22:00:00Z",
+        "details": "Closed Savings with ANZ",
+        "id": "95d14726-988f-f111-8076-70a8a553fe6c"
+      }
+    ],
+    "interests": [
+      {
+        "id": "40888ae3-e57b-f011-b4cc-7c1e522adcf3",
+        "nameOfBankInstitution": "ANZ",
+        "natureOfAccount": "Savings account"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Western Australia",
+    "id": "26888ae3-e57b-f011-b4cc-7c1e522adcf3",
+    "lastDateUpdated": "8/3/2026 2:12:00 PM",
+    "lodgementDate": "8/14/2025 2:00:00 PM",
+    "publishNotes": false,
+    "senatorName": "O'Sullivan, Matt",
+    "senatorParty": "Liberal Party of Australia",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-08T05:30:00Z",
+        "details": "Guest of Cricket Australia to Day 2 two of the Ashes test at Optus Stadium, Perth including function and hospitality.",
+        "id": "df07d13b-8bd4-f011-8544-6045bdc49d4e"
+      }
+    ],
+    "interests": [
+      {
+        "detailOfTravelHospitality": "QANTAS - Chairman's Lounge Membership",
+        "id": "41888ae3-e57b-f011-b4cc-7c1e522adcf3"
+      },
+      {
+        "detailOfTravelHospitality": "Virgin Australia - The Club Membership",
+        "id": "43888ae3-e57b-f011-b4cc-7c1e522adcf3"
+      }
+    ]
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

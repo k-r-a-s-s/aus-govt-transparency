@@ -1,0 +1,211 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-09T07:00:00Z",
+        "details": "3 Cartons of Beer from the Brewers Association.",
+        "id": "35dbab66-b5d4-f011-8544-6045bde6a67d"
+      }
+    ],
+    "interests": []
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "Plenti",
+        "id": "659a7a0d-cf7c-f011-b4cb-7c1e522a62fa",
+        "natureOfLiability": "Car loan"
+      },
+      {
+        "creditor": "Resimac",
+        "id": "679a7a0d-cf7c-f011-b4cb-7c1e522a62fa",
+        "natureOfLiability": "Car loan"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "699a7a0d-cf7c-f011-b4cb-7c1e522a62fa",
+        "nameOfIncome": "Trust distributions"
+      }
+    ]
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2026-06-04T08:00:00Z",
+        "details": " Upper Swan, WA             Investment (jointly held)",
+        "id": "88a7eace-df5f-f111-a826-00224810b694"
+      }
+    ],
+    "interests": [
+      {
+        "id": "6b9a7a0d-cf7c-f011-b4cb-7c1e522a62fa",
+        "location": " Upper Swan, WA   ",
+        "purposeForWhichOwned": "Investment (jointly held)"
+      },
+      {
+        "id": "6d9a7a0d-cf7c-f011-b4cb-7c1e522a62fa",
+        "location": "Gosford NSW   ",
+        "purposeForWhichOwned": "Investment (jointly held)"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-01-22T06:00:00Z",
+        "details": "Became director of T & A Whitten Holdings Pty Ltd",
+        "id": "9646f98c-e3f7-f011-8406-6045bdc25de2"
+      }
+    ],
+    "interests": [
+      {
+        "activitiesOfCompany": "Trustee company",
+        "id": "6f9a7a0d-cf7c-f011-b4cb-7c1e522a62fa",
+        "nameOfCompany": "Hillbilly Oysters Pty Ltd  "
+      },
+      {
+        "activitiesOfCompany": "Investment",
+        "id": "719a7a0d-cf7c-f011-b4cb-7c1e522a62fa",
+        "nameOfCompany": "T & A Whitten Family Investments Pty Ltd "
+      },
+      {
+        "activitiesOfCompany": "Trustee company",
+        "id": "739a7a0d-cf7c-f011-b4cb-7c1e522a62fa",
+        "nameOfCompany": "T & A Whitten Holdings Pty Limited "
+      },
+      {
+        "activitiesOfCompany": "Former investment",
+        "id": "759a7a0d-cf7c-f011-b4cb-7c1e522a62fa",
+        "nameOfCompany": "Whitten Bros Investments Pty Limited   "
+      }
+    ]
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": []
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Western Australia",
+    "id": "609a7a0d-cf7c-f011-b4cb-7c1e522a62fa",
+    "lastDateUpdated": "6/4/2026 4:41:28 PM",
+    "lodgementDate": "8/18/2025 2:00:00 PM",
+    "publishNotes": false,
+    "senatorName": "Whitten, Tyron",
+    "senatorParty": "One Nation",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2026-06-04T08:00:00Z",
+        "details": "Whittens Group Pty Ltd\n",
+        "id": "76a7eace-df5f-f111-a826-00224810b694"
+      },
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2026-06-04T08:00:00Z",
+        "details": "Whitten Bros Investments Pty Limited ",
+        "id": "82a7eace-df5f-f111-a826-00224810b694"
+      }
+    ],
+    "interests": [
+      {
+        "id": "779a7a0d-cf7c-f011-b4cb-7c1e522a62fa",
+        "nameOfCompany": "Whittens Group Pty Ltd"
+      },
+      {
+        "id": "7b9a7a0d-cf7c-f011-b4cb-7c1e522a62fa",
+        "nameOfCompany": "T & A Whitten Family Investments Pty Ltd"
+      },
+      {
+        "id": "7d9a7a0d-cf7c-f011-b4cb-7c1e522a62fa",
+        "nameOfCompany": "Whitten Bros Investments Pty Limited "
+      },
+      {
+        "id": "809a7a0d-cf7c-f011-b4cb-7c1e522a62fa",
+        "nameOfCompany": "DCF Global Pty Ltd\n"
+      },
+      {
+        "id": "839a7a0d-cf7c-f011-b4cb-7c1e522a62fa",
+        "nameOfCompany": "Fremantle Seaweed Pty Ltd"
+      },
+      {
+        "id": "869a7a0d-cf7c-f011-b4cb-7c1e522a62fa",
+        "nameOfCompany": "Vanable Fitouts Pty Ltd"
+      },
+      {
+        "id": "889a7a0d-cf7c-f011-b4cb-7c1e522a62fa",
+        "nameOfCompany": "Sky Energy Investments Pty Ltd"
+      }
+    ]
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-01T22:00:00Z",
+        "details": "Virgin Australia Beyond Lounge",
+        "id": "404adb39-9887-f011-b4cc-6045bdc29378"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-01T22:00:00Z",
+        "details": "Qantas Chairman's Lounge\n",
+        "id": "68af9f28-9887-f011-b4cc-6045bdc323b4"
+      }
+    ],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "8a9a7a0d-cf7c-f011-b4cb-7c1e522a62fa",
+        "interest": "Discretionary beneficiary",
+        "nameOfCompany": "T & A Whitten Family Trust ",
+        "nature": "Business Investment",
+        "type": "trustee"
+      },
+      {
+        "id": "8c9a7a0d-cf7c-f011-b4cb-7c1e522a62fa",
+        "interest": "Discretionary beneficiary",
+        "nameOfCompany": "Hillbilly Oysters Family Trust",
+        "nature": "Business Investment",
+        "type": "trustee"
+      }
+    ]
+  },
+  "wasSuccessful": true
+}

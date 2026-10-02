@@ -1,0 +1,171 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": []
+  },
+  "investments": {
+    "alterations": [],
+    "interests": [
+      {
+        "bodyOfWhichInvestmentIsHeld": "Managed Investments in SMSF: Dimensional global bond trust, Dimensional Glb  Sustainability Hedge/ Global Small Company Trust/Aust Sustainability Trust; Neuberger Berman Global High Yield Fund, Vanguard Australian Share Index Fund, Vanguard Emerg Market Shares Index Fund",
+        "id": "6230ad8f-a078-f011-b4cb-000d3ad253b4",
+        "typeOfInvestment": "Managed Investments"
+      }
+    ]
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "Westpac, NAB",
+        "id": "6430ad8f-a078-f011-b4cb-000d3ad253b4",
+        "natureOfLiability": "Mortgage"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "6630ad8f-a078-f011-b4cb-000d3ad253b4",
+        "nameOfIncome": "rental income"
+      }
+    ]
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "6830ad8f-a078-f011-b4cb-000d3ad253b4",
+        "natureOfInterest": "Member Chairman's Lounge Qantas"
+      },
+      {
+        "id": "6930ad8f-a078-f011-b4cb-000d3ad253b4",
+        "natureOfInterest": "APHRA paying member"
+      }
+    ]
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "6a30ad8f-a078-f011-b4cb-000d3ad253b4",
+        "location": "Porepunkah, Vic",
+        "purposeForWhichOwned": "Residential/investment"
+      },
+      {
+        "id": "6c30ad8f-a078-f011-b4cb-000d3ad253b4",
+        "location": "Beaumaris, Tas",
+        "purposeForWhichOwned": "Residential/investment"
+      },
+      {
+        "id": "6e30ad8f-a078-f011-b4cb-000d3ad253b4",
+        "location": "North Melbourne, Vic",
+        "purposeForWhichOwned": "Residential/investment"
+      },
+      {
+        "id": "7030ad8f-a078-f011-b4cb-000d3ad253b4",
+        "location": "Canterbury, VIC",
+        "purposeForWhichOwned": "Residential/investment"
+      },
+      {
+        "id": "7230ad8f-a078-f011-b4cb-000d3ad253b4",
+        "location": "Carlton, VIC",
+        "purposeForWhichOwned": "Residential/investment"
+      },
+      {
+        "id": "7430ad8f-a078-f011-b4cb-000d3ad253b4",
+        "location": "Brisbane, QLD",
+        "purposeForWhichOwned": "Residential/investment"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "7630ad8f-a078-f011-b4cb-000d3ad253b4",
+        "nameOfBankInstitution": "CBA",
+        "natureOfAccount": "Savings"
+      },
+      {
+        "id": "7730ad8f-a078-f011-b4cb-000d3ad253b4",
+        "nameOfBankInstitution": "Macquarie CMA",
+        "natureOfAccount": "Superannuation (SMSF)"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Victoria",
+    "id": "5d30ad8f-a078-f011-b4cb-000d3ad253b4",
+    "lastDateUpdated": "8/13/2025 10:07:36 AM",
+    "lodgementDate": "8/13/2025 11:50:26 AM",
+    "publishNotes": false,
+    "senatorName": "Ananda-Rajah, Michelle",
+    "senatorParty": "Australian Labor Party",
+    "senatorPostNominal": "",
+    "senatorTitle": "",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "d4711c96-a278-f011-b4cb-6045bdc323b4",
+        "nameOfCompany": "ANZ, Arena REIT, Beta shares Asia ETF, BHP. CBA, Cochlear, CSL. Vaneck Vectors MSCI Multi emerging markets, Vaneck Vectors Inter sustainable, Beta shares Glb Sustainability Ldrs ETF, Beta shares Aus Pot Diversifier ETF, Fidelity Global Emerging Markets Fund, GWA Group Ltd, Betashares Japan ETF/ Global Qlty Leaders ETF, Magellan Infra Fund ETF, NAB, Vaneck Vectors MSCI World Ex Aus ETF/ Int Small Comp Qty ETF,"
+      },
+      {
+        "id": "d5d8149c-a278-f011-b4cb-6045bdc323b4",
+        "nameOfCompany": "Betashares S7P 500 Equal Weight ETF, ramsay Healthcare Ltd, Resmed Inc, VanEck Vectors Aus Subordinated Debt ETF, Gloabl X Morningstar Global Tech ETF, Vanguard Eth Consc Int Shares Index ET, Vanguard Eth Consc Int Shares Index ETF/ All world Ex-US Shares Index ETF, VanEck Vecotrs MSCI Int Value ETF, Westpac, Wesfarmers Ltd, Woolworths, Broadcom"
+      }
+    ]
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "9016156b-a278-f011-b4cb-6045bdc323b4",
+        "interest": "N/A",
+        "nameOfCompany": "N/A",
+        "nature": "N/A",
+        "type": "trustee"
+      },
+      {
+        "id": "cecbeb58-a278-f011-b4cb-6045bdc323b4",
+        "interest": "Joint beneficiary",
+        "nameOfCompany": "Justice Family Trust",
+        "nature": "Discretionary trust associated with spouse's work",
+        "type": "beneficiary"
+      },
+      {
+        "id": "5d86245f-a278-f011-b4cb-6045bdc323b4",
+        "interest": "Joint beneficiary",
+        "nameOfCompany": "Hugo Ash Pty Ltd",
+        "nature": "Corporate trustee for Justice Family Trust",
+        "type": "beneficiary"
+      }
+    ]
+  },
+  "wasSuccessful": true
+}

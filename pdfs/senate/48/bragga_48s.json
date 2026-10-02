@@ -1,0 +1,146 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfGifts": "Qantas lounge",
+        "id": "24da96e9-6272-f011-b4cd-0022489727de"
+      },
+      {
+        "detailOfGifts": "Virgin lounge",
+        "id": "c3d96912-c78e-f011-b4cc-6045bde63b9a"
+      },
+      {
+        "detailOfGifts": "Foxtel subscription",
+        "id": "e1d96912-c78e-f011-b4cc-6045bde63b9a"
+      },
+      {
+        "detailOfGifts": "Taronga Zoo passes",
+        "id": "09aa7718-c78e-f011-b4cc-6045bde63b9a"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "National Australia Bank",
+        "id": "27da96e9-6272-f011-b4cd-0022489727de",
+        "natureOfLiability": "Loan on property"
+      },
+      {
+        "creditor": "Narrogal Nominees",
+        "id": "2dda96e9-6272-f011-b4cd-0022489727de",
+        "natureOfLiability": "Loan on property"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "30da96e9-6272-f011-b4cd-0022489727de",
+        "location": "Paddington, NSW",
+        "purposeForWhichOwned": "Residential "
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": [
+      {
+        "activitiesOfCompany": "SMSF ",
+        "id": "3ada96e9-6272-f011-b4cd-0022489727de",
+        "nameOfCompany": "AB Superannuation "
+      }
+    ]
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "3dda96e9-6272-f011-b4cd-0022489727de",
+        "nameOfBankInstitution": "Vanguard",
+        "natureOfAccount": "Investment account"
+      },
+      {
+        "id": "41da96e9-6272-f011-b4cd-0022489727de",
+        "nameOfBankInstitution": "Superhero",
+        "natureOfAccount": "Investment account"
+      },
+      {
+        "id": "43da96e9-6272-f011-b4cd-0022489727de",
+        "nameOfBankInstitution": "SMSF ",
+        "natureOfAccount": "Superannuation"
+      },
+      {
+        "id": "45da96e9-6272-f011-b4cd-0022489727de",
+        "nameOfBankInstitution": "NAB, ANZ, Westpac ",
+        "natureOfAccount": "Savings accounts"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "New South Wales",
+    "id": "1bda96e9-6272-f011-b4cd-0022489727de",
+    "lastDateUpdated": "9/11/2026 5:11:40 PM",
+    "lodgementDate": "8/4/2025 12:07:52 PM",
+    "publishNotes": false,
+    "senatorName": "Bragg, Andrew",
+    "senatorParty": "Liberal Party of Australia",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-14T10:00:00Z",
+        "details": "Tickets to the AFL Preliminary Final - Australian Football League",
+        "id": "e2383c6b-54a9-f011-bbd3-6045bde49b50"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-14T10:00:00Z",
+        "details": "Tickets to the AFL Grand Final - Australian Football League ",
+        "id": "e7383c6b-54a9-f011-bbd3-6045bde49b50"
+      }
+    ],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

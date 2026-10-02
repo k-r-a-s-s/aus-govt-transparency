@@ -1,0 +1,161 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfGifts": "QANTAS Chairman's Lounge Membership",
+        "id": "8a013f83-bd7c-f011-b4cc-7c1e5262c1f2"
+      },
+      {
+        "detailOfGifts": "Virgin Australia The Club Membership",
+        "id": "8c013f83-bd7c-f011-b4cc-7c1e5262c1f2"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-01-21T02:30:00Z",
+        "details": "Mortgage with MYSTATE Bank Limited on the Mount Stuart property.",
+        "id": "c54394af-e3f7-f011-8406-6045bdc3f4ad"
+      }
+    ],
+    "interests": [
+      {
+        "creditor": "MYSTATE Bank Ltd",
+        "id": "8e013f83-bd7c-f011-b4cc-7c1e5262c1f2",
+        "natureOfLiability": "Mortgage on residential property"
+      },
+      {
+        "creditor": "MYSTATE Bank Ltd",
+        "id": "90013f83-bd7c-f011-b4cc-7c1e5262c1f2",
+        "natureOfLiability": "Mortgage on shack"
+      },
+      {
+        "creditor": "MYSTATE Bank Ltd",
+        "id": "93013f83-bd7c-f011-b4cc-7c1e5262c1f2",
+        "natureOfLiability": "Mortgage on New Norfolk property"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "95013f83-bd7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Tasmanian Greens Ltd - donor\nMember of Tasmanian Greens State Council"
+      },
+      {
+        "id": "97013f83-bd7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Australian Greens - donor\nMember of Australian Greens National Council"
+      },
+      {
+        "id": "9a013f83-bd7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Asia Pacific Greens - donor"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-01-21T02:00:00Z",
+        "details": "Mount Stuart, Tasmania. Residential property and soon to be primary place of residence. It is intended that the West Hobart property be sold.",
+        "id": "c04394af-e3f7-f011-8406-6045bdc3f4ad"
+      }
+    ],
+    "interests": [
+      {
+        "id": "9c013f83-bd7c-f011-b4cc-7c1e5262c1f2",
+        "location": "West Hobart, Tasmania",
+        "purposeForWhichOwned": "Residential"
+      },
+      {
+        "id": "9e013f83-bd7c-f011-b4cc-7c1e5262c1f2",
+        "location": "Nubeena, Tasmania",
+        "purposeForWhichOwned": "Shack"
+      },
+      {
+        "id": "a0013f83-bd7c-f011-b4cc-7c1e5262c1f2",
+        "location": "Nubeena, Tasmania",
+        "purposeForWhichOwned": "Agricultural land"
+      },
+      {
+        "id": "a2013f83-bd7c-f011-b4cc-7c1e5262c1f2",
+        "location": "New Norfolk, Tasmania",
+        "purposeForWhichOwned": "Residential property - tenanted to family member"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "a6013f83-bd7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfBankInstitution": "MYSTATE Bank Ltd",
+        "natureOfAccount": "Savings Account x 3\n"
+      },
+      {
+        "id": "a9013f83-bd7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfBankInstitution": "Colonial First State, CFS Edge Super and Pension",
+        "natureOfAccount": "Superannuation"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Tasmania",
+    "id": "85013f83-bd7c-f011-b4cc-7c1e5262c1f2",
+    "lastDateUpdated": "1/21/2026 1:00:35 PM",
+    "lodgementDate": "8/18/2025 11:35:50 AM",
+    "publishNotes": false,
+    "senatorName": "McKim, Nick",
+    "senatorParty": "Australian Greens",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "aa013f83-bd7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfCompany": "MYSTATE Bank Limited"
+      }
+    ]
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

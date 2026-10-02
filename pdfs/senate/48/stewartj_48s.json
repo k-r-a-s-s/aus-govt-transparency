@@ -1,0 +1,207 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfGifts": "Qantas Chairman's Lounge Membership ",
+        "id": "692e8000-cf7c-f011-b4cc-7c1e5262c1f2"
+      },
+      {
+        "detailOfGifts": "Virgin Australia Beyond Lounge Membership",
+        "id": "6b2e8000-cf7c-f011-b4cc-7c1e5262c1f2"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "Commonwealth Bank ",
+        "id": "6d2e8000-cf7c-f011-b4cc-7c1e5262c1f2",
+        "natureOfLiability": "Mortgage"
+      },
+      {
+        "creditor": "Commonwealth Bank",
+        "id": "6f2e8000-cf7c-f011-b4cc-7c1e5262c1f2",
+        "natureOfLiability": "Credit Card "
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "712e8000-cf7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Australian Labor Party - Donor"
+      },
+      {
+        "id": "732e8000-cf7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Donation to The Salvation Army on 19 May 2025 "
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "752e8000-cf7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOtherAsset": "Caravan (No ownership of land)"
+      },
+      {
+        "id": "772e8000-cf7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOtherAsset": "HostPlus Superannuation (Includes Life Insurance)"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "792e8000-cf7c-f011-b4cc-7c1e5262c1f2",
+        "natureOfInterest": "Emily's List - Member"
+      },
+      {
+        "id": "7a2e8000-cf7c-f011-b4cc-7c1e5262c1f2",
+        "natureOfInterest": "Transport Workers' Union (TWU) - Member "
+      },
+      {
+        "id": "7b2e8000-cf7c-f011-b4cc-7c1e5262c1f2",
+        "natureOfInterest": "Australian Labor Party (VIC Branch) - Member "
+      }
+    ]
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "7d2e8000-cf7c-f011-b4cc-7c1e5262c1f2",
+        "location": "Preston, VIC",
+        "purposeForWhichOwned": "Residential "
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": [
+      {
+        "activitiesOfCompany": "Start up company - Fashion Label",
+        "id": "7f2e8000-cf7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfCompany": "Frankly Blak"
+      }
+    ]
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "812e8000-cf7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfBankInstitution": "NAB",
+        "natureOfAccount": "Savings"
+      },
+      {
+        "id": "822e8000-cf7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfBankInstitution": "BankVic ",
+        "natureOfAccount": "Savings"
+      },
+      {
+        "id": "832e8000-cf7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfBankInstitution": "ING",
+        "natureOfAccount": "Savings"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Victoria",
+    "id": "632e8000-cf7c-f011-b4cc-7c1e5262c1f2",
+    "lastDateUpdated": "8/6/2026 3:04:37 PM",
+    "lodgementDate": "8/19/2025 1:51:53 PM",
+    "publishNotes": false,
+    "senatorName": "Stewart, Jana",
+    "senatorParty": "Australian Labor Party",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-22T10:00:00Z",
+        "details": "2 x Tickets & Hospitality to the 2025 First Preliminary Final - Collingwood vs Brisbane Lions on 20 September 2025, guest of AFL House",
+        "id": "af33ef1b-6c97-f011-b41c-000d3ad253b4"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-08T10:00:00Z",
+        "details": "2 x Tickets to the NRMA Insurance Ashes Boxing Day Test on 27 December 2025, guest of Cricket Australia",
+        "id": "47756594-4d05-f111-8407-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-07-03T01:30:00Z",
+        "details": "2 x Tickets to the Midwinter Ball on Wednesday 1 July 2026, guest of LION CEO, Anubha Sahasrabuddhe",
+        "id": "4007123d-8076-f111-ab0f-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-08-06T10:00:00Z",
+        "details": "Tickets & Hospitality to the Adelaide v Collingwood Chairman's event and game on 23 July 2026, guest of Adelaide Football Club ",
+        "id": "241fa9c8-1592-f111-8076-6045bdc2f293"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-08T23:00:00Z",
+        "details": "2 x Tickets & Hospitality to the 2025 Men's Crown Australian Open, on 7 December 2025, guest of PGA of Australia & Golf Australia",
+        "id": "ee87d33f-b6d4-f011-8544-6045bde589eb"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-24T21:00:00Z",
+        "details": "1 x Ticket to Australian Chamber of Commerce and Industry (ACCI) Gala Dinner on 29 October 2025, Guest of CEO Andrew McKellar",
+        "id": "a98ccc84-06cf-f011-8544-6045bde5f32c"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-05-25T08:00:00Z",
+        "details": "2 x Tickets and Hospitality - MCRI's 40th Anniversary Gala on 16 May 2026, guest of Murdoch Children’s Research Institute",
+        "id": "c41d3952-0858-f111-bec7-7ced8da1c86f"
+      }
+    ],
+    "interests": [
+      {
+        "detailOfTravelHospitality": "Accommodation Upgrade at The Westin Hotel Brisbane on 22/05/25 - 23/05/25. Room upgraded from a Westin King Room to a Westin Renewal Suite. ",
+        "id": "842e8000-cf7c-f011-b4cc-7c1e5262c1f2"
+      },
+      {
+        "detailOfTravelHospitality": "1 x Ticket and Hospitality to the Formula 1 Australian Grand Prix 2025 on Saturday 15 March 2025, guest of the State Government of Victoria.  ",
+        "id": "862e8000-cf7c-f011-b4cc-7c1e5262c1f2"
+      },
+      {
+        "detailOfTravelHospitality": "2 x Tickets and Hospitality to the How to Train Your Dragon Melbourne Premiere on 5 June 2025, Guest of the State Government of Victoria and Vicscreen",
+        "id": "882e8000-cf7c-f011-b4cc-7c1e5262c1f2"
+      }
+    ]
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

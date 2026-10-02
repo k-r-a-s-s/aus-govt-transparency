@@ -1,0 +1,127 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfGifts": "Membership to Qantas Chairman's lounge ",
+        "id": "68ce6ee0-f677-f011-b4cb-000d3ad253b4"
+      },
+      {
+        "detailOfGifts": "Membership to Virgin lounge ",
+        "id": "6bce6ee0-f677-f011-b4cb-000d3ad253b4"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "Bendigo Bank",
+        "id": "6ece6ee0-f677-f011-b4cb-000d3ad253b4",
+        "natureOfLiability": "Credit Card"
+      },
+      {
+        "creditor": "MyState Bank",
+        "id": "70ce6ee0-f677-f011-b4cb-000d3ad253b4",
+        "natureOfLiability": "Mortgage"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "72ce6ee0-f677-f011-b4cb-000d3ad253b4",
+        "nameOfOrganisation": "Tithing - Australian Greens"
+      },
+      {
+        "id": "74ce6ee0-f677-f011-b4cb-000d3ad253b4",
+        "nameOfOrganisation": "Tithing - The Greens (WA) Inc"
+      },
+      {
+        "id": "77ce6ee0-f677-f011-b4cb-000d3ad253b4",
+        "nameOfOrganisation": "Tithing - Global Greens"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "81ce6ee0-f677-f011-b4cb-000d3ad253b4",
+        "nameOfOtherAsset": "Superannuation - CBUS"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "83ce6ee0-f677-f011-b4cb-000d3ad253b4",
+        "location": "Rockingham, WA",
+        "purposeForWhichOwned": "Residential "
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "86ce6ee0-f677-f011-b4cb-000d3ad253b4",
+        "nameOfBankInstitution": "MyState Bank",
+        "natureOfAccount": "Savings "
+      },
+      {
+        "id": "87ce6ee0-f677-f011-b4cb-000d3ad253b4",
+        "nameOfBankInstitution": "Bendigo Bank",
+        "natureOfAccount": "Savings"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Western Australia",
+    "id": "5ece6ee0-f677-f011-b4cb-000d3ad253b4",
+    "lastDateUpdated": "8/11/2025 1:41:26 PM",
+    "lodgementDate": "8/10/2025 2:00:00 PM",
+    "publishNotes": false,
+    "senatorName": "Steele-John, Jordon",
+    "senatorParty": "Australian Greens",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

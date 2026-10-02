@@ -38,6 +38,10 @@ HOUSE_REGISTER_URLS = {
     48: "https://www.aph.gov.au/senators_and_members/members/register",
 }
 CURRENT_HOUSE_PARLIAMENT = 48
+# The senators' interests register app's API (its config: /js/apps/senators-interests-register/
+# build/env.js, SENATORS_API_BASE_URL). Current parliament only (D3).
+SENATE_API_BASE = "https://pbs-apim-aqcdgxhvaug7f8em.z01.azurefd.net/api"
+CURRENT_SENATE_PARLIAMENT = 48
 
 STATES = ("NSW", "VIC", "QLD", "WA", "SA", "TAS", "ACT", "NT")
 TITLES = {"the", "hon", "mr", "mrs", "ms", "miss", "dr", "prof", "professor", "sir", "dame",
@@ -62,9 +66,12 @@ class RegisterRow:
 
 
 def statement_url_kind(url: str) -> Optional[str]:
-    """'api' for register-API statements, 'pdf' for a static/committee PDF link, else None."""
+    """'api' for register-API statements, 'senate-api' for a senators' interests API
+    statement, 'pdf' for a static/committee PDF link, else None."""
     if _API_RE.search(url):
         return "api"
+    if url.startswith(f"{SENATE_API_BASE}/getSenatorStatement?cdapid="):
+        return "senate-api"
     path = url.split("#", 1)[0]
     if re.search(r"\.pdf($|[?&])", path, re.I):
         return "pdf"

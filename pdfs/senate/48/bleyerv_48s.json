@@ -1,0 +1,158 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfGifts": "Subscription from Foxtel for electorate office",
+        "id": "894a90a0-8bb8-f111-aaac-7c1e5262eaeb"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": [
+      {
+        "bodyOfWhichInvestmentIsHeld": "Legal Super",
+        "id": "8c4a90a0-8bb8-f111-aaac-7c1e5262eaeb",
+        "typeOfInvestment": "Superannuation"
+      },
+      {
+        "bodyOfWhichInvestmentIsHeld": "Australian Super",
+        "id": "924a90a0-8bb8-f111-aaac-7c1e5262eaeb",
+        "typeOfInvestment": "Superannuation"
+      }
+    ]
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "National Australia Bank Limited",
+        "id": "944a90a0-8bb8-f111-aaac-7c1e5262eaeb",
+        "natureOfLiability": "Mortgage on secondary residence"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "964a90a0-8bb8-f111-aaac-7c1e5262eaeb",
+        "nameOfOrganisation": "Australian Greens "
+      },
+      {
+        "id": "984a90a0-8bb8-f111-aaac-7c1e5262eaeb",
+        "nameOfOrganisation": "Tasmanian Greens"
+      },
+      {
+        "id": "9a4a90a0-8bb8-f111-aaac-7c1e5262eaeb",
+        "nameOfOrganisation": "Asia Pacific Greens Federation"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "9c4a90a0-8bb8-f111-aaac-7c1e5262eaeb",
+        "nameOfOtherAsset": "Motor vehicle"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "9e4a90a0-8bb8-f111-aaac-7c1e5262eaeb",
+        "location": "Stanley, Tas",
+        "purposeForWhichOwned": "Primary residence"
+      },
+      {
+        "id": "a04a90a0-8bb8-f111-aaac-7c1e5262eaeb",
+        "location": "West Launceston, Tas",
+        "purposeForWhichOwned": "Secondary residence"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": [
+      {
+        "activitiesOfCompany": "Legal services",
+        "id": "a24a90a0-8bb8-f111-aaac-7c1e5262eaeb",
+        "nameOfCompany": "Bleyer Lawyers Pty Ltd"
+      }
+    ]
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "a44a90a0-8bb8-f111-aaac-7c1e5262eaeb",
+        "nameOfBankInstitution": "National Australia Bank Limited (NAB)",
+        "natureOfAccount": "Savings"
+      },
+      {
+        "id": "a54a90a0-8bb8-f111-aaac-7c1e5262eaeb",
+        "nameOfBankInstitution": "NAB",
+        "natureOfAccount": "Trust"
+      },
+      {
+        "id": "a64a90a0-8bb8-f111-aaac-7c1e5262eaeb",
+        "nameOfBankInstitution": "NAB",
+        "natureOfAccount": "Office"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Tasmania",
+    "id": "834a90a0-8bb8-f111-aaac-7c1e5262eaeb",
+    "lastDateUpdated": "9/25/2026 1:27:13 PM",
+    "lodgementDate": "9/25/2026 9:56:41 AM",
+    "publishNotes": false,
+    "senatorName": "Bleyer, Vanessa",
+    "senatorParty": "Australian Greens",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "a74a90a0-8bb8-f111-aaac-7c1e5262eaeb",
+        "nameOfCompany": "Bleyer Lawyers Pty Ltd"
+      }
+    ]
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "a94a90a0-8bb8-f111-aaac-7c1e5262eaeb",
+        "interest": "Primary beneficiary",
+        "nameOfCompany": "Bleyer Lawyers Trust",
+        "nature": "Legal services",
+        "type": "beneficiary"
+      }
+    ]
+  },
+  "wasSuccessful": true
+}

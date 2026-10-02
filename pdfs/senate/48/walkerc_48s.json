@@ -1,0 +1,202 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": []
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "Nil",
+        "id": "fa1be930-a678-f011-b4cb-6045bdc29378",
+        "natureOfLiability": "HECS debt"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2026-06-22T04:00:00Z",
+        "details": "South Australian Young Labor President",
+        "id": "6c53c822-f16d-f111-ab0d-6045bdc3f4ad"
+      }
+    ],
+    "interests": [
+      {
+        "id": "cdc5e336-a678-f011-b4cb-6045bdc29378",
+        "nameOfOrganisation": "South Australian Young Labor President"
+      },
+      {
+        "id": "eac5e336-a678-f011-b4cb-6045bdc29378",
+        "nameOfOrganisation": "Australian Labor Party donor"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2026-06-09T08:00:00Z",
+        "details": "Industry superannuation",
+        "id": "d67a59ab-0966-f111-a826-6045bdc3f566"
+      }
+    ],
+    "interests": [
+      {
+        "id": "f3c5e336-a678-f011-b4cb-6045bdc29378",
+        "nameOfOtherAsset": "Industry superannuation"
+      },
+      {
+        "id": "fac5e336-a678-f011-b4cb-6045bdc29378",
+        "nameOfOtherAsset": "Super-HESTA"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-03T05:00:00Z",
+        "details": "Virgin Australia Beyond Lounge Membership",
+        "id": "ce34047b-97d0-f011-8544-00224898b4a7"
+      },
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2026-06-22T04:00:00Z",
+        "details": "South Australian Young Labor - president and member",
+        "id": "7153c822-f16d-f111-ab0d-6045bdc3f4ad"
+      }
+    ],
+    "interests": [
+      {
+        "id": "fcc5e336-a678-f011-b4cb-6045bdc29378",
+        "natureOfInterest": "Australian Labor Party (SA Branch) - member"
+      },
+      {
+        "id": "03c6e336-a678-f011-b4cb-6045bdc29378",
+        "natureOfInterest": "Australian Services Union - member"
+      },
+      {
+        "id": "04c6e336-a678-f011-b4cb-6045bdc29378",
+        "natureOfInterest": "Progressive Left Unions and Sub-branches - member"
+      },
+      {
+        "id": "05c6e336-a678-f011-b4cb-6045bdc29378",
+        "natureOfInterest": "South Australian Young Labor - president and member"
+      },
+      {
+        "id": "06c6e336-a678-f011-b4cb-6045bdc29378",
+        "natureOfInterest": "Qantas Chairman's Lounge - member"
+      },
+      {
+        "id": "07c6e336-a678-f011-b4cb-6045bdc29378",
+        "natureOfInterest": "Australian Republican Movement - member"
+      }
+    ]
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": []
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "08c6e336-a678-f011-b4cb-6045bdc29378",
+        "nameOfBankInstitution": "BankSA",
+        "natureOfAccount": "Savings"
+      },
+      {
+        "id": "0dc6e336-a678-f011-b4cb-6045bdc29378",
+        "nameOfBankInstitution": "Westpac",
+        "natureOfAccount": "Savings"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "South Australia",
+    "id": "e31be930-a678-f011-b4cb-6045bdc29378",
+    "lastDateUpdated": "8/24/2026 1:52:52 PM",
+    "lodgementDate": "8/13/2025 12:33:17 PM",
+    "publishNotes": false,
+    "senatorName": "Walker, Charlotte",
+    "senatorParty": "Australian Labor Party",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-08-09T23:00:00Z",
+        "details": "2 tickets to The Nutcracker Act II and Other Works courtesy of The Australian Ballet on 7 August 2026.",
+        "id": "419ae209-5494-f111-8075-000d3a6a8f58"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-27T21:00:00Z",
+        "details": "2 tickets to One Day International Cricket Match - Australia v India - on 23/10/2025 courtesy of Westpac.",
+        "id": "a443ffd3-17b6-f011-bbd2-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-26T00:00:00Z",
+        "details": "8 x tickets to the Diamonds v Jamaica netball game on 5 February 2026 at the Adelaide Entertainment Centre courtesy of Suncorp. All 8 tickets were donated to the Mount Compass Netball Club whose community was impacted by recent bushfires on the Fleurieu Peninsula.",
+        "id": "1da39396-ad12-f111-8406-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-05-10T22:00:00Z",
+        "details": "2 x tickets and hospitality to Cinderella La Cenerentola State Opera performance on 7 May 2026 courtesy of State Opera South Australia",
+        "id": "f48e49bd-a44d-f111-bec5-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-19T21:00:00Z",
+        "details": "2 x tickets to the FIVB Beach Volleyball World Championships Quarter Finals on 21 November 2025, courtesy of Volleyball South Australia.",
+        "id": "cf46d954-9dc6-f011-bbd3-6045bde5f32c"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-07-29T05:00:00Z",
+        "details": "Ticket to the Midwinter Ball on 1 July 2026, courtesy of News Corp Australia.",
+        "id": "400eb6c2-a28b-f111-ab0f-70a8a553d20c"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-08-24T09:00:00Z",
+        "details": "2 tickets to Hansel and Gretel courtesy of State Opera South Australia on 21 August 2026.",
+        "id": "054ed7b4-1fa0-f111-b8db-7ced8da2d8e0"
+      }
+    ],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

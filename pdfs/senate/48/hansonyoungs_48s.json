@@ -1,0 +1,129 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfGifts": "Annual festival tickets, from Womadelaide & SA Tourism Commission",
+        "id": "880ea271-257f-f011-b4cc-6045bdc29378"
+      },
+      {
+        "detailOfGifts": "Festival Tickets, from BluesFest, NSW ",
+        "id": "8a0ea271-257f-f011-b4cc-6045bdc29378"
+      },
+      {
+        "detailOfGifts": "Chairman’s lounge membership, from Qantas",
+        "id": "8c0ea271-257f-f011-b4cc-6045bdc29378"
+      },
+      {
+        "detailOfGifts": "Beyond membership, from Virgin Australia ",
+        "id": "8e0ea271-257f-f011-b4cc-6045bdc29378"
+      },
+      {
+        "detailOfGifts": "Foxtel Subscription in Electorate Office, Foxtel ",
+        "id": "900ea271-257f-f011-b4cc-6045bdc29378"
+      },
+      {
+        "detailOfGifts": "Tickets, Cricket Australia ",
+        "id": "920ea271-257f-f011-b4cc-6045bdc29378"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "People’s choice credit union ",
+        "id": "940ea271-257f-f011-b4cc-6045bdc29378",
+        "natureOfLiability": "Mortgage on residential home"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "960ea271-257f-f011-b4cc-6045bdc29378",
+        "nameOfOrganisation": "Annual tithing to and membership of the South Australian Greens, registered political party"
+      },
+      {
+        "id": "980ea271-257f-f011-b4cc-6045bdc29378",
+        "nameOfOrganisation": "Annual tithing to the Australian Greens, registered political party"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "9a0ea271-257f-f011-b4cc-6045bdc29378",
+        "nameOfOtherAsset": "Superannuation, Ethical Super "
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "9c0ea271-257f-f011-b4cc-6045bdc29378",
+        "location": "Belair, South Australia ",
+        "purposeForWhichOwned": "Residential "
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "9e0ea271-257f-f011-b4cc-6045bdc29378",
+        "nameOfBankInstitution": "People’s Choice Credit Union ",
+        "natureOfAccount": "Savings "
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "South Australia",
+    "id": "cf12116b-257f-f011-b4cc-6045bdc29378",
+    "lastDateUpdated": "8/22/2025 4:59:57 PM",
+    "lodgementDate": "8/22/2025 4:48:59 PM",
+    "publishNotes": false,
+    "senatorName": "Hanson-Young, Sarah",
+    "senatorParty": "Australian Greens",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

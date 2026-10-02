@@ -1,0 +1,308 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-11T21:00:00Z",
+        "details": " Samples delivered to Parliament House Suite by Pharmaceutical Society Australia and Consumer Healthcare Products Australia.",
+        "id": "549ebc97-4ec0-f011-bbd3-7ced8d34843b"
+      }
+    ],
+    "interests": []
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "ME Bank ",
+        "id": "a9854688-1b7e-f011-b4cc-7c1e5262c1f2",
+        "natureOfLiability": "Mortgage on residential property. Held jointly with spouse."
+      },
+      {
+        "creditor": "ME Bank ",
+        "id": "ac854688-1b7e-f011-b4cc-7c1e5262c1f2",
+        "natureOfLiability": "Mortgage on investment property. Held jointly with spouse."
+      },
+      {
+        "creditor": "ME Bank",
+        "id": "ae854688-1b7e-f011-b4cc-7c1e5262c1f2",
+        "natureOfLiability": "Credit Card\nHeld jointly with spouse."
+      },
+      {
+        "creditor": "ANZ",
+        "id": "b0854688-1b7e-f011-b4cc-7c1e5262c1f2",
+        "natureOfLiability": "Credit Card"
+      },
+      {
+        "creditor": "ME Bank",
+        "id": "b2854688-1b7e-f011-b4cc-7c1e5262c1f2",
+        "natureOfLiability": "Credit Card"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "b5854688-1b7e-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Office Holder - Australian Labor Party,  National (Deputy Chair, ALP National Policy Forum, occasional proxy National Executive)\n"
+      },
+      {
+        "id": "b7854688-1b7e-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Office Holder - Australian Labor Party, NSW Branch (occasional proxy to the NSW Administrative Committee)\n"
+      },
+      {
+        "id": "b9854688-1b7e-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Member - Australian Manufacturers Workers Union (AMWU) \n"
+      },
+      {
+        "id": "bb854688-1b7e-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Member & Donor - Australian Labor Party, NSW Branch\n"
+      },
+      {
+        "id": "bd854688-1b7e-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Member - NSW Left\n"
+      },
+      {
+        "id": "bf854688-1b7e-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Member (gifted) - Virgin Beyond Club"
+      },
+      {
+        "id": "c1854688-1b7e-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Member (gifted) - Qantas Chairmans"
+      },
+      {
+        "id": "c3854688-1b7e-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Member - Evatt Foundation\n"
+      },
+      {
+        "id": "c5854688-1b7e-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Member - Chifley Forum \n"
+      },
+      {
+        "id": "c7854688-1b7e-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Member - Australian Republic Movement"
+      },
+      {
+        "id": "c9854688-1b7e-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Member - Women's Electoral Lobby"
+      },
+      {
+        "id": "cb854688-1b7e-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Member - Jessie Street National Women's Library (Lifetime Member)"
+      },
+      {
+        "id": "cd854688-1b7e-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Member - Australian National Group of Inter-Parliamentary Union"
+      },
+      {
+        "id": "cf854688-1b7e-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Member - Emily's List"
+      },
+      {
+        "id": "d1854688-1b7e-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Member - Fabian Society \n"
+      },
+      {
+        "id": "d3854688-1b7e-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Alumni - Eisenhower Fellowship \n"
+      },
+      {
+        "id": "d5854688-1b7e-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Alumni - McKinnon Advanced Political Leadership \n"
+      },
+      {
+        "id": "d7854688-1b7e-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Donor - Australian Labor Party\n"
+      },
+      {
+        "id": "d9854688-1b7e-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Donor - NSW Labor \n"
+      },
+      {
+        "id": "db854688-1b7e-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Donor - Rainbow Labor NSW \n\n"
+      },
+      {
+        "id": "dd854688-1b7e-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Donor - APHEDA"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "df854688-1b7e-f011-b4cc-7c1e5262c1f2",
+        "nameOfOtherAsset": "Superannuation - Aware Super & life insurance"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "8d90438e-1b7e-f011-b4cc-7c1e5262c1f2",
+        "nameOfIncome": "Rental income from investment property listed at (3)"
+      }
+    ]
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "8f90438e-1b7e-f011-b4cc-7c1e5262c1f2",
+        "location": "Alexandria, NSW ",
+        "purposeForWhichOwned": "Primary residence. Held jointly with spouse."
+      },
+      {
+        "id": "9190438e-1b7e-f011-b4cc-7c1e5262c1f2",
+        "location": "Redfern, NSW ",
+        "purposeForWhichOwned": "Investment. Held jointly with spouse."
+      },
+      {
+        "id": "9390438e-1b7e-f011-b4cc-7c1e5262c1f2",
+        "location": "Wentworth Falls, NSW ",
+        "purposeForWhichOwned": "Rural property managed for environmental conservation and recreation. Interest held via Project Tableland Environment Trust (shown at 2). Held jointly with spouse."
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "9590438e-1b7e-f011-b4cc-7c1e5262c1f2",
+        "nameOfBankInstitution": "ME Bank",
+        "natureOfAccount": "Savings Held jointly with spouse.\n"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "New South Wales",
+    "id": "a0854688-1b7e-f011-b4cc-7c1e5262c1f2",
+    "lastDateUpdated": "5/7/2026 9:45:37 AM",
+    "lodgementDate": "8/19/2025 3:30:31 PM",
+    "publishNotes": false,
+    "senatorName": "McAllister, Jenny",
+    "senatorParty": "Australian Labor Party",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator the Hon.",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "9690438e-1b7e-f011-b4cc-7c1e5262c1f2",
+        "nameOfCompany": "Shareholder - Project Tableland Pty\nThis company is the trustee of the Project Tableland Environment Trust, listed at (2).\nShares constitute a minority holding, and are held jointly with spouse."
+      }
+    ]
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-05T03:30:00Z",
+        "details": "A ticket to the Aria Awards provided by ARIA.",
+        "id": "88e606aa-b8d3-f011-8544-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-18T05:00:00Z",
+        "details": "One ticket to Madame Butterfly provided by Opera Australia",
+        "id": "c3908a45-870c-f111-8407-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-18T05:30:00Z",
+        "details": "One ticket to Ashes provided by Venues NSW",
+        "id": "c033cf0f-160d-f111-8407-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-18T06:00:00Z",
+        "details": "Three tickets to Sydney Festival events provided by Sydney Festival.",
+        "id": "fa42b627-160d-f111-8407-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-05-07T08:00:00Z",
+        "details": "A ticket to Anastasia the Musical provided by Foundation Theatres.",
+        "id": "c8afc4ac-6b4a-f111-bec5-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-19T08:00:00Z",
+        "details": "A ticket to each of the following events:\n- Midwinter Ball 2025, provided by the Pharmacy Guild\n- Talented Mr Ripley, provided by Sydney Theatre Company ",
+        "id": "d618b27f-3c97-f011-b41c-6045bde49b50"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-19T08:00:00Z",
+        "details": "Upgrade, QF1456 ,Canberra to Sydney, Qantas, 28 August 2025.",
+        "id": "db18b27f-3c97-f011-b41c-6045bde49b50"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-11T21:00:00Z",
+        "details": "One ticket to each of the following events:\nRandwick Races, provided by Australian Turf Club\nNRL Grand Final, provided by the NRL",
+        "id": "599ebc97-4ec0-f011-bbd3-7ced8d34843b"
+      }
+    ],
+    "interests": [
+      {
+        "detailOfTravelHospitality": "Qantas Chairmans Lounge Membership",
+        "id": "9890438e-1b7e-f011-b4cc-7c1e5262c1f2"
+      },
+      {
+        "detailOfTravelHospitality": "Virgin Beyond Club Membership",
+        "id": "9a90438e-1b7e-f011-b4cc-7c1e5262c1f2"
+      },
+      {
+        "detailOfTravelHospitality": "1 ticket to the Support Act: Music in the House provided by ARIA\n",
+        "id": "9c90438e-1b7e-f011-b4cc-7c1e5262c1f2"
+      },
+      {
+        "detailOfTravelHospitality": "1 x ticket to the Sydney Film Festival opening night provided by Sydney Film Festival",
+        "id": "9e90438e-1b7e-f011-b4cc-7c1e5262c1f2"
+      }
+    ]
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "a090438e-1b7e-f011-b4cc-7c1e5262c1f2",
+        "interest": "Shares and units in trustee and trust respectively constitute a minority position, and are held jointly with spouse.",
+        "nameOfCompany": "Shareholder - Project Tableland Pty Ltd as indicated at (1)",
+        "nature": "This company is the trustee of the Project Tableland Environment Trust, listed above.\n",
+        "type": "trustee"
+      },
+      {
+        "id": "a290438e-1b7e-f011-b4cc-7c1e5262c1f2",
+        "interest": "Unit holder\nUnits held constitute a minority position, and are held jointly with spouse.",
+        "nameOfCompany": "Project Tableland Environment Trust (Unit Trust - fixed)",
+        "nature": "This trust exists to facilitate the shared ownership between unitholders of a single property, managed for the purposes of environment conservation and recreation. This property is listed at (3)",
+        "type": "beneficiary"
+      }
+    ]
+  },
+  "wasSuccessful": true
+}

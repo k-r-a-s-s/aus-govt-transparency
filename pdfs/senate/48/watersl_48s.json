@@ -1,0 +1,144 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-25T22:00:00Z",
+        "details": "Complimentary ticket to Garma Festival 2025 by organisers Yothu Yindi Foundation",
+        "id": "ffffe1ea-968f-f011-b4cb-6045bde4956c"
+      }
+    ],
+    "interests": []
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "Family Member",
+        "id": "8ecee261-f577-f011-b4cb-000d3ad253b4",
+        "natureOfLiability": "Personal loan"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-19T03:00:00Z",
+        "details": "Donation to Brisbane Pride's Queen Ball",
+        "id": "efb3ad40-8b6b-f111-a826-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-10T22:00:00Z",
+        "details": "Donation to Yothu Yindi Foundation for Garma festival",
+        "id": "e5a0e0ee-968f-f011-b4cc-6045bde49b50"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-01T11:00:00Z",
+        "details": "Donation to Queensland Azerbaijani Culture House",
+        "id": "b18ae8c7-41cf-f011-8544-6045bde5f32c"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-13T08:00:00Z",
+        "details": "Australian Greens\nQueensland Greens\nGlobal Greens",
+        "id": "32b26a75-a678-f011-b4cb-7c1e5262c1f2"
+      }
+    ],
+    "interests": []
+  },
+  "otherAssets": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-01-19T06:00:00Z",
+        "details": "Motor Vehicle (1)",
+        "id": "31543316-87f5-f011-8406-6045bdc25de2"
+      }
+    ],
+    "interests": [
+      {
+        "id": "90cee261-f577-f011-b4cb-000d3ad253b4",
+        "nameOfOtherAsset": "Superannuation - Ethical Super"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "92cee261-f577-f011-b4cb-000d3ad253b4",
+        "location": "Pullenvale, Queensland",
+        "purposeForWhichOwned": "Residential"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "94cee261-f577-f011-b4cb-000d3ad253b4",
+        "nameOfBankInstitution": "Bank Australia",
+        "natureOfAccount": "Savings account"
+      },
+      {
+        "id": "95cee261-f577-f011-b4cb-000d3ad253b4",
+        "nameOfBankInstitution": "Bank Australia",
+        "natureOfAccount": "Daughter's savings account"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Queensland",
+    "id": "89cee261-f577-f011-b4cb-000d3ad253b4",
+    "lastDateUpdated": "6/19/2026 1:06:39 PM",
+    "lodgementDate": "8/11/2025 2:00:00 PM",
+    "publishNotes": false,
+    "senatorName": "Waters, Larissa",
+    "senatorParty": "Australian Greens",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfTravelHospitality": "Complementary membership of Qantas and Virgin clubs",
+        "id": "96cee261-f577-f011-b4cb-000d3ad253b4"
+      }
+    ]
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

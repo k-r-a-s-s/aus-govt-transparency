@@ -1,0 +1,183 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfGifts": "Membership Virgin Beyond Lounge",
+        "id": "615234e4-ce7c-f011-b4cc-7c1e5262c1f2"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "ME Bank",
+        "id": "635234e4-ce7c-f011-b4cc-7c1e5262c1f2",
+        "natureOfLiability": "Mortgage (Pocock)"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "655234e4-ce7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "The Australia Institute"
+      },
+      {
+        "id": "675234e4-ce7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Greening Up PNG $564.64"
+      },
+      {
+        "id": "695234e4-ce7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOrganisation": "Save the Virtual Schools Australia (VSA) $300"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "6b5234e4-ce7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOtherAsset": "Car"
+      },
+      {
+        "id": "4de02cea-ce7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOtherAsset": "Block of Land, Chiton, SA (50% owned with Ian Campbell)"
+      },
+      {
+        "id": "4fe02cea-ce7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfOtherAsset": "Superannuation (Pocock) Unisuper"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "51e02cea-ce7c-f011-b4cc-7c1e5262c1f2",
+        "location": "Parkside, SA (Pocock)",
+        "purposeForWhichOwned": "Residential"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "53e02cea-ce7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfBankInstitution": "Peoples Choice",
+        "natureOfAccount": "Savings 1"
+      },
+      {
+        "id": "54e02cea-ce7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfBankInstitution": "Peoples Choice",
+        "natureOfAccount": "Savings 2"
+      },
+      {
+        "id": "55e02cea-ce7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfBankInstitution": "Peoples Choice",
+        "natureOfAccount": "Savings 3"
+      },
+      {
+        "id": "56e02cea-ce7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfBankInstitution": "Peoples Choice",
+        "natureOfAccount": "Credit card"
+      },
+      {
+        "id": "57e02cea-ce7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfBankInstitution": "Peoples Choice",
+        "natureOfAccount": "Savings 4"
+      },
+      {
+        "id": "58e02cea-ce7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfBankInstitution": "Peoples Choice",
+        "natureOfAccount": "Savings 5"
+      },
+      {
+        "id": "59e02cea-ce7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfBankInstitution": "ME Bank",
+        "natureOfAccount": "Standard home loan"
+      },
+      {
+        "id": "5ae02cea-ce7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfBankInstitution": "ME Bank",
+        "natureOfAccount": "Everyday transaction account"
+      },
+      {
+        "id": "5be02cea-ce7c-f011-b4cc-7c1e5262c1f2",
+        "nameOfBankInstitution": "ME Bank",
+        "natureOfAccount": "Online savings account"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "South Australia",
+    "id": "5c5234e4-ce7c-f011-b4cc-7c1e5262c1f2",
+    "lastDateUpdated": "1/5/2026 4:00:33 PM",
+    "lodgementDate": "8/19/2025 12:47:41 PM",
+    "publishNotes": false,
+    "senatorName": "Pocock, Barbara",
+    "senatorParty": "Australian Greens",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-01-05T05:00:00Z",
+        "details": "Return flights in economy class from Adelaide to Dharamsala, India plus accommodation while in Dharamsala to meet representatives of the Tibetan Government-in-Exile paid for by the Tibet Information Office in Canberra. The visit was hosted by the Australian Tibet Council as I am co-chair of the Australian Parliamentary Friends of Tibet. The visit was from 8 to 13 December 2025. Short stays in Delhi and Singapore on the return flight until 21 December 2025 were self-funded. ",
+        "id": "7b7fc515-52eb-f011-8544-6045bde589eb"
+      }
+    ],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "5ce02cea-ce7c-f011-b4cc-7c1e5262c1f2",
+        "interest": "Ian Campbell (Senator Pocock has no interest)",
+        "nameOfCompany": "I and R Campbell Family Trust",
+        "nature": "Investment",
+        "type": "trustee"
+      },
+      {
+        "id": "5ee02cea-ce7c-f011-b4cc-7c1e5262c1f2",
+        "interest": "Ian Campbell (Senator Pocock has no interest)",
+        "nameOfCompany": "Summerfield Investments Pty Ltd",
+        "nature": "Investment",
+        "type": "trustee"
+      }
+    ]
+  },
+  "wasSuccessful": true
+}

@@ -1,0 +1,193 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfGifts": "Foxtel connection in electorate office provided free of charge by foxtel",
+        "id": "e92a6bac-e47b-f011-b4cc-6045bdc29378"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2025-11-13T21:00:00Z",
+        "details": "Mortgage on Investment property - Westpac",
+        "id": "08c466e5-4bc3-f011-bbd3-6045bde5f32c"
+      }
+    ],
+    "interests": [
+      {
+        "creditor": "Westpac",
+        "id": "ed2a6bac-e47b-f011-b4cc-6045bdc29378",
+        "natureOfLiability": "Mortgage on residential property"
+      },
+      {
+        "creditor": "Westpac",
+        "id": "f32a6bac-e47b-f011-b4cc-6045bdc29378",
+        "natureOfLiability": "Mortgage on Investment property"
+      },
+      {
+        "creditor": "Westpac",
+        "id": "f52a6bac-e47b-f011-b4cc-6045bdc29378",
+        "natureOfLiability": "Mortgage on Investment property"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-05-22T08:00:00Z",
+        "details": "Member - ALP National Executive",
+        "id": "0d5e4480-d757-f111-bec7-6045bdc25de2"
+      }
+    ],
+    "interests": [
+      {
+        "id": "f92a6bac-e47b-f011-b4cc-6045bdc29378",
+        "nameOfOrganisation": "ALP - member of state executive, member of rules committee, member of finance committee"
+      },
+      {
+        "id": "fd2a6bac-e47b-f011-b4cc-6045bdc29378",
+        "nameOfOrganisation": "PLUS - Convenor, member of executive committee"
+      },
+      {
+        "id": "012b6bac-e47b-f011-b4cc-6045bdc29378",
+        "nameOfOrganisation": "ALP Donor"
+      },
+      {
+        "id": "062b6bac-e47b-f011-b4cc-6045bdc29378",
+        "nameOfOrganisation": "PLUS Donor"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "0f2b6bac-e47b-f011-b4cc-6045bdc29378",
+        "nameOfOtherAsset": "Superannuation - Hostplus"
+      },
+      {
+        "id": "132b6bac-e47b-f011-b4cc-6045bdc29378",
+        "nameOfOtherAsset": "Superannuation - Commonwealth Government PSS"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "152b6bac-e47b-f011-b4cc-6045bdc29378",
+        "nameOfIncome": "Rental income"
+      }
+    ]
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "182b6bac-e47b-f011-b4cc-6045bdc29378",
+        "natureOfInterest": "Member - United Workers Union"
+      },
+      {
+        "id": "332b6bac-e47b-f011-b4cc-6045bdc29378",
+        "natureOfInterest": "Member - Australian Services Union"
+      },
+      {
+        "id": "372b6bac-e47b-f011-b4cc-6045bdc29378",
+        "natureOfInterest": "Member - Emily List"
+      },
+      {
+        "id": "3a2b6bac-e47b-f011-b4cc-6045bdc29378",
+        "natureOfInterest": "Member - Community & Public Sector Union"
+      },
+      {
+        "id": "3b2b6bac-e47b-f011-b4cc-6045bdc29378",
+        "natureOfInterest": "Committee Member - Progressive Labour Education Association"
+      }
+    ]
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2025-11-13T21:00:00Z",
+        "details": "Rosewater, South Australia - Investment",
+        "id": "db735268-48c3-f011-bbd3-6045bde5f32c"
+      }
+    ],
+    "interests": [
+      {
+        "id": "3c2b6bac-e47b-f011-b4cc-6045bdc29378",
+        "location": "Rosewater, South Australia",
+        "purposeForWhichOwned": "Residential"
+      },
+      {
+        "id": "3f2b6bac-e47b-f011-b4cc-6045bdc29378",
+        "location": "Rosewater, South Australia",
+        "purposeForWhichOwned": "Investment"
+      },
+      {
+        "id": "462b6bac-e47b-f011-b4cc-6045bdc29378",
+        "location": "Ottoway, South Australia",
+        "purposeForWhichOwned": "Investment"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "4b2b6bac-e47b-f011-b4cc-6045bdc29378",
+        "nameOfBankInstitution": "Westpac",
+        "natureOfAccount": "Savings Account"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "South Australia",
+    "id": "aee84ea6-e47b-f011-b4cc-6045bdc29378",
+    "lastDateUpdated": "5/22/2026 11:30:48 AM",
+    "lodgementDate": "8/15/2025 9:37:42 AM",
+    "publishNotes": false,
+    "senatorName": "Grogan, Karen",
+    "senatorParty": "Australian Labor Party",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfTravelHospitality": "Qantas Chairman's Lounge Membership",
+        "id": "542b6bac-e47b-f011-b4cc-6045bdc29378"
+      }
+    ]
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

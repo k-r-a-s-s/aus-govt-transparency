@@ -1,0 +1,152 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-26T21:00:00Z",
+        "details": "An upgrade from Economy to Business on Drukair (KB153) from Bangkok to Paro, Bhutan on 25 September 2025",
+        "id": "0e51ad62-06cf-f011-8544-6045bdc2987e"
+      }
+    ],
+    "interests": []
+  },
+  "investments": {
+    "alterations": [],
+    "interests": [
+      {
+        "bodyOfWhichInvestmentIsHeld": "CPS Capital\nEquity Trustees",
+        "id": "229061f5-ce7c-f011-b4cc-002248962181",
+        "typeOfInvestment": "Managed funds\nSuperannuation"
+      },
+      {
+        "bodyOfWhichInvestmentIsHeld": null,
+        "id": "1383442a-738f-f011-b4cb-6045bde4956c",
+        "typeOfInvestment": null
+      }
+    ]
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "Commonwealth Bank",
+        "id": "249061f5-ce7c-f011-b4cc-002248962181",
+        "natureOfLiability": "Mortgage on property"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "269061f5-ce7c-f011-b4cc-002248962181",
+        "nameOfOrganisation": "Patron, Modernist and Art Deco Society, WA\nPatron, Bayswater Tennis Club, WA\nPatron, Tuart Place, Fremantle, WA\nLiberal Party of Australia (WA Division)"
+      },
+      {
+        "id": "f7cc3166-738f-f011-b4cb-6045bde4956c",
+        "nameOfOrganisation": null
+      },
+      {
+        "id": "46cd3166-738f-f011-b4cb-6045bde4956c",
+        "nameOfOrganisation": null
+      },
+      {
+        "id": "0f23496c-738f-f011-b4cb-6045bde4956c",
+        "nameOfOrganisation": null
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "289061f5-ce7c-f011-b4cc-002248962181",
+        "natureOfInterest": "Airline memberships - Qantas, Virgin"
+      }
+    ]
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "2d9061f5-ce7c-f011-b4cc-002248962181",
+        "location": "Dianella, WA\nLyons, ACT",
+        "purposeForWhichOwned": "Residential\nResidential"
+      },
+      {
+        "id": "fae83a0c-738f-f011-b4cb-6045bde4956c",
+        "location": null,
+        "purposeForWhichOwned": null
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "309061f5-ce7c-f011-b4cc-002248962181",
+        "nameOfBankInstitution": "Macquarie Bank\nWestpac Bank",
+        "natureOfAccount": "Savings \nSavings"
+      },
+      {
+        "id": "53413242-738f-f011-b4cb-6045bde4956c",
+        "nameOfBankInstitution": null,
+        "natureOfAccount": null
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Western Australia",
+    "id": "1c9061f5-ce7c-f011-b4cc-002248962181",
+    "lastDateUpdated": "11/27/2025 9:40:25 AM",
+    "lodgementDate": "8/19/2025 10:00:53 AM",
+    "publishNotes": false,
+    "senatorName": "Smith, Dean",
+    "senatorParty": "Liberal Party of Australia",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "329061f5-ce7c-f011-b4cc-002248962181",
+        "nameOfCompany": "ATG, CCP, CSL, DRR, DTL, GOR, KLS, REA, RHC, SEK, SKK, XYZ"
+      }
+    ]
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-26T21:00:00Z",
+        "details": "In country accommodation, land transport and meals as guest of Royal Kingdom of Bhutan as a member of the inaugural delegation of the Australian Parliamentary Friendship Group for Bhutan visit to Bhutan - 23 September to 2 October 2025.\n\nEconomy return flights from Perth to Bhutan and overnight transit accommodation at Bangkok Airport (23 September) were self funded.",
+        "id": "0951ad62-06cf-f011-8544-6045bdc2987e"
+      }
+    ],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

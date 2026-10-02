@@ -1,0 +1,185 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": []
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "Macquarie Bank",
+        "id": "4cb74bb8-bd7c-f011-b4cb-000d3ad253b4",
+        "natureOfLiability": "Mortgage on 2 Residential Properties"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-24T05:00:00Z",
+        "details": "Phoenix Support & Advocacy Service Inc. - Donation \nTogether for Treaty - Donation \nCollective Shout - Donation ",
+        "id": "77396062-4627-f111-8342-6045bdc3f4ad"
+      }
+    ],
+    "interests": [
+      {
+        "id": "4eb74bb8-bd7c-f011-b4cb-000d3ad253b4",
+        "nameOfOrganisation": "Bravehearts Foundation Ltd - Donation"
+      },
+      {
+        "id": "58b74bb8-bd7c-f011-b4cb-000d3ad253b4",
+        "nameOfOrganisation": "Punters Politics - Donation"
+      },
+      {
+        "id": "5db74bb8-bd7c-f011-b4cb-000d3ad253b4",
+        "nameOfOrganisation": "United Workers Union - Membership"
+      },
+      {
+        "id": "65b74bb8-bd7c-f011-b4cb-000d3ad253b4",
+        "nameOfOrganisation": "Australia's Voice - Membership "
+      },
+      {
+        "id": "69b74bb8-bd7c-f011-b4cb-000d3ad253b4",
+        "nameOfOrganisation": "Muslims Women Support Centre - Donation"
+      },
+      {
+        "id": "6bb74bb8-bd7c-f011-b4cb-000d3ad253b4",
+        "nameOfOrganisation": "OnePath Network - Donation "
+      },
+      {
+        "id": "6db74bb8-bd7c-f011-b4cb-000d3ad253b4",
+        "nameOfOrganisation": "Safe Steps Family Violence Response Centre - Donation "
+      },
+      {
+        "id": "6fb74bb8-bd7c-f011-b4cb-000d3ad253b4",
+        "nameOfOrganisation": "MUA Youth Charity Event for APHEDA - Donation"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-24T05:30:00Z",
+        "details": "Australian Super",
+        "id": "db4b5d66-4627-f111-8341-00224810b694"
+      }
+    ],
+    "interests": []
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-07-28T03:30:00Z",
+        "details": "Landsdale - Residential",
+        "id": "21bf98d5-368a-f111-ab0f-6045bdc2f293"
+      },
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2026-07-28T03:30:00Z",
+        "details": "Nollamara - Residential",
+        "id": "29bf98d5-368a-f111-ab0f-6045bdc2f293"
+      }
+    ],
+    "interests": [
+      {
+        "id": "7cb74bb8-bd7c-f011-b4cb-000d3ad253b4",
+        "location": "Nollamara, WA",
+        "purposeForWhichOwned": "Residential"
+      },
+      {
+        "id": "84b74bb8-bd7c-f011-b4cb-000d3ad253b4",
+        "location": "Gungahlin, ACT",
+        "purposeForWhichOwned": "Residential"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "87b74bb8-bd7c-f011-b4cb-000d3ad253b4",
+        "nameOfBankInstitution": "ANZ",
+        "natureOfAccount": "Savings "
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Western Australia",
+    "id": "34b74bb8-bd7c-f011-b4cb-000d3ad253b4",
+    "lastDateUpdated": "7/28/2026 2:54:48 PM",
+    "lodgementDate": "8/17/2025 2:00:00 PM",
+    "publishNotes": false,
+    "senatorName": "Payman, Fatima",
+    "senatorParty": "Australia's Voice",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-24T05:00:00Z",
+        "details": "Perth Airport parking card ",
+        "id": "6e396062-4627-f111-8342-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-04T05:00:00Z",
+        "details": "2x Tickets to the Ashes West Test Day 2 - Cricket Australia",
+        "id": "b047db79-b7d3-f011-8544-6045bdc49d4e"
+      }
+    ],
+    "interests": [
+      {
+        "detailOfTravelHospitality": "Qantas Chairmans Lounge Membership - provider Qantas",
+        "id": "88b74bb8-bd7c-f011-b4cb-000d3ad253b4"
+      },
+      {
+        "detailOfTravelHospitality": "Virgin Club Membership - provider Virgin",
+        "id": "8cb74bb8-bd7c-f011-b4cb-000d3ad253b4"
+      },
+      {
+        "detailOfTravelHospitality": "Triple J One Night Stand concert Busselton and backstage tour - provider Triple J radio station",
+        "id": "8eb74bb8-bd7c-f011-b4cb-000d3ad253b4"
+      },
+      {
+        "detailOfTravelHospitality": "2 tickets to Opening Night of Never Have I Ever - provider Black Swan State Theatre Company",
+        "id": "91b74bb8-bd7c-f011-b4cb-000d3ad253b4"
+      }
+    ]
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

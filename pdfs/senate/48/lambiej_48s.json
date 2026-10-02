@@ -1,0 +1,178 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": []
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "Bank of Us",
+        "id": "a1a588df-ce7c-f011-b4cc-7c1e522a6625",
+        "natureOfLiability": "Mortgage on residential property - Ulverstone"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-16T00:00:00Z",
+        "details": "Turners Beach Football Club Inc - $500 2026 Sponsorship ",
+        "id": "2d00f169-cd20-f111-8342-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-02T21:30:00Z",
+        "details": "21/01/2026 - $500 Donation to Redwater Creek Steam & Heritage Society Steamfest 2026",
+        "id": "78e2df57-a200-f111-8407-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-25T23:30:00Z",
+        "details": "$500 The UNCONFORMITY - to support arts, culture and the community on the West Coast of Tasmania\n\n",
+        "id": "435b71c3-f370-f111-ab0d-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-26T00:00:00Z",
+        "details": "$1000 - Burnie Salvation Army - Safe Space ",
+        "id": "80c866e1-f370-f111-ab0d-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-26T08:00:00Z",
+        "details": "Turners Beach Football Club - $500 donation",
+        "id": "8824389c-a39a-f011-b41c-6045bde49b50"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-15T04:00:00Z",
+        "details": "2025 Ferret Racing Rotary Club of West Burnie Inc - $500 Race sponsorship",
+        "id": "8d933321-0bab-f011-bbd3-6045bde49b50"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-27T21:00:00Z",
+        "details": "ABC Giving Tree Appeal Donation - Tasmania Christmas 2025 $500 ",
+        "id": "5f59ca45-06cf-f011-8544-6045bde5f32c"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-08-05T22:00:00Z",
+        "details": "2026 Burnie Agricultural and Pastoral Show Sponsorship - $500",
+        "id": "138a561c-4191-f111-8076-70a8a553fe6c"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-08-05T22:30:00Z",
+        "details": "2026 Wynyard Tulip Show Sponsorship - $500",
+        "id": "d31c5622-4191-f111-8076-70a8a553fe6c"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-08-05T23:00:00Z",
+        "details": "2026 Turners Beach Football Club - Trophy Sponsorship - $500",
+        "id": "d91c5622-4191-f111-8076-70a8a553fe6c"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-07-12T22:00:00Z",
+        "details": "Smith Family monthly donation $444 per month from 1 July 2026",
+        "id": "dfb8081a-687e-f111-ab0f-7ced8da1c86f"
+      }
+    ],
+    "interests": [
+      {
+        "id": "a3a588df-ce7c-f011-b4cc-7c1e522a6625",
+        "nameOfOrganisation": "Smith Family donation "
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "a5a588df-ce7c-f011-b4cc-7c1e522a6625",
+        "location": "Ulverstone",
+        "purposeForWhichOwned": "Residential"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "a7a588df-ce7c-f011-b4cc-7c1e522a6625",
+        "nameOfBankInstitution": "Bank of Us",
+        "natureOfAccount": "Savings "
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Tasmania",
+    "id": "9ca588df-ce7c-f011-b4cc-7c1e522a6625",
+    "lastDateUpdated": "8/6/2026 4:11:43 PM",
+    "lodgementDate": "8/19/2025 3:45:34 PM",
+    "publishNotes": false,
+    "senatorName": "Lambie, Jacqui",
+    "senatorParty": "Jacqui Lambie Network",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-26T08:00:00Z",
+        "details": "RACA Motoring Committee - Royal Automobile Club of Australia - Guest speaker - Harbour View room and breakfast included",
+        "id": "1e6ac3bb-a29a-f011-b41b-6045bde4956c"
+      }
+    ],
+    "interests": [
+      {
+        "detailOfTravelHospitality": null,
+        "id": "9ece8306-d68e-f011-b4cc-000d3ad253b4"
+      },
+      {
+        "detailOfTravelHospitality": "Virgin Australia - Beyond Lounge \nQANTAS - Chairman's Lounge ",
+        "id": "a8a588df-ce7c-f011-b4cc-7c1e522a6625"
+      }
+    ]
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

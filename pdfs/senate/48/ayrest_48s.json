@@ -1,0 +1,220 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfGifts": "Complimentary subscription to Foxtel television provided by Astra Subscription Media Australia to my Electorate Office to the value of $1,600.00 per annum",
+        "id": "4a10977d-947d-f011-b4cc-7c1e522a6625"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "Bank of Adelaide",
+        "id": "5510977d-947d-f011-b4cc-7c1e522a6625",
+        "natureOfLiability": "Home mortgage"
+      },
+      {
+        "creditor": "ME Bank",
+        "id": "6110977d-947d-f011-b4cc-7c1e522a6625",
+        "natureOfLiability": "Credit Card"
+      },
+      {
+        "creditor": "Commonwealth Bank",
+        "id": "6710977d-947d-f011-b4cc-7c1e522a6625",
+        "natureOfLiability": "Mortgage on Holiday House"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "6d10977d-947d-f011-b4cc-7c1e522a6625",
+        "nameOfOrganisation": "Member of the National Executive of the Australian Labor Party"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "7b10977d-947d-f011-b4cc-7c1e522a6625",
+        "nameOfOtherAsset": "Superannuation related insurance"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "8310977d-947d-f011-b4cc-7c1e522a6625",
+        "nameOfIncome": "Occasional rental income"
+      }
+    ]
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "8610977d-947d-f011-b4cc-7c1e522a6625",
+        "location": "Camperdown, NSW",
+        "purposeForWhichOwned": "Residence"
+      },
+      {
+        "id": "9610977d-947d-f011-b4cc-7c1e522a6625",
+        "location": "Currarong, NSW",
+        "purposeForWhichOwned": "Holiday house and investment property"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "9b10977d-947d-f011-b4cc-7c1e522a6625",
+        "nameOfBankInstitution": "CBA",
+        "natureOfAccount": "Savings account/Offset"
+      },
+      {
+        "id": "a510977d-947d-f011-b4cc-7c1e522a6625",
+        "nameOfBankInstitution": "Adelaide Bank",
+        "natureOfAccount": "Savings account/Offset"
+      },
+      {
+        "id": "ab10977d-947d-f011-b4cc-7c1e522a6625",
+        "nameOfBankInstitution": "Teachers Mutual",
+        "natureOfAccount": "Savings account"
+      },
+      {
+        "id": "af10977d-947d-f011-b4cc-7c1e522a6625",
+        "nameOfBankInstitution": "ANZ",
+        "natureOfAccount": "Savings account"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "New South Wales",
+    "id": "1e10977d-947d-f011-b4cc-7c1e522a6625",
+    "lastDateUpdated": "9/15/2026 9:07:01 AM",
+    "lodgementDate": "8/18/2025 2:00:00 PM",
+    "publishNotes": false,
+    "senatorName": "Ayres, Tim",
+    "senatorParty": "Australian Labor Party",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator the Hon.",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-30T05:30:00Z",
+        "details": "2 x tickets to Mackenzie courtesy of Bell Shakespeare",
+        "id": "24797a90-5674-f111-ab0f-00224810b694"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-11T09:30:00Z",
+        "details": "Hospitality, Charter flights and Accommodation to facilitate a briefing, tour and announcement at Olympic Dam, provided by BHP",
+        "id": "4091b135-89bf-f011-bbd3-002248990cce"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-15T21:30:00Z",
+        "details": "3 x tickets to NRL game courtesy of the South Sydney Rabbitohs",
+        "id": "34a3fd38-bb20-f111-8342-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-02T06:30:00Z",
+        "details": "2 x tickets to On the Steps: Jimmy Barnes and Kate Ceberano at Sydney Opera House Forecourt courtesy of The Mushroom Group",
+        "id": "c71f2a44-a200-f111-8407-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-04T03:00:00Z",
+        "details": "2 x tickets to Rabbitohs Season Launch courtesy of the South Sydney Rabbitohs",
+        "id": "abe64105-8717-f111-8342-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-07T22:00:00Z",
+        "details": "2 x tickets to the Rabbitohs Red and Green Ball courtesy of the Rabbitohs Corporate Team",
+        "id": "051c2795-948e-f011-b4cb-6045bde4956c"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-30T10:00:00Z",
+        "details": "2 x tickets to the NRL & NRLW grand final courtesy of NRL events",
+        "id": "55108076-4f9e-f011-bbd3-6045bde63b9a"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-09-14T22:00:00Z",
+        "details": "2 x tickets to Midwinter Ball courtesy of Fortescue",
+        "id": "77cba6e6-57b1-f111-aaab-70a8a553d3a2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-09-14T22:30:00Z",
+        "details": "1 x ticket to the National Press Club courtesy of Woolworths Group",
+        "id": "a9dda0ed-57b1-f111-aaab-70a8a553d3a2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-04T09:00:00Z",
+        "details": "Hospitality and Accommodation to facilitate a briefing, tour and announcement at Olympic Dam, provided by BHP",
+        "id": "79dc3318-e8bd-f011-bbd3-7ced8d34843b"
+      },
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2025-11-11T08:00:00Z",
+        "details": "Hospitality and Accommodation to facilitate a briefing, tour and announcement at Olympic Dam, provided by BHP.\n\nThis item deletes the alteration lodged on 4 November, in order to provide additional information - see below",
+        "id": "f381b9a2-2ac0-f011-bbd3-7ced8d34843b"
+      }
+    ],
+    "interests": [
+      {
+        "detailOfTravelHospitality": "Qantas Chairman's lounge membership",
+        "id": "b210977d-947d-f011-b4cc-7c1e522a6625"
+      },
+      {
+        "detailOfTravelHospitality": "Rex Airline Lounge Membership",
+        "id": "c310977d-947d-f011-b4cc-7c1e522a6625"
+      },
+      {
+        "detailOfTravelHospitality": "Virgin Lounge membership",
+        "id": "cb10977d-947d-f011-b4cc-7c1e522a6625"
+      }
+    ]
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

@@ -1,0 +1,131 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": []
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": []
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "8900aaf9-bc7c-f011-b4cc-6045bdc323b4",
+        "nameOfOrganisation": "United Workers Union - membership \n"
+      },
+      {
+        "id": "8b00aaf9-bc7c-f011-b4cc-6045bdc323b4",
+        "nameOfOrganisation": "Fremantle Football Club - membership"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "8d00aaf9-bc7c-f011-b4cc-6045bdc323b4",
+        "nameOfOtherAsset": "Superannuation - GESB \n"
+      },
+      {
+        "id": "8f00aaf9-bc7c-f011-b4cc-6045bdc323b4",
+        "nameOfOtherAsset": "Superannuation - Australian Super"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "9100aaf9-bc7c-f011-b4cc-6045bdc323b4",
+        "natureOfInterest": "Bangarra Tickets x 5 Illume Tickets - 10th July 2025 - provider: Arts & Culture Trust WA"
+      },
+      {
+        "id": "9200aaf9-bc7c-f011-b4cc-6045bdc323b4",
+        "natureOfInterest": "National NAIDOC Tickets x 2 - provided by Minister McCarthy "
+      },
+      {
+        "id": "9300aaf9-bc7c-f011-b4cc-6045bdc323b4",
+        "natureOfInterest": "Garma Festival NT - provided by Minister McCarthy"
+      },
+      {
+        "id": "9400aaf9-bc7c-f011-b4cc-6045bdc323b4",
+        "natureOfInterest": "IWD Breakfast x 2  - provided by UN Women Australia "
+      },
+      {
+        "id": "9500aaf9-bc7c-f011-b4cc-6045bdc323b4",
+        "natureOfInterest": "Australian Tourism Awards tickets x 2 - provided by WA Tourism Council "
+      },
+      {
+        "id": "9600aaf9-bc7c-f011-b4cc-6045bdc323b4",
+        "natureOfInterest": "NRL State of Origin tickets x 2 - provided by Deadly Choices program "
+      }
+    ]
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": []
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "9700aaf9-bc7c-f011-b4cc-6045bdc323b4",
+        "nameOfBankInstitution": "Westpac",
+        "natureOfAccount": "Savings "
+      },
+      {
+        "id": "9800aaf9-bc7c-f011-b4cc-6045bdc323b4",
+        "nameOfBankInstitution": "Westpac",
+        "natureOfAccount": "Electorate Allowance Account"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Western Australia",
+    "id": "8f93aaf3-bc7c-f011-b4cc-6045bdc323b4",
+    "lastDateUpdated": "8/18/2025 3:45:30 PM",
+    "lodgementDate": "8/17/2025 2:00:00 PM",
+    "publishNotes": false,
+    "senatorName": "Cox, Dorinda",
+    "senatorParty": "Australian Labor Party",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfTravelHospitality": "Qantas Club Chairman's Lounge membership",
+        "id": "9b00aaf9-bc7c-f011-b4cc-6045bdc323b4"
+      }
+    ]
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

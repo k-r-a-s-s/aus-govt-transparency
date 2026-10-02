@@ -1,0 +1,181 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": []
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "Commonwealth Bank",
+        "id": "1d56f82e-4873-f011-b4cd-000d3ad2a284",
+        "natureOfLiability": "Mortgage on residential property"
+      },
+      {
+        "creditor": "Commonwealth Bank",
+        "id": "2156f82e-4873-f011-b4cd-000d3ad2a284",
+        "natureOfLiability": "Mortgage on investment property"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "2456f82e-4873-f011-b4cd-000d3ad2a284",
+        "nameOfOrganisation": "Member of Australian Manufacturing Workers Union (QLD & NT Branch)"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-01-07T06:00:00Z",
+        "details": "Superannuation - Hostplus",
+        "id": "1c2cfe2a-31ec-f011-8544-6045bde5f32c"
+      }
+    ],
+    "interests": []
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "3356f82e-4873-f011-b4cd-000d3ad2a284",
+        "location": "Trinity Beach, QLD",
+        "purposeForWhichOwned": "Residential"
+      },
+      {
+        "id": "3556f82e-4873-f011-b4cd-000d3ad2a284",
+        "location": "Mermaid Beach, QLD",
+        "purposeForWhichOwned": "Investment"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "3756f82e-4873-f011-b4cd-000d3ad2a284",
+        "nameOfBankInstitution": "Commonwealth Bank",
+        "natureOfAccount": "Savings Account"
+      },
+      {
+        "id": "3956f82e-4873-f011-b4cd-000d3ad2a284",
+        "nameOfBankInstitution": "ME Bank",
+        "natureOfAccount": "Savings Account"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Queensland",
+    "id": "1456f82e-4873-f011-b4cd-000d3ad2a284",
+    "lastDateUpdated": "7/14/2026 4:13:34 PM",
+    "lodgementDate": "8/5/2025 2:00:00 PM",
+    "publishNotes": false,
+    "senatorName": "Green, Nita",
+    "senatorParty": "Australian Labor Party",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator the Hon.",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-11T01:30:00Z",
+        "details": "Japan v India - Football Australia",
+        "id": "7c6fe0ca-ea1c-f111-8341-00224810b694"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-11T01:30:00Z",
+        "details": "Matildas v Korea - Football Australia",
+        "id": "d3ebb5e6-ea1c-f111-8341-00224810b694"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-11T01:30:00Z",
+        "details": "Rottnest Island Visit, Tickets and Hospitality - Rottnest Authority",
+        "id": "1f514c14-eb1c-f111-8341-00224810b694"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-06T04:30:00Z",
+        "details": "Great Barrier Reef Foundation - Lady Elliot Island - Flight Tour and Hospitality",
+        "id": "8e94f99a-bfd0-f011-8544-6045bde5f32c"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-06T04:30:00Z",
+        "details": "Rugby Australia - Wallabies v Argentina Tickets and Hospitality",
+        "id": "9163dfdd-bfd0-f011-8544-6045bde5f32c"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-16T01:30:00Z",
+        "details": "Australian Open tickets courtesy of Tennis Australia",
+        "id": "5f996dbf-aa0b-f111-8406-7ced8da1c86f"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-07-13T22:30:00Z",
+        "details": "NRL tickets (Canberra Raiders vs North Queensland Cowboys on 31 May 2026), sponsored by Maurice Blackburn",
+        "id": "39f0d39f-3d7f-f111-ab0f-7ced8da1c86f"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-07-13T23:00:00Z",
+        "details": "Mid-Winter Ball ticket (1 July 2026), sponsored by Qantas",
+        "id": "f435bab3-3d7f-f111-ab0f-7ced8da1c86f"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-07-13T23:30:00Z",
+        "details": "NRL ticket (State of Origin, 8 July 2026), sponsored by the NRL",
+        "id": "8cc321c1-3d7f-f111-ab0f-7ced8da1c86f"
+      }
+    ],
+    "interests": [
+      {
+        "detailOfTravelHospitality": "Qantas Club Chairman's Lounge Membership",
+        "id": "3b56f82e-4873-f011-b4cd-000d3ad2a284"
+      },
+      {
+        "detailOfTravelHospitality": "Virgin Club Beyond Membership ",
+        "id": "3d56f82e-4873-f011-b4cd-000d3ad2a284"
+      }
+    ]
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

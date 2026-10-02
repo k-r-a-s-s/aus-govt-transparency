@@ -1,0 +1,150 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-11T08:00:00Z",
+        "details": "Legal fund - refer to notes at the top of this page",
+        "id": "4dae15c0-978f-f011-b4cc-6045bde49b50"
+      }
+    ],
+    "interests": [
+      {
+        "detailOfGifts": "Qantas Chairman's Lounge Membership",
+        "id": "d6c04632-cd7b-f011-b4cc-6045bdc29378"
+      },
+      {
+        "detailOfGifts": "Virgin Australia Beyond Lounge Membership",
+        "id": "dac04632-cd7b-f011-b4cc-6045bdc29378"
+      },
+      {
+        "detailOfGifts": "Foxtel subscription for electorate office",
+        "id": "ddc04632-cd7b-f011-b4cc-6045bdc29378"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "Commonwealth Bank of Australia",
+        "id": "dfc04632-cd7b-f011-b4cc-6045bdc29378",
+        "natureOfLiability": "Credit Card"
+      },
+      {
+        "creditor": "Commonwealth Bank of Australia",
+        "id": "e1c04632-cd7b-f011-b4cc-6045bdc29378",
+        "natureOfLiability": "Personal Loan"
+      },
+      {
+        "creditor": "Pepper Money",
+        "id": "e3c04632-cd7b-f011-b4cc-6045bdc29378",
+        "natureOfLiability": "Car Loan"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "e5c04632-cd7b-f011-b4cc-6045bdc29378",
+        "nameOfOtherAsset": "Superannuation - Australian Super"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "edc04632-cd7b-f011-b4cc-6045bdc29378",
+        "nameOfIncome": "Australasian Performing Right Association - Writer and Performance Royalties"
+      }
+    ]
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": []
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": [
+      {
+        "activitiesOfCompany": "Trustee company that does not trade in its own right and exists only for the purposes of the associated trust.",
+        "id": "f7c04632-cd7b-f011-b4cc-6045bdc29378",
+        "nameOfCompany": "Director of Kuja-Purda Jukurra Pty Ltd"
+      }
+    ]
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "00c14632-cd7b-f011-b4cc-6045bdc29378",
+        "nameOfBankInstitution": "Commonwealth Bank of Australia",
+        "natureOfAccount": "Savings"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Northern Territory",
+    "id": "c9c04632-cd7b-f011-b4cc-6045bdc29378",
+    "lastDateUpdated": "9/11/2025 3:57:43 PM",
+    "lodgementDate": "8/13/2025 2:00:00 PM",
+    "publishNotes": true,
+    "senatorName": "Nampijinpa Price, Jacinta",
+    "senatorParty": "Country Liberal Party",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\"><span data-teams=\"true\">Under item 11, gifts, refer to the linked document for details of contributions to legal fund, declared on </span><a href=\"https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.aph.gov.au%2F~%2Fmedia%2F43AB0D0E8C034015BA69C71A8E2645A9&amp;data=05%7C02%7CRory.Sheehan%40aph.gov.au%7C74b167d099124a2c2d0508ddf1c52faf%7Cf6214c153a9947d1b862c9648e927316%7C0%7C0%7C638932551521142874%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=v%2FfZcUW1xrA4hLgktpcMBR%2B8%2FxCYZIRX4kPN4iTsQ34%3D&amp;reserved=0\" target=\"_blank\" rel=\"noopener noreferrer\"><span data-teams=\"true\">11 September 2025</span></a><span data-teams=\"true\"> (The document was updated on 16 September 2025 to correct a typographical error in a single row in the originally loaded document).</span></p></div>"
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "07c14632-cd7b-f011-b4cc-6045bdc29378",
+        "nameOfCompany": "A traditional owner within the Janganpa Land Trust in accordance with the NT Land Rights Act 1976"
+      }
+    ]
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "38499f79-cd7b-f011-b4cb-000d3ad253b4",
+        "interest": "N/A",
+        "nameOfCompany": "N/A",
+        "nature": "N/A",
+        "type": "trustee"
+      },
+      {
+        "id": "d70d7c5a-cd7b-f011-b4cb-000d3ad253b4",
+        "interest": "Senator Nampijinpa Price and her broader family (while the Senator is a named beneficiary, the purpose of the trust is primarily for the distribution of benefits to other family members.",
+        "nameOfCompany": "Kuja-Purda Jukurra Pty Ltd",
+        "nature": "Discretionary Trust established to hold royalties money received from the sale of book, Matters of the Heart; trust does not hold investments or real estate property.",
+        "type": "beneficiary"
+      }
+    ]
+  },
+  "wasSuccessful": true
+}

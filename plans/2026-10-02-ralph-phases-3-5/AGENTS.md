@@ -52,3 +52,4 @@ Repo root is the working directory. Python is `.venv/bin/python` (`bash scripts/
 - Docs to keep current when behaviour changes: `docs/v2/README.md` (commands), `docs/v2/<topic>.md`, `data/overrides/README.md`.
 - Entities long tail (paid): `entities --llm-dry-run` first, then `entities --llm-limit 40 --workers 8` (≈ 2 min, ≈ US$0.45 per 40 requests); exit 1 = blocks still uncached, re-run.
 - After new extractions, `entities --offline` exits 1 (uncached long-tail blocks) and DB-state entity tests skip until an online `entities` run (T3.10).
+- Senate 48th: `.venv/bin/python -m disclosures scrape --chamber senate --parliament 48` (~30 s, all 76 each run), then `.venv/bin/python -m disclosures extract --source senate-json pdfs/senate/48/*.json` (free, no key).

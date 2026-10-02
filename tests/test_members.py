@@ -98,7 +98,8 @@ def test_real_48th_members():
     """Every pdfs/48 PDF has exactly one pdf_members row, and no new 48th member_id is a
     43rd-47th person under another id (same normalised name)."""
     rows = _read(REPO / "data" / "overrides" / "pdf_members.csv")
-    man48 = sorted(r["pdf_path"] for r in _read(REPO / "pdfs" / "manifest.csv") if r["parliament"] == "48")
+    man48 = sorted(r["pdf_path"] for r in _read(REPO / "pdfs" / "manifest.csv")
+                   if r["chamber"] == "house" and r["parliament"] == "48")
     r48 = [r for r in rows if r["pdf_path"].startswith("pdfs/48/")]
     assert sorted(r["pdf_path"] for r in r48) == man48 and len(man48) == 151
     assert len({r["member_id"] for r in r48}) == 151 and all(r["member_id"] for r in r48)

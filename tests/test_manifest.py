@@ -16,7 +16,7 @@ FIX = Path(__file__).parent / "fixtures" / "aph"
 def tracked():
     out = subprocess.run(["git", "ls-files", "pdfs"], cwd=ROOT, capture_output=True,
                          text=True, check=True).stdout.split("\n")
-    return sorted(p for p in out if p.endswith(".pdf"))
+    return sorted(p for p in out if M.is_source_document(p))
 
 
 def test_ac_4_3_manifest_covers_every_tracked_pdf_and_shas_match():
@@ -26,12 +26,14 @@ def test_ac_4_3_manifest_covers_every_tracked_pdf_and_shas_match():
         rows = list(reader)
     paths = [r["pdf_path"] for r in rows]
     assert len(paths) == len(set(paths))
-    assert sorted(paths) == tracked()  # row count == `git ls-files pdfs | grep -c '\.pdf$'`
+    # row count == `git ls-files pdfs | grep -c '\.pdf$'` plus the Senate JSON statements
+    assert sorted(paths) == tracked()
     for r in rows:
         h = hashlib.sha256((ROOT / r["pdf_path"]).read_bytes()).hexdigest()
         assert r["pdf_sha256"] == h, r["pdf_path"]
         assert r["parliament"] == r["pdf_path"].split("/")[-2], r["pdf_path"]
-        assert r["chamber"] == "house" and int(r["page_count"]) > 0
+        senate = r["pdf_path"].startswith("pdfs/senate/")
+        assert r["chamber"] == ("senate" if senate else "house") and int(r["page_count"]) > 0
         assert r["source_url"] == "" or S.statement_url_kind(r["source_url"]) is not None
     statements = [r for r in rows if r["member_name"]]
     assert sum(1 for r in statements if r["source_url"]) / len(statements) > 0.95

@@ -1,0 +1,163 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfGifts": "The Pharmacy Guild giftbag including a first aid kit, notebook, bag of jelly beans, lip balms, ballpoint pens, a 285mL glass keep cup - Cost unknown",
+        "id": "3470d058-687d-f011-b4cc-6045bdc29378"
+      },
+      {
+        "detailOfGifts": "Airline Lounge Memberships (Qantas, Virgin, Rex)",
+        "id": "208bca64-687d-f011-b4cc-6045bdc29378"
+      },
+      {
+        "detailOfGifts": "National Press Club Address - Guest of Moderna - Treasurer Jim Chalmers, 26 March 2025",
+        "id": "b53ccc70-687d-f011-b4cc-6045bdc29378"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "Bendigo Bank",
+        "id": "c9435874-677d-f011-b4cc-6045bdc29378",
+        "natureOfLiability": "Mortgage - Investment Property"
+      },
+      {
+        "creditor": "Bendigo Bank",
+        "id": "e624667a-677d-f011-b4cc-6045bdc29378",
+        "natureOfLiability": "Mortgage - Residential Property"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "14cbc17c-687d-f011-b4cc-6045bdc29378",
+        "nameOfOrganisation": "Member - United Workers Union"
+      },
+      {
+        "id": "7547c182-687d-f011-b4cc-6045bdc29378",
+        "nameOfOrganisation": "Member and Donor - Australian Labor Party"
+      },
+      {
+        "id": "d6b3c088-687d-f011-b4cc-6045bdc29378",
+        "nameOfOrganisation": "Member - Emilys List"
+      },
+      {
+        "id": "026bc08e-687d-f011-b4cc-6045bdc29378",
+        "nameOfOrganisation": "Donor - Asylum Seekers Resource Centre"
+      },
+      {
+        "id": "a86bc08e-687d-f011-b4cc-6045bdc29378",
+        "nameOfOrganisation": "Donor - Lost Dogs Home"
+      },
+      {
+        "id": "4a78bd94-687d-f011-b4cc-6045bdc29378",
+        "nameOfOrganisation": "Member - Women in Super"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "b87fd434-687d-f011-b4cc-6045bdc29378",
+        "nameOfOtherAsset": "Superannuation"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "7140d840-687d-f011-b4cc-6045bdc29378",
+        "nameOfIncome": "Rent - investment property"
+      }
+    ]
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "96047d4a-677d-f011-b4cc-6045bdc29378",
+        "location": "South Gippsland, Victoria",
+        "purposeForWhichOwned": "Residential"
+      },
+      {
+        "id": "c7017056-677d-f011-b4cc-6045bdc29378",
+        "location": "Melbourne, Victoria",
+        "purposeForWhichOwned": "Residential"
+      },
+      {
+        "id": "f1d76c62-677d-f011-b4cc-6045bdc29378",
+        "location": "Byron Bay, NSW",
+        "purposeForWhichOwned": "Investment"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "cc2b5e86-677d-f011-b4cc-6045bdc29378",
+        "nameOfBankInstitution": "Bendigo Bank",
+        "natureOfAccount": "Mortgage offset accounts (2)"
+      },
+      {
+        "id": "86e0ff8c-677d-f011-b4cc-6045bdc29378",
+        "nameOfBankInstitution": "Bankfirst",
+        "natureOfAccount": "Transactions"
+      },
+      {
+        "id": "cb8ae91c-687d-f011-b4cc-6045bdc29378",
+        "nameOfBankInstitution": "Bendigo Bank",
+        "natureOfAccount": "Transactions"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Victoria",
+    "id": "acf28532-677d-f011-b4cc-6045bdc29378",
+    "lastDateUpdated": "8/19/2025 5:12:50 PM",
+    "lodgementDate": "8/19/2025 12:00:00 AM",
+    "publishNotes": false,
+    "senatorName": "Walsh, Jess",
+    "senatorParty": "Australian Labor Party",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator the Hon.",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

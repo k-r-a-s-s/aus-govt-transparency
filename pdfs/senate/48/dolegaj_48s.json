@@ -1,0 +1,228 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": []
+  },
+  "investments": {
+    "alterations": [],
+    "interests": [
+      {
+        "bodyOfWhichInvestmentIsHeld": "Westpac",
+        "id": "79a1de65-6472-f011-b4cd-000d3ad2a284",
+        "typeOfInvestment": "Banking accounts"
+      }
+    ]
+  },
+  "liabilities": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-31T21:00:00Z",
+        "details": "Credit Card - AMEX",
+        "id": "68299724-502d-f111-88b3-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-14T10:00:00Z",
+        "details": "Credit Card. Creditor: Westpac",
+        "id": "84595287-54a9-f011-bbd3-6045bde63b9a"
+      },
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2025-10-14T10:00:00Z",
+        "details": "Credit Card - Virgin Money",
+        "id": "8e595287-54a9-f011-bbd3-6045bde63b9a"
+      }
+    ],
+    "interests": [
+      {
+        "creditor": "Westpac",
+        "id": "7ba1de65-6472-f011-b4cd-000d3ad2a284",
+        "natureOfLiability": "Mortgage on Rokeby property"
+      },
+      {
+        "creditor": "Westpac",
+        "id": "7ea1de65-6472-f011-b4cd-000d3ad2a284",
+        "natureOfLiability": "Mortgage on Latrobe property"
+      },
+      {
+        "creditor": "Westpac",
+        "id": "81a1de65-6472-f011-b4cd-000d3ad2a284",
+        "natureOfLiability": "Car loan"
+      },
+      {
+        "creditor": "Virgin Money",
+        "id": "83a1de65-6472-f011-b4cd-000d3ad2a284",
+        "natureOfLiability": "Credit Card"
+      },
+      {
+        "creditor": "Latitude Gem",
+        "id": "86a1de65-6472-f011-b4cd-000d3ad2a284",
+        "natureOfLiability": "Interest free card"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-18T04:30:00Z",
+        "details": "Donations to Cancer Council and Cancer Council Tasmania",
+        "id": "84853f73-d46a-f111-a826-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-01T22:00:00Z",
+        "details": "Devonport Community House (Donations)",
+        "id": "da22679e-d6ff-f011-8407-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-01T22:30:00Z",
+        "details": "Burnie Community House (Donations)",
+        "id": "e522679e-d6ff-f011-8407-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-01T23:00:00Z",
+        "details": "TasPride (Donations)",
+        "id": "ea22679e-d6ff-f011-8407-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-31T21:00:00Z",
+        "details": "Birchgrove Feline Assistance (Donation)",
+        "id": "63299724-502d-f111-88b3-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-31T21:00:00Z",
+        "details": "Orange Sky / Walk the Walk (Donations)",
+        "id": "6d299724-502d-f111-88b3-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-17T06:00:00Z",
+        "details": "Tasmania Devils 1866 Club Membership ",
+        "id": "d9aed315-116a-f111-ab0c-6045bdc3fcd7"
+      }
+    ],
+    "interests": [
+      {
+        "id": "88a1de65-6472-f011-b4cd-000d3ad2a284",
+        "nameOfOrganisation": "CPSU (PSU) Membership"
+      },
+      {
+        "id": "8da1de65-6472-f011-b4cd-000d3ad2a284",
+        "nameOfOrganisation": "AMWU Membership"
+      },
+      {
+        "id": "90a1de65-6472-f011-b4cd-000d3ad2a284",
+        "nameOfOrganisation": "ASU VicTas Membership"
+      },
+      {
+        "id": "92a1de65-6472-f011-b4cd-000d3ad2a284",
+        "nameOfOrganisation": "Australian Labor Party"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "95a1de65-6472-f011-b4cd-000d3ad2a284",
+        "nameOfOtherAsset": "Super - Australian Super"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2025-10-14T10:00:00Z",
+        "details": "Rokeby Tas. Property Sold. Settled 2/10/2025",
+        "id": "89595287-54a9-f011-bbd3-6045bde63b9a"
+      }
+    ],
+    "interests": [
+      {
+        "id": "97a1de65-6472-f011-b4cd-000d3ad2a284",
+        "location": "Rokeby Tasmania",
+        "purposeForWhichOwned": "Former residential premises, listed for sale"
+      },
+      {
+        "id": "99a1de65-6472-f011-b4cd-000d3ad2a284",
+        "location": "Latrobe Tasmania",
+        "purposeForWhichOwned": "Home residence "
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "9ba1de65-6472-f011-b4cd-000d3ad2a284",
+        "nameOfBankInstitution": "Westpac",
+        "natureOfAccount": "Offset account"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Tasmania",
+    "id": "73a1de65-6472-f011-b4cd-000d3ad2a284",
+    "lastDateUpdated": "6/18/2026 4:47:40 PM",
+    "lodgementDate": "8/4/2025 11:11:09 AM",
+    "publishNotes": false,
+    "senatorName": "Dolega, Josh",
+    "senatorParty": "Australian Labor Party",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-05-13T05:00:00Z",
+        "details": "26/04/26 - 03/05/26: Flights, accommodation and hospitality in Taiwan - Taipei Economic & Cultural Office in Australia",
+        "id": "f0ef65d5-954e-f111-bec6-6045bdc25de2"
+      }
+    ],
+    "interests": [
+      {
+        "detailOfTravelHospitality": "Virgin Beyond Membership",
+        "id": "9ca1de65-6472-f011-b4cd-000d3ad2a284"
+      },
+      {
+        "detailOfTravelHospitality": "Qantas Chairmans Lounge Membership",
+        "id": "9ea1de65-6472-f011-b4cd-000d3ad2a284"
+      }
+    ]
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

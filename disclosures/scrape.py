@@ -2,6 +2,7 @@
 
     python -m disclosures scrape --chamber house --parliament 48
     python -m disclosures scrape --chamber house --parliament 48 --verify   # re-download all
+    python -m disclosures scrape --chamber senate --parliament 48           # disclosures/senate.py
 
 Reads the live listing (``sources.fetch_register``), downloads each member's statement (static
 PDF or register-API link) to ``pdfs/48/{surname}{first-initial}_48p.pdf`` and upserts its row
@@ -176,7 +177,8 @@ def scrape(chamber: str, parliament: int, *, root: Path = Path("."), client=None
 
 
 def add_arguments(p) -> None:
-    p.add_argument("--chamber", choices=["house"], default="house")
+    p.add_argument("--chamber", choices=["house", "senate"], default="house",
+                   help="senate: the senators' interests API (disclosures/senate.py)")
     p.add_argument("--parliament", type=int, default=sources.CURRENT_HOUSE_PARLIAMENT)
     p.add_argument("--verify", action="store_true",
                    help="download every statement and compare sha256, even if the listing "
@@ -186,6 +188,11 @@ def add_arguments(p) -> None:
 
 def run(args) -> int:
     try:
+        if args.chamber == "senate":
+            from . import senate
+
+            c = senate.scrape(args.parliament, limit=args.limit)
+            return 1 if c["failed"] else 0
         c = scrape(args.chamber, args.parliament, verify=args.verify, limit=args.limit)
     except ValueError as e:
         print(e, file=sys.stderr)

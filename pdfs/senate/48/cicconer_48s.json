@@ -1,0 +1,236 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfGifts": "ASTRA television subscription in electorate office",
+        "id": "95baeb83-8572-f011-b4cd-0022489727de"
+      },
+      {
+        "detailOfGifts": "Qantas Chairman’s lounge",
+        "id": "97baeb83-8572-f011-b4cd-0022489727de"
+      },
+      {
+        "detailOfGifts": "Virgin Australia Beyond lounge",
+        "id": "99baeb83-8572-f011-b4cd-0022489727de"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "National Australia Bank",
+        "id": "9bbaeb83-8572-f011-b4cd-0022489727de",
+        "natureOfLiability": "Mortgage on investment property"
+      },
+      {
+        "creditor": "National Australia Bank",
+        "id": "9dbaeb83-8572-f011-b4cd-0022489727de",
+        "natureOfLiability": "Mortgage on residential property"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-19T00:30:00Z",
+        "details": "Member of RSL Victoria (Affiliate)",
+        "id": "280b6b1c-e0e9-f011-8544-7ced8d34843b"
+      }
+    ],
+    "interests": [
+      {
+        "id": "9fbaeb83-8572-f011-b4cd-0022489727de",
+        "nameOfOrganisation": "Member of the Australian Labor Party National Executive"
+      },
+      {
+        "id": "a1baeb83-8572-f011-b4cd-0022489727de",
+        "nameOfOrganisation": "Member of the Australian Labor Party (Victorian Branch)"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "a3baeb83-8572-f011-b4cd-0022489727de",
+        "nameOfOtherAsset": "Superannuation - Retail Employees Superannuation Trust (REST)"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "a5baeb83-8572-f011-b4cd-0022489727de",
+        "nameOfIncome": "Rental income"
+      }
+    ]
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": [
+      {
+        "activitiesOfPartnership": "-",
+        "id": "a7baeb83-8572-f011-b4cd-0022489727de",
+        "nameOfPartnership": "NIL",
+        "natureOfInterest": "-"
+      }
+    ]
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "a9baeb83-8572-f011-b4cd-0022489727de",
+        "location": "Huntingdale, VIC ",
+        "purposeForWhichOwned": "Investment"
+      },
+      {
+        "id": "abbaeb83-8572-f011-b4cd-0022489727de",
+        "location": "Oakleigh East, VIC ",
+        "purposeForWhichOwned": "Investment"
+      },
+      {
+        "id": "adbaeb83-8572-f011-b4cd-0022489727de",
+        "location": "Kew, VIC",
+        "purposeForWhichOwned": "Residential"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": [
+      {
+        "activitiesOfCompany": "As Trustee for The Ciccone Trust",
+        "id": "afbaeb83-8572-f011-b4cd-0022489727de",
+        "nameOfCompany": "CICC1 Pty Ltd"
+      }
+    ]
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "b1baeb83-8572-f011-b4cd-0022489727de",
+        "nameOfBankInstitution": "Bank of Melbourne",
+        "natureOfAccount": "Savings"
+      },
+      {
+        "id": "b2baeb83-8572-f011-b4cd-0022489727de",
+        "nameOfBankInstitution": "National Australia Bank",
+        "natureOfAccount": "Savings"
+      },
+      {
+        "id": "b3baeb83-8572-f011-b4cd-0022489727de",
+        "nameOfBankInstitution": "National Australia Bank",
+        "natureOfAccount": "Investments"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Victoria",
+    "id": "8ebaeb83-8572-f011-b4cd-0022489727de",
+    "lastDateUpdated": "5/25/2026 5:07:53 PM",
+    "lodgementDate": "8/4/2025 12:00:00 AM",
+    "publishNotes": false,
+    "senatorName": "Ciccone, Raff",
+    "senatorParty": "Australian Labor Party",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "b4baeb83-8572-f011-b4cd-0022489727de",
+        "nameOfCompany": "CICC1 Pty Ltd ATF The Ciccone Trust"
+      }
+    ]
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-19T03:00:00Z",
+        "details": "2 x tickets and hospitality to Collingwood v Brisbane Lions on 20 September 2025 at the Melbourne Cricket Ground guest of the Australian Football League ",
+        "id": "28a845a2-c5ae-f011-bbd2-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-19T03:00:00Z",
+        "details": "1 x ticket and hospitality to Caulfield Cup Carnival on 15 October 2025 at the Caulfield Racecourse guest of the Melbourne Racing Club",
+        "id": "428b40a8-c5ae-f011-bbd2-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-16T21:00:00Z",
+        "details": "1 x ticket and hospitality to Derby Day on 1 November 2025 at the Flemington Racecourse guest of the Victoria Racing Club",
+        "id": "52a9aa4e-7bc3-f011-bbd3-6045bdc2987e"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-04-03T08:00:00Z",
+        "details": "2 x tickets to St Kilda v Collingwood on 8 March 2026 at the Melbourne Cricket Ground guest of the Australian Football League",
+        "id": "6ca52ba4-4b32-f111-88b4-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-13T01:30:00Z",
+        "details": "1 x ticket and hospitality to Caulfield Blue Diamond on 21 February 2026 at the Caulfield Racecourse guest of the Melbourne Racing Club",
+        "id": "4d35c072-8a1e-f111-8341-7ced8da1c86f"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-02-05T23:00:00Z",
+        "details": "2 x ticket and hospitality to the Australian Open on 30 January 2026 at Melbourne Park guest of Sportsbet",
+        "id": "3257ccad-1b03-f111-8406-7ced8da1c86f"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-05-25T08:00:00Z",
+        "details": "1 x ticket and hospitality to Warrnambool May Racing Carnival on 7 May 2026 at the Warrnambool Racecourse guest of the Warrnambool Racing Club ",
+        "id": "c80cac58-0858-f111-bec7-7ced8da1c86f"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-05-25T08:00:00Z",
+        "details": "2 x tickets to Geelong v Collingwood on 9 May 2026 at the Melbourne Cricket Ground guest of the Weekly Times ",
+        "id": "cd0cac58-0858-f111-bec7-7ced8da1c86f"
+      }
+    ],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "bf79dbc2-8572-f011-b4cc-002248929e07",
+        "interest": "Joint beneficiary",
+        "nameOfCompany": "CICC1 Pty Ltd ATF The Ciccone Trust",
+        "nature": "Property investment",
+        "type": "trustee"
+      },
+      {
+        "id": "bd5043db-8572-f011-b4cc-002248929e07",
+        "interest": "Joint beneficiary",
+        "nameOfCompany": "CICC1 Pty Ltd ATF The Ciccone Trust",
+        "nature": "Property investment",
+        "type": "beneficiary"
+      }
+    ]
+  },
+  "wasSuccessful": true
+}

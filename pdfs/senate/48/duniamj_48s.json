@@ -1,0 +1,111 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": []
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "NAB",
+        "id": "871f178e-947d-f011-b4cc-6045bdc323b4",
+        "natureOfLiability": "Mortgage on property"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "901f178e-947d-f011-b4cc-6045bdc323b4",
+        "location": "Hobart, Tas",
+        "purposeForWhichOwned": "Residential"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "971f178e-947d-f011-b4cc-6045bdc323b4",
+        "nameOfBankInstitution": "CBA",
+        "natureOfAccount": "Savings"
+      },
+      {
+        "id": "9f1f178e-947d-f011-b4cc-6045bdc323b4",
+        "nameOfBankInstitution": "NAB",
+        "natureOfAccount": "Savings"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Tasmania",
+    "id": "791f178e-947d-f011-b4cc-6045bdc323b4",
+    "lastDateUpdated": "8/11/2026 12:45:15 PM",
+    "lodgementDate": "8/20/2025 1:06:16 PM",
+    "publishNotes": false,
+    "senatorName": "Duniam, Jonathon",
+    "senatorParty": "Liberal Party of Australia",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator the Hon.",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-08-11T07:30:00Z",
+        "details": "Upgrade provided to me as a member of a Parliamentary Delegation to the Australian-American Leadership Dialogue by Qantas Airways Ltd aboard flight QF7 from Sydney to Dallas-Fort Worth on 12 July 2026.",
+        "id": "46574583-e095-f111-8075-7c1e5262eaeb"
+      }
+    ],
+    "interests": [
+      {
+        "detailOfTravelHospitality": "Membership, Qantas Chairman's' Lounge",
+        "id": "a01f178e-947d-f011-b4cc-6045bdc323b4"
+      },
+      {
+        "detailOfTravelHospitality": "Membership, Virgin Beyond Lounge",
+        "id": "a71f178e-947d-f011-b4cc-6045bdc323b4"
+      }
+    ]
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

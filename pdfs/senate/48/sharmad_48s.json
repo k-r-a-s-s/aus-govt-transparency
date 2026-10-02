@@ -1,0 +1,126 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": []
+  },
+  "investments": {
+    "alterations": [],
+    "interests": [
+      {
+        "bodyOfWhichInvestmentIsHeld": "Netwealth, Perennial, Wingate, Our Innovation Fund, Kelly Partners Investment Fund",
+        "id": "2757de74-8772-f011-b4cd-000d3ad2a284",
+        "typeOfInvestment": "Managed funds"
+      }
+    ]
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "Commonwealth Bank",
+        "id": "2c57de74-8772-f011-b4cd-000d3ad2a284",
+        "natureOfLiability": "Mortgage on residence"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "3857de74-8772-f011-b4cd-000d3ad2a284",
+        "nameOfOtherAsset": "Superannuation account"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "4757de74-8772-f011-b4cd-000d3ad2a284",
+        "nameOfIncome": "Investment income"
+      }
+    ]
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "4a57de74-8772-f011-b4cd-000d3ad2a284",
+        "location": "Sydney NSW",
+        "purposeForWhichOwned": "Residence"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "6257de74-8772-f011-b4cd-000d3ad2a284",
+        "nameOfBankInstitution": "ING, CBA, HSBC",
+        "natureOfAccount": "Savings accounts"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "New South Wales",
+    "id": "1357de74-8772-f011-b4cd-000d3ad2a284",
+    "lastDateUpdated": "8/4/2025 3:39:30 PM",
+    "lodgementDate": "8/4/2025 12:00:00 AM",
+    "publishNotes": false,
+    "senatorName": "Sharma, Dave",
+    "senatorParty": "Liberal Party of Australia",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "6e57de74-8772-f011-b4cd-000d3ad2a284",
+        "nameOfCompany": "Sharma Family Company Pty Ltd"
+      }
+    ]
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "b53a6397-8772-f011-b4cc-002248929e07",
+        "interest": "Joint beneficiary",
+        "nameOfCompany": "Sharma Family Trust",
+        "nature": "Investment",
+        "type": "trustee"
+      },
+      {
+        "id": "aed922a5-8772-f011-b4cc-002248929e07",
+        "interest": "Joint beneficiary",
+        "nameOfCompany": "Sharma Family Trust",
+        "nature": "Investment",
+        "type": "beneficiary"
+      }
+    ]
+  },
+  "wasSuccessful": true
+}

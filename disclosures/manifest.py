@@ -63,10 +63,19 @@ def write_manifest(rows: Iterable[dict], path=MANIFEST_PATH) -> None:
     os.replace(tmp, path)
 
 
+def is_source_document(path: str) -> bool:
+    """A House/Senate PDF, or a saved Senate API statement (``pdfs/senate/<p>/*.json``, not
+    the ``_``-prefixed listing)."""
+    name = path.rsplit("/", 1)[-1]
+    return path.lower().endswith(".pdf") or (
+        path.startswith("pdfs/senate/") and name.endswith(".json") and not name.startswith("_"))
+
+
 def tracked_pdfs(root: Path = Path(".")) -> List[str]:
+    """Tracked source documents (PDFs and Senate JSON statements)."""
     out = subprocess.run(["git", "ls-files", "pdfs"], cwd=root, capture_output=True, text=True,
                          check=True).stdout.split("\n")
-    return sorted(p for p in out if p.lower().endswith(".pdf"))
+    return sorted(p for p in out if is_source_document(p))
 
 
 def link_stem(url: str) -> str:
@@ -148,6 +157,8 @@ def _page_counts() -> Dict[str, str]:
 def _page_count(path: str, known: Dict[str, str]) -> str:
     if known.get(path):
         return known[path]
+    if path.lower().endswith(".json"):
+        return "1"
     import pymupdf
 
     with pymupdf.open(path) as doc:

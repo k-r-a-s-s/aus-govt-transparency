@@ -1,0 +1,179 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfGifts": "McKinnon Institute Leadership course at Adelaide Hills (previously declared)",
+        "id": "4264919c-947d-f011-b4cc-6045bdc2966c"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "Commonwealth Bank",
+        "id": "4464919c-947d-f011-b4cc-6045bdc2966c",
+        "natureOfLiability": "Mortgage on investment property - Larrakeyah, NT (Co-owned with spouse)"
+      },
+      {
+        "creditor": "Commonwealth Bank",
+        "id": "4664919c-947d-f011-b4cc-6045bdc2966c",
+        "natureOfLiability": "Mortgage on residence - Nightcliff, NT (Co-owned with spouse)"
+      },
+      {
+        "creditor": "Commonwealth Bank",
+        "id": "4864919c-947d-f011-b4cc-6045bdc2966c",
+        "natureOfLiability": "Personal loan"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "4a64919c-947d-f011-b4cc-6045bdc2966c",
+        "nameOfOrganisation": "Australian Labor Party NT Branch"
+      },
+      {
+        "id": "4c64919c-947d-f011-b4cc-6045bdc2966c",
+        "nameOfOrganisation": "Emily's List Australia"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "db9287a2-947d-f011-b4cc-6045bdc2966c",
+        "nameOfOtherAsset": "Club Wyndham South Pacific - vacation credits"
+      },
+      {
+        "id": "dd9287a2-947d-f011-b4cc-6045bdc2966c",
+        "nameOfOtherAsset": "Superannuation - Public Sector Superannuation Accumulation Plan"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "df9287a2-947d-f011-b4cc-6045bdc2966c",
+        "nameOfIncome": "Rent from investment property (Larrakeyah, NT)"
+      }
+    ]
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "e19287a2-947d-f011-b4cc-6045bdc2966c",
+        "location": "Nightcliff, NT (Co-owned with spouse)",
+        "purposeForWhichOwned": "Residential"
+      },
+      {
+        "id": "e39287a2-947d-f011-b4cc-6045bdc2966c",
+        "location": "Larrakeyah, NT (Co-owned with spouse)",
+        "purposeForWhichOwned": "Investment"
+      },
+      {
+        "id": "674e95a3-957d-f011-b4cc-7c1e522adcf3",
+        "location": "Claimant for land claims in progress under the Aboriginal Land Rights (Northern Territory) Act 1976. Claims relate to all or part of the claim areas in the following reports by the Aboriginal Land Commissioner: McArthur River Region Land Claim (No. 184) and part of Manangoora Region Land Claim (No. 185); and Lorella Region Land Claim (No. 199) and part of Maria Island Region Land Claim (No. 198). In these reports, the Commissioner made recommendations to the Minister to grant the land claimed.",
+        "purposeForWhichOwned": "Traditional Owner"
+      },
+      {
+        "id": "1101ebc6-957d-f011-b4cc-7c1e522adcf3",
+        "location": "Traditional Aboriginal Owner (as defined in the ALRA) for Vanderlin Island (Wurralibi Aboriginal Land Trust), as recorded by the Northern Land Council, NT.",
+        "purposeForWhichOwned": "Traditional Owner"
+      },
+      {
+        "id": "d8b5d4ec-957d-f011-b4cc-7c1e522adcf3",
+        "location": "Holder of beneficial interest in the Narwinbi Aboriginal Land Trust (‘Borroloola Commons’), as recorded by the Northern Land Council, NT.",
+        "purposeForWhichOwned": "Traditional Owner"
+      },
+      {
+        "id": "16b133f3-957d-f011-b4cc-7c1e522adcf3",
+        "location": "Second Generation Jungkayi (‘custodian’ for mother’s country), for Wuyaliya Country, Southwest Island, NT (Wurrabili Aboriginal Land Trust)",
+        "purposeForWhichOwned": "Traditional Owner"
+      },
+      {
+        "id": "fd4148ff-957d-f011-b4cc-7c1e522adcf3",
+        "location": "Jungkayi (‘custodian’) for the Emu Dreaming and country called Ngalamja. This country is on 7 Emu Station, NT.",
+        "purposeForWhichOwned": "Traditional Owner"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "3b8e6d0b-1e87-f011-b4cc-7c1e5262c1f2",
+        "nameOfBankInstitution": "Commonwealth Bank",
+        "natureOfAccount": "Savings account - Declared on original statement lodged by Senator McCarthy on 19 August 2025. This was not published due to technical issues in the APH Register system."
+      },
+      {
+        "id": "94d6162d-1e87-f011-b4cc-7c1e5262c1f2",
+        "nameOfBankInstitution": "ANZ",
+        "natureOfAccount": "Savings account (3) - Declared on original statement lodged by Senator McCarthy on 19 August 2025. This was not published due to technical issues in the APH Register system."
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Northern Territory",
+    "id": "3d64919c-947d-f011-b4cc-6045bdc2966c",
+    "lastDateUpdated": "9/7/2026 3:55:18 PM",
+    "lodgementDate": "8/18/2025 2:00:00 PM",
+    "publishNotes": false,
+    "senatorName": "McCarthy, Malarndirri",
+    "senatorParty": "Australian Labor Party",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator the Hon.",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-09-04T22:00:00Z",
+        "details": "4 x tickets to the Country to Couture show on 2/8/2026 guest of Darwin Aboriginal Art Fair ",
+        "id": "428319b0-6caa-f111-aaac-000d3a6a8f58"
+      }
+    ],
+    "interests": [
+      {
+        "detailOfTravelHospitality": "Qantas Chairman's Lounge membership - Declared on original statement lodged by Senator McCarthy on 19 August 2025. This was not published due to technical issues in the APH Register system.",
+        "id": "746334fa-0687-f011-b4cc-7c1e5262c1f2"
+      },
+      {
+        "detailOfTravelHospitality": "Virgin Australia's The Club membership - Declared on original statement lodged by Senator McCarthy on 19 August 2025. This was not published due to technical issues in the APH Register system.",
+        "id": "3711cc4c-0787-f011-b4cc-7c1e5262c1f2"
+      }
+    ]
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

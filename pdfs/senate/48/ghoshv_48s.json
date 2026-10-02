@@ -1,0 +1,322 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfGifts": "Qantas Chairman's Lounge Membership",
+        "id": "40d2d10f-06af-f011-bbd2-002248990cce"
+      },
+      {
+        "detailOfGifts": "Virgin Australia Beyond Lounge Membership",
+        "id": "42d2d10f-06af-f011-bbd2-002248990cce"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": [
+      {
+        "creditor": "American Express",
+        "id": "44d2d10f-06af-f011-bbd2-002248990cce",
+        "natureOfLiability": "Business Credit Card\t"
+      },
+      {
+        "creditor": "American Express",
+        "id": "46d2d10f-06af-f011-bbd2-002248990cce",
+        "natureOfLiability": "Personal Credit Card"
+      },
+      {
+        "creditor": "Macquarie Bank",
+        "id": "48d2d10f-06af-f011-bbd2-002248990cce",
+        "natureOfLiability": "Personal Credit Card"
+      },
+      {
+        "creditor": "Commonwealth Bank of Australia",
+        "id": "4bd2d10f-06af-f011-bbd2-002248990cce",
+        "natureOfLiability": "Personal Credit Card"
+      },
+      {
+        "creditor": "Commonwealth Bank of Australia",
+        "id": "4dd2d10f-06af-f011-bbd2-002248990cce",
+        "natureOfLiability": "Personal Credit Card"
+      },
+      {
+        "creditor": "Commonwealth Bank of Australia",
+        "id": "4fd2d10f-06af-f011-bbd2-002248990cce",
+        "natureOfLiability": "Mortgage on Investment Property\t"
+      },
+      {
+        "creditor": "Macquarie Bank",
+        "id": "51d2d10f-06af-f011-bbd2-002248990cce",
+        "natureOfLiability": "Mortgage on Residential Property"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-08-10T02:00:00Z",
+        "details": "Australian Book Review - donor",
+        "id": "d34f5e27-5f94-f111-8075-7c1e5262eaeb"
+      }
+    ],
+    "interests": [
+      {
+        "id": "53d2d10f-06af-f011-bbd2-002248990cce",
+        "nameOfOrganisation": "WA Labor - donor"
+      },
+      {
+        "id": "55d2d10f-06af-f011-bbd2-002248990cce",
+        "nameOfOrganisation": "Australian Labor Party - donor"
+      },
+      {
+        "id": "58d2d10f-06af-f011-bbd2-002248990cce",
+        "nameOfOrganisation": "NSW Labor - donor"
+      },
+      {
+        "id": "5ad2d10f-06af-f011-bbd2-002248990cce",
+        "nameOfOrganisation": "Victorian Labor - donor"
+      },
+      {
+        "id": "5cd2d10f-06af-f011-bbd2-002248990cce",
+        "nameOfOrganisation": "Trillion Trees Australia - donor"
+      },
+      {
+        "id": "5fd2d10f-06af-f011-bbd2-002248990cce",
+        "nameOfOrganisation": "Ruah Community Services - donor"
+      },
+      {
+        "id": "61d2d10f-06af-f011-bbd2-002248990cce",
+        "nameOfOrganisation": "Bush Heritage Australia - donor"
+      },
+      {
+        "id": "63d2d10f-06af-f011-bbd2-002248990cce",
+        "nameOfOrganisation": "Indigenous Literacy Foundation - donor"
+      },
+      {
+        "id": "65d2d10f-06af-f011-bbd2-002248990cce",
+        "nameOfOrganisation": "WA Labor State Executive - member"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "67d2d10f-06af-f011-bbd2-002248990cce",
+        "nameOfOtherAsset": "Life, TPD, IP Insurance – UniSuper / TAL"
+      },
+      {
+        "id": "69d2d10f-06af-f011-bbd2-002248990cce",
+        "nameOfOtherAsset": "Superannuation Account - UniSuper"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "6bd2d10f-06af-f011-bbd2-002248990cce",
+        "nameOfIncome": "Rental Income from investment property"
+      },
+      {
+        "id": "6dd2d10f-06af-f011-bbd2-002248990cce",
+        "nameOfIncome": "Dividends from ASX shareholdings"
+      }
+    ]
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "6fd2d10f-06af-f011-bbd2-002248990cce",
+        "natureOfInterest": "The Shop, Distributive and Allied Employees' Association of WA – member"
+      },
+      {
+        "id": "70d2d10f-06af-f011-bbd2-002248990cce",
+        "natureOfInterest": "WA Labor – member"
+      }
+    ]
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "71d2d10f-06af-f011-bbd2-002248990cce",
+        "location": "Crawley, WA",
+        "purposeForWhichOwned": "Investment"
+      },
+      {
+        "id": "73d2d10f-06af-f011-bbd2-002248990cce",
+        "location": "Subiaco, WA",
+        "purposeForWhichOwned": "Residential"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "75d2d10f-06af-f011-bbd2-002248990cce",
+        "nameOfBankInstitution": "Macquarie Bank",
+        "natureOfAccount": "Offset Account "
+      },
+      {
+        "id": "76d2d10f-06af-f011-bbd2-002248990cce",
+        "nameOfBankInstitution": "Commonwealth Bank of Australia",
+        "natureOfAccount": "Business Online Saver Account"
+      },
+      {
+        "id": "77d2d10f-06af-f011-bbd2-002248990cce",
+        "nameOfBankInstitution": "Commonwealth Bank of Australia",
+        "natureOfAccount": "Business Transaction Account"
+      },
+      {
+        "id": "78d2d10f-06af-f011-bbd2-002248990cce",
+        "nameOfBankInstitution": "Commonwealth Bank of Australia",
+        "natureOfAccount": "Mortgage Interest Saver Account"
+      },
+      {
+        "id": "79d2d10f-06af-f011-bbd2-002248990cce",
+        "nameOfBankInstitution": "Commonwealth Bank of Australia",
+        "natureOfAccount": "Everyday Offset Account"
+      },
+      {
+        "id": "7ad2d10f-06af-f011-bbd2-002248990cce",
+        "nameOfBankInstitution": "Commonwealth Bank of Australia",
+        "natureOfAccount": "Everyday Offset Account"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Western Australia",
+    "id": "3bd2d10f-06af-f011-bbd2-002248990cce",
+    "lastDateUpdated": "9/7/2026 12:44:04 PM",
+    "lodgementDate": "8/14/2025 2:00:00 PM",
+    "publishNotes": false,
+    "senatorName": "Ghosh, Varun",
+    "senatorParty": "Australian Labor Party",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "7bd2d10f-06af-f011-bbd2-002248990cce",
+        "nameOfCompany": "Macquarie Group Limited (ASX:MQG)"
+      },
+      {
+        "id": "81d2d10f-06af-f011-bbd2-002248990cce",
+        "nameOfCompany": "CSL Limited (ASX:CSL)"
+      },
+      {
+        "id": "83d2d10f-06af-f011-bbd2-002248990cce",
+        "nameOfCompany": "Archer Roose LLC"
+      }
+    ]
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-27T00:30:00Z",
+        "details": "Ticket and hospitality to Australia v England test match at Adelaide Oval on 19 November 2025, guest of Blackwall Legal",
+        "id": "e82a1718-e6e9-f011-8544-000d3ad2551a"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-27T01:00:00Z",
+        "details": "Ticket to Australia v England test match at Adelaide Oval on 20 November 2025 and 21 November 2025, courtesy of South Australian Cricket Association",
+        "id": "ed2a1718-e6e9-f011-8544-000d3ad2551a"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-09-06T14:00:00Z",
+        "details": "2 x tickets and hospitality to AFL game - Fremantle Dockers v Hawthorn Hawks - at Optus Stadium on 3 September 2026, courtesy of Fremantle Football Club.",
+        "id": "e61ff419-65aa-f111-aaac-6045bdc2f293"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-22T01:30:00Z",
+        "details": "Ticket and hospitality to day one of Women’s International Test (Australia v India) at WACA on 6 March 2026, guest of WA Cricket and Cricket Australia",
+        "id": "577071ea-3c26-f111-8342-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-07-08T07:00:00Z",
+        "details": "2 x tickets, Federal Parliamentary Press Gallery Midwinter Ball, Canberra, 1 July 2026, courtesy of Australian Investment Council",
+        "id": "9e8cf350-eb7b-f111-ab0f-6045bdc3f566"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-07-08T07:30:00Z",
+        "details": "2 x tickets and hospitality to AFL game - West Coast Eagles vs Adelaide Crows - at Optus Stadium on 3 July 2026, guest of West Coast Eagles",
+        "id": "a88cf350-eb7b-f111-ab0f-6045bdc3f566"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-01-27T09:00:00Z",
+        "details": "2 x tickets and hospitality to BBL Final - Perth Scorchers v Sydney Sixers - at Optus Stadium on 25 January 2026, guest of Cricket Australia",
+        "id": "324f4099-a3fc-f011-8406-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-07-28T01:00:00Z",
+        "details": "Ticket and hospitality to AFL game - Adelaide Crows vs Collingwood Magpies - at Adelaide Oval on 23 July 2026, guest of Adelaide Crows Football Club",
+        "id": "14087168-218a-f111-ab10-7c1e5262e7d4"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-30T22:00:00Z",
+        "details": "Return flights, accommodation, and hospitality to participate in the 2025 Australia-India Youth Dialogue in Mumbai and Delhi, India from 14 to 19 September 2025, courtesy of the Australia India Youth Dialogue.",
+        "id": "8924ede7-08af-f011-bbd2-6045bde5f32c"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-20T21:00:00Z",
+        "details": "2 x tickets and hospitality to Australia v India ODI cricket match at Optus Stadium on 19 October 2025, guest of WA Cricket",
+        "id": "7f699908-09af-f011-bbd2-6045bde5f32c"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-10-20T21:00:00Z",
+        "details": "Ticket to 2025 Telethon Ball in Perth on 18 October 2025, guest of Australian Capital Equity ",
+        "id": "84699908-09af-f011-bbd2-6045bde5f32c"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-09T21:00:00Z",
+        "details": "Dinner in Canberra and bottle of wine received on Wednesday 5 November 2025 from Crop Life Australia.",
+        "id": "0bc62612-1cc0-f011-bbd3-6045bde5f32c"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-08-28T22:00:00Z",
+        "details": "2 x tickets, Federal Parliamentary Press Gallery Midwinter Ball, Canberra, 27 August 2025, courtesy of Endeavour Group",
+        "id": "d761bdd9-08af-f011-bbd2-6045bde763f0"
+      }
+    ],
+    "interests": []
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

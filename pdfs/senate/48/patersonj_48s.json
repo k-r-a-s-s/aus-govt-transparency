@@ -1,0 +1,261 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": [
+      {
+        "detailOfGifts": "Continuing complementary electorate office Foxtel subscription",
+        "id": "1d3cd177-6472-f011-b4cd-000d3ad2a284"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-04-07T08:00:00Z",
+        "details": "Mortgage, Macquarie Bank Limited",
+        "id": "c59803ab-4b32-f111-88b3-6045bdc3f566"
+      },
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2026-04-07T08:00:00Z",
+        "details": "Mortgage on investment property, Advantedge Financial Services, backed by NAB",
+        "id": "da9803ab-4b32-f111-88b3-6045bdc3f566"
+      }
+    ],
+    "interests": [
+      {
+        "creditor": "Commonwealth Bank",
+        "id": "1f3cd177-6472-f011-b4cd-000d3ad2a284",
+        "natureOfLiability": "Mastercard"
+      },
+      {
+        "creditor": "Advantedge Financial Services, backed by NAB",
+        "id": "223cd177-6472-f011-b4cd-000d3ad2a284",
+        "natureOfLiability": "Mortgage on investment property"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "293cd177-6472-f011-b4cd-000d3ad2a284",
+        "nameOfOrganisation": "Liberal Party of Australia, Victorian Division"
+      },
+      {
+        "id": "2b3cd177-6472-f011-b4cd-000d3ad2a284",
+        "nameOfOrganisation": "Member of the advisory Council of the Krach Institute for Tech Diplomacy at Purdue University "
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "2d3cd177-6472-f011-b4cd-000d3ad2a284",
+        "nameOfOtherAsset": "Superannuation account, Australian Super"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2026-04-07T08:00:00Z",
+        "details": "Rental income, investment property",
+        "id": "df9803ab-4b32-f111-88b3-6045bdc3f566"
+      }
+    ],
+    "interests": [
+      {
+        "id": "2f3cd177-6472-f011-b4cd-000d3ad2a284",
+        "nameOfIncome": "Rental income, investment property"
+      }
+    ]
+  },
+  "otherInterest": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-04-07T08:00:00Z",
+        "details": "Policy holder, Allianz",
+        "id": "d09803ab-4b32-f111-88b3-6045bdc3f566"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-14T22:00:00Z",
+        "details": "Ongoing legal assistance, courtesy of Arnold Bloch Leibler",
+        "id": "07ea16ee-f091-f011-b4cb-6045bde4956c"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-04-21T08:00:00Z",
+        "details": "Associate Member, Hawthorn RSL",
+        "id": "cff56efc-463d-f111-88b4-7ced8da1c86f"
+      },
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2026-04-07T08:00:00Z",
+        "details": "Policy holder, CommInsure",
+        "id": "e49803ab-4b32-f111-88b3-6045bdc3f566"
+      }
+    ],
+    "interests": [
+      {
+        "id": "323cd177-6472-f011-b4cd-000d3ad2a284",
+        "natureOfInterest": "Policy holder, CommInsure "
+      },
+      {
+        "id": "353cd177-6472-f011-b4cd-000d3ad2a284",
+        "natureOfInterest": "Policy holder, HCF "
+      },
+      {
+        "id": "363cd177-6472-f011-b4cd-000d3ad2a284",
+        "natureOfInterest": "Member, Richmond Football Club"
+      },
+      {
+        "id": "373cd177-6472-f011-b4cd-000d3ad2a284",
+        "natureOfInterest": "Member, Institute of Public Affairs"
+      },
+      {
+        "id": "383cd177-6472-f011-b4cd-000d3ad2a284",
+        "natureOfInterest": "Member, Centre for Independent Studies"
+      },
+      {
+        "id": "3a3cd177-6472-f011-b4cd-000d3ad2a284",
+        "natureOfInterest": "Member, Menzies Institute"
+      },
+      {
+        "id": "3b3cd177-6472-f011-b4cd-000d3ad2a284",
+        "natureOfInterest": "Member, Athenaeum Club"
+      },
+      {
+        "id": "3c3cd177-6472-f011-b4cd-000d3ad2a284",
+        "natureOfInterest": "Member, Samuel Griffith Society"
+      }
+    ]
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2026-04-07T08:00:00Z",
+        "details": "Melbourne, Victoria, investment property",
+        "id": "d59803ab-4b32-f111-88b3-6045bdc3f566"
+      }
+    ],
+    "interests": [
+      {
+        "id": "3d3cd177-6472-f011-b4cd-000d3ad2a284",
+        "location": "Melbourne, Victoria",
+        "purposeForWhichOwned": "Investment property"
+      },
+      {
+        "id": "3f3cd177-6472-f011-b4cd-000d3ad2a284",
+        "location": "Canberra, ACT",
+        "purposeForWhichOwned": "Residential "
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "413cd177-6472-f011-b4cd-000d3ad2a284",
+        "nameOfBankInstitution": "Commonwealth Bank",
+        "natureOfAccount": "Access account"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Victoria",
+    "id": "143cd177-6472-f011-b4cd-000d3ad2a284",
+    "lastDateUpdated": "7/27/2026 10:13:45 AM",
+    "lodgementDate": "8/6/2025 10:30:28 AM",
+    "publishNotes": false,
+    "senatorName": "Paterson, James",
+    "senatorParty": "Liberal Party of Australia",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-07-08T06:00:00Z",
+        "details": "Return flights to Canberra for family to attend McKinnon Prize event, courtesy McKinnon ",
+        "id": "3331a4dd-947a-f111-ab0f-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-07-08T06:30:00Z",
+        "details": "One ticket to Press Gallery Mid-Winter Ball, Parliament House, Canberra, 1 July, courtesy News Corp",
+        "id": "3831a4dd-947a-f111-ab0f-6045bdc25de2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-09-14T22:00:00Z",
+        "details": "Two tickets to the Press Gallery Mid-Winter Ball, courtesy of The Australian ",
+        "id": "02ea16ee-f091-f011-b4cb-6045bde4956c"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-19T21:00:00Z",
+        "details": "Flights, accommodation and hospitality to participate in Centre for Independent Studies Consilium conference, Gold Coast, 23-25 October, courtesy CIS",
+        "id": "4401c948-9dc6-f011-bbd3-6045bde5f32c"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-11-19T21:00:00Z",
+        "details": "Upgrade to Business Class, Melbourne to Canberra, 12 November, courtesy Qantas",
+        "id": "4a01c948-9dc6-f011-bbd3-6045bde5f32c"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-07-20T22:00:00Z",
+        "details": "Partial contribution towards travel costs to attend the Australian American Leadership Dialogue and visit the United States, 12-19 July, courtesy Mr Charles Kiefel",
+        "id": "e1f43f19-b884-f111-ab0e-70a8a553d3a2"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-07-26T22:00:00Z",
+        "details": "Return flights and accommodation in Sydney to deliver the 2026 Commencement Address to the Ramsay Postgraduate Scholars, 23-24 July, courtesy Ramsay Centre for Western Civilisation",
+        "id": "bd800642-4789-f111-ab0f-70a8a553d3a2"
+      }
+    ],
+    "interests": [
+      {
+        "detailOfTravelHospitality": "Chairman's Lounge membership, Qantas",
+        "id": "443cd177-6472-f011-b4cd-000d3ad2a284"
+      },
+      {
+        "detailOfTravelHospitality": "Beyond membership, Virgin Australia",
+        "id": "493cd177-6472-f011-b4cd-000d3ad2a284"
+      }
+    ]
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

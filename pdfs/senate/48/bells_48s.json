@@ -1,0 +1,163 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [],
+    "interests": []
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-02T21:00:00Z",
+        "details": "Mortgage on Residential Property - ING\n",
+        "id": "a025981e-8b16-f111-8341-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-02T21:00:00Z",
+        "details": "Mortgage on Residential Property - ING\n",
+        "id": "c325981e-8b16-f111-8341-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-02T21:00:00Z",
+        "details": "Home Equity Loan - ING",
+        "id": "c925981e-8b16-f111-8341-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2026-03-02T21:00:00Z",
+        "details": "Mortgage on Residential Property - Jointly held with spouse - ANZ",
+        "id": "ce25981e-8b16-f111-8341-6045bdc3fcd7"
+      }
+    ],
+    "interests": [
+      {
+        "creditor": "ANZ",
+        "id": "11c41217-e3c8-f011-bbd3-6045bde5f32c",
+        "natureOfLiability": "Mortgage on Residential Property - Jointly held with spouse"
+      },
+      {
+        "creditor": "Pepper Money",
+        "id": "17c41217-e3c8-f011-bbd3-6045bde5f32c",
+        "natureOfLiability": "Car loan for purchase of personal vehicle"
+      }
+    ]
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "19c41217-e3c8-f011-bbd3-6045bde5f32c",
+        "nameOfOrganisation": "Pauline Hanson's One Nation, National Secretary "
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "1ec41217-e3c8-f011-bbd3-6045bde5f32c",
+        "nameOfOtherAsset": "Superannuation (Unisuper)"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": []
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": []
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": []
+  },
+  "realEstate": {
+    "alterations": [
+      {
+        "alterationType": "Deletion",
+        "createdOn": "2026-05-05T08:00:00Z",
+        "details": "Ipswich, QLD - Residential",
+        "id": "bc02d80f-e648-f111-bec6-7ced8da1c86f"
+      }
+    ],
+    "interests": [
+      {
+        "id": "21c41217-e3c8-f011-bbd3-6045bde5f32c",
+        "location": "Ipswich, QLD",
+        "purposeForWhichOwned": "Residential "
+      },
+      {
+        "id": "23c41217-e3c8-f011-bbd3-6045bde5f32c",
+        "location": "Central Coast, NSW",
+        "purposeForWhichOwned": "Residential"
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "25c41217-e3c8-f011-bbd3-6045bde5f32c",
+        "nameOfBankInstitution": "ING",
+        "natureOfAccount": "Savings"
+      },
+      {
+        "id": "26c41217-e3c8-f011-bbd3-6045bde5f32c",
+        "nameOfBankInstitution": "ING",
+        "natureOfAccount": "Savings "
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "New South Wales",
+    "id": "d18b1511-e3c8-f011-bbd3-6045bde5f32c",
+    "lastDateUpdated": "5/5/2026 11:00:16 AM",
+    "lodgementDate": "11/24/2025 12:00:00 AM",
+    "publishNotes": false,
+    "senatorName": "Bell, Sean",
+    "senatorParty": "One Nation",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator",
+    "statementNotes": ""
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": []
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-17T02:30:00Z",
+        "details": "One flight from Tamworth to Archerfield - 8/12/2025. S. Kidman & Co.",
+        "id": "d713e48e-ab21-f111-8342-6045bdc25de2"
+      }
+    ],
+    "interests": [
+      {
+        "detailOfTravelHospitality": "QANTAS - Chairman's Lounge Membership",
+        "id": "27c41217-e3c8-f011-bbd3-6045bde5f32c"
+      },
+      {
+        "detailOfTravelHospitality": "Virgin - Beyond Membership",
+        "id": "2ac41217-e3c8-f011-bbd3-6045bde5f32c"
+      }
+    ]
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}

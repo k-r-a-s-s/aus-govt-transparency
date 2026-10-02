@@ -1,0 +1,217 @@
+{
+  "errors": null,
+  "gifts": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-09-21T05:30:00Z",
+        "details": "15 September 2026 - Signed Tasmanian Devils Football Club VFL Jersey courtesy of the Tasmania Football Club ",
+        "id": "ff352e0d-80b5-f111-aaac-7ced8da2d8e0"
+      }
+    ],
+    "interests": [
+      {
+        "detailOfGifts": "Complimentary Subscription Television (Foxtel) provided by ASTRA",
+        "id": "ea138e9d-d462-f011-bec2-000d3ad2a284"
+      }
+    ]
+  },
+  "investments": {
+    "alterations": [],
+    "interests": []
+  },
+  "liabilities": {
+    "alterations": [],
+    "interests": []
+  },
+  "officeHolderDonating": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "ec138e9d-d462-f011-bec2-000d3ad2a284",
+        "nameOfOrganisation": "Vice President - Devonport Agricultural & Pastoral Society (DAPS)"
+      }
+    ]
+  },
+  "otherAssets": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "f0138e9d-d462-f011-bec2-000d3ad2a284",
+        "nameOfOtherAsset": "Superannuation - AMP"
+      },
+      {
+        "id": "4ddcf2de-d765-f011-bec3-0022489727de",
+        "nameOfOtherAsset": "Superannuation - Spirit Super"
+      },
+      {
+        "id": "292ff25c-db65-f011-bec3-6045bde5c56a",
+        "nameOfOtherAsset": "Motor Vehicles x 2"
+      }
+    ]
+  },
+  "otherIncome": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "f5138e9d-d462-f011-bec2-000d3ad2a284",
+        "nameOfIncome": "Investment Property - Rent"
+      }
+    ]
+  },
+  "otherInterest": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "fa138e9d-d462-f011-bec2-000d3ad2a284",
+        "natureOfInterest": "Membership of the Liberal Party of Australia (Tas Division)"
+      },
+      {
+        "id": "71de7d1b-d865-f011-bec3-0022489727de",
+        "natureOfInterest": "Membership of the Devonport Chamber of Commerce and Industry Inc."
+      },
+      {
+        "id": "bb667827-d865-f011-bec3-0022489727de",
+        "natureOfInterest": "Membership of the Devonport Agricultural & Pastoral Society Inc"
+      },
+      {
+        "id": "80106e33-d865-f011-bec3-0022489727de",
+        "natureOfInterest": "Membership of the Tasmanian Arboretum Inc"
+      },
+      {
+        "id": "c3be6c45-d865-f011-bec3-0022489727de",
+        "natureOfInterest": "Membership of the Emu Valley Rhododendron Society Inc"
+      },
+      {
+        "id": "3003e357-d865-f011-bec3-0022489727de",
+        "natureOfInterest": "Membership of the Essendon Football Club"
+      },
+      {
+        "id": "fd030f6a-d865-f011-bec3-0022489727de",
+        "natureOfInterest": "Membership of the Hungerford & Associated Memberships"
+      },
+      {
+        "id": "e8f6d582-d865-f011-bec3-0022489727de",
+        "natureOfInterest": "Membership of the Australian Parliamentary Sports Club"
+      },
+      {
+        "id": "c466fca6-d865-f011-bec3-0022489727de",
+        "natureOfInterest": "Patron of the Mersey Leven Vietnam Veterans Association"
+      },
+      {
+        "id": "6c5cd6b1-db65-f011-bec3-6045bde5c56a",
+        "natureOfInterest": "Membership of the Rotary Club of Devonport North Inc."
+      }
+    ]
+  },
+  "partnerships": {
+    "alterations": [],
+    "interests": [
+      {
+        "activitiesOfPartnership": "Consulting/Contracting ",
+        "id": "fd138e9d-d462-f011-bec2-000d3ad2a284",
+        "nameOfPartnership": "R.M. & G.M. Colbeck",
+        "natureOfInterest": "Partner"
+      }
+    ]
+  },
+  "realEstate": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "ff138e9d-d462-f011-bec2-000d3ad2a284",
+        "location": "Devonport, Tasmania",
+        "purposeForWhichOwned": "Residence"
+      },
+      {
+        "id": "01148e9d-d462-f011-bec2-000d3ad2a284",
+        "location": "Devonport, Tasmania",
+        "purposeForWhichOwned": "Investment Property "
+      }
+    ]
+  },
+  "registeredDirectorshipsOfCompanies": {
+    "alterations": [],
+    "interests": []
+  },
+  "savingsOrInvestmentAccounts": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "03148e9d-d462-f011-bec2-000d3ad2a284",
+        "nameOfBankInstitution": "Commonwealth Bank ",
+        "natureOfAccount": "Savings Accounts x 6"
+      }
+    ]
+  },
+  "senatorInterestStatement": {
+    "electorateState": "Tasmania",
+    "id": "d9138e9d-d462-f011-bec2-000d3ad2a284",
+    "lastDateUpdated": "9/21/2026 9:31:49 AM",
+    "lodgementDate": "7/16/2025 2:00:00 PM",
+    "publishNotes": false,
+    "senatorName": "Colbeck, Richard",
+    "senatorParty": "Liberal Party of Australia",
+    "senatorPostNominal": "",
+    "senatorTitle": "Senator the Hon.",
+    "statementNotes": "<div class=\"ck-content\" data-wrapper=\"true\" dir=\"ltr\" style=\"--ck-image-style-spacing: 1.5em; --ck-inline-image-style-spacing: calc(var(--ck-image-style-spacing) / 2); font-family: Segoe UI; font-size: 11pt;\"><p style=\"margin: 0;\">Received through PIRS 17 July 2025; checked by Shaun 21 July 2025</p></div>"
+  },
+  "shareHoldings": {
+    "alterations": [],
+    "interests": [
+      {
+        "id": "04148e9d-d462-f011-bec2-000d3ad2a284",
+        "nameOfCompany": "AMP PTY LTD"
+      }
+    ]
+  },
+  "sponsoredTravelOrHospitality": {
+    "alterations": [
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-08-30T22:00:00Z",
+        "details": "FIFA World Cup tickets - 14 June 2026 Turkey vs Australia  and 20 June 2026 USA vs Australia. Courtesy of Football Australia\n",
+        "id": "e9abbf80-f1a4-f111-b8de-6045bdc2f293"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-08-30T22:30:00Z",
+        "details": "Corporate Box Tickets to  Seattle Mariners Major League Baseball Game - 16 June 2026. Courtesy of Football Australia ",
+        "id": "eeabbf80-f1a4-f111-b8de-6045bdc2f293"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-06-25T06:30:00Z",
+        "details": "Flights, accommodation and hospitality provided by the Indonesian Government for travel to Cultural Immersion Program - Solo Royal Arts Mastery, Indonesia from 19-23 May 2026",
+        "id": "a9837d4f-e870-f111-ab0d-6045bdc3f4ad"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2026-03-19T01:00:00Z",
+        "details": "27 December 2025 Attendance at Day 2 - The Ashes Boxing Day Test Australia v England - Melbourne - from Cricket Australia",
+        "id": "771317bc-e723-f111-8341-6045bdc3fcd7"
+      },
+      {
+        "alterationType": "Addition",
+        "createdOn": "2025-12-01T02:30:00Z",
+        "details": "Parliamentary Delegation to Taiwan (18-22 Oct 2025). Flights, attendance and hospitality as guest of the Taipei Economic and Cultural Office ",
+        "id": "cdafe750-3ccf-f011-8544-6045bde5f32c"
+      }
+    ],
+    "interests": [
+      {
+        "detailOfTravelHospitality": "Qantas - Chairmans Lounge Membership",
+        "id": "25a2a3ba-d765-f011-bec3-0022489727de"
+      },
+      {
+        "detailOfTravelHospitality": "Virgin - Platinum Membership",
+        "id": "4b30a8c0-d765-f011-bec3-0022489727de"
+      }
+    ]
+  },
+  "trusts": {
+    "alterations": [],
+    "interests": []
+  },
+  "wasSuccessful": true
+}
