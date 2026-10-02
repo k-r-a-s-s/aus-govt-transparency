@@ -550,17 +550,21 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
 - notes: API has no parliament filter (params ignored, former senators absent). Archives = PDFs only: 44th/45th per-senator scans (62+75), and 40 tabled volumes for 43rd–47th (6,456 pp, 2,119 typed). Follow-up needs a volume splitter (≈ US$18–25); stopped at docs per ADR-9.
 
 ### T3.10 — Entities over the full dataset (paid, small)
-- status: todo
+- status: done 2026-10-03
 - deps: T3.7, T2.7
-- attempts: 0
+- attempts: 1
 - budget: cap US$1.00 (est. 0.50) · network: openrouter.ai
-- spent: US$0.00
+- spent: US$0.27
 - do: `load` all sources, then `entities` (online; only new uncached blocks hit the LLM;
   `credit.py --min 3` first). Re-check AC-3.3/3.4, and refresh `eval/entities_report.md` with
   the 48th and Senate included. If the new top 50 contains uncurated heads, curate them
   (`review_flag=1`). If G3 is already approved, add them to the pack as a G3 addendum and
   mention it in HANDOFF.
 - done when: AC-3.3/3.4 pass on the full DB; report refreshed.
+- notes: 26 LLM requests (586 new blocks), US$0.27; 42,272 named items -> 11,544 entities;
+  AC-3.3 0, AC-3.4 PASS, AC-3.2 97.7%; `entities --offline` exit 0. Top 50 all curated (no new
+  curation). G3 not approved, so no addendum: pack regenerated instead (114 rows, 12,216 items;
+  HANDOFF updated). 313 tests pass, 0 skipped.
 
 ### V3 — Cold verification of Phase 4
 - status: todo
