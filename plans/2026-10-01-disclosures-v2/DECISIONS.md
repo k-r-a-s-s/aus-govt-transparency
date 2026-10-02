@@ -676,3 +676,14 @@ Also deleted the v1-only docs (`docs/index.md`, `docs/backend/`, `docs/guides/`,
 this repo, and `docs/v2/` + `README.md` replace them. Kept as history: `.specstory/`, `.cursor/`
 rules, `*.rmd` diaries, root `__init__.py`, `disclosures.db` and `output/` (the CSVs the
 overrides were seeded from).
+
+## 2026-10-03 — Gate G3: entities review approved (AC-3.5; T2.9)
+
+Kevin reviewed all 114 rows of `eval/entities_g3_review.csv` (top-50 aliases, 24 flagged rows,
+the LLM-medium merges touching ≥ 5 items) on 2026-10-03 and approved them as is ("Approve all
+114"). He queried two rows, `qual` and `tef`; both were confirmed against the source registers
+(QUAL = VanEck ETF's ASX code in phelpsk 45p; TEF = Telefónica's ticker in turnbullm 43p), so
+they stay. Kevin changed nothing: `kevin_ok=y` on all 114 rows, 0 `kevin_fix`, so no curated
+rows or LLM-cache overrides were added. Final load (`load` House+Senate → `entities --offline`):
+42,272 named items → 11,544 entities; AC-3.3 0; aliases.csv covers 97.7% of the top-200 names;
+`eval/entities_report.md` regenerated with no change.

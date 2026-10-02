@@ -354,15 +354,17 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   ticker among turnbullm 43p's overseas holdings). Blanket `kevin_ok=y` on all 114 rows, 0 `kevin_fix`.
 
 ### T2.9 — Apply G3 fixes; final entity load
-- status: todo
+- status: done 2026-10-03
 - deps: G3
-- attempts: 0
+- attempts: 1
 - budget: US$0 · network: none
 - do: Apply every `kevin_fix` to `data/entities/aliases.csv` (and any LLM cache overrides,
   as a curated row). Re-run `load` then `entities --offline`. Re-check AC-3.1–3.6 and refresh
   `eval/entities_report.md`. Record G3 in DECISIONS.md (AC-3.5), with the date and what Kevin
   changed.
 - done when: all AC-3 tests pass; DECISIONS has the G3 entry.
+- notes: 0 `kevin_fix` (all 114 ok), so no alias changes. load → entities --offline: 11,544
+  entities, AC-3.3 0, coverage 97.7%, report unchanged; DECISIONS 2026-10-03 G3 entry.
 
 ### V2 — Cold verification of Phase 3
 - status: todo
