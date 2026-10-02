@@ -1,0 +1,76 @@
+{
+  "schema_version": "2.0",
+  "source_id": "gemini-api",
+  "model": "google/gemini-3.8-flash",
+  "extracted_at": "2026-10-02T06:25:54+00:00",
+  "pdf_path": "pdfs/43/leys_43p.pdf",
+  "pdf_sha256": "42bb876e86071884923ea6520704e68452918209992c2b239e8006ce254a31ee",
+  "page_count": 8,
+  "pages_covered": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "chamber": "house",
+  "parliament": 43,
+  "member_name_as_printed": "SUSSAN LEY",
+  "electorate_or_state": "FARRER",
+  "statement_date": "2010-10-25",
+  "items": [
+    {
+      "section": 3,
+      "subsection": null,
+      "owner": "self",
+      "entity_name": null,
+      "description": "ALBURY - RESIDENTIAL",
+      "location": "ALBURY",
+      "purpose": "RESIDENTIAL",
+      "is_alteration": false,
+      "change_type": "initial",
+      "lodged_date": "2010-10-25",
+      "date_precision": "day",
+      "page": 3,
+      "confidence": "high"
+    },
+    {
+      "section": 8,
+      "subsection": null,
+      "owner": "self",
+      "entity_name": "HUME BUILDING SOCIETY",
+      "description": "DEPOSIT, SAVINGS",
+      "location": null,
+      "purpose": null,
+      "is_alteration": false,
+      "change_type": "initial",
+      "lodged_date": "2010-10-25",
+      "date_precision": "day",
+      "page": 4,
+      "confidence": "high"
+    },
+    {
+      "section": 12,
+      "subsection": null,
+      "owner": "self",
+      "entity_name": "Albury Wodonga Community College",
+      "description": "Visit to New Zealand Feb 2011 - early childhood and training for jobseekers. Sponsored by Albury Wodonga Community College",
+      "location": null,
+      "purpose": null,
+      "is_alteration": true,
+      "change_type": "added",
+      "lodged_date": "2011-11-22",
+      "date_precision": "day",
+      "page": 8,
+      "confidence": "medium"
+    }
+  ],
+  "extraction_notes": "",
+  "usage": {
+    "input_tokens": 6874,
+    "output_tokens": 2138
+  }
+}
