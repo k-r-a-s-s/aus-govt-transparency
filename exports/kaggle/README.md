@@ -6,7 +6,7 @@ a standardised entity (company, organisation, trust) for each item.
 
 `disclosures_v2.csv`: 50,936 rows, one per disclosed item (a shareholding, a gift, a trip, a
 directorship, …), 33 columns. Built from `disclosures_v2.db` (schema
-2.0, loaded 2026-10-02T15:36:15+00:00).
+2.0, loaded 2026-10-02T22:42:31+00:00).
 
 ## Coverage
 
@@ -80,7 +80,7 @@ Empty cells are nulls.
    parliaments and chambers to one `member_id`; party and bloc come from a per-term table.
 4. **Standardise entities.** Entity names are normalised, then resolved in order: a curated
    alias table (the most common names), the ASX listed-companies list, an LLM grouping of
-   spelling variants, and finally one entity per remaining one-off name. 11,544 entities.
+   spelling variants, and finally one entity per remaining one-off name. 11,542 entities.
 
 ## Known limitations
 
@@ -92,7 +92,7 @@ Empty cells are nulls.
   were re-run on v1 (`coultonm_43p`, `nevillep_43p`, `coultonm_44p`, `huntg_44p`, `pynec_44p`,
   `coultonm_45p`, `odowdk45p`); the whole 48th House register used v1. A few other v0
   statements may still describe an attachment in one item instead of itemising it.
-- **One-off entities are untyped.** 7,039 of the 11,544 entities are names that
+- **One-off entities are untyped.** 7,037 of the 11,542 entities are names that
   appear once; each is its own entity with an empty `entity_type`.
 - **ASX matching is name-based.** A listed company whose snapshot name differs from the name
   the LLM chose may be typed `other` with no `entity_asx_code`.

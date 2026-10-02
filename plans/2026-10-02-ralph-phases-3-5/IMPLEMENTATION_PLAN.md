@@ -664,9 +664,9 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
 - notes: no changes needed: fresh venv (.ralph/scratch/venv) pip install ok, pip check clean, freeze == pins; 322 passed 1 skipped; all 19 disclosures modules + CLI import. Third-party imports: dotenv google httpx jsonschema numpy pydantic pymupdf rapidfuzz scipy yaml(dev).
 
 ### T5.6 — Final rebuild, full AC sweep, handover
-- status: todo
+- status: done 2026-10-03
 - deps: T2.9, T3.10, T5.5
-- attempts: 0
+- attempts: 1
 - budget: US$0 · network: none
 - do: Rebuild everything from committed inputs: `load` (all sources) → `entities --offline` →
   `export` → copy the DB into `site/`. Run every AC in SPEC §3 (AC-0 to AC-5) and write the
@@ -677,6 +677,7 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   which is equivalent but doesn't choke on the PDFs.
 - done when: every AC row is pass, or "Kevin" for G4 items (AC-5.6 means: nothing pushed to
   main/v2-upgrade, no Pages, no Kaggle).
+- notes: all SPEC §3 ACs pass (eval/final_acceptance.md); rebuild deterministic (item hash 88fb48c0…); site/exports re-generated (11,542 entities); HANDOFF/DECISIONS/SPEC Progress updated.
 
 ### V5 — Final cold verification
 - status: todo

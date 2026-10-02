@@ -703,3 +703,15 @@ Newcrest is (AC-3.4). These come after G3 and only move ~30 items, all outside t
 stands. No new row is flagged: `map` is certain (MAP was MAp Group's code until Nov 2011), and `agi` is a neutral label that merges nothing, so neither needs G3. `eval/entities_g3_review.csv` is left as the record of what Kevin reviewed; regenerating it now would only drop `apt` (now curated). The general risk (and the
 one-item `Name (TICKER)` singletons the verifier also found) is listed under Known limitations
 in `docs/v2/entities.md`. 11,542 entities; AC-3.3 0; coverage 97.7%.
+
+## 2026-10-03 — Phases 3–5 closed (T5.6)
+
+Final rebuild from committed inputs (`load` House + Senate → `entities --offline` → `export
+--site site`) and a full SPEC §3 sweep: every AC from AC-0.1 to AC-5.6 passes, recorded with its
+evidence in `eval/final_acceptance.md`. Phase 3 (entities, G3 approved) and Phase 4 (scraper,
+48th, Senate 48th, refresh) are closed; Phase 5 is closed up to G4, which stays with Kevin
+(licence + Kaggle id, merge, Pages, Kaggle upload). Choices made in the sweep: AC-0.5 was run in
+the `git grep -I … -- ':!pdfs' ':!*.db'` form (equivalent, doesn't choke on 2 GB of PDFs); AC-4.4
+rests on the T3.3a live re-run and the recorded-HTML tests, since T5.6 has no network budget;
+AC-5.5 rests on T5.5's fresh-venv run (requirements unchanged since). The rebuild only moved the
+published entity count from 11,544 to 11,542 (V2's curated fixes had not been re-exported).

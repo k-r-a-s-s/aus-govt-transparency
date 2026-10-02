@@ -1,7 +1,7 @@
 # Disclosures v2 — SPEC
 
 Status: DRAFT, awaiting sign-off · Author: Fable planner · Date: 2026-10-01
-Progress (2026-10-01): Phase 1 built and verified (all AC-0/AC-1 met except AC-1.3), paused at G1 — see `HANDOFF.md` and `DECISIONS.md`.
+Progress (2026-10-03): Phases 1–4 built and verified; Phase 5 built up to G4. Gates G1–G3 passed; every AC in §3 passes (`eval/final_acceptance.md`). Waiting on cold verification (V5), then G4 (Kevin) — see `HANDOFF.md` and `DECISIONS.md`.
 Repo: `aus-govt-transparency` (public, `github.com/k-r-a-s-s/aus-govt-transparency`) · Branch: `v2-upgrade`
 Owner / human-in-the-loop: Kevin
 
