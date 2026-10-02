@@ -390,9 +390,9 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   Archive counts: 44th 151, 45th 158, 46th 152, 47th 155. DECISIONS 2026-10-02 (T3.1).
 
 ### T3.2 — `pdfs/manifest.csv` for the 774 tracked PDFs
-- status: todo
+- status: done 2026-10-03
 - deps: T3.1
-- attempts: 0
+- attempts: 1
 - budget: US$0 · network: www.aph.gov.au (archive listings)
 - do: Build the ADR-8 manifest (columns in SPEC ADR-8) for every tracked PDF. Take
   sha256/page_count from the file (or `eval/pdf_stats.csv`) and parliament from the path. Get
@@ -401,6 +401,11 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   Test: every manifest sha matches its file (AC-4.3), and the row count equals `git ls-files
   pdfs | grep -c '\.pdf$'`.
 - done when: the AC-4.3 test passes; the matched-URL rate is printed in PROGRESS.md.
+- notes: `disclosures/manifest.py` (`python -m disclosures.manifest --backfill`); 774 rows,
+  source_url 770 (99.5%), all member statements; 4 misses = unlinked `interestsr_*p.pdf`.
+  Parser gaps for T3.3a: `sources.parse_register` skips rows with no "Member for" (44th Hastie
+  "for Canning", 46th McBain "Member Eden-Monaro") and leaves a footnote in the seat
+  ("Bennelong, NSW¹", 45th) so `state` is None.
 
 ### T3.3a — `scrape --chamber house --parliament 48`: download, manifest, idempotency
 - status: todo

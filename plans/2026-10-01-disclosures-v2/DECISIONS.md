@@ -529,3 +529,18 @@ V1's cold check found two places where C12 output could be read two ways.
   stripped from the given names. One 47th row has no comma ("Doyle Ms Mary"), so the surname is
   the words before the first title. Seven 48th rows have no state, so `state` is None.
 - **`BROWSER_UA`** now lives in `sources.py`; `entities.py` imports it.
+
+## 2026-10-03 — Manifest back-fill (T3.2)
+- **Matching.** A v1 PDF gets `source_url`/`listed_date` from its parliament's archive listing
+  when (1) a link on the page has the same file stem (case-insensitive; the 43rd's committee
+  links carry it in `?url=`), else (2) exactly one unclaimed listing row has the same
+  electorate and its surname ends the PDF's member name. No listing row goes to two PDFs.
+  Other PDF links on the page (explanatory notes; Hastie 44th and McBain 46th, whose rows say
+  "for Canning" / "Member Eden-Monaro" so the parser skips them) match by stem only and get no
+  `listed_date`.
+- **Result** (listings fetched 2026-10-03): 770/774 matched (99.5%); every member statement
+  matched. The 4 misses are `interestsr_{44..47}p.pdf` (one identical 2-page cover document),
+  which no listing links. The 43rd has no dates, so its `listed_date` is empty.
+- **`fetched_at`** is empty for v1's PDFs (unknown); the scraper fills it for new downloads.
+- **`page_count`** comes from `eval/pdf_stats.csv` (PyMuPDF if missing); sha256 from the file.
+

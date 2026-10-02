@@ -18,7 +18,8 @@ Run it from the repo root, because `pdf_path` in the extraction files is relativ
    `source_id`, `loaded_at`, `n_files`). It writes the DB to `<db>.tmp-<pid>` and then
    renames that over `<db>`. A load that fails leaves the previous DB as it was.
    `entities` and `entity_aliases` start empty; Phase 3 (`entities`) fills them.
-   `documents.source_url` and `fetched_at` are NULL until the Phase 4 manifest exists.
+   `documents.source_url` and `fetched_at` are NULL for now; `pdfs/manifest.csv` (T3.2) holds
+   them, and the loader doesn't read it yet.
 3. Prints a summary and runs the AC-2.7 sanity queries. The summary gives files loaded and
    skipped; counts of members, member_terms and items; how each member was resolved; any
    member that had to be slugged; and any term with no party that isn't listed in
