@@ -497,3 +497,16 @@ V1's cold check found two places where C12 output could be read two ways.
 - **Report.** `entities --report` regenerates only the block between markers in
   `eval/entities_report.md`, so the hand-written review and T2.8's G3 notes survive refreshes.
 
+
+### 2026-10-02 — G3 review pack (T2.8)
+
+- **"LLM merges with confidence ≠ high touching ≥ 5 items"** is read as: every `llm` alias whose
+  confidence isn't `high` and whose *entity* has ≥ 5 items in total. The alias's own count is
+  usually 2–3, so an alias threshold would leave almost nothing to review. On 2026-10-02 that's
+  31 aliases (all `medium`; the 12 `low` ones sit in smaller entities).
+- **One row per alias**, in D2's order (top 50, flagged, LLM). A top-50 alias that is also
+  flagged appears once, with its flag (4 such). `rank` is global by alias item count.
+- **`kevin_fix` format**: `field=value;…` over `canonical_name`, `entity_type` and
+  `asx_code`, or `own` / `generic`. Free text is accepted too, so Kevin isn't forced into a
+  syntax; T2.9 maps it to curated rows.
+- **Regenerating keeps Kevin's columns** (keyed by alias), so a rebuild mid-review is safe.

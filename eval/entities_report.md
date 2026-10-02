@@ -112,3 +112,40 @@ join-by-name rule (`docs/v2/entities.md`, Method step 5) merged them, 34 merges 
 moved Qantas Airways from 1,598 to 1,609 items, Westpac from 959 to 964 and ANZ from 844 to
 846. One near-match is left on purpose: Tower Limited (asx) and Tower Australia (llm) are
 different companies.
+
+## How to review G3 (T2.8, 2026-10-02)
+
+The pack is `eval/entities_g3_review.csv`: 101 rows covering 10,381 items. Regenerate it with
+`python -m disclosures entities --g3-review` (it keeps any `kevin_ok` / `kevin_fix` you've
+already filled in). It has three kinds of row, in this order:
+
+1. **Rows 1–50: the top 50 aliases by item count** (`review_flag` empty unless also flagged).
+   Check that `canonical_name` is the right organisation for that spelling, `entity_type` is
+   right, and `asx_code` is right (empty is right for unlisted, delisted or foreign-listed).
+2. **24 rows with `review_flag` = 1**: curated merges the agent wasn't sure of. `note` says why
+   (an unbranded "Velocity", a bare "Commonwealth" that may sometimes be the government, and
+   so on). Ask yourself whether the merge is right most of the time.
+3. **31 rows with `review_flag` = `llm-medium`**: long-tail LLM groupings below high
+   confidence whose entity has >= 5 items (`note` gives the entity's total). The alias's own
+   `item_count` is small. Check the alias belongs to `canonical_name`.
+
+For each row fill in **one** of:
+- `kevin_ok` = `y` if the row is right.
+- `kevin_fix` with what should change, as `field=value` pairs joined by `;`, using the fields
+  `canonical_name`, `entity_type` (ADR-6 enum) and `asx_code`. Examples:
+  `entity_type=private_company`, `canonical_name=Bank of New Zealand;asx_code=`.
+  Two shorthand values: `own` (this alias is its own entity, so undo the merge) and `generic`
+  (the alias names no organisation: add it to `generic_terms.csv`). Free text works too; T2.9
+  will turn it into a curated row and ask if it's unclear.
+
+Blank rows count as not reviewed. You don't need to check every row: the SPEC asks for a light
+spot-check (top 50 plus the flagged rows).
+
+**To approve** (SPEC-DELTA D6), do one of these:
+- Edit the G3 block in `plans/2026-10-02-ralph-phases-3-5/IMPLEMENTATION_PLAN.md` to read
+  `- status: done <YYYY-MM-DD>`, then commit it along with the CSV.
+- Or commit the CSV and tell a cloud session "G3 approved". The agent quotes your message in
+  the G3 notes and flips the status.
+
+T2.9 then applies every `kevin_fix` to `data/entities/aliases.csv`, rebuilds (`load`, then
+`entities --offline`), re-checks AC-3.1–3.6 and records G3 in DECISIONS.md.

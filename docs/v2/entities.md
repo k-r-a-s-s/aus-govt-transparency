@@ -14,6 +14,7 @@ python -m disclosures entities --offline                  # [--db disclosures_v2
 python -m disclosures entities --fetch-asx                # download a new ASX snapshot, then stop
 python -m disclosures entities --draft-candidates          # curation worksheet (below), then stop
 python -m disclosures entities --offline --report         # also refresh eval/entities_report.md
+python -m disclosures entities --g3-review                # G3 review pack (below), then stop
 ```
 
 `entities` rewrites the three outputs in place, in one transaction, so re-running it is safe.
@@ -120,6 +121,16 @@ won't fuzzy-match their full names; those pairs come from curation. Output is de
 `entities --report [MD]` (after resolving) rewrites the generated block of
 `eval/entities_report.md`: method and type counts, AC-3.3 and AC-3.4 results, and the top 20
 next to v1's top 20 (AC-3.6, v1 read-only). Text outside the BEGIN/END markers is kept.
+
+## G3 review pack (`--g3-review`)
+
+`entities --g3-review [CSV]` reads the DB as it stands (run `entities` first) and writes
+`eval/entities_g3_review.csv` (SPEC-DELTA D2 columns). Rows, in this order, each alias once:
+the top 50 aliases by item count; every `aliases.csv` row with a `review_flag`; and every LLM
+alias with confidence other than `high` whose entity has >= 5 items (`review_flag` =
+`llm-<confidence>`, `note` = the entity's item count). `rank` is the alias's rank by item count
+over all aliases. Kevin's `kevin_ok` / `kevin_fix` values already in the file are kept (by
+alias) when it's regenerated. How to review: `eval/entities_report.md`, "How to review G3".
 
 ## Known limitations
 

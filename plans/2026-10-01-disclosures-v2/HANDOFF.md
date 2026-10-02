@@ -5,6 +5,21 @@ Read first: `SPEC.md` (plan, ADRs, ACs, gates), `DECISIONS.md` (dated decisions,
 transports), `docs/v2/loading.md` (loader), `data/overrides/README.md`, `eval/bakeoff.md`
 (incl. "Backfill actuals"), `eval/extraction_failures.md`. This file only holds what those don't.
 
+## Waiting on Kevin: G3 (entity review), since 2026-10-02 (T2.8)
+Phase 3 entities are built up to the gate (AC-3.3 0, AC-3.4 pass, top 20 checked by hand). The
+loop stops at G3 once nothing else is ready. What to do:
+1. Open `eval/entities_g3_review.csv`: **101 rows** (the top 50 aliases, 24 flagged curated
+   rows and 31 medium-confidence LLM aliases in entities with >= 5 items; 10,381 items between
+   them).
+2. For each row, put `y` in `kevin_ok`, or write the correction in `kevin_fix`
+   (`canonical_name=…;entity_type=…;asx_code=…`, or `own` / `generic`). Full instructions:
+   `eval/entities_report.md`, "How to review G3".
+3. Approve: set the G3 block in `plans/2026-10-02-ralph-phases-3-5/IMPLEMENTATION_PLAN.md` to
+   `- status: done <date>` and commit it with the CSV, or tell a cloud session "G3 approved".
+   T2.9 then applies the fixes and does the final entity load.
+
+Also waiting: T1.6 (`blocked (kevin)`: nevillep_43p spouse-owned holdings; see its block).
+
 ## Where we are
 - **Phase 2 is done.** Phases 1, 2a, 2b, 2c (loader) and the backfill are built, verified and
   committed. `disclosures.db` (v1) sha unchanged.

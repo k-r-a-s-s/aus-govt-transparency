@@ -839,6 +839,9 @@ def add_arguments(p) -> None:
     p.add_argument("--report", nargs="?", const="eval/entities_report.md", default=None,
                    metavar="MD", help="after resolving, refresh the generated part of the "
                                       "entities report (default eval/entities_report.md)")
+    p.add_argument("--g3-review", nargs="?", const="eval/entities_g3_review.csv", default=None,
+                   metavar="CSV", help="write the G3 review pack from the DB as it stands "
+                                       "(default eval/entities_g3_review.csv), then stop")
     p.add_argument("--top", type=int, default=200,
                    help="heads in the --draft-candidates worksheet (default 200)")
     g = p.add_argument_group("long-tail LLM (online mode only; paid, OpenRouter)")
@@ -872,6 +875,15 @@ def run(args) -> int:
             print(f"entities --draft-candidates: {exc}", file=sys.stderr)
             return 2
         print(f"entities: wrote {path} ({n} heads)")
+        return 0
+    if args.g3_review is not None:
+        from .entities_report import write_g3_review
+        try:
+            path, n = write_g3_review(args.db, args.data, Path(args.g3_review))
+        except (FileNotFoundError, ValueError, sqlite3.OperationalError, OSError) as exc:
+            print(f"entities --g3-review: {exc}", file=sys.stderr)
+            return 2
+        print(f"entities: wrote {path} ({n} rows)")
         return 0
     if args.llm_dry_run:
         try:

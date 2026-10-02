@@ -328,9 +328,9 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   tests/test_entities_report.py (7); 252 pass.
 
 ### T2.8 — G3 review pack for Kevin
-- status: todo
+- status: done 2026-10-02
 - deps: T2.7
-- attempts: 0
+- attempts: 1
 - budget: US$0 · network: none
 - do: Write `eval/entities_g3_review.csv` per D2: the top 50 by item count plus every
   `review_flag` row, plus LLM merges with confidence ≠ high touching ≥ 5 items. Add a short
@@ -338,6 +338,8 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
   `kevin_ok` / `kevin_fix`, how to approve (D6). Update HANDOFF.md: G3 is waiting on Kevin,
   with the row count.
 - done when: the CSV exists and HANDOFF.md says what Kevin must do.
+- notes: `entities --g3-review` -> 101 rows (50 top, 24 flagged with 4 in the top 50, 31
+  llm-medium), 10,381 items; keeps kevin_* on regenerate; kevin_fix format in the report.
 
 ### G3 — Kevin reviews the top-50 aliases and flagged rows
 - status: todo

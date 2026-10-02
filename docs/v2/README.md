@@ -55,6 +55,7 @@ python -m disclosures entities [--offline] [--db disclosures_v2.db] [--data data
 python -m disclosures entities --fetch-asx    # new ASX snapshot into data/reference/, then stop
 python -m disclosures entities --draft-candidates [CSV] [--top 200]   # curation worksheet, then stop
 python -m disclosures entities --offline --report [MD]   # also refresh eval/entities_report.md (AC-3.3/3.4/3.6)
+python -m disclosures entities --g3-review [CSV]   # G3 review pack -> eval/entities_g3_review.csv, then stop
 python -m disclosures entities --llm-dry-run   # long-tail blocks / uncached / requests, then stop
 python -m disclosures entities [--llm-limit N] [--workers 8]   # online: LLM for uncached blocks (paid, OpenRouter)
 python -m disclosures.schema --write | --check              # regenerate / check the JSON Schema

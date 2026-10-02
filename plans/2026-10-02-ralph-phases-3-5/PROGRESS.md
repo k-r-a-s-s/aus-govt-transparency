@@ -21,3 +21,4 @@
 2026-10-02T13:33Z | T2.5 | done | spent US$0.00 | aliases.csv heads 101-200: 522 aliases -> 153 entities, 24 flagged; AC-3.2 coverage 100% printed + tested; 232 tests pass
 2026-10-02T13:47Z | T2.6 | done | spent US$1.16 | long-tail LLM: 3,322 blocks cached (104 requests), offline llm 4,090 aliases / 14,128 items, AC-3.3 0; listed_company→ASX code rule; 245 tests pass
 2026-10-02T13:53Z | T2.7 | done | spent US$0.00 | entities --report -> eval/entities_report.md; AC-3.3 0, AC-3.4 PASS; top 20 no dups after join-by-name (34 merges, 10,185 entities); 252 tests pass
+2026-10-02T13:56Z | T2.8 | done | spent US$0.00 | entities --g3-review -> eval/entities_g3_review.csv 101 rows (top 50 + 24 flagged + 31 llm-medium); How to review G3 in report; HANDOFF: G3 waiting on Kevin; 253 tests pass

@@ -6,7 +6,8 @@ import pytest
 
 from disclosures.cli import main
 from disclosures.entities import join_by_name, run_entities
-from disclosures.entities_report import (BEGIN, END, ac33_unresolved, ac34_problems, top_v2,
+from disclosures.entities_report import (BEGIN, END, G3_COLUMNS, ac33_unresolved,
+                                         ac34_problems, g3_rows, top_v2, write_g3_review,
                                          write_report)
 from test_entities import (REAL_DB, REPO, make_data, make_reference, make_sectioned_db,  # noqa: F401
                            no_llm)
@@ -88,6 +89,39 @@ def test_cli_report(tmp_path, capsys):
     assert main(["entities", "--db", str(db), "--data", str(tmp_path / "entities"),
                  "--offline", "--report", str(out)]) == 0
     assert out.read_text().startswith("# Entities report") and "wrote" in capsys.readouterr().out
+
+
+@pytest.mark.usefixtures("no_llm")
+def test_g3_review_pack(tmp_path):
+    db, ref = built(tmp_path)
+    data = tmp_path / "entities"
+    (data / "aliases.csv").write_text("alias,canonical_name,entity_type,asx_code,review_flag,note\n"
+                                      "qantas airways,Qantas Airways,airline,QAN,,\n"
+                                      "ing,ING Bank Australia,bank_or_financial,,1,check ING\n")
+    run_entities(db, data, reference_dir=ref)
+    con = sqlite3.connect(db)
+    # pretend the long tail grouped "twin" at medium confidence into the 3-item BHP entity
+    bhp = con.execute("select entity_id from entity_aliases where alias_normalised = 'bhp group'"
+                      ).fetchone()[0]
+    con.execute("update entity_aliases set method = 'llm', confidence = 'medium', entity_id = ? "
+                "where alias_normalised = 'twin'", (bhp,))
+    con.execute("update items set entity_id = ? where item_id = 'a9'", (bhp,))
+    con.commit()
+    con.close()
+    rows = g3_rows(db, data, top=1, llm_min_items=4)
+    # "bhp group" and "qantas airways" both have 2 items: the tie goes by alias
+    assert [r["alias"] for r in rows] == ["bhp group", "ing", "twin"]
+    assert rows[0]["rank"] == 1 and rows[0]["item_count"] == 2 and rows[0]["method"] == "asx"
+    assert rows[1]["review_flag"] == "1" and rows[1]["note"] == "check ING"
+    assert rows[2]["review_flag"] == "llm-medium" and rows[2]["note"] == "entity has 4 items"
+    assert g3_rows(db, data, top=1, llm_min_items=5)[-1]["alias"] == "ing"
+    out = tmp_path / "g3.csv"
+    write_g3_review(db, data, out)
+    text = out.read_text().replace(",asx,,,,", ",asx,,,y,")
+    out.write_text(text)
+    assert main(["entities", "--db", str(db), "--data", str(data), "--g3-review", str(out)]) == 0
+    lines = out.read_text().splitlines()
+    assert lines[0] == ",".join(G3_COLUMNS) and lines[1].endswith(",y,")  # review kept
 
 
 def real_con():
