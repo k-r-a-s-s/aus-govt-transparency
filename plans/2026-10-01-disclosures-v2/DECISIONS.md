@@ -785,3 +785,16 @@ under ODbL, which allows commercial use, "to the extent which we have rights to 
 row's `source_url`) stay under APH's CC BY-NC-ND 4.0, and README, Kaggle README and the site say
 so. v1's Kaggle licence (CC BY 4.0) is now consistent and is left unchanged. This is a judgement,
 not legal advice; if APH ever objects, the fallback is CC BY-NC 4.0 (the previous entry).
+
+## 2026-10-03 — Interim Pages explorer; public site moves to Cloudflare
+
+Kevin asked for an "Obsidian-style" graph of the top companies and bars with hover detail.
+`export --site` now also writes `site/explore.json` (`disclosures/explore.py`) and copies
+`disclosures/site_assets/explore.html`: a force-directed member-organisation graph plus a bar
+chart by bloc, linked from `index.html`. Private individuals (`person` entities) are left out.
+The bloc colours are the dataviz reference slots 1–3, chosen because they pass the validator
+all-pairs (blue Coalition, orange Labor, aqua Crossbench); a red/blue/aqua set only reached the
+CVD floor band. Afterwards Kevin pointed out that the public site is being rebuilt on Cloudflare
+Workers (`build/2026-10-03-public-site`, its own SPEC), so new site features go there. The
+Pages explorer stays live as a stopgap, and porting it into that build's explorer (Phase C) is
+the next task (HANDOFF "Now").

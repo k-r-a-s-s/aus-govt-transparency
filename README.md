@@ -10,6 +10,21 @@ Output: `disclosures_v2.db` (SQLite) and `exports/disclosures_v2.csv` (one row p
 Kaggle package in `exports/kaggle/`). Design and acceptance criteria:
 `plans/2026-10-01-disclosures-v2/SPEC.md`.
 
+## Public site: moving to Cloudflare
+
+- **Now (interim):** GitHub Pages at https://k-r-a-s-s.github.io/aus-govt-transparency/, built by
+  `export --site site` and deployed by `.github/workflows/pages.yml`. It has a landing page, a
+  Datasette Lite link and `explore.html` (a member-organisation network graph plus a hover bar
+  chart, fed by `explore.json` from `disclosures/explore.py`). Kaggle:
+  https://www.kaggle.com/datasets/kevrass/australian-parliament-registers-of-interests.
+- **Next:** the public site moves to **Cloudflare Workers static assets** on Kevin's personal
+  account (`interests.kevinrassool.com`, data files on R2), with a page per member and per entity,
+  an explorer, charts and a static JSON API. Plan, ADRs and ACs:
+  `plans/2026-10-03-public-site/SPEC.md` on branch `build/2026-10-03-public-site` (worktree
+  `.claude/worktrees/cf-data-explorer-plan`); code in `disclosures/web/` and `web/` on that branch.
+- **Rule:** build new site features in the Cloudflare build, not in `site/`. `site/` and
+  `pages.yml` stay as they are until the cutover, when GitHub Pages becomes a redirect (ADR-W11).
+
 ## Coverage
 
 | chamber | parliament | members | statements | items |
@@ -41,7 +56,8 @@ from the senators' interests API (JSON, `pdfs/senate/48/`).
 5. **Entities** (`entities`): normalise names, then resolve via a curated alias table, the ASX
    listed-companies snapshot, a cached LLM grouping of variants, and finally one entity per
    one-off name.
-6. **Export** (`export`): CSV, Kaggle package and the GitHub Pages site (`site/`).
+6. **Export** (`export`): CSV, Kaggle package and the interim GitHub Pages site (`site/`; the
+   Cloudflare site replaces it, see *Public site* above).
 
 ## Setup
 
@@ -136,7 +152,7 @@ schema and item-id scheme are in `docs/v2/loading.md`.
 | `data/overrides/` | member identity and party-per-term tables |
 | `data/entities/`, `data/reference/` | curated aliases, generic terms, LLM cache, ASX snapshots |
 | `eval/` | gold set, baselines, entity report |
-| `exports/`, `site/` | published CSV, Kaggle package, Pages site |
+| `exports/`, `site/` | published CSV, Kaggle package, interim Pages site (frozen until the Cloudflare cutover) |
 | `docs/v2/` | how each stage works |
 | `tests/` | pytest suite |
 

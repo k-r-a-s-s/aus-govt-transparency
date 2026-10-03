@@ -44,3 +44,4 @@
 2026-10-02T22:46Z | T5.6 | done | spent US$0.00 | final rebuild (995 files, 50,936 items, 11,542 entities) + export/site; every AC-0..AC-5 passes -> eval/final_acceptance.md; HANDOFF/DECISIONS/SPEC progress updated
 2026-10-02T22:55Z | V5 | done | spent US$0.00 | final cold verify: PASS, no findings; 10/10 sampled items traced to source; export/site/dictionary consistent; 322 pass
 2026-10-03T00:40Z | G4 | done | spent US$0.00 | Mac session: licence CC BY-NC 4.0 (APH is CC BY-NC-ND), V5 polish, PR #2 merged, main ff to cee0ba3, Pages live (Datasette Lite loads, 50,936 items), Kaggle kevrass/australian-parliament-registers-of-interests public; 322 pass; licence then changed to CC BY 4.0 (Kevin), v1 Kaggle marked superseded, CT 104 stopped
+2026-10-03T23:00Z | site-explorer | done | spent US$0.00 | interim Pages explorer (graph + hover bars, explore.json); 323 pass; next: port into the Cloudflare build (HANDOFF)
