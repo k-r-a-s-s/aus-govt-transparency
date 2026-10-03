@@ -82,6 +82,8 @@ yarn-error.log*
 *.sqlite3
 # the published Pages copy (ADR-10, AC-5.2); regenerate with python -m disclosures export --site site
 !site/disclosures_v2.db
+# the web test fixture (ADR-W12); regenerate with python -m disclosures web make-fixture
+!tests/fixtures/web/mini.db
 
 # Compiled code
 *.so
@@ -141,3 +143,8 @@ Thumbs.db
 # export CSVs (30 MB each; regenerate with python -m disclosures export). README + metadata are committed.
 /exports/*.csv
 /exports/kaggle/*.csv
+
+# public-site builds (python -m disclosures web build --out web/sites/...)
+/web/sites/
+/web/test-results/
+/web/playwright-report/
