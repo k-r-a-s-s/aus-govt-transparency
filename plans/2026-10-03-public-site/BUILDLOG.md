@@ -16,3 +16,102 @@ pushes; owner steps are SPEC §6.
   outputs under `web/sites/` are ignored.
 - `zombie-trials` has only the explorer SPEC on disk (no `explorer/` code yet), so conventions
   are mirrored from its SPEC text, not copied code.
+
+## Phase A: data layer, bundle, check, fixture (2026-10-03)
+
+### What landed
+
+- `disclosures/web/`: `__init__.py` (`WEB_BUNDLE_VERSION = "1"`), `cli.py` (subcommands
+  `build`, `check`, `publish-data`, `make-fixture`, `probe-links`), `dataset.py` (read-only DB +
+  manifest access, sha256 of both, id assertions), `urls.py` (ADR-W5 classes and
+  `source_link(url, page)`), `bundle.py` (`data/*.json`, per-member and per-entity
+  `items.json`), `build.py` (out guard, staging, `_headers`, `web-manifest.json`), `check.py`
+  (deploy rules), `fixture.py` (`make-fixture`).
+- `disclosures/cli.py`: `web` appended to `ORDER`/`HELP`, lazy import; `main()` has a fast path
+  for `argv[0] == "web"` that skips `build_parser()`.
+- `disclosures/dbconst.py` (new): `DEFAULT_DB`, `V1_DB_NAME`, `CATEGORY`, `_guard_v1` moved out
+  of `load.py`, which re-exports them unchanged; `export.py` imports them from `dbconst`.
+- `tests/fixtures/web/{mini.db, mini-manifest.csv, README.md}`; `tests/web/` (87 tests);
+  `tests/test_cli.py` `COMMANDS` gains `web`.
+
+### Commands and results
+
+| AC | Command / test | Result |
+|---|---|---|
+| A1 | `python -m disclosures --help`; `python -m disclosures web --help` (`tests/web/test_web_cli.py`) | lists `web`; lists `{build,check,publish-data,make-fixture,probe-links}`. `publish-data` and `probe-links` print "not implemented in phase A" and exit 2. |
+| A2 | `python -m disclosures web make-fixture --db site/disclosures_v2.db --manifest pdfs/manifest.csv --out tests/fixtures/web --members 6 --seed 1` (`test_web_fixture.py`) | two runs into tmp dirs give identical sha256 for both files, equal to the committed ones (`mini.db` sha256 `4e282a3b…`, `mini-manifest.csv` `547c52d9…`). Schema equals `load.DDL` (columns, types, PKs, indexes) and the real DB's `sqlite_master` SQL; `meta.fixture = 1`; `integrity_check` ok. `mini.db` 716,800 bytes (limit 2 MB). |
+| A3 | `test_web_build.py::test_build_on_read_only_inputs`, `::test_non_empty_out_exits_2_and_writes_nothing` | build from a `chmod a-w` dir (files and dir) exits 0; sha256, mtime_ns and mode of DB and manifest unchanged; no file added beside them. Non-empty `--out` exits 2; `--out` contents, mtimes and the parent listing unchanged. |
+| A4 | `test_web_bundle.py::test_items_json_on_real` (+ `_on_mini`, all rows) | Real: `n = 50936`, all 18 schema columns present, every dict index in range or -1, 200 seeded-random rows decode equal to SQL field by field, `web_bundle_version = "1"`. `data/items.json` 6,158,531 bytes raw (limit 8 MB), 1,386,456 bytes gzip -9. |
+| A5 | `test_web_check.py` (one test per planted fault, on copies of the mini site, manifest resealed so only the planted rule fires) | exit 1 naming: `forbidden-file` (.db, .csv, .parquet, .sqlite, .csv.gz), `file-too-large` (20 MiB + 1), `too-many-files` (12,001 extra), `site-too-large`, `html-too-large`, `footer-missing`, `external-asset` (script src, protocol-relative, stylesheet, modulepreload), `noindex-in-production` (header and meta), `noindex-missing-in-preview` (header and meta), `member-page-missing`, plus `member-json-missing` and `manifest-mismatch`. Bad input exits 2. |
+| A6 | `test_web_urls.py::test_every_real_document_resolves_to_a_url_class` | 995/995 documents have a manifest URL and a class. `senate-json` 76 = Senate documents 76. `house-redirect` 150 (all House 43rd), `house-pdf` 622 (House 44th-47th, 618, plus 4 House 48th), `house-api` 147 (House 48th). |
+| ADR-W2 | `test_web_cli.py::test_web_imports_and_builds_with_heavy_modules_blocked` | with `pymupdf`, `fitz`, `google`, `google.genai`, `pydantic`, `pydantic_core`, `numpy`, `scipy`, `rapidfuzz`, `httpx` set to `None` in `sys.modules`, `disclosures.web.*` imports and `python -m disclosures web build` + `web check` on the fixture exit 0. |
+
+Real build (`web build --db site/disclosures_v2.db --manifest pdfs/manifest.csv --out <tmp>`):
+2.5 s on the Mac; 4,865 files, 107.3 MB (102.3 MiB): `data/` 7.8 MB, `members/*/items.json`
+58.1 MB (408 files), `entities/*/items.json` 40.5 MB (4,448 files). Two builds are identical
+file for file (only `web-manifest.json`'s `built_at` differs; `SOURCE_DATE_EPOCH` pins it).
+`web check <real> --db site/disclosures_v2.db` exits 0 in 0.4 s, in both modes.
+
+Full suite: `pytest -q` 402 passed, 6 skipped, 1 failed: `tests/test_entities.py::test_cli_missing_db`
+fails only because this worktree has no `.env.local` (the `entities` command checks the
+OpenRouter key before the DB path). Unrelated to phase A; with `OPENROUTER_KEY=dummy` the whole
+suite passes.
+
+### Fixture (seed 1)
+
+`ken_o_dowd` (House 43, redirector URL), `russell_broadbent` (House 47, static PDF),
+`josh_wilson` (House 48, API URL), `richard_colbeck` (Senate 48, JSON), `nicolette_boele`
+(spouse + dependent-child items), `wayne_swan` (161 alterations). 1,043 items, 19 statements,
+318 entities, 667 aliases; all three blocs; one `low`-confidence item. Reasons in
+`tests/fixtures/web/README.md`.
+
+### Deviations and decisions
+
+1. **Light imports.** `export.py` imported `load`, which imports `schema` and so pydantic. The
+   shared constants moved to the stdlib-only `disclosures/dbconst.py`; `load` re-exports them
+   (its tests, including the `monkeypatch` of `load.CATEGORY`, pass unchanged); `export`'s
+   public behaviour is unchanged. `disclosures/cli.py`'s `build_parser()` imports every
+   pipeline module (numpy, scipy via `score`), so `main()` dispatches `web ...` straight to
+   `disclosures.web.cli.main` without building the full parser. `python -m disclosures --help`
+   still lists `web` through the full parser.
+2. **House 48th has 4 static PDFs.** ADR-W5 says 48th House links are the API; 4 of the 151
+   are `static.aph.gov.au` PDFs (e.g. `Albanese_48P.pdf`). They classify as `house-pdf`, which
+   links the same way (`#page=N`). The AC-A6 test allows `house-pdf` for House 44th-48th.
+3. **Senate links.** The manifest and `members` carry no per-senator register page, so every
+   `senate-json` link goes to the Senate register index (`urls.SENATE_REGISTER_INDEX`), as
+   ADR-W5's fallback says. The Senate API host comes from `sources.SENATE_API_BASE`.
+4. **Fail closed on URLs.** A document with no manifest URL, or a URL with no class, makes
+   `build` exit 2 before anything is written.
+5. **Extra check rules** beyond AC-A5: `manifest-mismatch` (every file listed in
+   `web-manifest.json` with matching sha256 and size, so a site edited after build fails) and
+   `member-json-missing` (with `--db`). `forbidden-file` also covers `.sqlite`, `.sqlite3` and
+   `.csv.gz`. `external-asset` treats any absolute or protocol-relative URL in `<script src>`
+   or `<link rel=stylesheet|preload|modulepreload href>` as another origin: phase B templates
+   must use root-relative asset URLs.
+6. **Member-page rule in phase A.** Phase A writes `members/<id>/items.json` but no
+   `index.html`, so `member-page-missing` is reported as skipped (exit 0) while no
+   `members/*/index.html` exists at all; as soon as one member page exists, every DB member
+   needs one.
+7. **Footer marker** for phase B: `<footer class="site-footer" ...>` whose text contains
+   `CC BY 4.0` (`check.FOOTER_MARKER`, `check.FOOTER_LICENCE`).
+8. **Bundle layout.** `items.json` = `{web_bundle_version, n, columns, dict, cols}`; every
+   string column is dictionary-encoded (sorted values, `-1` = null), including description;
+   `dict.member` and `dict.document` are aligned with `members.json` (sorted by id) and
+   `documents.json` (sorted by sha256). Rows follow `export.QUERY`'s order. No `item_id` in the
+   bundle (not in the 18 columns; it is in the per-page `items.json`).
+9. **Summary keys.** `parliaments` counts distinct parliament numbers (6); `registers` counts
+   chamber-parliament pairs (7). Per-parliament breakdowns are keyed by chamber and parliament,
+   so House 48th and Senate 48th stay apart. `top_entities_by_members` ties break on items, then
+   id. Items with no term bloc would show as `Unknown` (none in the real DB).
+10. **Fixture constraints** added beyond the SPEC: all three blocs and at least one `low` item
+    (the first seed-1 draw was six Labor members, useless for the bloc charts and the explorer's
+    bloc toggle in phase C). `--members` below 6 exits 2.
+11. **Build staging.** The site is written to a hidden sibling `.<out>.tmp-<pid>` and renamed
+    into place; on error the staging dir is removed. Build time honours `SOURCE_DATE_EPOCH`.
+12. Jinja2 is not imported yet (no pages in phase A).
+
+### Open for phase B
+
+- Per-page JSON is already 98.7 MB of the 300 MiB budget; ~4,860 HTML pages will add to it.
+  Watch `site-too-large` on Real.
+- Hashed assets go under `/assets/` (the `_headers` long-cache rule is already written).

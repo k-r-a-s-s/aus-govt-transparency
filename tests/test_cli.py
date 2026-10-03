@@ -6,7 +6,8 @@ from pathlib import Path
 from disclosures.cli import ORDER
 
 REPO = Path(__file__).resolve().parent.parent
-COMMANDS = ["scrape", "extract", "validate", "score", "load", "entities", "export", "refresh"]
+COMMANDS = ["scrape", "extract", "validate", "score", "load", "entities", "export", "refresh",
+            "web"]
 
 
 def test_help_lists_exactly_the_subcommands():

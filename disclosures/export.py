@@ -18,7 +18,7 @@ import sys
 from pathlib import Path
 from typing import Dict, List, Optional
 
-from .load import DEFAULT_DB, _guard_v1
+from .dbconst import DEFAULT_DB, _guard_v1
 from .normalise import normalise_entity
 
 DEFAULT_OUT = "exports"

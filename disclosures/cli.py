@@ -7,7 +7,8 @@ from typing import List, Optional
 
 # command -> phase in which it lands (stubs until then)
 STUBS: dict = {}
-ORDER = ["scrape", "extract", "validate", "score", "load", "entities", "export", "refresh"]
+ORDER = ["scrape", "extract", "validate", "score", "load", "entities", "export", "refresh",
+         "web"]
 HELP = {
     "scrape": "download register PDFs and update the manifest",
     "extract": "run an extractor over PDFs into extractions/",
@@ -17,6 +18,7 @@ HELP = {
     "entities": "run the entity standardisation pipeline",
     "export": "export the published dataset",
     "refresh": "scrape + extract + load new PDFs end to end",
+    "web": "build, check and publish the public site",
 }
 
 
@@ -58,12 +60,23 @@ def build_parser() -> argparse.ArgumentParser:
             from . import export
 
             export.add_arguments(p)
+        elif name == "web":
+            from .web import cli as web_cli
+
+            web_cli.add_arguments(p)
         else:
             p.add_argument("rest", nargs=argparse.REMAINDER, help=argparse.SUPPRESS)
     return parser
 
 
 def main(argv: Optional[List[str]] = None) -> int:
+    argv = sys.argv[1:] if argv is None else list(argv)
+    if argv[:1] == ["web"]:
+        # Fast path: the web build imports only the stdlib + Jinja2 (public-site ADR-W2), so
+        # skip build_parser(), which imports every pipeline module (numpy, scipy, pydantic).
+        from .web.cli import main as web_main
+
+        return web_main(argv[1:])
     parser = build_parser()
     args = parser.parse_args(argv)
     if args.command is None:
@@ -99,6 +112,10 @@ def main(argv: Optional[List[str]] = None) -> int:
         return run(args)
     if args.command == "export":
         from .export import run
+
+        return run(args)
+    if args.command == "web":
+        from .web.cli import run
 
         return run(args)
     print(f"{args.command}: not implemented yet (Phase {STUBS[args.command]})", file=sys.stderr)

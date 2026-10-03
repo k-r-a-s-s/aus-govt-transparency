@@ -26,27 +26,12 @@ from .normalise import normalise_entity
 from .schema import SCHEMA_VERSION
 from .validate import iter_json_files, validate_file
 
-DEFAULT_DB = "disclosures_v2.db"
+# DEFAULT_DB, V1_DB_NAME, CATEGORY and _guard_v1 live in the stdlib-only ``dbconst`` so
+# that ``export`` and ``web`` do not import pydantic; re-exported here unchanged.
+from .dbconst import CATEGORY, DEFAULT_DB, V1_DB_NAME, _guard_v1  # noqa: E402,F401
+
 DEFAULT_EXTRACTIONS = "extractions"
 DEFAULT_OVERRIDES = "data/overrides"
-V1_DB_NAME = "disclosures.db"
-
-CATEGORY = {
-    1: "Shareholding",
-    2: "Trust",
-    3: "Real estate",
-    4: "Directorship",
-    5: "Partnership",
-    6: "Liability",
-    7: "Bond/debenture",
-    8: "Account",
-    9: "Other asset",
-    10: "Income",
-    11: "Gift",
-    12: "Sponsored travel/hospitality",
-    13: "Membership",
-    14: "Other interest",
-}
 
 DDL = """
 CREATE TABLE documents (
@@ -265,22 +250,6 @@ def item_id(key: Tuple, ordinal: int) -> str:
 
 
 # --- load ---------------------------------------------------------------------------------
-
-def _guard_v1(db_path: Path) -> None:
-    """Refuse to overwrite the frozen v1 database, including case variants (macOS APFS is
-    case-insensitive, so ``DISCLOSURES.DB`` is the same file) and symlinks to it."""
-    v1 = Path.cwd() / V1_DB_NAME
-    same = False
-    if db_path.name.lower() == V1_DB_NAME.lower():
-        same = True
-    elif db_path.exists() and v1.exists():
-        try:
-            same = os.path.samefile(db_path, v1)
-        except OSError:
-            same = False
-    if same or db_path.resolve() == v1.resolve():
-        raise ValueError(f"refusing to write {db_path}: that is the frozen v1 database")
-
 
 def load_db(source_ids: str | List[str], db_path: str | Path = DEFAULT_DB,
             extractions_root: str | Path = DEFAULT_EXTRACTIONS,
