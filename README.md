@@ -143,10 +143,15 @@ schema and item-id scheme are in `docs/v2/loading.md`.
 ## v1 snapshot
 
 `disclosures.db` is the frozen v1 database, kept read-only as a snapshot for comparison (the
-`score --v1` baseline). v1's pipeline scripts are superseded by v2 and are being removed; don't
-build on them.
+`score --v1` baseline). v1's pipeline scripts were removed once v2 replaced them (`git show 66377df:src/...` to
+read them).
 
-## Source
+## Source and licence
 
 Parliament of Australia, Register of Members' Interests and Register of Senators' Interests
-(aph.gov.au).
+(aph.gov.au). Material on aph.gov.au is published under
+[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/), credited as "Parliament
+of Australia website"; the PDFs in `pdfs/` are unaltered copies under that licence. The
+published dataset (`exports/`, `site/`, Kaggle) is
+[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/): the NonCommercial term follows
+the source.

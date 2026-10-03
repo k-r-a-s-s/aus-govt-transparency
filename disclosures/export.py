@@ -24,7 +24,9 @@ from .normalise import normalise_entity
 DEFAULT_OUT = "exports"
 DEFAULT_MANIFEST = "pdfs/manifest.csv"
 CSV_NAME = "disclosures_v2.csv"
-DEFAULT_KAGGLE_ID = "KAGGLE_USERNAME/australian-parliament-registers-of-interests"
+DEFAULT_KAGGLE_ID = "kevrass/australian-parliament-registers-of-interests"
+# NonCommercial follows the source: aph.gov.au content is CC BY-NC-ND 4.0 (DECISIONS G4).
+DEFAULT_LICENSE = "CC-BY-NC-4.0"
 DB_NAME = "disclosures_v2.db"
 REPO_URL = "https://github.com/k-r-a-s-s/aus-govt-transparency"
 DEFAULT_PAGES_URL = "https://k-r-a-s-s.github.io/aus-govt-transparency"
@@ -62,8 +64,9 @@ COLUMNS = [
     ("entity_type", "string", "Entity type (listed_company, private_company, "
      "bank_or_financial, trust_or_fund, association_or_ngo, sporting_body, government_body, "
      "political_party, union, airline, media_or_entertainment, education, person, other). "
-     "Empty for one-off (singleton) entities."),
-    ("entity_asx_code", "string", "ASX ticker when the entity is a listed company we matched."),
+     "Empty for most one-off (singleton) entities."),
+    ("entity_asx_code", "string", "ASX ticker when the entity matched an ASX-listed company "
+     "(banks, airlines and media groups included, e.g. `CBA`, `QAN`), else empty."),
     ("entity_match_method", "string", "How the name was standardised: `curated` (hand table), "
      "`asx` (ASX listed-companies snapshot), `llm` (LLM grouping of variants), `singleton` "
      "(one-off name, its own entity) or `generic` (generic term, no entity)."),
@@ -219,21 +222,28 @@ Empty cells are nulls.
 - **Dates.** `lodged_date` is empty when no date is printed (`date_precision = unknown`).
 - **Party** is the party at the start of each term; mid-term defections are not tracked.
 
-## Source
+## Source and licence
 
 Parliament of Australia, Register of Members' Interests and Register of Senators' Interests
-(aph.gov.au). Pipeline and documentation: the project repository.
+(aph.gov.au). Code and documentation: {REPO_URL}. Browse and query the data online
+(Datasette Lite): {DEFAULT_PAGES_URL}/.
+
+Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). You may share and
+adapt this dataset for non-commercial purposes if you credit it and the source. The
+NonCommercial term follows the source: material on aph.gov.au is published under
+[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) and is credited as
+"Parliament of Australia website". Each row's `source_url` links the original statement.
 """
 
 
-def kaggle_metadata(kaggle_id: str, license_name: str) -> dict:
+def kaggle_metadata(kaggle_id: str, license_name: str, description: str) -> dict:
+    # isPrivate matters only to `kaggle datasets metadata --update` (create uses --public).
     return {
         "title": "Australian Parliament Registers of Interests",
         "id": kaggle_id,
         "subtitle": "Every interest disclosed by federal MPs and senators, 2010 to now",
-        "description": "See README.md: one row per disclosed item, with member, party and "
-                       "standardised entity.",
-        "isPrivate": True,
+        "description": description,
+        "isPrivate": False,
         "licenses": [{"name": license_name}],
         "keywords": ["politics", "government", "australia"],
         "resources": [{
@@ -311,6 +321,13 @@ Senators' Interests. {html.escape(pages_url.rstrip('/'))}/</pre>
 <p>Please also credit the source: Parliament of Australia, Registers of Members' and Senators'
 Interests (aph.gov.au).</p>
 
+<h2>Licence</h2>
+<p>The dataset is released under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC
+4.0</a>: share and adapt it for non-commercial purposes, crediting it and the source. The
+NonCommercial term follows the source: material on aph.gov.au is published under
+<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a> and is credited
+as &ldquo;Parliament of Australia website&rdquo;.</p>
+
 <h2>Links</h2>
 <ul>
 <li><a href="{lite}">Datasette Lite</a> (<code>{db_href}</code>)</li>
@@ -325,7 +342,7 @@ Interests (aph.gov.au).</p>
 
 def export(db_path: str | Path = DEFAULT_DB, out_dir: str | Path = DEFAULT_OUT,
            manifest: str | Path = DEFAULT_MANIFEST, kaggle_id: str = DEFAULT_KAGGLE_ID,
-           license_name: str = "unknown", site_dir: str | Path | None = None,
+           license_name: str = DEFAULT_LICENSE, site_dir: str | Path | None = None,
            pages_url: str = DEFAULT_PAGES_URL) -> dict:
     db_path, out_dir = Path(db_path), Path(out_dir)
     _guard_v1(db_path)
@@ -348,7 +365,7 @@ def export(db_path: str | Path = DEFAULT_DB, out_dir: str | Path = DEFAULT_OUT,
     shutil.copyfile(csv_path, kaggle / CSV_NAME)
     (kaggle / "README.md").write_text(readme, encoding="utf-8")
     (kaggle / "dataset-metadata.json").write_text(
-        json.dumps(kaggle_metadata(kaggle_id, license_name), indent=2) + "\n", encoding="utf-8")
+        json.dumps(kaggle_metadata(kaggle_id, license_name, readme), indent=2) + "\n", encoding="utf-8")
     if site_dir is not None:
         site = Path(site_dir)
         site.mkdir(parents=True, exist_ok=True)
@@ -368,8 +385,8 @@ def add_arguments(p) -> None:
                    help="fills source_url where the DB has none (default: %(default)s)")
     p.add_argument("--kaggle-id", default=DEFAULT_KAGGLE_ID,
                    help="Kaggle dataset id <user>/<slug> (default: %(default)s)")
-    p.add_argument("--license", dest="license_name", default="unknown",
-                   help="Kaggle licence name, e.g. CC-BY-4.0 (default: %(default)s)")
+    p.add_argument("--license", dest="license_name", default=DEFAULT_LICENSE,
+                   help="Kaggle licence name (default: %(default)s)")
     p.add_argument("--site", dest="site_dir", default=None, metavar="DIR",
                    help="also write the Pages site (index.html + DB copy) to DIR, e.g. site")
     p.add_argument("--pages-url", default=DEFAULT_PAGES_URL,

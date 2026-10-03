@@ -44,8 +44,8 @@ current senators only).
 | `entity_name_as_printed` | string | The company, organisation, trust or person the item names, as printed. Empty when the item names no entity (e.g. a house address). |
 | `entity_id` | string | Standardised entity id; items naming the same organisation in different spellings share it. Empty for no entity or a generic term (e.g. `family trust`). |
 | `entity_name` | string | Canonical name of the standardised entity. |
-| `entity_type` | string | Entity type (listed_company, private_company, bank_or_financial, trust_or_fund, association_or_ngo, sporting_body, government_body, political_party, union, airline, media_or_entertainment, education, person, other). Empty for one-off (singleton) entities. |
-| `entity_asx_code` | string | ASX ticker when the entity is a listed company we matched. |
+| `entity_type` | string | Entity type (listed_company, private_company, bank_or_financial, trust_or_fund, association_or_ngo, sporting_body, government_body, political_party, union, airline, media_or_entertainment, education, person, other). Empty for most one-off (singleton) entities. |
+| `entity_asx_code` | string | ASX ticker when the entity matched an ASX-listed company (banks, airlines and media groups included, e.g. `CBA`, `QAN`), else empty. |
 | `entity_match_method` | string | How the name was standardised: `curated` (hand table), `asx` (ASX listed-companies snapshot), `llm` (LLM grouping of variants), `singleton` (one-off name, its own entity) or `generic` (generic term, no entity). |
 | `description` | string | The item as printed on the form (the full cell text). |
 | `location` | string | Location, where the form gives one (real estate, travel). |
@@ -102,7 +102,14 @@ Empty cells are nulls.
 - **Dates.** `lodged_date` is empty when no date is printed (`date_precision = unknown`).
 - **Party** is the party at the start of each term; mid-term defections are not tracked.
 
-## Source
+## Source and licence
 
 Parliament of Australia, Register of Members' Interests and Register of Senators' Interests
-(aph.gov.au). Pipeline and documentation: the project repository.
+(aph.gov.au). Code and documentation: https://github.com/k-r-a-s-s/aus-govt-transparency. Browse and query the data online
+(Datasette Lite): https://k-r-a-s-s.github.io/aus-govt-transparency/.
+
+Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). You may share and
+adapt this dataset for non-commercial purposes if you credit it and the source. The
+NonCommercial term follows the source: material on aph.gov.au is published under
+[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) and is credited as
+"Parliament of Australia website". Each row's `source_url` links the original statement.

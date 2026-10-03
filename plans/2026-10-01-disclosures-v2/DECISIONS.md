@@ -715,3 +715,32 @@ the `git grep -I … -- ':!pdfs' ':!*.db'` form (equivalent, doesn't choke on 2 
 rests on the T3.3a live re-run and the recorded-HTML tests, since T5.6 has no network budget;
 AC-5.5 rests on T5.5's fresh-venv run (requirements unchanged since). The rebuild only moved the
 published entity count from 11,544 to 11,542 (V2's curated fixes had not been re-exported).
+
+## 2026-10-03 — G4: licence CC BY-NC 4.0, Kaggle id `kevrass/…`, V5 polish
+
+Kevin delegated the G4 choices ("make the sensible choices, and agentically drive this forward").
+- **Source terms (read on aph.gov.au/Help/Disclaimer_Privacy_Copyright, 2026-10-03):** "With the
+  exception of the Commonwealth Coat of Arms and where otherwise noted, all material presented on
+  this website is provided under CC BY-NC-ND 4.0 … General content from this website should be
+  attributed as Parliament of Australia website." So the CC BY 4.0 default in HANDOFF does not
+  apply, and v1's Kaggle dataset (CC BY 4.0, April 2025) was looser than the source.
+- **Dataset licence: CC BY-NC 4.0** (`export` default `DEFAULT_LICENSE`). NonCommercial is kept
+  because the source carries it. NoDerivatives is not carried over: the dataset records the facts
+  each statement discloses, item by item, and isn't the statements in their published form. That
+  is a judgement, not legal advice. If Kevin wants commercial reuse (e.g. by commercial media
+  outlets beyond reporting the facts), the route is to ask APH (the Webmanager) for permission and
+  then relicense. The PDFs in `pdfs/` are unaltered copies, which NC-ND allows (non-commercial,
+  attributed). README, Kaggle README and the Pages site state both licences and the attribution.
+- **Kaggle id `kevrass/australian-parliament-registers-of-interests`** (the account the
+  `KAGGLE_API_TOKEN` in `.env.local` belongs to). It is a new dataset, not a new version of v1
+  (`kevrass/structured-register-of-australian-mps-disclosures`): the schema, scope (Senate) and
+  files all differ. v1 is kept and marked superseded. Metadata `isPrivate` is now `false`:
+  `create` ignores it (`--public` decides), but `kaggle datasets metadata --update` reads it, and
+  `true` there would hide the published dataset. The Kaggle `description` is now the full README,
+  since that is what the dataset page shows.
+- **V5 polish done:** `entity_type` reads "Empty for most one-off (singleton) entities";
+  `entity_asx_code` says banks/airlines/media are included; README's v1 note says the scripts were
+  removed; the dead `test_stubs_exit_2_with_message` is gone (322 passed, 0 skipped).
+- **Local DB.** On the Mac, `disclosures_v2.db` was a stale 2026-10-02 build (42,042 items, no
+  Senate, no entities), so the export ran from the final DB (`site/disclosures_v2.db`, sha256
+  `519e2430…`, 50,936 items, 11,542 entities), copied into place. The stale file went to scratch.
