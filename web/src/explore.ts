@@ -9,7 +9,7 @@
 
 import { loadData, type Data } from "./explore/data";
 import {
-  ACCOUNT_SECTION, FACET_KEYS, type Facet, type FacetKey, type State, displayOrder, isEmpty, makeFacets, select,
+  BANKING_SECTIONS, FACET_KEYS, type Facet, type FacetKey, type State, displayOrder, isEmpty, makeFacets, select,
   stateFromUrl, stateToSearch,
 } from "./explore/filters";
 import { PAGE, TABLE_HEAD, renderRows, type SenateLink } from "./explore/table";
@@ -114,10 +114,10 @@ async function main(mount: HTMLElement): Promise<void> {
   viewSwitch.append(viewBtns.table, viewBtns.graph);
   if (!graphSrc) viewSwitch.hidden = true;
   const vizOpt = el("label", { class: "viz-option" });
-  const accountsBox = el("input", { type: "checkbox", id: "explore-hide-accounts" });
-  accountsBox.checked = !state.accounts;
+  const bankingBox = el("input", { type: "checkbox", id: "explore-hide-banking" });
+  bankingBox.checked = !state.banking;
   const vizNote = el("span", { class: "viz-note", id: "explore-viz-note" });
-  vizOpt.append(accountsBox, document.createTextNode(" Leave bank accounts (section 8) out of the charts and graph "), vizNote);
+  vizOpt.append(bankingBox, document.createTextNode(" Leave bank accounts, mortgages and credit cards (sections 6 and 8) out of the charts and graph "), vizNote);
   const graphRoot = el("div", { class: "graph-view", id: "explore-graph" });
   graphRoot.hidden = true;
   const chartsWrap = el("div", { class: "explorer-charts" });
@@ -167,14 +167,14 @@ async function main(mount: HTMLElement): Promise<void> {
     return graphLoading;
   }
 
-  /** The rows the charts and graph draw: the selection minus bank accounts, unless the reader
-   *  shows them or has picked section 8 in the filter. */
+  /** The rows the charts and graph draw: the selection minus everyday banking, unless the
+   *  reader shows it; a banking section picked in the section filter is always drawn. */
   function vizRows(): Int32Array {
-    const hide = !state.accounts && !state.facets.section.has(String(ACCOUNT_SECTION));
+    const hide = state.banking ? [] : BANKING_SECTIONS.filter((s) => !state.facets.section.has(String(s)));
     let out = rows;
-    if (hide) {
+    if (hide.length) {
       const sec = data.col.section;
-      out = rows.filter((i) => sec[i] !== ACCOUNT_SECTION);
+      out = rows.filter((i) => !hide.includes(sec[i]));
     }
     const left = rows.length - out.length;
     vizNote.textContent = left ? `(${left.toLocaleString("en-AU")} items left out)` : "";
@@ -217,8 +217,8 @@ async function main(mount: HTMLElement): Promise<void> {
     history.replaceState(null, "", `${location.pathname}${stateToSearch(state)}`);
     applyView();
   }
-  accountsBox.addEventListener("change", () => {
-    state.accounts = !accountsBox.checked;
+  bankingBox.addEventListener("change", () => {
+    state.banking = !bankingBox.checked;
     chartsStale = true;
     graphStale = true;
     history.replaceState(null, "", `${location.pathname}${stateToSearch(state)}`);
@@ -315,7 +315,7 @@ async function main(mount: HTMLElement): Promise<void> {
     const s = stateFromUrl(location.search);
     for (const k of FACET_KEYS) state.facets[k] = s.facets[k];
     state.q = s.q; state.member = s.member; state.entity = s.entity; state.view = s.view;
-    state.accounts = s.accounts; accountsBox.checked = !s.accounts;
+    state.banking = s.banking; bankingBox.checked = !s.banking;
     qInput.value = state.q;
     rail.querySelectorAll<HTMLInputElement>("input[type=checkbox]").forEach((b) => {
       b.checked = state.facets[b.name as FacetKey].has(b.value);

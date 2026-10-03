@@ -378,3 +378,7 @@ The explorer leaves section 8 (bank accounts, 4,521 items) out of the charts and
 (SPEC decisions log). Tests: two graph specs (default vs `accounts=show` against SQL, the table
 count unchanged, reload keeps the choice; a section-8 filter overrides it), and the AC-C1 chart
 bar count now leaves out section 8. Playwright 35 passed. Redeployed.
+
+The toggle now covers section 6 too (mortgages, credit cards; SPEC decisions log), URL
+`banking=show`. A banking section picked in the section filter is still drawn; the other stays
+out (tests: `section=1,8` and `section=6`). Playwright 35 passed. Redeployed.
