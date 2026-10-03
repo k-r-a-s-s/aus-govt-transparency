@@ -9,12 +9,13 @@ import { py, siteUrl } from "./site";
 const require = createRequire(import.meta.url);
 const AXE = require.resolve("axe-core/axe.min.js");
 
-/** Top 60 entities by distinct members (ties by id), as graph-model.ts builds them. */
-function expected(where = "1"): { entities: number; members: number; links: number; top: string; topName: string } {
+/** Top 60 entities by distinct members (ties by id), as graph-model.ts builds them; bank
+ *  accounts (section 8) left out unless `accounts`. */
+function expected(where = "1", accounts = false): { entities: number; members: number; links: number; top: string; topName: string } {
   return py(`
 rows = DB.execute("""select i.entity_id, i.member_id from items i join entities e using (entity_id)
     join member_terms t on t.member_id = i.member_id and t.chamber = i.chamber and t.parliament = i.parliament
-    where ${where}""").fetchall()
+    where ${accounts ? "1" : "i.section <> 8"} and (${where})""").fetchall()
 by = {}
 for e, m in rows:
     by.setdefault(e, set()).add(m)
@@ -122,6 +123,33 @@ for (const scheme of ["light", "dark"] as const) {
     expect(serious).toEqual([]);
   });
 }
+
+test("bank accounts: left out of the graph by default; the toggle puts them back", async ({ page }) => {
+  const hidden = expected();
+  const shown = expected("1", true);
+  const n8 = py<number>(`print(DB.execute("select count(*) from items where section = 8").fetchone()[0])`);
+  await graphReady(page, "/explore/?view=graph");
+  const box = page.locator("#explore-hide-accounts");
+  await expect(box).toBeChecked();
+  expect(await attr(page, "links")).toBe(hidden.links);
+  await expect(page.locator("#explore-viz-note")).toHaveText(`(${n8.toLocaleString("en-AU")} items left out)`);
+  await box.uncheck();
+  await expect.poll(() => attr(page, "links")).toBe(shown.links);
+  await expect(page).toHaveURL(/[?&]accounts=show/);
+  await expect(page.locator("#explore-viz-note")).toHaveText("");
+  // the table and counts never drop them
+  expect(Number(await page.locator("#explorer").getAttribute("data-count"))).toBe(
+    py<number>(`print(DB.execute("select count(*) from items").fetchone()[0])`));
+  await page.reload();
+  await page.waitForSelector("#explorer[data-graph-ready='1']");
+  await expect(page.locator("#explore-hide-accounts")).not.toBeChecked();
+  expect(await attr(page, "links")).toBe(shown.links);
+});
+
+test("bank accounts: picking section 8 in the filter shows them in the graph", async ({ page }) => {
+  await graphReady(page, "/explore/?section=8&view=graph");
+  expect(await attr(page, "links")).toBe(expected("i.section = 8", true).links);
+});
 
 test.describe("375px", () => {
   test.use({ viewport: { width: 375, height: 800 } });

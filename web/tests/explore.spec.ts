@@ -64,14 +64,14 @@ test("AC-C1: toggling a bloc updates facet counts and the chart's bars; URL hold
   const join = `join member_terms t on t.member_id = i.member_id and t.chamber = i.chamber and t.parliament = i.parliament`;
   const want = py<{ n: number; sections: number; perSection: Record<string, number> }>(`
 rows = DB.execute("""select i.section, count(*) from items i ${join} where t.political_bloc = ? group by 1""", (${JSON.stringify(bloc)},)).fetchall()
-print(json.dumps({"n": sum(c for _, c in rows), "sections": len(rows), "perSection": {str(s): c for s, c in rows}}))`);
+print(json.dumps({"n": sum(c for _, c in rows), "sections": len([s for s, _ in rows if s != 8]), "perSection": {str(s): c for s, c in rows}}))`);
   await page.locator(`#explorer input[name="bloc"][value="${bloc}"]`).check();
   await expect.poll(() => count(page)).toBe(want.n);
   // facet counts follow the selection (the bloc facet itself keeps its own counts)
   for (const [s, c] of Object.entries(want.perSection)) {
     await expect(page.locator(`#explorer input[name="section"][value="${s}"] ~ .facet-count`)).toHaveText(c.toLocaleString("en-AU"));
   }
-  // one bloc: one bar per section in the selection
+  // one bloc: one bar per section in the selection (bank accounts, section 8, left out by default)
   await expect(page.locator("#chart-section-bloc svg[role='img'] rect")).toHaveCount(want.sections);
   await expect(page).toHaveURL(new RegExp(`[?&]bloc=${encodeURIComponent(bloc)}`));
   await page.reload();

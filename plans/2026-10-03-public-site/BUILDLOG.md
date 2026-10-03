@@ -371,3 +371,10 @@ Everything else (pages, explorer, graph, static JSON API) is static assets and w
   and `select count(*) from items` returns 50,936.
 - Still phase D: `deploy.sh` gates, `web.yml` (Actions deploy with repo secrets), the Pages
   redirect in `export --site`.
+
+## Bank accounts toggle (2026-10-04)
+
+The explorer leaves section 8 (bank accounts, 4,521 items) out of the charts and graph by default
+(SPEC decisions log). Tests: two graph specs (default vs `accounts=show` against SQL, the table
+count unchanged, reload keeps the choice; a section-8 filter overrides it), and the AC-C1 chart
+bar count now leaves out section 8. Playwright 35 passed. Redeployed.

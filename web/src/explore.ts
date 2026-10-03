@@ -9,7 +9,7 @@
 
 import { loadData, type Data } from "./explore/data";
 import {
-  FACET_KEYS, type Facet, type FacetKey, type State, displayOrder, isEmpty, makeFacets, select,
+  ACCOUNT_SECTION, FACET_KEYS, type Facet, type FacetKey, type State, displayOrder, isEmpty, makeFacets, select,
   stateFromUrl, stateToSearch,
 } from "./explore/filters";
 import { PAGE, TABLE_HEAD, renderRows, type SenateLink } from "./explore/table";
@@ -113,6 +113,11 @@ async function main(mount: HTMLElement): Promise<void> {
   };
   viewSwitch.append(viewBtns.table, viewBtns.graph);
   if (!graphSrc) viewSwitch.hidden = true;
+  const vizOpt = el("label", { class: "viz-option" });
+  const accountsBox = el("input", { type: "checkbox", id: "explore-hide-accounts" });
+  accountsBox.checked = !state.accounts;
+  const vizNote = el("span", { class: "viz-note", id: "explore-viz-note" });
+  vizOpt.append(accountsBox, document.createTextNode(" Leave bank accounts (section 8) out of the charts and graph "), vizNote);
   const graphRoot = el("div", { class: "graph-view", id: "explore-graph" });
   graphRoot.hidden = true;
   const chartsWrap = el("div", { class: "explorer-charts" });
@@ -133,7 +138,7 @@ async function main(mount: HTMLElement): Promise<void> {
   table.innerHTML = `<caption id="explore-caption"></caption>${TABLE_HEAD}<tbody></tbody>`;
   wrap.appendChild(table);
   const more = el("button", { type: "button", class: "button", id: "explore-more" }, "Show more");
-  results.append(countLine, actions, viewSwitch, honest, chartsWrap, wrap, more, graphRoot);
+  results.append(countLine, actions, viewSwitch, vizOpt, honest, chartsWrap, wrap, more, graphRoot);
   mount.replaceChildren(layout);
 
   const tbody = table.tBodies[0];
@@ -162,17 +167,32 @@ async function main(mount: HTMLElement): Promise<void> {
     return graphLoading;
   }
 
+  /** The rows the charts and graph draw: the selection minus bank accounts, unless the reader
+   *  shows them or has picked section 8 in the filter. */
+  function vizRows(): Int32Array {
+    const hide = !state.accounts && !state.facets.section.has(String(ACCOUNT_SECTION));
+    let out = rows;
+    if (hide) {
+      const sec = data.col.section;
+      out = rows.filter((i) => sec[i] !== ACCOUNT_SECTION);
+    }
+    const left = rows.length - out.length;
+    vizNote.textContent = left ? `(${left.toLocaleString("en-AU")} items left out)` : "";
+    return out;
+  }
+
   function drawVisible(): void {
     if (state.view === "table" && chartsStale) {
-      sectionByBloc(chartEls[0][1], data, rows);
-      membersByParliament(chartEls[1][1], data, rows);
-      topEntities(chartEls[2][1], data, rows);
+      const vr = vizRows();
+      sectionByBloc(chartEls[0][1], data, vr);
+      membersByParliament(chartEls[1][1], data, vr);
+      topEntities(chartEls[2][1], data, vr);
       chartsStale = false;
     }
     if (state.view === "graph" && graphStale) {
       void loadGraph().then((g) => {
         if (!g || state.view !== "graph" || !graphStale) return;
-        g.update(rows);
+        g.update(vizRows());
         graphStale = false;
         mount.dataset.graphReady = "1";
       });
@@ -197,6 +217,13 @@ async function main(mount: HTMLElement): Promise<void> {
     history.replaceState(null, "", `${location.pathname}${stateToSearch(state)}`);
     applyView();
   }
+  accountsBox.addEventListener("change", () => {
+    state.accounts = !accountsBox.checked;
+    chartsStale = true;
+    graphStale = true;
+    history.replaceState(null, "", `${location.pathname}${stateToSearch(state)}`);
+    drawVisible();
+  });
   viewBtns.table.addEventListener("click", () => setView("table"));
   viewBtns.graph.addEventListener("click", () => setView("graph"));
 
@@ -288,6 +315,7 @@ async function main(mount: HTMLElement): Promise<void> {
     const s = stateFromUrl(location.search);
     for (const k of FACET_KEYS) state.facets[k] = s.facets[k];
     state.q = s.q; state.member = s.member; state.entity = s.entity; state.view = s.view;
+    state.accounts = s.accounts; accountsBox.checked = !s.accounts;
     qInput.value = state.q;
     rail.querySelectorAll<HTMLInputElement>("input[type=checkbox]").forEach((b) => {
       b.checked = state.facets[b.name as FacetKey].has(b.value);

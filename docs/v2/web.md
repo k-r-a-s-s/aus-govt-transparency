@@ -103,6 +103,11 @@ the main thread (about 60 ms for 50,936 rows).
   Ported from the GitHub Pages explorer (`disclosures/explore.py`,
   `site_assets/explore.html`), which reads `explore.json` and has fixed views (gifts and
   travel, shareholdings, memberships, everything). Here the filters do that job.
+- **Bank accounts in the visualisations:** a checkbox, on by default, leaves section 8
+  (Account: 4,521 items, mostly "savings account, Commonwealth Bank") out of the charts and the
+  graph. Those items otherwise push the big four banks to the top of every view. The table,
+  counts and CSV keep them. Turning it off adds `accounts=show` to the URL. A section filter
+  that includes 8 shows them regardless.
 - **CSV of the selection:** every published column (`export.HEADER`), built in the browser
   from the bundle plus `data/items-extra.json` (item ids, entity names/types/ASX codes, match
   methods, categories), which is fetched only on download.

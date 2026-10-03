@@ -3,7 +3,9 @@
 // Every active filter lives in the query string (?parliament=47&section=1&bloc=Coalition&q=qantas,
 // multi-values comma-separated), so a view can be shared and the section, member and entity
 // pages can link into a prefiltered view (member=<id>, entity=<id>). view=graph opens the
-// network graph instead of the table and charts; it is not a filter.
+// network graph instead of the table and charts; it is not a filter. Bank accounts (section 8)
+// are left out of the charts and graph by default; accounts=show puts them back (the table,
+// counts and CSV always keep them).
 
 import type { Data } from "./data";
 import { fold } from "./data";
@@ -43,13 +45,16 @@ export interface State {
   member: string | null;
   entity: string | null;
   view: View;
+  /** Show section 8 (accounts) in the charts and graph. */
+  accounts: boolean;
 }
+export const ACCOUNT_SECTION = 8;
 export type View = "table" | "graph";
 
 export function emptyState(): State {
   const facets = {} as Record<FacetKey, Set<string>>;
   for (const k of FACET_KEYS) facets[k] = new Set();
-  return { facets, q: "", member: null, entity: null, view: "table" };
+  return { facets, q: "", member: null, entity: null, view: "table", accounts: false };
 }
 
 function intFacet(key: string, title: string, src: Int32Array, label: (v: number) => string): Facet {
@@ -100,6 +105,7 @@ export function stateFromUrl(search: string): State {
   s.member = p.get("member") || null;
   s.entity = p.get("entity") || null;
   s.view = p.get("view") === "graph" ? "graph" : "table";
+  s.accounts = p.get("accounts") === "show";
   return s;
 }
 
@@ -110,6 +116,7 @@ export function stateToSearch(s: State): string {
   if (s.member) p.set("member", s.member);
   if (s.entity) p.set("entity", s.entity);
   if (s.view === "graph") p.set("view", "graph");
+  if (s.accounts) p.set("accounts", "show");
   const str = p.toString().replace(/%2C/g, ",");
   return str ? `?${str}` : "";
 }

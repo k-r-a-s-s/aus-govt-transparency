@@ -331,7 +331,10 @@ tbody tr:last-child td { border-bottom-color: var(--ink); }
 .explorer-actions { display: flex; flex-wrap: wrap; gap: 12px 16px; align-items: center; margin-top: 12px; }
 .explorer-charts { display: grid; grid-template-columns: 1fr; gap: 24px; margin-top: 8px; }
 .explorer-charts[hidden], .table-wrap[hidden] { display: none; }
-.view-switch + .note { margin-top: 12px; }
+.viz-option { display: flex; align-items: baseline; gap: 6px; flex-wrap: wrap; margin-top: 12px; font-size: 0.9375rem; }
+.viz-option input { accent-color: var(--accent); }
+.viz-note { font-family: var(--mono); font-size: 0.8125rem; color: var(--muted); }
+.viz-option + .note { margin-top: 12px; }
 @media (min-width: 1100px) { .explorer-charts { grid-template-columns: 1fr 1fr; } .explorer-charts .explorer-figure:first-child { grid-column: 1 / -1; } }
 .explorer-figure { max-width: none; }
 .explorer-chart svg { max-width: 100%; height: auto; }
