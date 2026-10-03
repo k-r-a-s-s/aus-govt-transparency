@@ -25,8 +25,8 @@ DEFAULT_OUT = "exports"
 DEFAULT_MANIFEST = "pdfs/manifest.csv"
 CSV_NAME = "disclosures_v2.csv"
 DEFAULT_KAGGLE_ID = "kevrass/australian-parliament-registers-of-interests"
-# NonCommercial follows the source: aph.gov.au content is CC BY-NC-ND 4.0 (DECISIONS G4).
-DEFAULT_LICENSE = "CC-BY-NC-4.0"
+# For our compilation of the facts; the source PDFs stay under APH's CC BY-NC-ND (DECISIONS G4).
+DEFAULT_LICENSE = "CC-BY-4.0"
 DB_NAME = "disclosures_v2.db"
 REPO_URL = "https://github.com/k-r-a-s-s/aus-govt-transparency"
 DEFAULT_PAGES_URL = "https://k-r-a-s-s.github.io/aus-govt-transparency"
@@ -228,11 +228,13 @@ Parliament of Australia, Register of Members' Interests and Register of Senators
 (aph.gov.au). Code and documentation: {REPO_URL}. Browse and query the data online
 (Datasette Lite): {DEFAULT_PAGES_URL}/.
 
-Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). You may share and
-adapt this dataset for non-commercial purposes if you credit it and the source. The
-NonCommercial term follows the source: material on aph.gov.au is published under
-[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) and is credited as
-"Parliament of Australia website". Each row's `source_url` links the original statement.
+Licence: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), to the extent we hold
+rights in the dataset. You may share and adapt it for any purpose, commercial included, if you
+credit this dataset and the source ("Parliament of Australia website"). The dataset records the
+facts each statement discloses; the statements themselves (the PDFs, linked by each row's
+`source_url`) are published by the Parliament under
+[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/), so reuse of the documents
+follows that licence.
 """
 
 
@@ -322,11 +324,12 @@ Senators' Interests. {html.escape(pages_url.rstrip('/'))}/</pre>
 Interests (aph.gov.au).</p>
 
 <h2>Licence</h2>
-<p>The dataset is released under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC
-4.0</a>: share and adapt it for non-commercial purposes, crediting it and the source. The
-NonCommercial term follows the source: material on aph.gov.au is published under
-<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a> and is credited
-as &ldquo;Parliament of Australia website&rdquo;.</p>
+<p>The dataset is released under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY
+4.0</a>, to the extent we hold rights in it: share and adapt it for any purpose, crediting this
+dataset and the source (&ldquo;Parliament of Australia website&rdquo;). The dataset records the
+facts each statement discloses; the statements themselves are published by the Parliament under
+<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>, so reuse of
+the documents follows that licence.</p>
 
 <h2>Links</h2>
 <ul>

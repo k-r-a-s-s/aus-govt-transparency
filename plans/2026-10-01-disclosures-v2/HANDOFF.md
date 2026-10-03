@@ -1,16 +1,17 @@
 # Handover — Disclosures v2 (updated 2026-10-03: G4 DONE — published on main, Pages and Kaggle; SPEC signed off)
 
 ## G4 outcome (2026-10-03, Mac session): published
-- Licence **CC BY-NC 4.0**: APH's site terms are CC BY-NC-ND 4.0, so NonCommercial is kept
-  (DECISIONS "G4: licence …"). `export` now defaults to the real licence and Kaggle id.
+- Licence **CC BY 4.0** (to the extent we hold rights; facts, not the statements), Kevin's call
+  for "as permissive as possible" with attribution; the source PDFs stay under APH's CC BY-NC-ND
+  4.0 (DECISIONS "Licence changed to CC BY 4.0"). `export` defaults to it and to the Kaggle id.
 - PR #2 merged; `v2-upgrade` and `main` fast-forwarded to `cee0ba3`.
 - Pages: https://k-r-a-s-s.github.io/aus-govt-transparency/ (Datasette Lite loads the DB; checked).
 - Kaggle: https://www.kaggle.com/datasets/kevrass/australian-parliament-registers-of-interests (public).
 - Open questions accepted as is; SPEC signed off (DECISIONS "Gate G4").
-- **Left for Kevin:** (1) mark the v1 Kaggle dataset
-  `kevrass/structured-register-of-australian-mps-disclosures` superseded and change its CC BY 4.0
-  to CC BY-NC 4.0 (the session's guard blocked editing it); (2) announce; (3) optionally add a
-  LICENSE file for the code (the repo has none, so the code is all-rights-reserved by default).
+- v1 Kaggle dataset (`kevrass/structured-register-of-australian-mps-disclosures`) marked
+  superseded, pointing at v2. CT 104 (`claude-runner`) stopped (`pct start 104` to resume).
+- **Left for Kevin:** announce (Reddit draft in the session); optionally add a LICENSE file for
+  the code (the repo has none, so the code is all-rights-reserved by default).
 - On the Mac, `disclosures_v2.db` was stale (2026-10-02 build); it is now a copy of the final DB.
 
 Everything below is the pre-G4 handover, kept for history.

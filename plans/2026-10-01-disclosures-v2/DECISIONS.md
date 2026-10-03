@@ -771,3 +771,17 @@ Kevin delegated the G4 choices ("make the sensible choices, and agentically driv
   paid); the 7,037 untyped singleton entities stay untyped (D2, documented); reused ASX tickers
   stay a documented known limitation (V2 fixed the known cases).
 - **Announcing** (Reddit and elsewhere) is left to Kevin.
+
+## 2026-10-03 — Licence changed to CC BY 4.0 (supersedes "G4: licence CC BY-NC 4.0")
+
+Kevin asked for the most permissive licence that still requires attribution, so the dataset is
+now **CC BY 4.0, "to the extent we hold rights in it"** (`DEFAULT_LICENSE = "CC-BY-4.0"`).
+Why it holds up: the dataset records the facts each statement discloses (who holds what, item by
+item), and facts aren't APH's expression. NoDerivatives already couldn't apply to a structured
+dataset, and NonCommercial was only carried over as a precaution. There is Australian precedent:
+They Vote For You builds its votes data from APH Hansard (also CC BY-NC-ND) and licenses it
+under ODbL, which allows commercial use, "to the extent which we have rights to it" (its
+`app/views/help/licencing.html.haml`). The statements themselves (the PDFs, `pdfs/` and each
+row's `source_url`) stay under APH's CC BY-NC-ND 4.0, and README, Kaggle README and the site say
+so. v1's Kaggle licence (CC BY 4.0) is now consistent and is left unchanged. This is a judgement,
+not legal advice; if APH ever objects, the fallback is CC BY-NC 4.0 (the previous entry).

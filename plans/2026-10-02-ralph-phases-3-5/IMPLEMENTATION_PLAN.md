@@ -700,4 +700,4 @@ all green; `bash scripts/ralph/bootstrap.sh` reports v1 unchanged (AC-0.2);
 - owner: kevin
 - deps: V5
 - notes: Kevin: merge to main, enable Pages, upload to Kaggle, announce (SPEC G4). Before upload: choose the licence and Kaggle id (`export --license NAME --kaggle-id USER/SLUG`; defaults are placeholders, DECISIONS 2026-10-03 T5.1).
-  Done 2026-10-03 (Mac session, Kevin delegated): CC BY-NC 4.0, `kevrass/australian-parliament-registers-of-interests`, PR #2 merged, `main` fast-forwarded, Pages live, Kaggle public. Announcing is left to Kevin. DECISIONS 2026-10-03 G4.
+  Done 2026-10-03 (Mac session, Kevin delegated): CC BY 4.0 (first CC BY-NC, then widened at Kevin's request), `kevrass/australian-parliament-registers-of-interests`, PR #2 merged, `main` fast-forwarded, Pages live, Kaggle public. Announcing is left to Kevin. DECISIONS 2026-10-03 G4.

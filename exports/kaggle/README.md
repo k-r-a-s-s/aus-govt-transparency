@@ -108,8 +108,10 @@ Parliament of Australia, Register of Members' Interests and Register of Senators
 (aph.gov.au). Code and documentation: https://github.com/k-r-a-s-s/aus-govt-transparency. Browse and query the data online
 (Datasette Lite): https://k-r-a-s-s.github.io/aus-govt-transparency/.
 
-Licence: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). You may share and
-adapt this dataset for non-commercial purposes if you credit it and the source. The
-NonCommercial term follows the source: material on aph.gov.au is published under
-[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) and is credited as
-"Parliament of Australia website". Each row's `source_url` links the original statement.
+Licence: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), to the extent we hold
+rights in the dataset. You may share and adapt it for any purpose, commercial included, if you
+credit this dataset and the source ("Parliament of Australia website"). The dataset records the
+facts each statement discloses; the statements themselves (the PDFs, linked by each row's
+`source_url`) are published by the Parliament under
+[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/), so reuse of the documents
+follows that licence.

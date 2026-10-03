@@ -153,5 +153,5 @@ Parliament of Australia, Register of Members' Interests and Register of Senators
 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/), credited as "Parliament
 of Australia website"; the PDFs in `pdfs/` are unaltered copies under that licence. The
 published dataset (`exports/`, `site/`, Kaggle) is
-[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/): the NonCommercial term follows
-the source.
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) to the extent we hold rights in it:
+it records the facts the statements disclose, not the statements themselves.
