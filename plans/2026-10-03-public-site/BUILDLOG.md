@@ -363,5 +363,11 @@ Everything else (pages, explorer, graph, static JSON API) is static assets and w
   start processes (ADR-W2 guard), so it writes `cors.json` and `upload.sh` (`wrangler r2 bucket
   cors set` plus `r2 object put --remote` per file, `latest/` last) and prints them, and `--dry-run`
   only labels the summary. No Parquet (`pyarrow` not installed).
-- **Not done (needs Kevin, see the session):** create the bucket `aus-interests-data`, attach
-  `data.kevinrassool.com`, run `upload.sh`. Until then the `/data/` download links return 404.
+- **R2 live (Kevin: "can you sort this all"):** bucket `aus-interests-data` created, custom domain
+  `data.kevinrassool.com` (min TLS 1.2), CORS set, `upload.sh` ran (14 objects). Checked: all
+  seven `/data/` links 200 at the staged sizes; a `Range` request from another origin gives 206
+  with `Access-Control-Allow-Origin: *` and `Content-Range` exposed; the live DB's sha256 equals
+  MANIFEST.json (`519e2430…`, same as `site/disclosures_v2.db`); Datasette Lite opens the R2 DB
+  and `select count(*) from items` returns 50,936.
+- Still phase D: `deploy.sh` gates, `web.yml` (Actions deploy with repo secrets), the Pages
+  redirect in `export --site`.

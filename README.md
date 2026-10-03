@@ -10,20 +10,21 @@ Output: `disclosures_v2.db` (SQLite) and `exports/disclosures_v2.csv` (one row p
 Kaggle package in `exports/kaggle/`). Design and acceptance criteria:
 `plans/2026-10-01-disclosures-v2/SPEC.md`.
 
-## Public site: moving to Cloudflare
+## Public site
 
-- **Now (interim):** GitHub Pages at https://k-r-a-s-s.github.io/aus-govt-transparency/, built by
-  `export --site site` and deployed by `.github/workflows/pages.yml`. It has a landing page, a
-  Datasette Lite link and `explore.html` (a member-organisation network graph plus a hover bar
-  chart, fed by `explore.json` from `disclosures/explore.py`). Kaggle:
+- **Live:** https://interests.kevinrassool.com (Cloudflare Workers static assets, personal
+  account): a page per member and per entity, section and parliament pages, the explorer
+  (filters, table, charts, CSV of a selection, and a member-entity network graph at
+  `/explore/?view=graph`), and a static JSON API. Data files (DB, CSV, CSV.gz, JSONL.gz, README,
+  datapackage, MANIFEST) are on R2 at https://data.kevinrassool.com/interests/latest/, with
+  versioned copies under `interests/v2.<date>/`; Datasette Lite opens the DB from there.
+- **Build and deploy:** `python -m disclosures web build|check|publish-data`, code in
+  `disclosures/web/` and `web/`; steps in `web/wrangler.jsonc` and `docs/v2/web.md`; plan,
+  ADRs and log in `plans/2026-10-03-public-site/`.
+- **Interim:** GitHub Pages (https://k-r-a-s-s.github.io/aus-govt-transparency/, `site/` via
+  `pages.yml`) stays up until it is turned into a redirect (ADR-W11). Build new site features in
+  the Cloudflare build, not in `site/`. Kaggle:
   https://www.kaggle.com/datasets/kevrass/australian-parliament-registers-of-interests.
-- **Next:** the public site moves to **Cloudflare Workers static assets** on Kevin's personal
-  account (`interests.kevinrassool.com`, data files on R2), with a page per member and per entity,
-  an explorer, charts and a static JSON API. Plan, ADRs and ACs:
-  `plans/2026-10-03-public-site/SPEC.md` on branch `build/2026-10-03-public-site` (worktree
-  `.claude/worktrees/cf-data-explorer-plan`); code in `disclosures/web/` and `web/` on that branch.
-- **Rule:** build new site features in the Cloudflare build, not in `site/`. `site/` and
-  `pages.yml` stay as they are until the cutover, when GitHub Pages becomes a redirect (ADR-W11).
 
 ## Coverage
 
