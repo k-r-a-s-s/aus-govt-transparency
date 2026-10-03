@@ -1,6 +1,8 @@
 // Shared helpers: the served mini site's URL and directory, and facts read from its JSON.
-import { readFileSync } from "node:fs";
-import { join } from "node:path";
+import { execFileSync } from "node:child_process";
+import { existsSync, readFileSync } from "node:fs";
+import { dirname, join, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 
 export function siteUrl(path = "/"): string {
   const base = process.env.SITE_URL;
@@ -35,4 +37,28 @@ export function pageTypes(): string[] {
     "/sections/1/", "/parliaments/house-43/", "/parliaments/senate-48/", "/explore/", "/data/",
     "/about/", "/404.html",
   ];
+}
+
+// --- SQL on the fixture DB (the explorer specs compare the page with it, not with the bundle) --
+
+const REPO = resolve(dirname(fileURLToPath(import.meta.url)), "..", "..");
+export const MINI_DB = join(REPO, "tests", "fixtures", "web", "mini.db");
+
+function python(): string {
+  if (process.env.PYTHON) return process.env.PYTHON;
+  const venv = join(REPO, ".venv", "bin", "python");
+  return existsSync(venv) ? venv : "python3";
+}
+
+/** Run a Python snippet in the repo (read-only DB at `DB`) and parse what it prints as JSON. */
+export function py<T = any>(code: string): T {
+  const prelude = "import json, sqlite3\n" +
+    `DB = sqlite3.connect("file:${MINI_DB}?mode=ro", uri=True)\n`;
+  const out = execFileSync(python(), ["-c", prelude + code], { cwd: REPO, encoding: "utf-8" });
+  return JSON.parse(out) as T;
+}
+
+/** select count(*) from items where <where>. */
+export function sqlCount(where: string, args: (string | number)[] = []): number {
+  return py<number>(`print(DB.execute("select count(*) from items i where ${where.replace(/"/g, '\\"')}", ${JSON.stringify(args)}).fetchone()[0])`);
 }

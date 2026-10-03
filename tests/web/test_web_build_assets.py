@@ -111,6 +111,42 @@ def test_js_bundle_copied_with_hash_and_referenced(tmp_path):
     assert check_site(out, MINI_DB)[0] == []
 
 
+def _dist(tmp_path, names):
+    dist = tmp_path / "dist"
+    dist.mkdir()
+    for n in names:
+        (dist / f"{n}.js").write_bytes(f"/* {n} */\n".encode())
+    return dist
+
+
+def test_graph_bundle_named_on_the_explorer_mount(tmp_path):
+    """The graph view's bundle is not a <script>: explore.js imports it from data-graph-src."""
+    dist = _dist(tmp_path, ["explore", "explore-graph"])
+    out = tmp_path / "s"
+    B.build(MINI_DB, MINI_MANIFEST, out, mode="production", web_dist=dist)
+    doc = parse_file(out / "explore" / "index.html")
+    src = doc.by_id("explorer").attrs["data-graph-src"]
+    graph = b"/* explore-graph */\n"
+    assert src == f"/assets/explore-graph.{hashlib.sha256(graph).hexdigest()[:8]}.js"
+    assert (out / src.lstrip("/")).read_bytes() == graph
+    assert [e.attrs["src"] for e in doc.find_all("script", type="module")] == [
+        load_json(out / "web-manifest.json")["assets"]["js"]["explore"]]
+    assert check_site(out, MINI_DB)[0] == []
+
+
+@pytest.mark.parametrize("names", [[], ["explore"], ["explore-graph"]])
+def test_production_without_explorer_bundles_fails_check(tmp_path, names):
+    out = tmp_path / "s"
+    B.build(MINI_DB, MINI_MANIFEST, out, mode="production", web_dist=_dist(tmp_path, names))
+    assert {r for r, _ in check_site(out, MINI_DB)[0]} == {"explorer-bundle-missing"}
+
+
+def test_preview_without_explorer_bundles_passes_check(tmp_path):
+    out = tmp_path / "s"
+    B.build(MINI_DB, MINI_MANIFEST, out, web_dist=_dist(tmp_path, []))
+    assert check_site(out, MINI_DB)[0] == []
+
+
 def test_every_asset_url_is_root_relative(mini_site):
     for p in mini_site.rglob("*.html"):
         doc = parse_file(p)

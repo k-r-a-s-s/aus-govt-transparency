@@ -731,7 +731,9 @@ class Renderer:
                               f"Filter all {fmt(self.s['items'])} declared interests by "
                               f"parliament, party, section, owner, entity and text.",
                               scripts=("explore",)),
-                    s=self.s, coverage_rows=self.coverage_rows(), section_rows=section_rows)
+                    s=self.s, coverage_rows=self.coverage_rows(), section_rows=section_rows,
+                    explorer={"senate_href": U.SENATE_REGISTER_INDEX,
+                              "senate_text": U.SENATE_LINK_TEXT})
 
     def render_data(self, out: Path) -> None:
         dist = self.distribution()

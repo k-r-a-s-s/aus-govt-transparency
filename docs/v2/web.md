@@ -1,10 +1,9 @@
 # The public site (`python -m disclosures web`)
 
 A static site generated from `disclosures_v2.db` for `interests.kevinrassool.com` (SPEC:
-`plans/2026-10-03-public-site/SPEC.md`). This page covers what exists after phase B: the pages,
-the labels they carry, the data bundle and static API, and how to rebuild and check the site.
-Deploying (phase D), the explorer (phase C) and the SQL console (phase E) are added here when
-they land.
+`plans/2026-10-03-public-site/SPEC.md`). This page covers what exists after phase C: the pages,
+the labels they carry, the explorer, the data bundle and static API, and how to rebuild and check
+the site. Deploying (phase D) and the SQL console (phase E) are added here when they land.
 
 ## Rebuild and check
 
@@ -59,7 +58,7 @@ per-page JSON 94.1 MiB; `data/` 7.5 MiB). The largest page is `entities/qantas_a
 | `/entities/<entity_id>/` | Name, type (or "untyped"), ASX code, match method in words; the printed names folded into it (with item counts) and the alias-table entries; distinct members per register by bloc (chart and table); members naming it; every item grouped by section; link to `items.json`. |
 | `/sections/<1-14>/` | The House form's wording and the Senate register's category; items per register by bloc (chart and table); top entities in the section; items with no entity; link to `/explore/?section=N`. |
 | `/parliaments/<chamber>-<n>/` | `house-43` to `house-48` and `senate-48`: years, members, statements, items, alterations, statement dates, source and model; the register's known limitations; items per section (chart and table); members with party, bloc and items. |
-| `/explore/` | Without JS: the counts per register and per section, and a pointer to the member and entity indexes. `<div id="explorer" hidden>` is the mount point for phase C. |
+| `/explore/` | Without JS: the counts per register and per section, and a pointer to the member and entity indexes. With JS: the explorer (below). |
 | `/data/` | Downloads (version, size, sha256, licence) on the data host; Datasette Lite button; Kaggle link; field dictionary (from `export.COLUMNS`); the static API (routes, example `curl`, CORS, `web_bundle_version`); datapackage, JSON-LD and change-feed links; how to cite; licences and attribution. |
 | `/about/` | What the registers are; method and gold-set accuracy, prompt versions and known limitations (the Kaggle README's text, from `export.README_METHOD` and `export.README_LIMITATIONS`); how to read the labels; contact; changelog. |
 | `/404.html` | Not found, with links to the indexes. |
@@ -77,6 +76,39 @@ registers. Check the source before relying on any item.", the dataset version an
 CC BY 4.0 for the dataset and CC BY-NC-ND 4.0 for the source documents, and links to the about
 page and the repository. Every asset URL is root-relative and same-origin; the pages make no
 third-party request and set no cookie.
+
+## Explorer (ADR-W7, phase C)
+
+`web/src/explore.ts` mounts on `<div id="explorer">` and loads `data/items.json`,
+`members.json`, `entities.json`, `documents.json` and `summary.json` once; filtering runs on
+the main thread (about 60 ms for 50,936 rows).
+
+- **Filters:** text (member, entity canonical and printed name, description), chamber,
+  parliament, bloc, party (start of term), section, owner, entity type, change, confidence.
+  Facet counts are over the selection with that facet's own filter lifted.
+- **URL state:** every filter is in the query string, multi-values comma-separated:
+  `?parliament=47&section=1,2&bloc=Coalition&q=qantas`. Section, member and entity pages link
+  in with `section=N`, `member=<id>`, `entity=<id>`. `view=graph` opens the network graph.
+- **Table and charts view:** the result table (same columns and links as the member page, 200
+  rows then "Show more") and three Observable Plot charts with a tooltip per bar: items per
+  section by bloc, distinct members per register, top entities.
+- **Network graph view** (`web/src/explore-graph.ts`, its own bundle, imported from
+  `data-graph-src` the first time the view opens): the 60 entities the most members
+  declared in the selection, the members who declared them, and a link per (member, entity).
+  Every entity type is included. Member dots take the bloc colour of
+  their latest term, organisations are grey. Hover highlights neighbours. A click pins a
+  panel with the stats, the members or organisations, the entity or member page, and "show
+  these items in the table", which sets the `entity` or `member` filter. Beside it is a bar
+  list of the top 20 by members, split by bloc, linked to the graph, with a table version.
+  Ported from the GitHub Pages explorer (`disclosures/explore.py`,
+  `site_assets/explore.html`), which reads `explore.json` and has fixed views (gifts and
+  travel, shareholdings, memberships, everything). Here the filters do that job.
+- **CSV of the selection:** every published column (`export.HEADER`), built in the browser
+  from the bundle plus `data/items-extra.json` (item ids, entity names/types/ASX codes, match
+  methods, categories), which is fetched only on download.
+- **Budget (AC-C3):** `explore.js` ≈ 94 KB gzipped (with Plot), `explore-graph.js` ≈ 64 KB
+  (force-graph). The ADR-W7 limit is 250 KB for both together. A production `web check` fails
+  (`explorer-bundle-missing`) if either bundle is missing from the site.
 
 ## Labels (ADR-W9)
 

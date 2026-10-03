@@ -28,7 +28,7 @@ CONTEXT_NAMES = {"site", "page", "m", "s", "charts", "coverage_rows", "section_h
                  "downloads_known", "manifest_href", "datapackage_href", "datasette_href",
                  "kaggle_href", "db_note", "columns", "api_routes", "example_member",
                  "bundle_version", "attribution", "method", "limitations", "prompts",
-                 "accuracy_rows", "labels", "changelog"}
+                 "accuracy_rows", "labels", "changelog", "explorer"}
 PY_SOURCES = re.compile(r"^\s*(import|from)\s+(urllib\.request|http\.client|socket|requests|"
                         r"httpx|subprocess|os\.environ)\b|\bos\.environ\b|\burlopen\(",
                         re.M)

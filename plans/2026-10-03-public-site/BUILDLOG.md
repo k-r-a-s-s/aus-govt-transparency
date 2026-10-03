@@ -262,3 +262,75 @@ were fixed by the orchestrator in the follow-up commit:
 Not changed (recorded): `hamdo_besic` has two items yet the alias method is `singleton`
 (data-driven label); multi-chamber members get the House transcription sentence plus the new
 Senate note; `PARLIAMENT_YEARS[48] = "2025 to now"` will need a refresh when the 48th ends.
+
+## Phase C: explorer, plus the network graph view (2026-10-03)
+
+### How this phase was built
+
+The orchestrator session's Phase C implementer stalled twice and the orchestrator started
+writing the explorer itself. That session was then interrupted and cleared at 22:02, leaving
+about 660 uncommitted lines (`explore.ts`, `explore/{data,filters,table,charts,csv}.ts`,
+`bundle.py` `items-extra.json`, the `check.py` bundle rule, CSS) with one failing test and no
+browser check. A new session adopted that work with Kevin's go-ahead, finished it, and added the
+network graph (SPEC decisions log, 2026-10-03). `web/.kv-explore.tmp.mjs` (the earlier session's
+screenshot script) is untracked scratch and not part of the phase.
+
+### What landed
+
+- `web/src/explore.ts` + `explore/*.ts`: filter rail with facet counts, result table, three Plot
+  charts with a tooltip per bar, CSV of the selection, URL state, `member`/`entity`/`section`
+  links from the static pages (Phase B note 9).
+- `web/src/explore-graph.ts` + `explore/graph-model.ts`: the network graph view, ported from
+  the Pages explorer, as its own bundle imported on first use (`data-graph-src` on the mount).
+- `disclosures/web/bundle.py`: `data/items-extra.json` (what the CSV needs beyond `items.json`).
+- `disclosures/web/check.py`: `explorer-bundle-missing` (production): `/explore/` must load an
+  existing `explore.<hash>.js` and name an existing `explore-graph.<hash>.js`.
+- `web/package.json`: `@observablehq/plot` 0.6.17, `force-graph` 1.52.0, `d3-force-3d` 3.0.6
+  (exact pins). `web/src/d3-force-3d.d.ts` types the one function used.
+- Tests: `web/tests/explore.spec.ts` (AC-C1 to C4), `web/tests/explore-graph.spec.ts` (graph),
+  `tests/web/test_web_build_assets.py` (graph bundle on the mount; the check rule in production
+  and preview), `test_every_rule_is_named` updated.
+
+### Commands and results
+
+| AC | Proof | Result |
+|---|---|---|
+| C1 | `explore.spec.ts` (mini) | `?parliament=45&section=12` count = SQL (76) and survives reload; a surname narrows to that member's rows only (count = SQL); checking the largest bloc gives count = SQL, every section facet count = SQL, one Plot bar per section in the selection, `bloc=` in the URL, reload restores the count. |
+| C2 | `explore.spec.ts` (mini) | Downloaded CSV header = `export.HEADER`; rows = `data-count` = SQL rows for the filter; 20 rows spread through the file equal `Dataset.export_rows()` in every column. |
+| C3 | `explore.spec.ts` (bundle) + real production build served locally | `explore.js` 93.8 KB + `explore-graph.js` 64.5 KB = 158 KB gzip -9 (limit 250 KB). Real: 11 responses to `data-ready`, 7.92 MB raw, **1.80 MB** gzip -9 (limit 2.5 MB; `http.server` sends uncompressed, so this is gzip of each response as Cloudflare would send it); `data-ready` in **244–282 ms** on the build machine (limit 3 s); one filter pass 62–68 ms; graph ready 97–123 ms after the click. |
+| C4 | `explore.spec.ts` (mini) | The section, entity and member pages' explorer links land on counts equal to SQL. |
+| C5 | Phase B (`test_explore_page_without_js_content`, `no-js.spec.ts`) | Unchanged, still passing. |
+| graph | `explore-graph.spec.ts` (mini) | `?view=graph`: entities, members and links equal SQL (top 60 entities by distinct members, ties by id); table and charts hidden; 20 bars, top name equals SQL; table version has every entity; no console errors. The view switch writes/drops `view=graph`, reload keeps it. A bloc filter changes the graph to the SQL figures for that bloc. Hovering a bar shows the tooltip; a click pins the panel; "Show these items in the table" sets `entity=` and the count equals SQL. A member in the panel re-pins on that member. axe has no serious/critical violations (light and dark, panel open). No sideways scroll at 375px. |
+| all | `npm run typecheck`, `npm test`, `pytest -q` | typecheck clean; Playwright **33 passed**; pytest **604 passed, 6 skipped, 1 failed**: `tests/test_entities.py::test_cli_missing_db`. It is environmental and outside the web code: `entities` checks for an OpenRouter key before the DB path, and this worktree has no `.env.local`. |
+| check | `web build --mode production` on the real DB, then `web check --db` | ok (9,768 files, 203.6 MiB, 4,884 HTML pages). |
+
+People named in the registers (entity type `person`) are in the graph like every other entity
+(Kevin, 2026-10-04: the registers are public records). The first cut left them out, copying the
+Pages explorer; both explorers now include them.
+
+### Deviations and decisions
+
+1. **No Web Worker.** ADR-W7 says the indexes are built in a Worker. The main thread filters and
+   re-counts 50,936 rows in about 60 ms, so a Worker would add a message protocol for no
+   visible gain. Revisit if the bundle grows a lot.
+2. **Network graph view** added to ADR-W7 (SPEC decisions log). Restyled with DESIGN.md
+   tokens and bloc colours (not the Pages explorer's blue/orange/aqua). The Pages "Datasette"
+   links became links to the entity and member pages plus "show these items in the table". The
+   Pages view tabs (gifts, shares, memberships, everything) became the section filter. The
+   graph is stacked above its bar list at every width: beside it in the 836px results column
+   the canvas was about 480px wide and unreadable.
+3. **Plot and ARIA.** Plot labels inner `<g>` groups with `aria-label`, which axe flags
+   (`aria-prohibited-attr`). `charts.ts` strips those and names the chart on `<svg role="img">`.
+4. **`button.button`** got a transparent background. The browser's `ButtonFace` failed axe
+   contrast in dark mode (the `.button` style was written for links).
+5. **Charts and graph draw only while visible.** A hidden Plot chart has no width. Each view
+   redraws on show if the selection changed, and the charts redraw on a light/dark switch.
+6. **Bloc in the graph** is the member's latest term, as on the Pages explorer. Elsewhere in the
+   explorer, bloc is per item (start of that term), as the filter and the honest note say.
+
+### Open for later phases
+
+- Phase D: `deploy.sh` should run `npm ci && npm run build` before a production `web build`, so
+  `explorer-bundle-missing` never fires on a deploy.
+- The Pages explorer (`site/explore.html`) stays live until the ADR-W11 cutover redirects it.
+  `/explore/?view=graph` is the redirect target.

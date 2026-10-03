@@ -31,6 +31,10 @@ Rules:
   (by path; the sitemap's absolute URLs are compared on their path).
 - ``canonical-missing``: every HTML page has a ``<link rel="canonical">`` with an absolute
   http(s) URL.
+- ``explorer-bundle-missing`` (production only): ``explore/index.html`` loads the explorer
+  bundle, a ``<script src="/assets/explore.<sha256-8>.js">`` that exists in the site, and its
+  ``data-graph-src`` names an ``/assets/explore-graph.<sha256-8>.js`` that exists, so a build
+  made without Node (no ``web/dist``) cannot ship a dead explorer or a dead graph view.
 
 HTML rules pass vacuously when the site has no HTML.
 """
@@ -63,7 +67,10 @@ RULES = ("forbidden-file", "file-too-large", "too-many-files", "site-too-large",
          "html-too-large", "footer-missing", "external-asset", "noindex-in-production",
          "noindex-missing-in-preview", "manifest-mismatch", "member-json-missing",
          "member-page-missing", "entity-page-missing", "sitemap-missing-page",
-         "canonical-missing")
+         "canonical-missing", "explorer-bundle-missing")
+EXPLORE_PAGE = "explore/index.html"
+EXPLORER_SRC = re.compile(r"^/assets/explore\.[0-9a-f]{8}\.js$")
+GRAPH_SRC = re.compile(r'data-graph-src="(/assets/explore-graph\.[0-9a-f]{8}\.js)"')
 SITEMAP_NAME = "sitemap.xml"
 NOT_IN_SITEMAP = ("404.html",)
 
@@ -89,9 +96,12 @@ class _PageScan(HTMLParser):
         self.footer_found = False
         self.footer_text: List[str] = []
         self.canonical: Optional[str] = None
+        self.scripts: List[str] = []
 
     def handle_starttag(self, tag, attrs):
         a = {k.lower(): (v or "") for k, v in attrs}
+        if tag == "script" and a.get("src"):
+            self.scripts.append(a["src"])
         if tag == "script" and _is_external(a.get("src")):
             self.external.append(f"<script src={a['src']}>")
         elif tag == "link":
@@ -256,6 +266,24 @@ def check_site(site: str | Path, db: str | Path | None = None) -> Tuple[List[Tup
         if in_sitemap is not None and rel not in NOT_IN_SITEMAP and \
                 page_path(rel) not in in_sitemap:
             fail("sitemap-missing-page", f"{rel} ({page_path(rel)}) is not in {SITEMAP_NAME}")
+
+    # explorer bundle (production): /explore/ must load an existing hashed explore.js
+    if mode == "production" and (site / EXPLORE_PAGE).is_file():
+        explore_html = (site / EXPLORE_PAGE).read_text(encoding="utf-8", errors="replace")
+        scan = scan_html(explore_html)
+        ok = [s for s in scan.scripts
+              if EXPLORER_SRC.match(s) and (site / s.lstrip("/")).is_file()]
+        if not ok:
+            fail("explorer-bundle-missing",
+                 f"{EXPLORE_PAGE} loads no /assets/explore.<hash>.js that exists in the site "
+                 f"(scripts: {scan.scripts or 'none'}); run `npm run build` in web/ before "
+                 f"a production build")
+        graph = GRAPH_SRC.search(explore_html)
+        if not graph or not (site / graph.group(1).lstrip("/")).is_file():
+            fail("explorer-bundle-missing",
+                 f"{EXPLORE_PAGE} has no data-graph-src naming an existing "
+                 f"/assets/explore-graph.<hash>.js; run `npm run build` in web/ before a "
+                 f"production build")
 
     # members (needs --db)
     if ids is None:

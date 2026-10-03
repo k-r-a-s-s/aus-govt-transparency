@@ -13,6 +13,16 @@ order of ``data/documents.json``), so those indexes also index those files. Rows
 order of ``export.QUERY``. ``data/schema.json`` states this contract; ``web_bundle_version``
 changes whenever it does.
 
+``data/items-extra.json`` holds what the explorer's "download CSV of this selection" needs and
+``items.json`` leaves out, so a CSV built in the browser has every published column. The
+explorer fetches it only when a reader downloads, never before it is ready:
+
+    {"web_bundle_version": "1", "n": <rows>, "header": <export.HEADER>,
+     "item_id": [<n item ids, row-aligned with items.json>],
+     "entity": {"name": [...], "type": [...], "asx": [...]},   # aligned with dict.entity
+     "entity_raw_method": [...],                              # aligned with dict.entity_raw
+     "category": {"<section>": <category>}}
+
 ``members/<id>/items.json`` and ``entities/<id>/items.json`` are arrays of row objects with
 the published CSV column names (``export.HEADER``) and the CSV's values.
 """
@@ -61,6 +71,9 @@ DATA_FILES = {
     "data/members.json": "members sorted by id, with terms, item count and statements",
     "data/entities.json": "entities with 2 or more items, plus every typed or ASX-coded entity",
     "data/documents.json": "statements sorted by sha256, with source URL and URL class",
+    "data/items-extra.json": "item ids (row-aligned with items.json); entity names, types, ASX "
+                             "codes and match methods (aligned with its dictionaries); the "
+                             "published CSV header: what the explorer's CSV download adds",
     "data/search.json": "member and entity names for the index-page search box",
     "data/summary.json": "every number the overview page prints",
     "data/schema.json": "this contract",
@@ -134,12 +147,62 @@ def schema_doc() -> dict:
             "columns": [{"name": name, "kind": kind, "published_column": pub,
                          "description": desc[pub]} for name, kind, _, pub in BUNDLE_COLUMNS],
         },
+        "items_extra": {
+            "file": "data/items-extra.json",
+            "header": "the published CSV columns, in order (export.HEADER)",
+            "item_id": "n item ids, row-aligned with items.json",
+            "entity": "name, type, asx: arrays aligned with dict.entity (null when empty)",
+            "entity_raw_method": "entity_match_method per printed name, aligned with "
+                                 "dict.entity_raw",
+            "category": "section number (as a string) -> category",
+        },
         "row_objects": {
             "files": ["members/<member_id>/items.json", "entities/<entity_id>/items.json"],
             "columns": [{"name": n, "type": t, "description": d} for n, t, d in EXPORT_COLUMNS],
             "nulls": "empty string, as in the CSV",
         },
         "files": DATA_FILES,
+    }
+
+
+def extra_doc(bundle: dict, items: List[dict], rows: List[dict]) -> dict:
+    """``data/items-extra.json``: the published CSV columns ``items.json`` does not carry,
+    taken from the CSV's own rows (``Dataset.export_rows``), aligned with the bundle."""
+    if len(rows) != len(items):
+        raise RuntimeError(f"export rows {len(rows)} != items {len(items)}")
+    for it, r in zip(items, rows):
+        if it["item_id"] != r["item_id"]:
+            raise RuntimeError("export rows and bundle rows are not in the same order")
+    by_entity: Dict[str, tuple] = {}
+    by_raw: Dict[str, str] = {}
+    category: Dict[str, str] = {}
+    for r in rows:
+        if r["entity_id"]:
+            v = (r["entity_name"], r["entity_type"], r["entity_asx_code"])
+            if by_entity.setdefault(r["entity_id"], v) != v:
+                raise RuntimeError(f"entity {r['entity_id']} has two names or types")
+        if r["entity_name_as_printed"]:
+            m = r["entity_match_method"]
+            if by_raw.setdefault(r["entity_name_as_printed"], m) != m:
+                raise RuntimeError(f"printed name {r['entity_name_as_printed']!r} has two "
+                                   f"match methods")
+        if category.setdefault(str(r["section"]), r["category"]) != r["category"]:
+            raise RuntimeError(f"section {r['section']} has two categories")
+
+    def nul(v):  # the CSV writes null as ""; the JSON keeps null
+        return None if v == "" else v
+
+    ents = bundle["dict"]["entity"]
+    return {
+        "web_bundle_version": WEB_BUNDLE_VERSION,
+        "n": len(items),
+        "header": list(HEADER),
+        "item_id": [it["item_id"] for it in items],
+        "entity": {"name": [nul(by_entity[e][0]) for e in ents],
+                   "type": [nul(by_entity[e][1]) for e in ents],
+                   "asx": [nul(by_entity[e][2]) for e in ents]},
+        "entity_raw_method": [nul(by_raw.get(r, "")) for r in bundle["dict"]["entity_raw"]],
+        "category": category,
     }
 
 
@@ -221,6 +284,7 @@ def write_data(ds: Dataset, out: Path) -> dict:
     rows = ds.export_rows()
     if len(rows) != n_items:
         raise RuntimeError(f"export rows {len(rows)} != items {n_items}")
+    write(out, "data/items-extra.json", dumps(extra_doc(bundle, items, rows)))
     by_member = defaultdict(list)
     by_entity = defaultdict(list)
     for r in rows:

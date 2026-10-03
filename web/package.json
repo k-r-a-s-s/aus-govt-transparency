@@ -10,9 +10,12 @@
     "test": "npm run build && playwright test"
   },
   "devDependencies": {
+    "@observablehq/plot": "0.6.17",
     "@playwright/test": "1.63.0",
     "axe-core": "4.13.0",
+    "d3-force-3d": "3.0.6",
     "esbuild": "0.28.2",
+    "force-graph": "1.52.0",
     "typescript": "7.0.2"
   }
 }

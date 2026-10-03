@@ -248,4 +248,4 @@ def test_every_rule_is_named():
         "html-too-large", "footer-missing", "external-asset", "noindex-in-production",
         "noindex-missing-in-preview", "manifest-mismatch", "member-json-missing",
         "member-page-missing", "entity-page-missing", "sitemap-missing-page",
-        "canonical-missing"}
+        "canonical-missing", "explorer-bundle-missing"}
