@@ -177,6 +177,26 @@ def test_site(tmp_path):
     assert not list(site.glob("*.tmp"))
 
 
+def test_site_explorer(tmp_path):
+    """The explorer page ships with its data; every link joins a listed member and entity."""
+    db = make_db(tmp_path / "v2.db")
+    site = tmp_path / "site"
+    export(db, tmp_path / "out", tmp_path / "m.csv", site_dir=site)
+    assert 'href="explore.html"' in (site / "index.html").read_text()
+    assert 'fetch("explore.json")' in (site / "explore.html").read_text()
+    data = json.loads((site / "explore.json").read_text())
+    members = {m["id"] for m in data["members"]}
+    assert set(data["views"]) == {"gifts", "shares", "memberships", "all"}
+    for v in data["views"].values():
+        ents = {e["id"]: e for e in v["entities"]}
+        assert all(e["type"] != "person" for e in ents.values())
+        for mid, eid, n in v["links"]:
+            assert mid in members and eid in ents and n >= 1
+        for e in ents.values():
+            assert sum(e["blocs"].values()) == e["members"]
+            assert e["members"] == sum(1 for l in v["links"] if l[1] == e["id"])
+
+
 def test_site_is_opt_in(exported, tmp_path):
     _, out, s = exported
     assert s["site"] is None and not (out / "index.html").exists()

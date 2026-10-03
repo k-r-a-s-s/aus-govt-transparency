@@ -1,6 +1,58 @@
-# Handover — Disclosures v2 (updated 2026-10-03: G4 DONE — published on main, Pages and Kaggle; SPEC signed off)
+# Handover — Disclosures v2 (updated 2026-10-03 night: published; public site moving to Cloudflare; next = port the graph explorer)
 
-## G4 outcome (2026-10-03, Mac session): published
+## Now (read this first)
+v2 is finished and published (G4 below). The public site is moving from GitHub Pages to
+Cloudflare Workers; README "Public site: moving to Cloudflare" has the summary. That build has
+its own plan and log: `plans/2026-10-03-public-site/{SPEC,BUILDLOG,DESIGN}.md` on branch
+`build/2026-10-03-public-site`, worktree `.claude/worktrees/cf-data-explorer-plan`.
+
+**Next action: port the Pages explorer into the Cloudflare build's explorer (Phase C).**
+- What to port (on `main`): `disclosures/explore.py` (builds `explore.json`: the top 60
+  organisations per view, member-organisation links, bloc split, items, years; `person` entities
+  excluded) and `disclosures/site_assets/explore.html`. The page combines a force-directed network
+  graph (force-graph 1.52 + d3-force collide; hovering highlights neighbours, a click pins a detail
+  panel with a Datasette link, labels are de-overlapped in a post-render pass) with a stacked
+  bar chart by bloc and hover tooltips. Tests: `tests/test_export.py::test_site_explorer`. Live
+  now: https://k-r-a-s-s.github.io/aus-govt-transparency/explore.html.
+- Where it goes: SPEC ADR-W7 / AC-C1–C5 explorer (`web/src/explore.ts`,
+  `disclosures/web/templates/explore.html`, Observable Plot charts). ADR-W7 has **no network
+  graph and no hover tooltips**: add the graph as an extra view on `/explore/` (follow its filter
+  state if cheap), add tooltips to the Plot bars, and keep the ADR-W7 JS budget (≤ 250 KB gzip)
+  in mind, since force-graph alone is about 60 KB gzip. Record the addition in that SPEC's
+  decisions log. Restyle with that build's `DESIGN.md` tokens (its bloc colours, not mine:
+  mine are dataviz slots 1–3 blue/orange/aqua, validated all-pairs).
+- **Before touching the worktree:** it held about 660 uncommitted lines of Phase C work at
+  21:59 on 2026-10-03 (`web/src/explore.ts`, `templates/explore.html`, `bundle.py`, …), probably
+  from another live Claude session. Check `git -C .claude/worktrees/cf-data-explorer-plan status`
+  and ask Kevin whether that session is still running. Don't overwrite or stash its work.
+- The build branch is **local only** (never pushed). It forked from `9df8f7b`; `main` has since
+  moved (explorer + gitignore commits), and both touch `disclosures/export.py` and `.gitignore`, so
+  expect a small conflict when it rebases or merges. Phase D turns `export --site` into a redirect.
+
+## Decisions this session (don't relitigate)
+- New site features go in the Cloudflare build, not `site/` (Kevin: "we should be building on
+  the cloudflare one"). `site/` + `pages.yml` stay live as the interim until the ADR-W11 cutover.
+  The Pages explorer stays live as a stopgap (not reverted).
+- Licence CC BY 4.0, to the extent we hold rights (DECISIONS 2026-10-03).
+- The directorships view was dropped from the explorer: its top organisations have only 2
+  members each.
+
+## Dead ends / corrections
+- `git add -A` in the main checkout committed the worktree as a gitlink (097849d). Fixed in
+  5a24fe8 (`.claude/worktrees/` is now gitignored). Check `git status` before adding.
+- On this Mac the root `disclosures_v2.db` had been a stale 2026-10-02 build; it is now a copy of
+  `site/disclosures_v2.db` (the final DB, sha256 `519e2430…`). Always export from the final DB.
+- Kaggle CLI: `datasets create` takes `CC-BY-4.0`; `metadata --update` needs the display name
+  `Attribution 4.0 International (CC BY 4.0)`. Token: `KAGGLE_API_TOKEN` in `.env.local`.
+
+## Open (ball holder)
+- Announce on Reddit (Kevin; draft in that session, numbers from the DB).
+- Push `build/2026-10-03-public-site` to GitHub as a backup (Kevin / the build session).
+- LICENSE file for the code (Kevin, optional).
+
+---
+
+## G4 record (2026-10-03, Mac session)
 - Licence **CC BY 4.0** (to the extent we hold rights; facts, not the statements), Kevin's call
   for "as permissive as possible" with attribution; the source PDFs stay under APH's CC BY-NC-ND
   4.0 (DECISIONS "Licence changed to CC BY 4.0"). `export` defaults to it and to the Kaggle id.

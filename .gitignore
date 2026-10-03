@@ -149,3 +149,6 @@ Thumbs.db
 /web/test-results/
 /web/playwright-report/
 /web/dist/
+
+# Claude Code worktrees (separate checkouts, never part of this repo)
+.claude/worktrees/
