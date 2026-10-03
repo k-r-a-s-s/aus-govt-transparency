@@ -61,9 +61,15 @@ def add_arguments(p: argparse.ArgumentParser) -> None:
             s.add_argument("--seed", type=int, default=1, help="selection seed (default: 1)")
         elif name == "publish-data":
             s.add_argument("--db", default=DEFAULT_DB, help="v2 database (default: %(default)s)")
-            s.add_argument("--version", default="auto", help="dataset version (default: auto)")
-            s.add_argument("--out", default=None, help="staging directory")
-            s.add_argument("--dry-run", action="store_true", help="upload nothing")
+            s.add_argument("--manifest", default=DEFAULT_MANIFEST,
+                           help="source URLs by sha256 (default: %(default)s)")
+            s.add_argument("--version", default="auto",
+                           help="dataset version; auto = v2.<meta.loaded_at date> (default: auto)")
+            s.add_argument("--out", default=None,
+                           help="staging directory, must not exist or be empty (default: a temp dir)")
+            s.add_argument("--dry-run", action="store_true",
+                           help="say so in the summary; publish-data never uploads (it writes "
+                                "upload.sh)")
         elif name == "probe-links":
             s.add_argument("--site", required=True, help="built site directory")
             s.add_argument("--sample", type=int, default=30, help="links to probe (default: 30)")
@@ -108,7 +114,11 @@ def run(args) -> int:
         counts = ", ".join(f"{k} {v:,}" for k, v in s["counts"].items())
         print(f"web make-fixture: {s['db']} ({s['bytes']:,} bytes; {counts}) and {s['manifest']}")
         return 0
-    print(f"web {cmd}: not implemented in phase A", file=sys.stderr)
+    if cmd == "publish-data":
+        from .publish import run_publish
+
+        return run_publish(args.db, args.manifest, args.out, args.version, args.dry_run)
+    print(f"web {cmd}: not implemented yet", file=sys.stderr)
     return 2
 
 

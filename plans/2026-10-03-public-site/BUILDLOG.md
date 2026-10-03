@@ -345,3 +345,23 @@ steps are in the file's header comment. Not done, still phase D: `deploy.sh` gat
 permission (`wrangler r2 bucket list`: authentication error 10000), so `/data/` download links
 (`https://data.kevinrassool.com/interests/latest/...`) 404 until the R2 step in SPEC §6 is done.
 Everything else (pages, explorer, graph, static JSON API) is static assets and works.
+
+## Production deploy and `publish-data` (2026-10-04)
+
+- **Site deployed:** `npx wrangler deploy` from `web/` with Kevin's new personal-account token
+  (`CF_TOKEN` in the repo-root `.env.local`, exported as `CLOUDFLARE_API_TOKEN` with
+  `CLOUDFLARE_ACCOUNT_ID=d06d0928…`). Version `9a6603ef`, 9,767 files in 163 s, live at
+  https://interests.kevinrassool.com (custom domain) and https://aus-interests.kevin-rassool.workers.dev.
+  Checked live: every page type 200 with Brotli; `data/items.json` is 1.33 MB on the wire; no
+  `X-Robots-Tag`. Headless Chromium on the live site: `data-ready` in 2.07 s (AC-C3 ≤ 3 s), graph
+  ready 1.35 s after the click (cold), the graph counts match the local build, no console errors,
+  no sideways scroll at 375px.
+- **`web publish-data`** (AC-D3) built: `disclosures/web/publish.py`, tests in
+  `tests/web/test_web_publish.py`. On the real DB it stages `interests/v2.2026-10-02/` and
+  `interests/latest/`: 6 files, 70.4 MB (DB 31.9 MB, CSV 30.7 MB, CSV.gz 3.6 MB, JSONL.gz 4.1 MB,
+  README, datapackage) plus MANIFEST.json. Deviation: it never uploads. The web package may not
+  start processes (ADR-W2 guard), so it writes `cors.json` and `upload.sh` (`wrangler r2 bucket
+  cors set` plus `r2 object put --remote` per file, `latest/` last) and prints them, and `--dry-run`
+  only labels the summary. No Parquet (`pyarrow` not installed).
+- **Not done (needs Kevin, see the session):** create the bucket `aus-interests-data`, attach
+  `data.kevinrassool.com`, run `upload.sh`. Until then the `/data/` download links return 404.

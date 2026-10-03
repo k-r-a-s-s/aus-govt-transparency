@@ -49,13 +49,11 @@ def test_web_without_subcommand_exits_2():
     assert main(["web"]) == 2
 
 
-def test_phase_a_stubs_exit_2(capsys):
+def test_unbuilt_subcommand_exits_2(capsys):
     from disclosures.cli import main
 
-    assert main(["web", "publish-data", "--dry-run"]) == 2
-    assert "not implemented in phase A" in capsys.readouterr().err
     assert main(["web", "probe-links", "--site", "x"]) == 2
-    assert "not implemented in phase A" in capsys.readouterr().err
+    assert "not implemented yet" in capsys.readouterr().err
 
 
 def test_web_imports_and_builds_with_heavy_modules_blocked(tmp_path):
