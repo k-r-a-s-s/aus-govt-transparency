@@ -141,3 +141,6 @@ Thumbs.db
 # export CSVs (30 MB each; regenerate with python -m disclosures export). README + metadata are committed.
 /exports/*.csv
 /exports/kaggle/*.csv
+
+# Claude Code worktrees (separate checkouts, never part of this repo)
+.claude/worktrees/
