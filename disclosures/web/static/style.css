@@ -255,7 +255,9 @@ main { padding: 32px 0 16px; min-width: 0; }
 /* Tables: real <table> with <caption>. Wide ones scroll inside .table-wrap. */
 .table-wrap { max-width: 100%; overflow-x: auto; margin-top: 16px; }
 table { width: 100%; border-collapse: collapse; font-size: 0.9375rem; line-height: 1.45; overflow-wrap: normal; }
-td.desc, td.entity, td.wrap { overflow-wrap: anywhere; }
+td.desc, td.wrap { overflow-wrap: anywhere; min-width: 14rem; }
+/* Entity names break only between words; a wide table scrolls inside .table-wrap instead. */
+td.entity { overflow-wrap: normal; min-width: 11rem; }
 caption { text-align: left; padding-bottom: 8px; }
 th, td { padding: 8px 12px 8px 0; border-bottom: 1px solid var(--rule); text-align: left; vertical-align: top; }
 th {

@@ -233,3 +233,32 @@ No whitespace minification was needed.
   and `section` query parameters (AC-C4).
 - Phase D: `wrangler.jsonc`, `deploy.sh`, `publish-data` (its output folder can feed
   `--data-files`), `web.yml`; finish `docs/v2/web.md`.
+
+### Phase B verification (independent, 2026-10-03) and fixes
+
+Verdict PASS on AC-B1 to B11 and AC-C5 against the real DB (suites reproduced: 600 passed /
+6 skipped full, 284 web, 19 Playwright; 13 real members and 9 real entities compared with SQL
+row by row, 0 mismatches; overview, section and parliament numbers equal SQL; axe 0 violations
+on 32 page loads; 0 off-origin requests; two production builds byte-identical). Three findings
+were fixed by the orchestrator in the follow-up commit:
+
+1. ADR-W9: entity pages had no transcription-method or accuracy sentence and member pages did
+   not name the model. `pages.py` now has `_models_for()` and `_entity_honest()`; the member and
+   entity "About this page" paragraph (`<p id="honest">`) names the model(s) from the member's or
+   entity's House documents ("google/gemini-3.8-flash, with anthropic/claude-sonnet-5.5 for
+   pages it refused"), the gold-set precision and recall, and the Senate structured-data note
+   where Senate items are present. Tests in `test_web_pages.py` assert this per member and
+   per entity. On the real site: 4,425 of 4,448 entity pages carry "precision" (the other 23
+   are Senate-only entities); 336 of 408 member pages name a model (the other 72 are
+   Senate-only senators).
+2. ADR-W10: `td.entity` used `overflow-wrap: anywhere`, so at 375 px the Entity column
+   collapsed to one character per line. Now `td.entity { overflow-wrap: normal; min-width:
+   11rem }` and `td.desc { min-width: 14rem }`; the items table scrolls inside `.table-wrap`
+   on a phone and entity names break between words. Re-screenshotted `members/jason_clare/`
+   at 375 px: readable.
+3. `/sections/11/` repeated the Senate category key ("(category gifts) (Senate register
+   category gifts)"); the `SENATE_CATEGORY[11]` phrase lost its parenthetical.
+
+Not changed (recorded): `hamdo_besic` has two items yet the alias method is `singleton`
+(data-driven label); multi-chamber members get the House transcription sentence plus the new
+Senate note; `PARLIAMENT_YEARS[48] = "2025 to now"` will need a refresh when the 48th ends.

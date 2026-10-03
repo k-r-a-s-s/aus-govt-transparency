@@ -55,6 +55,6 @@
 {% endif %}
 
 <h2>About this page</h2>
-<p>{{ mem.honest }}</p>
+<p id="honest">{{ mem.honest }}</p>
 <p>Machine-readable: <a href="/members/{{ mem.id }}/items.json">items.json</a> (every item on this page, with the published CSV columns). <a href="/explore/?member={{ mem.id }}">Open in the explorer</a>.</p>
 {% endblock %}

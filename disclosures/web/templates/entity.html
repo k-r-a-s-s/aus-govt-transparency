@@ -51,6 +51,6 @@
 {% endfor %}
 
 <h2>About this page</h2>
-<p>{{ ent.honest }}</p>
+<p id="honest">{{ ent.honest }}</p>
 <p>Machine-readable: <a href="/entities/{{ ent.id }}/items.json">items.json</a> (every item on this page, with the published CSV columns). <a href="/explore/?entity={{ ent.id }}">Open in the explorer</a>.</p>
 {% endblock %}

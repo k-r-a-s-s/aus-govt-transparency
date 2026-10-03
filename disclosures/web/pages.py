@@ -81,7 +81,7 @@ SENATE_CATEGORY = {
     6: ("liabilities", None), 7: ("investments", None),
     8: ("savingsOrInvestmentAccounts", None), 9: ("otherAssets", None),
     10: ("otherIncome", None),
-    11: ("gifts", "Gifts, as the Senate register words them (category gifts)"),
+    11: ("gifts", "Gifts, as the Senate register words them"),
     12: ("sponsoredTravelOrHospitality", None),
     13: ("officeHolderDonating", "Office holder of, or donor to, an organisation"),
     14: ("otherInterest", None),
@@ -305,6 +305,44 @@ class Renderer:
         return "; ".join(f"{m} ({fmt(n)} {'statement' if n == 1 else 'statements'})"
                          for m, n in sorted(models.items()))
 
+    def _models_for(self, shas) -> str:
+        """Phrase naming the language model(s) that transcribed these House documents."""
+        primary, fallback = set(), set()
+        for sha in shas:
+            d = self.doc_by_sha[sha]
+            if d["chamber"] != "house" or not d["model"]:
+                continue
+            first, *rest = d["model"].split("+")  # "a+b": model b took pages model a refused
+            primary.add(first)
+            fallback.update(rest)
+        if not primary:
+            return "a language model"
+        names = sorted(primary)
+        text = ("the language model " if len(names) == 1 else "the language models ") + \
+            (names[0] if len(names) == 1 else ", ".join(names[:-1]) + " and " + names[-1])
+        if fallback - primary:
+            text += f", with {' and '.join(sorted(fallback - primary))} for pages it refused"
+        return text
+
+    def _entity_honest(self, items: List[dict]) -> str:
+        """ADR-W9 sentence for an entity page: method, measured accuracy, what the page shows."""
+        shas = {it["pdf_sha256"] for it in items}
+        chambers = {self.doc_by_sha[sha]["chamber"] for sha in shas}
+        parts = []
+        if "house" in chambers:
+            parts.append(f"House items were transcribed from the statement PDFs by "
+                         f"{self._models_for(shas)} (precision {GOLD['precision']}, recall "
+                         f"{GOLD['recall']} on a hand-checked gold set), so a few may be "
+                         f"missing or misread.")
+        if "senate" in chambers:
+            parts.append("Senate items come from the Senate register's structured data, not "
+                         "a transcription.")
+        parts.append("This page groups items by the entity they name and shows what was "
+                     "declared, not its value. A spelling grouped by mistake is possible: the "
+                     "printed names above show what each statement said. Check the source "
+                     "before relying on an item.")
+        return " ".join(parts)
+
     # --- distribution (downloads, JSON-LD) ----------------------------------------------------
 
     def distribution(self) -> List[dict]:
@@ -486,11 +524,14 @@ class Renderer:
         else:
             label = "Member of the House of Representatives" if chambers == {"house"} else \
                 "Member and senator"
-            honest = (f"These items were transcribed from {m['name']}'s statements by a "
-                      f"language model (precision {GOLD['precision']}, recall {GOLD['recall']} "
-                      f"on a hand-checked gold set), so a few may be missing or misread. Each "
-                      f"item links to the page of its statement: check the source before "
-                      f"relying on an item. Party is the party at the start of each term.")
+            senate_note = (" Senate items come from the Senate register's structured data, "
+                           "not a transcription." if "senate" in chambers else "")
+            honest = (f"These items were transcribed from {m['name']}'s statements by "
+                      f"{self._models_for(m['documents'])} (precision {GOLD['precision']}, "
+                      f"recall {GOLD['recall']} on a hand-checked gold set), so a few may be "
+                      f"missing or misread. Each item links to the page of its statement: check "
+                      f"the source before relying on an item.{senate_note} Party is the party "
+                      f"at the start of each term.")
         mem = {"id": m["id"], "name": m["name"], "chamber_label": label, "honest": honest,
                "lede": f"{label}. {fmt(len(rows))} declared "
                        f"{'item' if len(rows) == 1 else 'items'} across "
@@ -554,11 +595,7 @@ class Renderer:
                "type_label": (e["type"] or "untyped").replace("_", " "),
                "items": len(items), "members": len(per_member),
                "method_words": "; ".join(METHOD_WORDS[x] for x in methods) or "not recorded",
-               "honest": ("The items were declared by the members named; this page groups them "
-                          "by the entity they name. It shows what was declared, not its value, "
-                          "and a spelling grouped by mistake is possible: the printed names "
-                          "above show what each statement said. Check the source before "
-                          "relying on an item.")}
+               "honest": self._entity_honest(items)}
         chart = Markup(C.stacked(
             "chart-entity-members", f"Distinct members per register by bloc: {e['name']}",
             "Horizontal stacked bars, one per register, of distinct members naming this "

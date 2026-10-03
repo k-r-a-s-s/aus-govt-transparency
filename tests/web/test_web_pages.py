@@ -66,6 +66,19 @@ def test_member_page_content(mini_site, con, page_entities, doc_urls, mid):
     eyebrow = doc.find("p", "eyebrow").text
     assert ("Senator" if chamber == "senate" else "House of Representatives") in eyebrow
 
+    # ADR-W9: the honest line names the method, the model(s) and the measured accuracy
+    honest = doc.by_id("honest").text
+    house_models = {r[0] for r in con.execute(
+        "select distinct model from documents where member_id = ? and chamber = 'house' "
+        "and model is not null", (mid,))}
+    assert "check the source" in honest.lower() or "check the senate register" in honest.lower()
+    if house_models:
+        assert "precision" in honest and "recall" in honest
+        for model in house_models:
+            assert model.split("+")[0] in honest
+    else:
+        assert "structured data" in honest
+
     # terms: parliament, party, bloc, electorate/state
     terms = con.execute("select chamber, parliament, electorate_or_state, party, political_bloc "
                         "from member_terms where member_id = ? order by chamber, parliament",
@@ -175,6 +188,17 @@ def test_entity_page_content(mini_site, con, eid):
     method_text = doc.by_id("entity-method").text
     for m in methods:
         assert METHOD_WORDS[m] in method_text
+
+    # ADR-W9: entity pages carry the transcription method and accuracy line too
+    honest = doc.by_id("honest").text
+    chambers = {r[0] for r in con.execute(
+        "select distinct chamber from items where entity_id = ?", (eid,))}
+    assert "Check the source" in honest and "not its value" in honest
+    if "house" in chambers:
+        assert "transcribed" in honest and "precision" in honest and "recall" in honest
+        assert "language model" in honest
+    if "senate" in chambers:
+        assert "structured data" in honest
 
     raw = {r[0] for r in con.execute("select distinct entity_name_raw from items where "
                                      "entity_id = ? and entity_name_raw is not null", (eid,))}
