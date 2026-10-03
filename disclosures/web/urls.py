@@ -37,6 +37,10 @@ class UnknownUrlClass(ValueError):
     """A manifest URL matches none of the ADR-W5 classes (the build fails closed)."""
 
 
+class SourceLinkError(ValueError):
+    """An item's page is missing or not a positive integer, so no source link can be built."""
+
+
 def classify(url: str) -> str:
     """Return the ADR-W5 class of a manifest source URL; raise ``UnknownUrlClass`` otherwise."""
     if not url:
@@ -63,7 +67,13 @@ def _without_fragment(url: str) -> str:
 
 
 def source_link(url: str, page: int) -> Tuple[str, str]:
-    """``(href, text)`` for an item on ``page`` of the document at ``url`` (ADR-W5)."""
+    """``(href, text)`` for an item on ``page`` of the document at ``url`` (ADR-W5).
+
+    Raises ``SourceLinkError`` when ``page`` is not a positive integer and ``UnknownUrlClass``
+    when the URL has no class.
+    """
+    if isinstance(page, bool) or not isinstance(page, int) or page < 1:
+        raise SourceLinkError(f"page must be a positive integer, got {page!r} (source {url})")
     cls = classify(url)
     if cls in (HOUSE_PDF, HOUSE_API):
         return f"{_without_fragment(url)}#page={int(page)}", f"page {int(page)}"

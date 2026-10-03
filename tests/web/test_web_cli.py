@@ -69,6 +69,7 @@ def test_web_imports_and_builds_with_heavy_modules_blocked(tmp_path):
         import disclosures.web, disclosures.web.cli, disclosures.web.build
         import disclosures.web.bundle, disclosures.web.check, disclosures.web.dataset
         import disclosures.web.fixture, disclosures.web.urls
+        import disclosures.web.pages, disclosures.web.charts, disclosures.web.metadata
         from disclosures.cli import main
         rc = main(["web", "build", "--db", {str(MINI_DB)!r}, "--manifest",
                    {str(MINI_MANIFEST)!r}, "--out", {str(out)!r}])

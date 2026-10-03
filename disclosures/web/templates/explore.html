@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% block main %}
+<p class="eyebrow">Explore</p>
+<h1>Explore the items</h1>
+<p class="lede" id="explore-intro">Filter all {{ s["items"]|num }} declared items by parliament, party, bloc, section, owner, entity and text. The interactive explorer runs in your browser and needs JavaScript. Without it, the counts are below, and every member and every entity with two or more items has its own page: browse the <a href="/members/">members index</a> or the <a href="/entities/">entities index</a>.</p>
+<p class="note">Counts are counts of declared items, not of their value. Transcription errors of roughly 1 to 2% exist; confidence is shown per item.</p>
+<div id="explorer" hidden></div>
+<section id="explore-static">
+<h2>Overview counts</h2>
+{{ m.table("Members, statements and items per register", [("Register", False), ("Members", True), ("Statements", True), ("Items", True)], coverage_rows, "coverage") }}
+{{ m.table("Items per section", [("Section", False), ("Items", True)], section_rows, "explore-sections") }}
+</section>
+{% endblock %}

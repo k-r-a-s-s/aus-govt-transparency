@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% block main %}
+<p class="eyebrow">Data</p>
+<h1>Download and reuse the data</h1>
+<p class="lede">The full dataset in several formats, a field dictionary, a static JSON API, and SQL in the browser. Version <strong id="data-version">{{ site.version }}</strong>, data loaded {{ site.data_date }}.</p>
+
+<h2 id="downloads">Downloads</h2>
+<p>Files for version {{ site.version }}. The links always point at the latest version; each version also stays in its own folder.{% if not downloads_known %} Sizes and sha256 checksums are published with the dataset in <a href="{{ manifest_href }}">MANIFEST.json</a>.{% endif %}</p>
+{% call m.wrap("Downloads") %}
+<table class="downloads">
+<caption>Data files, version {{ site.version }}</caption>
+<thead><tr><th scope="col">File</th><th scope="col">Contents</th><th scope="col" class="num">Size</th><th scope="col">sha256</th><th scope="col">Licence</th></tr></thead>
+<tbody>
+{% for d in downloads %}
+<tr><td><a href="{{ d.url }}">{{ d.name }}</a></td><td>{{ d.label }}</td><td class="num">{{ d.size }}</td><td>{% if d.sha256 %}<code>{{ d.sha256 }}</code>{% else %}{{ d.sha_text }}{% endif %}</td><td>{{ d.licence }}</td></tr>
+{% endfor %}
+</tbody>
+</table>
+{% endcall %}
+<div class="links-row">
+<a class="button" href="{{ datasette_href }}">Open in Datasette Lite</a>
+<a class="button" href="{{ kaggle_href }}">Kaggle</a>
+</div>
+<p class="note">Datasette Lite runs SQLite in your browser and loads the whole database ({{ db_note }}) from the data host. Filter, facet and download any query as CSV.</p>
+
+<h2 id="dictionary">Field dictionary</h2>
+<p>The columns of the CSV and of every per-page <code>items.json</code>. Empty cells are nulls.</p>
+{% call m.wrap("Field dictionary") %}
+<table class="dictionary">
+<caption>Published columns ({{ columns|length }})</caption>
+<thead><tr><th scope="col">Column</th><th scope="col">Type</th><th scope="col">Description</th></tr></thead>
+<tbody>
+{% for c in columns %}
+<tr><td><code>{{ c.name }}</code></td><td>{{ c.type }}</td><td>{{ c.description }}</td></tr>
+{% endfor %}
+</tbody>
+</table>
+{% endcall %}
+
+<h2 id="api">Static JSON API</h2>
+<p>Every file below is a static file on this site, served with <code>Access-Control-Allow-Origin: *</code>, so you can fetch it from any web page or script. There is no key and no rate limit beyond the host's.</p>
+{% call m.wrap("API routes") %}
+<table class="api">
+<caption>Routes</caption>
+<thead><tr><th scope="col">Path</th><th scope="col">Contents</th></tr></thead>
+<tbody>
+{% for path, text in api_routes %}
+<tr><td><code>{{ path }}</code></td><td>{{ text }}</td></tr>
+{% endfor %}
+</tbody>
+</table>
+{% endcall %}
+<p>Example:</p>
+<pre><code>curl {{ site.site_url }}/members/{{ example_member }}/items.json</code></pre>
+<p>The layout of <code>data/items.json</code> is described in <a href="/data/schema.json">data/schema.json</a>. Its <code>web_bundle_version</code> is <code id="bundle-version">{{ bundle_version }}</code>; it changes whenever the layout changes, so check it before you parse.</p>
+
+<h2 id="metadata">Metadata and updates</h2>
+<ul>
+<li><a href="{{ datapackage_href }}">datapackage.json</a> (Frictionless Data Package descriptor, on the data host)</li>
+<li>schema.org Dataset metadata (JSON-LD) is embedded in this page and the <a href="/">overview</a>.</li>
+<li><a href="/changes.xml">Change feed</a> (RSS): one entry per dataset version.</li>
+<li><a href="{{ kaggle_href }}">Kaggle</a>: the CSV with the same README.</li>
+<li><a href="{{ site.repo_url }}">Source code and documentation</a></li>
+</ul>
+
+<h2 id="cite">How to cite</h2>
+<pre class="cite">{{ site.cite }}</pre>
+<p>Please also credit the source: Parliament of Australia, Register of Members' Interests and Register of Senators' Interests (aph.gov.au).</p>
+
+<h2 id="licences">Licences</h2>
+<p>The dataset is released under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, to the extent we hold rights in it: share and adapt it for any purpose, commercial included, crediting this dataset and the source ("Parliament of Australia website"). The dataset records the facts each statement declares; the statements themselves (linked from every item) are published by the Parliament of Australia under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>, so reuse of the documents follows that licence.</p>
+<p>Attribution text: "{{ attribution }}"</p>
+{% endblock %}

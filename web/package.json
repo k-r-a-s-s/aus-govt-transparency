@@ -1,0 +1,18 @@
+{
+  "name": "aus-interests-web",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Browser code and browser tests for the Registers of Interests public site",
+  "type": "module",
+  "scripts": {
+    "build": "node esbuild.mjs",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "npm run build && playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "axe-core": "4.13.0",
+    "esbuild": "0.28.2",
+    "typescript": "7.0.2"
+  }
+}

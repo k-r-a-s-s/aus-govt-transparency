@@ -13,7 +13,7 @@ from ..dbconst import DEFAULT_DB
 DEFAULT_MANIFEST = "pdfs/manifest.csv"
 SUBCOMMANDS = ("build", "check", "publish-data", "make-fixture", "probe-links")
 HELP = {
-    "build": "build the static site (data bundle, static API, headers, manifest) into --out",
+    "build": "build the static site (pages, charts, data bundle, static API, metadata) into --out",
     "check": "check a built site against the deploy rules (exit 1 naming each failed rule)",
     "publish-data": "write the R2 data files and print the upload commands (phase D)",
     "make-fixture": "write the small test DB and manifest (tests/fixtures/web)",
@@ -22,7 +22,7 @@ HELP = {
 
 
 def add_arguments(p: argparse.ArgumentParser) -> None:
-    from .build import DEFAULT_DATA_BASE, MODES
+    from .build import DEFAULT_DATA_BASE, DEFAULT_SITE_URL, MODES
 
     sub = p.add_subparsers(dest="web_command", metavar="{" + ",".join(SUBCOMMANDS) + "}")
     for name in SUBCOMMANDS:
@@ -37,6 +37,15 @@ def add_arguments(p: argparse.ArgumentParser) -> None:
                            help="preview (noindex) or production (default: %(default)s)")
             s.add_argument("--data-base", default=DEFAULT_DATA_BASE,
                            help="base URL of the R2 data files (default: %(default)s)")
+            s.add_argument("--site-url", default=DEFAULT_SITE_URL,
+                           help="public origin of the site, for canonical URLs, the sitemap "
+                                "and JSON-LD (default: %(default)s)")
+            s.add_argument("--doi", default=None,
+                           help="dataset DOI (10.xxxx/yyyy) for the cite block, footer and "
+                                "JSON-LD identifier (optional)")
+            s.add_argument("--data-files", default=None, metavar="DIR",
+                           help="local folder with the R2 data files; /data/ then prints their "
+                                "sizes and sha256 (optional, read only)")
         elif name == "check":
             s.add_argument("site", help="built site directory")
             s.add_argument("--db", default=None,
@@ -70,13 +79,15 @@ def run(args) -> int:
         from .dataset import DatasetError
 
         try:
-            s = build(args.db, args.manifest, args.out, args.mode, args.data_base)
+            s = build(args.db, args.manifest, args.out, args.mode, args.data_base,
+                      site_url=args.site_url, doi=args.doi, data_files=args.data_files)
         except (BuildError, DatasetError) as e:
             print(f"web build: {e}", file=sys.stderr)
             return 2
         print(f"web build: {s['items']:,} items, {s['members']:,} members, "
               f"{s['entities_listed']:,} entities listed ({s['entity_files']:,} with items.json), "
               f"{s['documents']:,} statements; data/items.json {s['items_json_bytes']:,} bytes; "
+              f"{s['pages']:,} HTML pages ({s['html_bytes']:,} bytes); "
               f"{s['files']:,} files, {s['bytes']:,} bytes -> {s['out']} ({args.mode})")
         return 0
     if cmd == "check":

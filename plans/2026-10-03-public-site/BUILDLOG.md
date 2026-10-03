@@ -115,3 +115,121 @@ suite passes.
 - Per-page JSON is already 98.7 MB of the 300 MiB budget; ~4,860 HTML pages will add to it.
   Watch `site-too-large` on Real.
 - Hashed assets go under `/assets/` (the `_headers` long-cache rule is already written).
+
+## Phase B: static pages, charts, metadata, CSS and fonts, `web/` scaffold, Playwright (2026-10-03)
+
+### What landed
+
+- `disclosures/web/pages.py` (every route of ADR-W4 from `Dataset`; the overview reads the
+  `data/summary.json` the bundle just wrote), `charts.py` (static SVG bars), `metadata.py`
+  (JSON-LD `Dataset`, `sitemap.xml`, `robots.txt`, `changes.xml`), `templates/` (Jinja2,
+  autoescape on, `StrictUndefined`: `base`, `_macros`, `overview`, `members_index`, `member`,
+  `entities_index`, `entity`, `section`, `parliament`, `explore`, `data`, `about`, `404`),
+  `static/style.css` (DESIGN.md tokens, light and dark) and `static/fonts/` (the blog's 8 woff2
+  files and 3 OFL notices, copied unchanged).
+- `build.py`: pages, assets (`assets/style.<sha256-8>.css`, `fonts/`, `web/dist/*.js` as
+  `assets/<name>.<sha256-8>.js` when built), sitemap, robots, feed; new flags `--site-url`,
+  `--doi`, `--data-files`; fails (exit 2) over 12,000 files or 300 MiB.
+- `check.py`: `member-page-missing` always enforced; new `entity-page-missing`,
+  `sitemap-missing-page`, `canonical-missing`.
+- `export.py`: the README's method and known-limitations prose moved verbatim into
+  `README_METHOD` / `README_LIMITATIONS` (with `{n_ent}`, `{n_untyped}` placeholders);
+  `render_readme` formats them. Its output on the real DB is byte-identical before and after
+  (checked by diffing `render_readme(con, 50936)`). `/about/` renders the same text.
+- `web/`: `package.json` (exact pins: esbuild 0.28.2, typescript 7.0.2, @playwright/test
+  1.63.0, axe-core 4.13.0), `package-lock.json`, `esbuild.mjs`, `tsconfig.json`,
+  `src/index-search.ts`, `playwright.config.ts`, `tests/` (global setup + 4 spec files),
+  `README.md`, `.env.example`. `.gitignore` gains `/web/dist/`.
+- Phase A fixes: `urls.source_link` raises `urls.SourceLinkError` (a `ValueError`) for a page
+  that is not a positive int; `check.FORBIDDEN_SUFFIXES` adds `.jsonl` and `.jsonl.gz`; the
+  build stages in `<out>/.staging-<pid>` and moves children up (nothing written or deleted
+  outside `--out`; a build that created `--out` removes it again on error); the v1 refusal says
+  "refusing to open the frozen v1 database".
+- Docs: `docs/v2/web.md` (pages, labels, charts, bundle and static API, rebuild and check).
+
+### Commands and results
+
+| AC | Command / test | Result |
+|---|---|---|
+| B1 | `python -m disclosures web build --db site/disclosures_v2.db --manifest pdfs/manifest.csv --out web/sites/b-real --mode preview`; `tests/web/test_web_real.py` | exit 0 in about 6 s. 9,765 files (limit 12,000); 4,884 HTML pages: `index.html`, `members/index.html`, 408 member pages, `entities/index.html`, 4,448 entity pages (= SQL count of entities with 2 or more items), 14 sections, 7 parliaments, about, data, explore, `404.html`; plus robots, sitemap, changes, `_headers`, `web-manifest.json` and the 7 `data/*.json`. Largest HTML `entities/qantas_airways/index.html` 1,203,156 bytes (limit 2 MiB). `web check <site> --db site/disclosures_v2.db` exits 0 in both modes. |
+| B2 | `tests/web/test_web_pages.py::test_member_page_content[*]` (6 members, `html.parser` tree) | name, chamber; every term's parliament, electorate, party, bloc; one statement row per document with page count and source link (Senate: register index); every item (ids and count equal SQL) with owner, section (table caption), description, change, lodged date or "not stated" (month precision as `YYYY-MM`), badge exactly for medium/low, source `href` and text equal to `urls.source_link` and the ADR-W5 shape per class; entity link exactly when the entity has 2 or more items. All four URL classes occur in the fixture. |
+| B3 | `test_entity_page_content[*]` (all 118 mini entity pages) | canonical name, type or "untyped", ASX code when set, every match method in words, printed variants = distinct `entity_name_raw`, alias list = `entity_aliases`, distinct members per register equal SQL, member count and item ids equal SQL. |
+| B4 | `test_summary_json_equals_sql`, `test_overview_prints_summary_numbers` | `summary.json` equals an independent SQL computation (items, members, statements, entities, section x bloc, top 15 entities by distinct members, register x owner, alterations and share); the overview's headline, section-bloc, top-entities, owner and alteration tables print the same numbers. |
+| B5 | `tests/web/test_web_charts.py` | each page type's SVGs (overview 4, member, entity, section, parliament 1 each) have `<title>` then `<desc>` and `aria-labelledby`; no `fill` other than `currentColor`, no `stroke`/`style` attribute, no hex colour anywhere in an SVG, only the allowed classes, every mark classed; two mini builds give byte-identical SVGs and HTML. Two real production builds with `SOURCE_DATE_EPOCH=0`: `diff -r` identical. |
+| B6 | `web/tests/no-js.spec.ts` (`javaScriptEnabled: false`) | `/`: headline numbers equal `summary.json`, coverage and top-entities tables, 4 charts, footer; member: name, terms, statements, item count and rows equal `items.json`, source links, medium badges; entity: name, item and member counts, items and members tables; section 1: wording, count, table, explore link; index pages full with the filter box hidden; `/explore/` shows its counts table and the index pointer. |
+| B7 | `test_footer_and_preview_labels`, `test_production_has_no_noindex_or_banner` | every HTML page's footer has "CC BY 4.0", "Parliament of Australia", the version, the data date, the repo link and the check-the-source sentence; preview: `noindex,nofollow` meta and banner on every page; production: neither (and no "noindex" anywhere in the HTML). |
+| B8 | `tests/web/test_web_metadata.py` | JSON-LD parses on `/` and `/data/` only; `name`, `description` (50-5,000), `license`, `creator`, `temporalCoverage`, `distribution` (one `DataDownload` per R2 data file, `contentUrl` = `<data-base>latest/<file>`, `encodingFormat`), `isAccessibleForFree: true`; `identifier` = `https://doi.org/<doi>` with `--doi`, absent without. Sitemap lists every HTML page except `404.html`, sorted, absolute (also with `--site-url`); robots allow-all with `Sitemap:` in production, disallow-all in preview; `changes.xml` is RSS 2.0 with one item dated from `meta.loaded_at`. Bad `--doi`, `--site-url`, `--data-files` exit 2 and write nothing. |
+| B9 | `web/tests/requests.spec.ts` | every request on `/`, a member, an entity, `/explore/`, `/data/` is same-origin; font requests all under `/fonts/`; `context.cookies()` and `document.cookie` empty. |
+| B10 | `web/tests/a11y.spec.ts` | axe-core 4.13.0 (injected from `node_modules`): no serious or critical violations on `/`, a member page and `/explore/`, light and dark; at 375px `scrollWidth <= 375` on all 12 page types (mini). Spot check on the real site at 375px: 15 pages including `members/jason_clare/` and `entities/commonwealth_bank_of_australia/` all 375. |
+| B11 | `tests/web/test_web_guard.py` | templates: no network or script hook, every Jinja variable is in the render-context allow-list, only `base.html`/`_macros.html` referenced; page code imports no network, subprocess or environment access; the `scripts/check_sensitive_info.py` patterns (imported) plus OpenRouter/Anthropic/Cloudflare token patterns find nothing in the mini site or the real site (real scan about 35 s); a planted Google key is caught. |
+| Phase A fixes | `tests/web/test_web_build_assets.py`, `test_web_check.py` | `SourceLinkError` for `None`, 0, -1, `"3"`, 2.0, `True`; a pre-existing `.out.tmp-<pid>` sibling is left alone and the parent gains only `out`; failures clean up inside `--out`; `.jsonl` and `.jsonl.gz` planted faults fire `forbidden-file`; v1 message. |
+
+Playwright (`cd web && PYTHON=<venv python> npm test`): 19 passed in 4.8 s (Chromium headless
+shell already in `~/Library/Caches/ms-playwright`, no install needed). `npm run typecheck`
+clean.
+
+pytest: `pytest -q tests/web` 284 passed (83 s, including the real-DB tests); full suite
+`OPENROUTER_KEY=dummy pytest -q` 600 passed, 6 skipped (95 s).
+
+### Sizes (real, preview build)
+
+| Part | Files | Bytes | MiB |
+|---|---|---|---|
+| HTML (all pages) | 4,884 | 101,275,528 | 96.6 |
+| of which entity pages + index | 4,449 | 62,983,389 | 60.1 |
+| of which member pages + index | 409 | 37,809,132 | 36.1 |
+| `members/*/items.json` | 408 | 58,145,469 | 55.5 |
+| `entities/*/items.json` | 4,448 | 40,535,860 | 38.7 |
+| `data/` | 7 | 7,833,602 | 7.5 |
+| fonts, CSS, robots, sitemap, feed, `_headers`, `web-manifest.json` | 18 | 2,268,216 | 2.2 |
+| **Site total** | **9,765** | **210,058,675** | **200.3** (of 300) |
+
+No whitespace minification was needed.
+
+### Deviations and decisions
+
+1. **Playwright config location.** `web/playwright.config.ts` (not inside `web/tests/`) so
+   `npx playwright test` in `web/` finds it; the global setup and specs are in `web/tests/`.
+   Server: `python -m http.server` on a free port (stdlib; documented in `web/README.md`).
+2. **`--data-files DIR`** (new, optional, read only) is how the build finds the R2 files
+   locally to print sizes and sha256 on `/data/`; without it those cells say "published with
+   the dataset" and link `MANIFEST.json`.
+3. **JSON-LD distribution** lists the four data files (`.db`, `.csv`, `.csv.gz`, `.jsonl.gz`),
+   plus Parquet only when `--data-files` holds one. README, datapackage and MANIFEST are on
+   `/data/` but are not `DataDownload`s.
+4. **Senate section wording.** The repo has no official Senate form text, so the section pages
+   show the Senate interests API category key, with a plain reading for 11 (`gifts`) and 13
+   (`officeHolderDonating`: "Office holder of, or donor to, an organisation"), labelled as such.
+   A test checks the keys match `senate.SECTIONS`. House wording is the form's, as in
+   `prompts/extract.md`.
+5. **Medium-confidence badge colour.** `color-mix(--yellow, --paper)` behind `--ink` failed axe
+   contrast in dark mode. Now a token `--badge-medium`: `#f4df97` light (45% yellow on paper),
+   `#524a22` dark (25% yellow on dark paper), ink text in both; axe passes in both themes. Not a
+   chart colour, so the DESIGN.md palettes are unchanged and were not re-validated.
+6. **dataviz skill.** No palette was changed; the chart rules come from DESIGN.md (one axis,
+   legend for 2 or more series, 2px paper gap, 4px rounded data ends, text in ink/muted,
+   classes only). Labels sit above each bar so they stay readable at 375px.
+7. **`check` tests.** The mini site now has HTML, so Phase A tests that assumed none were
+   adapted (the vacuous-HTML test deletes the HTML first; the planted-page helper gains a
+   canonical link; the member-page test deletes a page instead of writing the rest). Phase A
+   bundle tests that listed `members/` and `entities/` now ignore the `index.html` files.
+8. **404.** `404.html` has a canonical link (to `/404.html`) and is the one page left out of
+   the sitemap and the `sitemap-missing-page` rule.
+9. **Explorer links.** Member and entity pages link `/explore/?member=<id>` and
+   `/explore/?entity=<id>`; section pages `/explore/?section=N`. Phase C must honour these
+   parameters.
+10. **Index search** filters the table rows already in the page (no request to
+    `data/search.json`). The explorer template includes `assets/explore.<hash>.js` automatically
+    once phase C adds `web/src/explore.ts`.
+11. **Typecheck** covers `web/src/` only (no `@types/node` pinned, so the Node-side test files
+    are compiled by Playwright, not `tsc`).
+12. **Size limits** in the build raise `BuildError` (exit 2), like the clobber guard.
+13. **Commit trailer.** The session's harness attribution (`Claude Opus 5.5`) is used rather than
+    the brief's `Claude Fable 5.1`.
+
+### Open for later phases
+
+- Phase C: `web/src/explore.ts` (+ worker) mounts on `#explorer`; honour the `member`, `entity`
+  and `section` query parameters (AC-C4).
+- Phase D: `wrangler.jsonc`, `deploy.sh`, `publish-data` (its output folder can feed
+  `--data-files`), `web.yml`; finish `docs/v2/web.md`.

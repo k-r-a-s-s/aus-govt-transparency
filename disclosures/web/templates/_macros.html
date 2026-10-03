@@ -1,0 +1,50 @@
+{% macro chart(svg, caption) -%}
+<figure class="chart-figure">
+{{ svg }}
+<figcaption>{{ caption }}</figcaption>
+</figure>
+{%- endmacro %}
+
+{% macro wrap(label) -%}
+<div class="table-wrap" tabindex="0" role="region" aria-label="{{ label }}">
+{{ caller() }}
+</div>
+{%- endmacro %}
+
+{% macro entity_cell(r) -%}
+{% if r.entity_href %}<a href="{{ r.entity_href }}">{{ r.entity_name }}</a>{% elif r.entity_name %}{{ r.entity_name }}{% endif %}
+{%- endmacro %}
+
+{# One table of items. show_member: entity and section pages; the member page omits it. #}
+{% macro items_table(rows, caption, show_member=False) -%}
+{% call wrap(caption) %}
+<table class="items">
+<caption>{{ caption }}</caption>
+<thead><tr>{% if show_member %}<th scope="col">Member</th>{% endif %}<th scope="col">Parliament</th><th scope="col">Owner</th><th scope="col">Entity</th><th scope="col">Description</th><th scope="col">Change</th><th scope="col">Lodged</th><th scope="col">Source</th></tr></thead>
+<tbody>
+{% for r in rows %}
+<tr data-item="{{ r.item_id }}">{% if show_member %}<td><a href="/members/{{ r.member_id }}/">{{ r.member_name }}</a></td>{% endif %}<td class="nowrap">{{ r.register }}</td><td>{{ r.owner }}</td><td class="entity">{{ entity_cell(r) }}</td><td class="desc">{{ r.description }}{% if r.confidence %} <span class="badge badge-{{ r.confidence }}">{{ r.confidence }} confidence</span>{% endif %}</td><td>{{ r.change }}</td><td class="nowrap">{{ r.lodged }}</td><td class="nowrap"><a class="source" href="{{ r.source_href }}">{{ r.source_text }}</a></td></tr>
+{% endfor %}
+</tbody>
+</table>
+{% endcall %}
+{%- endmacro %}
+
+{# A simple table: head = [(label, is_num)], rows = [[cells]] (cells may be Markup). #}
+{% macro table(caption, head, rows, cls="") -%}
+{% call wrap(caption) %}
+<table{% if cls %} class="{{ cls }}"{% endif %}>
+<caption>{{ caption }}</caption>
+<thead><tr>{% for label, num in head %}<th scope="col"{% if num %} class="num"{% endif %}>{{ label }}</th>{% endfor %}</tr></thead>
+<tbody>
+{% for row in rows %}
+<tr>{% for cell in row %}<td{% if head[loop.index0][1] %} class="num"{% endif %}>{{ cell }}</td>{% endfor %}</tr>
+{% endfor %}
+</tbody>
+</table>
+{% endcall %}
+{%- endmacro %}
+
+{% macro labels_note(site) -%}
+<p class="note">{{ site.labels_note }}</p>
+{%- endmacro %}

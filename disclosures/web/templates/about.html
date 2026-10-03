@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% block main %}
+<p class="eyebrow">About</p>
+<h1>About this dataset</h1>
+<p class="lede">Australian federal MPs and senators must declare their interests (shareholdings, trusts, property, directorships, gifts, sponsored travel, memberships and more) in the Registers of Members' and Senators' Interests. The registers are public but published as scanned or typed PDF statements, one per member per parliament. This dataset turns them into one row per declared item, with a link to the page each item came from.</p>
+<p>The site describes what was declared. It does not estimate value or wealth, and it does not suggest that any declared interest is improper.</p>
+
+<h2 id="method">Method</h2>
+<ol class="prose">
+{% for step in method %}
+<li>{{ step }}</li>
+{% endfor %}
+</ol>
+
+<h2 id="accuracy">Accuracy</h2>
+{{ m.table("Gold-set scores for the House transcription (" ~ site.gold.pdfs ~ " PDFs, " ~ site.gold["items"] ~ " hand-checked items)", [("Measure", False), ("Score", True)], accuracy_rows, "accuracy") }}
+<p>Senate items come from the Senate register's structured data: no model is involved. Each item carries the transcriber's confidence; items marked medium or low confidence are flagged on every page.</p>
+
+<h2 id="prompts">Prompt versions</h2>
+<p>{{ prompts }}</p>
+
+<h2 id="limitations">Known limitations</h2>
+<ul class="prose" id="limitations-list">
+{% for l in limitations %}
+<li>{{ l }}</li>
+{% endfor %}
+</ul>
+
+<h2 id="labels">How to read the pages</h2>
+<ul class="prose">
+{% for l in labels %}
+<li>{{ l }}</li>
+{% endfor %}
+</ul>
+
+<h2 id="contact">Contact and code</h2>
+<p>Made by <a href="https://kevinrassool.com">Kevin Rassool</a>. Found an error? Open an issue in the <a href="{{ site.repo_url }}/issues">repository</a> with the member, the item and the page of the statement. The code, documentation and full build log are in the <a href="{{ site.repo_url }}">repository</a>.</p>
+
+<h2 id="changelog">Changelog</h2>
+<ul>
+{% for c in changelog %}
+<li><strong>{{ c.version }}</strong> (data loaded {{ c.loaded_at }}): {{ c.text }}</li>
+{% endfor %}
+</ul>
+{% endblock %}

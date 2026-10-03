@@ -148,3 +148,4 @@ Thumbs.db
 /web/sites/
 /web/test-results/
 /web/playwright-report/
+/web/dist/

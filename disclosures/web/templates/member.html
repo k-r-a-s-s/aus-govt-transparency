@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% block main %}
+<p class="eyebrow"><a href="/members/">Members</a> / {{ mem.chamber_label }}</p>
+<h1 id="member-name">{{ mem.name }}</h1>
+<p class="lede">{{ mem.lede }}</p>
+
+<h2>Terms</h2>
+{% call m.wrap("Terms") %}
+<table class="terms">
+<caption>Terms in the dataset. Party and bloc are as at the start of each term.</caption>
+<thead><tr><th scope="col">Parliament</th><th scope="col">Electorate or state</th><th scope="col">Party (start of term)</th><th scope="col">Bloc</th><th scope="col" class="num">Items</th></tr></thead>
+<tbody>
+{% for t in terms %}
+<tr><td><a href="/parliaments/{{ t.slug }}/">{{ t.register }}</a></td><td>{{ t.place }}</td><td>{{ t.party }}</td><td>{{ t.bloc }}</td><td class="num">{{ t["items"]|num }}</td></tr>
+{% endfor %}
+</tbody>
+</table>
+{% endcall %}
+
+<h2>Statements</h2>
+<p>The source documents: each register's statement, with the alterations bound into it.</p>
+{% call m.wrap("Statements") %}
+<table class="statements">
+<caption>Statements ({{ statements|length }})</caption>
+<thead><tr><th scope="col">Parliament</th><th scope="col">Statement date</th><th scope="col" class="num">Pages</th><th scope="col" class="num">Items</th><th scope="col">Source</th></tr></thead>
+<tbody>
+{% for d in statements %}
+<tr data-document="{{ d.sha256 }}"><td>{{ d.register }}</td><td>{{ d.date }}</td><td class="num">{{ d.pages }}</td><td class="num">{{ d["items"]|num }}</td><td><a class="source" href="{{ d.href }}">{{ d.text }}</a></td></tr>
+{% endfor %}
+</tbody>
+</table>
+{% endcall %}
+
+<h2>Declared interests</h2>
+<p><span id="item-count">{{ n_items|num }}</span> items, grouped by register section. {{ site.labels_note }}</p>
+{% if chart %}
+{{ m.chart(chart, "Items per section for " ~ mem.name ~ ", all parliaments.") }}
+{% endif %}
+{% for g in groups %}
+<h3 id="section-{{ g.section }}">{{ g.section }}. {{ g.name }}</h3>
+{{ m.items_table(g.rows, g.name ~ ": " ~ (g.rows|length|num) ~ (" item" if g.rows|length == 1 else " items")) }}
+{% endfor %}
+
+<h2>Alterations</h2>
+{% if alterations %}
+<p>Changes notified after the initial statement, by date lodged ({{ alterations|length|num }}).</p>
+<ul class="alterations">
+{% for a in alterations %}
+<li><time{% if a.datetime %} datetime="{{ a.datetime }}"{% endif %}>{{ a.lodged }}</time> {{ a.change }}, {{ a.section_name }} ({{ a.register }}{% if a.owner_note %}, {{ a.owner_note }}{% endif %}): {{ a.description }}</li>
+{% endfor %}
+</ul>
+{% else %}
+<p>No alterations in the dataset for this member.</p>
+{% endif %}
+
+<h2>About this page</h2>
+<p>{{ mem.honest }}</p>
+<p>Machine-readable: <a href="/members/{{ mem.id }}/items.json">items.json</a> (every item on this page, with the published CSV columns). <a href="/explore/?member={{ mem.id }}">Open in the explorer</a>.</p>
+{% endblock %}

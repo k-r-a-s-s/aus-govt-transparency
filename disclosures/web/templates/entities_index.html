@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% block main %}
+<p class="eyebrow">Entities</p>
+<h1>Companies, organisations and other entities</h1>
+<p class="lede">{{ rows|length|num }} standardised entities named in two or more items. Different spellings of the same name are folded into one entity; the match method says how.</p>
+<p class="note">{{ n_singletons|num }} names appear in one item only. They have no page here and are searchable in the <a href="/explore/">explorer</a>. One-off names are untyped.</p>
+<div class="filter" data-filter-for="entities-table" hidden>
+<label for="entities-filter">Filter by name, type or ASX code</label>
+<input type="search" id="entities-filter" autocomplete="off" spellcheck="false">
+<p class="count-line" aria-live="polite" data-filter-count></p>
+</div>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Entities with two or more items">
+<table id="entities-table" class="filterable">
+<caption>Entities with two or more items, by name</caption>
+<thead><tr><th scope="col">Entity</th><th scope="col">Type</th><th scope="col">ASX</th><th scope="col" class="num">Members</th><th scope="col" class="num">Items</th><th scope="col">Matched by</th></tr></thead>
+<tbody>
+{% for r in rows %}
+<tr><td><a href="/entities/{{ r.id }}/">{{ r.name }}</a></td><td>{{ r.type }}</td><td>{{ r.asx }}</td><td class="num">{{ r.members|num }}</td><td class="num">{{ r["items"]|num }}</td><td>{{ r.method }}</td></tr>
+{% endfor %}
+</tbody>
+</table>
+</div>
+{% endblock %}

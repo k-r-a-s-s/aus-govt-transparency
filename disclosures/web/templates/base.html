@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title }}</title>
+<meta name="description" content="{{ page.description }}">
+<meta name="color-scheme" content="light dark">
+{% if site.preview %}
+<meta name="robots" content="noindex,nofollow">
+{% endif %}
+<link rel="canonical" href="{{ site.site_url }}{{ page.path }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:title" content="{{ page.og_title or page.title }}">
+<meta property="og:description" content="{{ page.description }}">
+<meta property="og:url" content="{{ site.site_url }}{{ page.path }}">
+<meta property="og:locale" content="en_AU">
+<link rel="alternate" type="application/rss+xml" title="{{ site.name }}: dataset versions" href="/changes.xml">
+<link rel="preload" href="/fonts/young-serif-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/atkinson-hyperlegible-next-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{ site.css_href }}">
+{% if page.jsonld %}
+<script type="application/ld+json">
+{{ page.jsonld|safe }}
+</script>
+{% endif %}
+{% for name in page.scripts %}{% if site.js.get(name) %}
+<script type="module" src="{{ site.js[name] }}"></script>
+{% endif %}{% endfor %}
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+{% if site.preview %}
+<p class="preview-banner" role="note">Preview build, not the published dataset.</p>
+{% endif %}
+<header class="site-header">
+<a class="wordmark" href="https://kevinrassool.com" aria-label="Kevin Rassool, home">kr<span aria-hidden="true">.</span></a>
+<nav class="site-nav" aria-label="Main navigation">
+{% for key, href, label in site.nav %}
+<a href="{{ href }}"{% if key == page.nav %} aria-current="page"{% endif %}>{{ label }}</a>
+{% endfor %}
+</nav>
+</header>
+<main id="main">
+{% block main %}{% endblock %}
+</main>
+<footer class="site-footer">
+<p>Transcribed from the Parliament of Australia registers. Check the source before relying on any item.</p>
+<p>Dataset {{ site.version }}, data loaded {{ site.data_date }}.{% if site.doi %} DOI <a href="{{ site.doi_url }}">{{ site.doi }}</a>.{% endif %} Dataset licence CC BY 4.0; source documents published by the Parliament of Australia under CC BY-NC-ND 4.0. <a href="/about/">Method and limitations</a>. <a href="{{ site.repo_url }}">Source code and documentation</a>.</p>
+</footer>
+</body>
+</html>

@@ -175,4 +175,5 @@ def test_built_site_passes_check(tmp_path, mode):
     build(MINI_DB, MINI_MANIFEST, tmp_path / "s", mode=mode)
     fails, notes = check_site(tmp_path / "s", MINI_DB)
     assert fails == []
-    assert any("member-page-missing skipped" in n for n in notes)
+    assert not any("skipped" in n for n in notes if "member" in n)
+    assert (tmp_path / "s" / "members" / "wayne_swan" / "index.html").is_file()

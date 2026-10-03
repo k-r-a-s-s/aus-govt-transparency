@@ -6,8 +6,8 @@ Exit 0 when every rule passes, 1 when any rule fails (each failure is printed as
 
 Rules:
 
-- ``forbidden-file``: no ``.db``, ``.sqlite``, ``.sqlite3``, ``.csv``, ``.csv.gz`` or
-  ``.parquet`` file (the full data files belong on R2, ADR-W6).
+- ``forbidden-file``: no ``.db``, ``.sqlite``, ``.sqlite3``, ``.csv``, ``.csv.gz``, ``.jsonl``,
+  ``.jsonl.gz`` or ``.parquet`` file (the full data files belong on R2, ADR-W6).
 - ``file-too-large``: every file is at most 20 MiB (the asset limit is 25 MiB).
 - ``too-many-files``: at most 12,000 files (the free-plan limit is 20,000).
 - ``site-too-large``: at most 300 MiB in total.
@@ -24,21 +24,27 @@ Rules:
   and every listed file exists (the site was not edited after the build).
 - ``member-json-missing`` (with ``--db``): every member in the DB has ``members/<id>/items.json``.
 - ``member-page-missing`` (with ``--db``): every member in the DB has
-  ``members/<id>/index.html``. While no member page exists at all (a phase A build, before
-  phase B adds pages) the rule is reported as skipped and does not fail.
+  ``members/<id>/index.html``.
+- ``entity-page-missing`` (with ``--db``): every entity with 2 or more items has
+  ``entities/<id>/index.html``.
+- ``sitemap-missing-page``: every HTML page except ``404.html`` is listed in ``sitemap.xml``
+  (by path; the sitemap's absolute URLs are compared on their path).
+- ``canonical-missing``: every HTML page has a ``<link rel="canonical">`` with an absolute
+  http(s) URL.
 
 HTML rules pass vacuously when the site has no HTML.
 """
 from __future__ import annotations
 
 import hashlib
+import html
 import json
 import re
 import sqlite3
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import List, Optional, Tuple
-from urllib.parse import quote
+from urllib.parse import quote, urlsplit
 
 from .build import HEADERS_NAME, MANIFEST_NAME, MODES
 
@@ -47,7 +53,8 @@ MAX_FILE = 20 * MiB
 MAX_FILES = 12_000
 MAX_TOTAL = 300 * MiB
 MAX_HTML = 2 * MiB
-FORBIDDEN_SUFFIXES = (".db", ".sqlite", ".sqlite3", ".csv", ".csv.gz", ".parquet")
+FORBIDDEN_SUFFIXES = (".db", ".sqlite", ".sqlite3", ".csv", ".csv.gz", ".jsonl", ".jsonl.gz",
+                      ".parquet")
 FOOTER_CLASS = "site-footer"
 FOOTER_LICENCE = "CC BY 4.0"
 FOOTER_MARKER = f'<footer class="{FOOTER_CLASS}"'
@@ -55,7 +62,10 @@ FOOTER_MARKER = f'<footer class="{FOOTER_CLASS}"'
 RULES = ("forbidden-file", "file-too-large", "too-many-files", "site-too-large",
          "html-too-large", "footer-missing", "external-asset", "noindex-in-production",
          "noindex-missing-in-preview", "manifest-mismatch", "member-json-missing",
-         "member-page-missing")
+         "member-page-missing", "entity-page-missing", "sitemap-missing-page",
+         "canonical-missing")
+SITEMAP_NAME = "sitemap.xml"
+NOT_IN_SITEMAP = ("404.html",)
 
 
 class CheckInputError(ValueError):
@@ -78,6 +88,7 @@ class _PageScan(HTMLParser):
         self.footer_depth = 0
         self.footer_found = False
         self.footer_text: List[str] = []
+        self.canonical: Optional[str] = None
 
     def handle_starttag(self, tag, attrs):
         a = {k.lower(): (v or "") for k, v in attrs}
@@ -87,6 +98,8 @@ class _PageScan(HTMLParser):
             rel = set(a.get("rel", "").lower().split())
             if rel & {"stylesheet", "preload", "modulepreload"} and _is_external(a.get("href")):
                 self.external.append(f"<link rel={a.get('rel')} href={a['href']}>")
+            if "canonical" in rel and self.canonical is None:
+                self.canonical = a.get("href", "")
         elif tag == "meta" and a.get("name", "").lower() in ("robots", "googlebot") and \
                 "noindex" in a.get("content", "").lower():
             self.noindex = True
@@ -122,17 +135,36 @@ def headers_noindex(text: str) -> bool:
                for line in text.splitlines() if not line.lstrip().startswith("#"))
 
 
-def _db_member_ids(db: Path) -> List[str]:
+def _db_ids(db: Path) -> Tuple[List[str], List[str]]:
+    """(member ids, ids of entities with 2 or more items) from the DB, read-only."""
     if not db.is_file():
         raise CheckInputError(f"--db {db} not found")
     try:
         con = sqlite3.connect(f"file:{quote(str(db.resolve()))}?mode=ro", uri=True)
         try:
-            return [r[0] for r in con.execute("select member_id from members order by 1")]
+            members = [r[0] for r in con.execute("select member_id from members order by 1")]
+            entities = [r[0] for r in con.execute(
+                "select entity_id from items where entity_id is not null group by 1 "
+                "having count(*) >= 2 order by 1")]
+            return members, entities
         finally:
             con.close()
     except sqlite3.DatabaseError as e:
         raise CheckInputError(f"--db {db}: {e}") from e
+
+
+def page_path(rel: str) -> str:
+    """Site path of an HTML file: ``index.html`` -> ``/``, ``a/index.html`` -> ``/a/``."""
+    if rel == "index.html":
+        return "/"
+    if rel.endswith("/index.html"):
+        return "/" + rel[:-len("index.html")]
+    return "/" + rel
+
+
+def sitemap_paths(text: str) -> set:
+    return {urlsplit(html.unescape(m)).path or "/"
+            for m in re.findall(r"<loc>\s*([^<\s]+)\s*</loc>", text)}
 
 
 def check_site(site: str | Path, db: str | Path | None = None) -> Tuple[List[Tuple[str, str]],
@@ -148,7 +180,7 @@ def check_site(site: str | Path, db: str | Path | None = None) -> Tuple[List[Tup
     mode = manifest.get("mode") if isinstance(manifest, dict) else None
     if mode not in MODES:
         raise CheckInputError(f"{MANIFEST_NAME}: mode is {mode!r}, expected one of {MODES}")
-    ids = _db_member_ids(Path(db)) if db is not None else None
+    ids, entity_ids = _db_ids(Path(db)) if db is not None else (None, None)
 
     fails: List[Tuple[str, str]] = []
     notes: List[str] = [f"mode: {mode}"]
@@ -199,6 +231,12 @@ def check_site(site: str | Path, db: str | Path | None = None) -> Tuple[List[Tup
     html = [(p, rel, size) for p, rel, size in zip(files, rels, sizes)
             if rel.lower().endswith((".html", ".htm"))]
     notes.append(f"{len(html):,} HTML pages")
+    in_sitemap: Optional[set] = None
+    if html:
+        try:
+            in_sitemap = sitemap_paths((site / SITEMAP_NAME).read_text(encoding="utf-8"))
+        except OSError:
+            fail("sitemap-missing-page", f"{SITEMAP_NAME} is missing")
     for p, rel, size in html:
         if size > MAX_HTML:
             fail("html-too-large", f"{rel} is {size / MiB:.2f} MiB (max 2 MiB)")
@@ -212,6 +250,12 @@ def check_site(site: str | Path, db: str | Path | None = None) -> Tuple[List[Tup
             fail("noindex-in-production", f"{rel} has a robots noindex meta")
         if mode == "preview" and not scan.noindex:
             fail("noindex-missing-in-preview", f"{rel} has no robots noindex meta")
+        canon = urlsplit(scan.canonical or "")
+        if canon.scheme not in ("http", "https") or not canon.netloc:
+            fail("canonical-missing", f"{rel} has no absolute <link rel=canonical>")
+        if in_sitemap is not None and rel not in NOT_IN_SITEMAP and \
+                page_path(rel) not in in_sitemap:
+            fail("sitemap-missing-page", f"{rel} ({page_path(rel)}) is not in {SITEMAP_NAME}")
 
     # members (needs --db)
     if ids is None:
@@ -221,13 +265,12 @@ def check_site(site: str | Path, db: str | Path | None = None) -> Tuple[List[Tup
         for mid in ids:
             if f"members/{mid}/items.json" not in relset:
                 fail("member-json-missing", f"members/{mid}/items.json")
-        pages = [r for r in rels if re.fullmatch(r"members/[^/]+/index\.html", r)]
-        if not pages:
-            notes.append("member-page-missing skipped: no member pages built yet (phase A)")
-        else:
-            for mid in ids:
-                if f"members/{mid}/index.html" not in relset:
-                    fail("member-page-missing", f"members/{mid}/index.html")
+        for mid in ids:
+            if f"members/{mid}/index.html" not in relset:
+                fail("member-page-missing", f"members/{mid}/index.html")
+        for eid in entity_ids:
+            if f"entities/{eid}/index.html" not in relset:
+                fail("entity-page-missing", f"entities/{eid}/index.html")
     return fails, notes
 
 

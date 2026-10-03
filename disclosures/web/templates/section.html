@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% block main %}
+<p class="eyebrow">Register section {{ sec.section }} of 14</p>
+<h1>{{ sec.section }}. {{ sec.name }}</h1>
+<dl class="facts">
+<div><dt>House form wording</dt><dd id="house-wording">{{ sec.house }}</dd></div>
+<div><dt>Senate register</dt><dd id="senate-wording">{{ sec.senate }}</dd></div>
+<div><dt>Items</dt><dd id="section-items">{{ sec["items"]|num }}</dd></div>
+</dl>
+<p class="note">{{ sec.note }}</p>
+<div class="links-row"><a class="button" href="/explore/?section={{ sec.section }}">Explore section {{ sec.section }} items</a></div>
+
+<h2>Items by parliament and bloc</h2>
+{{ m.chart(chart, "Items in section " ~ sec.section ~ " per register, by bloc (party at the start of the term).") }}
+{{ m.table("Items in this section per register by bloc", head, rows, "section-parliament-bloc") }}
+
+<h2>Most named entities in this section</h2>
+{% if top_rows %}
+{{ m.table("Top entities in this section by distinct members", [("Entity", False), ("Members", True), ("Items", True)], top_rows, "section-top-entities") }}
+{% else %}
+<p>No standardised entity is named in this section.</p>
+{% endif %}
+<p class="note">{{ sec.no_entity|num }} items in this section name no entity (for example a house address or a generic term).</p>
+
+<h2>Other sections</h2>
+<ul>
+{% for o in others %}
+<li><a href="/sections/{{ o.section }}/">{{ o.section }}. {{ o.name }}</a></li>
+{% endfor %}
+</ul>
+{% endblock %}

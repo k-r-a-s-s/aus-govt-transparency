@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% block main %}
+<p class="eyebrow">Open data, {{ site.version }}</p>
+<h1>Australian Parliament Registers of Interests</h1>
+<p class="lede">Every interest that federal MPs and senators declared in the Registers of Members' and Senators' Interests, transcribed item by item from the official statements. Each item links to the page of the statement it came from, so you can check it.</p>
+
+<dl class="headline" id="headline">
+<div><dt>Items</dt><dd data-key="items">{{ s["items"]|num }}</dd></div>
+<div><dt>Members</dt><dd data-key="members">{{ s.members|num }}</dd></div>
+<div><dt>Statements</dt><dd data-key="statements">{{ s.statements|num }}</dd></div>
+<div><dt>Parliaments</dt><dd data-key="parliaments">{{ s.parliaments }}</dd></div>
+<div><dt>Entities</dt><dd data-key="entities">{{ s.entities|num }}</dd></div>
+<div><dt>Data loaded</dt><dd data-key="data_date">{{ s.data_date }}</dd></div>
+</dl>
+<p class="note">House of Representatives, 43rd to 48th parliaments (2010 to now). Senate: 48th parliament only. Counts are counts of declared items, not of their value.</p>
+
+<div class="links-row">
+<a class="button" href="/explore/">Explore and filter the items</a>
+<a class="button" href="/members/">Find a member</a>
+<a class="button" href="/entities/">Find a company or organisation</a>
+<a class="button" href="/data/">Download the data</a>
+</div>
+
+<h2>Coverage</h2>
+{{ m.table("Members, statements and items per register", [("Register", False), ("Members", True), ("Statements", True), ("Items", True)], coverage_rows, "coverage") }}
+
+<h2>Items per section</h2>
+<p>The register form has 14 numbered sections. Each bar is split by the member's bloc in that parliament (party at the start of the term).</p>
+{{ m.chart(charts.sections, "Items per section, split by bloc. Source: data/summary.json.") }}
+<details>
+<summary>Table: items per section by bloc</summary>
+{{ m.table("Items per section by bloc", section_head, section_rows, "section-bloc") }}
+</details>
+
+<h2>Most widely held entities</h2>
+<p>The 15 standardised entities named by the most members, across all parliaments.</p>
+{{ m.chart(charts.top_entities, "Distinct members naming each entity. Source: data/summary.json.") }}
+<details>
+<summary>Table: top 15 entities</summary>
+{{ m.table("Top 15 entities by distinct members", [("Entity", False), ("Members", True), ("Items", True)], top_rows, "top-entities") }}
+</details>
+
+<h2>Whose interests</h2>
+<p>Each item is the member's own, their spouse or partner's, or a dependent child's. Senate items are the senator's own only: the part of the Senate form about family is confidential.</p>
+{{ m.chart(charts.owner, "Items per register by owner. Source: data/summary.json.") }}
+<details>
+<summary>Table: items per register by owner</summary>
+{{ m.table("Items per register by owner", owner_head, owner_rows, "parliament-owner") }}
+</details>
+
+<h2>Changes after the first statement</h2>
+<p>Members must notify changes during a term (an alteration). The share of items that come from alterations, per register.</p>
+{{ m.chart(charts.alterations, "Share of items that are alterations. Source: data/summary.json.") }}
+<details>
+<summary>Table: alterations per register</summary>
+{{ m.table("Alterations per register", [("Register", False), ("Items", True), ("Alterations", True), ("Share", True)], alt_rows, "alterations-share") }}
+</details>
+
+<h2>How it was made, and how to cite it</h2>
+<p>House statements were transcribed from the PDFs by a language model and checked against a hand-checked gold set (precision {{ site.gold.precision }}, recall {{ site.gold.recall }}). Senate items come from the Parliament's structured Senate register. Expect roughly 1 to 2% of items to be missed or misread; items with medium or low transcription confidence are marked. <a href="/about/">Method, accuracy and known limitations</a>.</p>
+<pre class="cite">{{ site.cite }}</pre>
+<p>Dataset licence: CC BY 4.0 (to the extent we hold rights). The source statements are published by the Parliament of Australia under CC BY-NC-ND 4.0. <a href="/data/#licences">Licences and attribution</a>.</p>
+{% endblock %}

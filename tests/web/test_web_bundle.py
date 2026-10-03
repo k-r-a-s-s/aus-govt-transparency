@@ -149,7 +149,7 @@ def test_per_member_and_entity_items_json(mini_site):
     with_page = {r[0] for r in con.execute(
         "select entity_id from items where entity_id is not null group by 1 "
         "having count(*) >= 2")}
-    on_disk = {p.name for p in (mini_site / "entities").iterdir()}
+    on_disk = {p.name for p in (mini_site / "entities").iterdir() if p.is_dir()}
     assert on_disk == with_page
     for eid in with_page:
         assert load_json(mini_site / "entities" / eid / "items.json") == by_e[eid]
@@ -160,7 +160,8 @@ def test_search_json(mini_site):
     con = ro(MINI_DB)
     assert [m[0] for m in s["members"]] == [r[0] for r in con.execute(
         "select member_id from members order by 1")]
-    assert {e[0] for e in s["entities"]} == {p.name for p in (mini_site / "entities").iterdir()}
+    assert {e[0] for e in s["entities"]} == {p.name for p in (mini_site / "entities").iterdir()
+                                            if p.is_dir()}
 
 
 def test_summary_json_equals_sql(mini_site):
@@ -224,7 +225,7 @@ def test_real_counts(real_site):
     assert (s["items"], s["members"], s["statements"], s["entities"]) == \
         (50936, 408, 995, 11542)
     assert s["entities_with_page"] == 4448
-    assert len(list((real_site / "entities").iterdir())) == 4448
-    assert len(list((real_site / "members").iterdir())) == 408
+    assert len([p for p in (real_site / "entities").iterdir() if p.is_dir()]) == 4448
+    assert len([p for p in (real_site / "members").iterdir() if p.is_dir()]) == 408
     c = Counter(d["url_class"] for d in load_json(real_site / "data" / "documents.json"))
     assert c["senate-json"] == 76

@@ -111,6 +111,44 @@ order by i.chamber, i.parliament, i.member_id, d.pdf_path, i.page, i.section, i.
 """
 
 
+# The README's method and known-limitations prose (Markdown), shared with the public site's
+# /about/ page (disclosures/web/pages.py) so the two never drift. Placeholders: ``n_ent`` (all
+# entities) and ``n_untyped`` (entities with no type), filled by ``str.format``.
+README_METHOD = """1. **Collect.** House statements are the PDFs on aph.gov.au (archived registers for the
+   43rd-47th parliaments, the live register for the 48th); `source_url` points at each one.
+   Senate statements come from the Parliament's senators' interests API (JSON).
+2. **Transcribe.** Each House PDF (initial statement plus every alteration bound into it) was
+   transcribed by `google/gemini-3.8-flash` into a strict JSON schema, one item per disclosed
+   interest, with `anthropic/claude-sonnet-5.5` taking any pages Gemini refused. On a 12-PDF
+   hand-checked gold set (790 items) this scored precision 0.986, recall 0.987 (F1 0.987),
+   with 100% owner and page accuracy. Senate items are mapped from the API's fields; no
+   model is involved.
+3. **Validate and load.** Every transcription passes a schema and completeness check
+   (every page covered, every item on a real page) before loading. Members are matched across
+   parliaments and chambers to one `member_id`; party and bloc come from a per-term table.
+4. **Standardise entities.** Entity names are normalised, then resolved in order: a curated
+   alias table (the most common names), the ASX listed-companies list, an LLM grouping of
+   spelling variants, and finally one entity per remaining one-off name. {n_ent:,} entities."""
+
+README_LIMITATIONS = """- **Senate before the 48th parliament is missing.** Earlier Senate registers exist only as
+  tabled volumes and are not in this release.
+- **Two prompt versions.** Most House statements for the 43rd-47th parliaments were
+  transcribed with prompt v0. Prompt v1 adds one rule (C12): itemise lists bound in as
+  attachments ("see attached"). Only the 7 statements found to have un-itemised attachments
+  were re-run on v1 (`coultonm_43p`, `nevillep_43p`, `coultonm_44p`, `huntg_44p`, `pynec_44p`,
+  `coultonm_45p`, `odowdk45p`); the whole 48th House register used v1. A few other v0
+  statements may still describe an attachment in one item instead of itemising it.
+- **One-off entities are untyped.** {n_untyped:,} of the {n_ent:,} entities are names that
+  appear once; each is its own entity with an empty `entity_type`.
+- **ASX matching is name-based.** A listed company whose snapshot name differs from the name
+  the LLM chose may be typed `other` with no `entity_asx_code`.
+- **Transcription is not perfect.** Expect roughly 1-2% of items to be missed or misread,
+  more on poor scans (43rd-45th parliaments); `extraction_confidence` flags the doubtful ones.
+  Check anything important against the source PDF (`source_url`, `page`).
+- **Dates.** `lodged_date` is empty when no date is printed (`date_precision = unknown`).
+- **Party** is the party at the start of each term; mid-term defections are not tracked."""
+
+
 def manifest_urls(path: Path) -> Dict[str, str]:
     """sha256 -> source_url from pdfs/manifest.csv (load leaves documents.source_url empty)."""
     if not path.exists():
@@ -156,6 +194,8 @@ def render_readme(con: sqlite3.Connection, n_rows: int) -> str:
     fields = "\n".join(f"| `{name}` | {typ} | {desc} |" for name, typ, desc in COLUMNS)
     n_ent = con.execute("select count(*) from entities").fetchone()[0]
     n_untyped = con.execute("select count(*) from entities where entity_type is null").fetchone()[0]
+    method = README_METHOD.format(n_ent=n_ent)
+    limitations = README_LIMITATIONS.format(n_ent=n_ent, n_untyped=n_untyped)
     return f"""# Australian Parliament Registers of Members' and Senators' Interests (v2)
 
 Every interest Australian federal MPs and senators disclosed in the Registers of Interests,
@@ -186,41 +226,11 @@ Empty cells are nulls.
 
 ## Method
 
-1. **Collect.** House statements are the PDFs on aph.gov.au (archived registers for the
-   43rd-47th parliaments, the live register for the 48th); `source_url` points at each one.
-   Senate statements come from the Parliament's senators' interests API (JSON).
-2. **Transcribe.** Each House PDF (initial statement plus every alteration bound into it) was
-   transcribed by `google/gemini-3.8-flash` into a strict JSON schema, one item per disclosed
-   interest, with `anthropic/claude-sonnet-5.5` taking any pages Gemini refused. On a 12-PDF
-   hand-checked gold set (790 items) this scored precision 0.986, recall 0.987 (F1 0.987),
-   with 100% owner and page accuracy. Senate items are mapped from the API's fields; no
-   model is involved.
-3. **Validate and load.** Every transcription passes a schema and completeness check
-   (every page covered, every item on a real page) before loading. Members are matched across
-   parliaments and chambers to one `member_id`; party and bloc come from a per-term table.
-4. **Standardise entities.** Entity names are normalised, then resolved in order: a curated
-   alias table (the most common names), the ASX listed-companies list, an LLM grouping of
-   spelling variants, and finally one entity per remaining one-off name. {n_ent:,} entities.
+{method}
 
 ## Known limitations
 
-- **Senate before the 48th parliament is missing.** Earlier Senate registers exist only as
-  tabled volumes and are not in this release.
-- **Two prompt versions.** Most House statements for the 43rd-47th parliaments were
-  transcribed with prompt v0. Prompt v1 adds one rule (C12): itemise lists bound in as
-  attachments ("see attached"). Only the 7 statements found to have un-itemised attachments
-  were re-run on v1 (`coultonm_43p`, `nevillep_43p`, `coultonm_44p`, `huntg_44p`, `pynec_44p`,
-  `coultonm_45p`, `odowdk45p`); the whole 48th House register used v1. A few other v0
-  statements may still describe an attachment in one item instead of itemising it.
-- **One-off entities are untyped.** {n_untyped:,} of the {n_ent:,} entities are names that
-  appear once; each is its own entity with an empty `entity_type`.
-- **ASX matching is name-based.** A listed company whose snapshot name differs from the name
-  the LLM chose may be typed `other` with no `entity_asx_code`.
-- **Transcription is not perfect.** Expect roughly 1-2% of items to be missed or misread,
-  more on poor scans (43rd-45th parliaments); `extraction_confidence` flags the doubtful ones.
-  Check anything important against the source PDF (`source_url`, `page`).
-- **Dates.** `lodged_date` is empty when no date is printed (`date_precision = unknown`).
-- **Party** is the party at the start of each term; mid-term defections are not tracked.
+{limitations}
 
 ## Source and licence
 

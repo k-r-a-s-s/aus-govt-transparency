@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% block main %}
+<p class="eyebrow"><a href="/entities/">Entities</a> / {{ ent.type_label }}</p>
+<h1 id="entity-name">{{ ent.name }}</h1>
+<p class="lede">Named in <span id="entity-items">{{ ent["items"]|num }}</span> declared items by <span id="entity-members">{{ ent.members|num }}</span> {{ "member" if ent.members == 1 else "members" }}. An entity is a company, organisation, trust or person that the register names; different spellings of the same name are folded into one entity.</p>
+
+<dl class="facts">
+<div><dt>Type</dt><dd id="entity-type">{{ ent.type_label }}</dd></div>
+{% if ent.asx %}<div><dt>ASX code</dt><dd id="entity-asx">{{ ent.asx }}</dd></div>{% endif %}
+<div><dt>How it was matched</dt><dd id="entity-method">{{ ent.method_words }}</dd></div>
+</dl>
+
+<h2>Printed names folded into this entity</h2>
+<p>The names as printed on the statements that resolve to this entity, and the normalised forms in the alias table.</p>
+{% call m.wrap("Printed names") %}
+<table class="variants">
+<caption>Names as printed ({{ variants|length }})</caption>
+<thead><tr><th scope="col">Name as printed</th><th scope="col" class="num">Items</th></tr></thead>
+<tbody>
+{% for v in variants %}
+<tr><td>{{ v.name }}</td><td class="num">{{ v["items"]|num }}</td></tr>
+{% endfor %}
+</tbody>
+</table>
+{% endcall %}
+{% if aliases %}
+<details>
+<summary>Alias table entries ({{ aliases|length }})</summary>
+<ul class="aliases">
+{% for a in aliases %}
+<li><code>{{ a.alias }}</code> ({{ a.method_words }}{% if a.confidence %}, confidence {{ a.confidence }}{% endif %})</li>
+{% endfor %}
+</ul>
+</details>
+{% endif %}
+
+<h2>Members by parliament</h2>
+<p>Distinct members naming this entity in each register, by bloc (party at the start of the term).</p>
+{{ m.chart(chart, "Distinct members naming " ~ ent.name ~ ", per register, by bloc.") }}
+{{ m.table("Distinct members per register by bloc", by_reg_head, by_reg_rows, "members-by-parliament") }}
+
+<h3>Members</h3>
+{{ m.table("Members naming this entity", [("Member", False), ("Parliaments", False), ("Items", True)], member_rows, "entity-members") }}
+
+<h2>Items</h2>
+<p>{{ site.labels_note }}</p>
+{% for g in groups %}
+<h3 id="section-{{ g.section }}">{{ g.section }}. {{ g.name }}</h3>
+{{ m.items_table(g.rows, g.name ~ ": " ~ (g.rows|length|num) ~ (" item" if g.rows|length == 1 else " items"), show_member=True) }}
+{% endfor %}
+
+<h2>About this page</h2>
+<p>{{ ent.honest }}</p>
+<p>Machine-readable: <a href="/entities/{{ ent.id }}/items.json">items.json</a> (every item on this page, with the published CSV columns). <a href="/explore/?entity={{ ent.id }}">Open in the explorer</a>.</p>
+{% endblock %}

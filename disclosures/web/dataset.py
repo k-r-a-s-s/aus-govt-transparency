@@ -70,7 +70,8 @@ class Dataset:
         try:
             _guard_v1(self.db_path)
         except ValueError as e:
-            raise DatasetError(f"{self.db_path}: the web build reads the v2 DB only ({e})") from e
+            raise DatasetError(f"{self.db_path}: refusing to open the frozen v1 database; the "
+                               f"web build reads the v2 DB only") from e
         if not self.db_path.is_file():
             raise DatasetError(f"{self.db_path} not found")
         if not self.manifest_path.is_file():

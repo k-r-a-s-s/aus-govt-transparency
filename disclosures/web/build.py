@@ -1,35 +1,48 @@
 """``web build``: render the site into a fresh ``--out`` directory.
 
 Read-only on its inputs (AC-A3): the DB is opened ``mode=ro`` and nothing is written beside the
-DB or the manifest. The site is staged in a hidden sibling of ``--out`` and renamed into place
-only when complete. An ``--out`` that exists and is not empty is refused before anything is
-written (exit 2).
+DB or the manifest. An ``--out`` that exists and is not empty is refused before anything is
+written (exit 2). The site is staged in ``<out>/.staging-<pid>`` and its contents moved up into
+``<out>`` only when complete, so nothing is ever written or deleted outside ``--out``; on error
+the staging dir is removed (and ``<out>`` too when this build created it).
 
-Phase A writes the data layer (``data/*.json``, the per-page ``items.json``), ``_headers`` and
-``web-manifest.json``. Pages arrive in phase B.
+Writes the data layer (``data/*.json``, the per-page ``items.json``), every HTML page
+(``pages.py``), the static assets (CSS with a content hash, fonts, and the ``web/dist`` JS
+bundle when it has been built), ``sitemap.xml``, ``robots.txt``, ``changes.xml``,
+``_headers`` and ``web-manifest.json``.
 """
 from __future__ import annotations
 
 import datetime as dt
 import hashlib
+import json
 import os
 import shutil
 from pathlib import Path
+from typing import Dict, Optional, Tuple
 from urllib.parse import urlsplit
 
 from . import WEB_BUNDLE_VERSION
+from . import metadata as MD
 from .bundle import dumps, write, write_data
 from .dataset import Dataset, sha256_file
 
 MODES = ("preview", "production")
 DEFAULT_DATA_BASE = "https://data.kevinrassool.com/interests/"
+DEFAULT_SITE_URL = "https://interests.kevinrassool.com"
 MANIFEST_NAME = "web-manifest.json"
 HEADERS_NAME = "_headers"
-ASSETS_DIR = "assets"  # content-hashed JS/CSS (phase B); cached for a year
+ASSETS_DIR = "assets"  # content-hashed JS/CSS; cached for a year
+FONTS_DIR = "fonts"
+STATIC_DIR = Path(__file__).parent / "static"
+WEB_DIST = Path(__file__).resolve().parents[2] / "web" / "dist"
+MiB = 1024 * 1024
+MAX_FILES = 12_000
+MAX_TOTAL = 300 * MiB
 
 
 class BuildError(ValueError):
-    """Bad input or clobber guard (exit 2)."""
+    """Bad input, clobber guard or a site over the size limits (exit 2)."""
 
 
 def render_headers(mode: str) -> str:
@@ -80,25 +93,105 @@ def _check_data_base(data_base: str) -> None:
         raise BuildError(f"--data-base must be an http(s) URL ending in '/': {data_base!r}")
 
 
+def _check_site_url(site_url: str) -> str:
+    u = urlsplit(site_url)
+    if u.scheme not in ("http", "https") or not u.netloc or u.query or u.fragment or \
+            u.path.strip("/"):
+        raise BuildError(f"--site-url must be an http(s) origin such as {DEFAULT_SITE_URL}: "
+                         f"{site_url!r}")
+    return f"{u.scheme}://{u.netloc}"
+
+
+def _check_doi(doi: Optional[str]) -> Optional[str]:
+    if doi is None:
+        return None
+    d = doi.strip()
+    for prefix in ("https://doi.org/", "http://doi.org/", "doi:"):
+        if d.lower().startswith(prefix):
+            d = d[len(prefix):]
+    if not d.startswith("10.") or "/" not in d or any(c.isspace() for c in d):
+        raise BuildError(f"--doi must look like 10.<registrant>/<suffix>: {doi!r}")
+    return d
+
+
+def _hashed(data: bytes) -> str:
+    return hashlib.sha256(data).hexdigest()[:8]
+
+
+def copy_assets(stage: Path, web_dist: Path = WEB_DIST) -> Tuple[str, Dict[str, str]]:
+    """Copy the CSS (content-hashed), fonts and any built JS into the site.
+
+    Returns (CSS href, {JS entry name: href}). JS is optional: without ``web/dist`` (a CI
+    runner without Node) every page still renders, minus the progressive enhancements.
+    """
+    css = (STATIC_DIR / "style.css").read_bytes()
+    css_rel = f"{ASSETS_DIR}/style.{_hashed(css)}.css"
+    write(stage, css_rel, css)
+    for f in sorted((STATIC_DIR / "fonts").iterdir()):
+        if f.suffix in (".woff2", ".txt"):
+            write(stage, f"{FONTS_DIR}/{f.name}", f.read_bytes())
+    js: Dict[str, str] = {}
+    if web_dist.is_dir():
+        for f in sorted(web_dist.glob("*.js")):
+            data = f.read_bytes()
+            rel = f"{ASSETS_DIR}/{f.stem}.{_hashed(data)}.js"
+            write(stage, rel, data)
+            js[f.stem] = "/" + rel
+    return "/" + css_rel, js
+
+
+def _measure(root: Path) -> Tuple[int, int, int, int]:
+    """(files, bytes, html files, html bytes) under root."""
+    n = size = n_html = html = 0
+    for p in root.rglob("*"):
+        if p.is_file():
+            s = p.stat().st_size
+            n, size = n + 1, size + s
+            if p.suffix == ".html":
+                n_html, html = n_html + 1, html + s
+    return n, size, n_html, html
+
+
 def build(db: str | Path, manifest: str | Path, out: str | Path, mode: str = "preview",
-          data_base: str = DEFAULT_DATA_BASE) -> dict:
+          data_base: str = DEFAULT_DATA_BASE, site_url: str = DEFAULT_SITE_URL,
+          doi: Optional[str] = None, data_files: str | Path | None = None,
+          web_dist: str | Path | None = None) -> dict:
+    """Build the site. ``data_files`` is an optional local folder holding the R2 data files
+    (e.g. a ``publish-data`` output); when given, ``/data/`` prints their sizes and sha256."""
+    from .pages import SiteConfig, render_site
+
     db, manifest, out = Path(db), Path(manifest), Path(out)
     if mode not in MODES:
         raise BuildError(f"--mode must be one of {MODES}")
     _check_data_base(data_base)
+    site_url = _check_site_url(site_url)
+    doi = _check_doi(doi)
+    data_files = Path(data_files) if data_files is not None else None
+    if data_files is not None and not data_files.is_dir():
+        raise BuildError(f"--data-files {data_files} is not a directory")
     _check_out(out)
     with Dataset(db, manifest) as ds:
         # Fail on bad input (missing URL, unsafe id) before touching the filesystem.
         ds.documents()
         ds.members()
         ds.entities()
-        out.parent.mkdir(parents=True, exist_ok=True)
-        stage = out.parent / f".{out.name}.tmp-{os.getpid()}"
-        if stage.exists():
-            shutil.rmtree(stage)
+        created = not out.exists()
+        out.mkdir(parents=True, exist_ok=True)
+        stage = out / f".staging-{os.getpid()}"
         stage.mkdir()
         try:
             stats = write_data(ds, stage)
+            css_href, js = copy_assets(stage, Path(web_dist) if web_dist else WEB_DIST)
+            cfg = SiteConfig(mode=mode, site_url=site_url, data_base=data_base, doi=doi,
+                             css_href=css_href, js=js, data_files=data_files)
+            pages = render_site(ds, stage, cfg)
+            summary_meta = ds.meta()
+            summary = json.loads((stage / "data" / "summary.json").read_text(encoding="utf-8"))
+            write(stage, "sitemap.xml",
+                  MD.sitemap_xml(site_url, pages, summary.get("data_date")).encode("utf-8"))
+            write(stage, "robots.txt", MD.robots_txt(mode, site_url).encode("utf-8"))
+            write(stage, "changes.xml",
+                  MD.changes_xml(site_url, summary, summary_meta).encode("utf-8"))
             write(stage, HEADERS_NAME, render_headers(mode).encode("utf-8"))
             files = file_index(stage)
             manifest_doc = {
@@ -106,28 +199,39 @@ def build(db: str | Path, manifest: str | Path, out: str | Path, mode: str = "pr
                 "mode": mode,
                 "built_at": build_time(),
                 "data_base": data_base,
+                "site_url": site_url,
+                "doi": doi,
+                "dataset_version": MD.dataset_version(summary_meta),
                 "inputs": {
                     "db": {"name": db.name, "sha256": ds.db_sha256, "size": db.stat().st_size},
                     "manifest": {"name": manifest.name, "sha256": ds.manifest_sha256,
                                  "size": manifest.stat().st_size},
                 },
-                "meta": ds.meta(),
-                "counts": stats,
+                "meta": summary_meta,
+                "counts": {**stats, "pages": len(pages) + 1},
+                "assets": {"css": css_href, "js": js},
                 "files": files,
             }
             write(stage, MANIFEST_NAME, dumps(manifest_doc, pretty=True))
-            _check_out(out)  # nothing appeared meanwhile
-            if out.exists():
-                out.rmdir()
-            stage.rename(out)
+            n_files, total, n_html, html_bytes = _measure(stage)
+            if n_files > MAX_FILES:
+                raise BuildError(f"site has {n_files:,} files (max {MAX_FILES:,})")
+            if total > MAX_TOTAL:
+                raise BuildError(f"site is {total / MiB:.1f} MiB (max {MAX_TOTAL // MiB} MiB)")
+            for child in sorted(stage.iterdir()):
+                child.rename(out / child.name)
+            stage.rmdir()
         except BaseException:
             shutil.rmtree(stage, ignore_errors=True)
+            if created and out.is_dir() and not any(out.iterdir()):
+                out.rmdir()
             raise
-    stats["files"] = len(files) + 1
-    stats["bytes"] = sum(f["size"] for f in files.values()) + (out / MANIFEST_NAME).stat().st_size
-    stats["out"] = str(out)
+    stats.update({"files": n_files, "bytes": total, "html_files": n_html,
+                  "html_bytes": html_bytes, "pages": len(pages) + 1, "out": str(out),
+                  "js": sorted(js)})
     return stats
 
 
-__all__ = ["build", "BuildError", "MODES", "DEFAULT_DATA_BASE", "render_headers",
-           "file_index", "sha256_file", "MANIFEST_NAME", "HEADERS_NAME", "ASSETS_DIR"]
+__all__ = ["build", "BuildError", "MODES", "DEFAULT_DATA_BASE", "DEFAULT_SITE_URL",
+           "render_headers", "file_index", "sha256_file", "MANIFEST_NAME", "HEADERS_NAME",
+           "ASSETS_DIR", "copy_assets"]

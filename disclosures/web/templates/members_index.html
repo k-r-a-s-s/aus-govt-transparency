@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% block main %}
+<p class="eyebrow">Members</p>
+<h1>Members and senators</h1>
+<p class="lede">{{ rows|length|num }} members with a statement in the dataset: House of Representatives, 43rd to 48th parliaments, and the Senate, 48th parliament only. Party is the party at the start of each term.</p>
+<div class="filter" data-filter-for="members-table" hidden>
+<label for="members-filter">Filter by name, electorate, state or party</label>
+<input type="search" id="members-filter" autocomplete="off" spellcheck="false">
+<p class="count-line" aria-live="polite" data-filter-count></p>
+</div>
+<div class="table-wrap" tabindex="0" role="region" aria-label="All members">
+<table id="members-table" class="filterable">
+<caption>All members, by name</caption>
+<thead><tr><th scope="col">Name</th><th scope="col">Chamber</th><th scope="col">Parliaments</th><th scope="col">Electorate or state</th><th scope="col">Party (start of term)</th><th scope="col" class="num">Items</th></tr></thead>
+<tbody>
+{% for r in rows %}
+<tr><td><a href="/members/{{ r.id }}/">{{ r.name }}</a></td><td>{{ r.chamber }}</td><td>{{ r.parliaments }}</td><td>{{ r.places }}</td><td>{{ r.parties }}</td><td class="num">{{ r["items"]|num }}</td></tr>
+{% endfor %}
+</tbody>
+</table>
+</div>
+{% endblock %}

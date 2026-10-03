@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% block main %}
+<p class="eyebrow">Register</p>
+<h1>{{ reg.title }}</h1>
+<dl class="facts">
+<div><dt>Parliament</dt><dd>{{ reg.years }}</dd></div>
+<div><dt>Members</dt><dd id="register-members">{{ reg.members|num }}</dd></div>
+<div><dt>Statements</dt><dd id="register-statements">{{ reg.statements|num }}</dd></div>
+<div><dt>Items</dt><dd id="register-items">{{ reg["items"]|num }}</dd></div>
+<div><dt>Alterations</dt><dd>{{ reg.alterations|num }}</dd></div>
+<div><dt>Statement dates</dt><dd>{{ reg.dates }}</dd></div>
+<div><dt>Source</dt><dd>{{ reg.source }}</dd></div>
+</dl>
+
+<h2>Known limitations of this register</h2>
+<ul>
+{% for l in reg.limitations %}
+<li>{{ l }}</li>
+{% endfor %}
+</ul>
+
+<h2>Items by section</h2>
+{{ m.chart(chart, "Items per section in the " ~ reg.title ~ " register.") }}
+{{ m.table("Items per section", [("Section", False), ("Items", True)], section_rows, "register-sections") }}
+
+<h2>Members</h2>
+{{ m.table("Members in this register", [("Member", False), ("Electorate or state", False), ("Party (start of term)", False), ("Bloc", False), ("Items", True)], member_rows, "register-members") }}
+
+<h2>Other registers</h2>
+<ul>
+{% for o in others %}
+<li><a href="/parliaments/{{ o.slug }}/">{{ o.title }}</a></li>
+{% endfor %}
+</ul>
+{% endblock %}
