@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Interests Explorer</title>
+<meta name="description" content="Which companies and organisations Australian MPs and senators declare: an interactive graph and chart of the Registers of Interests.">
+<style>
+:root {
+  color-scheme: light;
+  --surface: #fcfcfb; --surface-2: #f3f2ef; --border: #e2e0da;
+  --text: #0b0b0b; --text-2: #52514e; --muted: #7a7974;
+  --accent: #1a5fb4;
+  --labor: #eb6834; --coalition: #2a78d6; --crossbench: #1baf7a;
+  --entity: #6b6a66; --link: rgba(60, 60, 55, .14); --link-hi: rgba(26, 95, 180, .7);
+  --graph-bg: #f7f6f3;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --surface: #1a1a19; --surface-2: #232321; --border: #34342f;
+    --text: #ffffff; --text-2: #c3c2b7; --muted: #8f8e86;
+    --accent: #7fb0ff;
+    --labor: #d95926; --coalition: #3987e5; --crossbench: #199e70;
+    --entity: #b5b3aa; --link: rgba(220, 218, 205, .10); --link-hi: rgba(127, 176, 255, .75);
+    --graph-bg: #141413;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --surface: #1a1a19; --surface-2: #232321; --border: #34342f;
+  --text: #ffffff; --text-2: #c3c2b7; --muted: #8f8e86;
+  --accent: #7fb0ff;
+  --labor: #d95926; --coalition: #3987e5; --crossbench: #199e70;
+  --entity: #b5b3aa; --link: rgba(220, 218, 205, .10); --link-hi: rgba(127, 176, 255, .75);
+  --graph-bg: #141413;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--surface); color: var(--text);
+  font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+a { color: var(--accent); }
+header, main { max-width: 78rem; margin: 0 auto; padding: 0 16px; }
+header { padding-top: 1.4rem; }
+h1 { font-size: 1.5rem; margin: 0 0 .2rem; letter-spacing: -.01em; }
+h2 { font-size: 1.05rem; margin: 0 0 .2rem; }
+.lede { color: var(--text-2); margin: 0 0 1rem; max-width: 46rem; }
+.controls { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; margin-bottom: 1rem; }
+.tabs { display: flex; gap: 2px; background: var(--surface-2); border: 1px solid var(--border);
+  border-radius: 8px; padding: 2px; overflow-x: auto; max-width: 100%; }
+.tabs button { border: 0; background: none; color: var(--text-2); padding: .4rem .8rem;
+  border-radius: 6px; font: inherit; cursor: pointer; white-space: nowrap; }
+.tabs button[aria-pressed="true"] { background: var(--surface); color: var(--text);
+  box-shadow: 0 0 0 1px var(--border); font-weight: 600; }
+.search { flex: 1 1 14rem; max-width: 22rem; }
+.search input { width: 100%; padding: .45rem .7rem; border: 1px solid var(--border);
+  border-radius: 8px; background: var(--surface); color: var(--text); font: inherit; }
+.grid { display: grid; grid-template-columns: minmax(0, 26rem) minmax(0, 1fr); gap: 1.2rem; }
+@media (max-width: 900px) { .grid { grid-template-columns: minmax(0, 1fr); } }
+.card { border: 1px solid var(--border); border-radius: 10px; background: var(--surface); }
+.bars-card { padding: 1rem 1rem .6rem; }
+.sub { color: var(--muted); font-size: .85rem; margin: 0 0 .8rem; }
+.legend { display: flex; flex-wrap: wrap; gap: .3rem .9rem; font-size: .82rem; color: var(--text-2);
+  margin-bottom: .7rem; }
+.legend span { display: inline-flex; align-items: center; gap: .35rem; }
+.sw { width: 10px; height: 10px; border-radius: 3px; display: inline-block; flex: none; }
+.sw.round { border-radius: 50%; }
+.bars { list-style: none; margin: 0; padding: 0; }
+.bar { display: grid; grid-template-columns: minmax(0, 9.5rem) minmax(0, 1fr) 2.6rem; gap: .5rem;
+  align-items: center; padding: 3px 4px; border-radius: 6px; cursor: pointer; font-size: .84rem; }
+.bar:hover, .bar.active, .bar:focus-visible { background: var(--surface-2); outline: none; }
+.bar .name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--text); }
+.bar .track { display: flex; gap: 2px; height: 12px; }
+.bar .seg { height: 100%; }
+.bar .seg:last-child { border-radius: 0 4px 4px 0; }
+.bar .num { text-align: right; color: var(--text-2); font-variant-numeric: tabular-nums; }
+details.table { margin-top: .6rem; font-size: .84rem; }
+details.table summary { cursor: pointer; color: var(--text-2); }
+details.table table { width: 100%; border-collapse: collapse; margin-top: .4rem; }
+details.table th, details.table td { padding: .2rem .4rem; border-bottom: 1px solid var(--border);
+  text-align: right; font-variant-numeric: tabular-nums; }
+details.table th:first-child, details.table td:first-child { text-align: left; }
+.graph-card { position: relative; overflow: hidden; background: var(--graph-bg); min-height: 34rem; }
+#graph { width: 100%; height: 72vh; min-height: 34rem; }
+.graph-legend { position: absolute; left: 12px; top: 10px; pointer-events: none;
+  background: color-mix(in srgb, var(--graph-bg) 85%, transparent); padding: .3rem .5rem;
+  border-radius: 6px; }
+.hint { position: absolute; left: 12px; bottom: 10px; font-size: .78rem; color: var(--muted);
+  pointer-events: none; }
+.panel { position: absolute; right: 10px; top: 10px; bottom: 10px; width: min(21rem, calc(100% - 20px));
+  background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+  padding: .9rem 1rem; overflow-y: auto; box-shadow: 0 6px 24px rgba(0,0,0,.18); display: none; }
+.panel.open { display: block; }
+.panel h3 { margin: 0 1.6rem .15rem 0; font-size: 1.05rem; line-height: 1.3; }
+.panel .meta { color: var(--text-2); font-size: .85rem; margin: 0 0 .6rem; }
+.panel .close { position: absolute; right: .5rem; top: .45rem; border: 0; background: none;
+  color: var(--text-2); font-size: 1.3rem; cursor: pointer; line-height: 1; padding: .2rem .4rem; }
+.panel .stats { display: flex; gap: 1rem; margin: .4rem 0 .7rem; }
+.panel .stat b { display: block; font-size: 1.25rem; font-variant-numeric: tabular-nums; }
+.panel .stat span { color: var(--muted); font-size: .78rem; }
+.panel ol { list-style: none; padding: 0; margin: .3rem 0 0; font-size: .86rem; }
+.panel li { display: flex; align-items: center; gap: .45rem; padding: .18rem .3rem;
+  border-radius: 5px; cursor: pointer; }
+.panel li:hover { background: var(--surface-2); }
+.panel li .n { margin-left: auto; color: var(--muted); font-variant-numeric: tabular-nums; }
+.panel .btn { display: inline-block; margin-top: .3rem; font-size: .86rem; }
+.panel h4 { margin: .8rem 0 0; font-size: .8rem; text-transform: uppercase; letter-spacing: .04em;
+  color: var(--muted); }
+.tip { position: fixed; z-index: 10; pointer-events: none; background: var(--surface);
+  color: var(--text); border: 1px solid var(--border); border-radius: 8px; padding: .5rem .65rem;
+  font-size: .82rem; line-height: 1.4; box-shadow: 0 4px 16px rgba(0,0,0,.16); max-width: 19rem;
+  opacity: 0; transition: opacity .08s; }
+.tip.show { opacity: 1; }
+.tip b { font-size: .9rem; }
+.tip .row { display: flex; align-items: center; gap: .4rem; color: var(--text-2); }
+.tip .row .v { margin-left: auto; color: var(--text); font-variant-numeric: tabular-nums; padding-left: .8rem; }
+.tip .k { color: var(--muted); }
+footer { max-width: 78rem; margin: 1.2rem auto 2rem; padding: 0 16px; color: var(--muted); font-size: .82rem; }
+.loading { padding: 2rem; color: var(--muted); }
+</style>
+<link rel="icon" href="data:,">
+<script src="https://cdn.jsdelivr.net/npm/force-graph@1.52.0/dist/force-graph.min.js"></script>
+<script src="https://cdn.jsdelivr.net/combine/npm/d3-dispatch@3/dist/d3-dispatch.min.js,npm/d3-quadtree@3/dist/d3-quadtree.min.js,npm/d3-timer@3/dist/d3-timer.min.js,npm/d3-force@3/dist/d3-force.min.js"></script>
+</head>
+<body>
+<header>
+  <p style="margin:0 0 .3rem"><a href="./">&larr; Registers of Interests</a></p>
+  <h1>Who declares what</h1>
+  <p class="lede">The companies and organisations Australian MPs and senators most often name in
+  their Registers of Interests, 2010 to now. Each bar counts members, split by political bloc.
+  In the graph, every dot is a member (coloured by bloc) or an organisation (grey), joined when the
+  member declared it. Hover anything for details; click to pin it.</p>
+  <div class="controls">
+    <div class="tabs" id="tabs" role="group" aria-label="What to show"></div>
+    <label class="search"><input id="search" list="names" placeholder="Find a member or organisation&hellip;"
+      autocomplete="off" aria-label="Find a member or organisation"></label>
+    <datalist id="names"></datalist>
+  </div>
+</header>
+<main class="grid">
+  <section class="card bars-card" aria-labelledby="bars-title">
+    <h2 id="bars-title">Most-declared</h2>
+    <p class="sub" id="bars-sub"></p>
+    <div class="legend" id="bar-legend"></div>
+    <ol class="bars" id="bars"><li class="loading">Loading&hellip;</li></ol>
+    <details class="table"><summary>Show as a table</summary><div id="table"></div></details>
+  </section>
+  <section class="card graph-card" aria-label="Network graph of members and organisations">
+    <div id="graph"></div>
+    <div class="graph-legend legend" id="graph-legend"></div>
+    <div class="hint">Scroll to zoom &middot; drag to pan &middot; click a dot for details</div>
+    <aside class="panel" id="panel" aria-live="polite"></aside>
+  </section>
+</main>
+<div class="tip" id="tip" role="tooltip"></div>
+<footer id="foot">Source: Parliament of Australia, Registers of Members' and Senators' Interests
+(aph.gov.au). Organisations only: private individuals named in registers are left out. Party
+colours show each member's bloc in their latest term.</footer>
+<script>
+"use strict";
+const $ = (s) => document.querySelector(s);
+const fmt = (n) => n.toLocaleString("en-AU");
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"}[c]));
+const TYPES = {listed_company: "Listed company", private_company: "Private company",
+  bank_or_financial: "Bank or financial", trust_or_fund: "Trust or fund",
+  association_or_ngo: "Association or NGO", sporting_body: "Sporting body",
+  government_body: "Government body", political_party: "Political party", union: "Union",
+  airline: "Airline", media_or_entertainment: "Media or entertainment", education: "Education",
+  other: "Organisation", "": "Organisation"};
+const BARS_SHOWN = 20, LABELLED = 6;
+const LITE = "https://lite.datasette.io/?url=" + encodeURIComponent(new URL("disclosures_v2.db", location.href).href);
+const liteSql = (sql) => LITE + "#/disclosures_v2?sql=" + encodeURIComponent(sql);
+const q = (s) => "'" + String(s).replace(/'/g, "''") + "'";
+
+let DATA, MEMBERS, view = "gifts", graph, nodes = [], byId = new Map(), adj = new Map();
+let hover = null, pinned = null, hi = null, colors = {};
+
+function readColors() {
+  const cs = getComputedStyle(document.documentElement);
+  for (const k of ["labor", "coalition", "crossbench", "entity", "link", "link-hi", "graph-bg", "text", "text-2", "muted", "accent"])
+    colors[k] = cs.getPropertyValue("--" + k).trim();
+}
+const blocColor = (b) => colors[b.toLowerCase()] || colors.crossbench;
+
+function legendHtml(withEntity) {
+  return DATA.blocs.map((b) => `<span><i class="sw ${withEntity ? "round" : ""}" style="background:${blocColor(b)}"></i>${b}</span>`).join("")
+    + (withEntity ? `<span><i class="sw round" style="background:${colors.entity}"></i>Organisation</span>` : "");
+}
+
+// ---------- tooltip ----------
+const tip = $("#tip");
+function showTip(html, x, y) {
+  tip.innerHTML = html; tip.classList.add("show");
+  const r = tip.getBoundingClientRect(), pad = 14;
+  let left = x + pad, top = y + pad;
+  if (left + r.width > innerWidth - 8) left = x - r.width - pad;
+  if (top + r.height > innerHeight - 8) top = y - r.height - pad;
+  tip.style.left = Math.max(8, left) + "px"; tip.style.top = Math.max(8, top) + "px";
+}
+const hideTip = () => tip.classList.remove("show");
+
+function entityTip(e) {
+  const kind = [TYPES[e.type] || "Organisation", e.asx ? "ASX: " + e.asx : ""].filter(Boolean).join(" · ");
+  const years = e.years.length ? (e.years[0] === e.years[1] ? e.years[0] : e.years[0] + "–" + e.years[1]) : "";
+  return `<b>${esc(e.name)}</b><div class="k">${esc(kind)}</div>
+    <div style="margin:.3rem 0 .15rem">${fmt(e.members)} members declared it</div>
+    ${DATA.blocs.map((b) => `<div class="row"><i class="sw" style="background:${blocColor(b)}"></i>${b}<span class="v">${fmt(e.blocs[b])}</span></div>`).join("")}
+    <div class="k" style="margin-top:.3rem">${fmt(e.items)} items${years ? " · " + years : ""}</div>`;
+}
+function memberTip(m) {
+  const n = adj.get("m:" + m.id)?.size || 0;
+  return `<b>${esc(m.name)}</b><div class="row"><i class="sw round" style="background:${blocColor(m.bloc)}"></i>${esc(m.party || m.bloc)}</div>
+    <div class="k">${m.chamber === "senate" ? "Senator" : "MP"}${m.seat ? " for " + esc(m.seat) : ""} · parliaments ${m.parliaments.join(", ")}</div>
+    <div style="margin-top:.25rem">${n} of these organisations</div>`;
+}
+
+// ---------- bars ----------
+function renderBars() {
+  const v = DATA.views[view], top = v.entities.slice(0, BARS_SHOWN), max = top[0]?.members || 1;
+  $("#bars-sub").textContent = `${v.label}: top ${top.length} by number of members who declared them.`;
+  $("#bar-legend").innerHTML = legendHtml(false);
+  $("#bars").innerHTML = top.map((e, i) => {
+    const segs = DATA.blocs.filter((b) => e.blocs[b] > 0).map((b) =>
+      `<span class="seg" style="width:calc(${(e.blocs[b] / max) * 100}% - 2px);background:${blocColor(b)}"></span>`).join("");
+    return `<li class="bar" tabindex="0" data-i="${i}" aria-label="${esc(e.name)}: ${e.members} members">
+      <span class="name">${esc(e.name)}</span><span class="track">${segs}</span><span class="num">${fmt(e.members)}</span></li>`;
+  }).join("");
+  $("#bars").querySelectorAll(".bar").forEach((el) => {
+    const e = top[+el.dataset.i], id = "e:" + e.id;
+    el.addEventListener("mousemove", (ev) => showTip(entityTip(e), ev.clientX, ev.clientY));
+    el.addEventListener("mouseenter", () => { hover = byId.get(id); refresh(); });
+    el.addEventListener("mouseleave", () => { hideTip(); hover = null; refresh(); });
+    el.addEventListener("focus", () => { const r = el.getBoundingClientRect(); showTip(entityTip(e), r.right, r.top); hover = byId.get(id); refresh(); });
+    el.addEventListener("blur", () => { hideTip(); hover = null; refresh(); });
+    const pick = () => select(byId.get(id), true);
+    el.addEventListener("click", pick);
+    el.addEventListener("keydown", (ev) => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); pick(); } });
+  });
+  $("#table").innerHTML = `<table><tr><th>Organisation</th><th>Members</th>${DATA.blocs.map((b) => `<th>${b}</th>`).join("")}<th>Items</th></tr>`
+    + v.entities.map((e) => `<tr><td>${esc(e.name)}</td><td>${fmt(e.members)}</td>${DATA.blocs.map((b) => `<td>${fmt(e.blocs[b])}</td>`).join("")}<td>${fmt(e.items)}</td></tr>`).join("") + "</table>";
+}
+
+// ---------- graph ----------
+function buildGraph() {
+  const v = DATA.views[view];
+  byId = new Map(); adj = new Map();
+  const ents = v.entities.map((e, rank) => ({id: "e:" + e.id, kind: "entity", rank, label: e.name, d: e,
+    r: 3 + Math.sqrt(e.members) * 1.15}));
+  const used = new Set(v.links.map((l) => l[0]));
+  const mems = [...used].map((mid) => ({id: "m:" + mid, kind: "member", label: MEMBERS.get(mid).name,
+    d: MEMBERS.get(mid), r: 2.4}));
+  nodes = [...ents, ...mems];
+  nodes.forEach((n) => { byId.set(n.id, n); adj.set(n.id, new Set()); });
+  const links = v.links.map(([m, e, n]) => {
+    adj.get("m:" + m).add("e:" + e); adj.get("e:" + e).add("m:" + m);
+    return {source: "m:" + m, target: "e:" + e, n};
+  });
+  $("#names").innerHTML = nodes.map((n) => `<option value="${esc(n.label)}">`).join("");
+  hover = pinned = null; closePanel();
+  graph.graphData({nodes, links});
+  graph.d3Force("charge").strength((n) => n.kind === "entity" ? -140 - n.d.members * 1.2 : -26);
+  graph.d3Force("link").distance(60).strength(0.12);
+  graph.d3Force("collide", d3.forceCollide((n) => n.r + 3));
+  fitted = false; refresh();
+}
+let fitted = false;
+
+function focusSet() {
+  const n = hover || pinned;
+  if (!n) return null;
+  const s = new Set(adj.get(n.id)); s.add(n.id);
+  return s;
+}
+function refresh() {
+  hi = focusSet();
+  $("#bars").querySelectorAll(".bar").forEach((el) => {
+    const e = DATA.views[view].entities[+el.dataset.i];
+    el.classList.toggle("active", !!pinned && pinned.id === "e:" + e.id);
+  });
+}
+
+function drawNode(n, ctx, k) {
+  const dim = hi && !hi.has(n.id);
+  ctx.globalAlpha = dim ? 0.12 : 1;
+  ctx.beginPath(); ctx.arc(n.x, n.y, n.r, 0, 2 * Math.PI);
+  ctx.fillStyle = n.kind === "entity" ? colors.entity : blocColor(n.d.bloc);
+  ctx.fill();
+  const focus = hover || pinned;
+  if (focus && focus.id === n.id) { ctx.lineWidth = 2 / k; ctx.strokeStyle = colors.accent; ctx.stroke(); }
+  ctx.globalAlpha = 1;
+}
+
+// Labels go on top of every node, focus first, then by rank, skipping any that would overlap.
+function drawLabels(ctx, k) {
+  const focus = hover || pinned, few = focus && (adj.get(focus.id)?.size || 0) <= 40;
+  const wanted = (n) => n.kind === "entity"
+    ? (!hi || hi.has(n.id)) && (n.rank < LABELLED || k > 1.6 || !!hi)
+    : (focus && (focus.id === n.id || (few && hi.has(n.id)))) || (!hi && k > 3.2);
+  const order = nodes.filter((n) => n.x !== undefined && wanted(n));
+  if (focus) order.sort((a, b) => (b === focus) - (a === focus));
+  const placed = [];
+  ctx.textAlign = "center"; ctx.textBaseline = "top";
+  for (const n of order) {
+    const fs = (n.kind === "entity" ? 11 : 10) / k;
+    ctx.font = `${n.kind === "entity" ? 600 : 400} ${fs}px system-ui, sans-serif`;
+    const w = ctx.measureText(n.label).width, y = n.y + n.r + 2 / k;
+    const box = [n.x - w / 2, y, n.x + w / 2, y + fs * 1.25];
+    if (placed.some((b) => box[0] < b[2] && box[2] > b[0] && box[1] < b[3] && box[3] > b[1])) continue;
+    placed.push(box);
+    ctx.lineWidth = 3 / k; ctx.strokeStyle = colors["graph-bg"]; ctx.strokeText(n.label, n.x, y);
+    ctx.fillStyle = n.kind === "entity" ? colors.text : colors["text-2"];
+    ctx.fillText(n.label, n.x, y);
+  }
+}
+
+function initGraph() {
+  const el = $("#graph");
+  graph = new ForceGraph(el)
+    .backgroundColor(colors["graph-bg"]).autoPauseRedraw(false)
+    .nodeId("id").nodeLabel(() => "")
+    .nodeCanvasObjectMode(() => "replace").nodeCanvasObject(drawNode)
+    .nodePointerAreaPaint((n, c, ctx) => { ctx.fillStyle = c; ctx.beginPath(); ctx.arc(n.x, n.y, n.r + 2, 0, 2 * Math.PI); ctx.fill(); })
+    .linkColor((l) => hi && hi.has(l.source.id) && hi.has(l.target.id) && (l.source === (hover || pinned) || l.target === (hover || pinned)) ? colors["link-hi"] : colors.link)
+    .linkWidth((l) => hi && (l.source === (hover || pinned) || l.target === (hover || pinned)) ? 1.2 : 0.5)
+    .linkVisibility((l) => !hi || hi.has(l.source.id) && hi.has(l.target.id))
+    .onRenderFramePost(drawLabels)
+    .cooldownTicks(300)
+    .onEngineStop(() => { if (!fitted) { graph.zoomToFit(500, 40); fitted = true; } })
+    .onNodeHover((n) => { hover = n || null; el.style.cursor = n ? "pointer" : "grab"; if (!n) hideTip(); refresh(); })
+    .onNodeClick((n) => select(n, false))
+    .onBackgroundClick(() => { pinned = null; closePanel(); refresh(); });
+  el.addEventListener("mousemove", (ev) => {
+    if (!hover) return;
+    showTip(hover.kind === "entity" ? entityTip(hover.d) : memberTip(hover.d), ev.clientX, ev.clientY);
+  });
+  el.addEventListener("mouseleave", hideTip);
+  const resize = () => graph.width(el.clientWidth).height(el.clientHeight);
+  new ResizeObserver(resize).observe(el); resize();
+}
+
+// ---------- selection + panel ----------
+function select(n, fromOutside) {
+  if (!n) return;
+  pinned = n; hover = null; hideTip(); refresh(); openPanel(n);
+  if (fromOutside && n.x !== undefined) {
+    const k = Math.max(graph.zoom(), 1.8), p = $("#panel"), el = $("#graph");
+    const shift = p.offsetWidth && p.offsetWidth < el.clientWidth * 0.7 ? (p.offsetWidth + 10) / 2 / k : 0;
+    graph.zoom(k, 600); graph.centerAt(n.x + shift, n.y, 600);
+  }
+}
+function closePanel() { $("#panel").classList.remove("open"); }
+function openPanel(n) {
+  const p = $("#panel");
+  if (n.kind === "entity") {
+    const e = n.d;
+    const ms = [...DATA.views[view].links.filter((l) => l[1] === e.id)].sort((a, b) => b[2] - a[2]);
+    const years = e.years.length ? (e.years[0] === e.years[1] ? e.years[0] : e.years[0] + "–" + e.years[1]) : "–";
+    p.innerHTML = `<button class="close" aria-label="Close">&times;</button>
+      <h3>${esc(e.name)}</h3><p class="meta">${esc(TYPES[e.type] || "Organisation")}${e.asx ? " · ASX: " + esc(e.asx) : ""}</p>
+      <div class="stats"><div class="stat"><b>${fmt(e.members)}</b><span>members</span></div>
+        <div class="stat"><b>${fmt(e.items)}</b><span>items</span></div><div class="stat"><b>${years}</b><span>years</span></div></div>
+      <div class="legend">${DATA.blocs.map((b) => `<span><i class="sw" style="background:${blocColor(b)}"></i>${b} ${fmt(e.blocs[b])}</span>`).join("")}</div>
+      <a class="btn" target="_blank" rel="noopener" href="${liteSql(`select m.full_name as member, i.parliament, i.category, i.description, i.lodged_date, i.page from items i join members m using (member_id) where i.entity_id = ${q(e.id)} order by i.lodged_date`)}">See every item in Datasette &rarr;</a>
+      <h4>Members (${ms.length}), by items in this view</h4>
+      <ol>${ms.map(([mid, , c]) => { const m = MEMBERS.get(mid); return `<li data-id="m:${esc(mid)}"><i class="sw round" style="background:${blocColor(m.bloc)}"></i>${esc(m.name)}<span class="n">${c}</span></li>`; }).join("")}</ol>`;
+  } else {
+    const m = n.d;
+    const es = DATA.views[view].links.filter((l) => l[0] === m.id).sort((a, b) => b[2] - a[2]);
+    const ent = new Map(DATA.views[view].entities.map((e) => [e.id, e]));
+    p.innerHTML = `<button class="close" aria-label="Close">&times;</button>
+      <h3>${esc(m.name)}</h3><p class="meta"><i class="sw round" style="background:${blocColor(m.bloc)}"></i> ${esc(m.party || m.bloc)} · ${m.chamber === "senate" ? "Senator" : "MP"}${m.seat ? " for " + esc(m.seat) : ""}<br>Parliaments ${m.parliaments.join(", ")}</p>
+      <a class="btn" target="_blank" rel="noopener" href="${liteSql(`select i.parliament, i.category, i.description, i.lodged_date, i.page from items i where i.member_id = ${q(m.id)} order by i.parliament, i.section`)}">See all their declarations in Datasette &rarr;</a>
+      <h4>${es.length} of the top organisations here, by items</h4>
+      <ol>${es.map(([, eid, c]) => `<li data-id="e:${esc(eid)}"><i class="sw round" style="background:${colors.entity}"></i>${esc(ent.get(eid).name)}<span class="n">${c}</span></li>`).join("")}</ol>`;
+  }
+  p.classList.add("open"); p.scrollTop = 0;
+  p.querySelector(".close").onclick = () => { pinned = null; closePanel(); refresh(); };
+  p.querySelectorAll("li[data-id]").forEach((li) => {
+    li.onclick = () => select(byId.get(li.dataset.id), true);
+    li.onmouseenter = () => { hover = byId.get(li.dataset.id); refresh(); };
+    li.onmouseleave = () => { hover = null; refresh(); };
+  });
+}
+
+// ---------- boot ----------
+function setView(v) {
+  view = v;
+  $("#tabs").querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.v === v));
+  renderBars(); buildGraph();
+  try { history.replaceState(null, "", "#" + v); } catch (_) {}
+}
+$("#search").addEventListener("change", (ev) => {
+  const t = ev.target.value.trim().toLowerCase();
+  const n = nodes.find((x) => x.label.toLowerCase() === t) || nodes.find((x) => x.label.toLowerCase().includes(t));
+  if (n) select(n, true);
+});
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
+  readColors(); graph.backgroundColor(colors["graph-bg"]); renderBars(); $("#graph-legend").innerHTML = legendHtml(true); refresh();
+});
+
+fetch("explore.json").then((r) => r.json()).then((d) => {
+  DATA = d; MEMBERS = new Map(d.members.map((m) => [m.id, m]));
+  readColors();
+  $("#tabs").innerHTML = Object.entries(d.views).map(([k, v]) => `<button data-v="${k}" aria-pressed="false">${esc(v.label)}</button>`).join("");
+  $("#tabs").querySelectorAll("button").forEach((b) => b.onclick = () => setView(b.dataset.v));
+  $("#graph-legend").innerHTML = legendHtml(true);
+  initGraph();
+  const start = location.hash.slice(1);
+  setView(d.views[start] ? start : "gifts");
+}).catch((err) => { $("#bars").innerHTML = `<li class="loading">Couldn't load the data (${esc(err.message)}).</li>`; });
+</script>
+</body>
+</html>

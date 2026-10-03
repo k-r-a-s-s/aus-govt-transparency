@@ -18,6 +18,7 @@ import sys
 from pathlib import Path
 from typing import Dict, List, Optional
 
+from .explore import explore_data
 from .load import DEFAULT_DB, _guard_v1
 from .normalise import normalise_entity
 
@@ -28,6 +29,7 @@ DEFAULT_KAGGLE_ID = "kevrass/australian-parliament-registers-of-interests"
 # For our compilation of the facts; the source PDFs stay under APH's CC BY-NC-ND (DECISIONS G4).
 DEFAULT_LICENSE = "CC-BY-4.0"
 DB_NAME = "disclosures_v2.db"
+ASSETS = Path(__file__).parent / "site_assets"  # static pages copied into the site as is
 REPO_URL = "https://github.com/k-r-a-s-s/aus-govt-transparency"
 DEFAULT_PAGES_URL = "https://k-r-a-s-s.github.io/aus-govt-transparency"
 
@@ -286,6 +288,7 @@ th:first-child, td:first-child {{ text-align: left; }}
 code, pre {{ background: #f4f4f4; }}
 pre {{ padding: .6rem; overflow-x: auto; white-space: pre-wrap; }}
 .button {{ display: inline-block; padding: .5rem 1rem; background: #1a5fb4; color: #fff; border-radius: 4px; text-decoration: none; }}
+.button.secondary {{ background: #fff; color: #1a5fb4; box-shadow: inset 0 0 0 1px #1a5fb4; margin-left: .4rem; }}
 </style>
 </head>
 <body>
@@ -295,7 +298,8 @@ Senators' Interests, transcribed item by item from the official statements: {n_i
 (shareholdings, trusts, property, directorships, gifts, sponsored travel, memberships, &hellip;),
 each joined with the member's party and a standardised entity ({n_ent:,} entities).</p>
 
-<p><a class="button" href="{lite}">Explore the data in Datasette Lite</a></p>
+<p><a class="button" href="explore.html">Who declares what: interactive graph</a>
+<a class="button secondary" href="{lite}">Query the data in Datasette Lite</a></p>
 <p>Datasette Lite runs in your browser: write SQL against the <code>items</code>,
 <code>members</code>, <code>member_terms</code>, <code>documents</code> and <code>entities</code>
 tables, filter and facet, and download results as CSV. Or download the SQLite database:
@@ -357,6 +361,7 @@ def export(db_path: str | Path = DEFAULT_DB, out_dir: str | Path = DEFAULT_OUT,
         n_items = con.execute("select count(*) from items").fetchone()[0]
         readme = render_readme(con, len(rows))
         index = render_index(con, pages_url) if site_dir is not None else None
+        explore = explore_data(con) if site_dir is not None else None
     finally:
         con.close()
     if len(rows) != n_items:  # a join dropped or duplicated items: never publish that
@@ -373,6 +378,10 @@ def export(db_path: str | Path = DEFAULT_DB, out_dir: str | Path = DEFAULT_OUT,
         site = Path(site_dir)
         site.mkdir(parents=True, exist_ok=True)
         (site / "index.html").write_text(index, encoding="utf-8")
+        (site / "explore.json").write_text(json.dumps(explore, separators=(",", ":")),
+                                           encoding="utf-8")
+        for asset in sorted(ASSETS.iterdir()):
+            shutil.copyfile(asset, site / asset.name)
         tmp = site / (DB_NAME + ".tmp")
         shutil.copyfile(db_path, tmp)
         tmp.replace(site / DB_NAME)
@@ -407,5 +416,5 @@ def run(args) -> int:
     print(f"export: {s['rows']:,} rows -> {s['csv']} and {s['kaggle']}/ "
           f"({s['no_source_url']:,} rows without source_url)")
     if s["site"]:
-        print(f"export: site -> {s['site']}/index.html and {s['site']}/{DB_NAME}")
+        print(f"export: site -> {s['site']}/index.html, explore.html and {DB_NAME}")
     return 0
