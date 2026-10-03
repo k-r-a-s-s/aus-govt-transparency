@@ -1,7 +1,7 @@
 # Disclosures v2 — SPEC
 
-Status: DRAFT, awaiting sign-off · Author: Fable planner · Date: 2026-10-01
-Progress (2026-10-03): Phases 1–4 built and verified; Phase 5 built up to G4. Gates G1–G3 passed; every AC in §3 passes (`eval/final_acceptance.md`). Waiting on cold verification (V5), then G4 (Kevin) — see `HANDOFF.md` and `DECISIONS.md`.
+Status: SIGNED OFF and published (G4, 2026-10-03) · Author: Fable planner · Date: 2026-10-01
+Progress (2026-10-03): all phases built and verified (V5 PASS); gates G1–G4 passed; every AC in §3 passes (`eval/final_acceptance.md`). Published: `main`, GitHub Pages and Kaggle (DECISIONS 2026-10-03 G4).
 Repo: `aus-govt-transparency` (public, `github.com/k-r-a-s-s/aus-govt-transparency`) · Branch: `v2-upgrade`
 Owner / human-in-the-loop: Kevin
 
@@ -225,7 +225,7 @@ verifiability so the dataset can be re-shared with confidence.
 - **v1 baseline:** `python -m disclosures score --v1 disclosures.db --gold eval/gold` converts v1
   rows for the gold PDFs (by `pdf_filename`) to items with `section=None` and scores
   section-ignored recall/precision only.
-- **Bar to backfill with an extractor (proposed defaults — Kevin may adjust at sign-off):**
+- **Bar to backfill with an extractor (accepted as is at sign-off, 2026-10-03):**
   item recall ≥ 0.90, precision ≥ 0.90, owner accuracy ≥ 0.95, page accuracy ≥ 0.90,
   and section-ignored recall strictly greater than v1's.
 
@@ -251,7 +251,8 @@ verifiability so the dataset can be re-shared with confidence.
   de-duplicated on (section, owner, normalised entity/description, page). Uploaded files are
   deleted after use. Retries on 429/5xx with exponential backoff; a chunk whose finish reason is
   max-tokens is re-split in half down to 1 page, then recorded as an error (file invalid, never
-  silently partial). Model id is configurable (`GEMINI_MODEL` env / `--model`); default = newest
+  silently partial), unless `--fallback-model` is set, in which case that chunk goes to the
+  fallback model (DECISIONS 2026-10-02 bake-off re-run). Model id is configurable (`GEMINI_MODEL` env / `--model`); default = newest
   GA Flash model reported by `client.models.list()` at build time, recorded in
   `plans/2026-10-01-disclosures-v2/DECISIONS.md`. **Gemini 2.x is banned** (2.0 is shut down,
   2.5 shuts down mid-Oct 2026): every Gemini call site (extractor and the ADR-6 long-tail LLM)

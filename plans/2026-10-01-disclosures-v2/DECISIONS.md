@@ -744,3 +744,30 @@ Kevin delegated the G4 choices ("make the sensible choices, and agentically driv
 - **Local DB.** On the Mac, `disclosures_v2.db` was a stale 2026-10-02 build (42,042 items, no
   Senate, no entities), so the export ran from the final DB (`site/disclosures_v2.db`, sha256
   `519e2430…`, 50,936 items, 11,542 entities), copied into place. The stale file went to scratch.
+
+## 2026-10-03 — Gate G4: published (SPEC signed off)
+
+- **Git.** PR #2 merged by fast-forwarding `v2-upgrade` to `cee0ba3`; `main` fast-forwarded from
+  `dae1630` (2025-04-26) to `cee0ba3` (Kevin gave explicit permission for `main`).
+- **Pages** enabled with source = GitHub Actions; the `pages.yml` run on `cee0ba3` succeeded.
+  https://k-r-a-s-s.github.io/aus-govt-transparency/ serves `index.html` and `disclosures_v2.db`
+  (sha256 `519e2430…`, the final DB; `Access-Control-Allow-Origin: *`). Checked in a real browser
+  (Playwright, Chrome): the Datasette Lite link loads the DB and answers SQL (house 48,956 +
+  senate 1,980 = 50,936 items).
+- **Kaggle:** https://www.kaggle.com/datasets/kevrass/australian-parliament-registers-of-interests,
+  public, status `ready`, files `disclosures_v2.csv` (30.7 MB) + `README.md`, licence CC BY-NC 4.0,
+  description = README; column descriptions pushed with `metadata --update`. Gotcha:
+  `datasets create` takes the short licence id (`CC-BY-NC-4.0`), but `metadata --update`
+  rejects it ("invalid license") and needs the display name
+  (`Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)`).
+- **v1 Kaggle dataset left unchanged.** Marking
+  `kevrass/structured-register-of-australian-mps-disclosures` as superseded (and moving it from
+  CC BY 4.0 to CC BY-NC 4.0) was blocked by the session's permission guard because it edits an
+  existing shared dataset, so it stays with Kevin (Kaggle → dataset → Settings, or
+  `metadata --update` with the display-name licence).
+- **SPEC signed off** (Kevin delegated it): ADR-4's backfill bar accepted as is; ADR-5 now carries
+  the `--fallback-model` caveat.
+- **Open questions accepted as is:** Sandakan-trek sponsors stay unitemised (D1, C2: the member
+  paid); the 7,037 untyped singleton entities stay untyped (D2, documented); reused ASX tickers
+  stay a documented known limitation (V2 fixed the known cases).
+- **Announcing** (Reddit and elsewhere) is left to Kevin.
