@@ -1,0 +1,23 @@
+{
+  // The public site (SPEC ADR-W1): Workers static assets only, no Worker script, on the
+  // PERSONAL Cloudflare account. Credentials come from web/.env (gitignored, see .env.example),
+  // which wrangler reads before the OAuth login (that one is the work account).
+  //
+  // Interim manual deploy, until phase D's deploy.sh and web.yml land (from the repo root):
+  //   (cd web && npm ci && npm run build)
+  //   .venv/bin/python -m disclosures web build --db site/disclosures_v2.db \
+  //     --manifest pdfs/manifest.csv --out web/sites/production --mode production
+  //   .venv/bin/python -m disclosures web check web/sites/production --db site/disclosures_v2.db
+  //   (cd web && npx wrangler deploy)
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "aus-interests",
+  "compatibility_date": "2026-10-03",
+  "assets": {
+    "directory": "./sites/production",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  },
+  "workers_dev": true,
+  // The kevinrassool.com zone is on the personal account.
+  "routes": [{ "pattern": "interests.kevinrassool.com", "custom_domain": true }]
+}

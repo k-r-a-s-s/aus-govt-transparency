@@ -334,3 +334,14 @@ Pages explorer; both explorers now include them.
   `explorer-bundle-missing` never fires on a deploy.
 - The Pages explorer (`site/explore.html`) stays live until the ADR-W11 cutover redirects it.
   `/explore/?view=graph` is the redirect target.
+
+## Interim deploy config (2026-10-04)
+
+Kevin asked to ship to production now and iterate (few visitors). `web/wrangler.jsonc` adds the
+static-assets Worker `aus-interests` on `interests.kevinrassool.com` (custom domain, personal
+account, no Worker script); `wrangler` 4.91.0 is pinned in `web/` (same as the blog). Manual
+steps are in the file's header comment. Not done, still phase D: `deploy.sh` gates, `web.yml`,
+`publish-data`, the Pages redirect. **The data host is not up:** the personal token has no R2
+permission (`wrangler r2 bucket list`: authentication error 10000), so `/data/` download links
+(`https://data.kevinrassool.com/interests/latest/...`) 404 until the R2 step in SPEC §6 is done.
+Everything else (pages, explorer, graph, static JSON API) is static assets and works.
