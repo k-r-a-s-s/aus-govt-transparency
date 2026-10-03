@@ -2,8 +2,8 @@
 
 For each view (gifts and travel, shareholdings, directorships, memberships, everything) it
 keeps the entities most members declared, the members who declared them and one link per
-(member, entity) pair. Private individuals (entity_type ``person``) are left out, so the page
-only names organisations. Written by ``export --site``; reads the DB read-only.
+(member, entity) pair. Every entity type is included, people named in the registers too (they
+are public records). Written by ``export --site``; reads the DB read-only.
 """
 from __future__ import annotations
 
@@ -36,7 +36,7 @@ def _members(con: sqlite3.Connection) -> Dict[str, dict]:
 
 
 def _view(con: sqlite3.Connection, cats: tuple, members: Dict[str, dict]) -> dict:
-    where = "i.entity_id is not null and coalesce(e.entity_type, '') <> 'person'"
+    where = "i.entity_id is not null"
     args: list = []
     if cats:
         where += f" and i.category in ({','.join('?' * len(cats))})"

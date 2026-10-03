@@ -189,7 +189,6 @@ def test_site_explorer(tmp_path):
     assert set(data["views"]) == {"gifts", "shares", "memberships", "all"}
     for v in data["views"].values():
         ents = {e["id"]: e for e in v["entities"]}
-        assert all(e["type"] != "person" for e in ents.values())
         for mid, eid, n in v["links"]:
             assert mid in members and eid in ents and n >= 1
         for e in ents.values():

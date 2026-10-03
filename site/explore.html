@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Interests Explorer</title>
-<meta name="description" content="Which companies and organisations Australian MPs and senators declare: an interactive graph and chart of the Registers of Interests.">
+<meta name="description" content="Which companies, organisations and people Australian MPs and senators declare: an interactive graph and chart of the Registers of Interests.">
 <style>
 :root {
   color-scheme: light;
@@ -125,14 +125,14 @@ footer { max-width: 78rem; margin: 1.2rem auto 2rem; padding: 0 16px; color: var
 <header>
   <p style="margin:0 0 .3rem"><a href="./">&larr; Registers of Interests</a></p>
   <h1>Who declares what</h1>
-  <p class="lede">The companies and organisations Australian MPs and senators most often name in
+  <p class="lede">The companies, organisations and people Australian MPs and senators most often name in
   their Registers of Interests, 2010 to now. Each bar counts members, split by political bloc.
-  In the graph, every dot is a member (coloured by bloc) or an organisation (grey), joined when the
+  In the graph, every dot is a member (coloured by bloc) or an entity (grey), joined when the
   member declared it. Hover anything for details; click to pin it.</p>
   <div class="controls">
     <div class="tabs" id="tabs" role="group" aria-label="What to show"></div>
-    <label class="search"><input id="search" list="names" placeholder="Find a member or organisation&hellip;"
-      autocomplete="off" aria-label="Find a member or organisation"></label>
+    <label class="search"><input id="search" list="names" placeholder="Find a member or entity&hellip;"
+      autocomplete="off" aria-label="Find a member or entity"></label>
     <datalist id="names"></datalist>
   </div>
 </header>
@@ -144,7 +144,7 @@ footer { max-width: 78rem; margin: 1.2rem auto 2rem; padding: 0 16px; color: var
     <ol class="bars" id="bars"><li class="loading">Loading&hellip;</li></ol>
     <details class="table"><summary>Show as a table</summary><div id="table"></div></details>
   </section>
-  <section class="card graph-card" aria-label="Network graph of members and organisations">
+  <section class="card graph-card" aria-label="Network graph of members and the entities they declared">
     <div id="graph"></div>
     <div class="graph-legend legend" id="graph-legend"></div>
     <div class="hint">Scroll to zoom &middot; drag to pan &middot; click a dot for details</div>
@@ -153,7 +153,7 @@ footer { max-width: 78rem; margin: 1.2rem auto 2rem; padding: 0 16px; color: var
 </main>
 <div class="tip" id="tip" role="tooltip"></div>
 <footer id="foot">Source: Parliament of Australia, Registers of Members' and Senators' Interests
-(aph.gov.au). Organisations only: private individuals named in registers are left out. Party
+(aph.gov.au). Party
 colours show each member's bloc in their latest term.</footer>
 <script>
 "use strict";
@@ -165,7 +165,7 @@ const TYPES = {listed_company: "Listed company", private_company: "Private compa
   association_or_ngo: "Association or NGO", sporting_body: "Sporting body",
   government_body: "Government body", political_party: "Political party", union: "Union",
   airline: "Airline", media_or_entertainment: "Media or entertainment", education: "Education",
-  other: "Organisation", "": "Organisation"};
+  person: "Person", other: "Organisation", "": "Type not assigned"};
 const BARS_SHOWN = 20, LABELLED = 6;
 const LITE = "https://lite.datasette.io/?url=" + encodeURIComponent(new URL("disclosures_v2.db", location.href).href);
 const liteSql = (sql) => LITE + "#/disclosures_v2?sql=" + encodeURIComponent(sql);
@@ -183,7 +183,7 @@ const blocColor = (b) => colors[b.toLowerCase()] || colors.crossbench;
 
 function legendHtml(withEntity) {
   return DATA.blocs.map((b) => `<span><i class="sw ${withEntity ? "round" : ""}" style="background:${blocColor(b)}"></i>${b}</span>`).join("")
-    + (withEntity ? `<span><i class="sw round" style="background:${colors.entity}"></i>Organisation</span>` : "");
+    + (withEntity ? `<span><i class="sw round" style="background:${colors.entity}"></i>Entity</span>` : "");
 }
 
 // ---------- tooltip ----------
@@ -210,7 +210,7 @@ function memberTip(m) {
   const n = adj.get("m:" + m.id)?.size || 0;
   return `<b>${esc(m.name)}</b><div class="row"><i class="sw round" style="background:${blocColor(m.bloc)}"></i>${esc(m.party || m.bloc)}</div>
     <div class="k">${m.chamber === "senate" ? "Senator" : "MP"}${m.seat ? " for " + esc(m.seat) : ""} · parliaments ${m.parliaments.join(", ")}</div>
-    <div style="margin-top:.25rem">${n} of these organisations</div>`;
+    <div style="margin-top:.25rem">${n} of these entities</div>`;
 }
 
 // ---------- bars ----------
@@ -235,7 +235,7 @@ function renderBars() {
     el.addEventListener("click", pick);
     el.addEventListener("keydown", (ev) => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); pick(); } });
   });
-  $("#table").innerHTML = `<table><tr><th>Organisation</th><th>Members</th>${DATA.blocs.map((b) => `<th>${b}</th>`).join("")}<th>Items</th></tr>`
+  $("#table").innerHTML = `<table><tr><th>Entity</th><th>Members</th>${DATA.blocs.map((b) => `<th>${b}</th>`).join("")}<th>Items</th></tr>`
     + v.entities.map((e) => `<tr><td>${esc(e.name)}</td><td>${fmt(e.members)}</td>${DATA.blocs.map((b) => `<td>${fmt(e.blocs[b])}</td>`).join("")}<td>${fmt(e.items)}</td></tr>`).join("") + "</table>";
 }
 
@@ -369,7 +369,7 @@ function openPanel(n) {
     p.innerHTML = `<button class="close" aria-label="Close">&times;</button>
       <h3>${esc(m.name)}</h3><p class="meta"><i class="sw round" style="background:${blocColor(m.bloc)}"></i> ${esc(m.party || m.bloc)} · ${m.chamber === "senate" ? "Senator" : "MP"}${m.seat ? " for " + esc(m.seat) : ""}<br>Parliaments ${m.parliaments.join(", ")}</p>
       <a class="btn" target="_blank" rel="noopener" href="${liteSql(`select i.parliament, i.category, i.description, i.lodged_date, i.page from items i where i.member_id = ${q(m.id)} order by i.parliament, i.section`)}">See all their declarations in Datasette &rarr;</a>
-      <h4>${es.length} of the top organisations here, by items</h4>
+      <h4>${es.length} of the top entities here, by items</h4>
       <ol>${es.map(([, eid, c]) => `<li data-id="e:${esc(eid)}"><i class="sw round" style="background:${colors.entity}"></i>${esc(ent.get(eid).name)}<span class="n">${c}</span></li>`).join("")}</ol>`;
   }
   p.classList.add("open"); p.scrollTop = 0;
