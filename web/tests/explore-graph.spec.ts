@@ -178,9 +178,9 @@ test("zoomed in, member dots draw their photo (same-origin /media/ requests); no
 
 test("member page shows the portrait; members index shows avatars", async ({ page }) => {
   await page.goto(siteUrl("/members/josh_wilson/"));
-  const img = page.locator("img.portrait");
+  const img = page.locator(".portrait img");
   await expect(img).toHaveAttribute("alt", "Official portrait of Josh Wilson");
   expect(await img.evaluate((el: HTMLImageElement) => el.decode().then(() => el.naturalWidth))).toBeGreaterThan(100);
   await page.goto(siteUrl("/members/"));
-  expect(await page.locator("#members-table img.avatar").count()).toBeGreaterThan(0);
+  expect(await page.locator("#members-table .avatar img").count()).toBeGreaterThan(0);
 });

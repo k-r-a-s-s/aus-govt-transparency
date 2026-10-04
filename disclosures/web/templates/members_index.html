@@ -15,7 +15,7 @@
 <thead><tr><th scope="col">Name</th><th scope="col">Chamber</th><th scope="col">Parliaments</th><th scope="col">Electorate or state</th><th scope="col">Party (start of term)</th><th scope="col" class="num">Items</th></tr></thead>
 <tbody>
 {% for r in rows %}
-<tr><td class="with-avatar">{% if r.photo %}<img class="avatar" src="{{ r.photo }}" alt="" width="32" height="32" loading="lazy" decoding="async">{% else %}<span class="avatar" aria-hidden="true"></span>{% endif %}<a href="/members/{{ r.id }}/">{{ r.name }}</a></td><td>{{ r.chamber }}</td><td>{{ r.parliaments }}</td><td>{{ r.places }}</td><td>{{ r.parties }}</td><td class="num">{{ r["items"]|num }}</td></tr>
+<tr><td class="with-avatar">{% if r.photo %}<span class="avatar" style="--photo: url('{{ r.photo }}')"><img src="{{ r.photo }}" alt="" width="150" height="211" loading="lazy" decoding="async"></span>{% else %}<span class="avatar" aria-hidden="true"></span>{% endif %}<a href="/members/{{ r.id }}/">{{ r.name }}</a></td><td>{{ r.chamber }}</td><td>{{ r.parliaments }}</td><td>{{ r.places }}</td><td>{{ r.parties }}</td><td class="num">{{ r["items"]|num }}</td></tr>
 {% endfor %}
 </tbody>
 </table>

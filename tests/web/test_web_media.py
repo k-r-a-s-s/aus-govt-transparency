@@ -64,7 +64,8 @@ def test_photo_copied_with_hashed_name_and_shown(media_site):
     href = f"/media/p/josh_wilson.{hashlib.sha256(PHOTO).hexdigest()[:8]}.jpg"
     assert (media_site / href.lstrip("/")).read_bytes() == PHOTO  # byte for byte
     html = _page(media_site, "members/josh_wilson")
-    assert f'<img class="portrait" src="{href}" alt="Official portrait of ' in html
+    assert f'<span class="portrait" style="--photo: url(\'{href}\')"><img src="{href}" ' \
+        'alt="Official portrait of ' in html
     assert f'src="{href}"' in _page(media_site, "members")
     # A member without a photo keeps the placeholder, not a broken image.
     assert 'class="portrait"' not in _page(media_site, "members/wayne_swan")

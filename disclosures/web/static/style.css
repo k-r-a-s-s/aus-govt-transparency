@@ -433,9 +433,15 @@ summary { cursor: pointer; font-family: var(--mono); font-size: 0.8125rem; color
    Logos sit on a white tile in both themes so dark marks stay visible on the dark paper. */
 .page-head { display: flex; align-items: center; gap: 16px; }
 .page-head h1 { min-width: 0; }
-.portrait, .avatar { border-radius: 50%; object-fit: cover; object-position: 50% 18%;
+/* The portraits are tight headshots and the circle already shows their full width, so the
+   photo is drawn at 86% and the rest of the circle is a blurred copy of the same photo: it
+   reads as the backdrop carrying on, a slight zoom out. */
+.portrait, .avatar { position: relative; isolation: isolate; overflow: hidden; border-radius: 50%;
   background: var(--rule); flex: none; }
-.portrait { width: 72px; height: 72px; box-shadow: 0 0 0 1px var(--rule); }
+.portrait::before, .avatar::before { content: ""; position: absolute; inset: 0; z-index: -1;
+  background: var(--photo) 50% 2% / 100% auto no-repeat; filter: blur(6px); }
+.portrait img, .avatar img { position: absolute; left: 7%; top: 5%; width: 86%; height: auto; }
+.portrait { display: block; width: 72px; height: 72px; box-shadow: 0 0 0 1px var(--rule); }
 .logo-tile { flex: none; display: grid; place-items: center; width: 72px; height: 72px;
   padding: 8px; border-radius: 12px; background: #fff; box-shadow: 0 0 0 1px var(--rule); }
 .logo-tile img { width: 100%; height: 100%; object-fit: contain; }
