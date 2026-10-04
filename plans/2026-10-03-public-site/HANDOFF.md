@@ -49,6 +49,15 @@ cache-busting query string: the edge served stale HTML for a minute once.
 Data files: `web publish-data --out <dir>` stages them and writes `<dir>/upload.sh`; run it from
 `web/` with the same env vars.
 
+## Status 2026-10-04 (end of session): shipped, waiting on OpenAustralia Foundation
+
+Kevin considers the site ready. On 2026-10-04 he sent it to Ben Fairless (CEO, OpenAustralia
+Foundation: OpenAustralia, They Vote For You, Right to Know, Planning Alerts), who will consider
+whether OAF publishes it on Kevin's behalf. Until there is an answer, hold the announcement
+(Reddit draft) and the Zenodo DOI: if OAF publishes it, the domain, attribution, licence
+wording, repo home and the HANDOFF deploy steps may all change. Everything is on `main`
+(`fc57032`) and deployed; `web/sites/` holds only `production` (deployed) and `og` (cards).
+
 ## Done 2026-10-04: Open Graph cards, member photos, organisation logos
 
 Shipped as decided with Kevin (SPEC decisions log 2026-10-04): APH portraits for all 408
