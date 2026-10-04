@@ -1,11 +1,11 @@
 // Upload a folder tree to the R2 data bucket through the Cloudflare API, many files at once.
 //
 //   CLOUDFLARE_API_TOKEN=... CLOUDFLARE_ACCOUNT_ID=... \
-//     node scripts/r2-upload.mjs <dir> [--bucket aus-interests-data] [--jobs 16] [--dry-run]
+//     node scripts/r2-upload.mjs <dir> [--bucket aus-interests-data] [--jobs 6] [--dry-run]
 //
 // Each file's key is its path under <dir> (og-cards.mjs writes interests/og/<version>/...).
 // `wrangler r2 object put` starts one process per object, which is hours for ~5,000 Open Graph
-// cards; this PUTs to /accounts/<id>/r2/buckets/<bucket>/objects/<key> with the same token.
+// cards; this PUTs (6 at a time by default: more trips the API's rate limit) to /accounts/<id>/r2/buckets/<bucket>/objects/<key> with the same token.
 // Objects already published with the same size and MD5 are skipped, so a re-run only sends what
 // changed: the API answers HEAD with 405, so the check is a HEAD on the bucket's public host
 // (--public-base, default https://data.kevinrassool.com/), whose ETag is the object's MD5. The token is read from the environment and never printed.
@@ -24,7 +24,7 @@ const flag = (name, dflt) => {
 const dry = args.includes("--dry-run");
 if (dry) args.splice(args.indexOf("--dry-run"), 1);
 const bucket = flag("--bucket", "aus-interests-data");
-const jobs = Number(flag("--jobs", "16"));
+const jobs = Number(flag("--jobs", "6"));
 const publicBase = flag("--public-base", "https://data.kevinrassool.com/");
 const [root] = args;
 const token = process.env.CLOUDFLARE_API_TOKEN;
@@ -59,21 +59,24 @@ async function worker() {
     const have = await existing(key, md5).catch(() => null);
     if (have && have.size === body.length && have.etag === md5) { skipped++; continue; }
     const ext = key.slice(key.lastIndexOf("."));
-    let ok = false;
-    for (let i = 0; i < 4 && !ok; i++) {
+    let ok = false, last = "";
+    for (let i = 0; i < 8 && !ok; i++) {
+      let wait = 1000 * 2 ** Math.min(i, 5);
       try {
         const r = await fetch(api + encodeURI(key), {
           method: "PUT", body,
           headers: { ...auth, "Content-Type": TYPES[ext] || "application/octet-stream" },
         });
         ok = r.ok;
-        if (!ok && r.status !== 429 && r.status < 500) {
-          console.error(`r2-upload: ${key}: HTTP ${r.status}`);
-          break;
-        }
-      } catch { /* retry */ }
-      if (!ok) await new Promise((res) => setTimeout(res, 1000 * (i + 1)));
+        last = `HTTP ${r.status}`;
+        if (!ok && r.status !== 429 && r.status < 500) break;
+        // Rate limited: wait as long as the API asks.
+        const after = Number(r.headers.get("retry-after"));
+        if (after > 0) wait = Math.max(wait, after * 1000);
+      } catch (e) { last = String(e); }
+      if (!ok) await new Promise((res) => setTimeout(res, wait));
     }
+    if (!ok) console.error(`r2-upload: ${key}: ${last}`);
     ok ? sent++ : failed++;
     if ((sent + skipped) % 500 === 0) console.log(`r2-upload: ${sent + skipped}/${files.length}`);
   }
