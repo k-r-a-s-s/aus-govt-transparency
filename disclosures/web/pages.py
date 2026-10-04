@@ -26,6 +26,7 @@ from . import metadata as MD
 from . import urls as U
 from .bundle import DATA_FILES, write
 from .dataset import Dataset, sections
+from .media import Media
 
 TEMPLATES = Path(__file__).parent / "templates"
 SITE_NAME = "Registers of Interests"
@@ -190,6 +191,17 @@ class SiteConfig:
     css_href: str
     js: Dict[str, str] = field(default_factory=dict)
     data_files: Optional[Path] = None
+    media: Media = field(default_factory=Media)
+    og_base: str = ""
+
+
+def og_file(path: str) -> str:
+    """Page path -> its card's file under the og base: '/' -> 'index.png',
+    '/members/x/' -> 'members/x.png', '/404.html' -> '404.png'."""
+    stem = path.strip("/")
+    if stem.endswith(".html"):
+        stem = stem[:-5]
+    return (stem or "index") + ".png"
 
 
 class Renderer:
@@ -217,6 +229,7 @@ class Renderer:
         self.version = MD.dataset_version(self.meta)
         self.data_date = (self.meta.get("loaded_at") or "")[:10] or "unknown"
         self.pages: List[str] = []
+        self.cards: List[dict] = []
         year = self.data_date[:4]
         cite = (f"Rassool, K. ({year}). Australian Parliament Registers of Interests "
                 f"({self.version}) [Data set]. Transcribed from the Parliament of Australia "
@@ -236,6 +249,7 @@ class Renderer:
             "doi": cfg.doi,
             "doi_url": MD.doi_url(cfg.doi),
             "repo_url": export.REPO_URL,
+            "og_base": cfg.og_base,
             "gold": GOLD,
             "cite": cite,
             "labels_note": ("Confidence is marked when the transcriber was not sure (medium "
@@ -278,10 +292,24 @@ class Renderer:
         }
 
     def page(self, path: str, nav: Optional[str], title: str, description: str,
-             scripts: Tuple[str, ...] = (), jsonld: Optional[str] = None) -> dict:
+             scripts: Tuple[str, ...] = (), jsonld: Optional[str] = None,
+             card: Optional[dict] = None) -> dict:
+        """The page dict for base.html. Also records the page's Open Graph card spec
+        (``og-cards.json``): ``card`` overrides the default of the site's headline numbers."""
+        spec = {"eyebrow": SITE_NAME, "title": title, "subtitle": description,
+                "stats": self._site_stats(), "accent": None, "bar": None}
+        spec.update(card or {})
+        spec.update({"path": path, "file": og_file(path)})
+        self.cards.append(spec)
         return {"path": path, "nav": nav, "title": f"{title} | {SITE_NAME}",
                 "og_title": title, "description": description, "scripts": list(scripts),
-                "jsonld": Markup(jsonld) if jsonld else None}
+                "jsonld": Markup(jsonld) if jsonld else None,
+                "og_image": self.cfg.og_base + spec["file"] if self.cfg.og_base else None,
+                "og_image_alt": f"{title}: {', '.join(f'{v} {k}' for v, k in spec['stats'])}."}
+
+    def _site_stats(self) -> List[List[str]]:
+        return [[fmt(self.s["items"]), "declared items"], [fmt(self.s["members"]), "members"],
+                [fmt(self.s["statements"]), "statements"]]
 
     def render(self, out: Path, template: str, page: dict, **ctx) -> None:
         html = self.env.get_template(template).render(site=self.site, page=page, **ctx)
@@ -469,7 +497,7 @@ class Renderer:
                          "chamber": ", ".join(CHAMBER[c] for c in sorted(chambers)),
                          "parliaments": parl, "places": ", ".join(reversed(places)),
                          "parties": "; ".join(f"{p} ({_span(ps)})" for p, ps in parties),
-                         "items": m["items"]})
+                         "items": m["items"], "photo": self.cfg.media.photo(m["id"])})
         self.render(out, "members_index.html",
                     self.page("/members/", "members", "Members and senators",
                               f"All {fmt(len(rows))} members and senators in the dataset, with "
@@ -532,7 +560,9 @@ class Renderer:
                       f"missing or misread. Each item links to the page of its statement: check "
                       f"the source before relying on an item.{senate_note} Party is the party "
                       f"at the start of each term.")
+        latest = m["terms"][-1] if m["terms"] else None
         mem = {"id": m["id"], "name": m["name"], "chamber_label": label, "honest": honest,
+               "photo": self.cfg.media.photo(m["id"]),
                "lede": f"{label}. {fmt(len(rows))} declared "
                        f"{'item' if len(rows) == 1 else 'items'} across "
                        f"{fmt(len(statements))} {'statement' if len(statements) == 1 else 'statements'}"
@@ -541,9 +571,53 @@ class Renderer:
                     self.page(f"/members/{m['id']}/", "members", m["name"],
                               f"Interests declared by {m['name']} in the Parliament of "
                               f"Australia registers: {fmt(len(rows))} items, with links to the "
-                              f"source statements."),
+                              f"source statements.",
+                              card=self._member_card(m, label, latest, len(rows), len(statements),
+                                                     terms)),
                     mem=mem, terms=terms, statements=statements, n_items=len(rows),
                     groups=groups, chart=chart, alterations=alts)
+
+    def _member_card(self, m: dict, label: str, latest: Optional[dict], n_items: int,
+                     n_statements: int, terms: List[dict]) -> dict:
+        sub = label
+        if latest:
+            place = latest["electorate_or_state"] or ""
+            if place.isupper():
+                place = place.title()
+            party = latest["party"] or ""
+            sub = ", ".join(x for x in (party, place) if x) + \
+                f" ({ordinal(latest['parliament'])} parliament)"
+        return {"eyebrow": label, "title": m["name"], "subtitle": sub,
+                "accent": (latest or {}).get("bloc"),
+                "stats": [[fmt(n_items), "declared items" if n_items != 1 else "declared item"],
+                          [fmt(n_statements), "statements" if n_statements != 1 else
+                           "statement"],
+                          [fmt(len(terms)), "parliaments" if len(terms) != 1 else
+                           "parliament"]]}
+
+    def _bloc_bar(self, items: List[dict]) -> List[dict]:
+        """Distinct members per bloc (at the start of each term) among ``items``."""
+        by_bloc: Dict[str, set] = defaultdict(set)
+        for it in items:
+            by_bloc[self.bloc(it)].add(it["member_id"])
+        return [{"bloc": key, "label": lab, "value": len(by_bloc[key])}
+                for key, lab, _ in C.bloc_series(sorted(by_bloc)) if by_bloc.get(key)]
+
+    def _bloc_card(self, eyebrow: str, title: str, subtitle: str, items: List[dict],
+                   stats: List[List[str]]) -> dict:
+        return {"eyebrow": eyebrow, "title": title, "subtitle": subtitle, "stats": stats,
+                "bar": self._bloc_bar(items)}
+
+    def _entity_card(self, ent: dict, items: List[dict], n_regs: int) -> dict:
+        bar = self._bloc_bar(items)
+        return {"eyebrow": ent["type_label"].capitalize(), "title": ent["name"],
+                "subtitle": "Named in interests declared by Australian federal MPs and "
+                            "senators.",
+                "stats": [[fmt(ent["members"]), "members" if ent["members"] != 1 else "member"],
+                          [fmt(ent["items"]), "declared items" if ent["items"] != 1 else
+                           "declared item"],
+                          [fmt(n_regs), "registers" if n_regs != 1 else "register"]],
+                "bar": bar}
 
     def render_entities_index(self, out: Path) -> None:
         rows = [{"id": e["id"], "name": e["name"],
@@ -595,7 +669,7 @@ class Renderer:
                "type_label": (e["type"] or "untyped").replace("_", " "),
                "items": len(items), "members": len(per_member),
                "method_words": "; ".join(METHOD_WORDS[x] for x in methods) or "not recorded",
-               "honest": self._entity_honest(items)}
+               "honest": self._entity_honest(items), "logo": self.cfg.media.logo(e["id"])}
         chart = Markup(C.stacked(
             "chart-entity-members", f"Distinct members per register by bloc: {e['name']}",
             "Horizontal stacked bars, one per register, of distinct members naming this "
@@ -603,7 +677,8 @@ class Renderer:
         self.render(out, "entity.html",
                     self.page(f"/entities/{e['id']}/", "entities", e["name"],
                               f"{e['name']}: named in {fmt(len(items))} interests declared by "
-                              f"{fmt(len(per_member))} Australian federal MPs and senators."),
+                              f"{fmt(len(per_member))} Australian federal MPs and senators.",
+                              card=self._entity_card(ent, items, len(regs))),
                     ent=ent, variants=variants, aliases=aliases, chart=chart,
                     by_reg_head=by_reg_head, by_reg_rows=by_reg_rows, member_rows=member_rows,
                     groups=self._groups(rows))
@@ -646,7 +721,12 @@ class Renderer:
                     self.page(f"/sections/{n}/", None, f"Section {n}: {name}",
                               f"Register section {n} ({HOUSE_WORDING[n]}): {fmt(len(items))} "
                               f"declared items by parliament and bloc, and the most named "
-                              f"entities."),
+                              f"entities.",
+                              card=self._bloc_card(
+                                  "Register section", f"Section {n}: {name}", HOUSE_WORDING[n],
+                                  items, [[fmt(len(items)), "declared items"],
+                                          [fmt(len({it["member_id"] for it in items})), "members"],
+                                          [fmt(len(ent_members)), "entities named"]])),
                     sec=sec, chart=chart, head=head, rows=rows, top_rows=top_rows, others=others)
 
     def render_register(self, out: Path, chamber: str, parliament: int,
@@ -716,7 +796,14 @@ class Renderer:
                               reg["title"],
                               f"The {reg['title']} register of interests: {fmt(cov['items'])} "
                               f"declared items from {fmt(cov['statements'])} statements, by "
-                              f"section and member."),
+                              f"section and member.",
+                              card=self._bloc_card(
+                                  "Register of interests", reg["title"],
+                                  f"{reg['years']}. Statements dated {reg['dates']}."
+                                  if reg["years"] else f"Statements dated {reg['dates']}.",
+                                  items, [[fmt(cov["items"]), "declared items"],
+                                          [fmt(cov["members"]), "members"],
+                                          [fmt(cov["statements"]), "statements"]])),
                     reg=reg, chart=chart, section_rows=section_rows, member_rows=member_rows,
                     others=others)
 
@@ -796,7 +883,27 @@ class Renderer:
                               "transcription, validation, entity matching, measured accuracy "
                               "and known limitations."),
                     method=method, limitations=limitations, prompts=prompts,
-                    accuracy_rows=accuracy_rows, labels=labels, changelog=changelog)
+                    accuracy_rows=accuracy_rows, labels=labels, changelog=changelog,
+                    credits=self._credits())
+
+    def _credits(self) -> dict:
+        """Image credits for the about page: the APH portraits as one source, each logo with
+        its own source, licence and author."""
+        media = self.cfg.media
+        photos = sorted(media.photos.values(), key=lambda e: e["member_id"])
+        logos = []
+        for e in sorted(media.logos.values(),
+                        key=lambda e: (self.entity_by_id[e["entity_id"]]["name"].casefold(),
+                                       e["entity_id"])):
+            logos.append({"id": e["entity_id"], "name": self.entity_by_id[e["entity_id"]]["name"],
+                          "source_page": e["source_page"], "licence": e["licence"],
+                          "licence_url": e.get("licence_url") or None,
+                          "author": e.get("author") or ""})
+        return {"photos": len(photos),
+                "photo_licence": photos[0]["licence"] if photos else None,
+                "photo_licence_url": photos[0].get("licence_url") if photos else None,
+                "photo_credit": photos[0]["credit"] if photos else None,
+                "logos": logos}
 
     def render_404(self, out: Path) -> None:
         self.render(out, "404.html", self.page("/404.html", None, "Page not found",
@@ -838,8 +945,10 @@ class Renderer:
         return list(self.pages)
 
 
-def render_site(ds: Dataset, out: Path, cfg: SiteConfig) -> List[str]:
+def render_site(ds: Dataset, out: Path, cfg: SiteConfig) -> Tuple[List[str], List[dict]]:
     """Render every page into ``out`` (after ``bundle.write_data``). Returns the page paths
-    (for the sitemap; ``/404.html`` excluded)."""
+    (for the sitemap; ``/404.html`` excluded) and every page's Open Graph card spec."""
     summary = json.loads((out / "data" / "summary.json").read_text(encoding="utf-8"))
-    return Renderer(ds, cfg, summary).render_all(out)
+    r = Renderer(ds, cfg, summary)
+    pages = r.render_all(out)
+    return pages, r.cards

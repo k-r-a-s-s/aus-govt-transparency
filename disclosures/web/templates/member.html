@@ -2,7 +2,10 @@
 {% import "_macros.html" as m %}
 {% block main %}
 <p class="eyebrow"><a href="/members/">Members</a> / {{ mem.chamber_label }}</p>
+<div class="page-head">
+{% if mem.photo %}<img class="portrait" src="{{ mem.photo }}" alt="Official portrait of {{ mem.name }}" width="96" height="96" decoding="async">{% endif %}
 <h1 id="member-name">{{ mem.name }}</h1>
+</div>
 <p class="lede">{{ mem.lede }}</p>
 
 <h2>Terms</h2>

@@ -46,6 +46,13 @@ def add_arguments(p: argparse.ArgumentParser) -> None:
             s.add_argument("--data-files", default=None, metavar="DIR",
                            help="local folder with the R2 data files; /data/ then prints their "
                                 "sizes and sha256 (optional, read only)")
+            s.add_argument("--media", default=None, metavar="DIR",
+                           help="folder with media.json, the member photos and the logos "
+                                "(web/media); without it pages have no images (optional, read "
+                                "only)")
+            s.add_argument("--og-base", default=None, metavar="URL",
+                           help="where the Open Graph cards are served (default: "
+                                "<data-base>og/<dataset version>.c<card version>/)")
         elif name == "check":
             s.add_argument("site", help="built site directory")
             s.add_argument("--db", default=None,
@@ -86,7 +93,8 @@ def run(args) -> int:
 
         try:
             s = build(args.db, args.manifest, args.out, args.mode, args.data_base,
-                      site_url=args.site_url, doi=args.doi, data_files=args.data_files)
+                      site_url=args.site_url, doi=args.doi, data_files=args.data_files,
+                      media=args.media, og_base=args.og_base)
         except (BuildError, DatasetError) as e:
             print(f"web build: {e}", file=sys.stderr)
             return 2
@@ -94,6 +102,7 @@ def run(args) -> int:
               f"{s['entities_listed']:,} entities listed ({s['entity_files']:,} with items.json), "
               f"{s['documents']:,} statements; data/items.json {s['items_json_bytes']:,} bytes; "
               f"{s['pages']:,} HTML pages ({s['html_bytes']:,} bytes); "
+              f"{s['photos']:,} photos, {s['logos']:,} logos, {s['og_cards']:,} card specs; "
               f"{s['files']:,} files, {s['bytes']:,} bytes -> {s['out']} ({args.mode})")
         return 0
     if cmd == "check":

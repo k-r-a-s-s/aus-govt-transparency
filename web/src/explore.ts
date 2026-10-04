@@ -156,7 +156,7 @@ async function main(mount: HTMLElement): Promise<void> {
     if (!graphLoading) {
       graphRoot.replaceChildren(el("p", { class: "note", role: "status" }, "Loading the graph…"));
       graphLoading = (import(graphSrc) as Promise<typeof import("./explore-graph")>).then((mod) => {
-        graph = mod.createGraph(graphRoot, data, { showItems });
+        graph = mod.createGraph(graphRoot, data, { showItems }, base);
         return graph;
       }).catch((err: Error) => {
         graphRoot.replaceChildren(el("p", { class: "note", role: "status" }, `The graph could not load (${err.message}). The table and charts still work.`));

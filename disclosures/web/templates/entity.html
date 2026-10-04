@@ -2,7 +2,10 @@
 {% import "_macros.html" as m %}
 {% block main %}
 <p class="eyebrow"><a href="/entities/">Entities</a> / {{ ent.type_label }}</p>
+<div class="page-head">
+{% if ent.logo %}<span class="logo-tile"><img src="{{ ent.logo }}" alt="{{ ent.name }} logo" width="80" height="80" decoding="async"></span>{% endif %}
 <h1 id="entity-name">{{ ent.name }}</h1>
+</div>
 <p class="lede">Named in <span id="entity-items">{{ ent["items"]|num }}</span> declared items by <span id="entity-members">{{ ent.members|num }}</span> {{ "member" if ent.members == 1 else "members" }}. An entity is a company, organisation, trust or person that the register names; different spellings of the same name are folded into one entity.</p>
 
 <dl class="facts">

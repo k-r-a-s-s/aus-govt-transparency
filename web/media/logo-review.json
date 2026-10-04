@@ -1,0 +1,3402 @@
+[
+ {
+  "entity_id": "accor",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Current gold Accor logo (preferred P154), 1590x1361 PNG, verified visually.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Logo_Accor.png",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Gold Accor logo 1590x1361, clear; Accor group brand used in Australia."
+ },
+ {
+  "entity_id": "adelaide_football_club",
+  "imported": true,
+  "licence": "Trademark of Adelaide Football Club, from its website",
+  "notes": "152x152 JPEG apple-touch-icon with the Crows crest and 'ADELAIDE'; Commons P154 file was only a stripes icon so rejected. Low-ish resolution.",
+  "source_page": "https://www.afc.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Adelaide Crows crest with 'ADELAIDE', 152x152 JPEG on white. Low resolution but usable."
+ },
+ {
+  "entity_id": "afterpay",
+  "imported": false,
+  "licence": "",
+  "notes": "Wikidata item has no P154 logo; afterpay.com page exposed no logo/icon in fetched HTML (JS-rendered). Not found.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "none"
+ },
+ {
+  "entity_id": "agest_super",
+  "imported": false,
+  "licence": "",
+  "notes": "No Wikidata item; agestsuper.com.au guess returned nothing; could not confirm an official site.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found."
+ },
+ {
+  "entity_id": "agl_energy",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:AGL-Energy-Logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "AGL logo."
+ },
+ {
+  "entity_id": "alliance_for_responsible_citizenship",
+  "imported": true,
+  "licence": "Trademark of Alliance for Responsible Citizenship, from its website",
+  "notes": "180x180 apple-touch-icon (white ARC mark on blue); the header logo PNG was only 45x61 and white-on-transparent. UK-based organisation, no Commons logo.",
+  "source_page": "https://arc.global/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "ARC white mark on blue apple-touch-icon, 180px; mark appears cropped but is the org's icon."
+ },
+ {
+  "entity_id": "ambassador_of_japan",
+  "imported": false,
+  "licence": "",
+  "notes": "Foreign ambassador.",
+  "source_page": "",
+  "status": "skip",
+  "verdict": "n/a",
+  "verdict_reason": "Foreign ambassador skip is correct."
+ },
+ {
+  "entity_id": "amcor",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Black/yellow Amcor wordmark.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Amcor-Logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Amcor wordmark in black and yellow, clean render."
+ },
+ {
+  "entity_id": "american_express",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154 logo (2018).",
+  "source_page": "https://commons.wikimedia.org/wiki/File:American_Express_logo_(2018).svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Amex blue box logo, clear SVG."
+ },
+ {
+  "entity_id": "amnesty_international",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "International wordmark logo (not the Australian section's own); an older version of the wordmark per Commons description.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Amnesty_international_Logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Amnesty International wordmark; acceptable for the org (international, not Australian section)."
+ },
+ {
+  "entity_id": "amp",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Previewed OK.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:AMP_Logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "AMP blue striped logo renders correctly."
+ },
+ {
+  "entity_id": "ampol",
+  "imported": true,
+  "licence": "Trademark of Ampol Limited, from its website",
+  "notes": "Header nav logo SVG; verified it shows the red/blue Ampol mark with AMPOL wordmark. No Wikidata logo.",
+  "source_page": "https://www.ampol.com.au",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Ampol A mark with wordmark, clear."
+ },
+ {
+  "entity_id": "anacta",
+  "imported": false,
+  "licence": "",
+  "notes": "Could not confidently identify the organisation (anacta.com.au unverified); no Wikidata item.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found."
+ },
+ {
+  "entity_id": "arnold_bloch_leibler",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "270x77 wordmark 'Arnold Bloch Leibler - Lawyers and Advisors'; low resolution. Official site returned 403.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:ABL_Logo.png",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Arnold Bloch Leibler wordmark, 270x77, legible."
+ },
+ {
+  "entity_id": "arnott_s",
+  "imported": true,
+  "licence": "Trademark of Arnott's, from its website",
+  "notes": "Header logo, 308x116 PNG.",
+  "source_page": "https://www.arnotts.com/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Arnott's logo"
+ },
+ {
+  "entity_id": "asahi_beverages",
+  "imported": true,
+  "licence": "Trademark of Asahi Beverages, from its website",
+  "notes": "Header logo SVG (Asahi Group mark plus 'Asahi Beverages'); no Wikidata item found.",
+  "source_page": "https://www.asahibeverages.com/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Asahi Beverages logo, renders correctly"
+ },
+ {
+  "entity_id": "asgard",
+  "imported": false,
+  "licence": "",
+  "notes": "Ambiguous (likely Asgard Capital Management, Wikidata/website not identifiable); no confident match found.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "none, ambiguous"
+ },
+ {
+  "entity_id": "astra_foxtel",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Foxtel logo (2018 version, coloured; the 2020 P154 file is all white so unusable on light backgrounds). ASTRA itself has no logo found; Foxtel logo used for the combined entry.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Foxtel_logo_2018.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Foxtel wordmark with red accent renders correctly (SVG vector, preview tiny due to intrinsic size). Note it is Foxtel, not ASTRA itself, for a combined entry; acceptable."
+ },
+ {
+  "entity_id": "asx",
+  "imported": true,
+  "licence": "Trademark of ASX Limited, from its website",
+  "notes": "180px apple-touch-icon showing the ASX X mark; Wikidata has no P154.",
+  "source_page": "https://www.asx.com.au",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "ASX X mark, 180px, slightly soft but usable."
+ },
+ {
+  "entity_id": "atlas_iron",
+  "imported": true,
+  "licence": "CC BY-SA 3.0",
+  "notes": "Black and white Atlas logo on white background (JPEG, 2115x2175).",
+  "source_page": "https://commons.wikimedia.org/wiki/File:ATLAS_IRON_LOGO_-_FINAL.JPG",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Atlas Iron logo (A with Atlas figure), 2115x2175 JPEG."
+ },
+ {
+  "entity_id": "aurizon_holdings",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Verified preview shows Aurizon logo.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Aurizon.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Aurizon logo renders correctly."
+ },
+ {
+  "entity_id": "austar",
+  "imported": true,
+  "licence": "CC BY-SA 4.0",
+  "notes": "Austar is defunct (merged into Foxtel 2012); logo found via Commons file search, not Wikidata P154. 400x192 PNG.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Austar.png",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Austar logo, clear."
+ },
+ {
+  "entity_id": "australia_and_new_zealand_banking_group",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "2009-era ANZ logo (blue); SVG uses a rotated group transform, so ImageMagick renders it blank but macOS Quick Look and browsers render it correctly (previewed OK).",
+  "source_page": "https://commons.wikimedia.org/wiki/File:ANZ-Logo-2009.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "ANZ logo renders correctly via Quick Look, though it is the 2009-era blue version."
+ },
+ {
+  "entity_id": "australia_israel_cultural_exchange",
+  "imported": false,
+  "licence": "",
+  "notes": "No Wikidata item; aice.org.au redirected to an unrelated site, so no verified official logo.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found."
+ },
+ {
+  "entity_id": "australia_israel_jewish_affairs_council",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Found via Commons search; official site is behind a Cloudflare challenge. Blue AIJAC wordmark with full name, 639x254 transparent PNG. Previewed OK.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Logo_of_the_Australia_Israel_Jewish_Affairs_Council.png",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "AIJAC wordmark with full name, 639x254 PNG."
+ },
+ {
+  "entity_id": "australia_post",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Red banner with white Australia Post logo; verified.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Australia_Post.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Australia Post logo, white on red banner."
+ },
+ {
+  "entity_id": "australian_american_leadership_dialogue",
+  "imported": true,
+  "licence": "Trademark of Australian American Leadership Dialogue, from its website",
+  "notes": "Mobile/emblem version of the AALD logo (flag-ribbon swirl, 67x70 px, small raster). The full header logo has white text and is not legible on white, so the emblem was used. Contains stylised flag elements as part of the organisation's own logo.",
+  "source_page": "https://www.aald.org/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "AALD emblem, small (67x70) but usable."
+ },
+ {
+  "entity_id": "australian_automobile_association",
+  "imported": true,
+  "licence": "Trademark of Australian Automobile Association, from its website",
+  "notes": "196px site icon (gold winged AA emblem); no Wikidata logo.",
+  "source_page": "https://www.aaa.asn.au",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Gold winged AA emblem, 196px."
+ },
+ {
+  "entity_id": "australian_broadcasting_corporation",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154 (preferred), ABC Gyrator logo.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Australian_Broadcasting_Corporation_logo_%281974-%29.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "ABC Gyrator logo."
+ },
+ {
+  "entity_id": "australian_capital_equity",
+  "imported": false,
+  "licence": "",
+  "notes": "Private Kerry Stokes holding company; no Wikidata item and no own website/logo found.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "none"
+ },
+ {
+  "entity_id": "australian_chamber_of_commerce_and_industry",
+  "imported": true,
+  "licence": "CC BY-SA 4.0",
+  "notes": "JPG 881x385, logo on white, checked visually.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Australian_Chamber_of_Commerce_and_Industry_Logo.jpg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Clear ACCI logo (star plus wordmark), 881x385, usable."
+ },
+ {
+  "entity_id": "australian_chamber_orchestra",
+  "imported": true,
+  "licence": "Trademark of Australian Chamber Orchestra, from its website",
+  "notes": "Inline header SVG (ACO brandmark) extracted from the homepage HTML; currentColor replaced with black.",
+  "source_page": "https://www.aco.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "ACO serif brandmark, clear SVG."
+ },
+ {
+  "entity_id": "australian_conservation_foundation",
+  "imported": true,
+  "licence": "Trademark of Australian Conservation Foundation, from its website",
+  "notes": "SVG site icon: green circle with white leaf (ACF leaf mark), not the full wordmark.",
+  "source_page": "https://www.acf.org.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Green circle with white leaf, ACF mark."
+ },
+ {
+  "entity_id": "australian_defence_force",
+  "imported": false,
+  "licence": "",
+  "notes": "Armed forces; emblem is based on Commonwealth heraldry/government insignia, so skipped.",
+  "source_page": "",
+  "status": "skip",
+  "verdict": "n/a",
+  "verdict_reason": "Skip accepted: emblem is Commonwealth insignia."
+ },
+ {
+  "entity_id": "australian_fabians",
+  "imported": true,
+  "licence": "Trademark of Australian Fabians, from its website",
+  "notes": "228x200 PNG with transparent background, header logo.",
+  "source_page": "https://www.fabians.org.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Australian Fabians logo with red stripes and text, 228x200 PNG, clear."
+ },
+ {
+  "entity_id": "australian_financial_review",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "SVG wordmark, checked visually (wide aspect).",
+  "source_page": "https://commons.wikimedia.org/wiki/File:The-Australian-Financial-Review-Logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Rasterised SVG shows the Australian Financial Review wordmark; wide aspect but usable."
+ },
+ {
+  "entity_id": "australian_food_grocery_council",
+  "imported": true,
+  "licence": "Trademark of Australian Food and Grocery Council, from its website",
+  "notes": "Header colour logo, 688x304 PNG.",
+  "source_page": "https://afgc.org.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "AFGC logo"
+ },
+ {
+  "entity_id": "australian_football_league",
+  "imported": true,
+  "licence": "Trademark of Australian Football League, from its website",
+  "notes": "1024x512 transparent PNG (og:image logo). Previewed OK.",
+  "source_page": "https://www.afl.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "AFL oval logo, 1024x512 transparent PNG."
+ },
+ {
+  "entity_id": "australian_forest_products_association",
+  "imported": false,
+  "licence": "",
+  "notes": "No Wikidata item; website fetch returned no usable logo/icon markup within time spent.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "none"
+ },
+ {
+  "entity_id": "australian_foundation_investment_company",
+  "imported": false,
+  "licence": "",
+  "notes": "No P154; website blocked (403/Cloudflare challenge) to automated requests.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found; status none."
+ },
+ {
+  "entity_id": "australian_government",
+  "imported": false,
+  "licence": "",
+  "notes": "Generic government; emblem is the Commonwealth Coat of Arms, which must not be used.",
+  "source_page": "",
+  "status": "skip",
+  "verdict": "n/a",
+  "verdict_reason": "Skip accepted: Coat of Arms must not be used."
+ },
+ {
+  "entity_id": "australian_hotels_association",
+  "imported": true,
+  "licence": "Trademark of Australian Hotels Association, from its website",
+  "notes": "AHA logo, 549x150 PNG.",
+  "source_page": "https://aha.org.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "AHA logo"
+ },
+ {
+  "entity_id": "australian_institute_of_company_directors",
+  "imported": true,
+  "licence": "Trademark of Australian Institute of Company Directors, from its website",
+  "notes": "Site header logo (dark variant, transparent background), 280x56 px.",
+  "source_page": "https://www.aicd.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "AICD logo, clear."
+ },
+ {
+  "entity_id": "australian_labor_party",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "2015 logo; previewed OK.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Australian_Labor_Party_Logo_2015.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Australian Labor logo with Southern Cross, renders correctly."
+ },
+ {
+  "entity_id": "australian_labor_party_donor",
+  "imported": false,
+  "licence": "",
+  "notes": "Generic donor description, not one identifiable organisation.",
+  "source_page": "",
+  "status": "skip",
+  "verdict": "n/a",
+  "verdict_reason": "skip is correct: generic donor description"
+ },
+ {
+  "entity_id": "australian_labor_party_nsw_branch",
+  "imported": false,
+  "licence": "Trademark of NSW Labor (Australian Labor Party NSW Branch), from its website",
+  "notes": "Red 'Labor' wordmark, 600x600 PNG with transparent background (alt text 'NSW Labor').",
+  "source_page": "https://www.nswlabor.org.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Labor wordmark (NSW Labor), 600x600 transparent PNG. Renders grey in my flatten but notes say red; usable."
+ },
+ {
+  "entity_id": "australian_labor_party_queensland_branch",
+  "imported": true,
+  "licence": "Trademark of Queensland Labor, from its website",
+  "notes": "512px web icon of Queensland Labor (red Q with Southern Cross).",
+  "source_page": "https://queenslandlabor.org/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Red Q with Southern Cross icon of Queensland Labor, 512px."
+ },
+ {
+  "entity_id": "australian_labor_party_victorian_branch",
+  "imported": true,
+  "licence": "Trademark of Victorian Labor, from its website",
+  "notes": "256px webclip icon of Victorian Labor (red square, white text).",
+  "source_page": "https://www.viclabor.org.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Red square 'Victorian Labor' logo, 256px."
+ },
+ {
+  "entity_id": "australian_made_campaign",
+  "imported": true,
+  "licence": "Trademark of Australian Made Campaign Ltd, from its website",
+  "notes": "Green triangle with gold kangaroo (Australian Made logo), 180px apple-touch-icon.",
+  "source_page": "https://www.australianmade.com.au",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Australian Made green triangle with gold kangaroo."
+ },
+ {
+  "entity_id": "australian_manufacturing_workers_union",
+  "imported": true,
+  "licence": "Trademark of Australian Manufacturing Workers' Union, from its website",
+  "notes": "Stacked logo from the site's og:image meta (250x266). A CC0 Commons alternative exists (File:New Logo AMWU.png).",
+  "source_page": "https://www.amwu.org.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "AMWU logo"
+ },
+ {
+  "entity_id": "australian_medical_association",
+  "imported": false,
+  "licence": "Trademark of Australian Medical Association, from its website",
+  "notes": "Site icon (AMA caduceus-in-cross emblem), only 44x45 px (low resolution); no Wikidata logo and the header logo on the site is a white-only SVG.",
+  "source_page": "https://www.ama.com.au/",
+  "status": "found",
+  "verdict": "bad_file",
+  "verdict_reason": "Correct AMA emblem but only 44x45 px, below the 48 px minimum."
+ },
+ {
+  "entity_id": "australian_olympic_committee",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Kangaroo, emu, star and Olympic rings: the AOC's own emblem; Commons note mentions it derives from the coat of arms, but it is the AOC logo, not the Commonwealth Coat of Arms. ImageMagick cannot render this SVG; checked via qlmanage.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Australia_olympic_committee_logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "AOC kangaroo, emu, star and Olympic rings emblem in teal, clean render via qlmanage. It is the AOC's own logo, not the Commonwealth Coat of Arms."
+ },
+ {
+  "entity_id": "australian_open",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "2017 logo, white AO mark on blue square.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Australian_Open_Logo_2017.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Australian Open AO logo, clear."
+ },
+ {
+  "entity_id": "australian_palestinian_advocacy_network",
+  "imported": false,
+  "licence": "",
+  "notes": "No Wikidata item or Commons logo; official site (apan.org.au) returns 403 to automated requests, so no logo could be retrieved.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found; nothing to check."
+ },
+ {
+  "entity_id": "australian_parliamentary_sports_club",
+  "imported": false,
+  "licence": "",
+  "notes": "No Wikidata item, no Commons file and no official website found by web search; the club appears to have no public site.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found; none result is reasonable."
+ },
+ {
+  "entity_id": "australian_political_exchange_council",
+  "imported": false,
+  "licence": "",
+  "notes": "No Wikidata item or Commons logo. Its government site (auspolexchange.gov.au) shows no standalone logo, only generic icons and a favicon.ico; any header emblem would be Commonwealth government branding, which must not be used. apec.org.au is the unrelated APEC Study Centre.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found; avoiding government branding is correct."
+ },
+ {
+  "entity_id": "australian_recording_industry_association",
+  "imported": true,
+  "licence": "Trademark of Australian Recording Industry Association, from its website",
+  "notes": "180x180 apple-touch-icon showing the red ARIA logo; checked visually.",
+  "source_page": "https://www.aria.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Red ARIA tile logo, 180x180, clear."
+ },
+ {
+  "entity_id": "australian_republican_movement",
+  "imported": true,
+  "licence": "Trademark of Australian Republic Movement, from its website",
+  "notes": "Header logo, 1200x510 WebP (served despite .png name) with transparent background: yellow arrow plus WHITE text, so the text vanishes on a white background; display on a dark/coloured tile. The organisation's current name is 'Australian Republic Movement'.",
+  "source_page": "https://republic.org.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Yellow arrow with white text, correct org (now Australian Republic Movement); needs dark tile."
+ },
+ {
+  "entity_id": "australian_retirement_trust",
+  "imported": true,
+  "licence": "Trademark of Australian Retirement Trust, from its website",
+  "notes": "Header two-line logo SVG.",
+  "source_page": "https://www.australianretirementtrust.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "ART logo, renders correctly"
+ },
+ {
+  "entity_id": "australian_services_union",
+  "imported": true,
+  "licence": "Trademark of Australian Services Union, from its website",
+  "notes": "Header logo PNG 339x259; includes 'By your side' tagline.",
+  "source_page": "https://www.asu.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "ASU logo with tagline, legible."
+ },
+ {
+  "entity_id": "australian_strategic_policy_institute",
+  "imported": true,
+  "licence": "Trademark of Australian Strategic Policy Institute, from its website",
+  "notes": "80px header logo (below 120px, but is the actual header logo).",
+  "source_page": "https://www.aspi.org.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "ASPI logo block, 80px, above 48px minimum."
+ },
+ {
+  "entity_id": "australian_subscription_television_and_radio_association",
+  "imported": true,
+  "licence": "Trademark of Australian Subscription Television and Radio Association, from its website",
+  "notes": "No P154. Site header logo (253x50 PNG, transparent). Association now brands itself 'ASTRA Subscription Media Australia'; logo shows that current name.",
+  "source_page": "https://astra.org.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "ASTRA Subscription Media Australia logo, 253x50 PNG. It is the association's current branding."
+ },
+ {
+  "entity_id": "australian_turf_club",
+  "imported": false,
+  "licence": "",
+  "notes": "Wikidata has no logo; official site returned HTTP 429 (blocked). atc.com.au is a different organisation (rejected).",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "none"
+ },
+ {
+  "entity_id": "australian_workers_union",
+  "imported": true,
+  "licence": "Trademark of Australian Workers' Union, from its website",
+  "notes": "Site icon (270x270, navy circle with white A), as the header shows no logo image; Wikidata has no P154. Slightly soft but identifiable.",
+  "source_page": "https://awu.net.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "AWU navy circle with white A site icon; slightly soft but acceptable."
+ },
+ {
+  "entity_id": "australiansuper",
+  "imported": true,
+  "licence": "CC0",
+  "notes": "Found by Commons search (Wikidata has no P154). Older (c. 2011) AustralianSuper logo, 2969x1017 JPEG on white; website blocks automated access (403). Previewed OK.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:AustralianSuper_Master_RGB.jpg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "AustralianSuper wordmark with boomerang, a clear logo (older version) at 2969x1017."
+ },
+ {
+  "entity_id": "bank_australia",
+  "imported": true,
+  "licence": "Trademark of Bank Australia, from its website",
+  "notes": "512px site icon (pink/red brand mark); the header wordmark is white-only, so the icon was used. Wikidata has no P154.",
+  "source_page": "https://www.bankaust.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "512px pink and red Bank Australia brand mark."
+ },
+ {
+  "entity_id": "bank_of_melbourne",
+  "imported": true,
+  "licence": "Trademark of Bank of Melbourne, from its website",
+  "notes": "144x144 apple-touch-icon (blue shield mark, no wordmark); no Commons logo.",
+  "source_page": "https://www.bankofmelbourne.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Blue shield mark of Bank of Melbourne, 144px, no wordmark but the brand's icon."
+ },
+ {
+  "entity_id": "bank_of_queensland",
+  "imported": true,
+  "licence": "Trademark of Bank of Queensland, from its website",
+  "notes": "Header logo SVG from the site nav fragment (blue BOQ wordmark with yellow/blue mark); no Wikidata P154.",
+  "source_page": "https://www.boq.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "BOQ blue wordmark and mark."
+ },
+ {
+  "entity_id": "banksa",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Vector recreation of the BankSA logo.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:BankSA_logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "BankSA logo, clear."
+ },
+ {
+  "entity_id": "bankwest",
+  "imported": true,
+  "licence": "CC BY-SA 4.0",
+  "notes": "Current gold Bankwest logo, 893x369 with generous transparent padding.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Bankwest_new_logo.png",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Bankwest gold logo with generous transparent padding; a light-coloured logo that is faint on a grey background but correct."
+ },
+ {
+  "entity_id": "basketball_australia",
+  "imported": true,
+  "licence": "Trademark of Basketball Australia, from its website",
+  "notes": "192px apple-touch icon (orange basketball mark).",
+  "source_page": "https://www.australia.basketball/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Orange basketball mark, 192px."
+ },
+ {
+  "entity_id": "beach_energy",
+  "imported": true,
+  "licence": "Trademark of Beach Energy Limited, from its website",
+  "notes": "Header logo PNG 512x442; verified.",
+  "source_page": "https://beachenergy.com.au",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Beach Energy logo, 512x442."
+ },
+ {
+  "entity_id": "bell_shakespeare",
+  "imported": true,
+  "licence": "Trademark of Bell Shakespeare, from its website",
+  "notes": "Header logo is an SVG sprite symbol 'bell-shakespeare' (viewBox 0 0 280 61); extracted into a standalone SVG. Black BELL / SHAKESPEARE stacked wordmark, second line mirrored as in the real logo.",
+  "source_page": "https://www.bellshakespeare.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Bell Shakespeare stacked wordmark with mirrored second line, renders correctly."
+ },
+ {
+  "entity_id": "belvoir_st_theatre",
+  "imported": true,
+  "licence": "Trademark of Belvoir St Theatre, from its website",
+  "notes": "Orange header logo SVG with horse mark and BELVOIR ST THEATRE wordmark; verified.",
+  "source_page": "https://belvoir.com.au",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Belvoir St Theatre horse mark and wordmark."
+ },
+ {
+  "entity_id": "bendigo_and_adelaide_bank",
+  "imported": true,
+  "licence": "Trademark of Bendigo and Adelaide Bank, from its website",
+  "notes": "Bendigo Bank brand logo (566x88 PNG) used for the Bendigo and Adelaide Bank group. Previewed OK.",
+  "source_page": "https://www.bendigobank.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Bendigo Bank logo, the group's main brand, 566x88 PNG."
+ },
+ {
+  "entity_id": "betashares",
+  "imported": true,
+  "licence": "Trademark of BetaShares, from its website",
+  "notes": "180px apple-touch-icon (white mark on orange).",
+  "source_page": "https://www.betashares.com.au",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "BetaShares white mark on orange, 180px app icon."
+ },
+ {
+  "entity_id": "betashares_global_sustainability_leaders_etf",
+  "imported": false,
+  "licence": "Public domain",
+  "notes": "This is the ETF issuer's (Betashares) logo, used because the fund itself has no logo. SVG was downloaded but not visually previewed (the issuer's site icon, an orange hexagon-play mark, was seen and matches the brand).",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Betashares_Logo.svg",
+  "status": "found",
+  "verdict": "wrong_org",
+  "verdict_reason": "Logo is Betashares (the issuer) wordmark, not the ETF itself. Renders correctly, so only acceptable if issuer-logo fallback for funds is allowed."
+ },
+ {
+  "entity_id": "beyond_bank_australia",
+  "imported": true,
+  "licence": "Trademark of Beyond Bank Australia, from its website",
+  "notes": "180px apple-touch-icon (purple ring mark).",
+  "source_page": "https://www.beyondbank.com.au",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Beyond Bank purple ring mark, 180px."
+ },
+ {
+  "entity_id": "bhp_group",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Previewed OK.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:BHP_2017_logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "BHP orange wordmark renders correctly."
+ },
+ {
+  "entity_id": "bill_melinda_gates_foundation",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata preferred P154. Current 'Gates Foundation' wordmark (organisation was renamed from Bill & Melinda Gates Foundation). Commons restriction tag: trademarked.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:GatesFoundationlogo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Gates Foundation wordmark, the renamed current logo of the same org."
+ },
+ {
+  "entity_id": "blackmores",
+  "imported": true,
+  "licence": "Trademark of Blackmores, from its website",
+  "notes": "Header SVG wordmark. Wikidata item has no P154.",
+  "source_page": "https://www.blackmores.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "BLACKMORES wordmark SVG, clear."
+ },
+ {
+  "entity_id": "bluescope_steel",
+  "imported": true,
+  "licence": "CC BY-SA 4.0",
+  "notes": "SVG, checked visually.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:BlueScope_Logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "BlueScope logo with wordmark, clear."
+ },
+ {
+  "entity_id": "bmw_financial_services",
+  "imported": false,
+  "licence": "",
+  "notes": "Wikidata only has German BMW Bank GmbH (not the Australian entity); bmwfinance.com.au did not respond. Not found.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "none"
+ },
+ {
+  "entity_id": "boral",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Preview renders the BORAL wordmark dark on transparent with extra empty canvas; usable but may need trimming.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Boral_Logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "BORAL wordmark, black on transparent with extra canvas; usable, may need trimming."
+ },
+ {
+  "entity_id": "brambles",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154 logo, blue Brambles wordmark.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Brambles_Logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Blue Brambles wordmark SVG, clear."
+ },
+ {
+  "entity_id": "bravus_mining_and_resources",
+  "imported": true,
+  "licence": "Trademark of Bravus Mining and Resources, from its website",
+  "notes": "Header logo (756x148 PNG), wordmark BRAVUS. Live homepage 403s to curl but the asset itself downloaded fine.",
+  "source_page": "https://www.bravus.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "BRAVUS wordmark, clear and usable."
+ },
+ {
+  "entity_id": "brisbane_broncos",
+  "imported": true,
+  "licence": "Trademark of Brisbane Broncos, from its website",
+  "notes": "Club badge SVG from site header; no Commons logo found.",
+  "source_page": "https://www.broncos.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Broncos horse badge with BRISBANE text, clear."
+ },
+ {
+  "entity_id": "brisbane_lions",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Lion icon (gold lion on maroon), 427x428 PNG; an icon rather than the full club crest.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Brisbanelions_icon_lion.png",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Brisbane Lions gold lion on maroon/blue; icon of the club, usable."
+ },
+ {
+  "entity_id": "bt_financial_group",
+  "imported": true,
+  "licence": "Trademark of BT Financial Group, from its website",
+  "notes": "Blue diamond + BT mark, colour on transparent; only 76x32 px (small but fine at ~48 px).",
+  "source_page": "https://www.bt.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "BT diamond and wordmark, correct organisation. Small at 76x32 (height under 48) but legible and wide; borderline."
+ },
+ {
+  "entity_id": "caltex_australia",
+  "imported": false,
+  "licence": "Trademark of Ampol Limited, from its website",
+  "notes": "Caltex Australia was renamed Ampol in 2020; this is the current Ampol logo (no Caltex-era logo on Commons or Wikidata). Square SVG with A mark and AMPOL wordmark.",
+  "source_page": "https://www.ampol.com.au/",
+  "status": "found",
+  "verdict": "rejected_by_orchestrator",
+  "verdict_reason": "successor brand (Ampol), dropped for consistency"
+ },
+ {
+  "entity_id": "canberra_raiders",
+  "imported": true,
+  "licence": "Trademark of Canberra Raiders, from its website",
+  "notes": "260px site icon with Raiders viking crest on green; verified.",
+  "source_page": "https://www.raiders.com.au",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Canberra Raiders crest on green, 260px."
+ },
+ {
+  "entity_id": "canberra_theatre_centre",
+  "imported": false,
+  "licence": "",
+  "notes": "No Wikidata item or Commons logo. Official site returns 403 to curl for pages and logo assets (bot-protected); not circumvented.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found; status none."
+ },
+ {
+  "entity_id": "canterbury_bankstown_bulldogs",
+  "imported": true,
+  "licence": "Trademark of Canterbury-Bankstown Bulldogs, from its website",
+  "notes": "Wikidata item has no P154. Header badge SVG (bulldog head), previewed OK.",
+  "source_page": "https://www.bulldogs.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Bulldog head badge with CB mark, clean SVG render."
+ },
+ {
+  "entity_id": "caravan_industry_association_of_australia",
+  "imported": true,
+  "licence": "Trademark of Caravan Industry Association of Australia, from its website",
+  "notes": "og:image share card (1200x630): coloured logo centred on white with a coloured bar along the bottom, so it needs cropping to the logo. The header logo-head.png is white-on-transparent and would be invisible on a light page, so it was not used.",
+  "source_page": "https://www.caravanindustry.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Correct logo, but it is a 1200x630 share card with whitespace and a bottom bar, so it needs cropping to the logo."
+ },
+ {
+  "entity_id": "carlton_united_breweries",
+  "imported": false,
+  "licence": "Trademark of Asahi Beverages (formerly Carlton & United Breweries), from its website",
+  "notes": "cub.com.au redirects to Asahi Beverages, the renamed CUB. Logo is the current Asahi Beverages horizontal lockup (Asahi Group mark plus 'Asahi Beverages' text), not a CUB-branded logo; wide aspect.",
+  "source_page": "https://www.asahibeverages.com/?ref=cub",
+  "status": "found",
+  "verdict": "wrong_org",
+  "verdict_reason": "Shows the Asahi Group mark and 'Asahi Beverages' text, the parent or renamed company, not a CUB-branded logo."
+ },
+ {
+  "entity_id": "centre_for_independent_studies",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154 (2015 logo, green panel). Commons restriction tag: trademarked.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Centre_for_Independent_Studies_logo_2015.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "CIS green panel logo, clear."
+ },
+ {
+  "entity_id": "chamber_of_minerals_and_energy_of_western_australia",
+  "imported": false,
+  "licence": "",
+  "notes": "Wikidata item has no P154, none on Commons. Official site is behind a Cloudflare challenge (403); not circumvented.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found; status none."
+ },
+ {
+  "entity_id": "chevron",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154 (Chevron Corporation, US parent of Chevron Australia).",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Chevron_Logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Chevron Corporation (US parent) logo. It is the right brand and Chevron Australia uses it, so this is acceptable; flagged only as a parent logo. Treat as ok if a parent logo is allowed. [accepted by orchestrator: same brand as Chevron Australia]"
+ },
+ {
+  "entity_id": "chifley_research_centre",
+  "imported": true,
+  "licence": "Trademark of Chifley Research Centre, from its website",
+  "notes": "434x100 coloured PNG variant of the site's logo (header uses a white variant, logo-chifley-2.png).",
+  "source_page": "https://www.chifley.org.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Coloured 'chifley research centre' wordmark, 434x100 PNG, clear."
+ },
+ {
+  "entity_id": "china_matters",
+  "imported": true,
+  "licence": "Trademark of China Matters, from its website",
+  "notes": "Header logo (400x204). The domain no longer resolves, so the file was fetched from the Internet Archive copy of the site's own asset (web.archive.org/web/2025id_/...). Logo viewed and is China Matters (the Australian think tank).",
+  "source_page": "https://chinamatters.org.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "China Matters octagon logo with wordmark; clear."
+ },
+ {
+  "entity_id": "citibank",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154 (preferred) for Citibank; current Citi wordmark, which Citibank Australia uses.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Citi_logo_March_2023.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Citi wordmark with arc, used by Citibank Australia."
+ },
+ {
+  "entity_id": "city_of_swan",
+  "imported": true,
+  "licence": "Trademark of City of Swan, from its website",
+  "notes": "Header logo SVG (alt 'City of Swan logo'), Western Australian local government. No P154 on Wikidata.",
+  "source_page": "https://www.swan.wa.gov.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "City of Swan logo SVG renders correctly."
+ },
+ {
+  "entity_id": "clubsnsw",
+  "imported": true,
+  "licence": "Trademark of ClubsNSW, from its website",
+  "notes": "Header logo SVG; rendered via Chrome and verified (magick could not parse the SVG, Chrome renders it fine).",
+  "source_page": "https://www.clubsnsw.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Multi-colour header logo SVG (14KB, valid markup) from clubsnsw.com.au. magick cannot parse it, so it was not rasterised here, but it is a plausible org logo and was verified in Chrome by the collector."
+ },
+ {
+  "entity_id": "coalition_for_conservation",
+  "imported": false,
+  "licence": "",
+  "notes": "No Wikidata or Commons entry. Could not find an official website: coalitionforconservation.org.au, .org and .com.au do not resolve and have no Wayback snapshots, and web searches only returned unrelated results.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "Status none; no official site found, a reasonable outcome."
+ },
+ {
+  "entity_id": "coca_cola_south_pacific",
+  "imported": true,
+  "licence": "Trademark of The Coca-Cola Company, from its website",
+  "notes": "Coca-Cola South Pacific has no distinct logo of its own. This is the Coca-Cola script logo from the Coca-Cola Australia site (500x180 PNG), which is the brand it trades under. Review if you want strict one-entity-one-logo.",
+  "source_page": "https://www.coca-cola.com/au/en",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Coca-Cola script logo, the brand this entity trades under. It is the parent brand, not a distinct logo, so flag it for review."
+ },
+ {
+  "entity_id": "cochlear",
+  "imported": true,
+  "licence": "Trademark of Cochlear, from its website",
+  "notes": "196x164 dark stacked logo on transparent background (checked on white); no Wikidata item found for the company.",
+  "source_page": "https://www.cochlear.com/au/en/home",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Cochlear stacked logo, 196x164, clear."
+ },
+ {
+  "entity_id": "coles_group",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Red Coles supermarkets wordmark, from the Wikidata item for the older Coles Group (Q131937428 for the current company has no logo). Same brand.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Coles_logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Coles wordmark, same brand."
+ },
+ {
+  "entity_id": "collingwood_football_club",
+  "imported": true,
+  "licence": "Trademark of Collingwood Football Club, from its website",
+  "notes": "The apple-touch-icon (152x152) is actually JPEG data despite the .png URL, so it was saved as .jpg. Shows the magpie crest on white. Wikidata has no P154.",
+  "source_page": "https://www.collingwoodfc.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Magpie crest with 1892, 152px, usable."
+ },
+ {
+  "entity_id": "colonial_first_state",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154; the older red/blue Colonial First State logo (matches the name as declared).",
+  "source_page": "https://commons.wikimedia.org/wiki/File:CFS-logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Colonial First State red and blue logo."
+ },
+ {
+  "entity_id": "commercial_radio_australia",
+  "imported": true,
+  "licence": "Trademark of Commercial Radio Australia, from its website",
+  "notes": "Current header logo reads 'Commercial Radio & Audio' (renamed from Commercial Radio Australia).",
+  "source_page": "https://cra.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Commercial Radio & Audio logo, the renamed Commercial Radio Australia."
+ },
+ {
+  "entity_id": "commonwealth_bank_of_australia",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Previewed OK.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Commonwealth_Bank_Logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "CommBank yellow diamond and wordmark renders correctly."
+ },
+ {
+  "entity_id": "commonwealth_parliamentary_association",
+  "imported": true,
+  "licence": "Trademark of Commonwealth Parliamentary Association, from its website",
+  "notes": "No P154 on Wikidata. 180x180 apple-touch-icon showing the CPA mace emblem on red; it is the association's own emblem, not a national coat of arms.",
+  "source_page": "https://www.cpahq.org/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "CPA mace emblem in white on red, 180px. It is the association's own emblem, not a coat of arms."
+ },
+ {
+  "entity_id": "commonwealth_superannuation_corporation",
+  "imported": false,
+  "licence": "",
+  "notes": "No Wikidata item. csc.gov.au sits behind a Cloudflare bot challenge (403), so the homepage logo could not be fetched; its favicon is only 32px. Not circumvented.",
+  "source_page": "https://www.csc.gov.au/",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "status none; blocked site, reasonable"
+ },
+ {
+  "entity_id": "community_and_public_sector_union",
+  "imported": true,
+  "licence": "Trademark of Community and Public Sector Union, from its website",
+  "notes": "Header logo, only 168x82 px (small raster).",
+  "source_page": "https://www.cpsu.org.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "CPSU logo, small but above 48px and legible."
+ },
+ {
+  "entity_id": "copyright_agency",
+  "imported": true,
+  "licence": "Trademark of Copyright Agency, from its website",
+  "notes": "Header logo JPEG 900x104, wide wordmark on white.",
+  "source_page": "https://www.copyright.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "COPYRIGHT AGENCY wordmark, 900x104, usable."
+ },
+ {
+  "entity_id": "credit_union_australia",
+  "imported": true,
+  "licence": "CC BY-SA 4.0",
+  "notes": "CUA was renamed Great Southern Bank in 2023; this is the current Great Southern Bank logo (the only logo on the Wikidata item), not the CUA-era one.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:GSB_Logo_horizontal_RGB.png",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Great Southern Bank logo, the renamed successor of CUA (same organisation); usable, flag as successor branding"
+ },
+ {
+  "entity_id": "cricket_australia",
+  "imported": true,
+  "licence": "Trademark of Cricket Australia, from its website",
+  "notes": "180x180 apple-touch-icon (white outline shield on dark green). The header wordmark is white-only (invisible on light backgrounds), so the icon was used. Weaker identifier than a wordmark; consider it low confidence.",
+  "source_page": "https://www.cricket.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "180x180 white shield outline on dark green, which looks like the Cricket Australia brand icon. It is a weak identifier without text, so low confidence, but it is a usable logo mark."
+ },
+ {
+  "entity_id": "cricket_nsw",
+  "imported": true,
+  "licence": "Trademark of Cricket NSW, from its website",
+  "notes": "180x180 apple-touch-icon showing the NSW Cricket shield. The header SVG logo has white text and was not used.",
+  "source_page": "https://www.cricketnsw.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "NSW cricket shield, 180px, clear."
+ },
+ {
+  "entity_id": "croplife_australia",
+  "imported": true,
+  "licence": "Trademark of CropLife Australia, from its website",
+  "notes": "Header logo SVG referenced in the site's theme CSS (green CropLife Australia with seedling). No Wikidata item found.",
+  "source_page": "https://www.croplife.org.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "CropLife Australia green wordmark with seedling."
+ },
+ {
+  "entity_id": "crown_resorts",
+  "imported": false,
+  "licence": "",
+  "notes": "No P154; site only exposes a 32px favicon and no usable header logo in the HTML; nothing on Commons.",
+  "source_page": "https://www.crownresorts.com.au/",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found; status none."
+ },
+ {
+  "entity_id": "csl",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154. Logo includes a TM mark.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:CSL_(Unternehmen)_logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "CSL logo, correct."
+ },
+ {
+  "entity_id": "curtin_university",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154. This is the older 'Curtin University of Technology' wordmark, so the subtitle is outdated (the university renamed itself Curtin University in 2010). No newer free logo on Commons.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:CurtinUni_Logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Curtin wordmark; the older 'University of Technology' version, but still the correct organisation."
+ },
+ {
+  "entity_id": "cybg",
+  "imported": true,
+  "licence": "Trademark of Virgin Money UK PLC, from its website",
+  "notes": "CYBG renamed to Virgin Money UK PLC in 2018/2019; this is the current Virgin Money UK wordmark (SVG). I removed a stray ';' in the fill attribute (fill=\"#e10a0a;\" became \"#e10a0a\") so browsers render it red. A separate virgin_money_uk.png exists in staging from another batch.",
+  "source_page": "https://www.virginmoneyukplc.com/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Virgin Money UK wordmark, the renamed successor of CYBG; renders red and clean."
+ },
+ {
+  "entity_id": "diageo",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154. Global Diageo plc wordmark (Diageo Australia uses the same). Commons restriction tag: trademarked.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Diageo_-_logo_(United_Kingdom,_1997).svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Diageo wordmark; global plc logo is also used by Diageo Australia."
+ },
+ {
+  "entity_id": "ebay",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "SVG, checked visually. Global eBay logo (same as Australian).",
+  "source_page": "https://commons.wikimedia.org/wiki/File:EBay_logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "eBay multicolour wordmark, correct."
+ },
+ {
+  "entity_id": "emily_s_list_australia",
+  "imported": true,
+  "licence": "Trademark of EMILY's List Australia, from its website",
+  "notes": "Site logo, small raster (140x35, transparent background, purple); horizontal wordmark so will look tiny at 48px.",
+  "source_page": "http://www.emilyslist.org.au",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "EMILY's List Australia wordmark, 140x35; small but over 48px wide and usable."
+ },
+ {
+  "entity_id": "emirates",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Emirates airline wordmark with Arabic calligraphy, white on red square. Commons marks it PD (likely PD-textlogo).",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Emirates_banner_logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Emirates logo on red square. It is a foreign airline but appears in the Australian registers as a sponsor/donor organisation, so it counts as the right org."
+ },
+ {
+  "entity_id": "endeavour_group",
+  "imported": true,
+  "licence": "Trademark of Endeavour Group, from its website",
+  "notes": "Blue variant of the site logo (header version is white-on-dark). No Wikidata P154.",
+  "source_page": "https://www.endeavourgroup.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Endeavour Group logo, a little soft but usable."
+ },
+ {
+  "entity_id": "essendon_football_club",
+  "imported": true,
+  "licence": "Trademark of Essendon Football Club, from its website",
+  "notes": "152x152 JPEG apple-touch-icon with club crest on white; no Wikidata logo.",
+  "source_page": "https://www.essendonfc.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Essendon crest with 'ESSENDON', 152x152 JPEG on white."
+ },
+ {
+  "entity_id": "etihad_airways",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Etihad is a UAE state-owned airline but a commercial company with its own logo, not a national emblem.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Etihad-airways-logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Etihad Airways wordmark, commercial airline logo."
+ },
+ {
+  "entity_id": "european_australian_business_council",
+  "imported": true,
+  "licence": "Trademark of European Australian Business Council, from its website",
+  "notes": "Header logo (2605x482 PNG, transparent background, dark text). Very wide, so it will be tiny at 48-96 px.",
+  "source_page": "https://eabc.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "EABC logo and wordmark; very wide but correct and clear."
+ },
+ {
+  "entity_id": "fairfax_media",
+  "imported": false,
+  "licence": "",
+  "notes": "Wikidata item has no logo and Commons has none. fairfaxmedia.com.au now redirects to Nine (nineforbrands.com.au); Fairfax was merged into Nine in 2018, so the current Nine logo would not identify Fairfax.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "status none; no suitable logo"
+ },
+ {
+  "entity_id": "federal_parliamentary_press_gallery",
+  "imported": false,
+  "licence": "",
+  "notes": "Wikidata item has no logo; no own official website/logo found (pressgallery.org.au does not resolve).",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found; nothing to check."
+ },
+ {
+  "entity_id": "fifa",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:FIFA_logo_without_slogan.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "FIFA wordmark."
+ },
+ {
+  "entity_id": "first_state_super",
+  "imported": false,
+  "licence": "Trademark of Aware Super, from its website",
+  "notes": "First State Super was renamed Aware Super (2020); the older First State Super logo was not found on Commons, so the current Aware Super logo is used. Wikidata has no P154.",
+  "source_page": "https://aware.com.au/",
+  "status": "found",
+  "verdict": "rejected_by_orchestrator",
+  "verdict_reason": "successor brand (Aware Super), dropped for consistency"
+ },
+ {
+  "entity_id": "football_australia",
+  "imported": true,
+  "licence": "Trademark of Football Australia, from its website",
+  "notes": "Wikidata P154 is the national team badge (not used); instead the 180px apple-touch-icon, which is the current Football Australia mark.",
+  "source_page": "https://www.footballaustralia.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Football Australia mark (green and gold triangle ball), 180px."
+ },
+ {
+  "entity_id": "fortescue",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Older Fortescue Metals Group logo (FMG in map of Australia, 'The New Force in Iron Ore'); company rebranded to Fortescue in 2020s, but this is the Commons logo for the period of the register entries.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Fortescue_Metals_Group.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "FMG/Fortescue logo with map of Australia, older version but correct org."
+ },
+ {
+  "entity_id": "fortescue_metals_group",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154 logo: older FMG logo with the tagline 'The New Force in Iron Ore' (period-appropriate to the name Fortescue Metals Group). Verified visually.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Fortescue_Metals_Group.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "FMG/Fortescue logo, clear"
+ },
+ {
+  "entity_id": "foster_s_group",
+  "imported": false,
+  "licence": "",
+  "notes": "Foster's Group was acquired by SABMiller in 2011 and no longer has an official website; no P154 on Wikidata and nothing on Commons.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found; status none."
+ },
+ {
+  "entity_id": "foxtel",
+  "imported": true,
+  "licence": "Trademark of Foxtel, from its website",
+  "notes": "Used the orange website SVG because the Commons file (Foxtel logo 2020.svg, Public domain, author Foxtel) is white-on-transparent and invisible on light backgrounds. Previewed OK.",
+  "source_page": "https://www.foxtel.com.au/index.html",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Orange FOXTEL wordmark, visible on a light background."
+ },
+ {
+  "entity_id": "french_government",
+  "imported": false,
+  "licence": "",
+  "notes": "Foreign government.",
+  "source_page": "",
+  "status": "skip",
+  "verdict": "n/a",
+  "verdict_reason": "Foreign government, skip is correct."
+ },
+ {
+  "entity_id": "geelong_football_club",
+  "imported": true,
+  "licence": "Trademark of Geelong Football Club, from its website",
+  "notes": "152x152 JPEG apple-touch-icon with Geelong Cats crest on white; no Wikidata logo.",
+  "source_page": "https://www.geelongcats.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Geelong Cats crest, 152x152 JPEG on white."
+ },
+ {
+  "entity_id": "gesb",
+  "imported": true,
+  "licence": "Trademark of GESB (Government Employees Superannuation Board), from its website",
+  "notes": "180x180 apple-touch-icon showing the GESB wordmark. The live site 403s to curl, so it was fetched from the Internet Archive copy of the site's own file. I deliberately avoided the header SVG, which includes the Western Australian government crest.",
+  "source_page": "https://www.gesb.wa.gov.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "GESB wordmark, 180px, no government crest."
+ },
+ {
+  "entity_id": "gloucester_park_harness_racing",
+  "imported": true,
+  "licence": "Trademark of WA Trotting Association / Gloucester Park, from its website",
+  "notes": "Header logo, 350x118 PNG: white 'Gloucester Park' text with red horse on transparent background, so the text vanishes on white; display on a dark tile. Small raster.",
+  "source_page": "https://www.gloucesterpark.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Gloucester Park text with red horse, 350x118; white text needs dark tile."
+ },
+ {
+  "entity_id": "gold_coast_turf_club",
+  "imported": true,
+  "licence": "Trademark of Gold Coast Turf Club, from its website",
+  "notes": "Site favicon (751x605 PNG): the black horse-head emblem from the club's logo, on a transparent background. The full header logo is white-on-transparent and would be invisible on a light page. The club trades as Aquis Park / Gold Coast Turf Club.",
+  "source_page": "https://gctc.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Horse-head emblem on a transparent background (rendered white here); extra padding, but usable."
+ },
+ {
+  "entity_id": "google",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154 (first listed value). Commons marks it public domain (simple text/shape logo); the Google trademark still applies.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Google_2026_logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Google wordmark, clear."
+ },
+ {
+  "entity_id": "government_of_azerbaijan",
+  "imported": false,
+  "licence": "",
+  "notes": "Foreign government; its emblem is a national coat of arms or flag.",
+  "source_page": "",
+  "status": "skip",
+  "verdict": "n/a",
+  "verdict_reason": "Skip is appropriate for a foreign government."
+ },
+ {
+  "entity_id": "government_of_singapore",
+  "imported": false,
+  "licence": "",
+  "notes": "Foreign government.",
+  "source_page": "",
+  "status": "skip",
+  "verdict": "n/a",
+  "verdict_reason": "Foreign government, skip is correct."
+ },
+ {
+  "entity_id": "government_of_taiwan",
+  "imported": false,
+  "licence": "",
+  "notes": "Foreign government; emblem is a national emblem/flag.",
+  "source_page": "",
+  "status": "skip",
+  "verdict": "n/a",
+  "verdict_reason": "Skip is appropriate for a foreign government."
+ },
+ {
+  "entity_id": "government_of_the_united_arab_emirates",
+  "imported": false,
+  "licence": "",
+  "notes": "Foreign government; its emblem is a national coat of arms or flag.",
+  "source_page": "",
+  "status": "skip",
+  "verdict": "n/a",
+  "verdict_reason": "Skip is appropriate for a foreign government."
+ },
+ {
+  "entity_id": "government_of_turkey",
+  "imported": false,
+  "licence": "",
+  "notes": "Foreign government.",
+  "source_page": "",
+  "status": "skip",
+  "verdict": "n/a",
+  "verdict_reason": "Foreign government, skip is correct."
+ },
+ {
+  "entity_id": "hancock_prospecting",
+  "imported": true,
+  "licence": "Trademark of Hancock Prospecting, from its website",
+  "notes": "Site og:image logo, 480x209 JPG, white wordmark on black. The header PNG is a white-on-transparent logo that renders invisible on white.",
+  "source_page": "https://www.hancockprospecting.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Hancock Prospecting wordmark on black, clear"
+ },
+ {
+  "entity_id": "harvey_norman_holdings_ltd",
+  "imported": true,
+  "licence": "Trademark of Harvey Norman Holdings Ltd, from its website",
+  "notes": "No P154 on Wikidata. 1024x1024 apple-touch-icon with the Harvey Norman wordmark on white.",
+  "source_page": "https://www.harveynormanholdings.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Harvey Norman wordmark, 1024px."
+ },
+ {
+  "entity_id": "hawker_britton",
+  "imported": true,
+  "licence": "Trademark of Hawker Britton, from its website",
+  "notes": "Header stacked logo; the CDN served WebP despite the .png name.",
+  "source_page": "https://www.hawkerbritton.com/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Hawker Britton logo, valid WebP"
+ },
+ {
+  "entity_id": "hawthorn_football_club",
+  "imported": true,
+  "licence": "Trademark of Hawthorn Football Club, from its website",
+  "notes": "No P154. 144x144 apple-touch-icon (actual JPEG data despite .png extension) showing the HAWKS crest.",
+  "source_page": "https://www.hawthornfc.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "HAWKS crest. The file is JPEG data with a .png extension, 144px, which is usable but the extension mismatch needs fixing downstream."
+ },
+ {
+  "entity_id": "health_services_union",
+  "imported": true,
+  "licence": "Trademark of Health Services Union, from its website",
+  "notes": "HSU National square logo (120x120 site icon, RGBA with dark blue HSU NATIONAL text). No P154 on Wikidata.",
+  "source_page": "https://hsu.net.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "HSU National logo, 120px, clear."
+ },
+ {
+  "entity_id": "heart_foundation",
+  "imported": true,
+  "licence": "Trademark of National Heart Foundation of Australia, from its website",
+  "notes": "180x180 apple-touch-icon with the red heart-and-torch mark. No P154 on Wikidata.",
+  "source_page": "https://www.heartfoundation.org.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Red heart-and-torch mark of the Heart Foundation, 180px."
+ },
+ {
+  "entity_id": "heritage_bank",
+  "imported": true,
+  "licence": "CC BY-SA 4.0",
+  "notes": "Wikidata P154 logo, 417x188 PNG, includes 'People first.' tagline; verified visually. Heritage merged into Auswide/BOQ-era entities later; this is the Heritage-period logo.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Heritage_Bank_Logo_2019.png",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Heritage Bank logo"
+ },
+ {
+  "entity_id": "hesta",
+  "imported": false,
+  "licence": "",
+  "notes": "Wikidata item has no P154 and no Commons logo; hesta.com.au only exposes a favicon.ico and the logo.png URL in the page returned an HTML stub, so no acceptable file was obtained.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No file obtained; status none is reasonable."
+ },
+ {
+  "entity_id": "hostplus",
+  "imported": true,
+  "licence": "Trademark of Hostplus, from its website",
+  "notes": "Header logo SVG (white H mark and wordmark on its own navy background, yellow square). No P154 on Wikidata.",
+  "source_page": "https://hostplus.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Hostplus H mark and wordmark on navy, clear."
+ },
+ {
+  "entity_id": "hsbc",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154 logo (2018); verified visually.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:HSBC_logo_(2018).svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "HSBC logo; Australian arm uses the group mark"
+ },
+ {
+  "entity_id": "huawei_technologies",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wordmark, black text; global Huawei logo (P154).",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Huawei_wordmark.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Black HUAWEI wordmark, renders cleanly; global company logo is acceptable for the Australian entity."
+ },
+ {
+  "entity_id": "ing_bank_australia",
+  "imported": true,
+  "licence": "Trademark of ING Bank Australia, from its website",
+  "notes": "Header logo (ING wordmark with orange lion), WebP. Previewed OK.",
+  "source_page": "https://www.ing.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "ING wordmark with orange lion. It is the ING group logo, which is what ING Bank Australia uses. WebP is small but about 120 px wide, which is usable."
+ },
+ {
+  "entity_id": "inpex",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154. Commons Artist field empty. Japanese parent INPEX Corporation wordmark, which is the logo used by INPEX Australia.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Inpex_logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "INPEX wordmark. The Japanese parent logo is the same one INPEX Australia uses."
+ },
+ {
+  "entity_id": "institute_of_public_affairs",
+  "imported": true,
+  "licence": "CC BY-SA 4.0",
+  "notes": "Wikidata P154; 300x300 JPG with white background and tagline.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:I_P_A.jpg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "IPA logo with tagline, 300x300 JPG, clear."
+ },
+ {
+  "entity_id": "insurance_australia_group",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154, 'iag' logo 900x743.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Insurance_austr_group_logo15.png",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "IAG logo, correct."
+ },
+ {
+  "entity_id": "inter_parliamentary_union",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154. Laurel-wreath emblem with '1889'. The IPU is an international body, not a state, so its emblem is not a national arms or flag.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Logo_of_the_Inter-Parliamentary_Union.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "IPU laurel emblem with 1889, an international body rather than a state."
+ },
+ {
+  "entity_id": "ioof_holdings",
+  "imported": true,
+  "licence": "Trademark of Insignia Financial Ltd, from its website",
+  "notes": "IOOF Holdings was renamed Insignia Financial in 2021. This is the 192x192 favicon showing Insignia's green ring mark, the only logo asset reachable. The live site 403s to curl, so it was fetched from the Internet Archive copy of the site's own file. No IOOF-era logo found on Commons.",
+  "source_page": "https://www.insigniafinancial.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Insignia Financial green ring mark, the renamed successor of IOOF; 192px, usable."
+ },
+ {
+  "entity_id": "johnson_johnson",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Red wordmark; global company logo (Australian arm is Johnson & Johnson Pacific).",
+  "source_page": "https://commons.wikimedia.org/wiki/File:JNJ_Logo_New.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Red Johnson & Johnson wordmark, clean render. Global logo acceptable for the Australian arm."
+ },
+ {
+  "entity_id": "korea_foundation",
+  "imported": true,
+  "licence": "KOGL Type 1",
+  "notes": "Wikidata P154 (590x394 JPEG, white background). The foundation is a South Korean government-affiliated body but has its own KF logo, not a coat of arms or flag, so I kept it. Easy to drop if you would rather skip foreign state bodies.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Logo_of_Korea_Foundation.jpg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Korea Foundation KF logo, a clear JPEG with a white background. It is a foreign government-affiliated body but not a coat of arms or flag."
+ },
+ {
+  "entity_id": "la_trobe_university",
+  "imported": false,
+  "licence": "",
+  "notes": "Wikidata item has no P154, none on Commons. Official site is behind a Cloudflare challenge (403 for pages, icons); not circumvented.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found; status none."
+ },
+ {
+  "entity_id": "latitude_financial",
+  "imported": true,
+  "licence": "Trademark of Latitude Financial Services, from its website",
+  "notes": "180x180 apple-touch-icon (WebP) showing the navy L-and-dots mark. A mark only, no wordmark.",
+  "source_page": "https://www.latitudefinancial.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Navy L-and-dots mark, 270px, clear."
+ },
+ {
+  "entity_id": "law_institute_of_victoria",
+  "imported": false,
+  "licence": "",
+  "notes": "No P154 on Wikidata. liv.asn.au homepage returns 403 (Cloudflare); only a generic people-icon apple-touch-icon (114px) is reachable, not the LIV logo.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found; none is acceptable."
+ },
+ {
+  "entity_id": "legalsuper",
+  "imported": true,
+  "licence": "Trademark of Legalsuper, from its website",
+  "notes": "Header logo SVG, previewed OK. Legalsuper merged into Aware Super in 2025 but its site still carries this logo.",
+  "source_page": "https://www.legalsuper.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Legalsuper wordmark with square mark, clean SVG."
+ },
+ {
+  "entity_id": "liberal_national_party_of_queensland",
+  "imported": false,
+  "licence": "Trademark of Liberal National Party of Queensland, from its website",
+  "notes": "Header LNP symbol logo. Wikidata has no P154.",
+  "source_page": "https://www.lnp.org.au/",
+  "status": "found",
+  "verdict": "bad_file",
+  "verdict_reason": "The SVG is mostly white fill. On a light background only a yellow swoosh and star show, so the logo is incomplete and unusable unless placed on a dark background."
+ },
+ {
+  "entity_id": "liberal_party_of_australia",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154 (2015 logo, 250x250). Contains the Australian flag as a design element within the party logo.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Liberal_Party_of_Australia_Logo_2015.png",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Liberal party logo, correct."
+ },
+ {
+  "entity_id": "liberal_party_of_australia_nsw_division",
+  "imported": false,
+  "licence": "",
+  "notes": "No P154 on Wikidata; division website returns 403 to automated requests; federal Liberal Party logo not used as it is a different body.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found; status none."
+ },
+ {
+  "entity_id": "liberal_party_of_australia_sa_division",
+  "imported": true,
+  "licence": "Trademark of Liberal Party of Australia (SA Division), from its website",
+  "notes": "Header logo SVG, tall portrait aspect (about 2:3); previewed OK. No P154 on Wikidata.",
+  "source_page": "https://saliberal.org.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Liberal South Australia logo, valid SVG with portrait aspect."
+ },
+ {
+  "entity_id": "liberal_party_of_australia_victorian_division",
+  "imported": false,
+  "licence": "",
+  "notes": "No Wikidata item or Commons logo; site is a JS-rendered app with no static logo. Federal party logo would be a different entity.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found."
+ },
+ {
+  "entity_id": "liberal_party_of_australia_wa_division",
+  "imported": true,
+  "licence": "Trademark of Liberal Party of Australia (WA Division), from its website",
+  "notes": "180x180 site icon, transparent background, showing the Liberal Western Australia logo (contains a small Australian flag within the party logo, not a national coat of arms). Header logo is white-only so the icon was used.",
+  "source_page": "https://www.waliberal.org.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Liberal Western Australia logo with a small flag inside the party mark, 180px. The flag is part of the logo, not a standalone flag."
+ },
+ {
+  "entity_id": "liberal_party_of_western_australia",
+  "imported": true,
+  "licence": "Trademark of Liberal Party of Australia (Western Australian Division), from its website",
+  "notes": "270px site icon showing the Liberal Western Australia logo (checked visually). No Wikidata logo.",
+  "source_page": "https://www.waliberal.org.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Clear Liberal Western Australia logo, 270px."
+ },
+ {
+  "entity_id": "lion",
+  "imported": true,
+  "licence": "Trademark of Lion, from its website",
+  "notes": "No Wikidata item for Lion (Australian brewer) found. Site trustmark/icon: black rampant lion; single-colour, transparent background.",
+  "source_page": "https://www.lionco.com/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Black rampant lion mark of Lion (brewer); clean single-colour image, matches the stated source."
+ },
+ {
+  "entity_id": "lions_clubs_australia",
+  "imported": true,
+  "licence": "Trademark of Lions Clubs Australia, from its website",
+  "notes": "Header logo, wide lockup (lions australia + Lions International emblem), 800x159.",
+  "source_page": "https://lionsclubs.org.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Lions Australia wordmark with Lions International emblem; official lockup, 800x159."
+ },
+ {
+  "entity_id": "lynas_rare_earths_ltd",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Red Lynas wordmark with 'Corporation' text (2020 version); svg renders with qlmanage, not ImageMagick.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Lynas_Corporation_Logo_2020.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Red Lynas wordmark with 'Corporation' text; Lynas Rare Earths is the Lynas Corporation. Thumbnail crop was a qlmanage artefact; SVG is valid."
+ },
+ {
+  "entity_id": "macquarie_group",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Black on transparent. Previewed OK.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Macquarie_Logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Macquarie roundel and wordmark, black on transparent."
+ },
+ {
+  "entity_id": "mastercard",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Two-circle symbol, no text.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Mastercard_2019_logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Red/orange two-circle Mastercard symbol, clean render."
+ },
+ {
+  "entity_id": "maurice_blackburn",
+  "imported": true,
+  "licence": "Trademark of Maurice Blackburn, from its website",
+  "notes": "Header SVG (coloured square mark plus 'maurice blackburn lawyers' wordmark), checked visually.",
+  "source_page": "https://www.mauriceblackburn.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Maurice Blackburn Lawyers mark and wordmark, renders correctly."
+ },
+ {
+  "entity_id": "mazda",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154 file; Mazda blue wordmark, not the winged emblem.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Mazda_logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Blue Mazda wordmark, legible and correct company."
+ },
+ {
+  "entity_id": "mcgrath_foundation",
+  "imported": true,
+  "licence": "CC BY-SA 4.0",
+  "notes": "PNG 1417x958 with transparent background, checked visually.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:McGrathFoundation_Master_Logo_.png",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "McGrath Foundation logo with pink heart, 1417x958, clear."
+ },
+ {
+  "entity_id": "mckell_institute",
+  "imported": true,
+  "licence": "Trademark of The McKell Institute, from its website",
+  "notes": "Wide horizontal logo 1920x264; no Wikidata logo.",
+  "source_page": "https://mckellinstitute.org.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Clear 'The McKell Institute' logo with ring mark."
+ },
+ {
+  "entity_id": "mckinnon_institute_for_political_leadership",
+  "imported": true,
+  "licence": "Trademark of McKinnon Institute for Political Leadership, from its website",
+  "notes": "Header logo SVG. Original text was white for a dark header; I changed fill=\"white\" to #1B2A41 (navy) so it is legible on light backgrounds. Original gold mark unchanged. No Wikidata item.",
+  "source_page": "https://mckinnon.co/leadership/mckinnon-institute",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "McKinnon Institute logo, legible on white after recolour."
+ },
+ {
+  "entity_id": "me_bank",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata item is labelled 'mueid' (ME Bank rebranded to mueid in 2026?). File is the ME Bank black 'me' smiley roundel (858x851), the name used in registers.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Me_bank_logo15.png",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "ME Bank 'me' smiley roundel, 858x851."
+ },
+ {
+  "entity_id": "media_entertainment_arts_alliance",
+  "imported": true,
+  "licence": "Trademark of Media, Entertainment & Arts Alliance, from its website",
+  "notes": "1328px round MEAA seal from site header; no Wikidata item found.",
+  "source_page": "https://www.meaa.org/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "MEAA seal, 1328px, clearly legible."
+ },
+ {
+  "entity_id": "medibank_private",
+  "imported": true,
+  "licence": "Trademark of Medibank Private, from its website",
+  "notes": "Header logo (webp); Wikidata has no P154.",
+  "source_page": "https://www.medibank.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Medibank logo, clear."
+ },
+ {
+  "entity_id": "melbourne_cricket_club",
+  "imported": true,
+  "licence": "Trademark of Melbourne Cricket Club, from its website",
+  "notes": "Header logo (MCC monogram crest). Wikidata has no P154.",
+  "source_page": "https://www.mcc.org.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "MCC monogram crest, clear."
+ },
+ {
+  "entity_id": "melbourne_football_club",
+  "imported": true,
+  "licence": "Trademark of Melbourne Football Club, from its website",
+  "notes": "Club guernsey crest from 152px apple-touch-icon (Wikidata had no P154).",
+  "source_page": "https://www.melbournefc.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Melbourne FC guernsey crest; 152px, usable."
+ },
+ {
+  "entity_id": "melbourne_storm",
+  "imported": true,
+  "licence": "Trademark of Melbourne Storm, from its website",
+  "notes": "180px apple-touch-icon (purple Storm crest). No Wikidata logo.",
+  "source_page": "https://www.melbournestorm.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Melbourne Storm crest on purple, 180px."
+ },
+ {
+  "entity_id": "melbourne_symphony_orchestra",
+  "imported": true,
+  "licence": "Trademark of Melbourne Symphony Orchestra, from its website",
+  "notes": "192px site icon with MSO monogram on blue. No Wikidata logo.",
+  "source_page": "https://www.mso.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "MSO monogram on blue, 192px. Wordmark only, but it is their site icon."
+ },
+ {
+  "entity_id": "melbourne_theatre_company",
+  "imported": true,
+  "licence": "CC BY-SA 4.0",
+  "notes": "Wikidata P154. Black text wordmark on transparent background, 1382x222.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:MELBOURNE_THEATRE_COMPANY_LOGO_2_LINES_BLACK.png",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Black MELBOURNE THEATRE COMPANY wordmark, transparent, 1382x222."
+ },
+ {
+  "entity_id": "melbourne_university_publishing",
+  "imported": true,
+  "licence": "Trademark of Melbourne University Publishing, from its website",
+  "notes": "512px site icon (white winged figure on black square); no P154 on Wikidata.",
+  "source_page": "https://www.mup.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "512px MUP winged-figure mark, white on black; usable site icon of the right org."
+ },
+ {
+  "entity_id": "mercer",
+  "imported": false,
+  "licence": "",
+  "notes": "Mercer is rebranding to Marsh; site logo is a white Marsh wordmark and the apple-touch icon URL returned HTML. No usable Mercer logo.",
+  "source_page": "https://www.mercer.com.au/",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found."
+ },
+ {
+  "entity_id": "mineral_resources",
+  "imported": true,
+  "licence": "Trademark of Mineral Resources, from its website",
+  "notes": "512x512 apple-touch-icon with the red/black MinRes mountain 'MR' mark on a white rounded square; Wikidata item has no logo.",
+  "source_page": "https://www.mineralresources.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "MinRes mountain-R mark, 512x512, correct and usable."
+ },
+ {
+  "entity_id": "minerals_council_of_australia",
+  "imported": true,
+  "licence": "Trademark of Minerals Council of Australia, from its website",
+  "notes": "Header logo (tall portrait mark). Wikidata has no P154.",
+  "source_page": "https://minerals.org.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Minerals Council of Australia logo with name text."
+ },
+ {
+  "entity_id": "ministry_of_foreign_affairs_of_japan",
+  "imported": false,
+  "licence": "",
+  "notes": "Foreign government body; skipped per rules.",
+  "source_page": "",
+  "status": "skip",
+  "verdict": "n/a",
+  "verdict_reason": "Skip is correct (foreign government body)."
+ },
+ {
+  "entity_id": "ministry_of_foreign_affairs_republic_of_china_taiwan",
+  "imported": false,
+  "licence": "",
+  "notes": "Foreign government body.",
+  "source_page": "",
+  "status": "skip",
+  "verdict": "n/a",
+  "verdict_reason": "Foreign government skip is correct."
+ },
+ {
+  "entity_id": "ministry_of_foreign_affairs_singapore",
+  "imported": false,
+  "licence": "",
+  "notes": "Foreign government ministry; emblem is the national coat of arms.",
+  "source_page": "",
+  "status": "skip",
+  "verdict": "n/a",
+  "verdict_reason": "Skip is correct: foreign government ministry."
+ },
+ {
+  "entity_id": "minterellison",
+  "imported": true,
+  "licence": "CC BY-SA 4.0",
+  "notes": "Wikidata P154; preview checked.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:ME-Horiz-Pos-BlkRed-RGB.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "MinterEllison wordmark with red square; renders fine."
+ },
+ {
+  "entity_id": "mlc",
+  "imported": false,
+  "licence": "",
+  "notes": "MLC (wealth/super brand, now Insignia Financial). mlc.com.au and insigniafinancial.com.au return HTTP 403 to curl (incl. favicon/apple-touch-icon); no Wikidata item or Commons logo found. Could retry from a browser.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No file found; nothing to check."
+ },
+ {
+  "entity_id": "myer",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154; black wordmark.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Myer_Logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Black MYER wordmark; renders correctly."
+ },
+ {
+  "entity_id": "mystate",
+  "imported": true,
+  "licence": "Trademark of MyState Limited, from its website",
+  "notes": "Header logo (MyState Bank) 572x200 PNG. No P154 on Wikidata.",
+  "source_page": "https://mystate.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "MyState Bank wordmark with green mark, clear and usable."
+ },
+ {
+  "entity_id": "national_australia_bank",
+  "imported": true,
+  "licence": "Trademark of National Australia Bank, from its website",
+  "notes": "No P154 on Wikidata. NAB star symbol only (no 'nab' text), 1200x1200 JPEG on white background despite .png URL; previewed OK.",
+  "source_page": "https://www.nab.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "NAB red star mark, 1200x1200 JPEG, clear and usable (white background)."
+ },
+ {
+  "entity_id": "national_basketball_league",
+  "imported": false,
+  "licence": "",
+  "notes": "No Wikidata/Commons logo. NBL site icons/logos all combine the NBL mark with sponsor Hungry Jack's, so rejected.",
+  "source_page": "https://www.nbl.com.au/",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found; rejection of Hungry Jack's co-branded assets is reasonable."
+ },
+ {
+  "entity_id": "national_farmers_federation",
+  "imported": true,
+  "licence": "Trademark of National Farmers' Federation, from its website",
+  "notes": "270px apple-touch-icon / social avatar (green Australia-map bars on dark green); no P154 on Wikidata.",
+  "source_page": "https://nff.org.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "270px NFF Australia-map bars mark, green on dark green; valid logo mark."
+ },
+ {
+  "entity_id": "national_portrait_gallery_of_australia",
+  "imported": true,
+  "licence": "Trademark of National Portrait Gallery of Australia, from its website",
+  "notes": "Inline SVG stacked wordmark extracted from the site's header (no fill set, renders black); not a separate URL.",
+  "source_page": "https://www.portrait.gov.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Stacked 'National Portrait Gallery' wordmark, renders black."
+ },
+ {
+  "entity_id": "national_press_club_of_australia",
+  "imported": true,
+  "licence": "Trademark of National Press Club of Australia, from its website",
+  "notes": "Site apple-touch-icon, 260x160 PNG, black wordmark on white. Previewed OK.",
+  "source_page": "https://npc.org.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "National Press Club of Australia black wordmark, 260x160 PNG."
+ },
+ {
+  "entity_id": "national_rugby_league",
+  "imported": true,
+  "licence": "Trademark of National Rugby League, from its website",
+  "notes": "No P154 on Wikidata. 260px site icon; green NRL shield on black square background.",
+  "source_page": "https://www.nrl.com/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "NRL shield on black square, 260px, correct."
+ },
+ {
+  "entity_id": "netball_australia",
+  "imported": true,
+  "licence": "CC BY 4.0",
+  "notes": "Found via Commons search (no Wikidata P154). Current 2026 logo, dark green dots + wordmark, verified by preview.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:2026_Netball_Australia_Logo_RGB.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Netball Australia dots logo and wordmark, 2026 version."
+ },
+ {
+  "entity_id": "newcastle_permanent_building_society",
+  "imported": true,
+  "licence": "Trademark of Newcastle Permanent Building Society, from its website",
+  "notes": "180px NP house mark (white on black) from apple-touch-icon; the header SVG was white-only so not used.",
+  "source_page": "https://www.newcastlepermanent.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "NP house mark, white on black, 180px; usable."
+ },
+ {
+  "entity_id": "newcrest_mining",
+  "imported": false,
+  "licence": "",
+  "notes": "Wikidata item has no logo and nothing on Commons; newcrest.com.au and newmont.com return 403 to automated requests (Newcrest was acquired by Newmont in 2023).",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found; nothing to check."
+ },
+ {
+  "entity_id": "news_corp",
+  "imported": false,
+  "licence": "Public domain",
+  "notes": "Wikidata P154 of News Corp (ASX: NWS), the parent; wordmark.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:News_Corp_logo_2013.svg",
+  "status": "found",
+  "verdict": "bad_file",
+  "verdict_reason": "Rendered on white, the wordmark is clear. A yellow swoosh and star at left look like leftover artwork from a different file. It is also the News Corp parent logo, not an Australian entity, but it is plausibly the intended one, so only a mild concern. Treat as ok if the swoosh is the intended News Corp Australia mark."
+ },
+ {
+  "entity_id": "nine_entertainment",
+  "imported": false,
+  "licence": "",
+  "notes": "No P154; only generic dot-grid favicon from Nine for Brands (not the Nine logo) and white header logos; rejected.",
+  "source_page": "https://www.nineforbrands.com.au/",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found."
+ },
+ {
+  "entity_id": "nine_network",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154: 2008 Nine Network logo (blue dots and 9); the current logo differs slightly. A separate nine_entertainment.png already exists in raw.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Nine_Network_logo_(2008).svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Nine Network dots-and-9 logo (2008 version), correct org."
+ },
+ {
+  "entity_id": "north_melbourne_football_club",
+  "imported": true,
+  "licence": "Trademark of North Melbourne Football Club, from its website",
+  "notes": "152px apple-touch-icon (actually JPEG) showing the kangaroo crest on white. No P154 on Wikidata.",
+  "source_page": "https://www.nmfc.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "North Melbourne kangaroo crest, clear."
+ },
+ {
+  "entity_id": "nrma",
+  "imported": true,
+  "licence": "Trademark of NRMA, from its website",
+  "notes": "Header logo reads 'NRMA Insurance | A Help Company' (NRMA Insurance lockup).",
+  "source_page": "https://www.nrma.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "NRMA Insurance lockup, clearly NRMA."
+ },
+ {
+  "entity_id": "nsw_bar_association",
+  "imported": false,
+  "licence": "Trademark of NSW Bar Association, from its website",
+  "notes": "232x80 header logo; WHITE text/crest on transparent background, so it needs a dark backing (renders blank on white). Correct organisation.",
+  "source_page": "https://nswbar.asn.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Correct org logo. It is white on transparent so it looks blank on white and needs a dark backing, but the file is valid (232x80)."
+ },
+ {
+  "entity_id": "oil_search",
+  "imported": false,
+  "licence": "",
+  "notes": "No P154 and no Commons logo. oilsearch.com now redirects to Santos (acquired 2022), so only the parent's branding is available.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found; none is acceptable."
+ },
+ {
+  "entity_id": "opera_australia",
+  "imported": true,
+  "licence": "Trademark of Opera Australia, from its website",
+  "notes": "Condensed 'O|A' header logo (collapsed-logo); the full wordmark on the site is a 70th-anniversary variant so was not used. Wikidata has no P154.",
+  "source_page": "https://opera.org.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "O|A mark, Opera Australia's condensed logo."
+ },
+ {
+  "entity_id": "optus",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154 wordmark.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Optus_logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Optus wordmark renders correctly."
+ },
+ {
+  "entity_id": "origin_energy_ltd",
+  "imported": true,
+  "licence": "CC BY-SA 3.0",
+  "notes": "Raster 295x391 JPG, white background; verified visually.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Origin_SecondaryEnergyLogo_2Clr.jpg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Origin Energy red/yellow ring logo with wordmark, 295x391, clear."
+ },
+ {
+  "entity_id": "orora_ltd",
+  "imported": true,
+  "licence": "Trademark of Orora Limited, from its website",
+  "notes": "Inline header SVG (id=logo) extracted; renders black wordmark with sunburst O; site CSS may colour it.",
+  "source_page": "https://www.ororagroup.com/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "ORORA wordmark with sunburst O; renders well."
+ },
+ {
+  "entity_id": "pacific_friends_of_the_global_fund",
+  "imported": false,
+  "licence": "",
+  "notes": "No Wikidata item and no reachable official website found.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found."
+ },
+ {
+  "entity_id": "paypal",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Current 2024 black wordmark SVG, checked visually.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:PayPal_2024.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "PayPal black wordmark SVG renders correctly."
+ },
+ {
+  "entity_id": "perpetual",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Verified visually.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Perpetual_Logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Perpetual wordmark with script P mark rendered correctly."
+ },
+ {
+  "entity_id": "perth_airport",
+  "imported": true,
+  "licence": "Trademark of Perth Airport Pty Ltd, from its website",
+  "notes": "Live site blocks bots (403 / Cloudflare). 512px site icon (star mark on white rounded square) fetched via an Internet Archive copy of the site's own file; header SVG logo could not be retrieved. Mark only, no wordmark.",
+  "source_page": "https://www.perthairport.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Perth Airport star mark on white rounded square, 512px; mark only but correct org."
+ },
+ {
+  "entity_id": "pga_of_australia",
+  "imported": false,
+  "licence": "",
+  "notes": "No P154; website unreachable (522); Commons only has Australian PGA Championship event logo, not the organisation's.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found; status none."
+ },
+ {
+  "entity_id": "pharmacy_guild_of_australia",
+  "imported": true,
+  "licence": "Trademark of Pharmacy Guild of Australia, from its website",
+  "notes": "Stacked logo (icon over wordmark) from og:image, 1535x1181.",
+  "source_page": "https://www.guild.org.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Pharmacy Guild of Australia stacked logo, clear."
+ },
+ {
+  "entity_id": "platinum_international_fund",
+  "imported": false,
+  "licence": "Public domain",
+  "notes": "Fund has no logo of its own; this is its manager's (Platinum Asset Management) logo, PNG 530x164, checked visually.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Platinum_Asset_Management.png",
+  "status": "found",
+  "verdict": "wrong_org",
+  "verdict_reason": "Logo is Platinum Asset Management (the fund manager), not the fund. Renders correctly, so only acceptable if manager-logo fallback for funds is allowed."
+ },
+ {
+  "entity_id": "public_sector_superannuation_accumulation_plan",
+  "imported": false,
+  "licence": "",
+  "notes": "PSSap is a CSC product; only the parent Commonwealth Superannuation Corporation logo is available, no PSSap-specific logo found.",
+  "source_page": "https://www.csc.gov.au/",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No PSSap-specific logo; not using parent CSC is correct."
+ },
+ {
+  "entity_id": "public_sector_superannuation_scheme",
+  "imported": false,
+  "licence": "",
+  "notes": "No Wikidata item. The PSS is administered by CSC (Commonwealth Superannuation Corporation), whose site shows only the CSC lockup, a parent/administrator brand, not a PSS logo. pss.gov.au did not respond. Not used.",
+  "source_page": "https://www.csc.gov.au/",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found; reasonable not to use the CSC logo."
+ },
+ {
+  "entity_id": "qantas_airways",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wordmark only (no kangaroo). Previewed OK.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Qantas_wordmark_2016.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Qantas wordmark renders correctly."
+ },
+ {
+  "entity_id": "qantas_and_virgin_australia",
+  "imported": false,
+  "licence": "",
+  "notes": "Names two separate organisations; not one identifiable organisation.",
+  "source_page": "",
+  "status": "skip",
+  "verdict": "n/a",
+  "verdict_reason": "Skip is correct; the name covers two separate organisations."
+ },
+ {
+  "entity_id": "qbe_insurance_group",
+  "imported": true,
+  "licence": "Trademark of QBE Insurance Group Limited, from its website",
+  "notes": "Header SVG logo; QBE wordmark is filled white (light-on-dark version) so only the blue interlocking icon shows on white; display on a dark tile. Wikidata P154 is a Ukrainian QBE JPEG, so rejected.",
+  "source_page": "https://www.qbe.com/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "QBE blue icon with white wordmark; needs dark tile."
+ },
+ {
+  "entity_id": "qsuper",
+  "imported": true,
+  "licence": "Trademark of QSuper, from its website",
+  "notes": "Header logo SVG; includes small tagline 'Part of Australian Retirement Trust' (QSuper merged into ART in 2022).",
+  "source_page": "https://qsuper.qld.gov.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "QSuper logo, clear; small ART tagline is acceptable"
+ },
+ {
+  "entity_id": "queensland_ballet",
+  "imported": true,
+  "licence": "Trademark of Queensland Ballet, from its website",
+  "notes": "180px apple-touch-icon: white 'QB' monogram on black square (header logo is not an easily fetched image).",
+  "source_page": "https://www.queenslandballet.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "QB monogram, 180px, from official site"
+ },
+ {
+  "entity_id": "queensland_rugby_union",
+  "imported": false,
+  "licence": "",
+  "notes": "No Wikidata logo; official site is behind a Vercel bot checkpoint (HTTP 429), not circumvented.",
+  "source_page": "https://qld.rugby/",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found; blocked site not circumvented."
+ },
+ {
+  "entity_id": "rabobank",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Group wordmark (Dutch parent; Australian arm uses same brand). Very wide aspect.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Rabobank_text_logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Rabobank wordmark; group logo shared by Australian arm. Very wide aspect."
+ },
+ {
+  "entity_id": "racv",
+  "imported": true,
+  "licence": "Trademark of RACV, from its website",
+  "notes": "SVG site icon: round blue RACV badge (checked visually). No Wikidata logo.",
+  "source_page": "https://www.racv.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Round blue RACV badge. The raster preview is blurry only because it was rendered from a tiny SVG; the SVG is valid."
+ },
+ {
+  "entity_id": "ramsay_health_care_limited",
+  "imported": true,
+  "licence": "Trademark of Ramsay Health Care Limited, from its website",
+  "notes": "Stacked logo JPG 1253x1097 on white background.",
+  "source_page": "https://www.ramsayhealth.com/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Ramsay Health Care stacked logo, high resolution."
+ },
+ {
+  "entity_id": "resmed_inc",
+  "imported": true,
+  "licence": "CC0",
+  "notes": "Wikidata P154, current 2025 logo, 1000x208.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Resmed_Logo_2025.png",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Current Resmed logo (ResMed Australian-founded, ASX-listed); clear 1000x208."
+ },
+ {
+  "entity_id": "rest_super",
+  "imported": true,
+  "licence": "Trademark of Retail Employees Superannuation Trust (Rest), from its website",
+  "notes": "Header logo SVG (green 'Rest'). Wikidata search found no item.",
+  "source_page": "https://rest.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Green 'Rest' wordmark SVG renders correctly."
+ },
+ {
+  "entity_id": "rex_airlines",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154. Commons restriction tag: trademarked.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Rex_Airlines_logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Rex wordmark SVG renders correctly."
+ },
+ {
+  "entity_id": "richmond_football_club",
+  "imported": true,
+  "licence": "Trademark of Richmond Football Club, from its website",
+  "notes": "Wikidata P154 (Richmond.svg) is only the yellow/black sash insignia, not the club crest, so rejected. Used the 152px apple-touch-icon (actually JPEG) showing the tiger crest.",
+  "source_page": "https://www.richmondfc.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Richmond tiger crest, clear (152px JPEG, above 48px)."
+ },
+ {
+  "entity_id": "rio_tinto",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154 wordmark (wordmark text only; Rio Tinto Group is Anglo-Australian).",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Rio_Tinto.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Rio Tinto wordmark, correct."
+ },
+ {
+  "entity_id": "rotary_international",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Not Wikidata P154 (none set) but a Commons file; official site is blocked (429). Rotary wordmark with wheel.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Rotary_International_Logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Rotary wordmark with wheel emblem."
+ },
+ {
+  "entity_id": "royal_australasian_college_of_physicians",
+  "imported": true,
+  "licence": "Trademark of Royal Australasian College of Physicians, from its website",
+  "notes": "184x41 header logo with crest, RACP and tagline 'Specialists. Together'. Low resolution, wide format.",
+  "source_page": "https://www.racp.edu.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "RACP crest and wordmark. Low resolution (184x41) but legible and above 48px in height."
+ },
+ {
+  "entity_id": "royal_australian_college_of_general_practitioners",
+  "imported": true,
+  "licence": "Trademark of Royal Australian College of General Practitioners, from its website",
+  "notes": "Header logo JPEG only 190x50 (small); includes RACGP's own crest.",
+  "source_page": "https://www.racgp.org.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "RACGP crest and wordmark; small at 190x50 but above 48px and legible."
+ },
+ {
+  "entity_id": "royal_automobile_club_of_queensland",
+  "imported": true,
+  "licence": "Trademark of Royal Automobile Club of Queensland (RACQ), from its website",
+  "notes": "Header logo SVG.",
+  "source_page": "https://www.racq.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "RACQ logo, renders clearly"
+ },
+ {
+  "entity_id": "royal_automobile_club_of_wa",
+  "imported": true,
+  "licence": "Trademark of Royal Automobile Club of WA, from its website",
+  "notes": "144x144 apple-touch-icon showing the RAC diamond logo; checked visually.",
+  "source_page": "https://rac.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "RAC diamond logo, 144x144, clear."
+ },
+ {
+  "entity_id": "rugby_australia",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154 'RUGBY AU' wordmark (2017 logo).",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Rugby_Australia_2017_vector_logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Rugby AU wordmark, correct."
+ },
+ {
+  "entity_id": "salesforce",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154. Cloud logo with white text on cyan; the transparent background shows cyan in preview.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Salesforce.com_logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Salesforce cloud logo, white text on cyan cloud. The odd outlines in the preview are a transparency rasterisation artefact. Correct and usable."
+ },
+ {
+  "entity_id": "santos",
+  "imported": true,
+  "licence": "Trademark of Santos, from its website",
+  "notes": "512px site icon (white S on blue square) from santos.com; Wikidata Q846914 is the Santos Limited company item, not checked for P154.",
+  "source_page": "https://www.santos.com/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "White S on a blue square, 512px; this is the Santos site icon and brand mark."
+ },
+ {
+  "entity_id": "save_the_children_australia",
+  "imported": true,
+  "licence": "Trademark of Save the Children Australia, from its website",
+  "notes": "Header logo, 313x64 raster with transparent background.",
+  "source_page": "https://www.savethechildren.org.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Save the Children logo, 313x64, usable."
+ },
+ {
+  "entity_id": "scentre_group",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Found via Commons search (not linked as P154 on Wikidata). Wordmark, wide aspect.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Scentre_Group_logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Red SCENTRE GROUP wordmark, clear SVG."
+ },
+ {
+  "entity_id": "screen_australia",
+  "imported": true,
+  "licence": "Trademark of Screen Australia, from its website",
+  "notes": "512px site icon (Screen Australia 'w' mark on rounded square). Deliberately NOT using the Wikidata/Commons logo (CC BY-SA, Alby2010) because it includes the Commonwealth Coat of Arms, nor the white header logo (white on transparent).",
+  "source_page": "https://www.screenaustralia.gov.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "512px Screen Australia site icon mark; usable image, matches the stated source."
+ },
+ {
+  "entity_id": "seek_ltd",
+  "imported": true,
+  "licence": "Trademark of Seek Ltd, from its website",
+  "notes": "Only a 114px apple-touch-icon (blue circle with arrow) was obtainable; site blocks scraping of the header logo. Below the 120px preference; verify it is the current SEEK mark.",
+  "source_page": "https://www.seek.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "114px blue circle dotted-arrow SEEK app icon; usable, small but above 48px."
+ },
+ {
+  "entity_id": "seven_network",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Seven_Network_logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Seven Network red 7 logo."
+ },
+ {
+  "entity_id": "seven_west_media",
+  "imported": true,
+  "licence": "Trademark of Seven West Media, from its website",
+  "notes": "Site header icon (Seven '7' plus The West Australian masthead style W) as used on the SWM site; no Commons logo.",
+  "source_page": "https://sevenwestmedia.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Seven '7' plus West masthead W mark; plausible SWM header icon."
+ },
+ {
+  "entity_id": "shell_australia",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Red Shell wordmark (global brand used by Shell Australia).",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Shell_wordmark_2019.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Red Shell wordmark renders (SVG vector, preview small only due to intrinsic size); global brand used in Australia."
+ },
+ {
+  "entity_id": "shop_distributive_and_allied_employees_association_sda",
+  "imported": true,
+  "licence": "Trademark of Shop, Distributive and Allied Employees Association, from its website",
+  "notes": "192px site icon (blue swirl mark); no header logo found.",
+  "source_page": "https://www.sda.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "SDA blue swirl mark site icon, 192px; acceptable as logo mark."
+ },
+ {
+  "entity_id": "sky_news_australia",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Commons description states this is also the logo of the unrelated Sky News Australia (News Corp Australia).",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Sky_News_2018.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Sky News wordmark; Commons states it is also used by Sky News Australia."
+ },
+ {
+  "entity_id": "slater_and_gordon",
+  "imported": true,
+  "licence": "Trademark of Slater and Gordon, from its website",
+  "notes": "1083px square site og:image logo on blue (Slater Gordon Lawyers wordmark with cross). No Wikidata logo.",
+  "source_page": "https://www.slatergordon.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Slater Gordon Lawyers wordmark on blue square, 1083px."
+ },
+ {
+  "entity_id": "snowy_hydro",
+  "imported": true,
+  "licence": "Trademark of Snowy Hydro, from its website",
+  "notes": "180px apple-touch-icon with green 'snowy' wordmark on white; the header logo PNG is white-only so not used.",
+  "source_page": "https://www.snowyhydro.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Green 'snowy' wordmark on white, 180px; correct org."
+ },
+ {
+  "entity_id": "sonic_healthcare",
+  "imported": true,
+  "licence": "Trademark of Sonic Healthcare, from its website",
+  "notes": "Header SVG logo, verified visually; no P154.",
+  "source_page": "https://www.sonichealthcare.com/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Sonic Healthcare DNA-helix logo with wordmark, clean."
+ },
+ {
+  "entity_id": "south32",
+  "imported": true,
+  "licence": "Trademark of South32, from its website",
+  "notes": "No P154 on Wikidata. SVG extracted from the inline header logo on the home page; its fill was currentColor, set explicitly to #000000 (black, as the logo is normally shown on white). Rendered and checked.",
+  "source_page": "https://www.south32.net/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "South32 logo renders correctly in black."
+ },
+ {
+  "entity_id": "special_broadcasting_service",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Special-Broadcasting-Service-Logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "SBS logo with the wave mark."
+ },
+ {
+  "entity_id": "splendour_in_the_grass",
+  "imported": true,
+  "licence": "Trademark of Splendour in the Grass, from its website",
+  "notes": "192px site icon (yellow starburst), slightly soft; no better logo found.",
+  "source_page": "https://splendourinthegrass.com/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Yellow starburst festival icon, 192px, slightly soft but it is the brand mark."
+ },
+ {
+  "entity_id": "sport_australia_hall_of_fame",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154; wordmark 407x106.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Logo_of_SAHoF.png",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Sport Australia Hall of Fame wordmark, 407x106, clear."
+ },
+ {
+  "entity_id": "sportsbet",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "300x200 JPEG with blue background; low resolution but adequate for small display.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Sportsbet_Logo.jpg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Sportsbet.com.au logo, clear, low-res but usable."
+ },
+ {
+  "entity_id": "st_george_bank",
+  "imported": true,
+  "licence": "Trademark of St.George Bank, from its website",
+  "notes": "Header logo (dragon + st.george wordmark) from site CSS; 180x65 raster, no Wikidata/Commons logo.",
+  "source_page": "https://www.stgeorge.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Dragon and st.george wordmark, 180x65."
+ },
+ {
+  "entity_id": "stanbroke",
+  "imported": false,
+  "licence": "Trademark of Stanbroke, from its website",
+  "notes": "Cream STANBROKE wordmark (served as webp despite .png url), made for dark backgrounds; low contrast on white.",
+  "source_page": "https://www.stanbroke.com/",
+  "status": "found",
+  "verdict": "rejected_by_orchestrator",
+  "verdict_reason": "cream wordmark, unreadable on white"
+ },
+ {
+  "entity_id": "sultan_of_brunei",
+  "imported": false,
+  "licence": "",
+  "notes": "Individual person / head of state; skipped per rules.",
+  "source_page": "",
+  "status": "skip",
+  "verdict": "n/a",
+  "verdict_reason": "Skip is correct (individual/head of state)."
+ },
+ {
+  "entity_id": "suncorp_group",
+  "imported": true,
+  "licence": "CC0",
+  "notes": "Found via Commons search (Wikidata P154 is only a signage photo). Small raster (179x52) but correct Suncorp wordmark with sun; suncorpgroup.com.au is bot-blocked.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Suncorp-logo-179x52.png",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Suncorp wordmark with sun; small (179x52) but usable."
+ },
+ {
+  "entity_id": "sunsuper",
+  "imported": false,
+  "licence": "Trademark of Australian Retirement Trust, from its website",
+  "notes": "Sunsuper merged into Australian Retirement Trust (2022); no Sunsuper logo available, so the successor's current logo is used.",
+  "source_page": "https://www.australianretirementtrust.com.au/",
+  "status": "found",
+  "verdict": "wrong_org",
+  "verdict_reason": "Shows Australian Retirement Trust wordmark, a different brand name from Sunsuper (successor), not Sunsuper's logo."
+ },
+ {
+  "entity_id": "super_sa",
+  "imported": false,
+  "licence": "",
+  "notes": "No P154 on Wikidata; official site returned 403 to automated fetch.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found; none result."
+ },
+ {
+  "entity_id": "surf_life_saving_australia",
+  "imported": true,
+  "licence": "Trademark of Surf Life Saving Australia, from its website",
+  "notes": "180px apple-touch-icon roundel; viewed, correct.",
+  "source_page": "https://sls.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "180x180 SLSA roundel, correct."
+ },
+ {
+  "entity_id": "surf_life_saving_wa",
+  "imported": true,
+  "licence": "Trademark of Surf Life Saving WA, from its website",
+  "notes": "Header SVG logo, shows 'Surf Life Saving Western Australia'; viewed via preview.",
+  "source_page": "https://www.mybeach.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "SLS roundel with 'Western Australia' text; SVG renders fine."
+ },
+ {
+  "entity_id": "swisse",
+  "imported": true,
+  "licence": "Trademark of Swisse, from its website",
+  "notes": "Header SVG logo; viewed via preview.",
+  "source_page": "https://swisse.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Swisse wordmark in oval on red; renders fine."
+ },
+ {
+  "entity_id": "sydney_airport",
+  "imported": false,
+  "licence": "",
+  "notes": "No P154. Website header logo SVG is white-only (invisible on light backgrounds); no apple-touch-icon (404).",
+  "source_page": "https://www.sydneyairport.com.au/",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No usable logo found; status none."
+ },
+ {
+  "entity_id": "sydney_cricket_and_sports_ground_trust",
+  "imported": false,
+  "licence": "",
+  "notes": "No Wikidata logo; the trust's old site now redirects to the SCG stadium site, which has no clean standalone Trust logo (only white/inverted venue branding and many sponsor/BBL logos).",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found; none result."
+ },
+ {
+  "entity_id": "sydney_swans",
+  "imported": true,
+  "licence": "Trademark of Sydney Swans, from its website",
+  "notes": "152px apple-touch-icon showing the club's guernsey emblem; verified visually.",
+  "source_page": "https://www.sydneyswans.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Swans emblem, 152px"
+ },
+ {
+  "entity_id": "sydney_theatre_company",
+  "imported": true,
+  "licence": "Trademark of Sydney Theatre Company, from its website",
+  "notes": "Black wordmark on transparent background; will not show on dark backgrounds. No Wikidata logo.",
+  "source_page": "https://www.sydneytheatre.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Black SYDNEY THEATRE COMPANY wordmark; transparent bg so needs light background."
+ },
+ {
+  "entity_id": "tabcorp_holdings",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Blue Tabcorp wordmark, verified by preview.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Tabcorp_logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Tabcorp blue wordmark."
+ },
+ {
+  "entity_id": "taipei_economic_and_cultural_office_in_australia",
+  "imported": false,
+  "licence": "",
+  "notes": "De facto diplomatic representative office of a foreign government; emblem is governmental/national, so skipped per rules.",
+  "source_page": "",
+  "status": "skip",
+  "verdict": "n/a",
+  "verdict_reason": "Skipped: foreign government representative office; skip is reasonable."
+ },
+ {
+  "entity_id": "telstra",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Previewed OK.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Telstra_logo_(horizontal_variant).svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Telstra blue wordmark renders correctly."
+ },
+ {
+  "entity_id": "tennis_australia",
+  "imported": true,
+  "licence": "Trademark of Tennis Australia, from its website",
+  "notes": "Official SVG logo (green swoosh + blue 'tennis'); uses gradients, renders correctly in macOS QuickLook but not ImageMagick's internal renderer. Homepage returns 403 to curl, file fetched via the brand asset path found on a site page.",
+  "source_page": "https://www.tennis.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "SVG is the Tennis Australia logo (swoosh and 'tennis' wordmark). ImageMagick renders the gradient swoosh poorly, but the file is a valid SVG and the collector says it renders correctly in QuickLook."
+ },
+ {
+  "entity_id": "tennis_queensland",
+  "imported": true,
+  "licence": "Trademark of Tennis Queensland, from its website",
+  "notes": "Header logo; has a white graphic element left of the blue text that is invisible on white backgrounds. Wide aspect.",
+  "source_page": "https://www.tennis.com.au/qld",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Blue 'tennis QUEENSLAND' wordmark readable; white graphic element is invisible/artifacted on light bg but logo is correct."
+ },
+ {
+  "entity_id": "the_500_club",
+  "imported": false,
+  "licence": "",
+  "notes": "No Wikidata item and no identifiable official website found for this political fundraising club; ambiguous.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found; none is acceptable."
+ },
+ {
+  "entity_id": "the_australia_institute",
+  "imported": true,
+  "licence": "Trademark of The Australia Institute, from its website",
+  "notes": "152px apple-touch-icon showing the Australia Institute logo.",
+  "source_page": "https://australiainstitute.org.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Navy square with 'The Australia Institute Research that matters.' 152px."
+ },
+ {
+  "entity_id": "the_australian_ballet",
+  "imported": true,
+  "licence": "Trademark of The Australian Ballet, from its website",
+  "notes": "Black wordmark logo from the site. Wikidata has no P154.",
+  "source_page": "https://australianballet.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "The Australian Ballet wordmark, black text, legible."
+ },
+ {
+  "entity_id": "the_global_fund_to_fight_aids_tuberculosis_and_malaria",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154. Wide wordmark with swirl icon.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:The_Global_Fund_logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "The Global Fund logo with swirl icon. Correct international organisation."
+ },
+ {
+  "entity_id": "the_star_entertainment_group",
+  "imported": true,
+  "licence": "Trademark of The Star Entertainment Group, from its website",
+  "notes": "192px black star symbol (site icon), not the full wordmark.",
+  "source_page": "https://www.starentertainmentgroup.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Black eight-point star with S mark, 192px, plausible Star symbol."
+ },
+ {
+  "entity_id": "the_sydney_institute",
+  "imported": true,
+  "licence": "Trademark of The Sydney Institute, from its website",
+  "notes": "Header logo 300x121; viewed.",
+  "source_page": "https://thesydneyinstitute.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "The Sydney Institute logo with building illustration, 300x121."
+ },
+ {
+  "entity_id": "tibet_information_office",
+  "imported": false,
+  "licence": "",
+  "notes": "Office representing the Tibetan government-in-exile / Dalai Lama; foreign-government-type emblem, skipped.",
+  "source_page": "",
+  "status": "skip",
+  "verdict": "n/a",
+  "verdict_reason": "Skipped as foreign-government-type; skip is reasonable."
+ },
+ {
+  "entity_id": "torres_strait_regional_authority",
+  "imported": true,
+  "licence": "Trademark of Torres Strait Regional Authority, from its website",
+  "notes": "Header TSRA logo (roundel plus TSRA text and URL), 172x65; viewed. A square roundel icon (tsra-logo-square.png) also exists on the site.",
+  "source_page": "https://www.tsra.gov.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "TSRA roundel with wordmark and URL, 172x65 (above 48px)."
+ },
+ {
+  "entity_id": "toyota",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Toyota Australia's Wikidata P154 file; black Toyota emblem with wordmark (global Toyota logo, same as used in Australia). Public domain on Commons (simple geometry); trademark still applies.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Toyota_Logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Toyota emblem and wordmark; correct for Toyota Australia."
+ },
+ {
+  "entity_id": "toyota_finance",
+  "imported": false,
+  "licence": "",
+  "notes": "No Wikidata item for Toyota Finance Australia. The only Commons logo is for Toyota Finance Corporation (Japan, Japanese text), the wrong entity. toyotafinance.com.au redirects to toyota.com.au, which returns 403 / an outage page, so no logo obtained.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "Status none; no logo obtained."
+ },
+ {
+  "entity_id": "transport_workers_union_of_australia",
+  "imported": true,
+  "licence": "Trademark of Transport Workers' Union of Australia, from its website",
+  "notes": "Orange emblem with 'TWU Carrying Australia' on transparent background, 2048x1137. Wikidata logo is only the Qld branch's, so website used.",
+  "source_page": "https://www.twu.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "TWU emblem with 'Carrying Australia', orange on a transparent background (the viewer showed black), 2048x1137. Orange should read on light backgrounds."
+ },
+ {
+  "entity_id": "transurban_group",
+  "imported": true,
+  "licence": "Trademark of Transurban Group, from its website",
+  "notes": "Header logo SVG.",
+  "source_page": "https://www.transurban.com/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Transurban wordmark with stripe mark in dark grey, renders cleanly."
+ },
+ {
+  "entity_id": "treasury_wine_estates",
+  "imported": true,
+  "licence": "Trademark of Treasury Wine Estates, from its website",
+  "notes": "Header logo (red crest plus grey wordmark); wide, small crest at small sizes. Wikidata has no P154.",
+  "source_page": "https://www.tweglobal.com/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Treasury Wine Estates crest and wordmark. Small at icon size but correct."
+ },
+ {
+  "entity_id": "ubank",
+  "imported": true,
+  "licence": "CC BY-SA 4.0",
+  "notes": "May 2022 ubank logo, only 155x70 px; usable at small sizes.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Ubanklogomay2022.jpg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "ubank logo, small (155x70) but legible and above 48px."
+ },
+ {
+  "entity_id": "unisuper",
+  "imported": false,
+  "licence": "",
+  "notes": "No P154 on Wikidata, nothing relevant on Commons; unisuper.com.au is behind Imperva bot protection (only a challenge page returned) and no logo/icon paths resolved. Could retry manually.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found; nothing to check."
+ },
+ {
+  "entity_id": "united_services_union",
+  "imported": true,
+  "licence": "CC BY-SA 4.0",
+  "notes": "Wikidata P154 logo, 1260x1416 PNG; verified visually.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Usu_logo_2017_-_SMALL.png",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "USU logo, clear"
+ },
+ {
+  "entity_id": "united_states_department_of_state",
+  "imported": false,
+  "licence": "",
+  "notes": "Foreign government; emblem is a national seal.",
+  "source_page": "",
+  "status": "skip",
+  "verdict": "n/a",
+  "verdict_reason": "Foreign government skip is correct."
+ },
+ {
+  "entity_id": "united_voice",
+  "imported": false,
+  "licence": "",
+  "notes": "No Wikidata logo; old site returns 522. Union merged into United Workers Union in 2019, whose site did not yield a clean usable logo in this pass.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found; none result."
+ },
+ {
+  "entity_id": "united_workers_union",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154, 600x452 PNG.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:United_Workers_Union_logo,_2019.png",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "UWU logo, correct."
+ },
+ {
+  "entity_id": "university_of_new_south_wales",
+  "imported": true,
+  "licence": "Trademark of University of New South Wales, from its website",
+  "notes": "192px site icon showing the UNSW shield. Wikidata P154 was the UNSW Canberra logo, so rejected.",
+  "source_page": "https://www.unsw.edu.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "UNSW shield (Scientia, Corde Manu et Mente), 192px."
+ },
+ {
+  "entity_id": "university_of_sydney",
+  "imported": true,
+  "licence": "Trademark of University of Sydney, from its website",
+  "notes": "SVG header logo (crest plus wordmark). No Wikidata logo.",
+  "source_page": "https://www.sydney.edu.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "University of Sydney crest and wordmark."
+ },
+ {
+  "entity_id": "university_of_wollongong",
+  "imported": true,
+  "licence": "Trademark of University of Wollongong, from its website",
+  "notes": "Header SVG logo (horizontal); viewed via preview.",
+  "source_page": "https://www.uow.edu.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "UOW crest with wordmark; renders fine."
+ },
+ {
+  "entity_id": "v8_supercars_australia",
+  "imported": false,
+  "licence": "",
+  "notes": "No P154; Commons only has a custom wordmark jpg of unclear status; site exposes no icon links in static HTML.",
+  "source_page": "https://www.supercars.com/",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found."
+ },
+ {
+  "entity_id": "vanguard_australian_property_securities_index_fund",
+  "imported": false,
+  "licence": "",
+  "notes": "A specific investment fund product, not an organisation; not using the issuer's (Vanguard) logo for it.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "Skipped as a fund product; reasonable."
+ },
+ {
+  "entity_id": "vanguard_australian_shares_high_yield_etf",
+  "imported": false,
+  "licence": "",
+  "notes": "A specific ETF product, not an organisation; not using the issuer's (Vanguard) logo for it.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "Skipped as an ETF product; reasonable."
+ },
+ {
+  "entity_id": "vanguard_investments_australia",
+  "imported": true,
+  "licence": "Trademark of Vanguard Investments Australia Ltd, from its website",
+  "notes": "Inline SVG header wordmark (title 'Vanguard logo') extracted from the page HTML and saved as standalone SVG; width/height are 100% with viewBox 0 0 180 39.",
+  "source_page": "https://www.vanguard.com.au/personal",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Vanguard wordmark SVG renders correctly."
+ },
+ {
+  "entity_id": "vicinity_centres",
+  "imported": false,
+  "licence": "",
+  "notes": "No Wikidata logo; official site returned 403 to automated fetch.",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found; none result."
+ },
+ {
+  "entity_id": "vicsuper",
+  "imported": false,
+  "licence": "Trademark of Aware Super, from its website",
+  "notes": "VicSuper merged into Aware Super (2022; vicsuper.com.au redirects to aware.com.au). No VicSuper logo available, so Aware Super's current logo is used.",
+  "source_page": "https://aware.com.au/",
+  "status": "found",
+  "verdict": "wrong_org",
+  "verdict_reason": "Shows Aware Super logo, a different brand name from VicSuper (successor), not VicSuper's logo."
+ },
+ {
+  "entity_id": "victoria_racing_club",
+  "imported": false,
+  "licence": "Trademark of Victoria Racing Club, from its website",
+  "notes": "White logo on transparent background (made for dark header); needs a dark backing when displayed.",
+  "source_page": "https://www.vrc.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "VRC white logo on transparent; needs dark backing but is the right logo."
+ },
+ {
+  "entity_id": "virgin_australia",
+  "imported": true,
+  "licence": "Trademark of Virgin Australia, from its website",
+  "notes": "No P154 on Wikidata. Footer logo SVG (red mark + grey 'australia'), previewed OK.",
+  "source_page": "https://www.virginaustralia.com/au/en/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Virgin Australia red mark and 'australia' wordmark renders correctly."
+ },
+ {
+  "entity_id": "virgin_money_uk",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154 logo; red Virgin Money wordmark, may be an older brand version.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Virgin_Money.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Red Virgin Money wordmark, correct organisation."
+ },
+ {
+  "entity_id": "visa",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154 (preferred rank, 2021-present logo).",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Visa_Inc._logo_(2021%E2%80%93present).svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Visa blue wordmark."
+ },
+ {
+  "entity_id": "vision_super",
+  "imported": true,
+  "licence": "Trademark of Vision Super, from its website",
+  "notes": "Header SVG logo; viewed via preview. Vision Super has since merged into Active Super, but logo is the one on its site.",
+  "source_page": "https://www.visionsuper.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Vision Super wordmark with mark; renders fine."
+ },
+ {
+  "entity_id": "wesfarmers",
+  "imported": true,
+  "licence": "Trademark of Wesfarmers, from its website",
+  "notes": "Green Wesfarmers logo from site header CSS; no Wikidata P154.",
+  "source_page": "https://www.wesfarmers.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Wesfarmers green logo."
+ },
+ {
+  "entity_id": "west_coast_eagles",
+  "imported": true,
+  "licence": "Trademark of West Coast Eagles, from its website",
+  "notes": "120px apple-touch-icon (actually JPEG, saved as .jpg); viewed, shows Eagles logo.",
+  "source_page": "https://www.westcoasteagles.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "West Coast Eagles logo, 120x120 JPEG."
+ },
+ {
+  "entity_id": "western_australian_cricket_association",
+  "imported": true,
+  "licence": "Trademark of Western Australian Cricket Association, from its website",
+  "notes": "Current WA Cricket shield (organisation now trades as WA Cricket); portrait 63x92 SVG.",
+  "source_page": "https://www.wacricket.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "WA Cricket yellow and black swan shield, which is the association's current logo. The ImageMagick render was tiny because of the 63x92 size, but qlmanage shows it renders correctly. Small portrait SVG with gradients."
+ },
+ {
+  "entity_id": "western_bulldogs",
+  "imported": true,
+  "licence": "Trademark of Western Bulldogs, from its website",
+  "notes": "152px apple-touch-icon (actually JPEG format despite .png URL); club crest, verified visually.",
+  "source_page": "https://www.westernbulldogs.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Western Bulldogs crest, valid JPEG 152px"
+ },
+ {
+  "entity_id": "western_sydney_wanderers_fc",
+  "imported": false,
+  "licence": "",
+  "notes": "No Wikidata logo; the site's header logo was not obtained in this pass (page only exposed sponsor logos).",
+  "source_page": "",
+  "status": "none",
+  "verdict": "n/a",
+  "verdict_reason": "No logo found; none result."
+ },
+ {
+  "entity_id": "westfield_corporation",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Wikidata P154 file; red Westfield wordmark; viewed. Trademark still applies.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:The_Westfield_Group_logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Red Westfield wordmark; renders fine."
+ },
+ {
+  "entity_id": "westpac_banking_corporation",
+  "imported": true,
+  "licence": "Public domain",
+  "notes": "Previewed OK.",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Westpac_logo.svg",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Westpac red W and wordmark; the clipped 'Westp' in my preview came from my thumbnail crop, not the file."
+ },
+ {
+  "entity_id": "white_ribbon_australia",
+  "imported": true,
+  "licence": "Trademark of White Ribbon Australia, from its website",
+  "notes": "Header logo, black on transparent (6106x1521); viewed. Downscale before use.",
+  "source_page": "https://whiteribbon.org.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "White Ribbon Australia logo with ribbon mark; large, needs downscaling."
+ },
+ {
+  "entity_id": "woodside_energy_group",
+  "imported": true,
+  "licence": "Trademark of Woodside Energy Group, from its website",
+  "notes": "Official vertical colour logo (red emblem + wordmark); no Wikidata P154.",
+  "source_page": "https://www.woodside.com/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Woodside Energy logo with red emblem and wordmark."
+ },
+ {
+  "entity_id": "woolworths_group",
+  "imported": true,
+  "licence": "Trademark of Woolworths Group, from its website",
+  "notes": "Current Woolworths Group logo (blue) from site header. Wikidata P154 (Woolworths Limited Logo.svg, PD) is the older red 'Woolworths Limited' wordmark and was not used.",
+  "source_page": "https://www.woolworthsgroup.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Woolworths Group blue logo, readable SVG."
+ },
+ {
+  "entity_id": "yothu_yindi_foundation",
+  "imported": true,
+  "licence": "Trademark of Yothu Yindi Foundation, from its website",
+  "notes": "Header logo, black on transparent (4178x815); viewed. Downscale before use.",
+  "source_page": "https://yyf.com.au/",
+  "status": "found",
+  "verdict": "ok",
+  "verdict_reason": "Yothu Yindi Foundation logo; large, needs downscaling."
+ }
+]

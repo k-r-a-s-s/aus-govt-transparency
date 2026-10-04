@@ -9,7 +9,9 @@ the staging dir is removed (and ``<out>`` too when this build created it).
 Writes the data layer (``data/*.json``, the per-page ``items.json``), every HTML page
 (``pages.py``), the static assets (CSS with a content hash, fonts, and the ``web/dist`` JS
 bundle when it has been built), ``sitemap.xml``, ``robots.txt``, ``changes.xml``,
-``_headers`` and ``web-manifest.json``.
+``_headers`` and ``web-manifest.json``. With ``media`` (a ``web/media`` folder) it also copies
+the member photos and organisation logos (``media.py``) and writes ``og-cards.json``, the spec
+of every page's Open Graph card, which ``web/scripts/og-cards.mjs`` renders to PNG for R2.
 """
 from __future__ import annotations
 
@@ -26,6 +28,7 @@ from . import WEB_BUNDLE_VERSION
 from . import metadata as MD
 from .bundle import dumps, write, write_data
 from .dataset import Dataset, sha256_file
+from .media import MediaError, copy_media
 
 MODES = ("preview", "production")
 DEFAULT_DATA_BASE = "https://data.kevinrassool.com/interests/"
@@ -33,6 +36,11 @@ DEFAULT_SITE_URL = "https://interests.kevinrassool.com"
 MANIFEST_NAME = "web-manifest.json"
 HEADERS_NAME = "_headers"
 ASSETS_DIR = "assets"  # content-hashed JS/CSS; cached for a year
+MEDIA_DIR = "media"    # content-hashed photos and logos; cached for a year
+OG_CARDS = "og-cards.json"
+# Bump when the card design changes: the og:image URLs change with it, so social sites that
+# cache previews by URL fetch the new card.
+OG_CARD_VERSION = 1
 FONTS_DIR = "fonts"
 STATIC_DIR = Path(__file__).parent / "static"
 WEB_DIST = Path(__file__).resolve().parents[2] / "web" / "dist"
@@ -55,6 +63,7 @@ def render_headers(mode: str) -> str:
         "/data/*", "  Access-Control-Allow-Origin: *",
         "/*/items.json", "  Access-Control-Allow-Origin: *",
         f"/{ASSETS_DIR}/*", "  Cache-Control: public, max-age=31536000, immutable",
+        f"/{MEDIA_DIR}/*", "  Cache-Control: public, max-age=31536000, immutable",
     ]
     return "\n".join(lines) + "\n"
 
@@ -155,9 +164,13 @@ def _measure(root: Path) -> Tuple[int, int, int, int]:
 def build(db: str | Path, manifest: str | Path, out: str | Path, mode: str = "preview",
           data_base: str = DEFAULT_DATA_BASE, site_url: str = DEFAULT_SITE_URL,
           doi: Optional[str] = None, data_files: str | Path | None = None,
-          web_dist: str | Path | None = None) -> dict:
+          web_dist: str | Path | None = None, media: str | Path | None = None,
+          og_base: Optional[str] = None) -> dict:
     """Build the site. ``data_files`` is an optional local folder holding the R2 data files
-    (e.g. a ``publish-data`` output); when given, ``/data/`` prints their sizes and sha256."""
+    (e.g. a ``publish-data`` output); when given, ``/data/`` prints their sizes and sha256.
+    ``media`` is the ``web/media`` folder (photos, logos, ``media.json``); without it pages
+    have no images. ``og_base`` is where the Open Graph cards are served (default
+    ``<data_base>og/<dataset version>.c<OG_CARD_VERSION>/``)."""
     from .pages import SiteConfig, render_site
 
     db, manifest, out = Path(db), Path(manifest), Path(out)
@@ -169,6 +182,11 @@ def build(db: str | Path, manifest: str | Path, out: str | Path, mode: str = "pr
     data_files = Path(data_files) if data_files is not None else None
     if data_files is not None and not data_files.is_dir():
         raise BuildError(f"--data-files {data_files} is not a directory")
+    media = Path(media) if media is not None else None
+    if media is not None and not (media / "media.json").is_file():
+        raise BuildError(f"--media {media} has no media.json")
+    if og_base is not None:
+        _check_data_base(og_base)
     _check_out(out)
     with Dataset(db, manifest) as ds:
         # Fail on bad input (missing URL, unsafe id) before touching the filesystem.
@@ -182,10 +200,20 @@ def build(db: str | Path, manifest: str | Path, out: str | Path, mode: str = "pr
         try:
             stats = write_data(ds, stage)
             css_href, js = copy_assets(stage, Path(web_dist) if web_dist else WEB_DIST)
-            cfg = SiteConfig(mode=mode, site_url=site_url, data_base=data_base, doi=doi,
-                             css_href=css_href, js=js, data_files=data_files)
-            pages = render_site(ds, stage, cfg)
             summary_meta = ds.meta()
+            try:
+                images = copy_media(media, stage, [m["id"] for m in ds.members()],
+                                    [e["id"] for e in ds.entities() if e["page"]])
+            except (MediaError, KeyError, OSError, ValueError) as e:
+                raise BuildError(f"--media: {e}") from e
+            og_base = og_base or (f"{data_base}og/{MD.dataset_version(summary_meta)}"
+                                  f".c{OG_CARD_VERSION}/")
+            cfg = SiteConfig(mode=mode, site_url=site_url, data_base=data_base, doi=doi,
+                             css_href=css_href, js=js, data_files=data_files, media=images,
+                             og_base=og_base)
+            pages, cards = render_site(ds, stage, cfg)
+            write(stage, OG_CARDS, dumps({"og_base": og_base, "width": 1200, "height": 630,
+                                          "cards": cards}, pretty=True))
             summary = json.loads((stage / "data" / "summary.json").read_text(encoding="utf-8"))
             write(stage, "sitemap.xml",
                   MD.sitemap_xml(site_url, pages, summary.get("data_date")).encode("utf-8"))
@@ -201,6 +229,7 @@ def build(db: str | Path, manifest: str | Path, out: str | Path, mode: str = "pr
                 "data_base": data_base,
                 "site_url": site_url,
                 "doi": doi,
+                "og_base": og_base,
                 "dataset_version": MD.dataset_version(summary_meta),
                 "inputs": {
                     "db": {"name": db.name, "sha256": ds.db_sha256, "size": db.stat().st_size},
@@ -210,6 +239,7 @@ def build(db: str | Path, manifest: str | Path, out: str | Path, mode: str = "pr
                 "meta": summary_meta,
                 "counts": {**stats, "pages": len(pages) + 1},
                 "assets": {"css": css_href, "js": js},
+                "media": {"photos": len(images.photos), "logos": len(images.logos)},
                 "files": files,
             }
             write(stage, MANIFEST_NAME, dumps(manifest_doc, pretty=True))
@@ -226,7 +256,8 @@ def build(db: str | Path, manifest: str | Path, out: str | Path, mode: str = "pr
             if created and out.is_dir() and not any(out.iterdir()):
                 out.rmdir()
             raise
-    stats.update({"files": n_files, "bytes": total, "html_files": n_html,
+    stats.update({"photos": len(images.photos), "logos": len(images.logos),
+                  "og_cards": len(cards), "files": n_files, "bytes": total, "html_files": n_html,
                   "html_bytes": html_bytes, "pages": len(pages) + 1, "out": str(out),
                   "js": sorted(js)})
     return stats

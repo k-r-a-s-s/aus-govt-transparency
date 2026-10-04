@@ -160,3 +160,27 @@ test.describe("375px", () => {
     expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(375);
   });
 });
+
+test("zoomed in, member dots draw their photo (same-origin /media/ requests); no errors", async ({ page }) => {
+  const errors = await graphReady(page, "/explore/?view=graph");
+  await page.waitForSelector("#explore-graph[data-settled='1']");
+  await expect(page.locator("#explore-graph")).toHaveAttribute("data-media", /^[1-9]\d*$/);
+  const photo = page.waitForRequest((r) => /\/media\/p\/[a-z0-9_]+\.[0-9a-f]{8}\.jpg$/.test(new URL(r.url()).pathname));
+  const canvas = page.locator("#graph-canvas canvas");
+  await canvas.scrollIntoViewIfNeeded();
+  const box = (await canvas.boundingBox())!;
+  await page.mouse.move(box.x + box.width / 2, box.y + box.height / 2);
+  for (let i = 0; i < 12; i++) { await page.mouse.wheel(0, -300); await page.waitForTimeout(60); }
+  const req = await photo;
+  expect(new URL(req.url()).origin).toBe(new URL(page.url()).origin);
+  expect(errors).toEqual([]);
+});
+
+test("member page shows the portrait; members index shows avatars", async ({ page }) => {
+  await page.goto(siteUrl("/members/josh_wilson/"));
+  const img = page.locator("img.portrait");
+  await expect(img).toHaveAttribute("alt", "Official portrait of Josh Wilson");
+  expect(await img.evaluate((el: HTMLImageElement) => el.decode().then(() => el.naturalWidth))).toBeGreaterThan(100);
+  await page.goto(siteUrl("/members/"));
+  expect(await page.locator("#members-table img.avatar").count()).toBeGreaterThan(0);
+});

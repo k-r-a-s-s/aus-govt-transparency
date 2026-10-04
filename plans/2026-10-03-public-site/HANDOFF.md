@@ -27,11 +27,20 @@ From the worktree root:
 (cd web && npm ci && npm run build)
 mv web/sites/production web/sites/superseded-$(date +%Y%m%d%H%M%S)   # rm -rf is blocked by a hook
 .venv/bin/python -m disclosures web build --db site/disclosures_v2.db --manifest pdfs/manifest.csv \
-  --out web/sites/production --mode production
+  --out web/sites/production --mode production --media web/media
 .venv/bin/python -m disclosures web check web/sites/production --db site/disclosures_v2.db
 cd web && export CLOUDFLARE_API_TOKEN="$(sed -n 's/^CF_TOKEN=//p' ../.env.local)" \
-  CLOUDFLARE_ACCOUNT_ID=d06d0928d1ce356f4b926b30efadc5ce && npx wrangler deploy
+  CLOUDFLARE_ACCOUNT_ID=d06d0928d1ce356f4b926b30efadc5ce
+mv sites/og sites/superseded-og-$(date +%Y%m%d%H%M%S) 2>/dev/null
+node scripts/og-cards.mjs sites/production sites/og      # ~60 s, 4,884 PNGs
+node scripts/r2-upload.mjs sites/og                      # cards first: pages point at them
+npx wrangler deploy
 ```
+Cards live at `<data-base>og/<dataset version>.c<OG_CARD_VERSION>/`; a re-upload skips
+unchanged objects. Bump `OG_CARD_VERSION` (`disclosures/web/build.py`) when the card design
+changes. Photos and logos are committed in `web/media` (see `docs/v2/web.md`, "Photos, logos
+and link previews"); a new member needs a row in `web/media/aph_ids.csv` and
+`python scripts/fetch_member_photos.py --only <member_id>`.
 (In the worktree `.venv` and `.env.local` live three levels up: `../../../.venv`,
 `../../../../.env.local` from `web/`.) The token is `CF_TOKEN` in the repo-root `.env.local`
 (personal account; Workers, R2, DNS, Zone read). Never print it. The default wrangler OAuth login
@@ -40,7 +49,16 @@ cache-busting query string: the edge served stale HTML for a minute once.
 Data files: `web publish-data --out <dir>` stages them and writes `<dir>/upload.sh`; run it from
 `web/` with the same env vars.
 
-## Next task (Kevin, 2026-10-04): Open Graph cards, and make the site more visual
+## Done 2026-10-04: Open Graph cards, member photos, organisation logos
+
+Shipped as decided with Kevin (SPEC decisions log 2026-10-04): APH portraits for all 408
+members (CC BY-NC-ND, served byte for byte), 259 logos for the 340 entities with 5 or more
+members (agent-collected from Commons / own websites, agent-checked; outcomes per entity in
+`web/media/logo-review.json`), credits on the about page, a typographic card per page on R2.
+Possible follow-ups: logos for entities with 3 or 4 members (353 more); a re-check of the 49
+"none" results; Commons photos as a fallback for any member APH lacks (none today).
+
+## Previous task brief (Kevin, 2026-10-04): Open Graph cards, and make the site more visual
 
 1. **Open Graph link previews.** Pages already have `og:title`/description (`base.html`), no
    image. SPEC §7 Q4 proposed a generated card per member and entity (~5,000 small PNGs) vs one

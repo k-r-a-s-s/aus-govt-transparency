@@ -2,7 +2,9 @@
 // force-directed graph of members and the entities they declared, with a bar list of those
 // entities split by bloc. Ported from the GitHub Pages explorer
 // (disclosures/site_assets/explore.html): hovering a dot or a bar highlights its neighbours,
-// a click pins a detail panel, and labels are de-overlapped after each frame.
+// a click pins a detail panel, and labels are de-overlapped after each frame. Members are drawn
+// with their APH portrait and entities with their logo (data/media.json, same origin) once a
+// dot is big enough on screen to show one; the bloc colour stays as the portrait's ring.
 //
 // Its own bundle (force-graph is ~60 KB gzipped), imported by explore.ts only when a reader
 // opens the view. It follows the explorer's selection: explore.ts calls update(rows).
@@ -22,6 +24,8 @@ export interface GraphView {
 
 const BARS_SHOWN = 20;
 const LABELLED = 6;
+/** On-screen radius (CSS px) from which a node shows its photo or logo instead of a dot. */
+const IMAGE_MIN_PX = { member: 6, entity: 7.5 };
 const fmt = (n: number): string => n.toLocaleString("en-AU");
 const esc = (s: string): string =>
   s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!);
@@ -70,7 +74,9 @@ function alpha(hex: string, a: number): string {
 
 const endId = (x: string | Node): string => (typeof x === "string" ? x : x.id);
 
-export function createGraph(root: HTMLElement, d: Data, hooks: GraphHooks): GraphView {
+interface MediaIndex { members: Record<string, string>; entities: Record<string, string> }
+
+export function createGraph(root: HTMLElement, d: Data, hooks: GraphHooks, dataBase = "/data/"): GraphView {
   root.innerHTML = `
 <p class="note" id="graph-sub"></p>
 <div class="filter graph-find">
@@ -110,6 +116,27 @@ export function createGraph(root: HTMLElement, d: Data, hooks: GraphHooks): Grap
   let hi: Set<string> | null = null;
   let fitted = false;
   const blocColor = (b: string) => colors.bloc[b] ?? colors.muted;
+
+  // --- photos and logos ------------------------------------------------------------------------
+  // The index is small (one href per member and per logo); images load the first time a node
+  // is drawn large enough to show one. Without the index the graph keeps its dots.
+  let media: MediaIndex = { members: {}, entities: {} };
+  fetch(new URL("media.json", new URL(dataBase, location.href)).href)
+    .then((r) => (r.ok ? r.json() : null))
+    .then((j: MediaIndex | null) => { if (j) { media = j; root.dataset.media = String(Object.keys(j.members).length + Object.keys(j.entities).length); } })
+    .catch(() => {});
+  const images = new Map<string, HTMLImageElement | null>();
+  function nodeImage(n: Node): HTMLImageElement | null {
+    if (images.has(n.id)) { const img = images.get(n.id)!; return img && img.complete && img.naturalWidth ? img : null; }
+    const href = n.kind === "member" ? media.members[n.m!.id] : media.entities[n.e!.id];
+    if (!href) return null;  // not cached: the index may still be loading
+    const img = new Image();
+    img.decoding = "async";
+    img.onerror = () => images.set(n.id, null);
+    img.src = href;
+    images.set(n.id, img);
+    return null;
+  }
 
   // --- tooltip ---------------------------------------------------------------------------------
   function showTip(html: string, x: number, y: number): void {
@@ -194,11 +221,45 @@ export function createGraph(root: HTMLElement, d: Data, hooks: GraphHooks): Grap
 
   function drawNode(n: Node, ctx: CanvasRenderingContext2D, k: number): void {
     ctx.globalAlpha = hi && !hi.has(n.id) ? 0.12 : 1;
+    const x = n.x!, y = n.y!, r = n.r;
+    const img = n.r * k >= IMAGE_MIN_PX[n.kind] ? nodeImage(n) : null;
+    const ring = n.kind === "entity" ? colors.muted : blocColor(n.m!.bloc);
     ctx.beginPath();
-    ctx.arc(n.x!, n.y!, n.r, 0, 2 * Math.PI);
-    ctx.fillStyle = n.kind === "entity" ? colors.muted : blocColor(n.m!.bloc);
-    ctx.fill();
-    if (focusNode()?.id === n.id) { ctx.lineWidth = 2 / k; ctx.strokeStyle = colors.accent; ctx.stroke(); }
+    ctx.arc(x, y, r, 0, 2 * Math.PI);
+    if (!img) {
+      ctx.fillStyle = ring;
+      ctx.fill();
+    } else if (n.kind === "member") {
+      // Portrait: a square from the top of the photo (faces sit high), clipped to the circle,
+      // with the bloc colour as a ring so the legend still reads.
+      ctx.save();
+      ctx.clip();
+      const s = img.naturalWidth;
+      const sy = Math.min(img.naturalHeight - s, img.naturalHeight * 0.06);
+      ctx.drawImage(img, 0, Math.max(0, sy), s, s, x - r, y - r, 2 * r, 2 * r);
+      ctx.restore();
+      ctx.lineWidth = Math.max(1.5 / k, r * 0.2);
+      ctx.strokeStyle = ring;
+      ctx.stroke();
+    } else {
+      // Logo: contained in a white disc (logos are drawn for light backgrounds).
+      ctx.fillStyle = "#fff";
+      ctx.fill();
+      const box = r * 1.35;
+      const sc = Math.min(box / img.naturalWidth, box / img.naturalHeight);
+      const w = img.naturalWidth * sc, h = img.naturalHeight * sc;
+      ctx.drawImage(img, x - w / 2, y - h / 2, w, h);
+      ctx.lineWidth = 1 / k;
+      ctx.strokeStyle = ring;
+      ctx.stroke();
+    }
+    if (focusNode()?.id === n.id) {
+      ctx.beginPath();
+      ctx.arc(x, y, r + (img ? 1.5 / k : 0), 0, 2 * Math.PI);
+      ctx.lineWidth = 2 / k;
+      ctx.strokeStyle = colors.accent;
+      ctx.stroke();
+    }
     ctx.globalAlpha = 1;
   }
 
@@ -263,7 +324,7 @@ export function createGraph(root: HTMLElement, d: Data, hooks: GraphHooks): Grap
     const ents: Node[] = model.entities.map((e, rank) => ({
       id: `e:${e.id}`, kind: "entity", label: e.name, rank, e, r: 3 + Math.sqrt(e.members) * 1.15,
     }));
-    const mems: Node[] = model.members.map((m) => ({ id: `m:${m.id}`, kind: "member", label: m.name, rank: 0, m, r: 2.4 }));
+    const mems: Node[] = model.members.map((m) => ({ id: `m:${m.id}`, kind: "member", label: m.name, rank: 0, m, r: 3.2 }));
     nodes = [...ents, ...mems];
     for (const n of nodes) { byId.set(n.id, n); adj.set(n.id, new Set()); }
     const links: Link[] = model.links.map(([m, e, n]) => {
@@ -295,7 +356,7 @@ export function createGraph(root: HTMLElement, d: Data, hooks: GraphHooks): Grap
     refresh();
     openPanel(n);
     if (fromOutside && n.x !== undefined) {
-      const k = Math.max(graph.zoom(), 1.8);
+      const k = Math.max(graph.zoom(), 2);
       const shift = panel.offsetWidth && panel.offsetWidth < canvasEl.clientWidth * 0.7 ? (panel.offsetWidth + 10) / 2 / k : 0;
       graph.zoom(k, 600);
       graph.centerAt(n.x + shift, n.y, 600);

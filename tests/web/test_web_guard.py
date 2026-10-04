@@ -1,5 +1,7 @@
 """AC-B11: the build renders only DB columns and manifest URLs (no other data source in the
-templates or the page code), and no secret-like string reaches the built site."""
+templates or the page code), and no secret-like string reaches the built site. The one addition
+is ``web/media/media.json`` (photo and logo files with their credits, read by ``media.py``
+and passed to the pages through ``SiteConfig.media``)."""
 from __future__ import annotations
 
 import importlib.util
@@ -28,7 +30,7 @@ CONTEXT_NAMES = {"site", "page", "m", "s", "charts", "coverage_rows", "section_h
                  "downloads_known", "manifest_href", "datapackage_href", "datasette_href",
                  "kaggle_href", "db_note", "columns", "api_routes", "example_member",
                  "bundle_version", "attribution", "method", "limitations", "prompts",
-                 "accuracy_rows", "labels", "changelog", "explorer"}
+                 "accuracy_rows", "labels", "changelog", "explorer", "credits"}
 PY_SOURCES = re.compile(r"^\s*(import|from)\s+(urllib\.request|http\.client|socket|requests|"
                         r"httpx|subprocess|os\.environ)\b|\bos\.environ\b|\burlopen\(",
                         re.M)
@@ -51,7 +53,8 @@ def test_templates_have_no_other_data_source():
 
 
 def test_page_code_has_no_network_or_environment_access():
-    for name in ("pages.py", "charts.py", "metadata.py", "bundle.py", "dataset.py", "urls.py"):
+    for name in ("pages.py", "charts.py", "metadata.py", "bundle.py", "dataset.py", "urls.py",
+                 "media.py"):
         text = (PKG / name).read_text()
         assert PY_SOURCES.findall(text) == [], name
 
@@ -63,7 +66,7 @@ def test_pages_read_only_dataset_and_export():
         set(re.findall(r"^import (\S+)", text, re.M))
     assert imports <= {"__future__", "json", "re", "collections", "dataclasses", "html",
                        "pathlib", "typing", "jinja2", "markupsafe", "..", ".", ".bundle",
-                       ".dataset"}
+                       ".dataset", ".media"}
 
 
 def _patterns():

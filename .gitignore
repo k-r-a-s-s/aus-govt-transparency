@@ -152,3 +152,6 @@ Thumbs.db
 
 # Claude Code worktrees (separate checkouts, never part of this repo)
 .claude/worktrees/
+
+# raw downloads for the logo pipeline (normalised copies live in web/media/logos)
+web/media/.staging/

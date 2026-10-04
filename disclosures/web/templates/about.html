@@ -37,6 +37,31 @@
 <h2 id="contact">Contact and code</h2>
 <p>Made by <a href="https://kevinrassool.com">Kevin Rassool</a>. Found an error? Open an issue in the <a href="{{ site.repo_url }}/issues">repository</a> with the member, the item and the page of the statement. The code, documentation and full build log are in the <a href="{{ site.repo_url }}">repository</a>.</p>
 
+{% if credits.photos or credits.logos %}
+<h2 id="image-credits">Image credits</h2>
+<p>Photos and logos identify the people and organisations named in the registers. They say nothing about any declared interest.</p>
+{% if credits.photos %}
+<p id="photo-credits">Member and senator photos ({{ credits.photos|num }}): official portraits from the {{ credits.photo_credit }} website (aph.gov.au), published under <a href="{{ credits.photo_licence_url }}">{{ credits.photo_licence }}</a>. They are shown as published, at their original size, cropped to a circle only when displayed.</p>
+{% endif %}
+{% if credits.logos %}
+<p>Organisation logos ({{ credits.logos|length|num }}) are trademarks of their owners, shown to identify the organisation. Each comes from Wikimedia Commons, under the licence shown, or from the organisation's own website.</p>
+<details id="logo-credits">
+<summary>Logo sources ({{ credits.logos|length|num }})</summary>
+{% call m.wrap("Logo sources") %}
+<table>
+<caption>Logo sources</caption>
+<thead><tr><th scope="col">Organisation</th><th scope="col">Source</th><th scope="col">Licence or terms</th><th scope="col">Author</th></tr></thead>
+<tbody>
+{% for c in credits.logos %}
+<tr><td><a href="/entities/{{ c.id }}/">{{ c.name }}</a></td><td><a href="{{ c.source_page }}">source</a></td><td>{% if c.licence_url %}<a href="{{ c.licence_url }}">{{ c.licence }}</a>{% else %}{{ c.licence }}{% endif %}</td><td>{{ c.author }}</td></tr>
+{% endfor %}
+</tbody>
+</table>
+{% endcall %}
+</details>
+{% endif %}
+{% endif %}
+
 <h2 id="changelog">Changelog</h2>
 <ul>
 {% for c in changelog %}

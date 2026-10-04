@@ -25,6 +25,8 @@ python -m disclosures web check web/sites/preview-<date> --db site/disclosures_v
 | `--site-url` | `https://interests.kevinrassool.com` | The public origin, for canonical URLs, Open Graph, `sitemap.xml`, `robots.txt` and JSON-LD. |
 | `--doi` | none | A dataset DOI (`10.x/y` or `https://doi.org/...`). Adds it to the footer, the cite block and the JSON-LD `identifier`. |
 | `--data-files` | none | A local folder holding the R2 files (e.g. a `publish-data` output). When given, `/data/` prints each file's size and sha256; otherwise those cells say "published with the dataset" and point at `MANIFEST.json`. Read only. |
+| `--media` | none | The `web/media` folder: `media.json` plus the member photos and organisation logos it lists. Each file is checked against its sha256 and copied to `/media/p/<member_id>.<sha8>.jpg` or `/media/l/<entity_id>.<sha8>.png`; without it pages have no images. Read only. See "Photos, logos and link previews" below. |
+| `--og-base` | `<data-base>og/<version>.c<N>/` | Where the Open Graph cards are served. `N` is `OG_CARD_VERSION` in `build.py`: bump it when the card design changes, so social sites that cache by URL fetch the new cards. |
 
 The build is deterministic: the same inputs give the same bytes, except `built_at` in
 `web-manifest.json` (set `SOURCE_DATE_EPOCH` to pin it). It fails (exit 2) if the site would
@@ -77,6 +79,38 @@ CC BY 4.0 for the dataset and CC BY-NC-ND 4.0 for the source documents, and link
 page and the repository. Every asset URL is root-relative and same-origin; the pages make no
 third-party request and set no cookie.
 
+## Photos, logos and link previews (SPEC decisions log 2026-10-04)
+
+Images are fetched outside the build and committed; `web build` makes no network calls.
+
+- **Member photos:** `python scripts/fetch_member_photos.py` downloads each member's official
+  APH portrait (`https://www.aph.gov.au/api/parliamentarian/<APH ID>/image`) into
+  `web/media/photos/<member_id>.jpg`, byte for byte, and rewrites the `photos` list of
+  `web/media/media.json`. APH IDs come from `web/media/aph_ids.csv` (Wikidata P10020 matched by
+  name; the `how` column says which were resolved by hand). Licence CC BY-NC-ND 4.0
+  (Parliament of Australia): the files are never resized or re-encoded, and the circle crop is
+  done by CSS and the graph's canvas. Add a row to `aph_ids.csv` for a new member, then run
+  the script (`--only <member_id>` for one).
+- **Organisation logos:** entities with 5 or more distinct members. Collected by agents
+  (Wikidata P154 / Wikimedia Commons first, else the organisation's own website; checked by a
+  second agent) into `web/media/.staging/` (gitignored), then
+  `node web/scripts/import-logos.mjs <results.json> --media web/media` draws each one in
+  Chromium, trims its margins, fits it in 160 px, saves `web/media/logos/<entity_id>.png` and
+  rewrites the `logos` list of `media.json` (source page, licence and licence URL from the
+  Commons API, author).
+- **Where they show:** member pages (portrait beside the name), the members index (avatar per
+  row), entity pages (logo on a white tile, so dark marks stay visible in dark mode), the
+  explorer's graph (below) and the about page's "Image credits" section (the photo source and
+  licence, and a table of every logo's source, licence and author).
+- **Open Graph cards:** every page has `og:image` (`<og-base><file>.png`, 1200x630),
+  `og:image:alt`, `twitter:card=summary_large_image`. The build writes `og-cards.json` (one spec
+  per page: eyebrow, title, subtitle, three counts, an optional bar of members by bloc, the bloc
+  accent for members); `node web/scripts/og-cards.mjs <site> <out>` renders them with
+  Playwright and the site's own fonts (about 60 s for 4,884 cards, about 70 KB each; the same
+  Chromium gives the same bytes), and `node web/scripts/r2-upload.mjs <out>` puts them on R2
+  (Cloudflare API, 16 at a time, skipping objects already there with the same MD5). Cards
+  carry no photo (the portraits are NoDerivatives) and no logo.
+
 ## Explorer (ADR-W7, phase C)
 
 `web/src/explore.ts` mounts on `<div id="explorer">` and loads `data/items.json`,
@@ -96,7 +130,9 @@ the main thread (about 60 ms for 50,936 rows).
   `data-graph-src` the first time the view opens): the 60 entities the most members
   declared in the selection, the members who declared them, and a link per (member, entity).
   Every entity type is included. Member dots take the bloc colour of
-  their latest term, organisations are grey. Hover highlights neighbours. A click pins a
+  their latest term, organisations are grey. Once a dot is big enough on screen (zoomed in,
+  or pinned) a member shows their portrait inside a ring of the bloc colour and an entity its
+  logo on a white disc; the images come from `data/media.json` and load on first use. Hover highlights neighbours. A click pins a
   panel with the stats, the members or organisations, the entity or member page, and "show
   these items in the table", which sets the `entity` or `member` filter. Beside it is a bar
   list of the top 20 by members, split by bloc, linked to the graph, with a table version.
@@ -161,6 +197,7 @@ Served with `Access-Control-Allow-Origin: *`:
 | `/data/search.json` | Member and entity names for search. |
 | `/data/summary.json` | Every number the overview prints. |
 | `/data/schema.json` | The bundle contract. |
+| `/data/media.json` | `{members: {member_id: href}, entities: {entity_id: href}}` for the photos and logos in the site. |
 | `/members/<member_id>/items.json` | The member's items as row objects with the published CSV columns. |
 | `/entities/<entity_id>/items.json` | The same for an entity with 2 or more items. |
 

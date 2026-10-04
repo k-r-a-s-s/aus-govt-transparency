@@ -59,6 +59,9 @@ export default async function globalSetup(): Promise<() => Promise<void>> {
       "--manifest", join(REPO, "tests", "fixtures", "web", "mini-manifest.csv"),
       "--out", out,
       "--mode", "preview",
+      // The committed photos and logos (only the fixture's members and entities are copied),
+      // so the request, axe and layout checks cover the images too.
+      "--media", join(REPO, "web", "media"),
     ],
     { cwd: REPO, env: { ...process.env, SOURCE_DATE_EPOCH: "0" }, stdio: "inherit" },
   );
