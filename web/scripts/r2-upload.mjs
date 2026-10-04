@@ -6,8 +6,9 @@
 // Each file's key is its path under <dir> (og-cards.mjs writes interests/og/<version>/...).
 // `wrangler r2 object put` starts one process per object, which is hours for ~5,000 Open Graph
 // cards; this PUTs to /accounts/<id>/r2/buckets/<bucket>/objects/<key> with the same token.
-// Objects already in the bucket with the same size and MD5 (ETag) are skipped, so a re-run
-// only sends what changed. The token is read from the environment and never printed.
+// Objects already published with the same size and MD5 are skipped, so a re-run only sends what
+// changed: the API answers HEAD with 405, so the check is a HEAD on the bucket's public host
+// (--public-base, default https://data.kevinrassool.com/), whose ETag is the object's MD5. The token is read from the environment and never printed.
 import { createHash } from "node:crypto";
 import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join, relative, sep } from "node:path";
@@ -24,6 +25,7 @@ const dry = args.includes("--dry-run");
 if (dry) args.splice(args.indexOf("--dry-run"), 1);
 const bucket = flag("--bucket", "aus-interests-data");
 const jobs = Number(flag("--jobs", "16"));
+const publicBase = flag("--public-base", "https://data.kevinrassool.com/");
 const [root] = args;
 const token = process.env.CLOUDFLARE_API_TOKEN;
 const account = process.env.CLOUDFLARE_ACCOUNT_ID;
@@ -38,9 +40,9 @@ const files = walk(root).sort();
 const api = `https://api.cloudflare.com/client/v4/accounts/${account}/r2/buckets/${bucket}/objects/`;
 const auth = { Authorization: `Bearer ${token}` };
 
-async function existing(key) {
-  // The objects endpoint answers a GET with the body; a HEAD is enough for size and ETag.
-  const r = await fetch(api + encodeURI(key), { method: "HEAD", headers: auth });
+async function existing(key, md5) {
+  // The query string keeps the edge cache out of it.
+  const r = await fetch(`${publicBase}${encodeURI(key)}?r2check=${md5}`, { method: "HEAD" });
   if (!r.ok) return null;
   return { size: Number(r.headers.get("content-length")), etag: (r.headers.get("etag") || "").replace(/"/g, "") };
 }
@@ -54,7 +56,7 @@ async function worker() {
     const body = readFileSync(f);
     const md5 = createHash("md5").update(body).digest("hex");
     if (dry) { sent++; continue; }
-    const have = await existing(key).catch(() => null);
+    const have = await existing(key, md5).catch(() => null);
     if (have && have.size === body.length && have.etag === md5) { skipped++; continue; }
     const ext = key.slice(key.lastIndexOf("."));
     let ok = false;
