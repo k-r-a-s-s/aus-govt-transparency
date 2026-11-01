@@ -172,3 +172,6 @@ of Australia website"; the PDFs in `pdfs/` are unaltered copies under that licen
 published dataset (`exports/`, `site/`, Kaggle) is
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) to the extent we hold rights in it:
 it records the facts the statements disclose, not the statements themselves.
+
+The code (everything outside `pdfs/`, `exports/` and the generated `site/` data) is under the
+[MIT licence](LICENSE).
